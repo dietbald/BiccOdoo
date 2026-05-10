@@ -1,4 +1,5 @@
 <t name="Page Not Found" t-name="http_routing.404">
+    <!-- Maintained via OdooAiDeployer changeset 001_fix_404_page -->
     <t t-call="web.frontend_layout">
         <div id="wrap">
             <t t-out="0"/>
