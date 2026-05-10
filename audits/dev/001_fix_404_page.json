@@ -1,0 +1,20 @@
+{
+  "applied_by": "ai",
+  "changeset": "001_fix_404_page",
+  "description": "Patch the http_routing.404 view (id 257 on bicc-xerxes) so the friendly\nbranded 404 page renders for any nonexistent URL \u2014 covers expired/unpublished\njob pages, deleted records, and arbitrary broken links. Theme classes inherit\neach website's brand automatically, so the same arch_db works across all BICC\nand IGEBC websites.\n",
+  "environment": "dev",
+  "finished_at": "2026-05-10T06:47:50Z",
+  "git_commit_sha": "983ee16e9434e4d4ecd36c1c1437f3c1c73839c8",
+  "manifest_sha256": "2095ae2aac220ca00f159263afc86b1128f39fbdc2e26aab6069be353505085a",
+  "operations": [
+    {
+      "op_index": 0,
+      "reason": "arch_db already matches",
+      "status": "skipped",
+      "target": "ir.ui.view:257",
+      "type": "update_view"
+    }
+  ],
+  "started_at": "2026-05-10T06:47:50Z",
+  "status": "deployed"
+}
