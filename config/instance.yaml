@@ -8,6 +8,7 @@ instance:
 # deployer does not enforce per-company scoping.
 companies:
   - "BICC"
+  - "IGEBC"
 
 # Environments the deployer can target. Credentials live as GitHub
 # environment secrets (ODOO_URL, ODOO_DB, ODOO_USERNAME, ODOO_PASSWORD)
@@ -25,4 +26,3 @@ policies:
   allow_force_on_staging: false
   allow_force_on_production: false
   production_deploy_from_main_only: true
-  - "IGEBC"
