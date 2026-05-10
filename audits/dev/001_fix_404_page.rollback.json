@@ -1,0 +1,15 @@
+{
+  "changeset": "001_fix_404_page",
+  "environment": "dev",
+  "git_commit_sha": "3e53f57af3e9d78602ee02e573070b81288f3b23",
+  "kind": "rollback",
+  "operations": [
+    {
+      "from": "rollback_snapshots/dev/001_fix_404_page/operation_000_ir_ui_view_257.xml",
+      "status": "restored",
+      "target": "ir.ui.view:257"
+    }
+  ],
+  "performed_at": "2026-05-10T09:36:07Z",
+  "rolled_back_audit": "audits/dev/001_fix_404_page.json"
+}
