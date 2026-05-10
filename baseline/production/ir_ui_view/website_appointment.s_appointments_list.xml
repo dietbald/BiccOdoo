@@ -1,6 +1,0 @@
-<t name="Appointments List" t-name="website_appointment.s_appointments_list">
-    <t t-set="snippet_classes" t-value="'s_appointment_type_list'"/>
-    <t t-call="website_appointment.s_appointments">
-        <t t-call="website_appointment.s_appointments_list_preview_data"/>
-    </t>
-</t>

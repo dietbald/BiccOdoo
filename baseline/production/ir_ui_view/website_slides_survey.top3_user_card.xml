@@ -1,5 +1,0 @@
-<data inherit_id="website_profile.top3_user_card">
-        <xpath expr="//div[hasclass('o_wprofile_top3_card_footer')]//div[last()]" position="after">
-            <div class="col py-3"><b t-out="user['certification_count']"/> <span class="text-muted">Certifications</span></div>
-        </xpath>
-    </data>

@@ -1,4 +1,0 @@
-<filter name="filter_to_sell" position="before">
-                    <filter name="is_storable" string="Tracked Stock" domain="[('is_storable','=',True)]"/>
-                    <separator/>
-                </filter>

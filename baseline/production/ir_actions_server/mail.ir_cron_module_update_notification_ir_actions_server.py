@@ -1,1 +1,0 @@
-model.update_notification(None)

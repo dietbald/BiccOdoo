@@ -1,5 +1,0 @@
-<search string="Fields">
-                    <field name="field_id" string="Field"/>
-                    <field name="name" filter_domain="['|', ('name','ilike',self), ('value','ilike',self)]" string="Selection"/>
-                    <filter name="group_by_field" context="{'group_by':'field_id'}" string="Field"/>
-                </search>

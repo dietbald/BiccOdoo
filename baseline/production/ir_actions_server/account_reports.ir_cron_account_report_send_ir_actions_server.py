@@ -1,1 +1,0 @@
-model._cron_account_report_send(job_count=20)

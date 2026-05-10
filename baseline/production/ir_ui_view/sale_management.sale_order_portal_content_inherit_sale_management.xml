@@ -1,8 +1,0 @@
-<data name="Order Options" inherit_id="sale.sale_order_portal_content">
-        <xpath expr="//td[@name='td_product_quantity']/div[@id='quote_qty']" position="replace">
-            <t t-call="sale_management.sale_order_portal_optional_product_quantity"/>
-        </xpath>
-        <xpath expr="//td[@name='td_combo_quantity']/div[@id='quote_qty']" position="replace">
-            <t t-call="sale_management.sale_order_portal_optional_product_quantity"/>
-        </xpath>
-    </data>

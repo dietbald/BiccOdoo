@@ -1,9 +1,0 @@
-<data><xpath expr="//button[@name='140']" position="before">
-                <button class="oe_stat_button" type="object" name="action_view_projects" icon="fa-puzzle-piece" invisible="project_count == 0">
-                    <field string="Projects" name="project_count" widget="statinfo"/>
-                </button>
-            </xpath>
-            <xpath expr="//form" position="attributes">
-                <attribute name="js_class">analytic_account_form_view</attribute>
-            </xpath>
-        </data>

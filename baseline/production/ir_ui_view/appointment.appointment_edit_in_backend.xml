@@ -1,6 +1,0 @@
-<t name="Appointment portal preview alert" t-name="appointment.appointment_edit_in_backend">
-        <t t-call="portal.portal_back_in_edit_mode">
-            <t t-set="backend_url" t-value="'/odoo/action-appointment.appointment_type_action/%s' % appointment_type.id"/>
-            <t t-set="custom_html">This is a preview of the customer appointment form.</t>
-        </t>
-    </t>

@@ -1,3 +1,0 @@
-<xpath expr="//filter[@name='transit_loc']" position="after">
-                    <filter string="Subcontracting Locations" name="is_subcontract" domain="[('is_subcontract', '=', True)]" groups="mrp.group_mrp_user"/>
-                </xpath>

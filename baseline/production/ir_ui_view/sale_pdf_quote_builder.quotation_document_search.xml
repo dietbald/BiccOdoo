@@ -1,5 +1,0 @@
-<search>
-                <field name="name"/>
-                <filter name="customizable" string="Customizable" domain="[('path', '=', False)]"/>
-                <filter string="This document" name="context_document" domain="[                         ('document_type', '=', context.get('default_document_type')),                         ('product_document_ids', '=', context.get('default_product_document_ids')),                         ('quotation_document_ids', '=', context.get('default_quotation_document_ids'))                     ]"/>
-            </search>

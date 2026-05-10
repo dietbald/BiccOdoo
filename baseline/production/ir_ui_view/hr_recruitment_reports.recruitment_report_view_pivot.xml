@@ -1,9 +1,0 @@
-<pivot string="Application Analysis" sample="1" js_class="recruitment_report_pivot">
-                    <field name="create_date" type="row" interval="month"/>
-                    <field name="job_id" type="row"/>
-                    <field name="stage_id" type="col"/>
-                    <field name="in_progress" type="measure"/>
-                    <field name="refused" type="measure"/>
-                    <field name="hired" type="measure"/>
-                    <field name="count" type="measure"/>
-                </pivot>

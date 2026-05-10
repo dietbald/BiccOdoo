@@ -1,7 +1,0 @@
-<data><field name="lot_name" position="after">
-                <field name="finished_lot_ids" optional="hide" groups="stock.group_production_lot" widget="many2many_tags" options="{'edit_tags': True}"/>
-            </field>
-            <xpath expr="//field[@name='measure_on']" position="after">
-                <field name="operation_id" optional="hide" string="Work Order Operation" groups="mrp.group_mrp_routings"/>
-            </xpath>
-        </data>

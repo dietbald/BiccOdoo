@@ -1,6 +1,0 @@
-<list default_order="date_start desc, id desc" string="Assignment Logs" editable="bottom">
-                <field name="vehicle_id"/>
-                <field name="driver_id" widget="many2one_avatar" string="Current Driver"/>
-                <field name="date_start"/>
-                <field name="date_end"/>
-            </list>

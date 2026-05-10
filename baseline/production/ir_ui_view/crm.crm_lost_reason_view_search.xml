@@ -1,5 +1,0 @@
-<search string="Search Opportunities">
-                <field name="name"/>
-                <filter string="Active" name="filter_active" domain="[('active', '=', True)]"/>
-                <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
-            </search>

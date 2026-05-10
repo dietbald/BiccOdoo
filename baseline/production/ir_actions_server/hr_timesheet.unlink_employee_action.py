@@ -1,1 +1,0 @@
-action = records.action_unlink_wizard()

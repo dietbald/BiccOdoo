@@ -1,7 +1,0 @@
-<data><xpath expr="//field[@name='is_connected']" position="before">
-                <field name="mobile" column_invisible="True"/>
-            </xpath>
-            <xpath expr="//button[@name='action_send_mail']" position="after">
-                <button name="action_send_sms" type="object" icon="fa-mobile" invisible="not mobile" string="SMS"/>
-            </xpath>
-        </data>

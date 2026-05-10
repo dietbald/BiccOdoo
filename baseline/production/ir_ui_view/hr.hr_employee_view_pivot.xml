@@ -1,9 +1,0 @@
-<pivot string="New Employees Over Time" sample="1">
-                    <field name="job_id" type="row"/>
-                    <field name="contract_date_start" interval="year" type="col"/>
-                    <field name="id"/>
-                    <field name="color" type="measure" invisible="1"/>
-                    <field name="distance_home_work" type="measure" invisible="1"/>
-                    <field name="km_home_work" type="measure" invisible="1"/>
-                    <field name="children" type="measure" invisible="1"/>
-                </pivot>

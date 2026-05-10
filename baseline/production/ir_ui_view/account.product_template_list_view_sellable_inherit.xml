@@ -1,3 +1,0 @@
-<xpath expr="//field[@name='list_price']" position="after">
-                        <field name="taxes_id" widget="many2many_tax_tags" context="{'search_default_domestictax': True, 'append_fields': ['company_id']}"/>
-                    </xpath>

@@ -1,9 +1,0 @@
-<data><xpath expr="//filter[@name='my_team']" position="before">
-                <filter name="at_work" string="At work" domain="[('is_absent', '=', False)]"/>
-                <filter name="on_timeoff" string="On Time Off" domain="[('is_absent', '=', True)]"/>
-                <separator/>
-            </xpath>
-            <xpath expr="//separator[@name='secondary_groupby_separator']" position="after">
-                <filter name="group_leave_manager" string="Time Off Approver" context="{'group_by': 'leave_manager_id'}"/>
-            </xpath>
-        </data>

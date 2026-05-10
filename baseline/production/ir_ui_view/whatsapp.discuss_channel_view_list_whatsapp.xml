@@ -1,6 +1,0 @@
-<list string="WhatsApp Chats" decoration-muted="not whatsapp_channel_active" default_order="last_wa_mail_message_id asc" js_class="whatsapp.discuss_channel_list">
-                <field name="whatsapp_channel_active" column_invisible="1"/>
-                <field name="create_date" string="Created On"/>
-                <field name="name"/>
-                <field name="channel_partner_ids" widget="many2many_tags" string="Members"/>
-            </list>

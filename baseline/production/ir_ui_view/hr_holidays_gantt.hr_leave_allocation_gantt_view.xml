@@ -1,3 +1,0 @@
-<gantt js_class="hr_holidays_gantt_manager" date_start="date_from" date_stop="date_to" string="Days" default_group_by="employee_id" decoration-danger="state == 'refuse'" decoration-info="state in ['confirm']" plan="0">
-                    <field name="state" invisible="1"/>
-                </gantt>

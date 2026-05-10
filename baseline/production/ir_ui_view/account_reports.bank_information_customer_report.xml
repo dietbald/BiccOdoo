@@ -1,8 +1,0 @@
-<t t-name="account_reports.bank_information_customer_report">
-        <t t-set="bank_account" t-value="env.company.partner_id.bank_ids.filtered(lambda bank: bank.allow_out_payment)[:1]"/>
-        <div class="row">
-            <t t-if="bank_account">
-                Bank: <t t-out="bank_account.acc_number"/>
-            </t>
-        </div>
-    </t>

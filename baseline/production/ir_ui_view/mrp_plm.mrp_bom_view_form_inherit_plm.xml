@@ -1,9 +1,0 @@
-<data><div name="button_box" position="inside">
-                <button groups="mrp_plm.group_plm_user" class="oe_stat_button" name="button_mrp_eco" type="object" icon="fa-cogs">
-                    <field string="ECO(s)" name="eco_count" widget="statinfo"/>
-                </button>
-            </div>
-            <field name="ready_to_produce" position="after">
-                <field name="version" string="Version" groups="mrp_plm.group_plm_user"/>
-            </field>
-        </data>

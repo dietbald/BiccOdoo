@@ -1,7 +1,0 @@
-<data><field name="lot_ids" position="after">
-                <field name="finished_lot_ids" widget="many2many_tags" options="{'edit_tags': True}"/>
-            </field>
-            <filter name="groupby_team_id" position="before">
-                <filter string="Finished Lot/Serial" name="groupby_finished_lot_ids" context="{'group_by': 'finished_lot_ids'}"/>
-            </filter>
-        </data>

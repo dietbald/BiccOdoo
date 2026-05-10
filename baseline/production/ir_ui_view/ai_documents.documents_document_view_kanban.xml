@@ -1,5 +1,0 @@
-<xpath expr="//div[hasclass('o_kanban_record_body')]" position="before">
-                <field name="ai_sortable" invisible="1"/> <!-- Used by @documents_controller_mixin.js -->
-                <field name="ai_sort_prompt" invisible="1"/> <!-- Used by @documents_controller_mixin.js -->
-                <widget name="web_ribbon" title="AI To Sort" bg_color="bg-info" invisible="not ai_to_sort"/>
-            </xpath>

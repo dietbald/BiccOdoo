@@ -1,3 +1,0 @@
-<xpath expr="//field[@name='worksheet_template_id']" position="attributes">
-                <attribute name="invisible" add="context.get('industry_fsm_has_same_worksheet_template', False)" separator=" or "/>
-            </xpath>

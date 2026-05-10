@@ -1,1 +1,0 @@
-model._cron_publish_scheduled()

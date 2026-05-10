@@ -1,9 +1,0 @@
-<data><field name="amount" position="after">
-                <field name="amount_paid" invisible="amount_paid &lt;= 0"/>
-            </field>
-            <div name="payment_link_warning_information" position="after">
-                <div name="payment_link_confirmation_message" class="alert alert-info" role="alert" invisible="warning_message or not confirmation_message">
-                    <field name="confirmation_message"/>
-                </div>
-            </div>
-        </data>

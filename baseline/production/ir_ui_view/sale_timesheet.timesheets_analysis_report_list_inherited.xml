@@ -1,7 +1,0 @@
-<xpath expr="//field[@name='task_id']" position="after">
-                <field name="so_line" optional="show" options="{'no_open': True}" placeholder="Non-billable"/>
-                <field name="timesheet_invoice_type" optional="hide"/>
-                <field name="timesheet_invoice_id" optional="hide"/>
-                <field name="timesheet_revenues" optional="hide" sum="Total"/>
-                <field name="margin" optional="hide" sum="Total"/>
-            </xpath>

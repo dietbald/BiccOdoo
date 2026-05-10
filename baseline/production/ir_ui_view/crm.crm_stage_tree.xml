@@ -1,8 +1,0 @@
-<list string="Stages" multi_edit="1">
-                <field name="sequence" widget="handle"/>
-                <field name="name" readonly="1"/>
-                <field name="is_won"/>
-                <field name="team_ids" widget="many2many_tags"/>
-                <field name="rotting_threshold_days" optional="hide"/>
-                <field name="color" optional="hide" widget="color_picker"/>
-            </list>

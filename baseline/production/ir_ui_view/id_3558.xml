@@ -1,5 +1,0 @@
-<data name="Planning Frontend Layout" inherit_id="web.frontend_layout" primary="True">
-        <xpath expr="//t[@t-call='web.brand_promotion']" position="replace">
-            <t t-call="planning.brand_promotion"/>
-        </xpath>
-    <xpath expr="." position="attributes"><attribute name="t-name">planning.frontend_layout</attribute></xpath></data>

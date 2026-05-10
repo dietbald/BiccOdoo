@@ -1,3 +1,0 @@
-<xpath expr="//filter[@name='conflict_shifts']" position="after">
-                <filter name="is_absent" string="Employees on Time Off" domain="[('is_absent', '=', True)]" groups="planning.group_planning_manager"/>
-            </xpath>

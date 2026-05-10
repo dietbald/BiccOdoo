@@ -1,6 +1,0 @@
-<xpath expr="//kanban" position="attributes">
-                <attribute name="default_order">planned_date_begin</attribute>
-                <attribute name="class">o_fsm_kanban o_kanban_project_tasks</attribute>
-                <attribute name="quick_create_view">industry_fsm.quick_create_task_form_fsm_inherited</attribute>
-                <attribute name="on_create">quick_create</attribute>
-            </xpath>

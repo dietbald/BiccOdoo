@@ -1,9 +1,0 @@
-<data><xpath expr="//kanban" position="inside">
-                    <field name="show_on_hand_qty_status_button" groups="stock.group_stock_user"/>
-                </xpath>
-                <xpath expr="//field[@name='product_properties']" position="before">
-                    <div groups="stock.group_stock_user" t-if="record.show_on_hand_qty_status_button.raw_value">
-                        On hand: <field name="qty_available"/> <field name="uom_id" groups="uom.group_uom"/>
-                    </div>
-                </xpath>
-            </data>

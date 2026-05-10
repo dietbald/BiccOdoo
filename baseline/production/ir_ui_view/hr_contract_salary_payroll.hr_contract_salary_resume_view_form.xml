@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='code']" position="attributes">
-                <attribute name="invisible">value_type not in ['payslip', 'version']</attribute>
-                <attribute name="required">value_type in ['payslip', 'version']</attribute>
-            </xpath>

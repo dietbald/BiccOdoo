@@ -1,1 +1,0 @@
-action = model.trigger_template_tour()

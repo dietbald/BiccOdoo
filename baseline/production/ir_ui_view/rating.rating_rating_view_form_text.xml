@@ -1,3 +1,0 @@
-<xpath expr="//div[@name='rating_image_container']" position="replace">
-                    <field name="rating_text" string="Rating" decoration-danger="rating_text == 'ko'" decoration-warning="rating_text == 'ok'" decoration-success="rating_text == 'top'" widget="badge"/>
-                </xpath>

@@ -1,9 +1,0 @@
-<calendar js_class="time_off_calendar_hr_leave" string="Time Off Request" form_view_id="6173" event_open_popup="true" date_start="date_from" date_stop="date_to" mode="month" show_unusual_days="True" quick_create="0" color="color">
-                <field name="holiday_status_id" color="color" filters="1" invisible="1"/>
-                <field name="employee_id" filters="1" widget="many2one_avatar_employee"/>
-                <field name="name"/>
-                <field name="state" invisible="1"/>
-                <field name="is_hatched" invisible="1"/>
-                <field name="is_striked" invisible="1"/>
-                <field name="state" invisible="1"/>
-            </calendar>

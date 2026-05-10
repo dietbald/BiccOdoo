@@ -1,9 +1,0 @@
-<gantt date_start="planned_date_begin" form_view_id="1323" kanban_view_id="6202" date_stop="date_deadline" default_scale="month" scales="day,week,month,quarter,year" color="project_id" string="Planning" js_class="task_gantt" display_unavailability="1" precision="{'day': 'hour:quarter', 'week': 'day:half', 'month': 'day:half'}" decoration-danger="planning_overlap" default_group_by="user_ids" progress_bar="user_ids" pill_label="True" total_row="True" dependency_field="depend_on_ids" dependency_inverted_field="dependent_ids">
-                <templates>
-                    <div t-name="gantt-popover">
-                        <footer replace="0">
-                           <button name="action_unschedule_task" type="object" string="Unschedule" class="btn btn-sm btn-secondary"/>
-                        </footer>
-                    </div>
-                </templates>
-            </gantt>

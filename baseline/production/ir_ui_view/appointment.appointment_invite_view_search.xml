@@ -1,7 +1,0 @@
-<search string="Appointment Invitation Links">
-                <field name="appointment_type_ids"/>
-                <field name="resource_ids"/>
-                <field name="staff_user_ids"/>
-                <field name="short_code"/>
-                <filter string="My Links" name="my_book_urls" domain="[('create_uid', '=', uid)]"/>
-            </search>

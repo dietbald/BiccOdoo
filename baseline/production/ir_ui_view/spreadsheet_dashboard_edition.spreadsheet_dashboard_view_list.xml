@@ -1,9 +1,0 @@
-<data><xpath expr="//list" position="attributes">
-                <attribute name="create">1</attribute>
-            </xpath>
-            <xpath expr="//field[@name='is_published']" position="after">
-                <field name="spreadsheet_file_name" column_invisible="True"/>
-                <button invisible="not is_from_data" string="Edit" help="Editing standard dashboards is not recommended. Changes will be lost after Odoo version upgrades." class="float-end btn-link btn-warning" icon="fa-pencil" type="object" name="action_edit_dashboard"/>
-                <button invisible="is_from_data" string="Edit" class="float-end" icon="fa-pencil" type="object" name="action_edit_dashboard"/>
-            </xpath>
-        </data>

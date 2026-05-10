@@ -1,9 +1,0 @@
-<search string="Search Question">
-                <field name="title"/>
-                <field name="survey_id" string="Survey"/>
-                <field name="question_type" string="Type"/>
-                <group>
-                    <filter name="group_by_type" string="Type" domain="[]" context="{'group_by':'question_type'}"/>
-                    <filter name="group_by_survey" string="Survey" domain="[]" context="{'group_by':'survey_id'}"/>
-                </group>
-            </search>

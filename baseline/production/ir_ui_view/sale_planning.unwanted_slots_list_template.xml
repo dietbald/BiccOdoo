@@ -1,8 +1,0 @@
-<data inherit_id="planning.unwanted_slots_list_template">
-        <xpath expr="//th[@name='sale_order_item']" position="attributes">
-            <attribute name="t-if">unwanted_slot_has_sale_line</attribute>
-        </xpath>
-        <xpath expr="//td[@name='sale_line_id']" position="attributes">
-            <attribute name="t-if">unwanted_slot_has_sale_line</attribute>
-        </xpath>
-    </data>

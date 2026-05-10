@@ -1,9 +1,0 @@
-<list decoration-muted="state == 'reconciled'" decoration-info="state == 'draft'" sample="1">
-                    <field name="name" readonly="state != 'draft'"/>
-                    <field name="journal_id" readonly="state != 'draft'"/>
-                    <field name="date" readonly="state != 'draft'"/>
-                    <field name="amount"/>
-                    <field name="activity_ids" widget="list_activity" optional="show"/>
-                    <field name="currency_id" column_invisible="True"/>
-                    <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-success="state == 'sent'"/>
-                </list>

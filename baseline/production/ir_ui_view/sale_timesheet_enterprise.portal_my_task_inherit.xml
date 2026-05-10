@@ -1,5 +1,0 @@
-<data inherit_id="sale_timesheet.portal_my_task_inherit">
-        <xpath expr="//span[@t-esc='task.progress * 100']" position="attributes">
-            <attribute name="t-esc">task.portal_progress * 100</attribute>
-        </xpath>
-    </data>

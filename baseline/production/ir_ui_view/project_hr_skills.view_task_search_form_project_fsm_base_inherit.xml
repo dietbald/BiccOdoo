@@ -1,3 +1,0 @@
-<field name="partner_id" position="after">
-                <field name="user_skill_ids" string="Skills" filter_domain="['|', ('user_ids', '=', False), ('user_skill_ids', 'ilike', self)]"/>
-            </field>

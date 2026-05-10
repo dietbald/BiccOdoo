@@ -1,4 +1,0 @@
-<filter name="due_date" position="after">
-                    <separator/>
-                    <filter name="irregular_sequences" string="Irregular Sequences" domain="['|', ('made_sequence_gap', '=', True), '&amp;', '&amp;', ('state', 'in', ('draft', 'cancel')), ('sequence_number', '!=', 0), ('name', '!=', '/')]"/>
-                </filter>

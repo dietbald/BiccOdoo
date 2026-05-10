@@ -1,1 +1,0 @@
-model._cron_generate_missing_work_entries()

@@ -1,8 +1,0 @@
-<t t-name="hr_timesheet.portal_my_task_allocated_hours_template">
-        <t t-if="allow_timesheets and task.allocated_hours &gt; 0">
-            <t t-if="is_uom_day">
-                <span t-out="timesheets._convert_hours_to_days(task.allocated_hours)" t-options="{&quot;widget&quot;: &quot;timesheet_uom&quot;}"/>
-            </t>
-            <t t-else="" t-call="project.portal_my_task_allocated_hours_template"/>
-        </t>
-    </t>

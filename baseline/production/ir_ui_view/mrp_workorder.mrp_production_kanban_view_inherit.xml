@@ -1,7 +1,0 @@
-<xpath expr="//footer" position="after">
-                <field name="date_deadline" invisible="1"/>
-                <field name="is_delayed" invisible="1"/>
-                <p class="text-warning mt-2 mb-0" t-if="record.is_delayed.raw_value">
-                    The deadline of this MO is on  <t t-out="record.date_deadline.value"/>
-                </p>
-            </xpath>

@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='frequency']" position="replace">
-                <field nolabel="1" name="frequency" invisible="accrued_gain_time == 'end'" widget="filterable_selection" options="{'blacklisted_values': ['worked_hours']}"/>
-                <field nolabel="1" name="frequency" invisible="accrued_gain_time == 'start'" widget="selection"/>
-            </xpath>

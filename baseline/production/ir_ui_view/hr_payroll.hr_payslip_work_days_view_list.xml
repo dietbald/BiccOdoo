@@ -1,9 +1,0 @@
-<list string="Payroll Analysis" create="false" edit="false">
-                <field name="employee_id" widget="many2one_avatar_employee"/>
-                <field name="payslip_id" optional="show"/>
-                <field name="name"/>
-                <field name="amount" optional="hide"/>
-                <field name="number_of_days" optional="hide"/>
-                <field name="number_of_hours" optional="hide"/>
-
-            </list>

@@ -1,1 +1,0 @@
-action = records._resend_failed()

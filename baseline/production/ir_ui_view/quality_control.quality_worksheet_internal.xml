@@ -1,9 +1,0 @@
-<t t-name="quality_control.quality_worksheet_internal">
-            <t t-call="web.html_container">
-                <t t-foreach="docs" t-as="doc">
-                    <t t-call="web.internal_layout">
-                        <t t-call="quality_control.worksheet_page"/>
-                    </t>
-                </t>
-            </t>
-        </t>

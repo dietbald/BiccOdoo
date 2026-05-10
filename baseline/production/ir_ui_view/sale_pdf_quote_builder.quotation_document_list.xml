@@ -1,8 +1,0 @@
-<list editable="top" multi_edit="true">
-                <field name="sequence" widget="handle"/>
-                <field name="name"/>
-                <field name="document_type"/>
-                <field name="quotation_template_ids" widget="many2many_tags"/>
-                <field name="add_by_default" widget="boolean_toggle" optional="show"/>
-                <field name="company_id" groups="base.group_multi_company" optional="show"/>
-            </list>

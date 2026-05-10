@@ -1,8 +1,0 @@
-<list expand="1">
-                <field name="name"/>
-                <field name="code"/>
-                <field name="current_value_one_line" string="Current Value"/>
-                <field name="valid_since"/>
-                <field name="salary_rule_ids"/>
-                <button name="action_open_salary_rules" type="object" icon="fa-external-link" string="Salary Rules" invisible="salary_rule_count == 0"/>
-            </list>

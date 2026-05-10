@@ -1,5 +1,0 @@
-<xpath expr="(//div[@name='duration_display']/span)[last()]" position="after">
-                <div class="oe_inline" invisible="not employee_id or not overtime_deductible or employee_overtime &lt;= 0">
-                    <field name="employee_overtime" nolabel="1" widget="float_time" class="text-success"/> Extra Hours Available
-                </div>
-            </xpath>

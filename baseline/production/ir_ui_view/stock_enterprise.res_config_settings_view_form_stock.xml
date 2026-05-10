@@ -1,6 +1,0 @@
-<xpath expr="//block[@name='shipping_setting_container']//setting[@id='stock_text_confirmation']//div[@id='module_install_warning']" position="inside">
-                <field name="module_whatsapp_stock" invisible="1"/>
-                <div class="mt16 text-warning" id="module_install_warning_whatsapp" invisible="stock_confirmation_type != 'whatsapp'">
-                    <strong>Save</strong> this page and come back here to set up the feature.
-                </div>
-            </xpath>

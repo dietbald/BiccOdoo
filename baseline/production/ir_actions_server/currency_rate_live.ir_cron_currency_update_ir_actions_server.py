@@ -1,1 +1,0 @@
-model.run_update_currency()

@@ -1,5 +1,0 @@
-<list string="Contact Tags" editable="bottom" multi_edit="1" sample="1">
-                    <field name="name" placeholder="e.g. &quot;Roadshow&quot;"/>
-                    <field name="parent_id" string="Category" domain="[('id', '!=', id)]"/>
-                    <field name="color" widget="color_picker"/>
-                </list>

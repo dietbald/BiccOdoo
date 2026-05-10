@@ -1,7 +1,0 @@
-<field name="currency_id" position="after">
-                <label for="reconcile" invisible="account_type in ('asset_cash', 'liability_credit_card', 'off_balance')"/>
-                <div invisible="account_type in ('asset_cash', 'liability_credit_card', 'off_balance')">
-                   <field name="reconcile"/>
-                   <button name="action_open_reconcile" class="oe_link" type="object" string=" -&gt; Reconcile" invisible="not reconcile"/>
-                </div>
-            </field>

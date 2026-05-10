@@ -1,3 +1,0 @@
-<xpath expr="//field[@name='group_ids']" position="after">
-                <field name="subscription_department_ids" widget="many2many_tags" invisible="channel_type != 'channel'" string="Auto Subscribe Departments"/>
-            </xpath>

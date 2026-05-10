@@ -1,7 +1,0 @@
-<xpath expr="//sheet" position="after">
-                <footer>
-                    <button string="Save" special="save" data-hotkey="q" class="btn btn-primary" close="1"/>
-                    <button name="action_unschedule_task" string="Unschedule" type="object" data-hotkey="u" class="btn btn-secondary" close="1" invisible="not id"/>
-                    <button string="Discard" special="cancel" data-hotkey="x" class="btn btn-secondary" close="1"/>
-                </footer>
-            </xpath>

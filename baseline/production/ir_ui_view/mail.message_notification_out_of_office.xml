@@ -1,8 +1,0 @@
-<t t-name="mail.message_notification_out_of_office">
-            <div t-out="out_of_office_message"/>
-            <div class="o_mail_reply_container">
-                <div class="o_mail_reply_content">
-                    <blockquote t-out="replied_body"/>
-                </div>
-            </div>
-        </t>

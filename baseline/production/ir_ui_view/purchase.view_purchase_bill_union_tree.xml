@@ -1,9 +1,0 @@
-<list string="Reference Document">
-                <field name="name"/>
-                <field name="reference"/>
-                <field name="partner_id"/>
-                <field name="date"/>
-                <field name="amount"/>
-                <field name="currency_id" column_invisible="True"/>
-                <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}"/>
-            </list>

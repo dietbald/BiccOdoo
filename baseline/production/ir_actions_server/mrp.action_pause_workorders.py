@@ -1,1 +1,0 @@
-action = records.button_pending()

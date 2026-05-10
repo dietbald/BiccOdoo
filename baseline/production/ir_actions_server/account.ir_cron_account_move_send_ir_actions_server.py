@@ -1,1 +1,0 @@
-model._cron_account_move_send(job_count=20)

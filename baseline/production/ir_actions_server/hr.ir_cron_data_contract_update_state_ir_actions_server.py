@@ -1,1 +1,0 @@
-model.with_context(from_cron=True).update_state()

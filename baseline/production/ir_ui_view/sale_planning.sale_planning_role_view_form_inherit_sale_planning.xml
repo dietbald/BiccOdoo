@@ -1,5 +1,0 @@
-<xpath expr="//sheet/group/group" position="after">
-                <group>
-                    <field name="product_ids" widget="many2many_tags" context="{                             'default_type': 'service',                             'default_planning_enabled': True,                             'default_planning_role_id': id,                             'default_uom_id': 4,                         }"/>
-                </group>
-            </xpath>

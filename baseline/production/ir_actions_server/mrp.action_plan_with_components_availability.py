@@ -1,1 +1,0 @@
-action = records.action_plan_with_components_availability()

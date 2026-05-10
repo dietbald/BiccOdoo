@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='duration']" position="after">
-                <field name="appointment_type_id" groups="base.group_no_one"/>
-                <field name="appointment_resource_ids" widget="many2many_tags" groups="base.group_no_one"/>
-            </xpath>

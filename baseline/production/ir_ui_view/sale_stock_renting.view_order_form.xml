@@ -1,7 +1,0 @@
-<data><xpath expr="//field[@name='order_line']//list//field[@name='qty_delivered']" position="attributes">
-                <attribute name="readonly" add="is_rental and tracking != 'none'" separator="or"/>
-            </xpath>
-            <xpath expr="//field[@name='order_line']//list//field[@name='qty_returned']" position="attributes">
-                <attribute name="readonly">not is_rental or tracking != 'none'</attribute>
-            </xpath>
-        </data>

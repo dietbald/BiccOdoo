@@ -1,6 +1,0 @@
-<xpath expr="//filter[@name='products_in_purchase_order']" position="after">
-                <filter string="Suggested" name="suggested" domain="[('suggested_qty', '!=', 0)]"/>
-                <separator/>
-                <filter string="To Order" name="products_with_negative_forecast" domain="[('virtual_available', '&lt;', 0)]"/>
-                <separator/>
-            </xpath>

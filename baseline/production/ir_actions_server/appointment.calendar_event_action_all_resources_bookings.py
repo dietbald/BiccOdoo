@@ -1,1 +1,0 @@
-action = model.action_calendar_meetings_resources_all()

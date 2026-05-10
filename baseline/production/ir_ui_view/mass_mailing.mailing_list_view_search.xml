@@ -1,8 +1,0 @@
-<search string="Mailing Lists">
-                <field name="name"/>
-                <field name="create_date"/>
-                <filter name="inactive" string="Archived" domain="[('active','=',False)]"/>
-                <group>
-                    <filter string="Creation Period" name="group_create_date" context="{'group_by': 'create_date'}"/>
-                </group>
-            </search>

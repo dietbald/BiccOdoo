@@ -1,7 +1,0 @@
-<list create="0">
-                <field name="name" string="Package"/>
-                <field name="parent_package_id" string="Container" context="{'show_src_package': 1}" widget="package_m2o"/>
-                <field name="package_type_id" string="Type" optional="hide"/>
-                <field name="location_id" groups="stock.group_stock_multi_locations"/>
-                <field name="content_description" width="500px"/>
-            </list>

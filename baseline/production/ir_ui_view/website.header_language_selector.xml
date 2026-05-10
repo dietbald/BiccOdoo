@@ -1,7 +1,0 @@
-<data inherit_id="website.placeholder_header_language_selector" name="Header Language Selector" active="True">
-    <xpath expr="." position="inside">
-        <li t-if="len(frontend_languages) &gt; 1" data-name="Language Selector" t-attf-class="o_header_language_selector #{_item_class}">
-            <t id="header_language_selector_call" t-call="portal.language_selector" _div_classes="(_div_classes or '') + ' dropdown'"/>
-        </li>
-    </xpath>
-</data>

@@ -1,9 +1,0 @@
-<t t-name="product.report_producttemplatelabel4x7">
-    <t t-call="web.basic_layout">
-        <div class="page">
-            <t t-set="columns" t-value="4"/>
-            <t t-set="rows" t-value="7"/>
-            <t t-call="product.report_productlabel"/>
-        </div>
-    </t>
-</t>

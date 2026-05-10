@@ -1,3 +1,0 @@
-<filter name="order_date" position="after">
-                <filter string="Late Availability" name="late_availability" domain="[('late_availability', '=', True)]"/>
-            </filter>

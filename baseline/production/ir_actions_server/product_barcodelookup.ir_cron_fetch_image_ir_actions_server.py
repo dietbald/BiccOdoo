@@ -1,1 +1,0 @@
-model._cron_fetch_image()

@@ -1,7 +1,0 @@
-<pivot string="Budget Report" js_class="analytic_pivot">
-                    <field name="budget_analytic_id" type="col"/>
-                    <field name="account_id"/>  <!-- do not copy the `type` with _patch_view -->
-                    <field name="account_id" type="row"/>
-                    <field name="budget" type="measure"/>
-                    <field name="achieved" type="measure"/>
-                </pivot>

@@ -1,5 +1,0 @@
-<setting id="account_ocr_settings" position="after">
-                <setting invisible="not module_account_bank_statement_extract" company_dependent="1">
-                    <field name="extract_bank_statement_digitalization_mode" class="o_light_label" widget="radio" required="True"/>
-                </setting>
-            </setting>

@@ -1,7 +1,0 @@
-<data><xpath expr="//list" position="attributes">
-                <attribute name="open_form_view">1</attribute>
-            </xpath>
-            <field name="resource_ids" position="after">
-                <field name="product_ids" widget="many2many_tags" optional="hide" placeholder="e.g. Cleaning Services" context="{                         'default_type': 'service',                         'default_planning_enabled': True,                         'default_planning_role_id': id,                         'default_uom_id': 4,                     }"/>
-            </field>
-        </data>

@@ -1,7 +1,0 @@
-<data><xpath expr="//field[@name='user_id']" position="after">
-                <field name="applicant_skill_ids"/>
-            </xpath>
-            <filter name="stage" position="after">
-                <filter string="Skills" name="groupby_skills" context="{'group_by': 'skill_ids'}"/>
-            </filter>
-        </data>

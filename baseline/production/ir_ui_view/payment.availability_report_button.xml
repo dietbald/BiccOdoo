@@ -1,5 +1,0 @@
-<t t-name="payment.availability_report_button">
-        <a t-if="request.env.user._is_system() and availability_report" role="button" data-bs-toggle="collapse" href="#payment_availability_report" aria-expanded="false" aria-controls="payment_availability_report">
-            <i class="fa fa-bug"/>
-        </a>
-    </t>

@@ -1,1 +1,0 @@
-model._cron_unlink_old_visitors()

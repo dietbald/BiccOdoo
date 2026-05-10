@@ -1,1 +1,0 @@
-action = model.check_selected_moves()

@@ -1,8 +1,0 @@
-<data><field name="user_ids" position="attributes">
-                <attribute name="widget">many2many_avatar_user</attribute>
-            </field>
-            <field name="user_ids" position="before">
-                <field name="is_fsm" invisible="1"/>
-                <field name="partner_id" invisible="not is_fsm or is_template or has_project_template" required="is_fsm" widget="res_partner_many2one" context="{'res_partner_search_mode': 'customer'}"/>
-            </field>
-        </data>

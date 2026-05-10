@@ -1,8 +1,0 @@
-<list string="Warehouse">
-                    <field name="sequence" widget="handle"/>
-                    <field name="name"/>
-                    <field name="active" column_invisible="True"/>
-                    <field name="lot_stock_id" groups="stock.group_stock_multi_locations"/>
-                    <field name="partner_id"/>
-                    <field name="company_id" groups="base.group_multi_company"/>
-                </list>

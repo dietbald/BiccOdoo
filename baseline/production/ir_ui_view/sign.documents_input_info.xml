@@ -1,8 +1,0 @@
-<t name="Documents input info" t-name="sign.documents_input_info">
-        <t t-if="sign_request.template_id.document_ids">
-            <t t-foreach="sign_request.template_id.document_ids" t-as="document_id">
-                <iframe class="o_sign_pdf_iframe" t-att-readonly="'readonly' if readonly else None"/>
-                <input type="hidden" class="o_sign_document_input_info" t-att-data-id="document_id.id" t-att-data-name="document_id.name" t-attf-data-attachment-location="/sign/download/{{sign_request.id}}/{{sign_request.access_token}}/origin/{{document_id.id}}"/>
-            </t>
-        </t>
-    </t>

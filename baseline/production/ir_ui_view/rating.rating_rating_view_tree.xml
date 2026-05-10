@@ -1,9 +1,0 @@
-<list string="Ratings" create="false" edit="false" sample="1">
-                    <field name="create_date"/>
-                    <field name="rated_partner_id" optional="show"/>
-                    <field name="partner_id" optional="show"/>
-                    <field name="parent_res_name" optional="show"/>
-                    <field name="res_name" optional="show"/>
-                    <field name="feedback" optional="hide"/>
-                    <field name="rating_text" decoration-danger="rating_text == 'ko'" decoration-warning="rating_text == 'ok'" decoration-success="rating_text == 'top'" class="fw-bold" widget="badge"/>
-                </list>

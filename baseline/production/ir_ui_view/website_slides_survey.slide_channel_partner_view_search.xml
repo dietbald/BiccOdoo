@@ -1,3 +1,0 @@
-<xpath expr="//filter[@name='filter_completed']" position="after">
-                    <filter string="Certified" name="filter_certified" domain="[('survey_certification_success', '=', True)]"/>
-                </xpath>

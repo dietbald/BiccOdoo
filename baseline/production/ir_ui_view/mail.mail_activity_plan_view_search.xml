@@ -1,6 +1,0 @@
-<search string="Plan">
-                    <field name="name"/>
-                    <separator/>
-                    <filter string="Archived" name="filter_inactive" domain="[('active', '=', False)]"/>
-                    <filter string="Model" name="group_by_model" domain="[]" context="{'group_by': 'res_model_id'}"/>
-                </search>

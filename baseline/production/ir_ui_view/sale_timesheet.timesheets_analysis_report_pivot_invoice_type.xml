@@ -1,8 +1,0 @@
-<pivot string="Timesheets Analysis" sample="1">
-                <field name="date" interval="month" type="row"/>
-                <field name="timesheet_invoice_type" type="col"/>
-                <field name="amount" string="Timesheet Costs"/>
-                <field name="unit_amount" type="measure" widget="timesheet_uom"/>
-                <field name="billable_time" widget="timesheet_uom"/>
-                <field name="non_billable_time" widget="timesheet_uom"/>
-            </pivot>

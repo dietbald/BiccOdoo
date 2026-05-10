@@ -1,8 +1,0 @@
-<t t-name="website_profile.badge_header">
-        <img t-if="not badge.image_1920 and badge.level" t-attf-src="/website_profile/static/src/img/badge_#{badge.level}.svg" class="my-1 me-1 wprofile_badge_img" t-att-alt="badge.name"/>
-        <div t-else="" t-field="badge.image_1920" t-options="{'widget': 'image', 'preview_image': 'image_1024', 'class': 'my-1 me-1 wprofile_badge_img'}"/>
-        <a t-if="badge_url" t-att-href="badge_url">
-            <h6 t-field="badge.name" class="d-inline my-0"/>
-        </a>
-        <h6 t-else="" t-field="badge.name" class="d-inline my-0"/>
-    </t>

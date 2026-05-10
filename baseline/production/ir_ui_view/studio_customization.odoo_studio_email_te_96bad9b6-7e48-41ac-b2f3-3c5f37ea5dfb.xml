@@ -1,8 +1,0 @@
-<data>
-  <xpath expr="/list//field[@name='description']" position="after">
-    <field name="id" optional="show"/>
-  </xpath>
-  <xpath expr="/list//field[@name='email_from']" position="after">
-    <field name="template_fs" optional="show"/>
-  </xpath>
-</data>

@@ -1,8 +1,0 @@
-<search>
-                <field string="Certification" name="skill_id"/>
-                <field name="employee_id"/>
-                <filter string="Valid certification" name="valid_certification" domain="[                         '|',                             ('valid_to', '=', False),                             ('valid_to', '&gt;', 'today')                     ]"/>
-                <filter string="Certification" name="group_by_certification" context="{'group_by': 'skill_id'}"/>
-                <filter string="Type" name="group_by_type" context="{'group_by': 'skill_type_id'}"/>
-                <filter string="Employee" name="group_by_employee" context="{'group_by': 'employee_id'}"/>
-            </search>

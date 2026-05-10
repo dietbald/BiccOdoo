@@ -1,3 +1,0 @@
-<xpath expr="//footer/field[@name='template_id']" position="after">
-                    <field name="body" widget="mail_composer_chatgpt" invisible="'email' not in sending_methods"/>
-                </xpath>

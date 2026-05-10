@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='responsible_type']" position="replace">
-                    <field name="responsible_type" invisible="res_model != 'hr.employee'"/>
-                    <field name="responsible_type" widget="filterable_selection" options="{'whitelisted_values': ['on_demand', 'other']}" invisible="res_model == 'hr.employee'"/>
-                </xpath>

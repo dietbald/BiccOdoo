@@ -1,1 +1,0 @@
-ai['result'] = record._ai_action_add_tags(tag_names)

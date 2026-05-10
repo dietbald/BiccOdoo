@@ -1,8 +1,0 @@
-<data>
-  <xpath expr="//field[@name='sequence']" position="after">
-    <xpath expr="//field[@name='partner_id']" position="move"/>
-  </xpath>
-  <xpath expr="//field[@name='partner_id']" position="attributes">
-    <attribute name="optional">show</attribute>
-  </xpath>
-</data>

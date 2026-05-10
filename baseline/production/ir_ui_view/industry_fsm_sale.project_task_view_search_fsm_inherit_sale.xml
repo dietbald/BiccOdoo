@@ -1,7 +1,0 @@
-<data><field name="partner_zip" position="after">
-                <field name="sale_order_id" filter_domain="['|', ('sale_order_id', 'ilike', self), ('sale_line_id', 'ilike', self)]"/>
-            </field>
-            <filter name="schedule" position="after">
-                <filter string="To Invoice" domain="[('invoice_status', '=', 'to invoice')]" name="to_invoice" invisible="1"/>
-            </filter>
-        </data>

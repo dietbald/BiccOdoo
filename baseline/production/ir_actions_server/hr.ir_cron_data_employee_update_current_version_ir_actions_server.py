@@ -1,1 +1,0 @@
-model._cron_update_current_version_id()

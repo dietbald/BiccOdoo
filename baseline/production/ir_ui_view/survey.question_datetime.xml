@@ -1,6 +1,0 @@
-<t name="Question: datetime box" t-name="survey.question_datetime">
-        <div class="input-group o_survey_form_date o_survey_answer_wrapper p-1 rounded">
-            <input type="text" class="form-control datetimepicker-input o_survey_question_datetime bg-transparent rounded-0 p-0" t-att-name="question.id" t-att-placeholder="question.question_placeholder" t-att-value="format_datetime(answer_lines[0].value_datetime) if answer_lines else None" t-att-data-question-type="question.question_type" data-widget="datetime-picker" data-widget-type="datetime" t-att-data-min-date="question.validation_min_datetime" t-att-data-max-date="question.validation_max_datetime"/>
-            <div t-if="not survey_form_readonly" class="position-absolute input-group-text o_input_group_date_icon text-primary border-0 bg-transparent p-0 end-0"><i class="fa fa-calendar"/></div>
-        </div>
-    </t>

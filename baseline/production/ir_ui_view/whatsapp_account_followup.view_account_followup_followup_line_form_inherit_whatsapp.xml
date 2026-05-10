@@ -1,7 +1,0 @@
-<data><field name="send_email" position="after">
-                    <field name="send_whatsapp"/>
-                </field>
-                <field name="mail_template_id" position="after">
-                    <field name="whatsapp_template_id" string="WhatsApp Template" invisible="not send_whatsapp"/>
-                </field>
-            </data>

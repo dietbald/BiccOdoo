@@ -1,5 +1,0 @@
-<filter name="inactive" position="after">
-                <separator/>
-                <filter string="Quality Points" name="quality_points" domain="[('operation_id', '=', False)]"/>
-                <filter string="Manufacturing Steps" name="manufacturing_steps" domain="[('operation_id', '!=', False)]"/>
-            </filter>

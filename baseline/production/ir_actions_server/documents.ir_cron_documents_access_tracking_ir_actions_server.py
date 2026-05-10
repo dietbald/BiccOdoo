@@ -1,1 +1,0 @@
-model._cron_generate_tracking()

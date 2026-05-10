@@ -1,9 +1,0 @@
-<search string="Alias Domains">
-                <field name="name"/>
-                <field name="bounce_alias"/>
-                <field name="catchall_alias"/>
-                <field name="company_ids" groups="base.group_multi_company"/>
-                <group>
-                    <filter string="Company" name="group_by_company_ids" domain="[]" context="{'group_by': 'company_ids'}" groups="base.group_multi_company"/>
-                </group>
-            </search>

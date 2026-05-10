@@ -1,8 +1,0 @@
-<search string="key search">
-                <filter string="Archived" name="archived" domain="[('active','=',False)]" help="Archived keys"/>
-                <separator/>
-                <filter string="Private" name="private" domain="[('pem_key', '!=', False), ('public','=',False)]"/>
-                <filter string="Public" name="public" domain="[('pem_key', '!=', False), ('public','=',True)]"/>
-                <separator/>
-                <filter string="Invalid" name="invalid" domain="[('pem_key', '=', False)]"/>
-            </search>

@@ -1,8 +1,0 @@
-<data><field name="activity_type_id" position="before">
-                <field name="res_name" readonly="1" string="Document"/>
-            </field>
-            <footer position="replace"/>
-            <xpath expr="//div[hasclass('oe_button_box')]" position="attributes">
-                <attribute name="invisible">0</attribute>
-            </xpath>
-        </data>

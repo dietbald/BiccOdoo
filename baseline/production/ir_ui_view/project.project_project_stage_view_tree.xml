@@ -1,8 +1,0 @@
-<list editable="bottom" sample="1" delete="0">
-                <field name="sequence" widget="handle"/>
-                <field name="name" placeholder="e.g. To Do"/>
-                <field name="mail_template_id" optional="hide" context="{'default_model': 'project.project'}"/>
-                <field name="company_id" optional="hide" groups="base.group_multi_company" options="{'no_create': True}"/>
-                <field name="color" optional="hide" widget="color_picker"/>
-                <field name="fold" optional="show"/>
-            </list>

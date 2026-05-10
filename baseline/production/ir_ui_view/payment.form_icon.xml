@@ -1,8 +1,0 @@
-<t name="Form Icon" t-name="payment.form_icon">
-        <!-- Parameters description:
-            - icon_name: The name of the FontAwesome icon.
-            - color_name: The class name of the color (`warning`, `danger`...).
-            - title: The title to display on hover.
-        -->
-        <i t-attf-class="fa fa-{{icon_name}} text-{{color_name}} position-relative z-1" t-att-title="title" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-delay="0"/>
-    </t>

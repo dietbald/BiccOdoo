@@ -1,8 +1,0 @@
-<list string="Time Off Summary" sample="1" duplicate="false">
-                <field name="employee_id" widget="many2one_avatar_employee"/>
-                <field name="number_of_days" string="# days" type="measure"/>
-                <field name="date_from" string="Start"/>
-                <field name="date_to" string="Stop"/>
-                <field name="name" optional="hide"/>
-                <field name="state"/>
-            </list>

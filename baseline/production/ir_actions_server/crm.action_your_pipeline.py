@@ -1,1 +1,0 @@
-action = model.action_your_pipeline()

@@ -1,4 +1,0 @@
-<xpath expr="//footer/button[@special='cancel']" position="before">
-                <field name="sale_line_plannable" invisible="1"/>
-                <button string="Unschedule" type="object" name="action_unschedule" class="btn btn-secondary" close="1" groups="planning.group_planning_manager" invisible="not id or not sale_line_plannable" data-hotkey="z"/>
-            </xpath>

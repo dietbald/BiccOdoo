@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='category']" position="after">
-                <field name="folder_id" invisible="category != 'upload_file'" widget="documents_folder_many2one"/>
-                <field name="tag_ids" widget="many2many_tags" invisible="category != 'upload_file'"/>
-            </xpath>

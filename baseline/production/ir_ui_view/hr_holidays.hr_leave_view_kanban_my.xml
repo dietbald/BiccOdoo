@@ -1,8 +1,0 @@
-<data><xpath expr="//div[@id='date_part']" position="attributes">
-                <attribute name="class" add="w-100 fw-bold" separator=" "/>
-            </xpath>
-            <xpath expr="//div[@id='date_part']" position="after">
-                <span style="min-width: fit-content;" t-attf-class="rounded-pill badge flex-shrink-1 text-bg-{{                     record.state.raw_value == 'validate' ? 'success' :                     ['confirm', 'validate1'].includes(record.state.raw_value) ?                     'warning' : 'danger' }}" t-out="record.state.value"/>
-            </xpath>
-            <xpath expr="//div[hasclass('hr_leave_kanban_title')]" position="replace"/>
-        </data>

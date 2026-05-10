@@ -1,3 +1,0 @@
-<search string="Account groups">
-                    <field name="name" filter_domain="['|', ('code_prefix_start', '=like', self + '%'), ('name', 'ilike', self)]" string="Account group"/>
-                </search>

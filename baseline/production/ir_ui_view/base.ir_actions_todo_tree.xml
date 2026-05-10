@@ -1,7 +1,0 @@
-<list string="Config Wizard Steps">
-                    <field name="sequence" widget="handle"/>
-                    <field name="action_id"/>
-                    <field name="state" readonly="1"/>
-                    <button name="action_launch" invisible="state != 'open'" string="Launch" type="object" icon="fa-cogs" help="Launch Configuration Wizard"/>
-                    <button name="action_open" invisible="state != 'done'" string="Todo" type="object" help="Set as Todo" icon="fa-exchange"/>
-                </list>

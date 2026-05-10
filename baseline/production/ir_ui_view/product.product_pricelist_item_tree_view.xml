@@ -1,9 +1,0 @@
-<list string="Price Rules">
-                <field name="pricelist_id" groups="product.group_product_pricelist" required="is_pricelist_required"/>
-                <field name="name" string="Applied On"/>
-                <field name="price"/>
-                <field name="min_quantity" colspan="4"/>
-                <field name="date_start" optional="hide"/>
-                <field name="date_end" optional="hide"/>
-                <field name="company_id" groups="base.group_multi_company" optional="show"/>
-            </list>

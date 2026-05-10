@@ -1,9 +1,0 @@
-<list string="Products List">
-                <field name="currency_id" column_invisible="True"/>
-                <field name="name"/>
-                <field name="category_id"/>
-                <field name="supplier_id"/>
-                <field name="company_id" groups="base.group_multi_company"/>
-                <field name="description"/>
-                <field name="price" widget="monetary"/>
-            </list>

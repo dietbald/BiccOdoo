@@ -1,8 +1,0 @@
-<search>
-                <filter name="filter_not_is_article_item" string="Template" domain="[('is_article_item', '=', False)]"/>
-                <filter name="filter_is_article_item" string="Template Items" domain="[('is_article_item', '=', True)]"/>
-                <group>
-                    <filter name="group_by_template_category_id" domain="[]" context="{'group_by': 'template_category_id'}"/>
-                    <filter name="group_by_menu_article" context="{'group_by': 'root_article_id'}"/>
-                </group>
-            </search>

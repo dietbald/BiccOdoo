@@ -1,3 +1,0 @@
-<xpath expr="//filter[@name='transient']" position="after">
-                <filter name="merge_action_enabled" string="Can Be Merged" domain="[('ref_merge_ir_act_server_id', '!=', False)]"/>
-            </xpath>

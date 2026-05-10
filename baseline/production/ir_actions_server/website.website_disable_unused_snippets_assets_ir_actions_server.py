@@ -1,1 +1,0 @@
-model._disable_unused_snippets_assets()

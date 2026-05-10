@@ -1,9 +1,0 @@
-<data><xpath expr="//pivot" position="inside">
-                <field name="date" type="row"/>
-            </xpath>
-            <xpath expr="//field[@name='partner_id']" position="attributes">
-                <attribute name="invisible">context.get('group_by_date', False)</attribute>
-            </xpath>
-            <xpath expr="//field[@name='account_id']" position="replace">
-            </xpath>
-        </data>

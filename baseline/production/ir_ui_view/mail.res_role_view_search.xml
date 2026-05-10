@@ -1,8 +1,0 @@
-<search string="Roles Search">
-                    <field name="name" string="Role"/>
-                    <field name="user_ids"/>
-                    <filter string="My Roles" name="my_role_ids" domain="[('user_ids', '=', uid)]"/>
-                    <group>
-                        <filter string="Users" name="filter_user_ids" domain="[]" context="{'group_by': 'user_ids'}"/>
-                    </group>
-                </search>

@@ -1,8 +1,0 @@
-<t t-name="website.sitemap_index_xml"><t t-translation="off">&lt;?xml version="1.0" encoding="UTF-8"?&gt;
-<sitemapindex t-attf-xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <sitemap t-translation="off" t-foreach="pages" t-as="page">
-    <loc><t t-out="url_root"/>sitemap-<t t-out="page"/>.xml</loc>
-  </sitemap>
-</sitemapindex>
-</t>
-</t>

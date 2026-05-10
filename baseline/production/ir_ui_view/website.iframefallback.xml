@@ -1,6 +1,0 @@
-<data inherit_id="web.layout" primary="True">
-    <xpath expr="//head/link[last()]" position="after">
-        <t t-call-assets="web.assets_frontend" t-js="false"/>
-        <t t-call-assets="website.assets_wysiwyg" t-js="false"/>
-    </xpath>
-<xpath expr="." position="attributes"><attribute name="t-name">website.iframefallback</attribute></xpath></data>

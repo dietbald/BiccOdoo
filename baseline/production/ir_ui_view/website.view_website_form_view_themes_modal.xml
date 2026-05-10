@@ -1,9 +1,0 @@
-<data><xpath expr="//form" position="inside">
-                    <footer>
-                        <button name="create_and_redirect_configurator" type="object" string="Create" class="btn btn-primary" data-hotkey="q"/>
-                        <button string="Cancel" class="btn btn-secondary" special="cancel" data-hotkey="x"/>
-                    </footer>
-                </xpath>
-                <xpath expr="//notebook" position="replace"/>
-                <xpath expr="//field[@name='logo']" position="replace"/>
-            </data>

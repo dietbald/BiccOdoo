@@ -1,6 +1,0 @@
-<t t-name="hr_referral.referral_campaign_sms_template">Hello <t t-esc="employee_name"/>,
-<t t-esc="company_id.name"/> is hiring for a position <t t-esc="job_id.name"/>.
-If you know someone who would be a great fit for this position, please share this link with them:
-<t t-esc="job_url"/>
-Thanks!
-        </t>

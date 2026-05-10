@@ -1,6 +1,0 @@
-<list string="Product Variants" editable="bottom" default_order="is_favorite desc, default_code, name, id">
-                    <field name="name" readonly="1"/>
-                    <field name="default_code" readonly="1" optional="show"/>
-                    <field name="product_template_variant_value_ids" widget="many2many_tags" groups="product.group_product_variant" readonly="1"/>
-                    <field name="description" readonly="1" optional="show"/>
-                </list>

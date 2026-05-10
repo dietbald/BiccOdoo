@@ -1,1 +1,0 @@
-record.message_post(body="Reminder already sent")

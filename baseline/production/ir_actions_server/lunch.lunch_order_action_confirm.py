@@ -1,1 +1,0 @@
-records.action_confirm()

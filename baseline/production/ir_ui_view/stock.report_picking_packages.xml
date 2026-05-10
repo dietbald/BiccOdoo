@@ -1,4 +1,0 @@
-<t t-name="stock.report_picking_packages">
-    <t t-set="docs" t-value="docs._get_packages_for_print()"/>
-    <t t-call="stock.report_package_barcode"/>
-</t>

@@ -1,1 +1,0 @@
-model.process_email_queue()

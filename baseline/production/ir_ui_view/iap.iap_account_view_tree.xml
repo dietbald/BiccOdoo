@@ -1,9 +1,0 @@
-<list string="IAP Accounts" duplicate="false">
-                <field name="name"/>
-                <field name="service_id"/>
-                <field name="company_ids" widget="many2many_tags"/>
-                <field name="account_token" groups="base.group_no_one"/>
-                <field name="balance"/>
-                <field name="warning_threshold" optional="hidden"/>
-                <field name="description" optional="hidden"/>
-            </list>

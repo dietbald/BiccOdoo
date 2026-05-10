@@ -1,4 +1,0 @@
-<t t-name="project.portal_my_task_allocated_hours_template">
-        <strong t-if="task.allocated_hours &gt; 0" class="d-none">Allocated Time:</strong>
-        <span t-out="task.allocated_hours" t-options="{&quot;widget&quot;: &quot;float_time&quot;}"/>
-    </t>

@@ -1,8 +1,0 @@
-<pivot sample="1">
-                <field name="employee_id" type="row"/>
-                <field name="date" interval="month" type="col"/>
-                <field name="expected_hours" type="measure" widget="float_time"/>
-                <field name="worked_hours" type="measure" widget="float_time"/>
-                <field name="leave_hours" type="measure" widget="float_time"/>
-                <field name="difference_hours" type="measure" widget="float_time"/>
-            </pivot>

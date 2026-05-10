@@ -1,8 +1,0 @@
-<activity string="Vehicles Contracts">
-                <templates>
-                    <div t-name="activity-box">
-                        <field name="user_id" widget="many2one_avatar_user"/>
-                        <field name="vehicle_id" display="full" class="o_text_block"/>
-                    </div>
-                </templates>
-            </activity>

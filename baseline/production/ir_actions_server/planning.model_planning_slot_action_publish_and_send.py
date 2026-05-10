@@ -1,1 +1,0 @@
-action = records.action_planning_publish_and_send()

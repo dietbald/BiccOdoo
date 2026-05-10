@@ -1,9 +1,0 @@
-<data><xpath expr="//button[@name='action_get_attachment_view']" position="after">
-                <button name="action_open_purchase_orders" type="object" groups="purchase.group_purchase_user" class="oe_stat_button" icon="fa-credit-card" invisible="purchase_order_count == 0">
-                    <field name="purchase_order_count" string="Purchase Orders" groups="purchase.group_purchase_user" widget="statinfo"/>
-                </button>
-            </xpath>
-            <xpath expr="//button[@name='action_confirm']" position="after">
-                <button name="action_create_purchase_orders" type="object" groups="purchase.group_purchase_user" string="Create RFQ's" class="btn-primary" data-hotkey="g" invisible="approval_type != 'purchase' or request_status != 'approved' or purchase_order_count &gt; 0"/>
-            </xpath>
-        </data>

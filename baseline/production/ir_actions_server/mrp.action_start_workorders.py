@@ -1,1 +1,0 @@
-action = records.button_start(raise_on_invalid_state=True)

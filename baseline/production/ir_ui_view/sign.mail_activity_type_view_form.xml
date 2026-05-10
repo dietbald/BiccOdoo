@@ -1,3 +1,0 @@
-<xpath expr="//field[@name='category']" position="after">
-                <field name="default_sign_template_id" invisible="category != 'sign_request'" options="{'no_quick_create': True, 'no_create_edit': True}"/>
-            </xpath>

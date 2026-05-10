@@ -1,5 +1,0 @@
-<t name="Accept app" t-name="mail_plugin.app_error">
-        <t t-call="web.login_layout">
-            <div class="alert alert-danger" role="alert" t-out="error"/>
-        </t>
-    </t>

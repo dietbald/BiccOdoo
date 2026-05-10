@@ -1,1 +1,0 @@
-model._snailmail_cron()

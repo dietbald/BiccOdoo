@@ -1,9 +1,0 @@
-<t t-name="stock.jewelry_zpl_label">
-^FT210,30^A0N,25^FD<t t-out="product.name"/>^FS
-            <t t-if="barcode">
-^FO35,5^BY1 ^BCN,80,Y,N,N ^FD<t t-out="barcode"/>^FS
-            </t>
-            <t t-if="price_included">
-^FO290,50 ^A0N,30^FH ^FD<t t-esc="price"/>^FS
-            </t>
-        </t>

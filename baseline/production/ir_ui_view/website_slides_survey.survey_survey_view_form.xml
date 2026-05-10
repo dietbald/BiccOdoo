@@ -1,5 +1,0 @@
-<xpath expr="//button[@name='action_survey_user_input_certified']" position="before">
-                <button name="action_survey_view_slide_channels" type="object" class="oe_stat_button" invisible="slide_channel_count == 0" icon="fa-graduation-cap" groups="website_slides.group_website_slides_officer">
-                    <field string="Courses" name="slide_channel_count" widget="statinfo"/>
-                </button>
-            </xpath>

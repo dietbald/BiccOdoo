@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='department_id']" position="after">
-                <filter string="My Favorites" name="my_favorite_jobs" domain="[('favorite_user_ids', 'in', uid)]"/>
-                <separator/>
-            </xpath>

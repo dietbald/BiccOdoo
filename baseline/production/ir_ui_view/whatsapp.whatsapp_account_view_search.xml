@@ -1,8 +1,0 @@
-<search>
-                <field name="name"/>
-                <field name="phone_uid"/>
-                <field name="account_uid"/>
-                <field name="app_uid"/>
-                <separator/>
-                <filter string="Archived" name="filter_archived" domain="[('active', '=', False)]"/>
-            </search>

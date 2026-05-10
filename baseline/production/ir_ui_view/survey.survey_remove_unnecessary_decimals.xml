@@ -1,3 +1,0 @@
-<t name="Survey: remove .0" t-name="survey.survey_remove_unnecessary_decimals">
-        <t t-esc="value_to_format if value_to_format % 1 else int(value_to_format)"/>
-    </t>

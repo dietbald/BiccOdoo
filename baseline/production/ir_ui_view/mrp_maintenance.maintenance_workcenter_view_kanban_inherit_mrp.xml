@@ -1,9 +1,0 @@
-<xpath expr="//t[@t-name='card']" position="inside">
-                <footer>
-                    <div class="badge text-bg-danger" t-if="!selection_mode and record.maintenance_open_count.raw_value">
-                        <field name="maintenance_open_count"/> Request
-                    </div>
-                    <field t-if="!selection_mode" name="activity_ids" class="ms-auto" widget="kanban_activity"/>
-                    <field name="technician_user_id" widget="many2one_avatar_user"/>
-                </footer>
-            </xpath>

@@ -1,9 +1,0 @@
-<xpath expr="//h1[@t-field='job.name']" position="replace">
-    <h1 class="o_not_editable">
-        <span>Hiring: </span>
-        <span t-field="job.name"/>
-        <t t-if="job.address_id and job.address_id.city">
-            – <span t-field="job.address_id.city"/>
-        </t>
-    </h1>
-</xpath>

@@ -1,1 +1,0 @@
-action = model.action_opportunity_forecast()

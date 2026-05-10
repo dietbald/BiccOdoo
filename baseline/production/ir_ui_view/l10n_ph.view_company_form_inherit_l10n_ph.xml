@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='vat']" position="after">
-                <field name="branch_code" invisible="country_code != 'PH'"/>
-                <field name="l10n_ph_rdo" invisible="country_code != 'PH'"/>
-            </xpath>

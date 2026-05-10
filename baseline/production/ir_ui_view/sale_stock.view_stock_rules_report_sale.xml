@@ -1,3 +1,0 @@
-<xpath expr="//field[@name='warehouse_ids']" position="after">
-                <field name="so_route_ids" widget="many2many_tags" groups="stock.group_adv_location"/>
-            </xpath>

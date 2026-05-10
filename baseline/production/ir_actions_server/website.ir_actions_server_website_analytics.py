@@ -1,1 +1,0 @@
-action = model.env.ref('website.backend_dashboard').sudo().read()[0]

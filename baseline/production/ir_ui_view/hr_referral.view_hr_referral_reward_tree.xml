@@ -1,9 +1,0 @@
-<list sample="1">
-                <field name="sequence" widget="handle" readonly="not is_gift_manager"/>
-                <field name="name" readonly="not is_gift_manager"/>
-                <field name="cost" readonly="not is_gift_manager"/>
-                <field name="gift_manager_id"/>
-                <field name="activity_ids" widget="list_activity" optional="show" readonly="not is_gift_manager"/>
-                <field name="awarded_employees" readonly="not is_gift_manager"/>
-                <field name="company_id" groups="base.group_multi_company" readonly="not is_gift_manager"/>
-            </list>

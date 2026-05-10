@@ -1,8 +1,0 @@
-<activity string="Project" js_class="project_project_activity">
-                    <templates>
-                        <div t-name="activity-box" class="d-flex">
-                            <field name="user_id" widget="many2one_avatar_user"/>
-                            <field name="name" string="Project Name" class="flex-grow-1 o_text_block"/>
-                        </div>
-                    </templates>
-                </activity>

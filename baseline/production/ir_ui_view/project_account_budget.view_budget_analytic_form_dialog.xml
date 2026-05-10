@@ -1,8 +1,0 @@
-<data><xpath expr="//header/button[@name='action_budget_confirm']" position="replace"/>
-            <xpath expr="//page[@name='budget_lines']/field[@name='budget_line_ids']/list/field[@name='account_id']" position="attributes">
-                <attribute name="options">{'no_open': True}</attribute>
-            </xpath>
-            <xpath expr="//page[@name='budget_lines']/field[@name='budget_line_ids']/list/button[@name='action_open_budget_entries']" position="attributes">
-                <attribute name="invisible">1</attribute>
-            </xpath>
-        </data>

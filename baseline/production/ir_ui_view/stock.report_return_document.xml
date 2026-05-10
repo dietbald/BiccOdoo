@@ -1,5 +1,0 @@
-<t t-name="stock.report_return_document">
-        <t t-foreach="docs" t-as="o">
-            <t t-call="stock.report_return_slip" t-lang="o._get_report_lang()"/>
-        </t>
-    </t>

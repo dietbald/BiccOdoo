@@ -1,1 +1,0 @@
-action = (record or model)._get_action_fsm_task_mobile_view()

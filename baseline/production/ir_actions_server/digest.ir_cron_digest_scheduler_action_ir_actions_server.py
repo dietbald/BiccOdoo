@@ -1,1 +1,0 @@
-model._cron_send_digest_email()

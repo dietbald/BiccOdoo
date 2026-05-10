@@ -1,1 +1,0 @@
-model._run_vacuum_cleaner()

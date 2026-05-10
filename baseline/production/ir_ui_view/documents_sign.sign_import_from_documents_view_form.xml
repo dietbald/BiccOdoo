@@ -1,9 +1,0 @@
-<form string="Select a Document to Import and Sign">
-                <group>
-                    <field name="selected_document" string="Select a Document" widget="many2one" domain="[('mimetype', '=', 'application/pdf')]" options="{'no_create': True, 'no_create_edit': True}"/>
-                </group>
-                <footer>
-                    <button string="Import and Sign" type="object" class="btn-primary" name="action_import_and_create"/>
-                    <button string="Cancel" class="btn-secondary" special="cancel"/>
-                </footer>
-            </form>

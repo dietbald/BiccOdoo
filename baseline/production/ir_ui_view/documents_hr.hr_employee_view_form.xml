@@ -1,5 +1,0 @@
-<xpath expr="//button[@name='action_open_versions']" position="before">
-                <button name="action_open_documents" class="oe_stat_button" groups="documents.group_documents_user" icon="fa-file-text" type="object">
-                    <field name="document_count" widget="statinfo" string="Documents"/>
-                </button>
-            </xpath>

@@ -1,7 +1,0 @@
-<data name="Mail: mail notification layout with responsible signature (user_id of the record)" inherit_id="mail.mail_notification_layout" primary="True">
-            <xpath expr="//t[hasclass('o_signature')]" position="replace">
-                <t class="o_signature">
-                    <div t-if="email_add_signature and record and 'user_id' in record and record.user_id and not record.env.user._is_superuser() and not is_html_empty(record.user_id.sudo().signature)" t-out="record.user_id.sudo().signature" class="o_signature" style="font-size: 13px;"/>
-                </t>
-            </xpath>
-        <xpath expr="." position="attributes"><attribute name="t-name">mail.mail_notification_layout_with_responsible_signature</attribute></xpath></data>

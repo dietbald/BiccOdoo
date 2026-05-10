@@ -1,6 +1,0 @@
-<xpath expr="//t[@name='warning_section']" position="inside">
-                <div role="alert" class="alert alert-warning d-flex align-items-center" invisible="not leave_warning or not user_ids">
-                        <i class="fa fa-user-times me-2" role="img" title="Leave warning"/>
-                        <field name="leave_warning" nolabel="1" class="m-0"/>
-                </div>
-            </xpath>

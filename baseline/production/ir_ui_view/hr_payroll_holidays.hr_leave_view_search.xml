@@ -1,9 +1,0 @@
-<data><xpath expr="//filter[@name='group_employee']" position="before">
-                <separator/>
-                <filter string="To Defer" name="to_defer" domain="[('payslip_state', '=', 'blocked')]" groups="hr_holidays.group_hr_holidays_user"/>
-                <separator/>
-            </xpath>
-            <xpath expr="//field[@name='employee_id']" position="after">
-                <field name="employee_registration_number" string="Employee Reference" filter_domain="[('employee_registration_number','ilike', self)]"/>
-            </xpath>
-        </data>

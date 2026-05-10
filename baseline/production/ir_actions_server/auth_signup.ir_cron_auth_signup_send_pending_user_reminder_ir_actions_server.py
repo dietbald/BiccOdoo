@@ -1,1 +1,0 @@
-model.send_unregistered_user_reminder(batch_size=100)

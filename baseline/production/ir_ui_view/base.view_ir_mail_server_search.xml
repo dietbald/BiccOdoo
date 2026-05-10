@@ -1,7 +1,0 @@
-<search string="Outgoing Mail Servers">
-                    <field name="name" filter_domain="['|', '|',                                         ('name', 'ilike', self),                                         ('smtp_host', 'ilike', self),                                         ('smtp_user', 'ilike', self)]" string="Outgoing Mail Server"/>
-                    <field name="smtp_encryption"/>
-                    <field name="from_filter"/>
-                    <separator/>
-                    <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
-                </search>

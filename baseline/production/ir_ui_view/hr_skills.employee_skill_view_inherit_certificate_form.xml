@@ -1,4 +1,0 @@
-<field name="skill_type_id" position="attributes">
-                <attribute name="domain">[('is_certification', '=', True)]</attribute>
-                <attribute name="invisible">certification_skill_type_count &lt;= 1</attribute>
-            </field>

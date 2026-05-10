@@ -1,3 +1,0 @@
-<xpath expr="//filter[@name='pdf_doc']" position="after">
-                <filter string="Spreadsheets" name="spreadsheet" domain="[('handler', 'in', ('spreadsheet', 'frozen_spreadsheet'))]"/>
-            </xpath>

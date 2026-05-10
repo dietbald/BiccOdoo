@@ -1,1 +1,0 @@
-model._send_rating_all()

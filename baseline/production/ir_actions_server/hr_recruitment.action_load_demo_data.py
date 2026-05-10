@@ -1,1 +1,0 @@
-action = model._action_load_recruitment_scenario()

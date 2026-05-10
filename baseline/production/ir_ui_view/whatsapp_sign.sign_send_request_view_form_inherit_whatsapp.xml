@@ -1,3 +1,0 @@
-<xpath expr="//footer/button[@name='send_request']" position="after">
-                <button string="Send via WhatsApp" name="send_via_whatsapp" type="object" class="btn-primary" invisible="context.get('sign_directly_without_mail',False) or not is_whatsapp_feature_enabled" data-hotkey="w"/>
-            </xpath>

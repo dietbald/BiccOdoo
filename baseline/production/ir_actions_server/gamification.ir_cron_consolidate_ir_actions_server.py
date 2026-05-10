@@ -1,1 +1,0 @@
-model._consolidate_cron()

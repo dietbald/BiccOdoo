@@ -1,5 +1,0 @@
-<button name="action_view_invoice" position="before">
-                <button name="561" type="action" class="oe_stat_button" icon="fa-money" invisible="expense_count == 0">
-                    <field name="expense_count" widget="statinfo" string="Expenses"/>
-                </button>
-            </button>

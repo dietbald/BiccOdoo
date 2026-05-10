@@ -1,8 +1,0 @@
-<list decoration-success="can_be_marked_as_done" decoration-danger="is_deadline_exceeded and not can_be_marked_as_done" decoration-muted="is_reached" editable="bottom" sample="1" default_order="sequence, deadline, is_reached desc, name">
-                <field name="sequence" widget="handle"/>
-                <field name="name"/>
-                <field name="deadline" optional="show"/>
-                <field name="project_id" column_invisible="1"/>
-                <field name="is_reached" optional="show"/>
-                <button name="action_view_tasks" type="object" title="View Tasks" string="View Tasks" class="btn btn-link float-end" invisible="task_count == 0 or not project_allow_milestones" groups="project.group_project_milestone"/>
-            </list>

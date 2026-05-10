@@ -1,3 +1,0 @@
-<xpath expr="//field[@name='state']" position="after">
-                    <filter string="Website" name="website" domain="[('website_published', '=', True), ('state', '=', 'code')]"/>
-                </xpath>

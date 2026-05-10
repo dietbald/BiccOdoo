@@ -1,6 +1,0 @@
-<list string="Planning Role List" editable="bottom" multi_edit="1">
-                <field name="sequence" widget="handle"/>
-                <field name="name" placeholder="e.g. Cleaner"/>
-                <field name="resource_ids" widget="many2many_avatar_resource" optional="show" placeholder="e.g. John Doe" context="{'form_view_ref': 'planning.resource_resource_form_tags_view_inherit',                             'show_job_title': True, 'from_planning': True, 'list_view_ref': 'planning.resource_resource_tree_view_inherit'}"/>
-                <field name="color" widget="color_picker" optional="show"/>
-            </list>

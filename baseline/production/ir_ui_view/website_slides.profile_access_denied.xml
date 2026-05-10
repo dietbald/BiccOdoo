@@ -1,7 +1,0 @@
-<data inherit_id="website_profile.profile_access_denied">
-        <xpath expr="//div[@id='profile_access_denied_return_link_container']" position="inside">
-            <t t-if="request.params.get('channel_id')">
-                <p><a t-attf-href="/slides/course-#{request.params.get('channel_id')}" class="o_translate_inline">Return to the course.</a></p>
-            </t>
-        </xpath>
-    </data>

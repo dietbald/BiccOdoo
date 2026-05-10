@@ -1,7 +1,0 @@
-<t t-name="project.task_invitation_follower">
-<div>
-    Hello <t t-out="partner_name"/>,
-    <br/><br/>
-    <span style="margin-top: 8px;">You have been invited to follow Task Document : <t t-out="object.display_name"/>.</span>
-</div>
-        </t>

@@ -1,8 +1,0 @@
-<div name="button_box" position="inside">
-                <button name="open_maintenance_request_mo" type="object" class="oe_stat_button" icon="fa-wrench" invisible="maintenance_count == 0" context="{'search_default_production_id': id}">
-                    <div class="o_field_widget o_stat_info">
-                        <span class="o_stat_value"><field name="maintenance_count"/></span>
-                        <span class="o_stat_text">Maintenance</span>
-                    </div>
-                </button>
-            </div>

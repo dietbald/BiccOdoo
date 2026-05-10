@@ -1,4 +1,0 @@
-<field name="user_ids" position="before">
-                <field name="allow_worksheets" invisible="1"/>
-                <field name="worksheet_template_id" invisible="not allow_worksheets or (not partner_id and not is_fsm)" options="{'no_open': True, 'no_create': True}" context="{'default_res_model': 'project.task'}"/>
-            </field>

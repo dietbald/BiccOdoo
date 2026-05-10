@@ -1,7 +1,0 @@
-<search string="Search Group">
-                    <field name="name"/>
-                    <field name="country_id"/>
-                    <group>
-                        <filter string="Country" name="group_by_country" domain="[]" context="{'group_by': 'country_id'}"/>
-                    </group>
-                </search>

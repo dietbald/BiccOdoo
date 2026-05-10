@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='name']" position="after">
-                <filter string="Created by User" name="created_by_user" domain="[('created_automatically', '=', False)]"/>
-                <filter string="Created Automatically" name="created_automatically" domain="[('created_automatically', '=', True)]"/>
-            </xpath>

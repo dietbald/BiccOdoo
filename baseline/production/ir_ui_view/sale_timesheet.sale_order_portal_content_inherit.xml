@@ -1,7 +1,0 @@
-<data inherit_id="sale.sale_order_portal_template">
-        <xpath expr="//t[@t-set='entries']/div/div/div[hasclass('o_download_pdf')]" position="inside">
-            <t t-if="sale_order.timesheet_count &gt; 0 and sale_order.state == 'sale' and sale_order.env['account.analytic.line']._show_portal_timesheets()">
-                <a class="btn btn-light flex-grow-1" t-att-href="'/my/timesheets?search_in=so&amp;search=%s' % sale_order.name" title="View Timesheets" target="_blank" role="button">View Timesheets</a>
-            </t>
-        </xpath>
-    </data>

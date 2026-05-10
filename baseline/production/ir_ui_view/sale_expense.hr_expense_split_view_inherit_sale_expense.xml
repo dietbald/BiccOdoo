@@ -1,4 +1,0 @@
-<xpath expr="//field[@name='employee_id']" position="after">
-                <field name="can_be_reinvoiced" column_invisible="True"/>
-                <field name="sale_order_id" force_save="1" readonly="not can_be_reinvoiced"/>
-            </xpath>

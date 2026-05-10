@@ -1,1 +1,0 @@
-ai['result'] = record.sudo()._ai_create_lead(name, contact_name, description, email, phone, team_id, tag_ids, priority, country_id, state_id, city, zip_code, street, job_position)

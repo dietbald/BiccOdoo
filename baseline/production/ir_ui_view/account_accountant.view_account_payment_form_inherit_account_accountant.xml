@@ -1,9 +1,0 @@
-<data><xpath expr="//button[@name='button_open_journal_entry']" position="attributes">
-                <attribute name="groups">account.group_account_user</attribute>
-            </xpath>
-
-            <!-- Stat button to open the manual reconciliation widget -->
-            <xpath expr="//div[@name='button_box']" position="inside">
-                <button name="action_open_manual_reconciliation_widget" type="object" string="Payment Matching" class="oe_stat_button" icon="fa-dollar" groups="account.group_account_user" invisible="is_reconciled or not move_id or state not in ('in_process', 'paid')"/>
-            </xpath>
-        </data>

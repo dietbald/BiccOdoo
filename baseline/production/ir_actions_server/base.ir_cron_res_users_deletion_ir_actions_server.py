@@ -1,1 +1,0 @@
-model._gc_portal_users(batch_size=50)

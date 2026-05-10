@@ -1,4 +1,0 @@
-<search string="Search Taxes">
-                    <field name="name" filter_domain="['|', '|', ('name', 'ilike', self), ('description', 'ilike', self), ('invoice_label', 'ilike', self)]" string="Tax"/>
-                    <field name="company_id" groups="base.group_multi_company"/>
-                </search>

@@ -1,7 +1,0 @@
-<list string="Combo Choices">
-                <field name="currency_id" column_invisible="True"/>
-                <field name="sequence" widget="handle"/>
-                <field name="name"/>
-                <field name="base_price" widget="monetary" options="{'field_digits': True}"/>
-                <field name="combo_item_count"/>
-            </list>

@@ -1,1 +1,0 @@
-ai['result'] = record._ai_action_move_in_folder(folder_id)

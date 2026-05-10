@@ -1,1 +1,0 @@
-model._cron_check_work_permit_validity()

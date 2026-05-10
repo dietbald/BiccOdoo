@@ -1,1 +1,0 @@
-action = records.action_create_project()

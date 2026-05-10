@@ -1,7 +1,0 @@
-<data inherit_id="portal.portal_docs_entry">
-        <xpath expr="//a" position="inside">
-            <button t-if="show_pay_overdue_invoices_button" onclick="event.preventDefault(); window.location.href='/my/invoices/overdue'" class="btn btn-secondary ms-auto">
-                Pay Now
-            </button>
-        </xpath>
-    </data>

@@ -1,6 +1,0 @@
-<t t-name="survey.survey_selection_key">
-        <div t-if="useKeySelection" t-att-class="'o_survey_choice_key bg-white rounded %s' % selection_key_class">
-             <span class="o_survey_key text-center position-absolute bg-white rounded-start py-0 ps-2"><span class="text-primary text-center text-center w-100 position-relative">Key</span></span>
-             <span class="text-primary text-center w-100 position-relative" t-esc="letters[item_idx]"/>
-        </div>
-    </t>

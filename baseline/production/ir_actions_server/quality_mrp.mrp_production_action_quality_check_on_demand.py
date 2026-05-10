@@ -1,1 +1,0 @@
-action = record.action_open_on_demand_quality_check()

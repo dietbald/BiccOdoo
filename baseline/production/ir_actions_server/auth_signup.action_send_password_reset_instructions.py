@@ -1,1 +1,0 @@
-records.action_reset_password()

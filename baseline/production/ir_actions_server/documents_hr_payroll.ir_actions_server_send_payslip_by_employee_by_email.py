@@ -1,1 +1,0 @@
-action = records.action_resend_payslips()

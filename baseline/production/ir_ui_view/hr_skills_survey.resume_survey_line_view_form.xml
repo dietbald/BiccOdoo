@@ -1,9 +1,0 @@
-<data><xpath expr="//field[@name='certificate_file']" position="before">
-                <field name="survey_id" domain="[('certification', '=', True)]" readonly="0" invisible="line_type_id != 3"/>
-            </xpath>
-            <field name="survey_id" position="attributes">
-                <attribute name="context">
-                    {'default_certification': True}
-                </attribute>
-            </field>
-        </data>

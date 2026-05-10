@@ -1,8 +1,0 @@
-<t t-name="hr_recruitment_sign.message_signature_request">
-            <span><t t-esc="user_name"/> requested a new signature on the following documents:</span>
-            <br/>
-            <ul>
-                <li t-foreach="document_names" t-as="name" t-esc="name"/>
-            </ul>
-            <p><t t-esc="signatories_text"/></p>
-        </t>

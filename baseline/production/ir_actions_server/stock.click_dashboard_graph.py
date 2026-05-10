@@ -1,1 +1,0 @@
-action = model.get_action_click_graph()

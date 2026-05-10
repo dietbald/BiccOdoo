@@ -1,4 +1,0 @@
-<t t-name="stock.label_package_history_template_view">
-            <t t-set="docs" t-value="docs.package_id"/>
-            <t t-call="stock.label_package_template_view"/>
-        </t>

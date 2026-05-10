@@ -1,8 +1,0 @@
-<data inherit_id="project.portal_tasks_list" name="Portal: My Tasks with Timesheets">
-        <xpath expr="//t[@t-out='timesheet_ids._convert_hours_to_days(task.total_hours_spent)']" position="replace">
-            <t t-out="timesheet_ids._convert_hours_to_days(task.portal_total_hours_spent)"/>
-        </xpath>
-        <xpath expr="//span[@t-field='task.total_hours_spent']" position="attributes">
-            <attribute name="t-field">task.portal_total_hours_spent</attribute>
-        </xpath>
-    </data>

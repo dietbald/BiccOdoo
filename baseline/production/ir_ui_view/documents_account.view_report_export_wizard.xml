@@ -1,6 +1,0 @@
-<xpath expr="//group/group" position="after">
-                    <group>
-                        <field name="folder_id" widget="documents_folder_many2one"/>
-                        <field name="tag_ids" widget="many2many_tags"/>
-                    </group>
-                </xpath>

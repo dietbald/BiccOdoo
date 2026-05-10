@@ -1,8 +1,0 @@
-<kanban class="o_kanban_mobile">
-                    <templates>
-                        <t t-name="card">
-                            <field name="name" class="fw-bolder"/>
-                            <field t-if="record.code.raw_value" name="code"/>
-                        </t>
-                    </templates>
-                </kanban>

@@ -1,9 +1,0 @@
-<data><xpath expr="/kanban" position="inside">
-                    <field name="id"/>
-                </xpath>
-                <xpath expr="//div[@name='task_analysis']" position="before">
-                    <div role="menuitem" groups="project.group_project_user">
-                        <a name="project_update_all_action" type="object" t-attf-context="{'active_id': #{record.id.raw_value} }">Dashboard</a>
-                    </div>
-                </xpath>
-            </data>
