@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9112,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expense Manager",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "expense_manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fc710b432d794afea2c603983a01e20c1873cbfb76bbe63be248e94d495d6bbd",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_employee_public__expense_manager_id"
+}

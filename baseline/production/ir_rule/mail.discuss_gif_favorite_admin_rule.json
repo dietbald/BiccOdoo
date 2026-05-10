@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 47,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      2
+    ],
+    "model_id": [
+      203,
+      "Save favorite GIF from Tenor API"
+    ],
+    "name": "Discuss.gif.favorite: admin full access",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "38c99ad2a1d3ab43b8abca0826721d93a26ce9b8dbcd9b296de95df05ad0298d",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.discuss_gif_favorite_admin_rule"
+}

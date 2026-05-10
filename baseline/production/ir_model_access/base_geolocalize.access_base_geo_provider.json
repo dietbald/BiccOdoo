@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1588,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1060,
+      "Geo Provider"
+    ],
+    "name": "access_base_geo_provider",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "f90a978d326d3f558574de9dcfd65c04a32ca01e9c7eda9d549b6f357dbf4898",
+  "write_date": "2025-12-09 02:55:44",
+  "xml_id": "base_geolocalize.access_base_geo_provider"
+}

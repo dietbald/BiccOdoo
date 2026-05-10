@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 52935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Application Information",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "x_studio_application_information",
+    "relation": "survey.survey",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f791652701c77898f628f5bfdb491138932f62bdbafab7c8cfb9ca9469bbc2cc",
+  "write_date": "2025-12-12 10:19:01",
+  "xml_id": "studio_customization.new_many2one_job_pos_f8e02ae0-e207-4cef-8aaf-078b653ae147"
+}

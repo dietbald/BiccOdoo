@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17798,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1031,
+      "Social Stream Post Image Attachment"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ec9bc4308b81ffe34f84134a02c6ad0f0b00b8449e1c52cacdb7686fc0d7c5cc",
+  "write_date": "",
+  "xml_id": "social.field_social_stream_post_image__write_uid"
+}

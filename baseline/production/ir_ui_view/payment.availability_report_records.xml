@@ -1,0 +1,40 @@
+<t t-name="payment.availability_report_records">
+        <!-- Parameters description:
+            - records: The records to list in the availability report, as a dict with the structure
+                       {record: {'available': bool, 'reason': str, supported_providers: list}}.
+        -->
+        <ul class="list-group">
+            <t t-foreach="records" t-as="r">
+                <t t-set="available" t-value="records[r]['available']"/>
+                <li class="list-group-item ps-0">
+                    <div class="d-flex gap-2">
+                        <div class="ms-2">
+                            <i t-attf-class="fa fa-fw fa-{{'check-circle' if available else 'times-circle'}}" t-attf-style="color: {{'green' if available else 'red'}};"/>
+                        </div>
+                        <div>
+                            <p class="lead mb-0">
+                                <span class="fw-normal"><t t-out="r.name"/></span>
+                                <span class="text-muted">(ID: <t t-out="r.id"/>)</span>
+                            </p>
+                            <t t-if="not available">
+                                <p class="mb-0 fw-light">
+                                    Reason: <t t-out="records[r]['reason']"/>
+                                </p>
+                            </t>
+                            <t t-if="r._name == 'payment.method' and 'supported_providers' in records[r]">
+                                <p class="mb-0 fw-light">
+                                    Supported providers:
+                                     <t t-foreach="records[r]['supported_providers']" t-as="p">
+                                        <span t-attf-class="text-{{'success' if p[1] else 'danger'}}">
+                                            <t t-out="p[0].name"/>
+                                        </span>
+                                        <t t-if="records[r]['supported_providers'][-1] != p">,</t>
+                                    </t>
+                                </p>
+                            </t>
+                        </div>
+                    </div>
+                </li>
+            </t>
+        </ul>
+    </t>

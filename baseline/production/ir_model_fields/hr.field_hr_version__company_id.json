@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10383,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "759617300303d82880db41699e26139a0d1ddf0247db5596ad8d0ad8d76c7df1",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__company_id"
+}

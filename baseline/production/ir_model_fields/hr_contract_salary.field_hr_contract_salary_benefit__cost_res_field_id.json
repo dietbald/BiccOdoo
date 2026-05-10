@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20999,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cost Field",
+    "model_id": [
+      1274,
+      "Salary Package Benefit"
+    ],
+    "name": "cost_res_field_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "28ecda0d91b9716b73d881457743a4ef5ae2c3bc6044dbdf8b5187a5bf7e7aa1",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_benefit__cost_res_field_id"
+}

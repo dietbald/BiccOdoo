@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8522,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Optional Products",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "optional_product_ids",
+    "relation": "product.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8af9e9057e6d343e6f06b24c56f8983b9d6dfafb6b33d1a0592cc51746b7bcb0",
+  "write_date": "",
+  "xml_id": "sale.field_product_template__optional_product_ids"
+}

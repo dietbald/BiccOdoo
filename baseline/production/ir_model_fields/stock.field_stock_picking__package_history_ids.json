@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transfered Packages",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "package_history_ids",
+    "relation": "stock.package.history",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d1eda56803845ac2ea1f08f7a60f0b51dbff4a7daf6dd9d9f0d5125a3bc19557",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__package_history_ids"
+}

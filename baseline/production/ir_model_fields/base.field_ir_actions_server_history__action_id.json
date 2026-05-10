@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26732,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action",
+    "model_id": [
+      2777,
+      "Server Action History"
+    ],
+    "name": "action_id",
+    "relation": "ir.actions.server",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d6351ca31d8317ca55e163eaa5ad800f0aad1644c371d2123f661dede66a3dea",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server_history__action_id"
+}

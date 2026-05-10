@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17705,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "582ac652edc2b725102a4efeb578bbe77ff7a0900767daed0f30f98c0fb6a7b5",
+  "write_date": "",
+  "xml_id": "social.field_social_post__message_ids"
+}

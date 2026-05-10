@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11777,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      773,
+      "Stock Request an Inventory Count"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "186fb0690793afda740f4f3df134b70f2b35766b71bf8a6e5dbfc6fa1875e0f7",
+  "write_date": "",
+  "xml_id": "stock.field_stock_request_count__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5652,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      484,
+      "Payment Refund Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4380a6cfbab6d7dd27b8a30218831d03102293b3bcf130a3f3a7d7ecc50892fb",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_refund_wizard__create_uid"
+}

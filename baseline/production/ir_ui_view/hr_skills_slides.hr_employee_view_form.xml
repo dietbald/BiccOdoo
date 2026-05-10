@@ -1,0 +1,6 @@
+<button name="action_open_versions" position="before">
+                <field name="has_subscribed_courses" invisible="1" groups="website_slides.group_website_slides_officer"/>
+                <button name="action_open_courses" class="oe_stat_button" groups="website_slides.group_website_slides_officer" icon="fa-graduation-cap" type="object" invisible="not user_id or not has_subscribed_courses">
+                    <field name="courses_completion_text" widget="statinfo" string="Courses"/>
+                </button>
+            </button>

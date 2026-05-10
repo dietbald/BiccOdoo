@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23956,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1478,
+      "Close Loan Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "17d56d95551036e86ffc45b6d7db70c58d525120142011b7b13fedb9a98bfb0c",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_close_wizard__write_uid"
+}

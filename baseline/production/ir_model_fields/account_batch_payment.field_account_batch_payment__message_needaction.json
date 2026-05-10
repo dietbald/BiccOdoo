@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19089,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5267b05d5935cd1e130b9ff529e38a98d17ffc22be39e825a6d1ccbb2bf5f455",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__message_needaction"
+}

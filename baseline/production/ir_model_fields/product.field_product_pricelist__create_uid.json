@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3152,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "49acbd3646b694e47c0f8a57c684d13048cd91619ed4f6c55f108db9b9039af1",
+  "write_date": "",
+  "xml_id": "product.field_product_pricelist__create_uid"
+}

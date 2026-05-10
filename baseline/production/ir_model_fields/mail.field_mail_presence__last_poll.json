@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1468,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Poll",
+    "model_id": [
+      125,
+      "User/Guest Presence"
+    ],
+    "name": "last_poll",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "7ecc3c8d2c86a09af57ec3ad4da4d40690f6cdc9c7a1d5317cf3df2637b54189",
+  "write_date": "",
+  "xml_id": "mail.field_mail_presence__last_poll"
+}

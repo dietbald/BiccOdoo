@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23481,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Un-invoiced Balance",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "amount_to_invoice",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "4d91c473387ff7440fbd91ef884920fe5de2dc76a0c82a40e25ecb677b5f18be",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__amount_to_invoice"
+}

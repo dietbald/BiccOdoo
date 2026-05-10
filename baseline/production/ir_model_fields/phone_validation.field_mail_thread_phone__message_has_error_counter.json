@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2799,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      353,
+      "Phone Blacklist Mixin"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "943b9e268d963f52d8995702fc842cf0f1aa51e30b70642c90ce303e6f8679d0",
+  "write_date": "",
+  "xml_id": "phone_validation.field_mail_thread_phone__message_has_error_counter"
+}

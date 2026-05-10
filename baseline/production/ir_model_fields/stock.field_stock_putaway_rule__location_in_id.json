@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10824,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "When product arrives in",
+    "model_id": [
+      726,
+      "Putaway Rule"
+    ],
+    "name": "location_in_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "294c68d7c00b4dcb6aca62d0e602a2413e023cb68afdd18e509b9ebbb130e897",
+  "write_date": "",
+  "xml_id": "stock.field_stock_putaway_rule__location_in_id"
+}

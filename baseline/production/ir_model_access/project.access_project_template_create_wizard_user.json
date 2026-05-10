@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2010,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      40,
+      "Project / User"
+    ],
+    "model_id": [
+      3334,
+      "Project Template create Wizard"
+    ],
+    "name": "project.template.create.wizard.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "39e9c06d0dc41be982f182c9a0f90b30ec1bb7606b2b6ddeddfaf3ddb2c20617",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_template_create_wizard_user"
+}

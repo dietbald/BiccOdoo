@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19708,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "WhatsApp Template",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "wa_template_id",
+    "relation": "whatsapp.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fb2c9009c6fcee31494bf41e52c6557ece34b27d49c244ba0fed8d47469aee0f",
+  "write_date": "",
+  "xml_id": "whatsapp.field_ir_cron__wa_template_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22169,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "933b5797cce0a0979dada5181dc2b0d2e56cc85cf9a8ced2b1e46003cd90da9d",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__message_is_follower"
+}

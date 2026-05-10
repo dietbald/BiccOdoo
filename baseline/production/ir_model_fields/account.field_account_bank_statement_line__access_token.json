@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4798,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Security Token",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "e1eada5edd62d766e5e06a221e256ff3b4eee1c4c5d7f9affe26fada01f496dc",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__access_token"
+}

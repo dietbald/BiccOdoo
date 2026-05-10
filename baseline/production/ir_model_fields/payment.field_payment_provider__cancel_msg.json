@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3667,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cancelled Message",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "cancel_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "6d428857d3c6313c46e809eabdaee5f27456b0e42f05c4d8367d57328cb5c04f",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__cancel_msg"
+}

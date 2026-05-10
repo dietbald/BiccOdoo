@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12157,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Payment",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "has_payment_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "af0b0d8991b7c608c65dcc4729cd0b4f907c0fc75a3b548ef1689e02593c00c2",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__has_payment_method"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17668,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Social Accounts",
+    "model_id": [
+      1025,
+      "Social Post Template"
+    ],
+    "name": "account_ids",
+    "relation": "social.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "88b8319950e506b9a172b16325c8f51f5e465db946fb0cfceb0a64c551adcbb2",
+  "write_date": "",
+  "xml_id": "social.field_social_post_template__account_ids"
+}

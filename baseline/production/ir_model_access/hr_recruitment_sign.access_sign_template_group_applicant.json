@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 926,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      709,
+      "Signature Template"
+    ],
+    "name": "sign_template group_applicant",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "c7298bc237ba84a6869789b7b14eee6320c37b9679489d08ac478d99518b81e1",
+  "write_date": "2025-12-09 02:59:21",
+  "xml_id": "hr_recruitment_sign.access_sign_template_group_applicant"
+}

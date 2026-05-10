@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10892,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Warehouse",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "warehouse_id",
+    "relation": "stock.warehouse",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b57eb13c3008307997ce21e6027e05e17aa7bf876bea7acdfc8311f393918795",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__warehouse_id"
+}

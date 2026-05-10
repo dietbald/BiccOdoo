@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 704,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "Referral Reward multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fe28f4f285352b10811f23479b3783385e5411e07880c85da4a3a1fd945a00d7",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.hr_referral_reward_comp_rule"
+}

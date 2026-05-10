@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 248,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      62
+    ],
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "User: All Applicants",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "aa0bd8de02a966e32f2f68f226be56030841e68dcd160cf75ed654966aee2471",
+  "write_date": "2023-12-01 01:26:19",
+  "xml_id": "hr_recruitment.hr_job_user_rule"
+}

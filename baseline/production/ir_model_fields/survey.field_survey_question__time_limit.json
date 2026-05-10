@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14788,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time limit (seconds)",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "time_limit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "4d1cbcf1055aaa6759e21ccc5fba427c677aa0e4356ff6be16179a61f8a2a879",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__time_limit"
+}

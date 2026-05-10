@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 370,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      342,
+      "Analytic Plans"
+    ],
+    "name": "account.analytic.plan accountant",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5c9d59b38157982da0531494301a54e6d7d491245f4891b1b0a71301966e8fdb",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_analytic_plan_accountant"
+}

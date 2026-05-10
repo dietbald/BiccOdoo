@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26465,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Leads Opportunity Link",
+    "model_id": [
+      2743,
+      "Competitors"
+    ],
+    "name": "x_studio_leads_opportunity_link",
+    "relation": "crm.lead",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2eee7c78aeba41144119f1bf155514e31ea75875a8751fd524f5d4b108b2b495",
+  "write_date": "2025-10-31 05:52:33",
+  "xml_id": "studio_customization.new_many2one_competi_181c31ec-cab3-4b69-8331-96112c4831a2"
+}

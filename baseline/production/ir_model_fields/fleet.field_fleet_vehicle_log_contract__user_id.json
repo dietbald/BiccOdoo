@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17142,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e9ff75d3e9cc2ad555e2c12ee53758ce22510dba306920f99f08791a18752605",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__user_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11029,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use Existing Lots/Serial Numbers",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "picking_type_use_existing_lots",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e37662f732527aa9cf12e15de5cc2d36cf35ae36d38788b54a20d42fa2f1cd15",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__picking_type_use_existing_lots"
+}

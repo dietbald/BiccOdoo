@@ -1,0 +1,9 @@
+<xpath expr="//group[@name='options_right_details']" position="inside">
+                <label for="work_hours_activated" invisible="schedule_based_on == 'resources' or category == 'custom'"/>
+                <div class="d-flex" invisible="schedule_based_on == 'resources' or category == 'custom'">
+                    <field name="work_hours_activated"/>
+                    <div invisible="not work_hours_activated">
+                        <span>enforced</span>
+                    </div>
+                </div>
+            </xpath>

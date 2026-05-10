@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "70ea670af38958578ba447a7d92e8557b6241f9ec09cbe41f6223c6f06768a1e",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__create_uid"
+}

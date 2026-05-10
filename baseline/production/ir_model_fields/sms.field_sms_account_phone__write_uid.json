@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1357,
+      "SMS Account Registration Phone Number Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "34033108a13f6085b73114d665c50b3a4e919cfe3573a02593874cc61b242ebb",
+  "write_date": "",
+  "xml_id": "sms.field_sms_account_phone__write_uid"
+}

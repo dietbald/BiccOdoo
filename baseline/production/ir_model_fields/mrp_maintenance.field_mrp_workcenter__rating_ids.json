@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18255,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1665722dedd20a4d97ab9a86954d4c6112d75d019970ea56febd180258590387",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__rating_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29441,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "state_display",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "fd73b23795b9feca3c114c16edb5cef88ef28582ec615a588cba9d169489712b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__state_display"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Location Type",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "location_usage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "67e1c9f17471d5c36584ab068c3c24d9e38731e2d681562dacd7249edf207ea4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__location_usage"
+}

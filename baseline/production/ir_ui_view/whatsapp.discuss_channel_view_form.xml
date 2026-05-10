@@ -1,0 +1,10 @@
+<data><xpath expr="//sheet/div[hasclass('oe_title')]/h1/field" position="attributes">
+                <attribute name="readonly">channel_type == 'whatsapp'</attribute>
+            </xpath>
+            <xpath expr="//sheet/group[hasclass('o_label_nowrap')]" position="after">
+                <group class="o_label_nowrap" invisible="channel_type != 'whatsapp'">
+                    <field name="wa_account_id" readonly="1"/>
+                    <field name="last_wa_mail_message_id" readonly="1"/>
+                </group>
+            </xpath>
+        </data>

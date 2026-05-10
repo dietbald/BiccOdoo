@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6180,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Asset Paused Days",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "asset_paused_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "7025526a93b43adc419aec4513038fc06831bef3273aeb27292b0fc201e188eb",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__asset_paused_days"
+}

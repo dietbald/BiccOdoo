@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1690,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource",
+    "model_id": [
+      145,
+      "Resource Mixin"
+    ],
+    "name": "resource_id",
+    "relation": "resource.resource",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "29ea39349525004abc5a0339d16cda734cf0e0971aadef800aa2ad49d4580d0e",
+  "write_date": "",
+  "xml_id": "resource.field_resource_mixin__resource_id"
+}

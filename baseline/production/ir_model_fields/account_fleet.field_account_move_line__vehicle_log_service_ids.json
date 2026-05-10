@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20158,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vehicle Log Service",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "vehicle_log_service_ids",
+    "relation": "fleet.vehicle.log.services",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bc23bd6fa7f6a1843e605cf87203dca61f71accdc5cea82cb1134a55b6e9d52d",
+  "write_date": "",
+  "xml_id": "account_fleet.field_account_move_line__vehicle_log_service_ids"
+}

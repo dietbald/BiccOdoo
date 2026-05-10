@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10563,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email",
+    "model_id": [
+      707,
+      "Signature Request Item"
+    ],
+    "name": "signer_email",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "92720b2ca7d4764e1ddd1b15ce56165760ec528820b383bac0bc6e01bc5e08d3",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request_item__signer_email"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7123,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      574,
+      "CRM Tag"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e5ddf872dec26db74c430178a0df02a8ff092039473630d1c20ab9c328fb09db",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_tag__create_uid"
+}

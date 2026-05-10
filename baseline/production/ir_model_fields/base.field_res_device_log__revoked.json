@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19461,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Revoked",
+    "model_id": [
+      1127,
+      "Device Log"
+    ],
+    "name": "revoked",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5be2ad8ab996c7ab08cd99244b92bad567cc9671aff8eea28f8e0cbb3a6adc2f",
+  "write_date": "",
+  "xml_id": "base.field_res_device_log__revoked"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 951,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      87,
+      "Bank"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "088170eddf1e0151b9d93d6f190c009c69c43bb5b8a53c3c899c9c8a880845a1",
+  "write_date": "",
+  "xml_id": "base.field_res_bank__write_uid"
+}

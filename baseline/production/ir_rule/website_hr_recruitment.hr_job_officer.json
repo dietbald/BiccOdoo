@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 263,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      62
+    ],
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "Job Positions: HR Officer",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "4008e77fc3722be0e0f6c281d411fe05df1148bd961e379c0a0070a4ca6e40bc",
+  "write_date": "2023-12-01 01:27:03",
+  "xml_id": "website_hr_recruitment.hr_job_officer"
+}

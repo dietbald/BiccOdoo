@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5102,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Only Tax Exigible Lines",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "only_tax_exigible",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "156298abb60d922e610c1eb237836a4cf0f4de820636f5035a1620b59c858191",
+  "write_date": "",
+  "xml_id": "account.field_account_report__only_tax_exigible"
+}

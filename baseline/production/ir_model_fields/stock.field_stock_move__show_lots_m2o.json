@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show lot_id",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "show_lots_m2o",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6747dd8612c64616d1f5f18144e683c1e512c40cc3b53ccce42dfb3bb667ed1a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__show_lots_m2o"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9268,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expense",
+    "model_id": [
+      651,
+      "Expense Approve Duplicate"
+    ],
+    "name": "expense_ids",
+    "relation": "hr.expense",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "096d1004cc81bb1a6ce839b2c58a14534f725eddb90abc8641750495c63b8a40",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_approve_duplicate__expense_ids"
+}

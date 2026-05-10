@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d059f715ae6865647ad6314aed1910ea182721d4e1abe1d8d7304365a97f6f5d",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__activity_calendar_event_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14531,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Participants",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f6c5dfd6a45438a8702abe652c7eeee14c18ed7aed67e03f154d50789fc2f2be",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__user_ids"
+}

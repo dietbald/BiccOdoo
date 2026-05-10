@@ -1,0 +1,17 @@
+<kanban class="o_kanban_mobile" sample="1" js_class="hr_expense_kanban" quick_create="false">
+                    <field name="currency_id"/>
+                    <progressbar field="activity_state" colors="{&quot;planned&quot;: &quot;success&quot;, &quot;today&quot;: &quot;warning&quot;, &quot;overdue&quot;: &quot;danger&quot;}"/>
+                    <templates>
+                        <t t-name="card">
+                            <div class="d-flex align-items-baseline">
+                                <field class="fw-bold fs-5 me-2" name="name"/>
+                                <field class="fw-bold ms-auto flex-shrink-0" name="total_amount_currency" widget="monetary"/>
+                            </div>
+                            <div class="d-flex mt8 text-muted">
+                                <field name="employee_id" widget="many2one_avatar_employee" options="{'display_avatar_name': True}" readonly="True"/>
+                                <field class="ms-auto" name="state" widget="label_selection" options="{'classes': {                                         'draft': 'default', 'submitted': 'warning', 'refused': 'danger', 'posted': 'warning',                                         'approved': 'success', 'in_payment': 'success', 'paid': 'success'}}"/>
+                            </div>
+                            <field class="mt8 text-muted" name="date"/>
+                        </t>
+                    </templates>
+                </kanban>

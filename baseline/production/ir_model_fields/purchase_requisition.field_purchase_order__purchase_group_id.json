@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12568,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Group",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "purchase_group_id",
+    "relation": "purchase.order.group",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "753ccb9cd8093eff957d65bb770441a5c3bede4457175e2fd64840a4bfb7c0fe",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_order__purchase_group_id"
+}

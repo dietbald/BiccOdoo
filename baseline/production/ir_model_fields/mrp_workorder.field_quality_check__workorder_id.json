@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16872,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "workorder_id",
+    "relation": "mrp.workorder",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fc9145d76e8dba97c22a5d918a96bc6a52e47e4550d0506cf5a15f5d6603dd27",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_check__workorder_id"
+}

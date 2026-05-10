@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 443,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Server action",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "ir_actions_server_id",
+    "relation": "ir.actions.server",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "943f9dd932ecc8acb0579b2f266950dc87859876dec68f3fe9daa4f3bb3dd5c3",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__ir_actions_server_id"
+}

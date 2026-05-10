@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1308,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "Challenge Officer",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d24951993cc7654a769ddf1dc0e0f9c17c6fdfab95832527746f2dfc8f0f43aa",
+  "write_date": "2025-12-09 02:58:08",
+  "xml_id": "hr_gamification.challenge_officer"
+}

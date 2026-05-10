@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 913,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Users",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a1c5a193e5f97b2c35e781614341d12e361cf60ae66e6681fb02fe6bc574e8dd",
+  "write_date": "",
+  "xml_id": "base.field_res_partner__user_ids"
+}

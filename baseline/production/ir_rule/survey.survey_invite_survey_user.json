@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 576,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',  ('survey_id.restrict_user_ids', 'in', user.id),\n                ('survey_id.restrict_user_ids', '=', False)]",
+    "groups": [
+      110
+    ],
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "Survey invite: officer: unrestricted or in restricted users",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "4ea0c51e3f47943cea5e75526e8f28b58b64428d60de00ffa157700866c8059b",
+  "write_date": "2024-10-23 10:44:38",
+  "xml_id": "survey.survey_invite_survey_user"
+}

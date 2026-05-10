@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19632,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Template Values",
+    "model_id": [
+      360,
+      "Product Attribute"
+    ],
+    "name": "template_value_ids",
+    "relation": "product.template.attribute.value",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b167aea04a2d2bebf61ac3a3c9b514a39f44774f36e393e9bfd1b09c9e1fe58e",
+  "write_date": "",
+  "xml_id": "product.field_product_attribute__template_value_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8981,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      637,
+      "Departure Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6d70d27f223692369c9d953527b21d33bdec2bdc90c224ddd9f4fea5aa47f26c",
+  "write_date": "",
+  "xml_id": "hr.field_hr_departure_wizard__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Return State To Check For",
+    "model_id": [
+      3565,
+      "Accounting Return Check"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "5d28ac0c0bcdb55f13a7f45b466be59bc13da3af6cb38cf90ddb318319c7008f",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_check__state"
+}

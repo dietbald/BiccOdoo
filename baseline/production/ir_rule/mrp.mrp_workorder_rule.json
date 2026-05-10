@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 465,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "mrp_workorder multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "418ff69031ac5edfd5e14d13a7faf29d0cd9d277734ecdde4dcb05718ed0a07b",
+  "write_date": "2024-05-05 07:22:23",
+  "xml_id": "mrp.mrp_workorder_rule"
+}

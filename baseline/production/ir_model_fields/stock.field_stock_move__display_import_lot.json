@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10982,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Import Lot",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "display_import_lot",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "94a29eee4fa657a2a1a5fbf97095c0c695b90ff00e991a8314eff24e214b0087",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__display_import_lot"
+}

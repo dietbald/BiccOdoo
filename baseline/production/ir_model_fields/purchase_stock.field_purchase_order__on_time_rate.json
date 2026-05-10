@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11959,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "On-Time Delivery Rate",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "on_time_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "358660feb833ae9285b62bae45c511c78f9c4adb92dc531a577d23240249f8e6",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order__on_time_rate"
+}

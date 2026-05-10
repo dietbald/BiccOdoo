@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12989,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Availability in Structure",
+    "model_id": [
+      824,
+      "Payslip Input Type"
+    ],
+    "name": "struct_ids",
+    "relation": "hr.payroll.structure",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "33a9a7699d88bda3248f2596100dd0d04dabed0cb4b83f4a21d9d262314b7089",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_input_type__struct_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17433,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Local-part based incoming detection",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "alias_incoming_local",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "201cbd926d68325bcc12dcfe880d53f520c9aab9649955abc94232399092c42b",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__alias_incoming_local"
+}

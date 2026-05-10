@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8034,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tasks",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "task_ids",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9a07b38ff2ca87c37827a668ab4db4094987b2d4e3de0ab829bc0afe490037cb",
+  "write_date": "",
+  "xml_id": "project.field_res_users__task_ids"
+}

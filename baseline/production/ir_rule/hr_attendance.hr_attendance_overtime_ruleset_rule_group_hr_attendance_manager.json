@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 735,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      3429,
+      "Overtime Ruleset"
+    ],
+    "name": "Attendance Overtime Ruleset",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b712bfc093352e60843dcea58d14e0087b21fa9156fd2ba63d8c9a9ef8162a66",
+  "write_date": "2025-12-09 02:58:04",
+  "xml_id": "hr_attendance.hr_attendance_overtime_ruleset_rule_group_hr_attendance_manager"
+}

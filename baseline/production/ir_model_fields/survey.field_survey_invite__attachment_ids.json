@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14922,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "30080949c6b72a66ee064ec9f0286c446e626b33cd4d024934670f23af7f8961",
+  "write_date": "",
+  "xml_id": "survey.field_survey_invite__attachment_ids"
+}

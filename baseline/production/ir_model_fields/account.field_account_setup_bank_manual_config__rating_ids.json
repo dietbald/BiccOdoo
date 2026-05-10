@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7599,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7b1923914809591ef308b528d2cf8ea9a6918610ca0d8b0347d7ac4e6178a900",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__rating_ids"
+}

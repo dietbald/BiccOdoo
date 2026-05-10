@@ -1,0 +1,26 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 626,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('user_permission', '=', 'edit'),\n                '|', ('type', '!=', 'folder'),\n                    '|', ('owner_id', '!=', False),\n                         ('folder_id', '!=', False)\n            ]",
+    "groups": [
+      1,
+      10,
+      11
+    ],
+    "model_id": [
+      537,
+      "Document"
+    ],
+    "name": "Documents.document: write+unlink base rule",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3e1a1c539cd84ae6ac06669ce0bdcd5cd0ab990aeea659e0be579e48fb3be544",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.documents_document_write_base_rule"
+}

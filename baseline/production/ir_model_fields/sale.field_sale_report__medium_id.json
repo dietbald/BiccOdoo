@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8289,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0cc70b2753d61743ad4472545324bb3c41f6c35ad19ff3b217c609121e005f83",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__medium_id"
+}

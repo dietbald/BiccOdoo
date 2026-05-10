@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16411,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      975,
+      "Warn Insufficient Unbuild Quantity"
+    ],
+    "name": "product_uom_name",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "082e517801649330a1316d7d0b1b99698a128022af234ca897d489921fdd8071",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_warn_insufficient_qty_unbuild__product_uom_name"
+}

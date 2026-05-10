@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11216,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a92ef5b3dc835688f39995898f350b1c1f72758deaba4f559ba6e665abfd6677",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__activity_ids"
+}

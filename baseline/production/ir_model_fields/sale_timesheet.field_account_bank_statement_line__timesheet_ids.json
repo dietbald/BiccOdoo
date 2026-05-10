@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13672,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheets",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "timesheet_ids",
+    "relation": "account.analytic.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0305cf5c44688b9079400b8c17f6ebd73db7e35ad4627da493fc545a47b9835f",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_account_bank_statement_line__timesheet_ids"
+}

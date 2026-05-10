@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 58,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<p>\n                Dear <t t-out=\"object.partner_id.name or 'Customer'\">Customer</t>,<br><br>\n                Please find attached the field service report for our onsite operation. <br><br>\n                Feel free to contact us if you have any questions.<br><br>\n                Best regards,<br><br>\n            </p>\n        ",
+    "email_from": false,
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "Field Service: Field Service Report",
+    "subject": "Field Service Report - {{ object.name }}"
+  },
+  "payload_sha256": "f54325517002092e9ec4bc1613c471e7bbe9c0443b1f543370b533c31975336e",
+  "write_date": "2024-05-05 13:37:30",
+  "xml_id": "industry_fsm.mail_template_data_task_report"
+}

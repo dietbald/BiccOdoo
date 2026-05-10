@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 333,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('state', '!=', 'model'), ('parent_id', '=', False)]",
+    "name": "Assets",
+    "res_model": "account.asset",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "327aec6d4a4ecfdb547b745b3cf82b06cdd375ba81d4f4d67b46d4e31ace1cb4",
+  "write_date": "2025-12-09 03:00:19",
+  "xml_id": "account_asset.action_account_asset_form"
+}

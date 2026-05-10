@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Above Budget",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "is_above_budget",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e7ee0d3d8b50b1fc759266efc4392131a108dc4ef12aa13d55cb476cbe639366",
+  "write_date": "",
+  "xml_id": "account_budget_purchase.field_purchase_order__is_above_budget"
+}

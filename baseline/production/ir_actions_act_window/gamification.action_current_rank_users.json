@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 949,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('rank_id', '=', active_id)]",
+    "name": "Users",
+    "res_model": "res.users",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "0a0564c160ab5a1cf34db6745a01ce6ff784f914791b024779127c36fb5b1cb2",
+  "write_date": "2025-12-09 02:55:55",
+  "xml_id": "gamification.action_current_rank_users"
+}

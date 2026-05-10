@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17707,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "105482d30a5623c42e5ab8d54dd2ad9dcd9059c427cefe4bf75456d65496ff97",
+  "write_date": "",
+  "xml_id": "social.field_social_post__message_needaction"
+}

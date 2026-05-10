@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23103,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1421,
+      "Purchase Line and Vendor Bill line matching view"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d185af93407133a063d9423cb2bf3323b89da1235168150471c238cd6054fa34",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_line_match__company_id"
+}

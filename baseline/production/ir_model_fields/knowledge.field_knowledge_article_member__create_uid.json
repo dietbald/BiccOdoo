@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12237,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      789,
+      "Article Member"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2abb0cb4cb592bca3bf823d3f172be370ad429a8106326ea6fde61ce17205af9",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_member__create_uid"
+}

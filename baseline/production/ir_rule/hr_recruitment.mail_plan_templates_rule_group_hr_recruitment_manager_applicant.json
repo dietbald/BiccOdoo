@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 598,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('plan_id.res_model', '=', 'hr.applicant')]",
+    "groups": [
+      63
+    ],
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "Manager can manage applicant plan templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6dd8ff07ccb68f74de102390243fbf8b5377358e5974539aed4352e1cec25ca7",
+  "write_date": "2024-10-23 10:49:41",
+  "xml_id": "hr_recruitment.mail_plan_templates_rule_group_hr_recruitment_manager_applicant"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13101,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payslips",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "payslip_ids",
+    "relation": "hr.payslip",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "357ba4c18a85c59e5b616f775f9aeef63c729069b8865c5f49341166f9dd8d75",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__payslip_ids"
+}

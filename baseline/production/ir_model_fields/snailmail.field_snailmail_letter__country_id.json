@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3557,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "89c07b79b1bdb563f9efc5139b3e127a3101de9279a3f81f400130c2be55bc96",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__country_id"
+}

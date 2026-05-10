@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29754,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Withholding Sequence",
+    "model_id": [
+      3764,
+      "Payment withholding line"
+    ],
+    "name": "withholding_sequence_id",
+    "relation": "ir.sequence",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ce752c4281c1b20b3a988fa8cae93f46cfa7448610a3bdbe062b479cec818f65",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment_withholding_line__withholding_sequence_id"
+}

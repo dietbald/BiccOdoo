@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3720,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last State Change Date",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "last_state_change",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "79537c570154a460c08030f1ad55898cb8719f91b6c69d4fc1449e96f3e90ba5",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__last_state_change"
+}

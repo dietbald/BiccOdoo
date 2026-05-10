@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 694,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "product.pricelist salemanager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8cd692047012573ea25a29214a5103c4a2405170bd6708857483add909fffc1e",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_product_pricelist_sale_manager"
+}

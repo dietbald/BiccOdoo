@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1939,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      2747,
+      "Pricing rule of rental products"
+    ],
+    "name": "product.pricing.internal.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "e6f7deaf733836d6978cd986e7a6ea09d35d24bf08758ad4c1b16be8e105849b",
+  "write_date": "2025-12-09 03:00:12",
+  "xml_id": "sale_renting.access_product_pricing_user"
+}

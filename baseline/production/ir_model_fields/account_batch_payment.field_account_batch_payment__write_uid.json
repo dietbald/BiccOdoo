@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19119,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8bd3a17ff2bd9fea1f643c0972b1a76671dc33c77858a0edae9c8ea6323a8920",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__write_uid"
+}

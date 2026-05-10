@@ -1,0 +1,56 @@
+<form string="Sales Team" js_class="crm_team_form" class="o_crm_team_form_view">
+                <div class="alert alert-info text-center d-flex flex-wrap justify-content-center gap-1" role="alert" invisible="is_membership_multi or not member_warning">
+                    <field name="member_warning" class="w-auto"/>
+                    Working in multiple teams?
+                    <button name="crm_team_activate_multi_membership" type="button" class="btn btn-link p-0 lh-1">
+                        Activate "Multi-team"
+                    </button>
+                </div>
+                <sheet>
+                    <div class="oe_button_box" name="button_box"/>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <div class="oe_title">
+                        <label for="name" string="Sales Team"/>
+                        <h1>
+                            <field class="text-break" name="name" placeholder="e.g. North America"/>
+                        </h1>
+                        <div name="options_active" class="o_row"/>
+                    </div>
+                    <group>
+                        <group name="left" string="Team Details">
+                            <field name="active" invisible="1"/>
+                            <field name="sequence" invisible="1"/>
+                            <field name="is_membership_multi" invisible="1"/>
+                            <field name="user_id" widget="many2one_avatar_user" domain="[('share', '=', False)]"/>
+                            <field name="company_id" options="{'no_create': True}" groups="base.group_multi_company" placeholder="Visible to all"/>
+                            <field name="currency_id" invisible="1"/>
+                            <field name="member_company_ids" invisible="1"/>
+                        </group>
+                        <group name="right">
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Members" name="members_users">
+                            <field name="member_ids" mode="kanban" class="w-100">
+                                <kanban>
+                                    <templates>
+                                        <t t-name="card" class="flex-row">
+                                            <aside>
+                                                <field name="avatar_128" widget="image" class="o_image_64_cover" alt="Avatar"/>
+                                            </aside>
+                                            <main class="ms-3">
+                                                <field name="name" class="fw-bold fs-5"/>
+                                                <div class="d-flex align-items-baseline text-break">
+                                                    <i class="fa fa-envelope me-1" role="img" aria-label="Email" title="Email"/><field name="email"/>
+                                                </div>
+                                            </main>
+                                        </t>
+                                    </templates>
+                                </kanban>
+                            </field>
+                            <field name="crm_team_member_ids" mode="kanban" class="w-100" invisible="is_membership_multi or not is_membership_multi" context="{                                     'kanban_view_ref': 'sales_team.crm_team_member_view_kanban_from_team',                                     'form_view_ref': 'sales_team.crm_team_member_view_form_from_team',                                     'list_view_ref': 'sales_team.crm_team_member_view_tree_from_team',                                     'default_crm_team_id': id,                                 }"/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>

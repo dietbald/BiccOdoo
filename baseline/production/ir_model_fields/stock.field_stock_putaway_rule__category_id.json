@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10823,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Category",
+    "model_id": [
+      726,
+      "Putaway Rule"
+    ],
+    "name": "category_id",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1999cf541406174d80f1233b62c2043e06b97dfc17ad2c29f4d92d55177200e8",
+  "write_date": "",
+  "xml_id": "stock.field_stock_putaway_rule__category_id"
+}

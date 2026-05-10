@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 174,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n        '|',\n            ('project_id.privacy_visibility', 'in', ['employees', 'portal']),\n            '|',\n                ('project_id.message_partner_ids', 'in', [user.partner_id.id]),\n                ('project_id.user_id', '=', user.id),\n        ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "Project/Milestone: employees: follow required for follower-only projects",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8ba854d78689647b8f3d3b02f76e7a07d43d03047a1cff6ff66b64b3537407d0",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.milestone_visibility_rule"
+}

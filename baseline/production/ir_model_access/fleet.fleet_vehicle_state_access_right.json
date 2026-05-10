@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1490,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      130,
+      "Fleet / Administrator"
+    ],
+    "model_id": [
+      1009,
+      "Vehicle Status"
+    ],
+    "name": "fleet_vehicle_state_access_right",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "927987ab5a58afe0d98299600fc6da4c157fb31f4c5ca6d0baf4ae5e911607b5",
+  "write_date": "2025-12-09 02:55:54",
+  "xml_id": "fleet.fleet_vehicle_state_access_right"
+}

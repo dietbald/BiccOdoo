@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 373,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n                [\n                '|',\n                '&',\n                 ('employee_id.attendance_manager_id', '=', user.id),\n                 ('employee_id.user_id', '=', user.id),\n                '&',\n                ('employee_id.user_id', '!=', user.id),\n                ('employee_id.attendance_manager_id', '=', user.id)\n                ]\n            ",
+    "groups": [
+      99
+    ],
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "Attendance Officer: Restrict Attendances to managed employees",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7823a48443c5f9da1d6de205473487c2f6636817f6190bf7d32c93b26852a08e",
+  "write_date": "2023-12-05 05:20:34",
+  "xml_id": "hr_attendance.hr_attendance_rule_attendance_manager_restrict"
+}

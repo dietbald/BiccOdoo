@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6193,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Depreciation",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "depreciation_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "3270bc87614cb4a8a89e03f77639d5993eb235bfb7a18cbc9a1aad0d56161c3f",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_move__depreciation_value"
+}

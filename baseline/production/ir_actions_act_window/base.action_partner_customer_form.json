@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 56,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'res_partner_search_mode': 'customer', 'default_is_company': True}",
+    "domain": "[]",
+    "name": "Customers",
+    "res_model": "res.partner",
+    "target": "current",
+    "view_mode": "list,kanban,form,activity"
+  },
+  "payload_sha256": "6708f5f5181d92c1c6e8066cbb7b71d6941650601cdc44eab6f8be5cd6eb8adc",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "base.action_partner_customer_form"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 491,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      500,
+      "Horizontal group rule for reports"
+    ],
+    "name": "account.report.horizontal.group.rule.readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8f983a33403ea5e6a4c4ce0e8791f2e7f9b374f32840aa77a75c7d0231aba977",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_report_horizontal_group_rule_readonly"
+}

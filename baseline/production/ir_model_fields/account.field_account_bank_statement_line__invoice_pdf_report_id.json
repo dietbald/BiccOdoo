@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4881,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "PDF Attachment",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "invoice_pdf_report_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fb36403c1d8b01ed93c93967fccc61ad31f46c80e52a67058ec384beec158723",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__invoice_pdf_report_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18672,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task",
+    "model_id": [
+      1065,
+      "Task stop running timers confirmation wizard line"
+    ],
+    "name": "task_id",
+    "relation": "project.task",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d71b3c837b9120d3164cdd730e6b88b007c70441be00304094e6d16a821e0689",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_project_task_stop_timers_wizard_line__task_id"
+}

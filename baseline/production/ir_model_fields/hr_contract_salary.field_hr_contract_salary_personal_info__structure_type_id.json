@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Structure Type",
+    "model_id": [
+      1277,
+      "Salary Package Personal Info"
+    ],
+    "name": "structure_type_id",
+    "relation": "hr.payroll.structure.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0dd31dbb90bf8c40f30049d7bde1660304174d6a103027d306b2a5b42647c104",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_personal_info__structure_type_id"
+}

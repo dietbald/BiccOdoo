@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1411,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      118,
+      "Manufacturing / Administrator"
+    ],
+    "model_id": [
+      143,
+      "Work Detail"
+    ],
+    "name": "mrp.resource.calendar.attendance.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "252a94eaa9565b1c9a9102815df5974102957683cb7a1e00c7d36d4544534b48",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_resource_calendar_attendance_manager"
+}

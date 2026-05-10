@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5966,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Starting Date",
+    "model_id": [
+      496,
+      "Wizard for missing transactions"
+    ],
+    "name": "date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "73a0735431a2d769aa8d1f5a324405bb1b3d2b228363037eb496e9eed53aa428",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_missing_transaction_wizard__date"
+}

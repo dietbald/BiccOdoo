@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17237,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1008,
+      "Odometer log for a vehicle"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "89de95974bd70c6376e6bc1253832504d464ed56a4050af5224de0ed16c0e37c",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_odometer__write_uid"
+}

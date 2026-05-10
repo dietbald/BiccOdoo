@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 63,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": " ['|', ('company_id', 'parent_of', company_ids), ('company_id', '=', False)]",
+    "groups": [],
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "Product multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "70546b51d8fa2e4488cf51e494d5e5eaf87b2a94951839c44ae3e2ef1cf46bd3",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "product.product_document_comp_rule"
+}

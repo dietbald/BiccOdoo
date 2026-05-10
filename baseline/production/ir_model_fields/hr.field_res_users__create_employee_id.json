@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8962,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Technical field, bind user to this employee on create",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "create_employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7ba8dc47e5279aa7b472500d70ae730f9458488c0e8bbe5695259bc187e763dc",
+  "write_date": "",
+  "xml_id": "hr.field_res_users__create_employee_id"
+}

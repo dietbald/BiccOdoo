@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24689,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Packagings",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "uom_ids",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cd630725f04ee7f681488da421f6edcf2432df8e44e7e3a085352187abb8013e",
+  "write_date": "",
+  "xml_id": "product.field_product_product__uom_ids"
+}

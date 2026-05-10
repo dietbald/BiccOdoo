@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7559,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      595,
+      "Rating Parent Mixin"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ead5561fa06e3a684a30652e3b647b23942f4065bf9d73079640b53d1c308cca",
+  "write_date": "",
+  "xml_id": "rating.field_rating_parent_mixin__rating_ids"
+}

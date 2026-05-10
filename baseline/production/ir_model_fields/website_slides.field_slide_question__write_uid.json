@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24198,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1507,
+      "Content Quiz Question"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "43e9e0928fbc77bd03cfe511ceda7904ecc7c7782b7b4641adc5aa9de1cdca3a",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_question__write_uid"
+}

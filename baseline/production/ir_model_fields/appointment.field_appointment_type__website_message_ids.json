@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b9702f1f18a920289545b3de6ce3d163832b7b4704213303c91ceb4298d78567",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__website_message_ids"
+}

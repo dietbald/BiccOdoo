@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17728,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Feed Posts Count",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "stream_posts_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "9ad4503670209dec7455b406eb7054a3043bc61a213a2cdb5bca751e4a7ef128",
+  "write_date": "",
+  "xml_id": "social.field_social_post__stream_posts_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3194,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "293acb37ca43456b0f8d0cf56ee488600152b2596da2bbdcaf5c0c595771f6c2",
+  "write_date": "",
+  "xml_id": "product.field_product_supplierinfo__currency_id"
+}

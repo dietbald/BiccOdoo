@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28990,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action on Click",
+    "model_id": [
+      3566,
+      "Account Return Check Template"
+    ],
+    "name": "action_id",
+    "relation": "ir.actions.actions",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cfbc69b803065f2a0298ff5f09ed50de6ed6d85448555f78494d78176b6b083b",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_check_template__action_id"
+}

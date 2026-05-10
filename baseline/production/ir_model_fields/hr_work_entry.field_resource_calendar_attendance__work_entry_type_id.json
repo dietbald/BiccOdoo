@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12719,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Entry Type",
+    "model_id": [
+      143,
+      "Work Detail"
+    ],
+    "name": "work_entry_type_id",
+    "relation": "hr.work.entry.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "132512e2bf159809e28092a90b86bd574b37fc9c8c11c1973977f445782d7769",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_resource_calendar_attendance__work_entry_type_id"
+}

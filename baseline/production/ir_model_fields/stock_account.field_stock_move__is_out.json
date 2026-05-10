@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28782,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Outgoing (valued)",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "is_out",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e31a0f9a3d8822edd58a1476e9e1c468a86dd3226ca11d4d4d3a0dbfe3924ee0",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_move__is_out"
+}

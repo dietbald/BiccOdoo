@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1319,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'fsm_mode': 1, 'task_nameget_with_hours': 1, 'default_scale': 'week'}",
+    "domain": "[('is_fsm', '=', True), ('project_id', '!=', False)]",
+    "name": "Planning by Location",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "gantt,calendar,map,list,kanban,pivot,graph,activity"
+  },
+  "payload_sha256": "76dd83199bb807f18806a196abfe782483788fb5b08d5f69e305b75e3c4bd96a",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.project_task_action_fsm_planning_groupby_location"
+}

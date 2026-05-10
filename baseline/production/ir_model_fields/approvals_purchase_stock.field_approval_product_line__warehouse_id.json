@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12198,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Warehouse",
+    "model_id": [
+      784,
+      "Product Line"
+    ],
+    "name": "warehouse_id",
+    "relation": "stock.warehouse",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ae17209fa29db29c3f7a9104635d899ed86234a6508b08fd13b3c3606945e9b1",
+  "write_date": "",
+  "xml_id": "approvals_purchase_stock.field_approval_product_line__warehouse_id"
+}

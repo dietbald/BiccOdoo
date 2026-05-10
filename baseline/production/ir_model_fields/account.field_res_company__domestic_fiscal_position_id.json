@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27518,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Domestic Fiscal Position",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "domestic_fiscal_position_id",
+    "relation": "account.fiscal.position",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "755aa641aacf4b1e4f21448ced75b78de5dca39fb9eb4bd08a1c5e349ab4b6d5",
+  "write_date": "",
+  "xml_id": "account.field_res_company__domestic_fiscal_position_id"
+}

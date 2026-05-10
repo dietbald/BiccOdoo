@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      625,
+      "Quotation Template Line"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2aa566839f72bb17227cb43713348559beb462facd59667ca1a5fac32a8e0590",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template_line__product_uom_id"
+}

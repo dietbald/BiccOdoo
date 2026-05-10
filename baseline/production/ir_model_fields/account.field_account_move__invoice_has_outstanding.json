@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4360,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Has Outstanding",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_has_outstanding",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9528382bf5986d90afbc075d886d753eecf7c2db58bad607f0054b9f57b9a592",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_has_outstanding"
+}

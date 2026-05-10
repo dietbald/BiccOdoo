@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5097,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sections",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "section_report_ids",
+    "relation": "account.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d3170c53b03be10d2d50bb946325231864da3b31b7e1f5c84a344f3ac38ef9ab",
+  "write_date": "",
+  "xml_id": "account.field_account_report__section_report_ids"
+}

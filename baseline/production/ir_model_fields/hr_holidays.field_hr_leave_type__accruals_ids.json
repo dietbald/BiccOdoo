@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15655,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Accruals",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "accruals_ids",
+    "relation": "hr.leave.accrual.plan",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "18cdf71f2abcfe8a7da1172a0b53ae40fae43f84e0c40c7327d5f3e6cc9e1447",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__accruals_ids"
+}

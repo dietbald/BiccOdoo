@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29858,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsibles",
+    "model_id": [
+      3768,
+      "Audit Report"
+    ],
+    "name": "responsible_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cdc34ac406e5effbfb4579480553b96b031f21e10c12bcf7fe7053983535e231",
+  "write_date": "",
+  "xml_id": "accountant_knowledge.field_audit_report__responsible_user_ids"
+}

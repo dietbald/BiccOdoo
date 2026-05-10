@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 444,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_allow_billable': True, 'sale_show_partner_name': True}",
+    "domain": "[('is_template', '=', False)]",
+    "name": "Projects",
+    "res_model": "project.project",
+    "target": "current",
+    "view_mode": "list,kanban,form,gantt,calendar,activity"
+  },
+  "payload_sha256": "b87a30c02be1aa1dae49fbd0ae275efb2e05039951d83ca942641325469541ca",
+  "write_date": "2025-12-09 03:00:35",
+  "xml_id": "project.open_view_project_all_config_group_stage"
+}

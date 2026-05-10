@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4817,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "First recurring entry",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "auto_post_origin_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9f077546010495b8d0fb3560901781c30bf35badbcea9471241d6d48bb980428",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__auto_post_origin_id"
+}

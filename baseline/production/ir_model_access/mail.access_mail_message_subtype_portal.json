@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 210,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      173,
+      "Message subtypes"
+    ],
+    "name": "mail.message.subtype.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "635bd6e6caa1bb33d95a695f8bb69649c6528be6d8ac866a399f1ef41c3c9f1f",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_message_subtype_portal"
+}

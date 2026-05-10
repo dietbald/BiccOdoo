@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17430,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Model",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "alias_parent_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b01c298c41983d18a9d31c52366dea22d33ba0c00b14ec49f5cda35d9bba33e9",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__alias_parent_model_id"
+}

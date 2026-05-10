@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14104,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bounce",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "message_bounce",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "bca75e3c66d4a1552c590f81c65f6c61ae7722660d3c21073b2151d7cf433a50",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__message_bounce"
+}

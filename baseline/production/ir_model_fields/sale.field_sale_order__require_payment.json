@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8171,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Online payment",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "require_payment",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "349544c2217ad667bea040fd53b0a1c005c665525c2c549116e08694d8f11993",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__require_payment"
+}

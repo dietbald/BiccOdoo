@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 701,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('ref_user_id', '=', user.id)]",
+    "groups": [
+      150
+    ],
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "User Referral Applicants",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "68eedb8e5673ad717ca69e3c18000c1be708127766472664050054fbaddc3d65",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.hr_applicant_referral_user_rule"
+}

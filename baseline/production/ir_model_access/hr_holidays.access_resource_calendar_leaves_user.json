@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1369,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      115,
+      "Time Off / Officer: Manage all requests"
+    ],
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "resource_calendar_leaves_user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d2fd791c80800f2b6f6a30d8f690dc3c65a0ca8dde5254636659fc6088a4ebcf",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.access_resource_calendar_leaves_user"
+}

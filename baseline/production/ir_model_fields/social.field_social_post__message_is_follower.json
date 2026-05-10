@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17702,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c61e9e87131331b04607cbb50af8cadab5d4782ed22d1bfa2bc96180d8fcb14a",
+  "write_date": "",
+  "xml_id": "social.field_social_post__message_is_follower"
+}

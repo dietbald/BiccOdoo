@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 9,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Dear <t t-out=\"object.partner_id.name or ''\">Azure Interior</t><br/><br/>\n        Thank you for your payment.\n        Here is your payment receipt <span style=\"font-weight:bold;\" t-out=\"(object.name or '').replace('/','-') or ''\">BNK1-2021-05-0002</span> amounting\n        to <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount, object.currency_id) or ''\">$ 10.00</span> from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n        <br/><br/>\n        Do not hesitate to contact us if you have any questions.\n        <br/><br/>\n        Best regards,\n        <t t-if=\"not is_html_empty(user.signature)\" data-o-mail-quote-container=\"1\">\n            <br/><br/>\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n        </t>\n    </p>\n</div>\n",
+    "email_from": false,
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "Payment: Payment Receipt",
+    "subject": "{{ object.company_id.name }} Payment Receipt (Ref {{ object.name or 'n/a' }})"
+  },
+  "payload_sha256": "8d3e900b0f1d1fe4bd60d1adc17eae85e1915b925710b5bdb626c78fc408601c",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.mail_template_data_payment_receipt"
+}

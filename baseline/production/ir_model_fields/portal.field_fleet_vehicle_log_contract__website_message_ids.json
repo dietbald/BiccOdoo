@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17132,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6cc5ef71c21b32d9163cb5ef2f9c60cef1655daac7e4eb9729da87c74ae58ef8",
+  "write_date": "",
+  "xml_id": "portal.field_fleet_vehicle_log_contract__website_message_ids"
+}

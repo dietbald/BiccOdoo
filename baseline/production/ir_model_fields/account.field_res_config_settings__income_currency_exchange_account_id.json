@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5002,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Gain Exchange Rate Account",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "income_currency_exchange_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6612416a90d5b73694f4cedafcdaa98c6d073045044033e5f78ba3e778c09ff9",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__income_currency_exchange_account_id"
+}

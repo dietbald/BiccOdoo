@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23602,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution Analytic Account",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "distribution_analytic_account_ids",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9f393cb7fb2a1f843296d01489182640d7248e3a1fddbcf07a8b2d8534e867c6",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__distribution_analytic_account_ids"
+}

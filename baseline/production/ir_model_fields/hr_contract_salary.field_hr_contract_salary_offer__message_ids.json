@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21170,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9a776329858a79a9bcdb5dc67ce2470f2135421f60fea2b9198985d75e4616b1",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__message_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1688,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      1248,
+      "Accounting Report Budget Item"
+    ],
+    "name": "account.report.budget.item.ac.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0e72eaa08dd50de8b8e0eeb97dfc333ed83c9c971a3b58c55af59d25ed730970",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_report_budget_item_ac_user"
+}

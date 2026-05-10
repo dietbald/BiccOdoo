@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16555,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      987,
+      "Quality Alert Team"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5f4ea29010fd7dc2930e0bedcaaaf793f48bde2a237c0e5ea068aa09553753c2",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_team__rating_ids"
+}

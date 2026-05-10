@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17959,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      1024,
+      "Social Account"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3536ecd406009a34f889f425cf9e26585ef86d7428b1b91db8115ab29d975efa",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_social_account__website_id"
+}

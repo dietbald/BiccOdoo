@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27653,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days to rot",
+    "model_id": [
+      575,
+      "CRM Stages"
+    ],
+    "name": "rotting_threshold_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "0db82e7fb1e595ffef57388408c89caf4e2ae19339ecae0b33f5e72f08d6057d",
+  "write_date": "",
+  "xml_id": "crm.field_crm_stage__rotting_threshold_days"
+}

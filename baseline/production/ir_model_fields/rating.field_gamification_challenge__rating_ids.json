@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14524,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7c1fb1981b155f8b474c819d6eac3a52981f6e9a634ac7de8ba387ca27ae856a",
+  "write_date": "",
+  "xml_id": "rating.field_gamification_challenge__rating_ids"
+}

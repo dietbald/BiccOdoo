@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5692,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Entry Type",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "deferred_entry_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3be759a0c9517eebf467d98878a28703a13e6015365a3a9115003cce960e9470",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_move__deferred_entry_type"
+}

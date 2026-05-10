@@ -1,0 +1,8 @@
+<list decoration-danger="state=='error'" decoration-muted="state=='sent'" string="Letters">
+                <field name="attachment_id" string="Document"/>
+                <field name="partner_id"/>
+                <field name="user_id"/>
+                <field name="state" column_invisible="True"/>
+                <field name="info_msg" widget="html"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+            </list>

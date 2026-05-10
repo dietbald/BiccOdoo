@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24271,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4d62e6fd82d1a1add80eb94aca64de9f5e504437a3874548874362b372273271",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__message_follower_ids"
+}

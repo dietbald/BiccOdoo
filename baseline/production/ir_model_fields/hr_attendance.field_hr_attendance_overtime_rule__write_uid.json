@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28363,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3428,
+      "Overtime Rule"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2eda23ce4aa4eb80e9b7ababad5cf212a0b0444f79cd15ff5f9d8b62401626e6",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance_overtime_rule__write_uid"
+}

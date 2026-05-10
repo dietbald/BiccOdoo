@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10663,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extra Authentication Step",
+    "model_id": [
+      714,
+      "Signature Item Role"
+    ],
+    "name": "auth_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e95c56ef11e212eaae9012f0a0a5c519b33187f289e45c369f84dcb7a34c2c9d",
+  "write_date": "",
+  "xml_id": "sign.field_sign_item_role__auth_method"
+}

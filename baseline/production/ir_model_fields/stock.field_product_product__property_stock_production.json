@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11443,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Production Location",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "property_stock_production",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "929436a6cfe46f2900be1d1596e4441de2bc3c3b0fee91c0dc4cdd649109cfa8",
+  "write_date": "",
+  "xml_id": "stock.field_product_product__property_stock_production"
+}

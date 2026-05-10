@@ -1,0 +1,28 @@
+<form string="Skill Type">
+                <field name="id" invisible="1"/>
+                <sheet>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <div class="oe_title">
+                        <label for="name" string="Skill Type"/>
+                        <h1>
+                            <field name="name" placeholder="e.g. Languages" required="True"/>
+                            <field name="active" invisible="1"/>
+                        </h1>
+                        <group name="name">
+                            <field name="color" widget="color_picker"/>
+                            <field name="is_certification" widget="boolean_toggle" options="{'autosave': False}"/>
+                        </group>
+                    </div>
+                    <group string="Skills">
+                    </group>
+                    <field name="skill_ids" nolabel="1" context="{'default_skill_type_id': id}">
+                        <list editable="bottom">
+                            <field name="sequence" widget="handle"/>
+                            <field name="name"/>
+                        </list>
+                    </field>
+                    <group string="Levels">
+                    </group>
+                    <field name="skill_level_ids" nolabel="1" context="{'default_skill_type_id': id}"/>
+                </sheet>
+            </form>

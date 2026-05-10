@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11926,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      779,
+      "Stock Report"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b23acaed112b22f2620511f5a641b6e1423c24d31f224bbd307f1506ed2abe92",
+  "write_date": "",
+  "xml_id": "stock_enterprise.field_stock_report__partner_id"
+}

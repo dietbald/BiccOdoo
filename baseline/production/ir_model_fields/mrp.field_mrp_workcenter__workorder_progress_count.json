@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16031,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Running Orders",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "workorder_progress_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "13224b647df83e283df156c7dd4119eefc388277bb6ed55ddc50c7cafa7bea1e",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter__workorder_progress_count"
+}

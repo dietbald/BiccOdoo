@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 398,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Binding Model",
+    "model_id": [
+      27,
+      "Report Action"
+    ],
+    "name": "binding_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c19951af3ca14cb7794e286fb87eab6ab3c8df6094abbd49378a298dd27b40ef",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_report__binding_model_id"
+}

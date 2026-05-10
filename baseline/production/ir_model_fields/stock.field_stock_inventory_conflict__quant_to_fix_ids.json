@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11615,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Conflicts",
+    "model_id": [
+      756,
+      "Conflict in Inventory"
+    ],
+    "name": "quant_to_fix_ids",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "09e8b23f6d52332d537fed4a9c4b68e95a16d32493cf4cda32195c2794e5759f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_inventory_conflict__quant_to_fix_ids"
+}

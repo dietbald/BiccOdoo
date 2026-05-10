@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10309,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Sales Teams",
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "crm_default_team_id",
+    "relation": "crm.team",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "136aa21a94c2d5527cdb872ce3134968551e744d6a18325fb0705497954ff217",
+  "write_date": "",
+  "xml_id": "website_crm.field_website__crm_default_team_id"
+}

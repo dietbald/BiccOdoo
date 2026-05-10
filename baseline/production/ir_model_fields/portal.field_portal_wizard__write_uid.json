@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3350,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      386,
+      "Grant Portal Access"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "94ca750191f900759e0b043b24e855bf91fdee842e1573118bd724c42a05d6d0",
+  "write_date": "",
+  "xml_id": "portal.field_portal_wizard__write_uid"
+}

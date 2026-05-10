@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4899,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Count",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "invoice_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "aaab86db46a7a7fef72e6372257dd2b2606c96b86520f0633eb1c385b5fcfcb3",
+  "write_date": "",
+  "xml_id": "account.field_account_analytic_account__invoice_count"
+}

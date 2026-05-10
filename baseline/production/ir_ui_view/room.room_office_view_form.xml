@@ -1,0 +1,15 @@
+<form>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name" placeholder="Office Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group colspan="2">
+                            <field name="company_id" domain="[('id', 'in', allowed_company_ids)]" options="{'no_create': True}" groups="base.group_multi_company"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

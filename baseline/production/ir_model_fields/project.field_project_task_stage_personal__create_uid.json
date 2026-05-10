@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7635,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      598,
+      "Personal Task Stage"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8e3f181ca1ad40f18e0c7736b853a75486d015b95c60068b556c2e641d3330ab",
+  "write_date": "",
+  "xml_id": "project.field_project_task_stage_personal__create_uid"
+}

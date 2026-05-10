@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 700,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_category_id': [active_id],\n            'fixed_category': True,\n        }",
+    "domain": false,
+    "name": "Putaway Rules",
+    "res_model": "stock.putaway.rule",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "ca89d8be77e9a09c7fee78b863a132f548dc5493e74752aa1c3e6a3ebc5b6809",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.category_open_putaway"
+}

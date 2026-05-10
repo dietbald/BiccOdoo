@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19899,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "account_audit_log_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4e92cdc4f5f53863361880bf45c0ce0ebe0298061beb4dfb5f513d8896f5be7f",
+  "write_date": "",
+  "xml_id": "account.field_mail_message__account_audit_log_partner_id"
+}

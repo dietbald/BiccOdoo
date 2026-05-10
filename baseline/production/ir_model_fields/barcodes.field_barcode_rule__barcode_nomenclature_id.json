@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10795,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Barcode Nomenclature",
+    "model_id": [
+      724,
+      "Barcode Rule"
+    ],
+    "name": "barcode_nomenclature_id",
+    "relation": "barcode.nomenclature",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6654c8de4cf0aefbbd80026e7395ba29633a159d8cb7f761bc258d51e57d7530",
+  "write_date": "",
+  "xml_id": "barcodes.field_barcode_rule__barcode_nomenclature_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9381,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ea2d219d69e93185a1e7674318e43302f1a212a1d3c37d545daf6471e95e3048",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__message_has_error"
+}

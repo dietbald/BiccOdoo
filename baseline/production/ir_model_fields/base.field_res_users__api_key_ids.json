@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1124,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "API Keys",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "api_key_ids",
+    "relation": "res.users.apikeys",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "70ee7bc6512de67af2922ed2b4f71814bdf597b2181962e7c3a66d89e28a14ae",
+  "write_date": "",
+  "xml_id": "base.field_res_users__api_key_ids"
+}

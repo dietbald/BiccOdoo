@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26560,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Action",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "next_action_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "5bacd601f6f47c790c341fdf1f637d1b0c8629fa7a913c7c7dd969353bec26f6",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order__next_action_date"
+}

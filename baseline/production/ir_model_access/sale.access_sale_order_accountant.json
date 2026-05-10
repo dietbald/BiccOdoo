@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 715,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "sale.order.accountant",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "6990f6edfbffb2826c0a215f5c66b621d1b991716cb39232e1ec2bbc2a00b36f",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_sale_order_accountant"
+}

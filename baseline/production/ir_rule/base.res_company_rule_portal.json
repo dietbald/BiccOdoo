@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 14,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('id','in', company_ids)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "company rule portal",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7e89d07c7e7b24335405427b00eb4ed39c2819ff71f027092915f097ce3b3fdc",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.res_company_rule_portal"
+}

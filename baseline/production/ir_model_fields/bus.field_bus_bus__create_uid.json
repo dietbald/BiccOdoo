@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1463,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      124,
+      "Communication Bus"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3c7d95c76e7d1248ba4f84aa7cf3299b749e76779379b528e4a4a46c2cc750a0",
+  "write_date": "",
+  "xml_id": "bus.field_bus_bus__create_uid"
+}

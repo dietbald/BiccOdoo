@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5009,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bank Suspense",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_journal_suspense_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c2094bde036d83c37963d8e2dcc2b0a380553336b65ba5d4556f57a59ee1b0e6",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__account_journal_suspense_account_id"
+}

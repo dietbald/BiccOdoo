@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7578,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "444ab6070650b3ddff0314a877ac9927cd058467493d6dc51c13c42bb37d2993",
+  "write_date": "",
+  "xml_id": "rating.field_product_pricelist__rating_ids"
+}

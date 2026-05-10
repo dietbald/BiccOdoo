@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9493,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Warnings",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_warning_purchase",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aa7a5150eb47077cac87f7c234962a53cfc7a1aeb877d780e92536b4593d386d",
+  "write_date": "",
+  "xml_id": "purchase.field_res_config_settings__group_warning_purchase"
+}

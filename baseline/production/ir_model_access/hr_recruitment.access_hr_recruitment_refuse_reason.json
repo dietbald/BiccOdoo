@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 844,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      664,
+      "Refuse Reason of Applicant"
+    ],
+    "name": "hr.applicant.refuse.reason",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f993808075c0c90a673e1187ad57009401a73f9896a401a26db4a5b1870732f1",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_hr_recruitment_refuse_reason"
+}

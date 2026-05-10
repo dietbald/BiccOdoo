@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9544,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor Bill",
+    "model_id": [
+      661,
+      "Purchases & Bills Union"
+    ],
+    "name": "vendor_bill_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "506e5142d1a918c9a7e5fefb268db10eab84bda32e808cd56764883eb93161ee",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_union__vendor_bill_id"
+}

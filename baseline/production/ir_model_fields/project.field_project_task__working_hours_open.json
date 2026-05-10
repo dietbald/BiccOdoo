@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7711,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Hours to Assign",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "working_hours_open",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "2edb6546bcec7c52c789149ec3934e281f0c411e6d524278b5013ae509343994",
+  "write_date": "",
+  "xml_id": "project.field_project_task__working_hours_open"
+}

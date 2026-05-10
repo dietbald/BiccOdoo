@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1851,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Read",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "is_read",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dff468b42c915f9f820b1d0346849b9ffdc98a06fc26bc8e6ba477a16de8b8d9",
+  "write_date": "",
+  "xml_id": "mail.field_mail_notification__is_read"
+}

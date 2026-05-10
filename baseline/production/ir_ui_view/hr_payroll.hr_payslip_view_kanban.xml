@@ -1,0 +1,16 @@
+<kanban class="o_kanban_mobile" sample="1">
+                <field name="currency_id"/>
+                <templates>
+                    <t t-name="card" class="row g-0">
+                        <field name="employee_id" widget="many2one_avatar_employee" options="{'display_avatar_name': True}" readonly="state != 'draft'" class="col-6 fw-bold mb-1"/>
+                        <div class="col-6">
+                            <field name="state" class="float-end" widget="badge" decoration-info="state == 'draft'" decoration-success="state == 'validated'" decoration-primary="state == 'paid'"/>
+                        </div>
+                        <div>
+                            <field name="date_from" readonly="state in ['cancel', 'validated', 'paid']"/> - <field name="date_to" readonly="state in ['cancel', 'validated', 'paid']"/>
+                        </div>
+                        <field name="name" readonly="state in ['cancel', 'validated', 'paid']"/>
+                        <span>Net - <field name="net_wage"/></span>
+                    </t>
+                </templates>
+            </kanban>

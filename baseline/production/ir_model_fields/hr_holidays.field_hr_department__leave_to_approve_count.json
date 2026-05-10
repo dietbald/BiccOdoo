@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15471,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off to Approve",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "leave_to_approve_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c3a7e59dfcc80482ee00da74920692e22536c7831acc77433b5cbfde913c78ee",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_department__leave_to_approve_count"
+}

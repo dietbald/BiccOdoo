@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28331,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extra Hours (encoded)",
+    "model_id": [
+      3427,
+      "Attendance Overtime Line"
+    ],
+    "name": "manual_duration",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "9f8988e207c4914b5d041430d71ce9f880cefbf6dccd1136c81526210010b227",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance_overtime_line__manual_duration"
+}

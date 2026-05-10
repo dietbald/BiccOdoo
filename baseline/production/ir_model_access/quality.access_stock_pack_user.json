@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1457,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      124,
+      "Quality / User"
+    ],
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "stock.move.line",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a4aa3e475dcf8b91c85fc584c02a2ab15af676d76a6f8273b7216d9251999207",
+  "write_date": "2025-12-09 02:58:46",
+  "xml_id": "quality.access_stock_pack_user"
+}

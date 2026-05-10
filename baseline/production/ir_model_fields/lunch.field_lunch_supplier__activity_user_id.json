@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18772,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "79e66277a44b6054c54db009470e5856fa923960f1c4b3a4421607a2471be30c",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__activity_user_id"
+}

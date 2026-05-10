@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 52922,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "AI Company",
+    "model_id": [
+      537,
+      "Document"
+    ],
+    "name": "ai_document_or_env_company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "addee3f35b5f940832f3c6c606f06f8a855444cb5f211241eed921a078beed59",
+  "write_date": "",
+  "xml_id": "ai_documents_account.field_documents_document__ai_document_or_env_company_id"
+}

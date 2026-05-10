@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3693,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Provider Code",
+    "model_id": [
+      409,
+      "Payment Token"
+    ],
+    "name": "provider_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "4504373e1a9d9c4ae0c639daacf243f4a785a3accdbc0476d61fc12080f340b5",
+  "write_date": "",
+  "xml_id": "payment.field_payment_token__provider_code"
+}

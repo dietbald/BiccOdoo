@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Push Subscriptions",
+    "model_id": [
+      699,
+      "Website Visitor"
+    ],
+    "name": "push_subscription_ids",
+    "relation": "website.visitor.push.subscription",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1dc6f3cabe4466b908ce74c2b31abff3c0e173a4f0ab66bf20558793ec16ba12",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_website_visitor__push_subscription_ids"
+}

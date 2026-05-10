@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7240,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7443ba94c4410233337fdecd27d60d8aecc18f7dd8798358675a83734cb1d102",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__country_id"
+}

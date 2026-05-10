@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24337,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendees",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2421d99c815fc9b5bfdf6822d712efae1b35b4f3ae77de7cdb824796e29a87b9",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__partner_ids"
+}

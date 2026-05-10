@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 613,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_year': True,\n            'search_default_job_id': active_id,\n        }",
+    "domain": false,
+    "name": "Time In Stage Analysis",
+    "res_model": "hr.recruitment.stage.report",
+    "target": "current",
+    "view_mode": "pivot,graph"
+  },
+  "payload_sha256": "c6161885a412cc0de093c36d16b9daabc5b8bd43d35135c07ea354dedab660ab",
+  "write_date": "2025-12-09 02:59:20",
+  "xml_id": "hr_recruitment_reports.recruitment_stage_report_job_action"
+}

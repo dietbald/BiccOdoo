@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10874,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Internal locations among descendants",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "child_internal_location_ids",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5ed94a718df0e43537f9a1e1432a2386b43bf14503abe565c9e378b1fb082d66",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__child_internal_location_ids"
+}

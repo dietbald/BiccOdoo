@@ -1,0 +1,20 @@
+<t name="User Achievements" t-name="website_slides.slides_home_user_achievements_small">
+    <div class="o_wslides_home_aside flex-grow-1">
+        <div class="d-flex justify-content-between">
+            <h2 class="h6 mb-3">Badges</h2>
+            <a href="/profile/ranks_badges?badge_category=slides">View all</a>
+        </div>
+        <t t-foreach="challenges" t-as="challenge">
+            <t t-set="challenge_done" t-value="challenge in challenges_done if challenges_done else False"/>
+            <div t-attf-class="d-flex #{'opacity-50' if challenge_done else ''}">
+                <div t-if="challenge.reward_id.image_1920" class="flex-shrink-0" t-field="challenge.reward_id.image_1920" t-options="{'widget': 'image', 'preview_image': 'image_128', 'class': 'me-2', 'style': 'max-height: 36px'}"/>
+                <img t-else="" t-attf-src="'/website_profile/static/src/img/badge_%s.svg' % (challenge.reward_id.level)" t-att-alt="challenge.reward_id.name" style="max-height: 36px" class="flex-shrink-0 me-2"/>
+                <div class="flex-grow-1">
+                    <div class="lh-1" t-out="challenge.reward_id.name"/>
+                    <small class="text-muted" t-out="challenge.reward_id.description"/>
+                </div>
+                <i t-if="challenge_done" class="fa fa-check text-success" aria-label="Done" title="Done" role="img"/>
+            </div>
+        </t>
+    </div>
+</t>

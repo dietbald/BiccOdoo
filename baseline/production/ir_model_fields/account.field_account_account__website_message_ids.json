@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3943,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "219f20a85f5175f0ab4694ed712665619a7cef1092c96366893cf4e8e5337ac1",
+  "write_date": "",
+  "xml_id": "account.field_account_account__website_message_ids"
+}

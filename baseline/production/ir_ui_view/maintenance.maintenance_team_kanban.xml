@@ -1,0 +1,83 @@
+<kanban highlight_color="color" class="o_maintenance_team_kanban" create="0" can_open="0">
+                <templates>
+                    <t t-name="menu">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-6">
+                                    <h5 role="menuitem" class="o_kanban_card_manage_title">
+                                        <span>Requests</span>
+                                    </h5>
+                                    <div role="menuitem">
+                                        <a name="1157" type="action">
+                                            All
+                                        </a>
+                                    </div>
+                                    <div role="menuitem">
+                                        <a name="1157" type="action" context="{'search_default_todo': 1}">
+                                            To Do
+                                        </a>
+                                    </div>
+                                    <div role="menuitem">
+                                        <a name="1157" type="action" context="{'search_default_progress': 1}">
+                                            In Progress
+                                        </a>
+                                    </div>
+                                    <div role="menuitem">
+                                        <a name="1157" type="action" context="{'search_default_done': 1}">
+                                            Done
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <h5 role="menuitem" class="o_kanban_card_manage_title">
+                                        <span>Reporting</span>
+                                    </h5>
+                                    <div role="menuitem">
+                                        <a name="1159" type="action" context="{'search_default_maintenance_team_id': id}">
+                                        Maintenance Requests
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div t-if="widget.editable" class="o_kanban_card_manage_settings row">
+                                <div class="col-8" role="menuitem" aria-haspopup="true">
+                                    <field name="color" widget="kanban_color_picker"/>
+                                </div>
+                                <div role="menuitem" class="col-4">
+                                    <a type="open" class="dropdown-item">Configuration</a>
+                                </div>
+                            </div>
+                        </div>
+                    </t>
+                    <t t-name="card">
+                        <a name="1157" type="action">
+                            <field name="name" class="fw-bold fs-4 ms-2"/>
+                        </a>
+                        <div class="row g-0 mt-3 ms-2 pb-4">
+                            <div class="col-6">
+                                <button class="btn btn-primary" name="1157" type="action" context="{'search_default_todo': 1}">
+                                    <field name="todo_request_count"/> To Do
+                                </button>
+                            </div>
+                            <div class="col-6">
+                                <a t-if="record.todo_request_count_date.raw_value &gt; 0" name="1158" type="action" context="{'search_default_todo': 1, 'search_default_maintenance_team_id': id}" class="d-block">
+                                    <field name="todo_request_count_date"/>
+                                    Scheduled
+                                </a>
+                                <a t-if="record.todo_request_count_high_priority.raw_value &gt; 0" name="1157" type="action" context="{'search_default_high_priority': 1}" class="d-block">
+                                    <field name="todo_request_count_high_priority"/>
+                                    Top Priorities
+                                </a>
+                                <a t-if="record.todo_request_count_block.raw_value &gt; 0" name="1157" type="action" context="{'search_default_kanban_state_block': 1}" class="d-block">
+                                    <field name="todo_request_count_block"/>
+                                    Blocked
+                                </a>
+                                <a t-if="record.todo_request_count_unscheduled.raw_value &gt; 0" name="1157" type="action" context="{'search_default_todo': 1, 'search_default_unscheduled': 1}" class="d-block">
+                                    <field name="todo_request_count_unscheduled"/>
+                                    Unscheduled
+                                </a>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>

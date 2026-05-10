@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Record Related Field",
+    "model_id": [
+      1274,
+      "Salary Package Benefit"
+    ],
+    "name": "res_field_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c5630e068cb0b40c20708bfb54177109961d075480db2778d9a35c7fa151cf21",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_benefit__res_field_id"
+}

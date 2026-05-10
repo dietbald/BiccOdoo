@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6327,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "511b45fdb5faac09b1a85f8c766d7cb70d5d0ddb914d309cd98b7ebd2b8faed2",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_manual_reminder__attachment_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 398,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      428,
+      "Tax Repartition Line"
+    ],
+    "name": "account.tax repartition.line.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "45639883cef2dbb0d40528209e08cea50ab309b99598ba35109936b591896ddf",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_tax_repartition_line_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23223,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      875,
+      "Studio Approval Rule"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f0869a1114ed0405a4ccaf2f4deee945836fe54e1f1d4d3e10570f91b4a23768",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule__website_message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12557,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Should Be Paid",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "release_to_pay_manual",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a156a5513d42e2be5d80c2a06039ad9bfb75d9a8a0cf9aa2a82a95a3b03e9549",
+  "write_date": "",
+  "xml_id": "account_3way_match.field_account_bank_statement_line__release_to_pay_manual"
+}

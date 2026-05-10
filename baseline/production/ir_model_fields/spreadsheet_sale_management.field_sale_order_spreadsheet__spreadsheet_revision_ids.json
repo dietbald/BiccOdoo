@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Spreadsheet Revision",
+    "model_id": [
+      1474,
+      "Quotation Spreadsheet"
+    ],
+    "name": "spreadsheet_revision_ids",
+    "relation": "spreadsheet.revision",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ec89696d6a3a646438bdd65c405694b259b331f64c8d17444577ae38fb3ed5ee",
+  "write_date": "",
+  "xml_id": "spreadsheet_sale_management.field_sale_order_spreadsheet__spreadsheet_revision_ids"
+}

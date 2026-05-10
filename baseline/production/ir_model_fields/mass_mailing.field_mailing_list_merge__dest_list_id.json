@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14346,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination Mailing List",
+    "model_id": [
+      901,
+      "Merge Mass Mailing List"
+    ],
+    "name": "dest_list_id",
+    "relation": "mailing.list",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3f9f5002b346f9518324cf4e600750abe9aa0efdb6198629a9e554db143041d2",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_list_merge__dest_list_id"
+}

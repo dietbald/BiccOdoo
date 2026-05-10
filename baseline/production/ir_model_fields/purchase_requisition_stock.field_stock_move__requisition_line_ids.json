@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12674,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Requisition Line",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "requisition_line_ids",
+    "relation": "purchase.requisition.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "59ab0b97919e15284d40abbe7b205781703bc1448f31127a642d5bde4039e7b3",
+  "write_date": "",
+  "xml_id": "purchase_requisition_stock.field_stock_move__requisition_line_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10949,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Price Unit",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "price_unit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "fcc75a55c061b4b8382ca03ba1daf3730ebffa1c1c53e7263a0d6bce9bca5372",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_move__price_unit"
+}

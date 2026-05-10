@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1305,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      111,
+      "Surveys / Administrator"
+    ],
+    "model_id": [
+      923,
+      "Survey User Input Line"
+    ],
+    "name": "survey.user_input.line.survey.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1e4d589ab6e98a76973cdf36ec38c4542f6167687afaf458c9c449b4aae924b6",
+  "write_date": "2026-01-28 12:01:51",
+  "xml_id": "survey.access_survey_user_input_line_survey_manager"
+}

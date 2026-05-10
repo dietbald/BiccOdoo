@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22274,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1383,
+      "Account Move Send Wizard"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a1c35f86a1c433d4d5bd34ab00b1ad60f60606d4d095be0e1df11b63a2c6d299",
+  "write_date": "",
+  "xml_id": "account.field_account_move_send_wizard__company_id"
+}

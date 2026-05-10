@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16762,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Organizer",
+    "model_id": [
+      993,
+      "Room Booking"
+    ],
+    "name": "organizer_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9603bab353ff697771e0613fcd7910f314241685d287568246700cc1f9640959",
+  "write_date": "",
+  "xml_id": "room.field_room_booking__organizer_id"
+}

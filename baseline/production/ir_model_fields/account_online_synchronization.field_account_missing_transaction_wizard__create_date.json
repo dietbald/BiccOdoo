@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5971,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      496,
+      "Wizard for missing transactions"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "708ccaf2f2896d1cc2f55ef6b6b6bd3ed185c6225e3ad7b6b712ea48f6da0748",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_missing_transaction_wizard__create_date"
+}

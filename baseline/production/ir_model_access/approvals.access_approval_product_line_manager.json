@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1081,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      92,
+      "Approvals / Administrator"
+    ],
+    "model_id": [
+      784,
+      "Product Line"
+    ],
+    "name": "access_approval_product_line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3d1e6b1b9d379957d126f2c23b7f40763459c838128bf019ceea1c11cebae711",
+  "write_date": "2025-12-09 02:57:55",
+  "xml_id": "approvals.access_approval_product_line_manager"
+}

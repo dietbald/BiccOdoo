@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2090,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unrestricted Attachments",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "unrestricted_attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a9e010b306d89d7a92a9613015ecfadcd31c19cde7ffb8b086daaa39e95a7e22",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__unrestricted_attachment_ids"
+}

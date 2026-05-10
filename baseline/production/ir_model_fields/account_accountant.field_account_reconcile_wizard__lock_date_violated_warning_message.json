@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5836,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is the date violating the lock date of moves",
+    "model_id": [
+      490,
+      "Account reconciliation wizard"
+    ],
+    "name": "lock_date_violated_warning_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "e909c386680e762d1d6e6258e3453a5225c0265e43f6c3d4ebbfd00737774c37",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_reconcile_wizard__lock_date_violated_warning_message"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4859,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Due Signed",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "amount_residual_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2f238634e9c6aae9c66d3b6233eb906cddf9dad2f854f0bb9a436d548bd4dced",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__amount_residual_signed"
+}

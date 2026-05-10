@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12751,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hourly Wage",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "hourly_wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "44a4f4cfce31e13b10a6c3e47e2efb4338cab154b0f5b195dc25332ca9352f6d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_version__hourly_wage"
+}

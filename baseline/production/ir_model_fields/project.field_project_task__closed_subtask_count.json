@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7709,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closed Sub-tasks Count",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "closed_subtask_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "15b26418e3626cdd212d7b49112fe41eb0ec94ef7858cd024c4dcfdb1a626cc4",
+  "write_date": "",
+  "xml_id": "project.field_project_task__closed_subtask_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6004,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Exclude Provision Currency",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "exclude_provision_currency_ids",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "64e9d938e9854995ffddf35ebc8b3c40c8c4efc398e7c71248effaa595ceee51",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_account__exclude_provision_currency_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28265,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Ids Domain",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "payment_ids_domain",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "73a0c9a79b9a555680acaedf58c8955e20f2f36cc13420c24d541862b6deae50",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__payment_ids_domain"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8817,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "779be09440cabc9a2fc3faea232cfee9d99d4aa0e823025adea929c336aee94d",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__rating_ids"
+}

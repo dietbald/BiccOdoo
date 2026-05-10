@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16116,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "03f3f29398dea5e00edf4ad7daf04b5e6406030d4f260528a74741a614a035a8",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__activity_calendar_event_id"
+}

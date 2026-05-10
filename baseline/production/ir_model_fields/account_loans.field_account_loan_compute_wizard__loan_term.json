@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23938,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Loan Term",
+    "model_id": [
+      1477,
+      "Loan Compute Wizard"
+    ],
+    "name": "loan_term",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "82cedf8ad00f08d48a6b537e6a5d2c71b0ba4e22c049605ab1351442759d7eeb",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_compute_wizard__loan_term"
+}

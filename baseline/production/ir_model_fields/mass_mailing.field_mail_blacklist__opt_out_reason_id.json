@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14075,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Opt-out Reason",
+    "model_id": [
+      167,
+      "Mail Blacklist"
+    ],
+    "name": "opt_out_reason_id",
+    "relation": "mailing.subscription.optout",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7b4e717b581e1f1dad062a9fba85438dea8d9ff4e0875240140489db9b873c47",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mail_blacklist__opt_out_reason_id"
+}

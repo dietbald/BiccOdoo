@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2774,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      352,
+      "Phone Blacklist"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4ab2c3187df93d448fbbb4146a9b3f3725bc79abdb8cff2ed8b4c7217ec8179c",
+  "write_date": "",
+  "xml_id": "phone_validation.field_phone_blacklist__message_follower_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "manager_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fee3afcc6da240dee12a954fcf0415b0b453c73287a752613e1bad55059fb9b9",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__manager_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4103,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b8df4fb732d337b52be8e7d690fbd2d0813d2fe406d64777415f5e09e7f9a01d",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__message_has_error"
+}

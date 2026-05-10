@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4325,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-post",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "auto_post",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "511d213fe7f5148186acb38102b5427c54aa1b4e9d58ce5ef27f53a6d9f8c99d",
+  "write_date": "",
+  "xml_id": "account.field_account_move__auto_post"
+}

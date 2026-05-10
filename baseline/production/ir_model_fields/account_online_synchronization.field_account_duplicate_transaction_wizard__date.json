@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23302,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Starting Date",
+    "model_id": [
+      1445,
+      "Wizard for duplicate transactions"
+    ],
+    "name": "date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "e412a8409c5ebeec4aa0985cd262b718ca231c6db78af13dda5ee4b8fedafaed",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_duplicate_transaction_wizard__date"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 191,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1,'=',1)]",
+    "groups": [
+      36
+    ],
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "All Orders Lines",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fd08cce735c287ce239d55a1f06ef0ff19f4654b4475ea2fabab57d62ccdf72e",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.sale_order_line_see_all"
+}

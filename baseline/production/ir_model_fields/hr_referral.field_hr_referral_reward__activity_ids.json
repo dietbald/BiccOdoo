@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25534,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e62c3b0ecb89035bb96e3c202100b202f6dc2c3feca6c9263826a8fd8f35cb38",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__activity_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1815,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      158,
+      "Mail Main Attachment management"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "11204469cb0ad6e4a18f22716cc4bac16684593dcaaf7906094ddcd553bdd783",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_main_attachment__message_has_error"
+}

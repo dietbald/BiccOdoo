@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 753,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "hr.department.employee",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "3fc02be987fb342162407cbc7ecebe0ab498d1ec45c733d3bef62f5d2b7362d8",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.access_hr_department_employee"
+}

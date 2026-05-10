@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8146,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6657219bfb87a1cea22dce581c8ed2948404d4ebba14b837fc057c32ac8e027b",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__message_ids"
+}

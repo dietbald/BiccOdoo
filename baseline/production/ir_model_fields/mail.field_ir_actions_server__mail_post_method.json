@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2240,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send Email As",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "mail_post_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e366b0fed243996bcddc073fe1f8890e3e7f126f06afe97df696f0cd4f6a7518",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__mail_post_method"
+}

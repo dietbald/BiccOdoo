@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17586,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1021,
+      "Eco Routing changes"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c89860899d385b80f203aba95744b3f8c4920234ee904af0262d60341583e4d2",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_routing_change__create_uid"
+}

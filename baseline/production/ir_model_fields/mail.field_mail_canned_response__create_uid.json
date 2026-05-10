@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2216,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      180,
+      "Canned Response"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dda01d2b8204a7f35e71716e24c830d5d95d5271c938d6fe4f44f95f9091237a",
+  "write_date": "",
+  "xml_id": "mail.field_mail_canned_response__create_uid"
+}

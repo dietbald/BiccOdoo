@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3386,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "sms_id",
+    "relation": "sms.sms",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3bfe7248f4a105913cf999a7d9df7eb4483fbe8bf02ba0a9273932d08e3baae1",
+  "write_date": "",
+  "xml_id": "sms.field_mail_notification__sms_id"
+}

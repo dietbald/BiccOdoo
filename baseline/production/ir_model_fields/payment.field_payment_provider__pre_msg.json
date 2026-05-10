@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3663,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Help Message",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "pre_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "761859816953bce88cdbad41d7db03d39cf8f7dedbaf6c187e56bdd08496b3b0",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__pre_msg"
+}

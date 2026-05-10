@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2012,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Internal Only",
+    "model_id": [
+      173,
+      "Message subtypes"
+    ],
+    "name": "internal",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3d4e1367b4dea634c0e0e1b974e47bc818cc6fa2cad533da350b5fd6bc8b6bfc",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_subtype__internal"
+}

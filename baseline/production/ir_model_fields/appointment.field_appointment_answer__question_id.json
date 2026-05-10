@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15136,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Question",
+    "model_id": [
+      934,
+      "Appointment Question Answers"
+    ],
+    "name": "question_id",
+    "relation": "appointment.question",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ccf3c00d0905021d62560190943640c52dd8e8b6a12dd92380ec100f97c98e74",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_answer__question_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9370c1e63c910742d46c3a6be053c25cad7cf60cdc90e428966a99720f1f07ed",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_equipment__message_follower_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2023,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      100,
+      "Attendances / Administrator"
+    ],
+    "model_id": [
+      3429,
+      "Overtime Ruleset"
+    ],
+    "name": "hr.attendance.admin.overtime.ruleset",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5e7138b904b746f62fbb6f93c9e0c7992b7d3bd28a9240d02d2aabba47938103",
+  "write_date": "2025-12-09 02:58:04",
+  "xml_id": "hr_attendance.access_hr_attendance_overtime_ruleset_admin"
+}

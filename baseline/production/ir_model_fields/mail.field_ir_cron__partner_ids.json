@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2614,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d7487382a656e4bf6b8de7afccab3f692caa77d02ee4af550be385286627ed25",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__partner_ids"
+}

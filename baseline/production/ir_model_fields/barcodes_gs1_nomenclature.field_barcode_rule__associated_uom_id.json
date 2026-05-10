@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10813,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Associated Uom",
+    "model_id": [
+      724,
+      "Barcode Rule"
+    ],
+    "name": "associated_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8163a9f74844c55303ced729b0eec8ebf27979078ff430fde987e15360f7eb41",
+  "write_date": "",
+  "xml_id": "barcodes_gs1_nomenclature.field_barcode_rule__associated_uom_id"
+}

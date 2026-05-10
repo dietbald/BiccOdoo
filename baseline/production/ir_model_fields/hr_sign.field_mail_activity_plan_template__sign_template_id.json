@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10735,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document to sign",
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "sign_template_id",
+    "relation": "sign.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b9abe3854bed9c0d32678a2b42c9b3d5c145e1c7fd60e9fd0c68f66137ad79dc",
+  "write_date": "",
+  "xml_id": "hr_sign.field_mail_activity_plan_template__sign_template_id"
+}

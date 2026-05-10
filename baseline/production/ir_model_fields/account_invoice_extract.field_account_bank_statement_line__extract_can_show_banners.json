@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5603,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can show the ocr banners",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "extract_can_show_banners",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f9274b98d011d1d1a93fc810226a12490aad439013ff7719053d753c40c13b71",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_bank_statement_line__extract_can_show_banners"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7429,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pls Fields",
+    "model_id": [
+      587,
+      "Update the probabilities"
+    ],
+    "name": "pls_fields",
+    "relation": "crm.lead.scoring.frequency.field",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "18d2026f6b6cbc753a163547d4dbfec72ea6b7b4e003805d820027dd1b8a2bf5",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead_pls_update__pls_fields"
+}

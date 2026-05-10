@@ -1,0 +1,6 @@
+<search string="Search Partner Industry">
+                    <field name="name"/>
+                    <field name="full_name"/>
+                    <separator/>
+                    <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                </search>

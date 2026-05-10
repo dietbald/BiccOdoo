@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4739,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "18fe809e066ae402478e5c68768e4effdfb306bce1b91d6aec7c254748bbc71d",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement__create_uid"
+}

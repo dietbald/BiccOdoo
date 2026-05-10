@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4475,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit Price",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "price_unit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "efd17409aee526b2ff3e54408476dd5481a82d4e4d19a23aaaa090b11e148ae0",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__price_unit"
+}

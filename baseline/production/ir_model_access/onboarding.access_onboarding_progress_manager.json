@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 172,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      138,
+      "Onboarding Progress Tracker"
+    ],
+    "name": "onboarding.progress.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b05bcbab05d4135fc648668bcec5a5f33c31f46e0f9d587eaf73cf7429173c12",
+  "write_date": "2025-12-09 02:55:41",
+  "xml_id": "onboarding.access_onboarding_progress_manager"
+}

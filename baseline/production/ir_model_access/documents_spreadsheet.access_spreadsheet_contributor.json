@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 532,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      546,
+      "Spreadsheet Contributor"
+    ],
+    "name": "access_spreadsheet_contributor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "9ad2faa38a0108ac3dc00a1f6f2c4e143fac3242b4f188e21b9589660ea65ed7",
+  "write_date": "2025-12-09 02:58:00",
+  "xml_id": "documents_spreadsheet.access_spreadsheet_contributor"
+}

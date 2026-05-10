@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27522,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Force Audit Trail",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "force_restrictive_audit_trail",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "635a944cd4b9956b77e95e88b42f5f9b6f2ba3a932d3d01e02262bb728135eb5",
+  "write_date": "",
+  "xml_id": "account.field_res_company__force_restrictive_audit_trail"
+}

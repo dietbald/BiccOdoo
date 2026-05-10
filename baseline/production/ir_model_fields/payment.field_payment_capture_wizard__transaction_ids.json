@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3752,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transaction",
+    "model_id": [
+      411,
+      "Payment Capture Wizard"
+    ],
+    "name": "transaction_ids",
+    "relation": "payment.transaction",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2451119e5354660871357971b0914e54b8607c04e691d3051d9f197cd0c25380",
+  "write_date": "",
+  "xml_id": "payment.field_payment_capture_wizard__transaction_ids"
+}

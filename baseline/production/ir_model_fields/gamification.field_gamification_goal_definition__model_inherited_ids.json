@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14607,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inherited models",
+    "model_id": [
+      914,
+      "Gamification Goal Definition"
+    ],
+    "name": "model_inherited_ids",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d9d68337a82490a9f8a81f020c7d83dc8f0c2381df23e119290d19d2e0b35e2b",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_goal_definition__model_inherited_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Confirmation Date",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "date_approve",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "94c8aede5df5df47105ee5487d20107ce4d635bdef07bdb9d873efaf64c488a5",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__date_approve"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 894,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      698,
+      "Visited Pages"
+    ],
+    "name": "access_website_track_salesman",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6855f71baaa029fe1d1ee2dd8c22a1257947f8c78922e7e9013192e0d4c74bb4",
+  "write_date": "2026-01-28 12:01:16",
+  "xml_id": "website_crm.access_website_track_salesman"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1342,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      113,
+      "Appointment / Administrator"
+    ],
+    "model_id": [
+      942,
+      "Add or remove leaves from appointments"
+    ],
+    "name": "appointment.manage.leaves.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c3f36ee6edf473c344c68b4127c19f9cde8f3add6631b7c8ae9ca04386ca90a1",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.access_appointment_manage_leaves_manager"
+}

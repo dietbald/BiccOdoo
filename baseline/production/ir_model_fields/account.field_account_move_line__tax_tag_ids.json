@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "tax_tag_ids",
+    "relation": "account.account.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b3990c5611a2fe4c05f6a5c9fee4871696200cf6cf75d07c6da1b8259ca1f40e",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__tax_tag_ids"
+}

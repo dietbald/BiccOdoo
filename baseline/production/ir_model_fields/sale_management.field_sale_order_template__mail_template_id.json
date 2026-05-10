@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8480,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Confirmation Mail",
+    "model_id": [
+      624,
+      "Quotation Template"
+    ],
+    "name": "mail_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "55da3357edc12e4673117e99786b91af58a29d47cf03b0b7f697a00bfe8ec5aa",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template__mail_template_id"
+}

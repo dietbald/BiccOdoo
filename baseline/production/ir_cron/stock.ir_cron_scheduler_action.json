@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 44,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "\nmodel.run_scheduler(True)\n            ",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "Procurement: run scheduler",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "81747478dda2fde12f53e0281c139c40614176bb8b91aaadab41e690cc0e2d9f",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "stock.ir_cron_scheduler_action"
+}

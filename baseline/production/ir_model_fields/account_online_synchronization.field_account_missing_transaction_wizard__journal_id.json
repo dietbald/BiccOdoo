@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5967,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      496,
+      "Wizard for missing transactions"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9616ab157bf4f540359f47908df69224ed76ca0ce343f6adcae95f80456216cc",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_missing_transaction_wizard__journal_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9420,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency Rate",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "currency_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "423963529d804e00acc27b8d1662f90fd38c7612fdc7f6e0c678d8cfc3f63e2b",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__currency_rate"
+}

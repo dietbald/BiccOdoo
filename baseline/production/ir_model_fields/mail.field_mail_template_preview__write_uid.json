@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2594,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      216,
+      "Email Template Preview"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5f7c066e98bf438f415224fcbfa333b7b88be0506240ebebb09059c1bce452dd",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template_preview__write_uid"
+}

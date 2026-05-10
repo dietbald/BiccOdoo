@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11696,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Location",
+    "model_id": [
+      766,
+      "Warn Insufficient Quantity"
+    ],
+    "name": "location_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a69b924d7d3b0a32670439d0b133fc0bba938821871b7bbaaae999f5cf278dd1",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warn_insufficient_qty__location_id"
+}

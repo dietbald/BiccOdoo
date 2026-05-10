@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1844,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      1513,
+      "Channel/Course Tag"
+    ],
+    "name": "slide.channel.tag.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "7eb78856bbdc422b970d7364fcae9ac4108ab026d12282acacdd9702693905b6",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.access_slide_channel_tag_public"
+}

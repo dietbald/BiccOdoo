@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18278,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Leaves",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "leave_ids",
+    "relation": "resource.calendar.leaves",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "790abb1a7ce60a27432539f52312d2bf349f0dcba9e5981a71c4d5c54ab62602",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_maintenance_request__leave_ids"
+}

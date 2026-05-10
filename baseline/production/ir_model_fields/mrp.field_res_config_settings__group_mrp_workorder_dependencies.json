@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15899,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Order Dependencies",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_mrp_workorder_dependencies",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5cfc699093eeef24233f83ddbdd47fb5e459b62cdf5447624004f6462564b8a5",
+  "write_date": "",
+  "xml_id": "mrp.field_res_config_settings__group_mrp_workorder_dependencies"
+}

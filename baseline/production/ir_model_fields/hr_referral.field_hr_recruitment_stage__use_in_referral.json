@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25503,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show in Referrals",
+    "model_id": [
+      667,
+      "Recruitment Stages"
+    ],
+    "name": "use_in_referral",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "16124532fcd34f5ecce6fb127df89d58b2138754669b5062cb0f56e8267e193c",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_recruitment_stage__use_in_referral"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5181,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      450,
+      "Accounting Report Column"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e7bfe5acdd17a88ee9831929bccd9df02a8c112d4ee0f7b098b9fd19de1f0a8b",
+  "write_date": "",
+  "xml_id": "account.field_account_report_column__create_uid"
+}

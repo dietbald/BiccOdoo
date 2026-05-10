@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4796,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Attachment",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "message_main_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "159a877c54a4b1845013a002197042918c19f9f09f8a8a85dd1edc6201a33d8d",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_bank_statement_line__message_main_attachment_id"
+}

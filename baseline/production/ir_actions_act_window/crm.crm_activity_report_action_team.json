@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 411,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_team_id': active_id}",
+    "domain": "[]",
+    "name": "Pipeline Activities",
+    "res_model": "crm.activity.report",
+    "target": "current",
+    "view_mode": "graph,pivot,list"
+  },
+  "payload_sha256": "3a8fe235c4b68f9531a071f0dfa25c27ce924e8f7806c3469959ee0d92b2bd16",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_activity_report_action_team"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6210,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Select Invoice Line",
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "select_invoice_line_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0dc63303654d4035d2bbb512b69bf486f8ef84f0d9e89c57d2681b466112271e",
+  "write_date": "",
+  "xml_id": "account_asset.field_asset_modify__select_invoice_line_id"
+}

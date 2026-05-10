@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18120,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6548fa26671cd91ec7dc079beafd7047917593c2c64984134d73dd2a08a9b410",
+  "write_date": "",
+  "xml_id": "rating.field_maintenance_equipment__rating_ids"
+}

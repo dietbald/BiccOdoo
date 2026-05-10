@@ -1,0 +1,10 @@
+<list>
+                <field name="ref_user_id" widget="many2one_avatar_user"/>
+                <field name="applicant_id" column_invisible="True"/>
+                <field name="applicant_name" string="Applicant" optional="show"/>
+                <field name="stage_id" optional="show"/>
+                <field name="points" decoration-success="points &gt; 0" decoration-danger="0 &gt; points"/>
+                <field name="write_date" optional="hide"/>
+                <field name="hr_referral_reward_id" optional="hide"/>
+                <field name="company_id" groups="base.group_multi_company" optional="hide"/>
+            </list>

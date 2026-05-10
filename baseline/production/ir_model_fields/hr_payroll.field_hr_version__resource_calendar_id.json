@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10378,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Hours",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "719b4bba6e1fc92c0e6832804c63f6cb953627f7e36c8788a760aa670685f0ec",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_version__resource_calendar_id"
+}

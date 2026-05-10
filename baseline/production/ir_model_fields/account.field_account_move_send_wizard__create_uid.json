@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1383,
+      "Account Move Send Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "35a75d6cfe5471ff9fe348de5108c6c09e471964c223d8357d8d8e9aa23a71c6",
+  "write_date": "",
+  "xml_id": "account.field_account_move_send_wizard__create_uid"
+}

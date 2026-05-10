@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7060,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "4fc851f5240be44219d102bb2a6e0129b4308895db4894c205a7c4a467b3e043",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team_member__message_has_error_counter"
+}

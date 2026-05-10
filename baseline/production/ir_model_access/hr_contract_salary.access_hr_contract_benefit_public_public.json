@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1701,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      1274,
+      "Salary Package Benefit"
+    ],
+    "name": "access_hr_contract_benefit",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "eff15478c3f3ed00ec3c9321c425c5f45b15f1881ec995d1ed966f9509efd6c5",
+  "write_date": "2025-12-09 02:59:17",
+  "xml_id": "hr_contract_salary.access_hr_contract_benefit_public_public"
+}

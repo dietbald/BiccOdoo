@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29181,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Position",
+    "model_id": [
+      3627,
+      "Attendance and Leave Analysis Report"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ee605e209e5ae9cb5d7e9beea176b2118f510e0f29ed5756d8841ea6513458b8",
+  "write_date": "",
+  "xml_id": "hr_holidays_attendance.field_hr_leave_attendance_report__job_id"
+}

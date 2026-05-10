@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4127,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cash Basis Transition Account",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "cash_basis_transition_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2f119beaba17f8068ac75c1bcd0b632f6981ae50619c8ef87451ea26e6eecd6c",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__cash_basis_transition_account_id"
+}

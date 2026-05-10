@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20867,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit Tax Grids",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "credit_tag_ids",
+    "relation": "account.account.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7e63f44900295ba3d73ae1a0be726fbf79c64d09c780f5bbf9e0c7051842fe18",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_salary_rule__credit_tag_ids"
+}

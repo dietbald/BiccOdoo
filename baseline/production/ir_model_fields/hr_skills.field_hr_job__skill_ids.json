@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skill",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "skill_ids",
+    "relation": "hr.skill",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f17652d78b2c2528519a8e6ecc15510af865b75575e2d809304eff71732bfac1",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_job__skill_ids"
+}

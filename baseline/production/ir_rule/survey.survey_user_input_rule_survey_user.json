@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 574,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '&', ('survey_id.survey_type', 'in', ('assessment', 'custom', 'live_session', 'survey')),\n                '|', ('survey_id.restrict_user_ids', 'in', user.id),\n                     ('survey_id.restrict_user_ids', '=', False)]",
+    "groups": [
+      110
+    ],
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "Survey user input: officer: unrestricted survey or in restricted users",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "08694b5e90e5e59c5f75f9ff6793d55ffa0f0cf9750a5f477b467a5527bf41d9",
+  "write_date": "2024-10-23 10:44:38",
+  "xml_id": "survey.survey_user_input_rule_survey_user"
+}

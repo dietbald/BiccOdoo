@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13353,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Attendance Worked Hours",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "last_attendance_worked_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "937eaeac8798f2827ce48ef1a765cae905e31c92e6f279a4d735d6cafafd9282",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_employee__last_attendance_worked_hours"
+}

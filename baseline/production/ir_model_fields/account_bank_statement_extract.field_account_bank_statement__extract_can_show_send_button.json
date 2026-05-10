@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23830,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can show the ocr send button",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "extract_can_show_send_button",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "694dc797779f28b6d00f0cdc7e6e07bb1c13346b7f0d8f58326f3ff708077628",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement__extract_can_show_send_button"
+}

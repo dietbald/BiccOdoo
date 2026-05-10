@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25600,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2605,
+      "Friends for Referrals"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d1338bb9c519af1027d648896cda44d3c9639c7d9c3727f58287fa6cf37c855d",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_friend__write_uid"
+}

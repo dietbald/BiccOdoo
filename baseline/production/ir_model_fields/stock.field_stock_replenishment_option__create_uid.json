@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11804,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      775,
+      "Stock warehouse replenishment option"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cc827ff8f792b21504d7bfee85979f74cf2abe2b4e69389ebd82d428ec547415",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenishment_option__create_uid"
+}

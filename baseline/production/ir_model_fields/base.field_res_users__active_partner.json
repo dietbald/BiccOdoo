@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1100,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner is Active",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "active_partner",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "61e74c7a4b6c0bf3dc88b09bcbcfc41255a718dbb677053a73e4908e8810aed6",
+  "write_date": "",
+  "xml_id": "base.field_res_users__active_partner"
+}

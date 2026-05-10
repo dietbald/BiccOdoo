@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1386,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Trusted Devices",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "totp_trusted_device_ids",
+    "relation": "auth_totp.device",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "285cab7810791318efa9b9d66b7250e0ce45cf84ffc518b59cc47f9af3965850",
+  "write_date": "",
+  "xml_id": "auth_totp.field_res_users__totp_trusted_device_ids"
+}

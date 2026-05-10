@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20418,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Home-Work Distance unit",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "distance_home_work_unit",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "058053cce12526389e078b5fcfc8cb0042e3af5365a76c404a21a3f0d40d0227",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__distance_home_work_unit"
+}

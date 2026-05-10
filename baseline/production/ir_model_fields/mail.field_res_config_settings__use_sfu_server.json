@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27030,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use SFU server",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "use_sfu_server",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6d1c86f9c955ff8ba50f31f188b57e348644f35a22ff38555acf4ae950c239b8",
+  "write_date": "",
+  "xml_id": "mail.field_res_config_settings__use_sfu_server"
+}

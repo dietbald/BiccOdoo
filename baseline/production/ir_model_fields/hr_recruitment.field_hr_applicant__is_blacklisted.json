@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26076,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blacklist",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "is_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "57b63b86291c8b4a97646f6fba88d3b5a7753b071d8e9b3d7d0f087ced2ea1c0",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__is_blacklisted"
+}

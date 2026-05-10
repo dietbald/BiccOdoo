@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16552,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      987,
+      "Quality Alert Team"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aa32e6e7ee5c84cc4c07592b41dd7b72239fbf7a494a00bace81ae1676c117bf",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_team__message_has_error"
+}

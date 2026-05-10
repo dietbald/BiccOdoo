@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24790,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Adjusting Entries Count",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "adjusting_entries_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "a38952eff7de457a9c947faac0436a5ca02ce704008b15cc2010935c976d4005",
+  "write_date": "",
+  "xml_id": "account.field_account_move__adjusting_entries_count"
+}

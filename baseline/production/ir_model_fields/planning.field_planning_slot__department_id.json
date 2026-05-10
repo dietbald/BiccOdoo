@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ccbabe3a78773a1aabbb57a24e32516ee99b570474f3ae1030907cee087d95f9",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__department_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5248,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      455,
+      "Account Move Reversal"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "43a832b9f323053ef9303483622b62c08417e41885651a17f5bb6b297428bbd4",
+  "write_date": "",
+  "xml_id": "account.field_account_move_reversal__currency_id"
+}

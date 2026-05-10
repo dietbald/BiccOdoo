@@ -1,0 +1,7 @@
+<group name="extra_rental" position="inside">
+                <label for="preparation_time"/>
+                <div>
+                    <field name="preparation_time" widget="float_time" class="oe_inline p-0 col-lg-2"/>
+                    <label for="preparation_time" string="hours before its picking time" class="oe_inline"/>
+                </div>
+            </group>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15387,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Up-front Payment",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "has_payment_step",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f0bdf368418d983a1b488413580c7b39d855c23607f487b1f1ce05947d096ba8",
+  "write_date": "",
+  "xml_id": "appointment_account_payment.field_appointment_type__has_payment_step"
+}

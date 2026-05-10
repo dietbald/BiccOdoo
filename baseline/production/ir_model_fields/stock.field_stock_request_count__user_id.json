@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11770,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assign to",
+    "model_id": [
+      773,
+      "Stock Request an Inventory Count"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2f3c324fc838a1d7e520ffb17467c66b665a21a2b21aef627c3d70b5525c6228",
+  "write_date": "",
+  "xml_id": "stock.field_stock_request_count__user_id"
+}

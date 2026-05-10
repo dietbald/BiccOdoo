@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 490,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      499,
+      "Horizontal group for reports"
+    ],
+    "name": "account.report.horizontal.group.ac.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e97eb9deb9c0b31e39c5bddfdb9d7616f277aac8ab452d1d3038a2ee7329fb11",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_report_horizontal_group_ac_user"
+}

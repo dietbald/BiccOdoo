@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4503,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debit Move",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "debit_move_id",
+    "relation": "account.move.line",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2e7bb70e81647567f311f726e44dbfd1dbce7eb989a3f897298c2e06a7fbe170",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__debit_move_id"
+}

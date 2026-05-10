@@ -1,0 +1,24 @@
+<data><field name="overtime_status" position="attributes">
+                <attribute name="readonly">1</attribute>
+            </field>
+            <xpath expr="//field[@id='employee_no_manager']" position="replace"/>
+            <xpath expr="//field[@id='employee_manager']" position="replace"/>
+            <xpath expr="//field[@id='employee_no_officer']" position="attributes">
+                <attribute name="groups"/>
+            </xpath>
+            <field name="check_in" position="attributes">
+                <attribute name="readonly">1</attribute>
+            </field>
+            <field name="check_out" position="attributes">
+                <attribute name="readonly">1</attribute>
+            </field>
+            <field name="validated_overtime_hours" position="attributes">
+                <attribute name="readonly">1</attribute>
+            </field>
+            <button name="action_approve_overtime" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </button>
+            <button name="action_refuse_overtime" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </button>
+        </data>

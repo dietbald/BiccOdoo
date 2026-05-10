@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5457,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner Limit",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "use_partner_credit_limit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2516183c2b4e171099df09ff850204c3bcec696d2e15f5761359c500fd735444",
+  "write_date": "",
+  "xml_id": "account.field_res_users__use_partner_credit_limit"
+}

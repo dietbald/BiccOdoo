@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16821,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality Check Fail",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "quality_check_fail",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d39893eef1b22a77c5b5071b2d15b5850525aab329dd3d99d4cbebe89b2bd103",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__quality_check_fail"
+}

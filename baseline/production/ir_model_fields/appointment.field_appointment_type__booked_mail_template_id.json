@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15286,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Booking Email",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "booked_mail_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "22c8618c0b4c7f638a05354645f5037fc1be982ee683b4b371ed6dce0d3fe723",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__booked_mail_template_id"
+}

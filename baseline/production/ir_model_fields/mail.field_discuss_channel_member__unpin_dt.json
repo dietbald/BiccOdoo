@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19519,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unpin date",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "unpin_dt",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "a17ae62f22c167299c3a3d1a178f4f984a9325b66c547c4f312e847f4fe389c2",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__unpin_dt"
+}

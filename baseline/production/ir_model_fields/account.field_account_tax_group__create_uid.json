@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4092,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      426,
+      "Tax Group"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a3f3abce1801011fb78383fdf38929eb28ad79a4402867b1595ef0437bad0860",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_group__create_uid"
+}

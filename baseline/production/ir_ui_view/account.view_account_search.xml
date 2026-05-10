@@ -1,0 +1,23 @@
+<search string="Accounts">
+                    <field name="name" filter_domain="['|', '|', ('name', 'ilike', self), ('code', '=ilike', self + '%'), ('description', 'ilike', self)]" string="Account"/>
+                    <filter string="Receivable" name="receivableacc" domain="[('account_type','=','asset_receivable')]"/>
+                    <filter string="Payable" name="payableacc" domain="[('account_type','=','liability_payable')]"/>
+                    <filter string="Equity" name="equityacc" domain="[('internal_group','=', 'equity')]"/>
+                    <filter string="Assets" name="assetsacc" domain="[('internal_group','=', 'asset')]"/>
+                    <filter string="Liability" name="liabilityacc" domain="[('internal_group','=', 'liability')]"/>
+                    <filter string="Income" name="incomeacc" domain="[('internal_group','=', 'income')]"/>
+                    <filter string="Expenses" name="expensesacc" domain="[('internal_group','=', 'expense')]"/>
+                    <filter string="Fixed Assets" name="type_asset_fixed" domain="[('account_type', '=', 'asset_fixed')]" invisible="True"/>
+                    <filter string="Frequent Expenses" name="type_expense" domain="[('account_type', '=', 'expense')]" invisible="True"/>
+                    <separator/>
+                    <filter string="Account with Entries" name="used" domain="[('used', '=', True)]"/>
+                    <filter string="Inactive Accounts" name="inactiveacc" domain="[('active', '=', False)]"/>
+                    <separator/>
+                    <field name="account_type"/>
+                    <group>
+                        <filter string="Account Type" name="accounttype" domain="" context="{'group_by':'account_type'}"/>
+                    </group>
+                    <searchpanel class="account_root w-auto">
+                        <field name="root_id" icon="fa-filter" limit="false"/>
+                    </searchpanel>
+                </search>

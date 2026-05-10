@@ -1,0 +1,11 @@
+<data><xpath expr="//header" position="replace"/>
+            <xpath expr="//form/*[1]" position="before">
+                <div role="alert" class="alert alert-warning text-center">
+                    This is a partially-signed contract.
+                </div>
+            </xpath>
+            <xpath expr="//chatter" position="replace"/>
+            <xpath expr="//widget[@name='web_ribbon']" position="replace">
+                <widget name="web_ribbon" title="Draft" bg_color="text-bg-info" groups="hr.group_hr_user"/>
+            </xpath>
+        </data>

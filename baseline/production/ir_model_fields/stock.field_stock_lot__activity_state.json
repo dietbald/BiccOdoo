@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11122,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activity State",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "activity_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "45e94b2a4c027701af395bd71da4e5c4dd44f87c79abb7f0a66fa4f7d1ba7bf4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__activity_state"
+}

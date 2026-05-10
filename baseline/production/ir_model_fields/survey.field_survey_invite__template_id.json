@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14919,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mail Template",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9172f33c22a8459dddd312ba33bba63f0d839d5e9da856f4437c3db849f36409",
+  "write_date": "",
+  "xml_id": "survey.field_survey_invite__template_id"
+}

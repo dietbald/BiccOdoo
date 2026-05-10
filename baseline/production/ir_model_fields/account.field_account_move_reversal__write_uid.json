@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5254,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      455,
+      "Account Move Reversal"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "34264b56ef91242ceda4ac6a33f68c2284191eb1f8fc7ff6f1842c6ced9e875c",
+  "write_date": "",
+  "xml_id": "account.field_account_move_reversal__write_uid"
+}

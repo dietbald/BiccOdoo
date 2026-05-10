@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28857,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type",
+    "model_id": [
+      3563,
+      "Accounting Return Type"
+    ],
+    "name": "category",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d7f917e68dfe3d9620af23cb54a1125c77d60cb2d65f2295d05069a0e38d1f2b",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_type__category"
+}

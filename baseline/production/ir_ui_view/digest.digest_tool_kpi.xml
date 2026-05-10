@@ -1,0 +1,15 @@
+<t t-name="digest.digest_tool_kpi">
+<span t-esc="kpi_value" style="color: #00A09D;font-weight: bold;text-decoration: none;" class="kpi_value kpi_border_col"/>
+<br/>
+<span t-esc="kpi_subtitle" class="kpi_value_label"/>
+<table t-if="kpi_margin" class="kpi_margin_margin" align="center" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+        <td t-if="kpi_margin &gt; 0.0" class="kpi_margin positive_kpi_margin" style="padding: 5px 10px;font-size: 12px;text-decoration: none;border-radius: 5px;border: 1px solid #c4ecd7;border-radius: 5px; background-color: #c4ecd7;color: #17613a;">
+            ▲ <t t-esc="'%.2f' % kpi_margin"/> %
+        </td>
+        <td t-elif="kpi_margin &lt; 0.0" class="kpi_margin negative_kpi_margin" style="padding: 5px 10px;font-size: 12px;text-decoration: none;border-radius: 5px;border: 1px solid #f4cfce;background-color: #f7dddc;color: #712b29;">
+            ▼ <t t-esc="'%.2f' % kpi_margin"/> %
+        </td>
+    </tr>
+</table>
+    </t>

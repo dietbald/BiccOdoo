@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17945,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Social Account",
+    "model_id": [
+      1035,
+      "Convert Social Post to Lead"
+    ],
+    "name": "social_account_id",
+    "relation": "social.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "31fe62adfc8b2ca2d4466567f9d75bb37ef2ff73658507a6ad77340c8306c57e",
+  "write_date": "",
+  "xml_id": "social_crm.field_social_post_to_lead__social_account_id"
+}

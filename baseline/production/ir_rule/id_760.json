@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 760,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, \"=\", 1)]",
+    "groups": [
+      96
+    ],
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "BPI Payroll Journal - Full Access (payroll group 96)",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "7f127bc4e599f5f35c0ff8d99e63133489dd8d02feb3910b2ec423b76a513328",
+  "write_date": "2026-03-17 01:00:20",
+  "xml_id": null
+}

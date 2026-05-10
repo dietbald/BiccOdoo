@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12160,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Documents",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "requirer_document",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f5a95a865baa785f71194b2738d9e2a5826d95a2a71ed5fb78ca4211d2ffa573",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__requirer_document"
+}

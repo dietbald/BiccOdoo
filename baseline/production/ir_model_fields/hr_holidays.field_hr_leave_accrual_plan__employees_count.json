@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15701,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees",
+    "model_id": [
+      950,
+      "Accrual Plan"
+    ],
+    "name": "employees_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "06b771debc9dd94aa94cf0745980ce65add45f2686eafeab34c83ea3fad255a2",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_accrual_plan__employees_count"
+}

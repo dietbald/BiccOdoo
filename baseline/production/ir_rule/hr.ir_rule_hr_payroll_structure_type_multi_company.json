@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 269,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('country_id', '=', False), ('country_id', 'in', user.env.companies.mapped('country_id').ids)]",
+    "groups": [],
+    "model_id": [
+      703,
+      "Salary Structure Type"
+    ],
+    "name": "HR Payroll Structure Type: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "634fb580458f5df1a72932607d42aea417cc7aad7c6d9ea90c972b54e1cb3a21",
+  "write_date": "2023-12-01 01:30:50",
+  "xml_id": "hr.ir_rule_hr_payroll_structure_type_multi_company"
+}

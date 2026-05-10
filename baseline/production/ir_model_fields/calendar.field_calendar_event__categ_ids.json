@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6925,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "categ_ids",
+    "relation": "calendar.event.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "212a9e778465646e6136ffcce3d7eb466c899d704e45863cb1bd8eb34faf0ba4",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__categ_ids"
+}

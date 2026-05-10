@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 235,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      211,
+      "Remove email from blacklist wizard"
+    ],
+    "name": "acesss.mail.blacklist.remove.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ca3d35da8656156493a4df2d5fd2331faa8e05e20e3f2d3ec1eabb47f901c455",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_blacklist_remove_system"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21142,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Benefit",
+    "model_id": [
+      1281,
+      "Salary Package Resume"
+    ],
+    "name": "benefit_ids",
+    "relation": "hr.contract.salary.benefit",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "de03e2026f0bf724fb0bf49c4fe72981ba78a6c6a68ab8ff004d2c54f46d32ba",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_resume__benefit_ids"
+}

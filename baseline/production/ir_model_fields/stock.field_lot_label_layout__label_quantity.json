@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11646,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity to print",
+    "model_id": [
+      760,
+      "Choose the sheet layout to print lot labels"
+    ],
+    "name": "label_quantity",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d340f85fa497516044a4206e8a4d7c5c91cc3564e0d2203a68eea613511b163d",
+  "write_date": "",
+  "xml_id": "stock.field_lot_label_layout__label_quantity"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18250,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "27843344fb8e8ec47815ef0ac34866e42e192ca4c336790036505880739556f1",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__message_needaction"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26360,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expiration date",
+    "model_id": [
+      2740,
+      "Certificate"
+    ],
+    "name": "date_end",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "9f947ee4882b926fb2781700419e11f292db4e70af595fafe3e368de27f25071",
+  "write_date": "",
+  "xml_id": "certificate.field_certificate_certificate__date_end"
+}

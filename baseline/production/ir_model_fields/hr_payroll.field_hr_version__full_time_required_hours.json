@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12748,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Full Time Equivalent",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "full_time_required_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a457b330d0fec699bcf8d0fa25880dbfd6001b990f97c0ef3b7591aefa287563",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_version__full_time_required_hours"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12915,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Negative Net To Report Amount",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "negative_net_to_report_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "59d61e020ba532640e5e0afbbd40e5436e55f81028fc3b5a1e8bb087f5f41fc3",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__negative_net_to_report_amount"
+}

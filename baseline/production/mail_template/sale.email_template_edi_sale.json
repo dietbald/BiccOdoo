@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 22,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in ('draft', 'sent') else 'order'\"/>\n        Hello,\n        <br/><br/>\n        Your <t t-out=\"doc_name or ''\">quotation</t> <span style=\"font-weight: bold;\" t-out=\"object.name or ''\"/>\n        <t t-if=\"object.origin\">\n            (with reference: <t t-out=\"object.origin or ''\">S00052</t> )\n        </t>\n        amounting in <span style=\"font-weight: bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span> is ready for review.\n        <br/>\n        <t t-set=\"documents\" t-value=\"object._get_product_documents()\"/>\n        <t t-if=\"documents\">\n            <br/> \n            <t t-if=\"len(documents)&gt;1\">\n                Here are some additional documents that may interest you:\n            </t>\n            <t t-else=\"\">\n                Here is an additional document that may interest you:\n            </t>\n            <ul style=\"margin-bottom: 0;\">\n                <t t-foreach=\"documents\" t-as=\"document\">\n                    <li style=\"font-size: 13px;\">\n                        <a t-out=\"document.ir_attachment_id.name\" t-att-href=\"object.get_portal_url('/document/' + str(document.id))\" t-att-target=\"target\"/>\n                    </li>\n                </t>\n            </ul>\n        </t>\n        <br/>\n        Do not hesitate to contact us if you have any questions.\n        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n        </t>\n    </p>\n</div>\n            ",
+    "email_from": "{{ (object.user_id.email_formatted or object.company_id.email_formatted or user.email_formatted) }}",
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "Sales: Send Quotation",
+    "subject": "{{ object.company_id.name }} {{ object.state in ('draft', 'sent') and 'Quotation' or 'Order' }} (Ref {{ object.name or 'n/a' }})"
+  },
+  "payload_sha256": "aaa158c157d7db45368108467a64d4ca62d81956abe07e4cc834b5287e6051b8",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.email_template_edi_sale"
+}

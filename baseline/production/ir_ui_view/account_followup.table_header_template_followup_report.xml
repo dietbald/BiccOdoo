@@ -1,0 +1,13 @@
+<t t-name="account_followup.table_header_template_followup_report">
+            <thead class="o_account_reports_header_hierarchy">
+                    <tr t-foreach="column_headers" t-as="header_line">
+                        <t t-foreach="header_line" t-as="cell">
+                            <th t-att-class="'acc_rep_column_header ' + (cell.get('class', ''))" t-att-style="cell.get('style', '')">
+                                <div t-att-class="classes" t-att-style="style">
+                                    <t t-out="cell.get('name')">Table Header</t>
+                                </div>
+                            </th>
+                        </t>
+                    </tr>
+            </thead>
+        </t>

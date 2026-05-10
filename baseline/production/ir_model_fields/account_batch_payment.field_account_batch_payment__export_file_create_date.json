@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Generation Date",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "export_file_create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "0f843857d3a08c9fd3849c2df24cae8f259dfd0a0f4ebe4b0713a01cb110d5f0",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__export_file_create_date"
+}

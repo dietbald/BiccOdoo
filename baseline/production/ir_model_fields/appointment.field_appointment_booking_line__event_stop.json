@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15165,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Booking End",
+    "model_id": [
+      936,
+      "Appointment Booking Line"
+    ],
+    "name": "event_stop",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "04d8ea849bfda27dbb4224cc20c171cb929ff72d3fa7cfba362c545a5139c9aa",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_booking_line__event_stop"
+}

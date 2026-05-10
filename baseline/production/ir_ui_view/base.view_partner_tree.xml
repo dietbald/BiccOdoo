@@ -1,0 +1,16 @@
+<list string="Contacts" sample="1" multi_edit="1">
+                    <field name="avatar_128" widget="image" options="{'size': [24, 24], 'img_class': 'o_avatar rounded'}" width="30" nolabel="1"/>
+                    <field name="complete_name" string="Name"/>
+                    <field name="vat" optional="hide" readonly="1"/>
+                    <field name="email" optional="show"/>
+                    <field name="phone" class="o_force_ltr" optional="show"/>
+                    <field name="user_id" optional="hide" widget="many2one_avatar_user" domain="[('share', '=', False)]"/>
+                    <field name="street" optional="hide"/>
+                    <field name="city" optional="hide"/>
+                    <field name="state_id" optional="hide" readonly="1"/>
+                    <field name="country_id" optional="show" readonly="1"/>
+                    <field name="application_statistics" widget="contact_statistics" nolabel="1" optional="show" width="270"/>
+                    <field name="category_id" optional="hide" widget="many2many_tags" options="{'color_field': 'color'}"/>
+                    <field name="company_id" groups="base.group_multi_company" readonly="1" optional="hide"/>
+                    <field name="properties" optional="hide"/>
+                </list>

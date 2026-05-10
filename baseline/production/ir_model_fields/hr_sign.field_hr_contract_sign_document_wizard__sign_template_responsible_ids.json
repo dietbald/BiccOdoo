@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10744,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sign Template Responsible",
+    "model_id": [
+      720,
+      "Sign document in contract"
+    ],
+    "name": "sign_template_responsible_ids",
+    "relation": "sign.item.role",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5a423522ecd3e99a45a270121eda80c24b3f16e63886825ac6386f90658c89cc",
+  "write_date": "",
+  "xml_id": "hr_sign.field_hr_contract_sign_document_wizard__sign_template_responsible_ids"
+}

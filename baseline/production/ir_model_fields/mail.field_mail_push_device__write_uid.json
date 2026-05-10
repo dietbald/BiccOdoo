@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2325,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      199,
+      "Push Notification Device"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e7cd2b3266c8e7b7c2bc9922367643c098614242d8d657686c71175ffe3985d5",
+  "write_date": "",
+  "xml_id": "mail.field_mail_push_device__write_uid"
+}

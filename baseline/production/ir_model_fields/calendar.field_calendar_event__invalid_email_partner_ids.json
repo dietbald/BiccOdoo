@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6943,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invalid Email Partner",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "invalid_email_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1adf0c03cd8b27ced829580148803e17e58efe638e7413a2993e30736481e56c",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__invalid_email_partner_ids"
+}

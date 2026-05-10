@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6909,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2f6db8035353a791dca5ad246a7b5f916dfb66bb71825e6ec536f72830a54d33",
+  "write_date": "",
+  "xml_id": "portal.field_calendar_event__website_message_ids"
+}

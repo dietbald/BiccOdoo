@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 671,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '&',\n                    '|',\n                        ('user_id', '=', user.id),\n                        '&',\n                            ('website_published', '=', True),\n                            ('channel_id.website_published', '=', True),\n                    '|',\n                        '&',\n                            '|',\n                                ('channel_id.visibility', 'in', ('public','connected')),\n                                ('channel_id.is_member_invited', '=', True),\n                            '|',\n                                ('is_category', '=', True),\n                                ('is_preview', '=', True),\n                        ('channel_id.is_member', '=', True),\n                ]\n            ",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "Slide: portal/user: restricted to published and connected user, (invited) attendee if course visible to attendees only",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "69c87e3c28d127b607c7be42b409369a3a8f1648c15c9561869e38dc21aa6239",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_slide_signed_in_user"
+}

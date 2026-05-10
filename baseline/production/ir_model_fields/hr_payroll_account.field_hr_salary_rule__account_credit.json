@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13273,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit Account",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "account_credit",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "44b3c9e410f15893f03ab158c651626f857b2b5ceb17a8c26ee8ab9d3f3fbacb",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_salary_rule__account_credit"
+}

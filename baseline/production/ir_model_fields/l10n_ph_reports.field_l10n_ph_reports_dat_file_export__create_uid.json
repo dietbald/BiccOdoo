@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29938,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3845,
+      "Philippine Periodic VAT Report Export Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e6a10405a4584eba81cee9ab6977886eb39ad4d219441c6aa89e92a8417ca298",
+  "write_date": "",
+  "xml_id": "l10n_ph_reports.field_l10n_ph_reports_dat_file_export__create_uid"
+}

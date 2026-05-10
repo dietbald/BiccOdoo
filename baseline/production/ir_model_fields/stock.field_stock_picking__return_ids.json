@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11246,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Returns",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "return_ids",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "284399483763c4f0c375d8dd9bd013211d0c8a39f884642b7298472da0052c2f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__return_ids"
+}

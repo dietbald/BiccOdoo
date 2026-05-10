@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quotation Template",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "sale_order_template_id",
+    "relation": "sale.order.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2d5e0b6828e52d9657c6d41f2198be9a5159e9abc507d6d9bfc11f4f87a9ff61",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order__sale_order_template_id"
+}

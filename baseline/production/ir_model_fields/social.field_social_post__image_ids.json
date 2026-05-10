@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17680,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attach Images",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "image_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3ec857be59a68abad7164cad94431a1e1667082a02cbd95ad08ed60972a1f884",
+  "write_date": "",
+  "xml_id": "social.field_social_post__image_ids"
+}

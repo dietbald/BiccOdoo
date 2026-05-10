@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1790,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      646,
+      "Employee Skills Report"
+    ],
+    "name": "hr.employee.skill.report",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ad321a1363aafc2beb3fa5d05019e38caae2a0d375699cd9ae402e44fcdde787",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.access_hr_employee_skill_report_manager"
+}

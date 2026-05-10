@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 847,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      666,
+      "Source of Applicants"
+    ],
+    "name": "hr.recruitment.source",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9e32e2b37b1ef827f0adec9f03d73918ef578e0e5fbbc0e82b4e32f91e1eb9e1",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_hr_recruitment_source_hr_officer"
+}

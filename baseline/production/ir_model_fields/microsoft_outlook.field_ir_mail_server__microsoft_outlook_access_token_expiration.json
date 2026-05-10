@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21315,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outlook Access Token Expiration Timestamp",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "microsoft_outlook_access_token_expiration",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "ec0a3819b982e54e6a37c0814178e3264a7e54c5be3bdac4f837ea03296e5b29",
+  "write_date": "",
+  "xml_id": "microsoft_outlook.field_ir_mail_server__microsoft_outlook_access_token_expiration"
+}

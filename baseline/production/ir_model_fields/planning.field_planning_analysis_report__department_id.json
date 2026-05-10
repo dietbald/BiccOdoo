@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b9231bd8feb833176bcafc55475c623ec9e6de6936f1695a7045191e6cae67ab",
+  "write_date": "",
+  "xml_id": "planning.field_planning_analysis_report__department_id"
+}

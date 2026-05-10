@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17198,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "vendor_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff1156660c75f3235d061005b3797c79a141ca66e7946a16f7036a2bda94c64b",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__vendor_id"
+}

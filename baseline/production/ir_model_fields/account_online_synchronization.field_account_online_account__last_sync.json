@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5899,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Transaction Synchronized on",
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "last_sync",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "0170dad0e8295fe631219adf07d4febd732f0cee61022dffc2353dcbaf60f802",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_account__last_sync"
+}

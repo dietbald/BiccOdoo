@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17131,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fe5cf5dea93014342846b10fd7a7dcdd570ae850e019f914cd686a1def7a3d6b",
+  "write_date": "",
+  "xml_id": "rating.field_fleet_vehicle_log_contract__rating_ids"
+}

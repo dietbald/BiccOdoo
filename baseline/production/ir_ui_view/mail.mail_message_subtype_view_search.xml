@@ -1,0 +1,6 @@
+<search>
+                    <field name="name"/>
+                    <field name="res_model"/>
+                    <field name="description"/>
+                    <filter string="Default" name="filter_default" domain="[('default', '=', True)]"/>
+                </search>

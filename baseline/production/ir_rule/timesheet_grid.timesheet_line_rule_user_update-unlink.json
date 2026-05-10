@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 393,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('user_id', '=', user.id),\n                ('validated', '=', False),\n                ('project_id', '!=', False),\n                '|',\n                    ('project_id.privacy_visibility', 'in', ['employees', 'portal']),\n                    ('message_partner_ids', 'in', [user.partner_id.id])\n            ]",
+    "groups": [
+      101
+    ],
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "account.analytic.line.timesheet.user.update-unlink",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5869c65fe898a002dc777bdd3e8cb2c5db090b2cc1b11ade7dcdee51a835cc82",
+  "write_date": "2023-12-05 08:04:41",
+  "xml_id": "timesheet_grid.timesheet_line_rule_user_update-unlink"
+}

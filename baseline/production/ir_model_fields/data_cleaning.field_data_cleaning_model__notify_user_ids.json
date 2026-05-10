@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15013,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notify Users",
+    "model_id": [
+      927,
+      "Cleaning Model"
+    ],
+    "name": "notify_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "01bc8fa709583f64bc9dcdd663240ee03d0e41492e5e02f4667933ed981a1fab",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_cleaning_model__notify_user_ids"
+}

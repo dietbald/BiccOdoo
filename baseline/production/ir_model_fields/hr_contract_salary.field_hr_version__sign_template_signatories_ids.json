@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21071,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sign Template Signatories",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "sign_template_signatories_ids",
+    "relation": "hr.contract.signatory",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7cbd2a43624c73f5ad02b9cdb612dff8c2251b00c0b48a7b76932671b90a992f",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_version__sign_template_signatories_ids"
+}

@@ -1,0 +1,6 @@
+<xpath expr="//div[@id='documents_hr_tags']" position="after">
+                    <div class="row" invisible="not documents_hr_settings">
+                        <label for="documents_hr_payslips_tags" class="col-sm-3 o_light_label"/>
+                        <field name="documents_hr_payslips_tags" widget="many2many_tags"/>
+                    </div>
+                </xpath>

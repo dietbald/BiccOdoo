@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6258,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account",
+    "model_id": [
+      528,
+      "Account Fiscal Category"
+    ],
+    "name": "account_ids",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6fea379a64504de63ba6aeb69953d42085ff37320bdd92c65b808fd1e65b81bd",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories.field_account_fiscal_category__account_ids"
+}

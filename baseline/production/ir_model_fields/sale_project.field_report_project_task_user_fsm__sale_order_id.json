@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Order",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "sale_order_id",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "39d742f21ccea7db94e88741af4c54185402d626eb979da1b7de1fd03e319184",
+  "write_date": "",
+  "xml_id": "sale_project.field_report_project_task_user_fsm__sale_order_id"
+}

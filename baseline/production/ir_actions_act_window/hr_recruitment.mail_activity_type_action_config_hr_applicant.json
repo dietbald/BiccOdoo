@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 602,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'hr.applicant'}",
+    "domain": "['|', ('res_model', '=', False), ('res_model', '=', 'hr.applicant')]",
+    "name": "Activity Types",
+    "res_model": "mail.activity.type",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "ec01be54d548fab097c54c90815a8117e01e321d310b5daf296dfe089d95f8b4",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.mail_activity_type_action_config_hr_applicant"
+}

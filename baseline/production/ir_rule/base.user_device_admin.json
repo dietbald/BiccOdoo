@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 565,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      1128,
+      "Devices"
+    ],
+    "name": "Administrators can read all devices",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2fb434152ac5e12d3eb7d88b7defae93d4789d436eafdf0cda39cb0e45f4cf22",
+  "write_date": "2024-10-23 10:42:37",
+  "xml_id": "base.user_device_admin"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      981,
+      "Wizard to Split a Production"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "773d7a16b06b859e33be923388d83603dff3f856430962a201f72f992a73e344",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_split__write_uid"
+}

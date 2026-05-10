@@ -1,0 +1,13 @@
+<form>
+                    <!-- Used to compute timesheet_name field -->
+                    <field name="timesheet_id" invisible="1"/>
+                    <group>
+                        <field name="time_spent" class="oe_inline" widget="float_time"/>
+                    </group>
+                    <field name="timesheet_name" widget="text" nolabel="1" placeholder="Describe your activity..."/>
+                    <footer>
+                        <button string="Log Time" type="object" name="action_save_timesheet" class="btn btn-primary" data-hotkey="q"/>
+                        <button string="Resume Timer" special="cancel" data-hotkey="x" type="object" class="btn btn-secondary"/>
+                        <button type="object" name="action_delete_timesheet" class="btn btn-secondary py-2 fa fa-trash-o" data-hotkey="w" title="Delete"/>
+                    </footer>
+                </form>

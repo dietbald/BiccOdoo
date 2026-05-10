@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 638,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "project.task on partners",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5524a2d795d209a0b37f10a5c90edd97d2c298ee7b132f2f00ce23698034812a",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_task_on_partner"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 568,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      569,
+      "Event Meeting Type"
+    ],
+    "name": "calendar.event.type.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ee018d680472892f4e3c0a2323aa0ecc7c23ac49c4640e0a9e61bdc1295dee40",
+  "write_date": "2025-12-09 02:55:52",
+  "xml_id": "calendar.access_calendar_event_type_manager"
+}

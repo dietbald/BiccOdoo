@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10805,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      724,
+      "Barcode Rule"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bd7580eb83bdb56c83573129e24d88a423db4d543f48721bcf86c420937d0953",
+  "write_date": "",
+  "xml_id": "barcodes.field_barcode_rule__write_uid"
+}

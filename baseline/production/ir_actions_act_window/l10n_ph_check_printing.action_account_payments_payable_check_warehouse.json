@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1630,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_payment_type': 'outbound',\n            'default_partner_type': 'supplier',\n            'default_move_journal_types': ('bank', 'cash'),\n            'display_account_trust': True,\n            'search_default_outbound_filter': 1,\n            'search_default_checks_payments_filter': 1,\n            'search_default_checks_payments_not_matched_filter': 1,\n            'is_check_payment': True,\n        }",
+    "domain": false,
+    "name": "Check Warehouse",
+    "res_model": "account.payment",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph,activity"
+  },
+  "payload_sha256": "ce9fba36b5b593d5714e802d3b08119e854c0aea6162d4f96141b5ac5414f53d",
+  "write_date": "2025-12-09 03:01:16",
+  "xml_id": "l10n_ph_check_printing.action_account_payments_payable_check_warehouse"
+}

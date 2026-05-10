@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18147,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1c2362a42e095122c1f2c2dd1867d7d1d416afef2f467aa64d76fe6e6a89cf0c",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__activity_type_id"
+}

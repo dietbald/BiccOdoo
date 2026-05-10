@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 383,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('project_id', '!=', False),\n                '|', '|',\n                    ('project_id.privacy_visibility', 'in', ['employees', 'portal']),\n                    ('message_partner_ids', 'in', [user.partner_id.id]),\n                    ('partner_id', '=', user.partner_id.id),\n            ]",
+    "groups": [
+      102
+    ],
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "account.analytic.line.timesheet.approver",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "169efe0eae14ad7a4e0ef9104d53779dab006a832f343cb9d34aa018fcb2277d",
+  "write_date": "2023-12-05 08:04:38",
+  "xml_id": "hr_timesheet.timesheet_line_rule_approver"
+}

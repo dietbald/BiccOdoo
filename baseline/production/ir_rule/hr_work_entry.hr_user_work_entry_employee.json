@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 353,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      813,
+      "Work Entries Employees"
+    ],
+    "name": "Work entries/Employee calendar filter: only self",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6f998f03120406e9224c866e3afd033edbfd5b3d79aee4b59748b97e0e428211",
+  "write_date": "2023-12-05 05:18:47",
+  "xml_id": "hr_work_entry.hr_user_work_entry_employee"
+}

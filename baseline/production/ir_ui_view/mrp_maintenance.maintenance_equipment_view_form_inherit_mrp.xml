@@ -1,0 +1,11 @@
+<data><xpath expr="//div[@name='button_box']" position="inside">
+                <button name="button_mrp_workcenter" type="object" class="oe_stat_button" icon="fa-cogs" invisible="not workcenter_id" groups="mrp.group_mrp_routings">
+                    <div class="o_stat_info">
+                        <span class="o_stat_text">Work Center</span>
+                    </div>
+                </button>
+            </xpath>
+            <xpath expr="//field[@name='location_id']" position="after">
+                <field name="workcenter_id" context="{'default_company_id':company_id}" groups="mrp.group_mrp_routings"/>
+            </xpath>
+        </data>

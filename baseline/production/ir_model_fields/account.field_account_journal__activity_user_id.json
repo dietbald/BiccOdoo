@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4002,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f36a05339e76726535da3aa1b8a0c824c4885a4a6ed2d55db0780b7a5a8f7ced",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__activity_user_id"
+}

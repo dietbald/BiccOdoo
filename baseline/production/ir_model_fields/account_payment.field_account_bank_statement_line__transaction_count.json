@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20165,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transaction Count",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "transaction_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "86c84ac7fcf89302c1714bf0d16e278fe8314344796bb673d017413610cc08fc",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_bank_statement_line__transaction_count"
+}

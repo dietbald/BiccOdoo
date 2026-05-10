@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14213,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Body converted to be sent by mail",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "body_html",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "html"
+  },
+  "payload_sha256": "ab1675662a7d7e7267272f8a67923eb15a65329ef56c780601c3866f124c223d",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__body_html"
+}

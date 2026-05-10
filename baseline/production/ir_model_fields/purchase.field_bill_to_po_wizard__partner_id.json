@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23144,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      1422,
+      "Bill to Purchase Order"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "93267244c64a1847282dacf2e8b666a8448d578c35db973c2a2ceb29bb1e6545",
+  "write_date": "",
+  "xml_id": "purchase.field_bill_to_po_wizard__partner_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1815,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      1469,
+      "Quotation's Headers & Footers"
+    ],
+    "name": "access_quotation_document_sales_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2894ac2ae66fabcdfc21eb18e382e374b68b34b764f1e09bf274be31995e28d7",
+  "write_date": "2025-12-09 03:00:29",
+  "xml_id": "sale_pdf_quote_builder.access_quotation_document_sales_manager"
+}

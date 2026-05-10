@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22101,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-validate bills",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "autopost_bills",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "fb2d84815c3df919bb2f0779d991f893a5908c3c9db9655d3650fc13c90906f5",
+  "write_date": "",
+  "xml_id": "account.field_res_company__autopost_bills"
+}

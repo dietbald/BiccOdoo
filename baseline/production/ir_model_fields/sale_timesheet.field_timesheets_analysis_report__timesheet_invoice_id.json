@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13667,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "timesheet_invoice_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "21bd0cb4423261c494749b3047285436124f35d73f23d951abcf7208793a60dc",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_timesheets_analysis_report__timesheet_invoice_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28837,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3562,
+      "Account Audit Account Status"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "99cc11bbe6872f8214de235be560bac26379874d2644051b161337bd49b5de61",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_audit_account_status__create_uid"
+}

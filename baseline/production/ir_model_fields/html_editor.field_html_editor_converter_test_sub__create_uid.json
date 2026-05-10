@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26888,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2919,
+      "Html Editor Converter Subtest"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6f48c19bd5e0c13ab4381c105507d2d857aff4f964ad4fb430751132bd7f239b",
+  "write_date": "",
+  "xml_id": "html_editor.field_html_editor_converter_test_sub__create_uid"
+}

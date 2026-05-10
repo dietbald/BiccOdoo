@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 445,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduler User",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "56d61c84afcbce76bd022e774548e22e344254c4d24908f626cba45b8e461ed7",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__user_id"
+}

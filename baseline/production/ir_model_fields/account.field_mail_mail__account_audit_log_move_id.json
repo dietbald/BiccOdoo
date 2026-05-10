@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19934,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Entry",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "account_audit_log_move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "035080e34a947cb35cd1f8c21270cb9457fb87b6504c779a2c02d1c6a50281c6",
+  "write_date": "",
+  "xml_id": "account.field_mail_mail__account_audit_log_move_id"
+}

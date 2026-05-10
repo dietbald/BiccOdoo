@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6274,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      529,
+      "Fiscal Rate"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "670ff2e64d0ce8acfc03b94461e2998beac391e038e1fbcfcc1e4a71caa82a4d",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories.field_account_account_fiscal_rate__write_uid"
+}

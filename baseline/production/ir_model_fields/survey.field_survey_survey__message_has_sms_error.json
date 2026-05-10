@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14704,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8667a74aed34b088e5763ca0e8b7229396951681036d7e63b39dc77a6195fffe",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__message_has_sms_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16913,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f806a688011eddf3330d4a349a53143abb71123d2da5f47dbe9452aa32dd6190",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_bom__activity_calendar_event_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5415,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      463,
+      "Accrued Orders Wizard"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "727e8d5e47acf350138478eea2f7cfd5a58860c21c4be1933032a859e27647e8",
+  "write_date": "",
+  "xml_id": "account.field_account_accrued_orders_wizard__journal_id"
+}

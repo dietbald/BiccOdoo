@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4492,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discount amount in Currency",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "discount_amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b71b3fdad99334538e00a036b5761e013b2b34d1157ff0973784e4ee1bc756b6",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__discount_amount_currency"
+}

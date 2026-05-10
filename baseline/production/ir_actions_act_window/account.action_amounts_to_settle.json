@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 247,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('parent_state', '=', 'posted'), ('date_maturity', '!=', False), ('amount_residual', '!=', 0), ('account_id.reconcile', '=', True)]",
+    "name": "Amounts to Settle",
+    "res_model": "account.move.line",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "61137b65bce7898fb30042ad6d6feaea44f209e670067c9187e161192ab4659d",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_amounts_to_settle"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6840,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      561,
+      "Campaign Stage"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "340843ae8d32abb2bbdcb3326bd560bc3cb0defa2a413886b20ac09de867da5f",
+  "write_date": "",
+  "xml_id": "utm.field_utm_stage__write_uid"
+}

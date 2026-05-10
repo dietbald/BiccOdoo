@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7718,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task Dependencies",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "allow_task_dependencies",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7173c060f853d04ce889874865b831562524d04a4f9622ffaf923b1bb17ab2ed",
+  "write_date": "",
+  "xml_id": "project.field_project_task__allow_task_dependencies"
+}

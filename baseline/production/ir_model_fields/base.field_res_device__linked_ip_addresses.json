@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19482,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Linked IP address",
+    "model_id": [
+      1128,
+      "Devices"
+    ],
+    "name": "linked_ip_addresses",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "2f497e9327d4d2e944b25588792ec6f1557a9778e899259c73aecf52fa774215",
+  "write_date": "",
+  "xml_id": "base.field_res_device__linked_ip_addresses"
+}

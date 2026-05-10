@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9764,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicant",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "applicant_id",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3efe09cb0c4cc2d7573177e7a1c1e220f2f079c6f67e7c541876a72064313c81",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_calendar_event__applicant_id"
+}

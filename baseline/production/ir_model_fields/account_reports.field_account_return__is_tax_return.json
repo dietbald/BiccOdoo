@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28943,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is a Tax Return Return Type",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "is_tax_return",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1ee1c631dc5000773ad200ec13fe7c63ed1e8100ca48d4bae664e1805c6dcb64",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__is_tax_return"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28846,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      3563,
+      "Accounting Return Type"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d60e0cc9a24a4bbc15a32c327528617c3264281e42ea7f32a4c98b6142e46bae",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_type__message_ids"
+}

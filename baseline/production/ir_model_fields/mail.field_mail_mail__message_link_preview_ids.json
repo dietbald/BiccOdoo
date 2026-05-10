@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26942,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Link Preview",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "message_link_preview_ids",
+    "relation": "mail.message.link.preview",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0b09a23d770939be81a2b8bca026d91911cda137edf4192d7e327220c9ef8679",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__message_link_preview_ids"
+}

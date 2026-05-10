@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14097,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "ed7e89a9d57e262f101d81fbeaa02ccbdb2c7323feb0087712bf2bf2301baf96",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__message_has_error_counter"
+}

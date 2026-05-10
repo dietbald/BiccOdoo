@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11362,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outgoing Shipments",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "delivery_steps",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f5e9673cf4e63dc0768548941202365f20da1440f7eaa248a981826ef9f7e476",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__delivery_steps"
+}

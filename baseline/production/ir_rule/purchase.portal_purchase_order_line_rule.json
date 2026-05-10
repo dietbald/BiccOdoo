@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 242,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('order_id.partner_id','child_of',[user.commercial_partner_id.id])]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "Portal Purchase Order Lines",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2ce63f736e91d60013a5c17d1ef58b785d3a4e0957ba69170f4e6c0d5629c458",
+  "write_date": "2023-11-30 07:26:02",
+  "xml_id": "purchase.portal_purchase_order_line_rule"
+}

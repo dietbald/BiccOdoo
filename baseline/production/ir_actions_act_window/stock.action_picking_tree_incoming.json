@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 716,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'contact_display': 'partner_address', 'restricted_picking_type_code': 'incoming', 'search_default_reception': 1}",
+    "domain": "",
+    "name": "Receipts",
+    "res_model": "stock.picking",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,activity"
+  },
+  "payload_sha256": "7781f9cb4b54ed0a98d010d12080674f300d5acb95a0161053d4a6175178709c",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.action_picking_tree_incoming"
+}

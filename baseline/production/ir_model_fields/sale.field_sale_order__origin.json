@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8168,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Document",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "origin",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "b37f3d7b4e99d8440d362e4fea9c63cef683d19634b4b6ec3b7bde8ea6ae5def",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__origin"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Remaining",
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "remaining_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "90e044f39c51d56e0b8989c0f3cd18084cbcd335477dec9edebd661987d420ec",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_report_project_task_user__remaining_hours"
+}

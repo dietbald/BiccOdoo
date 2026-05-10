@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25752,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Emails Cc",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "incoming_email_cc",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "964a16cd87012d096432dfeb866aa358b97f69c0a01bf33a726b4021878eb841",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__incoming_email_cc"
+}

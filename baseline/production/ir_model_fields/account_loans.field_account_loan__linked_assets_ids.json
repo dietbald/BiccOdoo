@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Linked Assets",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "linked_assets_ids",
+    "relation": "account.asset",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e89e808555ff8d02c45edcc4c6b4dde808ba6a919668448baf756c4604901730",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__linked_assets_ids"
+}

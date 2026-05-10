@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7366,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Opportunity",
+    "model_id": [
+      582,
+      "CRM Activity Analysis"
+    ],
+    "name": "lead_id",
+    "relation": "crm.lead",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f18ffbf60d5f39daf0bf15c24a4de369264a51283c6a0b0214c2c02efe8da9d2",
+  "write_date": "",
+  "xml_id": "crm.field_crm_activity_report__lead_id"
+}

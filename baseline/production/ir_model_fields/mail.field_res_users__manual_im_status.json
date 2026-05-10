@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "IM status manually set by the user",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "manual_im_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "50f6029f33e779e5c9bdb73d986e09a8b6ea1b991e4a91d074e6c0b4d9938df6",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__manual_im_status"
+}

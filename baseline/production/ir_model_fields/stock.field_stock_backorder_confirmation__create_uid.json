@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11674,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      763,
+      "Backorder Confirmation"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1ff58d3ff31b405599ed5b0eb83a830673aabd23a4b26523886945b567faf27a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_backorder_confirmation__create_uid"
+}

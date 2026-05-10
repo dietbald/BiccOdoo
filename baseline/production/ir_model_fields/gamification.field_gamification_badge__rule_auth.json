@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14479,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowance to Grant",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "rule_auth",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "44b93dec17ac6477fdee635a19e9ec450acbdb8be70e026f39df5bb54fb8bbae",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge__rule_auth"
+}

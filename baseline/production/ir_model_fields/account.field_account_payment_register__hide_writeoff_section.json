@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5360,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hide Writeoff Section",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "hide_writeoff_section",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3471bdb42c370f9355ff7cb01c0a1de2e988fc2dae69afc313b2d39db3fa1054",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__hide_writeoff_section"
+}

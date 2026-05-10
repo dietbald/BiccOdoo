@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26689,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pickeable Lot",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "pickeable_lot_ids",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "41882fe4971accd4ff4c218e21935dcecb8490e9359e765f172ad6bddcc9f9be",
+  "write_date": "",
+  "xml_id": "sale_stock_renting.field_rental_order_wizard_line__pickeable_lot_ids"
+}

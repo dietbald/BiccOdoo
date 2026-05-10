@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11986,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      781,
+      "Vendor Delay Report"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aea0711979d4799cf2bbcf2c41f796fc734be29c2b31efdb8d2bd899a14639a5",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_vendor_delay_report__product_id"
+}

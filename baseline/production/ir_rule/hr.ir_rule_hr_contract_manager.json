@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 267,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      53
+    ],
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "HR Contract: Contract Manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "046f682ceaa961e819eaa15d934b87fa88005a94a4647872255aa44c1aa6d145",
+  "write_date": "2023-12-01 01:30:50",
+  "xml_id": "hr.ir_rule_hr_contract_manager"
+}

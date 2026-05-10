@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6280,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "send_email",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1f0c73995be8540df9b14ce5b67d3860ac5ce98755e42a4d56f75aeec2142b86",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__send_email"
+}

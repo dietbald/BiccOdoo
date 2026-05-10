@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15476,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "81088c7c636d32a15c4df249ad94140a349cd0905b93700d128f9f6f074c19ae",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__activity_type_id"
+}

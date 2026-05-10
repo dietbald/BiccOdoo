@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1124,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'fleet.vehicle.log.contract'}",
+    "domain": "['|', ('res_model', '=', False), ('res_model', '=', 'fleet.vehicle.log.contract')]",
+    "name": "Activity Types",
+    "res_model": "mail.activity.type",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "d1e712df235b1eede0c4fca5b7ade606aae195e37d1bf30ecf66e23d1a774a7d",
+  "write_date": "2025-12-09 02:55:54",
+  "xml_id": "fleet.mail_activity_type_action_config_fleet"
+}

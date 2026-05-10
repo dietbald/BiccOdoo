@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19401,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      1110,
+      "Embedded Actions"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a8e38a51039b89461edba6d0b95cddd6c78f1e414a1fb72ab6d4175c3e849393",
+  "write_date": "",
+  "xml_id": "base.field_ir_embedded_actions__user_id"
+}

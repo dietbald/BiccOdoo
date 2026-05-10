@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26055,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Accounting Date",
+    "model_id": [
+      2698,
+      "Expense Posting Wizard"
+    ],
+    "name": "accounting_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "9dace4b76e089ca66e0a40cb2dda859ebf902d8ae548813a22fd4dc2f042011b",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_post_wizard__accounting_date"
+}

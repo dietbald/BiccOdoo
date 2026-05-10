@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 474,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Actions",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "child_ids",
+    "relation": "ir.actions.server",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "42874332fecf42b85e072505c9d9e7a2d55d08f9eb81d3dae2394031f5b28901",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__child_ids"
+}

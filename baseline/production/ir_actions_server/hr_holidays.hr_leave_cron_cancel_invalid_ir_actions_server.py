@@ -1,0 +1,1 @@
+model._cancel_invalid_leaves()

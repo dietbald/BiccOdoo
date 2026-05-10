@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23202,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      1438,
+      "Approval Rule Approvers Enriched"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "43e9c71461ac2a998c3f7aa1d38dde8d274b4ef2e1b0181f4fea28bde98352b1",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule_approver__user_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 751,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      3767,
+      "Planning / Attendance Analysis"
+    ],
+    "name": "Planning attendance analysis multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "09c118d97aa5538c750906293ff47004184000452ed5d216050837bb0c7e02ba",
+  "write_date": "2025-12-09 03:00:44",
+  "xml_id": "planning_attendance.planning_attendance_analysis_multi_rule"
+}

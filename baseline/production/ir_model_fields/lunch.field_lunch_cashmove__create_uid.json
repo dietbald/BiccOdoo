@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18874,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1073,
+      "Lunch Cashmove"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a3975a17a6099a5bde5fb048dac70751bdce0f3c1bb60b05780c6e8e96007aa",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_cashmove__create_uid"
+}

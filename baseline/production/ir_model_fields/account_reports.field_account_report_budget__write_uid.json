@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20847,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1247,
+      "Accounting Report Budget"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "639aa6bb788d930bb19ad9a6cefba2d060fc6c5d5d7242e4f2f4d0a8d5598500",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_budget__write_uid"
+}

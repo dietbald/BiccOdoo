@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13845,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a346de9bb1ecf57d1ab19357c572bc7816db697d2d3ba18bba6873ad6419246a",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__user_id"
+}

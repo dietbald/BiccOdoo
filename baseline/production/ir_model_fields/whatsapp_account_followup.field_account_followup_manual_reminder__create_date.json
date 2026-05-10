@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6331,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "f96b2b5e61eb1d0b61c9ed8c8e68252b28bcd5986742c79a2eb0138f4eb6ebce",
+  "write_date": "",
+  "xml_id": "whatsapp_account_followup.field_account_followup_manual_reminder__create_date"
+}

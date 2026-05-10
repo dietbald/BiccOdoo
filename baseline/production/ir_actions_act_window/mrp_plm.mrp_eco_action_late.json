@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1133,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_type_id': [active_id], 'default_type_ids': active_ids, 'default_type_id': active_id, 'search_default_changetoapply': True}",
+    "domain": "[('type_id', '=',active_id)]",
+    "name": "Engineering Change Orders",
+    "res_model": "mrp.eco",
+    "target": "current",
+    "view_mode": "kanban,list,calendar,pivot,graph,form,activity"
+  },
+  "payload_sha256": "3566fdb5acad3872ddf1b202b1539a65c9dae529f3b1a2b6d347d8966a65fd4a",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_plm.mrp_eco_action_late"
+}

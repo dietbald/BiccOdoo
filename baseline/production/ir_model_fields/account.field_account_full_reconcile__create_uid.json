@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4526,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      437,
+      "Full Reconcile"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "555ce3de2e1db595c3c10d4e6fb1ceab3faf44acd443fc41383490a58ca1ae57",
+  "write_date": "",
+  "xml_id": "account.field_account_full_reconcile__create_uid"
+}

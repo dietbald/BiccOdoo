@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20350,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Linked Order Lines",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "linked_line_ids",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a887f167de3a8b13f3c8c725b958d4edc000413782829f609952c2a3e9b91682",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__linked_line_ids"
+}

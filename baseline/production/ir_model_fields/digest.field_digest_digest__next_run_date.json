@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3591,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Mailing Date",
+    "model_id": [
+      405,
+      "Digest"
+    ],
+    "name": "next_run_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "9e08000540cc40a35e39b90ecff11090c1a6b5086b9f4155a02b91eb396392b3",
+  "write_date": "",
+  "xml_id": "digest.field_digest_digest__next_run_date"
+}

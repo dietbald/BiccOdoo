@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5385,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Item Label",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "writeoff_label",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "76f6e501d112aecd057655e89325fb9c573d9a23820c21879b29e5abdbd8835a",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__writeoff_label"
+}

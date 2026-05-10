@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6174,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type of the account",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "account_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "07b55ebfaf1c23c312d0ff8576b04559001079515b8f55d17b4555e1bfbf2a8a",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__account_type"
+}

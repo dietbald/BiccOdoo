@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13468,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "970ca2487806447e5e24488799a4993e8213743c24aada3c842d13b63b8a9ac8",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_timesheets_analysis_report__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14192,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d0944d56abea11281513be014ad21900ed056b319f99a0f53445ad5c78617ed9",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__message_ids"
+}

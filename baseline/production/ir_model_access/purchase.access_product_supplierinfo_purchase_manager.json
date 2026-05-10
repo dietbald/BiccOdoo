@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 829,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      58,
+      "Purchase / Administrator"
+    ],
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "product.supplierinfo purchase_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "77df51e2b96d97530914f7474124ac814f13b3df9ce2c364a80c3c462f8787d9",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_product_supplierinfo_purchase_manager"
+}

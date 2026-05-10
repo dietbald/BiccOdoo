@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1454,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'fsm_mode': True,\n            'search_default_schedule': True,\n            'default_scale': 'week',\n        }",
+    "domain": "[('is_fsm', '=', True), ('project_id', '!=', False)]",
+    "name": "To Schedule",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "list,kanban,map,calendar,gantt,activity,pivot,graph,form"
+  },
+  "payload_sha256": "736341775e4afbe90273e1137e6e78e05b3403ad1ad40dd284e5639ddb69057c",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.project_task_action_to_schedule_fsm2"
+}

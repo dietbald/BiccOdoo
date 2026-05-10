@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10594,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Signature Requests",
+    "model_id": [
+      709,
+      "Signature Template"
+    ],
+    "name": "sign_request_ids",
+    "relation": "sign.request",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "28936fcfebc362ea8a3d5ec47cef75cda18d856d890d1a5d11350887db3078b9",
+  "write_date": "",
+  "xml_id": "sign.field_sign_template__sign_request_ids"
+}

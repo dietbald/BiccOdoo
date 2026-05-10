@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26616,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bd4b2aad68af46616c989cb9c7a2dab056e7d11539c973cc337cc91cd493f8a2",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_rental_report__company_id"
+}

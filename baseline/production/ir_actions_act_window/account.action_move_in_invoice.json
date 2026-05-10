@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1359,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_in_invoice': 1, 'search_default_in_receipt': 1, 'default_move_type': 'in_invoice', 'display_account_trust': True}",
+    "domain": "[('move_type', 'in', ['in_invoice', 'in_refund', 'in_receipt'])]",
+    "name": "Bills",
+    "res_model": "account.move",
+    "target": "current",
+    "view_mode": "list,kanban,form,activity"
+  },
+  "payload_sha256": "6bedc84c86490051333bf0594dab227bbf59190e8ef03c589e4acaf863346b33",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_move_in_invoice"
+}

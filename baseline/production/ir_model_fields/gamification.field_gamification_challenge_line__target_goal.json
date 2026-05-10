@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14562,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Target Value to Reach",
+    "model_id": [
+      912,
+      "Gamification generic goal for challenge"
+    ],
+    "name": "target_goal",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a2016847d80ea2323e4b1e30d81e3ca38ab825db41b8fa910bcf0e291c1c55cd",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge_line__target_goal"
+}

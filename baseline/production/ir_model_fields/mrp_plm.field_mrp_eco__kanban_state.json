@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17524,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Kanban State",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "kanban_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "375e488ce9eb6dc7d4245f4635510ba843003890288e27575ea3fe1e2405da2f",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__kanban_state"
+}

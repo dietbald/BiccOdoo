@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1380,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'contact_display': 'partner_address', 'search_default_available': 1, 'search_default_waiting': 1}",
+    "domain": "",
+    "name": "To Do",
+    "res_model": "stock.picking",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar"
+  },
+  "payload_sha256": "b01de86c95d555638bb38ebbef11d8b07269c75c0a0b2364a4aa1d2a0025de62",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.action_picking_tree_graph"
+}

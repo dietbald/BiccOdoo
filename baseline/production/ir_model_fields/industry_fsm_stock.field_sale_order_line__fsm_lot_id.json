@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fsm Lot",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "fsm_lot_id",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "62fb0fbd27891106b8dff6d8ceec90c98bff28ddea09c83d53501bf8d6298036",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_sale_order_line__fsm_lot_id"
+}

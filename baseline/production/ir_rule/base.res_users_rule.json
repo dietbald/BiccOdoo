@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 19,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('share', '=', False), ('company_ids', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "user rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ccc8c7bc0c026879f052f98c224eb6ca7d8638eb962449ec1dbcb6e7d91c9dfc",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.res_users_rule"
+}

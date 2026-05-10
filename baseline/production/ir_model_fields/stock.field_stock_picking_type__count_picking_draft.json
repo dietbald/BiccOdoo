@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11198,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count Picking Draft",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "count_picking_draft",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "178d03aa3c04da8886a176a82d078571d00404eb3eec8bf6e0609d307adfc795",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__count_picking_draft"
+}

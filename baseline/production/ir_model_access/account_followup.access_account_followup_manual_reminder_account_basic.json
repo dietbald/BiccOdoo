@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1883,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      143,
+      "Accounting / Invoicing & Banks"
+    ],
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "account_followup.manual_reminder.account.basic",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "5a242aaaac16808949f57d82edf202fd72d03b228474a0072b846959082123cb",
+  "write_date": "2025-12-09 02:59:46",
+  "xml_id": "account_followup.access_account_followup_manual_reminder_account_basic"
+}

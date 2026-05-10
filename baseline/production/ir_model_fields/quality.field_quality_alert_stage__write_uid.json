@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16609,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      990,
+      "Quality Alert Stage"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8254b13b07c6bda1e111e8ac21d6893cab6cf52fc0045468a131dfce920570fd",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_stage__write_uid"
+}

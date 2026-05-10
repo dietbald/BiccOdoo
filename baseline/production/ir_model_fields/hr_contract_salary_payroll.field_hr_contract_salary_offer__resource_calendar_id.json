@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29622,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Schedule",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7833b9dee2e9d6a2318f1e2e58808a806ab5699b6a6a46b11862cb3e6d5c153b",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_offer__resource_calendar_id"
+}

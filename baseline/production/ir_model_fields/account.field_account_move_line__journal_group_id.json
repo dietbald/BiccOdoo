@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22140,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ledger",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "journal_group_id",
+    "relation": "account.journal.group",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6b6be969447ddd50384ccd15adc0643fa8d3c9eb0ff8819add818fd9484112b4",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__journal_group_id"
+}

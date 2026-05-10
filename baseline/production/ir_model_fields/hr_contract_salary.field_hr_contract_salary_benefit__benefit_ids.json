@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21006,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mandatory Benefits",
+    "model_id": [
+      1274,
+      "Salary Package Benefit"
+    ],
+    "name": "benefit_ids",
+    "relation": "hr.contract.salary.benefit",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "adc7ccfba0d292e191224c8d08611fcdc5b408a734901ed3f968579b121ae438",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_benefit__benefit_ids"
+}

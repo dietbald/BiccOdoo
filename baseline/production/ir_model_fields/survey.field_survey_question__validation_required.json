@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14792,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Validate entry",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "validation_required",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d23b38783a3b7cd16a5a1cf36a1438ab26e0d288b8891e20bedb40bfc278f93e",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__validation_required"
+}

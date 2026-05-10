@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1217,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('user_id','=',uid)]",
+    "name": "My Account",
+    "res_model": "lunch.cashmove.report",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "8b813d3d2e573e29909ef4051591a0f55c3aa64d5ce44e57b7daec48c99883ff",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.lunch_cashmove_report_action_account"
+}

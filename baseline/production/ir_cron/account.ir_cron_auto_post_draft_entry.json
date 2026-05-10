@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 16,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._autopost_draft_entries()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "Account: Post draft entries with auto_post enabled and accounting date up to today",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "6a85dc5f6c9cbbaeb137af62441996ee3e9195dc3f3a624747b0f2e3eceecc9a",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.ir_cron_auto_post_draft_entry"
+}

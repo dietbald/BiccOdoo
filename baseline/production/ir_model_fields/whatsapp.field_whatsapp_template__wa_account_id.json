@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18450,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "wa_account_id",
+    "relation": "whatsapp.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "82326d80fd56e85e0f223e084a33b172778f21a2f2f0e47fcb5c25d20941561e",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__wa_account_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1678,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2fa082f190cce2ded07d720b6a17c8c1670bd4f440a8c1b102c75771f12a3570",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar_leaves__company_id"
+}

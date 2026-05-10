@@ -1,0 +1,33 @@
+<search string="Search Purchase Order">
+                    <field name="name" string="Order" filter_domain="['|', '|', ('name', 'ilike', self), ('partner_ref', 'ilike', self), ('partner_id', 'child_of', self)]"/>
+                    <field name="partner_id" operator="child_of"/>
+                    <field name="user_id"/>
+                    <field name="product_id"/>
+                    <field name="origin"/>
+                    <filter name="my_purchases" string="My Purchases" domain="[('user_id', '=', uid)]"/>
+                    <filter string="Starred" name="starred" domain="[('priority', '=', '1')]"/>
+                    <separator/>
+                    <filter name="to_approve" string="To Approve" domain="[('state', '=', 'to approve')]" invisible="1"/>
+                    <separator/>
+                    <filter name="draft_rfqs" string="New" domain="[('state', '=', 'draft')]"/>
+                    <filter name="waiting_rfqs" string="Sent" domain="[('state', '=', 'sent')]"/>
+                    <filter name="approved" string="Purchase Orders" domain="[('state', '=', 'purchase')]"/>
+                    <separator/>
+                    <filter name="late" string="Late" domain="[('state', 'in', ['draft', 'sent', 'to approve']),('date_order', '&lt;', 'now')]"/>
+                    <filter name="not_acknowledged" string="Not Acknowledged" domain="[('state', 'in', ['purchase', 'done']), ('acknowledged', '=', False)]"/>
+                    <filter name="late_receipt" string="Late Receipts" domain="[('state', 'in', ['purchase', 'done']), ('is_late', '=', True)]"/>
+                    <separator/>
+                    <filter name="order_date" string="Order Date" date="date_order"/>
+                    <filter invisible="1" string="My Activities" name="filter_activities_my" domain="[('activity_user_id', '=', uid)]"/>
+                    <separator invisible="1"/>
+                    <filter invisible="1" string="Late Activities" name="activities_overdue" domain="[('my_activity_date_deadline', '&lt;', 'today')]" help="Show all records whose next activity date is past"/>
+                    <filter invisible="1" string="Today Activities" name="activities_today" domain="[('my_activity_date_deadline', '=', 'today')]"/>
+                    <filter invisible="1" string="Future Activities" name="activities_upcoming_all" domain="[('my_activity_date_deadline', '&gt;', 'today')]"/>
+                    <separator/>
+                    <filter string="Warnings" name="activities_exception" domain="[('activity_exception_decoration', '!=', False)]"/>
+                    <group>
+                        <filter string="Vendor" name="vendor" domain="[]" context="{'group_by': 'partner_id'}"/>
+                        <filter string="Buyer" name="representative" domain="[]" context="{'group_by': 'user_id'}"/>
+                        <filter string="Order Date" name="order_date" domain="[]" context="{'group_by': 'date_order'}"/>
+                    </group>
+                </search>

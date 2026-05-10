@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3124,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aae86dc7a0066c5e13bd375ef25a0d355d491e926166e1d7c4be03e15dcbe312",
+  "write_date": "",
+  "xml_id": "product.field_product_pricelist__activity_user_id"
+}

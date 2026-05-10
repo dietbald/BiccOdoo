@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26031,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expense",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "expense_ids",
+    "relation": "hr.expense",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b980e8997190bcf7ef5623bb9865f1b59ecf63aee9ae54c80b55258031b8c05d",
+  "write_date": "",
+  "xml_id": "hr_expense.field_account_move__expense_ids"
+}

@@ -1,0 +1,4 @@
+<field name="type" position="after">
+                    <field name="qty_available" invisible="not is_storable" string="On Hand" optional="show" decoration-danger="virtual_available &lt; 0" decoration-warning="virtual_available == 0" decoration-bf="1" groups="stock.group_stock_user" sum="Total On Hand"/>
+                    <field name="virtual_available" invisible="not is_storable" string="Forecasted" optional="show" decoration-danger="virtual_available &lt; 0" decoration-warning="virtual_available == 0" groups="stock.group_stock_user" sum="Total Forecasted"/>
+                </field>

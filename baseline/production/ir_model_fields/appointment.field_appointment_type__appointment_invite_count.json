@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15313,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Invitation Links",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "appointment_invite_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "dfaf239da10196746dbc11dd4aa714e7d4ec6efa7d0644cb6b8c422196337fee",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__appointment_invite_count"
+}

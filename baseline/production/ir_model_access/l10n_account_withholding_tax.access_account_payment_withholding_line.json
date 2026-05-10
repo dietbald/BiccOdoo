@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2073,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      3764,
+      "Payment withholding line"
+    ],
+    "name": "access_account_payment_withholding_line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ead72aff22d84de8690865d5ae7ca80e0c478f57fd843210a46f58b8c94df889",
+  "write_date": "2025-12-09 03:00:43",
+  "xml_id": "l10n_account_withholding_tax.access_account_payment_withholding_line"
+}

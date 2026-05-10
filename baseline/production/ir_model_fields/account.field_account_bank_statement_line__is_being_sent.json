@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Being Sent",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "is_being_sent",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e809ccd306a78ba477273750c30416ac5280abe9b98c2e4765068a58f1070e62",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__is_being_sent"
+}

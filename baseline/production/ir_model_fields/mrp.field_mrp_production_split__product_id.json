@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16477,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      981,
+      "Wizard to Split a Production"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f5ba558015bd68dd298ce2b4154fe858d219b828f05554e723a32d26a9b0604b",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_split__product_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13100,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "68d922573cf1331fd95cceb466f57bf0650d73fce71d0b477208528295df725d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__state"
+}

@@ -1,0 +1,10 @@
+<xpath expr="//sheet/group/group" position="before">
+                <field name="is_demo_account" invisible="1"/>
+                <group colspan="4">
+                    <div class="alert alert-info" role="alert" colspan="2">
+                        <i class="fa fa-warning"/> This message will be sent with a <b>WhatsApp Demo Account</b>.<br/>
+                        Replies are not supported in this demo mode.<br/>
+                        <a name="open_whatsapp_config" type="object">Click here to set up </a> your <b>WhatsApp Business Account</b> and enjoy all the associated features.
+                    </div>
+                </group>
+            </xpath>

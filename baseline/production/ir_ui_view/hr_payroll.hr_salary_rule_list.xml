@@ -1,0 +1,9 @@
+<list string="Salary Rules">
+                <field name="name"/>
+                <field name="code"/>
+                <field name="category_id"/>
+                <field name="struct_id" column_invisible="True"/>
+                <field name="sequence" column_invisible="True"/>
+                <field name="partner_id"/>
+                <field name="country_id" optional="hidden"/>
+            </list>

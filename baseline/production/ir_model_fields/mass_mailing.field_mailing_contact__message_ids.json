@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14092,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9825aace06bca4f8cd8080209348e9c8497381a0c2eab899f2396406b9a1196e",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__message_ids"
+}

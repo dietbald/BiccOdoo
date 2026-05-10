@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12213,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Article",
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "article_id",
+    "relation": "knowledge.article",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "83141d678ac98aae7c58e539877f52ecf6766507bb19a7e1d0947aa2782375af",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_thread__article_id"
+}

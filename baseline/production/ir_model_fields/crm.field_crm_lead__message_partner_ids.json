@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7169,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c40e325f7dee20365d615679f5af6f45f87683e66d94c6d5312b1a906742c4de",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__message_partner_ids"
+}

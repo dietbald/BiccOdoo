@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19437,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      66,
+      "Module"
+    ],
+    "name": "country_ids",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "46e07130506bf0562efe4d48d356de8c38e13e0038ee362e96b4cd20f0a2fc61",
+  "write_date": "",
+  "xml_id": "base.field_ir_module_module__country_ids"
+}

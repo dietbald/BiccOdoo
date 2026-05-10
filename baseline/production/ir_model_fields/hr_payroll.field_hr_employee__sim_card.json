@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12771,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SIM Card Copy",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "sim_card",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "8bc8344e39160fb75e56e64b6328378dd25c42c8fe8f3e5a7fe22d5f75a153db",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__sim_card"
+}

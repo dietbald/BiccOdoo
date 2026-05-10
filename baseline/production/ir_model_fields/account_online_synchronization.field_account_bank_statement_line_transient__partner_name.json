@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5980,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner Name",
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "partner_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "36e04773558e1ff6bc65eec1cafbe2d1303f9d1edb9272bb81b5625e3ce52ff7",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line_transient__partner_name"
+}

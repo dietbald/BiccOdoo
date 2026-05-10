@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17701,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "92c19b140b0ad37d9bcc13b15c2229348b11ec5c9d69cddf2eb991a483826101",
+  "write_date": "",
+  "xml_id": "social.field_social_post__activity_calendar_event_id"
+}

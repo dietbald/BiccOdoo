@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27053,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Offline since",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "offline_since",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "b4f7049a9313c3b68313f534e16642d9eb736634839282db7a860b7dd05e98db",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__offline_since"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 407,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_team_id': [active_id],\n                'default_team_id': active_id,\n                'default_type': 'lead',\n            }",
+    "domain": "[('type','=','lead')]",
+    "name": "New Lead",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "form"
+  },
+  "payload_sha256": "e5e5f718620e3b0be175e666f4c7cb80843da366f4eadea7fac8f8c57d72cde5",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_lead_action_open_lead_form"
+}

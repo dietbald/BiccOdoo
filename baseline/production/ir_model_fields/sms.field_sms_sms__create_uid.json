@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3407,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      394,
+      "Outgoing SMS"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bbc4aac34207d3618ff2ec79e7e3f15e0570af63934896c53c67ff37178b5e73",
+  "write_date": "",
+  "xml_id": "sms.field_sms_sms__create_uid"
+}

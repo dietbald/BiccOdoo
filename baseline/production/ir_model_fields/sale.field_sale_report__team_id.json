@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8283,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Team",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "team_id",
+    "relation": "crm.team",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b0bf2511e036fbfb425721ab6c2bf1d388d93493015e56903ce0de6cceab9e2c",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__team_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1829,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Keep Attachments",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "attach",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2d97f879fdee74c036e36ca5130b774c9dbc8b1204bf53bc16292505f5dd8bad",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__attach"
+}

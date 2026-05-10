@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12996,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      824,
+      "Payslip Input Type"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "41ae725bf7f4eec04247d62f7786761fccfc982ac9c6e71504063fb37c5d2120",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_input_type__write_uid"
+}

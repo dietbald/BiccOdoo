@@ -1,0 +1,10 @@
+<list sample="1" default_order="date desc">
+                <field name="employee_id"/>
+                <field name="date"/>
+                <field name="schedule_id" optional="hide"/>
+                <field name="expected_hours" widget="float_time"/>
+                <field name="worked_hours" widget="float_time"/>
+                <field name="leave_hours" widget="float_time"/>
+                <field name="leave_type_names" optional="hide" groups="hr_holidays.group_hr_holidays_user"/>
+                <field name="difference_hours" widget="float_time" decoration-danger="difference_hours &lt; 0" decoration-success="difference_hours &gt;= 0" decoration-bf="True"/>
+            </list>

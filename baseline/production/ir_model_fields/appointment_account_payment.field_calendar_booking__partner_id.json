@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15406,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contact",
+    "model_id": [
+      945,
+      "Meeting Booking"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f0971651e98477d82f50fd7ae021f3876b76903c2c9127382654c1f9aa97ff80",
+  "write_date": "",
+  "xml_id": "appointment_account_payment.field_calendar_booking__partner_id"
+}

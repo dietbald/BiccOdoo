@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6982,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type",
+    "model_id": [
+      566,
+      "Event Alarm"
+    ],
+    "name": "alarm_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f3d4df743b6f10d9c1132331b208a0e279201d9a3c944c639f6e706797d561f6",
+  "write_date": "",
+  "xml_id": "whatsapp_calendar.field_calendar_alarm__alarm_type"
+}

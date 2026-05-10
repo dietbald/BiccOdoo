@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20050,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "To Order Manual",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "qty_to_order_manual",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "e23b5d559399e109e98250a276791d6475fa7ed6d70c20f297f33985c443884b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__qty_to_order_manual"
+}

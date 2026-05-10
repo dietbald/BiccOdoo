@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7983,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Block",
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "dependent_ids",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "06590057dbc3debf23397c77716cf115a7257101ac8ad7e31de227483d337e03",
+  "write_date": "",
+  "xml_id": "project.field_report_project_task_user__dependent_ids"
+}

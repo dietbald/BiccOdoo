@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16102,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      969,
+      "Work Center Capacity"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "da1ec92ffdf14d135cc8e0e48aadd558dac5e5d0d4bf4dc5bc90eeef41b1afc9",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter_capacity__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      3763,
+      "withholding line"
+    ],
+    "name": "comodel_company_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "23ecd324063cce6e9d8f40a679455949a22112cb22a5cb99d4a42f3d1d467d4f",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_withholding_line__comodel_company_currency_id"
+}

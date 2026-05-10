@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1848,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipient",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "res_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0c271e9c28d32ebaffb94e074fff499205deddce7d2f74c83ebae2f444035e60",
+  "write_date": "",
+  "xml_id": "mail.field_mail_notification__res_partner_id"
+}

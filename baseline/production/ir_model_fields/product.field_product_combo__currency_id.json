@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21735,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      1348,
+      "Product Combo"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c8e3e584d52ba2d5e86ee421438823f0995772aa7b07cbe72ff3d61fb9b6abde",
+  "write_date": "",
+  "xml_id": "product.field_product_combo__currency_id"
+}

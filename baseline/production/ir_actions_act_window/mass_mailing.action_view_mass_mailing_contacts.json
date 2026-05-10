@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 929,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_filter_not_email_bl': 1}",
+    "domain": false,
+    "name": "Mailing List Contacts",
+    "res_model": "mailing.contact",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph,pivot"
+  },
+  "payload_sha256": "6eee1320a69cecd14c1d97c869e9b10e2f527ce2e2428fa7d3b781d4242d0d4b",
+  "write_date": "2025-12-09 03:00:45",
+  "xml_id": "mass_mailing.action_view_mass_mailing_contacts"
+}

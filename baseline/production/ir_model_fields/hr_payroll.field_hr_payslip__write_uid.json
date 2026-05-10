@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12926,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c1bda6e32ca40ba0b0ce2d5b71a4fc4b6455f83915237a4860a054d3d179c41d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__write_uid"
+}

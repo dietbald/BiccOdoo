@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11887,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Update quantities on SO/PO",
+    "model_id": [
+      753,
+      "Return Picking Line"
+    ],
+    "name": "to_refund",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "90120475129cbe875dd52b002389c760973c00b198b1c3eba23fa3d70466145b",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_return_picking_line__to_refund"
+}

@@ -1,0 +1,18 @@
+<form class="p-0 m-0">
+                <field name="description" invisible="1"/>
+                <sheet>
+                    <div class="d-flex">
+                        <field name="name" class="fw-bolder fs-5 flex-grow-1" readonly="1"/>
+                        <div t-attf-class="o_kanban_referral_top_right bg-view fw-bold">
+                            <img src="/hr_referral/static/src/img/points.svg" class="me-2" height="20px" alt="Point icon"/>
+                            <field name="cost" class="me-1" readonly="1"/>Points
+                        </div>
+                    </div>
+                    <field name="image" widget="image" class="w-100" alt="reward" options="{'img_class': 'w-100'}" readonly="1"/>
+                    <h4>Do you want to confirm this reward? After confirmation an HR will contact you.</h4>
+                </sheet>
+                <footer>
+                    <button string="Ok" type="object" name="buy" class="btn-primary" data-hotkey="q"/>
+                    <button string="Cancel" special="cancel" data-hotkey="x" class="btn-secondary"/>
+                </footer>
+            </form>

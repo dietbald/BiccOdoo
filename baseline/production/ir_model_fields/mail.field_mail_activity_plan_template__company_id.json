@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "38d59a9186ecf273255df6d74224a84add198c46df314347ac4b577c97eaed4d",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_plan_template__company_id"
+}

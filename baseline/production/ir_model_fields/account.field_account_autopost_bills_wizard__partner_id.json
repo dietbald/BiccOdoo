@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22244,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      1381,
+      "Autopost Bills Wizard"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cfd05b6e2cf4f3f9f3aa02cdc67ac0170fe0afbafcaf25f3b70321a000205271",
+  "write_date": "",
+  "xml_id": "account.field_account_autopost_bills_wizard__partner_id"
+}

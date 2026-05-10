@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2238,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Template",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "856497dbfc5cdb4e9188c399b8247db9fc9650d1d8386b931709b1ca73c737d3",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__template_id"
+}

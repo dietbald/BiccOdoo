@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4761,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Complete",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "statement_complete",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "849b8ed75e357b20c3897c398dda1f97c46b3be8e11c4e2f355af9bfe5604836",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__statement_complete"
+}

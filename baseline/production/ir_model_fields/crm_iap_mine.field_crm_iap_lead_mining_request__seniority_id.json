@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7500,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Seniority",
+    "model_id": [
+      592,
+      "CRM Lead Mining Request"
+    ],
+    "name": "seniority_id",
+    "relation": "crm.iap.lead.seniority",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "83ddb8e489db9d664cb66e53afbc0d34ca1b96f7beba7b451116a11bb0c3a0cf",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_mining_request__seniority_id"
+}

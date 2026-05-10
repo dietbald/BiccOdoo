@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2617,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send Email As",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "mail_post_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "dc1ddc9662232a82273079f952650f2edc0a06cff2c1d9864087bf19c4dc27df",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__mail_post_method"
+}

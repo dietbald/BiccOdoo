@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-complete",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "purchase_vendor_bill_id",
+    "relation": "purchase.bill.union",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "307b80521e78606a5bcd51d7174274c84efeeb7a94eb61cb2fe31aee6b5f0757",
+  "write_date": "",
+  "xml_id": "purchase.field_account_bank_statement_line__purchase_vendor_bill_id"
+}

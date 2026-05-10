@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3418,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sidebar action",
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "sidebar_action_id",
+    "relation": "ir.actions.act_window",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "92dcd78a38f8ce4b831437e7c8051e2741eb428e7629c665807f0ef5d0435f64",
+  "write_date": "",
+  "xml_id": "sms.field_sms_template__sidebar_action_id"
+}

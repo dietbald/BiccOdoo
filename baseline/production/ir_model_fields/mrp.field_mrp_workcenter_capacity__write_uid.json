@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16104,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      969,
+      "Work Center Capacity"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "96a43391d0dc8c0a13ed6a2e60c671854830506daf058eb9907aafc756467f0f",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter_capacity__write_uid"
+}

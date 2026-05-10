@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 702,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Demo Installation Failures",
+    "model_id": [
+      71,
+      "Demo Failure wizard"
+    ],
+    "name": "failure_ids",
+    "relation": "ir.demo_failure",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "c2166ada4c286179c4419ebbe98422a09f4293e032944ea707c32eb8e3831be5",
+  "write_date": "",
+  "xml_id": "base.field_ir_demo_failure_wizard__failure_ids"
+}

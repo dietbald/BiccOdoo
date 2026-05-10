@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12896,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Date",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "paid_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "0ddf269d8c0131b662dbf7ac334a20372331dec9602cc2dd523ed322762cefcc",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__paid_date"
+}

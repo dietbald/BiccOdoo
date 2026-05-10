@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8368,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create Invoice",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "advance_payment_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a8ec44d7b9e267dd794c9c7314a4cd146487ae3bbbea979ad1212ee597d0207a",
+  "write_date": "",
+  "xml_id": "sale.field_sale_advance_payment_inv__advance_payment_method"
+}

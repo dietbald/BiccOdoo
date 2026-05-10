@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26663,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated on",
+    "model_id": [
+      2753,
+      "Convert Lead to Rental Order"
+    ],
+    "name": "write_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "0b8a1f0c46eaf99a06df328cc554facf7802c56184bb7a94d58f0f190905a886",
+  "write_date": "",
+  "xml_id": "sale_renting_crm.field_crm_lead_rental__write_date"
+}

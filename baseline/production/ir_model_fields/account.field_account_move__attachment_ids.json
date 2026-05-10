@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4337,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7fe0da2f7150bf471a300ff81e2726adcccbdc71d1c72485b15d778a3ea11428",
+  "write_date": "",
+  "xml_id": "account.field_account_move__attachment_ids"
+}

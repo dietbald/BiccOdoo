@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract State Processed",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "extract_state_processed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2fdde0b3f2725de9b1e2f55edd7333447d3ce07fb8a27492d09b5e31692889aa",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement__extract_state_processed"
+}

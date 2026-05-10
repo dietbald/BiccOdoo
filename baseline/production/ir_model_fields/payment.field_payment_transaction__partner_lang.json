@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3735,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Language",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "partner_lang",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "71aa17c09fea13a91916980292e9e84fa6ff1e53221699cd0a863dc4687f41c5",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__partner_lang"
+}

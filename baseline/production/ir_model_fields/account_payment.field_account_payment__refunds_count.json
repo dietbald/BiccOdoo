@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5627,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Refunds Count",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "refunds_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "de6dc5d061ea8fbe0aa4e643054477cdc5ad70d5436d6d293039ff0e15797f20",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_payment__refunds_count"
+}

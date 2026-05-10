@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 140,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      9,
+      "Contact / Creation"
+    ],
+    "model_id": [
+      116,
+      "Merge Partner Wizard"
+    ],
+    "name": "access.base.partner.merge.automatic.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a9bda0f1d61544316ed92c3f9753ed9c36e3b9180ffa2cc0fd68c0aed03219a2",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_base_partner_merge_automatic_wizard"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 9039,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      641,
+      "Skill level for employee"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2f83cae8a75a6731ba57be3fb939b98a1cdcb95deb613fc99df5eb047e732497",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_employee_skill__create_uid"
+}

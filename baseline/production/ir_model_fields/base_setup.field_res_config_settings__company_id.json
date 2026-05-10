@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1431,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7287b5e5b2804039a700c6540418ef686749c43d96c5543f5904ec9a6b5e8e37",
+  "write_date": "",
+  "xml_id": "base_setup.field_res_config_settings__company_id"
+}

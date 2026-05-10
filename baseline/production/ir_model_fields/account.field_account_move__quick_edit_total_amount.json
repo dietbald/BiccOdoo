@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4383,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total (Tax inc.)",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "quick_edit_total_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "c4dec705fb4ec600019dba1e98305205738da033204274852457fbf0a32ccf9e",
+  "write_date": "",
+  "xml_id": "account.field_account_move__quick_edit_total_amount"
+}

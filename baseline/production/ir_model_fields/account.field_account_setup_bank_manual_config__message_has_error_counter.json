@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5311,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "19056e7015d8e0f7c566931ab640229600a4496dd73cbb9a6f93ec30376c091b",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__message_has_error_counter"
+}

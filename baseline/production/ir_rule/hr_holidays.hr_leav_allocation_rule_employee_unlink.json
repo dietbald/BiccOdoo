@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 451,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('employee_id.user_id', '=', user.id), ('state', '=', 'draft')]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "Allocations base.group_user unlink",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": false
+  },
+  "payload_sha256": "29cd07469310b48b705df5a66c470d771b3fde384f29693c3a6741aec7880103",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leav_allocation_rule_employee_unlink"
+}

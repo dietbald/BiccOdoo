@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 461,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'project.task'}",
+    "domain": "[('res_model', 'in', ('project.project', 'project.task'))]",
+    "name": "Activity Plans",
+    "res_model": "mail.activity.plan",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "9c09b04fb69fee07a7b169ed91283479f5933b039d85b2ff1af3241dc3414225",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.mail_activity_plan_action_config_project_task_plan"
+}

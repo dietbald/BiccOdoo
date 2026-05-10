@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15304,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resources",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "resource_ids",
+    "relation": "appointment.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "843d1d361617345dbd3f0b27eee5aa2534d93dbeede724e178bedb054b16e5ec",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__resource_ids"
+}

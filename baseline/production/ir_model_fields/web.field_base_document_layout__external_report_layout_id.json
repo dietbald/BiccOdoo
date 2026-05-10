@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1353,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document Template",
+    "model_id": [
+      118,
+      "Company Document Layout"
+    ],
+    "name": "external_report_layout_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d4dad7f753e7bacee19cc8dec74160eec7c731dc45d4fbe0d9bc9b9fe482c3ad",
+  "write_date": "",
+  "xml_id": "web.field_base_document_layout__external_report_layout_id"
+}

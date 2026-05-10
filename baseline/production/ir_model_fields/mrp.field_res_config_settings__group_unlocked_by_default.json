@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unlock Manufacturing Orders",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_unlocked_by_default",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b0605cef933d1ce48011a14c887694bf271f4f0c5406e2fe2c15c81df23288f3",
+  "write_date": "",
+  "xml_id": "mrp.field_res_config_settings__group_unlocked_by_default"
+}

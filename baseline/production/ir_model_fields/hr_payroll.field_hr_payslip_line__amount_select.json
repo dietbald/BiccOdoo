@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12939,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Type",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "amount_select",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "17174b66b618f69b97d009114f2ee5aa0bd67af5b4f049e6e7cb2839e79b11f4",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__amount_select"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26430,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      2743,
+      "Competitors"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "52af95ca7322fdc2224b9fce0df687188505103114809879793b4d1e146256e3",
+  "write_date": "",
+  "xml_id": "mail.field_x_competitors__activity_user_id"
+}

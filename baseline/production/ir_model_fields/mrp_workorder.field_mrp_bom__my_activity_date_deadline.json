@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16909,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "My Activity Deadline",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "my_activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "4ff747fd8704f5e007cf7aa278393c04587911705b996941f6c3a8b7194eed3f",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_bom__my_activity_date_deadline"
+}

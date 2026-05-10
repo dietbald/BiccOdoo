@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Language",
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "default_lang_id",
+    "relation": "res.lang",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a3f77bdfa70eb4fcbe1cb7069582a32647c6a0a153289037122f95ba06db5dd",
+  "write_date": "",
+  "xml_id": "website.field_website__default_lang_id"
+}

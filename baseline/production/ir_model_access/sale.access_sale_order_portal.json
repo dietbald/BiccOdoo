@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 712,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "sale.order.portal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "3aefb72e0e3300b175fb8871e11dbac8f7fedc64a6469cd43a972b00486ab76e",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_sale_order_portal"
+}

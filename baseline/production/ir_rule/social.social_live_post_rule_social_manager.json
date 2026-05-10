@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 509,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      134
+    ],
+    "model_id": [
+      1027,
+      "Social Live Post"
+    ],
+    "name": "Social: manager: all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "330c89a4f62fbfe71f904b90bc297183f83b3cf5e637537d2ee1360fc67dcb49",
+  "write_date": "2024-05-05 13:13:20",
+  "xml_id": "social.social_live_post_rule_social_manager"
+}

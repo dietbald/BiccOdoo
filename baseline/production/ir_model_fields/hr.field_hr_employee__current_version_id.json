@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27810,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Current Version",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "current_version_id",
+    "relation": "hr.version",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9c2d159db129dad17623c49efa220ec69a5965aed54410e23fea2d1c52b8425",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__current_version_id"
+}

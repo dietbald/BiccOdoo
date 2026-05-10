@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3815,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Detect Automatically",
+    "model_id": [
+      416,
+      "Fiscal Position"
+    ],
+    "name": "auto_apply",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a1f156ddf7dd7912e27866c74423dff4bb603efbc1618837adc0cc0e079a6c14",
+  "write_date": "",
+  "xml_id": "account.field_account_fiscal_position__auto_apply"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subordinates",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "subordinate_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1f740e0537bde76a28a7733117d5e68e4f3b1d4df0a340a3ddc3ea59f1b32752",
+  "write_date": "",
+  "xml_id": "hr_org_chart.field_hr_employee_public__subordinate_ids"
+}

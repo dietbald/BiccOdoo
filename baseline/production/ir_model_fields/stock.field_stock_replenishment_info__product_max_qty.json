@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28215,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Max",
+    "model_id": [
+      774,
+      "Stock supplier replenishment information"
+    ],
+    "name": "product_max_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "8baae15e1673a4111b1d8ef63b1ac4add3d9a96e82df178819254c2bdcbd17cb",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenishment_info__product_max_qty"
+}

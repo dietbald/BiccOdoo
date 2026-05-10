@@ -1,0 +1,11 @@
+<search string="Package">
+                <field name="name" string="Package Name"/>
+                <field name="location_id" groups="stock.group_stock_multi_locations"/>
+                <field name="package_type_id"/>
+                <filter string="In internal locations" name="internal" domain="['|', ('location_id.usage', '=', 'internal'), ('location_id', '=', False)]" groups="stock.group_stock_multi_locations"/>
+                <filter string="Main Packages" name="main_packages" domain="[('package_dest_id', '=', False)]"/>
+                <group>
+                   <filter string="Location" name="location" domain="[]" context="{'group_by' : 'location_id'}" groups="stock.group_stock_multi_locations"/>
+                   <filter string="Package Type" name="package_type" domain="[]" context="{'group_by' : 'package_type_id'}"/>
+               </group>
+            </search>

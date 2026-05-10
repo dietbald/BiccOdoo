@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 200,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "discuss.channel.member.portal",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9ac236c2f440b377628e757635837bad3dbbf4235294230177a54d7a50153471",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_discuss_channel_member_portal"
+}

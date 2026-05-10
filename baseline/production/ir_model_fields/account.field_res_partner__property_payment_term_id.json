@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3868,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer Payment Terms",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "property_payment_term_id",
+    "relation": "account.payment.term",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ef3b2edf5b592cf38cd8a1c4487366d3505992f963a286b9accc2ebd5fa48432",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__property_payment_term_id"
+}

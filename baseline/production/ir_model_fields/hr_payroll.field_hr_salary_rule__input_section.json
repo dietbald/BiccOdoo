@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29429,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Section",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "input_section",
+    "relation": "hr.salary.rule.section",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "db00721c1257d649fee275ce59dbda165e2caff88ab4e9bf54091da22b300753",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__input_section"
+}

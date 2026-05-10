@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 447,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                ('employee_id', '=', False),\n                ('employee_id.company_id', 'in', company_ids),\n            ('holiday_status_id.company_id', 'in', company_ids + [False])\n        ]",
+    "groups": [],
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "Time Off: multi company global rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ec4cbe56dd6fb69a41d2f3971cc87455e9741e412d6fd5f60468fae2328c3877",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "hr_holidays.hr_leave_allocation_rule_multicompany"
+}

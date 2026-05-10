@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21666,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d1f3defd864cb7ffe3b9e6dc70a502fc5a897f760924455206238bfd1670fbbf",
+  "write_date": "",
+  "xml_id": "iap_mail.field_iap_account__message_is_follower"
+}

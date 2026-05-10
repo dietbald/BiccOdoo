@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 21,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_try_auto_reconcile_statement_lines(batch_size=100)",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "Try to reconcile automatically your statement lines",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "ddedda85fe1e043400b266a97be88e3ce0dc46140469bf16dbfd712541196555",
+  "write_date": "2025-12-09 02:57:43",
+  "xml_id": "account_accountant.auto_reconcile_bank_statement_line"
+}

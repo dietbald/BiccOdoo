@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19086,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f8603fbf474785cfd6a9669252e56f62bb3a79588502f6d179a71d6526e3d788",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__message_partner_ids"
+}

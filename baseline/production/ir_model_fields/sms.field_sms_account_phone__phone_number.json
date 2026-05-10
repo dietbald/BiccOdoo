@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21827,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Phone Number",
+    "model_id": [
+      1357,
+      "SMS Account Registration Phone Number Wizard"
+    ],
+    "name": "phone_number",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "97e8ec087e40f1759dd099da9c7bfd0482a58e3a796829faa4733d3d14a5358d",
+  "write_date": "",
+  "xml_id": "sms.field_sms_account_phone__phone_number"
+}

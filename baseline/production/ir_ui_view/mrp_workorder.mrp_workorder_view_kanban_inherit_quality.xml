@@ -1,0 +1,3 @@
+<xpath expr="//div[hasclass('o_kanban_workorder_status')]//field[@name='last_working_user_id']" position="replace">
+                <field t-if="record.employee_ids.raw_value" name="employee_ids" widget="list.many2many_avatar_user" class="ms-1"/>
+            </xpath>

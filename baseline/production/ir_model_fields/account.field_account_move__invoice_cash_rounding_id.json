@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4393,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cash Rounding Method",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_cash_rounding_id",
+    "relation": "account.cash.rounding",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "41bb27f131bd60a95085fd2278b8216b5871188a5755df1631c5e14344f1543b",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_cash_rounding_id"
+}

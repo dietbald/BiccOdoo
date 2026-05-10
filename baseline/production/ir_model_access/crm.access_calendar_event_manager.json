@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 597,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "calendar.event.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "44f932c219c89e41314fa76180e573650952679a70349bef4bfa50ceb763d84c",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.access_calendar_event_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15215,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Hours",
+    "model_id": [
+      939,
+      "Appointment Resource"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "00594e8d3b0c5ad8537cd001a03d260fc4eca14d31a4be9e6346acee448a4921",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_resource__resource_calendar_id"
+}

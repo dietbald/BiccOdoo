@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 653,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1474,
+      "Quotation Spreadsheet"
+    ],
+    "name": "Order Spreadsheet multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "174748e9e5767f8bcc995dd4eb552220fd0e6018ca8333f1be71d5d876e7a2b6",
+  "write_date": "2025-01-28 01:27:58",
+  "xml_id": "spreadsheet_sale_management.sale_order_spreadsheet_rule_company"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4313,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "move_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7be76e3f59e102308f516afedd759569e1c43a8e23eb8ff459dc6d8a4c8246ac",
+  "write_date": "",
+  "xml_id": "account.field_account_move__move_type"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8296,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "order_reference",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "reference"
+  },
+  "payload_sha256": "8671d12586e68d55c382f29c069b8a1b2e9f6d0e39204f8273f3b6b9e8bc57ee",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__order_reference"
+}

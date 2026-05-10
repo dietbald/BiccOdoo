@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 807,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      79,
+      "Country Group"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "483ae1d8490e97e3824ff3adb6824936c12cb5cf0581152b39c3135cd830c1ab",
+  "write_date": "",
+  "xml_id": "base.field_res_country_group__write_uid"
+}

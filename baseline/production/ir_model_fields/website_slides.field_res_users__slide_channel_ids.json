@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24407,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "eLearning Courses",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "slide_channel_ids",
+    "relation": "slide.channel",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cb32b7215a35d677fbe00f7b9a14971b6397f60e4670e5f8a217521ae1679dd7",
+  "write_date": "",
+  "xml_id": "website_slides.field_res_users__slide_channel_ids"
+}

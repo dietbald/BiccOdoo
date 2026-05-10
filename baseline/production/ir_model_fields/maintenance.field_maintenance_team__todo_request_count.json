@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18211,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Requests",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "todo_request_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "63a418e6a16bf48db005046e4453ef9dd4f29fec9afa6ab22a490d6a048d20a5",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__todo_request_count"
+}

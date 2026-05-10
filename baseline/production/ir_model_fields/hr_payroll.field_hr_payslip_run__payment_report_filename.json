@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20634,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Report Filename",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "payment_report_filename",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ef3c92e8352f1a1f2b5e6f6b6ee8d925a54dcb155806b4da8300615d2a918777",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__payment_report_filename"
+}

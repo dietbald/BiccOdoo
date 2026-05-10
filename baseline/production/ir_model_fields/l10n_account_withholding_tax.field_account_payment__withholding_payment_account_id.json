@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29710,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Account",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "withholding_payment_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b3a9e29abf9819f804476e676a46494cfcc9c16ffefd29749a6adeb913063e59",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment__withholding_payment_account_id"
+}

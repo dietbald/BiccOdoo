@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17777,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related social Account",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "account_id",
+    "relation": "social.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2c2f9d59e8170d8f0b578fbcf583bf02433e19cfccc54084a2832f427e91fff2",
+  "write_date": "",
+  "xml_id": "social.field_social_stream_post__account_id"
+}

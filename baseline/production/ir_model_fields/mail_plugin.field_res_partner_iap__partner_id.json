@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26498,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      2746,
+      "Partner IAP"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "71acee1b5c32c75df95aee9a93ae3fcaab0c023e1c16afd6d5a7f81c5f063afa",
+  "write_date": "",
+  "xml_id": "mail_plugin.field_res_partner_iap__partner_id"
+}

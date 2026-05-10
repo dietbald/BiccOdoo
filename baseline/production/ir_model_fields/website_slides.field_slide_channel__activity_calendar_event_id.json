@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24269,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3ddd6119c3853e2671c96eb45a92f4161b6295e21f7d0fe1afe228b895008685",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__activity_calendar_event_id"
+}

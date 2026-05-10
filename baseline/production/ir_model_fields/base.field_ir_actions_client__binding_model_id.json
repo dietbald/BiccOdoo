@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 379,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Binding Model",
+    "model_id": [
+      26,
+      "Client Action"
+    ],
+    "name": "binding_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eede23826665e41bf4db14a8a48b4eff1dba1640c6b257f24bc2a47a623400cf",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_client__binding_model_id"
+}

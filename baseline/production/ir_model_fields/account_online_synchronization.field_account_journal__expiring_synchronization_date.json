@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expiring Synchronization Date",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "expiring_synchronization_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "41b306e689088703c34913282655ae7d066fe3dd9d06409ce90f2650c11ba1b2",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_journal__expiring_synchronization_date"
+}

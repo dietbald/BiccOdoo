@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2489,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Add signature",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "email_add_signature",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "866411c8dc95f297b61c469f8dac2dfc6f760dde66ebfd439172400be96a513f",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__email_add_signature"
+}

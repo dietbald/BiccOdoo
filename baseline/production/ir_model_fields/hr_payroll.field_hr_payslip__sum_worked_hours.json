@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12903,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sum Worked Hours",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "sum_worked_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "e75624c20d7c188831448f614bad60c0dac11236a734bce2fd6b70f6071eeb10",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__sum_worked_hours"
+}

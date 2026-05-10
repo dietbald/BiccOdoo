@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19636,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cf6c9775d5d835b35722de0641f43450c9431a6c12d3de726a4d6a13bd6d957b",
+  "write_date": "",
+  "xml_id": "product.field_product_category__message_follower_ids"
+}

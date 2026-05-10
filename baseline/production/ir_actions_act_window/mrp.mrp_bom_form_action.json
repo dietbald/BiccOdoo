@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1070,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_company_id': allowed_company_ids[0]}",
+    "domain": "[]",
+    "name": "Bills of Materials",
+    "res_model": "mrp.bom",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "9e914c8629163525987e459affcf23bd947065666eaf45090ed2b4978e079448",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.mrp_bom_form_action"
+}

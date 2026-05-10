@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23615,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count Linked Assets",
+    "model_id": [
+      1460,
+      "Asset Group"
+    ],
+    "name": "count_linked_assets",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d994381f3ca9404e82d41c0ea8a1771ca652e8661a1a0d1c32a74e09bb614a27",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset_group__count_linked_assets"
+}

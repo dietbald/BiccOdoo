@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25652,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job",
+    "model_id": [
+      2610,
+      "Referral Send Mail"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "981af08235ef2606c1fc68ccfe4964fc8dd897059d08489f23c00e2dd63f2f15",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_send_mail__job_id"
+}

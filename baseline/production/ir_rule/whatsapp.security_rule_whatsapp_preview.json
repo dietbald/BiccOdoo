@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 530,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      1054,
+      "Preview template"
+    ],
+    "name": "WA Preview: Restrict to Own",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b250a3e346d9b4e12a57249a00f6abd3a08941200ac372f7efb750b295a079f2",
+  "write_date": "2024-05-05 13:35:48",
+  "xml_id": "whatsapp.security_rule_whatsapp_preview"
+}

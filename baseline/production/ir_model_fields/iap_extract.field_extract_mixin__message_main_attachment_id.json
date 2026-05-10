@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Attachment",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "message_main_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2a29fcc73822571576515bd404794157f75518a0c34c098252c5ed0799e19513",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin__message_main_attachment_id"
+}

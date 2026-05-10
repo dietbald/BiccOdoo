@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1275,
+      "Contract Benefit Type"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f5ef9be7caa356305f1c7dafee1922870dbe1212b3f1623f6998947911f753ca",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_benefit_type__create_uid"
+}

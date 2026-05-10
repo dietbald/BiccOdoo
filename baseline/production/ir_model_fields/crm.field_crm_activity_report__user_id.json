@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salesperson",
+    "model_id": [
+      582,
+      "CRM Activity Analysis"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f9fa7d5f1054410ff5116631bfe2fde3b5feb847d1af63c3ea95351124706d67",
+  "write_date": "",
+  "xml_id": "crm.field_crm_activity_report__user_id"
+}

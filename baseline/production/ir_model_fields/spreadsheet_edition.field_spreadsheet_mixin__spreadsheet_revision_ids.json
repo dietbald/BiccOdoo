@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5532,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Spreadsheet Revision",
+    "model_id": [
+      414,
+      "Spreadsheet mixin"
+    ],
+    "name": "spreadsheet_revision_ids",
+    "relation": "spreadsheet.revision",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e53407b58a44e588f2b350b20cc6a47f58e02a34a9905d649074721710a68e08",
+  "write_date": "",
+  "xml_id": "spreadsheet_edition.field_spreadsheet_mixin__spreadsheet_revision_ids"
+}

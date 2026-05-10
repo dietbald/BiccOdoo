@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6938,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Participant",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "attendee_ids",
+    "relation": "calendar.attendee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "36d06dc4183802b5a56d39c79e685c85254981b254a766a9ef6c91ef2861594b",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__attendee_ids"
+}

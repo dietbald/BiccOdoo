@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count Picking Ready",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "count_picking_ready",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "572cb0dcdc2cb63d8cd9061f99f83c1347652002f96777010b2c4945ab1a316c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__count_picking_ready"
+}

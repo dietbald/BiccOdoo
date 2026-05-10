@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10120,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Views using a copy of me",
+    "model_id": [
+      690,
+      "Theme UI View"
+    ],
+    "name": "copy_ids",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2a697ea43f67d305cd2757d145d66d618d5c740ee59235a7446cc7d7e179013b",
+  "write_date": "",
+  "xml_id": "website.field_theme_ir_ui_view__copy_ids"
+}

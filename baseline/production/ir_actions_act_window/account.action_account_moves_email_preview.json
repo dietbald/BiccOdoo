@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1639,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('id', 'in', context.get('active_ids'))]",
+    "name": "Journal Entries",
+    "res_model": "account.move",
+    "target": "current",
+    "view_mode": "list,kanban,form,activity"
+  },
+  "payload_sha256": "1b82151ee9c0eb70e954c25b6d7a73e43522ca22a90c582478a588eabcb59b10",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_moves_email_preview"
+}

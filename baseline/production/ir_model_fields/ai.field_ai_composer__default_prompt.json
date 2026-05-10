@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30040,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Instructions",
+    "model_id": [
+      3863,
+      "AI model configurations (system prompts) for text drafting."
+    ],
+    "name": "default_prompt",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "700e15b58090b7d60ee39149b7a2881936221e59f9b669a436ce4d10c30cf794",
+  "write_date": "",
+  "xml_id": "ai.field_ai_composer__default_prompt"
+}

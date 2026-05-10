@@ -1,0 +1,17 @@
+<t name="Separator Title" t-name="mass_mailing.s_hr_title">
+    <section class="s_hr_title o_mail_snippet_general pt16 pb16">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4 col-12">
+                    <t t-call="mass_mailing.s_hr"/>
+                </div>
+                <div class="col-md-4 text-break col-12">
+                    <h1 style="text-align:center;"> Your Title </h1>
+                </div>
+                <div class="col-md-4 col-12">
+                    <t t-call="mass_mailing.s_hr"/>
+                </div>
+            </div>
+        </div>
+    </section>
+</t>

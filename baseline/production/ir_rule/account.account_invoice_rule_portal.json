@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 95,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('state', 'not in', ('cancel', 'draft')), ('move_type', 'in', ('out_invoice', 'out_refund', 'in_invoice', 'in_refund')), ('partner_id','child_of',[user.commercial_partner_id.id])]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "Portal Personal Account Invoices",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ea9c01099a59eb565aa5f574d36e0806480d9dc48a48d2c06acf9f6ff912d433",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_invoice_rule_portal"
+}

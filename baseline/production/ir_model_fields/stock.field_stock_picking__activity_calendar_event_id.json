@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11226,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b587115c469842b8aa424f8f0107273490a7336779e4758409f3e92601b18c1c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__activity_calendar_event_id"
+}

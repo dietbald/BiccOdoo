@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 72,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      409,
+      "Payment Token"
+    ],
+    "name": "Access tokens in own companies only",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c37422905c15a3bbd352f85399186c5464c143568343abb311cf7e891df178d6",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "payment.payment_token_company_rule"
+}

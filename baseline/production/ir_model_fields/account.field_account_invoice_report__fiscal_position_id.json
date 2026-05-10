@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5440,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Position",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "fiscal_position_id",
+    "relation": "account.fiscal.position",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6b02a469a55686ec4a259e2d02b75e059c657b9f7b29533fd4ad0204288160d2",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__fiscal_position_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24102,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6fed86456bceeb1d77ba8734767386b4555e2b25a9285b1e0852529b76a4e4e9",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_slide__message_follower_ids"
+}

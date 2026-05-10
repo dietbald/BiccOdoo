@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 335,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      794,
+      "Knowledge Invite Wizard"
+    ],
+    "name": "Invite: System invite members",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2fe4f1f81a07b7cdd63af33b48e33328abc6ca8056176b97d0f119ea767b71c9",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_invite_system"
+}

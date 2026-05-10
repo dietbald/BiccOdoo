@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4119,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Label on Invoices",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "invoice_label",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "standard",
+    "ttype": "char"
+  },
+  "payload_sha256": "fc91f0ee64523ab8dbe7c3d1f8bbd404aef873a18c50569eaf3b106af83eff6f",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__invoice_label"
+}

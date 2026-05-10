@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 341,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('partner_id', '=', user.partner_id.id), ('article_id.website_published', '=', True)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      789,
+      "Article Member"
+    ],
+    "name": "Article members: portal: sync with article",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5867e0eef7488ce9caebd99f9f32c05966254afcc4acaa4af32fc419abf9525f",
+  "write_date": "2023-12-04 12:24:44",
+  "xml_id": "website_knowledge.rule_knowledge_article_member_portal"
+}

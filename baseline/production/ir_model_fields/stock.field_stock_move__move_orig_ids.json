@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10945,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Original Move",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "move_orig_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "730dadd11665cc3d27a1f8f17262c2e1ed9d5811db0562612725f0b61d86905c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__move_orig_ids"
+}

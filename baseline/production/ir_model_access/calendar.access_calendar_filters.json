@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 571,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      568,
+      "Calendar Filters"
+    ],
+    "name": "access_calendar_contacts",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a1b9b6273c039edf5c7aa081c8c950a41d5ae1a387ccb0efe316d0f8c030b4f1",
+  "write_date": "2025-12-09 02:55:52",
+  "xml_id": "calendar.access_calendar_filters"
+}

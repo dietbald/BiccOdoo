@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6338,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      534,
+      "Followup missing information wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f0f428ad97f6a034c434e1368961bdfd841f5069f3a0fd3483a5d44456dc061d",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_missing_information_wizard__write_uid"
+}

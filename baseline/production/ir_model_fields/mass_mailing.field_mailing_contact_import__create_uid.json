@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14333,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      899,
+      "Mailing Contact Import"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ce036c06df1e43d21bf320f00ba002979d59bb055eb8aa2fd3a6c7da1b5c29fd",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact_import__create_uid"
+}

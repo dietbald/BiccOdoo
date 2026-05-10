@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 165,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      13,
+      "Sequence Date Range"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4d89ee76264e2ab6f6310ddbb4af1092201684ceaba785c89f33c708fee1db94",
+  "write_date": "",
+  "xml_id": "base.field_ir_sequence_date_range__create_uid"
+}

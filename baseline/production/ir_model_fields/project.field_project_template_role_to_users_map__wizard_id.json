@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28075,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard",
+    "model_id": [
+      3335,
+      "Project role to users mapping"
+    ],
+    "name": "wizard_id",
+    "relation": "project.template.create.wizard",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1e24fa401976c1485d42d8b7f91005cf44edf776e42dfa5cccca8f73b84b3276",
+  "write_date": "",
+  "xml_id": "project.field_project_template_role_to_users_map__wizard_id"
+}

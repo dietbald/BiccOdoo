@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 436,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      113
+    ],
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "appointment.invite: apt administrator rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "921f7296d160d4f0951384a143d6db543488a22ab25a518bd5ca4affc2929649",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_invite_rule_admin"
+}

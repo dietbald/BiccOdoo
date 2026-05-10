@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 901,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_resource_type': 'material', 'from_planning': True}",
+    "domain": "[('resource_type', '=', 'material')]",
+    "name": "Materials",
+    "res_model": "resource.resource",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "6b0cfe96f3bc8befc6acc6c37f312bea60ff3c68c9b7dd649a2d3ddc8c324dc4",
+  "write_date": "2025-12-09 02:59:29",
+  "xml_id": "planning.planning_action_resources"
+}

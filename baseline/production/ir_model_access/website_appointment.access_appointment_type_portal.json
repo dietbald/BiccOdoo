@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1358,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "appointment.type.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "e604342916e702bd48c48ff8eedca1f85434eb2b6e69015fa066e297c99f7fee",
+  "write_date": "2026-01-28 12:01:21",
+  "xml_id": "website_appointment.access_appointment_type_portal"
+}

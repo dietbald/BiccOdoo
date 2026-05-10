@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 498,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_team_id': [active_id],\n                'default_team_id': active_id,\n                'show_address': 1,\n            }\n        ",
+    "domain": "[]",
+    "name": "Quotations",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "list,form,calendar,graph,kanban,pivot"
+  },
+  "payload_sha256": "d07bdca2f306dd6e108eb826649957518d1bfac890c2b077aa6935ae73a1cad2",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_quotations_salesteams"
+}

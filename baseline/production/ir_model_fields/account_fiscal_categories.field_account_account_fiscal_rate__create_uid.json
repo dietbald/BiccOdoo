@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      529,
+      "Fiscal Rate"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "45cb740843e7caea0bd1cdf46b32a499c78e48d77e3b383e123b11cba9e6eedf",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories.field_account_account_fiscal_rate__create_uid"
+}

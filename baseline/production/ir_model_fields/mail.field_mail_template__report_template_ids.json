@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2186,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dynamic Reports",
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "report_template_ids",
+    "relation": "ir.actions.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "04c8fe03b51124599dacd6490b5e9570220d4be03671be7545c3c0121a0e36c3",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template__report_template_ids"
+}

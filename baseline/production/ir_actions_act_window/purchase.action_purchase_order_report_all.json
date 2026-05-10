@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 578,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_orders': 1,\n                'search_default_filter_date_approve': 1}",
+    "domain": false,
+    "name": "Purchase Analysis",
+    "res_model": "purchase.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "8bc602fe219855a21c0315672ab5f6d7d89e64f12680348249c8a67d00ce070a",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.action_purchase_order_report_all"
+}

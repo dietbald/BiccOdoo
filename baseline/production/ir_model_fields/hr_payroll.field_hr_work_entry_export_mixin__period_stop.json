@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23688,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Period Stop",
+    "model_id": [
+      1463,
+      "Work Entry Export Mixin"
+    ],
+    "name": "period_stop",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "ad81ce7b3f65704879f844ee7a2ee928cd19afaec17a987db474870ecb6a960a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_export_mixin__period_stop"
+}

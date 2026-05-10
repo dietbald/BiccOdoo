@@ -1,0 +1,1 @@
+action = model.action_home_page()

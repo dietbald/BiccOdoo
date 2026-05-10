@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26937,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "emails To",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "outgoing_email_to",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "c1cfaaed469bd9a392bd4e10274bb90ce75f71986963fdd1988072117bb6ce35",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__outgoing_email_to"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17487,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c9970ef11f912afa6ab6c71f3c8536e13a9a75f4c69ee2d47e0caa78165a3b8",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__activity_user_id"
+}

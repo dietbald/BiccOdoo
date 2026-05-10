@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18210,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Requests",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "todo_request_ids",
+    "relation": "maintenance.request",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "151f317b38406166a2367f9ee8fe11b06e357e8f3113d031b44de4f0116610a1",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__todo_request_ids"
+}

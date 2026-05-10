@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8092,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoicing Target",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "invoiced_target",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "fdabbb4723cfe538c1c3c5bd2663dea6debbf94f2d4fb1e9164cc7d05a7753d9",
+  "write_date": "",
+  "xml_id": "sale.field_crm_team__invoiced_target"
+}

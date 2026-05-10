@@ -1,0 +1,21 @@
+<form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="parent_action_id"/>
+                                <field name="action_id"/>
+                                <field name="user_id"/>
+                                <field name="filter_ids" widget="many2many_tags"/>
+                            </group>
+                            <group>
+                                <field name="sequence"/>
+                                <field name="is_deletable"/>
+                                <field name="default_view_mode"/>
+                                <field name="parent_res_model"/>
+                                <field name="domain"/>
+                                <field name="groups_ids" widget="many2many_tags"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>

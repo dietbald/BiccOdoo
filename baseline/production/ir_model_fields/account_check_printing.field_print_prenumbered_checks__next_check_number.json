@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17376,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Check Number",
+    "model_id": [
+      1014,
+      "Print Pre-numbered Checks"
+    ],
+    "name": "next_check_number",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "3602ae80cd5660ce2feb91cd3734ed274dcd8f6558f3c22b7227dda4d0504e93",
+  "write_date": "",
+  "xml_id": "account_check_printing.field_print_prenumbered_checks__next_check_number"
+}

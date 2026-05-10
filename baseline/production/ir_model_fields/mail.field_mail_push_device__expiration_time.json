@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2320,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expiration Token Date",
+    "model_id": [
+      199,
+      "Push Notification Device"
+    ],
+    "name": "expiration_time",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "22ba4c367ee3a17b793315035a7caaa4c43f385323414f1ef5a782cb87df7f79",
+  "write_date": "",
+  "xml_id": "mail.field_mail_push_device__expiration_time"
+}

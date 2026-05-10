@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 673,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      41,
+      "Project / Administrator"
+    ],
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "access.sms.template.project.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f33f089992e723909f4a7772c7c707a70934dd547a8094441dd5fef3ce549b0a",
+  "write_date": "2025-12-09 02:58:42",
+  "xml_id": "project_sms.access_sms_template_project_manager"
+}

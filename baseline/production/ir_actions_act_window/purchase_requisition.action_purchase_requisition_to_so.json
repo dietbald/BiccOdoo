@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 796,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            \"default_requisition_id\":active_id,\n            }\n        ",
+    "domain": "[('requisition_id','=',active_id)]",
+    "name": "Request for Quotation",
+    "res_model": "purchase.order",
+    "target": "current",
+    "view_mode": "form,list"
+  },
+  "payload_sha256": "7022fb63517f14e1d004bce0d2d11e7448b509988b864da4f0411a84673d4cae",
+  "write_date": "2025-12-09 02:59:35",
+  "xml_id": "purchase_requisition.action_purchase_requisition_to_so"
+}

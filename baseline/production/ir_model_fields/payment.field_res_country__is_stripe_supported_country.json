@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10336,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Stripe Supported Country",
+    "model_id": [
+      78,
+      "Country"
+    ],
+    "name": "is_stripe_supported_country",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5155f174c1ea403fa6f173da6ac412015f475e0d3597467228eb913a63ece0ca",
+  "write_date": "",
+  "xml_id": "payment.field_res_country__is_stripe_supported_country"
+}

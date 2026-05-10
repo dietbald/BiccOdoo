@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9383,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment Count",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "message_attachment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "dc956991503567daca9d7cec93557e21ef2d39c9c8c36e642ba58d7bacaf1146",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__message_attachment_count"
+}

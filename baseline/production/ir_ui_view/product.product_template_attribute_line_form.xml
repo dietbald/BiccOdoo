@@ -1,0 +1,15 @@
+<form string="Product Attribute and Values">
+                <group name="main_field">
+                    <label for="attribute_id" string="Attribute Name"/>
+                    <field name="attribute_id" nolabel="1"/>
+                    <field name="value_ids" widget="one2many">
+                        <list string="Values">
+                            <field name="name"/>
+                            <field name="html_color"/>
+                        </list>
+                        <form string="Values">
+                            <field name="name"/>
+                        </form>
+                    </field>
+                </group>
+            </form>

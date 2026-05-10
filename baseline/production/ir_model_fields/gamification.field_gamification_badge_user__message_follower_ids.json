@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27177,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      910,
+      "Gamification User Badge"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cdd5e2d149cd665fd569bbc3d576cb33cdcda75c450deb7b995c887b5588de76",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge_user__message_follower_ids"
+}

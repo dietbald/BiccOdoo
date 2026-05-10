@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5642,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Transaction",
+    "model_id": [
+      484,
+      "Payment Refund Wizard"
+    ],
+    "name": "transaction_id",
+    "relation": "payment.transaction",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "03cbe42d4881c9c7b9491d19ba75a6f17203e681a9d91b0fb6be89c1d6c71608",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_refund_wizard__transaction_id"
+}

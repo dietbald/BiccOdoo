@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3893,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "49f48a82f4b57d17b8818f4b4bc8ec6bae267a4f5378ef513b9c22fbdbfcb3d1",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__message_follower_ids"
+}

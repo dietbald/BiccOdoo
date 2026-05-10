@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27936,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Multiple Bank Accounts",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "employee_has_multiple_bank_accounts",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "450148d4459be4c2624a1d589e6a74f05f5e331b630ba59daee0d321cc191d17",
+  "write_date": "",
+  "xml_id": "hr.field_res_partner_bank__employee_has_multiple_bank_accounts"
+}

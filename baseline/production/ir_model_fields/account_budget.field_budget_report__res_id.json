@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20793,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document",
+    "model_id": [
+      1243,
+      "Budget Report"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "82ed37957b20a55b2ad44d8b660705a63a1dd9662eecb1ad3db01a8dfbe4dc43",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_report__res_id"
+}

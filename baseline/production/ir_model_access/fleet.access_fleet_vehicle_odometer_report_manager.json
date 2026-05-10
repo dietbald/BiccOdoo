@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1992,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      130,
+      "Fleet / Administrator"
+    ],
+    "model_id": [
+      3034,
+      "Fleet Odometer Analysis Report"
+    ],
+    "name": "fleet_vehicle_odometer_report_access_right",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1009e2ef3e05ec80e4fdbd59d934f6e9af88ffc5e0a31ed5b67c2fba09636b0f",
+  "write_date": "2025-12-09 02:55:54",
+  "xml_id": "fleet.access_fleet_vehicle_odometer_report_manager"
+}

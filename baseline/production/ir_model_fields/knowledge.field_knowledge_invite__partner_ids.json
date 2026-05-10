@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12354,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      794,
+      "Knowledge Invite Wizard"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b1e3445d2332e7ae6330b9d49cf65e3df26a1912485b50f1e9935d7077456e51",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_invite__partner_ids"
+}

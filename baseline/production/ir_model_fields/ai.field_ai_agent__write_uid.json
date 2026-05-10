@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29988,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3859,
+      "AI Agent"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3536e08e1a648aba2c0ddd7b1f325f5e03c2fc8f089d96c506c00d043dc7db4e",
+  "write_date": "",
+  "xml_id": "ai.field_ai_agent__write_uid"
+}

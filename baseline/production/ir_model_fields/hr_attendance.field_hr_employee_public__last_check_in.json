@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13362,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Check In",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "last_check_in",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "4fd680b33d40aebdc29b746bdf137b3de9d72d1fbee429591dabd39695cea229",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_employee_public__last_check_in"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 399,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('state', '=', 'published')]",
+    "groups": [
+      106
+    ],
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "Planning: user can only see published shifts",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "da746ffad93b5cdf1707419bb9f347dc39300f6fcad538172b6ee63aa1320cc6",
+  "write_date": "2024-04-18 04:45:47",
+  "xml_id": "planning.planning_rule_user_is_published"
+}

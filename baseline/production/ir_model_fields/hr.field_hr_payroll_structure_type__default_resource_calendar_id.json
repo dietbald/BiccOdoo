@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10409,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Hours",
+    "model_id": [
+      703,
+      "Salary Structure Type"
+    ],
+    "name": "default_resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bc5a25977ff9d7adfad89ea3e4eb96f59fc2df8f30092b3f1328527c0d56c655",
+  "write_date": "",
+  "xml_id": "hr.field_hr_payroll_structure_type__default_resource_calendar_id"
+}

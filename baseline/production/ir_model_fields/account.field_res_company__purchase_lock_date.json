@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22092,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Lock date",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "purchase_lock_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "748635877371c23fb4246fae0d222c0ab40b914c5f3ce19a7cd9a2542904c769",
+  "write_date": "",
+  "xml_id": "account.field_res_company__purchase_lock_date"
+}

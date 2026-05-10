@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1129,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      57,
+      "Purchase / User"
+    ],
+    "model_id": [
+      809,
+      "Wizard in case PO still has open alternative requests for quotation"
+    ],
+    "name": " purchase.requisition.alternative.warning",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8e49e01f3c7a1c816a54b3912681ffcdcbaf2847a62aa00182c741ec2be527fb",
+  "write_date": "2025-12-09 02:59:35",
+  "xml_id": "purchase_requisition.access_purchase_requisition_alternative_warning"
+}

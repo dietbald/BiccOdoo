@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11108,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Route",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "route_id",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5b67f482dd6f2f3591149c15c3162d0e1e0dc1608bf6398d2277c47958d05eda",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__route_id"
+}

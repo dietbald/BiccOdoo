@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28202,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move Line",
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "move_line_ids",
+    "relation": "stock.move.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8a4193b5fb8353d334cf23590a67d09ed9069f41b91e400707f2bafefaa0638a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package__move_line_ids"
+}

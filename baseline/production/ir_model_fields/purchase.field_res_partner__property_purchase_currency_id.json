@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9500,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Supplier Currency",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "property_purchase_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d130bf13cb441c7624d083517c183e26deb7b880407f9ef911cff8bfec937526",
+  "write_date": "",
+  "xml_id": "purchase.field_res_partner__property_purchase_currency_id"
+}

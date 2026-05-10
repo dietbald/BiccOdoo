@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9758,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Bounced Message",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "alias_bounced_content",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "5495add53d4301228aed23358aaa715e81abe4c1c04cb5869f71c7575b692c6b",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__alias_bounced_content"
+}

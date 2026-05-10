@@ -1,0 +1,11 @@
+<list string="Templates">
+                    <field name="mail_server_id" column_invisible="True"/>
+                    <field name="name"/>
+                    <field name="model_id" groups="base.group_no_one"/>
+                    <field name="user_id" optional="show" widget="many2one_avatar_user"/>
+                    <field name="description"/>
+                    <field name="subject" optional="hidden"/>
+                    <field name="email_from" optional="hidden"/>
+                    <field name="email_to" optional="hidden"/>
+                    <field name="partner_to" optional="hidden"/>
+                </list>

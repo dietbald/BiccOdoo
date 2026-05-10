@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12651,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      808,
+      "Purchase Requisition Line"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d60c2d477623a5fc562b0b6b3208cd3821d737661f6a422b7f6144256dfb89b7",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_line__write_uid"
+}

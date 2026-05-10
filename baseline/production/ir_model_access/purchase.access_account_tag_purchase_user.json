@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 809,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      57,
+      "Purchase / User"
+    ],
+    "model_id": [
+      420,
+      "Account Tag"
+    ],
+    "name": "account.account.tag",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6d0a8b6c8b148470c14bfb9dea2472f5f327984dd52b9fc9740e4d7a27d1c73d",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_account_tag_purchase_user"
+}

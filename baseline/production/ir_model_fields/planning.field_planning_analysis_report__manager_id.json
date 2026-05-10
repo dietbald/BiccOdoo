@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13969,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "manager_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9d21010ec5705b367af11406c8a6fe454e9662fb1b5f2c12bb7a2f325e4a4c9c",
+  "write_date": "",
+  "xml_id": "planning.field_planning_analysis_report__manager_id"
+}

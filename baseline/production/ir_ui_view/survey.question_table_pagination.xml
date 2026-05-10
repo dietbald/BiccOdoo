@@ -1,0 +1,14 @@
+<t name="Survey: statistics table pagination" t-name="survey.question_table_pagination">
+        <t t-set="non_skipped_answers_count" t-value="len(question_data['answer_input_done_ids'])"/>
+        <t t-if="non_skipped_answers_count &gt; page_record_limit">
+            <div class="d-flex justify-content-between d-print-none pagination_wrapper" t-att-id="'pagination_%d' % question.id" t-att-data-question_id="question.id">
+                <ul class="pagination mt-2">
+                    <t t-set="total" t-value="ceil(non_skipped_answers_count / page_record_limit) + 1"/>
+                    <li t-foreach="range(1, total)" t-as="num" t-att-class="'page-item o_survey_js_results_pagination %s' % ('active' if num == 1 else '')">
+                        <a href="#" class="page-link" t-esc="num"/>
+                    </li>
+                </ul>
+                <button class="btn btn-sm btn-primary mx-0 my-3 o_survey_question_answers_show_btn">Show All</button>
+            </div>
+        </t>
+    </t>

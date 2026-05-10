@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3485,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sms Template",
+    "model_id": [
+      400,
+      "SMS Template Preview"
+    ],
+    "name": "sms_template_id",
+    "relation": "sms.template",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e84a8812a1f32d7a46b27d65e974cfbe2688bd77b8f28b651ed20050b16fe111",
+  "write_date": "",
+  "xml_id": "sms.field_sms_template_preview__sms_template_id"
+}

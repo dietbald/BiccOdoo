@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2288,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f894cd2d2f5777a9d64d1e1b67c84ee04f60db9acb9a17855a8cd4e4dc58d6e9",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__message_needaction"
+}

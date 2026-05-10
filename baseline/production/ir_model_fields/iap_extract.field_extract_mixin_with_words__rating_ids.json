@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25837,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      2662,
+      "Base class to extract data from documents with OCRed words saved"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5a8e8263d1f83c7fec3f6132d7c4117a3fb98b5c78d636f73556a4e80dcdb060",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin_with_words__rating_ids"
+}

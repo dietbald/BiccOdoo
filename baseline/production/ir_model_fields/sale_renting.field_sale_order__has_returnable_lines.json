@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26562,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Returnable Lines",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "has_returnable_lines",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2ee9b154389e2148972642016ab71479a5f600acb6e13e66bf1c2b67ee785f0b",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order__has_returnable_lines"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 439,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['&', (1, '=', 1), '|', '&', ('employee_id.user_id', '=', user.id), ('state', 'not in', ['validate', 'validate1']), '&', ('validation_type', 'in', ['manager', 'both', 'no_validation']), ('employee_id.leave_manager_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "Time Off base.group_user create/write",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "275f3a5bcbff6fe4bd5052d027cf8154e692c2097dd42316d86e33d86cfdb92e",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_rule_employee_update"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 37,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._send_reminder_mail()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "Purchase reminder",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "29ef85e1e74cede59c5d740803ec97e10ddd0ae27a0c3ddb320a54a4157161ea",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "purchase.purchase_send_reminder_mail"
+}

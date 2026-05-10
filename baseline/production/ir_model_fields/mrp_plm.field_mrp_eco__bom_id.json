@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17535,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bill of Materials",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "bom_id",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e190f8c4da834ea2a06a31ea6da4b2a6f5a19f542c14b8e96d2f53788fbf92ca",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__bom_id"
+}

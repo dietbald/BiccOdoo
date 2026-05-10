@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partners",
+    "model_id": [
+      83,
+      "Partner Tags"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "0f8d13ef241f7c760b69c181dbffad77c4aa31d6aa7247f33a23a9f2f679b8ba",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_category__partner_ids"
+}

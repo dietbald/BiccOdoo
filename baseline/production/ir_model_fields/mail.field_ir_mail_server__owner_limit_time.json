@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Owner Limit Time",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "owner_limit_time",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "76fdf2a0cdf3b9145bf4e3df09314ce2d67382d62ad9c0d0e75edde1e01c8044",
+  "write_date": "",
+  "xml_id": "mail.field_ir_mail_server__owner_limit_time"
+}

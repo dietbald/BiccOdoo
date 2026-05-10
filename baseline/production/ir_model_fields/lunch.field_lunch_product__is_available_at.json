@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18946,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Availability",
+    "model_id": [
+      1076,
+      "Lunch Product"
+    ],
+    "name": "is_available_at",
+    "relation": "lunch.location",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "69ea5ee37466b723b38b68e60f5bb6c1811161328f8f50790a28c6a9c542b4dd",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_product__is_available_at"
+}

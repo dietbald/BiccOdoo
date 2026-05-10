@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10872,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Location",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "location_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9332a941d72c898c5b11cd7694cf673b8616b64faf54f01c9cba133738c35a2d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__location_id"
+}

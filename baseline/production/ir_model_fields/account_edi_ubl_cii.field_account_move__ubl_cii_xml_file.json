@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5544,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "UBL/CII File",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "ubl_cii_xml_file",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "54553ade33fcd5076ee6d8c2db1183d033b63400e74bfddb644c717548f2455c",
+  "write_date": "",
+  "xml_id": "account_edi_ubl_cii.field_account_move__ubl_cii_xml_file"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2165,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      177,
+      "Mail Tracking Value"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "817d7b24699becc392c0ad155e312978897b8eadb3b65db32ca0085838f2e792",
+  "write_date": "",
+  "xml_id": "mail.field_mail_tracking_value__write_uid"
+}

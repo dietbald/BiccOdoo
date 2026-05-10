@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22747,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Min Sale Lock Date Exception For Everyone",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "min_sale_lock_date_exception_for_everyone_id",
+    "relation": "account.lock_exception",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ed37e10cfbef546c12514a807c081caa5feb2f1a6cd4ad15040401907a956d91",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__min_sale_lock_date_exception_for_everyone_id"
+}

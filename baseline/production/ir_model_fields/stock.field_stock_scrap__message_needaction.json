@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11390,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6ada4639c57a476302f99a4129386276a5c6fd49da40da2054c53199b8ba8e53",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__message_needaction"
+}

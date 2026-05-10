@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7850,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f805740ca3c5e297722f18453a980a30e6e0a67b754a3cf2ce1f0c66763b40d2",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_project__partner_id"
+}

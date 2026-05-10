@@ -1,0 +1,11 @@
+<search>
+                <field name="name"/>
+                <field name="interface_key"/>
+                <field name="focused_models"/>
+                <field name="ai_agent"/>
+                <filter name="filter_is_system_rule" string="System Rules" domain="[('is_system_default', '=', True)]"/>
+                <filter name="filter_is_custom_rule" string="Custom Rules" domain="[('is_system_default', '=', False)]"/>
+                <filter name="group_by_key" string="Key" context="{'group_by': 'interface_key'}"/>
+                <filter name="group_by_models" context="{'group_by': 'focused_models'}"/>
+                <filter name="group_by_agent" context="{'group_by': 'ai_agent'}"/>
+            </search>

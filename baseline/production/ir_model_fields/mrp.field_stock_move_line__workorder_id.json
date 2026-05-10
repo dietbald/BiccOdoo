@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16326,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Order",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "workorder_id",
+    "relation": "mrp.workorder",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3c3a9fd2ae3961db83a87468e544afc0f4b7af64c7b63b54be983e13f1fc58dc",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_move_line__workorder_id"
+}

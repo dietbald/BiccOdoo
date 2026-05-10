@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29029,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Holder",
+    "model_id": [
+      3601,
+      "Returns Generic Payment Wizard"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "60aedd7818b6cf505d7e257b0f71781eef3a901a5e7d06cddd3736a323faf6df",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_payment_wizard__partner_id"
+}

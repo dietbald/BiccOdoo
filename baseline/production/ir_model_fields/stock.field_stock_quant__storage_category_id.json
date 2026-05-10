@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11310,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Storage Category",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "storage_category_id",
+    "relation": "stock.storage.category",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "81efad7fbee421223ef4f73272125af38c2e433e27527aa60e013106848dd3e1",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__storage_category_id"
+}

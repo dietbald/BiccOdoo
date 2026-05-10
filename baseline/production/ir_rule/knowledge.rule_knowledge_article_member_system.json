@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 328,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1,'=',1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      789,
+      "Article Member"
+    ],
+    "name": "Article members: System CRUD all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "465cf12adcaf539d50fc55197d9d5c95b1212b43dd88d84ab82ced7a2d627c07",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_article_member_system"
+}

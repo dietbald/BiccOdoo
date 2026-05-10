@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9382,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "8a0b5adc09a100b6fd67b3fc86d0cfc5573e30ce066ffd109ce134e4a118c236",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__message_has_error_counter"
+}

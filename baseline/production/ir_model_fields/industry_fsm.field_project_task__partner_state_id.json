@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20876,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer State",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "partner_state_id",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6bbf99b777a21b6ad9d4bbd1682d54a817b4613d372ef89106000e0961a310a7",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_project_task__partner_state_id"
+}

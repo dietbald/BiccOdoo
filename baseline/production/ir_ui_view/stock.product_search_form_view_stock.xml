@@ -1,0 +1,4 @@
+<filter name="activities_overdue" position="after">
+                    <field name="location_id" options="{'no_create': True}" context="{'search_location': self}" filter_domain="[]"/>
+                    <field name="warehouse_id" context="{'search_warehouse': self}" filter_domain="[]"/>
+                </filter>

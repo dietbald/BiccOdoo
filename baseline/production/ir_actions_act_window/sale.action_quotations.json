@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 492,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_my_quotation': 1}",
+    "domain": false,
+    "name": "Quotations",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,pivot,graph,activity"
+  },
+  "payload_sha256": "279d07121c6939303b72da11fc2ed489e7c89cade89f76e26fa1eabf34b2749d",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_quotations"
+}

@@ -1,0 +1,12 @@
+<data><field name="lot_ids" position="after">
+                <field name="workcenter_id" groups="mrp.group_mrp_routings"/>
+            </field>
+            <xpath expr="//chatter" position="after">
+                <div invisible="not context.get('discard_on_footer_button', False)">
+                    <footer class="oe_edit_only">
+                        <button special="save" data-hotkey="q" string="Save" class="oe_highlight"/>
+                        <button string="Discard" special="cancel" data-hotkey="x"/>
+                    </footer>
+                </div>
+            </xpath>
+        </data>

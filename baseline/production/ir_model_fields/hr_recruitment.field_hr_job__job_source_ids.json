@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28498,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Source",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "job_source_ids",
+    "relation": "hr.recruitment.source",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1d3d83f3b665349bfae8b8bd4fb1f17ec7e0ee9a91d6ff555d445a8ba94d49b5",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__job_source_ids"
+}

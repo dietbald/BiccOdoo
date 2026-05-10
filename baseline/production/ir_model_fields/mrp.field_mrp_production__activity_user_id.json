@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16108,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "45a5d0335486910152d054c7434ab957d2b07e49b4833158dc5bd733fc476463",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__activity_user_id"
+}

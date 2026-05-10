@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2631,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Childrens",
+    "model_id": [
+      342,
+      "Analytic Plans"
+    ],
+    "name": "children_ids",
+    "relation": "account.analytic.plan",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0a828bf9020ad33f42d2e114944dd13b9dacf3e17c2c19c09f34864a5b534351",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_plan__children_ids"
+}

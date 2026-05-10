@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 468,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      962,
+      "Byproduct"
+    ],
+    "name": "mrp_bom_byproduct multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "845767f98cdec13e747dc0bc1331dfd80ef6b5409afd001cf0694a35233f9b40",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "mrp.mrp_bom_byproduct_rule"
+}

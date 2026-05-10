@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16834,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Test Type",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "test_type_id",
+    "relation": "quality.point.test_type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6759a2f697e0297c1ae27c3a08739816aeeab171c2c02a053267b1ad773d58b3",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__test_type_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 958,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res_partner group_stock_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "c669f1f3e88b5b9ee1417f92e4f92c6e4c135bfb029a5d7acf57fb0a9b231c8d",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_product_group_res_partner_stock_manager"
+}

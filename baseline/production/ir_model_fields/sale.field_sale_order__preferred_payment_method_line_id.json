@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29333,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Method",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "preferred_payment_method_line_id",
+    "relation": "account.payment.method.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dbce88ab02e8a9d8c46c1bc6567288d4aece3390699fd65a46c2c54766a793a4",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__preferred_payment_method_line_id"
+}

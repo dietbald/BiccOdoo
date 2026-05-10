@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21067,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicant",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "applicant_id",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "943104618ffc2f95818e0d08299f9fa88d0dd0860740cc88ffc0a3fdd2569108",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_version__applicant_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9739,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department Manager",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "manager_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9270eb517558ee60852b8ef328a504f3a2ba7beaa47f26ed97f1ea3103e6daa4",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__manager_id"
+}

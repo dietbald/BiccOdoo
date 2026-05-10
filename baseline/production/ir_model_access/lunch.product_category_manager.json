@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1609,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      141,
+      "Lunch / Administrator"
+    ],
+    "model_id": [
+      1077,
+      "Lunch Product Category"
+    ],
+    "name": "Product category user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4d9b249071307352e220c616d78034de0803ce3d0dbc6fe7d1195e663f2e0929",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.product_category_manager"
+}

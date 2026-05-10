@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 810,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      58,
+      "Purchase / Administrator"
+    ],
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "account.tax",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "c773fb923e1c83885d08f5bed0790a60d1c41a540fa1e9b8673ef7cc80e7cfad",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_account_tax_purchase_user_manager"
+}

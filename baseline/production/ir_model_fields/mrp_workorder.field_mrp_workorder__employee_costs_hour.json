@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29250,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Cost per hour",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "employee_costs_hour",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "fad65c3fef4c79b3c18d9a03a572fa959262ea84a3f5de7a264f634213550221",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__employee_costs_hour"
+}

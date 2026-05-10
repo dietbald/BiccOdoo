@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 25,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      102,
+      "Users API Keys"
+    ],
+    "name": "Administrators can view user keys to revoke them",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b9d9a667d56731afc7431466e30eb31e4a90ae9543cb43bdb4bc37637f5ade51",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.api_key_admin"
+}

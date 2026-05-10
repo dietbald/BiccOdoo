@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1615,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Completion State",
+    "model_id": [
+      140,
+      "Onboarding Step"
+    ],
+    "name": "current_step_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e1795be694cfb6d53961df551e6a1e62257153987a3974ab6c49fc075f556eff",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_onboarding_step__current_step_state"
+}

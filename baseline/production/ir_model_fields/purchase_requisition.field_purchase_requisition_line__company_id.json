@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12644,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      808,
+      "Purchase Requisition Line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d3c6a9a61f16f2115bc362c22220f1660691aee2561881caa8158234e4f25791",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_line__company_id"
+}

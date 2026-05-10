@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8384,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Consolidated Billing",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "consolidated_billing",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4173918481dbc8f2da18e868e666a7202fd1fba07d40632cbf15c8d21bc60de3",
+  "write_date": "",
+  "xml_id": "sale.field_sale_advance_payment_inv__consolidated_billing"
+}

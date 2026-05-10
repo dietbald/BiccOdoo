@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26049,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can Approve",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "can_approve",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "71b0c37d59c7f281c3395cdd6d1350dcb268cd5902234f638c3d8fef322bde45",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__can_approve"
+}

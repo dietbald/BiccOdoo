@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8973,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Departure Reason",
+    "model_id": [
+      637,
+      "Departure Wizard"
+    ],
+    "name": "departure_reason_id",
+    "relation": "hr.departure.reason",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f16d8f4eb84d80301018b7db657560901e31549e12581503d18619f4f4cb6b20",
+  "write_date": "",
+  "xml_id": "hr.field_hr_departure_wizard__departure_reason_id"
+}

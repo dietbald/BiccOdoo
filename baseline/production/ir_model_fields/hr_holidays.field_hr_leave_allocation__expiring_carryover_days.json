@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "The number of carried over days that will expire on carried_over_days_expiration_date",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "expiring_carryover_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "bba3f2fb641aed14eedba7d174d515c29cf37c69e61330e4504710d4afb7f5da",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__expiring_carryover_days"
+}

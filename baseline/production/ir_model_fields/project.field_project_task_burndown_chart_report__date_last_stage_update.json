@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7991,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Stage Update",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "date_last_stage_update",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "14f42c24e45d8c34a160443b2830876ac396bd444b9d988c8ae3c44411a77130",
+  "write_date": "",
+  "xml_id": "project.field_project_task_burndown_chart_report__date_last_stage_update"
+}

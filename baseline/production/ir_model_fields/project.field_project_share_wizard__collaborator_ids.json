@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19988,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Collaborators",
+    "model_id": [
+      611,
+      "Project Sharing"
+    ],
+    "name": "collaborator_ids",
+    "relation": "project.share.collaborator.wizard",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2ffd19a04a540938c1e617ce16a691767be11608039a2894a803e154578e5815",
+  "write_date": "",
+  "xml_id": "project.field_project_share_wizard__collaborator_ids"
+}

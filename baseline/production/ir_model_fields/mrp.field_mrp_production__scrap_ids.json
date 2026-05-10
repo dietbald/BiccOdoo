@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16176,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scraps",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "scrap_ids",
+    "relation": "stock.scrap",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "512225259dc4fa033502f3d088d42874f3fffccf5dcaa9023ff1c94a6ea2f462",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__scrap_ids"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 740,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('storage_category_id', '=', active_id)]",
+    "name": "Locations",
+    "res_model": "stock.location",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "6dec7b43371156fa8c41c4fdff8d24d036daef477c7fd126e6db2373f78186b2",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.action_storage_category_locations"
+}

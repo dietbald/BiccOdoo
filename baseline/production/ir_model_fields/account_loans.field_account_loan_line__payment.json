@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23919,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment",
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "payment",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2a43b716537fa4581369b9b3a5da4fcd56685b49baec761bc28a518eec278c0d",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_line__payment"
+}

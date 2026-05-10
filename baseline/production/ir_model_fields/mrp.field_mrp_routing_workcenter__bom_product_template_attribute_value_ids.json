@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16000,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Apply on Variants",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "bom_product_template_attribute_value_ids",
+    "relation": "product.template.attribute.value",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "089790e754ebbb985fc805c6431101d443b0aa4906b54fb8f534c55268adad20",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_routing_workcenter__bom_product_template_attribute_value_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11261,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Moves",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "move_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "c7861629b57a3919889af72b906c9d44ad9ed9b82ca2020f316956abd85a368f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__move_ids"
+}

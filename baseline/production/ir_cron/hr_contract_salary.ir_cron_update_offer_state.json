@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 69,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_update_state()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "Salary Configurator: Update Offer State",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "d6434d8990fedde8875ccaedcd279af934eac78259ffb9528662e3f35ef3e790",
+  "write_date": "2024-11-04 07:35:58",
+  "xml_id": "hr_contract_salary.ir_cron_update_offer_state"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11202,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count Picking Late",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "count_picking_late",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c58316d12fd594073715d20654f85c0f33cc7633f2049f8b6c1ba8b1ffbe26db",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__count_picking_late"
+}

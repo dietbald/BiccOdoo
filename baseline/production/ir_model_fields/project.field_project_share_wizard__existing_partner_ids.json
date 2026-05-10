@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19989,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Existing Partner",
+    "model_id": [
+      611,
+      "Project Sharing"
+    ],
+    "name": "existing_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e1865f3794035b1a297c70e1cac49b7638a7029a9174a049036936b404c3cb79",
+  "write_date": "",
+  "xml_id": "project.field_project_share_wizard__existing_partner_ids"
+}

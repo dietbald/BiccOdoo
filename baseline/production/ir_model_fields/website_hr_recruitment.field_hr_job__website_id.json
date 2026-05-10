@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10314,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d8ff2a8fd7ac03048fc2e6b324ab6d4541399e665ca400c6d25c0bc8e98b252e",
+  "write_date": "",
+  "xml_id": "website_hr_recruitment.field_hr_job__website_id"
+}

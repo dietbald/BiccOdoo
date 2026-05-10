@@ -1,0 +1,29 @@
+<t t-name="sign.green_report_el_pdf">
+        <div t-attf-id="{{green_report_el_id}}" t-attf-class="green-savings-card-pdf">
+            <div name="modal_green_savings" t-attf-aria-label="{{green_report_el_title}} Summary">
+                <div class="row m-0 w-100">
+                    <div class="col-5 p-0">
+                        <div t-attf-class="display-3 align-items-center justify-content-center text-{{green_report_el_color}} rounded-circle p-3">
+                            <img t-attf-src="/sign/static/img/{{green_report_el_img}}.svg" t-attf-alt="{{green_report_el_title}}" style="height: 100px; width: 200px;"/>
+                        </div>
+                    </div>
+                    <div class="col-7 p-0">
+                        <div class="card-body justify-content-center text-start h-100">
+                            <h3 class="card-title" t-out="green_report_el_title"/>
+                            <p class="card-text"><t t-out="green_report_el_type"/> <t t-out="green_report_el_text"/></p>
+                            <t t-if="green_report_el_waste">
+                                <p class="fw-light">
+                                    <t t-if="green_report_el_waste &gt; 1">
+                                        that's <t t-out="green_report_el_waste"/> <t t-out="green_report_el_waste_text_1"/>
+                                    </t>
+                                    <t t-elif="green_report_el_waste == 1">
+                                        that's <t t-out="green_report_el_waste"/> <t t-out="green_report_el_waste_text_2"/>
+                                    </t>
+                                </p>
+                            </t>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>

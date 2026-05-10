@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3895,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a52825159717969a613ea224675f12bd615cd0f34b50a460b6c585cf149fb192",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__message_ids"
+}

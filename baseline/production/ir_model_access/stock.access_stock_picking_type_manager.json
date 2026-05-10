@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 944,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "stock.picking.type manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "56fd56ac5d8d058e59432156c10d9125e70e6ce0394f0706b516ffb83a537a7b",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_picking_type_manager"
+}

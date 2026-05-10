@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated on",
+    "model_id": [
+      495,
+      "Link a bank account to the selected journal"
+    ],
+    "name": "write_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "3307e9a67e1e0412b63ab45b08fd31722dd836fb5c317d0abe078b11a2b7d08b",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_selection__write_date"
+}

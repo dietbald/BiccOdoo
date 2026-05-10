@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26535,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rental",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "rent_ok",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "fbdaa3f7a48dee707ac6b2bd26e8d16082b2acc17df7df8fd73018b6fe589c6c",
+  "write_date": "",
+  "xml_id": "sale_renting.field_product_template__rent_ok"
+}

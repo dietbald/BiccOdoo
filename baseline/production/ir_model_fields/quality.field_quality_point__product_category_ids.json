@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16528,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Categories",
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "product_category_ids",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e5df62fa90b3a9cdfb928a7c7d0384076eb607e41989fb3350a187a03f6c38ae",
+  "write_date": "",
+  "xml_id": "quality.field_quality_point__product_category_ids"
+}

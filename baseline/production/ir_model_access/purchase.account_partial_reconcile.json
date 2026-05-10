@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 822,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      57,
+      "Purchase / User"
+    ],
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "account.partial.reconcile.purchase.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6b4cbd51e2183d7d0c2de3d54d9116e2ce8551e330eaf69ce3f20fb8654e937d",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.account_partial_reconcile"
+}

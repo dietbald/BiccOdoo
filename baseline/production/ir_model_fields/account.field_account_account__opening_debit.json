@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Opening Debit",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "opening_debit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "3a173a23f36e9f31cd05010a8b7edb4eed012c3f6fd1a3c72cff5ea941ff4854",
+  "write_date": "",
+  "xml_id": "account.field_account_account__opening_debit"
+}

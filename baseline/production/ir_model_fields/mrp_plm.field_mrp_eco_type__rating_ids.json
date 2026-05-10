@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17404,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "44f85b20674f3f9229094ff01d8efb192a7470f1aeb66e15bc722a9394231215",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__rating_ids"
+}

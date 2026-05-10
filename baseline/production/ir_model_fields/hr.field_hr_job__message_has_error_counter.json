@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8859,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d3975cc0fff46d7feac2e5aa8504137a3e163627ba528be4da1edf03555cc338",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__message_has_error_counter"
+}

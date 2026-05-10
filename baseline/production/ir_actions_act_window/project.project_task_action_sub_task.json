@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 446,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'show_project_update': False, 'default_parent_id': active_id}",
+    "domain": "[('id', 'child_of', active_id), ('id', '!=', active_id)]",
+    "name": "Sub-tasks",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,gantt,map,pivot,graph,activity"
+  },
+  "payload_sha256": "4a49990fa751fe7d2f25dc9824f48d85b064ff58b2da50fe23a88441c650eb88",
+  "write_date": "2025-12-09 02:58:41",
+  "xml_id": "project.project_task_action_sub_task"
+}

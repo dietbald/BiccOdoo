@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11330,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity has been moved since last count",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "is_outdated",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0889e641f2ea61d6a8307dd55e378a95204bb8fe692c5f19835844c628c635b3",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__is_outdated"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 53,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "Mail Compose Message Rule",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "92357a4ea2baefeaa9214899a65ccbf40a5d0995f71e56b6cb67f8b87a103344",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.mail_compose_message_rule"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23960,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Loan Payment Move",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "is_loan_payment_move",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c32e897bce647397598559716145ac8c5ae2c0be7f09c8c6c3b9e044a1dfae61",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_bank_statement_line__is_loan_payment_move"
+}

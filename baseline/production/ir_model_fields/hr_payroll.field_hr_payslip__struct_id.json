@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Structure",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "struct_id",
+    "relation": "hr.payroll.structure",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e4711f29068c4f56b9cf100aed108311db60b7584fd38baca2894fa9647b64be",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__struct_id"
+}

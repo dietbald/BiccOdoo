@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8020,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Document",
+    "model_id": [
+      611,
+      "Project Sharing"
+    ],
+    "name": "resource_ref",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "reference"
+  },
+  "payload_sha256": "ebccc4d743a5f56a022dee0a0032e34c64c0c0d28cb07189f992bbaba68250c0",
+  "write_date": "",
+  "xml_id": "project.field_project_share_wizard__resource_ref"
+}

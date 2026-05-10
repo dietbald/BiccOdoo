@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25487,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Campaign",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "utm_campaign_id",
+    "relation": "utm.campaign",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4bef6698077802ebcf7d4962dd3a5c71f2f55cd602ae54b033b7719d3dbf4733",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_job__utm_campaign_id"
+}

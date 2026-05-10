@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18337,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Failure Location",
+    "model_id": [
+      1044,
+      "Wizard for Quality Check Pop Up"
+    ],
+    "name": "failure_location_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "73695c843c5e5481f8d89ec27f7868619e54ad33f37c8ffd6db14a40961d9e7e",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check_wizard__failure_location_id"
+}

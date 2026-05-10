@@ -1,0 +1,10 @@
+<list multi_edit="1" sample="1">
+                <field name="date"/>
+                <field name="employee_id" widget="many2one_avatar_employee"/>
+                <field name="work_entry_type_id" options="{'no_create': True, 'no_open': True}" widget="many2one_work_entry_type"/>
+                <field name="duration" widget="float_time"/>
+                <field name="state" optional="show" widget="badge" decoration-info="state == 'draft'" decoration-success="state == 'validated'" decoration-warning="state == 'conflict'"/>
+                <field name="name" optional="hide"/>
+                <field name="code" optional="hidden"/>
+                <field name="external_code" optional="hidden"/>
+            </list>

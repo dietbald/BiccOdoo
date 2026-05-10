@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23898,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outstanding Balance",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "outstanding_balance",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2ac0df44469af690113a2713a561842c6ce64b7d13b2a85b9aebb24b6140fb3c",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__outstanding_balance"
+}

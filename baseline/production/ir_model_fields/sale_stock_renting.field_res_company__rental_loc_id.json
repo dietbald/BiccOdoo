@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26674,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rental Location",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "rental_loc_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2700670d6dcdecd136963f68389a7facb3a9519e4b2b707df25c7954e76acd2f",
+  "write_date": "",
+  "xml_id": "sale_stock_renting.field_res_company__rental_loc_id"
+}

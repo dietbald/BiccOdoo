@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20786,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Analytic JSON",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "analytic_json",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "baf44538d0a6b3964f55708175daa0720985adb3eceab180205aaf2c13de608e",
+  "write_date": "",
+  "xml_id": "account_budget_purchase.field_purchase_order_line__analytic_json"
+}

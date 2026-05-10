@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12018,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transfers",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "picking_ids",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "82aed95ed189e6db95af23cea1c45167d8cd452b19434832d2fcb7aeb50e50aa",
+  "write_date": "",
+  "xml_id": "sale_stock.field_sale_order__picking_ids"
+}

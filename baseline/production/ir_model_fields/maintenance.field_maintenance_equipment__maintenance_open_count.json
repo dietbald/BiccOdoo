@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18093,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Current Maintenance",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "maintenance_open_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "1f2715db58d00b8456fd2ddf91131948f96eec58ca89592e7c1ef113ac8ef903",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_equipment__maintenance_open_count"
+}

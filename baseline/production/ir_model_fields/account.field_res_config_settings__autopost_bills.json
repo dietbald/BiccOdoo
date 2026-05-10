@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22231,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-validate bills",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "autopost_bills",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ec67e26aaafe08b81ec6b28e0af5dc7efa38c2dbc1e63e9a07c05e48b55c6883",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__autopost_bills"
+}

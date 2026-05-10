@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16026,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Routing Lines",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "routing_line_ids",
+    "relation": "mrp.routing.workcenter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2ac306226eb4e783b55587afe6619f6600c1a234b30733bfe3ab2847d80e6d76",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter__routing_line_ids"
+}

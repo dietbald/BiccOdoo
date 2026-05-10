@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1685,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      1247,
+      "Accounting Report Budget"
+    ],
+    "name": "account.report.budget.readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "2433897e5d28bc031e65022a50f65dd904f8c53b84c8defeebe354ec332d4fc2",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_report_budget_readonly"
+}

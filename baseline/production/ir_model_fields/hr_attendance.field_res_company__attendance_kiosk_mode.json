@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13369,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendance Mode",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "attendance_kiosk_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8ee92863bc22fc3c25fc9dd27810ef6ec87e9fbe66331387619ee3e7a87c9a28",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_res_company__attendance_kiosk_mode"
+}

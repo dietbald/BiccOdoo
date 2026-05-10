@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2576,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Targeted model",
+    "model_id": [
+      216,
+      "Email Template Preview"
+    ],
+    "name": "model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "45ea7f0712bec9280460c53d71040ca7f0b8ae3aeb3c3cc35ed9c4d8dabaf50a",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template_preview__model_id"
+}

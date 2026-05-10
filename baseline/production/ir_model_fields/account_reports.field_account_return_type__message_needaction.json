@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28848,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      3563,
+      "Accounting Return Type"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2c11225a16f81d061dbca302e38cf066430beb30af34535f176b4c141aec66ce",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_type__message_needaction"
+}

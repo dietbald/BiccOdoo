@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8861,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5384019471a374c0839527fa0e1aec9ffdd00a1cffd66ba00d246174ae558ad6",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__rating_ids"
+}

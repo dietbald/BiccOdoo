@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8443,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Associated Lead",
+    "model_id": [
+      622,
+      "Create new or use existing Customer on new Quotation"
+    ],
+    "name": "lead_id",
+    "relation": "crm.lead",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dfaf5663c61cfb2e857ccffebb29cd0140f0e059e367708342c750b1e9ecab35",
+  "write_date": "",
+  "xml_id": "sale_crm.field_crm_quotation_partner__lead_id"
+}

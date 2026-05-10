@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23313,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount in Currency",
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "416994f8b2725a6aafc745a6b3c633f9d9ca9e4656ad905ffd0d0b2c5fb6fd78",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line_transient__amount_currency"
+}

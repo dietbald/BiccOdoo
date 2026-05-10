@@ -1,0 +1,14 @@
+<data inherit_id="website.s_quadrant">
+    <!-- Title -->
+    <xpath expr="//h2" position="replace" mode="inner">
+        Real Estate
+    </xpath>
+    <!-- Paragraph -->
+    <xpath expr="//p[hasclass('lead')]" position="replace" mode="inner">
+        Find your dream property with our real estate services. Whether you’re looking to buy, sell, or rent, we offer expert guidance and personalized solutions.<br/><br/> Your perfect home is just a click away.
+    </xpath>
+    <!-- Button -->
+    <xpath expr="//a[hasclass('btn')]/t" position="replace" mode="inner">
+        View Listings
+    </xpath>
+</data>

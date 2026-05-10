@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28620,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Validated Work Entry Employee",
+    "model_id": [
+      815,
+      "Regenerate Employee Work Entries"
+    ],
+    "name": "validated_work_entry_employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cdfbab50d16864aca36c0b691c79108d79248a242408f36e9f0df19a1dda2eb1",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_hr_work_entry_regeneration_wizard__validated_work_entry_employee_ids"
+}

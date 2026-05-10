@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 714,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('expense_id.state', 'in', ('draft', 'submitted', 'approved'))]",
+    "groups": [
+      23
+    ],
+    "model_id": [
+      652,
+      "Expense Split Wizard"
+    ],
+    "name": "Accountant Expense Split",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8a59c7fef9af976144ea5472a0a64ba368721eab4625a6c39f156200d3b6cec7",
+  "write_date": "2025-05-19 16:54:03",
+  "xml_id": "hr_expense.ir_rule_hr_expense_split_accountant"
+}

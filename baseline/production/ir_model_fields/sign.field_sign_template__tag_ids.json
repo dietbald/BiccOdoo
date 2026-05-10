@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10595,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      709,
+      "Signature Template"
+    ],
+    "name": "tag_ids",
+    "relation": "sign.template.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3e67ab18e4e4cdfd7632402297cc2a297987a02c4c09cf426a0801c2bfd65708",
+  "write_date": "",
+  "xml_id": "sign.field_sign_template__tag_ids"
+}

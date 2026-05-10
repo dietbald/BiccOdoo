@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4878,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Incoterm Location",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "incoterm_location",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "11f6b721ce4cacd1643d8d7096fb8e3a1fe7e0d9fcebebf393db96072a9a04eb",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__incoterm_location"
+}

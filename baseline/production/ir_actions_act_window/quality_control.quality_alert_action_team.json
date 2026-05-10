@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1172,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_team_id': active_id,\n                               'search_default_team_id': [active_id]}",
+    "domain": "[('team_id', '=', active_id)]",
+    "name": "Quality Alerts",
+    "res_model": "quality.alert",
+    "target": "current",
+    "view_mode": "kanban,list,form,pivot,graph,calendar"
+  },
+  "payload_sha256": "42927b43c764e0bb7be10ac0bce69ef275a52c583a7dbead86947c3080125338",
+  "write_date": "2025-12-09 02:59:39",
+  "xml_id": "quality_control.quality_alert_action_team"
+}

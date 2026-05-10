@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1937,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      2749,
+      "Pick-up/Return products"
+    ],
+    "name": "access.rental.order.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "440733246b0c32a35f1e6009655570b51586c17cfa70501de8430da0213834d8",
+  "write_date": "2025-12-09 03:00:12",
+  "xml_id": "sale_renting.access_rental_order_wizard"
+}

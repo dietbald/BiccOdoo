@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15650,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Duration Type",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "request_unit",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ad1215d14ee405aeefd5ecaee809df155775503de3df4d08750426961a53064f",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__request_unit"
+}

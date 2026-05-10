@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1362,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report Layout",
+    "model_id": [
+      118,
+      "Company Document Layout"
+    ],
+    "name": "report_layout_id",
+    "relation": "report.layout",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "169201c0ec5eaf5c0290f890e4a4e83ed45433779c5fda5b0bfeb886444b16f6",
+  "write_date": "",
+  "xml_id": "web.field_base_document_layout__report_layout_id"
+}

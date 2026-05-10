@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Enable custom Google API key",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "google_key_enabled",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "40cd56f0593d6794492b783e560eef4631e85b8aff49f68b8dc728fc2d347372",
+  "write_date": "",
+  "xml_id": "ai.field_res_config_settings__google_key_enabled"
+}

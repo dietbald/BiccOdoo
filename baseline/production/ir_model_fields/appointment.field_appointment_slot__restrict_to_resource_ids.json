@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15248,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Restrict to Resources",
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "restrict_to_resource_ids",
+    "relation": "appointment.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "edbc4b9aa3b82fbd59a08332ae1c3128c6fe25febfb51b53a2fee3612b326c08",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_slot__restrict_to_resource_ids"
+}

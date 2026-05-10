@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29531,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3714,
+      "Payslip Correction Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "141d68c3095ec1d4452f32657ffafe5af8e7b52d352b4f984d5f66b00d25eb23",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_correction_wizard__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8097,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Communication",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "so_reference_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "6d17e0dfe39017f349b3b1068d33cdef294b8c52228b28c5999b19ecc843ea17",
+  "write_date": "",
+  "xml_id": "sale.field_payment_provider__so_reference_type"
+}

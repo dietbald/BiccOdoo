@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13512,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Approver",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "timesheet_manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5a28d23878279a9373949cd1ef8e1c0e004354fa47b603d907a38dd54b9c0310",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_hr_employee__timesheet_manager_id"
+}

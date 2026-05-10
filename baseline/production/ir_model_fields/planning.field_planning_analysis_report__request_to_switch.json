@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13981,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has there been a request to switch on this shift slot?",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "request_to_switch",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8e2a52e4e32c69697f77d947a7e4b2091b374b62271d57948f864949f6f1d393",
+  "write_date": "",
+  "xml_id": "planning.field_planning_analysis_report__request_to_switch"
+}

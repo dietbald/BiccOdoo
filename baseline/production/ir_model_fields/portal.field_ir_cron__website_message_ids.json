@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27286,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1bd42883ccb699ef8c4021905eeda7dd072aa3cb38e6a6dd7d683732c6e7bbdf",
+  "write_date": "",
+  "xml_id": "portal.field_ir_cron__website_message_ids"
+}

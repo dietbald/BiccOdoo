@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      361,
+      "Product Attribute Custom Value"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fa6ecc3e0676c3d7dc27e99bfcfb7e492fbebd7f2b72369525dfee2031d646c0",
+  "write_date": "",
+  "xml_id": "product.field_product_attribute_custom_value__create_uid"
+}

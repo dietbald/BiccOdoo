@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14215,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "502dd4a307bb98bb7dfce39078860decbfb66b434936dfe20689fba26be3a1c6",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__attachment_ids"
+}

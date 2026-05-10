@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6892,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Trigger",
+    "model_id": [
+      564,
+      "Event Recurrence Rule"
+    ],
+    "name": "trigger_id",
+    "relation": "ir.cron.trigger",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f1364f50c7997ab74eb37670c31eb96606e2dc0a5d8a93592e7b01082615a9ac",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_recurrence__trigger_id"
+}

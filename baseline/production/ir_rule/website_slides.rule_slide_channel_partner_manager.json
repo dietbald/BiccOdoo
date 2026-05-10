@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 676,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      149
+    ],
+    "model_id": [
+      1510,
+      "Channel / Partners (Members)"
+    ],
+    "name": "Channel Partner: manager: crud all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7e92c5f423c08f9c14ddb982233fd7cb03d4c907a0361fb4255cf6aa263b5e3b",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_channel_partner_manager"
+}

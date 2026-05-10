@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15732,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      951,
+      "Mandatory Day"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f44441644ee6cf97d23cca8048a54d49a5e603c6650e9f151f7ee58755b432c0",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_mandatory_day__write_uid"
+}

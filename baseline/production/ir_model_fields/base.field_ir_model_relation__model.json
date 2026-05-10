@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 96,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Model",
+    "model_id": [
+      8,
+      "Relation Model"
+    ],
+    "name": "model",
+    "relation": "ir.model",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8629d2a2c7595b25f44152facc130b5415c72a2f7058ae1d7a231e212c293d35",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_relation__model"
+}

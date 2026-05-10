@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12039,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Order",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "sale_id",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0fa167b0d8e475b3dfce1d4eded25cc4d63f955ea1a33a31937159c8bb5df437",
+  "write_date": "",
+  "xml_id": "sale_stock.field_stock_picking__sale_id"
+}

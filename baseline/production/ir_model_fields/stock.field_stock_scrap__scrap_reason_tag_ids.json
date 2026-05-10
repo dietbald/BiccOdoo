@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22590,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scrap Reason",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "scrap_reason_tag_ids",
+    "relation": "stock.scrap.reason.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ebdbf6d9899e70b5af505fab55f54ab14b746e65959c9118ef67667bec558147",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__scrap_reason_tag_ids"
+}

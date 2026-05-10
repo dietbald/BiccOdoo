@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16318,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "BoM Components",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "bom_line_ids",
+    "relation": "mrp.bom.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "803c70ec69515341cb3e79f76a1aaae63cb37344ea8dca9e37b2f694a16e6249",
+  "write_date": "",
+  "xml_id": "mrp.field_product_product__bom_line_ids"
+}

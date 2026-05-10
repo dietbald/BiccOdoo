@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28946,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Status",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "audit_account_status_ids",
+    "relation": "account.audit.account.status",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "908d7d4fbc314e2cb7f1140962e47e44dd8e0d9fae97c9d3c7a729da6ba0cf76",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__audit_account_status_ids"
+}

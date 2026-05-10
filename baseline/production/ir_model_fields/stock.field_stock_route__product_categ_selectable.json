@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10909,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicable on Product Category",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "product_categ_selectable",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0bdd4dac1ae76cc311955f655884519416b52c9d3385ed5c43b6ec11277252fe",
+  "write_date": "",
+  "xml_id": "stock.field_stock_route__product_categ_selectable"
+}

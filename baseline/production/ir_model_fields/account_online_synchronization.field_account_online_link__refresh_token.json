@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5943,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Refresh Token",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "refresh_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "32cafcbf9f69a4fbc865784bfed04b26dda1751335435fcec2d4905eb5f8e2df",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__refresh_token"
+}

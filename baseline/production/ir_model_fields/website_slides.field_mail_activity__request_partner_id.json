@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Requesting Partner",
+    "model_id": [
+      164,
+      "Activity"
+    ],
+    "name": "request_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1be58a23622905e56653db0baadb3baed3bae8c74d8d31657146f80f02cc51db",
+  "write_date": "",
+  "xml_id": "website_slides.field_mail_activity__request_partner_id"
+}

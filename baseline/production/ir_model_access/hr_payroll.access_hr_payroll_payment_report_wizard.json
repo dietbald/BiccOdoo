@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1676,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      95,
+      "Payroll / Officer: Manage all contracts"
+    ],
+    "model_id": [
+      1241,
+      "HR Payroll Payment Report Wizard"
+    ],
+    "name": "hr.payroll.payment.report.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f077b4c2e6258059777eda4b00be79087e3e781faabe658f288891cd14bf0c75",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_payroll_payment_report_wizard"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26475,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lost Reason",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "x_studio_lost_reason_in_form",
+    "relation": "crm.lost.reason",
+    "required": false,
+    "state": "manual",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3c4253da60f6e19a6706e823a66ce0bbb55bec9ef3b764165647cf0e0dc9a920",
+  "write_date": "2025-10-31 06:14:52",
+  "xml_id": "studio_customization.new_related_field_le_fab8a875-23af-486f-b659-a3996ff32ee3"
+}

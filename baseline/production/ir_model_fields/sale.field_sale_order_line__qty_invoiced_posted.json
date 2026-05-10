@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23479,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoiced Quantity (posted)",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "qty_invoiced_posted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "533731cde14433c33cd9c91f65f788e0d5194a60117fa79bc2f5ab5516294203",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__qty_invoiced_posted"
+}

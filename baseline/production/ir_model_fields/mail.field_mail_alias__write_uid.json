@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1725,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      147,
+      "Email Aliases"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "69017263e9688c3f5694a36a4a5eeac4118b4194e5f9a133453a664962dec781",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias__write_uid"
+}

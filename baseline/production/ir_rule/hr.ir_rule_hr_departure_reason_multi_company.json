@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 689,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('country_code', 'in', user.env.companies.mapped('country_code') + [False])]",
+    "groups": [],
+    "model_id": [
+      634,
+      "Departure Reason"
+    ],
+    "name": "Departure Reason: multi company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "07b08078763e24c03b99cbc7b2b80e6aa9d331800e33e2ab946d89f0602b2a3a",
+  "write_date": "2025-03-24 00:43:21",
+  "xml_id": "hr.ir_rule_hr_departure_reason_multi_company"
+}

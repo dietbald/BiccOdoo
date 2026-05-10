@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11855,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6e04bf152d6b1861b60f90ecd87c16b1f835eb384575dc0a5177606d9f6a11ee",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_quant__currency_id"
+}

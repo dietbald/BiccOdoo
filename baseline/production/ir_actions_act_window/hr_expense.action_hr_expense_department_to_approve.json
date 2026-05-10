@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1583,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{ 'searchpanel_default_state': [\"submitted\"] }",
+    "domain": "[('department_id', '=', active_id)]",
+    "name": "Expense to Approve",
+    "res_model": "hr.expense",
+    "target": "current",
+    "view_mode": "list,kanban,form,pivot,graph"
+  },
+  "payload_sha256": "a1720066bff13ca251e7a99fbf940fac79e7cbbee052f8ca0b03b5cb93e1e952",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.action_hr_expense_department_to_approve"
+}

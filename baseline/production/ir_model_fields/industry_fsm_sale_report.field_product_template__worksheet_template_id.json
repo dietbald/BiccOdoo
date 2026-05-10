@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18735,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Worksheet Template",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "worksheet_template_id",
+    "relation": "worksheet.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c625f87964af37b93b95c5ce6506c2c3f56cb31bbb8158532685f350cbd40c4",
+  "write_date": "",
+  "xml_id": "industry_fsm_sale_report.field_product_template__worksheet_template_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13428,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Associated Timesheets",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "timesheet_ids",
+    "relation": "account.analytic.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2a85bcdf7c5199a3fad6ef7e4060c0d37ff465d8a80341e8a68004d83b5b0e26",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_project_project__timesheet_ids"
+}

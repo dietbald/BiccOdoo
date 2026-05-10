@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1572,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_out_refund': 1, 'default_move_type': 'out_refund', 'display_account_trust': True}",
+    "domain": "[('move_type', 'in', ['out_invoice', 'out_refund'])]",
+    "name": "Credit Notes",
+    "res_model": "account.move",
+    "target": "current",
+    "view_mode": "list,kanban,form,activity"
+  },
+  "payload_sha256": "e8eff6215a1c2f95f82498734f391e900bda37c343f75bb36f14b6ea13323430",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_move_out_refund_type_non_legacy"
+}

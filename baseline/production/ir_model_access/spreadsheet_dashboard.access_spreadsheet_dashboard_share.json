@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 454,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      470,
+      "Copy of a shared dashboard"
+    ],
+    "name": "access_spreadsheet_dashboard_share",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "312dcf4b58d9d2064a0005d783da0e72f1766ead5fdfa47abefefbd3bad2b129",
+  "write_date": "2025-12-09 02:57:24",
+  "xml_id": "spreadsheet_dashboard.access_spreadsheet_dashboard_share"
+}

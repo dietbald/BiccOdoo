@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27093,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2985,
+      "Mail Activity Schedule Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d0a274d9a192a091a9d997f9c5e3576c8f8f334137337fd04c68b524439d41d3",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_schedule_line__create_uid"
+}

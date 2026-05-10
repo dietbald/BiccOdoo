@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Leads Count",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "lead_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f8c90c31622b6aa85fd3bc36c7f49447a2a74a7820bff14b0a9b233389c5f43c",
+  "write_date": "",
+  "xml_id": "appointment_crm.field_appointment_type__lead_count"
+}

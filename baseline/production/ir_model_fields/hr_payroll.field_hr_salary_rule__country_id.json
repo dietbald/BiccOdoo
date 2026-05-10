@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25280,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8f26a772d6d95a6b1d4967bd13fb35b8174dc18b8f20f9beaa4a8d2169153466",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__country_id"
+}

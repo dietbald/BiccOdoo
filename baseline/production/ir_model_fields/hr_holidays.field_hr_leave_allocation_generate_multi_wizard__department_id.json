@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20495,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      1228,
+      "Generate time off allocations for multiple employees"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bdb28396d4efe9bcded420c4a8dadccd0e21667e0dca2f86426f554fbe90c60a",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation_generate_multi_wizard__department_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1875,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1831,
+      "Link between products and their UoMs"
+    ],
+    "name": "product.uom user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "3f00b234b3cf0ed8cc41dd71c54737880379f02a4cc37c943321375743218fb9",
+  "write_date": "2025-12-09 02:56:05",
+  "xml_id": "product.access_product_uom_user"
+}

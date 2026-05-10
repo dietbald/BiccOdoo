@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Owner Limit Count",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "owner_limit_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "eb213dfe3c2baf657462803b7e8140074f393b19c567107df49d089fd2168955",
+  "write_date": "",
+  "xml_id": "mail.field_ir_mail_server__owner_limit_count"
+}

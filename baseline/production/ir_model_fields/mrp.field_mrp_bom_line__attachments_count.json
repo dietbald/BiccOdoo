@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15954,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments Count",
+    "model_id": [
+      961,
+      "Bill of Material Line"
+    ],
+    "name": "attachments_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "fa85b35a8e52cc215598e6bd25ca72cedcdcac72e3d6bc6ef749740ad98567fa",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_line__attachments_count"
+}

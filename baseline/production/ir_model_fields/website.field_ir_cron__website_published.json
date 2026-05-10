@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10303,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available on the Website",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "website_published",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ca75558da484511b9ad24195c3a5e8d7b2f3ce708676c4be444fe02f0643daac",
+  "write_date": "",
+  "xml_id": "website.field_ir_cron__website_published"
+}

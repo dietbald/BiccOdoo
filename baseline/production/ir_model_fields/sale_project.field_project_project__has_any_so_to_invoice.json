@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8551,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has SO to Invoice",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "has_any_so_to_invoice",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bb172244edabedb3305ac6b3fbe8a146f7e0bb87d5625d8c1e1e3ac058eb8f76",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_project__has_any_so_to_invoice"
+}

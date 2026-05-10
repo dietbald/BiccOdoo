@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17943,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer",
+    "model_id": [
+      1035,
+      "Convert Social Post to Lead"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b4df3d4e24e00c456f08d4d38411df2dca639d2f1765397dcdf65cf6d5728b2c",
+  "write_date": "",
+  "xml_id": "social_crm.field_social_post_to_lead__partner_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20072,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Route",
+    "model_id": [
+      1188,
+      "Product Replenish Mixin"
+    ],
+    "name": "allowed_route_ids",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "df294280df0129439b164360bbcdc188af886ffee226adb11b2860c650841ab8",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenish_mixin__allowed_route_ids"
+}

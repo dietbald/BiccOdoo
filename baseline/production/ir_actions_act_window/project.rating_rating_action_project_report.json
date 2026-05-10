@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 430,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_filter_rated_on': 1,\n            'graph_groupbys': ['rated_partner_id'],\n        }",
+    "domain": "[('parent_res_model','=','project.project'), ('consumed', '=', True)]",
+    "name": "Customer Ratings",
+    "res_model": "rating.rating",
+    "target": "current",
+    "view_mode": "kanban,list,pivot,graph,form"
+  },
+  "payload_sha256": "c598824ffab190ff72a01fd2ae7cce6209fa0aca1308c49aa8531acfc8d41da0",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.rating_rating_action_project_report"
+}

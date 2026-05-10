@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3304,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ID of the request to IAP-OCR",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "extract_document_uuid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "1095522810a570946cca97bfe8493d81fe7601163792864efd04aa67a571ed51",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin__extract_document_uuid"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 494,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('mrp_production_ids', 'in', user.partner_id.commercial_partner_id.production_ids.ids)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      978,
+      "Wizard in case of consumption in warning/strict and more component has been used for a MO (related to the bom)"
+    ],
+    "name": "MRP Consumption Warnings Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "48c1622ba0e03e52c67d3812207731edd951487ae7c7ecf846882d068b962fed",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.consumption_warning_subcontractor_rule"
+}

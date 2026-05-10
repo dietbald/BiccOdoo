@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21247,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Refusal Reason",
+    "model_id": [
+      1286,
+      "Refuse an Offer"
+    ],
+    "name": "refusal_reason",
+    "relation": "hr.contract.salary.offer.refusal.reason",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "882ab5cc40f592fbc46f753bd1443c1063bd35f1c6bb1229285f5881fe49d328",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_refuse_offer_wizard__refusal_reason"
+}

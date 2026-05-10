@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "To Backorder",
+    "model_id": [
+      762,
+      "Backorder Confirmation Line"
+    ],
+    "name": "to_backorder",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "65dc5109663304f895da97b4b4442aa1c514050e4b3df6502320c2a6435a7b4b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_backorder_confirmation_line__to_backorder"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23896,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Interest Difference",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "interest_difference",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "c8e1f81888ffa962fdcafa1a2720e739f22b72f0a793ad2bacdb643ba1ac4dc0",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__interest_difference"
+}

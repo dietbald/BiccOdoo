@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 149,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "Project: multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ab1a77dd1544462390d0031248fdb6c578b4792d65ac5ec3b84e5eed3de90845",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "project.project_comp_rule"
+}

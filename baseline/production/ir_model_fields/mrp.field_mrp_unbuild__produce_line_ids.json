@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16246,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Processed Disassembly Lines",
+    "model_id": [
+      971,
+      "Unbuild Order"
+    ],
+    "name": "produce_line_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "c5958d0ddcd60eb17eaeac38714b23e379337cffa39cb80d0eed0f18ad8ba5b3",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_unbuild__produce_line_ids"
+}

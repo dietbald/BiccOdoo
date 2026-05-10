@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2033,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      174,
+      "Message Translation"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e596f6460012a3f4389a807a4271af1247f65f4572fea89c6ca70a0eb88d6c8e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_translation__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26652,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sum of Rental Orders",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "rental_amount_total",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "5a4c77531d1b8a62c5866c8c9f866e3cbc9803bc95e184e9915a24e677daf586",
+  "write_date": "",
+  "xml_id": "sale_renting_crm.field_crm_lead__rental_amount_total"
+}

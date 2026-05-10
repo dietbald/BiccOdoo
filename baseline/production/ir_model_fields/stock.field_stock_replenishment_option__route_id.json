@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11792,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Route",
+    "model_id": [
+      775,
+      "Stock warehouse replenishment option"
+    ],
+    "name": "route_id",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ca4a1ea030f40be966557ae090d60bba5f0a169693bec8ca0ddd01d118e76f2e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenishment_option__route_id"
+}

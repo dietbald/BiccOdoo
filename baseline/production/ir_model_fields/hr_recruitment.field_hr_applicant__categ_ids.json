@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "categ_ids",
+    "relation": "hr.applicant.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "02400cf3e9e5bf5159dbe817f03a3c9a7fcc49375dc724a1d5300b7acc06584c",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__categ_ids"
+}

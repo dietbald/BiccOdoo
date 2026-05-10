@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7860,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tasks Stages",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "type_ids",
+    "relation": "project.task.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3d9075dc6fa49778fe71d6afc93706551e644b077270cb9e491b956e61095737",
+  "write_date": "",
+  "xml_id": "project.field_project_project__type_ids"
+}

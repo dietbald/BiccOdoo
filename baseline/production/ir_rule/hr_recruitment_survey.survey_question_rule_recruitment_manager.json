@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 603,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('survey_id.survey_type', '=', 'recruitment')]",
+    "groups": [
+      63
+    ],
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "Survey question: recruitment manager: all recruitment",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "79ad236df24aba2786b0d0b49639e0be3ae969e540cbe988ca381edce6083127",
+  "write_date": "2024-10-23 10:50:01",
+  "xml_id": "hr_recruitment_survey.survey_question_rule_recruitment_manager"
+}

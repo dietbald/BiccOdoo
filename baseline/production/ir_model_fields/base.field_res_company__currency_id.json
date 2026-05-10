@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1040,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dbc07af1ac22d529dd2a99dbae70042bcb2d82863a5fff9bcdfd0ea8b9552274",
+  "write_date": "",
+  "xml_id": "base.field_res_company__currency_id"
+}

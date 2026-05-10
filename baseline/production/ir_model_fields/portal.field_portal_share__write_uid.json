@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3341,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      385,
+      "Portal Sharing"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "502005e49e8acd8eb4c4b3f9a1b0e39356c826631f45845c945cc91b35398468",
+  "write_date": "",
+  "xml_id": "portal.field_portal_share__write_uid"
+}

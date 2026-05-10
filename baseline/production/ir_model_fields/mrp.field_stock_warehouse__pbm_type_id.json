@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16392,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Picking Before Manufacturing Operation Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "pbm_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3fba94e8de154c91d258936bfa20456452c525200bf0ad813b449c4217a8272e",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_warehouse__pbm_type_id"
+}

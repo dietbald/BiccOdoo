@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15245,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Slot type",
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "slot_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7a0b740954d8f36e958efbb01bacd4e971f9f766ff9a798d9409372f0ff29eba",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_slot__slot_type"
+}

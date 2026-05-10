@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23004,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Industry",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "industry_id",
+    "relation": "res.partner.industry",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a3daf9ed6044438c887c73f38dac4627ef32384140677bd35590c8a3e58ae4f9",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__industry_id"
+}

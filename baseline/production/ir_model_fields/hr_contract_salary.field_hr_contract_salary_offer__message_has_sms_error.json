@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21179,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d28078ebac090b5bb19d8aef72e60846711f2178738dcc450bca655931845fb4",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__message_has_sms_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27062,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      2974,
+      "Keep the call history"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "f5421d8a98177437fdb558edfb47d083c43d5a1858490735578d71455d494f9d",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_call_history__create_date"
+}

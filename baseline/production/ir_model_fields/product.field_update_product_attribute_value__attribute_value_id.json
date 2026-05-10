@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21770,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attribute Value",
+    "model_id": [
+      1350,
+      "Update product attribute value"
+    ],
+    "name": "attribute_value_id",
+    "relation": "product.attribute.value",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d67b24930e5c3ab801e5686aca44f7edbdad19c0a018fda20b6ac580d5bfae8d",
+  "write_date": "",
+  "xml_id": "product.field_update_product_attribute_value__attribute_value_id"
+}

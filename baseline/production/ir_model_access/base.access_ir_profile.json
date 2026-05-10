@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 141,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      74,
+      "Allow profiling only to Tech Support level"
+    ],
+    "name": "ir_profile",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0c34d08051cada5ae6b2ccce9b88f5b6478d9281eb18663d461fbca153f90aa3",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_profile"
+}

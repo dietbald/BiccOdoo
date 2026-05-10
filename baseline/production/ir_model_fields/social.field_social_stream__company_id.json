@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17753,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1028,
+      "Social Stream"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6917c2e8f43ee8d4a3f452a216970809760e353e2dda3015f25ef3fdb78987da",
+  "write_date": "",
+  "xml_id": "social.field_social_stream__company_id"
+}

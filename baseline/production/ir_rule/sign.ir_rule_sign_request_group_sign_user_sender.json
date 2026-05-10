@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 280,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [
+      72
+    ],
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "sign.request: group_sign_user: sender: Manage sign requests",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a48be8f2f8b53365ea4643e71e45bf8cc1700ecd5fd5b5c0875c588b7276ba1d",
+  "write_date": "2023-12-01 02:29:30",
+  "xml_id": "sign.ir_rule_sign_request_group_sign_user_sender"
+}

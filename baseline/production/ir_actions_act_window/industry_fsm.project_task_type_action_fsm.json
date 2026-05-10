@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1206,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'fsm_mode': True,\n        }",
+    "domain": "[('project_ids.is_fsm', '=', True)]",
+    "name": "Stages",
+    "res_model": "project.task.type",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "5f2314700102d975d103218d4a79bea8f14494df9b3659b461c95951e4d68cc0",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.project_task_type_action_fsm"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2529,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Plan Available",
+    "model_id": [
+      213,
+      "Activity schedule plan Wizard"
+    ],
+    "name": "plan_available_ids",
+    "relation": "mail.activity.plan",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "921e84f7b18a806104607d68dfb7a92509ca47a63a5dad287e5aaf7d95183ee3",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_schedule__plan_available_ids"
+}

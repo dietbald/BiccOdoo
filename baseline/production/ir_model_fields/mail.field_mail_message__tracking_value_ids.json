@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2068,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tracking values",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "tracking_value_ids",
+    "relation": "mail.tracking.value",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "378591457a614fe236efdf7d6b45d4aba7d2ac476c4d2129d95da144616745aa",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__tracking_value_ids"
+}

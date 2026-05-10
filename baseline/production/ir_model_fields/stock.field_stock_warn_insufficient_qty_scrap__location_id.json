@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11701,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Location",
+    "model_id": [
+      767,
+      "Warn Insufficient Scrap Quantity"
+    ],
+    "name": "location_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7f796a339acc31ff48439c76be4e23b1c8ca370fae0e904d72d07c93a71dc827",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warn_insufficient_qty_scrap__location_id"
+}

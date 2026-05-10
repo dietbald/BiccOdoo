@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28790,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is valued outside the company",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "is_valued_external",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "253c5f94927aebba179525c3be00255d404a9068f4483b605891e35fd766fff5",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_location__is_valued_external"
+}

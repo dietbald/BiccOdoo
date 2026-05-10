@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23431,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Spreadsheet Revision",
+    "model_id": [
+      1450,
+      "Quality check spreadsheet"
+    ],
+    "name": "spreadsheet_revision_ids",
+    "relation": "spreadsheet.revision",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5723b8b39b7867119e7dba2286ae35e4e3f6dd9119c64786ef74136551d7edc9",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check_spreadsheet__spreadsheet_revision_ids"
+}

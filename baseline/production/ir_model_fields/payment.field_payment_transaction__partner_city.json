@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3739,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "City",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "partner_city",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "e9b2134ad0aab384fd7cf231ba3919f8d140e6b6afeefe72716a2819d0d2f07f",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__partner_city"
+}

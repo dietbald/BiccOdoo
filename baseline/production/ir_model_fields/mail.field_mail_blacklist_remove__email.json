@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email",
+    "model_id": [
+      211,
+      "Remove email from blacklist wizard"
+    ],
+    "name": "email",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "5540fda74d95370266d5269669f6f8f575a01f5c7df62046d0ba9fde1dcce01a",
+  "write_date": "",
+  "xml_id": "mail.field_mail_blacklist_remove__email"
+}

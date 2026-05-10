@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7757,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# of Done Tasks",
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "done_task_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "37358cb570c1080c3c1fa8114c7c74409718b59d9b8c608305c9526ac5dd08a7",
+  "write_date": "",
+  "xml_id": "project.field_project_milestone__done_task_count"
+}

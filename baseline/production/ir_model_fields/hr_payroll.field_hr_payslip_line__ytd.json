@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23655,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "YTD",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "ytd",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "9f0253f2b0f1e6dc709971f67d3768415c12868185faa6c19b47f41aed65fe7f",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__ytd"
+}

@@ -1,0 +1,6 @@
+<t t-name="web.html_container">
+        <t t-set="body_classname" t-value="'container'"/>
+        <t t-call="web.report_layout">
+            <t t-out="0"/>
+        </t>
+    </t>

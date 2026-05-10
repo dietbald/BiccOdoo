@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3825,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Foreign Tax ID",
+    "model_id": [
+      416,
+      "Fiscal Position"
+    ],
+    "name": "foreign_vat",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "aac618528d9d686414d85d242564ded285c58bccd47994a5b1820e53bfa4d2d5",
+  "write_date": "",
+  "xml_id": "account.field_account_fiscal_position__foreign_vat"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 132,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "Budget multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a0448dbd108012dc210c56922ebf92a4c2549db51c3f3db9bf4b051b9ab80533",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "account_budget.budget_comp_rule"
+}

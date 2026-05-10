@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1014,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inverse Company Rate",
+    "model_id": [
+      93,
+      "Currency Rate"
+    ],
+    "name": "inverse_company_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "3be7eabafae69c635ec2462d0b9fc4dcdd6ce800fb005470d25836e69d6d0c56",
+  "write_date": "",
+  "xml_id": "base.field_res_currency_rate__inverse_company_rate"
+}

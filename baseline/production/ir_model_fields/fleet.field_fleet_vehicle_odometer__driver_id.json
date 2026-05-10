@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17232,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Driver",
+    "model_id": [
+      1008,
+      "Odometer log for a vehicle"
+    ],
+    "name": "driver_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a8d0ba70ac18523c39ebbfdbd3ddd5d505804f37da93c95001525f1866ea92dc",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_odometer__driver_id"
+}

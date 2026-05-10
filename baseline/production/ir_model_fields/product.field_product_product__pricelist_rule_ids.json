@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27239,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pricelist Rules",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "pricelist_rule_ids",
+    "relation": "product.pricelist.item",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1556fd4cff5e6f30a7f8f920b0b29dbfd5d57dccdd2d62b0fcbd5bbc0f27df86",
+  "write_date": "",
+  "xml_id": "product.field_product_product__pricelist_rule_ids"
+}

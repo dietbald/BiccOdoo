@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23108,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Qty Invoiced",
+    "model_id": [
+      1421,
+      "Purchase Line and Vendor Bill line matching view"
+    ],
+    "name": "qty_invoiced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "9f3ff7317febab002b828d260a65c3586dff137590c1ed41c07e9c8652099aca",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_line_match__qty_invoiced"
+}

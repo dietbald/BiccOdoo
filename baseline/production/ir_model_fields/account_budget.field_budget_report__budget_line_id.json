@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20802,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Budget Line",
+    "model_id": [
+      1243,
+      "Budget Report"
+    ],
+    "name": "budget_line_id",
+    "relation": "budget.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0422950852a771be6798b27d09e139c8bd95bfed78876d282c24f07f5d00d2e1",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_report__budget_line_id"
+}

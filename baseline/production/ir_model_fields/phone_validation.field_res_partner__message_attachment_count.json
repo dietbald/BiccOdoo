@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2448,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment Count",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "message_attachment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "27beb35be692adc05f3cf0c037b6a9c1080e7b0e810b43ea4d32707514167c4a",
+  "write_date": "",
+  "xml_id": "phone_validation.field_res_partner__message_attachment_count"
+}

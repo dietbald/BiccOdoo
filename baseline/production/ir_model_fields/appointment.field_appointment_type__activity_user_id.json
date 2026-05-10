@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21902,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4c8294d47676b7dccf2561bcf2fbd9a54398e47d8bb54e2020d4538c24954797",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__activity_user_id"
+}

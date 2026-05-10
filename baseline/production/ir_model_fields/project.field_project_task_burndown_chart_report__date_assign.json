@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7989,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assignment Date",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "date_assign",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "6b83aea8979dbe5c2b4e2946c5cb2ea2d53a1dd32cef8250d87c8e35ad4f9939",
+  "write_date": "",
+  "xml_id": "project.field_project_task_burndown_chart_report__date_assign"
+}

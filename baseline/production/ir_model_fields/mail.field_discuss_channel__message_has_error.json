@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2371,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ea88e6633ebd057f49a3157de86496a740700918e748a83ce8994d3b858fd708",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__message_has_error"
+}

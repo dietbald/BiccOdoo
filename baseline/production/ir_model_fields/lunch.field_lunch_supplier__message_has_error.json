@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18788,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "592a15635d48f292349077f6434783684aa0fb58cc5fb6903588a1a94c0719fa",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__message_has_error"
+}

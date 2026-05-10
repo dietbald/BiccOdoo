@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 374,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('employee_id.user_id', '=', user.id)]",
+    "groups": [
+      98
+    ],
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "Attendance base user: Read his own attendances in other apps",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a363f8d8389bbc7c274272feadc97e78004f589620d06938ccc22e2c3a65cd9e",
+  "write_date": "2023-12-05 05:20:34",
+  "xml_id": "hr_attendance.hr_attendance_rule_attendance_simple_user"
+}

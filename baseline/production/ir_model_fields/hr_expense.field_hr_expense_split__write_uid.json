@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9307,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "db58416d302c2954cd89a05487e289044596b9c72d70734650e7c743d1284cce",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2086,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rich-text Contents",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "body_content",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "html"
+  },
+  "payload_sha256": "728fa6a9292c34d4b53aadd3a2de64f4f9b827d231ff6c2c485cedbacea88549",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__body_content"
+}

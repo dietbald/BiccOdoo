@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11191,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Print Lot/SN Labels",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "auto_print_lot_labels",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0e59502a671551845a8206db9cec3d32608d5a7c111b03abab242f4c44b2df8d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__auto_print_lot_labels"
+}

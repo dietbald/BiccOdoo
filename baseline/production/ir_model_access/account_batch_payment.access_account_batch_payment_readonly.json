@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1624,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "account.batch.payment",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "581565bd0cffbaf5a72f29e5ea0d1c6833facefc57c24ed6782064325dd50b20",
+  "write_date": "2025-12-09 02:57:43",
+  "xml_id": "account_batch_payment.access_account_batch_payment_readonly"
+}

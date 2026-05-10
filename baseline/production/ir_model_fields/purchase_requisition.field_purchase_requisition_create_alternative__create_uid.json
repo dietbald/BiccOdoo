@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12668,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      810,
+      "Wizard to preset values for alternative PO"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d7600e46f9318702475670b33731bef09a965e0b2bde1bc42e23d4e3b15eb2dc",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_create_alternative__create_uid"
+}

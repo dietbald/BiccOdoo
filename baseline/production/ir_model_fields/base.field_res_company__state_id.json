@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1046,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fed. State",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "state_id",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d1aee127f53ff318505f7550fc38442092a8d6c36bc98e06972b80b909e13a3f",
+  "write_date": "",
+  "xml_id": "base.field_res_company__state_id"
+}

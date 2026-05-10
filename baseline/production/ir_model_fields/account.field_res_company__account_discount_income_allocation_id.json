@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4997,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Separate account for income discount",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_discount_income_allocation_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b399184313474a8e8e4b5622c5b77f6ff84c73179b1387aef52d5a6d471c60d6",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_discount_income_allocation_id"
+}

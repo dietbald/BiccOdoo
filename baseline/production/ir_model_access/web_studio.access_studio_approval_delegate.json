@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1800,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1440,
+      "Approval Rule Delegate"
+    ],
+    "name": "access_studio_approval_delegate",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "ed8abc8e53f89a9818793d8a1bab677c7e5677b9ac31e933efec8571df28ca7c",
+  "write_date": "2025-12-09 02:58:56",
+  "xml_id": "web_studio.access_studio_approval_delegate"
+}

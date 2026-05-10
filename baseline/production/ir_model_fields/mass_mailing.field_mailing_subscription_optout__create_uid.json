@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14145,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      892,
+      "Mailing Subscription Reason"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2d23e3fd5dde517f31ed44ab1d3351b358e77f44589bec0dcb51e9f5d600c132",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_subscription_optout__create_uid"
+}

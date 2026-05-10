@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28783,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Dropship",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "is_dropship",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6a9fc877c9fba02d36c289b19a5f7bbb353548ebd72279a75c4f2443222f83ae",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_move__is_dropship"
+}

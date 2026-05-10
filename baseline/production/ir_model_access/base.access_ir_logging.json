@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 118,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      2,
+      "Access Rights"
+    ],
+    "model_id": [
+      63,
+      "Logging"
+    ],
+    "name": "ir_logging admin",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d28828c94b211eb750bf17382ccc11bbf40122c13f9a4af861880a6061af360a",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_logging"
+}

@@ -1,0 +1,3 @@
+<xpath expr="//filter[@name='backorder']" position="before">
+                <filter name="quality_check_todo" string="Quality Checks" domain="[('quality_check_todo', '=', True)]"/>
+           </xpath>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28666,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cost Mode",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "cost_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "c0d6dc5f0a50228af98a4113d1b70fcc2d75a8c5a15afc101f3e8892d134ef4d",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__cost_mode"
+}

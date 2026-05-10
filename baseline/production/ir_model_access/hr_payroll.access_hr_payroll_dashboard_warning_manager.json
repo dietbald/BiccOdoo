@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1675,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      96,
+      "Payroll / Administrator"
+    ],
+    "model_id": [
+      1236,
+      "Payroll Dashboard Warning"
+    ],
+    "name": "access_hr_payroll_dashboard_warning_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "44b9aeb377fcd123fcdbb208e4bef9712a3228fe2b028e5838c5c2643b82f448",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_payroll_dashboard_warning_manager"
+}

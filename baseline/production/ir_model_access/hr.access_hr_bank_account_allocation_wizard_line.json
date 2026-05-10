@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2005,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      3304,
+      "Bank Account Allocation Line (Wizard)"
+    ],
+    "name": "access.hr.bank.account.allocation.wizard.line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4ed4570ac455edba394dce18675b16f407b77e260a2fb8aaf72260c814c1ebb2",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.access_hr_bank_account_allocation_wizard_line"
+}

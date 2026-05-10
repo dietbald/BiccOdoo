@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15722,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      951,
+      "Mandatory Day"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "01381ba3f19225b5834166933ba735aae72ba7669898033c6bdf570711958d7a",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_mandatory_day__company_id"
+}

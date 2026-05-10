@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 236,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      205,
+      "Guest"
+    ],
+    "name": "mail.guest",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "431e8489c6fb9547b17066a485bf65429e5322df9cf83ba4ce377256391ab165",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_guest_user"
+}

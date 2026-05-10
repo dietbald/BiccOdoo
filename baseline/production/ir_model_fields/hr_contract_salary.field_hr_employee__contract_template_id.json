@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27880,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Template",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "contract_template_id",
+    "relation": "hr.version",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c04aaa8a98b7b91540e69111bdeaef89f8ca989bc82b1f6a47344fc0c56ee79",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_employee__contract_template_id"
+}

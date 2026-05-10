@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4829,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inalterability Hash",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "inalterable_hash",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "577dfe670cec44f20dd796c70f29995bd3163c6a1d254f1407af94ac1e562cd7",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__inalterable_hash"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11937,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Template",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "stock_sms_confirmation_template_id",
+    "relation": "sms.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cd62a6e52b39d493cdc0eff3c83da6901d8b9b40c4a40d0539173663e8398bab",
+  "write_date": "",
+  "xml_id": "stock_sms.field_res_config_settings__stock_sms_confirmation_template_id"
+}

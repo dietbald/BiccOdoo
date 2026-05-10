@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11638,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Labels to print",
+    "model_id": [
+      759,
+      "Choose whether to print product or lot/sn labels"
+    ],
+    "name": "label_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "52c131cc19e4f3b92cd91fa498c01b8f60fc9064a739092503510b684b29061e",
+  "write_date": "",
+  "xml_id": "stock.field_picking_label_type__label_type"
+}

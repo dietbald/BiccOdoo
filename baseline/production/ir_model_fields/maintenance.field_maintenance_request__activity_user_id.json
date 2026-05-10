@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18146,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9d0a719ddf1e0478a1ad4e056431efd858ac0268810cf87c10bd53d7914d9f0f",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__activity_user_id"
+}

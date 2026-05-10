@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8455,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Template",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "company_so_template_id",
+    "relation": "sale.order.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "35ed181a6da102ad0c6db863adb68780a459897afb1314e80c6d03b88f616596",
+  "write_date": "",
+  "xml_id": "sale_management.field_res_config_settings__company_so_template_id"
+}

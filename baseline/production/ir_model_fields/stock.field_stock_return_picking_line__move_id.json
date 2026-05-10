@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11583,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move",
+    "model_id": [
+      753,
+      "Return Picking Line"
+    ],
+    "name": "move_id",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6602bb1b876d605e9f086980ef2983b2ef6a24391709b2e600dc4232ba90e56b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_return_picking_line__move_id"
+}

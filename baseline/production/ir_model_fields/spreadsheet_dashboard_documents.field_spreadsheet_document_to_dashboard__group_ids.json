@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6672,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Access Groups",
+    "model_id": [
+      549,
+      "Create a dashboard from a spreadsheet document"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b20d00eff51f22f94eee899a3f8fb0358e6644b132986700a6b820160cdc5774",
+  "write_date": "",
+  "xml_id": "spreadsheet_dashboard_documents.field_spreadsheet_document_to_dashboard__group_ids"
+}

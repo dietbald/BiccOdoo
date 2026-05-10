@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3675,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Installation State",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "module_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ceb1e128dcbe9686e2683850193e6e237bbbaa1831564694b33b9e743ac69aa9",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__module_state"
+}

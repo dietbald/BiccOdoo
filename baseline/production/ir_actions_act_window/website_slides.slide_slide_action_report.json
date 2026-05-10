@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1499,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\"search_default_published\": 1}",
+    "domain": "[('is_category', '=', False)]",
+    "name": "Contents",
+    "res_model": "slide.slide",
+    "target": "current",
+    "view_mode": "graph,list,form,pivot"
+  },
+  "payload_sha256": "649c0dda60d13b8cbe2c60432aaae4a66f2067ccc2cc040e567324e2048b1516",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.slide_slide_action_report"
+}

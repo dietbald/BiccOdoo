@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1381,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      956,
+      "Cancel Time Off Wizard"
+    ],
+    "name": "access_hr_holidays_cancel_leave",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2204155b118ef3694928ffced04050e85a2178ea613a4e487c8d4a47c81f06ab",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.access_hr_holidays_cancel_leave"
+}

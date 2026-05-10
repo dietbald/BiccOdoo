@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1048,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      58,
+      "Purchase / Administrator"
+    ],
+    "model_id": [
+      781,
+      "Vendor Delay Report"
+    ],
+    "name": "vendor.delay.report",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "d1835b6d2c93777ded9c8e62e654cb5c52180eb5d70f804ec13950a5289537e1",
+  "write_date": "2025-12-09 02:59:38",
+  "xml_id": "purchase_stock.access_report_purchase_order"
+}

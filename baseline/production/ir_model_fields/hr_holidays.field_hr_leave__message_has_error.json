@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15491,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "384d3b8b422326a7a0730b21dcc49c835f2dba6ad578147180cce835aa93dc84",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__message_has_error"
+}

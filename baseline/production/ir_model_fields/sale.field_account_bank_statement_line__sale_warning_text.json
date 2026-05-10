@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29353,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Warning",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "sale_warning_text",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "2dbb717afda26bda2b2e0096bb361e6f5588f4c3039ee03be7e84d304576587f",
+  "write_date": "",
+  "xml_id": "sale.field_account_bank_statement_line__sale_warning_text"
+}

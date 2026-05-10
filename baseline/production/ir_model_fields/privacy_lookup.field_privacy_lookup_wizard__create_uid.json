@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2837,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      356,
+      "Privacy Lookup Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "06e83dafacc3f762994feaf382f631520cf0c8285a6256b32c41d1561f166c71",
+  "write_date": "",
+  "xml_id": "privacy_lookup.field_privacy_lookup_wizard__create_uid"
+}

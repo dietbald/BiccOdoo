@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8655,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d97ef6d2ba159fde1d43eeae3c1376b1f6bd955b4880aa7d74a66a1182c721fd",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__activity_calendar_event_id"
+}

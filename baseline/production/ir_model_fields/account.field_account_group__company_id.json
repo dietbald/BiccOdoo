@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3978,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      422,
+      "Account Group"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "26c387cf9857b564e695c6c725fe27e903864b5fbb9387662bf03994f8b1c33f",
+  "write_date": "",
+  "xml_id": "account.field_account_group__company_id"
+}

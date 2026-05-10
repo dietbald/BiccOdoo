@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      962,
+      "Byproduct"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4f97bb49ee07003866f3d47c0e063615b084627c6851a7448071a3a9c0a4e0c5",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_byproduct__company_id"
+}

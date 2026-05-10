@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 562,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', 'in', [user.id, False])]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1110,
+      "Embedded Actions"
+    ],
+    "name": "Users can modify or delete embedded actions that they have created or that are shared",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "853d2eb562955bd4cbc2d658bcb44cfa1b211c694b52104c92a1385e5695175b",
+  "write_date": "2024-10-23 10:42:37",
+  "xml_id": "base.embedded_action_user_delete_rule"
+}

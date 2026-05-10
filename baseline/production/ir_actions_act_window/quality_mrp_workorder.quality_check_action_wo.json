@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1189,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_workorder_id': [active_id],\n            'default_workorder_id': active_id,\n         }\n        ",
+    "domain": "[('workorder_id', '=', active_id)]",
+    "name": "Quality Checks",
+    "res_model": "quality.check",
+    "target": "main",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "9c9c7ee2e0414a118c42efebc29a83883b98ccaf8ca6591a4cb4d5118ee0c706",
+  "write_date": "2025-12-09 03:00:09",
+  "xml_id": "quality_mrp_workorder.quality_check_action_wo"
+}

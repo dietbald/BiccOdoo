@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20301,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Agreement Type",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "requisition_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "461109a158868dad3a6d88b0e20d6c6a26e28bd7432e635c956988a38dbcbc19",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_order__requisition_type"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 418,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_team_id': [active_id],\n                'list_view_ref': 'crm.crm_lead_view_tree_opportunity_reporting',\n                'search_default_filter_opportunity': True,\n                'search_default_filter_create_date': 1}",
+    "domain": "[]",
+    "name": "Pipeline Analysis",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "graph,pivot,list,form"
+  },
+  "payload_sha256": "874da8393146c8a9615480c40509f776839e0b8e1d2b72022962f7ae75ffea57",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.action_report_crm_opportunity_salesteam"
+}

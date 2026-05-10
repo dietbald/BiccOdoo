@@ -1,0 +1,15 @@
+<form string="Model Make">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_brand_model" type="object" icon="fa-car" class="oe_stat_button" invisible="model_count == 0">
+                            <field name="model_count" widget="statinfo" string="Models"/>
+                        </button>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="image_128" widget="image" class="oe_avatar float-start"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23152,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Purchase Matched",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "is_purchase_matched",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a40ce4d3d57592ffe419d1057238cd03703288f40bcc350b58d8752a2db7ef4f",
+  "write_date": "",
+  "xml_id": "purchase.field_account_bank_statement_line__is_purchase_matched"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1804,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      157,
+      "Email CC management"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4f0e894ee47c098ecdd790456b83f30d5cf8b76aade78345409de75a6b6c04b6",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_cc__message_has_error"
+}

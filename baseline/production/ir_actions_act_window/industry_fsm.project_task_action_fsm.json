@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1196,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'fsm_mode': True,\n            'search_default_my_tasks': True,\n            'search_default_planned_future': True,\n            'search_default_planned_today': True,\n            'default_scale': 'day',\n        }",
+    "domain": "[('is_fsm', '=', True), ('project_id', '!=', False)]",
+    "name": "My Tasks",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "kanban,list,map,calendar,gantt,form,graph,pivot,activity"
+  },
+  "payload_sha256": "edddc875b54156d59413b394948e9bf7e4e33de191c20d99978dd186fb8a91ea",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.project_task_action_fsm"
+}

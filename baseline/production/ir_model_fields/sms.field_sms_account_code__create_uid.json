@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21822,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1356,
+      "SMS Account Verification Code Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e93e23a1d1b56fada9fb082e1ad0a90a16126e2dea88c664b25560ccd6b5ba4b",
+  "write_date": "",
+  "xml_id": "sms.field_sms_account_code__create_uid"
+}

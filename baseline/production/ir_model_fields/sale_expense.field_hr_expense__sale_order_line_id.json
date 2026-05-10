@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26262,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Order Line",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "sale_order_line_id",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "028dc8c5dcc71c96effb50f4935041b041aa621d3798cee2659cad16dad7151d",
+  "write_date": "",
+  "xml_id": "sale_expense.field_hr_expense__sale_order_line_id"
+}

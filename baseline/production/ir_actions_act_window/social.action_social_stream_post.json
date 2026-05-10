@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1147,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_stream': 1, 'search_default_search_my_streams': 1}",
+    "domain": false,
+    "name": "Feed",
+    "res_model": "social.stream.post",
+    "target": "current",
+    "view_mode": "kanban"
+  },
+  "payload_sha256": "67359caa101c2c14be181715e9c2be43d3c621a100e51df610857f96f30b8e99",
+  "write_date": "2025-12-09 02:56:16",
+  "xml_id": "social.action_social_stream_post"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23888,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Asset Group",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "asset_group_id",
+    "relation": "account.asset.group",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "06f4e83533f0ce851659f2acc578d805df87a2fae2406edd36342aec47821583",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__asset_group_id"
+}

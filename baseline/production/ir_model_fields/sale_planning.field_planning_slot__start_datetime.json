@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13853,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "start_datetime",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "6e19557d9507a4302aa3c5601c2d82759b9bf78138c13cffc426663a8d5b594e",
+  "write_date": "",
+  "xml_id": "sale_planning.field_planning_slot__start_datetime"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29542,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Revenue",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "deferred_revenue",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c879421bebb83e1ca7695ef7e81d84a07d4ce666927e757553bdd73dc2320e25",
+  "write_date": "",
+  "xml_id": "sale_account_accountant.field_sale_order_line__deferred_revenue"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is a write-off move required to reconcile",
+    "model_id": [
+      490,
+      "Account reconciliation wizard"
+    ],
+    "name": "is_write_off_required",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9257ff5260bd259a9eb02ceb08f32d7c4f707d2dfca4e5acb5589e6053cf9d46",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_reconcile_wizard__is_write_off_required"
+}

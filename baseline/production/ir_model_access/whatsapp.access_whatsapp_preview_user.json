@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1581,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1054,
+      "Preview template"
+    ],
+    "name": "access.whatsapp.preview",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f5d6b2c9c224d4d3a4cfdbb01ea551cb7271b5640f06a7f8d9c060d5714f33dd",
+  "write_date": "2025-12-09 02:56:17",
+  "xml_id": "whatsapp.access_whatsapp_preview_user"
+}

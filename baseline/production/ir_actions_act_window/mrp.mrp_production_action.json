@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1080,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_todo': True, 'default_company_id': allowed_company_ids[0]}",
+    "domain": "[('picking_type_id.active', '=', True)]",
+    "name": "Manufacturing Orders",
+    "res_model": "mrp.production",
+    "target": "current",
+    "view_mode": "list,kanban,form,gantt,calendar,pivot,graph,activity"
+  },
+  "payload_sha256": "78cd1bc04abcea99fcc14165673faa5f501bdff324124e2f50015d7b10b301d5",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp.mrp_production_action"
+}

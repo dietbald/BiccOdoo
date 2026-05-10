@@ -1,0 +1,8 @@
+<kanban string="Models">
+                <templates>
+                    <t t-name="card">
+                        <field class="fw-bold" name="name"/>
+                        <field name="brand_id"/>
+                    </t>
+                </templates>
+            </kanban>

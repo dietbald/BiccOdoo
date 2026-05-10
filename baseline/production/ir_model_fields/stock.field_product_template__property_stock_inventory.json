@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11458,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inventory Location",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "property_stock_inventory",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "25953514a92c583c22b0e8b66b14cc87c8d3821cd0c2abfe4164da904be2bfb3",
+  "write_date": "",
+  "xml_id": "stock.field_product_template__property_stock_inventory"
+}

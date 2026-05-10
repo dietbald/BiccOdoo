@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1711,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias Domain",
+    "model_id": [
+      147,
+      "Email Aliases"
+    ],
+    "name": "alias_domain_id",
+    "relation": "mail.alias.domain",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6d9f808a181fdade6ce848bfc82bde0ad808e940a885e5dd61d391db23dc5186",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias__alias_domain_id"
+}

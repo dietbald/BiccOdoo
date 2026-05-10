@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19127,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Warning Line",
+    "model_id": [
+      1093,
+      "Batch payments error reporting wizard"
+    ],
+    "name": "warning_line_ids",
+    "relation": "account.batch.error.wizard.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bb930041aa1b022fa886f5e96ef4159c8d3139e528ad5537eb286bfa8ba0b079",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_error_wizard__warning_line_ids"
+}

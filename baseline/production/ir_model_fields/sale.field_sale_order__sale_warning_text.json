@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29335,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Warning",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "sale_warning_text",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "d688670d0316843b11ee84939fe4b99bb0a3cf3b89efab3f82a38edf52053a79",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__sale_warning_text"
+}

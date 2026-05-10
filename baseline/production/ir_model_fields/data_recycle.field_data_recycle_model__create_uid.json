@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14989,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      925,
+      "Recycling Model"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7d2998985be35d9de959a6035a0bdf5d1bb6bcd7b107f3da1affc376eb267347",
+  "write_date": "",
+  "xml_id": "data_recycle.field_data_recycle_model__create_uid"
+}

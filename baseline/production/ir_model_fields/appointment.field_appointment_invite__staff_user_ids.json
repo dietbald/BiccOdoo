@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15190,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Users",
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "staff_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8d7d2838926385bc7155da698918bc06b970902eec37c3e18c83ea10f823fbac",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_invite__staff_user_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18780,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3f9cf70f947ab14d9e2aa03fe0fb2671cf8d3e72a29c6ed1a6d7a058abf7929a",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__activity_calendar_event_id"
+}

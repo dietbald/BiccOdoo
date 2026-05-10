@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7529,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message",
+    "model_id": [
+      593,
+      "Rating"
+    ],
+    "name": "message_id",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "efec8bfc9df8dcec4525e97445efcba08a0ec6ed123b122859ae22d0e2609c62",
+  "write_date": "",
+  "xml_id": "rating.field_rating_rating__message_id"
+}

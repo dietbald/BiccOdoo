@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard",
+    "model_id": [
+      3304,
+      "Bank Account Allocation Line (Wizard)"
+    ],
+    "name": "wizard_id",
+    "relation": "hr.bank.account.allocation.wizard",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9eeb9e4f1bdf4cd9c07dbce6b1bac8f5e23bd22a8bdc384ee42a6001fde62be0",
+  "write_date": "",
+  "xml_id": "hr.field_hr_bank_account_allocation_wizard_line__wizard_id"
+}

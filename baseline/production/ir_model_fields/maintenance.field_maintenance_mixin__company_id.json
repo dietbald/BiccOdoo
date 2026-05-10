@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18075,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1039,
+      "Maintenance Maintained Item"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9fc3170954d5d7485d49e139af33b9de23286a0ffd22d18c9bc0f6db8e180361",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_mixin__company_id"
+}

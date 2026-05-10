@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26657,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rental Customer",
+    "model_id": [
+      2753,
+      "Convert Lead to Rental Order"
+    ],
+    "name": "action",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "eb1fa75c80c949b51f01f63373513a8bdf10ee7cb6d92ebfdc383a466ed0d0a2",
+  "write_date": "",
+  "xml_id": "sale_renting_crm.field_crm_lead_rental__action"
+}

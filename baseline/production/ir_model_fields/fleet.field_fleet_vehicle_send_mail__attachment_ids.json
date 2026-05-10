@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19596,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      1157,
+      "Send mails to Drivers"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "155b3dc56f5f99c27c529bc82a8d49743d512651d0f18eed3d07dd9d1e81afdc",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_send_mail__attachment_ids"
+}

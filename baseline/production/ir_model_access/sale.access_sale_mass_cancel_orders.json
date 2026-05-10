@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 728,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      616,
+      "Cancel multiple quotations"
+    ],
+    "name": "access.sale.mass.cancel.orders",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "d2bb7c900f5e64a907d340cbd12f2e83a213d8f95dbfd23c0ca321c65c1d15be",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_sale_mass_cancel_orders"
+}

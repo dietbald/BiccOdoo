@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23866,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5edc0751745f4b0f0bd3e1bc31253eca6d4a8a15fcb7377526f6c064559ec9e1",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__message_needaction"
+}

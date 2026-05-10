@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1200,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'pivot_row_groupby': ['user_ids'],\n            'default_project_id': active_id,\n            'show_project_update': True,\n        }",
+    "domain": "[('is_fsm', '=', True), ('project_id', '=', active_id)]",
+    "name": "Tasks",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "kanban,list,gantt,calendar,map,pivot,graph,form,activity"
+  },
+  "payload_sha256": "d43cc732e2f4beeb629e2b7f49e58d925d91a4665926bce642ed4accc27d3b37",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.project_tasks_action_fsm"
+}

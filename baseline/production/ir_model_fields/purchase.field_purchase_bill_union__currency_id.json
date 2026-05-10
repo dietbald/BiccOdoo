@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9542,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      661,
+      "Purchases & Bills Union"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aaf5f86973ef5ffe972f837adff9af47774fc627c5e034937058369065d4db03",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_union__currency_id"
+}

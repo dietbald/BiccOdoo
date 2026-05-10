@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18156,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6295858ab35d7cd3424c1337cd401496d4a18f7360735dc6f02d3974f0b25644",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__message_follower_ids"
+}

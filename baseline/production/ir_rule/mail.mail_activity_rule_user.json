@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 50,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('user_id', '=', user.id), ('create_uid', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      164,
+      "Activity"
+    ],
+    "name": "mail.activity: user: write/unlink only (created or assigned)",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d802d2fc47c4aa1198cff51dc18d9a51ca57c92980470af19e4799c9353d8103",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.mail_activity_rule_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16747,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      993,
+      "Room Booking"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f620d9229aa27b1bc0f1f2f863cfca4fc14f91e0478170226847d7169552a203",
+  "write_date": "",
+  "xml_id": "room.field_room_booking__message_partner_ids"
+}

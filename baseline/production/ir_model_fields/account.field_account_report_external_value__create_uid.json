@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      451,
+      "Accounting Report External Value"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ba0751c33ca850da7a7a0660aa177a8c9396b100e4db1cf7927096b14ff12612",
+  "write_date": "",
+  "xml_id": "account.field_account_report_external_value__create_uid"
+}

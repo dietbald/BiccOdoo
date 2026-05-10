@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 395,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      876,
+      "Studio Approval Entry"
+    ],
+    "name": "Studio Validation Entries: manage all entries (admin)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5f3e65d212c7b6cea5b431c80f8fbd0cd6074b3b523cdaea96e61c324a5a94b4",
+  "write_date": "2023-12-15 03:22:33",
+  "xml_id": "web_studio.studio_approval_entry_group_system_rule"
+}

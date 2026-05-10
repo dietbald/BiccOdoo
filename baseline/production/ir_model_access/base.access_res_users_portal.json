@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 84,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "res_users all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "d58a8458aa62afbdc756de77e5146f2ae13642f1fbeb6f1e5357da8fb753e8bb",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_users_portal"
+}

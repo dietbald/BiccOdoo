@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10987,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Forecasted Expected date",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "forecast_expected_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "764f8657d4f4ad603371cfd60a82ebcccaba1149211c2b055a9fe2dfcc62c05b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__forecast_expected_date"
+}

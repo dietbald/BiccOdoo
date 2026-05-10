@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9740,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recruiter",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1076f6e4ba08a137187788b28523bf2f86f4ddc3e6f3e62d5948b0853835da85",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__user_id"
+}

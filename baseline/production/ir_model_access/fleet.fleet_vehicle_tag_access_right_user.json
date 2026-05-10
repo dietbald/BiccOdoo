@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1480,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      129,
+      "Fleet / Officer: Manage all vehicles"
+    ],
+    "model_id": [
+      1010,
+      "Vehicle Tag"
+    ],
+    "name": "fleet_vehicle_tag_access_right",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "4f14d41f1f90b0f75d89e57ec2a5100e67abeaa0fedd9bade1bfaf16dd34e065",
+  "write_date": "2025-12-09 02:55:54",
+  "xml_id": "fleet.fleet_vehicle_tag_access_right_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12816,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contributes to Employer Cost",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "appears_on_employee_cost_dashboard",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a84eb78c06420668e0dcff855ab06e0870cd3b8c2396ef5911a12b5731981cc2",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__appears_on_employee_cost_dashboard"
+}

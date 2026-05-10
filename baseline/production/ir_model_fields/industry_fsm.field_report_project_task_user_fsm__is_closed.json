@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20880,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closed state",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "is_closed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6b00fe11d360e37c9e14c35390cffa1e2e854783fd03211ed8e5a331e04e2ff0",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__is_closed"
+}

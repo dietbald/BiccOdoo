@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 794,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      652,
+      "Expense Split Wizard"
+    ],
+    "name": "access.hr.expense.split.wizard.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "5456ba745ccfdbc3b56353cb8c84bcbf23858c95a1719a38837accf1afca0d6f",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.access_hr_expense_split_wizard_manager"
+}

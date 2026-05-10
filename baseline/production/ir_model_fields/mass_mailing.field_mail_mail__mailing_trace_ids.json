@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14286,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Statistics",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "mailing_trace_ids",
+    "relation": "mailing.trace",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0f0e08a0e539b7ab71f64fd6cf7cd147868b80555617946d038f6803504d4b23",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mail_mail__mailing_trace_ids"
+}

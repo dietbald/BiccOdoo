@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17056,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assignment Date",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "next_assignation_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "814fdffee47aea0e981e470a15c8e9b303526231fa6f82c9889bd43a767811db",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__next_assignation_date"
+}

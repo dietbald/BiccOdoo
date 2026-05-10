@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8206,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner Credit Warning",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "partner_credit_warning",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "619e76e64857dc368d1704b7d1800ecea4f9c82ba091d35120c1029182257108",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__partner_credit_warning"
+}

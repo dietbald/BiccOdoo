@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 218,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'default_payment_type': 'inbound',\n                'default_partner_type': 'customer',\n                'search_default_inbound_filter': 1,\n                'default_move_journal_types': ('bank', 'cash'),\n                'display_account_trust': True,\n            }",
+    "domain": false,
+    "name": "Customer Payments",
+    "res_model": "account.payment",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph,activity"
+  },
+  "payload_sha256": "ab1f3dd9aae9fe2d51eee54b8f59b314907c6bd5d663e1b5637519c1b9e242a8",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_payments"
+}

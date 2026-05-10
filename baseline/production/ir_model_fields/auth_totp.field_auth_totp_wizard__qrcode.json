@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1390,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Qrcode",
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "qrcode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "79bfe38a8155b59882fcab73283f614b24c55cbde8f95d065a28f6af13699564",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_wizard__qrcode"
+}

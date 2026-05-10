@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12210,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e434f809d0e7edb6bb89151c5bd56aaa44d39b83cfe1eda269b21e37236a01d8",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_thread__rating_ids"
+}

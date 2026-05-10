@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19915,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Abnormal Amount Partner",
+    "model_id": [
+      454,
+      "Validate Account Move"
+    ],
+    "name": "abnormal_amount_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1ba8e6c14fd46a0e33aa94c3df76eaf840a34e672b3a4319a966741434d5be8a",
+  "write_date": "",
+  "xml_id": "account.field_validate_account_move__abnormal_amount_partner_ids"
+}

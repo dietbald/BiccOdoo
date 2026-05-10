@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29397,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work time rate",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "work_time_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "97705e8a90fc34f5a6d841278cfb46f14240cb3d276ed4890e3ed4272df83fbf",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__work_time_rate"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11625,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      757,
+      "Inventory Adjustment Warning"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9ac0a7e5b35deee5d6e01f2d3f68418f9ce8c42aeeb2ce8160c7e661b98c394c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_inventory_warning__create_uid"
+}

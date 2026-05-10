@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17171,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d73b993cfd45265ad258a6ffd761b8dc3fc4e23eb1c080e7cf5eebfaa8f7ac93",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__activity_calendar_event_id"
+}

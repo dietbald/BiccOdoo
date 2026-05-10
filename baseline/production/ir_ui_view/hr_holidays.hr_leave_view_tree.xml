@@ -1,0 +1,23 @@
+<list string="Time Off Requests" sample="1" duplicate="false" js_class="hr_holidays_payslip_list">
+                <header>
+                    <button type="action" name="1295" string="New Group Time Off" class="btn btn-secondary" groups="hr_holidays.group_hr_holidays_responsible" display="always"/>
+                    <button type="object" name="action_approve" string="Approve" icon="fa-thumbs-up" class="btn btn-outline-success"/>
+                    <button type="object" name="action_refuse" string="Refuse" icon="fa-times" class="btn btn-outline-danger"/>
+                </header>
+                <field name="employee_id" widget="many2one_avatar_employee" readonly="state in ['cancel', 'refuse', 'validate', 'validate1']"/>
+                <field name="department_id" optional="hidden" readonly="state in ['cancel', 'refuse', 'validate', 'validate1']"/>
+                <field name="holiday_status_id" class="fw-bold" readonly="state in ['cancel', 'refuse', 'validate', 'validate1']"/>
+                <field name="date_from" readonly="state in ['cancel', 'refuse', 'validate', 'validate1']"/>
+                <field name="date_to" readonly="state in ['cancel', 'refuse', 'validate', 'validate1']"/>
+                <field name="duration_display" string="Duration"/>
+                <field name="name" optional="hidden"/>
+                <field name="state" widget="badge" decoration-warning="state in ('confirm','validate1')" decoration-success="state == 'validate'" decoration-danger="state == 'refuse'"/>
+                <field name="active_employee" column_invisible="True"/>
+                <field name="user_id" column_invisible="True"/>
+                <field name="message_needaction" column_invisible="True"/>
+                <button string="Approve" name="action_approve" type="object" icon="fa-thumbs-up" invisible="not can_approve"/>
+                <button string="Validate" name="action_approve" type="object" icon="fa-check" invisible="not can_validate or can_approve"/>
+                <button string="Refuse" name="action_refuse" type="object" icon="fa-times" invisible="not can_refuse"/>
+                <field name="company_id" optional="hidden" groups="base.group_multi_company"/>
+                <field name="activity_exception_decoration" widget="activity_exception"/>
+            </list>

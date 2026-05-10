@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18655,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Remaining",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "remaining_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "7be38543d03d6861bb5297b0118a54c053789d11148f424a5eec74a4a01347fb",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__remaining_hours"
+}

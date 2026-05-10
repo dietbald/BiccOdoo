@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17967,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notification Request Text",
+    "model_id": [
+      1024,
+      "Social Account"
+    ],
+    "name": "notification_request_body",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "daba4bbcd272d26eff4238c81f1c52f56c547ec2389c6807220cb6ddee1edd8f",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_social_account__notification_request_body"
+}

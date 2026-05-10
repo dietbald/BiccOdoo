@@ -1,0 +1,29 @@
+<data>
+  <xpath expr="/form//field[@name='interviewer_ids']" position="after">
+    <field name="x_studio_application_information" options="{'create_name_field': 'title'}" context="{'default_access_mode': 'token'}" domain="[('survey_type', '=', 'recruitment')]"/>
+  </xpath>
+  <xpath expr="/form/sheet/notebook/page[@name='recruitment_page']/group/group[@name='hiring_process']/div" position="after">
+    <field name="x_studio_emotional_assessment"/>
+    <field name="x_studio_logical_assessment"/>
+  </xpath>
+  <xpath expr="/form/sheet/notebook/page[@name='recruitment_page']/group/group[@name='hiring_process']/div[2]" position="after">
+    <field name="x_studio_resume_required"/>
+  </xpath>
+  <xpath expr="/form/sheet/notebook/page[@name='recruitment_page']/group/group[@name='job_posting']/field[@name='current_job_skill_ids']" position="after">
+    <field name="x_studio_test"/>
+  </xpath>
+  <xpath expr="/form//field[@name='expected_degree']" position="after">
+    <xpath expr="/form//field[@name='website_id']" position="move"/>
+  </xpath>
+  <xpath expr="/form//field[@name='description']" position="after">
+    <group name="studio_group_9m2_1jc91160v">
+      <group name="studio_group_9m2_left">
+        <field name="x_description"/>
+      </group>
+      <group name="studio_group_9m2_right">
+        <field name="x_studio_salary_max" groups="hr_payroll.group_hr_payroll_user"/>
+        <field name="x_studio_salary_question_id" options="{'create_name_field': 'title'}"/>
+      </group>
+    </group>
+  </xpath>
+</data>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1680,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "date_from",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "79212ece76b62e63822a27af050eb657e366ba94ca8adc58a1be5fcc9e776373",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar_leaves__date_from"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16307,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8403d181c1dbc1a2fdba32a7852418c88ee9f3ef7fae814a4ecb8261f1c6dae4",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__create_uid"
+}

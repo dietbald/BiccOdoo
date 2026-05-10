@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20950,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skills",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "user_skill_ids",
+    "relation": "hr.employee.skill",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "dc390b71db020d4a66c29428348c821f70158a4e3528e16cd79e6138ba41eb52",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__user_skill_ids"
+}

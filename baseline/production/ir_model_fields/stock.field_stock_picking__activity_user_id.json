@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11218,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "243201d6deee6f8e11874120ccb517f7d5c782067057335c6ab54626de0de6cf",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__activity_user_id"
+}

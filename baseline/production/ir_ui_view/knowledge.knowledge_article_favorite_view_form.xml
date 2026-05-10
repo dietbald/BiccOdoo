@@ -1,0 +1,8 @@
+<form string="Favorite">
+                <sheet>
+                    <group>
+                        <field name="article_id" domain="[('is_template', '=', False)]"/>
+                        <field name="user_id"/>
+                    </group>
+                </sheet>
+            </form>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rules",
+    "model_id": [
+      499,
+      "Horizontal group for reports"
+    ],
+    "name": "rule_ids",
+    "relation": "account.report.horizontal.group.rule",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0901a60458cf075f7e8caa2f6e8fd70e50581517e44d52125ade3afe82267605",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_horizontal_group__rule_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1756,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      1369,
+      "Mapping of account codes per company"
+    ],
+    "name": "account.code.mapping",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "c72a8b4b8fce55832baaba0c1d195dddad4c5b7a92a8e4889fbea801e1d6a331",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_code_mapping"
+}

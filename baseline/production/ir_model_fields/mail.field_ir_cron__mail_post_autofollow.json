@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2616,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subscribe Recipients",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "mail_post_autofollow",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bbf89b72afcb06b96afc36168ee3fa5e5a39181d4267e67376629fa7bb1b3994",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__mail_post_autofollow"
+}

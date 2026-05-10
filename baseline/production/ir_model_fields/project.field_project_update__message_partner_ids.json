@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7778,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e06ca46e05dba48a360c165d3fcc6f84470fff23489b67dbdda32e5834489128",
+  "write_date": "",
+  "xml_id": "project.field_project_update__message_partner_ids"
+}

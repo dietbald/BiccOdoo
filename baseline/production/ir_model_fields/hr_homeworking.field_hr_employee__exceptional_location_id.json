@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19369,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Current",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "exceptional_location_id",
+    "relation": "hr.work.location",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c14fe4c5e7592c30ded066ada88e63655148b02bb63413a00ce0b5579b6f8db5",
+  "write_date": "",
+  "xml_id": "hr_homeworking.field_hr_employee__exceptional_location_id"
+}

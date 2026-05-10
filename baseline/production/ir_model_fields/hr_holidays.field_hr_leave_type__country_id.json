@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22876,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "25d4a72c4fa5c36e110943576513b0d10496f4287922887eb195d339a358788a",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__country_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1011,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      742,
+      "Stock package type"
+    ],
+    "name": "access_stock_package_type_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3e54715e98ba77a7ce9177fa2e76dfe77cee0612d13ed08ade4ea7b600fc5694",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_package_type_manager"
+}

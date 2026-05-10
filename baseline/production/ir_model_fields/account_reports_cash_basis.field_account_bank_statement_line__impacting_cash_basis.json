@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14406,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Impacting Cash Basis",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "impacting_cash_basis",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cfdf02080fca9d184c8ebc6e7b3fcc4c1f6a914047d56f7c8a27d65aeb178055",
+  "write_date": "",
+  "xml_id": "account_reports_cash_basis.field_account_bank_statement_line__impacting_cash_basis"
+}

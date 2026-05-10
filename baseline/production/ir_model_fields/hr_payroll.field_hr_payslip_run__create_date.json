@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13035,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "717aef29a84e003e4bbeb7e014f487eed9df6707a38936805562a9c96ad0285b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__create_date"
+}

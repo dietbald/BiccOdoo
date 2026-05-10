@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27933,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Allocation",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "employee_salary_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "c832fd0554cd5e3f5bd89c38a972dd69f1a72c9d648e7aba4b118fbd1ae99e02",
+  "write_date": "",
+  "xml_id": "hr.field_res_partner_bank__employee_salary_amount"
+}

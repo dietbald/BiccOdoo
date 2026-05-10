@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1025,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_year': 1 , 'is_employee_allocation': True}",
+    "domain": "[('employee_id.user_id', '=', uid)]",
+    "name": "My Allocations",
+    "res_model": "hr.leave.allocation",
+    "target": "current",
+    "view_mode": "list,kanban,form,activity"
+  },
+  "payload_sha256": "46c21107dffb80423198966139f0f2bbc9ef1e390699527adeada97ebc9490fe",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.hr_leave_allocation_action_my"
+}

@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='parent_id']" position="after">
+                <field name="account_display_representative_field" invisible="1"/>
+                <field name="account_representative_id" invisible="not account_display_representative_field"/>
+            </xpath>

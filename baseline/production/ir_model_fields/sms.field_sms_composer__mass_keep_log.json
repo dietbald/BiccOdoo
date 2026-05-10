@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3440,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Keep a note on document",
+    "model_id": [
+      397,
+      "Send SMS Wizard"
+    ],
+    "name": "mass_keep_log",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8a506db790373fe13977c172b7acd4d11a7badcf19fcb98441128a7815bdaaa0",
+  "write_date": "",
+  "xml_id": "sms.field_sms_composer__mass_keep_log"
+}

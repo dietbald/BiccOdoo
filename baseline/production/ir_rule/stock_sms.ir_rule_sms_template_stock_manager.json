@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 306,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('model_id.model', '=', 'stock.picking')]",
+    "groups": [
+      77
+    ],
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "SMS Template: stock manager CUD on stock picking templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2ee7c445d4fb1892ab0e8cb4dbfc98e52ec6f11f65f85503c370efbb67f9f64a",
+  "write_date": "2023-12-01 13:14:30",
+  "xml_id": "stock_sms.ir_rule_sms_template_stock_manager"
+}

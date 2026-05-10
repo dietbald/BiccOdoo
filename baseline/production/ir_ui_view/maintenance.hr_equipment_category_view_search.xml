@@ -1,0 +1,6 @@
+<search string="Search">
+                <field name="name" string="Category Name" filter_domain="[('name','ilike',self)]"/>
+                <group>
+                    <filter string="Responsible" name="responsible" domain="[]" context="{'group_by' : 'technician_user_id'}"/>
+                </group>
+            </search>

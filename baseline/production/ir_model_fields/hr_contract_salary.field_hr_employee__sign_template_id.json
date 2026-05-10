@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29137,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "New Contract Template",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "sign_template_id",
+    "relation": "sign.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d72dff0b5e95339eb5a5192ffb8c9a616c112752456bf41861b6df4e1b643c50",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_employee__sign_template_id"
+}

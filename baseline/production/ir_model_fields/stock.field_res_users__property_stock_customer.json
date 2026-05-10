@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11823,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer Location",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "property_stock_customer",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9f83a887ef1cb487a0ed6371527c1ce1598c15fd1ab4ce41e2cef7f9744bda74",
+  "write_date": "",
+  "xml_id": "stock.field_res_users__property_stock_customer"
+}

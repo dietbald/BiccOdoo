@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 587,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('document_id', '!=', False)]",
+    "groups": [
+      34
+    ],
+    "model_id": [
+      1186,
+      "Spreadsheet discussion thread"
+    ],
+    "name": "Spreadsheet document threads: manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e9cdc2bdcfcfe2ef42d885a0863e124f1a7fa42949977b2789fe146159d36ba6",
+  "write_date": "2024-10-23 10:46:34",
+  "xml_id": "documents_spreadsheet.spreadsheet_manager_document_threads"
+}

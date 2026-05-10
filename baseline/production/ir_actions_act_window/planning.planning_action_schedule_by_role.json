@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 905,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_group_by_employee': 2, 'planning_groupby_role': True,\n            'planning_expand_sale_line_id': 1, 'planning_expand_resource': 1,\n        }",
+    "domain": "[('start_datetime', '!=', False), ('end_datetime', '!=', False)]",
+    "name": "Schedule by Role",
+    "res_model": "planning.slot",
+    "target": "current",
+    "view_mode": "gantt,calendar,list,form,kanban,pivot,graph"
+  },
+  "payload_sha256": "2d0977e4020a14a1f4f44704c5de7e3c1a70b97dee269562085cd14ac5ca3356",
+  "write_date": "2025-12-09 03:00:34",
+  "xml_id": "planning.planning_action_schedule_by_role"
+}

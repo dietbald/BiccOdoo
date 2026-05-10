@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24201,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Question",
+    "model_id": [
+      1508,
+      "Slide Question's Answer"
+    ],
+    "name": "question_id",
+    "relation": "slide.question",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "efec572f99e6af79b71cf425306cc1ba587ed729064f2675d6b748c81ccb138e",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_answer__question_id"
+}

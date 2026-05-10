@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11462,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Description on Delivery Orders",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "description_pickingout",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "standard",
+    "ttype": "text"
+  },
+  "payload_sha256": "b04cfce40b73ef83cbb77a5fc682f7b73cf8f95241d8662ac8bae219d068b6a3",
+  "write_date": "",
+  "xml_id": "stock.field_product_template__description_pickingout"
+}

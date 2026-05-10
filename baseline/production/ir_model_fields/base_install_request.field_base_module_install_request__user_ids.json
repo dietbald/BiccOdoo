@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2737,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send to:",
+    "model_id": [
+      348,
+      "Module Activation Request"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "884d7e19055554dd9733ad21c1183d68516073ec532f71f844a057758cefda06",
+  "write_date": "",
+  "xml_id": "base_install_request.field_base_module_install_request__user_ids"
+}

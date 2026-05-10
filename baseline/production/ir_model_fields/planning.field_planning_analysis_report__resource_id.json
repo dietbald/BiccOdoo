@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13973,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "resource_id",
+    "relation": "resource.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ca3bd4bc31f3eeea709eb5c031206da3b24d9d314133d2983fb38e31dbeef198",
+  "write_date": "",
+  "xml_id": "planning.field_planning_analysis_report__resource_id"
+}

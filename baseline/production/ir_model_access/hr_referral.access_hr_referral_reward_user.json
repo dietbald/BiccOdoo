@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1889,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      150,
+      "Referrals / User: Referral only"
+    ],
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "hr.referral.reward.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1be1654107af54da33d176304b7f9c0600b2af538ca19f403b9bca05228eb631",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_referral_reward_user"
+}

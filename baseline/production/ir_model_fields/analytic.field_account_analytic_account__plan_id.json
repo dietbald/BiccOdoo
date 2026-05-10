@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2670,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Plan",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "plan_id",
+    "relation": "account.analytic.plan",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2b720d02c63835effb27865814b19a84935e2d9a70a9ab2272e470182e61f97e",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_account__plan_id"
+}

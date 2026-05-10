@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26653,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Rental Orders",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "rental_order_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2a84f146fbafd4269fb670c3a68c71715b5d4d0af2cbab0bba3927df6309b0d3",
+  "write_date": "",
+  "xml_id": "sale_renting_crm.field_crm_lead__rental_order_count"
+}

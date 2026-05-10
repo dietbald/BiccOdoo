@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1048,
+      "WhatsApp Business Account"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "676df64ff5d41168c31f59c1ef3fbc23b4a518f2da1e0b02f2823b0a5205f2d0",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_account__website_message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Eligible Employees",
+    "model_id": [
+      832,
+      "Payroll Declaration Mixin"
+    ],
+    "name": "lines_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "59bd8143138af80659a09f4e0410115f7845d528d6b51fc408a97afa2f29a7da",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_declaration_mixin__lines_count"
+}

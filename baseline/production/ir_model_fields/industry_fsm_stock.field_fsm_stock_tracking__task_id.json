@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18742,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task",
+    "model_id": [
+      1069,
+      "Track Stock"
+    ],
+    "name": "task_id",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "698d3a430b5fc9a82082f150893991973df333da657b17b809dd49fb6b5d9783",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking__task_id"
+}

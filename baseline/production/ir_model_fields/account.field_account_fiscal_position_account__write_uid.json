@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3851,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      418,
+      "Accounts Mapping of Fiscal Position"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a51d57523d4b229d51d84b87807614808e9c03cc7f3ee6ef3402e3f217b27351",
+  "write_date": "",
+  "xml_id": "account.field_account_fiscal_position_account__write_uid"
+}

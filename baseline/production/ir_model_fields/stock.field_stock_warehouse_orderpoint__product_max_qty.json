@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11101,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Max Quantity",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "product_max_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "5d204c21d10b3d5a166438e8feae4a71853541bedbc08e2ab79daeaf6a652573",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__product_max_qty"
+}

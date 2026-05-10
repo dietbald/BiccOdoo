@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11268,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use Existing Lots/Serial Numbers",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "use_existing_lots",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8013dc382f27a53c382293a1e3d50a1b3c52e19a401637a9579503411344c8df",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__use_existing_lots"
+}

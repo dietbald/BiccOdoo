@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1299,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "survey.user_input.user",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "2f80058049c0bf86ab4f57ac03acfb2d5574693edf298ea91c97b2a4f847e950",
+  "write_date": "2026-01-28 12:01:51",
+  "xml_id": "survey.access_survey_user_input_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20400,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "API key",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "barcodelookup_api_key",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "519f1d8082d9d7cb2f6d688ef674aa02bf3374fa4caa78ba60ca6a63977eda2f",
+  "write_date": "",
+  "xml_id": "product_barcodelookup.field_res_config_settings__barcodelookup_api_key"
+}

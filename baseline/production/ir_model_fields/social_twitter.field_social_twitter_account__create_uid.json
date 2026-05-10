@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1033,
+      "Social X Account"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fb806a0277f5178cb48174f38d2a1023c0fce5583d3bf3133dd9ae789c47d59b",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_twitter_account__create_uid"
+}

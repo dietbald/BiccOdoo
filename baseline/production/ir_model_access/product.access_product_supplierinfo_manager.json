@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 280,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      145,
+      "Products / Create"
+    ],
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "product.supplierinfo.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d09bcc7e2313cd7f42099eddba3436a129a28dcb4c7171c2ab0eb787025b6134",
+  "write_date": "2025-12-09 02:56:05",
+  "xml_id": "product.access_product_supplierinfo_manager"
+}

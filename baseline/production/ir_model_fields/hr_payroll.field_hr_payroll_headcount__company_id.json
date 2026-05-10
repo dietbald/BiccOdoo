@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20646,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1238,
+      "Payroll Headcount"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "00d8a50f68775ca7e2d7f61c5878484a582ec64b9f6b45c2c1aced2248c90d36",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount__company_id"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 817,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_partner_id': 1, 'search_default_has_partner': 1}",
+    "domain": false,
+    "name": "Contribution Registers",
+    "res_model": "hr.payslip.line",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "4808719d05dbe3ab69a5e15ea4b09484c3b4807baeff9326de0faf665f2f960e",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.action_contribution_registers"
+}

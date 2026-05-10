@@ -1,0 +1,9 @@
+<list string="Work Entries Analysis">
+                <field name="employee_id" widget="many2one_avatar_employee"/>
+                <field name="department_id" optional="show"/>
+                <field name="work_entry_type_id" optional="hide"/>
+                <field name="date" optional="show"/>
+                <field name="number_of_days" optional="show" sum="Sum of Days"/>
+                <field name="state" optional="hide"/>
+                <field name="company_id" optional="show" groups="base.group_multi_company"/>
+            </list>

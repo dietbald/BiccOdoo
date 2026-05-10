@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1394,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "163b6cb20c8413d89c3ab3c24025e0f1187003637267e4916a62935cb9ed2c38",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_wizard__create_uid"
+}

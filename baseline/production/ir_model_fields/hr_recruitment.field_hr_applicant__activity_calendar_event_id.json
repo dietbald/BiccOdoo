@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9588,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d9d057ae9145d857410b04b636f7e29b75a0c3ecd98a3c74c82abc1d251739eb",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__activity_calendar_event_id"
+}

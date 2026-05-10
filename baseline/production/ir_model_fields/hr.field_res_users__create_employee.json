@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Technical field, whether to create an employee",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "create_employee",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ccf5576ee4c40354699df41b350bcb1fe6d93d5774d2ebceb667aa7b19fc562a",
+  "write_date": "",
+  "xml_id": "hr.field_res_users__create_employee"
+}

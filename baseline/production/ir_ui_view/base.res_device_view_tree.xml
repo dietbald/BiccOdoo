@@ -1,0 +1,10 @@
+<list default_order="last_activity desc">
+                    <field name="user_id"/>
+                    <field name="display_name" string="Name"/>
+                    <field name="ip_address"/>
+                    <field name="first_activity"/>
+                    <field name="last_activity"/>
+                    <field name="country" optional="hidden"/>
+                    <field name="city" optional="hidden"/>
+                    <button type="object" name="revoke" string="Revoke" class="btn btn-secondary"/>
+                </list>

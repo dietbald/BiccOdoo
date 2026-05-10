@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 31,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._iap_enrich_leads_cron()",
+    "interval_number": 24,
+    "interval_type": "hours",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "CRM: enrich leads (IAP)",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "160a93603e1b071a5e7ecc94a65f5a3cefc8e9de3ecbfffe63633c27325a2c37",
+  "write_date": "2025-12-09 02:59:13",
+  "xml_id": "crm_iap_enrich.ir_cron_lead_enrichment"
+}

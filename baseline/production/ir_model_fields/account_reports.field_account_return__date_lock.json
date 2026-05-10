@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28922,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lock Date",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "date_lock",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "fcecc28f8c5fe2dc368c895ec9ba324d8b649da776a0422c5465e84050e4fa4f",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__date_lock"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8009,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stages To Delete",
+    "model_id": [
+      610,
+      "Project Task Stage Delete Wizard"
+    ],
+    "name": "stage_ids",
+    "relation": "project.task.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "542326326269babf7f96840e7949c4d5d846407e1a9c153b5dc3f947dc8d67a1",
+  "write_date": "",
+  "xml_id": "project.field_project_task_type_delete_wizard__stage_ids"
+}

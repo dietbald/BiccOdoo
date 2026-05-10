@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1808,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      158,
+      "Mail Main Attachment management"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1c7b77fb5508872125f19ad02ac006f6493d0cc0317460dfe87e6e222177cc36",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_main_attachment__message_is_follower"
+}

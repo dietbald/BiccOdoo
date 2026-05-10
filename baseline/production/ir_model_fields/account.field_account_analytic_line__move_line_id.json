@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4910,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Item",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "move_line_id",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a4d404d5da00bb962dd4f65c4e6bfd1b547d566c927c92b4c77116942206993c",
+  "write_date": "",
+  "xml_id": "account.field_account_analytic_line__move_line_id"
+}

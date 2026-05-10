@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8106,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Re-Invoice Costs",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "expense_policy",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f8c1a2f25ebb78bf8339934a8a5c15251c6b5bb4b0a79296fcf882a056a2d72d",
+  "write_date": "",
+  "xml_id": "sale.field_product_product__expense_policy"
+}

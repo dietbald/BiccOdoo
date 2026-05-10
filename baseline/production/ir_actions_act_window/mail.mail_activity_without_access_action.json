@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 122,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "['|', ('id', 'in', context.get('active_ids')), '&', ('res_model', '=', False), ('user_id', '=', uid)]",
+    "name": "Other activities",
+    "res_model": "mail.activity",
+    "target": "main",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "ffeb7ec99a544d1d00d5fc3182254049aa0c9edcb3453a40bd34a512b580a9ac",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.mail_activity_without_access_action"
+}

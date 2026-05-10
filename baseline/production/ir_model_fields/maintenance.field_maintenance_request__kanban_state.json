@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18181,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Kanban State",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "kanban_state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0ae08c2298337209c2c731580c784afecb8cc8bffb2bb1c5e539464d42ba4ef9",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__kanban_state"
+}

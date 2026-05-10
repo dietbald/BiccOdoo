@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1882,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      143,
+      "Accounting / Invoicing & Banks"
+    ],
+    "model_id": [
+      485,
+      "Fiscal Year"
+    ],
+    "name": "account.fiscal.year.basic",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "23a2175ea630b9416dd2960d1996bff90d7f65a071677f2a1e88ae84ba185338",
+  "write_date": "2025-12-09 02:57:43",
+  "xml_id": "account_accountant.access_account_fiscal_year_basic"
+}

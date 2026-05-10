@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14352,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      901,
+      "Merge Mass Mailing List"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7893c931f72c71f6524f1276be65a09a02e053489f582b02160d5ba59fa7b20d",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_list_merge__create_uid"
+}

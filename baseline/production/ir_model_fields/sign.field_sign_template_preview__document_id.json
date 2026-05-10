@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27445,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document",
+    "model_id": [
+      1942,
+      "Sign Tempate Preview"
+    ],
+    "name": "document_id",
+    "relation": "sign.document",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "47ef043d15ca4cd287ed05908ac689cefcf6e07bfadb6b1edc03b8a6fe41d2a5",
+  "write_date": "",
+  "xml_id": "sign.field_sign_template_preview__document_id"
+}

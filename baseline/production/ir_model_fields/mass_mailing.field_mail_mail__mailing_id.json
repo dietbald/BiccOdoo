@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14285,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mass Mailing",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "mailing_id",
+    "relation": "mailing.mailing",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6eed7b429bbef0f4d31bd4d7f5588da085a5a1530ca1afbe7d8e7be19c42686f",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mail_mail__mailing_id"
+}

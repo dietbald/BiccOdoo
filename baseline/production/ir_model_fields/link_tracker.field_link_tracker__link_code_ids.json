@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14041,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Codes",
+    "model_id": [
+      886,
+      "Link Tracker"
+    ],
+    "name": "link_code_ids",
+    "relation": "link.tracker.code",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6bbbbde92697903016dd16916b7791f214bac3d1948e70d71c8ae5e31bc3ec82",
+  "write_date": "",
+  "xml_id": "link_tracker.field_link_tracker__link_code_ids"
+}

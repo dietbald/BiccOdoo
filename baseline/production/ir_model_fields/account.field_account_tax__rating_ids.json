@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7584,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "53190a55d2f536ae6b498e40c444a4501991d743f17ee6bed77bd665ae756c10",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__rating_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1364,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "hr.holidays.employee.allocation",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "199e127d605c2bbdc7e0d4e439176cb9c4ba8505402e087110e7b45a3938219c",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.access_hr_holidays_employee_allocation"
+}

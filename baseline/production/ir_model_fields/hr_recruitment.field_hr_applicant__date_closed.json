@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9624,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hire Date",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "date_closed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "44e3a61cc828dcd45fed0844f474d4d83f5e9a6c607688529f154cec8cc86d8c",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__date_closed"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11960,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Receipt Status",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "receipt_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "85e0184b9ea94c51a5383f251306da1514010bcfe2573e032f6f4dc141cc734b",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order__receipt_status"
+}

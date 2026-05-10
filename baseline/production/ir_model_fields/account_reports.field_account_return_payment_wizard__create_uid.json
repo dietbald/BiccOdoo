@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29037,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3601,
+      "Returns Generic Payment Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3e981e02c79f17d1b88cfaa57a59decc6ea769a71897d1ea180c7f5c2a66a675",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_payment_wizard__create_uid"
+}

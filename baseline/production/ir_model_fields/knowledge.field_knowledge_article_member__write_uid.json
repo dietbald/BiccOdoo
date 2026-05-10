@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12239,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      789,
+      "Article Member"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "064d03745f82d31512b7b0c1ecc924c7a56327226f5dfcadca49df638cc4a261",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_member__write_uid"
+}

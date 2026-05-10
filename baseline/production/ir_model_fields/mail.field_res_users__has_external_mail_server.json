@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27050,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has External Mail Server",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "has_external_mail_server",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "21b326061ee20e9c06d8d52ddf384df7378f3dde682de3d33fcf9bf7eff2beb4",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__has_external_mail_server"
+}

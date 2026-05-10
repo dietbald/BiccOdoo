@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Date Deadline",
+    "model_id": [
+      2985,
+      "Mail Activity Schedule Line"
+    ],
+    "name": "line_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "efe0b0a78f03b73838bd2eb3cd5b5db9ff07a2155452d335365dc7621d51bd17",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_schedule_line__line_date_deadline"
+}

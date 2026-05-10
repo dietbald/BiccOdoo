@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 100,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      23
+    ],
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "Readonly Move Line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "120d0f3920845cd0ebd93bc8e38f59bc4f0250f77088f4a3713323b82357c628",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_move_line_rule_group_invoice"
+}

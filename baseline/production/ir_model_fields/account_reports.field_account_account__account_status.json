@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29013,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Status",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "account_status",
+    "relation": "account.audit.account.status",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fc1f495a8e058d125632f620464b50bc9675415db265ac9bd21e6096d8ac9a97",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_account__account_status"
+}

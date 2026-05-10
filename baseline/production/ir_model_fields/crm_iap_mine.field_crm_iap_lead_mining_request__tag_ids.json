@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7486,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      592,
+      "CRM Lead Mining Request"
+    ],
+    "name": "tag_ids",
+    "relation": "crm.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b34e5008e2e81c808ee6423c97260256e7bb8df5f4a4a4f8fc10bc7ff3cae5e3",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_mining_request__tag_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 203,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "Sales Advance Payment Invoice Rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "dd307c77177c133fe49853c718bc2e2ac8402d21167eaa3b6dea6b77246cf205",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.sale_advance_payment_inv_rule"
+}

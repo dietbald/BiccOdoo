@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7541,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      594,
+      "Rating Mixin"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f5d3db46b641ae7b2bc10dae89190f7b77a83b3610331a38ace20588aab1e850",
+  "write_date": "",
+  "xml_id": "rating.field_rating_mixin__message_ids"
+}

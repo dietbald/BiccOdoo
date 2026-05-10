@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9667,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "61e065d30ad81c6f26daeed2535da0267ab9310c635f635b4b5c3aa09bf0cab1",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__write_uid"
+}

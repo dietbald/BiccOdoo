@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16393,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock After Manufacturing Operation Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "sam_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "052619938d167efa7015d5f106375510505ec2cceb873df8bf64b8571aacd36b",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_warehouse__sam_type_id"
+}

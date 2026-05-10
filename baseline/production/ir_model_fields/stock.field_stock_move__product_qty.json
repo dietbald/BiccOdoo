@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10934,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Real Quantity",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "product_qty",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "f55b41373c1c63fb1b1d1702a3cc2d1a27bc5ec81bc228ec6d1fccbc3e3ca4bc",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__product_qty"
+}

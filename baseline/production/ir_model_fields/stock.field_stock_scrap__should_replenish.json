@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11415,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Replenish Quantities",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "should_replenish",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a47e223b724060de15231d39c71eae4594f472e4dd6f8ef3c1f8a84dbfab0336",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__should_replenish"
+}

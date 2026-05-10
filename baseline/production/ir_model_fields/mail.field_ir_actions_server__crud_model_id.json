@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 347,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Record to Create",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "crud_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "232104e765eb7d382dfac7fe21d3a96f627b3dea452ab5d452ff1e82aeb0eec8",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__crud_model_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11270,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contact",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a6ff913e2062fc7e3a47788e7d30e3478b88dabc265b2bc6a47406215220a20b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__partner_id"
+}

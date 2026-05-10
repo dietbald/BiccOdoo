@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1754,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias Domain",
+    "model_id": [
+      151,
+      "Email Aliases Mixin (light)"
+    ],
+    "name": "alias_domain_id",
+    "relation": "mail.alias.domain",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "69bb262f4be27e3de45b6c7a41fe096611ac334042d2a70d69cd6b0d81785021",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias_mixin_optional__alias_domain_id"
+}

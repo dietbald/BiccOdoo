@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1947,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      167,
+      "Mail Blacklist"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "85117029b7fc81f9b203e2d9e0bd43f447650388a5c6300abebb870813ebaabe",
+  "write_date": "",
+  "xml_id": "mail.field_mail_blacklist__message_partner_ids"
+}

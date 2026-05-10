@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8960,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee's Working Hours",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "employee_resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6292fd2c68754cde607c6bc734c73c88250fd9f3609b99eb972cb7f3edb6a583",
+  "write_date": "",
+  "xml_id": "hr.field_res_users__employee_resource_calendar_id"
+}

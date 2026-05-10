@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20246,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Currency",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "company_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "840d5e4803d31741d363e0dff2b3ff48bfc4604f64fbebf911584874b437fe3b",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__company_currency_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12348,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      793,
+      "Knowledge Cover"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5aba1234b0bf16a41204627384a8268ab7f9dc4527eb55ee18d28cd56fbb1499",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_cover__create_uid"
+}

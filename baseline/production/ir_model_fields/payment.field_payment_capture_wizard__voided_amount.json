@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3755,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Already Voided",
+    "model_id": [
+      411,
+      "Payment Capture Wizard"
+    ],
+    "name": "voided_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "a9012b43679a0120908186f125a159c6fd12a38f681091459fd9a84f4fdd9f01",
+  "write_date": "",
+  "xml_id": "payment.field_payment_capture_wizard__voided_amount"
+}

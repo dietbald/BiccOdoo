@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2369,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eb4e4754fa08a2304e9892b41d1d18d5927e0c75bf377a958f8d6f62d821cb81",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__message_needaction"
+}

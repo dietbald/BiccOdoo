@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1830,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Keep Original",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "original",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b0f2787497522f52a576ade0bcbeeef6d89cfeb22edfed7fe264827be8390358",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__original"
+}

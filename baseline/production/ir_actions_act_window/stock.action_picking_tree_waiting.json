@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 726,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'contact_display': 'partner_address', 'search_default_waiting': 1}",
+    "domain": "",
+    "name": "Waiting Transfers",
+    "res_model": "stock.picking",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,map"
+  },
+  "payload_sha256": "746456614cc2195ca7ab303fc072edc2c5ec5e9291630bdc4d012ab98e1dc99e",
+  "write_date": "2025-12-09 02:58:55",
+  "xml_id": "stock.action_picking_tree_waiting"
+}

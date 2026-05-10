@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3722,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Transaction",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "source_transaction_id",
+    "relation": "payment.transaction",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4dc25e1dd0b855a87de7965fac668d669aa5d7c14fb31bc1877cd73d011709da",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__source_transaction_id"
+}

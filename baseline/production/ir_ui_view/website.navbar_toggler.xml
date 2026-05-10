@@ -1,0 +1,5 @@
+<t name="Navbar Toggler" t-name="website.navbar_toggler">
+    <button type="button" t-attf-class="navbar-toggler #{_toggler_class} o_not_editable" data-bs-toggle="offcanvas" data-bs-target="#top_menu_collapse" aria-controls="top_menu_collapse">
+        <span class="navbar-toggler-icon o_not_editable"/>
+    </button>
+</t>

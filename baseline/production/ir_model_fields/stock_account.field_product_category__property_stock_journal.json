@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11843,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Journal",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "property_stock_journal",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d0a02d3196a3673986e2f40149ad0a2ae6b6b8397a431191068ae49880afaf6c",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_category__property_stock_journal"
+}

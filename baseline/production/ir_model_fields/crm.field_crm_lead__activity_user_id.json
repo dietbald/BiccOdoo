@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7158,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a05a65da0c6c9595510a9721d11f70dd303bb5eefb11bdcb7e007b6065fa19cc",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__activity_user_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15176,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Computes if alert is present",
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "disable_save_button",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d82178e795a597902042c7ce7d32275fdb3b446ca267a43366de16cc457ad386",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_invite__disable_save_button"
+}

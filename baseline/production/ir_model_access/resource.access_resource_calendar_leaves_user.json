@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 182,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "resource.calendar.leaves",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "931bd4bf56be8938c2a07e52e88545214ddb5326657701cffdfde252bd51df72",
+  "write_date": "2025-12-09 02:55:42",
+  "xml_id": "resource.access_resource_calendar_leaves_user"
+}

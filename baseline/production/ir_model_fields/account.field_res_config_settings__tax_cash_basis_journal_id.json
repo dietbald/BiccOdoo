@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5039,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Cash Basis Journal",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "tax_cash_basis_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "99da5a4cd71431b89842c40f54803a94225aed3dc5c8ada31193852a3000cb1b",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__tax_cash_basis_journal_id"
+}

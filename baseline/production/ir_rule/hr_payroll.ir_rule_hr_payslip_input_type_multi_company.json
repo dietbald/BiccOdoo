@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 359,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('country_id', '=', False), ('country_id', 'in', user.env.companies.mapped('country_id').ids)]",
+    "groups": [],
+    "model_id": [
+      824,
+      "Payslip Input Type"
+    ],
+    "name": "HR Payslip Input Type: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7814c91e79f0dc15987e619d75643fbcc704a92e77679d793683f7030b3fb2c6",
+  "write_date": "2023-12-05 05:18:50",
+  "xml_id": "hr_payroll.ir_rule_hr_payslip_input_type_multi_company"
+}

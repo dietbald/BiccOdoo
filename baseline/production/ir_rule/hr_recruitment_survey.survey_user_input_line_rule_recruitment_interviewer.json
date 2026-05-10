@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 609,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '|',\n                    ('user_input_id.applicant_id.interviewer_ids', 'in', user.id),\n                    ('user_input_id.applicant_id.job_id.interviewer_ids', 'in', user.id),\n                ]",
+    "groups": [
+      61
+    ],
+    "model_id": [
+      923,
+      "Survey User Input Line"
+    ],
+    "name": "Survey user input line: recruitment interviewer: read survey answers for which they are set as interviewer",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "28c4604032db2d34dec5c0c7dc85749ca73991ba4dcd548ed9da6bb997fa60b8",
+  "write_date": "2024-10-23 10:50:01",
+  "xml_id": "hr_recruitment_survey.survey_user_input_line_rule_recruitment_interviewer"
+}

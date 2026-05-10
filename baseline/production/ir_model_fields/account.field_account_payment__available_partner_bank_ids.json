@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4556,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Partner Bank",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "available_partner_bank_ids",
+    "relation": "res.partner.bank",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "64c58d0ae20d35257fe6b4ce495d1cbda48047326d173ba46674cecc3005df3d",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__available_partner_bank_ids"
+}

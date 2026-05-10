@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20044,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination location origin from rule",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "location_dest_from_rule",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7a0300911d8751f45274b4752e18131cfff0161a631aefa0891b78362b05df1f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__location_dest_from_rule"
+}

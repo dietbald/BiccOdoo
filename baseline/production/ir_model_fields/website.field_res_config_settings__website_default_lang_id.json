@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10076,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default language",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "website_default_lang_id",
+    "relation": "res.lang",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d20c0d14c7d03c4cbc023600f3cd0d47d1a8e9cfb1857c1ba714f0bdd9dd992a",
+  "write_date": "",
+  "xml_id": "website.field_res_config_settings__website_default_lang_id"
+}

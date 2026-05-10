@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 569,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('create_uid', '=', user.id), ('group_ids', 'in', user.all_group_ids.ids)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      180,
+      "Canned Response"
+    ],
+    "name": "Canned response: User read: own or in groups",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "153ffa1de72f0d2fe9349212697adc8c5376b3040ef142de68356ecf988be228",
+  "write_date": "2024-10-23 10:43:22",
+  "xml_id": "mail.ir_rule_mail_canned_response_user_read"
+}

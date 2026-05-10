@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3811,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      416,
+      "Fiscal Position"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1eeea229a9774e685b9ac2e63afb10179d781e9468f09164c83aff5027e92d66",
+  "write_date": "",
+  "xml_id": "account.field_account_fiscal_position__company_id"
+}

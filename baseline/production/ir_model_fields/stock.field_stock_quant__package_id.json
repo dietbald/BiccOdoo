@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11315,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Package",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "package_id",
+    "relation": "stock.package",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78da8a21466a2eb5e4a2e378b816a37bfeab312bd9a86b5ac458114938a2cc0b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__package_id"
+}

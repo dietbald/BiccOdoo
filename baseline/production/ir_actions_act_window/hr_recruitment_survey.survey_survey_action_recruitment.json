@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1306,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'default_survey_type': 'recruitment',\n            }\n        ",
+    "domain": "[('survey_type', '=', 'recruitment')]",
+    "name": "Interviews",
+    "res_model": "survey.survey",
+    "target": "current",
+    "view_mode": "kanban,list,activity,form"
+  },
+  "payload_sha256": "8b314cd991e11a54fa7fa533e8a66939dd7e81d951d07d52a84eaee6b91e411d",
+  "write_date": "2026-01-28 12:01:54",
+  "xml_id": "hr_recruitment_survey.survey_survey_action_recruitment"
+}

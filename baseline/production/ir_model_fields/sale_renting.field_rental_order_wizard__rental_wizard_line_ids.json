@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rental Wizard Line",
+    "model_id": [
+      2749,
+      "Pick-up/Return products"
+    ],
+    "name": "rental_wizard_line_ids",
+    "relation": "rental.order.wizard.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "97e1e1c09beb5274222e328d33ea6550bbdd7853d566f0e7d17056abf29d4c55",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard__rental_wizard_line_ids"
+}

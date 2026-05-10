@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 53156,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3934,
+      "BIR Annual Declaration Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dd3f9ec24fa2d70cf015b46b1bfb1eab248f1e399b05bbf98d63971fd02598bc",
+  "write_date": "",
+  "xml_id": null
+}

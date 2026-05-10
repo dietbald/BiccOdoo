@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8142,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bf05653a116bbeb12e330e252421bcf17ef91fd7c1517bb9b4b021f0d27086d7",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__activity_calendar_event_id"
+}

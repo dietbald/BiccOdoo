@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3520,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Phone Blacklisted",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "phone_sanitized_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5646ff3825ccac27a1a72f0745b4250408d9cc4d3cf2ed92c72db0c21ce0682b",
+  "write_date": "",
+  "xml_id": "phone_validation.field_res_users__phone_sanitized_blacklisted"
+}

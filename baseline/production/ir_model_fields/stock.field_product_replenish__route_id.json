@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11721,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Preferred Route",
+    "model_id": [
+      768,
+      "Product Replenish"
+    ],
+    "name": "route_id",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f7d162239664b17710a4804d4b03e7dd3261a6e51305d82f5df4085931b393fc",
+  "write_date": "",
+  "xml_id": "stock.field_product_replenish__route_id"
+}

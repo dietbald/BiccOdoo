@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1400,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "mrp.production stock_worker",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "118991c6f6b5ee24fdd63d8e994ecdc972adb0f85510b0e858fbac7d04c72a37",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_production_stock_worker"
+}

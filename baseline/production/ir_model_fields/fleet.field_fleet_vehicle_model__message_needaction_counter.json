@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19559,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "7b093446c825c5b85eefeac9ba05fe42ccecbb3ae3ec1b0890555d7875ce7f93",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__message_needaction_counter"
+}

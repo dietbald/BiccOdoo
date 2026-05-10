@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 53199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Lines",
+    "model_id": [
+      3932,
+      "BIR Annual Declaration"
+    ],
+    "name": "x_line_ids",
+    "relation": "x_bir_annual_line",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9102a6a8c49d97d2418f7c80901bab81a2ca48aca7d570e8b025b74b85ce8dac",
+  "write_date": "2026-04-20 03:51:20",
+  "xml_id": null
+}

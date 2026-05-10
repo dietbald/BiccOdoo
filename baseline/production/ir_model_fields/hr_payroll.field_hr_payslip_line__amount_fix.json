@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12940,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fixed Amount",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "amount_fix",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "e5426e4e44622d3a11b5a5809d11d3ab1a2d3d229f47fed82d273223fa21e97b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__amount_fix"
+}

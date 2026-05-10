@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30058,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tools",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "ai_tool_ids",
+    "relation": "ir.actions.server",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d6a87628c1f7c67595015cdec33f033e5591e0b02462e5eae58a7dac8e7f4716",
+  "write_date": "",
+  "xml_id": "ai.field_ir_cron__ai_tool_ids"
+}

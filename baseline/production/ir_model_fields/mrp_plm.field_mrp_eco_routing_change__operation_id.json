@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17582,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation Id",
+    "model_id": [
+      1021,
+      "Eco Routing changes"
+    ],
+    "name": "operation_id",
+    "relation": "mrp.routing.workcenter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f4e6c8b0b6bc5068829e841c6c17ad1dbeb1174bbfcf00965ae551570e2e0003",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_routing_change__operation_id"
+}

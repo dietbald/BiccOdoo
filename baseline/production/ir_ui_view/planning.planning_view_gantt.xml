@@ -1,0 +1,11 @@
+<gantt js_class="planning_gantt" form_view_id="3503" kanban_view_id="6284" multi_create_view="planning.shifts_template_for_multi_create_in_calendar_view" date_start="start_datetime" date_stop="end_datetime" default_group_by="resource_id" default_range="week" default_scale="week" color="color" plan="false" string="Schedule" total_row="True" scales="day,week,month,quarter,year" precision="{'day': 'hour:full', 'week': 'day:full', 'month': 'day:full', 'year': 'day:full'}" decoration-info="state == 'draft'" decoration-warning="publication_warning or (request_to_switch and not is_past and not allow_self_unassign)" decoration-danger="overlap_slot_count &gt; 0" display_unavailability="1" sample="1" progress_bar="resource_id" pill_label="True">
+                <field name="allocated_hours"/>
+                <field name="allocated_percentage"/>
+                <field name="recurrency_id"/>
+                <field name="repeat" invisible="1"/>
+                <field name="state"/>
+                <field name="request_to_switch"/>
+                <field name="allow_self_unassign"/>
+                <field name="employee_id"/>
+                <field name="resource_id"/>
+            </gantt>

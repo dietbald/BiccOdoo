@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17609,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Step Type",
+    "model_id": [
+      1021,
+      "Eco Routing changes"
+    ],
+    "name": "test_type",
+    "relation": "quality.point.test_type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "731296bb0f178388b3c60506d545882be3fe1515610099a4fe8476ee79ab19d6",
+  "write_date": "",
+  "xml_id": "mrp_workorder_plm.field_mrp_eco_routing_change__test_type"
+}

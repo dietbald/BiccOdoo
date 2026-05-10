@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7688,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deadline",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "68e4bcd107aad0201a2c541bbacc93b8b92432375fc3cde93ef802a9801c8252",
+  "write_date": "",
+  "xml_id": "project.field_project_task__date_deadline"
+}

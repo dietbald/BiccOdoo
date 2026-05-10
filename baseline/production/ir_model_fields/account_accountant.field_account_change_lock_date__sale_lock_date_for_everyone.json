@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22745,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lock Sales For Everyone",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "sale_lock_date_for_everyone",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "20a349352331a25e7d4982198a3e8a1dbc67fd9bed5ca26738ff845bd0bad79f",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__sale_lock_date_for_everyone"
+}

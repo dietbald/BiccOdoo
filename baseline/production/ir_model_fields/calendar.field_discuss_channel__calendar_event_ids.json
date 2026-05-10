@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27128,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Calendar Event",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "calendar_event_ids",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b7fb98727733ec4c01c02d58cf95315d9dcc38ef00d0776b705301ec6c24cc77",
+  "write_date": "",
+  "xml_id": "calendar.field_discuss_channel__calendar_event_ids"
+}

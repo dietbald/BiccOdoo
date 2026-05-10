@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 454,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('has_template_ancestor', '=', False)]",
+    "name": "Partner's Tasks",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "kanban,list,form,gantt,calendar,map,pivot,graph,activity"
+  },
+  "payload_sha256": "ee073e81bd89b54a313894003da2d4db25bc5668234b55c92f0066142074faec",
+  "write_date": "2025-12-09 02:58:41",
+  "xml_id": "project.project_task_action_from_partner"
+}

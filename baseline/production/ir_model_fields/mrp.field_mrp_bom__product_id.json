@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15917,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Variant",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bae807ceb60425a709ee0a362c81fd41f1b93209a6b6e16f37aaa33600a09732",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom__product_id"
+}

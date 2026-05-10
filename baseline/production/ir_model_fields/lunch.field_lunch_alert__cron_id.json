@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18849,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cron",
+    "model_id": [
+      1072,
+      "Lunch Alert"
+    ],
+    "name": "cron_id",
+    "relation": "ir.cron",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f0f499ad8ff6a8b0545bbd1259e1bd12fdaef1a194e0d823fb271257ac34d6ac",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_alert__cron_id"
+}

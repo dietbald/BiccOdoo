@@ -1,0 +1,16 @@
+<data><xpath expr="/kanban/field[@name='progress']" position="attributes">
+                <attribute name="name">portal_progress</attribute>
+            </xpath>
+            <xpath expr="/kanban/field[@name='remaining_hours']" position="attributes">
+                <attribute name="name">portal_remaining_hours</attribute>
+            </xpath>
+            <xpath expr="//t[@t-set='badge' and @t-if='record.progress.raw_value &gt;= 0.8 and record.progress.raw_value &lt;= 1']" position="attributes">
+                <attribute name="t-if">record.portal_progress.raw_value &gt;= 0.8 and record.portal_progress.raw_value &lt;= 1</attribute>
+            </xpath>
+            <xpath expr="//t[@t-set='badge' and @t-if='record.remaining_hours.raw_value &lt; 0']" position="attributes">
+                <attribute name="t-if">record.portal_remaining_hours.raw_value &lt; 0</attribute>
+            </xpath>
+            <xpath expr="//t[@name='allocated_hours']//field[@name='remaining_hours']" position="attributes">
+                <attribute name="name">portal_remaining_hours</attribute>
+            </xpath>
+        </data>

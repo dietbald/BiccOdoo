@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7000,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      568,
+      "Calendar Filters"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f78f5ff1c3760ca173269404da07330f4a1e8f7690289c59cbb55eea92099105",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_filters__create_uid"
+}

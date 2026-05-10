@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1702,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_open_shifts': 1}",
+    "domain": "[('start_datetime', '!=', False), ('end_datetime', '!=', False)]",
+    "name": "Open Shifts",
+    "res_model": "planning.slot",
+    "target": "current",
+    "view_mode": "calendar,gantt,list,form,kanban,pivot,graph"
+  },
+  "payload_sha256": "a9cf158d0dd1c0365d93e65574ab5743b5b739ffc34af8724b8b07f8d88050a5",
+  "write_date": "2025-12-09 02:59:29",
+  "xml_id": "planning.planning_action_open_shifts"
+}

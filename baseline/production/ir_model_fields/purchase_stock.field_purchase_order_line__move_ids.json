@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reservation",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "move_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8f29e953d131014520cbf4bd7019aaf777a7cbfdba29b5c11552554281942006",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order_line__move_ids"
+}

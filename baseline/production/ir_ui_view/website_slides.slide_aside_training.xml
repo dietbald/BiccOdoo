@@ -1,0 +1,18 @@
+<t name="Slide: Sidebar in Training" t-name="website_slides.slide_aside_training">
+    <div class="o_wslides_lesson_aside_list position-relative bg-white border-bottom mt-4">
+        <div class="bg-100 text-1000 h6 my-0 text-decoration-none border-bottom d-flex align-items-center justify-content-between">
+            <span class="p-2">Course content</span>
+            <a href="#collapse_slide_aside" data-bs-toggle="collapse" class="d-lg-none p-2 text-decoration-none o_wslides_lesson_aside_collapse">
+                <i class="oi oi-chevron-down d-lg-none"/>
+            </a>
+        </div>
+        <ul id="collapse_slide_aside" class="list-unstyled my-0 pb-3 collapse d-lg-block">
+            <t t-set="i" t-value="0"/>
+            <t t-if="category.get('slides')" t-foreach="category_data" t-as="category">
+                <t t-call="website_slides.slide_aside_training_category">
+                    <t t-set="category_slide_ids" t-value="category['slides']"/>
+                </t>
+            </t>
+        </ul>
+    </div>
+</t>

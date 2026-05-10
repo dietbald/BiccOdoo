@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29185,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approved Time Off",
+    "model_id": [
+      3627,
+      "Attendance and Leave Analysis Report"
+    ],
+    "name": "leave_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "ca7f6e7ca2b76ca913a1f42e93e71fe13e127d61fb42fff681764b9cc0867ceb",
+  "write_date": "",
+  "xml_id": "hr_holidays_attendance.field_hr_leave_attendance_report__leave_hours"
+}

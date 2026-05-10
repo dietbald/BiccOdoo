@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27285,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e7b63bfcbeec1a2cec17843dad1d9415a8273d19f9604e2597ee274663718d93",
+  "write_date": "",
+  "xml_id": "portal.field_ir_actions_server__website_message_ids"
+}

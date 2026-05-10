@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 842,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      665,
+      "Applicant Degree"
+    ],
+    "name": "hr.recruitment.degree",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f66973dd3d31d0e656c944d8cba31a8313daa0ac31241c5fc27a9bbe67cf84fe",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_hr_recruitment_degree"
+}

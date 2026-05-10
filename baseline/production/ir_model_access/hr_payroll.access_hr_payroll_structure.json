@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1140,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      95,
+      "Payroll / Officer: Manage all contracts"
+    ],
+    "model_id": [
+      816,
+      "Salary Structure"
+    ],
+    "name": "hr.payroll.structure",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a5fd21bb776a5d2c2f467070d5f7f35164425102245551c3bbc33ae978b45f7c",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_payroll_structure"
+}

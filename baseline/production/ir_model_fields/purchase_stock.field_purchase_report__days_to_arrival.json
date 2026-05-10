@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23416,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Effective Days To Arrival",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "days_to_arrival",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "f018abe94ba91c1a41706a057116fce48230d25f6ee7fabd8264bc07ac6ec5ed",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_report__days_to_arrival"
+}

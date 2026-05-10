@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6085,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reversal Date",
+    "model_id": [
+      523,
+      "Multicurrency Revaluation Wizard"
+    ],
+    "name": "reversal_date",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "24333bd99c66e8a34981526a229d33d71eccefb6d957de929e860d38c6f89a73",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_multicurrency_revaluation_wizard__reversal_date"
+}

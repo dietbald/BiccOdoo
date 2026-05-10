@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Hours",
+    "model_id": [
+      822,
+      "Payslip Worked Days"
+    ],
+    "name": "number_of_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "15dcf6878a322cf00c217c8c148fc69807bb049e8157ce1ee765921632fd7a95",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_worked_days__number_of_hours"
+}

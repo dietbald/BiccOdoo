@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8975,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract End Date",
+    "model_id": [
+      637,
+      "Departure Wizard"
+    ],
+    "name": "departure_date",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "92e546b57d45f51972ae53075006b00e143bc5e11dcaa082143c6c9c33aec6b8",
+  "write_date": "",
+  "xml_id": "hr.field_hr_departure_wizard__departure_date"
+}

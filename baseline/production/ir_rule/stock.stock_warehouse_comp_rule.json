@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 292,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "Warehouse multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "563a5b171d7bf54ca031819e9f9a59450d60bdaaef506133cd909908a5a71ade",
+  "write_date": "2023-12-01 13:14:20",
+  "xml_id": "stock.stock_warehouse_comp_rule"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 253,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      348,
+      "Module Activation Request"
+    ],
+    "name": "access_base_module_install_request",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "8ddfe544a7c3f77af7f4c738db8cb17dd679e1728aa9371d2ea8bf6184d36a82",
+  "write_date": "2025-12-09 02:55:52",
+  "xml_id": "base_install_request.access_base_module_install_request"
+}

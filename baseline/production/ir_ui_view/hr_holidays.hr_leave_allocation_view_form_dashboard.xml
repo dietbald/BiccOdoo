@@ -1,0 +1,25 @@
+<data><xpath expr="//header" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//group[@id='full_group']" position="before">
+                <xpath expr="//group[@id='alloc_left_col']" position="move"/>
+            </xpath>
+            <xpath expr="//group[@id='full_group']" position="replace"/>
+            <div name="button_box" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </div>
+            <div name="validity_label" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </div>
+            <label for="number_of_days_display" position="attributes">
+                <attribute name="string">Ask for</attribute>
+            </label>
+            <div name="validity" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </div>
+            <div id="title" position="replace"/>
+            <label for="date_from" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </label>
+            <chatter position="replace"/>
+        </data>

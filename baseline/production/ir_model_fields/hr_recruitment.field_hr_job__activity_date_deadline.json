@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25054,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "b14ed7347b18eef0be6a2e49d5d94fc4bb78ab0a9ab8885c5632a7431fb97c00",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__activity_date_deadline"
+}

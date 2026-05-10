@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1916,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      61,
+      "Recruitment / Interviewer"
+    ],
+    "model_id": [
+      2703,
+      "Add applicants to talent pool"
+    ],
+    "name": "access.talent.pool.add.applicants.interviewer",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "16d0f21750f531ca6d8abfe8a82a0a30887786fce13541ce95fbf3a921173c66",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_talent_pool_add_applicants_interviewer"
+}

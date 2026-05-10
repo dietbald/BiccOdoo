@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 44,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n                [\n                    ('is_self', '=', False),\n                    ('channel_id.channel_type', 'not in', ('channel', 'chat')),\n                    ('channel_id.is_member', '=', True)\n                ]\n            ",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "discuss.channel.member: internal users can invite others in channels they are member of",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "15088903a63863cdad47e94fd9157274b09fe5d47a485267f7d4de58c7d6e974",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.ir_rule_discuss_channel_member_create_is_member_group_user"
+}

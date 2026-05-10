@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29529,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Multiple Payslips",
+    "model_id": [
+      3714,
+      "Payslip Correction Wizard"
+    ],
+    "name": "is_multi_payslip",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0d0c91ed5f0b1ce591b95ce530fb4f98f7a0cd1fdb55479d0ac18ff60f216de2",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_correction_wizard__is_multi_payslip"
+}

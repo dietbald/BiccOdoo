@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6349,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reminders",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "followup_reminder_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7ddc8555135f63f29a518599731a394bb37d58985e058f09545bb2dcef3da50c",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_users__followup_reminder_type"
+}

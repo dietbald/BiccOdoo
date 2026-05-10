@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13407,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hourly Cost",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "hourly_cost",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "8be78ac1f017d7295f94b8bfdc66033972d50777295931b6f469f807074d2fa2",
+  "write_date": "",
+  "xml_id": "hr_hourly_cost.field_hr_employee__hourly_cost"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 963,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "stock.quant user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "2f42ae2cffc743e6406cc7c6b4e53a51404fa223ad3606669b377b8d0393b197",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_quant_user"
+}

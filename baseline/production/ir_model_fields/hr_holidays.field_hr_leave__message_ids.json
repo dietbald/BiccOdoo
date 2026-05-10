@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15487,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6d59c6ea402d5a9b83afcf5d1e9a301a912201cf6665b96d3d61fee735869844",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__message_ids"
+}

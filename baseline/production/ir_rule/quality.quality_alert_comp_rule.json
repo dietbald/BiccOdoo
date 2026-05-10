@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 471,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "Quality alert company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c1c94917eb5e8782853f03ad980f6fe1d578f5f8dc04abb0fcd5bba0bfd4d4c4",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "quality.quality_alert_comp_rule"
+}

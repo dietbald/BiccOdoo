@@ -1,0 +1,16 @@
+<kanban highlight_color="color">
+                <templates>
+                    <t t-name="menu" t-if="!selection_mode">
+                        <field name="color" widget="kanban_color_picker"/>
+                    </t>
+                    <t t-name="card" t-attf-class="#{!selection_mode ? record.color.raw_value : ''}">
+                        <field class="fw-bold fs-5" name="name"/>
+                        <span class="text-muted">
+                            <field name="code"/>
+                            <t t-if="record.display_code.raw_value" class="text-muted">
+                                (<field name="display_code"/>)
+                            </t>
+                        </span>
+                    </t>
+                </templates>
+            </kanban>

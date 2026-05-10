@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22739,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lock Tax Return For Me",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "tax_lock_date_for_me",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "ccbd76e737f4e96c6a4e48d681d1e77136996aa770cb65ae1f81f73299774558",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__tax_lock_date_for_me"
+}

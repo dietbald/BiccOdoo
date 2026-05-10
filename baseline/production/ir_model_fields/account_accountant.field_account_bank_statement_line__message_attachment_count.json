@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4793,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment Count",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "message_attachment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "025dfd79caf56e8aad8e0fc6acd7d3263468adaeb5f5df9ece82c6dbc9e96eb8",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_bank_statement_line__message_attachment_count"
+}

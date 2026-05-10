@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 245,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_in_refund': 1, 'default_move_type': 'in_refund'}",
+    "domain": "[('move_type', 'in', ['in_invoice', 'in_refund'])]",
+    "name": "Refunds",
+    "res_model": "account.move",
+    "target": "current",
+    "view_mode": "list,kanban,form,activity"
+  },
+  "payload_sha256": "c42529ca4ad883305d8a9e0e7d6c8c5c2f29437e452d73b7543234182a86dc85",
+  "write_date": "2025-12-09 02:58:59",
+  "xml_id": "account.action_move_in_refund_type"
+}

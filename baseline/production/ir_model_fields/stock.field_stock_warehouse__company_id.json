@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11355,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4119088e4430cd94545bf3659b920f9c9dcf50872c31382546f67827fb501f57",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__company_id"
+}

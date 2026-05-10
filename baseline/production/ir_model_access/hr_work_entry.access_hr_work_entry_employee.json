@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1138,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      813,
+      "Work Entries Employees"
+    ],
+    "name": "access_hr_work_entry_employee",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e11c16aa97b2637adb3085aa625eeb370c76d4f859323deca606b9fb64bd3c7d",
+  "write_date": "2025-12-09 02:58:32",
+  "xml_id": "hr_work_entry.access_hr_work_entry_employee"
+}

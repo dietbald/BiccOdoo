@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1599,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_year': True,\n                }",
+    "domain": false,
+    "name": "Offer Analysis",
+    "res_model": "hr.contract.recruitment.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "1b9442e879c9b032ebdcf5e273015b714402d38e91f93655854b354dde9dc3e8",
+  "write_date": "2025-12-09 02:59:17",
+  "xml_id": "hr_contract_salary.contract_recruitment_report_action"
+}

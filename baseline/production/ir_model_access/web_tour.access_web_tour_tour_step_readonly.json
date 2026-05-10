@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1737,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1321,
+      "Tour's step"
+    ],
+    "name": "access_web_tour_tour_step_readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "cdc2479b167a70f19a6043873a4dad8d64125e6986ec86d9f428c2212ca08d12",
+  "write_date": "2025-12-09 02:55:44",
+  "xml_id": "web_tour.access_web_tour_tour_step_readonly"
+}

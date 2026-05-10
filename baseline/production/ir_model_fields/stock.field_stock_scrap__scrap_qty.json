@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11412,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "scrap_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "686c1f5d0cd08445029088631c95a54564f0a16c92e14ece51a34840673b81dd",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__scrap_qty"
+}

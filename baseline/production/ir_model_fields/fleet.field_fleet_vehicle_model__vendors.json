@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16976,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendors",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "vendors",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b8ac4420f5a5c9b54860eb6b6d78dc8c650d33cefc820a789f74fd01f1803469",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__vendors"
+}

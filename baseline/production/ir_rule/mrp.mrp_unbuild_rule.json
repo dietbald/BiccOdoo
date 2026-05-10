@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 463,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      971,
+      "Unbuild Order"
+    ],
+    "name": "mrp_unbuild multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "74188c5deed4b5b465726aec98a918b179be7208190ce15e2b73b52bb17e236b",
+  "write_date": "2024-05-05 07:22:23",
+  "xml_id": "mrp.mrp_unbuild_rule"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 307,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('partner_id', '=', user.partner_id.id), ('sale_id.partner_id', '=', user.partner_id.id)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "Portal Follower Transfers",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a72eff41dc9393af0c1fe973f3e2cdc9960f30af0308b63ffa26c6fb29b2d29a",
+  "write_date": "2023-12-01 13:14:34",
+  "xml_id": "sale_stock.stock_picking_rule_portal"
+}

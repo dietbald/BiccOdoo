@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 151,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      41
+    ],
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "Project: project manager: see all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e03ab152aa7828d63a4430345867864dcc675e60bc4f11a664356258c7193351",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.project_project_manager_rule"
+}

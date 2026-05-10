@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 443,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_allow_billable': True, 'sale_show_partner_name': True, 'display_milestone_deadline': True}",
+    "domain": "[('is_template', '=', False)]",
+    "name": "Projects",
+    "res_model": "project.project",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "de43ec2642b3d32670460e993ba817ff3770567cb35aeeb8d12d712b9e9f3cd6",
+  "write_date": "2025-12-09 03:00:35",
+  "xml_id": "project.open_view_project_all_config"
+}

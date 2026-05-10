@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22471,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a6a848d2c6ec3f148e6d8352c2fa98645351e6fe87a52938e7ece7d253555c1d",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__activity_calendar_event_id"
+}

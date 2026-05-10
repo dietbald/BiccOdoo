@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9400,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order Lines",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "order_line",
+    "relation": "purchase.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "662a7301e42dc1ee07750aa1282cffbb5e0b636925914c4fdb27664111ed7feb",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__order_line"
+}

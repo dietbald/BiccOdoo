@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27769,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Private Country",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "private_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "28bc612ac63e2ca23e6f6a84e2faf129348eeab7a1f45928516ff6d0cac9ab38",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__private_country_id"
+}

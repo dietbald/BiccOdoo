@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 501,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('id', 'in', user.partner_id.commercial_partner_id.picking_ids.picking_type_id.warehouse_id.ids)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "Warehouses Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b7d91a24e0b080ea02b53ee4349f51fe3d295a7961f164ceec0c21cc799e27d1",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.stock_warehouse_subcontractor_rule"
+}

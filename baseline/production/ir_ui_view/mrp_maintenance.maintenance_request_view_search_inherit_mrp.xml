@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='maintenance_team_id']" position="after">
+                <field name="production_id" string="Operation" filter_domain="['|', ('production_id', 'ilike', self), ('workorder_id', 'ilike', self)]"/>
+                <field name="workcenter_id" string="Workcenter" filter_domain="[('workcenter_id', 'ilike', self)]"/>
+            </xpath>

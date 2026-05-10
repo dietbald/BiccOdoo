@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5693,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move Attachment",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "move_attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ba19f405ff3115dff5a394100526b1ac70556659c8d1349a26a674bfe63e390b",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_move_line__move_attachment_ids"
+}

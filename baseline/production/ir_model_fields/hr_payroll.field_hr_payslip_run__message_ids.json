@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13012,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e50ee2a7404279c8b4c5252fcddd064c68cd8903a9006517d50032e16f036345",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__message_ids"
+}

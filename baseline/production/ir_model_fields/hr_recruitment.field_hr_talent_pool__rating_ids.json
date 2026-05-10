@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26112,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      2701,
+      "Talent Pool"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "68debf0f9b039f76ff459f99aadbdc0a5a5020e8627965b67a511deeba8df0b5",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_talent_pool__rating_ids"
+}

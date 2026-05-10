@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "responsible_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "83b264cdacdaebeb5f073a445a3b09ff661b56aaa97d9a218e87d5b970ef3ff3",
+  "write_date": "",
+  "xml_id": "stock.field_product_template__responsible_id"
+}

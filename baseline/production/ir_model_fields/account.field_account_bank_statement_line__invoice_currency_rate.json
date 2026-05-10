@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency Rate",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "invoice_currency_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "aae62972c0585b77f18ed573c4fc38fb33273e17a97a8d7f64bf773bfc461b60",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__invoice_currency_rate"
+}

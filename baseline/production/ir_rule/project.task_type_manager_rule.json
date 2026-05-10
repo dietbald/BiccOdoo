@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 156,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      41
+    ],
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "Project/Task Type: manager sees all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6592d87ae173fa4647c2f0db044538a637e20957250c4472838371ee0710ae5a",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.task_type_manager_rule"
+}

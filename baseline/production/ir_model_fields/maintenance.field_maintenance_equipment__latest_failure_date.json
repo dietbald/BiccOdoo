@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18098,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Latest Failure Date",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "latest_failure_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "bd43671ceca0b9dd9e2bd4b207b452f880246be7ce8908a506ca599046da897a",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_equipment__latest_failure_date"
+}

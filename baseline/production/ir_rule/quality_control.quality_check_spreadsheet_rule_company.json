@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 645,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      1450,
+      "Quality check spreadsheet"
+    ],
+    "name": "Quality check spreadsheet company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e3493cd5f49905c86e9a42327e34dbc0a47a125070e27bb36d81ba4294e4649a",
+  "write_date": "2025-01-28 01:25:33",
+  "xml_id": "quality_control.quality_check_spreadsheet_rule_company"
+}

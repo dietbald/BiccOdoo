@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1599,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      1069,
+      "Track Stock"
+    ],
+    "name": "access_fsm_stock_tracking",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "370d59360f42bed6210bafefcc0f0ff57078be4d7c10e67a9d8529066bcf2137",
+  "write_date": "2025-12-09 03:00:42",
+  "xml_id": "industry_fsm_stock.write_access_fsm_stock_tracking"
+}

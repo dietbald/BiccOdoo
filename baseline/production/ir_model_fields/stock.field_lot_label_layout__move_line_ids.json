@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11645,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move Line",
+    "model_id": [
+      760,
+      "Choose the sheet layout to print lot labels"
+    ],
+    "name": "move_line_ids",
+    "relation": "stock.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6b35ee6f5c63d547c15ea8770c134d84c49917696a6c08804001d28fd904202b",
+  "write_date": "",
+  "xml_id": "stock.field_lot_label_layout__move_line_ids"
+}

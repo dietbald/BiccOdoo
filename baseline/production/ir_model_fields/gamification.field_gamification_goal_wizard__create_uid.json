@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14668,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      917,
+      "Gamification Goal Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b32eb7a5251e2672a9fd0c56bdef9ca42b5cd9c537f6d172eee6120ed2e56c7b",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_goal_wizard__create_uid"
+}

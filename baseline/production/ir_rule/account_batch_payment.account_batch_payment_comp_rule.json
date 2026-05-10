@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 556,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('journal_id.company_id','=',False),('journal_id.company_id','parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "Account batch payment company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ec8e93c09c0c092c5ed32fa987ddb90840f899443a45685879b5581d4c3cbe91",
+  "write_date": "2024-05-25 22:31:52",
+  "xml_id": "account_batch_payment.account_batch_payment_comp_rule"
+}

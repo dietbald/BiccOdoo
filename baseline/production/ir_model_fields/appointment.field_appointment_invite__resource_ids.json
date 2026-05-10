@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resources",
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "resource_ids",
+    "relation": "appointment.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d7cb5945ba6f314f53f18fc7f3efc2bdf7a224e36cc8162cbc98958d45c9d820",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_invite__resource_ids"
+}

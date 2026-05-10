@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2599,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      217,
+      "Mail Template Reset"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eb62dc7007de111f5d7ccc66ce5e8a1526a4cc72bd69174a5688c9a71d655cf0",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template_reset__create_uid"
+}

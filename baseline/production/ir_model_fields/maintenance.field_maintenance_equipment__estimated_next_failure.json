@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18097,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Estimated time before next failure (in days)",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "estimated_next_failure",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "cd9bbb432f1d4296c59625e9ee4abeea0dd04c2c15837a9d8d9c1fd2379439e5",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_equipment__estimated_next_failure"
+}

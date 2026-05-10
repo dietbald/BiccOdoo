@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3517,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "35270dd4fc48ffa5aeb69f967db315a42bba7436950ac0266d830126bcc23941",
+  "write_date": "",
+  "xml_id": "sms.field_product_pricelist__message_has_sms_error"
+}

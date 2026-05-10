@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3660,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Countries",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "available_country_ids",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b5b87893569d7411f5cd817c259de43a70c9fd5bd3a59f2fcb0eb96cb96600d6",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__available_country_ids"
+}

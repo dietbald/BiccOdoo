@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24450,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related course slide",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "slide_id",
+    "relation": "slide.slide",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5d8206fd8ecb8ba9371c29caa0885bf11c719e6d5dbcc1d477006561aa533db6",
+  "write_date": "",
+  "xml_id": "website_slides_survey.field_survey_user_input__slide_id"
+}

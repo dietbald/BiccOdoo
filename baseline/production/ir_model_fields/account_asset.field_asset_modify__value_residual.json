@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6206,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Depreciable Amount",
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "value_residual",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2fe01383cd58e0b393f6c8ededa176078766d9c892f20f4133d2b8c7e571a2ed",
+  "write_date": "",
+  "xml_id": "account_asset.field_asset_modify__value_residual"
+}

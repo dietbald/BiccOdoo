@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2385,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pinned Messages",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "pinned_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "58f4c16a75842fd87fcefb1a9c95d689c2a98895a12223eb48aec0a45112b22e",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__pinned_message_ids"
+}

@@ -1,0 +1,64 @@
+<form>
+                <field name="active" invisible="1"/>
+                <field name="room_booking_ids" invisible="1"/>
+                <field name="is_available" invisible="1"/>
+                <header>
+                    <button string="Open" type="object" name="action_open_booking_view" invisible="not active"/>
+                </header>
+                <sheet>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_bookings" type="object" class="oe_stat_button" icon="fa-calendar">
+                            <div class="o_stat_info">
+                                <div invisible="not next_booking_start">
+                                    <span class="o_stat_text">Next Meeting</span>
+                                    <field class="o_stat_value" name="next_booking_start"/>
+                                </div>
+                                <span invisible="next_booking_start">No Upcoming Meetings</span>
+                            </div>
+                        </button>
+                    </div>
+                    <div invisible="not name or not active">
+                        <div class="badge rounded-pill text-bg-success float-end fs-6 border-0" invisible="not is_available">
+                            Available
+                        </div>
+                        <div class="badge rounded-pill text-bg-danger float-end fs-6 border-0" invisible="is_available">
+                            Busy
+                        </div>
+                    </div>
+                    <div class="oe_title mb24">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name" placeholder="e.g. Blue Meeting Room"/>
+                        </h1>
+                        <div class="o_row">
+                            <field name="office_id" placeholder="e.g. Headquarters"/>
+                        </div>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="short_code"/>
+                        </group>
+                        <group>
+                            <field name="room_booking_url" widget="CopyClipboardChar" invisible="not active"/>
+                        </group>
+                    </group>
+                    <field name="room_properties" columns="2"/>
+                    <notebook>
+                        <page string="Appearance" name="Appearance">
+                            <group>
+                                <group>
+                                    <field name="bookable_background_color" widget="color"/>
+                                    <field name="booked_background_color" widget="color"/>
+                                </group>
+                                <group>
+                                    <field name="room_background_image" widget="image"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Amenities" name="Amenities">
+                            <field name="description" placeholder="e.g. projector, capacity 6 people"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>

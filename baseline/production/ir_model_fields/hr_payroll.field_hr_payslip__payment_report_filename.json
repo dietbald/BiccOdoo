@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20628,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Report Filename",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "payment_report_filename",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "48bf659479dd1cb40b80c97e19c1b81a4de88cc11cb01a344b492c366db76215",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__payment_report_filename"
+}

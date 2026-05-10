@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12064,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval Type",
+    "model_id": [
+      782,
+      "Approval Category"
+    ],
+    "name": "approval_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "cd651ce1dae4a527663d532775f6c2aba71ca122a5990b2038f62ee10a1ffd1a",
+  "write_date": "",
+  "xml_id": "approvals_purchase.field_approval_category__approval_type"
+}

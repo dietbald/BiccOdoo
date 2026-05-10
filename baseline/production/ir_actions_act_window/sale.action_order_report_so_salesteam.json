@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 483,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_Sales': 1,\n            'search_default_filter_date': 1,\n            'search_default_team_id': [active_id]}",
+    "domain": "[('state','not in',('draft','cancel'))]",
+    "name": "Sales Analysis",
+    "res_model": "sale.report",
+    "target": "current",
+    "view_mode": "graph,list"
+  },
+  "payload_sha256": "04f83a701168be12ffa7fa01ca2466fb2e6733cced92f7ef42e3985ce85f6365",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_order_report_so_salesteam"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29587,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet",
+    "model_id": [
+      3730,
+      "Confirm timesheet creation when stop timer"
+    ],
+    "name": "timesheet_id",
+    "relation": "account.analytic.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a7d548fdb5860737885b0608e57c5fd410481bf4e06b6c80953bf458bb8d9ebd",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_hr_timesheet_stop_timer_confirmation_wizard__timesheet_id"
+}

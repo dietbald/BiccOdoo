@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 104,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('group_ids', 'in', user.all_group_ids.ids)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      469,
+      "Spreadsheet Dashboard"
+    ],
+    "name": "Spreadsheet dashboard: groups",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7c1b1b443513b721dae05109da656e9b9b6761a035682991fd85916050db7744",
+  "write_date": "2025-12-09 02:57:24",
+  "xml_id": "spreadsheet_dashboard.ir_rule_spreadsheet_dashboard"
+}

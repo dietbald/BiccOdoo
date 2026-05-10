@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17195,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a5a0be054f19cfa6c92632da7f342264f5aff79f3ca8d705e49e2f181faea1ec",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__currency_id"
+}

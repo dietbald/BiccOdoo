@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19590,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Body content is the same as the template",
+    "model_id": [
+      1157,
+      "Send mails to Drivers"
+    ],
+    "name": "body_has_template_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c735b7e29c636daf9c24b987d29e5147a4cda5a00eee7f1165486c922fb934a8",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_send_mail__body_has_template_value"
+}

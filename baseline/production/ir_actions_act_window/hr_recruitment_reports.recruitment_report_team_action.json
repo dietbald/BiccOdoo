@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 611,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_year': True,\n            }",
+    "domain": false,
+    "name": "Team Performance",
+    "res_model": "hr.recruitment.report",
+    "target": "current",
+    "view_mode": "pivot,graph"
+  },
+  "payload_sha256": "768e7d4e611b9badafcaafb54591e4c3e9d4521928be734d6bb85ce87be08141",
+  "write_date": "2025-12-09 02:59:20",
+  "xml_id": "hr_recruitment_reports.recruitment_report_team_action"
+}

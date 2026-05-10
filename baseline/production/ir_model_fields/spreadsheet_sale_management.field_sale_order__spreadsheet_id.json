@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23838,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Spreadsheet",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "spreadsheet_id",
+    "relation": "sale.order.spreadsheet",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1103658e6bd18fdc97f921b404b577039ef35bbde7605c3ce595767bff4ec3d2",
+  "write_date": "",
+  "xml_id": "spreadsheet_sale_management.field_sale_order__spreadsheet_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4345,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delivery Date",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "delivery_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "8b6d60e3f965f3cdb2fc0670c8af1d203be17d8dfb20fc7e778650fbc3f2b0f7",
+  "write_date": "",
+  "xml_id": "account.field_account_move__delivery_date"
+}

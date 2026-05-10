@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 736,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_is_storable': True}",
+    "domain": "[('is_storable', '=', True)]",
+    "name": "Stock",
+    "res_model": "product.product",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "0c6fab2dead4a59231c4db969d76b11a1ef75ac8d5b3300ab74ea4eb6f50995a",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.action_product_stock_view"
+}

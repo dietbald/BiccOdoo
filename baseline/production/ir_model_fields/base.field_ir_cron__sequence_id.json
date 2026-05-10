@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26752,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sequence to use",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "sequence_id",
+    "relation": "ir.sequence",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8d00ba5059e20879a49b476bc1cf1c84bf33a10a4d0be481ccf049cc104a2751",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__sequence_id"
+}

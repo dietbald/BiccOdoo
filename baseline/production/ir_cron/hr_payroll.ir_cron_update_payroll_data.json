@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 46,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._update_payroll_data()",
+    "interval_number": 1,
+    "interval_type": "weeks",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "Payroll: Update data",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "ef5c9be7627cac145ff87bd677b989307edbaa748bcbae9d91d74a687d3c495f",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.ir_cron_update_payroll_data"
+}

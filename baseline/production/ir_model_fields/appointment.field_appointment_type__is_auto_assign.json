@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27342,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assign automatically",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "is_auto_assign",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a409d73892a18f58ded97e2436ad560bbd194aef6bab96bc51303ea1a8086b20",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__is_auto_assign"
+}

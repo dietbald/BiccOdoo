@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 585,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n                [('document_id.user_permission', '=', 'edit')]\n            ",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1186,
+      "Spreadsheet discussion thread"
+    ],
+    "name": "Documents Spreadsheet: thread folder write groups",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "1af418e8dc7c858605045e371465b43d1776afae973f087bb09fa28c56d55f6c",
+  "write_date": "2024-10-23 10:46:34",
+  "xml_id": "documents_spreadsheet.spreadsheet_cell_thread_write_rule"
+}

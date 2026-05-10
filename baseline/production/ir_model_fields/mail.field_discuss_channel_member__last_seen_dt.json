@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2341,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last seen date",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "last_seen_dt",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "87d117e33ee346efa0aefe27e03a0425fb40b023542e4769029b83c645a33300",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__last_seen_dt"
+}

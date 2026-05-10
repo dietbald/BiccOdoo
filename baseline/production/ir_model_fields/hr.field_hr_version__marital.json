@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27773,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Marital Status",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "marital",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f7b55702bf7725bfacf8029a7a0a0777b70b0c1b054b026d3ec88c8b141c98e2",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__marital"
+}

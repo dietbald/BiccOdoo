@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19801,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unhashed Entries",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "has_unhashed_entries",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "804cccd85d9f93ce7cc06ffa5708e1cbe83dda701ea0ad20f88d2d034928b134",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__has_unhashed_entries"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6fb0c96550f665ca42f049349fd4b7b90edeb5d932ead43c2b429f1447206897",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__message_ids"
+}

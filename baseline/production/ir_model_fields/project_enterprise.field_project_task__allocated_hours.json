@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7693,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocated Time",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "allocated_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "38817e74a9b3faedd2638708feef17a58f8c9985621d2d3b268322ca7ea1693f",
+  "write_date": "",
+  "xml_id": "project_enterprise.field_project_task__allocated_hours"
+}

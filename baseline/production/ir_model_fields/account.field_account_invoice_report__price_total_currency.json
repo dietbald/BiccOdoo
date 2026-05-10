@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5449,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total in Currency",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "price_total_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "3482d8596ba5975389180cfc147c52d9fbb3ea3d28f917bc44ef9f20c43ef004",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__price_total_currency"
+}

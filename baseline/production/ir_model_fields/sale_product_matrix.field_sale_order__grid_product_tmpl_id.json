@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19245,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Grid Product Tmpl",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "grid_product_tmpl_id",
+    "relation": "product.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f6d196ab29ad1182f0afb65360a3f35eae74fed18f4d1eb2ce678e546843cb62",
+  "write_date": "",
+  "xml_id": "sale_product_matrix.field_sale_order__grid_product_tmpl_id"
+}

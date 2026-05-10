@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4438,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "credit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "38b27eafafd62589c700ed4afff7d47bd53054a5e295d323cf86ff08999ca805",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__credit"
+}

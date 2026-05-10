@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13297,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e67c0971093fcea2de4680a4fd6aed8c0af222daf96ac9f302791bc9808a72d6",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__message_needaction"
+}

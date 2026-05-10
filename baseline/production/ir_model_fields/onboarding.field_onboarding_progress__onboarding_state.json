@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1576,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Onboarding progress",
+    "model_id": [
+      138,
+      "Onboarding Progress Tracker"
+    ],
+    "name": "onboarding_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "4d089b30958de0ef6be8481334f26dced995116feebcc694a72843a9e1efc66b",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_progress__onboarding_state"
+}

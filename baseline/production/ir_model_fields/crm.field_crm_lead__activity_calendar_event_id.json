@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7166,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b51d53bc36d00ccfe39260cf63976e2d2dbe36ca15182e4c28e9b1effe7c9cab",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__activity_calendar_event_id"
+}

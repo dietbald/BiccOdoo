@@ -1,0 +1,13 @@
+<t t-name="website.s_mega_menu_thumbnails_item">
+    <div class="col-6 col-lg-2 text-center py-2">
+        <a href="#" class="nav-link p-0" data-name="Menu Item">
+            <img class="img-fluid rounded shadow" t-att-src="_img_src" alt=""/>
+            <br/>
+            <span class="d-block p-2 small">
+                <b>
+                    <t t-out="_text"/>
+                </b>
+            </span>
+        </a>
+    </div>
+</t>

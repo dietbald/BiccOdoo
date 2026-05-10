@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10074,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Languages",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "language_ids",
+    "relation": "res.lang",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "150c04165a9608638977f03a280344afcc3eed0ac8eee99eb9eb5bc245ab7908",
+  "write_date": "",
+  "xml_id": "website.field_res_config_settings__language_ids"
+}

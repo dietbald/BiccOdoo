@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23529,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email template",
+    "model_id": [
+      1457,
+      "Account Report Send"
+    ],
+    "name": "mail_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "36256e76519e1bd8b887be0c6d674a8c43c9dfd4da3a58a1cbc3d214fd0c0925",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_send__mail_template_id"
+}

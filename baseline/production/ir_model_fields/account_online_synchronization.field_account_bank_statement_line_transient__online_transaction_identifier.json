@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5977,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Online Transaction Identifier",
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "online_transaction_identifier",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "20e40cca6487a9b391568698f98e63fd58c630c215b2f7804d224fffc5857f79",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line_transient__online_transaction_identifier"
+}

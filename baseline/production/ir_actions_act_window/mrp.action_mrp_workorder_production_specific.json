@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1054,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('production_id', '=', active_id)]",
+    "name": "Work Orders",
+    "res_model": "mrp.workorder",
+    "target": "current",
+    "view_mode": "list,form,gantt,calendar,pivot,graph"
+  },
+  "payload_sha256": "5a09abc0b8a30ffd77c6a03eeb91dcddf59c20d6d655803436271cd070fd726d",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp.action_mrp_workorder_production_specific"
+}

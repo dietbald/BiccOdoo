@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28379,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hours Last Month Overtime",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "hours_last_month_overtime",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "ba9e0421f1c1a746db481c5b890369659222b9f586ff7e7ee4fb771228933950",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_employee__hours_last_month_overtime"
+}

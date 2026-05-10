@@ -1,0 +1,8 @@
+<data>
+  <xpath expr="//form[@name='Product Template']" position="attributes">
+    <attribute name="delete">false</attribute>
+  </xpath>
+  <xpath expr="//field[@name='categ_id']" position="attributes">
+    <attribute name="options">{"no_create":true}</attribute>
+  </xpath>
+</data>

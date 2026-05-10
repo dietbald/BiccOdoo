@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2968,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Documents",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "product_document_ids",
+    "relation": "product.document",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0777847c42edf7db8d19f6d1f7653dbbab5a6e2d57c1e03eefed6d177d32d3b2",
+  "write_date": "",
+  "xml_id": "product.field_product_product__product_document_ids"
+}

@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 408,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '|',\n                    ('user_id','=',user.id),\n                    '&',\n                        ('challenge_id.user_ids','in',user.id),\n                        ('challenge_id.visibility_mode','=','ranking')]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "User can only see his/her goals or goal from the same challenge in board visibility",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a372d8cc9d2b311d585dc2dd5dbda6dbb1f13f3ea1dfd1997cddec4b3df25292",
+  "write_date": "2024-04-30 05:06:53",
+  "xml_id": "gamification.goal_user_visibility"
+}

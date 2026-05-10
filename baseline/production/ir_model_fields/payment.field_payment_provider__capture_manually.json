@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3654,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Capture Amount Manually",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "capture_manually",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "26abf69f39e59d2f1648f9767f51fe7b3cdb957bee8d030c0f6f2e6985c16d0d",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__capture_manually"
+}

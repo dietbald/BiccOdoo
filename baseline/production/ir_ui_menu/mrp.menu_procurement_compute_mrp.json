@@ -1,0 +1,17 @@
+{
+  "exported_at": "2026-05-10T12:35:51Z",
+  "id": 920,
+  "model": "ir.ui.menu",
+  "payload": {
+    "action": "ir.actions.server,668",
+    "name": "Procurement: run scheduler",
+    "parent_id": [
+      708,
+      "Manufacturing/Planning"
+    ],
+    "sequence": 135
+  },
+  "payload_sha256": "f9fa4c2720eb43d276224b80f8bb3cd67f8671edc623625f268530651e3e7930",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.menu_procurement_compute_mrp"
+}

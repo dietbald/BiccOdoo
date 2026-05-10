@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 191,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_composition_mode': 'mass',\n            'default_mass_keep_log': True,\n            'default_res_ids': active_ids\n        }",
+    "domain": false,
+    "name": "Send SMS",
+    "res_model": "sms.composer",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "699d6bb6bc0428ac16ee33e35c4d1254a66ccccb5e6dc37809a2fec5d7801677",
+  "write_date": "2025-12-09 02:56:13",
+  "xml_id": "sms.res_partner_act_window_sms_composer_multi"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19447,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User devices",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "device_ids",
+    "relation": "res.device",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "217eff837d3716053d8ff0009e70cf482e37691ead2b1e04dd4be268c07df8d7",
+  "write_date": "",
+  "xml_id": "base.field_res_users__device_ids"
+}

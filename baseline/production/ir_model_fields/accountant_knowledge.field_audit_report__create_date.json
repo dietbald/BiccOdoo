@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29861,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      3768,
+      "Audit Report"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "72842c10ec8a33f86999398f7a246fc80bd8d0d256f6a8375e4da8f2e59c3dda",
+  "write_date": "",
+  "xml_id": "accountant_knowledge.field_audit_report__create_date"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "52a0aded7f59727753b7b34f057681f6851c20ee5c35b096381f700f70c8933c",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__product_uom_id"
+}

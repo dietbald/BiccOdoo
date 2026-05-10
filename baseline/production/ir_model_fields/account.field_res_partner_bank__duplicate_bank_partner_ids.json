@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27481,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Duplicate Bank Partner",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "duplicate_bank_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "0aef0c2acda3662506b4a258c50971e330dfee127ec9045103c42eed7d682076",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__duplicate_bank_partner_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 153,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "Project/Task: multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "62f1a7b52ce76a26626d1a3fcc9c7737f593aeca55d31c548c0f653874321ddb",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "project.task_comp_rule"
+}

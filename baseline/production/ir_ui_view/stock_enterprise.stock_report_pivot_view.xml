@@ -1,0 +1,6 @@
+<pivot string="Stock Overview" sample="1">
+                    <field name="operation_type_id" type="col"/>
+                    <field name="categ_id" type="row"/>
+                    <field name="cycle_time" type="measure" string="Average Cycle Time (Days)"/>
+                    <field name="delay" type="measure" string="Average Delay (Days)"/>
+                </pivot>

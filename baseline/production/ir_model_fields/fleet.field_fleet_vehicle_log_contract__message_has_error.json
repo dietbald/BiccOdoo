@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17128,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c1936586417efedb056d6ee15bb12c9ce80ac12153afba68d311aef085825ca1",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__message_has_error"
+}

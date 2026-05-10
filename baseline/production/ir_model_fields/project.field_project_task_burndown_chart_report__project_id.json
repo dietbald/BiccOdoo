@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "project_id",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8896a33fb94f35c57af16f255ba98b562debb219f91d0b4c6c4c7bc2259eee9c",
+  "write_date": "",
+  "xml_id": "project.field_project_task_burndown_chart_report__project_id"
+}

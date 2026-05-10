@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17055,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Drivers History Count",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "history_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "b579bfe81836824b7cdb67036c24874e422b818a672c8d0acc581aa9d0fb1cca",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__history_count"
+}

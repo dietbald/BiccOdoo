@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23687,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Period Start",
+    "model_id": [
+      1463,
+      "Work Entry Export Mixin"
+    ],
+    "name": "period_start",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "d2c3fd99357f1503e4587451d3e14e8a3c04de84ee910a72e1fffc980b036a6f",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_export_mixin__period_start"
+}

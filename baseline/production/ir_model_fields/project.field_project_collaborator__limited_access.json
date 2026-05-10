@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19982,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Limited Access",
+    "model_id": [
+      605,
+      "Collaborators in project shared"
+    ],
+    "name": "limited_access",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7df7ffd789fdc5be76df2a2079edf891d4a48bd04d2ade0a72a79fd66958a9be",
+  "write_date": "",
+  "xml_id": "project.field_project_collaborator__limited_access"
+}

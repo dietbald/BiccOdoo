@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12569,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alternative POs",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "alternative_po_ids",
+    "relation": "purchase.order",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bd314bdb1fd262fa33f8be89e2d06de093efdd838076eb36ec0e9dc9f4cb9a2b",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_order__alternative_po_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1794,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      57,
+      "Purchase / User"
+    ],
+    "model_id": [
+      1422,
+      "Bill to Purchase Order"
+    ],
+    "name": "bill.to.po.wizard user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "4d4bcb05938dc93e6427f31ea2d18aa1cfaed1aec3cb5982b24290eb496b8efe",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_bill_to_po_wizard"
+}

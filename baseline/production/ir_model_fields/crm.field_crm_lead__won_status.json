@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7436,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Won/Lost",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "won_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "4456850bd02b8b8ecbf46f7623f59ead075e4a820d71e714d63d0db41e7be8b8",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__won_status"
+}

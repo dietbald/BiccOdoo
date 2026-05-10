@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3376,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "229aceb71ff46bd3e320b5ce5c300e635d468a263e60fe504a4abc452e299d7f",
+  "write_date": "",
+  "xml_id": "portal.field_product_pricelist__website_message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26092,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pool Applicant",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "pool_applicant_id",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "15b5c18a437d424c0eb073de09874c813a06581cb4c5d7e11cf81230abcc4773",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__pool_applicant_id"
+}

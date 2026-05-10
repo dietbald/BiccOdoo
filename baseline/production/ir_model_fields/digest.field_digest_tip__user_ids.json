@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3609,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      406,
+      "Digest Tips"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "161037f03f2777b0a79b3167c9156da49ed624929f0e2cc04a0a16c55ce8bfa6",
+  "write_date": "",
+  "xml_id": "digest.field_digest_tip__user_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 662,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [],
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "Channel: always visible (sub rules exist)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fce9236a53e348b37a4839348f28b0b01fdcbc42b05773a2562c093bdf99a7c0",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_channel_global"
+}

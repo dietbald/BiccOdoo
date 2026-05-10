@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 690,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res.partner.sale.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "1813fde645f346c87715eb1310f9ba10c09696a197f25491ed06e2b0d7aa2398",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_res_partner_sale_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19094,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5904913de12ef8f11de86c7c7bb964357e3a1804dfbb892a43831d905ab4ce7a",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__rating_ids"
+}

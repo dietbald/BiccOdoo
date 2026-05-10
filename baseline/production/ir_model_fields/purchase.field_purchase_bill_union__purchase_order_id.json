@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9545,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order",
+    "model_id": [
+      661,
+      "Purchases & Bills Union"
+    ],
+    "name": "purchase_order_id",
+    "relation": "purchase.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f957e0efcf3683ab0bb2e8e18d04e98771ceb94bf385df4208a6d3fd40b04170",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_union__purchase_order_id"
+}

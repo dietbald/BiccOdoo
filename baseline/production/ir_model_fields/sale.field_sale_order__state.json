@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8162,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b476d5d64226d2d4956f4f95d205df654b55e7b28125151e9f60f173769d1e79",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__state"
+}

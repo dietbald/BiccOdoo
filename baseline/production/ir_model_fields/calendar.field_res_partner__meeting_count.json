@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6851,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Meetings",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "meeting_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "77d2254fbebae6df7535f8ca75ba5acbbc328ff21728c7e4d668c0aaedfc1d5f",
+  "write_date": "",
+  "xml_id": "calendar.field_res_partner__meeting_count"
+}

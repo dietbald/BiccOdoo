@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16426,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      976,
+      "Backorder Confirmation Line"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "00a31064bf6bf64d99985b3ef7b1cd272a7d6f5840b181b7f95d0807a56d7bf9",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_backorder_line__write_uid"
+}

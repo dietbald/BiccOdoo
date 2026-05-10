@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9453,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bill Lines",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "invoice_lines",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "214645c582f778b21531747d8e481af0a73ef3e0b137a03961b91d775764fef0",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__invoice_lines"
+}

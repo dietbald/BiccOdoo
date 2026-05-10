@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1549,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_year': True\n            }",
+    "domain": false,
+    "name": "Reward Analysis",
+    "res_model": "hr.referral.reward.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "5e1cc17811a6aa3a13b401a7274c676081c066900b34369f621f1cf8015d1b2b",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.employee_referral_reward_report_action"
+}

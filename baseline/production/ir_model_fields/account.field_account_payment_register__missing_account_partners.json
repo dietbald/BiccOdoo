@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19928,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Missing Account Partners",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "missing_account_partners",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "79ea3393542826f8763250f2dbc6bf9e2d34b0b96d5853e1cb6af40ccc992deb",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__missing_account_partners"
+}

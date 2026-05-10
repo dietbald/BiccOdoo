@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25340,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "WhatsApp attachment",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "775269c9f453748879a8a829231734d0c80cf76a3d0edd2522587603566d93e6",
+  "write_date": "",
+  "xml_id": "whatsapp_account_followup.field_account_followup_manual_reminder__attachment_id"
+}

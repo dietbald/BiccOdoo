@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4828,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inalterability No Gap Sequence #",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "secure_sequence_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "783d0606c2b7adbdf084af000efa242515f6667cbd942cdf7d4cabd31ac1a9e5",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__secure_sequence_number"
+}

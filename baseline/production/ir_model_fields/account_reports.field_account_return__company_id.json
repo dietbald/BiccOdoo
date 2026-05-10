@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28915,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5965d57c06396ce97a3b2e9333fc9a34521c1b0c9577721fd0b651cb04c11a35",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__company_id"
+}

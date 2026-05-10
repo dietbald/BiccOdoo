@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7010,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      569,
+      "Event Meeting Type"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0f17bc4230b6a8f3397ba76f086fae95b3049f19b1a4cf5a46a5fdf1fb589e68",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event_type__write_uid"
+}

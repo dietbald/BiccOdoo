@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11405,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lot/Serial",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "lot_id",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "82372a168a91fa960689b1757d8de92a5c2bc4a0b5ac0012ac17d1442776cd96",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__lot_id"
+}

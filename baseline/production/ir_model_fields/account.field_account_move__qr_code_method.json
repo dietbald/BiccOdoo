@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4358,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment QR-code",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "qr_code_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "635ac08fb1e6b9e3d7e9ad33046ffa2fc935cac0462b614f82d2fb86ff25f776",
+  "write_date": "",
+  "xml_id": "account.field_account_move__qr_code_method"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9275,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expense",
+    "model_id": [
+      652,
+      "Expense Split Wizard"
+    ],
+    "name": "expense_id",
+    "relation": "hr.expense",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a839282b7ecc2651adf94a1709c195213640bfb88e4e8afe0336a0713c8f2945",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split_wizard__expense_id"
+}

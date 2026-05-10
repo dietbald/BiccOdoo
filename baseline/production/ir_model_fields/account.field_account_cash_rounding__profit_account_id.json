@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5066,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Profit Account",
+    "model_id": [
+      445,
+      "Account Cash Rounding"
+    ],
+    "name": "profit_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7fd9c3a5894ce789ad2128f834c5722b4be7876ec0c5d09c649f66358b81c851",
+  "write_date": "",
+  "xml_id": "account.field_account_cash_rounding__profit_account_id"
+}

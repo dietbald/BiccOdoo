@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1397,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      118,
+      "Manufacturing / Administrator"
+    ],
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "mrp.bom.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8631b75307304356f686f6494fcb4c8f72774930d3a4b990ffa516215ad3f2d3",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_bom_manager"
+}

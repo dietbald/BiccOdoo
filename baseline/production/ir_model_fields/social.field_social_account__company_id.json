@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17658,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1024,
+      "Social Account"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4504e85c87d4f17a7eb8e21fed070daccb3cd5d7c1884336d4260d73d76996e2",
+  "write_date": "",
+  "xml_id": "social.field_social_account__company_id"
+}

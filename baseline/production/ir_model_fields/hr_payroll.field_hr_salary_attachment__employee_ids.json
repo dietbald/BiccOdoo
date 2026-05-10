@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13084,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "67abe1738f011b72ea6a1badc2be98e261390da787576ab25b840294089c767a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__employee_ids"
+}

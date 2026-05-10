@@ -1,0 +1,8 @@
+<calendar string="Work Entry" date_start="date" date_stop="date" mode="month" scales="month" show_unusual_days="True" month_overflow="0" quick_create="0" color="color" event_limit="9" show_date_picker="0" multi_create_view="hr_work_entry.hr_work_entry_view_calendar_multi_create_form" js_class="work_entries_calendar">
+                <field name="state"/>
+                <field name="name" string="Description" invisible="not name"/>
+                <field name="duration" invisible="1"/>
+                <field name="display_code" invisible="1"/>
+                <field name="employee_id" invisible="1"/>
+                <field name="work_entry_type_id" invisible="1"/>
+            </calendar>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3655,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow Express Checkout",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "allow_express_checkout",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b0f7d317d760d36e091d6102f7b7c8d7744fa5512a54c86e8bd60a202068bd0f",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__allow_express_checkout"
+}

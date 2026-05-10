@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29050,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Warning Existing Return",
+    "model_id": [
+      3602,
+      "Return creation wizard"
+    ],
+    "name": "show_warning_existing_return",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "adc542d61ec9e72b37dc46a168dd39cea43dddc1ec843e9f917567988e3f463d",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_creation_wizard__show_warning_existing_return"
+}

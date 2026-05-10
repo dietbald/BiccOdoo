@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11085,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      732,
+      "Reference between stock documents"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9e4e4c5f2f30773d47e3a46d867d8c0cb159ece2e95b8645fac5323675d8370e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_reference__create_uid"
+}

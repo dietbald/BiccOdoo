@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9440,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Taxes",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "tax_ids",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "41c1de1dc26d3891cca1c0df72a2f323d5c38ab25b6c52ad323526be0ef1c4d8",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__tax_ids"
+}

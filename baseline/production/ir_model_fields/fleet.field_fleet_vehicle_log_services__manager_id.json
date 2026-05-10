@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17187,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fleet Manager",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9aa249edeca96270db52f57b8bca031d552d20dc654c016a4365b4adbeb70149",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__manager_id"
+}

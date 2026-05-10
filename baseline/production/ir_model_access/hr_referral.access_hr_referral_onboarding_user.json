@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1897,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      150,
+      "Referrals / User: Referral only"
+    ],
+    "model_id": [
+      2603,
+      "Welcome Onboarding in Referral App"
+    ],
+    "name": "hr.referral.onboarding.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8776348eda4338f001e31057e311797698c3999ba6a402a36e4fea39e8207557",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_referral_onboarding_user"
+}

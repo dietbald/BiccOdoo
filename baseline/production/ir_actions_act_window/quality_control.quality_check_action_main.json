@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1179,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_quality_checks': 1}",
+    "domain": false,
+    "name": "Quality Checks",
+    "res_model": "quality.check",
+    "target": "current",
+    "view_mode": "list,kanban,form,pivot,graph,activity"
+  },
+  "payload_sha256": "0288a21140ba542d6287c586aad82597d9e8135d5824a7b174f2d25b735ab418",
+  "write_date": "2025-12-09 03:00:09",
+  "xml_id": "quality_control.quality_check_action_main"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11396,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "56a9e0d641700ce91c0a38467bf569abef1ef756eeea150fb3feb21827783bdf",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__website_message_ids"
+}

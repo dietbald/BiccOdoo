@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18424,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "WhatsApp Business Account",
+    "model_id": [
+      1049,
+      "WhatsApp Messages"
+    ],
+    "name": "wa_account_id",
+    "relation": "whatsapp.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0370a3c7638822d1919b6c42e918187568d3bbc722707f3b421e245b6eb74711",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_message__wa_account_id"
+}

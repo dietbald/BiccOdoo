@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1304,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Apps To Export",
+    "model_id": [
+      114,
+      "Language Export"
+    ],
+    "name": "modules",
+    "relation": "ir.module.module",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3ad1cf9056f8d673ab801091dea0b096af70cd29bd60a7606b4621769c4a1613",
+  "write_date": "",
+  "xml_id": "base.field_base_language_export__modules"
+}

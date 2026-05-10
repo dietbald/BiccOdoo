@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 977,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{ 'searchpanel_default_cleaning_model_id': active_id }",
+    "domain": false,
+    "name": "Field Cleaning Records",
+    "res_model": "data_cleaning.record",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "a0ef536c106cd0eda2dddad86d60a55833ea271f93add726033848551a462e63",
+  "write_date": "2025-12-09 02:56:08",
+  "xml_id": "data_cleaning.action_data_cleaning_record_notification"
+}

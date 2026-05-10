@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29624,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Gross Wage",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "gross_wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "43497281fa39c0bf43f63aa1c43d087e2e9c74d3b6d6514a6f3b1d93ae2ed3d6",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_offer__gross_wage"
+}

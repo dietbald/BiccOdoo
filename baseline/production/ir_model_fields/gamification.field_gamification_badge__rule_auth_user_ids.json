@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14480,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authorized Users",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "rule_auth_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "60f45542319c12cf78c7007e61ea4c37e0f109412da6b6d2827bf87ce793019b",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge__rule_auth_user_ids"
+}

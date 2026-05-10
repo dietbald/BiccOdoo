@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1567,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      135,
+      "Maintenance / Equipment Manager"
+    ],
+    "model_id": [
+      1038,
+      "Maintenance Equipment Category"
+    ],
+    "name": "equipment.category system user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d310970d1f27a87099f08e3565a60510a9197aac65fc0c68aa4a270073fb592b",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.access_equipment_category_admin_user"
+}

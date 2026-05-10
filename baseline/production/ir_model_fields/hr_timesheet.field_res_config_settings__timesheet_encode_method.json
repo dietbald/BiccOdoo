@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13426,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Encoding Method",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "timesheet_encode_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a4a5269b7b2f2b567bd05dc5cdf74df1f727292a3355795f85ece938f4d4fd38",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_res_config_settings__timesheet_encode_method"
+}

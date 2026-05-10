@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1907,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      2612,
+      "Referral Campaign Wizard"
+    ],
+    "name": "hr.referral.campaign.wizard.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "894fc68ed322f1867c2a7ba57656716ddbad6d878750dd8697c52c7c4ce72e26",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_referral_campaign_wizard"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 718,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('company_id', '=', False), ('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      2740,
+      "Certificate"
+    ],
+    "name": "Certificate multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b31f37dbf31789d850572652898e98947fab296ee1698cb4390bbb1f391a9552",
+  "write_date": "2025-05-19 16:57:24",
+  "xml_id": "certificate.certificate_rule_company"
+}

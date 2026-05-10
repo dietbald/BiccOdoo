@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      2662,
+      "Base class to extract data from documents with OCRed words saved"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "828e88ccf02b47873672f16c86f956a8c2638a2882d66084fc7e11839a04fcd1",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin_with_words__message_needaction"
+}

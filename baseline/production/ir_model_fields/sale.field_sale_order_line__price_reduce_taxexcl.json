@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8249,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Price Reduce Tax excl",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "price_reduce_taxexcl",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "e01a2e0ba713fb87928ba43225e251ed20510ec0460b2b60d6e2421347dfac92",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__price_reduce_taxexcl"
+}

@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 668,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['&', ('color', '!=', False), ('color', '!=', 0)]",
+    "groups": [
+      10,
+      11
+    ],
+    "model_id": [
+      1513,
+      "Channel/Course Tag"
+    ],
+    "name": "Channel Tag: public/portal: color = published",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6b010bbb46c40d5c12bade68998e128880b635657bf268b9ffab301183396e34",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_channel_tag_public"
+}

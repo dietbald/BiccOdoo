@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1263,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Languages",
+    "model_id": [
+      110,
+      "Install Language"
+    ],
+    "name": "lang_ids",
+    "relation": "res.lang",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "41734e41778c5cd16adc61393b1949a7ed1dd3c1e9333d6dac67913c0a268199",
+  "write_date": "",
+  "xml_id": "base.field_base_language_install__lang_ids"
+}

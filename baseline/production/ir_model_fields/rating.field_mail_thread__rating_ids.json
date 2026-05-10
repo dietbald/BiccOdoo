@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7564,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      155,
+      "Email Thread"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f4be3e8af7e4d2993c61e8c14333b11851dbd11d48aed3a5670281f930e94485",
+  "write_date": "",
+  "xml_id": "rating.field_mail_thread__rating_ids"
+}

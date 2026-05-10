@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1757,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      1369,
+      "Mapping of account codes per company"
+    ],
+    "name": "account.code.mapping",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "1fd3885b78a07334cce19c00687015c64312200a0dd877ab1f064b8e18334f43",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_code_mapping_manager"
+}

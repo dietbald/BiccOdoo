@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12070,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Automated Sequence?",
+    "model_id": [
+      782,
+      "Approval Category"
+    ],
+    "name": "automated_sequence",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a517043dfd13112c20383a6c7c5359c1deeaf41f221fb859527fd58d8a4a7f3e",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_category__automated_sequence"
+}

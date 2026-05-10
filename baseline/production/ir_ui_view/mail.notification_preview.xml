@@ -1,0 +1,12 @@
+<t t-name="mail.notification_preview">
+<div style="display: none; max-height: 0px; overflow: hidden; color:#fff; font-size:0px; line-height:0px">
+    <t t-if="tracking_values">
+        <t t-out="tracking_values[0][0]"/>: <t t-out="tracking_values[0][1]"/> → <t t-out="tracking_values[0][2]"/>
+        <t t-if="len(tracking_values) &gt; 1"> |...</t>
+        <t t-if="message.preview"> | </t>
+    </t>
+    <t t-if="subtype_internal">Internal communication: </t><t t-out="message.preview"/>
+    <!--Trailing whitespace to push back email content so that it doesn't appear in preview. Specific characters to use may change over time -->
+    <t t-out="'͏ ​ ' * 140"/>
+</div>
+        </t>

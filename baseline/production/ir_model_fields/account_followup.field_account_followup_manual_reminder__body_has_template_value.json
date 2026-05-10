@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6315,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Body content is the same as the template",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "body_has_template_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "13f31b86289248c83dda5bbaae56937713fa853c909ed4ec1e2be420ff89e49c",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_manual_reminder__body_has_template_value"
+}

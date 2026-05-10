@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2618,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "669357d6842f93677beee0b001e1623a36f36c9ea729da2def1f0e7caa017666",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__activity_type_id"
+}

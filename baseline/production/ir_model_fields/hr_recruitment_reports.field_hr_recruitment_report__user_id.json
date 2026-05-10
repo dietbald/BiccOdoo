@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9810,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recruiter",
+    "model_id": [
+      673,
+      "Recruitment Analysis Report"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "81d6fb6ba7c7c82c1c8cf0322a04d9bfd0385c4bffd24163bd8774847343dce4",
+  "write_date": "",
+  "xml_id": "hr_recruitment_reports.field_hr_recruitment_report__user_id"
+}

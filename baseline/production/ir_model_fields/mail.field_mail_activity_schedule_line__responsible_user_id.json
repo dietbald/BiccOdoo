@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27092,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      2985,
+      "Mail Activity Schedule Line"
+    ],
+    "name": "responsible_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1cf4a6e31a314e35c3d353b155d2cd334a5de4e6c38aeade408535f6351ade0a",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_schedule_line__responsible_user_id"
+}

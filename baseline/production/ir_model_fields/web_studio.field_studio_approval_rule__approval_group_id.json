@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13742,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval Group",
+    "model_id": [
+      875,
+      "Studio Approval Rule"
+    ],
+    "name": "approval_group_id",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4d228a12a0064bc49287a46307ba9f703f4a4285ae1084f8ad88dfa4e9813f7f",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule__approval_group_id"
+}

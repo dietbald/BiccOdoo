@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1632,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('channel_type', '=', 'channel')]",
+    "name": "Channels",
+    "res_model": "discuss.channel",
+    "target": "current",
+    "view_mode": "kanban,form"
+  },
+  "payload_sha256": "ead6192b1e8c2e43febc75e5941159457b9d7fbb851438afd4ca7ae4de52c4e3",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.discuss_channel_action"
+}

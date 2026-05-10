@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1357,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "appointment.type.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "17e4bf17fb2484966d891b0e71416163ae300e7582a7521727ba89d6e9395698",
+  "write_date": "2026-01-28 12:01:21",
+  "xml_id": "website_appointment.access_appointment_type_public"
+}

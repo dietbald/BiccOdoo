@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5658,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authorized Transactions",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "authorized_transaction_ids",
+    "relation": "payment.transaction",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6af8fcbf6a513627ae126b0e642b2c19d97e65eb80f84eb8121d000c87d15108",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_bank_statement_line__authorized_transaction_ids"
+}

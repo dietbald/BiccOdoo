@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1343,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      116,
+      "Merge Partner Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ab1efef80b3e692765d05300db71a2ab75c9373d45f8be1199be8507537a832c",
+  "write_date": "",
+  "xml_id": "base.field_base_partner_merge_automatic_wizard__write_uid"
+}

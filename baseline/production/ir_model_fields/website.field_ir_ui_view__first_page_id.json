@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10048,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Page",
+    "model_id": [
+      16,
+      "View"
+    ],
+    "name": "first_page_id",
+    "relation": "website.page",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1b07fd2ea8d21825af8bcb273bbbc0b6de73a56e019e5d4d4bddb5559a769dd6",
+  "write_date": "",
+  "xml_id": "website.field_ir_ui_view__first_page_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24604,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invited Member",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "invited_member_ids",
+    "relation": "discuss.channel.member",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "568ecc17295b1faa758db0d4b4f98dc532b4358f15eeb67ea81c57723f6c6694",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__invited_member_ids"
+}

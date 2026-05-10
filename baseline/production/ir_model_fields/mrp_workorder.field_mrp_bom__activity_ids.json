@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16903,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4bdf1f57496fd27a453ad27d07789ab9ef9e9067ed194db380ed2a6d255580aa",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_bom__activity_ids"
+}

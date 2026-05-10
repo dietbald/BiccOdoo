@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15333,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Booking Lines",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "booking_line_ids",
+    "relation": "appointment.booking.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9e528cdceaa6b533577765af0e4cfec4293a7dab8d66256d91169d050ea58377",
+  "write_date": "",
+  "xml_id": "appointment.field_calendar_event__booking_line_ids"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1087,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_company_id': allowed_company_ids[0]}",
+    "domain": "",
+    "name": "Manufacturings",
+    "res_model": "mrp.production",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,activity"
+  },
+  "payload_sha256": "5a7e5f279ec67c18810b230e4220bd90a0db83b12855a70cb968214bd0550c7c",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.action_picking_tree_mrp_operation"
+}

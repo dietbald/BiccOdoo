@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7580,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "14694440064092a785ddc5bb4e3535a7010d6567394f5c1b5031768b1e8867b6",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team__rating_ids"
+}

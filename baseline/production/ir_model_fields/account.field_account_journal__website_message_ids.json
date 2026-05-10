@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4020,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b1a62258fe9248186efca49157d6344f14624e153f5cb32c56e8177755602c62",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__website_message_ids"
+}

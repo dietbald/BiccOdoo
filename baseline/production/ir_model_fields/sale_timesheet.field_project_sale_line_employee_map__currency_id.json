@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13614,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      852,
+      "Project Sales line, employee mapping"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "02080fe487ce1db9599417569206abdc106283c8c0b3c075268f5250dd91f5c1",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_sale_line_employee_map__currency_id"
+}

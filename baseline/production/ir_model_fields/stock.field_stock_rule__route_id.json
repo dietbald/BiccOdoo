@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11059,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Route",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "route_id",
+    "relation": "stock.route",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "710a33b56bc6a4aac38369891e67d02157ba3e59a77716a2ae92c470a9710e1b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__route_id"
+}

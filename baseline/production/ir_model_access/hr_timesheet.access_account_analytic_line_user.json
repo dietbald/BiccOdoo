@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1178,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      101,
+      "Timesheets / User: own timesheets only"
+    ],
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "analytic.account.analytic.line.timesheet.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f5a995b1c3b90511cb4fc2001ae0e1b380e0836f81a4e0e1610dc8ac6cae56dd",
+  "write_date": "2025-12-09 02:59:23",
+  "xml_id": "hr_timesheet.access_account_analytic_line_user"
+}

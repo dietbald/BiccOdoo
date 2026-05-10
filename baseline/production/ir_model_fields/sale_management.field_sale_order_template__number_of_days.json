@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8481,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quotation Duration",
+    "model_id": [
+      624,
+      "Quotation Template"
+    ],
+    "name": "number_of_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "5ac91b93fcb543a14426dd0cf97c5f177570a1bd7fea29ec8419d10277c78ab1",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template__number_of_days"
+}

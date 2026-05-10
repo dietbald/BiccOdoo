@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14447,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User's Existing Events",
+    "model_id": [
+      908,
+      "Microsoft Calendar Account Reset"
+    ],
+    "name": "delete_policy",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "9f6856ce105e4a2bed58450d42b8155fd9e5e4017760e45590736819e5fb4066",
+  "write_date": "",
+  "xml_id": "microsoft_calendar.field_microsoft_calendar_account_reset__delete_policy"
+}

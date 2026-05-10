@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "905760595c62b0739e9f40510224bebcc7f0916c678807ee49c7a9f5e572e4cc",
+  "write_date": "",
+  "xml_id": "portal.field_maintenance_equipment__website_message_ids"
+}

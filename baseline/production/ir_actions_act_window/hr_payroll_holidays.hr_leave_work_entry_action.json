@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1041,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_to_defer':1,\n            'hide_employee_name': 1\n        }",
+    "domain": false,
+    "name": "Time Off",
+    "res_model": "hr.leave",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,activity,gantt"
+  },
+  "payload_sha256": "37832ec6982be8de2d21d5829af4b752b77fcb1a89e3d02c9fd8094e2cc2a33b",
+  "write_date": "2025-12-09 03:00:25",
+  "xml_id": "hr_payroll_holidays.hr_leave_work_entry_action"
+}

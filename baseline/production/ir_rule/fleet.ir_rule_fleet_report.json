@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 487,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1011,
+      "Fleet Analysis Report"
+    ],
+    "name": "Costs Analysis: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4bf1f9a2126600cb72efd5361ca2ab3eb619e83150d725027f924456a2ed8f17",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "fleet.ir_rule_fleet_report"
+}

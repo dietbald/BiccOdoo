@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 840,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      667,
+      "Recruitment Stages"
+    ],
+    "name": "hr.recruitment.stage.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a9f42f355f395cde46412c1be4ba36cfca58fe1d8f71afae1ccefa29d1de4c25",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_hr_recruitment_stage_user"
+}

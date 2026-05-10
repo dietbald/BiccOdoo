@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21166,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09db0433f9401f336d1530ab87a05fa4406921596ca043d330a6c376ce2d7cce",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__activity_calendar_event_id"
+}

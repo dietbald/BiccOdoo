@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 548,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('state', 'in', ('new', 'cancelled'))]",
+    "groups": [
+      140
+    ],
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "lunch.order: Only new and cancelled order lines deleted.",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": false
+  },
+  "payload_sha256": "9cd0d11dbbcacb6c3307620834d58a02f0a39044f4b891b1beb0da9149e06ece",
+  "write_date": "2024-05-05 13:40:13",
+  "xml_id": "lunch.lunch_order_rule_delete"
+}

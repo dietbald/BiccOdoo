@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9657,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Meetings",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "meeting_ids",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "650c4d9626f54f2b4c4d3d04dddbe5cb89d8da707a91b3a8650ffbc5ce1485c4",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__meeting_ids"
+}

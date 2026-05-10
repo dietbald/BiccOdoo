@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1331,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      113,
+      "Appointment / Administrator"
+    ],
+    "model_id": [
+      934,
+      "Appointment Question Answers"
+    ],
+    "name": "appointment.answer.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5c5bce6ae92f81396253b0b00de21c180911a3c909942d17c84b8542a404624a",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.access_appointment_question_answer_manager"
+}

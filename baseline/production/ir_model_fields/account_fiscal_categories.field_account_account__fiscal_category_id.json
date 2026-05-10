@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6252,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Category",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "fiscal_category_id",
+    "relation": "account.fiscal.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d600dec26545776c7dca5892737bd072135924053321eece7ac840a048ccf5c4",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories.field_account_account__fiscal_category_id"
+}

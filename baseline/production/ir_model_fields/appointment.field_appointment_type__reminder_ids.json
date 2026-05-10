@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15299,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reminders",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "reminder_ids",
+    "relation": "calendar.alarm",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "447cb41697dd23af531061c6a8f70f2c13e8035413dd02aad7e3931414ca2e91",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__reminder_ids"
+}

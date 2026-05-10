@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 858,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'default_employee_id': active_id,\n                \"is_timesheet\": 1,\n            }",
+    "domain": "[('project_id', '!=', False), ('employee_id', '=', active_id)]",
+    "name": "Timesheets",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "000f9456adb911f9aa5f678a568faf4fb226996950f5d4c1f5d0f0f30ca186fb",
+  "write_date": "2025-12-09 02:59:23",
+  "xml_id": "hr_timesheet.timesheet_action_from_employee"
+}

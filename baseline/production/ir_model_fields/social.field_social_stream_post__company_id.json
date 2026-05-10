@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17778,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d8342a1fdb3d080c1a04ddd2caabb4fff7e70833a7dd27079eae3c9301125d41",
+  "write_date": "",
+  "xml_id": "social.field_social_stream_post__company_id"
+}

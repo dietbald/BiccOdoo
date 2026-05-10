@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3551,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notifications",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "notification_ids",
+    "relation": "mail.notification",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0ff5e7c4ac97ef8cc124a89b2ba2ae6b4127eda9f3755c16d23c0a9aa23e79a5",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__notification_ids"
+}

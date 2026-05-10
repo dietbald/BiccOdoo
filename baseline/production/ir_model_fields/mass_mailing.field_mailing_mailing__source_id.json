@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "source_id",
+    "relation": "utm.source",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "46e3d129ad49f0bb2a735327f2c37d88465a9bfad3a3321ffd0edc1408755184",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__source_id"
+}

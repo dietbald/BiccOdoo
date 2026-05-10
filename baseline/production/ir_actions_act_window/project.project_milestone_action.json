@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1517,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_project_id': active_id}",
+    "domain": "[('project_id', '=', active_id)]",
+    "name": "Milestones",
+    "res_model": "project.milestone",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "f465c23dcaffa6d1914b57925981c461803c7f70b2919c19b8d6a58a1c7744d1",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.project_milestone_action"
+}

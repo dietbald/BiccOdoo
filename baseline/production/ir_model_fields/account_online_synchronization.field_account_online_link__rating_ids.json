@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7589,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6aa948b5618c10445520f489b44731527b9e311d2fa53a0495d539e0313c4673",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__rating_ids"
+}

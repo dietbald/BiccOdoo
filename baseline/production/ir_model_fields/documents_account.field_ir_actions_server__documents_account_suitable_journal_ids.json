@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29368,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Documents Account Suitable Journal",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "documents_account_suitable_journal_ids",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2fb848facbc917b871dce0741d2f9dc19daba4cca5f4d86ee0ed4cd028d20241",
+  "write_date": "",
+  "xml_id": "documents_account.field_ir_actions_server__documents_account_suitable_journal_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2159,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      177,
+      "Mail Tracking Value"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c374bd87fbe4f0ebbe28af24cefd852cf97aad6fb5049b6c3d9fed24b094528",
+  "write_date": "",
+  "xml_id": "mail.field_mail_tracking_value__currency_id"
+}

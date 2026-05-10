@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1194,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "\n            {'search_default_last_week':1}\n        ",
+    "domain": false,
+    "name": "WhatsApp Messages",
+    "res_model": "whatsapp.message",
+    "target": "current",
+    "view_mode": "list,graph"
+  },
+  "payload_sha256": "e5d466c3028d4eccd90d9170d14ead17b3535b6324c764193a65f9fd26af5fb6",
+  "write_date": "2025-12-09 02:56:17",
+  "xml_id": "whatsapp.whatsapp_message_action"
+}

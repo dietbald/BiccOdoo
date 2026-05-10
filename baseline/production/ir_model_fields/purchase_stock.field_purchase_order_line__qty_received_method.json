@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9455,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Received Qty Method",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "qty_received_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "da4fe8f0fbab72705a9764af2b64d69385cf86ea0728bc6f605fd3a66e6d12ef",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order_line__qty_received_method"
+}

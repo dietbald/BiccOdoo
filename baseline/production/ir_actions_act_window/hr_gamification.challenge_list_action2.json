@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 969,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_inprogress':True, 'default_inprogress':True}",
+    "domain": "[('challenge_category', '=', 'hr')]",
+    "name": "Challenges",
+    "res_model": "gamification.challenge",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "e36f31fc99debc68869c5c0135bb447aa9e874b1a35d566bb08032331f66a5eb",
+  "write_date": "2025-12-09 02:58:08",
+  "xml_id": "hr_gamification.challenge_list_action2"
+}

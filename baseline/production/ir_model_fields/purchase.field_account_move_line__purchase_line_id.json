@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9360,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order Line",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "purchase_line_id",
+    "relation": "purchase.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8ed967056d98b9a011d2b3afa389a84fcb497024ec93752709ab6a7087e69d62",
+  "write_date": "",
+  "xml_id": "purchase.field_account_move_line__purchase_line_id"
+}

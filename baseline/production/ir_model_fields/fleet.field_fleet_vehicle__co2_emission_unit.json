@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27154,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Co2 Emission Unit",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "co2_emission_unit",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "c0ede7e0a3e272e2f08b5f651a7eaba3c052b022baf901199f21545d389fa25a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__co2_emission_unit"
+}

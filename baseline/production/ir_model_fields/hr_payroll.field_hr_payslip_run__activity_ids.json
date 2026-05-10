@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "10c653798250071cc031074f8a43a9d54acf93da72c7dd76de7661d856e21891",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__activity_ids"
+}

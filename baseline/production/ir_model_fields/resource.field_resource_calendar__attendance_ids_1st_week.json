@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26850,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Time 1st Week",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "attendance_ids_1st_week",
+    "relation": "resource.calendar.attendance",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "359cb94418f365e6e768c822540634e137540c83e137e3a96825d5e2a4a1c3d1",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__attendance_ids_1st_week"
+}

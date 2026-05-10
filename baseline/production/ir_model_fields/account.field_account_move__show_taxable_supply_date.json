@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27454,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Taxable Supply Date",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "show_taxable_supply_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9131d8ca8ae4c78792181bbdc07a7fccda943203ff683ba5000aee7e44e174dc",
+  "write_date": "",
+  "xml_id": "account.field_account_move__show_taxable_supply_date"
+}

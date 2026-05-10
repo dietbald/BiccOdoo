@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3009,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3e88dee3760ec1f761a1a1f7e450e38bcbf2f5a44f070aa91e1f4b196fd0cbf2",
+  "write_date": "",
+  "xml_id": "product.field_product_product__company_id"
+}

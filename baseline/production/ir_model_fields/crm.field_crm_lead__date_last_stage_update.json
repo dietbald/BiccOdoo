@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7216,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Stage Update",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "date_last_stage_update",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "8069a21e41e7fb30967df7b75b16578a5cf759436915bdf9a4fd8e2e2eb984d2",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__date_last_stage_update"
+}

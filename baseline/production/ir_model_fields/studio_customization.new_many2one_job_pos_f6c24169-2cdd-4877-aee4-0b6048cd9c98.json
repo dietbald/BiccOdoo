@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19051,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Logical Assessment",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "x_studio_logical_assessment",
+    "relation": "survey.survey",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d04f17212544c9cfe0ebfb4d8d12491a6e36074986b81b7f06c1fba53b4c92de",
+  "write_date": "2024-11-14 22:08:44",
+  "xml_id": "studio_customization.new_many2one_job_pos_f6c24169-2cdd-4877-aee4-0b6048cd9c98"
+}

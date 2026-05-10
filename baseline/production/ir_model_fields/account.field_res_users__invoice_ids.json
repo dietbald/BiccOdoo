@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5473,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoices",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "invoice_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "954c1bcacb741a496fed84b5fe4383b670bc745979fd5b1add54f257ecbee4db",
+  "write_date": "",
+  "xml_id": "account.field_res_users__invoice_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 471,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Models",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "available_model_ids",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "aa486ade67f1fac34161f37163b3cb73d217ee8eb562731da0ee034049dfa7a0",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__available_model_ids"
+}

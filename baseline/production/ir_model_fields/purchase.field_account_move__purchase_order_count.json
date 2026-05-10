@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9359,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order Count",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "purchase_order_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "49b62bec875eec11168a5fd15ecdf086818e91d71ca5283c0c865f68690f3b2a",
+  "write_date": "",
+  "xml_id": "purchase.field_account_move__purchase_order_count"
+}

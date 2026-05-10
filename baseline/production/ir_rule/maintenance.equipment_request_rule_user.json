@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 518,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', '|', ('owner_user_id', '=', user.id), ('message_partner_ids', 'in', [user.partner_id.id]), ('user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "Users are allowed to access their own maintenance requests",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a8abbd3c87bb950d8cc3373d7ae9aa271ec62924880d058331e1a502691690df",
+  "write_date": "2024-05-05 13:33:33",
+  "xml_id": "maintenance.equipment_request_rule_user"
+}

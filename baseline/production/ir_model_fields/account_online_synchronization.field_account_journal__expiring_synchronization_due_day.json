@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5886,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expiring Synchronization Due Day",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "expiring_synchronization_due_day",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "38b789e1accbda9a86cd7e9c5d07274fedd2bd523abf87e386b2930580991a5d",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_journal__expiring_synchronization_due_day"
+}

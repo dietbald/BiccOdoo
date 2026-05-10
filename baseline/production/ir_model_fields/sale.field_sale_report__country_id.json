@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer Country",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "81ff7347c5bb1f9831d90e802c57623f4f4c644acc240f830d4f33eca24f7279",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__country_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15999,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Possible Product Template Attribute Value",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "possible_bom_product_template_attribute_value_ids",
+    "relation": "product.template.attribute.value",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "865aa57882a14da433c6cc9cc45d1b772a17690467115d17d4f74ef8b8a55f65",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_routing_workcenter__possible_bom_product_template_attribute_value_ids"
+}

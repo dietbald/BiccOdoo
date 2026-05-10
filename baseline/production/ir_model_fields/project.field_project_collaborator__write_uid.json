@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7941,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      605,
+      "Collaborators in project shared"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "faaaedde1e9890bc27e0272d8b4761ca87c50f03ec07db5576afa877b37ad1dc",
+  "write_date": "",
+  "xml_id": "project.field_project_collaborator__write_uid"
+}

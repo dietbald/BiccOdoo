@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1675,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      143,
+      "Work Detail"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b2ae509e967efd0f88935ce77c0d0d30c92458406898cafd2457b2c082b8ca61",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar_attendance__write_uid"
+}

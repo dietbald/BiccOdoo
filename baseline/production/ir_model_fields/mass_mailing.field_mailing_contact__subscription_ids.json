@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14110,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subscription Information",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "subscription_ids",
+    "relation": "mailing.subscription",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bcee4a56c65b1ebfeb40a3916647ae9fa35a897159fb6467f04886f8171640aa",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__subscription_ids"
+}

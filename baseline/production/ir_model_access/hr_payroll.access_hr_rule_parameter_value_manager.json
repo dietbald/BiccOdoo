@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1156,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      96,
+      "Payroll / Administrator"
+    ],
+    "model_id": [
+      826,
+      "Salary Rule Parameter Value"
+    ],
+    "name": "access_hr_rule_parameter_value_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e0591c307a40a29cb80272c0f008c6a4605ddb24e35e9bdd9da82345cc8e7984",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_rule_parameter_value_manager"
+}

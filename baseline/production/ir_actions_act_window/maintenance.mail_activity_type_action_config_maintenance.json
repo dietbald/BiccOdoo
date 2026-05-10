@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1166,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'maintenance.request'}",
+    "domain": "['|', ('res_model', '=', False), ('res_model', '=', 'maintenance.request')]",
+    "name": "Activity Types",
+    "res_model": "mail.activity.type",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "1f1561be41ff2231224ba3c4672169ff881898c17a0a0b4bef1ad585a78e0e20",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.mail_activity_type_action_config_maintenance"
+}

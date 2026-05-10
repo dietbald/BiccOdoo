@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1315,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\"search_default_open_budget\":1}",
+    "domain": false,
+    "name": "Budget Report",
+    "res_model": "budget.report",
+    "target": "current",
+    "view_mode": "pivot,list,graph"
+  },
+  "payload_sha256": "f7e4aed54cdf3e2ba65bb58d600d87ba09acbb3b45371d96cb0872c89e6ad9b4",
+  "write_date": "2025-12-09 03:00:20",
+  "xml_id": "account_budget.budget_report_action"
+}

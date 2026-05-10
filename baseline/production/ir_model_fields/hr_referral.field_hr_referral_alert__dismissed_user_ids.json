@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25527,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dismissed User",
+    "model_id": [
+      2601,
+      "Alert in Referral App"
+    ],
+    "name": "dismissed_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9e9fc5a1dc0c88b1ba24ad5c68176fb2a6a05bcf2fad7200505aab4aaa58f174",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_alert__dismissed_user_ids"
+}

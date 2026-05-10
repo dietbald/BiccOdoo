@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12361,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      794,
+      "Knowledge Invite Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a6c7b0b8593e5d857826309b8adf2e15dfcad77bf690171ed576336bcbc289d6",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_invite__write_uid"
+}

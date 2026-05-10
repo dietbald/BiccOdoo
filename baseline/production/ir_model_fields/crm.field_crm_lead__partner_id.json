@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7219,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contact",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "235086bd80245c4dd275d4494bcc0efd92159e02ba1374a5bf1a27da0766bd4f",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__partner_id"
+}

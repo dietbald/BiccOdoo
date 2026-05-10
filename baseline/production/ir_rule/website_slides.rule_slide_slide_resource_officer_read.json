@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 680,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      148
+    ],
+    "model_id": [
+      1514,
+      "Additional resource for a particular slide"
+    ],
+    "name": "Resource: officer: read all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "541df24b0d0c5361ecc9d597dac34e9d3d0140c6f5df52acf2d9ac12d315e779",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_slide_resource_officer_read"
+}

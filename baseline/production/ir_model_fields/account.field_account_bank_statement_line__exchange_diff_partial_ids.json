@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25943,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related reconciliation",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "exchange_diff_partial_ids",
+    "relation": "account.partial.reconcile",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "80457b0c9edc559fcb62de00e041e2d5cc8df2924f7998b6f418d0a3150b843b",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__exchange_diff_partial_ids"
+}

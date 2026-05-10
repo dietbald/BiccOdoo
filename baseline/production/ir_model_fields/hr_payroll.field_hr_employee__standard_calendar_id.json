@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29406,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Standard Calendar",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "standard_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "14fc98154ddb22b10b15f039aa4cf9db01f0d635e3e827eb53a710fe134d6cc5",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__standard_calendar_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16138,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Template",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "product_tmpl_id",
+    "relation": "product.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7e284fc32ca3f59d6d1ddeb924cefe0061dcf575b161921a1a61a310f2f1b2e6",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__product_tmpl_id"
+}

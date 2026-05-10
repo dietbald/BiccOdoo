@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12093,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      784,
+      "Product Line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ae5e8b436b9e92834e47ca1bd5ef9756e615b9d18f778636b69acdee067839ae",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_product_line__company_id"
+}

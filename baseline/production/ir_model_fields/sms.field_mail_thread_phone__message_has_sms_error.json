@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3514,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      353,
+      "Phone Blacklist Mixin"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0dbdac20a29f9a9cab6f1fab2c7398e1e6db5a800bc18c4162b7cb8c4ebf12b1",
+  "write_date": "",
+  "xml_id": "sms.field_mail_thread_phone__message_has_sms_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17201,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "61c8f0f303249a98772be6ec0bfa9a45fce139d828f8eb5f30d80967aaa9d026",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__state"
+}

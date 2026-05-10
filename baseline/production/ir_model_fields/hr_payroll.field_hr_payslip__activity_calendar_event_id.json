@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12857,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4579df4e9b7417b224c17f08ce6398b18963637e391fc3957009b72422ecbc6d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__activity_calendar_event_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7398,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      584,
+      "Convert Lead to Opportunity (not in mass)"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0ea227f8f46fd32ad59091e0ac820491191288ab2494cc4ed852e7a3321444df",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead2opportunity_partner__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      557,
+      "UTM Medium"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a2e65f93ac62032501219ae9c2ab31a7ef14d4b435c3490673f1345668f48b6a",
+  "write_date": "",
+  "xml_id": "utm.field_utm_medium__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20788,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Budget Lines",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "budget_line_ids",
+    "relation": "budget.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8e6ee19fe7420a5eb053718f739743cdaf5a54bc004af2de2f70e0075da7e4c9",
+  "write_date": "",
+  "xml_id": "account_budget_purchase.field_purchase_order_line__budget_line_ids"
+}

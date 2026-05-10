@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20849,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Budget",
+    "model_id": [
+      1248,
+      "Accounting Report Budget Item"
+    ],
+    "name": "budget_id",
+    "relation": "account.report.budget",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fe2bb8edb6ebeedf16656e6dc76936b8d5c1dbdc780e645c8b66788e143fd3e4",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_budget_item__budget_id"
+}

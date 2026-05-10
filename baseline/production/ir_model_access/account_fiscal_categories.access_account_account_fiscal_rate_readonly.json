@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2068,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      529,
+      "Fiscal Rate"
+    ],
+    "name": "access.account.account.fiscal.rate.readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "088fdc960dc79ae22491ccd2a297dabbb98eff6072f5086052e1137e315aa79e",
+  "write_date": "2025-12-09 02:59:45",
+  "xml_id": "account_fiscal_categories.access_account_account_fiscal_rate_readonly"
+}

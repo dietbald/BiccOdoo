@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25665,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipient",
+    "model_id": [
+      2611,
+      "Referral Send sms"
+    ],
+    "name": "recipient",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "be381805f218fe34af6d26e7ef4ad16b0270215b81c413a7d536b218bada397d",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_send_sms__recipient"
+}

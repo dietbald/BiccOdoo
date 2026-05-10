@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17075,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "CO\u2082 Emissions",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "co2",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "c9424d61b2cdc6f0cf04ed7c197f5cc7c611e36de280e96673110655ac048713",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__co2"
+}

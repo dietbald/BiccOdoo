@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27498,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Self Billing",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "is_self_billing",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4b8cf8c9bf0da7bb1d2899dc848eb4e8d9fce7dd954ffcf497aeeaed17ebd1eb",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__is_self_billing"
+}

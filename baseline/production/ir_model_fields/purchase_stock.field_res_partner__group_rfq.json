@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Group RFQ",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "group_rfq",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3dedb94b9105b1af9d6a8fcab04ec77c1c5cb0a0feb0905d8515a7c473e48a09",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_res_partner__group_rfq"
+}

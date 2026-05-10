@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24826,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created Adjusting Entries",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "adjusting_entries_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "05ffff6383ca8759b1bc4ab1df674e1e3f838cf35d54ef9550723cda6e4c28ac",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__adjusting_entries_move_ids"
+}

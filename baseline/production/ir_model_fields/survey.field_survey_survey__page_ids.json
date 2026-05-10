@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14715,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pages",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "page_ids",
+    "relation": "survey.question",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9662cfebab8d82a585e7f03afdbabdfa57612fc8f413b530e0c3d694714a39a6",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__page_ids"
+}

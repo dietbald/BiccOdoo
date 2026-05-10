@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13285,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Extra Hours",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "hr_attendance_display_overtime",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9c56286076b4bdea1fe8e956399c4368175596cf43e221d98672b89c7eb79afa",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_res_config_settings__hr_attendance_display_overtime"
+}

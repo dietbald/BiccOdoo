@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 106,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Model",
+    "model_id": [
+      9,
+      "Model Access"
+    ],
+    "name": "model_id",
+    "relation": "ir.model",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b49c3e78e5bd9eebaa4613cb6052bf34db9938f1d87bd7f33a659d8d691a5609",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_access__model_id"
+}

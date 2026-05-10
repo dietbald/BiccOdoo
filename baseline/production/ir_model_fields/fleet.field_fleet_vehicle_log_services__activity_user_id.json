@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17163,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c0685d0af5dcd8f2100a6149facd1594f20c1d8093fc75ed461f5be9a16b6800",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__activity_user_id"
+}

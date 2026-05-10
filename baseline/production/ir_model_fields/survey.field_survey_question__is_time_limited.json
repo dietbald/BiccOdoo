@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14787,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "The question is limited in time",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "is_time_limited",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "41769ab0c932b00ac6caf1d4d29639ddde277de22630a3f088fa117a3bafb85e",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__is_time_limited"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27165,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Folded in Kanban",
+    "model_id": [
+      1009,
+      "Vehicle Status"
+    ],
+    "name": "fold",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4596f73b4be1311e1fc4538d71ccdefb75388a70744d4a9770bc87febf8a993b",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_state__fold"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12211,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2d2ea5b8f6d7acc6265d3bd79a2ac5123d0c613abbfa85fc7be4a35836369124",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_thread__website_message_ids"
+}

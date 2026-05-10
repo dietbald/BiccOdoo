@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25643,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job",
+    "model_id": [
+      2609,
+      "Referral Link To Share"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ca7e2c9837b6b8bcf49c5b4f1084e12c081a1d64a05f133b536507803b0384e4",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_link_to_share__job_id"
+}

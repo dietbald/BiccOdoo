@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11024,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lots Visible",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "lots_visible",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "78f807a221f0c7a97171835f29961ac61dc5994d4f63239e2ac15a833e4c288d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__lots_visible"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4988,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Country",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_fiscal_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a37be739cf0ffe4e98e3e5cbf307b1ebd2f1adad372786d92ddd2bccf065017b",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_fiscal_country_id"
+}

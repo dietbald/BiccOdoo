@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24911,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Favorite Users",
+    "model_id": [
+      469,
+      "Spreadsheet Dashboard"
+    ],
+    "name": "favorite_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d4bc879179606c62e7d2e612d618983a674241131bdb3b8d2c0a9059c6ab19cf",
+  "write_date": "",
+  "xml_id": "spreadsheet_dashboard.field_spreadsheet_dashboard__favorite_user_ids"
+}

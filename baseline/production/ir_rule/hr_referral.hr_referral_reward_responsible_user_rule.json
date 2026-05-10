@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 696,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('gift_manager_id', '=', user.id)]",
+    "groups": [
+      151
+    ],
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "Referral Rewards Responsible User",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c0f4883d2fed57ea0c6fcb1f93a69a96b81e5bc33d97ed29d1ffb9455d4319aa",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.hr_referral_reward_responsible_user_rule"
+}

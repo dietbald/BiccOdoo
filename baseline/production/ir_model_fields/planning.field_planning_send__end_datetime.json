@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13950,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stop Date",
+    "model_id": [
+      884,
+      "Send Planning"
+    ],
+    "name": "end_datetime",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "b1e93f5ca23bdf077f706b41a0d5ed02ac66d46d907069c60c17e10f4eb14e65",
+  "write_date": "",
+  "xml_id": "planning.field_planning_send__end_datetime"
+}

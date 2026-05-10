@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Groups",
+    "model_id": [
+      14,
+      "Menu"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "bc45518080d0ff2b81c268f763811796d4bb6a10c8cd112e021e8b9304ed09ff",
+  "write_date": "",
+  "xml_id": "base.field_ir_ui_menu__group_ids"
+}

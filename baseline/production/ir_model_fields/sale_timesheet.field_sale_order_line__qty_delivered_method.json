@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8254,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Method to update delivered qty",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "qty_delivered_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "1e04323b45b47cc075a8339cc1150ac74c6009e3025b2334dd2e045254b12572",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_sale_order_line__qty_delivered_method"
+}

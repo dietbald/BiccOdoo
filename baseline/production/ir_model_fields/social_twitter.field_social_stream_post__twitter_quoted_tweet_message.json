@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17889,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quoted post message",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "twitter_quoted_tweet_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "06e5fb616fb94c101b9b645629909547dde778183d38d60b45e66afdd8b1ea73",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_stream_post__twitter_quoted_tweet_message"
+}

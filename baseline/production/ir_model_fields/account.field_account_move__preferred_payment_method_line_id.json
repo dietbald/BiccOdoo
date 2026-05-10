@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22076,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Preferred Payment Method Line",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "preferred_payment_method_line_id",
+    "relation": "account.payment.method.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "66270e754f70cf6a83ad1af7f8eb2fbe2ba66225e2c3d2892f1650bc3b99f916",
+  "write_date": "",
+  "xml_id": "account.field_account_move__preferred_payment_method_line_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5466,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Receivable",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "property_account_receivable_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a2d1c6dc972fcc43a4852a4a273a50f7662ac7bae50873f673c8b7acd535d318",
+  "write_date": "",
+  "xml_id": "account.field_res_users__property_account_receivable_id"
+}

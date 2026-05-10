@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 747,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      631,
+      "Employee Category"
+    ],
+    "name": "hr.employee.category.emp",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "160438431c62e4198ea7dde4f7dc2dafd726233228063230a36093298f225a0a",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.access_hr_employee_category_emp"
+}

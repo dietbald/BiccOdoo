@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1407,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "\n            {\n                \"search_default_to_approve\" : 1,\n                \"search_default_activeemployees\": 1,\n            }\n        ",
+    "domain": "[('check_out', '!=', False)]",
+    "name": "Management",
+    "res_model": "hr.attendance",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "6ecb0d835cab2babb46023b521f4fc4d9aaca3d38c8fc8ff628b973cff26d70d",
+  "write_date": "2025-12-09 02:58:04",
+  "xml_id": "hr_attendance.hr_attendance_management_action"
+}

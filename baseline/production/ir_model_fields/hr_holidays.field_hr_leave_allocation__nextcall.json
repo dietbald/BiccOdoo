@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15617,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Date of the next accrual allocation",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "nextcall",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "09fa57334e2a67ba4b28e58e4c87017787803796e0729a9ded21a02fc48fae4f",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__nextcall"
+}

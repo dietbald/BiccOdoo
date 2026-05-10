@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "0ed36c6c09a6281f4bc2fb9c80bddb7cbeac0775aae18ffc679b6cb8b58cd28d",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__create_date"
+}

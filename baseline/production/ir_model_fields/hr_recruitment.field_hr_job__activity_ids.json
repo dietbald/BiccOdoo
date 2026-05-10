@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25049,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "090c03ef5b3410940497241f7a27cb9a1ba70fd72cfa04f3e9f9e6d52f1d89f3",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__activity_ids"
+}

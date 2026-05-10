@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7703,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage Rating Status",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "rating_active",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "648c96e4d431d04437ba40a0b9be96ab55a0e3351c50a0b68d0d0210e51e2017",
+  "write_date": "",
+  "xml_id": "project.field_project_task__rating_active"
+}

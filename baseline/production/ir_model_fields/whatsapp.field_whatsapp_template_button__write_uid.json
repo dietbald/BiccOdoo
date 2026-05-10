@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18489,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1051,
+      "WhatsApp Template Button"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "abe82902c13aa0de1fa9a325bee3977c4087ebfc7d0c16d4f590db8a10b4148f",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template_button__write_uid"
+}

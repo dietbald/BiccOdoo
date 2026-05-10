@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10969,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Detailed Operations",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "show_operations",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "16786b056331e93bc64b43b70299b59bcebbfebd672413e58484d8fbb1efbb4a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__show_operations"
+}

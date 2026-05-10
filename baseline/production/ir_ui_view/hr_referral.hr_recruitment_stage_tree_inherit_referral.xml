@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='fold']" position="after">
+                <field name="points" invisible="not use_in_referral"/>
+                <field name="use_in_referral"/>
+            </xpath>

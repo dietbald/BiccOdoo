@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13898,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resources",
+    "model_id": [
+      881,
+      "Planning Role"
+    ],
+    "name": "resource_ids",
+    "relation": "resource.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ec71c5dfc45a632bb84cc2f65367b3a0898652783ff0299f1121657199e1ddbc",
+  "write_date": "",
+  "xml_id": "planning.field_planning_role__resource_ids"
+}

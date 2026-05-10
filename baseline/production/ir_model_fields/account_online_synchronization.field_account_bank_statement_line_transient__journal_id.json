@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5983,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "20e5b85787130fcc5e5d34380564dc91748b80f9c727b4a0fcdaf31dec2abbb8",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line_transient__journal_id"
+}

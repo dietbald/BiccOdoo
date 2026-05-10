@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24654,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      571,
+      "Calendar Popover Delete Wizard"
+    ],
+    "name": "recipient_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cc7e68f6f58cc8a348559f4aed503cd621aef254cf679bff01e77300040aea9b",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_popover_delete_wizard__recipient_ids"
+}

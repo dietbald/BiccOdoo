@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 541,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                ('project_id.privacy_visibility', 'in', ['employees', 'portal']),\n                '|',\n                    ('project_id.message_partner_ids', 'in', [user.partner_id.id]),\n                    '|',\n                        ('task_id.message_partner_ids', 'in', [user.partner_id.id]),\n                        ('user_ids', 'in', user.id),\n            ]",
+    "groups": [
+      137
+    ],
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "Tasks Analysis: FSM project visibility",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "756c5af0773ee3fb01f0fef3fcb7544d8559758728f90e97083abfc3cab42ab3",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.report_project_task_user_fsm_rule"
+}

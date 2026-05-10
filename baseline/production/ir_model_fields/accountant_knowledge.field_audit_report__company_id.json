@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29857,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      3768,
+      "Audit Report"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "066d38fce03bac13d571cbcf90a71eba1644d4d5c8913d373f0ada05157cd538",
+  "write_date": "",
+  "xml_id": "accountant_knowledge.field_audit_report__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4725,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "First Line Index",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "first_line_index",
+    "relation": "account.bank.statement.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "1e2a2f27fdcf8ce77229a5eb551f95455ece8be97aa88d49f800b3b40ab67e2b",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement__first_line_index"
+}

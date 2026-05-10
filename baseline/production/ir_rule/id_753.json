@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 753,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('id', '!=', 49)]",
+    "groups": [
+      22
+    ],
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "BPI Payroll Journal - Hidden (acct group 22)",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "094f691ac114b6d60b23bfabfef4713a8fc260fab2181249a18640e5e289744f",
+  "write_date": "2026-03-17 01:00:12",
+  "xml_id": null
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 411,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      111
+    ],
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "Survey: manager: all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3304ebe6f35ee8323d0b3cf07206b7fbc92dde5e40693749b2f69fdd328a8ae6",
+  "write_date": "2024-04-30 05:06:56",
+  "xml_id": "survey.survey_survey_rule_survey_manager"
+}

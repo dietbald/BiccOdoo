@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19450,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auth Method",
+    "model_id": [
+      98,
+      "Password Check Wizard"
+    ],
+    "name": "auth_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7391f84331f63eb11e5dacbcb3e96ee9886573bc33024d15a2e16e15cf3b811b",
+  "write_date": "",
+  "xml_id": "base.field_res_users_identitycheck__auth_method"
+}

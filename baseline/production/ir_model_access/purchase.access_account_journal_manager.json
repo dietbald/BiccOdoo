@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 817,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      58,
+      "Purchase / Administrator"
+    ],
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "account.journal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "93d179c415a55146c364b4736ea308f12e39df471fd0d423fc226c0c4c2f3842",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_account_journal_manager"
+}

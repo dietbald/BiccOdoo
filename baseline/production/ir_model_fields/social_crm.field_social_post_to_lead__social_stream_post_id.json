@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17944,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Social Stream Post",
+    "model_id": [
+      1035,
+      "Convert Social Post to Lead"
+    ],
+    "name": "social_stream_post_id",
+    "relation": "social.stream.post",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3222b0be95805b498fa234fe4b9bb89bc6282291868a392890fd4c545d439b2f",
+  "write_date": "",
+  "xml_id": "social_crm.field_social_post_to_lead__social_stream_post_id"
+}

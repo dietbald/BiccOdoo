@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11305,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "38cf66c05d7f785bcf72096a205653bafa98ca7a82d71f52b9eca79c84bf63c4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__product_uom_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5065,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rounding Strategy",
+    "model_id": [
+      445,
+      "Account Cash Rounding"
+    ],
+    "name": "strategy",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f13604db49042060924233a80cc5f50e98910947cb119a4c783b67db83851080",
+  "write_date": "",
+  "xml_id": "account.field_account_cash_rounding__strategy"
+}

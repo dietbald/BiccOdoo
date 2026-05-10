@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1955,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      153,
+      "Accountant"
+    ],
+    "model_id": [
+      452,
+      "Create Automatic Entries"
+    ],
+    "name": "access.account.automatic.entry.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "073ebd5ef18103394f8ebc63b8864b258b1bc49b2bac9a4d65638a7b497783af",
+  "write_date": "2025-12-05 01:31:32",
+  "xml_id": null
+}

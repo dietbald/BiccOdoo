@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26352,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Private Key",
+    "model_id": [
+      2740,
+      "Certificate"
+    ],
+    "name": "private_key_id",
+    "relation": "certificate.key",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "117f34921d1068b3752f495ab20ee03c3a21d9a2f58779df126b2ce5fc634c8d",
+  "write_date": "",
+  "xml_id": "certificate.field_certificate_certificate__private_key_id"
+}

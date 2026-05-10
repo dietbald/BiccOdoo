@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25766,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Comment Options",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "composition_comment_option",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b647fdeafd8480751e9016d304fd1e2bdc533bc47e93c9bf3c0ab999d65fe5da",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__composition_comment_option"
+}

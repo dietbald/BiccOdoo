@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12219,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0039bd0fb27f9b88f9d1c0cb9beae221ba0fd717d39e9e8e5eae2cfa016f8e3b",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_thread__write_uid"
+}

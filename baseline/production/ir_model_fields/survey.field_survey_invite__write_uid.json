@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14942,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cbc4fc48d1f0f721c7167f90b844fbb433cc320365560dbdaae23f1f90b5d18c",
+  "write_date": "",
+  "xml_id": "survey.field_survey_invite__write_uid"
+}

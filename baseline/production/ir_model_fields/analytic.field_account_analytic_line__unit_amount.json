@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2689,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "unit_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "6e9970d8cf96a5f9ba8e8fa4f43814a07d0a22530688e54942c08b390aa552dd",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_line__unit_amount"
+}

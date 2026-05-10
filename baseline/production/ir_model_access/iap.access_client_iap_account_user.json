@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 156,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "iap.account.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8a200872ef6fb0fd2173d87b9e523dd8a427a82fb316da3d066532be8ccc3937",
+  "write_date": "2025-12-09 02:55:45",
+  "xml_id": "iap.access_client_iap_account_user"
+}

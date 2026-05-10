@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29180,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      3627,
+      "Attendance and Leave Analysis Report"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dad1b20bc0738b10caa7c5ff168749d152900f6ec3ea7e4daa5ccc061d248cf5",
+  "write_date": "",
+  "xml_id": "hr_holidays_attendance.field_hr_leave_attendance_report__department_id"
+}

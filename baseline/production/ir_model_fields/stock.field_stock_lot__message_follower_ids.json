@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11133,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5738caaa79a26a0c0c881ed588a22045f76a68fb14f167496c5089c039734b9d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__message_follower_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7049,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6bef6a358fe3a55f53b3a036ac85ad5119e7e132b08b5cb0f4b186f09cfdf988",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__activity_calendar_event_id"
+}

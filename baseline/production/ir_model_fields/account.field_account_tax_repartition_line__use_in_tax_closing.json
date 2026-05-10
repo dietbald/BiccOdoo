@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4150,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Closing Entry",
+    "model_id": [
+      428,
+      "Tax Repartition Line"
+    ],
+    "name": "use_in_tax_closing",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9d25ea72e9f7ad9642874b950dd04759771dbe835176b21432327d2cff8a5900",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_repartition_line__use_in_tax_closing"
+}

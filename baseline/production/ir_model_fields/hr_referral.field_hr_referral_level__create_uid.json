@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25588,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2604,
+      "Level for referrals"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e8715ea49e7f75d6a420c676b44ceca5c57125eb1445c9160ad3579d31a3c9f4",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_level__create_uid"
+}

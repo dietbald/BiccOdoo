@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21923,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appointment Status",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "appointment_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "c26bbb3f7a1b9ed2d056a753c28d9da4652b3214f95e8ba7e7deae92f50c438b",
+  "write_date": "",
+  "xml_id": "appointment.field_calendar_event__appointment_status"
+}

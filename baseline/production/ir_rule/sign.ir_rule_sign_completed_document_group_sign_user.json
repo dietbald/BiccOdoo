@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 732,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [
+      72
+    ],
+    "model_id": [
+      3198,
+      "Completed Document"
+    ],
+    "name": "sign.completed.document: group_sign_user: sender: Create and manage sign completed documents",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f6a64113cf0b9ab4343f1b2b976a5b5b32d6bb9efcdc03a297fc382da4d0d218",
+  "write_date": "2025-12-09 02:56:25",
+  "xml_id": "sign.ir_rule_sign_completed_document_group_sign_user"
+}

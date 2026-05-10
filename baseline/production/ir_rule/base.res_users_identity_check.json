@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 18,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      98,
+      "Password Check Wizard"
+    ],
+    "name": "users can only access their own id check",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "18623c3660374a1c0417c70e48076b79f703feabef53de04009a9d9b0e19455a",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.res_users_identity_check"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7168,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4ea7dc9f4e81f9f8d9c605776395eb8094660e30bffc0a7cfc1085c4f528a968",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__message_follower_ids"
+}

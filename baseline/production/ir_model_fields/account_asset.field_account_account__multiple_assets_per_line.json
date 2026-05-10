@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6116,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Multiple Assets per Line",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "multiple_assets_per_line",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "22792d6b31a8e3f10356b655b26fe2bd655074f24a02c4758b84411c7fa7d666",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_account__multiple_assets_per_line"
+}

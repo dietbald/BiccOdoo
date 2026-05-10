@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 546,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      555,
+      "Budget Line"
+    ],
+    "name": "budget.line manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "3e1adec72e24780c6088e97ff7b9038b7010c3068c6465321170a6baf298f314",
+  "write_date": "2025-12-09 03:00:20",
+  "xml_id": "account_budget.access_budget"
+}

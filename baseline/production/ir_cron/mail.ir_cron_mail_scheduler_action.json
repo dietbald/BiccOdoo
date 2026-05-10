@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 3,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.process_email_queue()",
+    "interval_number": 1,
+    "interval_type": "minutes",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "Mail: Email Queue Manager",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "77ca9dfee20159cc3a1918bc871618a52e626f11e1f303e43a59432dc89d9946",
+  "write_date": "2026-04-28 07:50:09",
+  "xml_id": "mail.ir_cron_mail_scheduler_action"
+}

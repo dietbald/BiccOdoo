@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14828,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      921,
+      "Survey Label"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "04117cbba584544f47a33e44201a2cf30695605f9eb6e9a037b86664c824cdac",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question_answer__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2353,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Guest",
+    "model_id": [
+      201,
+      "Mail RTC session"
+    ],
+    "name": "guest_id",
+    "relation": "mail.guest",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3edb962f52987803fe40806b724a6ad9031a9f42f2102506dd105449714896ee",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_rtc_session__guest_id"
+}

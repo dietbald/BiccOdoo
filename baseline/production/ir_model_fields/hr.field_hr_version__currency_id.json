@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10389,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5a8dba2c496a693bcde8d1263f9d4172874947495fd37897062d3f8097ab0829",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__currency_id"
+}

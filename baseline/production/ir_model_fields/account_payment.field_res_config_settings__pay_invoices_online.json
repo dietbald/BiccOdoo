@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5656,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pay Invoices Online",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "pay_invoices_online",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "692d6cd76b2c88e8df5ab9e720b8cff8a8e677c837ddeba8ac2b8248d334d5a1",
+  "write_date": "",
+  "xml_id": "account_payment.field_res_config_settings__pay_invoices_online"
+}

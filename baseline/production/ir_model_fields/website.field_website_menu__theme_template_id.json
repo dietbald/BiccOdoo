@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9959,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Theme Template",
+    "model_id": [
+      685,
+      "Website Menu"
+    ],
+    "name": "theme_template_id",
+    "relation": "theme.website.menu",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f3147bef29b52ac69d36162bcca4f967c9961099de9dbf69fb6cb8953cbe9a32",
+  "write_date": "",
+  "xml_id": "website.field_website_menu__theme_template_id"
+}

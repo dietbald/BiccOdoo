@@ -1,0 +1,5 @@
+<graph string="Planning Analysis" sample="1" order="desc" js_class="planning_slot_analysis_graph">
+                <field name="start_datetime" interval="month"/>
+                <field name="resource_id"/>
+                <field name="allocated_hours" type="measure" widget="float_time"/>
+            </graph>

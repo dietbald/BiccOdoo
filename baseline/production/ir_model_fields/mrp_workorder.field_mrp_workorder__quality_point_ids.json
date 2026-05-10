@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16816,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality Point",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "quality_point_ids",
+    "relation": "quality.point",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8d1ee21ea008ed0c854eb9584e7b05b447a8619c544a25ba925b0ed780470129",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__quality_point_ids"
+}

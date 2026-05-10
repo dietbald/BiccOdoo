@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6131,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "c877eade3ceb30c6032191a21ac8aec9f6260cbf6892769c5376cce23c64dfe6",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__message_follower_ids"
+}

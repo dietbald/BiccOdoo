@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9441,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "56b2e3fa0b0440ca968e51d71e1285187ade63be6561a4ddba913ca2d013f07b",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__product_uom_id"
+}

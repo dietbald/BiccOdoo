@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11972,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Orders",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "purchase_id",
+    "relation": "purchase.order",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "55c4a34b6fb97af10be7b290f7cd63d62602f0f29dcec121e29454d9cc4e5b54",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_picking__purchase_id"
+}

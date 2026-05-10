@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3441,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send directly",
+    "model_id": [
+      397,
+      "Send SMS Wizard"
+    ],
+    "name": "mass_force_send",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cd3be03eb1d599f61dff2ad461f25b09f3ae191987a3903307cd43ccfc2e45e1",
+  "write_date": "",
+  "xml_id": "sms.field_sms_composer__mass_force_send"
+}

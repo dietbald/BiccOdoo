@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9830,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      674,
+      "Recruitment Stage Analysis"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d73bc98baa3b400700c0c48d19478dbc3176f7ff9ffe8264aa5004c0ea40ed22",
+  "write_date": "",
+  "xml_id": "hr_recruitment_reports.field_hr_recruitment_stage_report__company_id"
+}

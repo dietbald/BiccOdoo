@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Track Service",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "service_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "33b19cae8e6ce98028cb79f9f4c01b2aea79a5a48cdcef01452a47e2839f7af0",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_product_template__service_type"
+}

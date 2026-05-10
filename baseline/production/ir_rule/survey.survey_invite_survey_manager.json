@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 577,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      111
+    ],
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "Survey invite: manager: all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "1cacbcf21ff6e6015ae7c8ccf41808770562633a58166ce7d28a9a7579fa489e",
+  "write_date": "2024-10-23 10:44:38",
+  "xml_id": "survey.survey_invite_survey_manager"
+}

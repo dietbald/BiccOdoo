@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7403,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Customer",
+    "model_id": [
+      585,
+      "Convert Lead to Opportunity (in mass)"
+    ],
+    "name": "action",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "177e19575a1d5f99d8ae9eac790a6fc8e8e6f6a11549d4b41fca42cbcca95006",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead2opportunity_partner_mass__action"
+}

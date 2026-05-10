@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11221,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "ace16702b80779aa5626a1b82b1d31579d1d87c5e437ee4152edd298278b136d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__activity_date_deadline"
+}

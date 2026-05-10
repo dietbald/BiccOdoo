@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 583,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            ('project_id.privacy_visibility', 'in', ['invited_users', 'portal']),\n            ('project_id.collaborator_ids.partner_id', 'in', [user.partner_id.id]),\n        ]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "Project/milestone portal users: portal user can read with project sharing feature",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "28512b94edaab684b7b2b1ca7137244ff2c5234569ce3cdfca131f14b62daa2a",
+  "write_date": "2024-10-23 10:45:26",
+  "xml_id": "project.project_milestone_rule_portal_project_sharing"
+}

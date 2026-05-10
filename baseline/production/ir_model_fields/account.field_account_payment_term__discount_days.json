@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4261,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discount Days",
+    "model_id": [
+      432,
+      "Payment Terms"
+    ],
+    "name": "discount_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "9f71060f7800180bbe6fc3cd7ef65bd2d02df0b9bb899d67d89883ca44d93afb",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term__discount_days"
+}

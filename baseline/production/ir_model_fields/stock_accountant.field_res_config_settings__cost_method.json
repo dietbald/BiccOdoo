@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29576,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inventory Cost Method",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "cost_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "9a85ce9b16a0be6b63b5854dd5fa041d2e5e79fba5b6d6bdeeeafa23158da362",
+  "write_date": "",
+  "xml_id": "stock_accountant.field_res_config_settings__cost_method"
+}

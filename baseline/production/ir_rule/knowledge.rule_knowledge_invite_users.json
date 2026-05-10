@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 334,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('article_id.user_has_write_access', '=', True)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      794,
+      "Knowledge Invite Wizard"
+    ],
+    "name": "Invite: Users invite members",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cabed55c993404040879c1395646d36d69efc36122935ef568e06990deddbca3",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_invite_users"
+}

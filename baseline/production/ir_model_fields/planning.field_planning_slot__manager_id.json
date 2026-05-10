@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13846,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "manager_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3543551029b7be3b412e3d970633cf0d61884bf7ccfe757437def53777072d6e",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__manager_id"
+}

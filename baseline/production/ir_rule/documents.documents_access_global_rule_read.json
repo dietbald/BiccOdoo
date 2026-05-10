@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 628,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('document_id.user_permission', '!=', 'none')]",
+    "groups": [],
+    "model_id": [
+      1391,
+      "Document / Partner"
+    ],
+    "name": "Documents.access: global read rule",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5b79ff3d7f87fc18dc8c8ab60565efcd93ba6e55c328cdfea4a50f10131542da",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.documents_access_global_rule_read"
+}

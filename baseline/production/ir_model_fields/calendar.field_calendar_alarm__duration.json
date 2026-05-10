@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6983,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Remind Before",
+    "model_id": [
+      566,
+      "Event Alarm"
+    ],
+    "name": "duration",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "190b359ca7409c4a6df796fc1d7f3cdb5533d11e763594aa3583034e1569c72f",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_alarm__duration"
+}

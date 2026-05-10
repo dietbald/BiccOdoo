@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29015,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message",
+    "model_id": [
+      498,
+      "Account Report Annotation"
+    ],
+    "name": "message_id",
+    "relation": "mail.message",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6bc4e64c6c9e3cf093386c83d2d1a35fa6b9afd84df2621a7703a1920aa4f57f",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_annotation__message_id"
+}

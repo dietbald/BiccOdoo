@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25347,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Preview",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "preview_whatsapp",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "html"
+  },
+  "payload_sha256": "abf082c32aebcea7b272c374a32ceab4ebd1264f595978eb6ef29fe71e926252",
+  "write_date": "",
+  "xml_id": "whatsapp_account_followup.field_account_followup_manual_reminder__preview_whatsapp"
+}

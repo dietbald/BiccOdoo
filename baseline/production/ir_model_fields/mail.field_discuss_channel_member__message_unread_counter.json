@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2334,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unread Messages Counter",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "message_unread_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d1379c82f28cf7cc2bb99d1bc489b7164eadb0009e80a0f99793a235bc6fbdc5",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__message_unread_counter"
+}

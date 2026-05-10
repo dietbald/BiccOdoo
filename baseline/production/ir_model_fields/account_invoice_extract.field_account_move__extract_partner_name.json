@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract Detected Partner Name",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "extract_partner_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "bcf39fe0a2a4b1a3a385868a8776519e79a804aacfd3a866a7d431d91ed93540",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__extract_partner_name"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28891,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d8a16478e037af08145af644d6c67b3f30f9ec689eeb1eabbd41f5b81868ab95",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__message_partner_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8230,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Country",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "tax_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ec14898a99dc8d06ec73a815b36b0abd71f9127eb361d30f44d93693130b4da1",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__tax_country_id"
+}

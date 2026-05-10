@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sub Channels",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "sub_channel_ids",
+    "relation": "discuss.channel",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "3e8d324929f2adf55c4270a837f5f525f4cf428a76ad658641a44d43e3437f5d",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__sub_channel_ids"
+}

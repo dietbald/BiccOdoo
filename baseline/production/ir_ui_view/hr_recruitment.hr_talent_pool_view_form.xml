@@ -1,0 +1,17 @@
+<form string="talent pool">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" placeholder="e.g Reserve, Developers, Sales"/>
+                            <field name="pool_manager"/>
+                            <field name="categ_ids" widget="many2many_tags" placeholder="e.g French-speaking, Immediately Available, Own a car"/>
+                        </group>
+                        <group>
+                            <field name="color" widget="color_picker"/>
+                            <field name="company_id"/>
+                        </group>
+                        <label for="description" class="opacity-100 fw-bold text-900"/>
+                        <field name="description" string="Description" placeholder="Describe the talent pool and common traits among talent pool applicants"/>
+                    </group>
+                </sheet>
+            </form>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28976,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approvers and Supervisor",
+    "model_id": [
+      3565,
+      "Accounting Return Check"
+    ],
+    "name": "approver_supervisor_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6c5c510797956778b273178cab8af0f4394a703eef57820b2a99f29dacff4d1a",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_check__approver_supervisor_ids"
+}

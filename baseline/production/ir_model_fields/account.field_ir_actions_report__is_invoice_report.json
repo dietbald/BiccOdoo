@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19896,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice report",
+    "model_id": [
+      27,
+      "Report Action"
+    ],
+    "name": "is_invoice_report",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7629987efc5726b345f1bb4957e0acefc10e91ad8b8717b64a0293d6ef25cd7a",
+  "write_date": "",
+  "xml_id": "account.field_ir_actions_report__is_invoice_report"
+}

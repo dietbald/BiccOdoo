@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1569,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      135,
+      "Maintenance / Equipment Manager"
+    ],
+    "model_id": [
+      1037,
+      "Maintenance Stage"
+    ],
+    "name": "equipment.request.stage system user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "918f375e6524da6f09af2552daa81f763372e53a026218b9849d2673b4571366",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.access_maintenance_stage_admin_user"
+}

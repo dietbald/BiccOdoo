@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14096,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1c0ed4e89ecc6c02b4e761b2e7f899436a2b1274859f65577261d957ae44af64",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__message_has_error"
+}

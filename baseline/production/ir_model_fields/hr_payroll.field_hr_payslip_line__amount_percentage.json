@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12941,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Percentage (%)",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "amount_percentage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "f8a28692a181bc27809ac7780a5a0ced5a0e1785ce65330fbb9134f89a759cfe",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__amount_percentage"
+}

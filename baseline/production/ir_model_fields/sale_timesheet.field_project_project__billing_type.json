@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13589,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Billing Type",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "billing_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "36df29105ef7741d3b9ba3646a3298724eb22aefa7a17fe6a5c7ccc54b7b4add",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_project__billing_type"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15464,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total number of allocations",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "allocations_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "8eda2acb7d8ad4aba9478ae494932e53aa8b2c0989406c17000d65faa8a00641",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_employee__allocations_count"
+}

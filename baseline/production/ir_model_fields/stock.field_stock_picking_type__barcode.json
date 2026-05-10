@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11205,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Barcode",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "barcode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "f25ef7ca7c9da92b0589a77d287518d793194a13ab80ba9386bd6e40ec82eeea",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__barcode"
+}

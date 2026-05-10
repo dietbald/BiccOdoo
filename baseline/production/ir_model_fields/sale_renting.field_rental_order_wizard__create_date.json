@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26589,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      2749,
+      "Pick-up/Return products"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "4c3c37a1d5bf9126b63251e24691a3631437a7f00629dcedbb44405318db4567",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard__create_date"
+}

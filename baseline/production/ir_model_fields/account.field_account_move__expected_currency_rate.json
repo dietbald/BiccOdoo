@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26665,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected Currency Rate",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "expected_currency_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "61bf6165347f195d423173f4f26600b7920404935f12b3de11b65d2cafc8f7ee",
+  "write_date": "",
+  "xml_id": "account.field_account_move__expected_currency_rate"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7950,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Projects",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "project_ids",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a551756512b3cfd74f2bea433da8dec5ec1cd2dd6755a1dfde9bc87792714786",
+  "write_date": "",
+  "xml_id": "project.field_res_partner__project_ids"
+}

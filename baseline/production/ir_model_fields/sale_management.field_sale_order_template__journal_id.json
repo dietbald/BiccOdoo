@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8487,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoicing Journal",
+    "model_id": [
+      624,
+      "Quotation Template"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dc819f36f854d09b8c30703ad380451307390af0d6cf4f77eb07563e20233428",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template__journal_id"
+}

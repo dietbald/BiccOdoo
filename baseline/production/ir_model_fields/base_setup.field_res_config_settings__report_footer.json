@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1447,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Report Footer",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "report_footer",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "80f1f0c19ff5229ac636c51b5138f3fac36b59808ec1a002fbab777d65e9f284",
+  "write_date": "",
+  "xml_id": "base_setup.field_res_config_settings__report_footer"
+}

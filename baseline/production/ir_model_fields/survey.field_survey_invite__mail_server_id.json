@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14930,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outgoing mail server",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "mail_server_id",
+    "relation": "ir.mail_server",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e3a6e380a4c65962dee91163a1968f792e472239f64bab7cc28f4022d43705fa",
+  "write_date": "",
+  "xml_id": "survey.field_survey_invite__mail_server_id"
+}

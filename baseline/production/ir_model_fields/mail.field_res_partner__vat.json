@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 882,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax ID",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "vat",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "96741816e71e1b664e78f68a1c0b56eb47e9bd9d31df01ff0d40e68982a4cbc8",
+  "write_date": "",
+  "xml_id": "mail.field_res_partner__vat"
+}

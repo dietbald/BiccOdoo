@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26133,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2702,
+      "Add applicants to a job"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6dd852dfacba3d1e3a9b41a4a62c9c86068862bc8a8e1d6eaedea725d75a83b0",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_job_add_applicants__create_uid"
+}

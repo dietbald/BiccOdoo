@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 97,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n                <p>\n                    Dear <t t-out=\"object.company_id.name\">YourCompany</t>,\n                </p>\n                <p>\n                    Based on the documents and information received, the VAT return of <t t-out=\"object.company_id.name\">YourCompany</t>\n                    for period <t t-out=\"object.type_id._get_period_name(object.company_id, object.date_from, object.date_to)\"/> has been submitted.\n                </p>\n                <p>\n                    It has been determined that an amount of <t t-out=\"format_amount(object.total_amount_to_pay, object.amount_to_pay_currency_id)\"/> remains payable.\n                </p>\n                <table style=\"border:1px solid black; padding:20px; text-align:left; border-spacing: 16px;\">\n                    <tr>\n                        <td>Amount to Pay</td>\n                        <td><t t-out=\"format_amount(object.total_amount_to_pay, object.amount_to_pay_currency_id)\"/></td>\n                    </tr>\n                    <tr>\n                        <td>Due By</td>\n                        <td><t t-out=\"format_date(object.date_deadline)\"/></td>\n                    </tr>\n                </table>\n                <p>Kind regards,</p>\n                <p><t t-out=\"user.name\">Mitchell Admin</t></p>\n            </div>\n        ",
+    "email_from": "{{ (user.email_formatted or object.company_id.email_formatted) }}",
+    "email_to": false,
+    "lang": "{{ user.lang }}",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "Tax payment",
+    "subject": "Tax return payment instructions"
+  },
+  "payload_sha256": "ecc9a9bd54c2db807e253cd014a74ea28ea78878989b6b88e503a0059cb29230",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.email_template_generic_tax_instructions"
+}

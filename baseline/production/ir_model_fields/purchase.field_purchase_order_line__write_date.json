@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9472,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated on",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "write_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "9dfe86cf73d1b752bb989466e612e9aef3fb704326db9e1d477daa35178124cd",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__write_date"
+}

@@ -1,0 +1,23 @@
+<t t-name="mass_mailing.social_links">
+
+    <t t-set="social_links" t-value="company_id._get_social_media_links()"/>
+
+    <p class="mb-0">
+        <a t-att-href="social_links.get('social_facebook')" t-attf-style="{{optionalTextStyle}}" aria-label="Facebook" title="Facebook">
+            <span class="fa fa-facebook"/>
+        </a>&amp;nbsp;&amp;nbsp;
+        <a t-att-href="social_links.get('social_linkedin')" t-attf-style="margin-left:10px; {{optionalTextStyle or ''}}" aria-label="LinkedIn" title="LinkedIn">
+            <span class="fa fa-linkedin"/>
+        </a>&amp;nbsp;&amp;nbsp;
+        <a t-att-href="social_links.get('social_twitter')" t-attf-style="margin-left:10px; {{optionalTextStyle or ''}}" aria-label="X" title="X">
+            <span class="fa fa-twitter"/>
+        </a>&amp;nbsp;&amp;nbsp;
+        <a t-att-href="social_links.get('social_instagram')" t-attf-style="margin-left:10px; {{optionalTextStyle or ''}}" aria-label="Instagram" title="Instagram">
+            <span class="fa fa-instagram"/>
+        </a>&amp;nbsp;&amp;nbsp;
+        <a t-att-href="social_links.get('social_tiktok')" t-attf-style="margin-left:10px; {{optionalTextStyle or ''}}" aria-label="TikTok" title="TikTok">
+            <span class="fa fa-tiktok"/>
+        </a>
+    </p>
+
+</t>

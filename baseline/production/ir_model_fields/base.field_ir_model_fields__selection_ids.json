@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 31,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Selection Options",
+    "model_id": [
+      4,
+      "Fields"
+    ],
+    "name": "selection_ids",
+    "relation": "ir.model.fields.selection",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f384b1d4e940b0ba114f1743714564a6acbd7964a9a18a6e1cb0d4e6d33ca333",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_fields__selection_ids"
+}

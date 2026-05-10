@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29862,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3768,
+      "Audit Report"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "92d4990c036340a6a5b8664d1b92fc6f0e707a3b2c5d5c8576b6af6bbb7c3797",
+  "write_date": "",
+  "xml_id": "accountant_knowledge.field_audit_report__write_uid"
+}

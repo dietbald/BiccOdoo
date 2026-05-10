@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26658,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Associated Lead",
+    "model_id": [
+      2753,
+      "Convert Lead to Rental Order"
+    ],
+    "name": "lead_id",
+    "relation": "crm.lead",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "537390e9b1ae626eb95d9c97483409b4909184135c4f701ba527fb3639d00f3e",
+  "write_date": "",
+  "xml_id": "sale_renting_crm.field_crm_lead_rental__lead_id"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 445,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'default_project_id': active_id,\n                'show_project_update': True,\n                'search_default_open_tasks': 1,\n            }",
+    "domain": "[('project_id', '=', active_id), ('has_template_ancestor', '=', False)]",
+    "name": "Tasks",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "kanban,list,form,calendar,pivot,graph,activity"
+  },
+  "payload_sha256": "27fd456d196acffe640380c50b5345352122a5b77a5908eb28aeb681bc3c81cd",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.act_project_project_2_project_task_all"
+}

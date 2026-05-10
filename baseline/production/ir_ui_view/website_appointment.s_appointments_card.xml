@@ -1,0 +1,6 @@
+<t name="Appointments Card" t-name="website_appointment.s_appointments_card">
+    <t t-set="snippet_classes" t-value="'s_appointment_type_card'"/>
+    <t t-call="website_appointment.s_appointments">
+        <t t-call="website_appointment.s_appointments_preview_data"/>
+    </t>
+</t>

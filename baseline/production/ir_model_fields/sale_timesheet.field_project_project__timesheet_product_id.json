@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13587,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Product",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "timesheet_product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a63a73d32b05ab6c91f9ce6512640ae99fbb4eaadbb8582ec10e8824b6c5f81a",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_project__timesheet_product_id"
+}

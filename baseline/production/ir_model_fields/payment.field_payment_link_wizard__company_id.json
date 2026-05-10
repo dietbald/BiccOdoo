@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3778,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cf0a850c620999961efc2bc6b7f73d8aecf916d4c4cb48088502248d594b8629",
+  "write_date": "",
+  "xml_id": "payment.field_payment_link_wizard__company_id"
+}

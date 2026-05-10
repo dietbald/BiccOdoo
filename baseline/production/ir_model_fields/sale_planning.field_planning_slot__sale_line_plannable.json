@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14005,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Plan Services",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "sale_line_plannable",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e87791d143525cf75151af32c7deed88416a1ee577cf94dc8fcd7e4052eb43a1",
+  "write_date": "",
+  "xml_id": "sale_planning.field_planning_slot__sale_line_plannable"
+}

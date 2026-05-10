@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13125,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      830,
+      "Payroll Note"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5be7b5a1742308099bc0a0dc1236a9857b9da96dfc66ddaec426b0f16356918e",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_note__company_id"
+}

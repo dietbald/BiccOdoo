@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 99,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      23
+    ],
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "Readonly Move",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "995520516986a13f85538ece7d0d332b4e91c40315923f95f3767079c68695fd",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_move_rule_group_invoice"
+}

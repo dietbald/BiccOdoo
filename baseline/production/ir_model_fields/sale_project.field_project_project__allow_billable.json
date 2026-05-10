@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Billable",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "allow_billable",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "faf76b37e265f98b97ad79a8495ff073097c9268ef5bb51155e9df90acf74235",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_project__allow_billable"
+}

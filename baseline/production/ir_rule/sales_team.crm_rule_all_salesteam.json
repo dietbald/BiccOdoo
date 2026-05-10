@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 138,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1,'=',1)]",
+    "groups": [
+      36
+    ],
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "All Salesteam",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c5e81219d704ed57b1fa985534d1977a7ecd87a3b6dc0279e571a449b4d9bffa",
+  "write_date": "2023-11-30 04:45:32",
+  "xml_id": "sales_team.crm_rule_all_salesteam"
+}

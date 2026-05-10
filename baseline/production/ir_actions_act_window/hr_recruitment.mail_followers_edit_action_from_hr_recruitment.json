@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1670,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'hr.applicant', 'default_res_ids': active_ids}",
+    "domain": false,
+    "name": "Add/Remove Followers",
+    "res_model": "mail.followers.edit",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "6b7e0967f13d30532436c87570ef132f233675c5ae5ed3b1b2fc09bb2f35f25d",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.mail_followers_edit_action_from_hr_recruitment"
+}

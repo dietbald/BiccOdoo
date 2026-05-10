@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26927,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Hidden",
+    "model_id": [
+      2948,
+      "Link between link previews and messages"
+    ],
+    "name": "is_hidden",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6ac43d867361a6ee5d26f58425e650e1dbc0ed9a73cd4f453b1dfa5ed74909f1",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_link_preview__is_hidden"
+}

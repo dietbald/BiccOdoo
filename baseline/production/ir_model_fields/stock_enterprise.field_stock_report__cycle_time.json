@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11918,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cycle Time (Days)",
+    "model_id": [
+      779,
+      "Stock Report"
+    ],
+    "name": "cycle_time",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "fdf825097ef698bc7674ad5e1f22f4ae93f698da58773805b13efa7d42b4c0f0",
+  "write_date": "",
+  "xml_id": "stock_enterprise.field_stock_report__cycle_time"
+}

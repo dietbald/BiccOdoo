@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pause assignment",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "assignment_optout",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e19373301ed80668340cf692a597fa1b71c18dc8c91c64ca8cf5356066225dd0",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team_member__assignment_optout"
+}

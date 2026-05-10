@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29005,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "audit_credit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "3ff83da73212cfd661648d2170c9f50a3abbc770bd28fe54b0c4f3940ac64cae",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_account__audit_credit"
+}

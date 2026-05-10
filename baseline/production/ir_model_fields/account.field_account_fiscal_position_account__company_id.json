@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      418,
+      "Accounts Mapping of Fiscal Position"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ca1c483fa5ade8cff4abb912dbe91ef8c68bba8f3b2632659728ac80031a6820",
+  "write_date": "",
+  "xml_id": "account.field_account_fiscal_position_account__company_id"
+}

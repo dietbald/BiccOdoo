@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 89,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      431,
+      "Preset to create journal entries during a invoices and payments matching"
+    ],
+    "name": "Account reconcile model template company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7c45c0b1f19b57a9b99e54871dc65089eb82ef098b98279cbe933d2145a8fdb2",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_reconcile_model_template_comp_rule"
+}

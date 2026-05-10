@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 440,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['&', ('employee_id.user_id', '=', user.id), ('state', 'in', ['cancel', 'confirm', 'validate1'])]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "Time Off base.group_user unlink",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": false
+  },
+  "payload_sha256": "1f9e48a08ac93644239ca643e57aadd0f588c5f8d080301266ed851c38a24174",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_rule_employee_unlink"
+}

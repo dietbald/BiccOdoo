@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1980,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      2881,
+      "User Settings for Embedded Actions"
+    ],
+    "name": "res.users.settings.embedded.action",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cf7c848da282d279cae61b2ad583fa539a885fa2667d3dd0e6a5f8b2eec4c2e9",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "web.access_res_users_settings_embedded_action_user"
+}

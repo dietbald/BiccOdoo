@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13766,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval Rule",
+    "model_id": [
+      876,
+      "Studio Approval Entry"
+    ],
+    "name": "rule_id",
+    "relation": "studio.approval.rule",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "81ce748f4642b7b27c007e376fec75988837446f800e62fe0235b8d987018c60",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_entry__rule_id"
+}

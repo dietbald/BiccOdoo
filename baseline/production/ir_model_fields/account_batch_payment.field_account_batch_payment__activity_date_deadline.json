@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19078,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "cb74f5299a0b886517e49f16226f44324b3c0d6585f6d9746a81c0f6e3b601af",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__activity_date_deadline"
+}

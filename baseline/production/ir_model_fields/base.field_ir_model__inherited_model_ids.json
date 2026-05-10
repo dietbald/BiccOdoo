@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inherited models",
+    "model_id": [
+      3,
+      "Models"
+    ],
+    "name": "inherited_model_ids",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "30810bab74f280e1de9f74b21872ef9eec9f610b3039a75b3453af477c24f176",
+  "write_date": "",
+  "xml_id": "base.field_ir_model__inherited_model_ids"
+}

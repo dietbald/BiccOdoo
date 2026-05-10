@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23903,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "745d2df356be4a9cca159c030c349e70658c8c49c44746b8e4eb8176a7728d9e",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12027,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Virtual Available At Date",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "virtual_available_at_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "188d325130ca045f74d636c76651de52035807eb210692405a3a804690e5cca0",
+  "write_date": "",
+  "xml_id": "sale_stock.field_sale_order_line__virtual_available_at_date"
+}

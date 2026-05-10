@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7535,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      593,
+      "Rating"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d483163dd1a63c05f7f93fa7cac018548007b9d2e7e5d04638c0560e86a9d3e4",
+  "write_date": "",
+  "xml_id": "rating.field_rating_rating__create_uid"
+}

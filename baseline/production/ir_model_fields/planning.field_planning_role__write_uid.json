@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13905,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      881,
+      "Planning Role"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d4dd6dcdfa1c144ae8cf236b9e498a5270b2101b541fe30f0d26910c674bf05e",
+  "write_date": "",
+  "xml_id": "planning.field_planning_role__write_uid"
+}

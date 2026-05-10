@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 773,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('parent_id', '=', active_id), ('is_article_item', '=', True)]",
+    "name": "Article Items",
+    "res_model": "knowledge.article",
+    "target": "current",
+    "view_mode": "calendar"
+  },
+  "payload_sha256": "07978b5c7b8be3cb783d6e13767d975e45ad49276ab70cdde3f743928eef4c2e",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.knowledge_article_action_item_calendar"
+}

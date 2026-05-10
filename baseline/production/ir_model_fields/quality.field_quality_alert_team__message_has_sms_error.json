@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16557,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      987,
+      "Quality Alert Team"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "385a8fc956a5060570d2c129b18c32235cc146afcfa60acbd8eb7cb94ef9b8f6",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_team__message_has_sms_error"
+}

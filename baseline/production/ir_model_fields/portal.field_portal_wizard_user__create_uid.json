@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3362,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      387,
+      "Portal User Config"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f1eb691c611eb0a8662305df17e44509ad82a2b3d0a7dda9a8361184a5a1d333",
+  "write_date": "",
+  "xml_id": "portal.field_portal_wizard_user__create_uid"
+}

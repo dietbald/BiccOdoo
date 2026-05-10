@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11377,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resupply Routes",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "resupply_route_ids",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "428baeed0199043bab29aae683e576b59f77b22fc12dab168a66dba9076765f8",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__resupply_route_ids"
+}

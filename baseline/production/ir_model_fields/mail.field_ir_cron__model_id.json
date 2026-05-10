@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Model",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "model_id",
+    "relation": "ir.model",
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "35e16369436aa6b408d1ead884a1443836e079e8c1ea7a64c42b73b17779d5d6",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__model_id"
+}

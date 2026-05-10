@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1434,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      974,
+      "Change Production Qty"
+    ],
+    "name": "access.change.production.qty",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "5d6116ee286d99bb2cdd1cea7f39998e12ec49602727351230d05813fcd5db8c",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_change_production_qty"
+}

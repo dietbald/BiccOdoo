@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1056,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "stock.picking",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1cfddafb1199b8783174b2daecc17c246d02d0acf66c44b5359d0c04f6d09118",
+  "write_date": "2025-12-09 03:00:15",
+  "xml_id": "sale_stock.access_stock_picking_portal"
+}

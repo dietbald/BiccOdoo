@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 695,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard",
+    "model_id": [
+      70,
+      "Demo failure"
+    ],
+    "name": "wizard_id",
+    "relation": "ir.demo_failure.wizard",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3af0cc9392b6481bb50bb3a049ea27a610ca120f1f42a7208f559719f4f1178f",
+  "write_date": "",
+  "xml_id": "base.field_ir_demo_failure__wizard_id"
+}

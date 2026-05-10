@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10029,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Route",
+    "model_id": [
+      688,
+      "Website rewrite"
+    ],
+    "name": "route_id",
+    "relation": "website.route",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "846284e9ba696252430c2fcb72a8a05a0e5b6846ec9a8af23a7c8af895563e17",
+  "write_date": "",
+  "xml_id": "website.field_website_rewrite__route_id"
+}

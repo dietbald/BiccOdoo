@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6907,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2ff184988b78af7b3c71fa060e3fb1efda5e61b9aae94b9b574d45ba67f8bdbd",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__message_has_error_counter"
+}

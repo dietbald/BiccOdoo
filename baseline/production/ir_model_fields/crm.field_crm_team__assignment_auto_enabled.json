@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7277,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Assignment",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "assignment_auto_enabled",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "65f6d470b90d813bb3b29e5d160ab3d98d9929f4cde5dc4175597984de000f49",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team__assignment_auto_enabled"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 160,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      598,
+      "Personal Task Stage"
+    ],
+    "name": "Project: See my own personal stage",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e499f1be2bee34c1b77752a8ffc54daffff5c27c03895c4a4df5e6a2557730ac",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.ir_rule_project_personal_stage_my"
+}

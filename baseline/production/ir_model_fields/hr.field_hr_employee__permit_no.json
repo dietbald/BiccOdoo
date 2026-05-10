@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8718,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Permit No",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "permit_no",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "abe3da98a5a9ca45da7c02a0aa3224b78a983ae8bbc8f628229f044a3d467072",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__permit_no"
+}

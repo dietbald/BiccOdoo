@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3775,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "05bfd3145c28a6ecd794990928aa2de5e0f8697fb34c2d6be782345f1e33b278",
+  "write_date": "",
+  "xml_id": "payment.field_payment_link_wizard__partner_id"
+}

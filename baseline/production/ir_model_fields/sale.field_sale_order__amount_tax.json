@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8190,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Taxes",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "amount_tax",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "54839d14552a49fab6fa74e03fbd71e37803aa0443c46218e2de3c7fafa7ef8f",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__amount_tax"
+}

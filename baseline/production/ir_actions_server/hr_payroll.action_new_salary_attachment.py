@@ -1,0 +1,1 @@
+action = record.action_new_salary_attachment()

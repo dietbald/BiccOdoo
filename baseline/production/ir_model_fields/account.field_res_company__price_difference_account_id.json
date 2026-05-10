@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27523,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Price Difference Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "price_difference_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "389920cbbe41c1c91e818ade75abb2e74d8d631a6f2bf39c196c9fabca88564b",
+  "write_date": "",
+  "xml_id": "account.field_res_company__price_difference_account_id"
+}

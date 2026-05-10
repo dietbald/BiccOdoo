@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26682,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unavailable Lot",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "unavailable_lot_ids",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "4cce5e1472032bfeb7d08f148321e12a5166f71557db923dd53542874e9dcc00",
+  "write_date": "",
+  "xml_id": "sale_stock_renting.field_sale_order_line__unavailable_lot_ids"
+}

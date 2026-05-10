@@ -1,0 +1,17 @@
+<form>
+                <sheet>
+                    <div name="warnings" invisible="not dat_export_warning">
+                        <field name="dat_export_warning" class="o_field_html" widget="actionable_errors"/>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="available_forms" invisible="1"/>  <!-- Required for the selection widget -->
+                            <field name="attachment_for" widget="dynamic_selection" options="{'available_field': 'available_forms'}"/>
+                        </group>
+                    </group>
+                </sheet>
+                <footer>
+                    <button string="Export" name="action_export_dat" type="object" class="btn-primary"/>
+                    <button string="Cancel" special="cancel" class="btn-secondary"/>
+                </footer>
+            </form>

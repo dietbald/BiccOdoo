@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7465,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      590,
+      "People Role"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ae342c205eaf88010c5bd33d9b0ce414cf01ffcec19471ffac5f2781164d2ce6",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_role__create_uid"
+}

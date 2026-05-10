@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15250,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Starting Hour",
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "start_hour",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "10730c2d5e356c125a7dac8c1dda64eae9006de190c19806b2da6b62099b63ce",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_slot__start_hour"
+}

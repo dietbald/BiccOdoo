@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15280,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Location",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "location_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c0ed903b18c08a56774b15c2581c38015de361d49eede653e3e0af1814e4c8d",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__location_id"
+}

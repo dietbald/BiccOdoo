@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7708,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sub-task Count",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "subtask_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "604ea4d30ccef20a6cec1469c7f346d549a2ac5eb58d8ed65df299232b4289fa",
+  "write_date": "",
+  "xml_id": "project.field_project_task__subtask_count"
+}

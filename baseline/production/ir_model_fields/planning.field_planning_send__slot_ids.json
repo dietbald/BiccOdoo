@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13954,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Slot",
+    "model_id": [
+      884,
+      "Send Planning"
+    ],
+    "name": "slot_ids",
+    "relation": "planning.slot",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d2fbc0d4ebb69bafb76c1d3e40e6cb849b3e1627e2677e700f4ef7cf55aa422c",
+  "write_date": "",
+  "xml_id": "planning.field_planning_send__slot_ids"
+}

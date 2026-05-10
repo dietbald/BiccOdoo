@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7990,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deadline",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "188d627f50c559efcc8a78471dbb7e007aa1e3b14872c92b15e0452cfff91b93",
+  "write_date": "",
+  "xml_id": "project.field_project_task_burndown_chart_report__date_deadline"
+}

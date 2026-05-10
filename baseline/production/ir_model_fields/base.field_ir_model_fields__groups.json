@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 43,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Groups",
+    "model_id": [
+      4,
+      "Fields"
+    ],
+    "name": "groups",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5b6e4fae37bc7b3e65fc49361a4ddad5695a4917d7a502c3e92890332268afc6",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_fields__groups"
+}

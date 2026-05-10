@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17878,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "X Conversation ID",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "twitter_conversation_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "e68c5c814b0567270bd9e42715d9b00e606ff1a64a6e0db0c4b4eac03aedc0f6",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_stream_post__twitter_conversation_id"
+}

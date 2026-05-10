@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2505,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mail Activity Type",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "mail_activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "69ebc0f05fa535d1062112d359e23bbceb2b8e250fa1988770cd222dd59ba54a",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__mail_activity_type_id"
+}

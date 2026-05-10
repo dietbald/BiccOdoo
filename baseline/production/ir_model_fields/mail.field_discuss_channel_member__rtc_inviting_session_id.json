@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2343,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ringing session",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "rtc_inviting_session_id",
+    "relation": "discuss.channel.rtc.session",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "699929bbc048d9b381761be0309016ae76b32bf3f99325844e0b0bff6ed817aa",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__rtc_inviting_session_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11142,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "39abf24ed3ced12254de208ccdedac72b0454b1484403df8bf09851bf8a556d5",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__rating_ids"
+}

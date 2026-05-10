@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17420,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stages",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "stage_ids",
+    "relation": "mrp.eco.stage",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "91e34c961e1a459fddc6f7f7c16ebb06cd2af2b604e7a0971474a6d0ae6963c6",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__stage_ids"
+}

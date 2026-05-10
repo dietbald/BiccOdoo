@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 69,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "Access providers in own companies only",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a04bfeae5d26dd846bd9ceb406e855720d161cbc116d646fea1d92f425cbcd5b",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "payment.payment_provider_company_rule"
+}

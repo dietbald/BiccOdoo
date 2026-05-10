@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5654,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      484,
+      "Payment Refund Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ec26df36395ae17c5f4fe864cc264baf1e61573ce41f7b23b1d269d8fd69e41a",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_refund_wizard__write_uid"
+}

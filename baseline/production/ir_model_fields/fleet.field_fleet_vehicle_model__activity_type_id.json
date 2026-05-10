@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19545,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a155b91bd1ca477cd51d99b8825de4d95d1920b0cdc1bd5041c367a689e6ac28",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__activity_type_id"
+}

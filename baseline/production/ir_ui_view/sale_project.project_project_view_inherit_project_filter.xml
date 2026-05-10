@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='partner_id']" position="after">
+                <field name="sale_order_id" invisible="context.get('default_is_template')"/>
+            </xpath>

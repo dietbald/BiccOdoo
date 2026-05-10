@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3658,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Token Inline Form Template",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "token_inline_form_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2102d28c21e962945c6714fc44887a9204fa0e936dfa7b5b4d04eb6d4b3ed686",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__token_inline_form_view_id"
+}

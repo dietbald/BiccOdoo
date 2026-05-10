@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17557,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rebase",
+    "model_id": [
+      1020,
+      "ECO BoM changes"
+    ],
+    "name": "rebase_id",
+    "relation": "mrp.eco",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "936575d487addaa6085027d41ca95cea018bbed697e1c5f6cdd73aa9c759c20a",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_bom_change__rebase_id"
+}

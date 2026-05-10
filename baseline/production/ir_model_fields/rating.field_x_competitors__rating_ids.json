@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26449,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      2743,
+      "Competitors"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ce6e4f865bd827c659d2082eec3e6495e82e9a1be25c9d2b97a38bf99187462b",
+  "write_date": "",
+  "xml_id": "rating.field_x_competitors__rating_ids"
+}

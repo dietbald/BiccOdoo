@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18323,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Checks",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "check_ids",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6ba656c9d2b573ee0ec1a45d0325e8a2e5c4c2af6edafdab593d66ff85c5fb91",
+  "write_date": "",
+  "xml_id": "quality_control.field_stock_move_line__check_ids"
+}

@@ -1,0 +1,4 @@
+<search>
+                <field name="name"/>
+                <filter string="My Templates" name="my_template_filter" domain="[('create_uid', '=', uid)]"/>
+            </search>

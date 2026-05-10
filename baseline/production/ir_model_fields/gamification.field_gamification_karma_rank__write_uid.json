@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14639,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      915,
+      "Rank based on karma"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0acab9ecf6754bf355389213d00ff39fca774092c975c7324b8a81128989f35a",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_karma_rank__write_uid"
+}

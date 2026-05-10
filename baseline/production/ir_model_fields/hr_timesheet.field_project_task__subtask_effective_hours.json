@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13445,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Spent on Sub-tasks",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "subtask_effective_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a8478069886fe87b3cec5ef4f1a56c59a1e9c84aa3dfcf0cc5902343f49aa34e",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_project_task__subtask_effective_hours"
+}

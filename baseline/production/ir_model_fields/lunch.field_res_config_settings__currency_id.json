@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5000,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "096af85189e74336679ef315d8a53dfa90735419088ed3b0d80d78f4ccce1fff",
+  "write_date": "",
+  "xml_id": "lunch.field_res_config_settings__currency_id"
+}

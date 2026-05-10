@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3862,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Invoiced",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "total_invoiced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "dcba9231217baeec51d54bfb4a144d3d821658bbb096bb8ddd60f063b6e5496f",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__total_invoiced"
+}

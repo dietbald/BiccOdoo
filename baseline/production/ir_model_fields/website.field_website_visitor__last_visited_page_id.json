@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10230,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Visited Page",
+    "model_id": [
+      699,
+      "Website Visitor"
+    ],
+    "name": "last_visited_page_id",
+    "relation": "website.page",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5babbcf334ac647bae333cb16b7f7ab0c0090d011a297436d4f22203bb927e62",
+  "write_date": "",
+  "xml_id": "website.field_website_visitor__last_visited_page_id"
+}

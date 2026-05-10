@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18394,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1048,
+      "WhatsApp Business Account"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8ee84990ed17b817091201a21accdd0e107bbb052f4baf2c81bf6215c7c3e863",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_account__rating_ids"
+}

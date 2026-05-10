@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11599,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      754,
+      "Return Picking"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8ed62b40773766a8ad339195cbe5e66d7a810ae8ca6837a01deed940b2b87e7d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_return_picking__create_uid"
+}

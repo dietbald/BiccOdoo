@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28865,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "States",
+    "model_id": [
+      3563,
+      "Accounting Return Type"
+    ],
+    "name": "states_workflow",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "aed95302e420301e29783c54a6f5ce1482e500cb831c6841bd20df95944d2ac7",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_type__states_workflow"
+}

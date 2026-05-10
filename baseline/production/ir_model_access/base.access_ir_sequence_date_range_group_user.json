@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 29,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      13,
+      "Sequence Date Range"
+    ],
+    "name": "ir_sequence_date_range group_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b570bd7053d29ca385549db3242fcefb54088a510260e8edb0dbdffe10462006",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_sequence_date_range_group_user"
+}

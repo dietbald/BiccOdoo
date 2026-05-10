@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24823,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Adjusting Entry Origin Moves",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "adjusting_entry_origin_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9ce3d9717660c24983306f3dd22331dfbd832efd94e73b0df3dde65c9f691b33",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__adjusting_entry_origin_move_ids"
+}

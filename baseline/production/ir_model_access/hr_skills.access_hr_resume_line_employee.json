@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 763,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      638,
+      "Resume line of an employee"
+    ],
+    "name": "hr.resume.line.employee",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "052a731ea51778cd2388e5b8a9823466f67e2abc020de1073c7358fa26e519b6",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.access_hr_resume_line_employee"
+}

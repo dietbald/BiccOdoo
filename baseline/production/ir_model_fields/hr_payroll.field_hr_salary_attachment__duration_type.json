@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29493,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Duration",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "duration_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "71d76a0745ada4fb96af2d672a8886866fb7120a60c8c3176a37b0dc434a838a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__duration_type"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18747,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1069,
+      "Track Stock"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2fa87a0fdb0e4e6412170f253217c9d6498a1dd70ad670fdea83b28978351119",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking__company_id"
+}

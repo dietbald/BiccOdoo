@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10730,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Requested Signatures",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "sign_request_ids",
+    "relation": "sign.request",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1fd9db851eb0b8758ddfc27e5694987d0ebff18d33b073504ff56803ee0aae1a",
+  "write_date": "",
+  "xml_id": "hr_sign.field_hr_version__sign_request_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Position",
+    "model_id": [
+      951,
+      "Mandatory Day"
+    ],
+    "name": "job_ids",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "85b020f0159615f044e406d6a6ddec9c0a9bba0166b8083e66e3af3c8435209d",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_mandatory_day__job_ids"
+}

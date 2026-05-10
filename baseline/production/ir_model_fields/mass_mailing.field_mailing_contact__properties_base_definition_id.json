@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29869,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Properties Base Definition",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "properties_base_definition_id",
+    "relation": "properties.base.definition",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "578c28152d3a1b3c4a40b59a848a68efb00b752d27ad94e5f8982f36d7c03b41",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__properties_base_definition_id"
+}

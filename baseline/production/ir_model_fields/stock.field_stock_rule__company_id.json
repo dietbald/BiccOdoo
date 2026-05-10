@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11056,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "85dddd6b52e817cca1104cdc706d3b3c7e914475b80a79a99d679aa536d3bbf0",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__company_id"
+}

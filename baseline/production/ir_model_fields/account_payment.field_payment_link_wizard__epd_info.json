@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Early Payment Discount Information",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "epd_info",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "6f7be43180ae2b9b1b2f22f1bf0428aba0f0d1aef285bf3b2936369e5703e6b3",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_link_wizard__epd_info"
+}

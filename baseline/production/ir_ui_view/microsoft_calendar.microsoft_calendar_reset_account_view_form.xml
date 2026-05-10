@@ -1,0 +1,12 @@
+<form>
+                <h1>Reset Outlook Calendar Account</h1>
+                <group>
+                    <field name="delete_policy" widget="radio"/>
+                    <field name="sync_policy" widget="radio"/>
+                </group>
+
+                <footer>
+                    <button name="reset_account" string="Confirm" type="object" class="btn-primary" data-hotkey="q"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="x"/>
+                </footer>
+            </form>

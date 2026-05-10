@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12876,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wage Type",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "wage_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "cd9e87f843d1501f24cf168bfcc0e76401114c65df0f2810eb9cc06b3735c4da",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__wage_type"
+}

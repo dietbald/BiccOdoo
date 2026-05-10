@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24796,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Income Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "income_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2ddacde96ecc10e505ee42c6c75b696dea8d88c8467f3a503d1921756bb5617b",
+  "write_date": "",
+  "xml_id": "account.field_res_company__income_account_id"
+}

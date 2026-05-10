@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1055,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Paper format",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "paperformat_id",
+    "relation": "report.paperformat",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ba2bd98677a92519039057356cd46ee6294bd5faf302aca8c6638ed180364731",
+  "write_date": "",
+  "xml_id": "base.field_res_company__paperformat_id"
+}

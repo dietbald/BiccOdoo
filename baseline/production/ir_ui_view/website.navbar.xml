@@ -1,0 +1,6 @@
+<t name="Navbar" t-name="website.navbar">
+    <t t-set="_navbar_expand_class" t-value="_navbar_expand_class is None and 'navbar-expand-lg' or _navbar_expand_class"/>
+    <nav data-name="Navbar" t-attf-aria-label="#{_navbar_name if _navbar_name else 'Main'}" t-attf-class="navbar #{_navbar_expand_class} navbar-light o_colored_level o_cc #{_navbar_classes} #{_extra_navbar_classes}">
+        <t t-out="0"/>
+    </nav>
+</t>

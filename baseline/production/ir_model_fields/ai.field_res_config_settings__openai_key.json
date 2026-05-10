@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "OpenAI API key",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "openai_key",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "217553409d49854a1d8be65542facd95eef0ff93a6c7bfe4fb718f7c4910ec17",
+  "write_date": "",
+  "xml_id": "ai.field_res_config_settings__openai_key"
+}

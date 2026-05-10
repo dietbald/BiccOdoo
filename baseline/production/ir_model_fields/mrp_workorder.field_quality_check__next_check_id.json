@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16876,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Check",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "next_check_id",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "48a912565104438b8062c1daf9a791933a173e30371eb14071e71deec7b7dd89",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_check__next_check_id"
+}

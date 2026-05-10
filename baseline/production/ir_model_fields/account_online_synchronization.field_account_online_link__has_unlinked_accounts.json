@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5940,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Unlinked Accounts",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "has_unlinked_accounts",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4e84d6b5ad332dd692c08acfde88a1853961e26523bc762e63dbd130cbd0b433",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__has_unlinked_accounts"
+}

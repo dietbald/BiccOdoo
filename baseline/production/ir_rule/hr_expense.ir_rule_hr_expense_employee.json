@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 229,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('employee_id.user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "Employee Expense",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4838d42244581754cc4f49f4f7b72a8b4aca62bcfc71200dab9bc955e23d0a36",
+  "write_date": "2023-11-30 07:12:51",
+  "xml_id": "hr_expense.ir_rule_hr_expense_employee"
+}

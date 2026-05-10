@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9770,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Template",
+    "model_id": [
+      670,
+      "Get Refuse Reason"
+    ],
+    "name": "template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "304074cbfe8961f58345d89d0ab7d37c3a7a34a94399b4ac34dde355d002b083",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_get_refuse_reason__template_id"
+}

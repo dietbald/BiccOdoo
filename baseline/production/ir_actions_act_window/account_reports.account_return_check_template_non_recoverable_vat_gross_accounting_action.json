@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1695,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'journal_type':'general', 'search_default_posted':1}",
+    "domain": "[\n                ('display_type', 'not in', ('line_section', 'line_note')),\n                ('parent_state', '!=', 'cancel'),\n                ('date', '>=', return_start_date),\n                ('date', '<=', return_end_date),\n                ('account_id.internal_group', '=', 'expense'),\n                ('balance', '>', 500.00)\n            ]",
+    "name": "Journal Items",
+    "res_model": "account.move.line",
+    "target": "current",
+    "view_mode": "list,pivot,graph,kanban"
+  },
+  "payload_sha256": "16e2ead54cec9510e4794babeed3cdbd4729ee5e4ece81a06fe4f3427ebba44f",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.account_return_check_template_non_recoverable_vat_gross_accounting_action"
+}

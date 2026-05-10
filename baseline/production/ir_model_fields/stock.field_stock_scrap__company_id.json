@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11399,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b22cb61203157506ffae15ac2824e51b8d939f4f3ac18c1d0396cce8ca31683c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__company_id"
+}

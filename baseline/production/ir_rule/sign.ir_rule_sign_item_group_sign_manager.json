@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 274,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('template_id.has_sign_requests', '=', False)]",
+    "groups": [
+      73
+    ],
+    "model_id": [
+      712,
+      "Fields to be sign on Document"
+    ],
+    "name": "sign.item: group_sign_manager: Create and manage template items",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f4761094d93c0a5b43e4e46b78c0b1381d033b695f236001e8b5bf137ad657ad",
+  "write_date": "2023-12-01 02:29:30",
+  "xml_id": "sign.ir_rule_sign_item_group_sign_manager"
+}

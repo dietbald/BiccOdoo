@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10601,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authorized Users",
+    "model_id": [
+      709,
+      "Signature Template"
+    ],
+    "name": "authorized_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "75a191df0d5e367f10fcc2bb0025a80923e2952d26f83816bdc7adfb2677616d",
+  "write_date": "",
+  "xml_id": "sign.field_sign_template__authorized_ids"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 254,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('type', '=', 'qweb')]",
+    "groups": [
+      66
+    ],
+    "model_id": [
+      16,
+      "View"
+    ],
+    "name": "website_designer: Manage Website and qWeb view",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "03b76d5b3ac56662ec9b0d20d4fecf6531c958febb4a0826a0ea46102234ca74",
+  "write_date": "2023-12-01 01:26:49",
+  "xml_id": "website.website_designer_edit_qweb"
+}

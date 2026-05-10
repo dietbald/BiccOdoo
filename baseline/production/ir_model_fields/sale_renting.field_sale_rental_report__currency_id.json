@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1af58f37381a27374040e0060b2eba22b6b8e33fd9ee44a3a7451a12928ab8ad",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_rental_report__currency_id"
+}

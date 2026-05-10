@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12834,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bd4335c7ace8517639a6b76027096007b2b83f9b38b490a2d27cc7e376eda2c0",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__write_uid"
+}

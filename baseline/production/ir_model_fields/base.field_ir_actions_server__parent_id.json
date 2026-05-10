@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25710,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Action",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "parent_id",
+    "relation": "ir.actions.server",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0b1f5fb7c510b459c5a6a044b7903803b5f28b22acebf879f6c154a1e6da6288",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__parent_id"
+}

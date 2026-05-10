@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16113,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Summary",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "activity_summary",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8040d86b90046a497d0e12dc2917acf02f866aa7413d3b06dcd6b3242681d5f2",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__activity_summary"
+}

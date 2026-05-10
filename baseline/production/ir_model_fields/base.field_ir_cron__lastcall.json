@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 452,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Execution Date",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "lastcall",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "96950a7c9545e5c091bc70352982b2da81ad3ad110180c2c565b7fbff9802550",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__lastcall"
+}

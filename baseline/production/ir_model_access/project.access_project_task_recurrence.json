@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 654,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      40,
+      "Project / User"
+    ],
+    "model_id": [
+      597,
+      "Task Recurrence"
+    ],
+    "name": "project.task.recurrence",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2cf69676f02a7f51f9eaaecb66237f9ea971a1671d08c6cdf831fdb48d714424",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_task_recurrence"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 758,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_later_than_a_year_ago':1}",
+    "domain": false,
+    "name": "On-time Delivery",
+    "res_model": "vendor.delay.report",
+    "target": "current",
+    "view_mode": "graph"
+  },
+  "payload_sha256": "d87d51e7b64b9ef8e1171b7b63f6958a2d732e8c51a9516a34355aa58d80fb88",
+  "write_date": "2025-12-09 02:59:38",
+  "xml_id": "purchase_stock.action_purchase_vendor_delay_report"
+}

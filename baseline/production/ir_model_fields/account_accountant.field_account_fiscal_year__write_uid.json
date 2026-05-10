@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5687,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      485,
+      "Fiscal Year"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "51d164cf1550466ecafb6905e8b8cc7dbad2ba631918052127043e522c2aa75e",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_fiscal_year__write_uid"
+}

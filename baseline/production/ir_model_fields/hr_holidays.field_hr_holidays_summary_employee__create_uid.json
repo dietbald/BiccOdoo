@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15798,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      957,
+      "HR Time Off Summary Report By Employee"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f67f894d16ca09c04de115e86f3ef014c3822fc9416364b3632f528698599878",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_holidays_summary_employee__create_uid"
+}

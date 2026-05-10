@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25846,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract Attachment",
+    "model_id": [
+      2662,
+      "Base class to extract data from documents with OCRed words saved"
+    ],
+    "name": "extract_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "88262099fddd9e46d6c88e687056a3f197e90669ba21c589ba77cf8370ebbe58",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin_with_words__extract_attachment_id"
+}

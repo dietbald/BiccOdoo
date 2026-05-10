@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26580,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2748,
+      "Sale temporal Recurrence"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2a1fa8c66cb0016a7eaa8de59e99ba7e8cf3fc3fae4ddfd444af1d5c412a40b5",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_temporal_recurrence__write_uid"
+}

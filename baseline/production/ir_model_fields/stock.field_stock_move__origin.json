@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10950,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Document",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "origin",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "633777132aa0a06fc89a3450937b5b46a09de6c2a0fc08d60dce1eba4aa6225a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__origin"
+}

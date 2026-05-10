@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12163,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approvers Sequence?",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "approver_sequence",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1135727eef4fe67ab182c58e1fc999069e560d99b187a175031179ffdbb74949",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__approver_sequence"
+}

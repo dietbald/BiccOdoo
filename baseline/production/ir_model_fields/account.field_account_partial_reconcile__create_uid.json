@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4517,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "25f100a85828fec8d32b26982b522212984c974cf56c6b8b23fb78842aebee9f",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__create_uid"
+}

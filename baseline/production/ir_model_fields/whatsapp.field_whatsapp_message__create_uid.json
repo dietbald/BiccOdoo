@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18429,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1049,
+      "WhatsApp Messages"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5d7fe6cb08ae0fbdade7cab742a7422e40cb35621156c67e9efe1fd50376faf8",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_message__create_uid"
+}

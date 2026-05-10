@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23684,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reference Month",
+    "model_id": [
+      1463,
+      "Work Entry Export Mixin"
+    ],
+    "name": "reference_month",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3a059345dcc499def6f22c431336914ccc6f8cdfa07c740aeffa643fdb910100",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_export_mixin__reference_month"
+}

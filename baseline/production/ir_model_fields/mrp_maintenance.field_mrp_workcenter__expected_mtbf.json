@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18264,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected MTBF",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "expected_mtbf",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "1a1681915ddcfe00fb0432697f6741e3d4297d14034839e2001dadf1a8d1540c",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__expected_mtbf"
+}

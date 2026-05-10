@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11600,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      754,
+      "Return Picking"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "09dac3a7a24ca98b2e12e40f5a8e81b41649b04b79dedbdade124d13da35c628",
+  "write_date": "",
+  "xml_id": "stock.field_stock_return_picking__create_date"
+}

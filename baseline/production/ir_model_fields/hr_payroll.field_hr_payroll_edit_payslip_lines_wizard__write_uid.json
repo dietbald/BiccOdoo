@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13177,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      835,
+      "Edit payslip lines wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "917e92afbf18ecdf4d958ed73c956f86a57311ecd6ec2b5aa4065050fd5bef4e",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_edit_payslip_lines_wizard__write_uid"
+}

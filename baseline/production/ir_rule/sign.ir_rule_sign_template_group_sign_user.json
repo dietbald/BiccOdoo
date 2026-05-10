@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 273,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('authorized_ids', 'in', user.id), '|', ('group_ids', 'in', user.all_group_ids.ids), ('user_id', '=', user.id)]",
+    "groups": [
+      72
+    ],
+    "model_id": [
+      709,
+      "Signature Template"
+    ],
+    "name": "sign.template: group_sign_user: Manage templates",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0c804f606134447cc0a0cd933b9f916cd0c84022becddeaaedcf136d4a450cb7",
+  "write_date": "2023-12-01 02:29:30",
+  "xml_id": "sign.ir_rule_sign_template_group_sign_user"
+}

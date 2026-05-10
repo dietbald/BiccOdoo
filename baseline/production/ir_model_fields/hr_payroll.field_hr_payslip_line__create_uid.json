@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12951,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "24ed04e92838ba398227f17badf4501b63b55261d5cdfd34f3fc63ff3dcb6029",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__create_uid"
+}

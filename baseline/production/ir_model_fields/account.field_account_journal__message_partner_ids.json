@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4012,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d3e98c8d896453182891f218d76683da1b0dd191958db6eb2865a54882290c2e",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__message_partner_ids"
+}

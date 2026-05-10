@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13686,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      856,
+      "Timesheets Leaderboard Tip"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ac27316d59a1c6d079607774e618d86110d4c7584dfcdbe0900248b94654d534",
+  "write_date": "",
+  "xml_id": "sale_timesheet_enterprise.field_hr_timesheet_tip__write_uid"
+}

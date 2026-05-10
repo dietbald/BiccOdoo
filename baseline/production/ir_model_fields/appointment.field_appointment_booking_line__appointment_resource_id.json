@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15159,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appointment Resource",
+    "model_id": [
+      936,
+      "Appointment Booking Line"
+    ],
+    "name": "appointment_resource_id",
+    "relation": "appointment.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a73552601533d2a56b3817913e5a5ed287bede5a630201706b4150bc15c7116c",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_booking_line__appointment_resource_id"
+}

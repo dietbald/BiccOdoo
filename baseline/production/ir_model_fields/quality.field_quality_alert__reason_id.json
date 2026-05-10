@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16689,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Root Cause",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "reason_id",
+    "relation": "quality.reason",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "131a26e6ba797cff65c551b431ac0076c7102fdfb3247b184127c561e3181c9f",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__reason_id"
+}

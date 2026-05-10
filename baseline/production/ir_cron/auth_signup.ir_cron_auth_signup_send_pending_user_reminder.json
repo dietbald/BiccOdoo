@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 10,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.send_unregistered_user_reminder(batch_size=100)",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "Users: Notify About Unregistered Users",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "3dc96b1705362c95563b334a52c0d000d01a9ae80e88db8ae5577ba21b8e039e",
+  "write_date": "2025-12-09 02:55:52",
+  "xml_id": "auth_signup.ir_cron_auth_signup_send_pending_user_reminder"
+}

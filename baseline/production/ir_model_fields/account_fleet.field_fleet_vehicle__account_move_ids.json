@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17293,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Move",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "account_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f0c17ec0182ee9411dec21a5e272c106d501467cdf2cd2d2f13b3f6ac7d3dd32",
+  "write_date": "",
+  "xml_id": "account_fleet.field_fleet_vehicle__account_move_ids"
+}

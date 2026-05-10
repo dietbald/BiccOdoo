@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21222,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1284,
+      "Contract Signatories"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "824424feb33335b12f9a06ae7f3415eb2adc1cdb67d4d58488e3eee6f33ec02c",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_signatory__create_uid"
+}

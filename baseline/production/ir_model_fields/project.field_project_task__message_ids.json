@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7643,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "00ef4b103c51fa35d0c9fb9a1f3420254a8949eed2abe2d7e91932c67c8404f6",
+  "write_date": "",
+  "xml_id": "project.field_project_task__message_ids"
+}

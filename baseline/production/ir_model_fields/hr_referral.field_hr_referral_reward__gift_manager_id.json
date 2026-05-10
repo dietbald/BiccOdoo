@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25565,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Gift Responsible",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "gift_manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b5b980757da532c5f7999b3f6992199625151bd9b62b710441e269ae173b7a80",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__gift_manager_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24684,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit Barcode",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "product_uom_ids",
+    "relation": "product.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "84674e4edc1c6e7f1fd60fa48bfc01ee2298e487849b9699d13bcb951a41b808",
+  "write_date": "",
+  "xml_id": "product.field_product_product__product_uom_ids"
+}

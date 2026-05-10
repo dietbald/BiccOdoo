@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 73,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      9,
+      "Contact / Creation"
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res_partner group_partner_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "22cdccc1d0eb6f4b5e2ee8b544d38059bd9c08642c2b59bebd5b100f30392480",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_partner_group_partner_manager"
+}

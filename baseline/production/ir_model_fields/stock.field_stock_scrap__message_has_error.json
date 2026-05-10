@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11392,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "432a16dc3f317fb2dbe43912fa1cfefc5141b24a807d6c8810691c06393f71b9",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__message_has_error"
+}

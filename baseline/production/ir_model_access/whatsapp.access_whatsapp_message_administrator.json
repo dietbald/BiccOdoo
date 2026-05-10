@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1579,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      136,
+      "WhatsApp / Administrator"
+    ],
+    "model_id": [
+      1049,
+      "WhatsApp Messages"
+    ],
+    "name": "access.whatsapp.message",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bd460d74dcda490b507702b2e89028cf0f69a045cf2dfb76e91efc4a7b1a71cf",
+  "write_date": "2025-12-09 02:56:17",
+  "xml_id": "whatsapp.access_whatsapp_message_administrator"
+}

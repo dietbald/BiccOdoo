@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22216,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Manually Modified",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "is_manually_modified",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0d6f1b740970a68e1d53a45288d8f987e9ef0c720c856793b36144319a384e8f",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__is_manually_modified"
+}

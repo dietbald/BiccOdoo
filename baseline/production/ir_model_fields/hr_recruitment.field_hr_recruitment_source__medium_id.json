@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9701,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      666,
+      "Source of Applicants"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4ddf3dfb1c726ef95c14a374c03d837bd3e6f32d81ccbc5b28a3587088b3d803",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_recruitment_source__medium_id"
+}

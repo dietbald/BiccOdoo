@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4519,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2238f470a623977eb9f7683b5e9457fad065826639e830e259ab540526e6cb55",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4041,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Communication Type",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "invoice_reference_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "55ca385d89c7ebff03e338fb009d8e05a0308551e69404d69c7e04536751785d",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__invoice_reference_type"
+}

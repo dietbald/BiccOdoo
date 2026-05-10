@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1306,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      110,
+      "Surveys / User"
+    ],
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "gamification.badge.survey.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "89d4934b35d054c8326e514706d9d6b35d31e4f25b974b6f9e5e69a9f7418e26",
+  "write_date": "2026-01-28 12:01:51",
+  "xml_id": "survey.access_gamification_badge_survey_user"
+}

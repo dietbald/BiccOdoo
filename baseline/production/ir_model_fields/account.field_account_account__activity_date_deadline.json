@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27489,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "ae769c2c1c9d3b998b55f5403afeb05fae165182fb45cfabfeec89ef1827c3c9",
+  "write_date": "",
+  "xml_id": "account.field_account_account__activity_date_deadline"
+}

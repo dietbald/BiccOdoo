@@ -1,0 +1,32 @@
+<t name="Slide: Sidebar in Documentation" t-name="website_slides.slide_aside_documentation">
+    <div class="o_wslides_lesson_aside_doc position-relative bg-white pb-1 my-3 border-bottom">
+        <ul class="nav nav-tabs nav-fill" role="tablist">
+            <li class="nav-item" role="presentation"><a aria-controls="related" href="#related" class="nav-link rounded-0 border-top-0 border-start-0 py-2 active" data-bs-toggle="tab" role="tab">Related</a></li>
+            <li class="nav-item" role="presentation"><a aria-controls="most_viewed" href="#most_viewed" class="nav-link rounded-0 border-top-0 border-end-0 py-2" data-bs-toggle="tab" role="tab">Most Viewed</a></li>
+        </ul>
+        <div class="tab-content">
+            <div role="tabpanel" id="related" class="tab-pane active bg-100">
+                <ul class="list-group list-group-flush">
+                    <t t-set="related_slides_list" t-value="list(related_slides)"/>
+                    <t t-if="not related_slides_list">
+                        No presentation available.
+                    </t>
+                    <t t-else="" t-foreach="related_slides_list" t-as="aside_slide">
+                        <t t-call="website_slides.slide_aside_card"/>
+                    </t>
+                </ul>
+            </div>
+            <div role="tabpanel" id="most_viewed" class="tab-pane bg-100">
+                <ul class="list-group list-group-flush">
+                    <t t-set="most_viewed_slides_list" t-value="list(most_viewed_slides)"/>
+                    <t t-if="not list(most_viewed_slides_list)">
+                        No presentation available.
+                    </t>
+                    <t t-else="" t-foreach="most_viewed_slides_list" t-as="aside_slide">
+                        <t t-call="website_slides.slide_aside_card"/>
+                    </t>
+                </ul>
+            </div>
+        </div>
+    </div>
+</t>

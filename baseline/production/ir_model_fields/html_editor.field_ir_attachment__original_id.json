@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1517,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Original (unoptimized, unresized) attachment",
+    "model_id": [
+      28,
+      "Attachment"
+    ],
+    "name": "original_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "01533dce57126d6f74c05a6d165cb17b44c6e0e5d53f5eb50538a445793bdbdb",
+  "write_date": "",
+  "xml_id": "html_editor.field_ir_attachment__original_id"
+}

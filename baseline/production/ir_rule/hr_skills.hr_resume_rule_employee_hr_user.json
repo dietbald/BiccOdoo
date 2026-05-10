@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 221,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      52
+    ],
+    "model_id": [
+      638,
+      "Resume line of an employee"
+    ],
+    "name": "Resume: HR user: all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5e86f8224d4c1d19548b8d7098adfe5386d7c7c22db371c9f777b79f782feee2",
+  "write_date": "2023-11-30 07:12:49",
+  "xml_id": "hr_skills.hr_resume_rule_employee_hr_user"
+}

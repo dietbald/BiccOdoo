@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6179,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Asset Lifetime Days",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "asset_lifetime_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "52c5e29497264800e21252e591dbcc8cbf058e61bd8dfc127311c3fdcc652b72",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__asset_lifetime_days"
+}

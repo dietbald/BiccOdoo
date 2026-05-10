@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10682,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "State of the request on action log",
+    "model_id": [
+      715,
+      "Sign requests access history"
+    ],
+    "name": "request_state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "5b57a71324635aedb78b8fcfad8b16ec6856688e480162332d2654bc422881cc",
+  "write_date": "",
+  "xml_id": "sign.field_sign_log__request_state"
+}

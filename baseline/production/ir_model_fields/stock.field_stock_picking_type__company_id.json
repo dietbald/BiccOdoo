@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11206,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "50f5deb38dc0cba2b915676346ab568f6963a06a0e7aef548dd4a8362f3c45f4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__company_id"
+}

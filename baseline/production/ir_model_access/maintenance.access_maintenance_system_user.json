@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1565,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "equipment.request system user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e6efe29014c491d9f7ba92e46784151eea5322acb2e4e5db8d43ea15d07c28cf",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.access_maintenance_system_user"
+}

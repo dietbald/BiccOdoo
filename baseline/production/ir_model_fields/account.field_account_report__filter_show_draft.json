@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5110,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Draft Entries",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "filter_show_draft",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "917f84b105b169b9f9be3b510ccb9a86426930877d93b24ac6b3e43082b51c3e",
+  "write_date": "",
+  "xml_id": "account.field_account_report__filter_show_draft"
+}

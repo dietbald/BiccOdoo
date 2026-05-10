@@ -1,0 +1,13 @@
+<data name="Portal layout : production menu entries" inherit_id="portal.portal_breadcrumbs" priority="25">
+        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+            <t t-if="title">
+                <li t-if="page_name == 'production' or picking" t-attf-class="breadcrumb-item #{'active' if breadcrumbs_url else ''}">
+                    <a t-if="breadcrumbs_url" t-attf-href="/my/productions{{ keep_query() }}">Productions</a>
+                    <t t-else="" t-esc="title"/>
+                </li>
+                <li t-if="picking" class="breadcrumb-item active">
+                    <t t-out="picking.name"/>
+                </li>
+            </t>
+        </xpath>
+    </data>

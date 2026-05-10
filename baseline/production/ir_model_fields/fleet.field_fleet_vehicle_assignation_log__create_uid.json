@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17106,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1003,
+      "Drivers history on a vehicle"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cced7b9761610501a2237db48eda95d888114b6c5c791edd75b3beb146605302",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_assignation_log__create_uid"
+}

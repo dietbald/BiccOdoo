@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9080,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      646,
+      "Employee Skills Report"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1a0d88b9f625416e7b96d10c3952fef1ec69f327136b5a0fe2d5f8405bbc4847",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_employee_skill_report__company_id"
+}

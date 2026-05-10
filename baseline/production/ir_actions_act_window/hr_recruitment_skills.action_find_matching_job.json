@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1700,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'active_applicant_id': active_id,}",
+    "domain": false,
+    "name": "Matching Positions",
+    "res_model": "hr.job",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "543206112185460cdc807febba70e5909c0ee1ec5edb9c6ba0d77b301766eaf8",
+  "write_date": "2025-12-09 02:59:22",
+  "xml_id": "hr_recruitment_skills.action_find_matching_job"
+}

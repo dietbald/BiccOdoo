@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18228,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f50d8e0b0e2883f670157aa7427e64114f8368867648c73774f0a7f7dff3d727",
+  "write_date": "",
+  "xml_id": "hr_maintenance.field_maintenance_request__employee_id"
+}

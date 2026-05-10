@@ -1,0 +1,8 @@
+<t t-name="studio_main_report">
+                    <t t-foreach="docs" t-as="doc">
+                        <t t-call="web.basic_layout">
+                            <t t-call="studio_customization.studio_report_docume_43bc1af5-28b9-42b8-8f29-a6e354327e9c_document"/>
+                            <p style="page-break-after: always;"/>
+                        </t>
+                    </t>
+                </t>

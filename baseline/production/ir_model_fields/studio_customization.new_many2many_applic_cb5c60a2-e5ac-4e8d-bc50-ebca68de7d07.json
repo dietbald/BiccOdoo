@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19071,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "License Code",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "x_studio_license_code",
+    "relation": "x_driver_license_type",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1dd6757dab1dcfa3e193ceccc81643546455c2431b5340b30c3b37a85b16c0c2",
+  "write_date": "2024-11-14 22:08:44",
+  "xml_id": "studio_customization.new_many2many_applic_cb5c60a2-e5ac-4e8d-bc50-ebca68de7d07"
+}

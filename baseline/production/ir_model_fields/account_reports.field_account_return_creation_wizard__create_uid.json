@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29062,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3602,
+      "Return creation wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9e191546070d13da8634e24e3d9230ac9d99573facc0ff3e432e80d74a25e7cf",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_creation_wizard__create_uid"
+}

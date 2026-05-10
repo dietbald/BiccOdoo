@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1580,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('employee_id', '=', False)]",
+    "name": "Contract Templates",
+    "res_model": "hr.version",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "bdcab3f1bf7f1f14a4854b1faee9aa7458f39fe5e26ac20e4bbac887fa561ffa",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.action_hr_contract_templates"
+}

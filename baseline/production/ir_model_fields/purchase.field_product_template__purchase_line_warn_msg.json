@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9476,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message for Purchase Order Line",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "purchase_line_warn_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "33dbc0f9d0a4510c5995a3998d00c9e82d589e793bd1af0e61741ba08cdda539",
+  "write_date": "",
+  "xml_id": "purchase.field_product_template__purchase_line_warn_msg"
+}

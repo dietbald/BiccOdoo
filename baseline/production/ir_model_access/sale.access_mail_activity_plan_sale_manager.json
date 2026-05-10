@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 730,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      165,
+      "Activity Plan"
+    ],
+    "name": "mail.activity.plan.sale.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "60f8883e23cd5fe5f98a50cd4c31de80d26f6917a0cbe199f870377e7d582ec6",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_mail_activity_plan_sale_manager"
+}

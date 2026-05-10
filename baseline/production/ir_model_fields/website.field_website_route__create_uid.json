@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      687,
+      "All Website Route"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a5a3f2a6da9e9346428552667f1bb6670dd8c11fa8f7fe60a89b64527a973127",
+  "write_date": "",
+  "xml_id": "website.field_website_route__create_uid"
+}

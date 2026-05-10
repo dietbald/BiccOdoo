@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7574,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      352,
+      "Phone Blacklist"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "83f30ec256e579f603907393b691758cb755189d5347fa34233468a368c83982",
+  "write_date": "",
+  "xml_id": "rating.field_phone_blacklist__rating_ids"
+}

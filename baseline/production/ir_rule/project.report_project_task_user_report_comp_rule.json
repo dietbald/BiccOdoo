@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 159,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "Task Analysis multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3faa77ceeacfa51de67cb3ffacf0094a0ad09d1e4607e1536887738e684761c1",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "project.report_project_task_user_report_comp_rule"
+}

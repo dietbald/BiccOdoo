@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26537,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Pricings",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "product_pricing_ids",
+    "relation": "product.pricing",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "45e6b24191dc6b28ba602baab237e90f72c677d4912f9ce6edc50e78eff507d3",
+  "write_date": "",
+  "xml_id": "sale_renting.field_product_template__product_pricing_ids"
+}

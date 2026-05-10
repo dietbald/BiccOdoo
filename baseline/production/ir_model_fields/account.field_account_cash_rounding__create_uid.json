@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5072,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      445,
+      "Account Cash Rounding"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9a17b9bc21a966f6bb8a69daad51bdbb96c1bf8b77bad3054ec8f1d80f4bfcc1",
+  "write_date": "",
+  "xml_id": "account.field_account_cash_rounding__create_uid"
+}

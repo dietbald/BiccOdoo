@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12720,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Entry Type",
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "work_entry_type_id",
+    "relation": "hr.work.entry.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c5869ee52537042897f04fa185980a2c48d7c022bebcb0b57a4e80c040fcfaf4",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_resource_calendar_leaves__work_entry_type_id"
+}

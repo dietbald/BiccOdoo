@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3135,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "afa67d197b7c367de90ad5fbad8bfdc26a5582d6219329115d8e54f738b4f6a3",
+  "write_date": "",
+  "xml_id": "product.field_product_pricelist__message_ids"
+}

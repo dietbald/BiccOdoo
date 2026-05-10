@@ -1,0 +1,3 @@
+<field name="project_id" position="after">
+                <field name="worksheet_template_id" optional="hide" context="{'default_res_model': 'project.task'}"/>
+            </field>

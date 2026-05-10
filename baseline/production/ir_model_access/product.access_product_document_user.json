@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 292,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "access_product_document_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1fc5400ab2e961e2d2d658044db03d37b20dbd98e5ab1f3e5b2138102193fb05",
+  "write_date": "2025-12-09 02:56:05",
+  "xml_id": "product.access_product_document_user"
+}

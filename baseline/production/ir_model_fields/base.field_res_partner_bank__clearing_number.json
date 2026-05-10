@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25725,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Clearing Number",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "clearing_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d7cba486c0536e337a02476cc73e15f8f7538a471d3c419c75981e3527b9e71b",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_bank__clearing_number"
+}

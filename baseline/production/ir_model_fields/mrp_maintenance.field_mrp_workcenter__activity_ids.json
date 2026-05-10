@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18234,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a7132e4a8b993197bcc98d81192ef3d4869ef52c412a6d00a763866c5b1c32bd",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__activity_ids"
+}

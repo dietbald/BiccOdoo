@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25147,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pre fill lot/serial numbers in shop floor moves ",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "prefill_shop_floor_lots",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aeaae22115c25a74539c470d24052ffea8914ad4c6e28d2b89f84417c3519ff4",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_stock_picking_type__prefill_shop_floor_lots"
+}

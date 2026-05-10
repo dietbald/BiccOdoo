@@ -1,0 +1,12 @@
+<search string="External Identifiers">
+                    <field name="name" filter_domain="[('name','ilike',self)]" string="External Identifier"/>
+                    <filter string="Updatable" name="updatable" domain="[('noupdate', '=', False)]"/>
+                    <field name="module"/>
+                    <field name="model"/>
+                    <field name="res_id"/>
+                    <field name="noupdate"/>
+                    <group>
+                        <filter string="Module" name="group_by_module" domain="[]" context="{'group_by':'module'}"/>
+                        <filter string="Model" name="group_by_object" domain="[]" context="{'group_by':'model'}"/>
+                    </group>
+                </search>

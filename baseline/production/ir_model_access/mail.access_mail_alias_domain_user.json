@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 205,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      148,
+      "Email Domain"
+    ],
+    "name": "mail.alias.domain.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "46c1e4ef7de0b083d68f00138d0277593baee58882820311af4f66681cfba2ce",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_alias_domain_user"
+}

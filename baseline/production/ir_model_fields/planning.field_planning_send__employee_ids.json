@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees",
+    "model_id": [
+      884,
+      "Send Planning"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c0a9a542585b7c0cc0cdc4b095863606d3c0fbe93e533c69493aa5b2f207cc7e",
+  "write_date": "",
+  "xml_id": "planning.field_planning_send__employee_ids"
+}

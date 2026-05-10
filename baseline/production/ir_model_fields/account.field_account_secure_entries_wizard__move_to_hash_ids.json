@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22263,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move To Hash",
+    "model_id": [
+      1382,
+      "Secure Journal Entries"
+    ],
+    "name": "move_to_hash_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ad0ac27eade8e54fd2e0e57c3428a3dae6c6a8e7a4112b60f0e6e7bff0067949",
+  "write_date": "",
+  "xml_id": "account.field_account_secure_entries_wizard__move_to_hash_ids"
+}

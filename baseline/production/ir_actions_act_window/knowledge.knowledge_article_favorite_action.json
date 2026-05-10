@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 776,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('article_id.is_template', '=', False)]",
+    "name": "Favorites",
+    "res_model": "knowledge.article.favorite",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "b25a0629a3e501f6b8df4b72e199d4f7fa5c10a62bbad0b21eea40391d7bd555",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.knowledge_article_favorite_action"
+}

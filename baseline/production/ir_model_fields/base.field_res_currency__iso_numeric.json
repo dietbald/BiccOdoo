@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency numeric code.",
+    "model_id": [
+      92,
+      "Currency"
+    ],
+    "name": "iso_numeric",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "aecb256c897e8aa8fe0e98bbb4cd471fe44ac6c905029cf367bd3bbaa52c9ee2",
+  "write_date": "",
+  "xml_id": "base.field_res_currency__iso_numeric"
+}

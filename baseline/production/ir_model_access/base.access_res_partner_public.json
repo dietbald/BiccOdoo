@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 71,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res_partner group_public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a1854f92d8fe6fd4c48d7e911372b866372f8f87e93205ee180ae122acbf8fc0",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_partner_public"
+}

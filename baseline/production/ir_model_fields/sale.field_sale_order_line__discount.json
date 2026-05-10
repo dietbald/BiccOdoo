@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8245,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discount (%)",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "discount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a3297047ded7c192bc933d23dda85c5308dc6b2563b84db460c26b9d54b59c05",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__discount"
+}

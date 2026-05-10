@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2503,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subtype",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "subtype_id",
+    "relation": "mail.message.subtype",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "87903e1e55a0336d3736becfdac84abd3c2cb9a8586421acd75b7d8b82e90bf4",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__subtype_id"
+}

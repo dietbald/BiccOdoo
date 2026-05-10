@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 137,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      113,
+      "Module Uninstall"
+    ],
+    "name": "access.base.module.uninstall",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "82405fb3d60d52b1b206fc2ce22cb305dc2790d107a1488e82ac3a81ba623d83",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_base_module_uninstall"
+}

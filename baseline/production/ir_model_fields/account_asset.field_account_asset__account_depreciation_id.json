@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6158,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Depreciation Account",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "account_depreciation_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bd852d7b3bac92ce136548107277ca2d445c971682f30755aa5134702194ab05",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__account_depreciation_id"
+}

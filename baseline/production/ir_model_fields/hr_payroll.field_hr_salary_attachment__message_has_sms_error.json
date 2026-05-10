@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13083,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e7bf8a156deddf8b5d2fad70afcdd1d6c571f933c5054eff0ab645497a19df8c",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__message_has_sms_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5898,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "journal_ids",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "21f23e9a1db5edfc519da7425ddca16e4f0a9e0d2cd5456e7dc55e416254945a",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_account__journal_ids"
+}

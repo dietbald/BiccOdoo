@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8876,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employment Type",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "contract_type_id",
+    "relation": "hr.contract.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b04ec9d3d1cb19478d5471af5166f9e9ed3d5da103b2582995ff578a5992804a",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__contract_type_id"
+}

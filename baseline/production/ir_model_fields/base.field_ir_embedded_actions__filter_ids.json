@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19404,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Filter",
+    "model_id": [
+      1110,
+      "Embedded Actions"
+    ],
+    "name": "filter_ids",
+    "relation": "ir.filters",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "59e2ad420eca7dad541a8610f5a2efe44ec786fb75b368f5e8af45989c17ee72",
+  "write_date": "",
+  "xml_id": "base.field_ir_embedded_actions__filter_ids"
+}

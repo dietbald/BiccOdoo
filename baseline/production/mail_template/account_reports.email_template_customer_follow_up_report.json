@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 98,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n                <p style=\"margin: 0px; padding: 0px;\">\n                    <t t-if=\"object.id != object.commercial_partner_id.id\">Dear <t t-out=\"object.name or ''\"/> (<t t-out=\"object.commercial_partner_id.name or ''\"/>),</t>\n                    <t t-else=\"\">Dear <t t-out=\"object.name or ''\"/>,</t>\n                    <br/>\n                    Please find enclosed the list of your open invoices.\n                    <br/>\n                    Do not hesitate to contact us if you have any questions.\n                    <br/>\n                    Sincerely,\n                    <br/>\n                    <t t-out=\"object._get_followup_responsible().name if is_html_empty(object._get_followup_responsible().signature) else object._get_followup_responsible().signature\"/>\n                </p>\n            </div>\n        ",
+    "email_from": "{{ object._get_followup_responsible().email_formatted }}",
+    "email_to": false,
+    "lang": "{{ object.lang }}",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "Follow Up Report",
+    "subject": "{{ (object.company_id or object._get_followup_responsible().company_id).name }} Follow Up - {{ object.commercial_company_name }}"
+  },
+  "payload_sha256": "068da6aa46e5277084bedc15dd7f49c3aaf7c9a00980250de8c8971f3b31d9b8",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.email_template_customer_follow_up_report"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1919,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applies to",
+    "model_id": [
+      165,
+      "Activity Plan"
+    ],
+    "name": "res_model_id",
+    "relation": "ir.model",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f684049f088fe0474efbd491cc5206c3ec73835b1dfab7914948c4fd31f68088",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_plan__res_model_id"
+}

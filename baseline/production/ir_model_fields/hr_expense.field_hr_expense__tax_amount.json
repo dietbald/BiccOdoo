@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9165,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax amount",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "tax_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "1901f2825eaf83e29d4a4cf22a863452ee50651503fba97c2654f65cea806fea",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__tax_amount"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 161,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            ('project_id.privacy_visibility', 'in', ['employees', 'portal']),\n            '|', '|', ('project_id', '!=', False),\n                      ('parent_id', '!=', False),\n                 ('user_ids', 'in', user.id),\n        ]",
+    "groups": [
+      40
+    ],
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "Project: See private tasks",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a8821c27028a5c24e38d1b026d1d8e5441ead47fefdb310fea202cc882fdcccb",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.ir_rule_private_task"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4379,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor Bill",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_vendor_bill_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1a642aabd058c93599ae2f981e0e413a67920f9ca35da761b00cbf30a9e995bd",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_vendor_bill_id"
+}

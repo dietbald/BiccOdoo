@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11386,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4b34f32e5e6558c394e39adcc6432df28caa522088a207bd3580e2b894bd371e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__message_follower_ids"
+}

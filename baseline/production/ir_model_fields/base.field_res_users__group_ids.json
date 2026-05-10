@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1102,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Groups",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b1b9363b2fe6f1bda264edabf2d1662dc77b96d398511dd00fd6d685b986708b",
+  "write_date": "",
+  "xml_id": "base.field_res_users__group_ids"
+}

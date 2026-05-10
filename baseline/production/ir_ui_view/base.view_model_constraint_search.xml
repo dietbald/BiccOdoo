@@ -1,0 +1,10 @@
+<search string="Constraints">
+                    <field name="model"/>
+                    <field name="name"/>
+                    <field name="message"/>
+                    <group>
+                        <filter name="module" string="Module" context="{'group_by' : 'module'}"/>
+                        <filter name="model" string="Model" context="{'group_by': 'model'}"/>
+                        <filter name="type" string="Constraint type" context="{'group_by' : 'type'}"/>
+                    </group>
+                </search>

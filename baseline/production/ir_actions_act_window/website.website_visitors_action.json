@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 632,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_filter_last_7_days':1}",
+    "domain": false,
+    "name": "Visitors",
+    "res_model": "website.visitor",
+    "target": "current",
+    "view_mode": "kanban,list,form,graph"
+  },
+  "payload_sha256": "a4bbe32b2fce4c4a1655fc93ef581cca84f128f383d8f4c8e50732bfc5795b99",
+  "write_date": "2026-01-28 12:01:03",
+  "xml_id": "website.website_visitors_action"
+}

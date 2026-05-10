@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28901,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5584ab54fd71fcd8a14b49944100817155394d809b27795b98ce56b13ae9939f",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__message_has_sms_error"
+}

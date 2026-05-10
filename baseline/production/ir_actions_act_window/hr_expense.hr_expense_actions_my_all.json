@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 544,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_my_open_expenses': 1}",
+    "domain": false,
+    "name": "My Expenses",
+    "res_model": "hr.expense",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph,pivot,activity"
+  },
+  "payload_sha256": "2f88b1d5a55f655ce7bd5f304a177756c94d86f38c0ae3657095dbdd0e3b6a76",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.hr_expense_actions_my_all"
+}

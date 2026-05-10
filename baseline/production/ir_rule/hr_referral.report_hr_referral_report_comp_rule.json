@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 706,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      2606,
+      "Employee Referral Report"
+    ],
+    "name": "Employee Referral Report multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6f9aa40930ed493c342de7b0138c3558bd5d685198a3c9f094bafdb9f8f5b06b",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.report_hr_referral_report_comp_rule"
+}

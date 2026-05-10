@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6164,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Not Depreciable Value",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "salvage_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b18c9d44b9b5855a709caefb882b971f453bf077aa2bca293cf19a0d55702c8c",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__salvage_value"
+}

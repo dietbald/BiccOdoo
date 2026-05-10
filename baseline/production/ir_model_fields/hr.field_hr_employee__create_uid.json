@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8748,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4afb6b4b8af0871197936f02a75e9f91903bd6389018632b2f0791ea14ae47d2",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__create_uid"
+}

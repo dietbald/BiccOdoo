@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3538,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d7b8b96448d6a0657154e5ca884cb43c586004cd667ad3c0f743a168e588dbf8",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17564,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Previous Consumed in Operation",
+    "model_id": [
+      1020,
+      "ECO BoM changes"
+    ],
+    "name": "old_operation_id",
+    "relation": "mrp.routing.workcenter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b73e6a7e69c9fe079d1188d3e03d3828ff5c85f96e0d21d9fa77ba3d423763ba",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_bom_change__old_operation_id"
+}

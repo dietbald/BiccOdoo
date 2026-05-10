@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 593,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      577,
+      "Opp. Lost Reason"
+    ],
+    "name": "crm.lost.reason.salesman",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "035928dd79490c926fafeb7e020715e440c36b1441568fd66444beb883ee2668",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.access_crm_lost_reason_salesman"
+}

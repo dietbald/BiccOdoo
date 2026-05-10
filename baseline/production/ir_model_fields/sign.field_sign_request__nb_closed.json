@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10513,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Completed Signatures",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "nb_closed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "8509445cc30e8c0ae468bf156d13b8abb99b46758e4f6e00a530fba8f8f0b773",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request__nb_closed"
+}

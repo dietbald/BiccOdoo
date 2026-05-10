@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5895,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Number",
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "account_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2f94837e3c17adeabf93eb93919296789e08d0eb95a65b77b48f741601b5e486",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_account__account_number"
+}

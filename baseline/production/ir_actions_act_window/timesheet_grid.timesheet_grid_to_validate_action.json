@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 878,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_nonvalidated': True,\n                'search_default_my_team_timesheet': True,\n                'group_expand': True,\n                \"is_timesheet\": 1,\n            }",
+    "domain": "[('project_id', '!=', False), ('date', '<=', 'today')]",
+    "name": "Timesheets to Validate",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "grid,list,kanban,form"
+  },
+  "payload_sha256": "bbf8e328fb8cf318598d7efc1e24878212bb866205b1a18b23928ed1ed9b5f50",
+  "write_date": "2025-12-09 03:00:18",
+  "xml_id": "timesheet_grid.timesheet_grid_to_validate_action"
+}

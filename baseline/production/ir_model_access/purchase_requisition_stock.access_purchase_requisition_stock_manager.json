@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1132,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "purchase.requisition",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ad3fff7697c48419047d493c0da14785a516a87140630cc0dcf52f69749f8b19",
+  "write_date": "2025-12-09 03:00:08",
+  "xml_id": "purchase_requisition_stock.access_purchase_requisition_stock_manager"
+}

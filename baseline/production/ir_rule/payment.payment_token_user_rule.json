@@ -1,0 +1,26 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 71,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('partner_id', '=', user.partner_id.id)]",
+    "groups": [
+      1,
+      10,
+      11
+    ],
+    "model_id": [
+      409,
+      "Payment Token"
+    ],
+    "name": "Users can access only their own tokens",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4dd5c8d717e102e972c341ef4c10c76dbf5057b8ad449c646847bb2ea7ac509e",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "payment.payment_token_user_rule"
+}

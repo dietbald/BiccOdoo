@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12893,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payslip Worked Days",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "worked_days_line_ids",
+    "relation": "hr.payslip.worked_days",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fd6c3bbbfc083b89cff16b7e8a01fd59044fc63732d5a78ebf8157d51a736198",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__worked_days_line_ids"
+}

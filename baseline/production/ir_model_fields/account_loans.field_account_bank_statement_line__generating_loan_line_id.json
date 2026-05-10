@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23958,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Generating Loan Line",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "generating_loan_line_id",
+    "relation": "account.loan.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "86bb5fb5afa35648d5b79b4e3efd720d9107e1984b53edb0d9528c365fc8c010",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_bank_statement_line__generating_loan_line_id"
+}

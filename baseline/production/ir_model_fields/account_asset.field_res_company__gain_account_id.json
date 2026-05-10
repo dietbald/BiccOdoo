@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6200,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Gain Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "gain_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b13792d668839f1f12889b9ab5f512a733d0b93035e072041defa6f1e5296a2d",
+  "write_date": "",
+  "xml_id": "account_asset.field_res_company__gain_account_id"
+}

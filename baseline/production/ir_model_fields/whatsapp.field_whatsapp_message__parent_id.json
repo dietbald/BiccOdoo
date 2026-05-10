@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21882,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Response To",
+    "model_id": [
+      1049,
+      "WhatsApp Messages"
+    ],
+    "name": "parent_id",
+    "relation": "whatsapp.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b27f5e32e279748b15639b08e4e7228cae1d1b0a3ea60fce35432f40a83eb31f",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_message__parent_id"
+}

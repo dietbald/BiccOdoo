@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 172,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'visible_product_tmpl_id': False, 'search_default_active_products': True}",
+    "domain": false,
+    "name": "Vendor Pricelists",
+    "res_model": "product.supplierinfo",
+    "target": "current",
+    "view_mode": "list,form,kanban"
+  },
+  "payload_sha256": "87371c32788b6fcdb1195c2d6f78c482c215e6c871ff416595474d6370500095",
+  "write_date": "2025-12-09 02:56:05",
+  "xml_id": "product.product_supplierinfo_type_action"
+}

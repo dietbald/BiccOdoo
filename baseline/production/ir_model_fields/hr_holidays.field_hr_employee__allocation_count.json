@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15463,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total number of days allocated.",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "allocation_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "8e2893158504ce3908c884997256de04ef979f0738fd656395ce6ab7817ee067",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_employee__allocation_count"
+}

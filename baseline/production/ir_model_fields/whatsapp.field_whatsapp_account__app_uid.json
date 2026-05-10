@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18399,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "App ID",
+    "model_id": [
+      1048,
+      "WhatsApp Business Account"
+    ],
+    "name": "app_uid",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "737c23757bad297054dcbac7d2767d6ae400c8d19eb06086c34cfb9d79da0367",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_account__app_uid"
+}

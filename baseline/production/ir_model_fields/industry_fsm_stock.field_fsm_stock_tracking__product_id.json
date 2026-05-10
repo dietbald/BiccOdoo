@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18743,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      1069,
+      "Track Stock"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3411eaf17bb4b9bf8782066a6b7b9517ef5f54287c34490b59b950cda961eb8a",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking__product_id"
+}

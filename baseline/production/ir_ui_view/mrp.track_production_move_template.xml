@@ -1,0 +1,6 @@
+<t t-name="mrp.track_production_move_template">
+        <div>
+            <t t-call="mrp.production_message"/>
+            <t t-call="stock.message_body"/>
+        </div>
+    </t>

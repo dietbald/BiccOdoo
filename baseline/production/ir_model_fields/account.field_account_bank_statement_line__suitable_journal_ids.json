@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4821,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Suitable Journal",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "suitable_journal_ids",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2b46fa4f2786cae678bd97fa2e263d7ae943ea314e813f0a6763b1cc6c36e186",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__suitable_journal_ids"
+}

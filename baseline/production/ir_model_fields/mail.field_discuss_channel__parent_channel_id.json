@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21571,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Channel",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "parent_channel_id",
+    "relation": "discuss.channel",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c8c71c593af5ece46f7da5840cfb2589757ba31c7546e46da48be42ea6288d33",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__parent_channel_id"
+}

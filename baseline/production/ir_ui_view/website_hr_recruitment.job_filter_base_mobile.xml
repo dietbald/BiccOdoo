@@ -1,0 +1,63 @@
+<t t-name="website_hr_recruitment.job_filter_base_mobile">
+    <div class="accordion-item">
+        <h2 class="accordion-header">
+            <button t-attf-class="accordion-button#{'' if selected_filter or is_unset_selected else ' collapsed'}" type="button" data-bs-toggle="collapse" t-att-aria-controls="dropdown_id" t-att-data-bs-target="'#' + dropdown_id" t-att-aria-expanded="bool(selected_filter or is_unset_selected)">
+                <t t-out="filter_label"/>
+            </button>
+        </h2>
+        <div t-att-id="dropdown_id" t-attf-class="accordion-collapse collapse#{' show' if selected_filter or is_unset_selected else ''}" t-att-data-bs-parent="'#' + dropdown_id">
+            <div class="accordion-body pt-0">
+                <ul t-if="jobs" class="list-group list-group-flush">
+                    <li t-foreach="count_per_filter.items()" t-as="filter_item" class="list-group-item px-0 border-0">
+                        <t t-set="selection" t-value="filter_item[0]"/>
+                        <t t-set="count" t-value="filter_item[1]"/>
+                        <t t-if="selection=='all'">
+                            <a t-attf-href="/jobs?#{all_arg}&amp;#{non_filter_params}" class="d-flex align-items-center justify-content-between text-reset text-decoration-none">
+                                <div class="form-check flex-basis-100">
+                                    <input class="form-check-input pe-none" type="radio" t-attf-name="#{id_selected_arg}_all" t-att-checked="bool(not(selected_filter or is_unset_selected))"/>
+                                    <label class="form-check-label" t-attf-for="#{id_selected_arg}_all">
+                                        All <t t-out="filter_label"/>
+                                    </label>
+                                </div>
+                                <span t-attf-class="badge pagination text-bg-primary ms-2" t-out="count"/>
+                            </a>
+                        </t>
+                        <t t-elif="selection">
+                            <a t-attf-href="/jobs?#{id_selected_arg}=#{selection.id}&amp;#{non_filter_params}" class="d-flex align-items-center justify-content-between text-reset text-decoration-none">
+                                <div class="form-check flex-basis-100">
+                                    <input class="form-check-input pe-none" type="radio" t-attf-name="#{id_selected_arg}_#{selection.id}" t-att-checked="bool(selected_filter and selected_filter.id == selection.id)"/>
+                                    <label class="form-check-label" t-attf-for="#{id_selected_arg}_#{selection.id}" t-out="selection.name"/>
+                                </div>
+                                <span t-attf-class="badge pagination text-bg-primary ms-2" t-out="count"/>
+                            </a>
+                        </t>
+                        <t t-else="">
+                            <a t-attf-href="/jobs?#{unset_arg}&amp;#{non_filter_params}" class="d-flex align-items-center justify-content-between text-reset text-decoration-none">
+                                <div class="form-check flex-basis-100">
+                                    <input class="form-check-input pe-none" type="radio" t-attf-name="#{id_selected_arg}_unset" t-att-checked="bool(is_unset_selected)"/>
+                                    <label class="form-check-label" t-attf-for="#{id_selected_arg}_unset">
+                                        <t t-if="untype_label" t-out="untype_label"/>
+                                        <t t-else="">Unspecified <t t-out="filter_label"/></t>
+                                    </label>
+                                </div>
+                                <span t-attf-class="badge pagination text-bg-primary ms-2" t-out="count"/>
+                            </a>
+                        </t>
+                    </li>
+                </ul>
+                <ul t-else="" class="list-group list-group-flush">
+                    <li class="list-group-item px-0 border-0">
+                        <span class="text-muted">
+                            <t t-if="selected_filter" t-out="selected_filter.name"/>
+                            <t t-elif="is_untyped">
+                                <t t-if="untype_label" t-out="untype_label"/>
+                                <t t-else="">Unspecified <t t-out="filter_label"/></t>
+                            </t>
+                            <t t-else="">All <t t-out="filter_label"/></t>
+                        </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</t>

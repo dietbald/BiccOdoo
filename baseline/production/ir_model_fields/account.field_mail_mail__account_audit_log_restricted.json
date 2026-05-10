@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19939,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Protected by restricted Audit Logs",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "account_audit_log_restricted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ac02e374328737edba1266fd689492f7cf004ed16f783ad37ffa6b33c94b942c",
+  "write_date": "",
+  "xml_id": "account.field_mail_mail__account_audit_log_restricted"
+}

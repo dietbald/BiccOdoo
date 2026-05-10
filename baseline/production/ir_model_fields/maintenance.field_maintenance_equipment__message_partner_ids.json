@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18112,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "56dd717497219bd20ca2d39c13286e4d03b6965011418413f0feb30640a78b5f",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_equipment__message_partner_ids"
+}

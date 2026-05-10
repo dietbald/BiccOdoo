@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12012,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Warehouse",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "property_warehouse_id",
+    "relation": "stock.warehouse",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "34be7154e70d8a92912c2142053d4e475068e10c63cebe7f2b9695cabae69023",
+  "write_date": "",
+  "xml_id": "sale_stock.field_res_users__property_warehouse_id"
+}

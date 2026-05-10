@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "88ae2e489d82187c78859b297ebd3d19a897cff2f84d317f8e492f871cfa5941",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_account__message_needaction"
+}

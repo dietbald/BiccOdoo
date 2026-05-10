@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9415,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Incoterm",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "incoterm_id",
+    "relation": "account.incoterms",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b587313dd3fc6b85a39bbd848d3b6eb287c4e8e769ec26d4a97576435fd3d0ef",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__incoterm_id"
+}

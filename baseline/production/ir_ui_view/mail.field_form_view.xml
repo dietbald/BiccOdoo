@@ -1,0 +1,4 @@
+<field name="copied" position="after">
+                <field name="state" invisible="1"/>
+                <field name="tracking" invisible="ttype == 'binary'" readonly="state != 'manual'"/>
+            </field>

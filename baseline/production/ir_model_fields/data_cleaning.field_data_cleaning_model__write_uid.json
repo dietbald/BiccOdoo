@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      927,
+      "Cleaning Model"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "32055f6e786979d4725986d5d0f68eb26bff813a8379f19c7b2af318fee65949",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_cleaning_model__write_uid"
+}

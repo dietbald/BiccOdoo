@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4137,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d68ef7cd32c5368f18af747b905579eac590eb64cfdc47af73819e5cc0c69a09",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20540,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1233,
+      "Job Platforms"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bffe1362fd84361bba88c0f796eec6d83a583f3626668542e1c4546c2408a24d",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job_platform__create_uid"
+}

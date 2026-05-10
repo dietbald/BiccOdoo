@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10463,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Documents Hr Contracts Tags",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "documents_hr_contracts_tags",
+    "relation": "documents.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d07734deaa2e6738451bf1d123b269c42ffeb7b01cfa85f896795913a561082e",
+  "write_date": "",
+  "xml_id": "documents_hr.field_res_company__documents_hr_contracts_tags"
+}

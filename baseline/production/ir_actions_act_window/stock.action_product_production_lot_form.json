@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 703,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_product': 1, 'display_complete': True, 'default_company_id': allowed_company_ids[0]}",
+    "domain": "['|', ('location_id', '=', False), ('location_id.company_id', 'in', allowed_company_ids + [False])]",
+    "name": "Lots/Serial Numbers",
+    "res_model": "stock.lot",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "e4fec7c284118923ccc7cec78a5d9eb8e1d1901abfb455850fd4e82c379c0706",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.action_product_production_lot_form"
+}

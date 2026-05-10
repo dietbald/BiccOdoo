@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27845,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Modified by",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "last_modified_uid",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "40f774ac926c8685339782f90cc2598dd7d905adea7907b7f961ad98b2a39ad1",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__last_modified_uid"
+}

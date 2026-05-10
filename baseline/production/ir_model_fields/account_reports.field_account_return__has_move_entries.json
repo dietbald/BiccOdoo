@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Move Entries",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "has_move_entries",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8aee2396fbecaeb750aafceeea8095593a975ad554760e5e4fd1779b0fca8a2a",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__has_move_entries"
+}

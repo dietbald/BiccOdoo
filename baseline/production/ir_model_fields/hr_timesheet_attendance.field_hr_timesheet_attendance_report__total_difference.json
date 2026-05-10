@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13489,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Difference",
+    "model_id": [
+      848,
+      "Timesheet Attendance Report"
+    ],
+    "name": "total_difference",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "72987dbab177708bce92acb642cff89272e8fbe95e9868e7f924be1a520edba2",
+  "write_date": "",
+  "xml_id": "hr_timesheet_attendance.field_hr_timesheet_attendance_report__total_difference"
+}

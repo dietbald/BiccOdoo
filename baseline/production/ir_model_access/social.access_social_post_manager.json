@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1540,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      134,
+      "Social Marketing / Social Manager"
+    ],
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "social.post.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "90e9ae5f644b666dfbdfb1a50ac33f7795125ac7f00249ee51a9bbad033872f0",
+  "write_date": "2025-12-09 02:56:16",
+  "xml_id": "social.access_social_post_manager"
+}

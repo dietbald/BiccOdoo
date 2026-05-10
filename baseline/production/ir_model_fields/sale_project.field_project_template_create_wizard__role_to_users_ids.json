@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28068,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Role To Users",
+    "model_id": [
+      3334,
+      "Project Template create Wizard"
+    ],
+    "name": "role_to_users_ids",
+    "relation": "project.template.role.to.users.map",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "73e4c6f7451b949b5c3ca5434cb1ed8ddca5aacaaaf799521df270284acc5524",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_template_create_wizard__role_to_users_ids"
+}

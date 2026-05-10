@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1128,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      58,
+      "Purchase / Administrator"
+    ],
+    "model_id": [
+      808,
+      "Purchase Requisition Line"
+    ],
+    "name": "purchase.requisition.line manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "4b1bd6eaebf2e17a205b196c6befe22f55c8a4633e8daa65f8b7bed2346cfe8c",
+  "write_date": "2025-12-09 02:59:35",
+  "xml_id": "purchase_requisition.access_purchase_requisition_line_manager"
+}

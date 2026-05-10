@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14019,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Order Item",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "sale_line_id",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c79023217da31866cff7b284d55dfc7c3f88299189e4975fc618b780bc621d9",
+  "write_date": "",
+  "xml_id": "sale_planning.field_planning_analysis_report__sale_line_id"
+}

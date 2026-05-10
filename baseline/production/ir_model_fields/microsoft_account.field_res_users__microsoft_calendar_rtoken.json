@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14411,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Microsoft Refresh Token",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "microsoft_calendar_rtoken",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "0034746557b3e947426e3c4b3c0adede7b8594796eb7e39ff0d1d61e570ee94a",
+  "write_date": "",
+  "xml_id": "microsoft_account.field_res_users__microsoft_calendar_rtoken"
+}

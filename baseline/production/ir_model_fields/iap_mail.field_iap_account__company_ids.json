@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1482,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "company_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "89df84f32630a9c82944f7de045c08c809cb6a3158008ef28a9634dfc2adebcc",
+  "write_date": "",
+  "xml_id": "iap_mail.field_iap_account__company_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20075,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cross Dock Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "xdock_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4875e352faf95d0782b51aa80db9184747d93e053357af8a5e51da01b2e664df",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__xdock_type_id"
+}

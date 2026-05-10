@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 51,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      165,
+      "Activity Plan"
+    ],
+    "name": "Administrators can access all activity plans.",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "82e94bba6aa6a084de87c41bb5ab31e574156b01fcfb7c86ad5dc5c972feb54f",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.mail_activity_plan_rule_admin"
+}

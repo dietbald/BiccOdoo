@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23910,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "loan_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "cff815a91fbac65e67d3f0f269df2b636520177ae10750dc992ce620f2bad723",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_line__loan_state"
+}

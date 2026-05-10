@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13168,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      834,
+      "Index contracts"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4158d828a496f6a0e65c591bd9a0b2453c7f13c1f13f75c80b655e8f9beaf272",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_index__write_uid"
+}

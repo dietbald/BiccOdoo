@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11025,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contact",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "picking_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "33b4edcec0b8699fd8b9bba8fd3362a691c732ed02163013d619610f82ae19e1",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__picking_partner_id"
+}

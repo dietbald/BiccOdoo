@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1893,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      150,
+      "Referrals / User: Referral only"
+    ],
+    "model_id": [
+      2601,
+      "Alert in Referral App"
+    ],
+    "name": "hr.referral.alert.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "3e17cb03f1934e1744ef25288da2b0f53c96530750ea452fba07abf787ed4092",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_referral_alert_user"
+}

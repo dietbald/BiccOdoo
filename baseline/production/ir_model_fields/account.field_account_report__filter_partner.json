@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5120,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partners",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "filter_partner",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a90f4c55ac07257b636e5bc83765b389641edeaf0ef8bb2619ed0d5c6425f09e",
+  "write_date": "",
+  "xml_id": "account.field_account_report__filter_partner"
+}

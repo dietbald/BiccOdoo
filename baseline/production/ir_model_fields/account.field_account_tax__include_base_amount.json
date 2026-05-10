@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Affect Base of Subsequent Taxes",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "include_base_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "81f7b002cb129e84242f00002c389f3d57782bad83b6aaf54670afbdba617948",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__include_base_amount"
+}

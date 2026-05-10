@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26037,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1a5c5a420a07a2dddf481a154e73074fb08380d799895ab28a29f36e2be13479",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__manager_id"
+}

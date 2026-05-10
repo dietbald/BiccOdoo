@@ -1,0 +1,7 @@
+<list>
+                <field name="name"/>
+                <field name="base_off"/>
+                <field name="expected_hours_from_contract" string="Get working hours from contract"/>
+                <field name="expected_hours" invisible="expected_hours_from_contract or base_off != 'quantity'"/>
+                <field name="resource_calendar_id" invisible="expected_hours_from_contract or base_off != 'timing'"/>
+            </list>

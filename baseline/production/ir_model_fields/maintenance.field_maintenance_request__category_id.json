@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18174,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Category",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "category_id",
+    "relation": "maintenance.equipment.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4118bdf593369a719abc531c5da91b665061251adbe00572f3572cef095f3e05",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__category_id"
+}

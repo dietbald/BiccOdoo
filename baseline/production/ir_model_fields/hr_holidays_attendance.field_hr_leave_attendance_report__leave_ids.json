@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Offs",
+    "model_id": [
+      3627,
+      "Attendance and Leave Analysis Report"
+    ],
+    "name": "leave_ids",
+    "relation": "hr.leave",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cacc12a3b75a6a900102482f12bedfac3f1fb31c799888c9078561fc95d9cac6",
+  "write_date": "",
+  "xml_id": "hr_holidays_attendance.field_hr_leave_attendance_report__leave_ids"
+}

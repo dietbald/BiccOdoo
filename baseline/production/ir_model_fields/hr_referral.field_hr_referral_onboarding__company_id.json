@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25578,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      2603,
+      "Welcome Onboarding in Referral App"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4131bafaac4ee36b290e471251c48fce1541289085bbab50c963e159d0b0ac3c",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_onboarding__company_id"
+}

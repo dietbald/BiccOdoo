@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9504,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message for Purchase Order",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "purchase_warn_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "7ebde90485a85e4aa0e03d3128888bf010e9895dafd0d122ec2af7fe8d9dfd75",
+  "write_date": "",
+  "xml_id": "purchase.field_res_partner__purchase_warn_msg"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Separate account for expense discount",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_discount_expense_allocation_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3e2c5840afc631ecf232ff811b0e953960b162669611300dd3278728afec8f80",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_discount_expense_allocation_id"
+}

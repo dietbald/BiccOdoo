@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29279,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      3654,
+      "Planning Preview"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "28976f6a99e799435ea190c4f463683d5240ebc8d4656f8054ab9bc2396089c5",
+  "write_date": "",
+  "xml_id": "planning.field_planning_preview__employee_id"
+}

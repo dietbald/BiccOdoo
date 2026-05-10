@@ -1,0 +1,17 @@
+<form string="Rounding Form">
+                    <sheet>
+                        <div class="oe_title">
+                            <label for="name"/>
+                            <h1><field name="name" class="oe_inline"/></h1>
+                        </div>
+                        <group>
+                            <group>
+                                <field name="rounding"/>
+                                <field name="strategy"/>
+                                <field name="profit_account_id" options="{'no_create': True}" invisible="strategy != 'add_invoice_line'" required="strategy == 'add_invoice_line'" groups="account.group_account_invoice,account.group_account_readonly"/>
+                                <field name="loss_account_id" options="{'no_create': True}" invisible="strategy != 'add_invoice_line'" required="strategy == 'add_invoice_line'" groups="account.group_account_invoice,account.group_account_readonly"/>
+                                <field name="rounding_method"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>

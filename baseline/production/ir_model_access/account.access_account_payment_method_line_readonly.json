@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 422,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      440,
+      "Payment Methods"
+    ],
+    "name": "account.payment.method.line",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "630004a4d5662af56f2d0f31fa8b4b515801fcceac7bdd9fb330ea160f0055e5",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_payment_method_line_readonly"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8852,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b54f847bc94f9996031c9e34c80cf49b1dff2d6299e319564cd306ad7aecde42",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__message_follower_ids"
+}

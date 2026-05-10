@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report Template",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "report_template_id",
+    "relation": "mail.template",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d07f50434863ae0b60c612f2c18f2f2018419a477af2e661a262cc3cad92abc1",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__report_template_id"
+}

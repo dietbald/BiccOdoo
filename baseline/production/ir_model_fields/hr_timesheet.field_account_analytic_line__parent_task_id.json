@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13410,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Task",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "parent_task_id",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3466a4eefa526253219045a7d5731abd915ef9c9975af8e48f8651051f34c700",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line__parent_task_id"
+}

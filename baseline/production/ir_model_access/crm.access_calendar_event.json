@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 598,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "calendar.event",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "bca19de7e40ef0bcad4e7021a8260beffec8b2cd31502acaa361a585d6f8c464",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.access_calendar_event"
+}

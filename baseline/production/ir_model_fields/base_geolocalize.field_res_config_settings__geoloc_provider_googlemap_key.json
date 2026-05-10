@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18589,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Google Map API Key",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "geoloc_provider_googlemap_key",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "39727bcbac9811263fa5ffce2a20a00494566126d4599bcfe631c82850dccc1b",
+  "write_date": "",
+  "xml_id": "base_geolocalize.field_res_config_settings__geoloc_provider_googlemap_key"
+}

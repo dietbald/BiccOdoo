@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10375,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Start Date",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "contract_date_start",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "7286d186a61e4cd7d24134653c31da79b658349fdda9c1634aff9309d128e0b1",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_version__contract_date_start"
+}

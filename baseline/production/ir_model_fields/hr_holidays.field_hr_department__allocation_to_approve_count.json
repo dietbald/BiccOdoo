@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15472,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocation to Approve",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "allocation_to_approve_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c7e456f16907651dcf15938d55d83a07a42e549be30697d6f096658820d7e9b2",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_department__allocation_to_approve_count"
+}

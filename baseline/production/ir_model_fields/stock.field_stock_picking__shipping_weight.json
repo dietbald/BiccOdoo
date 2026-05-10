@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20064,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Weight for Shipping",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "shipping_weight",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "c2288068825c25ba51116f1d3effb10f57ea98ad44ad156b66b3260f0a44f266",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__shipping_weight"
+}

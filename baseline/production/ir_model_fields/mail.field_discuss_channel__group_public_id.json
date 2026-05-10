@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2393,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authorized Group",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "group_public_id",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f387f3a0fea59aefc14c66e59bcf4dc7c2636a172a20a9e310a98589cf5ba314",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__group_public_id"
+}

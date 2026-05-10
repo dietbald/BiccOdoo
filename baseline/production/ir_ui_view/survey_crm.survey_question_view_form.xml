@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='value']" position="after">
+                <field name="generate_lead" string="Create Leads" column_invisible="parent.survey_type not in ['survey', 'live_session', 'custom']"/>
+            </xpath>

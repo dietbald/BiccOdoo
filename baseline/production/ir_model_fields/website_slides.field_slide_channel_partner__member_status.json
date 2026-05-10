@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24223,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendee Status",
+    "model_id": [
+      1510,
+      "Channel / Partners (Members)"
+    ],
+    "name": "member_status",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "86363212b46aae72b267ea37155751062de6ce5ab72e88d601ba54b7c51c1884",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel_partner__member_status"
+}

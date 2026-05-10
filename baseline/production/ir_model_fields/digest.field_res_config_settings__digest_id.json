@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3619,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Digest Email",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "digest_id",
+    "relation": "digest.digest",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1ac3a0084e5580017a6d64a3a597be2d699f40fddf0fe15e5b923c01c9eb78a6",
+  "write_date": "",
+  "xml_id": "digest.field_res_config_settings__digest_id"
+}

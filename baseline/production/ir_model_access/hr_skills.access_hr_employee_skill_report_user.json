@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1789,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      646,
+      "Employee Skills Report"
+    ],
+    "name": "hr.employee.skill.report",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "079114972731b85d87ce4f081741b1e5914fb24b6d1d5f06146c9ac7d37fc0bf",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.access_hr_employee_skill_report_user"
+}

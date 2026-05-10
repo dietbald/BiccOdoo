@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14703,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "06dd48da0e9bde904fa2b67dc5ed4d3e306cfdda4e0f29495cefe714c239d00f",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__website_message_ids"
+}

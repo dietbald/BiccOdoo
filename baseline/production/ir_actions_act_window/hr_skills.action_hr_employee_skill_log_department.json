@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1414,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'fill_temporal': 0, 'search_default_group_by_skill_type_id': 1, 'search_default_group_by_skill_id': 2}",
+    "domain": false,
+    "name": "Skill History Report",
+    "res_model": "hr.employee.skill.report",
+    "target": "current",
+    "view_mode": "graph,pivot,list"
+  },
+  "payload_sha256": "c2fb3c7a428136dee5cd12a1e3824a9a1936e73cb4f52d2999855b901c5d1ace",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.action_hr_employee_skill_log_department"
+}

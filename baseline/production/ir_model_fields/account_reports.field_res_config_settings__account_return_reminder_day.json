@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6043,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deadline",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_return_reminder_day",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "e31237a917e06d1acea54dbf82b1fcb889472a8b34d16572c280784d06244adf",
+  "write_date": "",
+  "xml_id": "account_reports.field_res_config_settings__account_return_reminder_day"
+}

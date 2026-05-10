@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 24,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 12px;\">\n        <t t-set=\"transaction_sudo\" t-value=\"object.get_portal_last_transaction()\"/>\n        Hello,\n        <br/><br/>\n        A payment with reference\n        <span style=\"font-weight:bold;\" t-out=\"transaction_sudo.reference or ''\">SOOO49</span>\n        amounting\n        <span style=\"font-weight:bold;\" t-out=\"format_amount(transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n        for your order\n        <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">S00049</span>\n        <t t-if=\"transaction_sudo and transaction_sudo.state == 'pending'\">\n            is pending.\n            <br/>\n            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid + transaction_sudo.amount, object.amount_total) &gt;= 0 and object.state in ('draft', 'sent')\">\n                Your order will be confirmed once the payment is confirmed.\n            </t>\n            <t t-else=\"\">\n                Once confirmed,\n                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid - transaction_sudo.amount, object.currency_id) or ''\">$ 10.00</span>\n                will remain to be paid.\n            </t>\n        </t>\n        <t t-else=\"\">\n            has been confirmed.\n            <t t-if=\"object.currency_id.compare_amounts(object.amount_paid, object.amount_total) &lt; 0\">\n                <br/>\n                <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total - object.amount_paid, object.currency_id) or ''\">$ 10.00</span>\n                remains to be paid.\n            </t>\n        </t>\n        <br/><br/>\n        Thank you for your trust!\n        <br/>\n        Do not hesitate to contact us if you have any questions.\n        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n        </t>\n    </p>\n</div>\n            ",
+    "email_from": "{{ (object.user_id.email_formatted or user.email_formatted) }}",
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "Sales: Payment Done",
+    "subject": "{{ object.company_id.name }} {{ (object.get_portal_last_transaction().state == 'pending') and 'Pending Order' or 'Order' }} (Ref {{ object.name or 'n/a' }})"
+  },
+  "payload_sha256": "d124b1eba898691146249900b746e262dc278b66c6141f9e6f899a38d56bb60e",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.mail_template_sale_payment_executed"
+}

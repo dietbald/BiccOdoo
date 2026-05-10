@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1612,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1079,
+      "Cashmoves report"
+    ],
+    "name": "access_lunch_cashmove_report",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a6d0bde77fc5de87abd980e9e373bdaa4d68a3cd6e1e0dfecd8643d8904d9ca4",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.lunch_cashmove_report_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6203,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Asset",
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "asset_id",
+    "relation": "account.asset",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e7595d0d83cc7caeb5d9258f2175bf6db6ef1517371475cffcad3560a946079b",
+  "write_date": "",
+  "xml_id": "account_asset.field_asset_modify__asset_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4312,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e263aac02ede206cbc22a2f9098a01b940aa6ff83e89f3ef13f63d592c68598f",
+  "write_date": "",
+  "xml_id": "account.field_account_move__state"
+}

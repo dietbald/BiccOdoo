@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1148,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      96,
+      "Payroll / Administrator"
+    ],
+    "model_id": [
+      824,
+      "Payslip Input Type"
+    ],
+    "name": "hr.payslip.input.type.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1073aab6087fe5b36d1b2e56735a17429bc35617ed9dc1df09aee99e4f7dbafe",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_payslip_input_type_manager"
+}

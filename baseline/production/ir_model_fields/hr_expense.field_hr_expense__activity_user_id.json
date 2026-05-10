@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9123,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a24d311f87dea2cfe417dbdf8410855b08005e1755ea9f49d34f63ea083dbf75",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__activity_user_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 355,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Many2many Operations",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "update_m2m_operation",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "09d4e3f76f8c997baefc70eb66a0d77f32fa49ada9df8c71a74b0ca0b3f683b7",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__update_m2m_operation"
+}

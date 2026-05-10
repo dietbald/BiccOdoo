@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17578,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Center",
+    "model_id": [
+      1021,
+      "Eco Routing changes"
+    ],
+    "name": "workcenter_id",
+    "relation": "mrp.workcenter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "131d54979dce17cc9671e66ee6df04e1b0505f3729fdcdd7078b2a9d26e57679",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_routing_change__workcenter_id"
+}

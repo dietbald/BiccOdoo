@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 13,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_ids', '=', user.id)]",
+    "groups": [
+      10,
+      11
+    ],
+    "model_id": [
+      32,
+      "Filters"
+    ],
+    "name": "ir.filter: portal/public",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e9481053081c66298b6f4ec9098e7bf05e9152a7384fa60a2de984449ad28d26",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.ir_filters_portal_public_rule"
+}

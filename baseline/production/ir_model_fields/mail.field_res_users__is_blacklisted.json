@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2294,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blacklist",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "is_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d97d9c61507d6b96b62db4055aa968467e5895a94780cc6980141a5d360d3d32",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__is_blacklisted"
+}

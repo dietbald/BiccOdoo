@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 657,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "project.update.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "c648ccd5a18cf8b3e6671b3f1ac0f0dc0781ea1dbde272aa069d4a025a5894f7",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_update_user"
+}

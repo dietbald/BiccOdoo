@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15503,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6910b3f7cd363549fec3ab8633f53f4a65f245e63110b4c16a43710c06bf12ad",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__user_id"
+}

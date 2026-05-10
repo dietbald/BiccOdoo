@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27086,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Schedule Lines",
+    "model_id": [
+      213,
+      "Activity schedule plan Wizard"
+    ],
+    "name": "plan_schedule_line_ids",
+    "relation": "mail.activity.schedule.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "793854519573c9030c4f03a7a6bad8e8afb314ef5f98b3337bb1dabe02bb3910",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_schedule__plan_schedule_line_ids"
+}

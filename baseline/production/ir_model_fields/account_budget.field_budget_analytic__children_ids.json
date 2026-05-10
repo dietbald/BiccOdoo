@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20748,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Revisions",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "children_ids",
+    "relation": "budget.analytic",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0fc3de32a6936a98a8197a5e049845a12a72f4285c0e1b54bdeb76c1749f7d63",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__children_ids"
+}

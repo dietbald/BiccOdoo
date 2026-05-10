@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 215,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('partner_id.employee_ids', '=', False)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "HR: Prevent non HR officers from accessing employee bank accounts",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3fd66116cce481409c333d6922829d8147e684937d4b80580aa689a4f62bcb77",
+  "write_date": "2023-11-30 07:12:44",
+  "xml_id": "hr.ir_rule_res_partner_bank_internal_users"
+}

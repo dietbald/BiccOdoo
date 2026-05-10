@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19834,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Category",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "product_category_id",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a32b0a0ca7dac06bd350653570ed8f7c74c436ed1bc7b47b7545bea639371915",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__product_category_id"
+}

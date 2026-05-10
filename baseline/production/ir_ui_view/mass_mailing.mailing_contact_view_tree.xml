@@ -1,0 +1,16 @@
+<list string="Mailing List Contacts" sample="1" multi_edit="1">
+                <header>
+                    <button name="action_import" string="Import" type="object" display="always" context="{'from_mailing_list_ids': context.get('active_ids') if context.get('active_model') == 'mailing.list' else False}"/>
+                    <button name="action_add_to_mailing_list" string="Add to List" type="object"/>
+                </header>
+                <field name="create_date" optional="show"/>
+                <field name="name" optional="show" readonly="1"/>
+                <field name="company_name"/>
+                <field name="email" readonly="1"/>
+                <field name="is_blacklisted" string="Email Blacklisted"/>
+                <field name="country_id" optional="hide"/>
+                <field name="message_bounce" sum="Total Bounces" readonly="1"/>
+                <field name="opt_out" readonly="1" column_invisible="'default_list_ids' not in context"/>
+                <field name="list_ids" widget="many2many_tags" optional="hide"/>
+                <field name="properties" optional="hide"/>
+            </list>

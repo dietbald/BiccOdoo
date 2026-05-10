@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1602,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      139,
+      "Onboarding"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e8a6c7dd4e79a472906e8c6c27b25d48da30c7a8b8b941ebc492838dfc720f21",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_onboarding__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17379,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1014,
+      "Print Pre-numbered Checks"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fe927e7e68797b0b2caaf8c3acdc684f25b091f5e94921c5f29b609471760d23",
+  "write_date": "",
+  "xml_id": "account_check_printing.field_print_prenumbered_checks__create_uid"
+}

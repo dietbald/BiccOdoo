@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 694,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('country_id', '=', False), ('country_id', 'in', user.env.companies.country_id.ids)]",
+    "groups": [],
+    "model_id": [
+      819,
+      "Salary Rule Category"
+    ],
+    "name": "HR Salary Rule Category: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "70dc68ae75e3ef7c582395832b3bc34a1d4a6c782a00ec2e925ede031282b327",
+  "write_date": "2025-03-24 00:46:00",
+  "xml_id": "hr_payroll.ir_rule_hr_payroll_salary_rule_category_multi_company"
+}

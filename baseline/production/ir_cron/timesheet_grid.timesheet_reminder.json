@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 49,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_timesheet_reminder()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "Timesheet: Approvers Email Reminder",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "aecfebc80514a186f8f703cef595e6c4adba12b52356f96ff2df6c4eba1a9fad",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "timesheet_grid.timesheet_reminder"
+}

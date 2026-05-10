@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18370,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality Check Fail",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "quality_check_fail",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "760d50d7821bfd74a0ae71eb9217a32659766f90f0dd1166e8cc950e7018d0d6",
+  "write_date": "",
+  "xml_id": "quality_mrp.field_mrp_production__quality_check_fail"
+}

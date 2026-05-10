@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19100,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bank",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "98d1805080f35de1d506bc3016130d3259b4982b4c9bf471dfe883e0350e6a73",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__journal_id"
+}

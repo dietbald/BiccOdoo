@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17396,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f614b82d19c7f4e6dc1583cf4e8652d9c96b3065405991797939d3070b2e8245",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__message_partner_ids"
+}

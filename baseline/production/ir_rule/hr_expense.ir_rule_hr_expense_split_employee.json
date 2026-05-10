@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 710,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('expense_id.state', '=', 'draft'),\n                '|', ('expense_id.employee_id.user_id', '=', user.id), ('expense_id.manager_id', '=', user.id),\n            ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      652,
+      "Expense Split Wizard"
+    ],
+    "name": "Employee Expense Split",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "638980e8bda5501be9423d96a16becfb33c1f20677205d370d81659132be811f",
+  "write_date": "2025-05-19 16:54:03",
+  "xml_id": "hr_expense.ir_rule_hr_expense_split_employee"
+}

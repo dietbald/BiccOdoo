@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2806,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Phone Number",
+    "model_id": [
+      354,
+      "Remove phone from blacklist"
+    ],
+    "name": "phone",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "b5a093ee4470bebf64a0fc2262f08510e9da2e4f5c6e29adb1be9d6a168aa3c3",
+  "write_date": "",
+  "xml_id": "phone_validation.field_phone_blacklist_remove__phone"
+}

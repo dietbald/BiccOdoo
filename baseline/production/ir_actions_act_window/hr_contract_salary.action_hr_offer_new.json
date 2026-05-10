@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1696,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'is_hr_payroll': True}",
+    "domain": false,
+    "name": "Offer",
+    "res_model": "hr.contract.salary.offer",
+    "target": "current",
+    "view_mode": "form"
+  },
+  "payload_sha256": "d40c4bbe7bddb05d23fd664656bd89d5a7045f4f0e03b1875cec854dbbd3a1dd",
+  "write_date": "2025-12-09 02:59:17",
+  "xml_id": "hr_contract_salary.action_hr_offer_new"
+}

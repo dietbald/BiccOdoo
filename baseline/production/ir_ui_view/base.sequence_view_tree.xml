@@ -1,0 +1,10 @@
+<list string="Sequences">
+                    <field name="code"/>
+                    <field name="name"/>
+                    <field name="prefix"/>
+                    <field name="padding"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="number_next_actual" string="Next Number"/>
+                    <field name="number_increment"/>
+                    <field name="implementation"/>
+                </list>

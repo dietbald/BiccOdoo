@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28968,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Return",
+    "model_id": [
+      3565,
+      "Accounting Return Check"
+    ],
+    "name": "return_id",
+    "relation": "account.return",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "31df19e68ea5886117e0381c9eb872cfb7e3b2f98d739743c70c36a75c04c8d3",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_check__return_id"
+}

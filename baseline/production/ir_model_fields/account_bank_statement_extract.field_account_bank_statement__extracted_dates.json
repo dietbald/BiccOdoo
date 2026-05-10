@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29598,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extracted Dates",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "extracted_dates",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "db4cfd5831da016830fced7d7305b530fe400647feccd97df66b9a594024c595",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement__extracted_dates"
+}

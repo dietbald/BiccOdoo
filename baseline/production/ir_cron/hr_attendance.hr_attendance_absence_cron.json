@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 72,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_absence_detection()",
+    "interval_number": 4,
+    "interval_type": "hours",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "Attendance: Detect Absences for employees",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "ed6e103134cdd990c22a7d685ecb522acf0befded5647b4f821f1b0cecce7683",
+  "write_date": "2025-12-09 02:58:04",
+  "xml_id": "hr_attendance.hr_attendance_absence_cron"
+}

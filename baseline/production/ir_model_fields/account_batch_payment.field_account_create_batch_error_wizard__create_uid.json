@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28274,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3403,
+      "Create Batch Payment Error Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f956f5c01a8fe0171cdd82da904fb3993c30675381314d161c262e1f725fe559",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_create_batch_error_wizard__create_uid"
+}

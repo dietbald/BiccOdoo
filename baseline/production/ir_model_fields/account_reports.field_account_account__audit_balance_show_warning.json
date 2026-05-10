@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29007,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Audit Balance Show Warning",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "audit_balance_show_warning",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "12448dbaa76552de3d4c1d0d50065dd8590d017cd4805ca3494a6e6769ea0060",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_account__audit_balance_show_warning"
+}

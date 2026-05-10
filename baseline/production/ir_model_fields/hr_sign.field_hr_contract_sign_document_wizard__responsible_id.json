@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10742,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      720,
+      "Sign document in contract"
+    ],
+    "name": "responsible_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1cf2bdd291de370bd012c28a12f89fcb65c05552a88f1c5966ec93de96e09566",
+  "write_date": "",
+  "xml_id": "hr_sign.field_hr_contract_sign_document_wizard__responsible_id"
+}

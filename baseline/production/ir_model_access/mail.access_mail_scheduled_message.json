@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1740,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1329,
+      "Scheduled Message"
+    ],
+    "name": "access.mail.scheduled.message",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2cc0faeb98b0eccd2fec2c622c365137cd44ad140d4547a3d7a2dbaf63e1d628",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_scheduled_message"
+}

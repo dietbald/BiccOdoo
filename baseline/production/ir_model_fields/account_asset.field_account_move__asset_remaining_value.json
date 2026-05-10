@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Depreciable Value",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "asset_remaining_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2bde7db768a2065e6fa676fd21f4ac9c37349e9a3e765fd798356fb76328db82",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_move__asset_remaining_value"
+}

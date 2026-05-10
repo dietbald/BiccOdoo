@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5284,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bic",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "bank_bic",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "30901db7efe6faf14c3e9b3b5bd0d29b29e1512aa19937dc07f364421aa30bc9",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__bank_bic"
+}

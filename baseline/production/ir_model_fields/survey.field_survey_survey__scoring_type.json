@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14733,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scoring",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "scoring_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "55c0dba0ae70891a8f2904110d44077b6a7e849d4084386ee726cff6eb5be000",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__scoring_type"
+}

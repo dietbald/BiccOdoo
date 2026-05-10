@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9394,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order Deadline",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "date_order",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "e6cd1acdfebc94f35091f2944a7a24be1023dc2cfc7923fed8f2ea893133aecd",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__date_order"
+}

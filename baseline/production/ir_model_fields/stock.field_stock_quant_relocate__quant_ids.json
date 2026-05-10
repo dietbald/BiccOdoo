@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11808,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quant",
+    "model_id": [
+      776,
+      "Stock Quantity Relocation"
+    ],
+    "name": "quant_ids",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "24faf61f65972c07d124b54defef214a740c04e9b7c6c7ee74e59dcfbbc888ce",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant_relocate__quant_ids"
+}

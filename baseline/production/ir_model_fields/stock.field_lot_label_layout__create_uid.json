@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11650,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      760,
+      "Choose the sheet layout to print lot labels"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "76029a61b4e4ee6f948c9ee1deeb49a8bb33038001763835c48d058906a4f44b",
+  "write_date": "",
+  "xml_id": "stock.field_lot_label_layout__create_uid"
+}

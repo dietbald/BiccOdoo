@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Forecasted Weight",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "forecast_weight",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "4f94ea439a4f0e4ba8cc4fcd51fb5327138fcf2b68363f8225c28cbd29852458",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__forecast_weight"
+}

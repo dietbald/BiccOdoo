@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18960,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      1077,
+      "Lunch Product Category"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1cee14ffe10493b53b53d4dbeeacd971acd5513575e0ccf6bc1a0c11b0ceab32",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_product_category__currency_id"
+}

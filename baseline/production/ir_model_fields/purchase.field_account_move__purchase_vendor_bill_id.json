@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9357,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-complete",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "purchase_vendor_bill_id",
+    "relation": "purchase.bill.union",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a846a4bcce5348df983277a95259763514a57d5f56f2fee04442d39bdeaba423",
+  "write_date": "",
+  "xml_id": "purchase.field_account_move__purchase_vendor_bill_id"
+}

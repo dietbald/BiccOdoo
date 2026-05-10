@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4130,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "repartition_line_ids",
+    "relation": "account.tax.repartition.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "76576d2593d894e8c941da4365d5a947400458bb6af7045a1502711e59ea2642",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__repartition_line_ids"
+}

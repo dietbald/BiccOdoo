@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 9,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'key':'server_action',\n                'search_default_toplevel_actions': 1,\n            }",
+    "domain": false,
+    "name": "Server Actions",
+    "res_model": "ir.actions.server",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "f0ee0dc56783d54deaef363417a78e506ad7eb575f7f3c5420cac0802b5466ff",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.action_server_action"
+}

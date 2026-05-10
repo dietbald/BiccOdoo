@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17560,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Previous Product UoM",
+    "model_id": [
+      1020,
+      "ECO BoM changes"
+    ],
+    "name": "old_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e3c8cd6b319b351dcb4ec92ca4107108553cbdf3a80df55d75c5f84e3268a004",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_bom_change__old_uom_id"
+}

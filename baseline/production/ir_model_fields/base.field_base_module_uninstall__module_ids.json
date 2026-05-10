@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26821,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Module(s)",
+    "model_id": [
+      113,
+      "Module Uninstall"
+    ],
+    "name": "module_ids",
+    "relation": "ir.module.module",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "06de17fff0b2a6a00770be60e11fe46803c533103341c137edfac8e785509468",
+  "write_date": "",
+  "xml_id": "base.field_base_module_uninstall__module_ids"
+}

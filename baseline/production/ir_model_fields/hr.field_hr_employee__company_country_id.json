@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8693,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Country",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "company_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aa8d23a0a0f82443bbe57251c26984fd9986139dd048aee4ec97cbaef219362b",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__company_country_id"
+}

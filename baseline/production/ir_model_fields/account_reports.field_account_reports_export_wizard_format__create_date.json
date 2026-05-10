@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6076,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      522,
+      "Export format for accounting's reports"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "8b547a7cebd5b65b5b57935f0a07d6f08fef7577ee849194b86494378a5f6296",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_reports_export_wizard_format__create_date"
+}

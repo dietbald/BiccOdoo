@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 979,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('is_contextual_merge_action', '=', False), '|', ('active', '=', False), ('active', '=', True)]",
+    "name": "Deduplication Rules",
+    "res_model": "data_merge.model",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "d64104783c1b1413e15007c451fead7e12b589bdbe85c00f488b65d553bc26e0",
+  "write_date": "2025-12-09 02:56:08",
+  "xml_id": "data_cleaning.action_data_merge_config"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28151,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "partner_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "79b83c89b66a344ee49c373030ddd4da62ca41c69861159ba49032e98fc488b6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__partner_country_id"
+}

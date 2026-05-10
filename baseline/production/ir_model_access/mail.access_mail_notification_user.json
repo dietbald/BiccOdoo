@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 193,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "mail.notification.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "c2bcdccadba413d5753dae08c411874f62e1e4d2434fa9bf1a703ef7de4f4e11",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_notification_user"
+}

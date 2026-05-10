@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 612,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('survey_id.survey_type', '=', 'recruitment'),\n                '|', ('survey_id.hr_job_ids.interviewer_ids', 'in', user.id),\n                     ('survey_id.hr_job_ids.application_ids.interviewer_ids', 'in', user.id)\n                ]",
+    "groups": [
+      61
+    ],
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "Survey invite: recruitment interviewer: send surveys to applicants for which they are set as interviewer",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "073e8ecef5b97b4cfb6161ce4ef09bd016337d7b6d069b6ea2e97cac0e610b4a",
+  "write_date": "2024-10-23 10:50:01",
+  "xml_id": "hr_recruitment_survey.survey_invite_recruitment_interviewer"
+}

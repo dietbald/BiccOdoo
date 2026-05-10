@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5291,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1024beb3cb277ca5260614508104be1a7146ca431b9c497ecbcfa0d0ac75160a",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__write_uid"
+}

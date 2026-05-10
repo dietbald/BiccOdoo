@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 553,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1076,
+      "Lunch Product"
+    ],
+    "name": "Lunch product: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "57099943f85b432b21384a2eaa3eb7e41e7f3f392f639fd49689048bc7fcc13e",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "lunch.ir_rule_lunch_product_multi_company"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14232,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mail Server",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "mail_server_id",
+    "relation": "ir.mail_server",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "43b662a819c0f80af6c8c731e5909032c6dd8ae5084730f3b2e3c9b60f296355",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__mail_server_id"
+}

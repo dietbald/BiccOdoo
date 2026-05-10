@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4769,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "29ffe6b323eb4654b3725a4de205b3c1c3cbbab5cdc962ebdf50239628b517c2",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__create_date"
+}

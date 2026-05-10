@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 524,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "Maintenance Team Multi-company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a68d0e47a40d22c147dbe19c97e2e82b484d3d8b7810a2601bdcf79a7f20e806",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "maintenance.maintenance_team_comp_rule"
+}

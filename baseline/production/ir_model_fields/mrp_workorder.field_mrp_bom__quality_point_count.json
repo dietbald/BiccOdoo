@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29260,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Instructions Count",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "quality_point_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "79c658a314a658ab68b71f74e710b7ae7f319d6a9407a952fa38c1d050795d49",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_bom__quality_point_count"
+}

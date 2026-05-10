@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19807,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Legal Notes",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "invoice_legal_notes",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "1a0778a4dbf0264be08160755ef0ff68f6458c902b98b2e07d76d3905bab50ad",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__invoice_legal_notes"
+}

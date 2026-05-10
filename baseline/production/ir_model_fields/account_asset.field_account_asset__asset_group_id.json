@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23604,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Asset Group",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "asset_group_id",
+    "relation": "account.asset.group",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aea88951351218e7f46ce021791c8fbd55f0d1e6ea2f568f39fac6e59d4a76bc",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__asset_group_id"
+}

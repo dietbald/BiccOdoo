@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1437,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow integration with the mail plugins",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_mail_plugin",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3d5f2548ad03613e3def50c04e7c8f5d3b394595d40908efdf4d30a19d5ab047",
+  "write_date": "",
+  "xml_id": "base_setup.field_res_config_settings__module_mail_plugin"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18261,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Maintenance",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "maintenance_ids",
+    "relation": "maintenance.request",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6b6643fbc0a1f5c3a9e0d9099d46da33863f866ca8a90dd8cf1e461e0af80537",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__maintenance_ids"
+}

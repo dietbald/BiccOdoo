@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13576,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of timesheets",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "timesheet_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "49de597bd8cb68ed0572975817a251af8913c45f4f60c7cadb2ea5ffa111e8bb",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_account_move__timesheet_count"
+}

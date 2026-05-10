@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28297,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Foreign Fiscal Position",
+    "model_id": [
+      78,
+      "Country"
+    ],
+    "name": "has_foreign_fiscal_position",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "fc6d3b2ae28dad4f1a86da3f6a2e933255efd440379a9ca05eab5ac819914359",
+  "write_date": "",
+  "xml_id": "base_vat.field_res_country__has_foreign_fiscal_position"
+}

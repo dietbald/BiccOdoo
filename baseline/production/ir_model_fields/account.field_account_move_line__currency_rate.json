@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4441,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency Rate",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "currency_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "6964515a7d74f6054146369361feff8b01f5ad73a464ce1ca1abee9d3c863d92",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__currency_rate"
+}

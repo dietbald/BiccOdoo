@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18984,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lunch notification message",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "company_lunch_notify_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "20a2becc6c8e60961494b43c4a54fe05ba821e6d29df028864793cf6cb31ff92",
+  "write_date": "",
+  "xml_id": "lunch.field_res_config_settings__company_lunch_notify_message"
+}

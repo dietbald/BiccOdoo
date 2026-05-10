@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5061,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer Invoices Discounts Account",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_discount_expense_allocation_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "45e42e70fcdc032a7b9a5ee39767125e2dae49d6606d1c5438d6fda4be4e0e01",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__account_discount_expense_allocation_id"
+}

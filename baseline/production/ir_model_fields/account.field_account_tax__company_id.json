@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4114,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bceccb55e9665b86520c7d79efe3ad8eec67e44d95a980b73a6822acc0ad6edf",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__company_id"
+}

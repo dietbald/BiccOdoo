@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28881,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1dade48b0b91307268d611b97acb0d9a26648cc758c2c8bcd27f707d33bd5372",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__activity_type_id"
+}

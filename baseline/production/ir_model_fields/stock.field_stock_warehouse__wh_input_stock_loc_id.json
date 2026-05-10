@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11363,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Input Location",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "wh_input_stock_loc_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c848326597c048940973c53286ab0b1048f6fc828f27b34462ab6ad2e33f38aa",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__wh_input_stock_loc_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8044a4f3c0eeecc920b3efafb2df2186d36a1582802aefe5e888ac758496a0c0",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__message_ids"
+}

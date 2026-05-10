@@ -1,0 +1,27 @@
+<t t-name="stock.stock_report_delivery_has_serial_move_line">
+        <td>
+            <span t-field="move_line.product_id"/>
+            <!-- this is an annoying workaround for the multiple types of descriptions (often auto-filled) that we do not want to print -->
+            <!-- this makes it so we can pre-filter the descriptions in inherited templates since we cannot extend the standard "if" condition -->
+            <!-- let's agree that pre-filtered descriptions will be set to "" -->
+            <t t-if="not description and description != ''">
+                <t t-set="description" t-value="move_line.move_id.description_picking"/>
+            </t>
+            <p t-if="description != '' and                      description != move_line.product_id.display_name and                      description != move_line.product_id.name">
+                <span t-out="description" t-options="{'widget': 'text'}"/>
+            </p>
+        </td>
+        <td t-if="has_multi_level_packages">
+            <t t-if="move_line.result_package_id != package">
+                <span t-if="move_line.package_history_id" t-out="move_line.package_history_id._get_complete_dest_name_except_outermost()"/>
+                <span t-else="" t-field="move_line.result_package_id"/>
+            </t>
+        </td>
+        <t t-if="has_serial_number" name="move_line_lot">
+            <td class="text-end"><span t-field="move_line.lot_id.name"/></td>
+        </t>
+        <td class="text-end" name="move_line_lot_quantity">
+            <span t-out="format_number(move_line.quantity)"/>
+            <span t-field="move_line.product_uom_id"/>
+        </td>
+    </t>

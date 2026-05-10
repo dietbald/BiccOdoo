@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12036,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Selectable on Sales Order Line",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "sale_selectable",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "39eb4ac6df734803bc6c7467a79ce7df526cec5643cb04f3945d016e11bc25ae",
+  "write_date": "",
+  "xml_id": "sale_stock.field_stock_route__sale_selectable"
+}

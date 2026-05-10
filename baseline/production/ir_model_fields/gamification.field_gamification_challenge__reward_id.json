@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14539,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "For Every Succeeding User",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "reward_id",
+    "relation": "gamification.badge",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ffca61b9a94642e2032a35710f4e66fde4ac424454c232ab168be1c90f43a1e6",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__reward_id"
+}

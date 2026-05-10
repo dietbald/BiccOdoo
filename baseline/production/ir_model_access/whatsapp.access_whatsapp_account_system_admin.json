@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1576,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      1048,
+      "WhatsApp Business Account"
+    ],
+    "name": "access.whatsapp.account.system.admin",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "48486df750f85d22f4841e26a592523c954160845692a047d31232f631dffe05",
+  "write_date": "2025-12-09 02:56:17",
+  "xml_id": "whatsapp.access_whatsapp_account_system_admin"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22078,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status In Payment",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "status_in_payment",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7fcd2a36e17975eb21a21a798ba4481af31885adea7df962042e236a0f633d1b",
+  "write_date": "",
+  "xml_id": "account.field_account_move__status_in_payment"
+}

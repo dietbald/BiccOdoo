@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1307,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      110,
+      "Surveys / User"
+    ],
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "access.survey.invite",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "e34835d5fe774f94caf37d1804b4476d3bc711e825ef0dc2564f88303ad10525",
+  "write_date": "2026-01-28 12:01:51",
+  "xml_id": "survey.access_survey_invite"
+}

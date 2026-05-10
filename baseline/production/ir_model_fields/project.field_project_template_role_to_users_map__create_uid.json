@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28078,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3335,
+      "Project role to users mapping"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7863218d687f1357f506a095428632f184a345c016bc08acdec32c980494e4ae",
+  "write_date": "",
+  "xml_id": "project.field_project_template_role_to_users_map__create_uid"
+}

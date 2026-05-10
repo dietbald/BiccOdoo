@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1189,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      852,
+      "Project Sales line, employee mapping"
+    ],
+    "name": "access_project_sale_line_employee_map",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "c7a7ee25b60537987ec8b555dd9481f05550b1ccbf965c7bbb305fa013d7cf28",
+  "write_date": "2025-12-09 03:00:38",
+  "xml_id": "sale_timesheet.access_project_sale_line_employee_map"
+}

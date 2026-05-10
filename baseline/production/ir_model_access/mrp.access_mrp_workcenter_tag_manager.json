@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1441,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      118,
+      "Manufacturing / Administrator"
+    ],
+    "model_id": [
+      965,
+      "Add tag for the workcenter"
+    ],
+    "name": "access.mrp.workcenter.tag",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "019bb2ede02db2082da960424641bcd577c0cd897bb416f9ccd447081a96838b",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_workcenter_tag_manager"
+}

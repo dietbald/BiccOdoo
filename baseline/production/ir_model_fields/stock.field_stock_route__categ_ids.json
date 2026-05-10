@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10916,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Categories",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "categ_ids",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b0ae01bd782769a51fb45a65f0495cdfa19622e51a79209db312d7bb518139b6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_route__categ_ids"
+}

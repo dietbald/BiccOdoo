@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoices",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "invoice_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "70ff73be99d1d3dcf8f710cd9813c24262222f9f3386aa32e97898265e6e3257",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__invoice_ids"
+}

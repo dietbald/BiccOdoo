@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2178,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Owner",
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "819aaac968c0907ba65c4cdd29edaa9f42f41f4018d31b605ecc9d7aefabfee9",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template__user_id"
+}

@@ -1,0 +1,32 @@
+<t t-name="account_reports.journal_report_pdf_body_default">
+        <table class="o_table">
+            <thead>
+                <tr>
+                    <t t-foreach="journal_vals['columns']" t-as="column">
+                        <th t-att-class="column.get('class', '')">
+                            <t t-out="column.get('name', '')"/>
+                        </th>
+                    </t>
+                </tr>
+            </thead>
+
+            <tbody>
+                <t t-foreach="journal_vals['lines']" t-as="line">
+                    <tr t-att-class="line.get('line_class', '')">
+                        <t t-foreach="journal_vals['columns']" t-as="column">
+                            <t t-if="line.get(column['label'])">
+                                <t t-set="cell_style" t-value="line[column['label']].get('class', '')"/>
+                                <t t-set="column_style" t-value="column.get('class', '')"/>
+                                <td t-att-class="cell_style + column_style">
+                                    <t t-out="line[column['label']]['data']"/>
+                                </td>
+                            </t>
+                            <t t-else="">
+                                <td/>
+                            </t>
+                        </t>
+                    </tr>
+                </t>
+            </tbody>
+        </table>
+    </t>

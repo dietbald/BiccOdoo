@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 737,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '!=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      910,
+      "Gamification User Badge"
+    ],
+    "name": "Base group user not granted badge write/unlink access",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "47d4bcb75816f674637a93ce85a066765b88089bcb0a10e2218c7715f949576f",
+  "write_date": "2025-12-09 02:58:08",
+  "xml_id": "hr_gamification.hr_gamification_badge_base_user_not_owned_access"
+}

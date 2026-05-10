@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19924,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display QR-code on invoices",
+    "model_id": [
+      118,
+      "Company Document Layout"
+    ],
+    "name": "qr_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9d97d71773d2a6d1a1a7b6fb1dcad546171968c13368186fccb5c549779ca8cb",
+  "write_date": "",
+  "xml_id": "account.field_base_document_layout__qr_code"
+}

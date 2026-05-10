@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 652,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n            ['|', ('company_id', '=', False), ('company_id', 'parent_of', company_ids)]\n        ",
+    "groups": [],
+    "model_id": [
+      1469,
+      "Quotation's Headers & Footers"
+    ],
+    "name": "Quotation document multi-company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "132caa911a242dbdf74571b2167609247a8bee967c448731e2e75d6b6df923f3",
+  "write_date": "2025-01-28 01:27:09",
+  "xml_id": "sale_pdf_quote_builder.quotation_document_comp_rule"
+}

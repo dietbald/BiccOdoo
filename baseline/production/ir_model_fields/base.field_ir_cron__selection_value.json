@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Value",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "selection_value",
+    "relation": "ir.model.fields.selection",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cf10714df82682beafceb53ce1a6baab3fd20f750b9e2b4d90d6bfb753784017",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__selection_value"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14166,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Links click",
+    "model_id": [
+      893,
+      "Mailing Statistics"
+    ],
+    "name": "links_click_ids",
+    "relation": "link.tracker.click",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fec577e1d16ebf7b699852eabdf886af9fc7ad115953d929883b936524d82eb2",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_trace__links_click_ids"
+}

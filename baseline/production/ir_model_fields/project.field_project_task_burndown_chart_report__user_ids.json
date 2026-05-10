@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assignees",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5069a505dbd2f630781fae935abd69019ad0213d700e80fd1829c9e0d90f68e1",
+  "write_date": "",
+  "xml_id": "project.field_project_task_burndown_chart_report__user_ids"
+}

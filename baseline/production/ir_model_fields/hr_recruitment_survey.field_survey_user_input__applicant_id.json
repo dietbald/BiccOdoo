@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14968,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicant",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "applicant_id",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "13dc53db9c2fdeac07e0c331bf0bf6b2074ab4b18d258cf01bf8efa7d191c66e",
+  "write_date": "",
+  "xml_id": "hr_recruitment_survey.field_survey_user_input__applicant_id"
+}

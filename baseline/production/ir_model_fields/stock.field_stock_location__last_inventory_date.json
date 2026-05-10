@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10889,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Inventory",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "last_inventory_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "9900c44cf053bc63d21b7d94865a0a73f6920079841cd9619f755d75a2170668",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__last_inventory_date"
+}

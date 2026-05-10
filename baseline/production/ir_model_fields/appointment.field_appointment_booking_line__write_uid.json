@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15170,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      936,
+      "Appointment Booking Line"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "79a9c3a35c152fe1e4e12fa6634f64124db2dc3ae07995c3190966c1bfbdd28a",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_booking_line__write_uid"
+}

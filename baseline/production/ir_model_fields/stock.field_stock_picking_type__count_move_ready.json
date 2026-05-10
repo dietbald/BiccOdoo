@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20055,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count Move Ready",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "count_move_ready",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "dcbe146980043000409c35e11d5f0d0b78e7334fe44d1b9b59b53cdd06d4e7d1",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__count_move_ready"
+}

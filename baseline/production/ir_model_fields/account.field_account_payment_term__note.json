@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4248,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Description on the Invoice",
+    "model_id": [
+      432,
+      "Payment Terms"
+    ],
+    "name": "note",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "74df9c45711cb80c4911be2373910e5a0a708f42e7eed7501a3e862594737410",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term__note"
+}

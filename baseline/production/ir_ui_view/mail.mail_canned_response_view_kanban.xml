@@ -1,0 +1,17 @@
+<kanban class="o_kanban_mobile" sample="1">
+                    <templates>
+                        <t t-name="card">
+                            <div class="oe_kanban_global_click p-2 d-flex flex-column gap-1">
+                                <div class="fw-bold fs-5">
+                                    <field name="source" widget="shortcut"/>
+                                </div>
+                                <div class="text-truncate" t-att-title="record.substitution.value">
+                                    <field name="substitution"/>
+                                </div>
+                                <div class="pt-1">
+                                    <field name="group_ids" widget="many2many_tags"/>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>

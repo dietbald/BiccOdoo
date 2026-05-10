@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18694,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Worksheet Template",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "worksheet_template_id",
+    "relation": "worksheet.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "572e69b90146f14076e60ae6af6d225f9a205a0587bc12d004d1ddf48f51af40",
+  "write_date": "",
+  "xml_id": "industry_fsm_report.field_project_task_burndown_chart_report__worksheet_template_id"
+}

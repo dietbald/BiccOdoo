@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9710,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Specific",
+    "model_id": [
+      667,
+      "Recruitment Stages"
+    ],
+    "name": "job_ids",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f3e92c97f70993238817cf98a484ab8cad43f609550b7b587c1bfd4f6dccad42",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_recruitment_stage__job_ids"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 775,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_filter_not_is_article_item': 1,\n            'default_is_template': True\n        }",
+    "domain": "[('is_template', '=', True)]",
+    "name": "Article Templates",
+    "res_model": "knowledge.article",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "c34abe7c939a64a2c9890af2d8b8a13d80efddda17733c7a161f60efeac7b83d",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.knowledge_article_template_action"
+}

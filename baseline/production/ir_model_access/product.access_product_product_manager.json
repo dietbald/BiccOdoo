@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 283,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      145,
+      "Products / Create"
+    ],
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "product.product manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "429cb53292f2fd1287f94e6c5c261dc3e6dd160ad4c0234c973f164cf920c7bc",
+  "write_date": "2025-12-09 02:56:05",
+  "xml_id": "product.access_product_product_manager"
+}

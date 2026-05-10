@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5116,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journals",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "filter_journals",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0591b37579d2c7c07f79fe16875b3c2f638093a45e108d87eb7e5ffa23c0b5df",
+  "write_date": "",
+  "xml_id": "account.field_account_report__filter_journals"
+}

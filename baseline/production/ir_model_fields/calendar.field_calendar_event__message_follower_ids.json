@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fef64fee6e53c9ae50aa6ddf72e741576c3b0bdef4244e5cf311371a0e891526",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__message_follower_ids"
+}

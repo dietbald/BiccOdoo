@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 406,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      430,
+      "Rules for the reconciliation model"
+    ],
+    "name": "account.reconcile.model.line.readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b902c4b7da3472fa9b41e192dedccdeae5c94bb0c7e43cf5cc9477f54ea9a76d",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_reconcile_model_line_readonly"
+}

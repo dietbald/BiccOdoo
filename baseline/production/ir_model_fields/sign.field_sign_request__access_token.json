@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10507,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Security Token",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "29c5ae056e4ccfe6be355fb7fae7e574a4aacea2bf845e2d781a689ac8fd188f",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request__access_token"
+}

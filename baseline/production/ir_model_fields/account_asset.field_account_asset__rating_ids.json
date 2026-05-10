@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7590,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "42cc4c7988a5a2f50ebd3cf470b61088e866e875947f4afde40652e80d51d44f",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__rating_ids"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 442,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['&', (1, '=', 1), '|', '&', ('employee_id.user_id', '=', user.id), ('state', '!=', 'validate'), ('employee_id.leave_manager_id', '=', user.id)]",
+    "groups": [
+      114
+    ],
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "Time Off Responsible create/write",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "31ea4bdabc71cf88b0cd2ab9069c93c371baf14505e0449ce6f65bfd6bfe633a",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_rule_responsible_update"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16170,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "References",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "reference_ids",
+    "relation": "stock.reference",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f112a6f702687ee7502c919bc48a454a9864b271614cdb001ed1fc4addd16f6f",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__reference_ids"
+}

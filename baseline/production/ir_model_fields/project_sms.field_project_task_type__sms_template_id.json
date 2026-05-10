@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8064,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Template",
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "sms_template_id",
+    "relation": "sms.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "53e383af9db04d8d0e62791dd8b72175894d2b32016dd9fa402ca672b25223bd",
+  "write_date": "",
+  "xml_id": "project_sms.field_project_task_type__sms_template_id"
+}

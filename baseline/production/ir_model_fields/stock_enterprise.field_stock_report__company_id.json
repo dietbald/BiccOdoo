@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11930,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      779,
+      "Stock Report"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f8a0df828b940c4ae99955ca6ccb7e0ff6f662596f5cd13996f47cf5bf6dc8ab",
+  "write_date": "",
+  "xml_id": "stock_enterprise.field_stock_report__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20302,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Subtotal",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "price_total_cc",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "5d71c727553b5d67abbb387f51a2dac5ad3bcceeef5deac253fbb31cde80a55c",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_order_line__price_total_cc"
+}

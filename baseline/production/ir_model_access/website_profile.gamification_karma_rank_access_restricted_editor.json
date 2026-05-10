@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1826,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      65,
+      "Website / Restricted Editor"
+    ],
+    "model_id": [
+      915,
+      "Rank based on karma"
+    ],
+    "name": "gamification.karma.rank.access.website.restricted_editor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "11fe0d85c85082e2c71ba49d8b60e628c134bf162b0b2ee22276dc4606def856",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "website_profile.gamification_karma_rank_access_restricted_editor"
+}

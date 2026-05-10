@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28717,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order Modification",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "lock_confirmed_po",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "cd08fce2425c485c59ba1b7147fadfa1f2d6ec20666e01762abbef7f7bdc7dd4",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__lock_confirmed_po"
+}

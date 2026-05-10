@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12601,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "176edc79105818006f016626a7ac2bd544a72e49f074804ca44b22e38c4b0cea",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__message_needaction"
+}

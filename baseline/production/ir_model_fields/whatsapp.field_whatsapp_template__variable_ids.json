@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18467,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Template Variables",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "variable_ids",
+    "relation": "whatsapp.template.variable",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b12e2ce2cc31d969b91df8a01994487cd20d5603d02b88f8d1955643e0ba0ecd",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__variable_ids"
+}

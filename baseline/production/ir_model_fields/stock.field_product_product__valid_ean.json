@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11439,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Barcode is valid EAN",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "valid_ean",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "432650666c9f999c2732420c1661863d265cdafb3aaad345b61dec17a8b91203",
+  "write_date": "",
+  "xml_id": "stock.field_product_product__valid_ean"
+}

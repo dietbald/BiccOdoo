@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27882,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wage",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "5e6e0cafa19c5271c58fe2633bced63e7a084fe21b8b52f1547abe601f5dc4a5",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__wage"
+}

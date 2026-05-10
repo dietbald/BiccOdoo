@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3903,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bb8a8cf8b3d18d56d39407985485ea388705f760eb6fc87f481ab1acffe4c327",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__message_has_sms_error"
+}

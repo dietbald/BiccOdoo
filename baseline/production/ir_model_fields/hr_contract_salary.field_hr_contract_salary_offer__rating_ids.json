@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21177,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "720e6648a41abe24dc7b8006253d0b02d37b64f2a645d08770e0c843faaa6c3f",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__rating_ids"
+}

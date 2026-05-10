@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6577,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Models",
+    "model_id": [
+      543,
+      "Documents Link to Record"
+    ],
+    "name": "accessible_model_ids",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9052282871d4d05992ccee6d7e3aaad3fffd7ddb1f97e098aeb5b269f3f006ae",
+  "write_date": "",
+  "xml_id": "documents.field_documents_link_to_record_wizard__accessible_model_ids"
+}

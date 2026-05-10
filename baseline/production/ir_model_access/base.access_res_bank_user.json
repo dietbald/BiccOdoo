@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 111,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      87,
+      "Bank"
+    ],
+    "name": "res_bank user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "4b2f94cd31785f87a4efa122d7bb92c5afdef7c4471ec425aca74f8aa5a52166",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_bank_user"
+}

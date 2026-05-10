@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26559,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rental Status",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "rental_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "19a48b8c670c52c684a307b8d44d9c244f94193ea8f07b5cbcbc0d87ea3df222",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order__rental_status"
+}

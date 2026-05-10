@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3133,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d482f5e58cb0d6d3a85fd3573fadb7da7f84f1989c5e8abd5fff8465426b52bc",
+  "write_date": "",
+  "xml_id": "product.field_product_pricelist__message_follower_ids"
+}

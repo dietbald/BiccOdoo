@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22018,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "eInvoice format",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "invoice_edi_format",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "78eec7297251eb2700dcb3f853a133ec0d8bd5f4c8a389c3d1305ba0b53693d5",
+  "write_date": "",
+  "xml_id": "account_edi_ubl_cii.field_res_partner__invoice_edi_format"
+}

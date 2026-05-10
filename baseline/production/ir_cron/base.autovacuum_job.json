@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._run_vacuum_cleaner()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      38,
+      "Automatic Vacuum"
+    ],
+    "name": "Base: Auto-vacuum internal data",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "a689fe7b57e2844e53e36735d3f541b32d5c5d0e0a3bbad519dc573b1e8f901d",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.autovacuum_job"
+}

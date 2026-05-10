@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8172,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Prepayment percentage",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "prepayment_percent",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "e50bd1292293a5b2d68fcfa62ea1f7187a1eaf6a75c7391ad13ab6518f81697a",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__prepayment_percent"
+}

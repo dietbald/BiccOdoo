@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 110,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create Access",
+    "model_id": [
+      9,
+      "Model Access"
+    ],
+    "name": "perm_create",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "65b7d4f4a1522d9e574a03e91fd617fb47d5712c854fe786888f50649a87f9b3",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_access__perm_create"
+}

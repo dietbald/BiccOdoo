@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10943,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination Address ",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "146eed9af7dd673a609d05209f1fa956537a4e989686977e18cb211b7b50d9fc",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__partner_id"
+}

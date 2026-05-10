@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11119,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff210110e5f54a8d83a12722764a634f3f4da3563d9b796e31713106c12b7fe1",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__write_uid"
+}

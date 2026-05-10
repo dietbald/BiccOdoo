@@ -1,0 +1,17 @@
+<t t-name="payment.portal_breadcrumb">
+        <!-- Parameters description:
+            - page_title: The title of the breadcrumb item.
+        -->
+        <div class="row">
+            <div class="col-md-6">
+                <ol class="breadcrumb px-0 mt16">
+                    <li id="o_payment_portal_home" class="breadcrumb-item">
+                        <a href="/my/home">
+                            <i class="fa fa-home" role="img" title="Home" aria-label="Home"/>
+                        </a>
+                    </li>
+                    <li class="breadcrumb-item"><t t-esc="page_title"/></li>
+                </ol>
+            </div>
+        </div>
+    </t>

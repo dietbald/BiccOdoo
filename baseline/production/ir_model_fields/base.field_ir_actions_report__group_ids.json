@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 412,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Groups",
+    "model_id": [
+      27,
+      "Report Action"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7d617269cb9f45800e032b0d41ad67954b7f79be0ef7039a4f1fd031529267c7",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_report__group_ids"
+}

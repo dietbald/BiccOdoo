@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22791,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bb9f272bf602d926a62a5d5b9f12835a986c32609ea33ecf1021ce291f902817",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__attachment_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11670,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Transfers",
+    "model_id": [
+      763,
+      "Backorder Confirmation"
+    ],
+    "name": "show_transfers",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "edbc7fa8fc3c79739358756f6e8079b828508311e9dca32559819f9ca67e55c9",
+  "write_date": "",
+  "xml_id": "stock.field_stock_backorder_confirmation__show_transfers"
+}

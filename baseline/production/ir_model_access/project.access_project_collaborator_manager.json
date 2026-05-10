@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 665,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      41,
+      "Project / Administrator"
+    ],
+    "model_id": [
+      605,
+      "Collaborators in project shared"
+    ],
+    "name": "project.collaborator.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0e3a80fa7fee5794c8851a48f94de7d1bc2458ae201ee5526d39de81522166fd",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_collaborator_manager"
+}

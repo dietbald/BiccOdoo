@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19468,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1127,
+      "Device Log"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "73be4c28b3aa6f0386b35304792d878b0f076f90ee7f4233b20cfff457bb8972",
+  "write_date": "",
+  "xml_id": "base.field_res_device_log__write_uid"
+}

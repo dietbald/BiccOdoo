@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11703,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity",
+    "model_id": [
+      767,
+      "Warn Insufficient Scrap Quantity"
+    ],
+    "name": "quantity",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "9850cfb277bd8574154d556b0da4044745d38137a9200d44a9d8e3650817e9bc",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warn_insufficient_qty_scrap__quantity"
+}

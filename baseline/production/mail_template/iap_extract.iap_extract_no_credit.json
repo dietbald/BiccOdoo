@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 6,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n    <p>Dear,<br/></p>\n    <p>There are no more credits on your IAP OCR account.<br/>\n    You can charge your IAP OCR account in the settings page.</p>\n    <p>Best regards,<br/></p>\n    <p>Odoo S.A.</p>\n</div>",
+    "email_from": "iap@odoo.com",
+    "email_to": "iap@odoo.com",
+    "lang": false,
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "IAP Extract Notification",
+    "subject": "IAP Extract Notification"
+  },
+  "payload_sha256": "cc9cb36fc66aad44875e9a4c94f80c256b1c6bd7c96e209f508916812f6b0f5d",
+  "write_date": "2025-12-09 02:56:09",
+  "xml_id": "iap_extract.iap_extract_no_credit"
+}

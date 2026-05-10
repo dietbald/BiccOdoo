@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22048,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1369,
+      "Mapping of account codes per company"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3676bb8599f2b3cc48c84e5769774be5a474f931d21d03eaf70d96063f3a3439",
+  "write_date": "",
+  "xml_id": "account.field_account_code_mapping__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2269,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Support Outlook Authentication",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_microsoft_outlook",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a57dac3fb1057ddc472e028b81dc1b6226442b0218adbab93cc185bbdc0b1df6",
+  "write_date": "",
+  "xml_id": "mail.field_res_config_settings__module_microsoft_outlook"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29836,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "WhatsApp Template",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "stock_confirmation_wa_template_id",
+    "relation": "whatsapp.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cb0877b7c15833d29ca0238020513aba5c45d6b93b8aa82b62c607bfdb99ce27",
+  "write_date": "",
+  "xml_id": "whatsapp_stock.field_res_config_settings__stock_confirmation_wa_template_id"
+}

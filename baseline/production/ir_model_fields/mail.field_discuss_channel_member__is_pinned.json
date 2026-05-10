@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2339,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is pinned on the interface",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "is_pinned",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f999d03afd1e3781d00a36fd5aa7e6eb8b46d3d1469ff7f034f4c16a40b73a76",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__is_pinned"
+}

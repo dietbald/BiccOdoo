@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 439,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      463,
+      "Accrued Orders Wizard"
+    ],
+    "name": "account.account.accrued.orders.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "7d4bd3a65529488d5c37c17e598fd5456ea90c3ee82e829e81767143270a252d",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_accrued_orders_wizard"
+}

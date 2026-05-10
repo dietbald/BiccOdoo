@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20941,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Under Warranty",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "under_warranty",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e751b179355c8322988e9b5320d76fc584bca8b209a79e6ad213183e06ac3a1a",
+  "write_date": "",
+  "xml_id": "industry_fsm_sale.field_project_task__under_warranty"
+}

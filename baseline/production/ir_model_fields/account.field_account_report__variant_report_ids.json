@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5096,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Variants",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "variant_report_ids",
+    "relation": "account.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f9d4f6f5792d5d86e5525dc95c9a80499dc80bcff9ca81dabb35c3f147751369",
+  "write_date": "",
+  "xml_id": "account.field_account_report__variant_report_ids"
+}

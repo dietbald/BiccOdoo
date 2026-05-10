@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1905,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      150,
+      "Referrals / User: Referral only"
+    ],
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "hr.applicant.referral.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5ee1f785ceb37ec526a4654dc677166b9ee0beb7cd46958c45488136b347997b",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_applicant_referral_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2723,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Template user for new users created through signup",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "auth_signup_template_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e1863aacd2ca6887f6bdcf6cfaf3c955a0bf1a76dfed7f548c7de7383be120b5",
+  "write_date": "",
+  "xml_id": "auth_signup.field_res_config_settings__auth_signup_template_user_id"
+}

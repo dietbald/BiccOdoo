@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22418,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      537,
+      "Document"
+    ],
+    "name": "create_activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d7760789f2b4cfcc19ab66c0986efccfa4bc77545d7aadc43e869db3764f79ad",
+  "write_date": "",
+  "xml_id": "documents.field_documents_document__create_activity_user_id"
+}

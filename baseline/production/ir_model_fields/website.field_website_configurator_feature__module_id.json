@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10176,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Module",
+    "model_id": [
+      695,
+      "Website Configurator Feature"
+    ],
+    "name": "module_id",
+    "relation": "ir.module.module",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "62317e10ea1e6d77c5b2f0b90f2b74a94b2271622506db7be1396d3ab3fbaee8",
+  "write_date": "",
+  "xml_id": "website.field_website_configurator_feature__module_id"
+}

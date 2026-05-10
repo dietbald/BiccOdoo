@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12279,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Article cover",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "cover_image_id",
+    "relation": "knowledge.cover",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2b602159296fef369dee9015080590ee99ded9024671cc85f5134c69f72d4723",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__cover_image_id"
+}

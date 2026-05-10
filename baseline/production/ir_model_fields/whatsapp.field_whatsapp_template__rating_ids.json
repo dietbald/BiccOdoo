@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18443,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fef349a359a0b78c4cfecc4929c38bb4823325f918208adaf1d65def4a9f5c94",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__rating_ids"
+}

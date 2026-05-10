@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6872,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Calendar Event",
+    "model_id": [
+      564,
+      "Event Recurrence Rule"
+    ],
+    "name": "calendar_event_ids",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1610952ffe0cdaede480bf17c242f7318cd617643bd1a6dd849eac2fcf3dbf74",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_recurrence__calendar_event_ids"
+}

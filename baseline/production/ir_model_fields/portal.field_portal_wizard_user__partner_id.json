@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3353,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contact",
+    "model_id": [
+      387,
+      "Portal User Config"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "28e71ddc4bb1cdfb68c62b4b74dbf0fdd963e0603fdada1e01a6f35144b89d0f",
+  "write_date": "",
+  "xml_id": "portal.field_portal_wizard_user__partner_id"
+}

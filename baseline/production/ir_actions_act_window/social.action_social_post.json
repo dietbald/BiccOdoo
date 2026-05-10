@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1146,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_filter_my_posts':1}",
+    "domain": false,
+    "name": "Social Posts",
+    "res_model": "social.post",
+    "target": "current",
+    "view_mode": "kanban,calendar,list,form,pivot"
+  },
+  "payload_sha256": "fdfbf16ab73df83826cec4518a054f9623a67c62b2109aa12b9a8fc4224fbc89",
+  "write_date": "2025-12-09 02:56:16",
+  "xml_id": "social.action_social_post"
+}

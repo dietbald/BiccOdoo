@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 417,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      111
+    ],
+    "model_id": [
+      921,
+      "Survey Label"
+    ],
+    "name": "Survey question answer: manager: all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6d6323f85c48ccd8bca2f822786ec1369f4ce0ca353c9dd8fac8672aaef77d8b",
+  "write_date": "2024-04-30 05:06:56",
+  "xml_id": "survey.survey_question_answer_rule_survey_manager"
+}

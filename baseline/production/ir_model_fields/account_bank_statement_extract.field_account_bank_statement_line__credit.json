@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29600,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "credit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "234702ad0efb4e874063c4900a33ef722cc6d47ac3432039e26c0f684fb9b542",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement_line__credit"
+}

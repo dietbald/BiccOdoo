@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3756,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Maximum Capture Allowed",
+    "model_id": [
+      411,
+      "Payment Capture Wizard"
+    ],
+    "name": "available_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "1b5e11375f7fe6efa436273f358bd0e2094019eed48799dcb7362dbb7868503e",
+  "write_date": "",
+  "xml_id": "payment.field_payment_capture_wizard__available_amount"
+}

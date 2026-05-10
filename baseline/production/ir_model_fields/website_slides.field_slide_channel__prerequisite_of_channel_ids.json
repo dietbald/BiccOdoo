@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24354,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Prerequisite Of",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "prerequisite_of_channel_ids",
+    "relation": "slide.channel",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e62bcf40b9994e4bb02949cd0e9d84b7ebcbb3d578e5d8984c478ab96b64c870",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__prerequisite_of_channel_ids"
+}

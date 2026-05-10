@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17134,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vehicle",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "vehicle_id",
+    "relation": "fleet.vehicle",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f6226b16b98d7908275119e13a9fbfc9b0aa801c83452dc34a89092c7a3e9498",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__vehicle_id"
+}

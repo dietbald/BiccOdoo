@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 329,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id), ('article_id.user_has_access', '=', True)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      788,
+      "Favorite Article"
+    ],
+    "name": "Article favorite: users/portal: own + readable articles",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fe13873e84e557b270928f40a16166f392d43d288677b17bfbc59e5836e46e61",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_article_favorite_users"
+}

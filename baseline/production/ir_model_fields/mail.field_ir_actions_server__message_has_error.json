@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26973,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "638664799c56265796b82d606d21d182258037f1affcf083c401a961d5fe70f5",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__message_has_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23082,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Manufacturing Orders To Close",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "count_mo_to_close",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "87907c3730c0de23dd49346d8bf4acf6a609225de317a58a4e3d0d0e9595332e",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_picking_type__count_mo_to_close"
+}

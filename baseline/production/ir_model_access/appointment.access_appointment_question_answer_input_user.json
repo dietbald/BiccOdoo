@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1332,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      935,
+      "Appointment Answer Inputs"
+    ],
+    "name": "appointment.answer.input.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "0987f091240c52c9164159d712f556f5418fd640c6b155f120d1242415122ff3",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.access_appointment_question_answer_input_user"
+}

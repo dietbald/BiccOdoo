@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13867,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocated Time %",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "allocated_percentage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b55d4c12f8af3d5a0c7512b11f24086f0905057c7a2a63e4489cd31c49d90afa",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__allocated_percentage"
+}

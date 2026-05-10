@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23923,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Generated Entries",
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "generated_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a74ef9d463b779af03da45a126469eff005d418cb059971936fbac5870f3bdbe",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_line__generated_move_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22334,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Companies",
+    "model_id": [
+      1387,
+      "Account merge wizard line"
+    ],
+    "name": "company_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a806a42f7610a0526662f9ec3548ddbdf84fcd73e8f8ebcf6ae1da6e3dfff644",
+  "write_date": "",
+  "xml_id": "account.field_account_merge_wizard_line__company_ids"
+}

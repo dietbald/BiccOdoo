@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22261,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unreconciled Bank Statement Line",
+    "model_id": [
+      1382,
+      "Secure Journal Entries"
+    ],
+    "name": "unreconciled_bank_statement_line_ids",
+    "relation": "account.bank.statement.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6e7cfcf0af5f1ec334baf6bccc045d254d0126ddb0a2d2d8b946b43fee5f8f38",
+  "write_date": "",
+  "xml_id": "account.field_account_secure_entries_wizard__unreconciled_bank_statement_line_ids"
+}

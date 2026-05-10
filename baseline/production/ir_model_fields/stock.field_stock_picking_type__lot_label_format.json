@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11192,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lot Label Format to auto-print",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "lot_label_format",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7d690a8c0bd41bf745cfccb0ded302d2cd84877903a912339908daf4522d432c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__lot_label_format"
+}

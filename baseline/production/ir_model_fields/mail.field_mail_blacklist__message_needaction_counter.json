@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1951,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      167,
+      "Mail Blacklist"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d1dc1e00595f345a111c02c00e387cf6c4e2f8f18e545420b6d94189172d6aa6",
+  "write_date": "",
+  "xml_id": "mail.field_mail_blacklist__message_needaction_counter"
+}

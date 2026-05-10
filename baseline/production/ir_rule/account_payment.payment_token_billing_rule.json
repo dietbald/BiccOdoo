@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 106,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      23
+    ],
+    "model_id": [
+      409,
+      "Payment Token"
+    ],
+    "name": "Access every token",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e3dd261c8e788810c1265a4f211516001f0500f286adca20fdad66d2c86d30ec",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account_payment.payment_token_billing_rule"
+}

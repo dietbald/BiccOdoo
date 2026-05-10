@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7770,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "2e906e5fbd1ce13d22e5a38b09b55889ad04ac4e129de22bcf595a05f528ba92",
+  "write_date": "",
+  "xml_id": "project.field_project_update__activity_date_deadline"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9081,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      646,
+      "Employee Skills Report"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3196563d09adbbaf2f2fd184e90f3bb76ae53b6b238bc9bf50d5469908550373",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_employee_skill_report__department_id"
+}

@@ -1,0 +1,48 @@
+<form string="Package">
+                <header>
+                    <button name="unpack" string="Unpack" type="object"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" name="action_view_picking" string="Package Transfers" type="object" widget="statinfo" icon="oi-arrows-v"/>
+                    </div>
+                    <div class="oe_title">
+                        <label for="name" string="Package Reference"/>
+                        <h1><field name="name" class="oe_inline" required="0" placeholder="e.g. PACK0000007"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="package_type_id"/>
+                            <field name="owner_id" groups="stock.group_tracking_owner"/>
+                            <field name="location_id" options="{'no_create': True}"/>
+                            <field name="parent_package_id" domain="[('id', '!=', id), '|', ('location_id', '=', location_id), ('location_id', '=', False)]" widget="package_m2o" context="{'show_src_package': 1}"/>
+                        </group>
+                        <group>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                            <field name="pack_date"/>
+                        </group>
+                    </group>
+                    <separator string="Content"/>
+                    <field name="contained_quant_ids">
+                        <list>
+                            <field name="product_id"/>
+                            <field name="package_id" widget="package_m2o" context="{'show_src_package': 1}"/>
+                            <field name="lot_id" groups="stock.group_production_lot"/>
+                            <field name="quantity"/>
+                            <field name="product_uom_id" groups="uom.group_uom"/>
+                        </list>
+                        <kanban class="o_kanban_mobile">
+                            <templates>
+                                <t t-name="card">
+                                    <field name="product_id" class="fw-bold"/>
+                                    <field name="lot_id"/>
+                                    <div class="d-flex">
+                                        <field name="quantity"/>
+                                        <field class="mx-2" name="product_uom_id" groups="uom.group_uom"/>
+                                    </div>
+                                </t>
+                            </templates>
+                        </kanban>
+                    </field>
+                </sheet>
+            </form>

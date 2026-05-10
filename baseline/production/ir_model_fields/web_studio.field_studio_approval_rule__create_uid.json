@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13760,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      875,
+      "Studio Approval Rule"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1712d763e4a231a107d98347ce688e646f78825ed57887e7021a3b8b496cd9fb",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule__create_uid"
+}

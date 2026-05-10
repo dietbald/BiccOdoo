@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5469,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor Payment Terms",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "property_supplier_payment_term_id",
+    "relation": "account.payment.term",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "abef1856de21abfacb2a9dd2a42ad5ac941e43e40a6dcee3cf81b7ff1f91de9d",
+  "write_date": "",
+  "xml_id": "account.field_res_users__property_supplier_payment_term_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17323,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "MRP Productions for which the Partner is the subcontractor",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "production_ids",
+    "relation": "mrp.production",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1db5d059bae2fb8b7a97b1c96f5719d2c5f829c6bd35c45494aaafe6d0c10d45",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_res_partner__production_ids"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 461,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      115
+    ],
+    "model_id": [
+      953,
+      "Time Off Summary / Report"
+    ],
+    "name": "Time Off Summary / Report: All Approver",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "f7602d4db1f73e01a9f42d70054da143f755dd1b79da26085270324eec401a91",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_report_rule_group_holiday_user"
+}

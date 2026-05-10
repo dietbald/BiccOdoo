@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2126,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Author",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "author_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1ad0f4dcb3f26fe575a2e6590e417865aca0a280a09d013c4a7001de37e45c88",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__author_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26299,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Hours",
+    "model_id": [
+      2738,
+      "Edit Billable Time Target wizard from Timesheet for users without employee access"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "75652d480e0e700163d7794859cb3ecaf69577217b140d4dd621512fadf09393",
+  "write_date": "",
+  "xml_id": "sale_timesheet_enterprise.field_edit_billable_time_target__resource_calendar_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14608,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Field to Sum",
+    "model_id": [
+      914,
+      "Gamification Goal Definition"
+    ],
+    "name": "field_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eaac4dced6f1b7b376629472aceceb3a39497e1effc517b8a4931123060b344e",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_goal_definition__field_id"
+}

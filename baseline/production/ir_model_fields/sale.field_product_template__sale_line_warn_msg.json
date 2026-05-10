@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8113,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Order Line Warning",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "sale_line_warn_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "8ff690a21c6c25c340ce5028ee869a7e73681aba65263679a999952a8e64bb09",
+  "write_date": "",
+  "xml_id": "sale.field_product_template__sale_line_warn_msg"
+}

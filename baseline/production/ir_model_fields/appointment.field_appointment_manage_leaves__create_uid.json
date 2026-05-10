@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15346,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      942,
+      "Add or remove leaves from appointments"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fa42c23bb5ed1182f2d01e49cd55c66af3b01ea73f7883f5d8a57927c5667588",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_manage_leaves__create_uid"
+}

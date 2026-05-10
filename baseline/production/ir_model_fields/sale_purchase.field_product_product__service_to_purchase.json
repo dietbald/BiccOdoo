@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9571,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subcontract Service",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "service_to_purchase",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ea16cfe5fbff1b3e4af54042af51c08ea5d25aa2aff23e090f5ab57d99e90066",
+  "write_date": "",
+  "xml_id": "sale_purchase.field_product_product__service_to_purchase"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23695,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Entry",
+    "model_id": [
+      1464,
+      "Work Entry Export Employee"
+    ],
+    "name": "work_entry_ids",
+    "relation": "hr.work.entry",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8d4a48fcf06e8df1c0026b10c9c1ec9a0a842067d5d104527dc8a68db400bdd9",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_export_employee_mixin__work_entry_ids"
+}

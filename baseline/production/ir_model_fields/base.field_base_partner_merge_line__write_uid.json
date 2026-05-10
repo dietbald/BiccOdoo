@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1323,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      115,
+      "Merge Partner Line"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e94baeabd79c3b676a93ec0e9dd479b1f725b3c68c2477f25af3bca6cca2e55e",
+  "write_date": "",
+  "xml_id": "base.field_base_partner_merge_line__write_uid"
+}

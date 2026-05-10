@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3277,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      380,
+      "Choose the sheet layout to print the labels"
+    ],
+    "name": "product_ids",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "35af497a7bb728259cc3aae799021aeb85581860ba7eb059a0e59fffdc813145",
+  "write_date": "",
+  "xml_id": "product.field_product_label_layout__product_ids"
+}

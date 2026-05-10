@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27562,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hide Prices",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "collapse_prices",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "acfe9c36261d2b527a96645d2bbf3d377a2e763fa836727202f13bf0de99b93f",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__collapse_prices"
+}

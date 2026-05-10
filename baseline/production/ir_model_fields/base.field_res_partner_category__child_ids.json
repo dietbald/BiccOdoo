@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 841,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Tags",
+    "model_id": [
+      83,
+      "Partner Tags"
+    ],
+    "name": "child_ids",
+    "relation": "res.partner.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5572aa8aff13918eebda060ec12dcccb738b8cf25b73ca205972a89b93277663",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_category__child_ids"
+}

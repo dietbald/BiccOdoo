@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8790,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Direct subordinates",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "child_ids",
+    "relation": "hr.employee.public",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "85a3734dad799ff65bfe49737eca1dc6a467108594a733ee644d21403bbaffec",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee_public__child_ids"
+}

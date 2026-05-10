@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Journal",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_stock_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "87b483eff5590b18419f9ef986fb821cc3afc95810b65c8ddea78fa998dead66",
+  "write_date": "",
+  "xml_id": "stock_account.field_res_company__account_stock_journal_id"
+}

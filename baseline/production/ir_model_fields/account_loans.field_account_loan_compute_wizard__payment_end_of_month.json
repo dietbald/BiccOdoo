@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23941,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment",
+    "model_id": [
+      1477,
+      "Loan Compute Wizard"
+    ],
+    "name": "payment_end_of_month",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "9a6238d71e1f9b0b90b420153513db3a25c1c656ee5dd4a708bc83ef10df8c71",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_compute_wizard__payment_end_of_month"
+}

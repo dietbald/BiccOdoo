@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8410,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      621,
+      "Discount Wizard"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "180a9063cfcd99a7f6c7eae43ebb3ce3da24c4792c607b8a72668ee5841652e0",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_discount__company_id"
+}

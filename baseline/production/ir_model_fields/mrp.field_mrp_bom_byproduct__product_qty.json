@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15966,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity",
+    "model_id": [
+      962,
+      "Byproduct"
+    ],
+    "name": "product_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "aa1cbef1acb78c3ae30aa62d68243eaf4657d1f0098542d4927c84499abac5f3",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_byproduct__product_qty"
+}

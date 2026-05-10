@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1385,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Two-factor authentication",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "totp_enabled",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cfb633722bdee22296b523c03fe61aa2a2b7b23216361affae3e9ff112c19e4e",
+  "write_date": "",
+  "xml_id": "auth_totp.field_res_users__totp_enabled"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26595,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2ed494a1b1517184883642bf586eb6c75169bf186e3c83f94a4c5829d057cf94",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard_line__status"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22547,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Companies",
+    "model_id": [
+      469,
+      "Spreadsheet Dashboard"
+    ],
+    "name": "company_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2919156493f457d599350cc117fe807774fbeba1f80b5b2d32b25d1a06db9459",
+  "write_date": "",
+  "xml_id": "spreadsheet_dashboard.field_spreadsheet_dashboard__company_ids"
+}

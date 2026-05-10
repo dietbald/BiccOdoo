@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      998,
+      "Additional Workorder"
+    ],
+    "name": "employee_assigned_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d8289f170dcb5c266ccb2da08afd11b451221d241623da0529bcb6108e3968e9",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_production_additional_workorder__employee_assigned_ids"
+}

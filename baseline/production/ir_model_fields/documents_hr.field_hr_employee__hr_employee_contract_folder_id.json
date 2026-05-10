@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "HR Employee Contract Folder",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "hr_employee_contract_folder_id",
+    "relation": "documents.document",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1350826deb83be2f071b22170f3ad746bad317db8535b75a0a7740a842286632",
+  "write_date": "",
+  "xml_id": "documents_hr.field_hr_employee__hr_employee_contract_folder_id"
+}

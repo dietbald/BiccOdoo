@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20922,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "sale_order_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "871da49a59c60a665e39a5108eb94e51014bdaf110f20ac9eb1aec90ade2b194",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_account_analytic_line__sale_order_state"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5001,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency Exchange Journal",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "currency_exchange_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "18253fd1af7f0780be400642985a5b45cf9aeaf6ccf46a6da39f62faa6467889",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__currency_exchange_journal_id"
+}

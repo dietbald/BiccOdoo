@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 385,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "Timesheets Analysis Report multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bee41be8457b54f4972a2a140e21d6b7cb24db6ab690fb64af1b4f98b71f957e",
+  "write_date": "2023-12-05 08:04:38",
+  "xml_id": "hr_timesheet.timesheets_analysis_report_comp_rule"
+}

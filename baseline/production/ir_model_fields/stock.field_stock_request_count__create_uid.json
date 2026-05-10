@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11775,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      773,
+      "Stock Request an Inventory Count"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9a0f7c89d0e5d610bf986742677c43caf63402f41d02f37775b8f60b92eb3750",
+  "write_date": "",
+  "xml_id": "stock.field_stock_request_count__create_uid"
+}

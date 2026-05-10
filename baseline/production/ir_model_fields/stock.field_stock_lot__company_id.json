@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11153,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ee09d7e5c2eb5a2abf555c16cf4d86753dbc9d7a6dd0362c69fe703621a91544",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5103,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Availability",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "availability_condition",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b9d314a94fb0ec71fc14c778a8e4c4b9d127474ddce5ea16d3383f60c6c565f8",
+  "write_date": "",
+  "xml_id": "account.field_account_report__availability_condition"
+}

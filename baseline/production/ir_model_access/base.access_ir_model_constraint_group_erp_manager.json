@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 9,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      2,
+      "Access Rights"
+    ],
+    "model_id": [
+      7,
+      "Model Constraint"
+    ],
+    "name": "ir_model_constraint group_erp_manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "03a9546aeca3b583f431e37adce32434ba62afa4548272e434dece01c06c5939",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_model_constraint_group_erp_manager"
+}

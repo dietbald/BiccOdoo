@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17190,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Odometer",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "odometer_id",
+    "relation": "fleet.vehicle.odometer",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3955bbb4a50995dd57602b82bb9978a74c369f1d2c8a717ce30b48253e43a6e6",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__odometer_id"
+}

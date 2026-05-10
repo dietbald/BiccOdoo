@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4836,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Terms",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "invoice_payment_term_id",
+    "relation": "account.payment.term",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1466e6a5ab4ab163a42c70402411a6d1dee0828c5de9f4a7a1d779ec219b4337",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__invoice_payment_term_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11369,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pack Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "pack_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "92f49d9f5180b6a6a2c42b51d139ba4607bdbdc89e99f8339ba112f45c9f55f3",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__pack_type_id"
+}

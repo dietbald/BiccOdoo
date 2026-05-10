@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 581,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('appointment_type_id.is_published', '=', True)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "appointment.slot: apt internal rule (read published)",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "0f54818cd9318b239f0dcb52e20112ae5e7d2ae9144871f3ac34432ae24de3de",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_slot_rule_internal_published"
+}

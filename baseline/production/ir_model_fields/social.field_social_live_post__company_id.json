@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17738,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1027,
+      "Social Live Post"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5f45a5235427e1f79a82ea1d035d37775efcba425b61a04c59cb8ef259af27c6",
+  "write_date": "",
+  "xml_id": "social.field_social_live_post__company_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1974,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      153,
+      "Accountant"
+    ],
+    "model_id": [
+      1445,
+      "Wizard for duplicate transactions"
+    ],
+    "name": "access_account_duplicate_transaction_wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a969920cc0ac767a09ba101d17511d30ccfdb79fe73982011a648abc903b2612",
+  "write_date": "2025-12-05 01:31:32",
+  "xml_id": null
+}

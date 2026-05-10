@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20285,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ECO BoM Changes - Component",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "bom_change_ids_on_line",
+    "relation": "mrp.eco.bom.change",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6ae030c5d154c22a34c676f7a886c11b0152489b9c86c34505c079ec1cf8acce",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__bom_change_ids_on_line"
+}

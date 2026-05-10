@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 363,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "HR Payslip: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5468312aa0ae0963d09112472969a080c49f03c851a26d0cacd1c1bd58205925",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "hr_payroll.ir_rule_hr_payslip_multi_company"
+}

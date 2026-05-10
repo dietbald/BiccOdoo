@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20896,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Not Depreciable Value Percent",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "salvage_value_pct",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "99542bceb4cffec93900e926cdd6c9b05b54a62c525c2c9edc56c9a833ed206c",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__salvage_value_pct"
+}

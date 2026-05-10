@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16420,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manufacturing Order",
+    "model_id": [
+      976,
+      "Backorder Confirmation Line"
+    ],
+    "name": "mrp_production_id",
+    "relation": "mrp.production",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "84d569737590e40fcd77deb49c5e07c66172c94f2943328d99d63622507971d6",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_backorder_line__mrp_production_id"
+}

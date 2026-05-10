@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9424,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days Before Receipt",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "reminder_date_before_receipt",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "e5df3007b50a774f75781a2e85882064442eed708d748e4eea4f4a4369ab4afa",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__reminder_date_before_receipt"
+}

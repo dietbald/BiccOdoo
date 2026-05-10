@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6332,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b5c3c3e8e75037af9e5e6b5aa68eb345e4e10c125a8a7a117ecd5c72eb433e4e",
+  "write_date": "",
+  "xml_id": "whatsapp_account_followup.field_account_followup_manual_reminder__write_uid"
+}

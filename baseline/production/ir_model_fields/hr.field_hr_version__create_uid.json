@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10397,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e68b478e8548c17a9861d78c4aa5eb6acee527f22257b87a8a50a9968227e340",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__create_uid"
+}

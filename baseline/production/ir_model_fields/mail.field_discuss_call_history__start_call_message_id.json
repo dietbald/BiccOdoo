@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27060,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Call Message",
+    "model_id": [
+      2974,
+      "Keep the call history"
+    ],
+    "name": "start_call_message_id",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5f01bc0a52f924e2f3b3c6994dd1397c16b03e99c66c3f53af29e9b4a530cd1c",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_call_history__start_call_message_id"
+}

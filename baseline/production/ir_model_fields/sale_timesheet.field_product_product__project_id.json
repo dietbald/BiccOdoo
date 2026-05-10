@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8545,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "project_id",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e0446c104044239ad2ff8ea0bfc65bc3a4cc02777984489d3d56d9118f01f100",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_product_product__project_id"
+}

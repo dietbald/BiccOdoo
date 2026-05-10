@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6218,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer Invoice",
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "invoice_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c370b3b9c20d7b3a1b06461a55595ad2a0bbe1e2d1d6275e44e0600ee0846e05",
+  "write_date": "",
+  "xml_id": "account_asset.field_asset_modify__invoice_ids"
+}

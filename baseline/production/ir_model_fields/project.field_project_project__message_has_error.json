@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7827,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4c25042554025d1729a41f06a9cdcc68c487e33224107a8f7f78f8c6a62282cb",
+  "write_date": "",
+  "xml_id": "project.field_project_project__message_has_error"
+}

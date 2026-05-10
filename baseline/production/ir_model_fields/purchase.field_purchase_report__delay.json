@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9517,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days to Confirm",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "delay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a95a55f7c745aab8f6ef8554bc25560182676937602e7cb7554f4ab6e179f773",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__delay"
+}

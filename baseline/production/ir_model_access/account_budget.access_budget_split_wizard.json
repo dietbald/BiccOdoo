@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1684,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      1245,
+      "Budget Split Wizard"
+    ],
+    "name": "budget.split.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "719ff106f4ea59b2058d437f58e5dd0f5be9be64c0aa676f2f412461c29dd51e",
+  "write_date": "2025-12-09 03:00:20",
+  "xml_id": "account_budget.access_budget_split_wizard"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19099,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "State",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "bddcb585ad565bca1f4b86e73eb8898580d555318c883b73873fb0509df73eb3",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__state"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4039,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Secure Posted Entries with Hash",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "restrict_mode_hash_table",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cb85090bd914c3cb96e96314cec647ec41c50abb7fcf9ae5d4eb097aa97e64d6",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__restrict_mode_hash_table"
+}

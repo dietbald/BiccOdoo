@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 107,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "ir_actions_server_group_system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b6853e3e7c0d8e7e2a6f52a59c37b9ee62f0143f62bc0e0b75117e4f31191da2",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_actions_server_group_system"
+}

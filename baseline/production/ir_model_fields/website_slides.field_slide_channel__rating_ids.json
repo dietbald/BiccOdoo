@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24280,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f3cdf27ce5acb9a4580eb7a65952f2f71558a8957efad543ca9a35b216906add",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__rating_ids"
+}

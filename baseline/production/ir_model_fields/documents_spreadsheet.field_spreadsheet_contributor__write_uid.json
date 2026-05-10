@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6640,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      546,
+      "Spreadsheet Contributor"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "924b98e392a57ed341739a1bc298353e2850206e4a38624d036e79be1867fb46",
+  "write_date": "",
+  "xml_id": "documents_spreadsheet.field_spreadsheet_contributor__write_uid"
+}

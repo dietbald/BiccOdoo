@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5358,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Date",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "payment_date",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "a263ed6597e94016d0a8e749d4ac593ad2c6f95765f63b3d82218cb28ba1b413",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__payment_date"
+}

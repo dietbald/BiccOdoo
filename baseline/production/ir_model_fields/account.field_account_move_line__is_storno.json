@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4432,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Storno Accounting",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "is_storno",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "895832b7d9a8a00cb3766566d095af49ba444ba7099a56a4a023a4a8fbb7f4aa",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__is_storno"
+}

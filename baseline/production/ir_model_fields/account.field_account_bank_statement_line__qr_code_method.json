@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4846,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment QR-code",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "qr_code_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a8537baeb7caece32be0e1637146473a8dc328da089439f1f97e9bf3006f1c81",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__qr_code_method"
+}

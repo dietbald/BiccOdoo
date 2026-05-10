@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17927,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "YouTube Dislikes",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "youtube_dislikes_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3ec8b758231871b0776022a0a437952a65d62951e071512b9b41e2959c8d05ef",
+  "write_date": "",
+  "xml_id": "social_youtube.field_social_stream_post__youtube_dislikes_count"
+}

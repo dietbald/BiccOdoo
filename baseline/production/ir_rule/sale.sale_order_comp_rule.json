@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 181,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "Sales Order multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "dc4bf503f8b08769fa1d0b3a263776a9d2b692924bb8c20ae13cd52160e642cc",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.sale_order_comp_rule"
+}

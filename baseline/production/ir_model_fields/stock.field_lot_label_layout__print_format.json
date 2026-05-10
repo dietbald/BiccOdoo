@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11647,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Format",
+    "model_id": [
+      760,
+      "Choose the sheet layout to print lot labels"
+    ],
+    "name": "print_format",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e1de806ba38cae2f6e5fbd8f988198cadf148c6cae542f4bd2fa79e137b7f049",
+  "write_date": "",
+  "xml_id": "stock.field_lot_label_layout__print_format"
+}

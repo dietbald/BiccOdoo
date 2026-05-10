@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5474,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner Contracts",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "contract_ids",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9d777e496eef6676f66e5e3c69c29b45ce94fd09fc8a91ce924942fcee1d62f8",
+  "write_date": "",
+  "xml_id": "account.field_res_users__contract_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16304,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blocks",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "needed_by_workorder_ids",
+    "relation": "mrp.workorder",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9929edad6abaa14de0fe4bc6b6c68c30d5f4bf6f372a366fb8cba75ba95262cb",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__needed_by_workorder_ids"
+}

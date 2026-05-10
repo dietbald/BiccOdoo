@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6990,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      566,
+      "Event Alarm"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5ae175a29b9a377b5673a754a7b895dd22c7c68b70eefb6a2873e879a91c8cf1",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_alarm__create_uid"
+}

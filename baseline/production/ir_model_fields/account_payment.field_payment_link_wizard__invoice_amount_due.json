@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22778,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Due",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "invoice_amount_due",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "6a93696774df1b0478b057a8a070ae4cd41249a759ec82d2f06b568f98f9f501",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_link_wizard__invoice_amount_due"
+}

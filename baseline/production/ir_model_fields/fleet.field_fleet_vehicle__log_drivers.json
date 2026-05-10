@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17049,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assignment Logs",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "log_drivers",
+    "relation": "fleet.vehicle.assignation.log",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "468ec9c752122b537be3eca8c234a339422cb66c029e161b457dae8bd79c044a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__log_drivers"
+}

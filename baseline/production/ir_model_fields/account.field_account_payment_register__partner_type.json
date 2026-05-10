@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5372,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner Type",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "partner_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3ed0add4db84d88dd0f874dd0da32ac456151eb8c3827c2866c1abbdfa44a93a",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__partner_type"
+}

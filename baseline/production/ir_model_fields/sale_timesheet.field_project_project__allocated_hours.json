@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13435,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocated Time",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "allocated_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d29807bebcc4dbdd7275c506819f5878b035d1aa33dd9dec318ec172ab73a989",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_project__allocated_hours"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11397,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0ebaae5d23a74e9a82bdb424f3b8c34ed28d32bf7b7df79e6dfc349c04869c84",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__message_has_sms_error"
+}

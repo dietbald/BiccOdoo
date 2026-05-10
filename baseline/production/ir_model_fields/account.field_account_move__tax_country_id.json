@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4401,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Country",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "tax_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "23ffccf3b04403dc53c8ef5984e1027bf8e15f91a91306026be8bb7e8a654476",
+  "write_date": "",
+  "xml_id": "account.field_account_move__tax_country_id"
+}

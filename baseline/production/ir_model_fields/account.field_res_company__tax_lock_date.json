@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4948,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Return Lock Date",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "tax_lock_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "d8689b69ac6377c2b240ed4cfb834edccb1eace6dc5a767555b45b2851542f74",
+  "write_date": "",
+  "xml_id": "account.field_res_company__tax_lock_date"
+}

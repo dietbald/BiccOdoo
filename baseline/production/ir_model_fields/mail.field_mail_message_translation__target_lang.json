@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2028,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Target Language",
+    "model_id": [
+      174,
+      "Message Translation"
+    ],
+    "name": "target_lang",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "b26bf3f0b352dcbe9fb1c7664118b56189f24e6b9cec18910e24e93cdbf3e277",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_translation__target_lang"
+}

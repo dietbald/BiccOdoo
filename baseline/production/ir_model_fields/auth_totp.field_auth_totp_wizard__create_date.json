@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "0ec264adc457adb8808b602a02f0f8cdbf470bd86f02dcc36a01d5d619ca23e5",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_wizard__create_date"
+}

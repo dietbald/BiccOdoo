@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5183,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      450,
+      "Accounting Report Column"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4f43ee6e98cea154ec28c8274be850d9cb796e4b004d65b7c094bf1becb002ef",
+  "write_date": "",
+  "xml_id": "account.field_account_report_column__write_uid"
+}

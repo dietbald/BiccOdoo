@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2228,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Guest",
+    "model_id": [
+      182,
+      "User Settings Volumes"
+    ],
+    "name": "guest_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8913b9d4439c2361391bdd488342eedeba633974d1e49dc7e5fb76a33c9917b1",
+  "write_date": "",
+  "xml_id": "mail.field_res_users_settings_volumes__guest_id"
+}

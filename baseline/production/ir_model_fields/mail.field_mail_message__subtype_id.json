@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2052,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subtype",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "subtype_id",
+    "relation": "mail.message.subtype",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a095f6a3f29efb0c12f0525d509a9fab4816fddb3ff95ff4a965419e7f20e17e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__subtype_id"
+}

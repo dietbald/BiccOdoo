@@ -1,0 +1,8 @@
+<list string="Time Off Detail">
+                <field name="name" string="Reason"/>
+                <field name="resource_id"/>
+                <field name="company_id" groups="base.group_multi_company" optional="hide"/>
+                <field name="calendar_id"/>
+                <field name="date_from"/>
+                <field name="date_to"/>
+            </list>

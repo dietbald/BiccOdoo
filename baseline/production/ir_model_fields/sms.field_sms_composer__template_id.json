@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3452,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use Template",
+    "model_id": [
+      397,
+      "Send SMS Wizard"
+    ],
+    "name": "template_id",
+    "relation": "sms.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "72868112cb817018b569103ab9fc40edb99c4ddea6603e5436b9dc8f560051ce",
+  "write_date": "",
+  "xml_id": "sms.field_sms_composer__template_id"
+}

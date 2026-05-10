@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5142,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hide if Zero",
+    "model_id": [
+      448,
+      "Accounting Report Line"
+    ],
+    "name": "hide_if_zero",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "07f082a0ea21d7db27aeb199abca3717bc353c54935aa1e54256114e42811466",
+  "write_date": "",
+  "xml_id": "account.field_account_report_line__hide_if_zero"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11361,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Incoming Shipments",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "reception_steps",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "5c1a54a007aaf4bde3d94879ec6fe032983f5a3e4fc26b6f81a3f05c3f9a726b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__reception_steps"
+}

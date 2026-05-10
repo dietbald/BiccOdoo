@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12201,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b8d1c5960ba33a8050f3c6b7b90afded36d44592cc4fd69ab21116ad4bcf6f14",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_thread__message_follower_ids"
+}

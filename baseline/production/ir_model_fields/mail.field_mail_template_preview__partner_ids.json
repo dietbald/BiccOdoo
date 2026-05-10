@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2589,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      216,
+      "Email Template Preview"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5a5ade56efd05fc83827fba0a2a0bbc7d8244af7109b13a925bd56950781591e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template_preview__partner_ids"
+}

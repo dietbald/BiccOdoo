@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Handled By",
+    "model_id": [
+      355,
+      "Privacy Log"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0cb074045f3ee501adb3c2298b406df1653711d53c376178ddc0d003a7922545",
+  "write_date": "",
+  "xml_id": "privacy_lookup.field_privacy_log__user_id"
+}

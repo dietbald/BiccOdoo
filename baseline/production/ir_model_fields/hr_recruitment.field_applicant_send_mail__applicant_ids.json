@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9787,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applications",
+    "model_id": [
+      671,
+      "Send mails to applicants"
+    ],
+    "name": "applicant_ids",
+    "relation": "hr.applicant",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7d3e928adab6b290c7afe075b73b40a982eaea02319bb2a24ff2f25cffb45319",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_send_mail__applicant_ids"
+}

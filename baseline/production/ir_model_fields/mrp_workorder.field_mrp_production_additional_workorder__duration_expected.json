@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected Duration",
+    "model_id": [
+      998,
+      "Additional Workorder"
+    ],
+    "name": "duration_expected",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "f631f761750927e2eab1d07a7c92d7d60ddbfe10172e91592fcbede457e6d9a6",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_production_additional_workorder__duration_expected"
+}

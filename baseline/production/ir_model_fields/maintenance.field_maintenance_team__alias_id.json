@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27222,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "alias_id",
+    "relation": "mail.alias",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b5f67088a804298d3a69318a979192eb175ae68aa809b89ed058e54af8fb5767",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__alias_id"
+}

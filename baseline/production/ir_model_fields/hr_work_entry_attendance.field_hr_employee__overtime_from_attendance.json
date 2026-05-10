@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29226,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extra hours",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "overtime_from_attendance",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1ca256857604b7e642b099ee2ea8e655f4010749634d5664e1d207164199221a",
+  "write_date": "",
+  "xml_id": "hr_work_entry_attendance.field_hr_employee__overtime_from_attendance"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19419,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "First Failure Date",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "first_failure_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "a445a3e9488f592e6050d9ef5a5ccbbab48b018b4aa768a3a7310c40388d41bb",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__first_failure_date"
+}

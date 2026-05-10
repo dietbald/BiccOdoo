@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29654,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project",
+    "model_id": [
+      593,
+      "Rating"
+    ],
+    "name": "project_id",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d482c100515a974a767c3578903efb51512fd83b50795e570205adfee5922330",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_rating_rating__project_id"
+}

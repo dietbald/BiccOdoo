@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1642,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Time",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "attendance_ids",
+    "relation": "resource.calendar.attendance",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "85fb351ab8db85beb3615dd7b90e5ba97686a7c74a561b6b36d734152820fe20",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__attendance_ids"
+}

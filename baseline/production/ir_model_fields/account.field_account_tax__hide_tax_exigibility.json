@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4125,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hide Use Cash Basis Option",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "hide_tax_exigibility",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6de292312db4287d36bee94b940da6f31a38dc85199ba671fe9076ec0be4834e",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__hide_tax_exigibility"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8858,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a65251a49c700e224287ee299eb40e2a9f2cebb8e625ea763f9e91d4644aad4f",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__message_has_error"
+}

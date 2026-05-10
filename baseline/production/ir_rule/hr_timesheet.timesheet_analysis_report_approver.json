@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 387,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '|',\n                    ('project_id.privacy_visibility', 'in', ['employees', 'portal']),\n                    ('project_id.message_partner_ids', 'in', [user.partner_id.id])\n            ]",
+    "groups": [
+      102
+    ],
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "Timesheets Analysis Report approver",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "99f689d87b6775f1c32438d195119353a61af9cc3bef9fa24239698d289781a3",
+  "write_date": "2023-12-05 08:04:38",
+  "xml_id": "hr_timesheet.timesheet_analysis_report_approver"
+}

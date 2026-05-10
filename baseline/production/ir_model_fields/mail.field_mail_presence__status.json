@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "IM Status",
+    "model_id": [
+      125,
+      "User/Guest Presence"
+    ],
+    "name": "status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2999da205572bbf94d0dcd98a1db6948a28ad5a3929053555c9c49ab2c654439",
+  "write_date": "",
+  "xml_id": "mail.field_mail_presence__status"
+}

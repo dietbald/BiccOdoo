@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 931,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                    'search_default_assigned_to_me': 1,\n                    'default_user_id': uid,\n                    'default_mailing_type': 'mail',\n            }",
+    "domain": "[('mailing_type', '=', 'mail')]",
+    "name": "Mailings",
+    "res_model": "mailing.mailing",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar"
+  },
+  "payload_sha256": "98cf1ce4215cebb38b5d897d94f4d271d1833dfb8334ce2a969935f65b3a0973",
+  "write_date": "2025-12-09 03:00:45",
+  "xml_id": "mass_mailing.mailing_mailing_action_mail"
+}

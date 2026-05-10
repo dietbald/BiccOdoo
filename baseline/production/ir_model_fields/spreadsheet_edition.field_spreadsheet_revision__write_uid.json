@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5529,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      471,
+      "Collaborative spreadsheet revision"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7602d2ace50e118d655d346b4a1c130ea74c2f56d7c7a452560478be693278e6",
+  "write_date": "",
+  "xml_id": "spreadsheet_edition.field_spreadsheet_revision__write_uid"
+}

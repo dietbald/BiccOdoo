@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 232,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'journal_type':'general', 'search_default_group_by_move': 1, 'search_default_posted':1, 'create':0}",
+    "domain": "[('display_type', 'not in', ('line_section', 'line_subsection', 'line_note'))]",
+    "name": "Journal Items",
+    "res_model": "account.move.line",
+    "target": "current",
+    "view_mode": "list,pivot,graph,kanban"
+  },
+  "payload_sha256": "3144c5f1399858f331c458a2f8e09e589da13a5068bc6f5bfbf41007ee0ff6ba",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_moves_all_a"
+}

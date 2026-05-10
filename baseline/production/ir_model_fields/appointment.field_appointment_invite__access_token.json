@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15172,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Token",
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "f18b875be539ec1041c703c3d9c4c674c95afe5189946c29a4209972dd12c09f",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_invite__access_token"
+}

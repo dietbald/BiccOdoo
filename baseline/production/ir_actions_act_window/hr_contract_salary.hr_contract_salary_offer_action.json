@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1329,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_group_by_state': True,\n            'search_default_employees': True,\n            'is_hr_payroll': True\n        }",
+    "domain": false,
+    "name": "Offers",
+    "res_model": "hr.contract.salary.offer",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "404dbd71760f74fd1fad97b5f1fdcfa4293782eb10bd9797ed5e9d11177974a2",
+  "write_date": "2025-12-09 02:59:17",
+  "xml_id": "hr_contract_salary.hr_contract_salary_offer_action"
+}

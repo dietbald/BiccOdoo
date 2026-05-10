@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1917,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      2703,
+      "Add applicants to talent pool"
+    ],
+    "name": "access.talent.pool.add.applicants",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1c153615f1a1d91dd2dbfbab3edc3f810fe81f521647dbf6094b0eb42e792484",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_talent_pool_add_applicants"
+}

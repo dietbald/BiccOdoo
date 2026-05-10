@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 699,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      62
+    ],
+    "model_id": [
+      2600,
+      "Points line for referrals"
+    ],
+    "name": "Officer Referral Points",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ff800265c37169b810d619696dee0147f04ac1a04b19957eb447d0d5ea3257d5",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.hr_referral_points_officer_rule"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1691,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'open_account_return_on_save': True, 'default_category': 'audit'}",
+    "domain": false,
+    "name": "Start an Audit",
+    "res_model": "account.return.creation.wizard",
+    "target": "new",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "14006a6a6df94c8a6e3cccee9956abc3a9d3552ddeaa363b1534401fd3a11b9d",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.action_create_account_audit"
+}

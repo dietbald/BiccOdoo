@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4772,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sequence Prefix",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "sequence_prefix",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "976b16cdde13b431390c1a9f7323531edeabee9366685af315b247cdc7ad87f2",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__sequence_prefix"
+}

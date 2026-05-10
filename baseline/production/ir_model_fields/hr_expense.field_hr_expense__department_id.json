@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26036,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "61b1eacfe3d4a6fe4c4f7f26ed1bfaf9ae4deb718072b09ea3a9f051ea29b42e",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__department_id"
+}

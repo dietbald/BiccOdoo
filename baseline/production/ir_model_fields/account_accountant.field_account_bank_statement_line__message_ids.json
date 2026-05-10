@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4787,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a5dad30fee878032ac10dba3802ab34e67483d4f214d46cce43e9e550542cd42",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_bank_statement_line__message_ids"
+}

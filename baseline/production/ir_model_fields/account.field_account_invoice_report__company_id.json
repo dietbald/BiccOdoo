@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5431,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6fe776da29bc9aa5fb70ec7ee9434e62db445a6cdf3e5234e64b208394375f8b",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__company_id"
+}

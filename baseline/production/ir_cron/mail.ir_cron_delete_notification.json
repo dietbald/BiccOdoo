@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 5,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._gc_notifications(max_age_days=180)",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "Notification: Delete Notifications older than 6 Month",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "b9404dcc9a97e20b1c103298e020b643f66131ce1b612b90f4128a9f1ff28f86",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "mail.ir_cron_delete_notification"
+}

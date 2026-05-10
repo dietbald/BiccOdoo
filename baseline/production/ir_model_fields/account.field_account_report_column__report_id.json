@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5174,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report",
+    "model_id": [
+      450,
+      "Accounting Report Column"
+    ],
+    "name": "report_id",
+    "relation": "account.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e802842d63c3825be3b2be2547669e09fd309bb977c8018d1c1b8c7b9f193c00",
+  "write_date": "",
+  "xml_id": "account.field_account_report_column__report_id"
+}

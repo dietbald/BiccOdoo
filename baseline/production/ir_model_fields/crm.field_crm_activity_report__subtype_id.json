@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7368,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subtype",
+    "model_id": [
+      582,
+      "CRM Activity Analysis"
+    ],
+    "name": "subtype_id",
+    "relation": "mail.message.subtype",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9ec055ebf88cf6fd0e287d3762cb494e484704ba71e1345e5a0dde8b1820d084",
+  "write_date": "",
+  "xml_id": "crm.field_crm_activity_report__subtype_id"
+}

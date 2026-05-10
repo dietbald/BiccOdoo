@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d26f0fd2952c50070261df2bf65b795c5c2dd44fbbe4932266c14b24e4733f81",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__message_has_sms_error"
+}

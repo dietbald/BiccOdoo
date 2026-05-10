@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 285,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Search View Ref.",
+    "model_id": [
+      20,
+      "Action Window"
+    ],
+    "name": "search_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c74abfda71724d743203b5fc218e78d2f2cb0eb720d41672bb91c0bf10dc7e7f",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_act_window__search_view_id"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 234,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'journal_type':'sales', 'search_default_group_by_move': 1, 'search_default_posted':1, 'search_default_sales':1, 'expand': 1}",
+    "domain": "[('display_type', 'not in', ('line_section', 'line_subsection', 'line_note'))]",
+    "name": "Sales",
+    "res_model": "account.move.line",
+    "target": "current",
+    "view_mode": "list,pivot,graph,kanban"
+  },
+  "payload_sha256": "da61d4b02b21fd64704dd4628d4140adeb93f26f6c2674850af2552d29c57d6e",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_moves_journal_sales"
+}

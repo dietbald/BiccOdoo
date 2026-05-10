@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4449,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Statement",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "statement_id",
+    "relation": "account.bank.statement",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "216b6d7d70295fd37f5336126b35e5cd42ee429bf3bd76a5aef2e08aa9ebc261",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__statement_id"
+}

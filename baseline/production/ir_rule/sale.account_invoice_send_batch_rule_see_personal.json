@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 648,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('move_ids.move_type', 'in', ('out_invoice', 'out_refund')), '|', ('move_ids.invoice_user_id', '=', user.id), ('move_ids.invoice_user_id', '=', False)]",
+    "groups": [
+      35
+    ],
+    "model_id": [
+      1384,
+      "Account Move Send Batch Wizard"
+    ],
+    "name": "Personal Invoice Send and Print (batch mode)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b19d2804a4df6c8537a1b1d673ea1c50b25bee33ddf6b02c66d769023e417f5b",
+  "write_date": "2025-01-28 01:25:35",
+  "xml_id": "sale.account_invoice_send_batch_rule_see_personal"
+}

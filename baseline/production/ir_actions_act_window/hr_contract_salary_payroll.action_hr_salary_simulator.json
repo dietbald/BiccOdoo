@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1727,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_is_simulation_offer': True}",
+    "domain": false,
+    "name": "Gross-Net Salary Calculator",
+    "res_model": "hr.contract.salary.offer",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "7215407b38e7a1a71d51812d3500725a6763a402f716785e9b2a7564b9f84b0d",
+  "write_date": "2025-12-09 03:00:22",
+  "xml_id": "hr_contract_salary_payroll.action_hr_salary_simulator"
+}

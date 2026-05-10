@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22796,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      1392,
+      "Document Redirect"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "576096d5c66c7c23c9e16be800329b46e08ce35c8881f2a6e779914120c36598",
+  "write_date": "",
+  "xml_id": "documents_hr.field_documents_redirect__employee_id"
+}

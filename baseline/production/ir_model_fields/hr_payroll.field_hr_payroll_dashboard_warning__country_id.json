@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20614,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      1236,
+      "Payroll Dashboard Warning"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a844c9c98bb4a43c1ecdd8d9c02a36ecb57afd69f27e17a4dea42ae678d9dd2c",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_dashboard_warning__country_id"
+}

@@ -1,0 +1,13 @@
+<form name="Allocation">
+                <field name="reserved_lot_ids" mode="list,kanban" context="{'kanban_view_ref': 'sale_stock_renting.stock_lot_kanban_allocation'}">
+                    <list>
+                        <field name="name"/>
+                        <field name="ref"/>
+                        <field name="product_id"/>
+                        <control>
+                            <button string="Auto assign" name="action_auto_assign_lots" type="object" class="px-4 btn-link" context="{'order_line_id': parent.id}"/>
+                            <create name="add_line" string="Add a line"/>
+                        </control>
+                    </list>
+                </field>
+            </form>

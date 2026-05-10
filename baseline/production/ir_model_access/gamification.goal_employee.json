@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1258,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "Goal Employee",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "b55bd817dec335c3c815493106007a61d94df6f8db122f75a9e531d3e9ea8b1b",
+  "write_date": "2025-12-09 02:55:55",
+  "xml_id": "gamification.goal_employee"
+}

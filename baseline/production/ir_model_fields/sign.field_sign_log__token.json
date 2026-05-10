@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10680,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User token",
+    "model_id": [
+      715,
+      "Sign requests access history"
+    ],
+    "name": "token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "7a76a2c0ba149bd9438aa6c653345f2908780eb5c0accf0de63346044f5df833",
+  "write_date": "",
+  "xml_id": "sign.field_sign_log__token"
+}

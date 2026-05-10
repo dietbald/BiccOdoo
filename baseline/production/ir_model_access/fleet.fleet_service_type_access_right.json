@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1497,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      130,
+      "Fleet / Administrator"
+    ],
+    "model_id": [
+      1000,
+      "Fleet Service Type"
+    ],
+    "name": "fleet_service_type_access_right",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d90570def3a4f73d8768107550d1cb0c24905f2258c07ed922035c96c0a25fae",
+  "write_date": "2025-12-09 02:55:54",
+  "xml_id": "fleet.fleet_service_type_access_right"
+}

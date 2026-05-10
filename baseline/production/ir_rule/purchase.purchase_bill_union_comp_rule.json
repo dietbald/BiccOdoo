@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 243,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      661,
+      "Purchases & Bills Union"
+    ],
+    "name": "Purchases & Bills Union multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "80094b3f06262727f72e21cb2ee7f3ae87bd935092982c0374e2e7847dd65f1e",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "purchase.purchase_bill_union_comp_rule"
+}

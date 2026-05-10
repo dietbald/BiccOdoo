@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19727,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Upcoming Appointments",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "upcoming_appointment_ids",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d351ab4062cd41d3e9323c4762d78534919d605eb9871fcd792e5d5da5679252",
+  "write_date": "",
+  "xml_id": "appointment.field_res_partner__upcoming_appointment_ids"
+}

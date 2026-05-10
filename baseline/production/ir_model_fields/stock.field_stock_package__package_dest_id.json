@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination Container",
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "package_dest_id",
+    "relation": "stock.package",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "396048f584cf41c808c93f95d95bcf9cb6df3d06bcd93c33989a5f758cb6e885",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package__package_dest_id"
+}

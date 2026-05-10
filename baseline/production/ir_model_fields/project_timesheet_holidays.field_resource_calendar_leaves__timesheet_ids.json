@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15848,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Analytic Lines",
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "timesheet_ids",
+    "relation": "account.analytic.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "88422c5b05df03e29cbe5a7b781265af460797b2f9d12e66bb1561f06460aaf6",
+  "write_date": "",
+  "xml_id": "project_timesheet_holidays.field_resource_calendar_leaves__timesheet_ids"
+}

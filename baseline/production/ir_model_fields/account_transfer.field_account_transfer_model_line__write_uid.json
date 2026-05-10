@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5875,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      492,
+      "Account Transfer Model Line"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4f35c51f4ad2d03744d6d18fefd78a8fdfbcf6f264ded957c6153bfd7bbfb86a",
+  "write_date": "",
+  "xml_id": "account_transfer.field_account_transfer_model_line__write_uid"
+}

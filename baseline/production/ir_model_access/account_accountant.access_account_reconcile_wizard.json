@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 462,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      490,
+      "Account reconciliation wizard"
+    ],
+    "name": "access.account.reconcile.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "5f782f280f029748057b0111cfa2124cc29f10f7e9c5b593c9fa96952d03765d",
+  "write_date": "2025-12-09 02:57:43",
+  "xml_id": "account_accountant.access_account_reconcile_wizard"
+}

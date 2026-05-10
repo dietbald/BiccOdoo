@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1211,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      883,
+      "Shift Template"
+    ],
+    "name": "planning.slot.template.employee",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ff882fb907bde7a2feb7f7b3164399fb5a6e29b98d0182471c4b1e9d3b0d4dc4",
+  "write_date": "2025-12-09 02:59:29",
+  "xml_id": "planning.access_planning_slot_template_employee"
+}

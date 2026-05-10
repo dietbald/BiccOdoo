@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13469,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "614cd329557c2ba13468b419c2ef243514fb0f7eb47f4a3825ea45073b473174",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_timesheets_analysis_report__department_id"
+}

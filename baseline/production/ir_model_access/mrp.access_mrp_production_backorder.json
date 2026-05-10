@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1436,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      977,
+      "Wizard to mark as done or create back order"
+    ],
+    "name": "access.mrp.production.backorder",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "b89036df75a758d04f25ef61d08e313371c63c8553a8b994ae192bc04cf79966",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_production_backorder"
+}

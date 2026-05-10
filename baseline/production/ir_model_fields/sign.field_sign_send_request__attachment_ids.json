@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10701,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      717,
+      "Sign send request"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b6cfe6db44989fc0938982049ed5e32c382a963580f88d06844e94dc8bb7d2a4",
+  "write_date": "",
+  "xml_id": "sign.field_sign_send_request__attachment_ids"
+}

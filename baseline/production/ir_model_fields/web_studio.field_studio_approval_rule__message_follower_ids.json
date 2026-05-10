@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23213,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      875,
+      "Studio Approval Rule"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "19aec3d327632a32b9717a43623c6bd1e3a6c305f3984c05d787510370c31dcb",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule__message_follower_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5661,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Execution Date",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "currency_next_execution_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "39938e64e6b32ed947f90ae8bdf4f138d9f5366867abba00390089ad8a02e458",
+  "write_date": "",
+  "xml_id": "currency_rate_live.field_res_company__currency_next_execution_date"
+}

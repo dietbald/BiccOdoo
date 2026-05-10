@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22749,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lock Purchases For Me",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "purchase_lock_date_for_me",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "a573dc52ad28ec2f1f754109d6009c5046f2ad297234edbec905b648607d901b",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__purchase_lock_date_for_me"
+}

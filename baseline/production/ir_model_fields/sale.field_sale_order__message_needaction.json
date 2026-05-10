@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b45a634bea17fc8d5985032380beafc9f0106baabf1550c07241fa26e3b54af3",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__message_needaction"
+}

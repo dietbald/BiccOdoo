@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5196,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Origin Line",
+    "model_id": [
+      451,
+      "Accounting Report External Value"
+    ],
+    "name": "carryover_origin_report_line_id",
+    "relation": "account.report.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d184e3d76d5b562368813a4f0e9b78bd8e78f8064439f8d57a6ccb931f11bdd0",
+  "write_date": "",
+  "xml_id": "account.field_account_report_external_value__carryover_origin_report_line_id"
+}

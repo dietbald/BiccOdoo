@@ -1,0 +1,4 @@
+<xpath expr="//gantt" position="attributes">
+                <attribute name="dependency_field">blocked_by_workorder_ids</attribute>
+                <attribute name="dependency_inverted_field">needed_by_workorder_ids</attribute>
+            </xpath>

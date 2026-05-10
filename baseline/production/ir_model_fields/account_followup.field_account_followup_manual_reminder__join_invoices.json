@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6326,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attach Invoices",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "join_invoices",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "96b0fe4af21dbc8008beb87a1780e8c2ce61a1de5fd8fe09f7b65b54844ec099",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_manual_reminder__join_invoices"
+}

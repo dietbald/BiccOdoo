@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 81,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "\nmodel._cron_post_stock_valuation()\n            ",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "Stock Account: Inventory Valuation Closing",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "6b80af20e0e9e9200c55379c88106a1a77f153442d87e0b6d5f56564de52fbc5",
+  "write_date": "2025-12-09 02:58:51",
+  "xml_id": "stock_account.ir_cron_post_stock_valuation"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14154,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      893,
+      "Mailing Statistics"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cabf650e736732d81a477b76246420c45bcc1e8e5cd4a02f58b784dcdcc8d1c8",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_trace__medium_id"
+}

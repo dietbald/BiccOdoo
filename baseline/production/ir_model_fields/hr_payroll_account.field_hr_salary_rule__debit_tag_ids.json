@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20866,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debit Tax Grids",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "debit_tag_ids",
+    "relation": "account.account.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cef84a24a5e4013ba10806f0f809bc8e9df8bcd804384346b239b7bbb01faad1",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_salary_rule__debit_tag_ids"
+}

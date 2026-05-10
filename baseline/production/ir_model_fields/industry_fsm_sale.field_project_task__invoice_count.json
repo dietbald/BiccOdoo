@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18725,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of invoices",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "invoice_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "8e35265ae2a6e9bee2b53ff182e99e6aabe5d6519abf86bb736032e4db2ba4c8",
+  "write_date": "",
+  "xml_id": "industry_fsm_sale.field_project_task__invoice_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22246,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of bills previously unmodified from this partner",
+    "model_id": [
+      1381,
+      "Autopost Bills Wizard"
+    ],
+    "name": "nb_unmodified_bills",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "529c58708af12d22dbbc96500c379836045abb9e93161b91c322c350cdbfc18e",
+  "write_date": "",
+  "xml_id": "account.field_account_autopost_bills_wizard__nb_unmodified_bills"
+}

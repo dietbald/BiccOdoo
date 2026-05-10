@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8287,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order Invoice Status",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "invoice_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0e3a238b4003f9efdcf19425010423d4fa7f8572e31b7f87b1a81014d8463e99",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__invoice_status"
+}

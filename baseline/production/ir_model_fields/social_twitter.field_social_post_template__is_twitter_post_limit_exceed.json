@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17872,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "X Post Limit Exceeded",
+    "model_id": [
+      1025,
+      "Social Post Template"
+    ],
+    "name": "is_twitter_post_limit_exceed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7c417cd2d4cfb064896d757fb12bba2272bb3a651b55a66cf8d677ec55c0271b",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_post_template__is_twitter_post_limit_exceed"
+}

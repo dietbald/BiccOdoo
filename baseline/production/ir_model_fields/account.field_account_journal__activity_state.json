@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4001,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activity State",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "activity_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "60dbe4a24e3f4d1324b50b40515858bc1e3ab5b544ec1c0757aeeb8dcfb796ac",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__activity_state"
+}

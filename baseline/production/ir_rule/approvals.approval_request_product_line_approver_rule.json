@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 690,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', '|',\n                                        ('approval_request_id.request_owner_id', '=', user.id),\n                                        ('approval_request_id.approver_ids.user_id','=', user.id),\n                                        '&',\n                                        ('approval_request_id.category_id.manager_approval', 'in', ['approver', 'required']),\n                                        ('approval_request_id.request_owner_id.parent_id.user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      784,
+      "Product Line"
+    ],
+    "name": "Approval Product Line: request approver rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8477d55daf8fb4fdc1b30dea2aa4d551afcbae056533be7cd88e09b5a6828b2c",
+  "write_date": "2025-03-24 00:43:42",
+  "xml_id": "approvals.approval_request_product_line_approver_rule"
+}

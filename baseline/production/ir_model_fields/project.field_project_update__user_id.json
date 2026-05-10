@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7795,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Author",
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1fad6249204dc43cff9e2d3a35e812dd1d44a90e0c7fe40e4d56c154eac30013",
+  "write_date": "",
+  "xml_id": "project.field_project_update__user_id"
+}

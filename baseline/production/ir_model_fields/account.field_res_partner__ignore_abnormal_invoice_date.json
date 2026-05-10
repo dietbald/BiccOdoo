@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19783,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ignore Abnormal Invoice Date",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "ignore_abnormal_invoice_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5ad7e4a80754ff6c4c8dd32651715c561511aa0c80acecd08d85fc7292144381",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__ignore_abnormal_invoice_date"
+}

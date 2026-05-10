@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6284,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Schedule Activity",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "create_activity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "89442c9c6fa29075be4a955fdf255697006e1aae7cc5e095877a217ba00342d9",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__create_activity"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10996,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show lot_name",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "show_lots_text",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "243e59bc5b76aea5f405819ad19c62fb9d6e5bb83dcc28f7e689c4029c62183d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__show_lots_text"
+}

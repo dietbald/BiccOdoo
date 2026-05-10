@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1221,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      887,
+      "Link Tracker Code"
+    ],
+    "name": "access.link.tracker.code.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "4de4edc4390b10d075bf3a848178c1190e11f7dbbcecceabe2480c49f0da618b",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "link_tracker.access_link_tracker_code_user"
+}

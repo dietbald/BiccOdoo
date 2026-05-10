@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4839,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax calculation rounding method",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "tax_calculation_rounding_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "5e540e376640e697cf5757482f299122f7f1a830ce47da657504d2fbcd7ac2c0",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__tax_calculation_rounding_method"
+}

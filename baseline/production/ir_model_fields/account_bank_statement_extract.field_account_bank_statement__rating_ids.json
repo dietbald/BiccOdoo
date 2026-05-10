@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22723,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d1471f95dfc43c3ac2b265fe6792a971a56c8097a7ff67a96e0720e1d1f6468a",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement__rating_ids"
+}

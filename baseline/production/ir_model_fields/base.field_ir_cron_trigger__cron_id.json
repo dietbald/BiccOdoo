@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 493,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cron",
+    "model_id": [
+      31,
+      "Triggered actions"
+    ],
+    "name": "cron_id",
+    "relation": "ir.cron",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2764be120c8d081cd1f282f41d198fa590b325402e1dfa9b7d51d64a6d92b4f2",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_trigger__cron_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29619,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Budget Type",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "budget_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ab58d0efebd3ff4b62719f29ac279f90f0d8ef5b01fe84d442999b7f76621724",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_offer__budget_type"
+}

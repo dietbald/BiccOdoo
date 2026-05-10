@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2008,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      172,
+      "Scheduled Messages"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "62dc35bfc65793b6e86c1e85a0229cc9eec7f42c0d0ada8eb560b0ca89b7e844",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_schedule__write_uid"
+}

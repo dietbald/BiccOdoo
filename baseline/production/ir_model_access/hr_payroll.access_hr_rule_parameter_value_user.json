@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1157,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      826,
+      "Salary Rule Parameter Value"
+    ],
+    "name": "access_hr_rule_parameter_value_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "4400bc5fdc16b79af994890ae4771047f432987049d8c194c1445f6b2389c808",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_rule_parameter_value_user"
+}

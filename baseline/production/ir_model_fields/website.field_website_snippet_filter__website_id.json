@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10191,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      697,
+      "Website Snippet Filter"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "db62a287bddc38a867bf05feb0e2e4b3200c9d039814b5a64bd90b7a7acf6b77",
+  "write_date": "",
+  "xml_id": "website.field_website_snippet_filter__website_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 76,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "Entry lines",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f6a9e83312bb05050603e4c15388c987b93ba96219c8d87a06a60ee4a9ce84d7",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_move_line_comp_rule"
+}

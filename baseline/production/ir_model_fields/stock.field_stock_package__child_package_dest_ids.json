@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28201,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assigned Contained Packages",
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "child_package_dest_ids",
+    "relation": "stock.package",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d5e91b7a7dc6700697fb69b6f3566204f18816075802f29ca3b6be7481a5d8f6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package__child_package_dest_ids"
+}

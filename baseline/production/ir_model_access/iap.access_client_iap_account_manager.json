@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 155,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "iap.account.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "35f9e57b2829c2b379f4f6c385ccfe4c5ee7501068cb186480be3edde7282223",
+  "write_date": "2025-12-09 02:55:45",
+  "xml_id": "iap.access_client_iap_account_manager"
+}

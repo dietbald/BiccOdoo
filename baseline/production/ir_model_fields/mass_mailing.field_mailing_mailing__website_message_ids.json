@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14200,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9eac85fb0b2cf1cb5508fdc5df2faa64db707ab79b841629ced9e02cd33bf33d",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__website_message_ids"
+}

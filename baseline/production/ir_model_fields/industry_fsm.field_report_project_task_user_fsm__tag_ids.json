@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18644,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "tag_ids",
+    "relation": "project.tags",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "927f96c94483e291705967ca0db40f0dcf9c8905bafb0c6075e41dfd8a336a79",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__tag_ids"
+}

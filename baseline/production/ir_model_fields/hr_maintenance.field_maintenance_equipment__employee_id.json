@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18224,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assigned Employee",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fdd7cd2453e5b124bed8e7a4ed529a8d35b496a358273c20a6994dc436e9905d",
+  "write_date": "",
+  "xml_id": "hr_maintenance.field_maintenance_equipment__employee_id"
+}

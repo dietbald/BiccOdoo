@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17082,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Contract State",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "contract_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e7e870dc061d4dd501e39307d1adf4c7e8c2e45201b3c7dda141c233c6101b3e",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__contract_state"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 73,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      411,
+      "Payment Capture Wizard"
+    ],
+    "name": "Payment Capture Wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "045d4866b058225d6f01354aa6cb1570b01669f93eb513406251e30d1a068c6c",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "payment.payment_capture_wizard_rule"
+}

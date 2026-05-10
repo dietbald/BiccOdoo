@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18895,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "This is True when if the supplier is available today",
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "available_today",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a61065bb0bb5832c52669d8c57382bff8812701f176160da0f8f91a466c6f1a5",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_order__available_today"
+}

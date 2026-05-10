@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4452,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Originator Tax",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "tax_line_id",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "278e43e7af0e86ce4f5e71360d6dd4eae1d0d5219640a7abe229c560017cfc5c",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__tax_line_id"
+}

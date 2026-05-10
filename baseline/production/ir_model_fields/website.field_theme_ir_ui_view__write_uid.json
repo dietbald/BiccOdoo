@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10126,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      690,
+      "Theme UI View"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "805e3445e6ecd79106c5223436afecfb012f49dd5fa8c1ef6f8576a0fe40b1b8",
+  "write_date": "",
+  "xml_id": "website.field_theme_ir_ui_view__write_uid"
+}

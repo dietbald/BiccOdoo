@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 679,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "account_analytic_account salesman",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "58bbbf6b6c511ab36696bee14613a2ae3a3419c8d09d4d2b711084b4449d6b03",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_account_analytic_account_salesman"
+}

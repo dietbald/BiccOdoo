@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recycle Model",
+    "model_id": [
+      926,
+      "Recycling Record"
+    ],
+    "name": "recycle_model_id",
+    "relation": "data_recycle.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "75e28b470e8fe03b18c91bbe37c7f905d20dc87a2be12c059214f95851505839",
+  "write_date": "",
+  "xml_id": "data_recycle.field_data_recycle_record__recycle_model_id"
+}

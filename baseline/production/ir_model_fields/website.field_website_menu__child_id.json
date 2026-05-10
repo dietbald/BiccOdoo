@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9947,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Menus",
+    "model_id": [
+      685,
+      "Website Menu"
+    ],
+    "name": "child_id",
+    "relation": "website.menu",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a1ac47d0fac4c63dc1c317b383cb60c2354d58362a870871d48d6e922376c28c",
+  "write_date": "",
+  "xml_id": "website.field_website_menu__child_id"
+}

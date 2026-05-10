@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15326,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appointment",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "appointment_type_id",
+    "relation": "appointment.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0812fcedcd003caea936637d6e2c790bee19a1bb4757c2476f6290cb1bedda42",
+  "write_date": "",
+  "xml_id": "appointment.field_calendar_event__appointment_type_id"
+}

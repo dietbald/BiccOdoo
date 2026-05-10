@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4512,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit Amount Currency",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "credit_amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b6071564c0976a0409e8acd905245020877b098b5063e6d0c39daefa6768d464",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__credit_amount_currency"
+}

@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 87,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Dear <t t-out=\"object.partner_id.name or 'participant' or ''\">participant</t><br/><br/>\n        Unfortunately, you have failed the certification and are no longer a member of the course: <t t-out=\"object.slide_partner_id.channel_id.name or ''\">Basics of Gardening</t>.<br/><br/>\n        Don't hesitate to enroll again!\n        </p><div style=\"margin: 16px 0px 16px 0px;\">\n            <a t-att-href=\"(object.slide_partner_id.channel_id.website_url)\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n                Enroll now\n            </a>\n        </div>\n        Thank you for your participation.\n    \n</div>\n            ",
+    "email_from": false,
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "Survey: Certification Failure",
+    "subject": "You have failed the course: {{ object.slide_partner_id.channel_id.name }}"
+  },
+  "payload_sha256": "290e264b6e35a6bcc4cf1e83b75c8b14f02e725533cd889d213218ee731e3299",
+  "write_date": "2025-03-23 22:57:07",
+  "xml_id": "website_slides_survey.mail_template_user_input_certification_failed"
+}

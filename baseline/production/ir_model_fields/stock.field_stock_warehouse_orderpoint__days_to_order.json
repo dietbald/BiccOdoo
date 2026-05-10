@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11112,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days To Order",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "days_to_order",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "4974a148c5dee9a666c0c478b1dfef0fea0756210445016818db5a1495efc5f6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__days_to_order"
+}

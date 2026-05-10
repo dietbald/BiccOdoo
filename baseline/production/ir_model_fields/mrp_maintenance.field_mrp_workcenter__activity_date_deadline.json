@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18239,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "d6b9bc30a5e5fddba4b15c7f82f1ad82c919119cd638d992acd44afde9874a7a",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__activity_date_deadline"
+}

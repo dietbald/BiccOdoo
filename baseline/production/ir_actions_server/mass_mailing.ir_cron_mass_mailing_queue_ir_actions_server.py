@@ -1,0 +1,1 @@
+model._process_mass_mailing_queue()

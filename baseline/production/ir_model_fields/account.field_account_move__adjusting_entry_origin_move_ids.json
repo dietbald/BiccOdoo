@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24786,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Adjusting Entry Origin Moves",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "adjusting_entry_origin_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7f390ac53b24d106ccdcb9f4d0e0a8e772dd69f4289313e6b900c3d74c6f6e33",
+  "write_date": "",
+  "xml_id": "account.field_account_move__adjusting_entry_origin_move_ids"
+}

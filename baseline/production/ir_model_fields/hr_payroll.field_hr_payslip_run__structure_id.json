@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29476,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Structure",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "structure_id",
+    "relation": "hr.payroll.structure",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "015b1fae405cd840241deaa9197022ab1763f514a7abe29a864917b692ad7fb9",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__structure_id"
+}

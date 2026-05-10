@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "alias_id",
+    "relation": "mail.alias",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7c3cf6f98910358df609c1513368926fbc914ff57a6e844a4bef8398695fab09",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__alias_id"
+}

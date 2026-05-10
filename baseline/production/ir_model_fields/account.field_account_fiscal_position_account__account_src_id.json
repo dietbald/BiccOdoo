@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3845,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account on Product",
+    "model_id": [
+      418,
+      "Accounts Mapping of Fiscal Position"
+    ],
+    "name": "account_src_id",
+    "relation": "account.account",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "11dd9ba410c313ed8b8288db18320248e7f82359a3010596e7651231a1658182",
+  "write_date": "",
+  "xml_id": "account.field_account_fiscal_position_account__account_src_id"
+}

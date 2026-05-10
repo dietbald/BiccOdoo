@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4378,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reversal Move",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "reversal_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ba71c23c2784c57160cc7b721cfe58e0249e8cb9416ec210f588eb9dfe6961c0",
+  "write_date": "",
+  "xml_id": "account.field_account_move__reversal_move_ids"
+}

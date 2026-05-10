@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29963,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Instructions",
+    "model_id": [
+      3858,
+      "Create a topic that leverages instructions and tools to direct Odoo AI in assisting the user with their tasks."
+    ],
+    "name": "instructions",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "db50b0620f074cdfa4583250a71a7a4b783b7a69ce02e84d855b6b2a2092d7a9",
+  "write_date": "",
+  "xml_id": "ai.field_ai_topic__instructions"
+}

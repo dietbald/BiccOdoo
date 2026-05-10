@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11553,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Tmpl",
+    "model_id": [
+      747,
+      "Stock Quantity Report"
+    ],
+    "name": "product_tmpl_id",
+    "relation": "product.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "53049e4f55c857fbfd3e63bb5b673409326cd274ab9c27aeea6b70e4a3610cc0",
+  "write_date": "",
+  "xml_id": "stock.field_report_stock_quantity__product_tmpl_id"
+}

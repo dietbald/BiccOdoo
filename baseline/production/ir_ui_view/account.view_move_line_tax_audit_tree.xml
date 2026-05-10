@@ -1,0 +1,17 @@
+<data><field name="matching_number" position="replace">
+                    <field name="tax_line_id" string="Tax"/>
+                    <field name="tax_base_amount" sum="Total Base Amount"/>
+                </field>
+                <field name="analytic_distribution" position="attributes">
+                    <attribute name="optional">hide</attribute>
+                </field>
+                <field name="debit" position="attributes">
+                    <attribute name="optional">show</attribute>
+                </field>
+                <field name="credit" position="attributes">
+                    <attribute name="optional">show</attribute>
+                </field>
+                <field name="journal_id" position="attributes">
+                    <attribute name="optional">show</attribute>
+                </field>
+            </data>

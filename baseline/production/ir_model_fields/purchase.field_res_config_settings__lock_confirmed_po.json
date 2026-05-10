@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9486,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lock Confirmed Orders",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "lock_confirmed_po",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d85dcefd54b42e402dc1f87b2e9114a42d4914aa7ada04eca88fa2bbeb088ad3",
+  "write_date": "",
+  "xml_id": "purchase.field_res_config_settings__lock_confirmed_po"
+}

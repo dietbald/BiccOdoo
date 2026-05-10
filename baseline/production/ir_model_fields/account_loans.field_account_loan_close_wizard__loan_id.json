@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23950,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Loan",
+    "model_id": [
+      1478,
+      "Close Loan Wizard"
+    ],
+    "name": "loan_id",
+    "relation": "account.loan",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1144f1b503ebe9cba3f8942b60a0944b114a1b893f84f5d3c70ca960a58e097a",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_close_wizard__loan_id"
+}

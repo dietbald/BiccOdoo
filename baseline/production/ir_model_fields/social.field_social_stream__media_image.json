@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17747,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "The related Social Media's image",
+    "model_id": [
+      1028,
+      "Social Stream"
+    ],
+    "name": "media_image",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "03d14318ad1a7fcac10c3f8c296910002c538173b69ad80ab6945d782ece882d",
+  "write_date": "",
+  "xml_id": "social.field_social_stream__media_image"
+}

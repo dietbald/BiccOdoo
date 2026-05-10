@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23239,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notify to",
+    "model_id": [
+      1440,
+      "Approval Rule Delegate"
+    ],
+    "name": "users_to_notify",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f7222881f7c79610a83733572867f193a6db0e441e5af8aedaec19bdae820403",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule_delegate__users_to_notify"
+}

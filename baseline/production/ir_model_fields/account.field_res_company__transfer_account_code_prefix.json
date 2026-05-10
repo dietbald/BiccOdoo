@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4962,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Prefix of the transfer accounts",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "transfer_account_code_prefix",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "1510ee16428df662c1ffaabfc542ef7a02ac24b7f5b694f61280a17e7f64b448",
+  "write_date": "",
+  "xml_id": "account.field_res_company__transfer_account_code_prefix"
+}

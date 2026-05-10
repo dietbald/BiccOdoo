@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10944,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination Moves",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "move_dest_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cbc7f0a9eca878256b464d198728b7c1d3b1103cc2b8168ae74e53b00d47b4d0",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__move_dest_ids"
+}

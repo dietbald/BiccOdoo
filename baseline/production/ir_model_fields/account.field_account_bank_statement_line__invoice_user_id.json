@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4874,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salesperson",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "invoice_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "47d7470cea610fe5d6688203d54a68673077c6b2b8b1104166dab93c4230d1f8",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__invoice_user_id"
+}

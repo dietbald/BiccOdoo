@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18365,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1044,
+      "Wizard for Quality Check Pop Up"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3175efbd94d925e6243716a38412a3eb7860e559644bf5f479b081c0b12c9ec8",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check_wizard__create_uid"
+}

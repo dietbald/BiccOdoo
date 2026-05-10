@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3926,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      420,
+      "Account Tag"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ac94537d91d71495fa7ec518d21e7bce99a10e8d9e7e56b433d3ea2627625bd3",
+  "write_date": "",
+  "xml_id": "account.field_account_account_tag__country_id"
+}

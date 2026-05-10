@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6153,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Declining Factor",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "method_progress_factor",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "ac2994085b42ff5f4a34240b3fb94c05dfacc955e2eabd43d9001d7fd36b6d45",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__method_progress_factor"
+}

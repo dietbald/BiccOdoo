@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17987,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Enable Web Push Notifications",
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "firebase_enable_push_notifications",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "209b7f2d38c66806d360defe337567b4e24c3156a7ca48e210f43c9f340d0671",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_website__firebase_enable_push_notifications"
+}

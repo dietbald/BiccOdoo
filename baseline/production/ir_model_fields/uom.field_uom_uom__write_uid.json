@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1574,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      137,
+      "Product Unit of Measure"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9faca1a7b3e152440e39125a80f5827acdc3f3615e03149809cd95362d627ce",
+  "write_date": "",
+  "xml_id": "uom.field_uom_uom__write_uid"
+}

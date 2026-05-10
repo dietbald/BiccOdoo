@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6234,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of days",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "asset_number_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "da7d354500899de050c94fccdd38cf7ce7ffe0c64e0efeee0fe3506f3a9dc664",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_bank_statement_line__asset_number_days"
+}

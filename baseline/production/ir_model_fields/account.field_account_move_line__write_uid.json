@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4501,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9d42713f70c7f13ecbf6a3d0e14196efde0ce65505138dd1fcd7ed2589c1b277",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1732,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Catchall Alias",
+    "model_id": [
+      148,
+      "Email Domain"
+    ],
+    "name": "catchall_alias",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "fbed003d9c905e03cf398fd95287216a3213214f069c2cead5a18300022d9d31",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias_domain__catchall_alias"
+}

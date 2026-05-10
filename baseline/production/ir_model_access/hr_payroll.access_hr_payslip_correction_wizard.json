@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2069,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      95,
+      "Payroll / Officer: Manage all contracts"
+    ],
+    "model_id": [
+      3714,
+      "Payslip Correction Wizard"
+    ],
+    "name": "hr.payslip.correction.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "02f559e6927888a7400e7b0c69dd00035e8ccc46bc05ae112b1d8f99101674d7",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_payslip_correction_wizard"
+}

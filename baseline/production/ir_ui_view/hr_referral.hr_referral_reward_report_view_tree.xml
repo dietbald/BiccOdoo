@@ -1,0 +1,7 @@
+<list string="Employees Reward" edit="1" editable="bottom">
+                    <field name="reward_id"/>
+                    <field name="awarded_employee_id" optional="show" widget="many2one_avatar_user"/>
+                    <field name="cost" optional="show"/>
+                    <field name="rewarded_employees" optional="show" string="Count"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                </list>

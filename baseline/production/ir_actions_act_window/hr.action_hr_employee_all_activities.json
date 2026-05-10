@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1647,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'chat_icon': True, 'searchpanel_default_company_id': allowed_company_ids[0]}",
+    "domain": "[\n                ('company_id', 'in', allowed_company_ids),\n                ('activity_ids', '!=', False),\n            ]",
+    "name": "All activities",
+    "res_model": "hr.employee",
+    "target": "current",
+    "view_mode": "activity,list,kanban,form,graph,pivot"
+  },
+  "payload_sha256": "f1254658c79a52ac31511f23642f60a00b556a25b94d0d4fd3093c429e3c4d32",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.action_hr_employee_all_activities"
+}

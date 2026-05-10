@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Receptions",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "picking_ids",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "370824b5e0042b76000499d048b5765abc53927f6eb29d822f776407eb730798",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order__picking_ids"
+}

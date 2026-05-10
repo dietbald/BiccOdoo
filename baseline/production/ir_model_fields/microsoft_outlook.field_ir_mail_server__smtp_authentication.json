@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authenticate with",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "smtp_authentication",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "1dfbeef9f7852002e7964ca399c481ba165038dd171e873525c342a4b621a837",
+  "write_date": "",
+  "xml_id": "microsoft_outlook.field_ir_mail_server__smtp_authentication"
+}

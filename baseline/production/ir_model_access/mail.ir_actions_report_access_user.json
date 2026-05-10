@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 241,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      27,
+      "Report Action"
+    ],
+    "name": "ir.actions.report.access.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "83f438d3c061c59a2291d596c68588ec05549cabdbf7b543ff817be47231ecfa",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.ir_actions_report_access_user"
+}

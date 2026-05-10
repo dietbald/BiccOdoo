@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1407,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      118,
+      "Manufacturing / Administrator"
+    ],
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "mrp.workorder",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a45aaaf3f6c31a5c7114615d10828501d1c2e0d6f71014175a18292ee99bc354",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_workorder_mrp_manager"
+}

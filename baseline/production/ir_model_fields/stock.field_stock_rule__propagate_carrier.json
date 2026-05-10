@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11068,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Propagation of carrier",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "propagate_carrier",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "70e35f45a1c0dc7c2c52a1a43a884445ee2248bd96acbc1a8166493298742532",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__propagate_carrier"
+}

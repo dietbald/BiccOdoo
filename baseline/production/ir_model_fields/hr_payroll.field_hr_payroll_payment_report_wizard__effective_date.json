@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29522,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Date",
+    "model_id": [
+      1241,
+      "HR Payroll Payment Report Wizard"
+    ],
+    "name": "effective_date",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "69d0ea2c9f8601e4d4079dfb958513950d758b354b67903a64db228eb24b36ec",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_payment_report_wizard__effective_date"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23277,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Export Data",
+    "model_id": [
+      1444,
+      "Studio Export Wizard"
+    ],
+    "name": "default_export_data",
+    "relation": "studio.export.wizard.data",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "16f659d14f94e83744a4d4cb55a67a16ec3cfb0097d08c7031451b6cd2e96c00",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_export_wizard__default_export_data"
+}

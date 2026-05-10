@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12010,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Security Lead Time for Sales",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "use_security_lead",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "971a6e3a39992493ea2aafdc8c4c5fc29313fbcb621514b62cf849e95f98d827",
+  "write_date": "",
+  "xml_id": "sale_stock.field_res_config_settings__use_security_lead"
+}

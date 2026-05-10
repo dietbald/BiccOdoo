@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23309,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      1445,
+      "Wizard for duplicate transactions"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "fe16c347f0bc2d09101f7ee7f3aad7e71e24ba25ac1ddc3f5ee67da4ad1f0d45",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_duplicate_transaction_wizard__create_date"
+}

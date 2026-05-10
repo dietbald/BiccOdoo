@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9594,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a9f1debf04f51f3de184f93ae588b0846b97c3fa3110526e6987d606d65a5d02",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__message_needaction"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27525,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Replaces",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "original_tax_ids",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "199f781366d805eec9fec6d7f74ba3fb0c02bfdc195cbf9af875e76b77aa5e0e",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__original_tax_ids"
+}

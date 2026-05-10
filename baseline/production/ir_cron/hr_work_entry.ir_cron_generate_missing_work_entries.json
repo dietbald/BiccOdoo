@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 45,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_generate_missing_work_entries()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "Generate Missing Work Entries",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "6f3889492761555da6ea3eedefca100ba8481a7eefc15d6e60f925674b5cc806",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "hr_work_entry.ir_cron_generate_missing_work_entries"
+}

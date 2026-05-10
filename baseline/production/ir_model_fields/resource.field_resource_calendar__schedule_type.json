@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26853,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Schedule Type",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "schedule_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "bbeee9a5ad149d2b51773ae4e4e06ab742baabb39aa405ed5ae8ddb8bfe4e7bb",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__schedule_type"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4080,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Statement",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "last_statement_id",
+    "relation": "account.bank.statement",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "efba30379d81738d33fe48ed28af034b3e2f3bf746e59ab45a94176de95e20b6",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__last_statement_id"
+}

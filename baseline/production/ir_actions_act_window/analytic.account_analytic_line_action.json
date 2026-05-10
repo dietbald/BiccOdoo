@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 140,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_date': 1}",
+    "domain": "[('auto_account_id','=', active_id)]",
+    "name": "Gross Margin",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "list,form,graph,pivot"
+  },
+  "payload_sha256": "51daa924d5a3369cca3f4ac6ecaf725f9137f970246d20a2bd14a9c7f9c8674a",
+  "write_date": "2025-12-09 02:55:52",
+  "xml_id": "analytic.account_analytic_line_action"
+}

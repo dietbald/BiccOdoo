@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29004,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debit",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "audit_debit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b919f10a4874ae5b4cc2eced7313e888a02c3ea0ebebe660583afc7a2403f782",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_account__audit_debit"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19425,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Done",
+    "model_id": [
+      1112,
+      "Progress of Scheduled Actions"
+    ],
+    "name": "done",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3d2762a25be8a19dc1f3492a6c899c8c6297b66e3d7446edd95ef9831259f121",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_progress__done"
+}

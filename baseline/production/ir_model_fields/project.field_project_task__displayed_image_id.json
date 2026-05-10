@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7705,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cover Image",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "displayed_image_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8a5370b4070df9fd2862551f1adf1b26be251f38c7fd30a7637541d9e3d3f974",
+  "write_date": "",
+  "xml_id": "project.field_project_task__displayed_image_id"
+}

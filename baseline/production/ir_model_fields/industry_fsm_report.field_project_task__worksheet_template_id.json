@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18683,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Worksheet Template",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "worksheet_template_id",
+    "relation": "worksheet.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "54f23d884277dca8de1a63424ef2960a039125e6b0dc099e278de2533b1ad83a",
+  "write_date": "",
+  "xml_id": "industry_fsm_report.field_project_task__worksheet_template_id"
+}

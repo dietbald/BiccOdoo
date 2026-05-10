@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27881,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Active Employee",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "active_employee",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4275fd010e551c4e4eb0c8dbda9eb02a9b1ee7041b0725fe0f639947a81a210a",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__active_employee"
+}

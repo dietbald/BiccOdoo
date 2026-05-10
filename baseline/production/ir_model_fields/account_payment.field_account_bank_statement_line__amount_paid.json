@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount paid",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "amount_paid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2b715d11ad3c911105ba94269a3f07480bd5dab91bec71f44cf4216a14cea3a1",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_bank_statement_line__amount_paid"
+}

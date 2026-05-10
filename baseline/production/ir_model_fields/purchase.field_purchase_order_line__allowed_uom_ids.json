@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25096,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Uom",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "allowed_uom_ids",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2c84ed5fbc4cd0135994d640d357dd7a4e70943eb78b44dc9e992e2d6eb5f880",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__allowed_uom_ids"
+}

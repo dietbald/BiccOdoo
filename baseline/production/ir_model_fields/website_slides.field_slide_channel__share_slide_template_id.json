@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24322,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Share Template",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "share_slide_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ef2e94dbc885c1af55406179af614ed6a7c00c556bf07509297daa64138f3926",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__share_slide_template_id"
+}

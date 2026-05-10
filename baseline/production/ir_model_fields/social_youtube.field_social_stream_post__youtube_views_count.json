@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17930,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "YouTube Views",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "youtube_views_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f9ffa542066e1e3a0216df0481e0de3d4e2310219129964ad7212f8a7adcec2d",
+  "write_date": "",
+  "xml_id": "social_youtube.field_social_stream_post__youtube_views_count"
+}

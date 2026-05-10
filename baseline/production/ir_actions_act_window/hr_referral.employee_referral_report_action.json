@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1548,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_year': True\n            }",
+    "domain": false,
+    "name": "Employees Referral Analysis",
+    "res_model": "hr.referral.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "b6bcc20c245410bbd7dd086979653e3f4fe8b2b2b8da0485449cbbdbdf053e8c",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.employee_referral_report_action"
+}

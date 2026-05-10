@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2655,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      343,
+      "Analytic Plan's Applicabilities"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "31eeb22c2bf7b9b86c539813014a8e525cb7dc619e290e4e7a346c94043cb3b8",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_applicability__write_uid"
+}

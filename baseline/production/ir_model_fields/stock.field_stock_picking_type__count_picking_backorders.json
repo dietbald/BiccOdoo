@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11203,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count Picking Backorders",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "count_picking_backorders",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "26685a503a056e9231c30da79e9b0ffa5cff77a04802ad31629f489bb1e8a125",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__count_picking_backorders"
+}

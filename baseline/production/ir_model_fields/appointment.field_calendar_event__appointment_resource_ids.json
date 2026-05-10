@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15331,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appointment Resources",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "appointment_resource_ids",
+    "relation": "appointment.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f09b20089ba354f9ebe2b10ff678d25cc3fb5276602dc9cd3b3492a44cd8ed7a",
+  "write_date": "",
+  "xml_id": "appointment.field_calendar_event__appointment_resource_ids"
+}

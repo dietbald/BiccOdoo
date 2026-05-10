@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13964,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e271ef5f417f4d957b91a3f32a0e4afb5af0a1c9c701f80d3bddda70333f2ea4",
+  "write_date": "",
+  "xml_id": "planning.field_planning_analysis_report__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4368,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Due",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "amount_residual",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "661472dbd869b0b230657cd2826d89467150c19b668d6bfc0bae61882391ef5a",
+  "write_date": "",
+  "xml_id": "account.field_account_move__amount_residual"
+}

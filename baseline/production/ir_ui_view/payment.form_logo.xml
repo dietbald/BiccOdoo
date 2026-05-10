@@ -1,0 +1,7 @@
+<t name="Form Logo" t-name="payment.form_logo">
+        <!-- Parameters description:
+            - logo_pm_sudo: The payment method whose logo to display, as a sudoed `payment.method`
+                            record.
+        -->
+        <span t-field="logo_pm_sudo.image_payment_form" t-options="{'widget': 'image', 'alt-field': 'name'}" class="position-relative d-block rounded overflow-hidden z-1 shadow-sm" t-att-title="logo_pm_sudo.name" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-delay="0"/>
+    </t>

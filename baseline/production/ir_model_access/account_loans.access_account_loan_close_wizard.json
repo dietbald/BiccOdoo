@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1824,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      1478,
+      "Close Loan Wizard"
+    ],
+    "name": "access.account.loan.close.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "95583b8ec162be38a516dc6d4099fffdb7541d9c45bed84e49350f1decbebe2b",
+  "write_date": "2025-12-09 03:00:32",
+  "xml_id": "account_loans.access_account_loan_close_wizard"
+}

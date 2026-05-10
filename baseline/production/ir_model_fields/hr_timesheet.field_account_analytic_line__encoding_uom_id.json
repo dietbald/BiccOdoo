@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13416,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Encoding Uom",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "encoding_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "492a9c4f81201a14fb2cc4ad557722779c3b670989fb8729874058750f08fb2d",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line__encoding_uom_id"
+}

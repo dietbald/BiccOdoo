@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22102,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Sales Price Include",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_price_include",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a10aa96e531b7d648290a7b64069a409ac98281f8dba99ba1bf1e29bea013fe5",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_price_include"
+}

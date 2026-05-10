@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1687,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_groupby_date_to': 1, 'search_default_todo_returns': 1, 'max_number_opened_groups': 100000}",
+    "domain": "[('return_type_category', '=', 'account_return')]",
+    "name": "Tax Return",
+    "res_model": "account.return",
+    "target": "current",
+    "view_mode": "kanban,calendar,search"
+  },
+  "payload_sha256": "eaeb71b714e4fadfc2ecf51f28a588e854a900f0b381a9f13fdc3449b101575f",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.action_view_account_return"
+}

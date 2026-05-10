@@ -1,0 +1,35 @@
+<form string="alert form">
+                <sheet>
+                    <div class="oe_title" name="title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name" placeholder="e.g. Order before 11am"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="mode" widget="radio"/>
+                            <field name="recipients" invisible="mode != 'chat'" widget="radio"/>
+                            <field name="location_ids" widget="many2many_tags" required="1"/>
+                            <field name="until"/>
+                            <field name="active" widget="boolean_toggle"/>
+                        </group>
+                        <group>
+                            <div class="o_td_label">
+                                <label for="notification_time" invisible="mode != 'chat'"/>
+                            </div>
+                            <div class="o_col">
+                                <widget name="week_days"/>
+                                <div class="o_row" invisible="mode != 'chat'">
+                                    <field name="notification_time" required="mode == 'chat'" widget="float_time"/>
+                                    <field name="notification_moment"/>
+                                </div>
+                            </div>
+                            <field name="tz" groups="base.group_no_one"/>
+                        </group>
+                        <group>
+                            <field name="message"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

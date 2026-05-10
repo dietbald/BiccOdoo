@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7008,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      569,
+      "Event Meeting Type"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1acf3d6f74f1c30068547b9c04906d89974591cb1719a2bd8fe50f935f1b0513",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event_type__create_uid"
+}

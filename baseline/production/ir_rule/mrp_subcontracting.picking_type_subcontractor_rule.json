@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 499,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('id', 'in', user.partner_id.commercial_partner_id.picking_ids.picking_type_id.ids), ('id', 'in', user.partner_id.commercial_partner_id.production_ids.picking_type_id.ids)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "Stock Picking Types Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8533f662671105726701e6ec62e51dc92f805558ed297d87e47c34b4055c3f0e",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.picking_type_subcontractor_rule"
+}

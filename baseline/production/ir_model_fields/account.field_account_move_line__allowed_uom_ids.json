@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24815,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Uom",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "allowed_uom_ids",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e95bcc5daba1744a925c89852879d4d589c474e2f7c76cb8df752ca4b5eb5eef",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__allowed_uom_ids"
+}

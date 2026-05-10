@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5003,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Loss Exchange Rate Account",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "expense_currency_exchange_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d1fa3846697d405c4e69c5a731e4ae011e1f9a8dfcc1f466cf52a43f84f23942",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__expense_currency_exchange_account_id"
+}

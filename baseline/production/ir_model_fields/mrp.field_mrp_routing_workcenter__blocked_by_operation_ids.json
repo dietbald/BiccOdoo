@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16002,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blocked By",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "blocked_by_operation_ids",
+    "relation": "mrp.routing.workcenter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3220515f06ef95c3533e3f4e809a1a9f3f63c47ebdd26596264287542bbcd41c",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_routing_workcenter__blocked_by_operation_ids"
+}

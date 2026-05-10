@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4055,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bank Feeds",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "bank_statements_source",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "548748873fa877eb15112a48ecd314031597e8f496d00cad7c431427f8f56769",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__bank_statements_source"
+}

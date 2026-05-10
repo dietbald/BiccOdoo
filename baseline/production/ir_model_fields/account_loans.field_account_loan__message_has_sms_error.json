@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9cce76fc57bd8b1fc9e863a04fee93eda870448532ab0086b70bd2331d627aa5",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__message_has_sms_error"
+}

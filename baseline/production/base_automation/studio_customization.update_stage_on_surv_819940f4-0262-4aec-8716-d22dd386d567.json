@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 8,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1526,
+      1768,
+      1770
+    ],
+    "active": true,
+    "filter_domain": "[\"&\", \"&\", (\"state\", \"=\", \"done\"), (\"applicant_id\", \"!=\", False), (\"applicant_id.stage_id\", \"=\", 2)]",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "Update Stage on First Survey Submission",
+    "trigger": "on_state_set"
+  },
+  "payload_sha256": "1c95e6e5a4eb89d54d10df791f78005cf2a667ad86c160397013a1f8d26bf7b5",
+  "write_date": "2026-01-28 12:45:53",
+  "xml_id": "studio_customization.update_stage_on_surv_819940f4-0262-4aec-8716-d22dd386d567"
+}

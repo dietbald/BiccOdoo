@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21313,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outlook Refresh Token",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "microsoft_outlook_refresh_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "f55eef5c11d70377102e96843290373d3df0730d19e1866e096a0a099b511d77",
+  "write_date": "",
+  "xml_id": "microsoft_outlook.field_ir_mail_server__microsoft_outlook_refresh_token"
+}

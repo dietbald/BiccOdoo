@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9516,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Buyer",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ebdc3e88d65fc8c6e9ebdb236c6bb4768814c63c6e519ae6030adc0864e5fcc3",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__user_id"
+}

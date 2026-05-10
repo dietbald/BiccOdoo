@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 769,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_filter_not_is_article_item': 1}",
+    "domain": "[('is_template', '=', False)]",
+    "name": "Articles",
+    "res_model": "knowledge.article",
+    "target": "current",
+    "view_mode": "list,kanban,hierarchy,form"
+  },
+  "payload_sha256": "d346604132cb916bcf607d4dbdb68e00a2fc392cd673dcfa7389bd7cb4a8dba0",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.knowledge_article_action"
+}

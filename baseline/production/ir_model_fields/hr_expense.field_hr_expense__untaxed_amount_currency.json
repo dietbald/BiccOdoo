@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9167,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Untaxed Amount In Currency",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "untaxed_amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "e2c15c8f68a54118479ccc9dfafc55299d46d4dc049048565cf0bdbefe26711d",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__untaxed_amount_currency"
+}

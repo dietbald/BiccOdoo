@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2131,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partners with Need Action",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "notified_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c4889cb1f537c2f2c6be1030352487f84bfa682beb65db019bd3d6588914b04c",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__notified_partner_ids"
+}

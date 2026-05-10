@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 53,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n    <p style=\"box-sizing:border-box;margin: 0px; padding: 0px; font-size: 13px;\">\n        Dear <t t-out=\"object.partner_id.name or 'applicant'\">[applicant name]</t><br><br>\n        <t>\n            You've progressed through the recruitment process and we would like you to answer some questions.\n        </t>\n        </p><div style=\"margin: 16px 0px 16px 0px;\">\n            <a t-att-href=\"(object.get_start_url())\" style=\"box-sizing:border-box;background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n                <t>\n                    Start the written interview\n                </t>\n            </a>\n        </div>\n        <t t-if=\"object.deadline\">\n            Please answer the interview on or before <t t-out=\"format_date(object.deadline)\">[deadline date]</t>.<br><br>\n        </t>\n        <t>\n            We wish you good luck! Thank you in advance for your participation.\n        </t>\n    <p style=\"margin:0px 0 16px 0;box-sizing:border-box;\"></p>\n</div>\n            ",
+    "email_from": false,
+    "email_to": "{{ (object.partner_id.email_formatted or object.email) }}",
+    "lang": false,
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "Applicant: Interview",
+    "subject": "Participate to {{ object.survey_id.display_name }} interview"
+  },
+  "payload_sha256": "c1ee50822e06d5be9792a5fc39491d1bbb123a3c9c6f3c0b677e0730bee6cd64",
+  "write_date": "2024-05-22 14:09:34",
+  "xml_id": "hr_recruitment_survey.mail_template_applicant_interview_invite"
+}

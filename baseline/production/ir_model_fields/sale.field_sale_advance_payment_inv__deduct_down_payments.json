@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8372,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deduct down payments",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "deduct_down_payments",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8f961370298956bb34a293a825bad0eacd239eaa9c0fcd7fda164e53b52e0180",
+  "write_date": "",
+  "xml_id": "sale.field_sale_advance_payment_inv__deduct_down_payments"
+}

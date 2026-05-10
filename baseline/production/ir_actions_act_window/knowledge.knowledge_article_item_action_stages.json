@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 774,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('parent_id', '=', active_id), ('is_article_item', '=', True)]",
+    "name": "Article Items",
+    "res_model": "knowledge.article",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "ad4b1240a7197ba0cfae6649a0cf63b560edeabde9d02f5eeb1ade0a62948daa",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.knowledge_article_item_action_stages"
+}

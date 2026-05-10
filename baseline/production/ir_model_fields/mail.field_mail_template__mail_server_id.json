@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outgoing Mail Server",
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "mail_server_id",
+    "relation": "ir.mail_server",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e78b2aaa0459f9443ec47334364f575470f4f35f3b20df977adc9d0090fc51a8",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template__mail_server_id"
+}

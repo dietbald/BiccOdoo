@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 748,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Initial stack trace",
+    "model_id": [
+      74,
+      "Allow profiling only to Tech Support level"
+    ],
+    "name": "init_stack_trace",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "6f660bb1cac2368e9d6202fc1e4ecabf60299a7e42ae265540ffebf093498120",
+  "write_date": "",
+  "xml_id": "base.field_ir_profile__init_stack_trace"
+}

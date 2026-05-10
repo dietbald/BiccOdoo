@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12314,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can the user see the article?",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "is_article_visible",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ee7d17b448adcb322031be163270a213907f9c39704ac3c4a6a21decb2796f10",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__is_article_visible"
+}

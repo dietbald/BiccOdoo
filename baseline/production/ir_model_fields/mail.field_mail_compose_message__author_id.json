@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2491,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Author",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "author_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9ad4c5bb6e18c0db476f5c7c20a0a4443ab424e3a38541e3b18f9c62954a2332",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__author_id"
+}

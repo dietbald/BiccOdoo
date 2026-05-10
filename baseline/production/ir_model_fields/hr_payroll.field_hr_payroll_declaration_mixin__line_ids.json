@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13147,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Declarations",
+    "model_id": [
+      832,
+      "Payroll Declaration Mixin"
+    ],
+    "name": "line_ids",
+    "relation": "hr.payroll.employee.declaration",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f3d6cf7c84b08c1c95a4911efcd95b87f77082a7cec9e67a2bd053f6aa969d5c",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_declaration_mixin__line_ids"
+}

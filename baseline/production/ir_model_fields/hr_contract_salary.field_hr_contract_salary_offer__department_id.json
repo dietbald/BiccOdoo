@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21196,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff38a03b18ceff59c3e257fb471e6365a879347ce1056d8f7278c9689d7f8fa0",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__department_id"
+}

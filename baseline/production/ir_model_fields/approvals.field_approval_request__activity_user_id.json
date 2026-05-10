@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12106,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e02ea2e137e8a2f06afb9ab4c6c6f0732dd86b7cff020624b4546524244e435d",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__activity_user_id"
+}

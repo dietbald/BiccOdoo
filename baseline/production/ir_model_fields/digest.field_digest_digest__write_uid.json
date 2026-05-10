@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3605,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      405,
+      "Digest"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bf9f55339548580108f4868756ff6658409305efcb8dc72e8ed2323b6814a019",
+  "write_date": "",
+  "xml_id": "digest.field_digest_digest__write_uid"
+}

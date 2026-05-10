@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1637,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1127,
+      "Device Log"
+    ],
+    "name": "access_res_device_log",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8fc1cac1a115e39b12db189581b87f7b1924a96a342b6a943a2809f9727b0028",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_device_log"
+}

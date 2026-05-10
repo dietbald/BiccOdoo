@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4260,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discount %",
+    "model_id": [
+      432,
+      "Payment Terms"
+    ],
+    "name": "discount_percentage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "acd8596984fef8e97020629c2bcad4cd591ae35280c1984bc1b20edf5431d5e6",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term__discount_percentage"
+}

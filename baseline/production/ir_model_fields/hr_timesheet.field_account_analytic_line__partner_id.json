@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2694,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a5941cf2b8d91ff8379338ffaf6ae85701d6b30007ab1eb39500e79b0274f05f",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line__partner_id"
+}

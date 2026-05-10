@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23303,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      1445,
+      "Wizard for duplicate transactions"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9744550aa71074633fb1bff84cbf312167183bddb081bde92deea2db9a527db3",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_duplicate_transaction_wizard__journal_id"
+}

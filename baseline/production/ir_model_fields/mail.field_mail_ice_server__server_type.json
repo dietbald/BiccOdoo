@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2200,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type",
+    "model_id": [
+      179,
+      "ICE Server"
+    ],
+    "name": "server_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7af8cfeda4eb75bfdbce36cebea4c13ab64a868eac73c3d08aff33a3dffe3798",
+  "write_date": "",
+  "xml_id": "mail.field_mail_ice_server__server_type"
+}

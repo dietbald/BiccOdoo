@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 558,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('employee_id', '=', user.employee_id.id)\n            ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1100,
+      "Employee Location"
+    ],
+    "name": "homeworking: own",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "43a8e3aa0d9bd43d404252a3589f53dbc10a276fff38f29a894ede2e88d67a89",
+  "write_date": "2024-10-22 01:48:09",
+  "xml_id": "hr_homeworking.homeworking_own_rule"
+}

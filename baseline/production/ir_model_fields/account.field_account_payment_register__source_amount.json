@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5373,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount to Pay (company currency)",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "source_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "1e13ce1dc703b71c4eabfa3058205b190525c0ad2989a497035097cffa108535",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__source_amount"
+}

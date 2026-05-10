@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1666,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "survey.user_input.recruitment.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1c93a2ef966ba93543bfcb4624f6058bc45ad0a77d261587d26537b561774181",
+  "write_date": "2026-01-28 12:01:54",
+  "xml_id": "hr_recruitment_survey.access_survey_user_input_recruitment_user"
+}

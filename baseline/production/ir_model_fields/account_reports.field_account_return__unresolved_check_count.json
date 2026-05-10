@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28926,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Issues",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "unresolved_check_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "1b8e8cca691bfd9d1076545fb09dc17055f633028b88a8337bff575d654a54cb",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__unresolved_check_count"
+}

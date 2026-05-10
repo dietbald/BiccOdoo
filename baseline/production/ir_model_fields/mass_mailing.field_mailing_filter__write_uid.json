@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14283,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      895,
+      "Mailing Favorite Filters"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "33ac958fed8c75c91bfe6eccf2d57d4ceebc6158d57c704be88c866f30c541e5",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_filter__write_uid"
+}

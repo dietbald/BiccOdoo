@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7218,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected Closing",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "be5ce4dd280f710bb89c808e6969021a1ed3287366802723eb93a27f871803df",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__date_deadline"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16156,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bill of Material",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "bom_id",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4f7379dfde595089529819944a645c8f5edcd4e685779c1d20b0a6cc945e1da9",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__bom_id"
+}

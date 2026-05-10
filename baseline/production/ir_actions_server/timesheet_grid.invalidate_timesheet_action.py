@@ -1,0 +1,1 @@
+action = records.action_invalidate_timesheet()

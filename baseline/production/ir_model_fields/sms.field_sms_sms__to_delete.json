@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3404,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Marked for deletion",
+    "model_id": [
+      394,
+      "Outgoing SMS"
+    ],
+    "name": "to_delete",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4f2fdf6b9570790c4017023ce1975c7e64131bed714ca0028f920b31ea70f8e3",
+  "write_date": "",
+  "xml_id": "sms.field_sms_sms__to_delete"
+}

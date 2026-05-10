@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28350,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Schedule",
+    "model_id": [
+      3428,
+      "Overtime Rule"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b44416ef5a2ef36e35c3c958bd448b4035eea9c6f1d324ee104abc0d0eef8cf9",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance_overtime_rule__resource_calendar_id"
+}

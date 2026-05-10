@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5108,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Multi-Company",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "filter_multi_company",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "87ce6a1d3b75080f6a75323e3737a84b0bc513de02facbb067fad5ef84b5c79f",
+  "write_date": "",
+  "xml_id": "account.field_account_report__filter_multi_company"
+}

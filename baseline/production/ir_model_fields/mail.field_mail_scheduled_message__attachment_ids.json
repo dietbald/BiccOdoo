@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21545,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      1329,
+      "Scheduled Message"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d0d3540425580316d5955206ab18e63898a287b6cff1123a42e33d71aac2fc2a",
+  "write_date": "",
+  "xml_id": "mail.field_mail_scheduled_message__attachment_ids"
+}

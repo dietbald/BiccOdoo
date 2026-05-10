@@ -1,0 +1,6 @@
+<list editable="bottom" create="1" delete="1" decoration-muted="not active" open_form_view="True">
+                    <field name="sequence" widget="handle"/>
+                    <field name="name" readonly="1"/>
+                    <field name="country_id" readonly="1"/>
+                    <field name="active" widget="boolean_toggle"/>
+                </list>

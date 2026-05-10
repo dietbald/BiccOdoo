@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dd48dc00fe3c996ed0eb4351e269ba74bc02ad48f284fd270ae71df3329f2f05",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__product_id"
+}

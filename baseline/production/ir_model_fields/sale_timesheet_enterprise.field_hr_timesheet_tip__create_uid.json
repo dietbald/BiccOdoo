@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13684,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      856,
+      "Timesheets Leaderboard Tip"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7a76b6837ae71c18e5e9be40f623d3c5bd6edec44a036ad0e390084d6a917b19",
+  "write_date": "",
+  "xml_id": "sale_timesheet_enterprise.field_hr_timesheet_tip__create_uid"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 223,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'mail_post_autofollow': True, 'default_composition_mode': 'comment', 'default_template_id': 9, 'default_email_layout_xmlid': 'mail.mail_notification_light'}",
+    "domain": false,
+    "name": "Send receipt by email",
+    "res_model": "mail.compose.message",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "a68b5454c534d8d501428ddc7a1cf2e96926168c3a1e2688386db90b3277b50c",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_send_payment_receipt_by_email_action"
+}

@@ -1,0 +1,5 @@
+<search position="inside">
+                <separator/>
+                <filter name="quotation" string="Quotation" domain="[('attached_on_sale', '=', 'quotation')]"/>
+                <filter name="sale_order" string="Sales Order" domain="[('attached_on_sale', '=', 'sale_order')]"/>
+            </search>

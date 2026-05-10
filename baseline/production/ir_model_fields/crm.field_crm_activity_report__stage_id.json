@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7372,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      582,
+      "CRM Activity Analysis"
+    ],
+    "name": "stage_id",
+    "relation": "crm.stage",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "54ad6d69a675e7230742a5534f26024135400a590a80b3fb6c7cd1cfe663f473",
+  "write_date": "",
+  "xml_id": "crm.field_crm_activity_report__stage_id"
+}

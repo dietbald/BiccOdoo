@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12122,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "260744ff7622bbedd1af73cbf9b0d1be201891a7084e8b50ad402478766c9454",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__message_has_error"
+}

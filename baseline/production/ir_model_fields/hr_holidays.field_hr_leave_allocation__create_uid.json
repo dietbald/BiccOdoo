@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15627,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "814a21b3e77c737cb529de7cbf825b7d2b0530119bf3650e8842d6643a6e2e04",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__create_uid"
+}

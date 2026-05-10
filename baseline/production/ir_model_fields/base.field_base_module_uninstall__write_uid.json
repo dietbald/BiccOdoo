@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1298,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      113,
+      "Module Uninstall"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d106dca5aae0dde51d15de4ee8b2126574cca7bb2d13996aae6c6c784096dddd",
+  "write_date": "",
+  "xml_id": "base.field_base_module_uninstall__write_uid"
+}

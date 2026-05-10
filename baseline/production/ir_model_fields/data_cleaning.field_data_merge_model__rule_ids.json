@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15069,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deduplication Rules",
+    "model_id": [
+      930,
+      "Deduplication Model"
+    ],
+    "name": "rule_ids",
+    "relation": "data_merge.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "04516c5423a7a84f745348fa8912026952fac7da7a7e8ae113eab95d88d52a57",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_merge_model__rule_ids"
+}

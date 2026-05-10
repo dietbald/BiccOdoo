@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16314,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# of BoM Where is Used",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "used_in_bom_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2839d3639aed16f89cbde8f7e3cbc526d7e6f7738cfee9ee4298d954cf1da597",
+  "write_date": "",
+  "xml_id": "mrp.field_product_template__used_in_bom_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11565,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      750,
+      "Traceability Report"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "12c074d2d32989920c39c3c063bb3670e36385b7d31957088c985c2d473f97fe",
+  "write_date": "",
+  "xml_id": "stock.field_stock_traceability_report__write_uid"
+}

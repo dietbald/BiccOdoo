@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7581,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7bf7f21ba3c68de00dd960d2ff9590f8604ec84deca2d8e77b55841fcdab4ac4",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__rating_ids"
+}

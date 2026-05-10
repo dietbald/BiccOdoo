@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1461,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      125,
+      "Quality / Administrator"
+    ],
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "quality.alert",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f9efd044e7dc47ea3c23c5f50bb52ef6c95034e2acaaf04775c20f0baa8eaa74",
+  "write_date": "2025-12-09 02:58:46",
+  "xml_id": "quality.access_quality_alert_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29394,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wage Type",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "wage_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "93f624283e6356ed55abf8f26f8e98128e755b6a66367d4dda63e767f6a866f2",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__wage_type"
+}

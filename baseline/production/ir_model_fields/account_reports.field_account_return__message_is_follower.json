@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28889,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "14634399602ffa3255308ebb31c0cefb3a96fd24af563e9370598df9a630e492",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__message_is_follower"
+}

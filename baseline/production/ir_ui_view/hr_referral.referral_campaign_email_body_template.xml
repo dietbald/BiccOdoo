@@ -1,0 +1,14 @@
+<t t-name="hr_referral.referral_campaign_email_body_template">
+            Hello <t t-esc="employee_name"/>,
+            <br/>
+            <br/>
+            <span>
+                Our company is hiring for a <t t-esc="job_id.name"/> position.
+                If you know someone who would be a great fit for this position, please share this link with them:
+            </span>
+            <br/>
+            <a t-att-href="job_url"><t t-esc="job_url"/></a>
+            <br/>
+            <br/>
+            Thanks!
+        </t>

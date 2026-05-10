@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7715,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Milestones",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "allow_milestones",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8480d6a48f9f03d1ef2e6455d27c790ea6daea15dfcb46c3d890312d75c62c68",
+  "write_date": "",
+  "xml_id": "project.field_project_task__allow_milestones"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1000,
+      "Fleet Service Type"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d472f352954be916115ef2b65dcd5b5db567e663f0e48af31218dc5d2e8d4087",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_service_type__write_uid"
+}

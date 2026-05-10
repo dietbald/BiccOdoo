@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1045,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_workcenter_id': active_id}",
+    "domain": false,
+    "name": "Block Workcenter",
+    "res_model": "mrp.workcenter.productivity",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "0b1919416e1317b689715fb89fcface4b2d57459fa13e7db8d26e7c4751d4652",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.act_mrp_block_workcenter"
+}

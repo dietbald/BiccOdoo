@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4131,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d27e1dd84d7cfa6a42c4cfa4c63365a1784fa6cf77acadd09600698f8095cccc",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__country_id"
+}

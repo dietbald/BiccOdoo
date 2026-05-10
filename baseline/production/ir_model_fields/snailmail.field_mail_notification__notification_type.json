@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1849,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notification Type",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "notification_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d96b5c893d0ab0ac3f750b9ff56fe8dcf96c6f6098b16cb8bc1a21be6ede6fe5",
+  "write_date": "",
+  "xml_id": "snailmail.field_mail_notification__notification_type"
+}

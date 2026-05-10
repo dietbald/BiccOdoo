@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19108,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Method",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "payment_method_id",
+    "relation": "account.payment.method",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e43d9ccef726ce523b8a694d2a2b54c1d6c882b5ff91e707272a66987f86651e",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__payment_method_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26342,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      2739,
+      "Cryptographic Keys"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "87f58d94e305c337822f08e54937fad3d7f0abb6955e860b82305549b06aef50",
+  "write_date": "",
+  "xml_id": "certificate.field_certificate_key__company_id"
+}

@@ -1,0 +1,183 @@
+<t t-name="mass_mailing_themes.theme_magazine_template">
+        <style id="design-element">
+            .o_layout .o_mail_wrapper .o_mail_wrapper_td {
+                --h1-font-weight: bolder;
+                --h1-font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+                --h2-font-size: 18px;
+                --h2-font-weight: bolder;
+                --h2-font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+                --h3-font-size: 14px;
+                --h3-font-weight: bolder;
+                --h3-color: #ffffff;
+                --h3-font-family: Tahoma, Verdana, Segoe, sans-serif;
+
+                --text-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+                --link-color: #6c757d;
+
+                --separator-border-color: #ced4da !important;
+            }
+        </style>
+        <t t-set="now" t-value="datetime.datetime.now()"/>
+        <section class="s_header_logo o_mail_block_header_logo o_mail_snippet_general bg-white pt32 pb16" data-vxml="001" data-snippet="s_mail_block_header_logo" data-name="Centered Logo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <p style="text-align: center;"><t t-out="now.strftime('%b')"/>
+                        <br/><span style="font-weight: bolder;"><t t-out="now.strftime('%Y')"/></span></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 style="text-align:center;">
+                            THE DAILY
+                        </h1>
+                    </div>
+                    <div class="col-md-3">
+                        <p style="text-align: center;">Issue
+                            <br/><span style="font-weight: bolder;">#42</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="s_hr o_mail_snippet_general pb32" data-vxml="001" data-snippet="s_hr" data-name="Separator">
+            <hr class="s_hr_1px s_hr_solid"/>
+        </div>
+        <section class="s_text_image o_mail_snippet_general" data-vxml="001" data-snippet="s_text_image" data-name="Image - Text">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-8 px-0">
+                        <img src="/mass_mailing_themes/static/src/img/theme_magazine/s_default_image_image_text.jpg" class="img w-100"/>
+                    </div>
+                    <div class="col-md-4 o_cc pt0 pb0">
+                        <h2 style="text-align: center;">IN THIS ISSUE</h2>
+                        <div class="s_hr o_mail_snippet_general pt16 pb16" data-vxml="001" data-snippet="s_hr" data-name="Separator">
+                            <hr class="s_hr_1px s_hr_solid"/>
+                        </div>
+                        <p>
+                            <a class="btn btn-link" style="text-align:left" href="#">
+                                Interview with Janet James&amp;nbsp;
+                                <span class="fa fa-angle-right"/>
+                            </a>
+                            <br/>
+                            <a class="btn btn-link" style="text-align:left" href="#">
+                                Destinations for an eco-holiday&amp;nbsp;
+                                <span class="fa fa-angle-right"/>
+                            </a>
+                            <br/>
+                            <a class="btn btn-link" style="text-align:left" href="#">
+                                Top 5 energy-boosting morning routines&amp;nbsp;
+                                <span class="fa fa-angle-right"/>
+                            </a>
+                            <br/>
+                            <a class="btn btn-link" style="text-align:left" href="#">
+                                Delicious recipes from around the world&amp;nbsp;
+                                <span class="fa fa-angle-right"/>
+                            </a>
+                            <br/>
+                            <a class="btn btn-link" style="text-align:left" href="#">
+                                Rainy day ideas&amp;nbsp;
+                                <span class="fa fa-angle-right"/>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="s_hr o_mail_snippet_general pt32 pb32" data-vxml="001" data-snippet="s_hr" data-name="Separator">
+            <hr class="s_hr_1px s_hr_solid"/>
+        </div>
+        <section class="s_mail_product_list o_mail_snippet_general pt0" data-vxml="001" data-snippet="s_product_list" data-name="Items">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 o_cc">
+                        <h3><font style="background-color: rgb(231, 148, 57);">TRAVEL</font></h3>
+                        <p class="md-0"><a href="#">
+                            <img class="img-fluid o_we_custom_image" src="/mass_mailing_themes/static/src/img/theme_magazine/s_default_image_product_2.jpg" alt="Man on a rock looking at mountains in the distance" style="width: 100% !important; padding: 15px 0px;"/>
+                        </a></p>
+                        <h2 style="text-align: left;">Destinations for an eco-holiday</h2>
+                        <p style="text-align: left;">Bitten by the travel bug but looking to travel consciously? Eco-travel is the way forward.</p>
+                        <p style="text-align: right;">
+                            <a href="#" class="btn btn-link">
+                                Find out more&amp;nbsp;<span class="fa fa-angle-right"/>
+                            </a>
+                        </p>
+                    </div>
+                    <div class="col-md-6 o_cc">
+                        <h3><font style="background-color: rgb(231, 99, 99);">LIFESTYLE</font></h3>
+                        <p class="md-0"><a href="#">
+                            <img class="img-fluid o_we_custom_image" src="/mass_mailing_themes/static/src/img/theme_magazine/s_default_image_product_1.jpg" alt="Woman having breakfast in bed" style="width: 100% !important; padding: 15px 0px;"/>
+                        </a></p>
+                        <h2 style="text-align: left;">Top 5 energy-boosting morning routines</h2>
+                        <p style="text-align: left;">Imagine waking up with more energy, more flexibility, with less stress and fewer instances of anxiously rushing out the door.</p>
+                        <p style="text-align: right;">
+                            <a href="#" class="btn btn-link">
+                                Find out more&amp;nbsp;<span class="fa fa-angle-right"/>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="s_hr o_mail_snippet_general pt16 pb32" data-vxml="001" data-snippet="s_hr" data-name="Separator">
+            <hr class="s_hr_1px s_hr_solid"/>
+        </div>
+        <section class="s_text_image o_mail_snippet_general" data-vxml="001" data-snippet="s_text_image" data-name="Text - Image">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 o_cc pt16 pb16">
+                        <h3 style="text-align: left;"><font style="background-color: rgb(57, 123, 33);">FOOD</font></h3>
+                        <h2>Delicious recipes from around the world</h2>
+                        <p>Travel without leaving your kitchen with these international recipes. From Canada to Australia, Mexico to Sweden, and everywhere in between.</p>
+                        <div style="text-align:right">
+                            <a href="#" class="btn btn-link">
+                                Read More&amp;nbsp;<span class="fa fa-angle-right"/>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 px-0">
+                        <img src="/mass_mailing_themes/static/src/img/theme_magazine/s_default_image_image_text_2.jpg" class="img w-100"/>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="s_hr o_mail_snippet_general pt32 pb16" data-vxml="001" data-snippet="s_hr" data-name="Separator">
+            <hr class="s_hr_1px s_hr_solid"/>
+        </div>
+        <section class="s_footer_social o_mail_block_footer_social o_mail_footer_social_center o_mail_snippet_general pt16 pb16" data-vxml="001" data-snippet="s_mail_block_footer_social" data-name="Footer Center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center;" t-translation="off">
+                        <a aria-label="Facebook" title="Facebook" href="https://www.facebook.com/Odoo">
+                            <span class="fa fa-facebook"/>
+                        </a>&amp;nbsp;&amp;nbsp;
+                        <a style="margin-left:10px" aria-label="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/company/odoo">
+                            <span class="fa fa-linkedin"/>
+                        </a>&amp;nbsp;&amp;nbsp;
+                        <a style="margin-left:10px" aria-label="X" title="X" href="https://twitter.com/Odoo">
+                            <span class="fa fa-twitter"/>
+                        </a>&amp;nbsp;&amp;nbsp;
+                        <a style="margin-left:10px" aria-label="Instagram" title="Instagram" href="https://www.instagram.com/explore/tags/odoo/">
+                            <span class="fa fa-instagram"/>
+                        </a>&amp;nbsp;&amp;nbsp;
+                        <a style="margin-left:10px" aria-label="TikTok" title="TikTok" href="https://www.tiktok.com/@odoo">
+                            <span class="fa fa-tiktok"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 o_mail_footer_links pt8 pb8" style="text-align: center;">
+                        <a role="button" href="/unsubscribe_from_list" class="btn btn-link">Unsubscribe</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p style="text-align: center;">
+                            © <t t-out="now.strftime('%Y')"/> All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </t>

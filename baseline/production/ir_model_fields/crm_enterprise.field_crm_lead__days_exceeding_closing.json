@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7438,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Exceeded Closing Days",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "days_exceeding_closing",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a5057795c18d40ba98b15c3d5f4d170808dbe072a88b15f4a2788f3841ea9d87",
+  "write_date": "",
+  "xml_id": "crm_enterprise.field_crm_lead__days_exceeding_closing"
+}

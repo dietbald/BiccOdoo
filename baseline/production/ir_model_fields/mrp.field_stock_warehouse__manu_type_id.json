@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16391,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manufacturing Operation Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "manu_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3f5019826e646b9c1f359c92596d968e021446283f8421712d164f9fc55497ce",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_warehouse__manu_type_id"
+}

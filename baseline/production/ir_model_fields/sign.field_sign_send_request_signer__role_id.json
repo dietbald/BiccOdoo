@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10711,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Role",
+    "model_id": [
+      718,
+      "Sign send request signer"
+    ],
+    "name": "role_id",
+    "relation": "sign.item.role",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0ce8ec7c43da45935afc31220481b3ef3a3383ccbb191eb194bef1a64d31f11f",
+  "write_date": "",
+  "xml_id": "sign.field_sign_send_request_signer__role_id"
+}

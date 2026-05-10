@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7617,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      596,
+      "Project Stage"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7d6cf20f914ea0f33b6a6c2a56ff1ece6009b790949bb86f141d2892ef1c90ae",
+  "write_date": "",
+  "xml_id": "project.field_project_project_stage__write_uid"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1109,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      794,
+      "Knowledge Invite Wizard"
+    ],
+    "name": "access.knowledge.invite.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "5adc3dc0f10bcd7ec9a87ca2aa982191130990b296d02c4b1ad11b4bf0457416",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.access_knowledge_invite_user"
+}

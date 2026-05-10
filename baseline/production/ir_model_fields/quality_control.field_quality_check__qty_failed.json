@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23423,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity Failed",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "qty_failed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d1e9c18e1d8fad8a1f7bc1497bf738e7ef88bcbf0babda1c619a1edc0b2582cb",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check__qty_failed"
+}

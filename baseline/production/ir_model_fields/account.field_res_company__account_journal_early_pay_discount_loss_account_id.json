@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cash Discount Write-Off Loss Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_journal_early_pay_discount_loss_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eeb57146bd2058b266dec2413713bfd3be26dda510ca130052181108dc3ff6d1",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_journal_early_pay_discount_loss_account_id"
+}

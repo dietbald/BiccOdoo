@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17863,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "X OAuth Token",
+    "model_id": [
+      1024,
+      "Social Account"
+    ],
+    "name": "twitter_oauth_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ac206c1daab77c03672f9e2f9fd09cdef1e20a8ef49421d748f50b157588ff6d",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_account__twitter_oauth_token"
+}

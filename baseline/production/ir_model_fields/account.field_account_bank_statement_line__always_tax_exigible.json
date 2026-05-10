@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4814,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Always Tax Exigible",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "always_tax_exigible",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e8841c84bc0a7e92396291182478e92384c35c801ef05f87798475a3d397f695",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__always_tax_exigible"
+}

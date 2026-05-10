@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13414,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8fcf3e14c257628c4bd5acfb602c53756ddcb4f8694e14aaa16c333b719575da",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line__department_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10004,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Model Data",
+    "model_id": [
+      686,
+      "Page"
+    ],
+    "name": "model_data_id",
+    "relation": "ir.model.data",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b2e3f2d9b1effff4c0ee66746d95b8f709634bb13f147ef8ff3b5125ab35ca48",
+  "write_date": "",
+  "xml_id": "website.field_website_page__model_data_id"
+}

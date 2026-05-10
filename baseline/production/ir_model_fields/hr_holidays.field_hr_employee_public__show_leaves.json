@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15812,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Able to see Remaining Time Off",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "show_leaves",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9a8759eeea4c62b6191b21b2f8ea52d1b6e956a7ca91c458650009753588a477",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_employee_public__show_leaves"
+}

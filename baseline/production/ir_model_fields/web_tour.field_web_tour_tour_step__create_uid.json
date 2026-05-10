@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21495,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1321,
+      "Tour's step"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "052d2fa1d9483613078dbcd3f451bbb6c9a40fdbac3fc4950a14c113b5200706",
+  "write_date": "",
+  "xml_id": "web_tour.field_web_tour_tour_step__create_uid"
+}

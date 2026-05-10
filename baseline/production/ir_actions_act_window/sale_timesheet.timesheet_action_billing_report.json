@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 887,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('project_id', '!=', False)]",
+    "name": "Timesheets by Billing Type",
+    "res_model": "timesheets.analysis.report",
+    "target": "current",
+    "view_mode": "pivot,graph"
+  },
+  "payload_sha256": "843404509e5efa2f6db2297b4c71c3b4fa797d0a0e53e00a4139eb5b1353e8e8",
+  "write_date": "2025-12-09 03:00:38",
+  "xml_id": "sale_timesheet.timesheet_action_billing_report"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6994,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Me",
+    "model_id": [
+      568,
+      "Calendar Filters"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "525cae7b5307c09b6b35037bf121bd72c4ce6a5d19ae1992bbe931b5c0c4b6ab",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_filters__user_id"
+}

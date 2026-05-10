@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12944,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a12005dfc50ecc887afc9d5777464406437da7eaa3dad5a6c163cf85838b5334",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__partner_id"
+}

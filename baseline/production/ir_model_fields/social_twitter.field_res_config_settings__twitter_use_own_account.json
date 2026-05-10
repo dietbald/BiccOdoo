@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17859,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use your own X Account",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "twitter_use_own_account",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8fb436b26dc6d4bd96887acf5d7995eac8b4d5e6b4ecc72c4cc1f4faeec1629d",
+  "write_date": "",
+  "xml_id": "social_twitter.field_res_config_settings__twitter_use_own_account"
+}

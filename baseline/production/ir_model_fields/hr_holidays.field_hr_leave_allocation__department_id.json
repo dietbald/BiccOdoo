@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15614,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "80b69aed3dc57ef6f46031b203dfa13e002399934a7e783204d2a2832616ab1e",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__department_id"
+}

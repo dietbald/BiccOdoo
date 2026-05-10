@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 6,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id','=',user.id)]",
+    "groups": [],
+    "model_id": [
+      15,
+      "Custom View"
+    ],
+    "name": "ir.ui.view_custom rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0409bcdce99e53d8268dd5cf6887bf516cdb11f133977ca5d9ef3b3ec58092b1",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.ir_ui_view_custom_personal"
+}

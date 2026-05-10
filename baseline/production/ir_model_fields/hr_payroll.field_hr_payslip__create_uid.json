@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12924,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f79888785c7556c4555f49d26b1df5abe7bfa7ad1e92d667001505d7b4ea9cf9",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__create_uid"
+}

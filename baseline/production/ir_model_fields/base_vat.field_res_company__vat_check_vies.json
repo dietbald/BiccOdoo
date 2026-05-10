@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6703,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Verify VAT Numbers",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "vat_check_vies",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8d2fb14cf3b3f4d7dc79d0f5781a710d5b3ba9f76813fd63e9b363a28283a7d3",
+  "write_date": "",
+  "xml_id": "base_vat.field_res_company__vat_check_vies"
+}

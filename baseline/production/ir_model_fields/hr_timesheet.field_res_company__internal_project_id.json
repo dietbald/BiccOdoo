@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13420,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Internal Project",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "internal_project_id",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6419efadec5624fe8196c9e4c032b84f0252eaf9e9b1d5967a5a8d536884d160",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_res_company__internal_project_id"
+}

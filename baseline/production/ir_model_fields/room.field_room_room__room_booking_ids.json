@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16796,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bookings",
+    "model_id": [
+      995,
+      "Room"
+    ],
+    "name": "room_booking_ids",
+    "relation": "room.booking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "3aef3562c947ddee452b30f82bee2491bc42de001ebe4c7ea6a528879d92e20e",
+  "write_date": "",
+  "xml_id": "room.field_room_room__room_booking_ids"
+}

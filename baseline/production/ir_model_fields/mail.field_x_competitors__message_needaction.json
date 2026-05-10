@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      2743,
+      "Competitors"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "34256e7151bd33ad1f733fa1b160901b0b057403c864bff32d1d609ca2427ec1",
+  "write_date": "",
+  "xml_id": "mail.field_x_competitors__message_needaction"
+}

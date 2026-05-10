@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Collaborator",
+    "model_id": [
+      605,
+      "Collaborators in project shared"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "75af688c9f6635f24fb56aab2988609281546d13b6980167cdb680774eaab500",
+  "write_date": "",
+  "xml_id": "project.field_project_collaborator__partner_id"
+}

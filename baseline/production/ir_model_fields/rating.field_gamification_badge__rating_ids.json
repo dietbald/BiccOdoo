@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14472,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "16aaebb2122d72f977757a44e9c4ad91f14bcaf437e3c8754a7bfe9012f45d79",
+  "write_date": "",
+  "xml_id": "rating.field_gamification_badge__rating_ids"
+}

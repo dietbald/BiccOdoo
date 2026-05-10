@@ -1,0 +1,3 @@
+<field name="planning_overlap" position="after">
+                <field name="leave_warning" class="text-danger mb-2" invisible="not context.get('is_form_gantt', False)"/>
+            </field>

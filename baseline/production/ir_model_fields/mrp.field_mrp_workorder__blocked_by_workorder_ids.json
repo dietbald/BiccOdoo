@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16303,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blocked By",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "blocked_by_workorder_ids",
+    "relation": "mrp.workorder",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5e8834bc797fadd847f41afd79290353c1a88f3d3864101be0ff4db4aa540581",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__blocked_by_workorder_ids"
+}

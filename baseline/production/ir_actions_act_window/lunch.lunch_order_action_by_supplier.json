@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1223,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\"search_default_group_by_supplier\":1, \"search_default_date_filter\":1}",
+    "domain": false,
+    "name": "Today's Orders",
+    "res_model": "lunch.order",
+    "target": "current",
+    "view_mode": "list,kanban"
+  },
+  "payload_sha256": "3f2f0fe2fd90c3d0fc987440fd9c9b83e32bd53e08091e4d078f6e1c98c7b846",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.lunch_order_action_by_supplier"
+}

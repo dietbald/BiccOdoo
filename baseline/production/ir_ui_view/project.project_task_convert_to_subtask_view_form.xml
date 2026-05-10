@@ -1,0 +1,14 @@
+<form>
+                    <div class="text-muted o_row mb-3">
+                        To transform a task into a sub-task, select a parent task. Alternatively, leave the parent task field blank to convert a sub-task into a standalone task.
+                    </div>
+                    <group>
+                        <field name="project_id" invisible="1"/>
+                        <field name="company_id" invisible="1"/>
+                        <field name="parent_id" domain="[('id', '!=', id), '!', ('id', 'child_of', id)]" context="{'search_default_project_id': project_id, 'search_default_open_tasks': 1, 'default_is_template': is_template}"/>
+                    </group>
+                    <footer>
+                        <button string="Convert Task" class="btn-primary" special="save" data-hotkey="q"/>
+                        <button string="Discard" class="btn-secondary" special="cancel" data-hotkey="z"/>
+                    </footer>
+                </form>

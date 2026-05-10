@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4015,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "69e783d6cc848e8e0640b628598319542ba3f9f303ac3486f1e382721fb88643",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__message_needaction"
+}

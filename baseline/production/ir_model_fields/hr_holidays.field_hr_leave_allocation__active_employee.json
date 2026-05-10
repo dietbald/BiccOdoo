@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15597,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Active Employee",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "active_employee",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bde3d13839fae47d6fcdc527cbb1071bed2e70103ea3061d07520429bd5a84fb",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__active_employee"
+}

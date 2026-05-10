@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2116,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Messages",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "child_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "39f0cd974be20b5975ff1e0ea0c732e7f0b1f8f931be5fafed8cbbb2e6e9e2b8",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__child_ids"
+}

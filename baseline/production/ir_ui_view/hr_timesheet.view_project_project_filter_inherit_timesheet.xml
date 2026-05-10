@@ -1,0 +1,3 @@
+<filter name="late_milestones" position="before">
+                    <filter string="Timesheets &gt;100%" name="projects_in_overtime" domain="[('is_project_overtime', '=', True)]" groups="project.group_project_manager"/>
+                </filter>

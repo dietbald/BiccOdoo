@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7066,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User In Teams",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "user_in_teams_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3b7ffe7219229046004745c37efe9d9c737700d58c7e768ceaba079854e4176c",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team_member__user_in_teams_ids"
+}

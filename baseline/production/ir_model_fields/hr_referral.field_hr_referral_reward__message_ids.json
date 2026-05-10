@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "28059986dc943abc94730b6d78997431d4cbaa30bbe72ca029f662913424d659",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__message_ids"
+}

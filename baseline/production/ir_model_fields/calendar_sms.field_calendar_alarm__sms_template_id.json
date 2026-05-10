@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7132,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Template",
+    "model_id": [
+      566,
+      "Event Alarm"
+    ],
+    "name": "sms_template_id",
+    "relation": "sms.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b2973a856c60c50190395658acc622a34b19e768a4500caa5a58bc6bdd1fd4fa",
+  "write_date": "",
+  "xml_id": "calendar_sms.field_calendar_alarm__sms_template_id"
+}

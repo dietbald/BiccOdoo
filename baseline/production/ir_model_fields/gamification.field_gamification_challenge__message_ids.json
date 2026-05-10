@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14517,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ee54ecfa8385d1cea4253dbc8a3b81684828a72a683117563eac734b2e9067af",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2096,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Failure type",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "failure_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0154ad45e23d84c9bae0bfbc0c0b9639a86cb38d69886aba1270b5b3d8f8f34e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__failure_type"
+}

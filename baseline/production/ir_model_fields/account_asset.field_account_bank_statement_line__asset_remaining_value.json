@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6231,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Depreciable Value",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "asset_remaining_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "abc7c8b88e17af5984e14984d9a99c4cb0dd54ae462b9f6e2be308814c114a89",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_bank_statement_line__asset_remaining_value"
+}

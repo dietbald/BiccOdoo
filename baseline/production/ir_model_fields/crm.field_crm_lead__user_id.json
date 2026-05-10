@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salesperson",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e5b0ff210df5af00dbb4375c9897edbe1af0a7f865ddd11b90faf0f951010747",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__user_id"
+}

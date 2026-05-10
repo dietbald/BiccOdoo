@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6152,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Months in a Period",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "method_period",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "34dfb2f687cd11a2d11ac45335914d6d2bc26bbc9d110ee4787f416ecc539212",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__method_period"
+}

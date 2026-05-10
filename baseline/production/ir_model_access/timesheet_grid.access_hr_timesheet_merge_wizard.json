@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1187,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      101,
+      "Timesheets / User: own timesheets only"
+    ],
+    "model_id": [
+      850,
+      "Merge Timesheets"
+    ],
+    "name": "access_hr_timesheet_merge_wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "60196bd6fdf2f7b2d5d452f5d1734bb1fb5e6bf1b39a40a80eac32b9c8456b39",
+  "write_date": "2025-12-09 03:00:18",
+  "xml_id": "timesheet_grid.access_hr_timesheet_merge_wizard"
+}

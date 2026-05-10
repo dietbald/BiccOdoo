@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24920,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Packaging Quantity",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "packaging_uom_qty",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d5d63e9c0f68c303e6711d2fbaa48feff6db0397e45da80c6d2f5a2bea5cbdc8",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__packaging_uom_qty"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12075,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      782,
+      "Approval Category"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9690fe95b5cec03f2885ab758eda0d0fa731793b5436b1ad538f17a38f3bbd55",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_category__create_uid"
+}

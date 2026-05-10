@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8409,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Order",
+    "model_id": [
+      621,
+      "Discount Wizard"
+    ],
+    "name": "sale_order_id",
+    "relation": "sale.order",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "106fcdb2b433608ef7a0cd7018890d958bda164a4fc521d0044c2723d9eafee6",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_discount__sale_order_id"
+}

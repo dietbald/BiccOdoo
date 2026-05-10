@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26906,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      159,
+      "Mixin to compute the time a record has spent in each value a many2one field can take"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "58294a0f5f3349b81bbcdf613c004f29eba41a5cbb3275d26a72476f9969cc1a",
+  "write_date": "",
+  "xml_id": "mail.field_mail_tracking_duration_mixin__message_needaction"
+}

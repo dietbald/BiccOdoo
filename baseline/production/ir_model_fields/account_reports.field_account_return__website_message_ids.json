@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "68b70777792318d628832aa6494085492752bae874ba6859ab6f9bd0e46ed6ae",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__website_message_ids"
+}

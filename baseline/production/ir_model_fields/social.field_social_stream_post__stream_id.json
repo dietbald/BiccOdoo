@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17773,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Social Stream",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "stream_id",
+    "relation": "social.stream",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0bf27dfad1baa45d9a4419d58301875265c26eb969846e6cb04dcad7d7edfd87",
+  "write_date": "",
+  "xml_id": "social.field_social_stream_post__stream_id"
+}

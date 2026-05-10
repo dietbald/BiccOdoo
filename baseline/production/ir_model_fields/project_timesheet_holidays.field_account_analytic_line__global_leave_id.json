@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15839,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Global Time Off",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "global_leave_id",
+    "relation": "resource.calendar.leaves",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5aaac5809766e7eb99cc0480bf42a7887ed68769517f5b6689504cf9e90bb053",
+  "write_date": "",
+  "xml_id": "project_timesheet_holidays.field_account_analytic_line__global_leave_id"
+}

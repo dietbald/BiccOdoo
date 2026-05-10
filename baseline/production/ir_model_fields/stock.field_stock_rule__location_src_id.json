@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11058,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Location",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "location_src_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a2a33186d59025f5328fc5ed7bf6d6adca36aa330fd340b8649e717ea9b8fd2d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__location_src_id"
+}

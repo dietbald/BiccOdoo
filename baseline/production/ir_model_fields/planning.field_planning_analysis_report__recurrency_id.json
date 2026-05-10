@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13972,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recurrency",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "recurrency_id",
+    "relation": "planning.recurrency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "adaaf3f99e82b4434ec718e8b7c406dda86a5e7b8652fb28eb10623bfd63a63c",
+  "write_date": "",
+  "xml_id": "planning.field_planning_analysis_report__recurrency_id"
+}

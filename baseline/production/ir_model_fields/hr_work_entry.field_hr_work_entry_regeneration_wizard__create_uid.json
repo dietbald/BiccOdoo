@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      815,
+      "Regenerate Employee Work Entries"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09d9e86c374b41966cf5f2139199cd7b7e7a14318ea240e7968c818ff3f91da6",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_hr_work_entry_regeneration_wizard__create_uid"
+}

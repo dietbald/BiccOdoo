@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15164,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Booking Start",
+    "model_id": [
+      936,
+      "Appointment Booking Line"
+    ],
+    "name": "event_start",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "27aef5e68e1f6e59e44ff89ab69834f10881bc6baf618945133e1dd95a2292b9",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_booking_line__event_start"
+}

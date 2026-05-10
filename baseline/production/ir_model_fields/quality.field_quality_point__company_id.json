@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16530,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "91580c5058365c93b45ace76da7ffb7ed55683f43a6798000a22cae131e01377",
+  "write_date": "",
+  "xml_id": "quality.field_quality_point__company_id"
+}

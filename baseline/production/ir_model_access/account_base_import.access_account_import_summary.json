@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1651,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      1217,
+      "Account import summary view"
+    ],
+    "name": "access.account.import.summary",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "75643f9f9178a639a5ef447083c561657f378c0eea474d3586dc39e7b9c8331f",
+  "write_date": "2025-12-09 03:00:32",
+  "xml_id": "account_base_import.access_account_import_summary"
+}

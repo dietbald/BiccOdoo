@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 806,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "purchase.order.line",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a49c89b90b11e6859c9f289b3b1ce6e007ca508e1487e0a1c06e886ca6dee857",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_purchase_order_line_invoicing_payments"
+}

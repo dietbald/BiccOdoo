@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Offer Expiration",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "offer_end_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "43ee143527a73e2790949c91aeec11daf205bd8b93f52084041e0dbaad2e9699",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__offer_end_date"
+}

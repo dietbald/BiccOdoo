@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19913,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Abnormal Date Partner",
+    "model_id": [
+      454,
+      "Validate Account Move"
+    ],
+    "name": "abnormal_date_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6058166a90b87796e1db64b0f1eff00880ea87730f7595aadbf0897956bb309a",
+  "write_date": "",
+  "xml_id": "account.field_validate_account_move__abnormal_date_partner_ids"
+}

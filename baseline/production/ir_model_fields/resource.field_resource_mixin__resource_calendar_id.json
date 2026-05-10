@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1692,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Hours",
+    "model_id": [
+      145,
+      "Resource Mixin"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4e1f64e2ee87711406cf3fc1a4acdc11cbb0070420312542ad4ab0e60ef27add",
+  "write_date": "",
+  "xml_id": "resource.field_resource_mixin__resource_calendar_id"
+}

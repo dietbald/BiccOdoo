@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7874,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "tag_ids",
+    "relation": "project.tags",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "53f2c55bedbcf117128b2e90b1194dac63e350ce815f3ae03937288a0c973570",
+  "write_date": "",
+  "xml_id": "project.field_project_project__tag_ids"
+}

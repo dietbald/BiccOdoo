@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20991,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Offer",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "salary_offer_ids",
+    "relation": "hr.contract.salary.offer",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4fa474dc4659edf8f20c621e7510d5d9b489437156a8f8b0434cb58c8b32fa31",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_applicant__salary_offer_ids"
+}

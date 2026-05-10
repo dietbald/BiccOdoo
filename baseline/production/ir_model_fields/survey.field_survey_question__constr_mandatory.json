@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14803,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mandatory Answer",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "constr_mandatory",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f9203593125c1a1c23f98794dbfbaff7e8734e1971b42e72f0432f5f5dfd172b",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__constr_mandatory"
+}

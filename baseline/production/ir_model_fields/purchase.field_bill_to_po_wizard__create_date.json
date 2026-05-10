@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      1422,
+      "Bill to Purchase Order"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "4a525bb08af1573ba06364d8c2405ec089f63021112230cfa22eb5dd04dc741d",
+  "write_date": "",
+  "xml_id": "purchase.field_bill_to_po_wizard__create_date"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26040,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval Date",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "approval_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "b94360f9451ae7f7dda451fce027e506d265ea09bbde5f7cd0ab1bd153e213e0",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__approval_date"
+}

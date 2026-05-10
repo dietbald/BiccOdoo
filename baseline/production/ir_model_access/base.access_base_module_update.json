@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 133,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      109,
+      "Update Module"
+    ],
+    "name": "access.base.module.update",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "de882ea7db787a8dbcceed3884726f48b468d447c7cc35c3d1e774a906d65609",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_base_module_update"
+}

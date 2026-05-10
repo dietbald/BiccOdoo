@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4985,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Revenue Accrual Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "revenue_accrual_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e83405ee08af4362d26f1a809c92ae5bca24432ad366992b69dd05d3f70ff35d",
+  "write_date": "",
+  "xml_id": "account.field_res_company__revenue_accrual_account_id"
+}

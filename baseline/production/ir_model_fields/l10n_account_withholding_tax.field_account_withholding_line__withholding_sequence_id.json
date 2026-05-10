@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29725,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Withholding Sequence",
+    "model_id": [
+      3763,
+      "withholding line"
+    ],
+    "name": "withholding_sequence_id",
+    "relation": "ir.sequence",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bd28cc91ed6ccee2a779f33ae2c0e72eddd764d494872ab74d4e6572ec95af7b",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_withholding_line__withholding_sequence_id"
+}

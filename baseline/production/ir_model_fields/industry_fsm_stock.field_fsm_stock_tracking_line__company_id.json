@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18759,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1070,
+      "Lines for FSM Stock Tracking"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d2bf5436efcdb95ce5bc0b7ef74cb2ae9d5fefaee3e64954d9fbbf24d882b0eb",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking_line__company_id"
+}

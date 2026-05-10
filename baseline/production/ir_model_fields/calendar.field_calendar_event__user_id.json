@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6913,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Organizer",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "287768d8ca9051ef5fc10e4a538b6f185adfe6d2d16aaa7b9acb3081a3d5f184",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__user_id"
+}

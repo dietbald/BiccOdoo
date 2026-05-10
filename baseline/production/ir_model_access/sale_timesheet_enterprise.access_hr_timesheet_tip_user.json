@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1194,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      101,
+      "Timesheets / User: own timesheets only"
+    ],
+    "model_id": [
+      856,
+      "Timesheets Leaderboard Tip"
+    ],
+    "name": "access_hr_timesheet_tip_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "24766c81722899cdab6c1c0117312a4c65028008bbef0f89281c20c510f473f4",
+  "write_date": "2025-12-09 03:00:40",
+  "xml_id": "sale_timesheet_enterprise.access_hr_timesheet_tip_user"
+}

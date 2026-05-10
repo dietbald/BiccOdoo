@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4955,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cash Difference Income",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "default_cash_difference_income_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6471f5656315de72be8be517c33cc7e28eae7386cc3db052b21c7df1d2365a17",
+  "write_date": "",
+  "xml_id": "account.field_res_company__default_cash_difference_income_account_id"
+}

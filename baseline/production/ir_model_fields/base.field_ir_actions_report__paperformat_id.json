@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 414,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Paper Format",
+    "model_id": [
+      27,
+      "Report Action"
+    ],
+    "name": "paperformat_id",
+    "relation": "report.paperformat",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "806bcf7893729816809281c45807141b896ec10b57f9ad1fd9865f70c6b59074",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_report__paperformat_id"
+}

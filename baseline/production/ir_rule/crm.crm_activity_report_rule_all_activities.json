@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 143,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1,'=',1)]",
+    "groups": [
+      36
+    ],
+    "model_id": [
+      582,
+      "CRM Activity Analysis"
+    ],
+    "name": "All Activities",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d3ffdc520e50f4c95ae0b0acb46f3feebc34513479d0f2839f4affac40dfce4c",
+  "write_date": "2023-11-30 04:45:33",
+  "xml_id": "crm.crm_activity_report_rule_all_activities"
+}

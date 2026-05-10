@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 768,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      643,
+      "Skill Level"
+    ],
+    "name": "hr.skill.level",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "013a763f839e02943e1cbd4eea0a8d22da1616bb7e466557e038d1df79113453",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.access_hr_skill_level"
+}

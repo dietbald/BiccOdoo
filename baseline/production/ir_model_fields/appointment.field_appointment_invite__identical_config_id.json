@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27321,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Identical Config",
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "identical_config_id",
+    "relation": "appointment.invite",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eee2b6f194d7f8e91b239c59539c603041afd39a275c3abc9d079b673928c07a",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_invite__identical_config_id"
+}

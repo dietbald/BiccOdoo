@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 219,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'default_payment_type': 'outbound',\n                'default_partner_type': 'supplier',\n                'search_default_outbound_filter': 1,\n                'default_move_journal_types': ('bank', 'cash'),\n                'display_account_trust': True,\n            }",
+    "domain": false,
+    "name": "Vendor Payments",
+    "res_model": "account.payment",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph,activity"
+  },
+  "payload_sha256": "d1013d7e06ffa6e0775b72b5f7bb8aca3f7c21fd9f942308f834c4ae6dd6b4f7",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_payments_payable"
+}

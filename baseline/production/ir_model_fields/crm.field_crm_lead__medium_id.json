@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7155,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bde0b4a938d7a1774749bd88f8d622cedad1637ba4e47678ef8303b54862c046",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__medium_id"
+}

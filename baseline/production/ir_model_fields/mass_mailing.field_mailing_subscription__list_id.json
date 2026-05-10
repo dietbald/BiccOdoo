@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14077,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mailing List",
+    "model_id": [
+      889,
+      "Mailing List Subscription"
+    ],
+    "name": "list_id",
+    "relation": "mailing.list",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bc55141ab246e3ed67d129c9bb8f43e773771de55a68e5a6efb2bf26c69a4367",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_subscription__list_id"
+}

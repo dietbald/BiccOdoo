@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19512,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Channel Notifications",
+    "model_id": [
+      105,
+      "User Settings"
+    ],
+    "name": "channel_notifications",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b2e4bd339058a6ae2d72235f5dac00d1c7791958fec64da3e91412b9ff807a43",
+  "write_date": "",
+  "xml_id": "mail.field_res_users_settings__channel_notifications"
+}

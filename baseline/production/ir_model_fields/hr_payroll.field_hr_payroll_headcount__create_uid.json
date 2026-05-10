@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20653,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1238,
+      "Payroll Headcount"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bb8ad2e263a04116193bcab29795c5b7909c2b4cf6b348a05e1be68cbbb1e48f",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount__create_uid"
+}

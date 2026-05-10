@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13874,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Shift Templates",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "template_id",
+    "relation": "planning.slot.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e1383bca78d2b7d4e5d4ebc6dc4908f9ba2e9309255211fb83ed94d32453b38b",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__template_id"
+}

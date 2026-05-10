@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1694,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'account_return_view_id': 6225, 'search_default_groupby_cycle': 1, 'active_model': 'account.return', 'max_number_opened_groups': 100000}",
+    "domain": "[['return_id', '=', active_id]]",
+    "name": "Cycle",
+    "res_model": "account.return.check",
+    "target": "current",
+    "view_mode": "kanban"
+  },
+  "payload_sha256": "95bd85fb38e9f88122b5cdfc0ad55b665cd66e147d6133f3b437418cd06d6620",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.action_view_account_audit_checks"
+}

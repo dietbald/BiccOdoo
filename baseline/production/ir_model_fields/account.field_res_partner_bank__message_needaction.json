@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dd1a4462a94100c16a8e5662e77e7a59d3a3263781c8b0b91e01a8e2360479c1",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__message_needaction"
+}

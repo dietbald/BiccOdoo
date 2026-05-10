@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 649,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('move_id.move_type', 'in', ('out_invoice', 'out_refund'))]",
+    "groups": [
+      36
+    ],
+    "model_id": [
+      1383,
+      "Account Move Send Wizard"
+    ],
+    "name": "All Invoice Send and Print (single mode)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c30651ad0f2d3f5499698a279a08c7f56b69b69476466dbfa2ad26240ad0c65c",
+  "write_date": "2025-01-28 01:25:35",
+  "xml_id": "sale.account_invoice_send_single_rule_see_all"
+}

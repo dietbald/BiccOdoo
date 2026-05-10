@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 649,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dependencies",
+    "model_id": [
+      66,
+      "Module"
+    ],
+    "name": "dependencies_id",
+    "relation": "ir.module.module.dependency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "271a420d0c89eb51d679f808fcf967e49bc29d97562b578b9619fe5c27633632",
+  "write_date": "",
+  "xml_id": "base.field_ir_module_module__dependencies_id"
+}

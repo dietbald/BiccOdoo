@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6789,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Above Budget",
+    "model_id": [
+      555,
+      "Budget Line"
+    ],
+    "name": "is_above_budget",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bd95d17916ae7780184374d52ab4a021787b2db699ec6ce914776367f9c89c17",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_line__is_above_budget"
+}

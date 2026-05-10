@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28500,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicants",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "applicant_ids",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "883fe26904d77c72595bd54aa6debd4587d503d2d83f185bd152b5b887c00d8d",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_res_partner__applicant_ids"
+}

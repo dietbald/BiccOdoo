@@ -1,0 +1,37 @@
+<search string="ECOs">
+                <field name="product_tmpl_id" string="Product" filter_domain="['|', ('product_tmpl_id', 'ilike', self), ('bom_id', 'ilike', self)]"/>
+                <field name="tag_ids"/>
+                <field name="stage_id"/>
+                <group>
+                    <filter name="mychange" string="My Change Orders" domain="[('user_id', '=', uid)]"/>
+                    <separator/>
+                    <filter name="toapprove_my" string="Awaiting My Validation" domain="[('approval_ids.awaiting_my_validation', '=', True)]"/>
+                    <filter name="toapprove" string="Awaiting Validation" domain="[('approval_ids.status', '=', 'none')]"/>
+                    <filter name="changetoapply" string="To Apply" domain="[('stage_id.allow_apply_change', '=', True), ('state', '=', 'progress')]"/>
+                    <separator/>
+                    <filter name="confirmed" string="To Do" domain="[('state', '=', 'confirmed')]"/>
+                    <filter name="progress" string="In Progress" domain="[('state', '=', 'progress')]"/>
+                    <filter name="rebase" string="Rebase" domain="[('state', '=', 'rebase')]"/>
+                    <filter name="conflict" string="Conflict" domain="[('state', '=', 'conflict')]"/>
+                    <filter name="done" string="Done" domain="[('state', '=', 'done')]"/>
+                    <separator/>
+                    <filter name="filter_effectivity_date" date="effectivity_date"/>
+                    <separator/>
+                    <filter name="bomchange" string="Bill of Materials" domain="[('type', 'in', ('bom', 'both'))]"/>
+                    <filter name="routingchange" string="Routing" domain="[('type', 'in', ('routing', 'both'))]"/>
+                    <separator/>
+                    <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                    <separator/>
+                    <filter invisible="1" string="My Activities" name="filter_activities_my" domain="[('activity_user_id', '=', uid)]"/>
+                    <separator invisible="1"/>
+                    <filter invisible="1" string="Late Activities" name="activities_overdue" domain="[('my_activity_date_deadline', '&lt;', 'today')]" help="Show all records whose next activity date is past"/>
+                    <filter invisible="1" string="Today Activities" name="activities_today" domain="[('my_activity_date_deadline', '=', 'today')]"/>
+                    <filter invisible="1" string="Future Activities" name="activities_upcoming_all" domain="[('my_activity_date_deadline', '&gt;', 'today')]"/>
+                </group>
+                <group>
+                    <filter string="Product" name="productgroup" context="{'group_by': 'product_tmpl_id'}"/>
+                    <filter string="State" name="stategroup" context="{'group_by': 'state'}"/>
+                    <filter string="Stage" name="stagegroup" context="{'group_by': 'stage_id'}"/>
+                    <filter string="Company" name="company" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                </group>
+            </search>

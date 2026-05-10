@@ -1,0 +1,48 @@
+<data><xpath expr="//group[@name='stock_picking_type_lot']" position="after">
+                <group invisible="code != 'mrp_operation'" string="Traceability" groups="stock.group_production_lot">
+                    <field name="use_create_components_lots"/>
+                </group>
+            </xpath>
+            <field name="auto_show_reception_report" position="after">
+                <field name="auto_show_reception_report" invisible="code != 'mrp_operation'" groups="mrp.group_mrp_reception_report"/>
+            </field>
+            <xpath expr="//page[@name='hardware']" position="after">
+                <page name="mrp_hardware" string="Hardware" invisible="code != 'mrp_operation'">
+                    <group>
+                        <group string="Print when done">
+                            <field name="auto_print_done_production_order" string="Production Order"/>
+                            <label for="auto_print_done_mrp_product_labels" string="Product Labels"/>
+                            <div class="o_row">
+                                <field name="auto_print_done_mrp_product_labels" string="Product Labels"/>
+                                <label for="mrp_product_label_to_print" string="Print labels as:" invisible="not auto_print_done_mrp_product_labels" class="fw-bold"/>
+                                <field name="mrp_product_label_to_print" invisible="not auto_print_done_mrp_product_labels"/>
+                            </div>
+                            <label for="auto_print_done_mrp_lot" string="Lot/SN Labels" groups="stock.group_production_lot"/>
+                            <div class="o_row" groups="stock.group_production_lot">
+                                <field name="auto_print_done_mrp_lot" string="Lot/SN Labels"/>
+                                <label for="done_mrp_lot_label_to_print" string="Print labels as:" invisible="not auto_print_done_mrp_lot" class="fw-bold"/>
+                                <field name="done_mrp_lot_label_to_print" invisible="not auto_print_done_mrp_lot"/>
+                            </div>
+                            <field name="auto_print_mrp_reception_report" string="Allocation Report" groups="mrp.group_mrp_reception_report"/>
+                            <field name="auto_print_mrp_reception_report_labels" string="Allocation Report Labels" groups="mrp.group_mrp_reception_report"/>
+                        </group>
+                        <group string="">
+                            <div colspan="2">
+                                Odoo opens a PDF preview by default. If you want to print instantly,
+                                install the IoT App on a computer that is on the same local network as the
+                                barcode operator and configure the routing of the reports.
+                                <widget name="documentation_link" path="/applications/productivity/iot/devices/printer.html" label="Documentation" icon="fa-arrow-right"/>
+                            </div>
+                        </group>
+                        <group string="Print when &quot;Create new Lot/SN&quot;" groups="stock.group_production_lot">
+                            <label for="auto_print_generated_mrp_lot" string="Lot/SN Label"/>
+                            <div class="o_row">
+                                <field name="auto_print_generated_mrp_lot" string="Lot/SN Label"/>
+                                <label for="generated_mrp_lot_label_to_print" string="Print labels as:" invisible="not auto_print_generated_mrp_lot" class="fw-bold"/>
+                                <field name="generated_mrp_lot_label_to_print" invisible="not auto_print_generated_mrp_lot"/>
+                            </div>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </data>

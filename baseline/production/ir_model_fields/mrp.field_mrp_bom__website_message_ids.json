@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15911,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cbc7ff6a67a14df83f04cf46db58c27a56d6608834da4b1f7627bea1dbf5c36a",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom__website_message_ids"
+}

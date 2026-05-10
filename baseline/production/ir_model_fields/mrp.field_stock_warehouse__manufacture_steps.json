@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16394,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manufacture",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "manufacture_steps",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "714d9eeadb4d0995f2359d415748bb88c7459ca7593579fd76ac2a880e92a197",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_warehouse__manufacture_steps"
+}

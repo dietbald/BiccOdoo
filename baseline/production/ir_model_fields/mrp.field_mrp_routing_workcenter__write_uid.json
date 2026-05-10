@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16008,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "518ea9c3ef72be76340ada687dd359bf0b9c72f6956699db1436c49f3ad6a5b8",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_routing_workcenter__write_uid"
+}

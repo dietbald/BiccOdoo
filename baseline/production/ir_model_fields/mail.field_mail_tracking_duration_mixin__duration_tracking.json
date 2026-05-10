@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1819,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status time",
+    "model_id": [
+      159,
+      "Mixin to compute the time a record has spent in each value a many2one field can take"
+    ],
+    "name": "duration_tracking",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "25518b41fb0102d428a43070d26247d894c75a545f9993ff28529aaf4e1d607f",
+  "write_date": "",
+  "xml_id": "mail.field_mail_tracking_duration_mixin__duration_tracking"
+}

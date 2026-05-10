@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17337,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Detail Component",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "move_line_raw_ids",
+    "relation": "stock.move.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0b039e3975fc35f680e943db803e77d1ad41ce2e3a6c3299192203c171de7437",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_mrp_production__move_line_raw_ids"
+}

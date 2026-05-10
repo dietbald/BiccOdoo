@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 749,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('company_id', 'in', company_ids), ('company_id', '=', False)]",
+    "groups": [],
+    "model_id": [
+      1243,
+      "Budget Report"
+    ],
+    "name": "Budget report multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f1598019cee3954fac018eeb3597a27c6a6fcc4b5294db86ccb0c55f0ac1fe6a",
+  "write_date": "2025-12-09 03:00:20",
+  "xml_id": "account_budget.budget_report_comp_rule"
+}

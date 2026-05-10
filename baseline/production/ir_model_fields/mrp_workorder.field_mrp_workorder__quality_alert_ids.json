@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16822,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality Alert",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "quality_alert_ids",
+    "relation": "quality.alert",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5c8a01d6fe8a4185a89dc3c453badad5dc8dc3d10029af2afd4a594468e723b5",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__quality_alert_ids"
+}

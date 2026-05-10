@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8269,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "47b36a659c861fdfa2af8789d16173ae055256eed130c4adb97728507c07aaf6",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__create_uid"
+}

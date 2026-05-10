@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14632,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Required Karma",
+    "model_id": [
+      915,
+      "Rank based on karma"
+    ],
+    "name": "karma_min",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "75249a7539174d2d9b5003eb41125ff7d22b755815662ea9c36b991e6379fe16",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_karma_rank__karma_min"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21218,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Update Contract Template",
+    "model_id": [
+      1284,
+      "Contract Signatories"
+    ],
+    "name": "update_contract_template_id",
+    "relation": "hr.version",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5fe6fc3d5d2e4c6afe0e00655c28c4e2646d9b7b8127313ba5c6df04a003854d",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_signatory__update_contract_template_id"
+}

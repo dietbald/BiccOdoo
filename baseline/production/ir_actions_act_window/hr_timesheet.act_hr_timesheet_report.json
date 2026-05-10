@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 861,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('project_id', '!=', False)]",
+    "name": "Timesheets by Employee",
+    "res_model": "timesheets.analysis.report",
+    "target": "current",
+    "view_mode": "pivot,graph"
+  },
+  "payload_sha256": "0f6799ada0a748c2683e634b7411efb8b637cbf3471a54aebdc2cd6664e1fa5d",
+  "write_date": "2025-12-09 02:59:23",
+  "xml_id": "hr_timesheet.act_hr_timesheet_report"
+}

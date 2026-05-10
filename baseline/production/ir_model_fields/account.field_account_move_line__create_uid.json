@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9add547f83549c2218a67889faf761f1680cc9822714e5a921137d4d05bf6ef",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__create_uid"
+}

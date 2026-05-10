@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1715,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_is_paid': 1,\n            'search_default_is_done': 1,\n            'search_default_date_from': 1,\n            'search_default_group_by_input_type': 1\n        }",
+    "domain": false,
+    "name": "Payslip Other Inputs Report",
+    "res_model": "hr.payslip.input",
+    "target": "current",
+    "view_mode": "pivot,list"
+  },
+  "payload_sha256": "b54ba2cb1e38ae1f3995662d2c3adf8da6617d6435401caa5476c96329e06be6",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.hr_payslip_input_action_report"
+}

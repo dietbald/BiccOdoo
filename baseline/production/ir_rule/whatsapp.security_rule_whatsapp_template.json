@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 531,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('wa_account_id', '=', False), ('wa_account_id.allowed_company_ids', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "WA Template: Restrict to Allowed Companies",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e59340474501b098256c62aa0a967727428ea804f902e11541d437afee8c1a7f",
+  "write_date": "2024-05-05 13:35:48",
+  "xml_id": "whatsapp.security_rule_whatsapp_template"
+}

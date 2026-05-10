@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12011,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Picking Policy",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "default_picking_policy",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "4a54e869eda6fa20254ee06998fa0f8d081d3d3179fd9f8afb36ed69d5786f2c",
+  "write_date": "",
+  "xml_id": "sale_stock.field_res_config_settings__default_picking_policy"
+}

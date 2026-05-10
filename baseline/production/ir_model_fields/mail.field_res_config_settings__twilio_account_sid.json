@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account SID",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "twilio_account_sid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2156f2aed1551c6f194ac7a9e396287256f576c2179603dc3f2f4b71c34f8cbf",
+  "write_date": "",
+  "xml_id": "mail.field_res_config_settings__twilio_account_sid"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1532,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\"search_default_filter_closed\": 1}",
+    "domain": "[('ref_user_id','=',uid)]",
+    "name": "My Referral",
+    "res_model": "hr.applicant",
+    "target": "current",
+    "view_mode": "kanban,form"
+  },
+  "payload_sha256": "2b67b4f2f2ebd584a953954dfd3c70c7c83547788c349f5f4682757bd7cd8088",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.action_hr_refused_applicant_employee_referral"
+}

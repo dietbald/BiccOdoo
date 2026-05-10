@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25152,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Barcode",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "product_barcode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "9a859dadafe8384934c1a0b1c566847ec370d7c449d84277ae3941d7d8b2449e",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_stock_move__product_barcode"
+}

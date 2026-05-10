@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16163,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Orders",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "workorder_ids",
+    "relation": "mrp.workorder",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "531a901ac52db4832bf24a66e27a9807d441d0159a298a95c3d7af4696363f10",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__workorder_ids"
+}

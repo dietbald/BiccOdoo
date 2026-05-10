@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3344,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Users",
+    "model_id": [
+      386,
+      "Grant Portal Access"
+    ],
+    "name": "user_ids",
+    "relation": "portal.wizard.user",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "19ad1a82c5c59aad158959b36131011cd328c93717e7fbfafd857d5624eb46db",
+  "write_date": "",
+  "xml_id": "portal.field_portal_wizard__user_ids"
+}

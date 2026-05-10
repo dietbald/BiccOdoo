@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12677,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Downstream Move",
+    "model_id": [
+      808,
+      "Purchase Requisition Line"
+    ],
+    "name": "move_dest_id",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6ed7fc00cf82bb6c405da76d71efa77616046eb3ab6b099f1cc4f04eccf61494",
+  "write_date": "",
+  "xml_id": "purchase_requisition_stock.field_purchase_requisition_line__move_dest_id"
+}

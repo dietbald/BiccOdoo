@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 502,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Users",
+    "model_id": [
+      32,
+      "Filters"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b6d54385cac27d7f9fa2478b7cf3974fddacb1212dd2a8a55d99f20049255781",
+  "write_date": "",
+  "xml_id": "base.field_ir_filters__user_ids"
+}

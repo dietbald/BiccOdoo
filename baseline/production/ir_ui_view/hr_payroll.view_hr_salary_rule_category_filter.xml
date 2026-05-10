@@ -1,0 +1,3 @@
+<search string="Salary Rule Categories">
+                <field name="name" string="Salary Rule Categories" filter_domain="['|',('name','ilike',self),('code','ilike',self)]"/>
+           </search>

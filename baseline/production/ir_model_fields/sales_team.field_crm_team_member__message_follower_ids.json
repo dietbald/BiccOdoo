@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7053,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "57b8db0fd1a1d5e64d50cd0018cefa6cc9ad5e434c9920b8ae5791f1bf6d7a90",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team_member__message_follower_ids"
+}

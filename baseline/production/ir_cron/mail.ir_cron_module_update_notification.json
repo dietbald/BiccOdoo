@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 4,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.update_notification(None)",
+    "interval_number": 1,
+    "interval_type": "weeks",
+    "model_id": [
+      197,
+      "Publisher Warranty Contract"
+    ],
+    "name": "Publisher: Update Notification",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "50205bf5ddfdd4722425ce37fb66c06d526fa4f453f9f196831c35049562151a",
+  "write_date": "2025-12-09 02:55:51",
+  "xml_id": "mail.ir_cron_module_update_notification"
+}

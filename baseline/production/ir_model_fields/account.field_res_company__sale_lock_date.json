@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Lock Date",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "sale_lock_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "abf5b1046f2c9721ae8c3732bb81a4dabc8b3dfff8378c85052be7eacf11abd2",
+  "write_date": "",
+  "xml_id": "account.field_res_company__sale_lock_date"
+}

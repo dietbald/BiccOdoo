@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7448,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      588,
+      "Helper methods for crm_iap_mine modules"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0562d01acdfd2e413084763e5e683f7a104aba5aa4d070fbca704a0ded1a6fef",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_helpers__write_uid"
+}

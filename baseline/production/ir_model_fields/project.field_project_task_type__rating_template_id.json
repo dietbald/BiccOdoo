@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7914,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rating Email Template",
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "rating_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1d685262f691c12e732ce54c3ce4562f5734d95247bd1cca6e7522675292839a",
+  "write_date": "",
+  "xml_id": "project.field_project_task_type__rating_template_id"
+}

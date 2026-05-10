@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23214,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      875,
+      "Studio Approval Rule"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a5e0bd3203516acdf72abbe4d23429a61193e7511d2a5defef0d5f08e531f9f2",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule__message_partner_ids"
+}

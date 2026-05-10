@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8721,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Permit Expiration Date",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "work_permit_expiration_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "65e264541697bedf68f28a02108ace00c803d040c74b633c084f7ee2963e3bae",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__work_permit_expiration_date"
+}

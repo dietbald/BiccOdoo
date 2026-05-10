@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1171,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      100,
+      "Attendances / Administrator"
+    ],
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "hr.attendance.admin",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "56f2f061cbdeeb29bbf550f9d5ef0d34db403352aa54eae58c54ee7fe368f367",
+  "write_date": "2025-12-09 02:58:04",
+  "xml_id": "hr_attendance.access_hr_attendance_admin"
+}

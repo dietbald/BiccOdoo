@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10988,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Serial Numbers",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "lot_ids",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f75bb21fa8f439afb693fa707138cbc60f194d3052779321286ed488712c7655",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__lot_ids"
+}

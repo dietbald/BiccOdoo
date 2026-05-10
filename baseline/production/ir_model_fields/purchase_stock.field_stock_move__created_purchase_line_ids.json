@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11982,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created Purchase Order Lines",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "created_purchase_line_ids",
+    "relation": "purchase.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "403961b10f7aea80c585825b1a9edb42a0c7f7ed12f31886b5b963e0d687cfdd",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_move__created_purchase_line_ids"
+}

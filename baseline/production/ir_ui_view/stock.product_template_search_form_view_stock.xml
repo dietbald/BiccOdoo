@@ -1,0 +1,5 @@
+<field name="attribute_line_ids" position="after">
+                    <separator/>
+                    <field name="location_id" context="{'search_location': self}" filter_domain="[]"/>
+                    <field name="warehouse_id" context="{'search_warehouse': self}" filter_domain="[]"/>
+                </field>

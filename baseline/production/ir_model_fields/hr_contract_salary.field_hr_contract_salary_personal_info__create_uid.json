@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21107,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1277,
+      "Salary Package Personal Info"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0963f18d9efecc75eeb21ffc2d3763c620885d267889cae3433ca92eb23892ba",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_personal_info__create_uid"
+}

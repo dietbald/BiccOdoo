@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28888,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7913e25d1b34f1ea45f3be438a4cade2c7279c780f4fbf3b2238765cca2e3578",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__activity_calendar_event_id"
+}

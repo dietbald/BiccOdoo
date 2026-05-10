@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8421,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Campaign",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "campaign_id",
+    "relation": "utm.campaign",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fdd8ea9ed7827c9eb6b0b0d9d1883bff72b84eb07601316edc793e1f914c2468",
+  "write_date": "",
+  "xml_id": "sale.field_account_bank_statement_line__campaign_id"
+}

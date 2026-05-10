@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12891,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fb4adf08dec939ac48b57ce2c4999f76dc44393a7ffc744bb243fe8258161d36",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__country_id"
+}

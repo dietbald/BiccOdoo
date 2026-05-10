@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 539,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      136
+    ],
+    "model_id": [
+      1052,
+      "WhatsApp Template Variable"
+    ],
+    "name": "WA Template Variable: Un-restrict for WA Admins",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bc44c109a119180d5dff85ae2ace9493c64ac3ff3a43854895c38deefb983811",
+  "write_date": "2024-05-05 13:35:48",
+  "xml_id": "whatsapp.security_rule_whatsapp_template_variable_admin"
+}

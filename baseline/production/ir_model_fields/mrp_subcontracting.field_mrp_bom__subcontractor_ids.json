@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17317,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subcontractors",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "subcontractor_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6710e0eb26ce7c9be41e2f209a42c8d9500623583348f46caae52329f3dec6d4",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_mrp_bom__subcontractor_ids"
+}

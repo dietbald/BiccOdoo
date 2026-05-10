@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1003,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_question': True}",
+    "domain": "[('calendar_event_id', '!=', False)]",
+    "name": "Answer Breakdown",
+    "res_model": "appointment.answer.input",
+    "target": "current",
+    "view_mode": "search,list,graph,pivot,form"
+  },
+  "payload_sha256": "e9e209d3f2235fd7e191905f7ca1c56c4ab4200ebec1bdaf34cea29d82ea653e",
+  "write_date": "2025-12-09 02:59:12",
+  "xml_id": "appointment.appointment_answer_input_action"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 657,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('sale_order_spreadsheet_id','!=',False)]",
+    "groups": [
+      37
+    ],
+    "model_id": [
+      1186,
+      "Spreadsheet discussion thread"
+    ],
+    "name": "Sale order spreadsheet threads: groups",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "85c1c02a237addc43a4581da33ad3bc1313596f2ab1c80b696bcfab270c98d60",
+  "write_date": "2025-01-28 01:27:58",
+  "xml_id": "spreadsheet_sale_management.spreadsheet_cell_thread_rule_sale_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26553,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Rented Products",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "has_rented_products",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "73a7f4a2de21a09f35c93672abf3cc59ac9d5f46e9739520ba4799f0dc59e4c6",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order__has_rented_products"
+}

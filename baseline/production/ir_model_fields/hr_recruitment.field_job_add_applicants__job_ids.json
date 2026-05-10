@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26132,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Positions",
+    "model_id": [
+      2702,
+      "Add applicants to a job"
+    ],
+    "name": "job_ids",
+    "relation": "hr.job",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "edf00ff16de21ad67fb2632f853f02ec088e58fee1f9ca5c46c78e30678da7d0",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_job_add_applicants__job_ids"
+}

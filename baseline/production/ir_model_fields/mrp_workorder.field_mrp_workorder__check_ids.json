@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Check",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "check_ids",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6327a5d5efb547f063a5baf7c134c19a73efe13a5c6e4ed31ab287ff3ee67b6b",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__check_ids"
+}

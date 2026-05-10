@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3289,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pricelist",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "property_product_pricelist",
+    "relation": "product.pricelist",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2d1b967c7db85bc771e8f770423c6022c9afc542ff7454d4c05e6e176381c277",
+  "write_date": "",
+  "xml_id": "product.field_res_users__property_product_pricelist"
+}

@@ -1,0 +1,5 @@
+<xpath expr="//div[@name=&quot;bank_customer_payment&quot;]" position="before">
+                <div t-if="journal_type == 'bank'">
+                    <widget name="account_file_uploader" title="Import File" btnClass="file_upload_kanban_action_a mb-0"/>
+                </div>
+            </xpath>

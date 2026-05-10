@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14869,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Identification token",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2cfcf4a8a903c03f8b7f54a055b07f0c0ea6fe806b3758f9e8d8e3cea04dff0b",
+  "write_date": "",
+  "xml_id": "survey.field_survey_user_input__access_token"
+}

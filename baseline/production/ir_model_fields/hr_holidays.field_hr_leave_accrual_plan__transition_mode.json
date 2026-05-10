@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15705,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transition Mode",
+    "model_id": [
+      950,
+      "Accrual Plan"
+    ],
+    "name": "transition_mode",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "6a09509acc6b0aadf18203d9c55efd984f21d2f6108152ee7aa6c21d5a34bba8",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_accrual_plan__transition_mode"
+}

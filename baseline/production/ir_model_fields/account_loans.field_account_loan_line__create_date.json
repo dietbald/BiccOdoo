@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23928,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "029b1832b5786dbd56a4c823e6d5d71414f1c098122d48db9bb83b5b603a9e74",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_line__create_date"
+}

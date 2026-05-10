@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29030,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "IBAN",
+    "model_id": [
+      3601,
+      "Returns Generic Payment Wizard"
+    ],
+    "name": "acc_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ac37310b31cddaef50d311b3328a6266dfbb6596b0ccdb37d0f560a0d0e67df1",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_payment_wizard__acc_number"
+}

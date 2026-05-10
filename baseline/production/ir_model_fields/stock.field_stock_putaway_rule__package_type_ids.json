@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10828,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Package Type",
+    "model_id": [
+      726,
+      "Putaway Rule"
+    ],
+    "name": "package_type_ids",
+    "relation": "stock.package.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b1fbc206c984d0988c81da3864ec8eb1951f483cd42ab6f64643ab246efcb10a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_putaway_rule__package_type_ids"
+}

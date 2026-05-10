@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10957,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delay Alert Date",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "delay_alert_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "b6704e71f921a3114fcd1e38e1e5ad3e42fc0fcb86f2d7e6fc88b9688abf2b8b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__delay_alert_date"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13535,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User Timer",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "user_timer_id",
+    "relation": "timer.timer",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "3ecd237395599a3f83fa744728204b42c3d671f57ee2c7b06e4316e087365d2f",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_project_task__user_timer_id"
+}

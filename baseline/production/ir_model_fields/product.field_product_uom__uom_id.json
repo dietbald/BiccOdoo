@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24700,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      1831,
+      "Link between products and their UoMs"
+    ],
+    "name": "uom_id",
+    "relation": "uom.uom",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "39fc2b20fbef24a847044cb8990916c81f95681fb284c6adf29953e914f448b1",
+  "write_date": "",
+  "xml_id": "product.field_product_uom__uom_id"
+}

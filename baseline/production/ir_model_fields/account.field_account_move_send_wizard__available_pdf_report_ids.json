@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24845,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Pdf Report",
+    "model_id": [
+      1383,
+      "Account Move Send Wizard"
+    ],
+    "name": "available_pdf_report_ids",
+    "relation": "ir.actions.report",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6b7bd9f88ac7949c705c96a1b6da3450cb4f94d3e681d784bdfb97efaafa42dd",
+  "write_date": "",
+  "xml_id": "account.field_account_move_send_wizard__available_pdf_report_ids"
+}

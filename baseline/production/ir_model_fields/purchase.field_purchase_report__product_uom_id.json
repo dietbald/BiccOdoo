@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9513,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reference Unit of Measure",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "977f7a49d66cf081c88b1a73aeba46f8738ff12eb43f5b1bdd4b2fc1977485e9",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__product_uom_id"
+}

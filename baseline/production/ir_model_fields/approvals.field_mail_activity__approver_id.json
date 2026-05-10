@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28296,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approver",
+    "model_id": [
+      164,
+      "Activity"
+    ],
+    "name": "approver_id",
+    "relation": "approval.approver",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f745d283e261c831888f8558c03007a35370cddd86c79ffbd9174ad53b176f1a",
+  "write_date": "",
+  "xml_id": "approvals.field_mail_activity__approver_id"
+}

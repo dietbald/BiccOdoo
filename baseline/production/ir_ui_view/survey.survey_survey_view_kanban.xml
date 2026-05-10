@@ -1,0 +1,84 @@
+<kanban highlight_color="color" js_class="survey_view_kanban">
+                <field name="active"/>
+                <field name="certification"/>
+                <field name="create_date"/>
+                <field name="scoring_type"/>
+                <field name="session_state"/>
+                <field name="session_available"/>
+                <templates>
+                    <div t-name="menu" t-if="widget.editable">
+                        <a role="menuitem" type="open" class="dropdown-item">Edit Survey</a>
+                        <a t-if="record.active.raw_value" role="menuitem" type="object" class="dropdown-item" name="action_send_survey">Share</a>
+                        <a t-if="widget.deletable" role="menuitem" type="delete" class="dropdown-item">Delete</a>
+                        <div role="separator" class="dropdown-divider"/>
+                        <div role="separator" class="dropdown-item-text">Color</div>
+                        <field name="color" widget="kanban_color_picker"/>
+                    </div>
+                    <div t-name="card" t-attf-class="o_survey_kanban_card #{record.certification.raw_value ? 'o_survey_kanban_card_certification' : ''}" class="px-0">
+                        <div class="row mx-4">
+                            <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                            <div class="col-lg-2 col-sm-8 py-0 my-2 my-lg-0 col-12 g-0">
+                                <div class="d-flex flex-grow-1 flex-column my-0 my-lg-2">
+                                    <field name="title" class="fw-bold"/>
+                                    <span t-if="!selection_mode" class="d-flex align-items-center">
+                                        <field name="user_id" widget="many2one_avatar_user" options="{'display_avatar_name': True}"/>
+                                            <span class="mx-1">-</span>
+                                        <t t-esc="luxon.DateTime.fromISO(record.create_date.raw_value).toFormat('MMM yyyy')"/>
+                                    </span>
+                                </div>
+                            </div>
+                            <div t-attf-class="col-lg-1 col-sm-4 d-sm-block py-0 my-2 col-#{selection_mode ? '12' : '6'}">
+                                <field name="question_count" class="fw-bold"/><br t-if="!selection_mode"/>
+                                <span class="text-muted">Questions</span>
+                            </div>
+                            <div t-if="selection_mode" class="col-12 d-flex justify-content-end">
+                                <field name="user_id" widget="many2one_avatar_user"/>
+                            </div>
+                            <div t-if="!selection_mode" class="col-lg-1 col-sm-4 col-6 d-none py-0 my-2">
+                                <field name="answer_duration_avg" widget="float_time" class="fw-bold"/>
+                                <span class="text-muted">Average Duration</span>
+                            </div>
+                            <div t-if="!selection_mode" class="col-lg-1 col-sm-4 col-6 d-none py-0 my-2">
+                                <a type="object" name="action_survey_user_input" class="fw-bold">
+                                    <field name="answer_count"/><br/>
+                                    <span class="text-muted">Registered</span>
+                                </a>
+                            </div>
+                            <div t-if="!selection_mode" class="col-lg-1 col-sm-4 col-6 d-sm-block py-0 my-2">
+                                <a type="object" name="action_survey_user_input_completed" class="fw-bold">
+                                    <field name="answer_done_count"/><br/>
+                                    <span class="text-muted">Completed</span>
+                                </a>
+                            </div>
+                            <div t-if="!selection_mode" class="col-lg-1 col-sm-4 col-6 py-0 my-2" name="o_survey_kanban_card_section_success">
+                                 <a t-if="record.scoring_type.raw_value != 'no_scoring'" type="object" name="action_survey_user_input_certified" class="fw-bold">
+                                    <field name="success_ratio" widget="progressbar" class="d-block" style="word-break: normal;"/>
+                                    <span class="text-muted" t-if="!record.certification.raw_value">Passed</span>
+                                    <span class="text-muted" t-else="">Certified</span>
+                                </a>
+                            </div>
+                            <div t-if="!selection_mode" class="col-lg-3 col-sm-12 d-none d-sm-flex justify-content-end gap-1 my-2 ms-auto pb-lg-3 py-0">
+                                <button name="action_send_survey" string="Share" type="object" class="btn btn-secondary text-nowrap" invisible="not active">
+                                    Share
+                                </button>
+                                <button name="action_test_survey" string="Test" type="object" class="btn btn-secondary text-nowrap" invisible="not active">
+                                    Test
+                                </button>
+                                <button name="action_result_survey" string="See results" type="object" class="btn btn-secondary" invisible="not active">
+                                    See results
+                                </button>
+                                <button name="action_start_session" string="Start Live Session" type="object" class="btn btn-secondary" invisible="session_state or not active or not session_available">
+                                    Start Live Session
+                                </button>
+                                <button name="action_end_session" string="End Live Session" type="object" class="btn btn-secondary" invisible="session_state not in ['ready', 'in_progress'] or not active">
+                                    End Live Session
+                                </button>
+                            </div>
+                        </div>
+                        <!-- Generic -->
+                        <div t-if="!selection_mode" class="o_survey_kanban_card_bottom">
+                            <field name="activity_ids" widget="kanban_activity"/>
+                        </div>
+                    </div>
+                </templates>
+            </kanban>

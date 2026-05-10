@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6049,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      520,
+      "Tax Unit"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bc40f011031b6fb060c567b5a904c120afac69bb7ad95d0079c99e711ac5c5c5",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_tax_unit__country_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21265,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employer Cost",
+    "model_id": [
+      1239,
+      "Headcount Line"
+    ],
+    "name": "employer_cost",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b7f5a8308bfa99cef374c53259d8ea5458cb534f08621b9f91fdcbf102c7f578",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_payroll_headcount_line__employer_cost"
+}

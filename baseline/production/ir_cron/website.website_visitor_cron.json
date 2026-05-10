@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 41,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_unlink_old_visitors()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      699,
+      "Website Visitor"
+    ],
+    "name": "Website Visitor : clean inactive visitors",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "3a1c4cb57a65317f3ff20cf7732506860d3557826f8d8333e07ee43e3725ad97",
+  "write_date": "2026-01-28 12:01:03",
+  "xml_id": "website.website_visitor_cron"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28753,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Price Difference Account",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "property_price_difference_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f8a526510e0f69b825599e80d4a8319d6ba72d40af71f7e774558407cfa44c3d",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_category__property_price_difference_account_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20562,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Unavailabilities",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "planning_employee_unavailabilities",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d12ca1b62860eba3889a9330bbc121dcf19aee6cb3dc40d26b13e83b926f52da",
+  "write_date": "",
+  "xml_id": "planning.field_res_company__planning_employee_unavailabilities"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17122,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "328d37cfb460a22e9a6ec90dfb37669a3583955ea5565070afb69d9dc887a03a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__message_follower_ids"
+}

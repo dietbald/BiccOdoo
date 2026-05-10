@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debit Account",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "account_debit",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5542602cc7abc7471d7422b452ee0e5bd0ae53c50acccfa2b58b8f3dc96f2b92",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_salary_rule__account_debit"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 480,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_Customer': 1, 'group_by': 'partner_id', 'search_default_filter_order_date': 1}",
+    "domain": false,
+    "name": "Sales Analysis By Customers",
+    "res_model": "sale.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "fc401937369a9bdc3d7fb36c354b855ceca9b3fe2d8ee56bfbcfc407f3cb614d",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_order_report_customers"
+}

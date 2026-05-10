@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 132,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                    'search_default_active': True,\n                }\n            ",
+    "domain": false,
+    "name": "Aliases",
+    "res_model": "mail.alias",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "9f6a61158b3a514d0a2bbfcf714059e334ef2ba5167b084e666bb1f49e42bcbd",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.mail_alias_action"
+}

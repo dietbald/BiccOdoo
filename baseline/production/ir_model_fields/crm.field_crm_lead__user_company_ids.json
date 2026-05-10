@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7190,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User Company",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "user_company_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "771435dd3fc1ce2a6b2936b76bf4b31c39f7154b1574ae65566716a9c6ea9948",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__user_company_ids"
+}

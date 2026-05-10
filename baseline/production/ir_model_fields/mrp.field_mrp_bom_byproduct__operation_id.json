@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15971,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Produced in Operation",
+    "model_id": [
+      962,
+      "Byproduct"
+    ],
+    "name": "operation_id",
+    "relation": "mrp.routing.workcenter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1325615a0f0ac6567569bb3f3a82c4019e72494f5895bc9a9c665c3ea1c16f45",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_byproduct__operation_id"
+}

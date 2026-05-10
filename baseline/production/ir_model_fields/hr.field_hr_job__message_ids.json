@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8854,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "61f972519204257f1508cef251841bebd54c8724aaf089c03ad584b231ae2970",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27766,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Country State",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "allowed_country_state_ids",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1d97d85ab644ad12c3f090cd2cda1fdff843cfd5c7192869ba8e00897f53a65b",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__allowed_country_state_ids"
+}

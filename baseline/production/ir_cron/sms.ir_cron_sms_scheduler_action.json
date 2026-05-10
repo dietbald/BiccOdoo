@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 12,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._process_queue()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      394,
+      "Outgoing SMS"
+    ],
+    "name": "SMS: SMS Queue Manager",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "8e1e74c3672fa527df56de01574552316a4a0890be67fc215d223247dab47ffc",
+  "write_date": "2025-02-12 09:18:22",
+  "xml_id": "sms.ir_cron_sms_scheduler_action"
+}

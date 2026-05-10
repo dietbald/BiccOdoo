@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1270,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      110,
+      "Install Language"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0d4cf2f9a0e8e147ef5cceb9a0ad78152e161840f0b201911411abd4d7b77eb1",
+  "write_date": "",
+  "xml_id": "base.field_base_language_install__write_uid"
+}

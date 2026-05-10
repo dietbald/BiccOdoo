@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7354,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      581,
+      "CRM Recurring revenue plans"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "55a91b6828f5afbc5beee7f6259d36775f513aa171f8eae210bd21e71a8effe1",
+  "write_date": "",
+  "xml_id": "crm.field_crm_recurring_plan__create_uid"
+}

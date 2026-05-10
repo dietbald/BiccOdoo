@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1582,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'searchpanel_default_state': ['submitted']}",
+    "domain": false,
+    "name": "Expenses to Process",
+    "res_model": "hr.expense",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph,pivot,activity"
+  },
+  "payload_sha256": "9d6780813037c61d9b8c36e3122a83ecce79a17ce28fbc66f4dbfe2552f3114a",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.hr_expense_actions_to_process"
+}

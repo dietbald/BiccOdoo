@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1373,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      116,
+      "Time Off / Administrator"
+    ],
+    "model_id": [
+      163,
+      "Activity Type"
+    ],
+    "name": "mail.activity.type.holidays.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "61ceab9a0482c192814b8f74d4cfbfc2c7c58ce79810f4da09748e9a2c910d76",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.access_mail_activity_type_holidays_manager"
+}

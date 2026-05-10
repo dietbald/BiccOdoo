@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18184,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduled Date",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "schedule_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "facc3ce559d35415d495681670bb95cd65811ab929e9d97b11a938ca38c6af2b",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__schedule_date"
+}

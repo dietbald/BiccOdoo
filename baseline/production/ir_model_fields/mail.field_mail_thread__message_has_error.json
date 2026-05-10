@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1781,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      155,
+      "Email Thread"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "30f5a8c89a84b2abe32ee07c88744630ba44ef724b1a8360dd3211d9e713977e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread__message_has_error"
+}

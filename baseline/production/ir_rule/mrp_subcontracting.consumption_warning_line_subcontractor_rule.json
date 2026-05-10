@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 495,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('mrp_production_id', 'in', user.partner_id.commercial_partner_id.production_ids.ids)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      979,
+      "Line of issue consumption"
+    ],
+    "name": "MRP Consumption Warning Lines Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ff2917e2ddda80988d158532a879816a5086f9f2a6db76aac0b31db5bf81d885",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.consumption_warning_line_subcontractor_rule"
+}

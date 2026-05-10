@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19431,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1112,
+      "Progress of Scheduled Actions"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0c61b1d709d8f1efb6d7ce31287289c9116bedcb3e039e3edd5ebf792efb1f24",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_progress__write_uid"
+}

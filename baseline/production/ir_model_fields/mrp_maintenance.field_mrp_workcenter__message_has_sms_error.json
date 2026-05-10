@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18257,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5dda0436ef2f4088cc884c6babe1c2c5d7c209af7fc6a4d8447ee691aaf145ee",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__message_has_sms_error"
+}

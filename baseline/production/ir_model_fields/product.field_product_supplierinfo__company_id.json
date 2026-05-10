@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3193,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8dda0370dcce97a7aeae7cc9053573f8f70e45c21d8ca212d87e9f63bd2c2b57",
+  "write_date": "",
+  "xml_id": "product.field_product_supplierinfo__company_id"
+}

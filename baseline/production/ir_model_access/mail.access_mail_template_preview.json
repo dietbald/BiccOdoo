@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 234,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      216,
+      "Email Template Preview"
+    ],
+    "name": "access.mail.template.preview",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "c5be1990ae7f4ebdf7e91ab9e51b36c01b395fe09cd71d412e0aecc8a609fbca",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_template_preview"
+}

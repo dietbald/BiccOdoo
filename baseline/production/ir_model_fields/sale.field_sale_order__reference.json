@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8169,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Ref.",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "reference",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d7f087a33ad16a677efc019b3da1ec08dadb104299d494d79983b0513e8b34aa",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__reference"
+}

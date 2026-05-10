@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1435,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow the users to synchronize their calendar  with Google Calendar",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_google_calendar",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "008250985f6faa70a981213a857ed1bb945afb9cdb4f7e1a5de3fde4d616defe",
+  "write_date": "",
+  "xml_id": "base_setup.field_res_config_settings__module_google_calendar"
+}

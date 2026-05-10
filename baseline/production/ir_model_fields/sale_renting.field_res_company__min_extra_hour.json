@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26543,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Minimum delay time before applying fines.",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "min_extra_hour",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "b0ccf0fb543763acf8d2f5cb755bf678d43d302ee3955e4a4e079ce720fec211",
+  "write_date": "",
+  "xml_id": "sale_renting.field_res_company__min_extra_hour"
+}

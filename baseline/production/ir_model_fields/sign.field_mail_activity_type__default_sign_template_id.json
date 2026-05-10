@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19736,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Signature Template",
+    "model_id": [
+      163,
+      "Activity Type"
+    ],
+    "name": "default_sign_template_id",
+    "relation": "sign.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fcd5da8a6b246661f7a03fe1dee3d729fb898943c1f6e958bde1273ed3fe9546",
+  "write_date": "",
+  "xml_id": "sign.field_mail_activity_type__default_sign_template_id"
+}

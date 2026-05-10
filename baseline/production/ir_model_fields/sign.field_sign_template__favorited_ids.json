@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10592,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Favorited Users",
+    "model_id": [
+      709,
+      "Signature Template"
+    ],
+    "name": "favorited_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1d6f6eae3521bb961e2ce186983f00be21e0f30feff99479956b9d30d5bf5337",
+  "write_date": "",
+  "xml_id": "sign.field_sign_template__favorited_ids"
+}

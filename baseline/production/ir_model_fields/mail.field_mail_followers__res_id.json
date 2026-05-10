@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1964,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Document ID",
+    "model_id": [
+      168,
+      "Document Followers"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "0c157326d675fe68233bc61a5e830f5e3d5327fbab3af2d81c7a781ca1a3ec91",
+  "write_date": "",
+  "xml_id": "mail.field_mail_followers__res_id"
+}

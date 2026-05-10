@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 48,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_timesheet_reminder_employee()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "Timesheet: Employees Email Reminder",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "9417f57d1bed87b383043964b3dfd3dfcb4395a0b14f23038b23d7a0728473de",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "timesheet_grid.timesheet_reminder_user"
+}

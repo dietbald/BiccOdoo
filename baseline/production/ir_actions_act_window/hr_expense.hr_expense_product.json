@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 545,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_can_be_expensed': 1,\n            'default_type': 'service',\n            'default_expense_policy' : 'cost',\n        }",
+    "domain": "[('can_be_expensed', '=', True)]",
+    "name": "Expense Categories",
+    "res_model": "product.product",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "47dc6d4c1d2a6cd69434465fdeb1c778c6717c0bb4158f42e24c106cf171ea43",
+  "write_date": "2025-12-09 03:00:29",
+  "xml_id": "hr_expense.hr_expense_product"
+}

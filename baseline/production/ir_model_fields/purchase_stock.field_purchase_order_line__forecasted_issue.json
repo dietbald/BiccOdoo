@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11966,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Forecasted Issue",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "forecasted_issue",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "623430f711d679d8caaaf198f09a5d03289afa64f8188a4b4df20c86e55e42e1",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order_line__forecasted_issue"
+}

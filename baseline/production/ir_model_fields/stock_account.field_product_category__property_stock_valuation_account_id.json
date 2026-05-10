@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11846,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Valuation Account",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "property_stock_valuation_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "210517ee6ce41a5e3fbda85a3425bec1aa9e593593229fec94945479c6dc8799",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_category__property_stock_valuation_account_id"
+}

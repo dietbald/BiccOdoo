@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26786,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main User",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "main_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2c84d2270c555ee55f8ad4c0b4ebcef5f412afe318a687601efceec5b5a13f81",
+  "write_date": "",
+  "xml_id": "base.field_res_partner__main_user_id"
+}

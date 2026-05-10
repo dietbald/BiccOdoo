@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18766,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1070,
+      "Lines for FSM Stock Tracking"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "93b532d1c9b5b0b918d6f65f624fac3ed820a5bc86700598037cb7c69e06206f",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking_line__create_uid"
+}

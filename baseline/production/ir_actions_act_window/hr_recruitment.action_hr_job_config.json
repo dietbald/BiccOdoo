@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 599,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_in_recruitment': 1}",
+    "domain": false,
+    "name": "Job Positions",
+    "res_model": "hr.job",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "5806e4138068ee448df19e727ec115655f5e8cc3d7709556f7081d86f815945c",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.action_hr_job_config"
+}

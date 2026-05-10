@@ -1,0 +1,8 @@
+<t t-name="hr_expense.hr_expense_template_submitted_expenses">
+            <p>Dear <t t-out="manager_name"/>,</p>
+            <p>
+                New expenses are awaiting your approval.
+                You can review them by following this link
+            </p>
+            <a t-att-href="'/odoo/expenses-to-process'" class="o_expense_button_mail">View expenses</a>
+        </t>

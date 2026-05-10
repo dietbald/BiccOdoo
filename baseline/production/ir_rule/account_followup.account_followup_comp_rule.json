@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 112,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('company_id','=',False),('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "Account Follow-up multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "08b4dc61846e1c1b93b7cda159bce226998728854d8b0b0e1a6dcab489ea1d7d",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account_followup.account_followup_comp_rule"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23117,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Billed Amount Untaxed",
+    "model_id": [
+      1421,
+      "Purchase Line and Vendor Bill line matching view"
+    ],
+    "name": "billed_amount_untaxed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "1e4469502363073abff9c20545abf7f3ad97d5f708e8261f1ea2b94d9df93f4d",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_line_match__billed_amount_untaxed"
+}

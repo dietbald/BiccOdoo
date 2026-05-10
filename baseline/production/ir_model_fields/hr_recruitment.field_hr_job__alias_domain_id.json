@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9728,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias Domain",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "alias_domain_id",
+    "relation": "mail.alias.domain",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1bcfc5c11eb3165b7e7c38116ad9e4e45777d9c16263eb8cc90b1af30a212be1",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__alias_domain_id"
+}

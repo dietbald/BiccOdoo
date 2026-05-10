@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9920,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Content Delivery Network (CDN)",
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "cdn_activated",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f4725ef7fa0ad88946726dcf02d715cc727befec0bf8c627e96c1cfb415c3885",
+  "write_date": "",
+  "xml_id": "website.field_website__cdn_activated"
+}

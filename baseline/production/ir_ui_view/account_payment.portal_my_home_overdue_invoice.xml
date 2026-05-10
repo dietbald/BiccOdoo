@@ -1,0 +1,18 @@
+<data name="Portal layout: overdue invoices" inherit_id="portal.portal_breadcrumbs" priority="30">
+        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+            <t t-if="page_name == 'overdue_invoices'">
+                <li t-attf-class="breadcrumb-item active">
+                    <a t-attf-href="/my/invoices?{{ keep_query() }}">Invoices &amp; Bills</a>
+                </li>
+                <li class="breadcrumb-item active">
+                    <t t-out="payment['reference']"/>
+                </li>
+            </t>
+        </xpath>
+
+        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="after">
+            <a t-if="page_name == 'invoice' and not invoice and filterby != 'bills' and overdue_invoice_count &gt; 0" class="btn btn-primary" href="/my/invoices/overdue">
+                Pay overdue
+            </a>
+        </xpath>
+    </data>

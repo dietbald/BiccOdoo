@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16416,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      975,
+      "Warn Insufficient Unbuild Quantity"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "c5003dfe0ea181a0a16eb5bbdec0d006bd8b0837ad11cebe8278581da88b600d",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_warn_insufficient_qty_unbuild__create_date"
+}

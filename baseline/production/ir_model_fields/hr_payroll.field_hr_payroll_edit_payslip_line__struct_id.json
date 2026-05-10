@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13190,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Structure",
+    "model_id": [
+      836,
+      "Edit payslip lines wizard line"
+    ],
+    "name": "struct_id",
+    "relation": "hr.payroll.structure",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "74b7f1e4022427d30f4a0616b4fca30ecbbfd5223a9457e6c3bad3dc6f38636b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_edit_payslip_line__struct_id"
+}

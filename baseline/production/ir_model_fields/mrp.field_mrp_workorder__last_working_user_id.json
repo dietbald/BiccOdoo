@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last user that worked on this work order.",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "last_working_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "613ce2dec0ed8fbacdb1119ddfc3a04f23445354a3d633b56713014c9c984a5b",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__last_working_user_id"
+}

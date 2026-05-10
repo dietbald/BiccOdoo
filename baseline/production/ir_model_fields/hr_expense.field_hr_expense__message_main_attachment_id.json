@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9145,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Attachment",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "message_main_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4dbe66a019199d9641fba5cea6f7d5cfa987dd23ce613b1d1473c0b61e71a2cf",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__message_main_attachment_id"
+}

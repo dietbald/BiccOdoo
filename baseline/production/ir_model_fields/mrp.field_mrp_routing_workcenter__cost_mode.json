@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28634,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cost based on",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "cost_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "79d8eab4e7799f5a41cf39585d419fee7263edc8164d944199cffd130f54996c",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_routing_workcenter__cost_mode"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10967,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product with Tracking",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "has_tracking",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2ba5e03ebe587c11c112487173eb7359a22be510e9011f00160103e8f76b9d92",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__has_tracking"
+}

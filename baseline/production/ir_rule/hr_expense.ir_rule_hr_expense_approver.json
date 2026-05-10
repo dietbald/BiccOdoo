@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 228,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', '|', '|', '|', ('employee_id.user_id', '=', user.id), ('employee_id.department_id.manager_id.user_id', '=', user.id), ('employee_id.parent_id.user_id', '=', user.id), ('employee_id.expense_manager_id', '=', user.id), (0, '=', 1)]",
+    "groups": [
+      54
+    ],
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "Team Approver Expense",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a38014b69970a32720d06c879dc987de30bc445b2c4310bcd9d465675e560966",
+  "write_date": "2023-11-30 07:12:51",
+  "xml_id": "hr_expense.ir_rule_hr_expense_approver"
+}

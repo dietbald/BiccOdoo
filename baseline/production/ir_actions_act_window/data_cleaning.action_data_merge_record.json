@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 980,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{ 'group_by': ['group_id'] }",
+    "domain": false,
+    "name": "Duplicates",
+    "res_model": "data_merge.record",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "cd1f93bb9004cb775c5c99713cbdb2270f9f731f87c0856136cff4f8cb8b9c0b",
+  "write_date": "2025-12-09 02:56:08",
+  "xml_id": "data_cleaning.action_data_merge_record"
+}

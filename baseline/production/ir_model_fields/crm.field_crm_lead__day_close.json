@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7215,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days to Close",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "day_close",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "92ea1c4db8509d7c29962b1ffccd78f74888fe4ea45e1ea48b74e09d972002b6",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__day_close"
+}

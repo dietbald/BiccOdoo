@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 102,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      451,
+      "Accounting Report External Value"
+    ],
+    "name": "Report External Value multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f8d1ca664d013b06bc4f4a6f6fd46dc82c89b19e20240e1047ec7bfc12fcf6c8",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.report_external_value_comp_rule"
+}

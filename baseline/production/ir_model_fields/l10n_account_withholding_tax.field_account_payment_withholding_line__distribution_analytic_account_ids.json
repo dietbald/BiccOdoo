@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29747,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution Analytic Account",
+    "model_id": [
+      3764,
+      "Payment withholding line"
+    ],
+    "name": "distribution_analytic_account_ids",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6de9f8e7e4c981fed52e132b6d65aa716510d0f2b29406bc766f9afc4ca2e8f2",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment_withholding_line__distribution_analytic_account_ids"
+}

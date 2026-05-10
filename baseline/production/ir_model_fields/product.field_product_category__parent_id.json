@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3065,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Category",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "parent_id",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "647aff79d6f22a41b9693a7293a7ec4808094fe48dbc966a075ea59f7ba12e09",
+  "write_date": "",
+  "xml_id": "product.field_product_category__parent_id"
+}

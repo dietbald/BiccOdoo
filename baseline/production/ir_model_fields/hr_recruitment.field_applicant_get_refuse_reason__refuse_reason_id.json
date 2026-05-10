@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9767,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Refuse Reason",
+    "model_id": [
+      670,
+      "Get Refuse Reason"
+    ],
+    "name": "refuse_reason_id",
+    "relation": "hr.applicant.refuse.reason",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6e7bd5c7c30de80bd2e7a9bcea1b4b167340039194aca33571995b627a072178",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_get_refuse_reason__refuse_reason_id"
+}

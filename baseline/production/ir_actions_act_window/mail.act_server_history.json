@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 110,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_server_id': active_id, 'default_fetchmail_server_id': active_id}",
+    "domain": "[('email_from', '!=', False), ('fetchmail_server_id', '=', active_id)]",
+    "name": "Messages",
+    "res_model": "mail.mail",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "dc78fd81dd03cdf84b621228bf20f0d46f24797f5a5a7717b0da6271da33aee7",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.act_server_history"
+}

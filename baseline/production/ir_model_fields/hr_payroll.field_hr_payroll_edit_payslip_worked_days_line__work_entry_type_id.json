@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13203,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Entry Type",
+    "model_id": [
+      837,
+      "Edit payslip line wizard worked days"
+    ],
+    "name": "work_entry_type_id",
+    "relation": "hr.work.entry.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "83df249318fe9a6b9631f6a32349d46f120a356a8c59721765d688949e009144",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_edit_payslip_worked_days_line__work_entry_type_id"
+}

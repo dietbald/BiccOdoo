@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16673,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "157b1bbae294fd4265578e21c5e459d5deaee6e6331255e0392ff959e452ef53",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__message_partner_ids"
+}

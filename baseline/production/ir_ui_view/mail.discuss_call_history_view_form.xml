@@ -1,0 +1,8 @@
+<form string="Call History">
+                    <group class="oe_form_field">
+                        <field name="channel_id"/>
+                        <field name="start_dt"/>
+                        <field name="end_dt"/>
+                        <field name="duration_hour" widget="float_time" options="{'displaySeconds': True}"/>
+                    </group>
+                </form>

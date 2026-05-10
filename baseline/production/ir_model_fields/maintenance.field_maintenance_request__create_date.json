@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18200,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "83bbe79e0ee80b00205ffca5bc21b9808b24b0c3b9daf4880c001f0e53ed23ac",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__create_date"
+}

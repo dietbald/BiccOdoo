@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28931,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount To Pay Currency",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "amount_to_pay_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e8774ac5e8547f7bfdddc64b1870c6e410a936e78b8868ee899ed125afe0b702",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__amount_to_pay_currency_id"
+}

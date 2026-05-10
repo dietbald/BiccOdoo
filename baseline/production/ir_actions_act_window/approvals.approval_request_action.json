@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 763,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('request_owner_id','=',uid)]",
+    "name": "My Requests",
+    "res_model": "approval.request",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "56d4f088ae15c535cb4f574a24aac8564e1d00cc8a79a46c13f490d4acec8fda",
+  "write_date": "2025-12-09 02:57:55",
+  "xml_id": "approvals.approval_request_action"
+}

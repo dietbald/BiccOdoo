@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27209,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduled End",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "schedule_end",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "54e45c20ccc5eaa1cbf122d9dbe95383f263dd4556e1720d9ffd03f55995dcda",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__schedule_end"
+}

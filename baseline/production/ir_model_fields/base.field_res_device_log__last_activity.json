@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19460,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Activity",
+    "model_id": [
+      1127,
+      "Device Log"
+    ],
+    "name": "last_activity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "22bcce73b65e0ff0477e52a3cd970cb461c868c5e0cc5839002e1bd454cb21cf",
+  "write_date": "",
+  "xml_id": "base.field_res_device_log__last_activity"
+}

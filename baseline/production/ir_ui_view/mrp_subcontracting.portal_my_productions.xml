@@ -1,0 +1,34 @@
+<t name="My Productions" t-name="mrp_subcontracting.portal_my_productions">
+        <t t-call="portal.portal_layout">
+            <t t-set="breadcrumbs_searchbar" t-value="True"/>
+
+            <t t-call="portal.portal_searchbar">
+                <t t-set="title">Productions</t>
+            </t>
+
+            <t t-if="not pickings">
+                <p class="alert alert-warning">There are currently no productions for your account.</p>
+            </t>
+
+            <t t-if="pickings" t-call="portal.portal_table">
+                <thead>
+                    <tr class="active">
+                        <th>Order</th>
+                        <th class="text-end">Source Document</th>
+                        <th class="text-end">Scheduled Date</th>
+                        <th class="text-end">Deadline Date</th>
+                        <th class="text-end">State</th>
+                    </tr>
+                </thead>
+                <t t-foreach="pickings" t-as="picking">
+                    <tr>
+                        <td><a t-attf-href="/my/productions/#{picking.id}?{{ keep_query() }}"><span t-field="picking.name"/></a></td>
+                        <td class="text-end"><span t-field="picking.origin"/></td>
+                        <td class="text-end"><span t-field="picking.scheduled_date" t-options="{&quot;widget&quot;: &quot;date&quot;}"/></td>
+                        <td class="text-end"><span t-field="picking.date_deadline" t-options="{&quot;widget&quot;: &quot;date&quot;}"/></td>
+                        <td class="text-end"><span t-field="picking.state"/></td>
+                    </tr>
+                </t>
+            </t>
+        </t>
+    </t>

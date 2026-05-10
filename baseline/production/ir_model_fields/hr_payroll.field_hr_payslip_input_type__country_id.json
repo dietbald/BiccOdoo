@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12990,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      824,
+      "Payslip Input Type"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "457b99903a73d1b9a36a6cb69a2d856270b10604779dfa27e5ebdfb63d226690",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_input_type__country_id"
+}

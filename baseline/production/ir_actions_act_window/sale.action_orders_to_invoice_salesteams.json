@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 501,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_team_id': [active_id],\n                'default_team_id': active_id,\n            }\n        ",
+    "domain": "[('invoice_status','=','to invoice')]",
+    "name": "Sales Orders",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "list,form,calendar,graph,kanban,pivot"
+  },
+  "payload_sha256": "ce0e1efa678c6b94df76ecfd97284df491bb6cc648f445b117ef59fea78cb9f2",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_orders_to_invoice_salesteams"
+}

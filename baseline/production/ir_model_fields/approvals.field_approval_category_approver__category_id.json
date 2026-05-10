@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12080,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval Category",
+    "model_id": [
+      783,
+      "Approval Category Approver"
+    ],
+    "name": "category_id",
+    "relation": "approval.category",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "80e0fb75a6287a42b41888a5b424d346ef8ba308f9c090b97e7c48aa9d2a5a32",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_category_approver__category_id"
+}

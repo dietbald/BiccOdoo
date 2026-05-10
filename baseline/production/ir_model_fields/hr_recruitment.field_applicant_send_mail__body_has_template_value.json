@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9783,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Body content is the same as the template",
+    "model_id": [
+      671,
+      "Send mails to applicants"
+    ],
+    "name": "body_has_template_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5e0f92563548232487afc964eefeb8f32a33367765436857454a00225297aa62",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_send_mail__body_has_template_value"
+}

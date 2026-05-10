@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8863,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ad009dcd652b1ac3d2d172685d332701d092f246ad1cef4606ddeed5f57c43ac",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__message_has_sms_error"
+}

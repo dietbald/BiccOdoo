@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Structure",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "structure_id",
+    "relation": "hr.payroll.structure",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ab48d77e455ec0058b71c76ec1bdf88a5f1fdb55498d75af4453330e31845b90",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_offer__structure_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13765,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approved/rejected by",
+    "model_id": [
+      876,
+      "Studio Approval Entry"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c3c95ab7dd374520467db8abbda29e52daa2d599cd538e6d2d6f1e8d7070d184",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_entry__user_id"
+}

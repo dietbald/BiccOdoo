@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2718,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      347,
+      "Analytic Distribution Model"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5346791a6948f86cae2b36bcdb761ddc8f155c02a413363cff9cb6d72c50d7d2",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_distribution_model__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12617,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Representative",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8e19f096cfeaf070d45950b8e1619c79cf5328bb0bb979185f9b21a4fac7df06",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__user_id"
+}

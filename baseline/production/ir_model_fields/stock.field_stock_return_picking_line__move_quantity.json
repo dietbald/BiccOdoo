@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22624,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move Quantity",
+    "model_id": [
+      753,
+      "Return Picking Line"
+    ],
+    "name": "move_quantity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b22403d6def824befd880967a2fe1622a80b0b44cd00b0c8af6bd8d8689ad247",
+  "write_date": "",
+  "xml_id": "stock.field_stock_return_picking_line__move_quantity"
+}

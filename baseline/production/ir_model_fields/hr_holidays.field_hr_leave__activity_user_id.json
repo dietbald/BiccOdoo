@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15475,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2e8739b287c8954e34087e1e4c0f4a74af8bd4d03f58ed0dc6915a88b01fbab8",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__activity_user_id"
+}

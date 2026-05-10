@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20542,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1233,
+      "Job Platforms"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "190fc04162c99332bb44421a17c379fc596e3074dc201cf01a56c42854800202",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job_platform__write_uid"
+}

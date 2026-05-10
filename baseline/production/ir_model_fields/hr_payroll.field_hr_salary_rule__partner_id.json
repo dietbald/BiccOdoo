@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12828,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a5d8d1dab1f39a027f247793cd4dbf83bcc427d8854a4c46def72b427fb51147",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__partner_id"
+}

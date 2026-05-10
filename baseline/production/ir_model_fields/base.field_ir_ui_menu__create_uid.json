@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 182,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      14,
+      "Menu"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e0febad81a3d715ed1773ebd3ff49eca44126b03255681b6505472bcaf183866",
+  "write_date": "",
+  "xml_id": "base.field_ir_ui_menu__create_uid"
+}

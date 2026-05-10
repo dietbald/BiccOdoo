@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18809,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cron",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "cron_id",
+    "relation": "ir.cron",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "76557cedf58305ec1c3b8597cdbcbcf7a4a9970a28fd791a62ce4c1175136f88",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__cron_id"
+}

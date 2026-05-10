@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8280,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ac63e9be4108b88cc6487449658a59b8ba5d7e53a6e3fee5e46594ef12b5c315",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__partner_id"
+}

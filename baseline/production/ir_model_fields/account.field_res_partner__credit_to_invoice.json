@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3855,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit To Invoice",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "credit_to_invoice",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2edd2f2643be492cf372999c6b419d5fe2d6ce16d5ac0879224ff548e2229f2d",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__credit_to_invoice"
+}

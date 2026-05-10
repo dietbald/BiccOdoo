@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Paid By",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "payment_mode",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a26a75a0ab2aeac4cee58967336c5c208f3bc0e99902dde830dc7a57803fbba1",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__payment_mode"
+}

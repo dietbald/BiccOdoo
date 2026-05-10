@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10403,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Expiry Notice Period",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "contract_expiration_notice_period",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "9762483c03851340c8a0007c73c70d0106efd89c363ca41b867fbaac2c0a9657",
+  "write_date": "",
+  "xml_id": "hr.field_res_company__contract_expiration_notice_period"
+}

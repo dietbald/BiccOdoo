@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 59,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "Analytic line multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "24800ffe669f48a18361f78ea48497fc6423f59af1b25c56d76d79ce62583053",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "analytic.analytic_line_comp_rule"
+}

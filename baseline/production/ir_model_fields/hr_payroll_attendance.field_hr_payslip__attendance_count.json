@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13386,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendance Count",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "attendance_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "59ceba0821bf01ccec6b36946d411c322500801af26ee88a103f93dd42ca5e64",
+  "write_date": "",
+  "xml_id": "hr_payroll_attendance.field_hr_payslip__attendance_count"
+}

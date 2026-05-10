@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12859,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "59b31da5ea8cfc76ccadd8b872c8f8d7210ed5061754e95abdb7609a24e3c0a4",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__message_follower_ids"
+}

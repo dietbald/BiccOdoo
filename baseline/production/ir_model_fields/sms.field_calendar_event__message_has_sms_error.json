@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6910,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "88b2be8659527e8ea62f97bf3ba786df5c43423cfe7d83ab36ee35d919b92efe",
+  "write_date": "",
+  "xml_id": "sms.field_calendar_event__message_has_sms_error"
+}

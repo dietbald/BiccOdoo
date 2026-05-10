@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21161,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "2a12782d482353c8496a92f54d52e5548af3637dcba8417dabe18b6011c9cf8d",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__activity_date_deadline"
+}

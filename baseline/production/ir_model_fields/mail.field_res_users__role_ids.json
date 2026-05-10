@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27040,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User Roles",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "role_ids",
+    "relation": "res.role",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f37c888fa9f47390c9e3affec6d82eebe3854a23b7f5e61cda1373d8a5ab6f84",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__role_ids"
+}

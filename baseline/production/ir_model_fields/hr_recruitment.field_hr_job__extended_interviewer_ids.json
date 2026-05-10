@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9747,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extended Interviewer",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "extended_interviewer_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "267b6fd9698bb70b300a8d3fe4b65c322d407915369413bf9a2dfbfd701f2991",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__extended_interviewer_ids"
+}

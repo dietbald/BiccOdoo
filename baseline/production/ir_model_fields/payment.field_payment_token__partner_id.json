@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3698,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      409,
+      "Payment Token"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "073bc27cdc93c9a1e6ff979fbd9612765c8a416a39fe735ad4e37168f2e4e67a",
+  "write_date": "",
+  "xml_id": "payment.field_payment_token__partner_id"
+}

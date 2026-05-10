@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29625,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Net Wage",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "net_wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "ba606be47b6d652dc33ebdcce266d56cb2ffcd48c372459af02739f4e34820c7",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_offer__net_wage"
+}

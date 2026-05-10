@@ -1,0 +1,3 @@
+<xpath expr="//page[@name='alternative_pos']//field[@name='alternative_po_ids']//field[@name='partner_id']" position="after">
+                <field name="on_time_rate_perc" widget="percentage" invisible="on_time_rate_perc &lt; 0"/>
+            </xpath>

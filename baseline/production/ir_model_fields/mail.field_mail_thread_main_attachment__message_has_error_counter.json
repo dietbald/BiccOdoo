@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1816,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      158,
+      "Mail Main Attachment management"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c88481e0f1963c4aeeafacde41e555c3595ce8f6442e133394aa9e91ff39c348",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_main_attachment__message_has_error_counter"
+}

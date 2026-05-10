@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3495,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      400,
+      "SMS Template Preview"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6335c9e555eeba5e6830ebeeddfd2811a93212bcab9eccb0de1936d0682c012b",
+  "write_date": "",
+  "xml_id": "sms.field_sms_template_preview__write_uid"
+}

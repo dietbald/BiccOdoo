@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Scope",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "tax_scope",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0b5ca1c66a6694b26a70a082335e2a03f75e8c41f4edcf4583d571a19cfe91e1",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__tax_scope"
+}

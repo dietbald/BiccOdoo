@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14543,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reward Bests if not Succeeded?",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "reward_failure",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3085bd932945cddfe01ef81383d3cbd0c660de7b15b496b6b6f519b9edb81d7b",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__reward_failure"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 5,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1774,
+      1486
+    ],
+    "active": true,
+    "filter_domain": false,
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "On new applicant",
+    "trigger": "on_create"
+  },
+  "payload_sha256": "badc4449c49342958524862831151f69806c42478f78c60f09bc601901a2f00c",
+  "write_date": "2026-02-18 10:15:04",
+  "xml_id": "studio_customization.on_new_applicant_279d5e8e-0f4f-40a0-bb8c-91b12296c3da"
+}

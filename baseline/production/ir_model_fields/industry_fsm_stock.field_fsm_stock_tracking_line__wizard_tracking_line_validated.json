@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18761,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard Tracking Line Validated",
+    "model_id": [
+      1070,
+      "Lines for FSM Stock Tracking"
+    ],
+    "name": "wizard_tracking_line_validated",
+    "relation": "fsm.stock.tracking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ee6a29fb4c6e2f7c9641529ed22b99c0e85e8a4344f409db931a17af322e466e",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking_line__wizard_tracking_line_validated"
+}

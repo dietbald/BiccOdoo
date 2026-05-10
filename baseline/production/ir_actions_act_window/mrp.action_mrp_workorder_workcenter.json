@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1055,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_work_center': True, 'search_default_ready': True, 'search_default_blocked': True, 'search_default_progress': True, 'show_workcenter_status': True}",
+    "domain": false,
+    "name": "Work Orders Planning",
+    "res_model": "mrp.workorder",
+    "target": "current",
+    "view_mode": "gantt,list,form,calendar,pivot,graph"
+  },
+  "payload_sha256": "20b0ba9fa208c4e46099fbb96cd0cafb0835f4c37297b03a1708ff083fd6e002",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp.action_mrp_workorder_workcenter"
+}

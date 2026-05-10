@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12689,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      811,
+      "HR Work Entry"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a1576963a294279b3d38b629be5c56fbfd4bff4e76a85c5c1b955a4e53dff90f",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_hr_work_entry__company_id"
+}

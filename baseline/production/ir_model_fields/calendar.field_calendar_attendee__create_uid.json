@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6866,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      563,
+      "Calendar Attendee Information"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "665dfdbeadf88fe44226317f3617056be74360bf4dec1a6294c2ecf28d2d29ef",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_attendee__create_uid"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 837,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      61,
+      "Recruitment / Interviewer"
+    ],
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "hr.applicant.interviewer",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "2c1ff23f660f77a55c4d0782bc15cf29c7aee34b565a910fd8f023c86c9eb1e4",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_hr_applicant_interviewer"
+}

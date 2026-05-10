@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 615,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      1238,
+      "Payroll Headcount"
+    ],
+    "name": "HR Payroll Headcount: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "82b88606227e2c24cd9734b5ea1b4370b008ec3c0afd9c9d64903e8c8f9722e3",
+  "write_date": "2024-10-23 10:50:18",
+  "xml_id": "hr_payroll.ir_rule_hr_payroll_headcount_multi_company"
+}

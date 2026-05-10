@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25719,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Action",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "parent_id",
+    "relation": "ir.actions.server",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a486c26268bf4781b3c5c5d9659701a5130fd0baa4717378993f24255dec0683",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__parent_id"
+}

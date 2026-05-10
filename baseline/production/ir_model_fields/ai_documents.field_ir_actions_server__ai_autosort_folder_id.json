@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 52905,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sorted Folder",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "ai_autosort_folder_id",
+    "relation": "documents.document",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f057f1a1816237cd8d0bb608bb112813633d5f9baca768dae2997757e6cb2f08",
+  "write_date": "",
+  "xml_id": "ai_documents.field_ir_actions_server__ai_autosort_folder_id"
+}

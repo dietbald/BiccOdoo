@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17161,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6a4570e3290cea5bd4e95ae5de45681886d9098a0acecd35d047a80897f291e0",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__activity_ids"
+}

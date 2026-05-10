@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18244,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "af84958109cdb07353b86fcb6d5e94624af0298d57da317e6c9e4e1721b6942a",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__activity_calendar_event_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17910,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Token expiration date",
+    "model_id": [
+      1024,
+      "Social Account"
+    ],
+    "name": "youtube_token_expiration_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "2e05413a11373606291a901d88875e07c6a38eec8d0aa74574e524091ad7ca75",
+  "write_date": "",
+  "xml_id": "social_youtube.field_social_account__youtube_token_expiration_date"
+}

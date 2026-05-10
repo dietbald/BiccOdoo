@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3733,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3939bf45a1b05b5b4dc232920db52202907888bc752e882834b45c9ae312f83e",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__partner_id"
+}

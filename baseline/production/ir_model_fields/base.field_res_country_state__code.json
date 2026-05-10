@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 811,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "State Code",
+    "model_id": [
+      80,
+      "Country state"
+    ],
+    "name": "code",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "7cb52adffb5fdf8c5530acf13b794ee2df7155e0a7b96b10591e40f46ae2fbc2",
+  "write_date": "",
+  "xml_id": "base.field_res_country_state__code"
+}

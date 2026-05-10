@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14658,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Badges",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "badge_ids",
+    "relation": "gamification.badge.user",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f3e4cc762051a21089108d938de37053a0270a9dd55c3a6dbe62c1abe3ed584e",
+  "write_date": "",
+  "xml_id": "hr_gamification.field_res_users__badge_ids"
+}

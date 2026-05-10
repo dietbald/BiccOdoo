@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9600,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5e2fb623c8bc8ccaf9551d0bdd946dd196ac2a4b93c8908d9f8c341e2a9ae502",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__website_message_ids"
+}

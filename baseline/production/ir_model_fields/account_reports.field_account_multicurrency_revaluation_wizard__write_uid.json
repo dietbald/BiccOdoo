@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6094,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      523,
+      "Multicurrency Revaluation Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4f8eec88fafce65ac9f33bc6c826165eb3a3924a6879fb50e0d992af7ba02ca8",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_multicurrency_revaluation_wizard__write_uid"
+}

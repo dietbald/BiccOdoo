@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5040,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Base Tax Received Account",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_cash_basis_base_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f23c3be0c77b6638f7c8626daf63c7365b97690da40d79c26908c32c135c37ea",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__account_cash_basis_base_account_id"
+}

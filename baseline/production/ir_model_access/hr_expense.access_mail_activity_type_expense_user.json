@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 791,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      56,
+      "Expenses / Administrator"
+    ],
+    "model_id": [
+      163,
+      "Activity Type"
+    ],
+    "name": "mail.activity.type.expense.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5911587dd4b1441f756a0a3688c722b7461c921c71d755b22e96ee66c7a0addc",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.access_mail_activity_type_expense_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8692,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User's partner",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "user_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dbde3d9ba910617f46f88a51f22177df8a6d3ff2c6f2584cfeead4b1dcb982df",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__user_partner_id"
+}

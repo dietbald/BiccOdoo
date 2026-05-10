@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24772,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Invoice Template Pdf Report",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "available_invoice_template_pdf_report_ids",
+    "relation": "ir.actions.report",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bd90d0e4030014792a3675a730ebaf0c53837882c9034502e4a76bc83bf73b0c",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__available_invoice_template_pdf_report_ids"
+}

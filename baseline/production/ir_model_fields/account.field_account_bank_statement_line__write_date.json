@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4771,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated on",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "write_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "e1fa20c4b94fa4c2744fc3d6c7434a42e706018cd8ce7550c0c24ff121b64854",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__write_date"
+}

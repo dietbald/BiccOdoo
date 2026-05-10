@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 570,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_order_date_last_year': 1,\n                'search_default_groupby_product': 1,\n        }",
+    "domain": false,
+    "name": "Purchase Order Line",
+    "res_model": "purchase.order.line",
+    "target": "current",
+    "view_mode": "list,pivot,graph"
+  },
+  "payload_sha256": "a94e7d0c7932811c19c55a41db611f440af06e0c0b9e66bb25ad22929806d444",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.action_purchase_history"
+}

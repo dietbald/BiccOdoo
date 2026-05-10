@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination route",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "route_ids",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2655b7bc618b480df3b9e6dbdc15f611000ff93c9dd4e0ececbcb5a69a3e6af1",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__route_ids"
+}

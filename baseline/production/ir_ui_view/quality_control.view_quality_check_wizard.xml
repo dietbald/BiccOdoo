@@ -1,0 +1,60 @@
+<form string="Quality Checks">
+                <field name="current_check_id" invisible="1"/>
+                <field name="measure_on" invisible="1"/>
+                <field name="test_type" invisible="1"/>
+                <field name="quality_state" invisible="1"/>
+                <field name="is_last_check" invisible="1"/>
+                <field name="testing_percentage_within_lot" invisible="1"/>
+                <field name="is_lot_tested_fractionally" invisible="1"/>
+                <field name="show_lot_text" invisible="1"/>
+                <field name="product_tracking" invisible="1"/>
+                <field name="product_id" invisible="1"/>
+
+                <div class="o_row d-flex justify-content-between">
+                    <span>
+                        <field name="note" readonly="1"/>
+                    </span>
+                    <h5>
+                        <field name="position_current_check" readonly="1"/> /
+                        <field name="nb_checks" readonly="1"/>
+                    </h5>
+                </div>
+                <group invisible="measure_on != 'move_line'">
+                    <group>
+                        <label for="qty_to_test" invisible="not is_lot_tested_fractionally"/>
+                        <div class="o_row" invisible="not is_lot_tested_fractionally">
+                            <field name="qty_to_test"/>
+                            <field name="uom_id" widget="many2one_uom"/>
+                        </div>
+                        <label for="qty_tested" invisible="not is_lot_tested_fractionally"/>
+                        <div class="o_row" invisible="not is_lot_tested_fractionally">
+                            <field name="qty_tested" readonly="quality_state != 'none'"/>
+                            <field name="uom_id" widget="many2one_uom"/>
+                        </div>
+                    </group>
+                </group>
+                <group>
+                    <group>
+                        <label for="measure" invisible="test_type != 'measure'"/>
+                        <div invisible="test_type != 'measure'" class="o_row">
+                            <field name="measure" readonly="quality_state != 'none'"/>
+                            <field name="norm_unit" string="Unit of Measure"/>
+                        </div>
+                    </group>
+                </group>
+                <label for="picture" invisible="1"/>
+                <div invisible="test_type != 'picture'">
+                    <field name="picture" widget="image" readonly="quality_state != 'none'"/>
+                </div>
+                <field name="additional_note" readonly="quality_state != 'none'" placeholder="Write quality check notes..."/>
+                <footer>
+                    <button name="do_measure" type="object" class="btn-primary" string="Validate" invisible="quality_state != 'none' or test_type != 'measure'" data-hotkey="q"/>
+                    <button name="do_pass" type="object" class="btn-primary" string="Validate" invisible="quality_state != 'none' or test_type not in ('picture', 'instructions')" data-hotkey="w"/>
+                    <button name="do_pass" type="object" class="btn-success " string="Pass" invisible="quality_state != 'none' or test_type != 'passfail'" data-hotkey="w"/>
+                    <button name="do_fail" type="object" class="btn-danger" string="Fail" invisible="quality_state != 'none' or test_type != 'passfail'" data-hotkey="k"/>
+                    <button name="action_open_spreadsheet" type="object" class="btn-primary " string="Open spreadsheet" invisible="test_type != 'spreadsheet'" data-hotkey="w"/>
+                    <button name="action_generate_previous_window" type="object" class="btn-secondary" string="Previous" invisible="position_current_check == 1"/>
+                    <button name="action_generate_next_window" type="object" class="btn-secondary" string="Next" invisible="is_last_check"/>
+                    <button string="Discard" class="btn btn-secondary" special="cancel" data-hotkey="x"/>
+                </footer>
+            </form>

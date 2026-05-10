@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 197,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('state', '!=', 'draft')]",
+    "name": "Snailmail Letters",
+    "res_model": "snailmail.letter",
+    "target": "current",
+    "view_mode": "form,list"
+  },
+  "payload_sha256": "4fe6fc4272554b4f9ea3720548a482d3be0d6e838da3ab6b9ee6e252be805f94",
+  "write_date": "2025-12-09 02:56:15",
+  "xml_id": "snailmail.action_mail_letters"
+}

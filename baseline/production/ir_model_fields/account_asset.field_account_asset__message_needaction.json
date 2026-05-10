@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6135,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "509aabf6ca226dea387c20cce231e1ac5fc60bfafe990b101109addcefb054ba",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__message_needaction"
+}

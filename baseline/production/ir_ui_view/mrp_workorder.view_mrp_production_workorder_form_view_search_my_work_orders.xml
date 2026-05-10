@@ -1,0 +1,4 @@
+<xpath expr="//filter[@name='progress']" position="after">
+                <field name="connected_employee_ids"/>
+                <filter string="My Work Orders" name="my_work_order" domain="[('connected_employee_ids','in',[1])]"/>
+            </xpath>

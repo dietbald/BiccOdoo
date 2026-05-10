@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24544,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related UoMs",
+    "model_id": [
+      137,
+      "Product Unit of Measure"
+    ],
+    "name": "related_uom_ids",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8302e514127496ca08e09ddfc53d38007773851ce8a2df467b0ed28365f2e2ca",
+  "write_date": "",
+  "xml_id": "uom.field_uom_uom__related_uom_ids"
+}

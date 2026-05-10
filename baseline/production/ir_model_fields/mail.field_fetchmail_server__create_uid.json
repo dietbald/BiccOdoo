@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1841,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7733d16d39667bfab0a741ebcbe45b0e0b82f8d20fd8156a983f4fc11eb02d63",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__create_uid"
+}

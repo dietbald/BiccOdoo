@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11243,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Back Order of",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "backorder_id",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "83112666c5162e195fa338416abcbbbab7c7e7f714ac7d2148136cbf0bb53935",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__backorder_id"
+}

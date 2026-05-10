@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 785,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Input View",
+    "model_id": [
+      78,
+      "Country"
+    ],
+    "name": "address_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "29b4552f5e041cce417ce08775438657b0eb6d2e3f98480c660da3c5c11f9c18",
+  "write_date": "",
+  "xml_id": "base.field_res_country__address_view_id"
+}

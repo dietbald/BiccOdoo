@@ -1,0 +1,22 @@
+<t name="Footer Left" t-name="mass_mailing.s_mail_block_footer_social_left">
+    <section class="s_footer_social o_mail_block_footer_social o_mail_footer_social_left o_mail_snippet_general pt16" data-name="Footer Left" data-vxml="001">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 o_mail_footer_description col-12">
+                    <p t-if="res_company">
+                        <strong><t t-esc="res_company.partner_id.name"/></strong>
+                    </p>
+                    <div class="o_mail_footer_links">
+                        <p class="mb-0">
+                            <a role="button" href="/unsubscribe_from_list" class="btn btn-link">Unsubscribe</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12" align="right">
+                    <div class="o_mail_footer_social pb16"><t t-call="mass_mailing.social_links"/></div>
+                    <p class="o_mail_footer_copy">© <t t-esc="datetime.datetime.now().year"/> All Rights Reserved</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</t>

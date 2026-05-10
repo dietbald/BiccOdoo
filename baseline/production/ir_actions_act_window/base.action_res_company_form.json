@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 52,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('parent_id', '=', False)]",
+    "name": "Companies",
+    "res_model": "res.company",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "1665a43c497fd12babeac81e622b0178be716d54e744637cfbe7c391211dbeb6",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.action_res_company_form"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25496,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Referral State",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "referral_state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "10e85cf8312ff285a821723333772c2a878b0329357fe3f45402a43f4f9c1b75",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_applicant__referral_state"
+}

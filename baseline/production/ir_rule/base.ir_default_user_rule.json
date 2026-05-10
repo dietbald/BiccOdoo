@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 4,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id','=',user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      33,
+      "Default Values"
+    ],
+    "name": "Defaults: alter personal defaults",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bb764f45b3d37e182403358e97013e161c249eeae8ae78a3ab9cb2800e4d70e5",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.ir_default_user_rule"
+}

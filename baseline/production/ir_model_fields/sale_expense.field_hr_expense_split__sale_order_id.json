@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9351,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer to Reinvoice",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "sale_order_id",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f01644160409f7a7f5ed4f4a1391c19358f4e3169d5372dd883867f7058f7d5b",
+  "write_date": "",
+  "xml_id": "sale_expense.field_hr_expense_split__sale_order_id"
+}

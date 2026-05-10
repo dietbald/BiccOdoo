@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1369,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('alias_model_id', '=', 'documents.document')]",
+    "name": "Email links",
+    "res_model": "mail.alias",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "9eeae7e001dc1dc6620303b96d8c9db17910bba99a8725aa3b9b0700a89fa221",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.mail_alias_action"
+}

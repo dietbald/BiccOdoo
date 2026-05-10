@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 35,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('resource_id', '=', False)]",
+    "groups": [
+      2
+    ],
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "resource.calendar.leaves: admin modifies global",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "02a8861c6b7e60f2b0527c5fd53e4b01d31788fa23467ca0e9d660feeae3473b",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "resource.resource_calendar_leaves_rule_group_admin_modify"
+}

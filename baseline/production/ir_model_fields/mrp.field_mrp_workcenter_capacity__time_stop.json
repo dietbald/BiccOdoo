@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16099,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cleanup Time (minutes)",
+    "model_id": [
+      969,
+      "Work Center Capacity"
+    ],
+    "name": "time_stop",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "44e36bce8248507a6124e82347a39211b80999a2a7f75ae73b76316f28bf2fd4",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter_capacity__time_stop"
+}

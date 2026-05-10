@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27757,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Nationality (Country)",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09313ead745f8c51c04712b880d5de52613e4bf421a03ddd52e1fff987ab5785",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__country_id"
+}

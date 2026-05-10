@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      428,
+      "Tax Repartition Line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78d33fd07c3b4989a9b7ae0e6488efd4b09f1c95e9ccb6adecd0e5029b9c4808",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_repartition_line__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7443,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lead Mining Request",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "lead_mining_request_id",
+    "relation": "crm.iap.lead.mining.request",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9859394cdef6cdbb30ff5f0390e597ecd20693ae233600706df070f74463e96b",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_lead__lead_mining_request_id"
+}

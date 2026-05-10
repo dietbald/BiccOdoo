@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1167,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'module' : 'maintenance', 'bin_size': False}",
+    "domain": false,
+    "name": "Settings",
+    "res_model": "res.config.settings",
+    "target": "current",
+    "view_mode": "form"
+  },
+  "payload_sha256": "2eef14b0d52bcd7aacaa40b3bcb83c0d13569d0c341da71ba6bfb9a51f8a3c25",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.action_maintenance_configuration"
+}

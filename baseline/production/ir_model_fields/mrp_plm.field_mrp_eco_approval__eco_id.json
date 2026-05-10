@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17447,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ECO",
+    "model_id": [
+      1017,
+      "ECO Approval"
+    ],
+    "name": "eco_id",
+    "relation": "mrp.eco",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b2b2d8723408727cb5ecb07a0e1e379066c68ecf59e143276a2efab6113c4bde",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_approval__eco_id"
+}

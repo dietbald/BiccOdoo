@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16890,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Workcenter Status",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "working_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0e8b53f1be97f22878e625f06919f6ea16dab4ec78a8ffee423b44c92e64e945",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_check__working_state"
+}

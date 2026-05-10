@@ -1,0 +1,21 @@
+<form>
+                <field name="active" invisible="true"/>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1><field name="name"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="item_type"/>
+                            <field name="placeholder"/>
+                            <field name="tip"/>
+                            <field name="field_size" invisible="item_type not in ['text']"/>
+                        </group>
+                        <group>
+                            <field name="model_id" groups="base.group_system" invisible="item_type not in ['text', 'textarea']"/>
+                            <field name="auto_field" widget="field_selector" options="{'model': 'model_name'}" invisible="item_type not in ['text', 'textarea'] or not model_name" groups="base.group_system"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

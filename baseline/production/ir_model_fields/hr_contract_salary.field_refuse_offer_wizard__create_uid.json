@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21250,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1286,
+      "Refuse an Offer"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f4dab8ee3cd3eba96d796987a486dbacc942eca0bfbc5463401064b2591409e4",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_refuse_offer_wizard__create_uid"
+}

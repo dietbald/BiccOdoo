@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17182,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7441ea88d114e3b510caefc0ddacc571be96cba2adb0f36ccf55ba6cc0e9e7f8",
+  "write_date": "",
+  "xml_id": "rating.field_fleet_vehicle_log_services__rating_ids"
+}

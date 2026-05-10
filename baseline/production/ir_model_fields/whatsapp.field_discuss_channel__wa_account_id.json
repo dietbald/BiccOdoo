@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18379,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "WhatsApp Business Account",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "wa_account_id",
+    "relation": "whatsapp.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2a794f54569e57198752abe5523bca1000fcee81af93ef44176d5d76366be158",
+  "write_date": "",
+  "xml_id": "whatsapp.field_discuss_channel__wa_account_id"
+}

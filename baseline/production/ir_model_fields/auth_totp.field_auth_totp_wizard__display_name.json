@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1393,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Name",
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "display_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "009dd9f83f520609cff37b442a910f51d56613d698a3756326552d820fd3354f",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_wizard__display_name"
+}

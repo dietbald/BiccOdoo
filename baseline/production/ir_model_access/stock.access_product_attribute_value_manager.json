@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 989,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      362,
+      "Attribute Value"
+    ],
+    "name": "product.attribute manager value",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d440049d3415450d15386f1c848126320102f55aa1fe28ca6cf6281fa189d4ba",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_product_attribute_value_manager"
+}

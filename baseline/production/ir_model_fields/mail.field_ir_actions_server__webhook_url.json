@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 362,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Webhook URL",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "webhook_url",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "bc15073fa3a908d4a76e1c422b6f7cfb051094e5d7e273183a3ae907e2aef702",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__webhook_url"
+}

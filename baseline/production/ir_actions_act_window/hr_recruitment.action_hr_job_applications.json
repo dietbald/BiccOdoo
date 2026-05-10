@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 585,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_job_id': [active_id],\n            'search_default_applicants': 1,\n            'default_job_id': active_id,\n            'dialog_size':'medium',\n            'allow_search_matching_applicants': 1\n        }",
+    "domain": "[('is_accessible_to_current_user', '=', True)]",
+    "name": "Applications",
+    "res_model": "hr.applicant",
+    "target": "current",
+    "view_mode": "kanban,list,form,graph,calendar,pivot,activity"
+  },
+  "payload_sha256": "2c3e751b4f4ec742256a37a4d0aa551089371be593470cbdd9f6e882f53c7903",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_recruitment.action_hr_job_applications"
+}

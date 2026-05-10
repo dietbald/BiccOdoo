@@ -1,0 +1,18 @@
+<form>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" string="Tag Name"/>
+                        <h1><field name="name" placeholder="e.g. To Validate"/></h1>
+                    </div>
+                    <group>
+                        <field name="color" required="True" widget="color_picker"/>
+                    </group>
+                    <group string="Tooltip" name="tooltip" invisible="1">
+                        <field name="tooltip"/>
+                    </group>
+                </sheet>
+                <footer>
+                    <button class="btn btn-primary" special="save" data-hotkey="q">Save</button>
+                    <button class="btn btn-secondary" special="cancel" data-hotkey="x">Discard</button>
+                </footer>
+            </form>

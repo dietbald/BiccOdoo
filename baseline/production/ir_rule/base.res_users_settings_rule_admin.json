@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 21,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      105,
+      "User Settings"
+    ],
+    "name": "Administrators can access all User Settings.",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0ca6a6190158b1963b9fe6e70a1f64bfe6ab3e2e36da53d8c9b817a7e53b8544",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.res_users_settings_rule_admin"
+}

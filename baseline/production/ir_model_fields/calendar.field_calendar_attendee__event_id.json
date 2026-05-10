@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6854,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Meeting linked",
+    "model_id": [
+      563,
+      "Calendar Attendee Information"
+    ],
+    "name": "event_id",
+    "relation": "calendar.event",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "429c51163bdc89ecfa918c9b321db1f7734173751aac2742834e4b3e5d728ba1",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_attendee__event_id"
+}

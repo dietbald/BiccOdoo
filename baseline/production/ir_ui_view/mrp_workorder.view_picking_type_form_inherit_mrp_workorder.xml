@@ -1,0 +1,11 @@
+<xpath expr="//page[@name='mrp_hardware']" position="after">
+                <page name="shop_floor" string="Shop Floor" invisible="code != 'mrp_operation'" groups="mrp.group_mrp_routings">
+                    <group>
+                        <group>
+                            <field invisible="code != 'mrp_operation'" groups="stock.group_production_lot" name="prefill_shop_floor_lots"/>
+                            <field invisible="code != 'mrp_operation'" name="auto_close_production"/>
+                        </group>
+                    </group>
+
+                </page>
+            </xpath>

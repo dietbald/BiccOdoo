@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9294,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "507fdadc6290ef6a9a6f697a1b0bdb6d0df0352a8c97e729ba0cbe8e22af345c",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split__product_id"
+}

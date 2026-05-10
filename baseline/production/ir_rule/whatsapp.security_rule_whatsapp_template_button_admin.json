@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 536,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      136
+    ],
+    "model_id": [
+      1051,
+      "WhatsApp Template Button"
+    ],
+    "name": "WA Template Button: Un-restrict for WA Admins",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6a13606c7a607aecd9199778b1373e119c8643751569b375b711936e88c1520b",
+  "write_date": "2024-05-05 13:35:48",
+  "xml_id": "whatsapp.security_rule_whatsapp_template_button_admin"
+}

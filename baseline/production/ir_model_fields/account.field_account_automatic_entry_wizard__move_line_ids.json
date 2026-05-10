@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5207,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move Line",
+    "model_id": [
+      452,
+      "Create Automatic Entries"
+    ],
+    "name": "move_line_ids",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "bbbb33b3fb613c5026da1a7c9e54b5576ec557cd7e96e554c6967b99479f105f",
+  "write_date": "",
+  "xml_id": "account.field_account_automatic_entry_wizard__move_line_ids"
+}

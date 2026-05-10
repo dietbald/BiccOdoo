@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11004,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Operation",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "move_id",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e827983065433ed5792cd626512991ad9234a3d549bea47277416d06f456fca3",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__move_id"
+}

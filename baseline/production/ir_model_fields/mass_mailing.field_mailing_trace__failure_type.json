@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14164,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Failure type",
+    "model_id": [
+      893,
+      "Mailing Statistics"
+    ],
+    "name": "failure_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8b880d87110e4e91f843d72f335dad16d9915f170312cb8dc565133d65d3d9b8",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_trace__failure_type"
+}

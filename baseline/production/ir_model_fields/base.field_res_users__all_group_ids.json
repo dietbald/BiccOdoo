@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25738,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Groups and implied groups",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "all_group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "00f46610ab081757813128178cf0c56741e638dc95f14cd9f8b48f37c6854081",
+  "write_date": "",
+  "xml_id": "base.field_res_users__all_group_ids"
+}

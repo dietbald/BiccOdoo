@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1367,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'form_view_ref': 'documents.document_view_form_new_folder',\n            'default_type': 'folder',\n            'dialog_size': 'medium',\n        }",
+    "domain": "[(\"type\", \"=\", \"folder\")]",
+    "name": "Add Folder",
+    "res_model": "documents.document",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "c3b504fa86d7d6a268521b8f15e5aaad85d3ca6093b4dcdca0cf09d43ca28120",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.action_folder_form"
+}

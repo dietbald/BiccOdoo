@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29450,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Keep Wrong Version",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "keep_wrong_version",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1040dbd42324004990a8b3317a1b80b881230cde3f87541b90f40e8231f9e660",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__keep_wrong_version"
+}

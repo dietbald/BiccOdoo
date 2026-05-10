@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4324,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Always Tax Exigible",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "always_tax_exigible",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "21881a650037d1e1a84339c539666cca1f363b830f48f1b43a2f84bb75472e77",
+  "write_date": "",
+  "xml_id": "account.field_account_move__always_tax_exigible"
+}

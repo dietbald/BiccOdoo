@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of users",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "granted_users_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f841eb3be1fcbf515cf95666f778d94a43ebfa5bd092d2bb9b5a7e0f52773cbf",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge__granted_users_count"
+}

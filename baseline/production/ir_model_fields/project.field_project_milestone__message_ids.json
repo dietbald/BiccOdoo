@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7738,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b2d6ac0b062b35b4b9ec9fbab1dc36731043298e8e326bf0702dc06c474bc9b5",
+  "write_date": "",
+  "xml_id": "project.field_project_milestone__message_ids"
+}

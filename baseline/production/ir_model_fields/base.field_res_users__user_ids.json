@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1174,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Users",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d66573423ab61fac7bc41082a98aa848d476abbeaff691edf318bf4bfa8785b2",
+  "write_date": "",
+  "xml_id": "base.field_res_users__user_ids"
+}

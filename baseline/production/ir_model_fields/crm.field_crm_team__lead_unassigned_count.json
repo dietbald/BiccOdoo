@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7281,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Unassigned Leads",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "lead_unassigned_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "4ddfe0feee4a1486e6d392b7e353159febfd9be0f2b02b067191e26db3f3f317",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team__lead_unassigned_count"
+}

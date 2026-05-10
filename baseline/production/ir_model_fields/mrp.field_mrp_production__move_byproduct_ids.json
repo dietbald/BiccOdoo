@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16161,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move Byproduct",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "move_byproduct_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ed273706f4ac2bb477831cdf05c7a0a8688d53517367eba96b3f4517c88fdf96",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__move_byproduct_ids"
+}

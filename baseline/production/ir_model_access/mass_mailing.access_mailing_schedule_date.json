@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1250,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      108,
+      "Email Marketing / User"
+    ],
+    "model_id": [
+      903,
+      "schedule a mailing"
+    ],
+    "name": "access.mailing.schedule.date",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a27fdd1f5e7a1601ef6aa3840e7d56290fc9f0bb780a9bf34f0c3f6e4e7483b3",
+  "write_date": "2025-12-09 03:00:45",
+  "xml_id": "mass_mailing.access_mailing_schedule_date"
+}

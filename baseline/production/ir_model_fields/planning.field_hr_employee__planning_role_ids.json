@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13819,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Roles",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "planning_role_ids",
+    "relation": "planning.role",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "338a895e7f8316e952a21e9b9bf0f72edbd3170c24d67f8d40398ded4edefe51",
+  "write_date": "",
+  "xml_id": "planning.field_hr_employee__planning_role_ids"
+}

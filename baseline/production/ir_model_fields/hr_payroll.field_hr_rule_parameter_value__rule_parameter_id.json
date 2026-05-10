@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13043,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rule Parameter",
+    "model_id": [
+      826,
+      "Salary Rule Parameter Value"
+    ],
+    "name": "rule_parameter_id",
+    "relation": "hr.rule.parameter",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a3f43de644090701f478db38362e0cce54663442537a05a13ee094f53ea36a61",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_rule_parameter_value__rule_parameter_id"
+}

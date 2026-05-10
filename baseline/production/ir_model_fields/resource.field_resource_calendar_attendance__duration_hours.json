@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Duration (hours)",
+    "model_id": [
+      143,
+      "Work Detail"
+    ],
+    "name": "duration_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "912bd0ced6e579f86be7bbc73e9f26620bdff1f99dbb5b2f623a09b6295be8db",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar_attendance__duration_hours"
+}

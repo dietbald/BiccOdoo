@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Attachment",
+    "model_id": [
+      158,
+      "Mail Main Attachment management"
+    ],
+    "name": "message_main_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f46fe9b7ddcbe11d5c6afee6281d09c3a0f141a2dc44fceeb0e79028314ef441",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_main_attachment__message_main_attachment_id"
+}

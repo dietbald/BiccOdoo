@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Model",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "model_id",
+    "relation": "fleet.vehicle.model",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1d37ab166433e68e655720e4c355589f825abd54383333568712744c7382e65f",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__model_id"
+}

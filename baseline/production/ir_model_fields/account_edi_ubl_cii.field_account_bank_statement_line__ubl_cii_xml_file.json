@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5551,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "UBL/CII File",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "ubl_cii_xml_file",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "8cff66f562a579416f332ca87f932b06ee7ab49653844c11d664c3b25e8786ce",
+  "write_date": "",
+  "xml_id": "account_edi_ubl_cii.field_account_bank_statement_line__ubl_cii_xml_file"
+}

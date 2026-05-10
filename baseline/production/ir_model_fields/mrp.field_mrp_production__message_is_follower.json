@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16117,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6af221d03b50701cce9ebe454fc650feaa01fb5c57994b81813df2c4a7f43448",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__message_is_follower"
+}

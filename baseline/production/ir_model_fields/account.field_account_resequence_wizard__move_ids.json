@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5261,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move",
+    "model_id": [
+      456,
+      "Remake the sequence of Journal Entries."
+    ],
+    "name": "move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d9fb43c087cc6747783835bf0c1051d128715ce2227df6b82703e22b5507e749",
+  "write_date": "",
+  "xml_id": "account.field_account_resequence_wizard__move_ids"
+}

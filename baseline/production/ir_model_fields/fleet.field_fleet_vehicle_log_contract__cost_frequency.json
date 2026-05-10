@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17153,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recurring Cost Frequency",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "cost_frequency",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "51efdf04c1fdb93dbf07f71ec1740b6e7cfa44f059644247057d8fd4ee875100",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__cost_frequency"
+}

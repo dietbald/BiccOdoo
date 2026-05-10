@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15053,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      929,
+      "Cleaning Record"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ad5a9588723c178b0f1d5617426e5a74250fb8da009b948599117a1b1e3bbb17",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_cleaning_record__country_id"
+}

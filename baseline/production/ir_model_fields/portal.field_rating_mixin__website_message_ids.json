@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      594,
+      "Rating Mixin"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "85b3e268e3254309afda66822c0a76cc6076a227f0b6ddf0f910aacb6fb6ab1e",
+  "write_date": "",
+  "xml_id": "portal.field_rating_mixin__website_message_ids"
+}

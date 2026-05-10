@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 811,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      57,
+      "Purchase / User"
+    ],
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "product.product.purchase.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "08a72c416afc35139627ba9b6b223c6b350f16a871f884a79a3eafabebe98e4c",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_product_product_purchase_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4129,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution for Refund Invoices",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "refund_repartition_line_ids",
+    "relation": "account.tax.repartition.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0ea476a08d894d2e59aebaf790d53e47b8c9cb4952275f606bbfe7088f4cf85d",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__refund_repartition_line_ids"
+}

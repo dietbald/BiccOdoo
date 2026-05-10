@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 245,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      199,
+      "Push Notification Device"
+    ],
+    "name": "access.mail.push.device.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5f491f35bd1f4299a5faaa5f0137c0a72670c0d7119386a064b76449405ba906",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_push_device_system"
+}

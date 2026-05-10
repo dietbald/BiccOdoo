@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1405,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res.partner",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "c13b8b321a9668bc7c5c1c68274d5d2b9a2f8b4f27a6562e860a99a4e448d5b3",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_res_partner"
+}

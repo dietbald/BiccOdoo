@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1088,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "['|', ('move_id.unbuild_id', '=', active_id), ('move_id.consume_unbuild_id', '=', active_id)]",
+    "name": "Stock Moves",
+    "res_model": "stock.move.line",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "18248cb2a2a73f0c0547a94ee815e69752f6f61a3cffc88212f70e75879183b4",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.action_mrp_unbuild_moves"
+}

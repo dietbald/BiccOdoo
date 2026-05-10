@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10209,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Page",
+    "model_id": [
+      698,
+      "Visited Pages"
+    ],
+    "name": "page_id",
+    "relation": "website.page",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c9aa7e872dacc947c71bba4abe1e45822de5869360150f7277686a4380edde4b",
+  "write_date": "",
+  "xml_id": "website.field_website_track__page_id"
+}

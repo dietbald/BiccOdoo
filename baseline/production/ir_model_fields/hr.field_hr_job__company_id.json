@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8875,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0271475d5e72d98ec2089657bb59a25fec555f1db9833ae626c429fd1a6a4764",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aee8ada2bd71d4139fa9805b39da681c82dee8b47d500b03e3a1e1956f71fcf8",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split__currency_id"
+}

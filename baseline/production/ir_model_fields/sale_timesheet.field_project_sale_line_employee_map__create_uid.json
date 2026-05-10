@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      852,
+      "Project Sales line, employee mapping"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8812d70d89ee00388dfd13c10422bade5424d59358d432e15620d0bac4e3774a",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_sale_line_employee_map__create_uid"
+}

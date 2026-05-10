@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15535,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "First Approval",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "first_approver_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b25aaa2cd9f8f94c2a18309096a58d08949691b709ae518ba9c563f4f4e8f80f",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__first_approver_id"
+}

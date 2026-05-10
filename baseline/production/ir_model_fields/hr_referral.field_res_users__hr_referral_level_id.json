@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25604,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hr Referral Level",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "hr_referral_level_id",
+    "relation": "hr.referral.level",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "017abbcf69b53c53a99c14012f805dd95abaac563fb77476135b554a2aa39a0d",
+  "write_date": "",
+  "xml_id": "hr_referral.field_res_users__hr_referral_level_id"
+}

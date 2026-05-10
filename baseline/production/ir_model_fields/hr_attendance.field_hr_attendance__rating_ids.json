@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13302,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "11e9e74ec916880471301c701bbc9280d5ecc53a142022b69b4872707f809f1d",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__rating_ids"
+}

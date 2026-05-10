@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16579,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Model",
+    "model_id": [
+      987,
+      "Quality Alert Team"
+    ],
+    "name": "alias_parent_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4074864ad43ee8ac2756742a5e7a93b4a68448d5f1bbf9f11c4c42d01fca8878",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_team__alias_parent_model_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18267,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Estimated time before next failure (in days)",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "estimated_next_failure",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "815e690b63c5f19e99a421c0b2073e1ea419eb17042260ac763bbdd8d6899f2c",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__estimated_next_failure"
+}

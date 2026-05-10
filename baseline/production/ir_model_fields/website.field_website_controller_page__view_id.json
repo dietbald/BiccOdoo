@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10245,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Listing view",
+    "model_id": [
+      700,
+      "Model Page"
+    ],
+    "name": "view_id",
+    "relation": "ir.ui.view",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9cc618621533e37431ea3d468450c2b74c3fa9e7f9cd32ca442f8e51c9158dd4",
+  "write_date": "",
+  "xml_id": "website.field_website_controller_page__view_id"
+}

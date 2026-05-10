@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      979,
+      "Line of issue consumption"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "65884888b050804e7665ac0a37ee529c1c7018c9cefd2ea90d362e3e2b917cf0",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_consumption_warning_line__create_uid"
+}

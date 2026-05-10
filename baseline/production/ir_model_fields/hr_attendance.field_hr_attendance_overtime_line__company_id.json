@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28327,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      3427,
+      "Attendance Overtime Line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "55cb8f7d624fd095f001896ecf3e0dc5c6e3469f5b412a97e49ff6a3c37d75fc",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance_overtime_line__company_id"
+}

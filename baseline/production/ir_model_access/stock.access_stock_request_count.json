@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1019,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      773,
+      "Stock Request an Inventory Count"
+    ],
+    "name": "stock.request.count",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f69039a52053205001a6fd1edcede22461211ce8b57a79b06735752e6d45b94a",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_request_count"
+}

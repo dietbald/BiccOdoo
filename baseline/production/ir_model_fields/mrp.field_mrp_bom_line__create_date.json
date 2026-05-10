@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      961,
+      "Bill of Material Line"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "03adb8984380a1766abc43d57eb564f62a1a442d1a51702e4829c4bf5c5fc8fb",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_line__create_date"
+}

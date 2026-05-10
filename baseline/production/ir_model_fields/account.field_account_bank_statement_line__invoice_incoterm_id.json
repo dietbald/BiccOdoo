@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4877,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Incoterm",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "invoice_incoterm_id",
+    "relation": "account.incoterms",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0be49427e87c7408df38d9ce37179be4f7517d8775856ff81fcf957f15ed67ae",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__invoice_incoterm_id"
+}

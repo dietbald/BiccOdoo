@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 530,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      34,
+      "Documents / Administrator"
+    ],
+    "model_id": [
+      165,
+      "Activity Plan"
+    ],
+    "name": "mail.activity.plan.documents.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "943c620f5d8444be1265b8287cb61753574270b1a496633e423d83ae9b746037",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.access_mail_activity_plan_documents_manager"
+}

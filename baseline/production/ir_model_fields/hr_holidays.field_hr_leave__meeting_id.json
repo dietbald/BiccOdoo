@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15527,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Meeting",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "meeting_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c5a024048df8dd043bf1bdb24624e3032fd0eb5ef6eb42ccb9c4bfd9695e2398",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__meeting_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28690,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Produced Serial Numbers",
+    "model_id": [
+      3506,
+      "Assign serial numbers to production order"
+    ],
+    "name": "serial_numbers",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "a81b5bc4c299d44fb7128e9c4dfda475322b9f14f64ac766574b22199bf88219",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_serials__serial_numbers"
+}

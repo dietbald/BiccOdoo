@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4344,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Due Date",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_date_due",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "2e973d6cb0fae5fdb4e2880bbc1956e1ea1e63d486182c4d962aef4bce5e03dc",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_date_due"
+}

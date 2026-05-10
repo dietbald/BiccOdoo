@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3721,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "operation",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3131a7448892af24f7f6001fc3760f0be45771f577df5e43fdb8f740a0c9deeb",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__operation"
+}

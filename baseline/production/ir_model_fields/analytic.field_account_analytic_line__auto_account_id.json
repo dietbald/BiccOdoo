@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2693,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Analytic Account",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "auto_account_id",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "239afe3c4d34729b83a575062a3694eb047edf69ae2ad01b8f13903531ffe5ca",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_line__auto_account_id"
+}

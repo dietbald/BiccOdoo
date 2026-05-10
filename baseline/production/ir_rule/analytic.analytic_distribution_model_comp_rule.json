@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 61,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('company_id','=',False),('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      347,
+      "Analytic Distribution Model"
+    ],
+    "name": "Analytic distribution model multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f472d5687a3f780d11c807c25fc5586d46544eb9f1f61cab645131d7b68201f0",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "analytic.analytic_distribution_model_comp_rule"
+}

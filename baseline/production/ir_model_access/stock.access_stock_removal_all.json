@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 981,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      725,
+      "Removal Strategy"
+    ],
+    "name": "product.removal all users",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6a1c4296e414b9d6cc641b40789c16d350cf55ffb8b6eb5cf1d1b686346c1824",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_removal_all"
+}

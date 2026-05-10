@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11661,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transfer",
+    "model_id": [
+      762,
+      "Backorder Confirmation Line"
+    ],
+    "name": "picking_id",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d89641ad2267e9d8b22e805c22a7e0638e9062cb7466490f221b23c1cf0c4dcd",
+  "write_date": "",
+  "xml_id": "stock.field_stock_backorder_confirmation_line__picking_id"
+}

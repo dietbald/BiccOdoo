@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10072,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Company",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "website_company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0721edc61862b20af54bff0e5a109755014eb77618d07aef0321333c89b2f921",
+  "write_date": "",
+  "xml_id": "website.field_res_config_settings__website_company_id"
+}

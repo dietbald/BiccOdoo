@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9135,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b7ee4285d36b3f848aeef26cfdcffbecee43305ea90efbdd52b0595302544fdd",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__message_ids"
+}

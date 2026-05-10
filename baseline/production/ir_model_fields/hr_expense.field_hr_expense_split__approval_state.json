@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26061,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval State",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "approval_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "9a4a1fac0ec215e33580e847d8ce74ec6100bb6b0ebbb3cc998aae9c1df572a3",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split__approval_state"
+}

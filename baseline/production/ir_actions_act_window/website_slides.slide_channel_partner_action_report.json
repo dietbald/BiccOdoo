@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1501,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_groupby_member_status': 1}",
+    "domain": false,
+    "name": "Attendees",
+    "res_model": "slide.channel.partner",
+    "target": "current",
+    "view_mode": "graph,pivot,list,kanban"
+  },
+  "payload_sha256": "6e55d61831a69028b466b6d0e669ac9d65219d4b85222523d97fede2e39bff53",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.slide_channel_partner_action_report"
+}

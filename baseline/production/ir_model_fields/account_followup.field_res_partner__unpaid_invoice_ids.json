@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6299,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unpaid Invoice",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "unpaid_invoice_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "978e402fc83a11d27da2ada3165cb40007ad327a9d9f18ccd9bc6db140183478",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_partner__unpaid_invoice_ids"
+}

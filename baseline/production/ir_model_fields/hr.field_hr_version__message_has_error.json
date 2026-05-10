@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10363,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f3ae78fd3f7165c08b2e379f80a433b16800be44fa396b7ad461a2c45092126a",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__message_has_error"
+}

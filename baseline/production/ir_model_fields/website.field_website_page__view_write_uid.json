@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29890,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Content Update by",
+    "model_id": [
+      686,
+      "Page"
+    ],
+    "name": "view_write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "12a2f42259b56c3b2d3fc98fdebeaa4c213a413f7506b38addeb1f014e23b5f5",
+  "write_date": "",
+  "xml_id": "website.field_website_page__view_write_uid"
+}

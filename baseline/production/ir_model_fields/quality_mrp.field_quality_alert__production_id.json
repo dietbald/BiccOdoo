@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16871,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Production Order",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "production_id",
+    "relation": "mrp.production",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d0a5b1dd50b24ed7468db5fab37b90b34266f8987114d5a5ea97a55fcaec1d2e",
+  "write_date": "",
+  "xml_id": "quality_mrp.field_quality_alert__production_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17908,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Google Access Token",
+    "model_id": [
+      1024,
+      "Social Account"
+    ],
+    "name": "youtube_access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2e6cc72e76f73ec7fcecce8ad70e7175f22afaad733ed46f209441fea94a42a3",
+  "write_date": "",
+  "xml_id": "social_youtube.field_social_account__youtube_access_token"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1068,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_workcenter_group': 1, 'search_default_loss_group': 2, 'create':False,'edit':False}",
+    "domain": "[]",
+    "name": "Overall Equipment Effectiveness",
+    "res_model": "mrp.workcenter.productivity",
+    "target": "current",
+    "view_mode": "graph,pivot,list,form"
+  },
+  "payload_sha256": "ef300407f4ed33815bc75ba769562843228667077e15884243da697000ce4b93",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.mrp_workcenter_productivity_report"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 444,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      449,
+      "Accounting Report Expression"
+    ],
+    "name": "account.report.expression.readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "d12b090f7e2dd727baee1eda8dee76d0094262b836e25bf1af6a3688250be0a0",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_report_expression_readonly"
+}

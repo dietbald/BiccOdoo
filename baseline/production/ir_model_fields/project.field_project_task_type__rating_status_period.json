@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28038,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rating Frequency",
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "rating_status_period",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "98bb995da8b45f1a32db322d9c49ee8946e3e086f5622cdb047f6d445955a018",
+  "write_date": "",
+  "xml_id": "project.field_project_task_type__rating_status_period"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11973,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Buy to Resupply",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "buy_to_resupply",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5dfab5851dbb6fdb7f4c0a22f3ce0acd2acf7200c3dc4323b372c693132c9466",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_warehouse__buy_to_resupply"
+}

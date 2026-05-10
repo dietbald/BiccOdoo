@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6060,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Export to",
+    "model_id": [
+      521,
+      "Export wizard for accounting's reports"
+    ],
+    "name": "export_format_ids",
+    "relation": "account_reports.export.wizard.format",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ae3c8c9ec5e12466ca63cad5e5672a1a7c523583d1d0d41970e6bfae6887a579",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_reports_export_wizard__export_format_ids"
+}

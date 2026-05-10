@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5922,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d948332b31c3d54df0deecae093d38ea92e3534322aa811bf581064e247a0136",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__message_follower_ids"
+}

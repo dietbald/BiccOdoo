@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2016,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      3359,
+      "Stock Package History"
+    ],
+    "name": "access_stock_package_history_user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "0ff809190835dd64fc690dfdc9ddaab0209322f1ca45943ee7b045a181dd770b",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_package_history_user"
+}

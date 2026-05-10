@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 627,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_permission', '=', 'edit')]",
+    "groups": [
+      34
+    ],
+    "model_id": [
+      537,
+      "Document"
+    ],
+    "name": "Documents.document: write+unlink manager rule",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1759cbc1b10ba580cec95b35c4fbcdad91ae7c730b033c7f419ef4bbf2718d23",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.documents_document_write_manager_rule"
+}

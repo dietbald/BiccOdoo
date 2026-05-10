@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17283,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Driver (Employee)",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "purchaser_employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eba8aa46a921df9fdfd7051d282b88a6862e75323b252f84dbf04d26e4b531ae",
+  "write_date": "",
+  "xml_id": "hr_fleet.field_fleet_vehicle_log_contract__purchaser_employee_id"
+}

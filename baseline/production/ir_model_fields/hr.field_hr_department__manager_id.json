@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8826,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "manager_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "698209fae229165ca84f45dc2c0faa22697f712c06061b50162620e820254150",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__manager_id"
+}

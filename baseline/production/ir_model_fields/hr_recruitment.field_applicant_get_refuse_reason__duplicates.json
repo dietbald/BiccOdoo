@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20544,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Refuse Duplicate Applications",
+    "model_id": [
+      670,
+      "Get Refuse Reason"
+    ],
+    "name": "duplicates",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7f1deb61cb18861faea03f1c94adbcb763f1b15655f392303ffba30f928218ef",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_get_refuse_reason__duplicates"
+}

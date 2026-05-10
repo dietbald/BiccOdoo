@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1242,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      106,
+      "Users Deletion Request"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "02f63842cb3df0bec2bb72b82111bafd14b84d17419d0c397eed26a7cbd07f08",
+  "write_date": "",
+  "xml_id": "base.field_res_users_deletion__create_uid"
+}

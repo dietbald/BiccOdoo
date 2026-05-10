@@ -1,0 +1,19 @@
+<search string="Search Survey User Inputs">
+                <field name="email" string="Participant" filter_domain="[                     '|',                     ('partner_id', 'ilike', self),                     ('email', 'ilike', self)]"/>
+                <field name="partner_id"/>
+                <field name="survey_id"/>
+                <filter string="New" name="new" domain="[('state', '=', 'new')]"/>
+                <filter string="In Progress" name="in_progress" domain="[('state', '=', 'in_progress')]"/>
+                <filter name="completed" string="Completed" domain="[('state', '=', 'done')]"/>
+                <separator/>
+                <filter string="Quiz passed" name="scoring_success" domain="[('scoring_success','=', True)]"/>
+                <separator/>
+                <filter string="Tests Only" name="test" domain="[('test_entry','=', True)]"/>
+                <filter string="Exclude Tests" name="not_test" domain="[('test_entry','=', False)]"/>
+                <group>
+                    <filter name="group_by_survey" string="Survey" domain="[]" context="{'group_by': 'survey_id'}"/>
+                    <filter string="Email" name="group_by_email" domain="[]" context="{'group_by': 'email'}"/>
+                    <filter string="Partner" name="group_by_partner" domain="[]" context="{'group_by': 'partner_id'}"/>
+                    <filter string="Language" name="group_by_lang" domain="[]" context="{'group_by': 'lang_id'}"/>
+                </group>
+            </search>

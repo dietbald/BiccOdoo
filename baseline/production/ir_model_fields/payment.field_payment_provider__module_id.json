@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3674,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Corresponding Module",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "module_id",
+    "relation": "ir.module.module",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "17d3cb5647fdd5faabc502e531fcfdc66a48f7f76a0c6aa15fbff8fb7367e706",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__module_id"
+}

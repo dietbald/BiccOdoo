@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25637,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2608,
+      "Referral Alert Mail Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9b41cf7e5d0b3b3258c46db6b28316e5c9d24e124d82c08e3bd4520370a51901",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_alert_mail_wizard__create_uid"
+}

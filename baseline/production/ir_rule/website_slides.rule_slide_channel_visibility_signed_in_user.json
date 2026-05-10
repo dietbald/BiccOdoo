@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 664,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '&',\n                    ('website_published', '=', True),\n                    '|',\n                        ('visibility', 'in', ('public', 'connected')),\n                        '|',\n                            ('is_member_invited', '=', True),\n                            ('is_member', '=', True),\n                ]\n            ",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "Channel: portal/user: restricted to published, public or (invited) attendee, connected user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ffe7995c3774926bb5a8690bd353714b2687934eb95dd09e03eeba47fc4c22ae",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_channel_visibility_signed_in_user"
+}

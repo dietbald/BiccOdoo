@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20697,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Done Check",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "done_check_ids",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b60a6621a6d169ec6dfd33b0d5e597e69263130fb2d39b290a80021e22d1ff14",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__done_check_ids"
+}

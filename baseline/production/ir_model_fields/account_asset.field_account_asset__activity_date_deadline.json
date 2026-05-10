@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6125,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "0994acd5670b446fca037b11e03baffa9e8f4f2e2e7085ed92c0208a511e299b",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__activity_date_deadline"
+}

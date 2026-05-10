@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7865,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project Manager",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "120ce96fabc07e8f11ce2b5f30dc8b9f01ea6497894674464e71239f8aa8296f",
+  "write_date": "",
+  "xml_id": "project.field_project_project__user_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2085,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      3863,
+      "AI model configurations (system prompts) for text drafting."
+    ],
+    "name": "ai.composer",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "45f9eb744eaa4b9b1ae57c5905a61239065e2bd0f0e3d8461b6824d6edc922b4",
+  "write_date": "2025-12-09 03:01:20",
+  "xml_id": "ai.access_ai_composer_user"
+}

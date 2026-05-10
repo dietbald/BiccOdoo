@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14062,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      888,
+      "Link Tracker Click"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "84eb3679f33854d650025865e0a6eb3229f575a31792c883e29642f79b6c0dce",
+  "write_date": "",
+  "xml_id": "link_tracker.field_link_tracker_click__country_id"
+}

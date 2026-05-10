@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9508,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order Date",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "date_order",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "80b72e7ff51c3c54824ca40c01fbca0847919dff7b5567db81f8cf2935cd5462",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__date_order"
+}

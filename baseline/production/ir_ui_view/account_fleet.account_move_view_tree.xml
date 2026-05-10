@@ -1,0 +1,7 @@
+<data><xpath expr="//field[@name='date']" position="attributes">
+                <attribute name="string">Creation Date</attribute>
+            </xpath>
+            <xpath expr="//field[@name='date']" position="after">
+                <field name="invoice_date" optional="show" readonly="state != 'draft'"/>
+            </xpath>
+        </data>

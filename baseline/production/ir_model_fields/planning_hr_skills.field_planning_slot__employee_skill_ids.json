@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13985,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skills",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "employee_skill_ids",
+    "relation": "hr.employee.skill",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6efd46752451f8509c7b6477fb317d3f38244a40cb8be1ef53006b74e6c0134d",
+  "write_date": "",
+  "xml_id": "planning_hr_skills.field_planning_slot__employee_skill_ids"
+}

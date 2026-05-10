@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26180,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Missing Skills",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "missing_skill_ids",
+    "relation": "hr.skill",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b8fe025b289c2c6cd7c03c4d9bd63b52c01c7cfa069940fe0fb4db1a7c7d29f8",
+  "write_date": "",
+  "xml_id": "hr_recruitment_skills.field_hr_applicant__missing_skill_ids"
+}

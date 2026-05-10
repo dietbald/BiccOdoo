@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7050,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ddf7a390b2dca900a36195448238e52120a13ec65390f1049efa7dc473fbc0b8",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__activity_calendar_event_id"
+}

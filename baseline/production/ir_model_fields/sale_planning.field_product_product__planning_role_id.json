@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Planning Role",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "planning_role_id",
+    "relation": "planning.role",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d27eebd7c7bed37600c15eb281bbe2d6c7d4bd4f33d58241c51203b19ee7411d",
+  "write_date": "",
+  "xml_id": "sale_planning.field_product_product__planning_role_id"
+}

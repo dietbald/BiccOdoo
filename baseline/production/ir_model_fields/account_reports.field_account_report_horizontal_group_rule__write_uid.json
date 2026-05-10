@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6038,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      500,
+      "Horizontal group rule for reports"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "71b2d6184a872a5388bc0c0f6d7bf90c1defcf9befa4eb1b86893790debd122f",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_horizontal_group_rule__write_uid"
+}

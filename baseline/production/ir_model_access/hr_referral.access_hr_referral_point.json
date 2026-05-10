@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1887,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      158,
+      "Referrals / Administrator"
+    ],
+    "model_id": [
+      2600,
+      "Points line for referrals"
+    ],
+    "name": "hr.referral.points",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6da8b7933a09ad67dec12eae8d5e37680fbaa69259f2be6be2c95499f03b0291",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_referral_point"
+}

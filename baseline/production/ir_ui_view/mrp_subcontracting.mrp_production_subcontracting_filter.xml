@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='name']" position="after">
+                <field name="name" string="Incoming transfer" filter_domain="[('incoming_picking.name', 'ilike', self)]"/>
+            </xpath>

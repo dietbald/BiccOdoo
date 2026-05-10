@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2045,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      143,
+      "Accounting / Invoicing & Banks"
+    ],
+    "model_id": [
+      3565,
+      "Accounting Return Check"
+    ],
+    "name": "account.return.check.basic",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "635b51625d33720e3507361951d64f782faa8c5215f32a87a61210359eaa67dc",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_return_check_basic"
+}

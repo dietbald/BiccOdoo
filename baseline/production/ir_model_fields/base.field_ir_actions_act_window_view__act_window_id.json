@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 290,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action",
+    "model_id": [
+      21,
+      "Action Window View"
+    ],
+    "name": "act_window_id",
+    "relation": "ir.actions.act_window",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c5966299932ecf0dbcd534bec2ac6a96d0a68d42d98663ea550ce1f4edb1360",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_act_window_view__act_window_id"
+}

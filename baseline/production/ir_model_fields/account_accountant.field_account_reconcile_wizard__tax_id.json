@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5830,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax",
+    "model_id": [
+      490,
+      "Account reconciliation wizard"
+    ],
+    "name": "tax_id",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a22498b15fc8213517075eb7dff5693e02cc2140f49b1dc6ab445150db4e97fd",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_reconcile_wizard__tax_id"
+}

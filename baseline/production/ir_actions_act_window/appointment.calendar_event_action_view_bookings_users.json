@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 998,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'appointment_default_assign_user_attendees': True,\n                               'default_partner_ids': []}",
+    "domain": false,
+    "name": "Staff Bookings",
+    "res_model": "calendar.event",
+    "target": "current",
+    "view_mode": "gantt,calendar,list,form"
+  },
+  "payload_sha256": "26c613110d4fd4051302eb733122a82b3b6b58e9634eba292e6ea679f4763f61",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.calendar_event_action_view_bookings_users"
+}

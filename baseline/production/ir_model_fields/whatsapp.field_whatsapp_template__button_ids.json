@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18468,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Buttons",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "button_ids",
+    "relation": "whatsapp.template.button",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e2f580ddf99a7a7ff12050b95b3d387eb2f0b9b2ed20e4094916bde40508858a",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__button_ids"
+}

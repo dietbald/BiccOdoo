@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15710,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Carryover Day",
+    "model_id": [
+      950,
+      "Accrual Plan"
+    ],
+    "name": "carryover_day",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7f447083572a6550661cfe9a71c081d1254dad8dd6ade38fc10202d702c4fba1",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_accrual_plan__carryover_day"
+}

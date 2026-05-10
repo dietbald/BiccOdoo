@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6061,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Report Id",
+    "model_id": [
+      521,
+      "Export wizard for accounting's reports"
+    ],
+    "name": "report_id",
+    "relation": "account.report",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "00f9cee496694b86463327f919eba81bd8a08f36a6f40095929a57df3b232b97",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_reports_export_wizard__report_id"
+}

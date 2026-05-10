@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14595,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7b750aa5ca2fc51efc9b79ce44956c949c5f39c1aec3aa2f46d42ffc3f2fcbf2",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_goal__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28587,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skill",
+    "model_id": [
+      3474,
+      "Employee Certification Report"
+    ],
+    "name": "skill_id",
+    "relation": "hr.skill",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "259af349cc0bf8207782b00d4ad72e6dd1d95ad08c0202c96634ebd823f8c696",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_employee_certification_report__skill_id"
+}

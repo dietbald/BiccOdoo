@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8542,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project Template",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "project_template_id",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "890a6f017083ce94d22d58b53646e000bbe37b7d9cc03c91bda0a6687d10d5c7",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_product_template__project_template_id"
+}

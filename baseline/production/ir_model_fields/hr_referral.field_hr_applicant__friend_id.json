@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Friend",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "friend_id",
+    "relation": "hr.referral.friend",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b25d23f9bcf390a9ab526eff3a72ece2ff0dc1d39dcfaa1e1fc328d45c8d4873",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_applicant__friend_id"
+}

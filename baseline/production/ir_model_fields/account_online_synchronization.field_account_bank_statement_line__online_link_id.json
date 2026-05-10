@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5883,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Online Link",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "online_link_id",
+    "relation": "account.online.link",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ead0a1cfe5486be4fee89e12afc9f9ebd838736630aad7f6058290af23b5bc74",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line__online_link_id"
+}

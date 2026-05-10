@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stored Recipient Number",
+    "model_id": [
+      397,
+      "Send SMS Wizard"
+    ],
+    "name": "recipient_single_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2e185af23b2e1dc317783a747669a55c8e47a06be177d86b8c3b36ea84144b0b",
+  "write_date": "",
+  "xml_id": "sms.field_sms_composer__recipient_single_number"
+}

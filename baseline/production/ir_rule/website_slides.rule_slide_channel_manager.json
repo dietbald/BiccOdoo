@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 667,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      149
+    ],
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "Channel: manager: crud all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "26ccb30271f3ba91074b4716a44d50edc2ba2e10f5599d797b8196c30d9ee725",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_channel_manager"
+}

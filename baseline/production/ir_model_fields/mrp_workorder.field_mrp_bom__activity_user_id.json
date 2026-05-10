@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16905,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "14e416c78f201e1c4d6636bf42f4a189542a7a4c0db8763c48aee8d52187f073",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_bom__activity_user_id"
+}

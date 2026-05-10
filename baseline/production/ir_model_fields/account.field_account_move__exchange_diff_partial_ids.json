@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25908,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related reconciliation",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "exchange_diff_partial_ids",
+    "relation": "account.partial.reconcile",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8c4d1fe97d2c33da9107256a682e385448131660eaf749a5d778d329034ade2f",
+  "write_date": "",
+  "xml_id": "account.field_account_move__exchange_diff_partial_ids"
+}

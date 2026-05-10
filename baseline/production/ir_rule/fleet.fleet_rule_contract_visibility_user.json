@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 477,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('vehicle_id.driver_id','=',user.partner_id.id),\n                ('vehicle_id.driver_employee_id.user_id','=',user.id)]",
+    "groups": [
+      129
+    ],
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "User can only see his/her contracts",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b70afcf3977e8311ae52d26e6e40d96fee0defc53b9c22fc9c4504ce112d18fd",
+  "write_date": "2024-05-05 08:27:27",
+  "xml_id": "fleet.fleet_rule_contract_visibility_user"
+}

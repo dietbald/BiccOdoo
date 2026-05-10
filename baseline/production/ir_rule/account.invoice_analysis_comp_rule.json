@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 85,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "Invoice Analysis multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8df2b13b5a1567df87a30950fab47759854baccefbcc23930993172fcc45e894",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.invoice_analysis_comp_rule"
+}

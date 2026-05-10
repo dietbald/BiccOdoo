@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4543,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d569b5c037703f57a4e6d12cae750c0e798168cee4420c67397fcab5e6b37a31",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__message_ids"
+}

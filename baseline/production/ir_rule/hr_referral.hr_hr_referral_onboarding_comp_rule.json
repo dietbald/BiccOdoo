@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 705,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      2603,
+      "Welcome Onboarding in Referral App"
+    ],
+    "name": "Referral Onboarding multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bac5c182d479cfa5cea533b83e19b5dff6d2cd7d8ea5e197ec26572b46e93bde",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.hr_hr_referral_onboarding_comp_rule"
+}

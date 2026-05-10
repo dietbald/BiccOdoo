@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1745,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      150,
+      "Activity Mixin"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d2ac9b2414866d4558fdc3fda06000badfcbdd78de627304f47f7b611a7e2f6c",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_mixin__activity_type_id"
+}

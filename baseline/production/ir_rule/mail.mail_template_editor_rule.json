@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 55,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      13,
+      4
+    ],
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "Mail Template Editors - Edit All Templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f06f9249d217ead542c9e69ed3446bb4d5b397d7e5a51679ed13ca297fdade7f",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.mail_template_editor_rule"
+}

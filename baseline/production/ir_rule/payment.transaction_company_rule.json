@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 70,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "Access transactions in own companies only",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9458b248280b444b9a8adb0dc47a9cf623c4c7e411f3256080aef5826b799f83",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "payment.transaction_company_rule"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16331,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created Production Order",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "created_production_id",
+    "relation": "mrp.production",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aef9706eafa17581e921763fa3aded3ffcd0a3b611fc4ce782f9a2c3ac839399",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_move__created_production_id"
+}

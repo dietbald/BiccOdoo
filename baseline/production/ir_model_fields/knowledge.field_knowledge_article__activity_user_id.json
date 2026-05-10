@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12253,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "696058c868db3c30d272ba7165e92a99f7c48803e85769a0d269b89b54e516c8",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__activity_user_id"
+}

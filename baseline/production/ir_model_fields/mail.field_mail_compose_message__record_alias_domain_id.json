@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias Domain",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "record_alias_domain_id",
+    "relation": "mail.alias.domain",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "abf0be62f5e7077ce010d8d99b7a20ef43bfa19256e683d610c29fc6bd44a5f8",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__record_alias_domain_id"
+}

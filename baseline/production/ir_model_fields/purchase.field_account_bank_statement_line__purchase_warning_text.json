@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28729,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Warning",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "purchase_warning_text",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "5e3e995005dff98b161cf02ebf47a15123268c323da6a5f0000a182b98245a1e",
+  "write_date": "",
+  "xml_id": "purchase.field_account_bank_statement_line__purchase_warning_text"
+}

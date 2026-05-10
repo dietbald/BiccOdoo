@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12556,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Release To Pay",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "release_to_pay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "833e26ddf0365270941a29213784a598caddb06e41c2ff9bf66c9e592546cade",
+  "write_date": "",
+  "xml_id": "account_3way_match.field_account_bank_statement_line__release_to_pay"
+}

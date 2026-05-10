@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18653,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocated Time",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "allocated_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "c216383436ff2898fc8811c1d93007269cefef18207e7770cb23f5033ad4a06b",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__allocated_hours"
+}

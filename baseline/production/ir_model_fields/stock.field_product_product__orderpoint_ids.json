@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11429,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Minimum Stock Rules",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "orderpoint_ids",
+    "relation": "stock.warehouse.orderpoint",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "50af5e2701e0a742b01988badef1380c66e46ebfa7222a43be77237ce4e24d59",
+  "write_date": "",
+  "xml_id": "stock.field_product_product__orderpoint_ids"
+}

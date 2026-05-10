@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6123,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fd505fe02a6504f28920e2a86e9449644daaa79a70a409955effa4e2e3689674",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__activity_type_id"
+}

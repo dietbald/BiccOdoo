@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16836,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1f3fab59340f4c044a374b4b2b8a01497a00e65d20a818c3e82808f39ef55ca3",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__user_id"
+}

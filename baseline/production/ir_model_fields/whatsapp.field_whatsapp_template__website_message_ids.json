@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "efb17e594bebd902336603bd5ecbda254a77e8cc881f91cc7aa4b56fd7a77630",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__website_message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22203,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ledger",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "journal_group_id",
+    "relation": "account.journal.group",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "19836689362f23d3f782b359344ff5e5237dc63882c382ee7317508dfdac1fb3",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__journal_group_id"
+}

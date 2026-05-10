@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11410,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Location",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "location_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c0a11a9c023d7ee82f78a5db28986aa20c6d313ee5026608ba1a924ad3ae2cdd",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__location_id"
+}

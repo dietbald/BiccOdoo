@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8100,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale : Visible at",
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "attached_on_sale",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8092b90f28d7ad9268609cc727976fed85c01e8b416877c1e83ca8dc87161e92",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_product_document__attached_on_sale"
+}

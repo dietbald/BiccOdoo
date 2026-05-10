@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow Foreign VAT",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "allow_foreign_vat",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8210ad58bdea4dd8b1746b4aad2dc9bc00601c2f17b0e6a6d44f2d4d8e5c402f",
+  "write_date": "",
+  "xml_id": "account.field_account_report__allow_foreign_vat"
+}

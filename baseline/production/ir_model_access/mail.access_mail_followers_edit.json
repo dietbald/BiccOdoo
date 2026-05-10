@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1909,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      2652,
+      "Followers edit wizard"
+    ],
+    "name": "access.mail.followers.edit",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "e15d82057e4935b365af95dd3d0defd20b21f75ceb1f12f619d101719a9219ce",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_followers_edit"
+}

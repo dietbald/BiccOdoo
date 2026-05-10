@@ -1,0 +1,10 @@
+<data><field name="attachment_number" position="before">
+                <field name="documents_enabled" invisible="1"/>
+            </field>
+            <field name="attachment_number" position="attributes">
+                <attribute name="invisible">documents_enabled</attribute>
+            </field>
+            <field name="attachment_number" position="after">
+                <field name="documents_count" widget="statinfo" string="Documents" invisible="not documents_enabled" options="{'reload_on_button': true}"/>
+            </field>
+        </data>

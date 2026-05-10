@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2071,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      101,
+      "Timesheets / User: own timesheets only"
+    ],
+    "model_id": [
+      3730,
+      "Confirm timesheet creation when stop timer"
+    ],
+    "name": "access_hr_timesheet_stop_timer_confirmation_wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "86a3fd759e6069e9b6ba27f040daa30bed423ce2b58790148dd6a7e27c57c206",
+  "write_date": "2025-12-09 03:00:18",
+  "xml_id": "timesheet_grid.access_hr_timesheet_stop_timer_confirmation_wizard"
+}

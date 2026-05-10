@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8325,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      616,
+      "Cancel multiple quotations"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3ba07c51b747a83701d2be732d469fd1d6002c07b7b379bd06d33d8510431c6f",
+  "write_date": "",
+  "xml_id": "sale.field_sale_mass_cancel_orders__write_uid"
+}

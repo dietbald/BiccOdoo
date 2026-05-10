@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2332,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Fetched",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "fetched_message_id",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a893580be01ae68a6dec44fdecfad95b8460b89a7ef594154fe5eae7fdae5f08",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__fetched_message_id"
+}

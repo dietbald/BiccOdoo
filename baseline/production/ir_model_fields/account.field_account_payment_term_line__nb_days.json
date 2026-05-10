@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4273,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days",
+    "model_id": [
+      433,
+      "Payment Terms Line"
+    ],
+    "name": "nb_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3aac5522916d3d53bb9f644e1a87115989a9337deb5458780d0999a4fcd560d5",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term_line__nb_days"
+}

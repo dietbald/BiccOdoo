@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 641,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "project_portal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "bbd3d189d12072b3ea651d2329d51bb826f284d63f7a9f0ccfd5aece6385bd53",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_portal"
+}

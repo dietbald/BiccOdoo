@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      822,
+      "Payslip Worked Days"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bc2f0a91615add9b94c12f822273833e5ed3a201812440715e1423f34ee97871",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_worked_days__currency_id"
+}

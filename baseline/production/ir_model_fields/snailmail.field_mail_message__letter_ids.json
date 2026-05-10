@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3526,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Letter",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "letter_ids",
+    "relation": "snailmail.letter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4098b4cd8b83a3663cdabb9ae6c3660a1b30e75a78469b3663711bbd87ae8377",
+  "write_date": "",
+  "xml_id": "snailmail.field_mail_message__letter_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1026,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "account.journal stock manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a53f2ffd3635de2d8d9ae80df48e36c21c2677cf40c763ec6d18246dd061587c",
+  "write_date": "2025-12-09 02:58:51",
+  "xml_id": "stock_account.access_account_journal_stock_manager"
+}

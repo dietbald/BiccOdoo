@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3666,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Done Message",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "done_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "bd59f2b012d76014fef888c0e85dc0601109194f619250dbf93108b19ce5c591",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__done_msg"
+}

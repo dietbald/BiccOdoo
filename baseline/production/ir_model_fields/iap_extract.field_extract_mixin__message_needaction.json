@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3295,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4406838cb1fb488ec9933d1633f05e47d8ca7a80cf96fa9074f3c828f48e677a",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin__message_needaction"
+}

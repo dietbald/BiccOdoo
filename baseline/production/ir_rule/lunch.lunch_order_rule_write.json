@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 549,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('state', '!=', 'confirmed'), ('user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "lunch.order: Don't change confirmed order",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "d2da882bb0ec838b0fb4c123f1bd44552a263bed12ac50feb4b95c4976b2a4ac",
+  "write_date": "2024-05-05 13:40:13",
+  "xml_id": "lunch.lunch_order_rule_write"
+}

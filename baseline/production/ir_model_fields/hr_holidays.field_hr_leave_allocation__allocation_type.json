@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15619,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocation Type",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "allocation_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "420f6b00296048f360f17c403cbaf989220f05c5f8b665a45556c574e29271e9",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__allocation_type"
+}

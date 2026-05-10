@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4723,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "External Reference",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "reference",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d1b2c0846e27edc6f9cc7a6eef10aef4a148b57b4eb91c421a90a58057d5c1c1",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement__reference"
+}

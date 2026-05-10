@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16699,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Check",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "check_id",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff67de987987e8ba9838253cae54a8cb453d4cccf951cbc59378a4eef9cb6aa1",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__check_id"
+}

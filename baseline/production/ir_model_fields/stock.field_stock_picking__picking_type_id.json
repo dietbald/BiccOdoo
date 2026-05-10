@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11264,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation Type",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "picking_type_id",
+    "relation": "stock.picking.type",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e5feb24a9ee2c074fc61b67bd0397c31588fec72bb7d7166e3c3a73aa78dc14c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__picking_type_id"
+}

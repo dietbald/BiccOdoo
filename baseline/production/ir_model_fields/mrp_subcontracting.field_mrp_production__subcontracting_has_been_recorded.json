@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17338,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has been recorded?",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "subcontracting_has_been_recorded",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8279344b67fcbe652d0953f9a4face9edfd0ed64cdeec4105fc8ddaa2bd8d18f",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_mrp_production__subcontracting_has_been_recorded"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2e17948ff701816d644c0fd53c6e2cd1784bb72fb4b2e72bba6743c6d384a92a",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__product_uom_id"
+}

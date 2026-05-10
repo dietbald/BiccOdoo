@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15536,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Second Approval",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "second_approver_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0f8c8e5fc541d404c0dd0ba02bd2559256b899b6f7092171f3886a6a26a90704",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__second_approver_id"
+}

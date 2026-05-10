@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19363,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tuesday",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "tuesday_location_id",
+    "relation": "hr.work.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7e7ba37e545679693330e05afa7616ff568c1e752f0e26b204d26d4d9cf3ddfc",
+  "write_date": "",
+  "xml_id": "hr_homeworking.field_hr_employee__tuesday_location_id"
+}

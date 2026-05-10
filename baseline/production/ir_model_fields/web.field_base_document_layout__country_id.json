@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1370,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      118,
+      "Company Document Layout"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "560e3909e5bc919ae4b59cfe6ec421779005a12f53f92eda33f09c32d7d9b91b",
+  "write_date": "",
+  "xml_id": "web.field_base_document_layout__country_id"
+}

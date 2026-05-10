@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22351,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice report",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "invoice_template_pdf_report_id",
+    "relation": "ir.actions.report",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f4315e7aadb8e01bdf1b382bce1a913fa7300621e654a372132af83928fc3900",
+  "write_date": "",
+  "xml_id": "account.field_res_users__invoice_template_pdf_report_id"
+}

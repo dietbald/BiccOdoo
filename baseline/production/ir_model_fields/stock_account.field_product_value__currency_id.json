@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28762,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      3526,
+      "Product Value"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "952f51ca47b5df3182d8c1e2102f1380cb4186833b350952a6338266f4164a0f",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_value__currency_id"
+}

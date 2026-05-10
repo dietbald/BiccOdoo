@@ -1,0 +1,23 @@
+<gantt js_class="work_entries_gantt" string="Work Entries" date_start="date" date_stop="date" color="color" create="0" default_group_by="employee_id" decoration-warning="state == 'conflict'" disable_drag_drop="1" display_unavailability="1" pill_label="True" scales="week,month" default_range="month" total_row="1" progress_bar="employee_id" precision="{'week': 'day:full', 'month': 'day:full'}" multi_create_view="hr_work_entry_enterprise.hr_work_entry_view_gantt_multi_create_form" plan="0" sample="1">
+                <templates>
+                    <div t-name="gantt-popover">
+                        <div class="d-grid column-gap-2" style="grid-template-columns: min-content minmax(0,1fr);">
+                            <span class="fw-medium">Date</span>
+                            <t t-out="date.toLocaleString({ month: 'numeric', day: 'numeric', year: 'numeric' })"/>
+                            <span class="fw-medium">Duration</span>
+                            <t t-out="durationToStr(duration)"/>
+                            <span t-if="name" class="fw-medium">Description</span>
+                            <t t-out="name"/>
+                            <span class="mt-2" style="grid-column: 2 span;" t-if="state === 'validated'"><i class="fa fa-lock me-1"/> You cannot edit a validated work entry</span>
+                        </div>
+                    </div>
+                </templates>
+                <field name="work_entry_type_id"/>
+                <field name="display_code"/>
+                <field name="duration"/>
+                <field name="color"/>
+                <field name="state"/>
+                <field name="employee_id"/>
+                <field name="duration"/>
+                <field name="name"/>
+            </gantt>

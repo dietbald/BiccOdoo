@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4758,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country Code",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "country_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "6745e23cef44d51f304f3e7290b57f43a6a04dac48f9794520311294dfda9e24",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__country_code"
+}

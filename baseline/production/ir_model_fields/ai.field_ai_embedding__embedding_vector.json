@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30015,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Embedding Vector",
+    "model_id": [
+      3861,
+      "Attachment Chunks Embedding"
+    ],
+    "name": "embedding_vector",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "vector"
+  },
+  "payload_sha256": "a89d1e30501dc8cce2418cc586dc39a77a510630317a27c903d03431774443ce",
+  "write_date": "",
+  "xml_id": "ai.field_ai_embedding__embedding_vector"
+}

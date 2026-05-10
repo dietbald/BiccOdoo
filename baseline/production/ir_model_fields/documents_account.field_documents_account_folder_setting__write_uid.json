@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6688,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      550,
+      "Journal and Folder settings"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4cba6ca970c2e602d42d8150edeefe9f9ba209055b1e8d7cb5e92c413a479d2f",
+  "write_date": "",
+  "xml_id": "documents_account.field_documents_account_folder_setting__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9651,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Kanban State",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "kanban_state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "719f50206b9302ece951ddcd982cfc768a612b6c5f50cefe72d6423ae9d56700",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__kanban_state"
+}

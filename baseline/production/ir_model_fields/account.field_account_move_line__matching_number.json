@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4464,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Matching #",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "matching_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "cb5a1279a550adb39ab7c8ae64e4a795074ab0fcd276464c9de5d5b9df7ac6a4",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__matching_number"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1520,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('trigger', '=', 'on_webhook')]",
+    "name": "Webhook Automations",
+    "res_model": "base.automation",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "8301ca132e27dab14b7bcd75b50b6cd28bdbb907730ec4926fde43695b61f9fa",
+  "write_date": "2025-12-09 02:58:56",
+  "xml_id": "web_studio.webhook_automation_act"
+}

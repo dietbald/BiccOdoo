@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26309,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Approver",
+    "model_id": [
+      2738,
+      "Edit Billable Time Target wizard from Timesheet for users without employee access"
+    ],
+    "name": "timesheet_manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0dff405856cece9d2a224374df0ccc7843018f2f01aac88ebe05039cd0d31c07",
+  "write_date": "",
+  "xml_id": "sale_timesheet_enterprise.field_edit_billable_time_target__timesheet_manager_id"
+}

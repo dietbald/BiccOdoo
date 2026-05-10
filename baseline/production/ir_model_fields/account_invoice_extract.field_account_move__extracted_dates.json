@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29607,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extracted Dates",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "extracted_dates",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "2de90f42a2239a8f308e1524e3a005cdc74d26a9a35644b0110161b279bc7c35",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__extracted_dates"
+}

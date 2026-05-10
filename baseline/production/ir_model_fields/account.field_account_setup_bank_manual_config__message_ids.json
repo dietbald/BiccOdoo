@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5306,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cf8122629dab3a54231106be82fdfa86530b1781b2b95472e83a6c58295de163",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__message_ids"
+}

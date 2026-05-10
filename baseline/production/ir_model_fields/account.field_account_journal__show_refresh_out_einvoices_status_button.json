@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27509,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show E-Invoice Status Buttons",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "show_refresh_out_einvoices_status_button",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "df4912ec2295d9ee1a8d0d99c080dc59e37ff8241800ac42ebbea2dd486229d0",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__show_refresh_out_einvoices_status_button"
+}

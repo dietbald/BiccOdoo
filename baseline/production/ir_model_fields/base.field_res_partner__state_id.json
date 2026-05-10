@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 898,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "State",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "state_id",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c83a3d895d3169a7cc805981f8db564866cb12430945103893c6b47440c879b6",
+  "write_date": "",
+  "xml_id": "base.field_res_partner__state_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28868,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      3563,
+      "Accounting Return Type"
+    ],
+    "name": "deadline_start_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "c4d5fa8660dff9d88e85bf865ce1d013be2c33adfbd1957cd1ac48f87b825f8f",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_type__deadline_start_date"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1388,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      968,
+      "Workcenter Productivity Log"
+    ],
+    "name": "mrp.workcenter.productivity",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "20ab468a548faa44aabbe649247d961175ff21cde43efc5d153e23c84b29aa81",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_workcenter_productivity"
+}

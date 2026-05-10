@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 735,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Associated reports",
+    "model_id": [
+      73,
+      "Paper Format Config"
+    ],
+    "name": "report_ids",
+    "relation": "ir.actions.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "57961ed8f9d2d13b71c713bdbb237762e462c8de544e4fedf7eda4f1d4a84042",
+  "write_date": "",
+  "xml_id": "base.field_report_paperformat__report_ids"
+}

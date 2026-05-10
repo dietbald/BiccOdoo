@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22751,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Min Purchase Lock Date Exception For Me",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "min_purchase_lock_date_exception_for_me_id",
+    "relation": "account.lock_exception",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7a3521e81be0e1a5f61c6c40848d895565056282f6d4e8a8fa33dd00b3af68a8",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__min_purchase_lock_date_exception_for_me_id"
+}

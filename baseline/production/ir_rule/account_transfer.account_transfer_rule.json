@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 107,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      491,
+      "Account Transfer Model"
+    ],
+    "name": "Account Automatic Transfer",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a74c2846c32a43ae72b37d3e46b2a731cff5b3c4564ea1a7254afa4eb3d7f2d4",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "account_transfer.account_transfer_rule"
+}

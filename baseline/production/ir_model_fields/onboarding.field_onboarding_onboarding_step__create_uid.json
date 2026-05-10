@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      140,
+      "Onboarding Step"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ac6a6f6b0382e3e000406fdd0086bacfab6784cf9fc02d48b22af94d4c3c7f99",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_onboarding_step__create_uid"
+}

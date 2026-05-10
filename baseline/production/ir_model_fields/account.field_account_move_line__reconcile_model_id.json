@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reconciliation Model",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "reconcile_model_id",
+    "relation": "account.reconcile.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8323ced357655a504c6f360a0d4156f2e2395409c813e2a108fc560b20961c5c",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__reconcile_model_id"
+}

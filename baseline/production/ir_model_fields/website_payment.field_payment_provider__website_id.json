@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10331,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b3d064c95d4fef1c44669d8b52542254a87656e4f5f615b75aec12cdf74dfc4a",
+  "write_date": "",
+  "xml_id": "website_payment.field_payment_provider__website_id"
+}

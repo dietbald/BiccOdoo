@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 504,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "access.sms.template.account.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "be12e78ff8edcd1ae17817a24a126f803ff23aab86849ec1efb560e4153be750",
+  "write_date": "2025-12-09 02:59:46",
+  "xml_id": "account_followup.access_sms_template_account_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10197,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Server Action",
+    "model_id": [
+      697,
+      "Website Snippet Filter"
+    ],
+    "name": "action_server_id",
+    "relation": "ir.actions.server",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c1b88619901b82e6a5d22f4844970b1d5e685d8af9a04d43e2b400fd272d9718",
+  "write_date": "",
+  "xml_id": "website.field_website_snippet_filter__action_server_id"
+}

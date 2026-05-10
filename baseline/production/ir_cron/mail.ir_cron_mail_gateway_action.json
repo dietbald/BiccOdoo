@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 6,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._fetch_mails()",
+    "interval_number": 5,
+    "interval_type": "minutes",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "Mail: Fetchmail Service",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "6936875c796b2afc420e94e1281ba7d08ff8db7dbafe6d0db59206dc6211ccbf",
+  "write_date": "2026-04-28 10:48:34",
+  "xml_id": "mail.ir_cron_mail_gateway_action"
+}

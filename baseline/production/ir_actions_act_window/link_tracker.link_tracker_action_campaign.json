@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 917,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_campaign_id': active_id}",
+    "domain": false,
+    "name": "Statistics of Clicks",
+    "res_model": "link.tracker",
+    "target": "current",
+    "view_mode": "list,form,graph"
+  },
+  "payload_sha256": "a16928bc85b9921a74d5fd662dee60a438ea2597ea3a6434e41401b8e0f001a4",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "link_tracker.link_tracker_action_campaign"
+}

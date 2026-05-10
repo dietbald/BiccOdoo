@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26566,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Returned",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "qty_returned",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "cf8d088ffcb8a227890b966f637791b9d299fb715f9f9ff7d612b0233c01bcf7",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order_line__qty_returned"
+}

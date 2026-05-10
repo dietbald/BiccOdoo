@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1261,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'force_search_count': 1,\n            'search_default_filter_user_id_uid': 1,\n            'search_default_filter_date_deadline_past': 1,\n            'search_default_filter_date_deadline_today': 1,\n        }",
+    "domain": false,
+    "name": "My Activities",
+    "res_model": "mail.activity",
+    "target": "current",
+    "view_mode": "list,kanban,calendar"
+  },
+  "payload_sha256": "6cc6c4981083b00874c1e987dcd6f410775bb3378f62988cbecbc76cec1cad73",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.mail_activity_action_my"
+}

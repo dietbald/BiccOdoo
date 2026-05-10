@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 609,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      585,
+      "Convert Lead to Opportunity (in mass)"
+    ],
+    "name": "access.crm.lead2opportunity.partner.mass",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "43a89bb58de759400accb5e06110c4d540b0c1b6f58cbc802ed352e0a3af4d0b",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.access_crm_lead2opportunity_partner_mass"
+}

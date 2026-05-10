@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7434,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      587,
+      "Update the probabilities"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fdbfc13da78ebf71b85042be6309d8f3f7cb86f3f320c2955511a573dcf2bbd2",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead_pls_update__write_uid"
+}

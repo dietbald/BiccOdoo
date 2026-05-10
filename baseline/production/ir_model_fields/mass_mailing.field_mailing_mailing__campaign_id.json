@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14217,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "UTM Campaign",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "campaign_id",
+    "relation": "utm.campaign",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6d905524530ad2d1cbfda56865335a3247aa82df8d59b27e62a46ece12288387",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__campaign_id"
+}

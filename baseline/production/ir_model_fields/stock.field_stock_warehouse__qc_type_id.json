@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20073,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality Control Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "qc_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bae686a3cc6b9d4c47244406278ad77ffc22b90e6e23ae7c00bb156fc3beacfc",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__qc_type_id"
+}

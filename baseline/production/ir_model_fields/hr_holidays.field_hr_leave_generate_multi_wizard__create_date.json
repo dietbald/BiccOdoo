@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20485,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      1227,
+      "Generate time off for multiple employees"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "edb6ac51f8498df46fd1e6b299ce476e8db08a0c1e9ca35f5113b6fdc8d40a16",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_generate_multi_wizard__create_date"
+}

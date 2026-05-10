@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Gold badges count",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "gold_badge",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "52803c48a4a7e87fb8657235a2d73125e76d8f3f786d7ffaa2224f1866e6c0a8",
+  "write_date": "",
+  "xml_id": "gamification.field_res_users__gold_badge"
+}

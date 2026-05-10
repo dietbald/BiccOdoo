@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23102,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Aml",
+    "model_id": [
+      1421,
+      "Purchase Line and Vendor Bill line matching view"
+    ],
+    "name": "aml_id",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "91e01c6a3e312b800606ec854a19a6777242a149c610d5a2602c7c8d08848405",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_line_match__aml_id"
+}

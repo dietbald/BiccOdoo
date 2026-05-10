@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7996,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "stage_id",
+    "relation": "project.task.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "60ee8f5eb96a8ecfbd50035496db1d9790ab34659303add861390b9fb63976f5",
+  "write_date": "",
+  "xml_id": "project.field_project_task_burndown_chart_report__stage_id"
+}

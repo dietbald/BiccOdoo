@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6304,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Follow-up Level",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "followup_line_id",
+    "relation": "account_followup.followup.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "43a0617f68651ed64c25b1c10248639eeae47bc7d4f3c26387d34ac8b171e037",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_partner__followup_line_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 281,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "No of Views",
+    "model_id": [
+      20,
+      "Action Window"
+    ],
+    "name": "view_ids",
+    "relation": "ir.actions.act_window.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0c84f8301ebbed8fb8a2804f7896555053cabb67a1737188c93f1d929836d044",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_act_window__view_ids"
+}

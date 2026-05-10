@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14745,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Certification Badge ",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "certification_badge_id_dummy",
+    "relation": "gamification.badge",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dd40494036fb6d69c53490e688a41db2b1ec0b4073a10345a565851abae01cd3",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__certification_badge_id_dummy"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Author",
+    "model_id": [
+      1329,
+      "Scheduled Message"
+    ],
+    "name": "author_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9027f4885c7d81742f156e292413bdf881de8bffd9b51b329a73ef6a78377d5",
+  "write_date": "",
+  "xml_id": "mail.field_mail_scheduled_message__author_id"
+}

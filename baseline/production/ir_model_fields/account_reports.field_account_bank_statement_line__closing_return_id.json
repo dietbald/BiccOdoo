@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closing Return",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "closing_return_id",
+    "relation": "account.return",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "527a970abe74c9ec86a497b593fba040cf2843101827541a4abb242649f8f475",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_bank_statement_line__closing_return_id"
+}

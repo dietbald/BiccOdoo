@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10714,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sign Send Request",
+    "model_id": [
+      718,
+      "Sign send request signer"
+    ],
+    "name": "sign_send_request_id",
+    "relation": "sign.send.request",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "afb51df712c7b9916c6eec258ad69bfecf072d1a787b67647c4a19d58d6b0fb2",
+  "write_date": "",
+  "xml_id": "sign.field_sign_send_request_signer__sign_send_request_id"
+}

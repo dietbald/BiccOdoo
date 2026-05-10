@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19424,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Remaining",
+    "model_id": [
+      1112,
+      "Progress of Scheduled Actions"
+    ],
+    "name": "remaining",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3d8036d6990b92ddb1d9639e755aed5decb74a1a41be82f50016f6e42754fda8",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_progress__remaining"
+}

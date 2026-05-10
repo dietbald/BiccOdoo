@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18277,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Additional Leaves to Plan Ahead",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "recurring_leaves_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "9dcbb806543504249b5a3d55c672328bfde4c47cfcb668b499f45e14df1f2c50",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_maintenance_request__recurring_leaves_count"
+}

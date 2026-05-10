@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21500,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Service",
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "service_id",
+    "relation": "iap.service",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "14ba2cf1f07867ec55e6ae956308fcd838fae0c333e7864d7aad17b367d14331",
+  "write_date": "",
+  "xml_id": "iap.field_iap_account__service_id"
+}

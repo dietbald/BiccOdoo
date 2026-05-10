@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3719,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "state_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "23a420507fcc05d4e37f75e95a4bd5f18db0dc2b91415068a12a363448acf3b2",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__state_message"
+}

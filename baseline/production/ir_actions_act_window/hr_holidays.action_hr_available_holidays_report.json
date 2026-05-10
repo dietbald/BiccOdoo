@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1023,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_filter_date_from': 1, 'search_default_group_employee': 1,\n            'search_default_group_type': 1, 'search_default_to_approve': 1, 'search_default_validated': 1}",
+    "domain": "[('state', '!=', 'cancel')]",
+    "name": "Time Off by Employee",
+    "res_model": "hr.leave",
+    "target": "current",
+    "view_mode": "list,graph,pivot,calendar,form"
+  },
+  "payload_sha256": "70271c12781235c801c1a1618abc8461b0d54d865b258a45e4437cc0518dfef3",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.action_hr_available_holidays_report"
+}

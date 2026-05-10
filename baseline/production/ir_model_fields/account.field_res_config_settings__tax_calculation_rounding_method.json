@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5008,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax calculation rounding method",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "tax_calculation_rounding_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0d5797edd59300e130231c30035ec6d6828bf8ca194300dbdf0050a1d39279c0",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__tax_calculation_rounding_method"
+}

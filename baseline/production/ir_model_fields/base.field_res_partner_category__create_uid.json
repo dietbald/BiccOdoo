@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 847,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      83,
+      "Partner Tags"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a7400fc0043217f1f04d46be46f0f492678da95e3b3bf283f935ba710910c9a9",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_category__create_uid"
+}

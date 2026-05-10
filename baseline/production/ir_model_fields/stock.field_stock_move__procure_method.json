@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10951,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Supply Method",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "procure_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d54033a99164dc86b32331fea751a90f34c10fb3425324e6c06590c1ad3fdabe",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__procure_method"
+}

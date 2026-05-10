@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8436,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sum of Orders",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "sale_amount_total",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "4efdddc1de5eade94da13af89d0243638c27c662fea21b040d36d809d574143b",
+  "write_date": "",
+  "xml_id": "sale_crm.field_crm_lead__sale_amount_total"
+}

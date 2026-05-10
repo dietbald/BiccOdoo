@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10839,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Template confirmation picking",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "stock_mail_confirmation_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0685139fe07bdba6206d6e4bb262b749efdd090ea74704c611ee4fb6eb41edb2",
+  "write_date": "",
+  "xml_id": "stock.field_res_company__stock_mail_confirmation_template_id"
+}

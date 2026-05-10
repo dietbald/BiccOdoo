@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24336,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Invited Attendees",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "members_invited_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c3656425aa0147b7a817e37c4d5c4da8a72780ef373ce94488282a07757d396f",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__members_invited_count"
+}

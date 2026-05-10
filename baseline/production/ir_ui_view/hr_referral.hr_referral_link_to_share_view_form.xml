@@ -1,0 +1,9 @@
+<form string="Link to Share">
+                This link contains a tracker so that people clicking on it will account to a referral for you, even if they apply on a position after a few days.
+                <field name="job_id" invisible="1"/>
+                <field name="channel" invisible="1"/>
+                <field name="url" widget="CopyClipboardChar" nolabel="1" class="my-3 w-50"/>
+                <footer>
+                    <button string="Close" class="oe_highlight" special="cancel" data-hotkey="x"/>
+                </footer>
+            </form>

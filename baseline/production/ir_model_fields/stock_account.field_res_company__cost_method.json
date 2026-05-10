@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25104,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cost Method",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "cost_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b6ce1015ebe799a37a8ead541b1fd126db6f0d5b75f560000c793b58c14e76d2",
+  "write_date": "",
+  "xml_id": "stock_account.field_res_company__cost_method"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29216,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3633,
+      "Personal Filters on Employees for the Calendar view"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e704b198f20121e8cd7eff5e6b9222c2d9333ad9ad2cfc0839d1bc08286c687d",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line_calendar_employee__write_uid"
+}

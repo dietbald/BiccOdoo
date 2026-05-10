@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11140,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "7e67ae32e26fdadcd968f026deaf54f79df7bc9a46d3ea7a383e5cde50f81b2f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__message_has_error_counter"
+}

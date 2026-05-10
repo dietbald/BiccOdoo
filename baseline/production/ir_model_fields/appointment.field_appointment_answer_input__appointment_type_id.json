@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appointment Type",
+    "model_id": [
+      935,
+      "Appointment Answer Inputs"
+    ],
+    "name": "appointment_type_id",
+    "relation": "appointment.type",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b92434590233cb17fe3c84cfe8f3b8c78d1c032a7b7c19d77fff48eed150f436",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_answer_input__appointment_type_id"
+}

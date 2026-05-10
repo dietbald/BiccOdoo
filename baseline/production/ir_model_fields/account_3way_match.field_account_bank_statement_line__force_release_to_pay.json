@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12558,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Force Status",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "force_release_to_pay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ebc7cfbe078ce59982544910a12595b2311376be2f3064c5aaf09fdab2642cc2",
+  "write_date": "",
+  "xml_id": "account_3way_match.field_account_bank_statement_line__force_release_to_pay"
+}

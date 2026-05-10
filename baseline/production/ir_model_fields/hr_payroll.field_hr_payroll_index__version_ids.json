@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13162,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee records",
+    "model_id": [
+      834,
+      "Index contracts"
+    ],
+    "name": "version_ids",
+    "relation": "hr.version",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b3f68178ff88af55d709056ee0065dca06df823f37d6e7afd277329a49bf9621",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_index__version_ids"
+}

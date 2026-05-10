@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 169,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      41
+    ],
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "Tasks Analysis: project visibility Manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "08603c998f42bc78d9102f1f5e921737098f8fdad666f913cf264974c02831d2",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.report_project_task_manager_rule"
+}

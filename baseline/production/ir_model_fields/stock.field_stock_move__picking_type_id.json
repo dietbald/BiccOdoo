@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10958,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation Type",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "picking_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ccc8b4361ac84644c125a39b423833a9b0462451f906cfc7447a65135f7c33e2",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__picking_type_id"
+}

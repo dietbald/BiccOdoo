@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 560,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('employee_id', '=', user.employee_id.id)\n            ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1101,
+      "Set Homework Location Wizard"
+    ],
+    "name": "homeworking wizard: own",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6a1813d0d49543263d955272a5805d2954b92fe1c67d60c519c9effd98c7801c",
+  "write_date": "2024-10-23 10:49:40",
+  "xml_id": "hr_homeworking_calendar.homeworking_location_wizard_own_rule"
+}

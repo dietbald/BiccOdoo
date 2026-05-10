@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11158,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Location",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "location_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dabecaa2845212f0cf46275fbe4b43a6e74e4c8ad203261c3236649f3e236b40",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__location_id"
+}

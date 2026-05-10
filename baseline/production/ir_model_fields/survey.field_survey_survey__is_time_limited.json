@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14738,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "The survey is limited in time",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "is_time_limited",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3a0f69f9912cd6b68690394c1bd935988134972e424245683d66280ac9550d86",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__is_time_limited"
+}

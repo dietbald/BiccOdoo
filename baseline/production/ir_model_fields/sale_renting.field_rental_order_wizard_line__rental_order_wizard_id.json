@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26594,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rental Order Wizard",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "rental_order_wizard_id",
+    "relation": "rental.order.wizard",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "98a220a5da6a3b7f7d21a3cb54e33b88e521b947abe24dcb2e2a80d36630daa8",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard_line__rental_order_wizard_id"
+}

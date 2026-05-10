@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9578,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6125e25f34fea3d82e5dadb4eece2fc2225e5eaa914f1a6f8799a2d913dd8180",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__activity_ids"
+}

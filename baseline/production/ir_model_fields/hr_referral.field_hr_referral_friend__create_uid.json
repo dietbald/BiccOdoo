@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25598,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2605,
+      "Friends for Referrals"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6c46b5ed840c8a69cac1d41e3e9ee94b8233310183017992467dc51083b28ca6",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_friend__create_uid"
+}

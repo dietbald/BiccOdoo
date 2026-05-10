@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2206,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      179,
+      "ICE Server"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fedc5ec370a301d57ed381e62de2d1259fe5296401ff74cc4d66df74370bf1e1",
+  "write_date": "",
+  "xml_id": "mail.field_mail_ice_server__create_uid"
+}

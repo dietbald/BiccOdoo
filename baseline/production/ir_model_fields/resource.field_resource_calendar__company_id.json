@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1641,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "61789cfc10516a1d99780e6cbeb3fb3d8a96c6b2c1742c9b6f4b7dd9fb2c97af",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__company_id"
+}

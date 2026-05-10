@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29159,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "PDF Sign Template",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "sign_template_id",
+    "relation": "sign.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "55f22b08c92d1b412151d91f6c0c8a39dda5066d6e2f7fac78f2d65ce4d116e8",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__sign_template_id"
+}

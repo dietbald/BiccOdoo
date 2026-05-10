@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 589,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      83,
+      "Partner Tags"
+    ],
+    "name": "res.partner.category.crm.manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1df00cf1ce3931f933ee7da5bce664e9f24ef84a870eeb0d1a6c8783c32ef789",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.access_res_partner_category_manager"
+}

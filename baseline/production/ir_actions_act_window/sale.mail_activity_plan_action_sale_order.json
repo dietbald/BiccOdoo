@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 503,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'sale.order'}",
+    "domain": "[('res_model', '=', 'sale.order')]",
+    "name": "Sale Order Plans",
+    "res_model": "mail.activity.plan",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "bacefad7044aaafcfd7648ade16d22ae58ecdfc376117fc192ffa55a3693aaa5",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.mail_activity_plan_action_sale_order"
+}

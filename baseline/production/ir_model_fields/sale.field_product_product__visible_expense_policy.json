@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8107,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Re-Invoice Policy visible",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "visible_expense_policy",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d0217b0a915226daf88133ebeef5ba495fd0006d12db8a8dee0900c64bfbfc63",
+  "write_date": "",
+  "xml_id": "sale.field_product_product__visible_expense_policy"
+}

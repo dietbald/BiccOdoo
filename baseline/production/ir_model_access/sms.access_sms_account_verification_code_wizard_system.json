@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1749,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      1356,
+      "SMS Account Verification Code Wizard"
+    ],
+    "name": "access.sms.account.code.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0d758576aa85ed2185e0794acf9742fbef9b5c0e7d5f09d33fe4f1b294d909db",
+  "write_date": "2025-12-09 02:56:13",
+  "xml_id": "sms.access_sms_account_verification_code_wizard_system"
+}

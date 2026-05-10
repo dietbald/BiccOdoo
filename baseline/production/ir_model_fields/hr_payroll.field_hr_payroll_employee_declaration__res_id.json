@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13133,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Declaration Model Id",
+    "model_id": [
+      831,
+      "Payroll Employee Declaration"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "b18df160eb6665971fe4b6b689267434e45bd87d31f1a21d6de689a523a68bf9",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_employee_declaration__res_id"
+}

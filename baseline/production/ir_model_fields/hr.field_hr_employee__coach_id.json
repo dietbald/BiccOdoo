@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8685,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Coach",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "coach_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "342f533af66837047007ee7f7874be305582973454c85aa887d08e03687af48e",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__coach_id"
+}

@@ -1,0 +1,8 @@
+<xpath expr="//app[@name='hr']" position="inside">
+                <block title="Salary Configurator" name="employee_salary_config_div">
+                    <setting string="Salary Package Configurator" help="Validity duration for salary package requests for employees">
+                        <field name="employee_salary_simulator_link_validity" class="o_hr_narrow_field"/>
+                        <span> days</span>
+                    </setting>
+                </block>
+            </xpath>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14910,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Survey Ids",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "survey_ids",
+    "relation": "survey.survey",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4d5f9a598ddee3bdde50155e992929d9dcdbac967cbff9b955abf9bb911533f4",
+  "write_date": "",
+  "xml_id": "survey.field_gamification_badge__survey_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2350,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Channel Member",
+    "model_id": [
+      201,
+      "Mail RTC session"
+    ],
+    "name": "channel_member_id",
+    "relation": "discuss.channel.member",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ebc0651aa77f717370d3a3dc78f9286c3fade754395528eb0c57cce4b17564d9",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_rtc_session__channel_member_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 349,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Link Field",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "link_field_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0401dd4eeb99e9872281c9e38f82cbe7c02ebfe2f73bbb8369f80c0ffaf28307",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__link_field_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 109,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('account_online_link_id.company_id','in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "Online account company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "346d26dd70ca5bb283906b63d6fd7336a5cefbca71d7ba0c0050e9f7f3ea7303",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account_online_synchronization.account_online_sync_account_rule"
+}

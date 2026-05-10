@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13554,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      850,
+      "Merge Timesheets"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "16d4362fbc4b3f2aed4a6bd7c9e8ea49f86d9cdd5a07991a1c7dbcc17058b5fe",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_hr_timesheet_merge_wizard__write_uid"
+}

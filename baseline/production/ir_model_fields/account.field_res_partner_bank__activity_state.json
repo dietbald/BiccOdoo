@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3883,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activity State",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "activity_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "4031955a8d7e928b70d5cd18de4979252dbcb95a89c6e5442cf4ba540a595f5e",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__activity_state"
+}

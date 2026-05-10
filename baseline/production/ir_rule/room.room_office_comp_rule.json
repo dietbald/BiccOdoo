@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 476,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      994,
+      "Room Office"
+    ],
+    "name": "Room Office MC Rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6decf86f8aca3c6df6c41e7f47f51b75afc8289073c1ddb6a1cc8b1fffd8d6a9",
+  "write_date": "2025-12-09 02:56:06",
+  "xml_id": "room.room_office_comp_rule"
+}

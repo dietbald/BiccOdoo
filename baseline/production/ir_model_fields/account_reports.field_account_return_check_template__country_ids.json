@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28987,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicable Countries",
+    "model_id": [
+      3566,
+      "Account Return Check Template"
+    ],
+    "name": "country_ids",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "14c1b053a9aa92ff87da534f3553204c43f416e12cc461627bbcc25e0bd92c8d",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_check_template__country_ids"
+}

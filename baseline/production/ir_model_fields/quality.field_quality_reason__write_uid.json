@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16590,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      988,
+      "Root Cause for Quality Failure"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "533fa6b880169573991c069c0bc7bb122f46ba142eaea89752c2c0cdc7207896",
+  "write_date": "",
+  "xml_id": "quality.field_quality_reason__write_uid"
+}

@@ -1,0 +1,22 @@
+<search string="Recruitment Analysis">
+                    <field name="source_id"/>
+                    <field name="company_id" filter_domain="[('company_id', 'ilike', self)]"/>
+                    <field name="job_id"/>
+                    <field name="name" filter_domain="[('name', 'ilike', self)]"/>
+                    <field name="refuse_reason_id" filter_domain="[('refuse_reason_id', 'ilike', self)]"/>
+                    <field name="create_date"/>
+                    <field name="date_closed"/>
+                    <filter string="Last 365 Days Applicant" name="year" domain="[                         ('create_date', '&gt;=', 'today -365d'),                         ('create_date', '&lt;', 'today +1d')]"/>
+                    <separator/>
+                    <separator/>
+                    <filter name="filter_create_date" date="create_date" string="Application Date"/>
+                    <filter name="filter_date_closed" date="date_closed" string="Hired Date"/>
+                    <group>
+                        <filter string="State" name="groupby_state" context="{'group_by': 'state'}"/>
+                        <filter string="Job Position" name="groupby_job" context="{'group_by':'job_id'}"/>
+                        <filter string="Applicant Name" name="groupby_name" context="{'group_by':'name'}"/>
+                        <filter string="Source" name="groupby_source" context="{'group_by': 'source_id'}"/>
+                        <filter string="Medium" name="groupby_medium" context="{'group_by': 'medium_id'}"/>
+                        <filter string="Company" name="company" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
+                    </group>
+                </search>

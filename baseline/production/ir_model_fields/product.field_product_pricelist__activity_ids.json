@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3122,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9dea6c29f546c27edd4d757fae32d79ba92501d0cfc69051fb0c4ec8312ffbd4",
+  "write_date": "",
+  "xml_id": "product.field_product_pricelist__activity_ids"
+}

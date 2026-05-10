@@ -1,0 +1,8 @@
+<data name="Custom Code Layout" inherit_id="website.layout" priority="55">
+    <xpath expr="//head" position="inside">
+        <t t-out="website.custom_code_head"/>
+    </xpath>
+    <xpath expr="//body" position="inside">
+        <t t-out="website.custom_code_footer"/>
+    </xpath>
+</data>

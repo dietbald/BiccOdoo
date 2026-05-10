@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8370,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Order",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "sale_order_ids",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e03639c80f7f7a9a79a7168abf3e241dde435178b7e38c80fa72f07177d5eb80",
+  "write_date": "",
+  "xml_id": "sale.field_sale_advance_payment_inv__sale_order_ids"
+}

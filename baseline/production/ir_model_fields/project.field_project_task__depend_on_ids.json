@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7719,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blocked By",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "depend_on_ids",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "dd6834a61583f1129936b3f5718c8e202639f7682e2f490919503db2bd2962cf",
+  "write_date": "",
+  "xml_id": "project.field_project_task__depend_on_ids"
+}

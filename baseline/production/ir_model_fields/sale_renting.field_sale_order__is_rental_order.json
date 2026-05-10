@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26552,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created In App Rental",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "is_rental_order",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "304e884dee4c813bead1996b6c5eb860deced39120b7255e962dc177f0012c10",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order__is_rental_order"
+}

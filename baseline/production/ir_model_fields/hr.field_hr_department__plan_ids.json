@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8830,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Plan",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "plan_ids",
+    "relation": "mail.activity.plan",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "20fc00d9585204acd32597d4f5f09d77ef19999c8a060b8faf00868907f71699",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__plan_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Partner",
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "user_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dee4b250e4309b0275d181d3736a4b9f908e528ed4f7da1a8b6de17ed7182973",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_goal__user_partner_id"
+}

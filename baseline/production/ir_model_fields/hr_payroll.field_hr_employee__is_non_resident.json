@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12773,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Non-resident",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "is_non_resident",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "446103a933e94d29729a1f76888f225c4aff640ae9ee847e1b534798c158c80d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__is_non_resident"
+}

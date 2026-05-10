@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4915,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Taxes",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "taxes_id",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3f318ca140d9306141619ac0ccdd5ea2230e02ab98e8122bb3a992b0c3b4bf0e",
+  "write_date": "",
+  "xml_id": "account.field_product_template__taxes_id"
+}

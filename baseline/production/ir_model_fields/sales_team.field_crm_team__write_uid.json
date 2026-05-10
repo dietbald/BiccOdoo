@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7117,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1587cc1a930d3824f19746c0b72c21c604b85304f2902d9b8681acb484127409",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid','=', user.id)]",
+    "groups": [],
+    "model_id": [
+      96,
+      "Users Log"
+    ],
+    "name": "res.users.log per user",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "33a502d8f0e92ef2a48ae36e46989ab26704d97421bd7354e941ab7de73e5d03",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.res_users_log_rule"
+}

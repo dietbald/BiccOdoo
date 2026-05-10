@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3664,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pending Message",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "pending_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "ddc7135cd86e19e1800dd59dbb66b49e967473c4797bef14d1aad98efb14190f",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__pending_msg"
+}

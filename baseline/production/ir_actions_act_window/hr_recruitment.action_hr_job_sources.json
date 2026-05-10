@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 580,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_job_id': [active_id], 'default_job_id': active_id}",
+    "domain": false,
+    "name": "Trackers",
+    "res_model": "hr.recruitment.source",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "9de7ff7a35f375b615141dbdbe998d894fcf192666e64e89409152c958e44509",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.action_hr_job_sources"
+}

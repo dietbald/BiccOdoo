@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9132,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0bb852d874381ce2f93c73555d58e6261fc6e23287462ce96db19796b727252b",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__message_is_follower"
+}

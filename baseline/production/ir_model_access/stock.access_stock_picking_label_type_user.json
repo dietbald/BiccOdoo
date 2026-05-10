@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1021,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      759,
+      "Choose whether to print product or lot/sn labels"
+    ],
+    "name": "picking.label.type.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "1ec0c633c7ec6a5eb4f2affc73a86688c82474541de1f5cdb49b5302fc6737c6",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_picking_label_type_user"
+}

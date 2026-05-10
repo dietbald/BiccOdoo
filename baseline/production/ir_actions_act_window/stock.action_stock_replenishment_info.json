@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 694,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_orderpoint_id': active_id}",
+    "domain": false,
+    "name": "Replenishment Information",
+    "res_model": "stock.replenishment.info",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "84e12ada6b8e8a5ca40808321d056bab3cfdfe07a235324d15ca5f31f4db005f",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.action_stock_replenishment_info"
+}

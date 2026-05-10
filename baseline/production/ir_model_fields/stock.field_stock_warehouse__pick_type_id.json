@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11368,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pick Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "pick_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f6930e65b15e8aba4faad34a6167da15e8e966f45eacd1d34592fd6ef6626404",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__pick_type_id"
+}

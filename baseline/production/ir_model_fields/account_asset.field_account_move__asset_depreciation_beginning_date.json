@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6192,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Date of the beginning of the depreciation",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "asset_depreciation_beginning_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "89258752e853f34cd7055511a2acda0a743f72173c55f8bbc3a54e5eba511f0e",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_move__asset_depreciation_beginning_date"
+}

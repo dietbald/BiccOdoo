@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18695,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Worksheet Template",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "worksheet_template_id",
+    "relation": "worksheet.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b6f1ad8c8d1949ea4a1ac9ec1f4c8ae1b2078b0445d6869d0dc4d7a78bc6cc9d",
+  "write_date": "",
+  "xml_id": "industry_fsm_report.field_report_project_task_user_fsm__worksheet_template_id"
+}

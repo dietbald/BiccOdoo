@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18986,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Favorite Lunch Product",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "favorite_lunch_product_ids",
+    "relation": "lunch.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9e6e470ac2c93af28be95eb706127aa65e302c68ca613de372485cb24db201d1",
+  "write_date": "",
+  "xml_id": "lunch.field_res_users__favorite_lunch_product_ids"
+}

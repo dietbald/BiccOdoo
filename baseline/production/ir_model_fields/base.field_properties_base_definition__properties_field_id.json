@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26762,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Properties Field",
+    "model_id": [
+      2828,
+      "Properties Base Definition"
+    ],
+    "name": "properties_field_id",
+    "relation": "ir.model.fields",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5d26c325b8f7c79f50b6da49f06f16460ceddcabd7ec639a4e877061db4568ee",
+  "write_date": "",
+  "xml_id": "base.field_properties_base_definition__properties_field_id"
+}

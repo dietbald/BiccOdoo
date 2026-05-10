@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9534,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Qty to be Billed",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "qty_to_be_billed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "f750434f84c0dc89a3c1d74055c5b545e1780b9f9e6679927b36eb522457de3b",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__qty_to_be_billed"
+}

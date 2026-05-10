@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20203,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c8fdcb7cbe7627275408fb6a96fa99a52bd6d03a13e538499f953e5acf108a27",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_routing_workcenter__message_needaction"
+}

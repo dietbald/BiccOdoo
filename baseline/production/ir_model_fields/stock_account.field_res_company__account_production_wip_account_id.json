@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23184,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Production WIP Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_production_wip_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fef6efe528e0757d474026a48b5b5f14682666fd2c33b9ad7a888d5b05042810",
+  "write_date": "",
+  "xml_id": "stock_account.field_res_company__account_production_wip_account_id"
+}

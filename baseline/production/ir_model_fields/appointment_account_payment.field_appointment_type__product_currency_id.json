@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23317,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "product_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3b23c6210faae649ba480edd72bda730670aec5b81a7bc349767c32676e1ebbe",
+  "write_date": "",
+  "xml_id": "appointment_account_payment.field_appointment_type__product_currency_id"
+}

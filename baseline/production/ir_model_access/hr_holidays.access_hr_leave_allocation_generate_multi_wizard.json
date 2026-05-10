@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1656,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      114,
+      "Time Off Responsible"
+    ],
+    "model_id": [
+      1228,
+      "Generate time off allocations for multiple employees"
+    ],
+    "name": "access_hr_leave_allocation_generate_multi_wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0518ad68a3b6ce79029c7f8aede35744ead558f17a8f6e5b561b45844c686bfc",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.access_hr_leave_allocation_generate_multi_wizard"
+}

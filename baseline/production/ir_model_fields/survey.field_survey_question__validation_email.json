@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14793,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Input must be an email",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "validation_email",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a8358997e2c4c7651130c6dfb4724d5e2ea9ef7d75fa04767ee2c04f79fca103",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__validation_email"
+}

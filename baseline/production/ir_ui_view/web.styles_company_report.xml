@@ -1,0 +1,97 @@
+<t t-name="web.styles_company_report">
+        <t t-foreach="company_ids" t-as="company" t-translation="off">
+            <t t-set="forced_vat" t-value="False"/>
+            <t t-set="font" t-value="company.font or 'Lato'"/>
+            <t t-set="primary" t-value="company.primary_color or '#212529'"/>
+            <t t-set="secondary" t-value="company.secondary_color or '#212529'"/>
+            <t t-set="layout" t-value="company.external_report_layout_id.key or 'web.external_layout_standard'"/>
+                // Simplified color-contrast function to replicate bootstrap in report preview.
+                @function preview-color-contrast($background) {
+                    @if (lightness($background) &gt; 50) {
+                        @return black;
+                    } @else {
+                        @return white;
+                    }
+                }
+
+                .o_company_<t t-esc="company.id"/>_layout {
+                    font-family: <t t-esc="font"/>;
+
+                    h2 {
+                        color: <t t-esc="primary"/>;
+                    }
+
+                    #informations strong {
+                        color: <t t-esc="secondary"/>;
+                    }
+
+                    .o_total strong {
+                        color: <t t-esc="primary"/>;
+                    }
+
+                    .o_company_tagline {
+                        color: <t t-esc="primary"/>
+                    }
+            <t t-if="layout == 'web.external_layout_boxed'">
+                &amp;.o_report_layout_boxed {
+                    #total .o_total td {
+                        background-color: <t t-esc="primary"/>;
+
+                        strong {
+                            color: preview-color-contrast(<t t-esc="primary"/>);
+                        }
+                    }
+                }
+            </t>
+            <t t-elif="layout == 'web.external_layout_bold'">
+                &amp;.o_report_layout_bold {
+                    .o_main_table {
+                        thead th {
+                            border-top: 3px solid <t t-esc="secondary"/>;
+                        }
+
+                        tbody tr:last-child td {
+                            border-bottom: 3px solid <t t-esc="secondary"/>;
+                        }
+                    }
+                }
+            </t>
+            <t t-elif="layout == 'web.external_layout_folder'">
+                &amp; .o_folder_header_container {
+                    rect, path {
+                        fill: mix(white, <t t-esc="primary"/>, 92%);
+                    }
+                }
+
+                &amp;.o_report_layout_folder_footer {
+                    border-top: 1px solid <t t-esc="secondary"/>;
+                }
+            </t>
+            <t t-elif="layout == 'web.external_layout_wave'">
+                &amp;.o_report_layout_wave {
+                    #informations {
+                        border-color: <t t-esc="secondary"/>;
+                        background-color: mix(white, <t t-esc="secondary"/>, 92%);
+                    }
+                }
+            </t>
+            <t t-elif="layout == 'web.external_layout_bubble'">
+                &amp;.o_report_layout_bubble {
+                    #informations {
+                        border-color: <t t-esc="secondary"/>;
+                        background-color: mix(white, <t t-esc="secondary"/>, 92%);
+                    }
+
+                    thead th, #total .o_total td {
+                        background-color: <t t-esc="primary"/>;
+                        color: preview-color-contrast(<t t-esc="primary"/>);
+
+                        strong {
+                            color: preview-color-contrast(<t t-esc="primary"/>);
+                        }
+                    }
+                }
+            </t>
+            }
+        </t>
+    </t>

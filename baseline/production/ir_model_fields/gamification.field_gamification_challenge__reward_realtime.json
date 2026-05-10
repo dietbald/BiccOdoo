@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14544,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reward as soon as every goal is reached",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "reward_realtime",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a8fb18f116ea2e59604ab2f67e887aeb7d7837ee864acf275c84d08bc598f8e1",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__reward_realtime"
+}

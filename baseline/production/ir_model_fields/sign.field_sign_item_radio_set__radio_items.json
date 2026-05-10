@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21952,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Radio Items",
+    "model_id": [
+      1365,
+      "Radio button set for keeping radio button items together"
+    ],
+    "name": "radio_items",
+    "relation": "sign.item",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ab7d8d4fff8f7a8cfeae38d9ea467a5a6df5b34d8ac4ffeee2d3c10ffc7367f7",
+  "write_date": "",
+  "xml_id": "sign.field_sign_item_radio_set__radio_items"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3867,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Position",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "property_account_position_id",
+    "relation": "account.fiscal.position",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9ef60b3b8d90c7c8a7abd3f983f75ca2d6cd661f6aad140482adc9c0be93bd61",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__property_account_position_id"
+}

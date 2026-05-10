@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12823,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Type",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "amount_select",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a027b23fcb077faadf29bfb1434e7d4e62fe89de9e2955e8b8abe5884e598644",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__amount_select"
+}

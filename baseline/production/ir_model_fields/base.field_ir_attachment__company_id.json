@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 424,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      28,
+      "Attachment"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bdce7abaf021ba65811fb7b5f32170da4d33866b6b95dad49dec9f5e3aa7c548",
+  "write_date": "",
+  "xml_id": "base.field_ir_attachment__company_id"
+}

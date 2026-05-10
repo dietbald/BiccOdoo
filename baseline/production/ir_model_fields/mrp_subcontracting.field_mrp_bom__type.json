@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15915,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "BoM Type",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "1e38c5b48946bdb1571be04dccfd969d0b53a08dfd4e35ce083d7796b9dc789d",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_mrp_bom__type"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26851,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Time 2nd Week",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "attendance_ids_2nd_week",
+    "relation": "resource.calendar.attendance",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e243a690b1c699a15045808b324bafb6379eae5802cd6f58f0c94b6910533e3e",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__attendance_ids_2nd_week"
+}

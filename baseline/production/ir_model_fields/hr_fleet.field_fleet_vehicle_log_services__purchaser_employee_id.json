@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17284,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Driver (Employee)",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "purchaser_employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8ac3b71d1008a77664910d8d2bca8c2dfea19395a40114e5e348d784314db11f",
+  "write_date": "",
+  "xml_id": "hr_fleet.field_fleet_vehicle_log_services__purchaser_employee_id"
+}

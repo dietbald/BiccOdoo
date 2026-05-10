@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10985,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Original Reordering Rule",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "orderpoint_id",
+    "relation": "stock.warehouse.orderpoint",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a96177ed2ee9d028e7a2668f5fc3889a41319660c62bb9d717ddd540a8f872c9",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__orderpoint_id"
+}

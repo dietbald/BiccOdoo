@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 260,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_sale': True, 'search_default_purchase': True, 'active_test': False}",
+    "domain": false,
+    "name": "Taxes",
+    "res_model": "account.tax",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "a5c623ff1e7ce39002bd60ceb96b213ef735115084536c0d6e556da43181952e",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_tax_form"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4858,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total in Currency Signed",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "amount_total_in_currency_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "8c90af9f64365638ac02f2be0d4be91b6dc7dfa0a964e64c26328e569deb46de",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__amount_total_in_currency_signed"
+}

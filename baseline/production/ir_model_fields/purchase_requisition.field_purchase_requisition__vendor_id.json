@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12612,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "vendor_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "65b37e8543f2aed17f99af93257f495dbcc9cd0f230fc90e7101915565cc34d3",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__vendor_id"
+}

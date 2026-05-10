@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26725,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Revision",
+    "model_id": [
+      2776,
+      "Server Action History Wizard"
+    ],
+    "name": "revision",
+    "relation": "ir.actions.server.history",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cd14fb1e9bfaf2ec4e375328a8eab42e990f3e6e235607f56cf06a0a3975b0a6",
+  "write_date": "",
+  "xml_id": "base.field_server_action_history_wizard__revision"
+}

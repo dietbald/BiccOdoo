@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3382,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send SMS As",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "sms_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2e5ce87667f3c07d0597694cde0adcad09e3b4d594842ffcc63ff1153916ccec",
+  "write_date": "",
+  "xml_id": "sms.field_ir_actions_server__sms_method"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7514,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document",
+    "model_id": [
+      593,
+      "Rating"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "8f71db702a55e4aebd3121d80bb39824a750af80b7765e2d5d3c84f447e5c803",
+  "write_date": "",
+  "xml_id": "rating.field_rating_rating__res_id"
+}

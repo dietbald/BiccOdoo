@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29865,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inherited Audit Report",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "inherited_audit_report_id",
+    "relation": "audit.report",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "140eee841e48ed23e43ec503ba53c0846c2de4fc7967bb1f01306fc36b4b4810",
+  "write_date": "",
+  "xml_id": "accountant_knowledge.field_knowledge_article__inherited_audit_report_id"
+}

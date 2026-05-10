@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10924,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f302f5182ac74c541556de9c6962ebfe672f7f8190d343fe4467e1c8e9727a5f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_route__write_uid"
+}

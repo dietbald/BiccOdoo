@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 2,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._gc_portal_users(batch_size=50)",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      106,
+      "Users Deletion Request"
+    ],
+    "name": "Base: Portal Users Deletion",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "0e6a0779b63c9a80e22d4435d5dfb9f66fa74f2b6b0c500c1f86f98596a0d020",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.ir_cron_res_users_deletion"
+}

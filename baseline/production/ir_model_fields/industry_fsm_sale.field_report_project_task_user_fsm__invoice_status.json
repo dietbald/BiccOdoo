@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18733,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Status",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "invoice_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "73945a3091af0473b4af29784faed8688db929bcbe2e844b9defbc8d55787fbc",
+  "write_date": "",
+  "xml_id": "industry_fsm_sale.field_report_project_task_user_fsm__invoice_status"
+}

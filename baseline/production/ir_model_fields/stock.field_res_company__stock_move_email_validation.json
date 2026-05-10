@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10838,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Confirmation picking",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "stock_move_email_validation",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8a905cdea7088c040a28e7fd923a9567368dcf68e17f817e8fc909318a9e409b",
+  "write_date": "",
+  "xml_id": "stock.field_res_company__stock_move_email_validation"
+}

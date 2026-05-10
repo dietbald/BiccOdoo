@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1999,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      3289,
+      "Documents Sharing"
+    ],
+    "name": "access.documents.sharing.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "dd0132cd0c933f80464a9bc4db998d5e8b2cb81300bc54a5f0c4d0f8f09a0b19",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.access_documents_sharing_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18753,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1069,
+      "Track Stock"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ba326c3e4e4ddef779891b0d28305b77134b6438472d72ebc47001d68e7d25ae",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking__write_uid"
+}

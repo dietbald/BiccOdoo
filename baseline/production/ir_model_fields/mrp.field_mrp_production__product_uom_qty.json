@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16144,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Quantity",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "product_uom_qty",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "19d811f7f9ffa211c7ad8dfc4bd4a5189602fcd63ee558a1f17073fb0fc776ac",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__product_uom_qty"
+}

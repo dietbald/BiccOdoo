@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5975,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Date",
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "9271f4790eb91118b1890fd1790e723a1683e7660efe7abb2c2dfffb633174bf",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line_transient__date"
+}

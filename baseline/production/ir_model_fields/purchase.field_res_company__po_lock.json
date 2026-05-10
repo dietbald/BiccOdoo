@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9483,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order Modification",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "po_lock",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d22f0b47ac3b8e7639329c3aafd1f24c86876ec10faf2c5821192a72fc0f8f0d",
+  "write_date": "",
+  "xml_id": "purchase.field_res_company__po_lock"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19927,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Duplicate Payment",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "duplicate_payment_ids",
+    "relation": "account.payment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9a2839772e231f1ab279e770ab4086b38b310dd29f5fa964e71b2c651e43bbcf",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__duplicate_payment_ids"
+}

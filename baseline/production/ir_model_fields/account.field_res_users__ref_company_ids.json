@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Companies that refers to partner",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "ref_company_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0509c68bb86a4eb76838e3a1ac4ddb796c59f31c39c63c29bedf311635cc8dfe",
+  "write_date": "",
+  "xml_id": "account.field_res_users__ref_company_ids"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 656,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('order_id','!=',False)]",
+    "groups": [
+      36
+    ],
+    "model_id": [
+      1474,
+      "Quotation Spreadsheet"
+    ],
+    "name": "All Orders Spreadsheets",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "995bf9eb2a31105671bddc0d8f1b14860d7b088cb9f061def27ae14bc08a7dc0",
+  "write_date": "2025-01-28 01:27:58",
+  "xml_id": "spreadsheet_sale_management.sale_order_spreadsheet_rule_salesman_all_leads"
+}

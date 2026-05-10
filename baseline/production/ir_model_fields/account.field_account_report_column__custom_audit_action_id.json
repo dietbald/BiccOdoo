@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5178,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Audit Action",
+    "model_id": [
+      450,
+      "Accounting Report Column"
+    ],
+    "name": "custom_audit_action_id",
+    "relation": "ir.actions.act_window",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d79146bcabd8d27adbb26ffa972c5cebd0905b6675dbc44d2388318b62359c83",
+  "write_date": "",
+  "xml_id": "account.field_account_report_column__custom_audit_action_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1770,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      1401,
+      "Scrap Reason Tag"
+    ],
+    "name": "stock.scrap.reason.tag.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a538b39c6fe2a335fb7983fab5e8622c4c08b26371f044304dafc5899ea1f2e3",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_scrap_reason_tag_user"
+}

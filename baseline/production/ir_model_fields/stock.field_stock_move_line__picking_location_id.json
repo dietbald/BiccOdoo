@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Location",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "picking_location_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fe1961d2f98e886e80f903589a5e9aa6bdc4e5827bf1ab3d6ab9d2fe8129d74f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__picking_location_id"
+}

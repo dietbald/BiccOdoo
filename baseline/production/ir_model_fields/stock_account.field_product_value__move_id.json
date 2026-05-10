@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28759,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move",
+    "model_id": [
+      3526,
+      "Product Value"
+    ],
+    "name": "move_id",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "855f75471ecee4c7a224a0fd59818ed9fc02a18194330009020b27defe3ab9ca",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_value__move_id"
+}

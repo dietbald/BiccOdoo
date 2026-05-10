@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14413,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Microsoft Token Validity",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "microsoft_calendar_token_validity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "72467cb5101af7f0bf04dcc52a8de0f745019f57ff4f6c847ad3c483fd81ae4d",
+  "write_date": "",
+  "xml_id": "microsoft_account.field_res_users__microsoft_calendar_token_validity"
+}

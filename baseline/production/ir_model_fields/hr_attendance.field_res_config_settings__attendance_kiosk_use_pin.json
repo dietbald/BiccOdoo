@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13290,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee PIN Identification",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "attendance_kiosk_use_pin",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a8406ccf9501b3f9dd08a6f411cd9ded7a8f5ea537aa7343ccef449bbfe84c6c",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_res_config_settings__attendance_kiosk_use_pin"
+}

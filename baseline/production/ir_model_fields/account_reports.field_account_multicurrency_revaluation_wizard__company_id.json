@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6082,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      523,
+      "Multicurrency Revaluation Wizard"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bda3bde52aa61a71dd91dd6f4db900d724a6cfd678152dd7b4509e5e8ed33712",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_multicurrency_revaluation_wizard__company_id"
+}

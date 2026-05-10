@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10392,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "HR Responsible",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "hr_responsible_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "73b6dffe9439ec205f4168c7d2b43e82793c94cd484e127bef98a345369167b6",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__hr_responsible_id"
+}

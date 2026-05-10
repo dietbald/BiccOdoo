@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14356,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      902,
+      "Sample Mail Wizard"
+    ],
+    "name": "email_to",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "56e189aa3fb7d0ea0b7ff5f1c9665d9d6e41913ca9cd65d1c8ce06124a323d4d",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing_test__email_to"
+}

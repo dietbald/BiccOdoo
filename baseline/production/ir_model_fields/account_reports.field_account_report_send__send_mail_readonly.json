@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23528,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send Mail Readonly",
+    "model_id": [
+      1457,
+      "Account Report Send"
+    ],
+    "name": "send_mail_readonly",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6eed3664259800cb890ed00e2bbc46434033b9cbc72065009ba7c21d8e50ae71",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_send__send_mail_readonly"
+}

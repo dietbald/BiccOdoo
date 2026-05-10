@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2074,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Add Signature",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "email_add_signature",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "46b8f66df2d6eb84ab97454bb8dd0d29e7d481e5fe81d872c429ddf9c54de1ce",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__email_add_signature"
+}

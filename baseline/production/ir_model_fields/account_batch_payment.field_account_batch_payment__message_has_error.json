@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "54c9d5e08a3aca5b365b2b49597bb9481831e0a902606b24840f1b0a66994b76",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__message_has_error"
+}

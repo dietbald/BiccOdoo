@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3700,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Transactions",
+    "model_id": [
+      409,
+      "Payment Token"
+    ],
+    "name": "transaction_ids",
+    "relation": "payment.transaction",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "209e2824f3518987571548933676b38ee3d29c92af1f32f65ddfadc48ca9210a",
+  "write_date": "",
+  "xml_id": "payment.field_payment_token__transaction_ids"
+}

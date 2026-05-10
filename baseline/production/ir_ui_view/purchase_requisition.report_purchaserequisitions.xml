@@ -1,0 +1,7 @@
+<t t-name="purchase_requisition.report_purchaserequisitions">
+    <t t-call="web.html_container">
+        <t t-foreach="docs" t-as="o">
+            <t t-call="purchase_requisition.report_purchaserequisition_document" t-lang="o.vendor_id.lang"/>
+        </t>
+    </t>
+</t>

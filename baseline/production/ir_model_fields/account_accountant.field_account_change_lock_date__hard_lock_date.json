@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22753,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hard Lock",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "hard_lock_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "1047fbf9c4bcd6a6bdb8d168621694a24944c6fc3605847d31d27bf61d4dd6f8",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__hard_lock_date"
+}

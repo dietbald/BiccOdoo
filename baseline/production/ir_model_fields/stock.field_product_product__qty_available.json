@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11424,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity On Hand",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "qty_available",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "74332ec9876bd5de3f4d8e2b2f22d3f4ed81e76b528897db3041fc93ed3388db",
+  "write_date": "",
+  "xml_id": "stock.field_product_product__qty_available"
+}

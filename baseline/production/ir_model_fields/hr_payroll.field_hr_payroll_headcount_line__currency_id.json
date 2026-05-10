@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20663,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      1239,
+      "Headcount Line"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2cc0c052596947f22a1b609426938ba42c25a9549963c453477645cc80e8fcf7",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount_line__currency_id"
+}

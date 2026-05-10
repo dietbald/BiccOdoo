@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8288,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Campaign",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "campaign_id",
+    "relation": "utm.campaign",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e0c78e9564d9ad8a2d722f12715278e914bf4d034841f2873cc88d9307b00b96",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__campaign_id"
+}

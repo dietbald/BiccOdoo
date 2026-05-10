@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3695,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Method",
+    "model_id": [
+      409,
+      "Payment Token"
+    ],
+    "name": "payment_method_id",
+    "relation": "payment.method",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "10f38dc666b52494dbca6e6fce3621250cea99bcf9c6dd2419a00a83ea09af12",
+  "write_date": "",
+  "xml_id": "payment.field_payment_token__payment_method_id"
+}

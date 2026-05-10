@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11237,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2b0e13a376b38b676de3c618244f62aaf544955a07517057fdb5b0126fa2ea2b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__rating_ids"
+}

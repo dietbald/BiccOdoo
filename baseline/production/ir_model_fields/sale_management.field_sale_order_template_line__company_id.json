@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8496,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      625,
+      "Quotation Template Line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7fa24571a3ac3a71c240e7f5788a1dd7ce56005d1724e7792a3f53f49c0c3021",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template_line__company_id"
+}

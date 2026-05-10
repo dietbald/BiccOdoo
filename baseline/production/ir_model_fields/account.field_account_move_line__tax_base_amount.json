@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4454,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Base Amount",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "tax_base_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "0259aecf007fd9229bddc410dde97854d4a503dc8ad1fb3aa40580c0fbe7c72d",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__tax_base_amount"
+}

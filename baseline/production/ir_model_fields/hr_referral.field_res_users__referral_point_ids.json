@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25606,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Referral Point",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "referral_point_ids",
+    "relation": "hr.referral.points",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2cdce293bef3f6ea889e0faad548c7e3b7cde7f2782666ace6a5643322990fa2",
+  "write_date": "",
+  "xml_id": "hr_referral.field_res_users__referral_point_ids"
+}

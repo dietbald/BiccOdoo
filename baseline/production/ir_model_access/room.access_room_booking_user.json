@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1475,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      993,
+      "Room Booking"
+    ],
+    "name": "access.room.booking.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "272c0582c8966395a50070ef769a1fea0ab344c814563a158f3b51f60d580682",
+  "write_date": "2025-12-09 02:56:06",
+  "xml_id": "room.access_room_booking_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8723,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Permit Scheduled Activity",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "work_permit_scheduled_activity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5b0db0a55b096fe3179c883b43531f660aa5872e40cff72928e014e441ce4468",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__work_permit_scheduled_activity"
+}

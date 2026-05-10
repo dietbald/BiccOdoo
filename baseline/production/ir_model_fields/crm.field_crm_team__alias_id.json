@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7268,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "alias_id",
+    "relation": "mail.alias",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e5ffcb05a0ba0e5e5c31213bfa0d81cbd66eb04a70196d6609af9166206cced2",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team__alias_id"
+}

@@ -1,0 +1,20 @@
+<search>
+                <field name="product_id" string="Product" filter_domain="['|', ('product_id', 'ilike', self), ('lot_ids', 'ilike', self)]"/>
+                <field name="picking_id"/>
+                <field name="lot_ids" groups="stock.group_production_lot" widget="many2many_tags"/>
+                <field name="team_id"/>
+                <filter string="In Progress" name="progress" domain="[('quality_state', '=', 'none')]"/>
+                <filter string="Passed" name="passed" domain="[('quality_state', '=', 'pass')]"/>
+                <filter string="Failed" name="failed" domain="[('quality_state', '=', 'fail')]"/>
+                <separator/>
+                <filter string="Checked Date" name="control_date" date="control_date"/>
+                <group>
+                    <filter string="Status" name="state" context="{'group_by': 'quality_state'}"/>
+                    <filter string="Product" name="by_product" context="{'group_by': 'product_id'}"/>
+                    <filter string="Control Point" name="groupby_point_id" context="{'group_by': 'point_id'}"/>
+                    <filter string="Team" name="groupby_team_id" context="{'group_by': 'team_id'}"/>
+                </group>
+                <filter invisible="1" string="Late Activities" name="activities_overdue" domain="[('my_activity_date_deadline', '&lt;', 'today')]"/>
+                <filter invisible="1" string="Today Activities" name="activities_today" domain="[('my_activity_date_deadline', '=', 'today')]"/>
+                <filter invisible="1" string="Future Activities" name="activities_upcoming" domain="[('my_activity_date_deadline', '&gt;', 'today')]"/>
+            </search>

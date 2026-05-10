@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='job_ids']" position="after">
+                <field name="use_in_referral"/>
+                <field name="points" invisible="not use_in_referral"/>
+            </xpath>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14360,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      902,
+      "Sample Mail Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0d30ddcf93bc3b17eb430a64d0de45fa2598e2b29b25abf2bfb5421a0415f57a",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing_test__create_uid"
+}

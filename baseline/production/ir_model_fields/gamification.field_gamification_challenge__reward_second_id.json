@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14541,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "For 2nd user",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "reward_second_id",
+    "relation": "gamification.badge",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0d205768c91160af79d3973c2b0f775e7bc69fe0f8d23e22cab669825af9451b",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__reward_second_id"
+}

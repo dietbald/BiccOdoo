@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8006,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      609,
+      "Project Stage Delete Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "113e4af8c3bc9588b61c09bc97359598c0cd71885306d60cbd1d77dab3e596d6",
+  "write_date": "",
+  "xml_id": "project.field_project_project_stage_delete_wizard__write_uid"
+}

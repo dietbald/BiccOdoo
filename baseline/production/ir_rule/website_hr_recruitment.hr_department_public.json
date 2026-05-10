@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 264,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('jobs_ids.website_published', '=', True), ('child_ids', 'not in', [])]",
+    "groups": [
+      11
+    ],
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "Job department: Public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "e9648978a506d67b6d291a6a21f1309a95d7b75c6ff84b75185cb41b0d331467",
+  "write_date": "2023-12-01 01:27:03",
+  "xml_id": "website_hr_recruitment.hr_department_public"
+}

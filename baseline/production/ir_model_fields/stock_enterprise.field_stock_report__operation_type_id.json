@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation Type",
+    "model_id": [
+      779,
+      "Stock Report"
+    ],
+    "name": "operation_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "842547a2b0cbee58f95d74c870e6c9f56d61b5bfa1e138f9ac1c3177b8815ebf",
+  "write_date": "",
+  "xml_id": "stock_enterprise.field_stock_report__operation_type_id"
+}

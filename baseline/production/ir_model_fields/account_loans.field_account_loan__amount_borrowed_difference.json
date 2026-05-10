@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23895,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Borrowed Difference",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "amount_borrowed_difference",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "9c27d4590531fea366748e520d3fb0d99bd73ec55717d3336a7cdb86c76cdd8b",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__amount_borrowed_difference"
+}

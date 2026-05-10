@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6050,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax ID",
+    "model_id": [
+      520,
+      "Tax Unit"
+    ],
+    "name": "vat",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "fed34a22111bd219508e3eefe9400bd1a05820174317b617ce809e3f5f156a1a",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_tax_unit__vat"
+}

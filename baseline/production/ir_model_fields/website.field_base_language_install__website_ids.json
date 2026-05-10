@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Websites to translate",
+    "model_id": [
+      110,
+      "Install Language"
+    ],
+    "name": "website_ids",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e11dc87945b898ab86fd93b4248735a1d3db051ca02fee4ced6b7a26f1dc8d90",
+  "write_date": "",
+  "xml_id": "website.field_base_language_install__website_ids"
+}

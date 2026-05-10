@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22115,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Lock Date",
+    "model_id": [
+      1373,
+      "Account Lock Exception"
+    ],
+    "name": "sale_lock_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "053889b457e5858a58b7ff1f112d23cd180496324e39ca7a81a65e83734d86f2",
+  "write_date": "",
+  "xml_id": "account.field_account_lock_exception__sale_lock_date"
+}

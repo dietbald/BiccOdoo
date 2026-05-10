@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26064,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expense",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "expense_ids",
+    "relation": "hr.expense",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1d56fd0a87a1f1e71ebafb0a7384a2e3d6a4ac2e4f67bbbbf00a7339e8650684",
+  "write_date": "",
+  "xml_id": "hr_expense.field_account_bank_statement_line__expense_ids"
+}

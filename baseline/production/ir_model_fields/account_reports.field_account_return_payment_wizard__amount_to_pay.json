@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29033,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount To Pay",
+    "model_id": [
+      3601,
+      "Returns Generic Payment Wizard"
+    ],
+    "name": "amount_to_pay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2ca93a7ee4d2a1c1a922f4f6034e4032049710e19f43d62928cc675a3efabc7a",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_payment_wizard__amount_to_pay"
+}

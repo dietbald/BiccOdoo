@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4553,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Entry",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e466c4cd472042155181c2f3ed850006e4db03672c9ec17053426cd32d8e9d88",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__move_id"
+}

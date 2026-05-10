@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14999,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      926,
+      "Recycling Record"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cfe8beb666ee8c75d79e5c34f136a78f66093755ddae156fa5d216406124f569",
+  "write_date": "",
+  "xml_id": "data_recycle.field_data_recycle_record__company_id"
+}

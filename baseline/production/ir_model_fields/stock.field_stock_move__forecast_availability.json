@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10986,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Forecast Availability",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "forecast_availability",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "3c7fca75c914bfe4bb1cc13428bb40a56bfbe9308ed64161491b721f8658695d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__forecast_availability"
+}

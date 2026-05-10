@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5237,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      454,
+      "Validate Account Move"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5b649611282c6238c62ae87137db20b2d94d1e1ff6f289a1fd57b27d26fda956",
+  "write_date": "",
+  "xml_id": "account.field_validate_account_move__write_uid"
+}

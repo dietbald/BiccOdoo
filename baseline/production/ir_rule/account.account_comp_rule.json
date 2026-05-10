@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 79,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_ids', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "Account multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "47a181d22adceedfb4242e9a2d83edb7eed041275822279adc0d066b7ba9ad25",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_comp_rule"
+}

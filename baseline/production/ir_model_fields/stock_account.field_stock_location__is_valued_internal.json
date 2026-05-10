@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28789,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is valued inside the company",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "is_valued_internal",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "54f7acd3f69f083421027ff07fda0fdd933db5a3c7ec88bfb3dfa736de8e90f0",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_location__is_valued_internal"
+}

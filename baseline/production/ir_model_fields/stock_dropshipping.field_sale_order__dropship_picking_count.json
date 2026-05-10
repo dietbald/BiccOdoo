@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dropship Count",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "dropship_picking_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "b030cc16f67fc441269879f1b4880162ed65eb6f56fc471ef327671ad2e0f3fc",
+  "write_date": "",
+  "xml_id": "stock_dropshipping.field_sale_order__dropship_picking_count"
+}

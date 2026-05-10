@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1717,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Record Thread ID",
+    "model_id": [
+      147,
+      "Email Aliases"
+    ],
+    "name": "alias_parent_thread_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "6b17ec45b438ad47baf46e954a4c85eeea210d7f3ac3edc15e9b9045d0a53fad",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias__alias_parent_thread_id"
+}

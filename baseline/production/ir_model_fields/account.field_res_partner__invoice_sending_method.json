@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22017,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice sending",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "invoice_sending_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f88c4d0ad50a1829946be63c6cc508867a998aa8ff9cd8957ccb2aef41acdda6",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__invoice_sending_method"
+}

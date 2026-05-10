@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 728,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'contact_display': 'partner_address', 'search_default_backorder': 1}",
+    "domain": "",
+    "name": "Backorders",
+    "res_model": "stock.picking",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar"
+  },
+  "payload_sha256": "5ab52582c1dcb0cecd5c50d9ee6c67c52f24a8a6068c8c097c0dda2cae003334",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.action_picking_tree_backorder"
+}

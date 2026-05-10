@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Express Checkout Form Template",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "express_checkout_form_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d82c4830aa7b9b7f659444cab8caa8f8af8ddc1e172ca11e2f104ff4d1ed30ce",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__express_checkout_form_view_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6765,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "End Date",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "date_to",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "862ac1159ace9cd0e6f05f3df318ec0d1114e0bf2844b3dcebcc0fcea9c2919f",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__date_to"
+}

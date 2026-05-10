@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      816,
+      "Salary Structure"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "196e49d948323772929f6ed110fc5dd8efe5240acc304d2aa1479f4be67e7391",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_structure__country_id"
+}

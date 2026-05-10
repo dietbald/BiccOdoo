@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14401,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "93a27f8b8697973cd4e22b7b55136fac2a40c6af36622593bfa74cad13be6343",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__attachment_ids"
+}

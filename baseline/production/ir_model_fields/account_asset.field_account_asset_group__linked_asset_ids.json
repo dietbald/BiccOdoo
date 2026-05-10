@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23614,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Assets",
+    "model_id": [
+      1460,
+      "Asset Group"
+    ],
+    "name": "linked_asset_ids",
+    "relation": "account.asset",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9dc40e35d0dea4c88987caff9bb02b265ef53100a7152477980744b5b5f6064c",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset_group__linked_asset_ids"
+}

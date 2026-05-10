@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1181,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Self",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "self",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a64c9c48ae4853b31cb3c6e7590dc9c8a6c0fe8ff0bdbd6c21b6d860238298c",
+  "write_date": "",
+  "xml_id": "base.field_res_users__self"
+}

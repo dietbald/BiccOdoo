@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17986,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reached Visitors",
+    "model_id": [
+      1027,
+      "Social Live Post"
+    ],
+    "name": "reached_visitor_ids",
+    "relation": "website.visitor",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c80acc5677f131b4d5e5ff149a9784cb37ffe44b1a3e5490a2bf2a2122111db5",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_social_live_post__reached_visitor_ids"
+}

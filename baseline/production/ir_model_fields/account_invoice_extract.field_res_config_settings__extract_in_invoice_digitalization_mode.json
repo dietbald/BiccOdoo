@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5588,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor Bills",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "extract_in_invoice_digitalization_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "4db0a1a80f52072513e68a1404bcba6a87b1eec39f658376ec90d35c60daf21b",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_res_config_settings__extract_in_invoice_digitalization_mode"
+}

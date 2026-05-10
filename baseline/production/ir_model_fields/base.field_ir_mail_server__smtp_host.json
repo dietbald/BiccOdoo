@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 570,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMTP Server",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "smtp_host",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "fe6674a6b08148a74068e4cd7a093fa34a00256fecd78327f450381465ec001e",
+  "write_date": "",
+  "xml_id": "base.field_ir_mail_server__smtp_host"
+}

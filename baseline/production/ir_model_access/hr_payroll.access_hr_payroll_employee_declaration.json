@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1170,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      95,
+      "Payroll / Officer: Manage all contracts"
+    ],
+    "model_id": [
+      831,
+      "Payroll Employee Declaration"
+    ],
+    "name": "access_hr_payroll_employee_declaration",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2902202a4870cb013894b14adbca0bea553d2829c37f4097aaae630e8ea3ef00",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_payroll_employee_declaration"
+}

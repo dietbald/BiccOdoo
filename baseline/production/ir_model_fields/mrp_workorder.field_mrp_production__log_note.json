@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20695,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Log note",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "log_note",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "e6bc8942ec2ccc027237d20e0f33817400a335209abeeb9d759a4e5c90cb1baa",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_production__log_note"
+}

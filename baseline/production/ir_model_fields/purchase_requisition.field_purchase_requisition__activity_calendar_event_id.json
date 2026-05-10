@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12595,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cf341554463a7436f39f7fafc906055a1143604df6677e6bb2a5481a901515ef",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__activity_calendar_event_id"
+}

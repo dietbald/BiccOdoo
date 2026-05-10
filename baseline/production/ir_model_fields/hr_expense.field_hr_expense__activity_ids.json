@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8149337a2c852ac0c3df960b6699e4c16501576cbb7813819490f6e1d5356129",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__activity_ids"
+}

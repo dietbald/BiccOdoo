@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 586,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "16612aa4a405f4079a4c73677f03ec49f26017ada842526d9cebddbc38cf651c",
+  "write_date": "",
+  "xml_id": "base.field_ir_mail_server__write_uid"
+}

@@ -1,0 +1,19 @@
+<form string="Question Answer Form" create="False">
+                <sheet>
+                    <field name="question_type" invisible="1"/>
+                    <group>
+                        <group>
+                            <field name="scoring_type" invisible="1"/>
+                            <field name="question_id"/>
+                            <field name="is_correct" invisible="scoring_type == 'no_scoring'"/>
+                            <field name="answer_score" invisible="scoring_type == 'no_scoring' or question_type == 'matrix'"/>
+                            <field name="value_image"/>
+                        </group>
+                        <group>
+                            <field name="value"/>
+                            <field name="matrix_question_id" invisible="question_type != 'matrix'"/>
+                            <field name="sequence"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 365,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action",
+    "model_id": [
+      25,
+      "Configuration Wizards"
+    ],
+    "name": "action_id",
+    "relation": "ir.actions.actions",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "38a09093663243c17b5c822163dbab9cee692d2bd35f33f88fc8bbf5ef1f06ef",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_todo__action_id"
+}

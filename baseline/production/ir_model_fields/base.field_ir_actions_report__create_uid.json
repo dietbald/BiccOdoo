@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 403,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      27,
+      "Report Action"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d37e3e151d8e9832793ff313394c5251e3c8214177ca30573d2fd8ec208e636c",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_report__create_uid"
+}

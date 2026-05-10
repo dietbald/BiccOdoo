@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13978,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1d18012244894e427ec0a76ee9503df82ec9cd2f17bf138ab814c8cb04285c8e",
+  "write_date": "",
+  "xml_id": "planning.field_planning_analysis_report__user_id"
+}

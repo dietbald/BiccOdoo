@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22110,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lock Date Field",
+    "model_id": [
+      1373,
+      "Account Lock Exception"
+    ],
+    "name": "lock_date_field",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d86e931552a8a532a3b06fc5f203c58b2eee27c8b1051d15bcbf906b19c4b1bc",
+  "write_date": "",
+  "xml_id": "account.field_account_lock_exception__lock_date_field"
+}

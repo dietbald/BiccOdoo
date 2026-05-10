@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 127,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [
+      33
+    ],
+    "model_id": [
+      547,
+      "Spreadsheet Template"
+    ],
+    "name": "Spreadsheet_template: manage own",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "aafd51369ccf55769c6b808461399c8ebc2c6f85ed9b1ae17780ba2f3513ba78",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "documents_spreadsheet.spreadsheet_own_templates"
+}

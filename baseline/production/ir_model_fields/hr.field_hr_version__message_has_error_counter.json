@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2360d210454377463ea4619386d62d60c2dc438b57aeb005a8f05130291fbdd4",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__message_has_error_counter"
+}

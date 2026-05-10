@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9485,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Double validation amount",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "po_double_validation_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "4590c0f93400e3b9bf1333fe4f8b6f752820db5df0d4f838a3a1bbdc7d1c9df0",
+  "write_date": "",
+  "xml_id": "purchase.field_res_company__po_double_validation_amount"
+}

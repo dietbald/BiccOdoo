@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19458,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      1127,
+      "Device Log"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1313671c8880184a499f09c618159807dedd3d75b7885aa650288b50a5a42c22",
+  "write_date": "",
+  "xml_id": "base.field_res_device_log__user_id"
+}

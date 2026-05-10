@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6863,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available/Busy",
+    "model_id": [
+      563,
+      "Calendar Attendee Information"
+    ],
+    "name": "availability",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ffffcf7f30675b5a8ced901d183f12030981dfb7a8be55974c29ffc7015019ba",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_attendee__availability"
+}

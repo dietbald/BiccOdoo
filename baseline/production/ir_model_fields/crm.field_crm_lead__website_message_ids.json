@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7177,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6e6b0632fca7b9d5f0aa92eaa0b6bf7991c5774f8b306d3fcd14616da36dbd22",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__website_message_ids"
+}

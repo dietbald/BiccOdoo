@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16355,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Manufacturing Orders Waiting",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "count_mo_waiting",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "fc549d0a3fb5de9a512473d91a65158c74ee23784414ba6e03e81f03491b01c4",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_picking_type__count_mo_waiting"
+}

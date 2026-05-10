@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2065,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      528,
+      "Account Fiscal Category"
+    ],
+    "name": "access.account.fiscal.category",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4ac15e7681cbbea2d4681fdbfcf74c857a68cb5f776fb347e9afbbb4a08494f6",
+  "write_date": "2025-12-09 02:59:45",
+  "xml_id": "account_fiscal_categories.access_account_fiscal_category"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29805,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Original Base Amount",
+    "model_id": [
+      3765,
+      "Payment register withholding line"
+    ],
+    "name": "original_base_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "c88421c4e9b405c3fe24be6e4f232593d8d71b1d198a8a5e8199b69a177c53a1",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment_register_withholding_line__original_base_amount"
+}

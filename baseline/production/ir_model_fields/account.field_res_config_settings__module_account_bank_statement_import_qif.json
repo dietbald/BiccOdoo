@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5025,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Import .qif files",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_account_bank_statement_import_qif",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b38f54f656045fe4edc24efec33c4852be4cf21f0cff60d9acf04ae99d484c4d",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__module_account_bank_statement_import_qif"
+}

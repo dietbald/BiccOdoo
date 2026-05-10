@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1721,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias Status",
+    "model_id": [
+      147,
+      "Email Aliases"
+    ],
+    "name": "alias_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "144aa646b7bda06c9381ab88fa1e2624984d6ee46e01a4f5199dde96f48aa76d",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias__alias_status"
+}

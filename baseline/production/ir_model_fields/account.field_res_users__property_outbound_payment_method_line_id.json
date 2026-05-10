@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22355,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Property Outbound Payment Method Line",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "property_outbound_payment_method_line_id",
+    "relation": "account.payment.method.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ef98f866e10f8b5eea40444e8cda266c05012a7467d34dad1326340ad9b31bfd",
+  "write_date": "",
+  "xml_id": "account.field_res_users__property_outbound_payment_method_line_id"
+}

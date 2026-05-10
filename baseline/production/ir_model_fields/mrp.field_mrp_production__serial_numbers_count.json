@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28656,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count of serial numbers",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "serial_numbers_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3aea98ca9dffd45a66ce04147f865189fa411ad7864434a386efb427269da2e2",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__serial_numbers_count"
+}

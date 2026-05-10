@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Location",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "available_location_ids",
+    "relation": "lunch.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a74f0838c3a36d93660fb3af1490202ee2a254dbdc23f0a73d672952161903af",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__available_location_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17513,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "stage_id",
+    "relation": "mrp.eco.stage",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0a16299224aff16b4fb6466b1f990ac882ec840ba8a41a177753ec93c042a2c2",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__stage_id"
+}

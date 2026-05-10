@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15388,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Booking Product",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1b8fba9d91e8d0b2947720fe2bdf09deb239f4e017d7a49b157577591c2cf990",
+  "write_date": "",
+  "xml_id": "appointment_account_payment.field_appointment_type__product_id"
+}

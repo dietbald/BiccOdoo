@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1850,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "notification_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b1ab8ca379ac196bfaeb9251e501f476c098b16a574f69da5b1ef82b37f7b000",
+  "write_date": "",
+  "xml_id": "mail.field_mail_notification__notification_status"
+}

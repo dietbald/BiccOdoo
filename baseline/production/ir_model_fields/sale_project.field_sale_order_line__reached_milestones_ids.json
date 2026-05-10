@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8584,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reached Milestones",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "reached_milestones_ids",
+    "relation": "project.milestone",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "3601c6db3d2306dce5d7fb920d44bfe1a7e20198467bd0d7ad49669c7824d1fc",
+  "write_date": "",
+  "xml_id": "sale_project.field_sale_order_line__reached_milestones_ids"
+}

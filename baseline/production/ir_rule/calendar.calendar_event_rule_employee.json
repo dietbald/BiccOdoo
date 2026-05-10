@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 135,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "All Calendar Event for employees",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9658191d77f5b01310aeb131aa30c53ab1eaf5b920dda1a8b8af168f0ef9b872",
+  "write_date": "2023-11-30 04:45:30",
+  "xml_id": "calendar.calendar_event_rule_employee"
+}

@@ -1,0 +1,4 @@
+<pivot string="Planning Analysis" sample="1" js_class="planning_slot_analysis_pivot">
+                <field name="start_datetime" interval="month" type="row"/>
+                <field name="allocated_hours" type="measure" widget="float_time"/>
+            </pivot>

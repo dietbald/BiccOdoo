@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 22,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      105,
+      "User Settings"
+    ],
+    "name": "res.users.settings: access their own entries",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "754d3788b97e88bda209adcf6873ff56094cf0e9090158959d31405f7a3e30c5",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.res_users_settings_rule_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1077,
+      "Lunch Product Category"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6796dd838611ee5112e712ff596ffc9076d5b4548174dee7f6ce5437e124fd47",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_product_category__create_uid"
+}

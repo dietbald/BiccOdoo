@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17129,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "330c8a10960a189991c72f6e6523e133af91350b609ad457ef64b1c2da79dcb0",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__message_has_error_counter"
+}

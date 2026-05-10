@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 692,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('approval_request_id.request_status','=','cancel')]",
+    "groups": [
+      91
+    ],
+    "model_id": [
+      784,
+      "Product Line"
+    ],
+    "name": "Approval Product Line: user unlink",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": false
+  },
+  "payload_sha256": "89dcec22862b318a62136f21409960349a5369a182469c56300c1492f702a46d",
+  "write_date": "2025-03-24 00:43:42",
+  "xml_id": "approvals.approval_product_line_user_unlink"
+}

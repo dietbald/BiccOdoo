@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27955,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Number",
+    "model_id": [
+      3304,
+      "Bank Account Allocation Line (Wizard)"
+    ],
+    "name": "acc_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d1ab9ffa86667be867e988a9c074d71ec43e17893893e6537aab097194908441",
+  "write_date": "",
+  "xml_id": "hr.field_hr_bank_account_allocation_wizard_line__acc_number"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16180,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Locked",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "is_locked",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f669c7be887bb3c39a372812653081ee321ff74369353b0083e52e25782feafd",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__is_locked"
+}

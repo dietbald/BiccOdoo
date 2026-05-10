@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2299,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "11d4bbb0792dbcca41822518ff5c81585dcde0289562eecabf3ca818f4b9a3ce",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__activity_type_id"
+}

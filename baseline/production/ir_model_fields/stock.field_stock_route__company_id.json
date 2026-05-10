@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10914,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9aaa81271c27c87527999578b313fbfdca99ffefbc4f1f86b3c8b47634a8c8bb",
+  "write_date": "",
+  "xml_id": "stock.field_stock_route__company_id"
+}

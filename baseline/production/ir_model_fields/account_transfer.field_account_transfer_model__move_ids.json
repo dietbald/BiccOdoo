@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5854,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Generated Moves",
+    "model_id": [
+      491,
+      "Account Transfer Model"
+    ],
+    "name": "move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "429c54604dede583a954c2287dc895bfbc360c6b07a31aeb775014e2b05e4124",
+  "write_date": "",
+  "xml_id": "account_transfer.field_account_transfer_model__move_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18358,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      1044,
+      "Wizard for Quality Check Pop Up"
+    ],
+    "name": "uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f2fa2cfeb91e8935350d28c94ce6a7d6d327bdead76c1db75f6f265c6300c1a4",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check_wizard__uom_id"
+}

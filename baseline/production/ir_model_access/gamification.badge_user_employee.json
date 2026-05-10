@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1274,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      910,
+      "Gamification User Badge"
+    ],
+    "name": "Badge-user Employee",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "379fc92fd6df823d4d69dad90036bc5d6a438cc194e4416f2542d32e55ecf165",
+  "write_date": "2025-12-09 02:55:55",
+  "xml_id": "gamification.badge_user_employee"
+}

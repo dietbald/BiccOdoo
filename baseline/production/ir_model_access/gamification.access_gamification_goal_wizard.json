@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1284,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      917,
+      "Gamification Goal Wizard"
+    ],
+    "name": "access.gamification.goal.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "3fe9662454cbc6023c13010fe4d59b7e8c29606f500ec128410700207e43bc08",
+  "write_date": "2025-12-09 02:55:55",
+  "xml_id": "gamification.access_gamification_goal_wizard"
+}

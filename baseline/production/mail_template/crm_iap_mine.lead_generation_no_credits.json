@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 19,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n    <p>Dear,</p>\n    <p>There are no more credits on your IAP Lead Generation account.<br>\n    You can charge your IAP Lead Generation account in the settings of the CRM app.<br></p>\n    <p>Best regards,</p>\n    <p>Odoo S.A.</p>\n</div>",
+    "email_from": "iap@odoo.com",
+    "email_to": "iap@odoo.com",
+    "lang": false,
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "IAP Lead Generation Notification",
+    "subject": "IAP Lead Generation Notification"
+  },
+  "payload_sha256": "cc52fd451d591d2a4d2e75e4d8ea57de6ab5a7a2b9220edb32c92102b70f25e0",
+  "write_date": "2023-11-30 04:45:37",
+  "xml_id": "crm_iap_mine.lead_generation_no_credits"
+}

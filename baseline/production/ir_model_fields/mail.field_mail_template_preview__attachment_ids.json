@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2588,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      216,
+      "Email Template Preview"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "717d00f6db2f52355759c0be6baa69aaea689bc6bd3498d0ff2e6d28b8f8c76f",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template_preview__attachment_ids"
+}

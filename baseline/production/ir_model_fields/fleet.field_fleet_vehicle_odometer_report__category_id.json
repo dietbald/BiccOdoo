@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27169,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Category",
+    "model_id": [
+      3034,
+      "Fleet Odometer Analysis Report"
+    ],
+    "name": "category_id",
+    "relation": "fleet.vehicle.model.category",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a3d1af2c3f37f1bad62393875a935c6ea67b46fec0b091aa8579c4ee7a5ce9b1",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_odometer_report__category_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11484,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reserve Packagings",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "packaging_reserve_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8be406c9443dacd2e8ebb13aea5d868325e4fe730c7b60c949e2d4b25effa59e",
+  "write_date": "",
+  "xml_id": "stock.field_product_category__packaging_reserve_method"
+}

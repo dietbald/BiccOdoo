@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14978,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Field",
+    "model_id": [
+      925,
+      "Recycling Model"
+    ],
+    "name": "time_field_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bebefd4a2f16b9f0e2dd2d211ae2f563d24ae11a74b3adc0b943a2bd58f3805f",
+  "write_date": "",
+  "xml_id": "data_recycle.field_data_recycle_model__time_field_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8983,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      213,
+      "Activity schedule plan Wizard"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2c1a2d50be069842f787d5bffb54b89f80d7c5325f711d82c8bed24fd1d230f0",
+  "write_date": "",
+  "xml_id": "hr.field_mail_activity_schedule__department_id"
+}

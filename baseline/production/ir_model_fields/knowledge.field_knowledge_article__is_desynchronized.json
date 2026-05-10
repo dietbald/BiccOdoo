@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12301,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Desyncronized with parents",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "is_desynchronized",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f61720332dd9964dab02113525bc83a56c97168d2167e7e905bdadc5d34c9d4e",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__is_desynchronized"
+}

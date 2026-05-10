@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e4261f04c7feb6eeda3a9291597e0c70a755d1d421a784e0d8de234aa9449d80",
+  "write_date": "",
+  "xml_id": "survey.field_survey_user_input__message_follower_ids"
+}

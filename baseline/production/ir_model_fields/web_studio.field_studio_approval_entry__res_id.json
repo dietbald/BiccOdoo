@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13770,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Record ID",
+    "model_id": [
+      876,
+      "Studio Approval Entry"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "5d1e8f40753e8f79901b411c38550cdeebdfd2e0eb4de6db5d15d06751ef1a16",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_entry__res_id"
+}

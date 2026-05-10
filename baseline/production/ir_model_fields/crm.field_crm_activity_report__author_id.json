@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7363,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assigned To",
+    "model_id": [
+      582,
+      "CRM Activity Analysis"
+    ],
+    "name": "author_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b119484cdf6f943d6b26b0d892d550bf780659f3a0c26d3c69828837ff9e638c",
+  "write_date": "",
+  "xml_id": "crm.field_crm_activity_report__author_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3753,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authorized Amount",
+    "model_id": [
+      411,
+      "Payment Capture Wizard"
+    ],
+    "name": "authorized_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "862e67de2ba6cc6fb30e891da1f60c420fdd67ca2c128f96aa187b9b6964bcba",
+  "write_date": "",
+  "xml_id": "payment.field_payment_capture_wizard__authorized_amount"
+}

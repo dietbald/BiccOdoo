@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13036,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "79ac01716ee491053ee95a9cce421b5bfb1409b30348bfb373d65306db47730a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__write_uid"
+}

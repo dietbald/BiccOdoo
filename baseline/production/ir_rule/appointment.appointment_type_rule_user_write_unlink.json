@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 430,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [
+      112
+    ],
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "appointment.type: apt user rule (write/unlink = own only)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b2dedb40e6ce45d480611f94d029a63f4bad83fd433a9cf1f0bfda521384c6ba",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_type_rule_user_write_unlink"
+}

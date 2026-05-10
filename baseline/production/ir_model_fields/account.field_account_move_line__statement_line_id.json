@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4448,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Originator Statement Line",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "statement_line_id",
+    "relation": "account.bank.statement.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aba81de073203bcdc444189b48f898d953451aaec4373cd989710bfc5e703874",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__statement_line_id"
+}

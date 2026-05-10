@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7087,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8400a08719beb7b052390129b976aa1afee3f8762a033ac2594983f3f4484c8d",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team__message_ids"
+}

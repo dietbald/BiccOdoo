@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27367,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Active Provider",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "active_provider_id",
+    "relation": "payment.provider",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "92c9481a926bb655ed6a1c6c64be4109d107b0700c23e81a8b2582b850fddda1",
+  "write_date": "",
+  "xml_id": "payment.field_res_config_settings__active_provider_id"
+}

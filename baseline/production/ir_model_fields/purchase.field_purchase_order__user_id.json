@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9417,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Buyer",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6af4f0160711e3e110ed314c361990128a575c2ce0cca18630a6aca31d5c3ec1",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__user_id"
+}

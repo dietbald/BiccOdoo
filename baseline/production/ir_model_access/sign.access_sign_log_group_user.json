@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 918,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      72,
+      "Sign / User: Own Templates"
+    ],
+    "model_id": [
+      715,
+      "Sign requests access history"
+    ],
+    "name": "sign.log.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "15574ed72d76f5cf5593b873c9964976cfa344cfc1434d1a8db2ea7a5d6b06e2",
+  "write_date": "2025-12-09 02:56:25",
+  "xml_id": "sign.access_sign_log_group_user"
+}

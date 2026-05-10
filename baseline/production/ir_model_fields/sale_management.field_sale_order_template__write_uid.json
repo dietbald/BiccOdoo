@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8492,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      624,
+      "Quotation Template"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bef4eb7034a5d635a5c43b48eda672c33c2fea69c78ed1cc32757662971b7927",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template__write_uid"
+}

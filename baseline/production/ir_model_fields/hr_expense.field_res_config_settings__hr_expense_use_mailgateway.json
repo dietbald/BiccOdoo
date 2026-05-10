@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9250,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Let your employees record expenses by email",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "hr_expense_use_mailgateway",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6225602999c3d24034b32ec541882f04a921a6a23a94cda1562405515f990dda",
+  "write_date": "",
+  "xml_id": "hr_expense.field_res_config_settings__hr_expense_use_mailgateway"
+}

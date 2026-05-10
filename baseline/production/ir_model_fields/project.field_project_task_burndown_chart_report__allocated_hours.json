@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7987,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocated Time",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "allocated_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "70f27f02eea95fb3fbe2f4ecf57867b26dd0e45ecf23b45924e2993d67acabde",
+  "write_date": "",
+  "xml_id": "project.field_project_task_burndown_chart_report__allocated_hours"
+}

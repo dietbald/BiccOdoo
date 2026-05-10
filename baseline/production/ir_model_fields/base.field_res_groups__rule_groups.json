@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1072,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rules",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "rule_groups",
+    "relation": "ir.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "162975de81ce2010d024f18a2fa847a61e422a7d27005e0c4363540276adb697",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__rule_groups"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14070,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Active mailing using this mail server",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "active_mailing_ids",
+    "relation": "mailing.mailing",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e68a8624efe8ec21064295556df2d37137fee99afe39455545d0b2e018c2ea34",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_ir_mail_server__active_mailing_ids"
+}

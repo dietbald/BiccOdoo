@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29267,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Me",
+    "model_id": [
+      3651,
+      "planning calendar resource"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9662b7badcbba17d36983815be01a768421df8966b0e3d49c7db9b3f3c4867b6",
+  "write_date": "",
+  "xml_id": "planning.field_planning_calendar_resource__user_id"
+}

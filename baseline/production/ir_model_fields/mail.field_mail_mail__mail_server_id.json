@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2142,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outgoing mail server",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "mail_server_id",
+    "relation": "ir.mail_server",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "003d51f96dce22b7988d9042b8340c25f0339067bfd828e18c45bc745ede1894",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__mail_server_id"
+}

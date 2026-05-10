@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3010,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendors",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "seller_ids",
+    "relation": "product.supplierinfo",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "700c30ed5fa2095311d35c26af1bc4fc15f2ebd1fca1fa0abf3d99a8ce7c6411",
+  "write_date": "",
+  "xml_id": "product.field_product_product__seller_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24209,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1508,
+      "Slide Question's Answer"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9ee1d54c7c9cfdd849d42af634c7b739cc1f6e2887a1e3442bc434b3c217ed73",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_answer__write_uid"
+}

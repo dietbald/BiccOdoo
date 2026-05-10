@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26736,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2777,
+      "Server Action History"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bd05724d19d8f564551770c1737d1cfb4c2d74922ed55296e515b9e86a8a4627",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server_history__write_uid"
+}

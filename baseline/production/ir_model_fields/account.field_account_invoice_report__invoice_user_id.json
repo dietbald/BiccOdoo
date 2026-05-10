@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5436,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salesperson",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "invoice_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3fb82b49d8c9a68b434a9be3d5fc5ae947e61ef8856dc3ae6dcef65f41bd9a11",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__invoice_user_id"
+}

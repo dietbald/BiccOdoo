@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Signer",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "signing_user",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d2bcc63b3d7a3828b145547e0f2a0e942abc02baf2338ce93f666df7daa7a95c",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_bank_statement_line__signing_user"
+}

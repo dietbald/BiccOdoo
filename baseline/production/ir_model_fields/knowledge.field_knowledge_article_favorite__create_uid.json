@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12227,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      788,
+      "Favorite Article"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "97658a1e673261105549447df563155e23940fc252fafede2497e0a4481be6fa",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_favorite__create_uid"
+}

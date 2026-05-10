@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15287,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cancellation Email",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "canceled_mail_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d56915f8078e11069a7b33a803fce9ddb3490edb2187e2d84991ac3b8414e019",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__canceled_mail_template_id"
+}

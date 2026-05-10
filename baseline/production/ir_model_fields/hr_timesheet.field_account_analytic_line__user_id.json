@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2695,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "85c487c857cb1759a8291f588f1159d40b514e1411c26d14be9daa586ab9af49",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line__user_id"
+}

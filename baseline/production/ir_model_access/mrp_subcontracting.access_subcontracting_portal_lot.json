@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1510,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "subcontracting.portal.lot",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ce36d0244052cb8f378deaaab0d81cac128f181ef524f9ce404f7b5d9cd54e3d",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.access_subcontracting_portal_lot"
+}

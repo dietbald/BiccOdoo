@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 720,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "Sales Order multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c9437ab4e3e7580aadae4dbe56cb4eb8a5ce05bf20db66381caeb3c66a94a3f7",
+  "write_date": "2025-11-25 00:45:31",
+  "xml_id": "sale_renting.rental_report_comp_rule"
+}

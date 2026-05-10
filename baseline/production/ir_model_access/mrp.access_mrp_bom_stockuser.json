@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1417,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "mrp.bom",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a59a4feb68628298a4fe3b6b3e12c8438bb295effe731e3f4de4f750095c6b02",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_bom_stockuser"
+}

@@ -1,0 +1,14 @@
+<data inherit_id="website.new_page_template_about_s_numbers" primary="True">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pt0 o_cc3 o_colored_level" remove="o_cc1 pt80" separator=" "/>
+    </xpath>
+    <xpath expr="//span[hasclass('h5-fs')]" position="replace" mode="inner">
+        Clients
+    </xpath>
+    <xpath expr="(//span[hasclass('h5-fs')])[2]" position="replace" mode="inner">
+        Growth Rate
+    </xpath>
+    <xpath expr="(//span[hasclass('h5-fs')])[3]" position="replace" mode="inner">
+        Websites
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.new_page_template_about_personal_s_numbers</attribute></xpath></data>

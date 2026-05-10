@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27003,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "be3cd29d61b646491f502e8e113e3804ea1cdf391b2b997f7ca3fb5ad9ee6392",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__message_needaction_counter"
+}

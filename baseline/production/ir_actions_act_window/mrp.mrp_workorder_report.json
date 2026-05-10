@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1065,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_workcenter': 1,\n                                   'search_default_ready': True,\n                                   'search_default_blocked': True,\n                                   'search_default_progress': True,}",
+    "domain": "[]",
+    "name": "Work Orders Analysis",
+    "res_model": "mrp.workorder",
+    "target": "current",
+    "view_mode": "graph,pivot,list,form,gantt"
+  },
+  "payload_sha256": "9f3a2fe8480b859444d0fa73911b47cfa87e7794b65b3f66deea05b9e12c3be2",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp.mrp_workorder_report"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8442,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quotation Customer",
+    "model_id": [
+      622,
+      "Create new or use existing Customer on new Quotation"
+    ],
+    "name": "action",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f3d729d64dfbe6327fd314308259eef258226d164ba59c649c15b7cee4423e69",
+  "write_date": "",
+  "xml_id": "sale_crm.field_crm_quotation_partner__action"
+}

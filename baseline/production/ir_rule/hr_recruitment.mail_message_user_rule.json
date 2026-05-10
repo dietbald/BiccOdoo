@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 249,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      62
+    ],
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "User: All Chatter",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b168f637157e25c8d736225f80e26260993bc3c2af63a1adbd81e090045d2721",
+  "write_date": "2023-12-01 01:26:19",
+  "xml_id": "hr_recruitment.mail_message_user_rule"
+}

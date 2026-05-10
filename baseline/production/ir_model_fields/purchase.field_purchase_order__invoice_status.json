@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9404,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Billing Status",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "invoice_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d802d733de54f15fcb7179aed019b708521751c1dd3e7e2277156d3e4e1c6301",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__invoice_status"
+}

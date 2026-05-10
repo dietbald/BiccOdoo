@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 39,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "discuss.channel: admin full access",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1b19c4e2e5872a7616ca4247b5543115769e57eec5cc0a7e5b143b59a82db256",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.ir_rule_discuss_channel_group_system"
+}

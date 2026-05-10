@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22020,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Invoice Edi Format",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "display_invoice_edi_format",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4fda2bf6d3a206a32ece38f4323cebb017688baaf9ec2ceec7967375d456f380",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__display_invoice_edi_format"
+}

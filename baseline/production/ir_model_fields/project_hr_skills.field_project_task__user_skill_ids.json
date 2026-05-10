@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20948,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skills",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "user_skill_ids",
+    "relation": "hr.employee.skill",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bfeef84ef4e949a7348c823138d63da49426a2e222fd01ca030ce07366feef22",
+  "write_date": "",
+  "xml_id": "project_hr_skills.field_project_task__user_skill_ids"
+}

@@ -1,0 +1,5 @@
+<xpath expr="//ul[@id='o_utm_actions']">
+                <a name="action_redirect_to_push_notifications" type="object" t-attf-class="pe-2 #{record.social_push_notifications_count.raw_value === 0 ? 'text-muted' : ''}" groups="social.group_social_user">
+                    <field name="social_push_notifications_count"/> Notifications
+                </a>
+            </xpath>

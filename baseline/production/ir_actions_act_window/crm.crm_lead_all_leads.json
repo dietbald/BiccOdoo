@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 402,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                    'default_type':'lead',\n                    'search_default_type': 'lead',\n                    'search_default_to_process':1,\n                }\n            ",
+    "domain": "['|', ('type','=','lead'), ('type','=',False)]",
+    "name": "Leads",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "list,kanban,graph,pivot,calendar,form,activity"
+  },
+  "payload_sha256": "efe27b565ad288a364dccbb59ddd7391a2ec3ef622bffb27fa31482ca702702e",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_lead_all_leads"
+}

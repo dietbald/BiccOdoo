@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17308,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      1012,
+      "Vehicle Disallowed Expenses Rate"
+    ],
+    "name": "date_from",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "2547a075a4d922f52bd2a26028f2c518e5924a5c317d21b431e38af6de160fd5",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories_fleet.field_fleet_disallowed_expenses_rate__date_from"
+}

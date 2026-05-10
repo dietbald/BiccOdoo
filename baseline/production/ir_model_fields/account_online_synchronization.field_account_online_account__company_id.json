@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "90bb2cc1682a67480680b650e8be6b4793f53992e8243cbfb5dc7c5b73d5464f",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_account__company_id"
+}

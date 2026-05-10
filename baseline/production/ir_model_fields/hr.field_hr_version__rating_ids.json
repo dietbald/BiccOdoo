@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10366,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "69cdb2d22919f82650b4a80fde0b77d25fdf2e390deb112c3319d9a1ac552758",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__rating_ids"
+}

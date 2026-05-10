@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1318,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_employee_bank_account': True, 'from_employee_bank_account': True}",
+    "domain": false,
+    "name": "Bank Accounts",
+    "res_model": "res.partner.bank",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "5808d4b872a9cfee9adf373aa858fe73c220a472180414c3c5643621409b1553",
+  "write_date": "2025-12-09 03:00:24",
+  "xml_id": "hr_payroll_account.action_res_partner_bank_account_form"
+}

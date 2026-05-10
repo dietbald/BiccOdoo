@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9096,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      647,
+      "Print Resume"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "101f9d5764b94df6f3ac8231a81f5523eb1085de553c407f5c415ad776290667",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_employee_cv_wizard__create_uid"
+}

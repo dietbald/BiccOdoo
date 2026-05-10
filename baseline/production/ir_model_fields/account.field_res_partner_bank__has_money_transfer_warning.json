@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3914,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Money Transfer Warning",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "has_money_transfer_warning",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "da84703b2840f2d403fae32dcd792d87e5cbc2728b4637d46a11ae22566d2f94",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__has_money_transfer_warning"
+}

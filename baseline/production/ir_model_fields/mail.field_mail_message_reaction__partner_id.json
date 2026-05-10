@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1997,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reacting Partner",
+    "model_id": [
+      171,
+      "Message Reaction"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "19c3f7b070f2bdcc54b2f19a033243434b4ba498971325e2b65d327803a48333",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_reaction__partner_id"
+}

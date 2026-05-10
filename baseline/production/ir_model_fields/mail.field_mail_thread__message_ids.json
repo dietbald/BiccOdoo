@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1777,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      155,
+      "Email Thread"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2bb028c2ad0b8e7317be136b1fe6f55e8da37ccd3fb0d05ebf2fb9a1d5bbc4f3",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread__message_ids"
+}

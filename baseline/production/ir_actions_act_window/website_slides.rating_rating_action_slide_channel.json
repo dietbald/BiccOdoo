@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1493,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('consumed', '=', True), ('res_model', '=', 'slide.channel')]",
+    "name": "Reviews",
+    "res_model": "rating.rating",
+    "target": "current",
+    "view_mode": "kanban,list,graph,pivot,form"
+  },
+  "payload_sha256": "a4c054b7a1a103c245b6307ad2f5df90c66eba88b776da792655dcb37a1d57f6",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.rating_rating_action_slide_channel"
+}

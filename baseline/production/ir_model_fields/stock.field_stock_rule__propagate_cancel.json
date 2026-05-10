@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11067,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cancel Next Move",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "propagate_cancel",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ce43e68687fb4e2d0a53ae87b9090f21b61f8f0990789001dd34750fe45b7fc4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__propagate_cancel"
+}

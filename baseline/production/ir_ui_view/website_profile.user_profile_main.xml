@@ -1,0 +1,9 @@
+<t name="Profile Page" t-name="website_profile.user_profile_main">
+        <t t-set="body_classname" t-value="'o_wprofile_body'"/>
+        <t t-call="website.layout">
+            <div id="wrap" class="o_wprofile_wrap mt-0">
+                <t t-call="website_profile.user_profile_header"/>
+                <t t-call="website_profile.user_profile_content"/>
+            </div>
+        </t>
+    </t>

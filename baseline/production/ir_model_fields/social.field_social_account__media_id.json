@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17644,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Social Media",
+    "model_id": [
+      1024,
+      "Social Account"
+    ],
+    "name": "media_id",
+    "relation": "social.media",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9b2d97eb5d953256507d92088c852cfc04a7cc2b2771e59f712406df3a3e9a96",
+  "write_date": "",
+  "xml_id": "social.field_social_account__media_id"
+}

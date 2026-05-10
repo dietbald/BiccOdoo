@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1207,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      879,
+      "Planning Recurrence"
+    ],
+    "name": "planning.recurrency.employee",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "813f3ce31be24cffbe8ba8734667ea14a3c28c9f9f0d1cb1d6bbaf0a363629f1",
+  "write_date": "2025-12-09 02:59:29",
+  "xml_id": "planning.access_planning_recurrency_employee"
+}

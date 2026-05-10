@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8282,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pricelist",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "pricelist_id",
+    "relation": "product.pricelist",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "981d904ecd1f2c65a0ff6261cb6945a60b3301a9bf32bd22c0082c0c06ef693e",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__pricelist_id"
+}

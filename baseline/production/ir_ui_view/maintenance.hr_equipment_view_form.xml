@@ -1,0 +1,73 @@
+<form string="Equipment">
+                <sheet>
+                    <field name="company_id" invisible="1"/>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="1156" type="action" class="oe_stat_button" context="{'search_default_active': True, 'default_company_id': company_id, 'default_maintenance_team_id': maintenance_team_id}" icon="fa-wrench">
+                            <field string="Maintenance" name="maintenance_open_count" widget="statinfo"/>
+                        </button>
+                    </div>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1><field name="name" string="Name" placeholder="e.g. LED Monitor"/></h1>
+                    </div>
+                    <group name="service_info_group">
+                        <group>
+                            <field name="active" invisible="1"/>
+                            <field name="category_id" options="{&quot;no_open&quot;: True}" context="{'default_company_id':company_id}"/>
+                            <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}" placeholder="Visible to all"/>
+                            <field name="owner_user_id" string="Owner"/>
+                        </group>
+                        <group>
+                            <field name="maintenance_team_id" context="{'default_company_id':company_id}"/>
+                            <field name="technician_user_id" domain="[('share', '=', False)]"/>
+                            <field name="assign_date" groups="base.group_no_one"/>
+                            <field name="scrap_date" groups="base.group_no_one"/>
+                        </group>
+                    </group>
+                    <field name="equipment_properties" nolabel="1" columns="2"/>
+                    <notebook>
+                        <page string="Description" name="description">
+                            <field name="note"/>
+                        </page>
+                        <page string="Product Information" name="product_information">
+                            <group>
+                                <group>
+                                    <field name="partner_id"/>
+                                    <field name="partner_ref"/>
+                                    <field name="model"/>
+                                    <field name="serial_no"/>
+                                </group><group>
+                                    <field name="effective_date"/>
+                                    <field name="cost" groups="maintenance.group_equipment_manager"/>
+                                    <field name="warranty_date"/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Maintenance" name="maintenance">
+                            <group>
+                                <group name="statistics">
+                                    <label for="expected_mtbf" string="Expected Mean Time Between Failure"/>
+                                    <div class="o_row">
+                                        <field name="expected_mtbf"/> days
+                                    </div>
+                                    <label for="mtbf" string="Mean Time Between Failure"/>
+                                    <div class="o_row">
+                                        <field name="mtbf"/> days
+                                    </div>
+                                    <label for="estimated_next_failure" string="Estimated Next Failure"/>
+                                    <div class="o_row">
+                                        <field name="estimated_next_failure"/>
+                                    </div>
+                                    <field name="latest_failure_date" string="Latest Failure"/>
+                                    <label for="mttr" string="Mean Time To Repair"/>
+                                    <div class="o_row">
+                                        <field name="mttr"/> days
+                                    </div>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>

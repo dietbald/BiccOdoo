@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14473,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "851836603dd6c1e73ea3c107e0005294a856b2525cf2ea2ea78e866df0fb1987",
+  "write_date": "",
+  "xml_id": "portal.field_gamification_badge__website_message_ids"
+}

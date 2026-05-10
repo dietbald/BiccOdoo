@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11810,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dest Location",
+    "model_id": [
+      776,
+      "Stock Quantity Relocation"
+    ],
+    "name": "dest_location_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7554902899b00437a28d4098812b2f77a3ac4cd8c1f59ccc26bd77ec6f24cda1",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant_relocate__dest_location_id"
+}

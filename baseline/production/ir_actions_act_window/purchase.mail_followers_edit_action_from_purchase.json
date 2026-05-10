@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1587,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'purchase.order', 'default_res_ids': active_ids}",
+    "domain": false,
+    "name": "Add/Remove Followers",
+    "res_model": "mail.followers.edit",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "420c3242b04cbaafa03330fff1e2195eb297526189d3a7e4483ac90c7fc6dc9d",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.mail_followers_edit_action_from_purchase"
+}

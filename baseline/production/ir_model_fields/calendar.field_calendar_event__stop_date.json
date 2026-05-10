@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6931,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "End Date",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "stop_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "bd31445f0414368633445845b9563263c1c759b56d2a64820694403a47a8671b",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__stop_date"
+}

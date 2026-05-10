@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6939,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Current Attendee",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "current_attendee",
+    "relation": "calendar.attendee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6d57b1a9c462a0dfc0a7d82f89801ec03d32f84df62ddfef81835838da393f1d",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__current_attendee"
+}

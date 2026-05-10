@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 337,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('article_id.user_has_write_access', '=', True)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "Article Threads: portal/users: write and create based on article write access",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ab1e1ff25be5266c4833ce583e5cf0e7a33eeaeb898344a58d12a2ab9edc314e",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_article_thread_write"
+}

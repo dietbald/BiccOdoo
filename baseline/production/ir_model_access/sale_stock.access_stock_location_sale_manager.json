@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1064,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "stock.location sale manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "9eed49a9d9a5567f95ea2eeac3cf34bf49e2408f31e7227f47f6df4db99faa16",
+  "write_date": "2025-12-09 03:00:15",
+  "xml_id": "sale_stock.access_stock_location_sale_manager"
+}

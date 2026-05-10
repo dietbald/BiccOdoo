@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26224,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total All Overdue",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "total_all_overdue",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "09a1405aac6a57826e4e1f025845ab9d7e04f3e118655db072c4aa13faf66969",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_users__total_all_overdue"
+}

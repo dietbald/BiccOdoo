@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 217,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('country_id', '=', False), ('country_id', 'in', user.env.companies.country_id.ids)]",
+    "groups": [],
+    "model_id": [
+      628,
+      "Contract Type"
+    ],
+    "name": "HR Contract Type: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "03a1f33573039fea9e79f5cd0284a411e1e75a3b5dca4a36f0b7402ce7556a9e",
+  "write_date": "2023-11-30 07:12:44",
+  "xml_id": "hr.ir_rule_hr_contract_type_multi_company"
+}

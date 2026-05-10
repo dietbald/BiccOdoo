@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8344,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lock Confirmed Sales",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_auto_done_setting",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dd474018630f1941882b165fb8a7afe2929a2c6d27007ef139a41e36b4d8cb8a",
+  "write_date": "",
+  "xml_id": "sale.field_res_config_settings__group_auto_done_setting"
+}

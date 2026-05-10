@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23403,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "project_id",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "58d5e9a252573e16da7b9f5069dc16630e72abb179e710bfb32516104249ae51",
+  "write_date": "",
+  "xml_id": "project_purchase.field_purchase_order__project_id"
+}

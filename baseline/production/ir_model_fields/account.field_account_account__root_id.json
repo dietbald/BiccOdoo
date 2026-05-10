@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3959,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Root",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "root_id",
+    "relation": "account.root",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8ee5bd144273fcc7dcd4204df1b3072ff53e4b402dedb80f3c8e91c17da62f33",
+  "write_date": "",
+  "xml_id": "account.field_account_account__root_id"
+}

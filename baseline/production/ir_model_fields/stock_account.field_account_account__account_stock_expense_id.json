@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28739,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expense Account",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "account_stock_expense_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "56be38202181ad9975a72bd4f32d6db64cffef987e547ae64064b692763c2dd2",
+  "write_date": "",
+  "xml_id": "stock_account.field_account_account__account_stock_expense_id"
+}

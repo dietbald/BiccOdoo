@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7062,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a28a511f6b434f4029dba6c13298093f5a91ec0b12b53061c971f753f645dffa",
+  "write_date": "",
+  "xml_id": "portal.field_crm_team_member__website_message_ids"
+}

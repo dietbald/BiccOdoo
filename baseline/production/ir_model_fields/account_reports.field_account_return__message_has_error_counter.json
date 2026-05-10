@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3eae2d6e4914db10d54e4598013a632955d9442c5fb1d0d18d6455ef0bce54c2",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__message_has_error_counter"
+}

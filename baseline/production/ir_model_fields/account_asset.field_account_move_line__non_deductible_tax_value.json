@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Non Deductible Tax Value",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "non_deductible_tax_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "a417cd8d9778327055395b995c08d0a9a531ad2a656ac563075133b97526342b",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_move_line__non_deductible_tax_value"
+}

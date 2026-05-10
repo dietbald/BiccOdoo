@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27749,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed User",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "allowed_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "600088feefff1179d0ae03eb73a53f27119e7c61bb06987e1116c870b43c2579",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__allowed_user_ids"
+}

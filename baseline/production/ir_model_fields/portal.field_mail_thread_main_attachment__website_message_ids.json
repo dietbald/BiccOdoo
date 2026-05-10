@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3368,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      158,
+      "Mail Main Attachment management"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f4e72ea67130e9216f4c06e6ef5bdf37fbe8618ce02b6c2e5dbc431b7f6e9237",
+  "write_date": "",
+  "xml_id": "portal.field_mail_thread_main_attachment__website_message_ids"
+}

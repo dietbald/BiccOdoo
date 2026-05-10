@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 225,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Compare To View",
+    "model_id": [
+      17,
+      "Reset View Architecture Wizard"
+    ],
+    "name": "compare_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "da105192dd4309dcb20f3351abb381dd35d9f8bcbdbd04fb5f66b349b327e0b2",
+  "write_date": "",
+  "xml_id": "base.field_reset_view_arch_wizard__compare_view_id"
+}

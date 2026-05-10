@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13437,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Active Analytic Account",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "analytic_account_active",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a4694175eb2762be4dd0b7ef1f239b1dd9dbff720a62609adc81c95922ba8aed",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_project_task__analytic_account_active"
+}

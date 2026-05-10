@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 85,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "res_users all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "44064ec856abe76c5c0e3f756004abd0405236e3c68f214d559f3db3e08700e9",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_users_employee"
+}

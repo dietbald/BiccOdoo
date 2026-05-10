@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1513,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "subcontracting.portal.bom",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "4abb27283eedd7285cb31d8ee8eef748fa6ecddc8d4d12c473f5e7af1fe4e381",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.access_subcontracting_portal_bom"
+}

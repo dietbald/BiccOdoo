@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7573,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a3bbf318042160eccdef3c6bc52529b146849f4af232bf992a8aa8d66fa11fce",
+  "write_date": "",
+  "xml_id": "rating.field_calendar_event__rating_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1161,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "State",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "state_id",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a3fcf22a4f81287fe67399ccb854df0a44de7b8b61c0f6e681fe8b4800d696b0",
+  "write_date": "",
+  "xml_id": "base.field_res_users__state_id"
+}

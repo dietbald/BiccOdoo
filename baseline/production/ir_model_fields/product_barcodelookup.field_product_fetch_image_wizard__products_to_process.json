@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25853,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Products To Process",
+    "model_id": [
+      2663,
+      "Fetch product images from Barcode Lookup based on the product's barcode."
+    ],
+    "name": "products_to_process",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "783a3b764df56814a7d855573acb9301badc1e9008b76a6359f4ab2920d760ad",
+  "write_date": "",
+  "xml_id": "product_barcodelookup.field_product_fetch_image_wizard__products_to_process"
+}

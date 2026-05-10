@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9140,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "6e69c5360d7b8995f4f24db86f0fb10099c2b28bcb6c7b00e0d37225fd380582",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__message_has_error_counter"
+}

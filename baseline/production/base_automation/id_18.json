@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 18,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1784
+    ],
+    "active": true,
+    "filter_domain": false,
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "hr.job \u2192 jobs.<domain> alias on create",
+    "trigger": "on_create_or_write"
+  },
+  "payload_sha256": "c2b1546f575dae13baa1d9549804f59cd60656f2f9003920a82cc20433eec841",
+  "write_date": "2026-04-28 11:16:13",
+  "xml_id": null
+}

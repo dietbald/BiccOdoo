@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29851,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Article",
+    "model_id": [
+      3768,
+      "Audit Report"
+    ],
+    "name": "knowledge_article_id",
+    "relation": "knowledge.article",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9d3eee20ce1c28da38815f26f00633f4bf97a17e2b409b34a3df8fdc1d496868",
+  "write_date": "",
+  "xml_id": "accountant_knowledge.field_audit_report__knowledge_article_id"
+}

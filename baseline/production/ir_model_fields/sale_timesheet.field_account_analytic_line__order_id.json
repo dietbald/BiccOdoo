@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order Reference",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "order_id",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "be2fe23f999ec788c5e54ff279316bb976502e6951d3ee7630c116714c68990b",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_account_analytic_line__order_id"
+}

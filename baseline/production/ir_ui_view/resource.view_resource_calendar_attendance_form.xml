@@ -1,0 +1,15 @@
+<form string="Working Time">
+                <sheet>
+                <group>
+                    <field name="name"/>
+                    <field name="dayofweek"/>
+                    <label for="hour_from" string="Hours"/>
+                    <div class="o_row">
+                        <field name="hour_from" widget="float_time"/> -
+                        <field name="hour_to" widget="float_time"/>
+                    </div>
+                    <field name="day_period"/>
+                    <field name="duration_days"/>
+                </group>
+                </sheet>
+            </form>

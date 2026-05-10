@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28109,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inventory Name",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "inventory_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "4799263174b0d6a4ed975b4cf797cf7fe8c0aff69cb8088874200d24d0f45a60",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__inventory_name"
+}

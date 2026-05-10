@@ -1,0 +1,12 @@
+<data><xpath expr="//sheet/group[1]" position="before">
+                <div class="alert alert-danger" role="alert" invisible="not error_message_spreadsheet">
+                    <field name="error_message_spreadsheet"/>
+                </div>
+            </xpath>
+            <xpath expr="//button[@name='action_invite_members']" position="attributes">
+                <attribute name="invisible">error_message_spreadsheet</attribute>
+            </xpath>
+            <xpath expr="//button[@name='action_update_rights']" position="attributes">
+                <attribute name="invisible">error_message_spreadsheet</attribute>
+            </xpath>
+        </data>

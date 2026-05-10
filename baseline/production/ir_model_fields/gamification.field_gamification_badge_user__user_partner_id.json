@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24658,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Partner",
+    "model_id": [
+      910,
+      "Gamification User Badge"
+    ],
+    "name": "user_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6c524e46d7aba317e316f5c6ff10a6055ee99cab1f1bd8fad64b1c371fdd4e61",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge_user__user_partner_id"
+}

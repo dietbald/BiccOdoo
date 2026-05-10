@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 218,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('res_model', '=', 'hr.employee')]",
+    "groups": [
+      53
+    ],
+    "model_id": [
+      165,
+      "Activity Plan"
+    ],
+    "name": "Manager can edit employee plan",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a4509c0901062473db0197a7c800541a64dd706c22ded6bcfdd4f9b9a9314c3c",
+  "write_date": "2023-11-30 07:12:44",
+  "xml_id": "hr.mail_plan_rule_group_hr_manager"
+}

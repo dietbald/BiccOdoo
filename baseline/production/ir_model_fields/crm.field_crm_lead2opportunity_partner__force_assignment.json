@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Force assignment",
+    "model_id": [
+      584,
+      "Convert Lead to Opportunity (not in mass)"
+    ],
+    "name": "force_assignment",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "42d382c646b7da293a7dfa2bf9e49273c0fe4427b63056a29cbd2480bb66415f",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead2opportunity_partner__force_assignment"
+}

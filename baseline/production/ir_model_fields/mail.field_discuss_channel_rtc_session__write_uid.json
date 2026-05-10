@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2363,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      201,
+      "Mail RTC session"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7aee0e2a3e59a4ecf86b8cd8c9e4e4842cb83e646b01b59019b3daffa115e66a",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_rtc_session__write_uid"
+}

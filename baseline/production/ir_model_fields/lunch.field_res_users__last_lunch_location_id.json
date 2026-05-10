@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18985,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Lunch Location",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "last_lunch_location_id",
+    "relation": "lunch.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ca28bc64df6eb960cb1f7616ad8527a0979b836702473b4fd1c1b5b2f81a2702",
+  "write_date": "",
+  "xml_id": "lunch.field_res_users__last_lunch_location_id"
+}

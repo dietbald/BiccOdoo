@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12588,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "96608ee06aff4653abdf57a97b955db3850758eb27d1dcc9496fe2fd933564aa",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__activity_type_id"
+}

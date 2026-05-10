@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26941,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Linked Message",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "linked_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1178c7672bf9240a00611ff79230677ae446c2b86b17636143897d03417466b6",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__linked_message_ids"
+}

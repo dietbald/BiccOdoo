@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 537,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_skill_type': 1,\n            'search_default_skill': 2,\n        }",
+    "domain": false,
+    "name": "Skills Inventory",
+    "res_model": "hr.employee.skill.report",
+    "target": "current",
+    "view_mode": "list,pivot"
+  },
+  "payload_sha256": "983a748b64637db244e66259c7b4fbf71609f10483a306e90e44bf8cd1491eff",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.hr_employee_skill_report_action"
+}

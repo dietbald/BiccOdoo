@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 480,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('driver_id','=',user.partner_id.id),\n                ('driver_employee_id.user_id','=',user.id)]",
+    "groups": [
+      129
+    ],
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "User can only see his/her vehicle",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "44f84113a3fabeac7e8924c3f328366edce50ca97721747504dc65d6fd0889a4",
+  "write_date": "2024-05-05 08:27:27",
+  "xml_id": "fleet.fleet_rule_vehicle_visibility_user"
+}

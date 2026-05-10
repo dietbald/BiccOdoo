@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 847,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "\n            {\n                \"search_default_groupby_name\": 1,\n                \"search_default_employee\": 2\n            }\n        ",
+    "domain": false,
+    "name": "Attendances",
+    "res_model": "hr.attendance",
+    "target": "current",
+    "view_mode": "gantt,list,form"
+  },
+  "payload_sha256": "7b4358198912a136dab04350eff1db154a2c30d9d828b546296460ff9545c0c8",
+  "write_date": "2025-12-09 02:59:14",
+  "xml_id": "hr_attendance.hr_attendance_action"
+}

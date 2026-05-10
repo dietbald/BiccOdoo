@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17401,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "807d89dc2be215acc06a0a4994cbfa9c444032514384e1bbb882862d60345994",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__message_has_error"
+}

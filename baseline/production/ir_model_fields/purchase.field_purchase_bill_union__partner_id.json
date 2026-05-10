@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9539,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      661,
+      "Purchases & Bills Union"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b8df9c4674cd6ea1f46345af233146313bbcd5636777a90f82c91a9832dde76d",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_union__partner_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26219,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total All Due",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "total_all_due",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "73d8aed9d07bea02c83fdb27bd5208620a5470133318bffb929971d77525d035",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_partner__total_all_due"
+}

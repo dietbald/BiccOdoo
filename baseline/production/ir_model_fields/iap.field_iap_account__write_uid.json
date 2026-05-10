@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1495,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0458ec3e794b30eccf8de04ae8abd024738f5e31ce8cebafad8d4af36468ab7a",
+  "write_date": "",
+  "xml_id": "iap.field_iap_account__write_uid"
+}

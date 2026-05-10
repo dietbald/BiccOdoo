@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11267,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create New Lots/Serial Numbers",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "use_create_lots",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "62335f0d2bfa9e72c81d6c259a520a4d8963227b853aa71a0141eb8bc93111af",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__use_create_lots"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13243,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      839,
+      "Work Entries Analysis Report"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "34015242d12fda13a9541663cee7107945c04f531a693ce1abbf3f6d18d12848",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_report__employee_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 473,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "Control point company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b0c189face5f849faa490223604787e98c180d48eab3353ee1ab698675cecc25",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "quality.control_point_comp_rule"
+}

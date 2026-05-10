@@ -1,0 +1,8 @@
+<form string="Role">
+                    <sheet>
+                        <group>
+                            <field name="name" string="Role"/>
+                            <field name="user_ids" widget="many2many_avatar_user" options="{'no_create': True}"/>
+                        </group>
+                    </sheet>
+                </form>

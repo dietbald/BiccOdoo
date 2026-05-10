@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 479,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('vehicle_id.driver_id','=',user.partner_id.id),\n                ('vehicle_id.driver_employee_id.user_id','=',user.id)]",
+    "groups": [
+      129
+    ],
+    "model_id": [
+      1008,
+      "Odometer log for a vehicle"
+    ],
+    "name": "User can only see his/her vehicle's odometer",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "62a6af64041792d562d7be63733be841dd7f4a3018ae4de23fa5cacefa1679cb",
+  "write_date": "2024-05-05 08:27:27",
+  "xml_id": "fleet.fleet_rule_odometer_visibility_user"
+}

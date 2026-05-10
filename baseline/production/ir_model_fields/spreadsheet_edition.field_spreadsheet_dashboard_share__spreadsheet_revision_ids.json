@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5538,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Spreadsheet Revision",
+    "model_id": [
+      470,
+      "Copy of a shared dashboard"
+    ],
+    "name": "spreadsheet_revision_ids",
+    "relation": "spreadsheet.revision",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "90ea683680b3152d9a4c094d954df330419af42162a6fcc4dee2bf08eb1536c2",
+  "write_date": "",
+  "xml_id": "spreadsheet_edition.field_spreadsheet_dashboard_share__spreadsheet_revision_ids"
+}

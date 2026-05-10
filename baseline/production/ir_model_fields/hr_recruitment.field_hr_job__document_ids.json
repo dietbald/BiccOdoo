@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Documents",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "document_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "535fd6d0b1c217b14a1aaaf686b7a95868635bf63caf75d4a8791d2d6ee1b058",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__document_ids"
+}

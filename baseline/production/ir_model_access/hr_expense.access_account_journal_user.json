@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 786,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      54,
+      "Expenses / Team Approver"
+    ],
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "account.journal.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "33f382f17e8e8af4cfbc05f8f47e43ca24747de21fbece9db84054b4338162e6",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.access_account_journal_user"
+}

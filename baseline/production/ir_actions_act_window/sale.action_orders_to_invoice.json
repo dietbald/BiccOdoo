@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 493,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'create': False}",
+    "domain": "[('invoice_status','=','to invoice')]",
+    "name": "Orders to Invoice",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "list,form,calendar,graph,pivot,kanban,activity"
+  },
+  "payload_sha256": "009bea36ab41d5dfbd3cf5e5efe84a709efe26ed3d74166dc1de9dc0168eb703",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_orders_to_invoice"
+}

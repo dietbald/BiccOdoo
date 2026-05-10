@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 172,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child IDs",
+    "model_id": [
+      14,
+      "Menu"
+    ],
+    "name": "child_id",
+    "relation": "ir.ui.menu",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "317ac64e08fc91dba99b817908c417ebdfe5184fee54321ccd414ae9cfd8d646",
+  "write_date": "",
+  "xml_id": "base.field_ir_ui_menu__child_id"
+}

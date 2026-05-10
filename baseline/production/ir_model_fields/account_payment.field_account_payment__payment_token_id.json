@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5622,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Saved Payment Token",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "payment_token_id",
+    "relation": "payment.token",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3ff63953513a8978681d6e7d7b76ab3a0900e975006b7bf1c65b5b53572b650c",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_payment__payment_token_id"
+}

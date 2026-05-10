@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29782,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Net Amount",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "withholding_net_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2f3e7c95ef0d01f7981ba8e7b6b4d554decce633b6815a38aeb29de446c8666a",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment_register__withholding_net_amount"
+}

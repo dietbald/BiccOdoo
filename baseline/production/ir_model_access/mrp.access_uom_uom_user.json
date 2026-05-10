@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1403,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      137,
+      "Product Unit of Measure"
+    ],
+    "name": "uom.uom user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ddf9fe752837f2dc69e6536361d55dc8799c1bdaa1a718d4c1ba66294f2a3b33",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_uom_uom_user"
+}

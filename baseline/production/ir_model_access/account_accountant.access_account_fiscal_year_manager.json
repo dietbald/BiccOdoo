@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 464,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      485,
+      "Fiscal Year"
+    ],
+    "name": "account.fiscal.year.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b5dfc8045b7f92ead7e5dc98d10d2a3854438934ce17b897949fda2699da5c56",
+  "write_date": "2025-12-09 02:57:43",
+  "xml_id": "account_accountant.access_account_fiscal_year_manager"
+}

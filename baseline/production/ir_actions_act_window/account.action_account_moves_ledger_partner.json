@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 238,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'journal_type':'general', 'search_default_group_by_partner': 1, 'search_default_posted':1, 'search_default_trade_payable':1, 'search_default_trade_receivable':1, 'search_default_unreconciled':1}",
+    "domain": "[('display_type', 'not in', ('line_section', 'line_subsection', 'line_note'))]",
+    "name": "Partner Ledger",
+    "res_model": "account.move.line",
+    "target": "current",
+    "view_mode": "list,pivot,graph"
+  },
+  "payload_sha256": "ae550de4fd2880621f860a3f641115817593028d6d7914f4356b327c60b86c66",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_moves_ledger_partner"
+}

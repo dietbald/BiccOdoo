@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20295,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Origin Attachment",
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "origin_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ba36f09754f70b5d2bd3402b34400bc8d8af49d537bb7a20222e052f0c0b6e99",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_product_document__origin_attachment_id"
+}

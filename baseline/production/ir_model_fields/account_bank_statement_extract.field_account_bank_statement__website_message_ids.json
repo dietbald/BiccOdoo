@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22724,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "dbe7510a67eb4b2d574ef6adc28c2821cb1d90604200db5464d1dca1c0324cb8",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement__website_message_ids"
+}

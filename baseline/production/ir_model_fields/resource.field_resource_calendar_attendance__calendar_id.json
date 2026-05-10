@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1664,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource's Calendar",
+    "model_id": [
+      143,
+      "Work Detail"
+    ],
+    "name": "calendar_id",
+    "relation": "resource.calendar",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8060dbdc7a724483549df1d9aa3872926310195d5f8f9ea65d511c38647665a8",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar_attendance__calendar_id"
+}

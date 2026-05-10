@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12849,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9a55e88d4b707e9ffda81364c75120a940e0d7a837494da135e24e40be1de572",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__activity_user_id"
+}

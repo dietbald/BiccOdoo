@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7380,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lost Reason",
+    "model_id": [
+      583,
+      "Get Lost Reason"
+    ],
+    "name": "lost_reason_id",
+    "relation": "crm.lost.reason",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "71245281cd70ff80bddb2c33fbe8abc7955c11542b577f3b6b8a66de02c7c085",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead_lost__lost_reason_id"
+}

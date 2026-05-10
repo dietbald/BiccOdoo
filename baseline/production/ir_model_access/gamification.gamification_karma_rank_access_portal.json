@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1279,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      915,
+      "Rank based on karma"
+    ],
+    "name": "gamification.karma.rank.access.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "fc424d85dc2d59782d3fe7ef4505c089ba62027b810039b1749e52eb7ca992c3",
+  "write_date": "2025-12-09 02:55:55",
+  "xml_id": "gamification.gamification_karma_rank_access_portal"
+}

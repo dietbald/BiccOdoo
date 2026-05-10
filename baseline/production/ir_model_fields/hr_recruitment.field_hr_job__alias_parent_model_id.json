@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9754,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Model",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "alias_parent_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9dfd66905abae285049d2a5484d9c276b1d88dc64608efa9166f5b2b941d1ea",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__alias_parent_model_id"
+}

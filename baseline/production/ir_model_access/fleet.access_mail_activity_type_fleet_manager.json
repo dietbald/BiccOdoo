@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1498,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      130,
+      "Fleet / Administrator"
+    ],
+    "model_id": [
+      163,
+      "Activity Type"
+    ],
+    "name": "mail.activity.type.fleet.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3d808f5699fb5a7e82ec0333ad13a7ba2ff276e3fdc464910097c3767a306fdf",
+  "write_date": "2025-12-09 02:55:54",
+  "xml_id": "fleet.access_mail_activity_type_fleet_manager"
+}

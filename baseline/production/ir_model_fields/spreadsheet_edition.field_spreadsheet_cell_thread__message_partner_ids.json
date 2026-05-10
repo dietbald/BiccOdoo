@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20009,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      1186,
+      "Spreadsheet discussion thread"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7ed01742dc77e9b9c8fa888ff5a1d4844a5db8cb4bde1d7f12aa3a346dfc547f",
+  "write_date": "",
+  "xml_id": "spreadsheet_edition.field_spreadsheet_cell_thread__message_partner_ids"
+}

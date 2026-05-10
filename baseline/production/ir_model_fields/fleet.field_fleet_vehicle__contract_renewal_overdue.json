@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17079,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Contracts Overdue",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "contract_renewal_overdue",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8b9a3bc15388d8cbd8418b87b8cf7c7d8c1b9ad746cec96154e76802ea95f529",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__contract_renewal_overdue"
+}

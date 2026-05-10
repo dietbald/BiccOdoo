@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1073,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Access Menu",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "menu_access",
+    "relation": "ir.ui.menu",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "215a467d28d96f7ceb0e922145c44446b2a1c9954611d81610994cd786d7ae8e",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__menu_access"
+}

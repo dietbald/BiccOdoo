@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20546,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      671,
+      "Send mails to applicants"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2a2332c92b656f3223f695d00434bf8505b79b38cf78c67195b83db9d6aedd4b",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_send_mail__attachment_ids"
+}

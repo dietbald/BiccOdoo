@@ -1,0 +1,27 @@
+<t name="Trial database validated" t-name="saas_trial.database_validated">
+		<t t-call="web.layout">
+			<t t-set="head">
+			<t t-call-assets="saas_trial.assets_db_validation"/>
+			</t>
+			<div class="loading-screen">
+	            <div class="content">
+	                <svg class="svg">
+	                    <circle cx="100" cy="100" r="50"/>
+	                </svg>
+					<div class="loading-messages">
+                        <h3 class="text-alpha">Congratulations! Your database has been validated.</h3>
+                        <p class="text-muted mb-3">You will be redirected in a few seconds.</p>
+					</div>
+	            </div>
+			</div>
+			<script>
+				function redirect() {
+					window.location = "/web"
+				}
+
+				$(function() {
+					setTimeout(redirect, 5000);
+				});
+			</script>
+		</t>
+	</t>

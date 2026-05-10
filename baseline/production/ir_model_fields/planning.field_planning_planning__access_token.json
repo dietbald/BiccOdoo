@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13910,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Security Token",
+    "model_id": [
+      882,
+      "Schedule"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "f4e1109735f797109363ab4654acbdf333bde3c091166fdd8bc7902b6768f4ed",
+  "write_date": "",
+  "xml_id": "planning.field_planning_planning__access_token"
+}

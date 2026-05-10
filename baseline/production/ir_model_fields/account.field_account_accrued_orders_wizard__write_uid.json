@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5427,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      463,
+      "Accrued Orders Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3fb4e5280dcc1eb8d8809797d3647235ab4f9c185a3dccb701b7f57b249a9a8c",
+  "write_date": "",
+  "xml_id": "account.field_account_accrued_orders_wizard__write_uid"
+}

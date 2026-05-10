@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7100,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "be0eafef3f27cdd698ff91d33d05178b3fdfcb08922e816d4fcfea6951896039",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team__currency_id"
+}

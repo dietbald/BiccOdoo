@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15601,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Duration (days)",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "number_of_days_display",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d585efa7476f9bda8ef6061095e4219bc5bd5d7e53757be8fc70b3ba6e266063",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__number_of_days_display"
+}

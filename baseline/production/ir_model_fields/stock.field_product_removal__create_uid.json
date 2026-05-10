@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      725,
+      "Removal Strategy"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6e79ea2330a84b256f7f15fc892f053ea77ee6d9df7e1655e071bc180aea3683",
+  "write_date": "",
+  "xml_id": "stock.field_product_removal__create_uid"
+}

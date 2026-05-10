@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "12651a35b86f5e6d80b25593fbf3185b8f2bef7f9a2b140cfe6121be8eaf9fb3",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__message_has_error"
+}

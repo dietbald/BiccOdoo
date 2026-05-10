@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      809,
+      "Wizard in case PO still has open alternative requests for quotation"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "627e59af42194756703d283b77dc0314b70696870659faa3dfe86971781c44ec",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_alternative_warning__write_uid"
+}

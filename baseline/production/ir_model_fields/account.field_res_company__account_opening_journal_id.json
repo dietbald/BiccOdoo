@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4978,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Opening Journal",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_opening_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a5af9edec61b50a30889ae56a6f21399d40969f26e43319856038649005d579c",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_opening_journal_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9566,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of generated purchase items",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "purchase_line_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f7eca15e7b36d671725f32e7830eb777e31490168a24c0097e6786cac1b32d1a",
+  "write_date": "",
+  "xml_id": "sale_purchase.field_sale_order_line__purchase_line_count"
+}

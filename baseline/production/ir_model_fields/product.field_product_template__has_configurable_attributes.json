@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2921,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is a configurable product",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "has_configurable_attributes",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "40f7758646e144ac9fe6be8d12df2be87adbb1d67433ad71567669b97136c9be",
+  "write_date": "",
+  "xml_id": "product.field_product_template__has_configurable_attributes"
+}

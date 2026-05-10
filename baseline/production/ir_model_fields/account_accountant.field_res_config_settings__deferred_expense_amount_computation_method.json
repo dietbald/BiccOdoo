@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20126,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Expense Based on",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "deferred_expense_amount_computation_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a6905b8b6d412f59bd8d78742920c5d5be45cc505ea646fa862ec513b5c4ae28",
+  "write_date": "",
+  "xml_id": "account_accountant.field_res_config_settings__deferred_expense_amount_computation_method"
+}

@@ -1,0 +1,12 @@
+<form js_class="page_properties_dialog_form">
+            <group class="mt-4">
+                <label for="is_in_menu" string="In Menu"/>
+                <div class="o_row">
+                    <field name="is_in_menu" widget="boolean_toggle" options="{'autosave': False}"/>
+                    <button type="action" name="1381" context="{'xmlid': 'website.menu_edit_menu'}" string="Edit Menu" class="btn-link" icon="oi-arrow-right"/>
+                </div>
+
+                <field name="is_homepage" string="Is Homepage" widget="boolean_toggle" options="{'autosave': False}"/>
+                <field name="is_published" string="Published" widget="boolean_toggle" options="{'autosave': False}" invisible="not can_publish"/>
+            </group>
+        </form>

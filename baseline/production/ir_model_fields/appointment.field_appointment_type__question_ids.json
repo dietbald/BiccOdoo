@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15298,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Questions",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "question_ids",
+    "relation": "appointment.question",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "56a2e985e66aaac24f7ebcede6453ad4b0a0439ffef1ac1a80d5f55b3329b9f6",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__question_ids"
+}

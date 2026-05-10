@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 70,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Field",
+    "model_id": [
+      5,
+      "Model Inheritance Tree"
+    ],
+    "name": "parent_field_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dbb6e508b44ac7dce255b5d79de077211124da2eac142824e32194de03d69a34",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_inherit__parent_field_id"
+}

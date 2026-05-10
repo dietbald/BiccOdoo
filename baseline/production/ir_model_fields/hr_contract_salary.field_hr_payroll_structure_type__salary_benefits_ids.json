@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21226,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Benefits",
+    "model_id": [
+      703,
+      "Salary Structure Type"
+    ],
+    "name": "salary_benefits_ids",
+    "relation": "hr.contract.salary.benefit",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "34e3f576acaed935334b9c4b603a7f0eda6ee2471132b775f8100ae5b32354da",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_payroll_structure_type__salary_benefits_ids"
+}

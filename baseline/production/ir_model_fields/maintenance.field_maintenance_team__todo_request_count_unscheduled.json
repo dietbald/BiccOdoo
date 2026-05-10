@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18215,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Requests Unscheduled",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "todo_request_count_unscheduled",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "bb82f8ee52750abc556baa3452e1eaca47251789c52c7a905c29a4808463f5be",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__todo_request_count_unscheduled"
+}

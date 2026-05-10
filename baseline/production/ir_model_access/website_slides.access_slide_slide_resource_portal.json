@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1864,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      1514,
+      "Additional resource for a particular slide"
+    ],
+    "name": "slide.slide.resource.portal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "36ec1dd36c1e8cb8e686b84ee67d82a30c17f006bf8c2cf7a0cca0f14aa88028",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.access_slide_slide_resource_portal"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26683,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Reserved Lots",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "available_reserved_lots",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eec65bb3f83d239095e72836dbbf397992a4d1b8455501aaaca951cbefe86a75",
+  "write_date": "",
+  "xml_id": "sale_stock_renting.field_sale_order_line__available_reserved_lots"
+}

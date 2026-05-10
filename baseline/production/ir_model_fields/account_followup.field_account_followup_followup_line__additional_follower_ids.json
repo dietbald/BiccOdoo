@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20275,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Add followers",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "additional_follower_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "fb71b79ab036d1e824af831e5e0cb901f58adae628dc0e14c3447ea47bfdb6d8",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__additional_follower_ids"
+}

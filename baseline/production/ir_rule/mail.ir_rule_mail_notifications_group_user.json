@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 48,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('res_partner_id', '=', user.partner_id.id)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "mail.notifications: group_user: write its own entries",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "80bce853771140b4fd1b6084d3384993b877b8350c4c72a9c697a278ed2e367e",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.ir_rule_mail_notifications_group_user"
+}

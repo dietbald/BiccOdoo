@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 313,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('request_id.request_owner_id.id', '=', user.id), ('user_id.id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      786,
+      "Approver"
+    ],
+    "name": "Approval Approver: read own request",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8eb055a76eff66d9c48104b018e2ca10dab2b69dd9dd265b0bb433f5d2167636",
+  "write_date": "2023-12-04 12:12:09",
+  "xml_id": "approvals.approval_approver_user_read_own"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13269,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Accounting Entry",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5f65adc30cb2be47bf3feae909efe838c422d931c82ecaffd972d2dc4e4a0338",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_payslip__move_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6232,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cumulative Depreciation",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "asset_depreciated_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "09be75b47666582a852345a6b1243f9cd23224cc87d72f5de2733e21d9ce0c10",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_bank_statement_line__asset_depreciated_value"
+}

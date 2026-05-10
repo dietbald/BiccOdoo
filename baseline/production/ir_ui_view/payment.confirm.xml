@@ -1,0 +1,62 @@
+<t t-name="payment.confirm">
+        <!-- Parameters description:
+            - tx: The transaction to display.
+        -->
+        <t t-call="portal.frontend_layout">
+            <t t-set="page_title">Payment Confirmation</t>
+            <t t-set="additional_title"><t t-esc="page_title"/></t>
+            <t t-set="show_pm" t-value="tx.payment_method_code != 'unknown'"/>
+            <div class="wrap">
+                <div class="container">
+                    <!-- Portal breadcrumb -->
+                    <t t-call="payment.portal_breadcrumb"/>
+                    <div class="row justify-content-center my-3">
+                    <div class="col-12 col-lg-7">
+                        <!-- Confirmation page -->
+                        <div class="row">
+                            <div class="col">
+                                <t t-call="payment.state_header"/>
+                            </div>
+                        </div>
+                        <div t-att-class="'text-bg-light row row-cols-1 mx-0 mb-3 py-2 rounded'                                           + (' row-cols-md-4' if show_pm else ' row-cols-md-3')">
+                            <t t-call="payment.summary_item">
+                                <t t-set="name" t-value="'amount'"/>
+                                <t t-set="label">Amount</t>
+                                <t t-set="value" t-value="tx.amount"/>
+                                <t t-set="options" t-value="{'widget': 'monetary', 'display_currency': tx.currency_id}"/>
+                            </t>
+                            <t t-call="payment.summary_item">
+                                <t t-set="name" t-value="'reference'"/>
+                                <t t-set="label">Reference</t>
+                                <t t-set="value" t-value="tx.reference"/>
+                                <t t-set="include_separator" t-value="True"/>
+                            </t>
+                            <t t-if="tx.payment_method_code != 'unknown'">
+                               <t t-call="payment.summary_item">
+                                    <t t-set="name" t-value="'method'"/>
+                                    <t t-set="label">Payment Method</t>
+                                    <t t-set="value" t-value="tx.payment_method_id.name"/>
+                                    <t t-set="include_separator" t-value="True"/>
+                               </t>
+                            </t>
+                            <t t-call="payment.summary_item">
+                                <t t-set="name" t-value="'provider'"/>
+                                <t t-set="label">Processed by</t>
+                                <t t-set="value" t-value="tx.provider_id.sudo().name"/>
+                                <t t-set="include_separator" t-value="True"/>
+                            </t>
+                        </div>
+
+                        <div class="row">
+                            <div class="col offset-md-3 ps-0">
+                                <a role="button" class="btn btn-primary float-end" href="/my/home">
+                                    Go to my Account <i class="oi oi-arrow-right ms-2"/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </t>

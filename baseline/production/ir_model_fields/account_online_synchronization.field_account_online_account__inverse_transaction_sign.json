@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5904,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inverse Transaction Sign",
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "inverse_transaction_sign",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2100c8218a5331c89f7f1113b735c5727f8e6515f0c583a3df6fa534ba7b19d9",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_account__inverse_transaction_sign"
+}

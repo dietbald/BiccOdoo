@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 260,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('website_published', '=', True)]",
+    "groups": [
+      67
+    ],
+    "model_id": [
+      700,
+      "Model Page"
+    ],
+    "name": "website.controller.page: portal/public: read published pages",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9d7c89f025b8450e91daf7b4722da8038ec820960b0cfbbbe112a7da2c31706a",
+  "write_date": "2026-01-28 12:01:03",
+  "xml_id": "website.website_page_controller_rule_public"
+}

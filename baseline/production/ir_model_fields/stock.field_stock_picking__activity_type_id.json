@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11219,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cf176fe927776f956529f5aa212d0dc882368cb9a745cc1a3130c64eb88b624c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__activity_type_id"
+}

@@ -1,0 +1,14 @@
+<data><xpath expr="//notebook" position="inside">
+                <page string="Website Forms" name="website_forms">
+                    <group>
+                        <field name="website_form_access"/>
+                        <field name="website_form_label"/>
+                        <field name="website_form_default_field_id" options="{'no_create': True}"/>
+                    </group>
+                </page>
+            </xpath>
+
+            <xpath expr="//page[@name='base']/group/group/field[@name='translate']" position="after">
+                <field name="website_form_blacklisted"/>
+            </xpath>
+        </data>

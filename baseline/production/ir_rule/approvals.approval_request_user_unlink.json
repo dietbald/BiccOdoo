@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 317,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('request_status','=','cancel')]",
+    "groups": [
+      91
+    ],
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "Approval Request: user unlink",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": false
+  },
+  "payload_sha256": "2e0c553abc80f8db45f31d342a77200303ce87e647b05a78d08e9b4cc7c1225a",
+  "write_date": "2023-12-04 12:12:09",
+  "xml_id": "approvals.approval_request_user_unlink"
+}

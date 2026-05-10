@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 173,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('project_id.company_id', 'in', company_ids), ('project_id.company_id', '=', False)]",
+    "groups": [],
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "Project/Milestone: multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c613bba24f8567369b56fa8ecb20b2bef73849d626dfc98d8d7600c750536ac2",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.milestone_comp_rule"
+}

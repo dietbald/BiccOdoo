@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5164,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Carry Over To",
+    "model_id": [
+      449,
+      "Accounting Report Expression"
+    ],
+    "name": "carryover_target",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "bb538de5aa8c6bec31095f0341556c424589ee05a111f226d79ed48b1ca4a2c1",
+  "write_date": "",
+  "xml_id": "account.field_account_report_expression__carryover_target"
+}

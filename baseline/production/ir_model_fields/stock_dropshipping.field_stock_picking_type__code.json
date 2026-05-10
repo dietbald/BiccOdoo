@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11173,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type of Operation",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "code",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f01e70179c9e38018c53b0bd0371a405fe8b0b7cc6fb93bf8ec2c00cf0bc5190",
+  "write_date": "",
+  "xml_id": "stock_dropshipping.field_stock_picking_type__code"
+}

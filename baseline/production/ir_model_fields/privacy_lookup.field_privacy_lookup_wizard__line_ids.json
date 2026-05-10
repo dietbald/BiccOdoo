@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2830,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Line",
+    "model_id": [
+      356,
+      "Privacy Lookup Wizard"
+    ],
+    "name": "line_ids",
+    "relation": "privacy.lookup.wizard.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "40c9f82f93110999f0c6a94e7d3d90d812cfcfcdb36ee5085d340530025ddfae",
+  "write_date": "",
+  "xml_id": "privacy_lookup.field_privacy_lookup_wizard__line_ids"
+}

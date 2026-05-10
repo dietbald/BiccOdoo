@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 485,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      524,
+      "Manage the file generation errors from report exports."
+    ],
+    "name": "account.report.file.download.error.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "e18e539c49129b938656728e6a10d747c5e877069077fc305999eb78b4bfd832",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_report_file_download_error_wizard"
+}

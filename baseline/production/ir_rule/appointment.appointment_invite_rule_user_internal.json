@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 434,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('create_uid', '=', user.id), ('staff_user_ids', '=', user.id)]",
+    "groups": [
+      112,
+      1
+    ],
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "appointment.invite: user and internal rule (read self-create and self-staff)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1a24bb81f8508b6c0cd875a0045ca5206997f405ca6a44de8f0400e7e861b3ee",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_invite_rule_user_internal"
+}

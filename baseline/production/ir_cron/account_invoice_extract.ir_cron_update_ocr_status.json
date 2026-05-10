@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 18,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.check_all_status()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "Invoice OCR: Update All Status",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "c03ea35928c944305a1a393d24df43c012f456395a145c7311a9b0332d214e6a",
+  "write_date": "2025-12-09 03:00:21",
+  "xml_id": "account_invoice_extract.ir_cron_update_ocr_status"
+}

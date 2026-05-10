@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7210,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "company_currency",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8110cef3896025aca533b57003bf8df9197a9d80d5edd9e8900c9328b560585d",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__company_currency"
+}

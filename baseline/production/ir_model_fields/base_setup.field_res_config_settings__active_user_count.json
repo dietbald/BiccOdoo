@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1452,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Active Users",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "active_user_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "7803febb9b67e2ef1cbdc3a41aa4c6a4e3ed90290f0c3f83600daf9eec64a3d3",
+  "write_date": "",
+  "xml_id": "base_setup.field_res_config_settings__active_user_count"
+}

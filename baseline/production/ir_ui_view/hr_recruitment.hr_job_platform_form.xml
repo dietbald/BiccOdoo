@@ -1,0 +1,13 @@
+<form>
+                <sheet>
+                    <group col="2">
+                        <group>
+                            <field name="name" placeholder="e.g. Linkedin"/>
+                            <field name="regex" placeholder="e.g. ^New application:.*from (.*)"/>
+                        </group>
+                        <group>
+                            <field name="email" placeholder="e.g. jobs-listings@linkedin.com"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

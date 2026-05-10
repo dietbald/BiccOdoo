@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20865,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit Tax Grids",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "credit_tag_ids",
+    "relation": "account.account.tag",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d68dbd0b1e7c745fac1f9216b6612f94e4acebfdd64210f588caf1fce74cb7d8",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_payslip_line__credit_tag_ids"
+}

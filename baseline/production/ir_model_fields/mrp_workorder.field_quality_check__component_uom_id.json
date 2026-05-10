@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16881,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Component Unit",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "component_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fdc4c87f623d00e4a6528ce929dd7d7305e8e2b58648fbaf24abf94107001194",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_check__component_uom_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 52,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._process_mass_mailing_queue()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "Mail Marketing: Process queue",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "57d633175d89f999611bb85dabe532ecc9830e155f225868cd28f09c48d72f26",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "mass_mailing.ir_cron_mass_mailing_queue"
+}

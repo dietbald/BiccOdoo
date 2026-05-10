@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16848,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Hourly Cost",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "employee_costs_hour",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "10956d233990007e1e231df36f0e5b5778471d6a7fba2f4f85e626dee5add853",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workcenter__employee_costs_hour"
+}

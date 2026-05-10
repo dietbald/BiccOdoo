@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29834,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bill to Receive",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "bill_to_receive",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "742d0b222fc02dab8ea9b450ff8ab25eef1ce4d674f2b6c1fc23829889eb020f",
+  "write_date": "",
+  "xml_id": "purchase_accountant.field_purchase_order_line__bill_to_receive"
+}

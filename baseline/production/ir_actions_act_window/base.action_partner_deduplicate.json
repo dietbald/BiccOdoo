@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 48,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'active_test': False}",
+    "domain": false,
+    "name": "Deduplicate Contacts",
+    "res_model": "base.partner.merge.automatic.wizard",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "c84fba84d030f852856e3768625d64eaae4ee938f00c400855a186bbd63b9a30",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.action_partner_deduplicate"
+}

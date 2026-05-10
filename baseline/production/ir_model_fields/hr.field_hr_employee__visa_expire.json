@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8720,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Visa Expiration Date",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "visa_expire",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "0832dfa747350e9da97a10337a41b92faaf831a0e5588bacf31856fcd47e0084",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__visa_expire"
+}

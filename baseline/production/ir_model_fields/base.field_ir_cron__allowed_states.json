@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26748,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed states",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "allowed_states",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "b9ceb66e81b4eea8efff748951b93acb03cf2093ba5536f8f820735f41d20306",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__allowed_states"
+}

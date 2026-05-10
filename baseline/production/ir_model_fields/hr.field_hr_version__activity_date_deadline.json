@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10350,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "50efbc46254ead5f21deaf03376e833a5c93cbc4ea847c408ff6e61b4202d2b4",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__activity_date_deadline"
+}

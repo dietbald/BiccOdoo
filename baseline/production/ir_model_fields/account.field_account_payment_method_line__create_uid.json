@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4718,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      440,
+      "Payment Methods"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "096f68d2348ce3114730d337553cb313b58195eee95b4e120e99aedbbd0ebd61",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_method_line__create_uid"
+}

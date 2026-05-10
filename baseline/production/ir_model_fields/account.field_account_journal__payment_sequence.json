@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dedicated Payment Sequence",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "payment_sequence",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0242dad1ee15d2c21c709fb006ae5dbe2540a941b697cb5d33b6d68a65d54af6",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__payment_sequence"
+}

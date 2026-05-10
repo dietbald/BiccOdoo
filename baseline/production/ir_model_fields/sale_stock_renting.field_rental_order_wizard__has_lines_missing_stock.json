@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26685,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has lines whose products have insufficient stock",
+    "model_id": [
+      2749,
+      "Pick-up/Return products"
+    ],
+    "name": "has_lines_missing_stock",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aa08d7bf49cfd9bc498a253600e511446cf89ee74c63d8a3a9a36792327353f3",
+  "write_date": "",
+  "xml_id": "sale_stock_renting.field_rental_order_wizard__has_lines_missing_stock"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23512,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Exclude Bank Lines",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "exclude_bank_lines",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6a53ffc308989f5d60004970539a8ebc7bf1c709113e022c83366ea736777365",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_move_line__exclude_bank_lines"
+}

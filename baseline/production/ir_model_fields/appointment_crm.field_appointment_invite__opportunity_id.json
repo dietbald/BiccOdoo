@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15361,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Opportunity/Lead",
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "opportunity_id",
+    "relation": "crm.lead",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3179facd611a46b6b98027c806b8f582ad43562048b715f0e8a68b72f4f8f4ef",
+  "write_date": "",
+  "xml_id": "appointment_crm.field_appointment_invite__opportunity_id"
+}

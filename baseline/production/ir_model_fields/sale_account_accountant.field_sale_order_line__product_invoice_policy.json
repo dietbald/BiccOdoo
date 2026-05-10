@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29541,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoicing Policy",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "product_invoice_policy",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "db0d35df65dca70300a188fe4311a62c621b74cb12de18b07638a6513d7e2f53",
+  "write_date": "",
+  "xml_id": "sale_account_accountant.field_sale_order_line__product_invoice_policy"
+}

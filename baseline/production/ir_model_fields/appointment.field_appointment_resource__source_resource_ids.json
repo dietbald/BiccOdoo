@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15232,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source combination",
+    "model_id": [
+      939,
+      "Appointment Resource"
+    ],
+    "name": "source_resource_ids",
+    "relation": "appointment.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3a8a00e52e23cea7255e225d31df0c7de0f469da364d090d271b2244674f3df4",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_resource__source_resource_ids"
+}

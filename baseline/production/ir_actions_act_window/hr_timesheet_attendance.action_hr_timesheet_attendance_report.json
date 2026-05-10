@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 869,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": false,
+    "name": "Timesheets / Attendance Analysis",
+    "res_model": "hr.timesheet.attendance.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "da2c13eb9872d8ca9b9e74a0c6dc50de45fa123332c67d693a5dae864f19affb",
+  "write_date": "2025-12-09 03:00:06",
+  "xml_id": "hr_timesheet_attendance.action_hr_timesheet_attendance_report"
+}

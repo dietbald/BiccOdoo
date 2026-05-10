@@ -1,0 +1,3 @@
+<filter name="unassigned" position="before">
+                <filter name="conflict_task" string="Tasks in Conflict" context="{'highlight_conflicting_task': 1}" invisible="1"/>
+            </filter>

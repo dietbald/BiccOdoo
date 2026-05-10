@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 733,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      624,
+      "Quotation Template"
+    ],
+    "name": "sale.order.template",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b9bc2c04f77b702e9b75408c87b0a23c859cf11aeb142459cb4e23a8b8c4d95c",
+  "write_date": "2025-12-09 03:00:10",
+  "xml_id": "sale_management.access_sale_order_template"
+}

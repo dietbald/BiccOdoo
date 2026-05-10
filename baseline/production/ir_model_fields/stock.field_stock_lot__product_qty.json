@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11150,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "On Hand Quantity",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "product_qty",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "dbcc5658e95d9408929d12ede469fa675ee78fd03c848eb08d99f55b97a7e1e4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__product_qty"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7201,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "tag_ids",
+    "relation": "crm.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d7f281d1b59a8e13d2f8df315de725c1b53e3bb4fd0188f6e739dfe40bb1b86f",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__tag_ids"
+}

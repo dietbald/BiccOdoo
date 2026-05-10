@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7283,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Exceed monthly lead assignement",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "lead_all_assigned_month_exceeded",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f3cbd02f11b3141ddbd1cc14c566a8be926e3b44e9aa3f2c2173400170667cd1",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team__lead_all_assigned_month_exceeded"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4956,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cash Difference Expense",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "default_cash_difference_expense_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "49a636f28106668153a6843c562dbe20682fd69113a8e6bfa94f9a04a9fb42f1",
+  "write_date": "",
+  "xml_id": "account.field_res_company__default_cash_difference_expense_account_id"
+}

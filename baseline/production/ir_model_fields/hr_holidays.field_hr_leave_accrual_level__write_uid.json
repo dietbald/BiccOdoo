@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15696,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      949,
+      "Accrual Plan Level"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bf1b17aa7f33c4ca1c83d4ef4e0b768578c6217a2a5b239850123d0f35789651",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_accrual_level__write_uid"
+}

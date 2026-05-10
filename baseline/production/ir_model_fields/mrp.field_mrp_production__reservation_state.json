@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16158,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "MO Readiness",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "reservation_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "260fbf5b99939bda302eb763f10885edaca62aed60134dd2a3d286369340e13f",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__reservation_state"
+}

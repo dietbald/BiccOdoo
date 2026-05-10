@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21082,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Yearly Cost",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "final_yearly_costs",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "3a1327d38245a0e86f9f77a77483998ae7e7f4a660f9069510fc967b8062bc03",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_version__final_yearly_costs"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1367,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "hr.holidays.status employee",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "230f814f2869e6075dd8a425c521badbd126c3841faaf4598ed2d80681b9ab50",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.access_hr_holidays_status_employee"
+}

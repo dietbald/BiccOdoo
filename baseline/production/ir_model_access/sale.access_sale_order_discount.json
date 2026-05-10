@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 729,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      621,
+      "Discount Wizard"
+    ],
+    "name": "access_sale_order_discount",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f02084f4b828ff79b9e5b1532e4fd6957e6d3450c20ce76b5019fb3e11fd6756",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_sale_order_discount"
+}

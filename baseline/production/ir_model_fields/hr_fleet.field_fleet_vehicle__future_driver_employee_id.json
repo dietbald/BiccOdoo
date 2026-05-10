@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17282,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Future Driver (Employee)",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "future_driver_employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "887af8f8118856e93e38259e2208300286a54834679f8473cb6d844b1ecc54b8",
+  "write_date": "",
+  "xml_id": "hr_fleet.field_fleet_vehicle__future_driver_employee_id"
+}

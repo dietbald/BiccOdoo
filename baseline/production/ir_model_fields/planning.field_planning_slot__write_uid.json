@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13893,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bed5eaa0328038d83f3906e49c5167cd30b5365929973a45d5719c19de2be5e5",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__write_uid"
+}

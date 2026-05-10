@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2493,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Batch composition",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "composition_batch",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3828d9f6c978d5a8353d6b759aad821aa0584cad97a5cb6043b9640d98be7ecd",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__composition_batch"
+}

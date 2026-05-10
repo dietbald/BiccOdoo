@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13577,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Encoding Unit",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "timesheet_encode_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8d9d5f88ac9a578403894403e46c9321e906d6dd0295f339204072f82ebbb3fd",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_account_move__timesheet_encode_uom_id"
+}

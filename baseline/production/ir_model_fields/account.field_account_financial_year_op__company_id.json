@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5270,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      457,
+      "Opening Balance of Financial Year"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1c7631929e5123c1a8a099fd6aaafbf970b6824ef2b57f38108bdff946970115",
+  "write_date": "",
+  "xml_id": "account.field_account_financial_year_op__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2816,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Anonymized Name",
+    "model_id": [
+      355,
+      "Privacy Log"
+    ],
+    "name": "anonymized_name",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "cfce9a54af10ca72e8a3fd2ca1f03135551bc37c6a11042fff9e8c1d85a7b0e0",
+  "write_date": "",
+  "xml_id": "privacy_lookup.field_privacy_log__anonymized_name"
+}

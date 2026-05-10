@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2058,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      3471,
+      "Skills for job positions"
+    ],
+    "name": "hr.job.skill.recruitment.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ae01ef101ea9f9d266a261098566ff335af5fcb9e7f245365a6bcfe0596fc4ce",
+  "write_date": "2025-12-09 02:59:22",
+  "xml_id": "hr_recruitment_skills.access_hr_job_skill_recruitment_user"
+}

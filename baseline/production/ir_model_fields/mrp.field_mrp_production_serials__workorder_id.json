@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28687,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Workorder",
+    "model_id": [
+      3506,
+      "Assign serial numbers to production order"
+    ],
+    "name": "workorder_id",
+    "relation": "mrp.workorder",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a6e51984d4f13a433082c37df9c131286745e3184cae45a39736e0d0086fd760",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_serials__workorder_id"
+}

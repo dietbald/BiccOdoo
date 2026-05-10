@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16430,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show backorder lines",
+    "model_id": [
+      977,
+      "Wizard to mark as done or create back order"
+    ],
+    "name": "show_backorder_lines",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "86edf84556e589c7a4742c45a867227b4da01d66bbeb6d1316333f9ed97a70c4",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_backorder__show_backorder_lines"
+}

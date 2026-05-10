@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2053,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      3603,
+      "Return submission wizard"
+    ],
+    "name": "account.return.submission.wizard.acc.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e6146ad4fae48d84e43be13ae4ac3adcc382bbb88c50844d4e9e2115013b140c",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_return_submission_wizard_acc_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3657,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inline Form Template",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "inline_form_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "36ad7e203f79d37caa13802399089ac4250b1722bdcde8ab8d8a00d78a9fcba0",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__inline_form_view_id"
+}

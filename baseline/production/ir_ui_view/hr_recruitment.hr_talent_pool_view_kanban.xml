@@ -1,0 +1,35 @@
+<kanban highlight_color="color" action="1585" type="action" limit="40" multi_edit="1" sample="1">
+                <field name="name"/>
+                <field name="pool_manager"/>
+                <field name="company_id"/>
+                <templates>
+                    <t t-name="menu">
+                        <a role="menuitem" type="action" name="1585" class="dropdown-item">
+                            Talents</a>
+                        <field name="color" widget="kanban_color_picker"/>
+                        <a class="dropdown-item" t-if="widget.editable" name="edit_talent_pool" type="open">Configuration</a>
+                        <a role="menuitem" type="archive" class="dropdown-item">
+                            Archive</a>
+                    </t>
+                    <t t-name="card">
+                        <div class="row">
+                            <div class="col">
+                                <div class="d-flex flex-column">
+                                    <field name="name" class="fw-bold"/>
+                                    <field name="pool_manager"/>
+                                    <field name="company_id"/>
+                                </div>
+                            </div>
+                            <div class="col d-flex justify-content-end align-items-end mb-1">
+                                <button class="btn btn-primary" name="action_talent_pool_add_talents" type="object">
+                                    New Talent
+                                </button>
+                            </div>
+                        </div>
+                        <footer class="justify-content-end">
+                            <field name="no_of_talents"/>
+                            <span>Talents</span>
+                        </footer>
+                    </t>
+                </templates>
+            </kanban>

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1814,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      1460,
+      "Asset Group"
+    ],
+    "name": "account.asset.group",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "19fd74b38ef4d35f2d88774310473229655658abe0c402aad1561aa6d194f628",
+  "write_date": "2025-12-09 03:00:19",
+  "xml_id": "account_asset.access_account_asset_group_manager"
+}

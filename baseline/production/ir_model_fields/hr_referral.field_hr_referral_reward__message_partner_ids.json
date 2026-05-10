@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25547,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "74dd04a80bb9c1039a387801e5a1b61739ff147dbce247eedc141f77ac7247b4",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__message_partner_ids"
+}

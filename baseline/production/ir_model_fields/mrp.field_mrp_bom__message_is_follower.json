@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "36e56b989d80a881b85619bfcafbbfe3bf110d7617362daf30355486f71d609e",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom__message_is_follower"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9448,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "price_total",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "bab4b70537bb20e6eff21491d67974d369d59d80b4e05d48208837190f1a0e13",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__price_total"
+}

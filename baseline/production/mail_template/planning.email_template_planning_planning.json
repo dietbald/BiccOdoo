@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 41,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<style>\n                .planning_mail_template_button {\n                    padding: 5px 10px;\n                    text-decoration: none;\n                    border: 1px;\n                    border-radius: 3px;\n                    display: inline-block; \n                    width: 190px;\n                    text-align: center;\n                }\n                </style>\n                <body><div>\n                    <p t-if=\"ctx.get('employee')\">Dear <t t-out=\"ctx['employee'].name or ''\">Anita Oliver</t>,</p>\n                    <p t-else=\"\">Hello,</p>\n                    <br/>\n                    <p t-if=\"ctx.get('start_datetime') and ctx.get('end_datetime')\">\n                        Your upcoming shifts from <t t-out=\"format_date(ctx['start_datetime'])\">05-05-2021</t>\n                        to <t t-out=\"format_date(ctx['end_datetime'])\">05-11-2021</t> have been published.\n                    </p>\n                    <div style=\"display: flex; margin: 15px;\">\n                        <div t-if=\"ctx.get('planning_url')\" style=\"margin-right: 15px;\">\n                            <a t-att-href=\"ctx['planning_url']\" target=\"_blank\" class=\"planning_mail_template_button\" t-attf-style=\"color: {{object.company_id.email_primary_color or '#FFFFFF'}}; background-color: {{object.company_id.email_secondary_color or '#875A7B'}};\">View Your Planning</a>\n                        </div>\n                        <div t-if=\"ctx.get('planning_url_ics')\">\n                            <a t-att-href=\"ctx['planning_url_ics']\" target=\"_blank\" class=\"planning_mail_template_button\" style=\"color: #374151; background-color: #E7E9ED; border: solid #E7E9ED;\">Add to Calendar</a>\n                        </div>\n                    </div>\n                    <br/>\n                    <p t-if=\"ctx.get('slot_unassigned') or (object.allow_self_unassign and object.self_unassign_days_before)\">\n                        <t t-if=\"ctx.get('slot_unassigned')\">\n                            We would also like to remind you that there are some open shifts available, and if you are interested and available, please assign yourself to those shifts.\n                        </t>\n                        <t t-if=\"object.allow_self_unassign and object.self_unassign_days_before\">\n                            If you are unable to work a shift that has been assigned to you, please unassign yourself within <t t-out=\"object.self_unassign_days_before or ''\">5</t> day(s) before the start of the shift.\n                        </t>\n                    </p>\n                    <p t-if=\"ctx.get('message')\" t-out=\"ctx['message']\"/>\n                    <p t-if=\"object.allow_self_unassign\">In case your current schedule doesn't suit you, we encourage you to reach out to your colleagues and request to switch shifts. They might be interested in exchanging shifts with you.</p>\n                </div>\n            </body>",
+    "email_from": "{{ object.company_id.email_formatted }}",
+    "email_to": "",
+    "lang": false,
+    "model_id": [
+      882,
+      "Schedule"
+    ],
+    "name": "Planning: New Schedule",
+    "subject": "Your planning from {{ format_date(ctx.get('start_datetime')) }} to {{ format_date(ctx.get('end_datetime')) }}"
+  },
+  "payload_sha256": "e2d1ed9204422c72635d468a11bb815a9bba90e8f06846b35d46eba9ead42063",
+  "write_date": "2025-12-09 02:59:29",
+  "xml_id": "planning.email_template_planning_planning"
+}

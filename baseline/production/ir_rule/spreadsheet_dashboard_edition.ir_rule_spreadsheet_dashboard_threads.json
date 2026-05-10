@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 590,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['&', ('dashboard_id' ,'!=', False), ('dashboard_id.group_ids', 'in', user.all_group_ids.ids)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1186,
+      "Spreadsheet discussion thread"
+    ],
+    "name": "Spreadsheet dashboard threads: groups",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d6b7edb24221afee4a899bf91fb6ca2a2093a405bc93911404b0f655ed327448",
+  "write_date": "2025-12-09 02:58:47",
+  "xml_id": "spreadsheet_dashboard_edition.ir_rule_spreadsheet_dashboard_threads"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15969,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "BoM",
+    "model_id": [
+      962,
+      "Byproduct"
+    ],
+    "name": "bom_id",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e2a701b995e64a69b15e9bf7880851dd938a0322b70868b50ff284c42dba1a0f",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_byproduct__bom_id"
+}

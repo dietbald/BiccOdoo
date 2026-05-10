@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12591,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "My Activity Deadline",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "my_activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "f1f799d453c67e7ceede6d97e625794cc0b79120b1ffaafec511eee2e9b9fc1e",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__my_activity_date_deadline"
+}

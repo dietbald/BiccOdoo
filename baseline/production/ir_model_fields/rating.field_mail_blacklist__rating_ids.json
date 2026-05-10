@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7570,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      167,
+      "Mail Blacklist"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "761fa230e719f8f5decd89d46c552c441005bb86c4c346285b8907a68cebfed4",
+  "write_date": "",
+  "xml_id": "rating.field_mail_blacklist__rating_ids"
+}

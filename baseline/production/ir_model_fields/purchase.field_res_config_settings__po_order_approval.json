@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order Approval",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "po_order_approval",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f8bf7b6f96d46391d0545c87be48beb9f8c691c02ee0d0f81beaac8322bef9fc",
+  "write_date": "",
+  "xml_id": "purchase.field_res_config_settings__po_order_approval"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15573,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a48326ed8a9187fe0ff5f1df8b0418d141b315a6e1f0c70204a0066d92705b42",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__activity_calendar_event_id"
+}

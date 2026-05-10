@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 419,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                    'search_default_team_id': [active_id],\n                    'default_team_id': active_id,\n                    'default_type': 'opportunity',\n                    'default_user_id': uid,\n            }\n            ",
+    "domain": "[('type','=','opportunity')]",
+    "name": "New Opportunity",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "form"
+  },
+  "payload_sha256": "37f92d280c3d303d8174f2a3729e96de0da3ff9d912bdbca87148177e3a7a700",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.action_opportunity_form"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 134,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('partner_ids', 'in', user.partner_id.id)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "Own events",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bd3a103450241a00b6f47f023ea68c57d623f33d5e111166ada3050d2e0b99b6",
+  "write_date": "2023-11-30 04:45:30",
+  "xml_id": "calendar.calendar_event_rule_my"
+}

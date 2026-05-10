@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4442,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount in Currency",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "ee8b2fb75953d6eecf3ec8bf1f49ca4cde5db274b31e1a11b98d503548041ab5",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__amount_currency"
+}

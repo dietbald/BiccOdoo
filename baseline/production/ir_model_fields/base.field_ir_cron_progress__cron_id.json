@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19423,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cron",
+    "model_id": [
+      1112,
+      "Progress of Scheduled Actions"
+    ],
+    "name": "cron_id",
+    "relation": "ir.cron",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bc5e0f2060b52f685c6068da1d0a6f9eb4979c9e8b99e4d53685ccfd7552b015",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_progress__cron_id"
+}

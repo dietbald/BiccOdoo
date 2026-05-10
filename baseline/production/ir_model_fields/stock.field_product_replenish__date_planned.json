@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11719,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduled Date",
+    "model_id": [
+      768,
+      "Product Replenish"
+    ],
+    "name": "date_planned",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "8f509a01c9e9adf1b127166c2843753fe65508feb5d7153c436372464e93cf2a",
+  "write_date": "",
+  "xml_id": "stock.field_product_replenish__date_planned"
+}

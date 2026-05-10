@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16942,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Workorder",
+    "model_id": [
+      999,
+      "Propose a change in the production"
+    ],
+    "name": "workorder_id",
+    "relation": "mrp.workorder",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cd8e97b4eb566aa51b1222f1dedb32f752696ab70a971e45466e417dea727c8a",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_propose_change__workorder_id"
+}

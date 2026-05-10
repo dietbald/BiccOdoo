@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26126,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2701,
+      "Talent Pool"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c4d8ed710b2973ceb66fc6eacadf08b21338584a30a0b6f5089044f0f92541ca",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_talent_pool__write_uid"
+}

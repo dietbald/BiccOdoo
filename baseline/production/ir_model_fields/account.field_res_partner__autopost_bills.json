@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22023,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-post bills",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "autopost_bills",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "acacbcf595981fff3ff4b3b9f9d2b1b46914d7cbb42a512f2dcaf2553d522c31",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__autopost_bills"
+}

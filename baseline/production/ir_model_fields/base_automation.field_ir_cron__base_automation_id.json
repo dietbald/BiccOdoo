@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13735,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Automation Rule",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "base_automation_id",
+    "relation": "base.automation",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eb864a223d8330a3e1c755821dd22d32e6c9be950d268024a3bc8793f92ff17b",
+  "write_date": "",
+  "xml_id": "base_automation.field_ir_cron__base_automation_id"
+}

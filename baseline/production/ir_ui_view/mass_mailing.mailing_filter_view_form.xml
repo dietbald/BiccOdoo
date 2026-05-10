@@ -1,0 +1,17 @@
+<form string="Mailing filters">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" placeholder="e.g. &quot;B2B Canadian Customers&quot;"/>
+                            <field name="mailing_model_id" placeholder="Select a Target Model..." options="{'no_create': True, 'no_open': True}"/>
+                        </group>
+                        <group>
+                            <field name="create_uid" widget="many2one_avatar_user"/>
+                        </group>
+                    </group>
+                    <group>
+                        <field name="mailing_model_name" invisible="1"/>
+                        <field name="mailing_domain" string="Domain" widget="domain" options="{'model': 'mailing_model_name'}" invisible="not mailing_model_id"/>
+                    </group>
+                </sheet>
+            </form>

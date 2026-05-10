@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28388,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Origin Split Expense",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "split_expense_origin_id",
+    "relation": "hr.expense",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6f7b4c51375ec79dc8d9eea57607cf64efc24af8ebcade9ae84e25447e2afac4",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__split_expense_origin_id"
+}

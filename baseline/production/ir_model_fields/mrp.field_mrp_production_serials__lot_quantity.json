@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28689,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of SN",
+    "model_id": [
+      3506,
+      "Assign serial numbers to production order"
+    ],
+    "name": "lot_quantity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f05d009384b15aa9a476e4d9625ed41818f40cb36af3d1117e92bddb2794f7d5",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_serials__lot_quantity"
+}

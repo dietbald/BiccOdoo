@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8246,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subtotal",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "price_subtotal",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "1c62a5c7dfdfc0c7879189e0be79da579faef824b87f6fb6c520fc8f44bbd98d",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__price_subtotal"
+}

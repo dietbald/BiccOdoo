@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7734,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cb8ad505822d3768f6f8f8ec7d0fd569829e17961cf18797cd5a9447d574f7cb",
+  "write_date": "",
+  "xml_id": "project.field_project_task__write_uid"
+}

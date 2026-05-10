@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17758,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1028,
+      "Social Stream"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "64a932a20b7d9d7b198c564cdb4d37ed1e15b70990a7824e0abf91802a611998",
+  "write_date": "",
+  "xml_id": "social.field_social_stream__write_uid"
+}

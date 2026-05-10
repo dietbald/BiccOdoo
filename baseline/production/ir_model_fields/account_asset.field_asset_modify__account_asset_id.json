@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6212,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Gross Increase Account",
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "account_asset_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2cecff432a98e795108968cb677414a5f979f0ebfcf31eccaea3fb5fa65f6fa0",
+  "write_date": "",
+  "xml_id": "account_asset.field_asset_modify__account_asset_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10931,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8409baab13c89943ff25b8ecdf3a7d47498b60d3233c7dd7173578de7182d741",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__company_id"
+}

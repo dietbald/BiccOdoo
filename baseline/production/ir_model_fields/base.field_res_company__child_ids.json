@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1027,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Branches",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "child_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bed5f6c264fdc4e8499987ee55f462c9371bf2a59b663ad0e70babe8c3c1e062",
+  "write_date": "",
+  "xml_id": "base.field_res_company__child_ids"
+}

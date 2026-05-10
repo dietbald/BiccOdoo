@@ -1,0 +1,16 @@
+<list sample="1">
+                <header>
+                    <button name="action_apply" type="object" string="Apply Changes"/>
+                </header>
+                <field name="name"/>
+                <field name="product_tmpl_id" optional="hide"/>
+                <field name="bom_id"/>
+                <field name="user_id" widget="many2one_avatar_user"/>
+                <field name="type" optional="hide"/>
+                <field name="tag_ids" optional="hide" widget="many2many_tags"/>
+                <field name="stage_id"/>
+                <field name="effectivity" optional="hide"/>
+                <field name="effectivity_date"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <field name="activity_exception_decoration" widget="activity_exception"/>
+            </list>

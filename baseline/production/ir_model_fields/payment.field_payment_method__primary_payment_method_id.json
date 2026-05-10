@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3627,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Primary Payment Method",
+    "model_id": [
+      407,
+      "Payment Method"
+    ],
+    "name": "primary_payment_method_id",
+    "relation": "payment.method",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e0d115990143d49ccbfea8bc9a962f384ce168dad8fb1b065d32c06a28bf4a4d",
+  "write_date": "",
+  "xml_id": "payment.field_payment_method__primary_payment_method_id"
+}

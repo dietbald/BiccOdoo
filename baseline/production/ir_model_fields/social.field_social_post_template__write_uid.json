@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17675,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1025,
+      "Social Post Template"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7ab6eb4def79acd70a032a08f8810654efdfc3d6d8b3d8f0cc347649e34dfddb",
+  "write_date": "",
+  "xml_id": "social.field_social_post_template__write_uid"
+}

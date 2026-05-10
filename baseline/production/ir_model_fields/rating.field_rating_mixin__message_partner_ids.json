@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7540,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      594,
+      "Rating Mixin"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f3647468d04eba81a0febea4f2d6511b12a24789fdc5d83b95976ac882e746c7",
+  "write_date": "",
+  "xml_id": "rating.field_rating_mixin__message_partner_ids"
+}

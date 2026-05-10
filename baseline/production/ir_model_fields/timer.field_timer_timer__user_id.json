@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13392,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      844,
+      "Timer Module"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "978cfcaa6c3ea20e690e42419ce88f2a84f077e168f40220d06e07a9d7fb3ccd",
+  "write_date": "",
+  "xml_id": "timer.field_timer_timer__user_id"
+}

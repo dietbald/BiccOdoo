@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15666,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Accrual Plan",
+    "model_id": [
+      949,
+      "Accrual Plan Level"
+    ],
+    "name": "accrual_plan_id",
+    "relation": "hr.leave.accrual.plan",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c32dceb05dbd4469305685230929810cc1b1b64ec2959bfcc78c17be6baa6e84",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_accrual_level__accrual_plan_id"
+}

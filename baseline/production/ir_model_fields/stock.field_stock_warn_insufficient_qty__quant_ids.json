@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11697,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quant",
+    "model_id": [
+      766,
+      "Warn Insufficient Quantity"
+    ],
+    "name": "quant_ids",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "4b0e9b5b3792b922105637610b80f7542adc2e3a9bfed45ed9e7c92e6ca04e46",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warn_insufficient_qty__quant_ids"
+}

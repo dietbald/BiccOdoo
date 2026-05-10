@@ -1,0 +1,6 @@
+<list string="Bank Reconciliation Move Presets">
+                    <field name="sequence" widget="handle"/>
+                    <field name="name"/>
+                    <field name="trigger"/>
+                    <field name="match_journal_ids" optional="hidden" widget="many2many_tags"/>
+                </list>

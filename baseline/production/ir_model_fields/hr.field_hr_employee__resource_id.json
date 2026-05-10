@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8641,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "resource_id",
+    "relation": "resource.resource",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0b36a50c6dcba1fd162def53b63e13ab341eb949d17a0f0c58917b9a4472f818",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__resource_id"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1211,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "\n            {\n                'default_res_model': 'project.task',\n            }\n        ",
+    "domain": "[('res_model', '=', 'project.task')]",
+    "name": "Worksheet Templates",
+    "res_model": "worksheet.template",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "769149ba2c5a016bbd8707289ff71150b7a605e2bd937a4a2a5cdc1d1ec58230",
+  "write_date": "2025-12-09 03:00:33",
+  "xml_id": "industry_fsm_report.fsm_worksheets_action_settings"
+}

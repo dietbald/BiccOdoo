@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9447,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subtotal",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "price_subtotal",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "08bf8822bdafff3cabae9124e48ac587ad9a67744139744e96eb33e0647b7c51",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__price_subtotal"
+}

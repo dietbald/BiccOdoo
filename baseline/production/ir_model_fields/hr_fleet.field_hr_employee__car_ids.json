@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vehicles (private)",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "car_ids",
+    "relation": "fleet.vehicle",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f8e8bf054580c4db2041dea44f71294501e7470b664543562336d8d26b79d924",
+  "write_date": "",
+  "xml_id": "hr_fleet.field_hr_employee__car_ids"
+}

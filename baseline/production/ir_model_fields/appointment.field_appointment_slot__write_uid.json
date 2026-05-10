@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15259,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7ef0ea5bc33d77b3ae233bda0d382355869c0f9e6c7985d4736f6a0c88d0ffee",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_slot__write_uid"
+}

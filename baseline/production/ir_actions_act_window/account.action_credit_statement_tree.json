@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1363,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'journal_type': 'credit'}",
+    "domain": "[('journal_id.type', '=', 'credit')]",
+    "name": "Credit Statements",
+    "res_model": "account.bank.statement",
+    "target": "current",
+    "view_mode": "list,pivot,graph"
+  },
+  "payload_sha256": "9bcd903a097a7952de71ef4b8b0e152a18b502777f8624f34dda8c8039d58a67",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_credit_statement_tree"
+}

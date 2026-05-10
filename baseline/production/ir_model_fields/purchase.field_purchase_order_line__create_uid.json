@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9469,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8c206b07a8ccbbe82dd2689e54da744a19712b7207dac7fa5b1c62bafa5063f7",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__create_uid"
+}

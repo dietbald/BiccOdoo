@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18732,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delivered Total",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "delivered_price_total",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "cdb4365c60ce4c6094a1adbf8f9c54ee23863d9b1f8743e6f95c387b7b0812bb",
+  "write_date": "",
+  "xml_id": "industry_fsm_sale.field_sale_order_line__delivered_price_total"
+}

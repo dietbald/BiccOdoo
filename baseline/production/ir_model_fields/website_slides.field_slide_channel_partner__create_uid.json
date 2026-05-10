@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24238,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1510,
+      "Channel / Partners (Members)"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6ce526853bfc8a0edaab866238bdb84cc48892786ba1aca3c232f660cd2c7cbd",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel_partner__create_uid"
+}

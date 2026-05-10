@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 52911,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Tools",
+    "model_id": [
+      3867,
+      "Ai Documents Sort"
+    ],
+    "name": "allowed_tools_ids",
+    "relation": "ir.actions.server",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "af9363bde915b10cd6f8b4d16556a2a9538e983dfda845045d18e6e65bb6430e",
+  "write_date": "",
+  "xml_id": "ai_documents.field_ai_documents_sort__allowed_tools_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13837,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "resource_id",
+    "relation": "resource.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "475a96c45b47524ef5c01b8ae69e9532b75b0f2c1f2fce9cdfb6503fc09ccf7e",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__resource_id"
+}

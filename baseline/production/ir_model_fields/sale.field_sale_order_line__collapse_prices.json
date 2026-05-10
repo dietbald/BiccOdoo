@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29345,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Collapse Prices",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "collapse_prices",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3a15de1041a5665e7e5cb4ef6727ac69549a7ec10d5ab052abcc7ec0a35816c6",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__collapse_prices"
+}

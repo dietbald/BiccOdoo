@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24552,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Name",
+    "model_id": [
+      1319,
+      "Can send messages via bus.bus"
+    ],
+    "name": "display_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "9157d0c1358f94bdd423bfea19df43c843a35cd64118c2a36a6fc6b8dc1b8f5e",
+  "write_date": "",
+  "xml_id": "mail.field_bus_listener_mixin__display_name"
+}

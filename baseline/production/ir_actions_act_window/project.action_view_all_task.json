@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 451,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_open_tasks': 1, 'default_user_ids': [(4, uid)], 'sale_show_partner_name': True}",
+    "domain": "[('has_template_ancestor', '=', False)]",
+    "name": "All Tasks",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "kanban,list,form,gantt,calendar,map,activity,pivot,graph"
+  },
+  "payload_sha256": "02a9ea77c24dda0a35a8b9e83e0936b3db400dfd6d75071ed4c931c180af6028",
+  "write_date": "2025-12-09 03:00:35",
+  "xml_id": "project.action_view_all_task"
+}

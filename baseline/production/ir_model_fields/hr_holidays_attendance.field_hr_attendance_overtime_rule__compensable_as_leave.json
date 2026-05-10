@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29172,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Give back as time off",
+    "model_id": [
+      3428,
+      "Overtime Rule"
+    ],
+    "name": "compensable_as_leave",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "662782661ca5f15bd616ade01472ce50a64dc16033a3b04d40e1570e245b8cdd",
+  "write_date": "",
+  "xml_id": "hr_holidays_attendance.field_hr_attendance_overtime_rule__compensable_as_leave"
+}

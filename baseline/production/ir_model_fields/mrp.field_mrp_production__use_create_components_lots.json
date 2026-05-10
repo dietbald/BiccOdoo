@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16146,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create New Lots/Serial Numbers for Components",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "use_create_components_lots",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0439edf0ad02891e7c3ccc3b8ef7da120682132295bb22b556bd69e70aa65952",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__use_create_components_lots"
+}

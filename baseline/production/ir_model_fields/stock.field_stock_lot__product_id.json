@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11147,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5d62ee794abc9d6afd9df593f367a132fd120da069e1e7119676c61c8874b200",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__product_id"
+}

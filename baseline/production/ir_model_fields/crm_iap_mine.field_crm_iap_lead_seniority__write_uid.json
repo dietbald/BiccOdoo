@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7475,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      591,
+      "People Seniority"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f2bbb8b789f9561f70ed98233ff957b3847eff8a1846a952dea161b24b3cdb95",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_seniority__write_uid"
+}

@@ -1,0 +1,7 @@
+<list string="cashmove list">
+                <field name="currency_id" column_invisible="True"/>
+                <field name="date"/>
+                <field name="user_id"/>
+                <field name="description"/>
+                <field name="amount" sum="Total" widget="monetary"/>
+            </list>

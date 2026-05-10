@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8769,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Address",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "address_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ab9e764b2e228b125091228d245512ca790c5b3b831f29c94587776b78344487",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee_public__address_id"
+}

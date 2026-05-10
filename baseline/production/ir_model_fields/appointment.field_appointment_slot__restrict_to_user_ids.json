@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15247,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Restrict to Users",
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "restrict_to_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f9104f39fd17ae069de6812d330ab3763e046fd7aecb40d517db6c1f820c7199",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_slot__restrict_to_user_ids"
+}

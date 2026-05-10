@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 698,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      70,
+      "Demo failure"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aa78f7f89c55177836913d1aa9defd652aeb3f8119d26ea5c8457cfbaccfa45c",
+  "write_date": "",
+  "xml_id": "base.field_ir_demo_failure__create_uid"
+}

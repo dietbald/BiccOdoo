@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T12:35:41Z",
+  "id": 613,
+  "model": "ir.model",
+  "payload": {
+    "model": "sale.order",
+    "modules": "industry_fsm_sale, industry_fsm_stock, mass_mailing_sale, sale, sale_crm, sale_edi_ubl, sale_expense, sale_management, sale_pdf_quote_builder, sale_planning, sale_product_matrix, sale_project, sale_purchase, sale_purchase_stock, sale_renting, sale_renting_crm, sale_renting_planning, sale_stock, sale_stock_renting, sale_timesheet, spreadsheet_sale_management, stock_dropshipping, whatsapp_sale",
+    "name": "Sales Order",
+    "state": "base"
+  },
+  "payload_sha256": "fa72bc4dd13772eeb4494ec90b74038b643831ddd1682d651991634f30ca675f",
+  "write_date": "",
+  "xml_id": "whatsapp_sale.model_sale_order"
+}

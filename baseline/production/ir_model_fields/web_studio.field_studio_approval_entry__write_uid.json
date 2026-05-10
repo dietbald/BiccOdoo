@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13778,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      876,
+      "Studio Approval Entry"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f5c6614fcf145bbe4f6a768b59cf7858ad0a59ae153edbbe36b772c3635c8362",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_entry__write_uid"
+}

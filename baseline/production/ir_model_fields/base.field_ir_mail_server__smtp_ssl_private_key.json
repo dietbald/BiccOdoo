@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 578,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SSL Private Key",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "smtp_ssl_private_key",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "bed4bec7b1f43bd41c2ca907f7042790fb7c5e48760c7a27cb0e236c1d4ef01e",
+  "write_date": "",
+  "xml_id": "base.field_ir_mail_server__smtp_ssl_private_key"
+}

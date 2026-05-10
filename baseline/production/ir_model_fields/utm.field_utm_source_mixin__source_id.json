@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6833,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source",
+    "model_id": [
+      560,
+      "UTM Source Mixin"
+    ],
+    "name": "source_id",
+    "relation": "utm.source",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0f6c820ade03d3d85c45620f0651faa0eec72cb4a3f2adab56d9784b996975fc",
+  "write_date": "",
+  "xml_id": "utm.field_utm_source_mixin__source_id"
+}

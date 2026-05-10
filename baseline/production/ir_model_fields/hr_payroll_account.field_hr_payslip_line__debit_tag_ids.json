@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20864,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debit Tax Grids",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "debit_tag_ids",
+    "relation": "account.account.tag",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9193415dc1dd2e1067ec8578444992ff9e9171efee278d54c6db74f043b2b0a8",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_payslip_line__debit_tag_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20993,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Proposed Contracts",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "proposed_contracts",
+    "relation": "hr.version",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2c56650bf1514ba1eb34fcf2b5b57f3f7ae552125dce300bf94f647c43b328d9",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_applicant__proposed_contracts"
+}

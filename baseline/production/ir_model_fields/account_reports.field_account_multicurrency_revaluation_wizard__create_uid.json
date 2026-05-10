@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6092,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      523,
+      "Multicurrency Revaluation Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ed05cc240ff1d842ce80a0608590cb35ddc198b90e2a27102fe9214269bbeed8",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_multicurrency_revaluation_wizard__create_uid"
+}

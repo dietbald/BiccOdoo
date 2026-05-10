@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2098,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Delete",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "auto_delete",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ed043d9a7c39ee8b4608b1837f42e9be65c125dfded4dcd90594973e2281ecdf",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__auto_delete"
+}

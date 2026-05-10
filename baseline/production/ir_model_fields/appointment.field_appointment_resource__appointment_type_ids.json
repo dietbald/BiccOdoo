@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15236,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available in",
+    "model_id": [
+      939,
+      "Appointment Resource"
+    ],
+    "name": "appointment_type_ids",
+    "relation": "appointment.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "bbd991e67983cff3a56689b848385e0a40dc00e7fea5b4e1cd47806fbce2d81f",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_resource__appointment_type_ids"
+}

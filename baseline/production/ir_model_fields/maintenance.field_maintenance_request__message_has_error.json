@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18162,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1481526edaf2bb03c5762f348b4a0289d52f5282b50e7ee0ffb2fa8c6b8460cf",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__message_has_error"
+}

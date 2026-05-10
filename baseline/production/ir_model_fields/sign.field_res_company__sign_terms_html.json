@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10466,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sign Default Terms and Conditions as a Web page",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "sign_terms_html",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "d463d109401b82da0a018372692730ea1fb4bf5b4af393164d34169ed7b95e03",
+  "write_date": "",
+  "xml_id": "sign.field_res_company__sign_terms_html"
+}

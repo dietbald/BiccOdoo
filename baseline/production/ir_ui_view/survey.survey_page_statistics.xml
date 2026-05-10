@@ -1,0 +1,12 @@
+<t name="Survey: result statistics page" t-name="survey.survey_page_statistics">
+        <t t-set="no_livechat" t-value="True"/>
+        <t t-set="no_survey_navigation" t-value="True"/>
+        <t t-call="survey.layout">
+            <t t-call="survey.survey_button_form_view"/>
+            <t t-set="page_record_limit" t-value="10"/><!-- Change this record_limit to change number of record  per page-->
+            <div class="o_container_small o_survey_result">
+                <t t-call="survey.survey_page_statistics_header"/>
+                <t t-call="survey.survey_page_statistics_inner"/>
+            </div>
+        </t>
+    </t>

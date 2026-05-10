@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 724,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      2881,
+      "User Settings for Embedded Actions"
+    ],
+    "name": "Administrators can access all User Settings embedded actions",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "24718cd8b982aa82d511cf74d7f21acd8b50600f939290f4533277e3a366831a",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "web.res_users_settings_embedded_action_rule_admin"
+}

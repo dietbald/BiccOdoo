@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 467,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      961,
+      "Bill of Material Line"
+    ],
+    "name": "mrp_bom_line multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ec83bf764a5cded9201de95f55bdc1b50d926c11c803605740b0bdb0527bb342",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "mrp.mrp_bom_line_rule"
+}

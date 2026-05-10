@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 19,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_validate()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "Invoice OCR: Validate Invoices",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "89c02d48b03fbc85ab5c00fe0ce25566ae12d31f5b107909205675810f29db18",
+  "write_date": "2025-12-09 03:00:21",
+  "xml_id": "account_invoice_extract.ir_cron_ocr_validate"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Invalid Statements",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "journal_has_invalid_statements",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "76b4cb7361dbad6c9b844245de14e71db59c13a70dcc120c7d2dfa648fcb635e",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement__journal_has_invalid_statements"
+}

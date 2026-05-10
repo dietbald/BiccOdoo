@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11279,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assign Owner",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "owner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d76bc02c58bbad2d3603a1992a6c0b346c0dae58d00160139f633ad51c0aca3b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__owner_id"
+}

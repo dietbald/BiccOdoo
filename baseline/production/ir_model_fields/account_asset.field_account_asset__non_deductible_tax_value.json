@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6167,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Non Deductible Tax Value",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "non_deductible_tax_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "5ce350a1ad102fcd88eceb9d1c57bd8c134e1d112bcc6a935ba85ae311f0e314",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__non_deductible_tax_value"
+}

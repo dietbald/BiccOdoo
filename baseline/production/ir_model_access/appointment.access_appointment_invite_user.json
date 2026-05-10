@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1337,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "appointment.invite.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1921f08987371d45bdfa4432a1f9e22768314f7ea05d9d52bc6e661a5039ec9f",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.access_appointment_invite_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5285,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Num Journals Without Account Bank",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "num_journals_without_account_bank",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "702eaa49bc8bf7edd42a4aafbf395718e54a94202a55afe7994551f0d20efd87",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__num_journals_without_account_bank"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4046,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dedicated Credit Note Sequence",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "refund_sequence",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7e9a7f20e19368817b5dbbadb58cbc340c2c284e395baf15834de9df4868dce3",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__refund_sequence"
+}

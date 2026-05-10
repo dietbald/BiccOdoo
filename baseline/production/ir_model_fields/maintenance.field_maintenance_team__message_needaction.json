@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27217,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4d1a4a468d285d89cbb435614114c1ff01f4cfa6fc1a7d0029a05532c7dfd721",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__message_needaction"
+}

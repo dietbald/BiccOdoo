@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22214,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Untaxed Amount Signed Currency",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "amount_untaxed_in_currency_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "1bbd0b37d03fcf382d9d4c52c42b5fd202456eb662b15d2f96b8c58c6f136afc",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__amount_untaxed_in_currency_signed"
+}

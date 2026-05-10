@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13009,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1061743de1140465081b006a6b8b39e7af40c249fc158cfb1cd4b2c6417b5c54",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__message_is_follower"
+}

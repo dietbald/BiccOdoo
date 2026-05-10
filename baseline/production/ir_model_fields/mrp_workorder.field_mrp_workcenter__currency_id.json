@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "36b4b167bf46ccd47c1fa9c997b330a344e51f73b034b0c07426b2bff71d8aa2",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workcenter__currency_id"
+}

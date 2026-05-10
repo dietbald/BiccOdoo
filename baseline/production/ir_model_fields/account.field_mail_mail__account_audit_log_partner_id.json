@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "account_audit_log_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cead56f75c58c896006ff394f896cbffec3afcbb0f5aec36224d65026a19cef2",
+  "write_date": "",
+  "xml_id": "account.field_mail_mail__account_audit_log_partner_id"
+}

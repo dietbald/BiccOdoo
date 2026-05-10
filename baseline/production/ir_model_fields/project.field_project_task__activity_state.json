@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activity State",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "activity_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7b02b49e66d73fa28cb4f4fb2391c77ea02152492054ae89d76a459467f74dec",
+  "write_date": "",
+  "xml_id": "project.field_project_task__activity_state"
+}

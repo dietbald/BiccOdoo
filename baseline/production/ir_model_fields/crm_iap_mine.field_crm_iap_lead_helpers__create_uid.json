@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      588,
+      "Helper methods for crm_iap_mine modules"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "58bcc49cb80b0a6acac2b23e8104bb4b01ca04e4c65e6295c90fb7a315124b17",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_helpers__create_uid"
+}

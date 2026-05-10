@@ -1,0 +1,28 @@
+<search>
+                <field name="reference" string="Document/Signer" filter_domain="['|', '|', ('reference', 'ilike', self), ('request_item_ids.partner_id.email', 'ilike', self), ('request_item_ids.partner_id.complete_name', 'ilike', self)]"/>
+                <field name="template_id" string="Template or Tag" filter_domain="['|', ('template_id.name', 'ilike', self), ('template_id.tag_ids.name', 'ilike', self)]"/>
+                <filter name="my_docs" string="My Documents" domain="[('create_uid', '=', uid)]"/>
+                <filter name="my_sign_request" string="My Requests" domain="[('request_item_ids.partner_id.user_ids', 'in', uid)]"/>
+                <separator/>
+                <filter name="favorite" string="My Favorites" domain="[('favorited_ids', 'in', uid)]"/>
+                <separator/>
+                <filter name="activities_expiring_soon" string="Expiring Soon" domain="[('activity_ids.date_deadline', '&lt;', 'today +7d')]"/>
+                <separator/>
+                <filter name="waiting_for_me" string="Waiting for me" domain="[('need_my_signature', '=', True)]"/>
+                <filter name="waiting_for_others" string="Waiting for others" domain="[('create_uid', '=', uid), ('state', '=', 'sent'), '|', ('need_my_signature', '=', False), ('nb_wait', '&gt;', 1)]"/>
+                <separator/>
+                <filter name="sent" string="Sent" domain="[('state', '=', 'sent')]"/>
+                <filter name="signed" string="Signed" domain="[('state', '=', 'signed')]"/>
+                <filter name="canceled" string="Cancelled" domain="[('state', '=', 'canceled')]"/>
+                <filter invisible="1" string="My Activities" name="filter_activities_my" domain="[('activity_user_id', '=', uid)]"/>
+                <separator invisible="1"/>
+                <filter invisible="1" string="Late Activities" name="activities_overdue" domain="[('my_activity_date_deadline', '&lt;', 'today')]" help="Show all records whose next activity date is past"/>
+                <filter invisible="1" string="Today Activities" name="activities_today" domain="[('my_activity_date_deadline', '=', 'today')]"/>
+                <filter invisible="1" string="Future Activities" name="activities_upcoming_all" domain="[('my_activity_date_deadline', '&gt;', 'today')                         ]"/>
+                <separator/>
+                <filter name="archived_documents" string="Archived" domain="[('active', '=', False)]"/>
+                <group>
+                    <filter name="group_by_template" string="Template" domain="[]" context="{'group_by': 'template_id'}"/>
+                    <filter name="group_by_state" string="State" domain="[]" context="{'group_by': 'state'}"/>
+                </group>
+            </search>

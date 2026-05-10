@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20752,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Budget Type",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "budget_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d99dbdbd2eedd034b0fa22f9d2f6b9928a4da55181b21d007204816caef91fe1",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__budget_type"
+}

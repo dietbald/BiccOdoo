@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 157,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', 'in', (False, user.id))]",
+    "groups": [],
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "Project/Task Type: see own or unowned stages",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "842fc777365e4db9d7eac6e0bd6a6d20bade0961678bd712796bd9d6c9571ade",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.task_type_visibility_rule"
+}

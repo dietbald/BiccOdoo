@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 632,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_ids', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      469,
+      "Spreadsheet Dashboard"
+    ],
+    "name": "Dashboard multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0dbb57468c928cee6e1a666b52b9beecea340329253b75f79f43d9d9e19f16e3",
+  "write_date": "2025-12-09 02:57:24",
+  "xml_id": "spreadsheet_dashboard.spreadsheet_dashboard_rule_company"
+}

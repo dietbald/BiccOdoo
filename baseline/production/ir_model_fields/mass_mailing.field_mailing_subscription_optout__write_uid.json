@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14147,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      892,
+      "Mailing Subscription Reason"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "468a8c8c096f6b34353ac9b01760e284cee028df6c7ff67eccc407f8e3ded83f",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_subscription_optout__write_uid"
+}

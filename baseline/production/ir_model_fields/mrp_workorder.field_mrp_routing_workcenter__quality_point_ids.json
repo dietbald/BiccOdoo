@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16854,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality Point",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "quality_point_ids",
+    "relation": "quality.point",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "521f37c2f55d7d7669508c12805d30cf657414716984fbe384ebf9f7ba0095aa",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_routing_workcenter__quality_point_ids"
+}

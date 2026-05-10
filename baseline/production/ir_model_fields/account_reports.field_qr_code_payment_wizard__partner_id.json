@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29077,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Holder",
+    "model_id": [
+      3604,
+      "Generic Payment Wizard with QR Code"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ce2f53aabc3039efb2a3920f84bc12fac5ec2cbfbfeb646b37be474350662478",
+  "write_date": "",
+  "xml_id": "account_reports.field_qr_code_payment_wizard__partner_id"
+}

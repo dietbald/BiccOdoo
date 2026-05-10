@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17319,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subcontracting Location",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "subcontracting_location_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9d84c080c215cce0549af5a8dfd3a43e800ea4834ef854572e61c81ca3f84738",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_res_company__subcontracting_location_id"
+}

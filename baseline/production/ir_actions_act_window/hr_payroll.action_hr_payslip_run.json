@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1712,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_groupby_state': 1}",
+    "domain": false,
+    "name": "Pay Runs",
+    "res_model": "hr.payslip.run",
+    "target": "current",
+    "view_mode": "kanban,calendar,pivot,graph"
+  },
+  "payload_sha256": "9c4e44c8f54f30554b5dc29b1cb942c5a06c069f3029856e948daa3dd71c00df",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.action_hr_payslip_run"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1616,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Onboarding Progress Step Records",
+    "model_id": [
+      140,
+      "Onboarding Step"
+    ],
+    "name": "progress_ids",
+    "relation": "onboarding.progress.step",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "af687f397e871fffcb5c85eee12469f0ab4c3df0a598ae5be63c53296d18019f",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_onboarding_step__progress_ids"
+}

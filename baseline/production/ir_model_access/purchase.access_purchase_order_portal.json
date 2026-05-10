@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 802,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "purchase.order.portal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "828e2029b763fff7d6c062ee9c99d34be4422ae7c73b7d265bc42ec4ad511905",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_purchase_order_portal"
+}

@@ -1,0 +1,26 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 41,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n                [\n                    \"|\",\n                        \"&\",\n                            (\"channel_id.channel_type\", \"!=\", \"channel\"),\n                            \"|\",\n                                (\"channel_id.is_member\", \"=\", True),\n                                (\"channel_id.parent_channel_id.is_member\", \"=\", True),\n                        \"&\",\n                            (\"channel_id.channel_type\", \"=\", \"channel\"),\n                            \"|\",\n                                (\"channel_id.group_public_id\", \"=\", False),\n                                (\"channel_id.group_public_id\", \"in\", user.all_group_ids.ids),\n                ]\n            ",
+    "groups": [
+      1,
+      10,
+      11
+    ],
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "discuss.channel.member: read members of accessible channels",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a0fcc0170ed85e4ab3e4f30264cca58b5be48837fc2c305e5d08b3723ebcb630",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.ir_rule_discuss_channel_member_read_all"
+}

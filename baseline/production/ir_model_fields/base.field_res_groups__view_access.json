@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1074,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Views",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "view_access",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "df3866b904696d4cb468003cc38d8c049b8ec899e5644660d7cbd97fac5c4b1d",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__view_access"
+}

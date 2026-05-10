@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28281,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Exemption Reason Code",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "ubl_cii_tax_exemption_reason_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "aacb722b7b1fef68a750977eb0adb269d8b2183be949af3237069dfeed88c29b",
+  "write_date": "",
+  "xml_id": "account_edi_ubl_cii.field_account_tax__ubl_cii_tax_exemption_reason_code"
+}

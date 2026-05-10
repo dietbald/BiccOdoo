@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1150,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Banks",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "bank_ids",
+    "relation": "res.partner.bank",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cc42dc77ad9f9838044b630dccb160d5240f1ab9806f2890845ce0b6cf2f6adf",
+  "write_date": "",
+  "xml_id": "base.field_res_users__bank_ids"
+}

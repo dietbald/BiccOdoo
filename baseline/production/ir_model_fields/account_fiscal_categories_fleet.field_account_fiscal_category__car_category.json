@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17305,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Requires a Vehicle",
+    "model_id": [
+      528,
+      "Account Fiscal Category"
+    ],
+    "name": "car_category",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b02fe32cddb248cfca91ab46fbfc503e4d7af820b06abb84d0a0b5c9418d189a",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories_fleet.field_account_fiscal_category__car_category"
+}

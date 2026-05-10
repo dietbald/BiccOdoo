@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9310,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expenses",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "can_be_expensed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3db53058aabe33eaa29530bbbf7167543cc17c4c81deb8127517db8bd2ca46f2",
+  "write_date": "",
+  "xml_id": "hr_expense.field_product_product__can_be_expensed"
+}

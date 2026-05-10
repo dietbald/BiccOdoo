@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20313,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      1188,
+      "Product Replenish Mixin"
+    ],
+    "name": "supplier_id",
+    "relation": "product.supplierinfo",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "06092b84c71082d4091dcf262994699ac9287c0adc3e336a077f09ab01208a9b",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_replenish_mixin__supplier_id"
+}

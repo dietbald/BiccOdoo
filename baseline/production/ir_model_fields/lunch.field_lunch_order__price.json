@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Price",
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "price",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "36fe702789d999fbc805c77d31b291981580d64b8a53ebeee2c3c5e65d0d5d16",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_order__price"
+}

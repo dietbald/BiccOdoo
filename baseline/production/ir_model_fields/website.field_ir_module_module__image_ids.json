@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9875,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Screenshots",
+    "model_id": [
+      66,
+      "Module"
+    ],
+    "name": "image_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7334bda801fb0373ecb09f4b1fe3a64e79d87e4b798b76dedc7ff853cdf37596",
+  "write_date": "",
+  "xml_id": "website.field_ir_module_module__image_ids"
+}

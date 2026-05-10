@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 60,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('company_id','=',False),('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      343,
+      "Analytic Plan's Applicabilities"
+    ],
+    "name": "Analytic applicability multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "67ff5bbbcb2c6bfa9127436ed1d4449a6c32bdbc37b386302632c7cfdd54c979",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "analytic.analytic_applicability_comp_rule"
+}

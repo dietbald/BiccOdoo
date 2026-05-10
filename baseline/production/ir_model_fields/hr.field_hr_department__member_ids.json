@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8827,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Members",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "member_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "3b81fe9fdcaf5dee61aab7f773ee21f2dd2d508c0bf25c361fb94be0e4d89367",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__member_ids"
+}

@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 409,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      52,
+      2
+    ],
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "Manager can see any goal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "770aeb49894903a693adfa9a61e7164af8a8f49c35a3aa6c020db50e654f7ac6",
+  "write_date": "2024-04-30 05:06:58",
+  "xml_id": "gamification.goal_gamification_manager_visibility"
+}

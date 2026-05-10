@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5713,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Expense Account",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "deferred_expense_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "689cc3c8df455f59e9c7810d4ad09f69adba0336155aa92f977b9800ee128e5e",
+  "write_date": "",
+  "xml_id": "account_accountant.field_res_config_settings__deferred_expense_account_id"
+}

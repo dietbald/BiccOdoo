@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8298,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Variant",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1588bf351c0d480766d266094599554d5d744da2d4751f4b4435f7799cb3e12b",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__product_id"
+}

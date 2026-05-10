@@ -1,0 +1,4 @@
+<search>
+                <field name="name" string="Name"/>
+                <filter name="available_pms" string="Available methods" domain="[('provider_ids.state', '!=', 'disabled')]"/>
+            </search>

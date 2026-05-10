@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 740,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      73,
+      "Paper Format Config"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c9d19b078351026f6b261b527a4c14b4455b14bbeffe246728c7a80b059e04a5",
+  "write_date": "",
+  "xml_id": "base.field_report_paperformat__create_uid"
+}

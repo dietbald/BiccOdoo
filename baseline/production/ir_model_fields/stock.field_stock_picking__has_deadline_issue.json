@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11254,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is late",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "has_deadline_issue",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ecf676b629b727599a9d4ded3181617980cab534891a822a7913a4638a51911f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__has_deadline_issue"
+}

@@ -1,0 +1,10 @@
+<data><field name="list_price" position="after">
+                <field name="display_price"/>
+            </field>
+            <field name="list_price" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+            <field name="standard_price" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+        </data>

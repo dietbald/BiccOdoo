@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dbce765f62d848ab9e74a90e807a5352f19a97624b587f4c6b473a7ed7c47b55",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__write_uid"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 576,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_partner_id': active_id, 'default_partner_id': active_id}",
+    "domain": false,
+    "name": "RFQs and Purchases",
+    "res_model": "purchase.order",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph"
+  },
+  "payload_sha256": "313bd1c0f8bc6db2cb50f729742b7def4b8cf8e30a621007f5e8ed4850958c9a",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.act_res_partner_2_purchase_order"
+}

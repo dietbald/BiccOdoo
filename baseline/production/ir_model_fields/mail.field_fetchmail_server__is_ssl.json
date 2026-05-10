@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1828,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SSL/TLS",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "is_ssl",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a9962c2d4e61d030b4ee4fa4ea3515d0779942aeaca3617cb002ccb9c7c49f86",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__is_ssl"
+}

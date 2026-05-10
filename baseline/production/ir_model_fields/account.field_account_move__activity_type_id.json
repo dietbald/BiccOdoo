@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4286,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9f3997f44de6b7252c8e3b4a4472955e8e52ad49e94fc605f835bf5fdc29fc0",
+  "write_date": "",
+  "xml_id": "account.field_account_move__activity_type_id"
+}

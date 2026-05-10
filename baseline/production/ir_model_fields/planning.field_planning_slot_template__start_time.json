@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13926,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Planned Hours",
+    "model_id": [
+      883,
+      "Shift Template"
+    ],
+    "name": "start_time",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "568f9b97a68f8673ac5356875f9be8f072375e7dd7d16ade22f44aed7c7ef6dc",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot_template__start_time"
+}

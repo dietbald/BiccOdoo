@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3373,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      353,
+      "Phone Blacklist Mixin"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "018e01095fa790f798995bb4fefded59639ba98e018f3e0f93a677456c669563",
+  "write_date": "",
+  "xml_id": "portal.field_mail_thread_phone__website_message_ids"
+}

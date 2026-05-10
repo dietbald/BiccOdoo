@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13599,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Total Duration",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "timesheet_total_duration",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "b9373d4ebc548c4d712728db7fef849728b591c704a3a63206d6672f47222297",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_sale_order__timesheet_total_duration"
+}

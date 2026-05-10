@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29078,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "IBAN",
+    "model_id": [
+      3604,
+      "Generic Payment Wizard with QR Code"
+    ],
+    "name": "acc_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ee3a2007b71ff4467751391aed730ba196191b53b9cf3e7e4ad4f32c85189cd2",
+  "write_date": "",
+  "xml_id": "account_reports.field_qr_code_payment_wizard__acc_number"
+}

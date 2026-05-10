@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6101,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      524,
+      "Manage the file generation errors from report exports."
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "afea8f61dd7f0e97ed3aabfc97533a6196908faa28d75beb412e977b07f7b220",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_file_download_error_wizard__create_uid"
+}

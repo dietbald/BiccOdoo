@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11100,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Min Quantity",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "product_min_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "86d8cd98a38fbe1f89d5a30e75447cd1f1508fddd42c4f7003ec05aa85415954",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__product_min_qty"
+}

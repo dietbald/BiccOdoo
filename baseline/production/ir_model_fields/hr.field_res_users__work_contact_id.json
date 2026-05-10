@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8917,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Contact",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "work_contact_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eab626b9cb66d9f4af7bb69622a219d6d4a1badeaed05f91ac42aed5bb227469",
+  "write_date": "",
+  "xml_id": "hr.field_res_users__work_contact_id"
+}

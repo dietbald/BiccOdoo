@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8130,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "source_id",
+    "relation": "utm.source",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6b4b03d5213ed6e80437797b26cbf52d1f164cb205b79fce49cda2548bf06e21",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__source_id"
+}

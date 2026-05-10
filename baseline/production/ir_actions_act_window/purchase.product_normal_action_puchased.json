@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 566,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\"search_default_filter_to_purchase\":1, \"purchase_product_template\": 1}",
+    "domain": false,
+    "name": "Products",
+    "res_model": "product.template",
+    "target": "current",
+    "view_mode": "kanban,list,form,activity"
+  },
+  "payload_sha256": "c2f656f75b54beba7fbec2d6e986a04235de49e55710fe5e821b181719cdaa1d",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.product_normal_action_puchased"
+}

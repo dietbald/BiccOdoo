@@ -1,0 +1,50 @@
+<search string="Search Leads">
+                    <field name="name" string="Lead" filter_domain="['|','|','|',('partner_name', 'ilike', self),('email_from', 'ilike', self), ('contact_name', 'ilike', self), ('name', 'ilike', self)]"/>
+                    <field name="tag_ids" string="Tag" filter_domain="[('tag_ids', 'ilike', self)]"/>
+                    <field name="user_id"/>
+                    <field name="team_id"/>
+                    <field name="country_id"/>
+                    <field name="city"/>
+                    <field name="phone_mobile_search"/>
+                    <field name="lang_id"/>
+                    <field name="create_date"/>
+                    <field name="source_id"/>
+                    <field name="medium_id"/>
+                    <field name="campaign_id"/>
+                    <field name="activity_state"/>
+                    <field name="lead_properties"/>
+                    <field name="activity_user_id" string="Activities of"/>
+                    <field name="activity_type_id" string="Activity type"/>
+                    <separator/>
+                    <filter string="My Leads" name="assigned_to_me" domain="[('user_id', '=', uid)]" help="Leads that are assigned to me"/>
+                    <filter string="Unassigned" name="unassigned_leads" domain="[('user_id','=', False), ('type', '=', 'lead')]" help="Leads that are not assigned"/>
+                    <separator/>
+                    <filter string="Lost" name="lost" domain="[('won_status', '=', 'lost'), ('active', '=', False)]"/>
+                    <separator/>
+                    <filter string="Creation Date" name="filter_creation_date" date="create_date" default_period="month"/>
+                    <filter name="filter_date_closed" date="date_closed"/>
+                    <separator/>
+                    <separator/>
+                    <filter invisible="1" string="My Activities" name="filter_activities_my" domain="[('activity_user_id', '=', uid)]"/>
+                    <separator invisible="1"/>
+                    <filter invisible="1" string="Late Activities" name="activities_overdue" domain="[('my_activity_date_deadline', '&lt;', 'today')]" help="Show all opportunities for which the next action date is before today"/>
+                    <filter invisible="1" string="Today Activities" name="activities_today" domain="[('my_activity_date_deadline', '=', 'today')]"/>
+                    <filter invisible="1" string="Future Activities" name="activities_upcoming_all" domain="[('my_activity_date_deadline', '&gt;', 'today')]"/>
+                    <separator/>
+                    <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                    <group>
+                        <filter string="Salesperson" name="salesperson" context="{'group_by':'user_id'}"/>
+                        <filter string="Sales Team" name="saleschannel" context="{'group_by':'team_id'}"/>
+                        <filter name="city" string="City" context="{'group_by': 'city'}"/>
+                        <filter string="Country" name="country" context="{'group_by':'country_id'}"/>
+                        <filter string="Company" name="company" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
+                        <filter string="Campaign" name="compaign" domain="[]" context="{'group_by':'campaign_id'}"/>
+                        <filter string="Medium" name="medium" domain="[]" context="{'group_by':'medium_id'}"/>
+                        <filter string="Source" name="source" domain="[]" context="{'group_by':'source_id'}"/>
+                        <separator orientation="vertical"/>
+                        <filter string="Creation Date" context="{'group_by':'create_date:month'}" name="month"/>
+                        <filter string="Closed Date" name="date_closed" context="{'group_by':'date_closed'}"/>
+                        <separator/>
+                        <filter string="Properties" name="group_by_lead_properties" context="{'group_by':'lead_properties'}"/>
+                    </group>
+                </search>

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 220,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_payment_type': 'outbound', 'search_default_transfers_filter': 1, 'display_account_trust': True}",
+    "domain": "[]",
+    "name": "Internal Transfers",
+    "res_model": "account.payment",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph"
+  },
+  "payload_sha256": "b2f6e3ae91c19523ec2119c69c92d35ff83eb21b6a51d437424cf87cae692b53",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_payments_transfer"
+}

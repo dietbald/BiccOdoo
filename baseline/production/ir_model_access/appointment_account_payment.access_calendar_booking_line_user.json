@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1355,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      944,
+      "Meeting User/Resource Booking"
+    ],
+    "name": "calendar.booking.line.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "53f198b010d56c7e90a3d718b618f0943ea05719ec5e9d8896fae1587d2db745",
+  "write_date": "2025-12-09 02:59:12",
+  "xml_id": "appointment_account_payment.access_calendar_booking_line_user"
+}

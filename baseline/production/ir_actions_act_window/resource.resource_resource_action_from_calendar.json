@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 92,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_calendar_id': active_id,\n            'search_default_calendar_id': active_id}",
+    "domain": false,
+    "name": "Resources",
+    "res_model": "resource.resource",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "174c306ad99d3509aa517496eeceda7c4702bbcf0b0a29d121ece451a23a58dc",
+  "write_date": "2025-12-09 02:55:42",
+  "xml_id": "resource.resource_resource_action_from_calendar"
+}

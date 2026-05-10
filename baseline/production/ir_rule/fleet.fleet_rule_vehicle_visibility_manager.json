@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 484,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": false,
+    "groups": [
+      130
+    ],
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "Administrator has all rights on vehicle",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d232deb16695d7daa25a2b56160e3bc449a34fab66e3f7f858525be5545e31b6",
+  "write_date": "2024-05-05 08:27:22",
+  "xml_id": "fleet.fleet_rule_vehicle_visibility_manager"
+}

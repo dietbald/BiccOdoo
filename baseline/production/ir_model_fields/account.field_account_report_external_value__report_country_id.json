@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5192,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      451,
+      "Accounting Report External Value"
+    ],
+    "name": "report_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "156146839e80306bf604371de9e55c6d81112f835954c972b0f1c246554add00",
+  "write_date": "",
+  "xml_id": "account.field_account_report_external_value__report_country_id"
+}

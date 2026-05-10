@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15390,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Meeting Booking",
+    "model_id": [
+      944,
+      "Meeting User/Resource Booking"
+    ],
+    "name": "calendar_booking_id",
+    "relation": "calendar.booking",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2a56d220f6186624f26faac5da13704eb87d319ba2916561b88e562b7062370b",
+  "write_date": "",
+  "xml_id": "appointment_account_payment.field_calendar_booking_line__calendar_booking_id"
+}

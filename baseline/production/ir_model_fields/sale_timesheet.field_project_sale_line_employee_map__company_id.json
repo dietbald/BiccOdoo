@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13611,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      852,
+      "Project Sales line, employee mapping"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "db00436ba11529ac1a304766fb678ce015f16ff5e637420de548bf1754a111da",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_sale_line_employee_map__company_id"
+}

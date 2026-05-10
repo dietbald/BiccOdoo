@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 530,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'chat_icon': True}",
+    "domain": "[]",
+    "name": "Org Chart",
+    "res_model": "hr.employee",
+    "target": "current",
+    "view_mode": "hierarchy,kanban,list,form,activity,graph,pivot"
+  },
+  "payload_sha256": "52d130c2d39de455212264e76e179910a1bf7d0efb440844b4f9bd6129cc79a6",
+  "write_date": "2025-12-09 02:58:17",
+  "xml_id": "hr_org_chart.action_hr_employee_org_chart"
+}

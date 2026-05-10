@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7610,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Template",
+    "model_id": [
+      596,
+      "Project Stage"
+    ],
+    "name": "mail_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b3960b31914e5a06e8041634b4b190ecd9ef2e4cb4849a006602ae1bea3c62a0",
+  "write_date": "",
+  "xml_id": "project.field_project_project_stage__mail_template_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Technical field for whether the purchase order has associated sale orders",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "has_sale_order",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c11a85a21c3886321528467648cb5535dcd1594588cca3b0a3e109fdcde07bd6",
+  "write_date": "",
+  "xml_id": "sale_purchase.field_purchase_order__has_sale_order"
+}

@@ -1,0 +1,69 @@
+<form string="Time Off Request" class="o_hr_leave_form" duplicate="false">
+            <field name="employee_id" invisible="1"/> <!-- for the employee's default value-->
+            <field name="user_id" invisible="1"/> <!-- for conditional rendering of buttons on card -->
+            <header>
+                <button string="Approve" name="action_approve" type="object" class="oe_highlight" invisible="not can_approve or not id"/>
+                <button string="Validate" name="action_approve" invisible="not can_validate or can_approve or not id" type="object" class="oe_highlight"/>
+                <button string="Back to Approval" name="action_back_to_approval" type="object" invisible="not can_back_to_approve or not id"/>
+                <button string="Refuse" name="action_refuse" type="object" invisible="not can_refuse or not id"/>
+                <button string="Cancel" name="action_cancel" type="object" invisible="not can_cancel or not id"/>
+                <field name="state" widget="statusbar" statusbar_visible="confirm,validate,validate1" invisible="validation_type != 'both'"/>
+                <field name="state" widget="statusbar" statusbar_visible="confirm,validate" invisible="validation_type == 'both'"/>
+            </header>
+            <sheet>
+                <field name="dashboard_warning_message" class="alert alert-danger d-flex mt-2" role="alert" style="white-space: pre-wrap;" invisible="not dashboard_warning_message"/>
+                <field name="leave_type_increases_duration" class="alert alert-info d-flex mt-2" role="alert" style="white-space: pre-wrap;" invisible="not leave_type_increases_duration"/>
+                <div class="o_hr_leave_content row">
+                    <div class="o_hr_leave_column col_left col-md-6 col-12">
+                        <widget name="web_ribbon" title="Cancelled" bg_color="text-bg-danger" invisible="state != 'cancel'"/>
+                        <div name="title" class="o_hr_leave_title" invisible="1">
+                            <field name="display_name" invisible="not holiday_status_id"/>
+                        </div>
+                        <group name="col_left" class="m-0">
+                            <field name="holiday_status_id" force_save="1" domain="[                                     '|',                                         ('requires_allocation', '=', False),                                         '&amp;',                                             ('has_valid_allocation', '=', True),                                             '|',                                                 ('allows_negative', '=', True),                                                 '&amp;',                                                     ('virtual_remaining_leaves', '&gt;', 0),                                                     ('allows_negative', '=', False),                                 ]" context="{'employee_id': employee_id, 'default_date_from': date_from, 'default_date_to': date_to}" options="{'no_create': True, 'request_type': 'leave'}" readonly="state in ['cancel', 'refuse', 'validate', 'validate1']"/>
+                            <label for="request_date_from" invisible="not request_unit_half and not request_unit_hours" string="Date"/>
+                            <label for="request_date_from" invisible="request_unit_half or request_unit_hours" string="Dates"/>
+                            <div id="full_date" class="o_row">
+                                <field name="request_date_from" widget="daterange" readonly="state != 'confirm'" required="not date_from or not date_to" options="{'end_date_field': 'request_date_to', 'always_range': '1'}"/>
+                                <field name="request_date_to" invisible="1"/> <!-- For Form view test-->
+                                <div>
+                                    ( <field name="duration_display" readonly="1" class="w-auto"/> )
+                                </div>
+                            </div>
+                            <!-- half day or custom hours-->
+                            <label for="request_date_from_period" invisible="not request_unit_half" string="Day Period"/>
+                            <div class="o_row" invisible="not request_unit_half">
+                                <field name="request_date_from_period" invisible="not request_unit_half" required="request_unit_half" readonly="state != 'confirm'" class="o_hr_narrow_field me-2"/>
+                                <field name="request_date_to_period" invisible="not request_unit_half" required="request_unit_half" readonly="state != 'confirm'" class="o_hr_narrow_field"/>
+                            </div>
+                            <label for="request_hour_from" invisible="not request_unit_hours" string="Hours"/>
+                            <div class="o_row" invisible="not request_unit_hours">
+                                <field name="request_hour_from" readonly="state == 'validate'" required="request_unit_hours" widget="float_time_selection" class="o_hr_narrow_field me-2"/>
+                                <field name="request_hour_to" readonly="state == 'validate'" required="request_unit_hours" widget="float_time_selection" class="o_hr_narrow_field"/>
+                            </div>
+                            <div colspan="2" class="alert alert-info" role="alert" invisible="not request_unit_hours or not tz_mismatch or dashboard_warning_message">
+                                <span>The employee has a different timezone than yours! Here dates and times are displayed in the employee's work timezone</span>
+                                (<field name="tz" class="oe_inline fw-bold"/>).
+                                <div>For your reference, the equivalent times in your timezone are displayed below.</div>
+                            </div>
+                            <label for="date_from" string="Your Timezone" invisible="not request_unit_hours or not tz_mismatch"/>
+                            <div class="o_row o_row_readonly" invisible="not request_unit_hours or not tz_mismatch">
+                                <label for="date_from" string="From"/>
+                                <field name="date_from" readonly="1" widget="datetime"/>
+                                <label for="date_to" string="To"/>
+                                <field name="date_to" readonly="1"/>
+                            </div>
+                            <field name="name" readonly="state != 'confirm'" widget="text" nolabel="1" colspan="2" placeholder="No description provided"/>
+                        </group>
+                        <group>
+                            <field name="supported_attachment_ids" widget="many2many_binary" nolabel="1" invisible="state != 'confirm'"/>
+                        </group>
+                    </div>
+                    <div class="o_hr_leave_column col_right col-md-6 col-12">
+                        <widget name="hr_leave_stats"/>
+                    </div>
+                </div>
+            </sheet>
+            <div class="o_attachment_preview"/>
+            <chatter reload_on_post="True" reload_on_attachment="True"/>
+            </form>

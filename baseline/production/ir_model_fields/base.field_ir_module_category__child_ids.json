@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Applications",
+    "model_id": [
+      65,
+      "Application"
+    ],
+    "name": "child_ids",
+    "relation": "ir.module.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "955ac837acb330d0c56df36e3176640b94c6383727492f85e9e0101c56408e7e",
+  "write_date": "",
+  "xml_id": "base.field_ir_module_category__child_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14940,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bed1a42ec68073f6c0c2abad1cd01854cd89e605795f5544786c299be80b45b3",
+  "write_date": "",
+  "xml_id": "survey.field_survey_invite__create_uid"
+}

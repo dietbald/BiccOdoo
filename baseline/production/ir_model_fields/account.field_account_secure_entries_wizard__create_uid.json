@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22267,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1382,
+      "Secure Journal Entries"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e460153d1877e8fa2840b090941a79833414b9605a54e96c68795117d9d92eb3",
+  "write_date": "",
+  "xml_id": "account.field_account_secure_entries_wizard__create_uid"
+}

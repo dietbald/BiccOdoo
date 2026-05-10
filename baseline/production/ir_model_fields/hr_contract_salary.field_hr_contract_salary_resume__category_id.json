@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21145,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Category",
+    "model_id": [
+      1281,
+      "Salary Package Resume"
+    ],
+    "name": "category_id",
+    "relation": "hr.contract.salary.resume.category",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ce0076dbce7a23707b9dc491b472e33455a5df97d045ac2f738a80342c8c4ae4",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_resume__category_id"
+}

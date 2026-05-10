@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1679,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Hours",
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a4a8bf1bd9d2a4c9464eeef7dddfdca64cf0aeb689188e8ee55f733a123af66d",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar_leaves__calendar_id"
+}

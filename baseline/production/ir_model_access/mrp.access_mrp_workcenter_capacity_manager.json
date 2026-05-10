@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1445,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      118,
+      "Manufacturing / Administrator"
+    ],
+    "model_id": [
+      969,
+      "Work Center Capacity"
+    ],
+    "name": "mrp.workcenter.capacity.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6b8b0a276b43fe779d47ef415a4750066ff1acca91829fec17efc565e3b5a59e",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_workcenter_capacity_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11454,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Category Routes",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "route_from_categ_ids",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e8ca6f3bc49121f76eae39c7d5c4c062347d02db573944d950572fb2daf9d67c",
+  "write_date": "",
+  "xml_id": "stock.field_product_product__route_from_categ_ids"
+}

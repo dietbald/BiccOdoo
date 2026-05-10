@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3546,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e69c80ee649cd9eff179449c4cedcade68a5ef970697410499152474a5f721b4",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__state"
+}

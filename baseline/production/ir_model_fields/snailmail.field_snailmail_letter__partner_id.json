@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3537,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipient",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8387ea4f9326ef302af5112ced8b2c04ab39e5716a0dc72289edd43982b3809e",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__partner_id"
+}

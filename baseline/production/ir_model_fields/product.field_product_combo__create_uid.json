@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21739,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1348,
+      "Product Combo"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0b28f8ecabfcca9d2cc124f4222518b4474675e78d22a06be7611fb10b34bca2",
+  "write_date": "",
+  "xml_id": "product.field_product_combo__create_uid"
+}

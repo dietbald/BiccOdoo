@@ -1,0 +1,14 @@
+<form>
+                    <sheet>
+                        <group>
+                            <field name="acc_number" placeholder="e.g BE15001559627230"/>
+                            <field name="bank_id" placeholder="e.g Bank of America"/>
+                            <field name="bank_bic" placeholder="e.g GEBABEBB" string="Bank Identifier Code"/>
+                            <field name="linked_journal_id" options="{'no_create': True}" placeholder="Leave empty to create new" invisible="num_journals_without_account_bank == 0" domain="[('type', '=', 'bank'), ('bank_account_id', '=', False)]"/>
+                        </group>
+                    </sheet>
+                    <footer>
+                        <button string="Create" class="oe_highlight" type="object" name="validate" data-hotkey="q"/>
+                        <button string="Cancel" special="cancel" data-hotkey="x"/>
+                    </footer>
+                </form>

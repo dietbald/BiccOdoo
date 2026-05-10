@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11248,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Shipping Policy",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "move_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "918b876bcb2485507ed339fd03266a56bdd265557239b94d7a644ac12bcbdac6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__move_type"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5362,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Group Payments",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "group_payment",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dd887a7db5624f05214c8502318c0bbe376d8a8e6f86e6c7876861339f421507",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__group_payment"
+}

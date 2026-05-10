@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T12:35:41Z",
+  "id": 442,
+  "model": "ir.model",
+  "payload": {
+    "model": "account.bank.statement.line",
+    "modules": "account, account_accountant, account_accountant_batch_payment, account_bank_statement_extract, account_bank_statement_import, account_online_synchronization",
+    "name": "Bank Statement Line",
+    "state": "base"
+  },
+  "payload_sha256": "18c6b223fbbf38168c7e66534497b153d6911b9cb80d0b6b3e433b6be8cf5e45",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.model_account_bank_statement_line"
+}

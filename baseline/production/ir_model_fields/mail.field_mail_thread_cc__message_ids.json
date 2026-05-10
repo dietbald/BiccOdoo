@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1800,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      157,
+      "Email CC management"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "277b3b7bd370793b9e7830f36529b56ee8785167d35756d4b30d5ba8ac6506b4",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_cc__message_ids"
+}

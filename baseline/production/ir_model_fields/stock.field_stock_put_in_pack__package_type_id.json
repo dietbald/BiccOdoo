@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28224,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Package Type",
+    "model_id": [
+      3392,
+      "Put In Pack Wizard"
+    ],
+    "name": "package_type_id",
+    "relation": "stock.package.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e9f2038b3a35fdfc32fd8d540cc2b67dff26d4d5feaf957e295fbbc9b591a7f5",
+  "write_date": "",
+  "xml_id": "stock.field_stock_put_in_pack__package_type_id"
+}

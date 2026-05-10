@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7698,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Personal Stage State",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "personal_stage_id",
+    "relation": "project.task.stage.personal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f1db3cc70607da4c857b928e728281c3fe0419ba817f55c0d1e1b8e7a6fac123",
+  "write_date": "",
+  "xml_id": "project.field_project_task__personal_stage_id"
+}

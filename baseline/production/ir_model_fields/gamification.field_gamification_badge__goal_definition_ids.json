@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14485,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rewarded by",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "goal_definition_ids",
+    "relation": "gamification.goal.definition",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a2ac761644b9f6e355b7921ba7b82b295667b7ead6477dc5c101b2661f24a7fd",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge__goal_definition_ids"
+}

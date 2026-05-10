@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Uom",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "allowed_uom_ids",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e2808218aecc1e12e3f067336c59ba9d63382ef01fcdcf03bf9e75b3f4ca3bf0",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__allowed_uom_ids"
+}

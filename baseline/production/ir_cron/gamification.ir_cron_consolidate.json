@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 56,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._consolidate_cron()",
+    "interval_number": 1,
+    "interval_type": "months",
+    "model_id": [
+      916,
+      "Track Karma Changes"
+    ],
+    "name": "Gamification: Karma tracking consolidation",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "2970339add2d8c632f68ba815f2b5c8efc92eebb07a36bf63ac8d65b9edc5ea5",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "gamification.ir_cron_consolidate"
+}

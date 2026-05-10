@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 853,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      61,
+      "Recruitment / Interviewer"
+    ],
+    "model_id": [
+      670,
+      "Get Refuse Reason"
+    ],
+    "name": "access.applicant.get.refuse.reason.interviewer",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f4b7c80056809a8f9730eea809754557448915c951134c4d2b6bb9aec74cf5be",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_applicant_get_refuse_reason_interviewer"
+}

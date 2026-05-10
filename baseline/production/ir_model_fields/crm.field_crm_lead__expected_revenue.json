@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7203,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected Revenue",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "expected_revenue",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "ec9ccb6af662b66a885fc422102a51652ef30830319d7e0b61338de6ba8b4985",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__expected_revenue"
+}

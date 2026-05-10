@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19803,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "PoS receipt label",
+    "model_id": [
+      426,
+      "Tax Group"
+    ],
+    "name": "pos_receipt_label",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ea0b0a7ae3c5e52bce0d9f51a53c0e7a0a85999b419d851fe1f81fd7611ab79e",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_group__pos_receipt_label"
+}

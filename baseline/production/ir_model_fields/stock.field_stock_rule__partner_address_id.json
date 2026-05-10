@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11066,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner Address",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "partner_address_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e0ded23b2f529e6eb5be49803f3a28c4db4beef9ddfa6702540ce80de8e02f08",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__partner_address_id"
+}

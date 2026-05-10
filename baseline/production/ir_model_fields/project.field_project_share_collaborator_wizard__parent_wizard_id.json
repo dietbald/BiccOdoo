@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19990,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Wizard",
+    "model_id": [
+      1185,
+      "Project Sharing Collaborator Wizard"
+    ],
+    "name": "parent_wizard_id",
+    "relation": "project.share.wizard",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "634bccddfd869c0ec9b4b0605b678f13a91530af654a2b203dcc1c4cca668dd3",
+  "write_date": "",
+  "xml_id": "project.field_project_share_collaborator_wizard__parent_wizard_id"
+}

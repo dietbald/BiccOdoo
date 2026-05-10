@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6079,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Periodicity in month",
+    "model_id": [
+      457,
+      "Opening Balance of Financial Year"
+    ],
+    "name": "account_return_periodicity",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "c42b98384dbff1389ff35be402aa4e757c8df00ce2a2fa56eac3d44737f67262",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_financial_year_op__account_return_periodicity"
+}

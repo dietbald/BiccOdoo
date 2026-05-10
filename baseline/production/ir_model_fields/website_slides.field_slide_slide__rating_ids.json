@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4f6f1ab2df8bf29155745047ea3ffae8131a0049f3b0bca26cffd20307ad7158",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_slide__rating_ids"
+}

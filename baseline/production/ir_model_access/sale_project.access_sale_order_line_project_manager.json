@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 744,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      41,
+      "Project / Administrator"
+    ],
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "sale.order.line.project.manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "dd340ed1e2bdcc11318e771312714a9cda45ebaf7098c38af041d1d741f15f45",
+  "write_date": "2025-12-09 03:00:35",
+  "xml_id": "sale_project.access_sale_order_line_project_manager"
+}

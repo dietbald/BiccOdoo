@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow check printing and deposits",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_account_check_printing",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5d9d5cbba2ac16a195f5836a36c65acaccb2a7a8df19b80fc074c0959d5943c6",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__module_account_check_printing"
+}

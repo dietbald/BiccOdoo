@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6133,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "81e8c50ee5a0a6d847c78932ff981b0e358bef0d9cf3917243d550fb74dfa440",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__message_ids"
+}

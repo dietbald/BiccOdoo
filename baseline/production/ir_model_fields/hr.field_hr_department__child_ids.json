@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8825,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Departments",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "child_ids",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ccff07ec668f2b520447d0949d1bb7f136bcd9be53a7c2af70fe82e9f196c6fa",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__child_ids"
+}

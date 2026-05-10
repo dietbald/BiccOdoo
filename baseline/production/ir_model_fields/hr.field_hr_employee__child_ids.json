@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8733,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Direct subordinates",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "child_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e7e0e21d07029bca62376c33e0fe9d0739f7002caefc5e50625cec4a7a294088",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__child_ids"
+}

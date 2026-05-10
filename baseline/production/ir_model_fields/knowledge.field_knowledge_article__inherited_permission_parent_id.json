@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12287,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inherited Permission Parent Article",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "inherited_permission_parent_id",
+    "relation": "knowledge.article",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e52892cd1e6cc0d9df6301b34b93554697fcdc969d6bd3d7b978657052f4b8ea",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__inherited_permission_parent_id"
+}

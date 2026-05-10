@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17409,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias Domain",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "alias_domain_id",
+    "relation": "mail.alias.domain",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "68cdbe4fc28309e08d1e3606279f68f2930f54af4eaea3bd5fca41a8a6cb0ada",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__alias_domain_id"
+}

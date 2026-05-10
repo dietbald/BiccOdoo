@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6221,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Loss Account",
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "loss_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a4021b3c11f00879e1b9a32f1b58e8e77fc826494e226b8e12e6df9d915179aa",
+  "write_date": "",
+  "xml_id": "account_asset.field_asset_modify__loss_account_id"
+}

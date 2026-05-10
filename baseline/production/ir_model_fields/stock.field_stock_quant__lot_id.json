@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11312,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lot/Serial Number",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "lot_id",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "17b8b1af87669197113de5b85d3053ddaf838edf1b819f97bc71ea72f13874cd",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__lot_id"
+}

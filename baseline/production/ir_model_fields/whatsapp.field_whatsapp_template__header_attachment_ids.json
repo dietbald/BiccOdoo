@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18464,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Template Static Header",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "header_attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a6032c4428ac2f3926b0ff1ad9a16b760ba4cf521bf5e06d2a8a504a519bb149",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__header_attachment_ids"
+}

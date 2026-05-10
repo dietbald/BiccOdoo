@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1769,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      1392,
+      "Document Redirect"
+    ],
+    "name": "documents_redirect_base_system_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": false
+  },
+  "payload_sha256": "68b78131c9a92af6c2051aa3476db225a2aaa2f8140a3035d5db21b0f38b1297",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.access_documents_redirect_base_system_user"
+}

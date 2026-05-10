@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4957,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Suspense Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_journal_suspense_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d31e4858889b3ceca06ac6eef283ddd15bca319678c21f79b94ba694a39a9a8e",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_journal_suspense_account_id"
+}

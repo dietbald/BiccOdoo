@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2034,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      3506,
+      "Assign serial numbers to production order"
+    ],
+    "name": "access.mrp_production_serials",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "4acce9b9238c1b5cb447540efed2a1278bde95822bde1d25b4df0b04b1c56fe3",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_production_serials"
+}

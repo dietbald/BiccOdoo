@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 752,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('properties_field_id', '=', user.env.ref('mass_mailing.field_mailing_contact__properties').id)]",
+    "groups": [
+      108
+    ],
+    "model_id": [
+      2828,
+      "Properties Base Definition"
+    ],
+    "name": "properties.base.definition: mailing user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "120b1b874fe32f259995688007d458b619762a21506a84c6c029fd7de4cbaf39",
+  "write_date": "2025-12-09 03:00:45",
+  "xml_id": "mass_mailing.properties_base_definition_rule_mailing_user"
+}

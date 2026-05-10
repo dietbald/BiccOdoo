@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9863,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Secret Key",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "recaptcha_private_key",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "287f26f612a5b208c6c494a97d315f7387b6d49c4892877b2adfb20b612f62f1",
+  "write_date": "",
+  "xml_id": "google_recaptcha.field_res_config_settings__recaptcha_private_key"
+}

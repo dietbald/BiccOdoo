@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18177,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "stage_id",
+    "relation": "maintenance.stage",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7703d6453909cbf401c4de2b85b91532591feb7b331fdb3200a1be3f16b8bd78",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__stage_id"
+}

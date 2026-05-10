@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11459,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer Lead Time",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "sale_delay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3aaec6f933d0d6481dcd3cdb6a5a7a5b53bf09d798c99b652521b3731bab3f68",
+  "write_date": "",
+  "xml_id": "stock.field_product_template__sale_delay"
+}

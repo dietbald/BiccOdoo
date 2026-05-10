@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 53250,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Allowances",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "x_allowance_ids",
+    "relation": "x_contract_allowance",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6154c97ca8d999317b199e07f5ef9d6567b5b652e4fcc1bcdd273eb4aa2e6432",
+  "write_date": "2026-04-20 10:37:58",
+  "xml_id": null
+}

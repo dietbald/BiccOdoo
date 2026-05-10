@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15702,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Milestones",
+    "model_id": [
+      950,
+      "Accrual Plan"
+    ],
+    "name": "level_ids",
+    "relation": "hr.leave.accrual.level",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b1561125fc51521c3499f6f97d07617f800fe8650392a2ea5b63d7d7f35ae67b",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_accrual_plan__level_ids"
+}

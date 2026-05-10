@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12673,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "OTD",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "on_time_rate_perc",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "724e559f417cfea8a458e6f93baa011602e6cb7408ce0f830ef773b7e6f34812",
+  "write_date": "",
+  "xml_id": "purchase_requisition_stock.field_purchase_order_line__on_time_rate_perc"
+}

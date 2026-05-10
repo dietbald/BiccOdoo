@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27596,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Forced Audit Trail",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "force_restrictive_audit_trail",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "114a79f1aced44bccddcb1b2e92a919aed1300352ff1061e563c235811add7af",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__force_restrictive_audit_trail"
+}

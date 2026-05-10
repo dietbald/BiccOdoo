@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      810,
+      "Wizard to preset values for alternative PO"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6600c3527be6768f36255af135eb946ec3a28ab27548ce130306f1a7c59a6084",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_create_alternative__partner_ids"
+}

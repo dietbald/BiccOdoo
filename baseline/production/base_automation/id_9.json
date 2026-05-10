@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 9,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1606
+    ],
+    "active": true,
+    "filter_domain": false,
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "Closing Date Parser",
+    "trigger": "on_create_or_write"
+  },
+  "payload_sha256": "3d8bec0402080563c01e0f7514b1a08dc59180c963de5fde8e0b828947efb6d5",
+  "write_date": "2026-01-01 13:37:19",
+  "xml_id": null
+}

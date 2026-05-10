@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4389,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8cdee37ed62365e160af29541d593303110e7acf1347329b39e9054935cfcf09",
+  "write_date": "",
+  "xml_id": "account.field_account_move__user_id"
+}

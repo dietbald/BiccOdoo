@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7230,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Quality",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "email_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a058ff7df3d671337afec7ab195b468e801eb7ef7cd2792b2452a6a938df53f6",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__email_state"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 983,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      723,
+      "Barcode Nomenclature"
+    ],
+    "name": "barcode.nomenclature.stock.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "21e633b2b2dfb607cd40facc7067d7fe1db0bf02f1f0ab10e368420424b08da4",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_barcode_nomenclature_stock_manager"
+}

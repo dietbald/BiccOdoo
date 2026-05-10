@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 52915,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3867,
+      "Ai Documents Sort"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "37942b32f01127dcaf893e6a5187d8ab2013d8590406768b4006332bd6778d95",
+  "write_date": "",
+  "xml_id": "ai_documents.field_ai_documents_sort__create_uid"
+}

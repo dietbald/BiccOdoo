@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Talent Pools",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "talent_pool_ids",
+    "relation": "hr.talent.pool",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b688e21ce697deb9a0a024c7054db9c0666162e457b7eb76f985e789212bc0be",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__talent_pool_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16032,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Pending Orders",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "workorder_blocked_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "a74e2605124d57e0a9733cd628b2e58dbfa3caaaa5361689a68c144fa40cf856",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter__workorder_blocked_count"
+}

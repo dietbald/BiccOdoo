@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14419,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Universal event Id",
+    "model_id": [
+      906,
+      "Synchronize a record with Microsoft Calendar"
+    ],
+    "name": "ms_universal_event_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2fa7aadef472abc5cf34cfddd632963f7fcef01563393c782ab693bc1fbd445d",
+  "write_date": "",
+  "xml_id": "microsoft_calendar.field_microsoft_calendar_sync__ms_universal_event_id"
+}

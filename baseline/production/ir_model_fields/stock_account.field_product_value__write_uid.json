@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28772,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3526,
+      "Product Value"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "31ed12aa05ea92de6c44e75cd7bca286475f156da3d16e95729c52b9c3ffa10b",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_value__write_uid"
+}

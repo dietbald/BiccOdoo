@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27555,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extra Tax Data",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "extra_tax_data",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "19c26530c0b65eab88fb7552e8fdcc5bb2e0aa66e2c6400016e86738338793e1",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__extra_tax_data"
+}

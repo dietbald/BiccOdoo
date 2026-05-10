@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      636,
+      "Work Location"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4ebc017473dac5bc746bd10517a59e9d655a93d1fce6e83e181fea4f30d39d69",
+  "write_date": "",
+  "xml_id": "hr.field_hr_work_location__company_id"
+}

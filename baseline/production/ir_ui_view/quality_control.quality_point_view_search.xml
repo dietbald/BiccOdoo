@@ -1,0 +1,12 @@
+<search>
+                <field name="name" string="Control Point" filter_domain="[                     '|', '|', ('name', 'ilike', self), ('title', 'ilike', self), ('product_ids', 'ilike', self)]"/>
+                <field name="product_ids"/>
+                <field name="picking_type_ids"/>
+                <field name="test_type_id"/>
+                <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                <group>
+                    <filter string="Test Type" name="groupby_test_type" context="{'group_by': 'test_type_id'}"/>
+                    <filter string="Team" name="groupby_team_id" context="{'group_by': 'team_id'}"/>
+                    <filter string="Responsible" name="groupby_user_id" context="{'group_by': 'user_id'}"/>
+                </group>
+            </search>

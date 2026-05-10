@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2075,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      3768,
+      "Audit Report"
+    ],
+    "name": "access_audit_report",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "298633dd3760df5a245ce1629a352cd6b900af4a5fb58905466117e0cab8f295",
+  "write_date": "2025-12-09 03:00:44",
+  "xml_id": "accountant_knowledge.access_audit_report"
+}

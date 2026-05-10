@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22215,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status In Payment",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "status_in_payment",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "9a8061b808658c6388da6ef418ec385fc366f0cbc0611c893ae4bd976b868c86",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__status_in_payment"
+}

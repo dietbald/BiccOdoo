@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25567,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ece5b2dd7353626f2d1bf4e34f1e427c16da44c9253d8c9d84fc5c77baa8c0ad",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__company_id"
+}

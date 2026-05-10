@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29458,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Refunded",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "is_refunded",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7473760c5f7f7c9e78f66f48f8167dccc116be45fb9f27110c51640063b4c243",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__is_refunded"
+}

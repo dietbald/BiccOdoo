@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 522,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "Maintenance Request Multi-company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5b6e1a016c1ce7088a1547d57e5cd2eacb0ee931549dfe25a88180f232743e37",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "maintenance.maintenance_request_comp_rule"
+}

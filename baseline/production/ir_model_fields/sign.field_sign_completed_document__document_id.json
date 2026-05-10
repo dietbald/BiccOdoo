@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27414,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document",
+    "model_id": [
+      3198,
+      "Completed Document"
+    ],
+    "name": "document_id",
+    "relation": "sign.document",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0b27d85f1137b21ce1b512d9c1898a2906a8d2594d72eafb0d8862daf6e5f826",
+  "write_date": "",
+  "xml_id": "sign.field_sign_completed_document__document_id"
+}

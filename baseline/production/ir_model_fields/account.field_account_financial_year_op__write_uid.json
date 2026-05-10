@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5279,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      457,
+      "Opening Balance of Financial Year"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "570cc512950ad66ce0aba8f980674e01b551d08ed4cb80fb541b24188a47e000",
+  "write_date": "",
+  "xml_id": "account.field_account_financial_year_op__write_uid"
+}

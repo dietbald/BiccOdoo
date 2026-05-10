@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4857,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Signed",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "amount_total_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "13abd88336f13532041f256406561bc6842040d8b7da3497edaa7409660ac2f1",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__amount_total_signed"
+}

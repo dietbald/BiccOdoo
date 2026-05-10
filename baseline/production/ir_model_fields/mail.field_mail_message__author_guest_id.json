@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2058,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Guest",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "author_guest_id",
+    "relation": "mail.guest",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e0c9dfa7c4e0335d4e201e8165afeafd9cc30061173f2b29a0ca6f22d84cddca",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__author_guest_id"
+}

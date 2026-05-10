@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12933,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "version_id",
+    "relation": "hr.version",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "edc42be9e9efa753cb5736c748081498b5bdcc75b06a55e9919333b5e1d9b082",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__version_id"
+}

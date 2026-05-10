@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5193,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      451,
+      "Accounting Report External Value"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6d7310ec67acc5f5df7d9c4809632680657550c671555460c8d0dc145f2a23f2",
+  "write_date": "",
+  "xml_id": "account.field_account_report_external_value__company_id"
+}

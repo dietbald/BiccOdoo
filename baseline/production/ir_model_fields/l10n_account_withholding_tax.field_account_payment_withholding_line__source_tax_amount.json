@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29758,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Tax Amount",
+    "model_id": [
+      3764,
+      "Payment withholding line"
+    ],
+    "name": "source_tax_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "a8a4dbfb20c39a1f2e9c28d69d744b87c03eca07178c8004b6bf0d8612a1a8a7",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment_withholding_line__source_tax_amount"
+}

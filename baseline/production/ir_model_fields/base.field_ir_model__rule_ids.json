@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 9,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Record Rules",
+    "model_id": [
+      3,
+      "Models"
+    ],
+    "name": "rule_ids",
+    "relation": "ir.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "44f4452abb43d9f1d1faa894d261bf75b94fcb8fea9a9e8500f4db469aa0bd66",
+  "write_date": "",
+  "xml_id": "base.field_ir_model__rule_ids"
+}

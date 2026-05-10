@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27617,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      857,
+      "Automation Rule"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "488bb4ff5bf48a1ea2d2f70bd7420c5f96767d1d87454f50d9ef3dca56431865",
+  "write_date": "",
+  "xml_id": "base_automation.field_base_automation__activity_ids"
+}

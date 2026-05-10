@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21985,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "LinkedIn Images",
+    "model_id": [
+      1025,
+      "Social Post Template"
+    ],
+    "name": "linkedin_image_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "288e976e73e2937d901be7249d4d4e17a203dce4f8666c34dc195678b5172add",
+  "write_date": "",
+  "xml_id": "social_linkedin.field_social_post_template__linkedin_image_ids"
+}

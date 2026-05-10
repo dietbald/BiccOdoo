@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 321,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      782,
+      "Approval Category"
+    ],
+    "name": "approval_category multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "63674fb4d603645b3f35a4e4eb2f7a8b119cc0d8cc52afb2fd247c89df9b3f2d",
+  "write_date": "2023-12-04 12:12:09",
+  "xml_id": "approvals.approval_category_rule"
+}

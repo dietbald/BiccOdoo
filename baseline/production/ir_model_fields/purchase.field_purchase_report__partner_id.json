@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9511,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1abcb56b2ae151fab62917b6543dd0bcdbc480451570989dc99da8e750646550",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__partner_id"
+}

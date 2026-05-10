@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13980,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Planning Slot",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "slot_id",
+    "relation": "planning.slot",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e8569a3c349be621be79f3d76f8112b886b8a4b8b97902f5e02fa71dca786654",
+  "write_date": "",
+  "xml_id": "planning.field_planning_analysis_report__slot_id"
+}

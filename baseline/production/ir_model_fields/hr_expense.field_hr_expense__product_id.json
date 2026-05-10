@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9150,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Category",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7409bb3e048e9a52bb270fb394491bdace261814af173b94326b504e834757d5",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__product_id"
+}

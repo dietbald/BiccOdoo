@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5101,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f0e0af4704ace30a66eb4ebf6c6a6c4d5ee30932933de2cc60b10cdc63afcad5",
+  "write_date": "",
+  "xml_id": "account.field_account_report__country_id"
+}

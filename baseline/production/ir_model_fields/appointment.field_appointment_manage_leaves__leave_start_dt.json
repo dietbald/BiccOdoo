@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15341,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      942,
+      "Add or remove leaves from appointments"
+    ],
+    "name": "leave_start_dt",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "af897d6944639887aa6e947b5441cf91c200362d8b7dcf07766ae9a112c8d39c",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_manage_leaves__leave_start_dt"
+}

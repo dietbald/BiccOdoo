@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 342,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Model",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "model_id",
+    "relation": "ir.model",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "395dbf6aae11b571f8dcf4a94c5b453d11d86687f15a6be1cd0409269bbbf739",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__model_id"
+}

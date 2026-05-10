@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1434,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow users to import data from CSV/XLS/XLSX/ODS files",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_base_import",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b2e29ba69415929abbfabf26d867a3784b7a50fdf0d759450fc287d4b2df89dc",
+  "write_date": "",
+  "xml_id": "base_setup.field_res_config_settings__module_base_import"
+}

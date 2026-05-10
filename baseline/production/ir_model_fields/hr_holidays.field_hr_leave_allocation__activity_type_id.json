@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15566,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "85e75a662f3bdfe0b06d5722b0546e23a40272022f5618dba01fee7aca5c8922",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__activity_type_id"
+}

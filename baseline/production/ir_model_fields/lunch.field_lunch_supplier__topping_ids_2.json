@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18829,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Topping Ids 2",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "topping_ids_2",
+    "relation": "lunch.topping",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9117f6564c949359d05ddefad70660d9c2059b2b9d6c0abda56b25767812545c",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__topping_ids_2"
+}

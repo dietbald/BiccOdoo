@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2508,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Replies",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "reply_to_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "12b3e088f32b5f0bfa1a2f77d706ca7c1ea1973d4efd3288fb476b062db744ea",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__reply_to_mode"
+}

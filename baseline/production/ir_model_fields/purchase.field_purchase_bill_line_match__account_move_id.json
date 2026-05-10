@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23110,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Move",
+    "model_id": [
+      1421,
+      "Purchase Line and Vendor Bill line matching view"
+    ],
+    "name": "account_move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9cc1b0c3c49c01edafbcf112738a1232dbd76a2565cfde99c89f63d66c297d3b",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_line_match__account_move_id"
+}

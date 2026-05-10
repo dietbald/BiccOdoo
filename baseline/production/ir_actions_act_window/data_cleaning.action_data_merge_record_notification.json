@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 981,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{ 'group_by': ['group_id'], 'searchpanel_default_model_id': active_id }",
+    "domain": false,
+    "name": "Duplicates",
+    "res_model": "data_merge.record",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "2df3a91aed61bfe54dcd86c307596b5946322cc1b170e00c213c520d3b4997ef",
+  "write_date": "2025-12-09 02:56:08",
+  "xml_id": "data_cleaning.action_data_merge_record_notification"
+}

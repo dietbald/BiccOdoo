@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11481,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Force Removal Strategy",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "removal_strategy_id",
+    "relation": "product.removal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8ee3fd03312ea23e1c8fcf783e55172c9ab4c429a2d4b35d51c1105beec5b518",
+  "write_date": "",
+  "xml_id": "stock.field_product_category__removal_strategy_id"
+}

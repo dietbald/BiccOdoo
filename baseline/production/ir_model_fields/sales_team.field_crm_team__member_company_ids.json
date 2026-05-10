@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7104,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Member Company",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "member_company_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b6da0d5817dc706fc46c2e3a387e8ef669e0d15f27d7f36ec01c14f88db76e26",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team__member_company_ids"
+}

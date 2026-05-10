@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13514,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "timesheet_manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d51cef9cbfb757a153a44c158a1111c4304f53427b16a46da9f4925a19468b7d",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_hr_employee_public__timesheet_manager_id"
+}

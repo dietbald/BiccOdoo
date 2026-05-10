@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10493,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "276527023e86965d19860361cef57e7a92d53e3252b3db851bf4d05075b016bf",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request__message_partner_ids"
+}

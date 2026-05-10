@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4301,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d4ff7a2d5900ca12bb6aa9470b635272ac8a91b5b4187b85549a6e94a3573ee1",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__message_has_error_counter"
+}

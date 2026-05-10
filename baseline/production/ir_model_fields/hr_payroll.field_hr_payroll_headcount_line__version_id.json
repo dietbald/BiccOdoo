@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20660,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Record",
+    "model_id": [
+      1239,
+      "Headcount Line"
+    ],
+    "name": "version_id",
+    "relation": "hr.version",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e2c862c7c642a6b36f8f8b2e84f34083e08935220430587d645d4af608ba2a1a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount_line__version_id"
+}

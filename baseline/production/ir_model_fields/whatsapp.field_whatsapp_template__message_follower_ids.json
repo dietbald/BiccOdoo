@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18434,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9c1ab247b73e4684121df08c3bf5408831c5c1dcad0f352f6f67257bffd53279",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__message_follower_ids"
+}

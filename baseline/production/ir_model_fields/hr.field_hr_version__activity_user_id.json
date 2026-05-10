@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10347,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "25da284aeebc45413c2bd24a1e731588e78ecdd96594294523be40688bf9d073",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__activity_user_id"
+}

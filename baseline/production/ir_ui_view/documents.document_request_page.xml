@@ -1,0 +1,24 @@
+<t name="Requested Documents Share" t-name="documents.document_request_page">
+        <t t-call="documents.public_page_layout">
+            <t t-set="shareType" t-value="'o_share_files'"/>
+            <form class="o_hidden" enctype="multipart/form-data" t-attf-action="/documents/upload/#{quote(document.access_token)}" method="POST">
+                <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                <input name="ufile" class="o_request_upload" type="file" onchange="form.submit()"/>
+            </form>
+            <div class="shadow-lg text-center bg-white p-3 rounded-3">
+                <span class="fa-stack text-black-25 fa-3x">
+                    <i class="fa fa-circle-thin fa-stack-2x"/>
+                    <i class="fa fa-arrow-up fa-stack-1x"/>
+                </span>
+                <div class="fs-4 text-truncate">
+                    <span t-out="document.owner_id.name"/> is requesting
+                </div>
+                <div class="fs-4 text-truncate">
+                    <b t-esc="document.name"/>
+                </div>
+                <div onclick="document.querySelector('.o_request_upload').click()" title="Add file" class="btn btn-primary rounded-pill">
+                    <i class="fa fa-upload fa-fw"/> Add file
+                </div>
+            </div>
+        </t>
+    </t>

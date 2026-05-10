@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29251,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Picking Type",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "default_picking_type_ids",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "19b6c8dbc887d05e702771bc47998f93b8011161348f6c953a5b33f86acf76fd",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_routing_workcenter__default_picking_type_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1335,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination Contact",
+    "model_id": [
+      116,
+      "Merge Partner Wizard"
+    ],
+    "name": "dst_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c8b756079b181f53a38ecf73d3f8d33bad381772af4d92b1d276a5e3ab94ac6b",
+  "write_date": "",
+  "xml_id": "base.field_base_partner_merge_automatic_wizard__dst_partner_id"
+}

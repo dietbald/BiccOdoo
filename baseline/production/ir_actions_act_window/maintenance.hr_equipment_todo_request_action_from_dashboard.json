@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1157,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_active': True,\n            'search_default_maintenance_team_id': active_id,\n            'default_maintenance_team_id': active_id,\n        }",
+    "domain": "[('maintenance_team_id', '=', active_id), ('maintenance_type', 'in', context.get('maintenance_type', ['preventive', 'corrective']))]",
+    "name": "Maintenance Requests",
+    "res_model": "maintenance.request",
+    "target": "current",
+    "view_mode": "kanban,list,form,pivot,graph,calendar,activity"
+  },
+  "payload_sha256": "7b8d8bbe9575d33a70215df9be99d19e5579afa2e3e2263c5bfb5be0dcf71ac2",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.hr_equipment_todo_request_action_from_dashboard"
+}

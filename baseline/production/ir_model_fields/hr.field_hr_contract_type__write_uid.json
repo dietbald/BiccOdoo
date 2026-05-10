@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8603,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      628,
+      "Contract Type"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1c2335e45e6c4c29a6756c329ec0a65d0d89d3e3a3cb7b70f516a553ad749d4d",
+  "write_date": "",
+  "xml_id": "hr.field_hr_contract_type__write_uid"
+}

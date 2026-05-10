@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26327,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2738,
+      "Edit Billable Time Target wizard from Timesheet for users without employee access"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b1641045c5119a25f6fb73ceaaa3cbbe54a5785b44af562f863bef0c803aedb1",
+  "write_date": "",
+  "xml_id": "sale_timesheet_enterprise.field_edit_billable_time_target__create_uid"
+}

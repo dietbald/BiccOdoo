@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7761,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7da4edd13208507058d5766fcd7c870fdddb377821e7e9251d0ae11a26f1f77e",
+  "write_date": "",
+  "xml_id": "project.field_project_milestone__create_uid"
+}

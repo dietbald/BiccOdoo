@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1748,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "My Activity Deadline",
+    "model_id": [
+      150,
+      "Activity Mixin"
+    ],
+    "name": "my_activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "2257c347b5ddc2efdb2d5bc7df365e0ee8852bc5712ca55d2dbb8550894d2375",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_mixin__my_activity_date_deadline"
+}

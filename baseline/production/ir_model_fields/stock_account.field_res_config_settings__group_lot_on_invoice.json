@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Lots & Serial Numbers on Invoices",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_lot_on_invoice",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3828717098decc3050d7bc3a1936d7320f423aae3c61a83c8a6b2f9fcb962be1",
+  "write_date": "",
+  "xml_id": "stock_account.field_res_config_settings__group_lot_on_invoice"
+}

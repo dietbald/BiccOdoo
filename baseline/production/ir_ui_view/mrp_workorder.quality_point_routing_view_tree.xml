@@ -1,0 +1,8 @@
+<list>
+                <field name="sequence" widget="handle"/>
+                <field name="title"/>
+                <field name="test_type_id" string="Type"/>
+                <field name="name"/>
+                <field name="worksheet_document" column_invisible="1"/>
+                <button name="action_view_worksheet_document" class="btn-link" string="Worksheet" type="object" invisible="not worksheet_document"/>
+            </list>

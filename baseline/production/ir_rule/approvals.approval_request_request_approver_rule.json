@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 309,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', '|',\n                                        ('request_owner_id', '=', user.id),\n                                        ('approver_ids.user_id','=', user.id),\n                                        '&',\n                                        ('category_id.manager_approval', 'in', ['approver', 'required']),\n                                        ('request_owner_id.parent_id.user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "Approval Request: request approver rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "5ef857c153fef408067f5aa8a248bb600e6921936ca4fff67e1f053898e18934",
+  "write_date": "2023-12-04 12:12:09",
+  "xml_id": "approvals.approval_request_request_approver_rule"
+}

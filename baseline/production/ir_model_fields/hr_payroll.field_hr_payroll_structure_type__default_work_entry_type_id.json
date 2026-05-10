@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12805,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Entry Type",
+    "model_id": [
+      703,
+      "Salary Structure Type"
+    ],
+    "name": "default_work_entry_type_id",
+    "relation": "hr.work.entry.type",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6a7c2632a7fcf44ef92d97a43506573d75b2dd6737af0451adf1b1b6099ce892",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_structure_type__default_work_entry_type_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 946,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "stock.move manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "160d1d5489dba39ee91bd29d6ce475fce0190746534b82b11e9b5ab3e621c279",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_move_manager"
+}

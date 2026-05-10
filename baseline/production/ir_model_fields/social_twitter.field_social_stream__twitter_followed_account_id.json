@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17876,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Twitter Followed Account",
+    "model_id": [
+      1028,
+      "Social Stream"
+    ],
+    "name": "twitter_followed_account_id",
+    "relation": "social.twitter.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7157b81e1c0cf8576191eb0a8e9c26da6a3c5a0f499f515a55338766592a90c6",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_stream__twitter_followed_account_id"
+}

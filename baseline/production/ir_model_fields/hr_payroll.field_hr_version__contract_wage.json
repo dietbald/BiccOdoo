@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10380,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Wage",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "contract_wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "0f6cd39d3ffdee315c072c318cc7bc39592dc0d6abfccb4826d0195f61b0d158",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_version__contract_wage"
+}

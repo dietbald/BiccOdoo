@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9518,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days to Receive",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "delay_pass",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "ccd6485757c30ba64f21b3b16402daee9739860351dc41293ecd2996eb0f1259",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__delay_pass"
+}

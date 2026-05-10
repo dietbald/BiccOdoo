@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1888,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      150,
+      "Referrals / User: Referral only"
+    ],
+    "model_id": [
+      667,
+      "Recruitment Stages"
+    ],
+    "name": "hr.recruitment.stage.referral.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "7c207d6f92327e7b8d7a9ce187a6acaf2b1eff027c2321aaf132ca55b986be25",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_recruitment_stage_referral_user"
+}

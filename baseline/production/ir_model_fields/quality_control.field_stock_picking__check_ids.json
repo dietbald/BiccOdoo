@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18325,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Checks",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "check_ids",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b94eb53d6c06209f8d685fe69b29a9a5c14958aa7284ebf964aaeca77870b826",
+  "write_date": "",
+  "xml_id": "quality_control.field_stock_picking__check_ids"
+}

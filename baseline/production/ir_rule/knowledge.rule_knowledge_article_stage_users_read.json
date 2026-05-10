@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 331,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('parent_id.user_has_access', '=', True)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      792,
+      "Knowledge Stage"
+    ],
+    "name": "Item Stages (Read): users/portal: readable articles",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "03b898f73c5a14b041162dbdb39d44e416f1806288665b8d972946ecb9012335",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_article_stage_users_read"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11996,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      768,
+      "Product Replenish"
+    ],
+    "name": "supplier_id",
+    "relation": "product.supplierinfo",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e3d4950158b7207b4b20513775318337835c6d80f6c2e6d89dbfd78bb690accc",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_product_replenish__supplier_id"
+}

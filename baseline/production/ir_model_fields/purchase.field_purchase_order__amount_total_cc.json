@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20245,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total in currency",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "amount_total_cc",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "5454fa77e6c4c25cc5dc18a5eedf9264a4b29b7d8756abe2ebea9255dff63e70",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__amount_total_cc"
+}

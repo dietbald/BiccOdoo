@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30013,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Embedding Model",
+    "model_id": [
+      3861,
+      "Attachment Chunks Embedding"
+    ],
+    "name": "embedding_model",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "76446aab2e2fe30e0852ff3a5591d8a873e3cf58080ee0eaaf0314594f23a22e",
+  "write_date": "",
+  "xml_id": "ai.field_ai_embedding__embedding_model"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19906,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Budgets",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "filter_budgets",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "65bddbef6e3f9c3586a126466944f93f62a38d1b799cc471c8365c6c23eff0f3",
+  "write_date": "",
+  "xml_id": "account.field_account_report__filter_budgets"
+}

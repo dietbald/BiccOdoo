@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24127,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subscribers",
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d08d35bdeb455de95b5c352ba0db14a219e42529bbee18522456ca826a5defc3",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_slide__partner_ids"
+}

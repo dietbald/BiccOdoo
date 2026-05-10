@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1785,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      156,
+      "Mail Blacklist mixin"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "970d473a301f9905d468920151653f3e37665d5dbc7b65d5c0aacc514bba4df8",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_blacklist__message_follower_ids"
+}

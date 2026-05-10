@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29076,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      3604,
+      "Generic Payment Wizard with QR Code"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "45f0c8ca059b868da10dcc76bd299ce4e2d8f4a0ce8447365450d28dd8d9bd2d",
+  "write_date": "",
+  "xml_id": "account_reports.field_qr_code_payment_wizard__company_id"
+}

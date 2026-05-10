@@ -1,0 +1,9 @@
+<filter name="outbound_filter" position="after">
+                <separator/>
+                <filter string="Checks" name="checks_payments_filter" domain="[('payment_method_code', '=', 'check_printing')]"/>
+                <separator/>
+                <filter string="Not Matched" name="checks_payments_not_matched_filter" domain="[('is_matched', '=', False), ('is_sent', '=', True)]"/>
+                <separator/>
+                <filter string="Overdue" name="checks_payments_overdue_filter" domain="[('is_matched', '=', False), ('is_sent', '=', True), ('date', '&lt;=', 'today')]"/>
+                <separator/>
+            </filter>

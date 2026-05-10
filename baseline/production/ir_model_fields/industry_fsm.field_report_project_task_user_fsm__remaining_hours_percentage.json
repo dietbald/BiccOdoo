@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18656,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Remaining Percentage",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "remaining_hours_percentage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "6a0d0a0c60cc1a91d8a5d9e3a42cc69266d8bb02575feb44d7dfefabbc18b6da",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__remaining_hours_percentage"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1098,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Signature",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "signature",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "html"
+  },
+  "payload_sha256": "ad1488b0975e7b49fe352b7b7a963cb5be30118acac7824665f07ba30c7753d4",
+  "write_date": "",
+  "xml_id": "base.field_res_users__signature"
+}

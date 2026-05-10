@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 194,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      35
+    ],
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "Access every payment transaction",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "272d23b5c90b024baaf4b73024766ac56d8f9472658047de27f6da111e2de55b",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.payment_transaction_salesman_rule"
+}

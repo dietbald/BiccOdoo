@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11325,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inventoried Quantity",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "inventory_quantity_auto_apply",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b75e81c51d232df4b6fb34524e73a8f989a19f0d60c831688f6e7218507516ca",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__inventory_quantity_auto_apply"
+}

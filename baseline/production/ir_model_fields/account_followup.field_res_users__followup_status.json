@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6347,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Follow-up Status",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "followup_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "32393d4c97a642fa093c2c8c39271db1fe499b5e3cd859a95c750e324af0b06e",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_users__followup_status"
+}

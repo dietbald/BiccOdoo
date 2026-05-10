@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 261,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('website_published', '=', True)]",
+    "groups": [
+      11
+    ],
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "Job Positions: Public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "242e5e3ab7fca0ec64fe413b21e3e33c30b3ca68c4a2222669d3bd643d728c28",
+  "write_date": "2023-12-01 01:27:03",
+  "xml_id": "website_hr_recruitment.hr_job_public"
+}

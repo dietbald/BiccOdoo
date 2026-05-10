@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28069,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3334,
+      "Project Template create Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ecb695b09acf5b4a04a4436f9851281e0b9e1c1271ac7d7dca2d648f16655116",
+  "write_date": "",
+  "xml_id": "project.field_project_template_create_wizard__create_uid"
+}

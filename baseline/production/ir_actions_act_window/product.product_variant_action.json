@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 164,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_product_tmpl_id': [active_id], 'default_product_tmpl_id': active_id, 'create': False}",
+    "domain": false,
+    "name": "Product Variants",
+    "res_model": "product.product",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "03509f47365d12a467e2b82b4290b2ae5d1813cdb254d89cd316d96a37c6446e",
+  "write_date": "2025-12-09 02:56:05",
+  "xml_id": "product.product_variant_action"
+}

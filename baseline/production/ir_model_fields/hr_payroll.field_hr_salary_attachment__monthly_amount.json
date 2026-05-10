@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payslip Amount",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "monthly_amount",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "eaf8e01ea6fb612d8e9bf065aee444fd86d3e45925703d5e335f8ee65102beae",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__monthly_amount"
+}

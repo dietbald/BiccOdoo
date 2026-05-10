@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4d8821b251b7fde2feaa6d3653b8fe64b332b7ce017e9c24e7e855ab2c7bb289",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__write_uid"
+}

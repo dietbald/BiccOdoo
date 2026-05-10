@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10066,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Visitors",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "visitor_ids",
+    "relation": "website.visitor",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "296c794659463fcd7f389bd9b8c9b57bd98836adde7fabdbef45140b4f2d9519",
+  "write_date": "",
+  "xml_id": "website.field_res_users__visitor_ids"
+}

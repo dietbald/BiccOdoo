@@ -1,0 +1,5 @@
+<data><xpath expr="//pivot" position="inside">
+                <field name="user_ids" type="row"/>
+            </xpath>
+            <xpath expr="//field[@name='project_id']" position="replace"/>
+        </data>

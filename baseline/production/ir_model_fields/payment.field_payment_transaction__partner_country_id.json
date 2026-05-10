@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "partner_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b90ca89805f8ce93adb03815ece7a01f29130fd99d4a6110d2c5522aa892f0e8",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__partner_country_id"
+}

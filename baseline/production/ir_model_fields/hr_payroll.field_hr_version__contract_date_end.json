@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10376,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract End Date",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "contract_date_end",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "40ec07d407422ac80fc9a5f338f470d530fcd5d6e6504a0963010b44d4502a2b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_version__contract_date_end"
+}

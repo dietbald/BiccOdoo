@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23130,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Downpayment",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "is_downpayment",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e8b15588c53947011591ececbf5dfef84aba09410c4d7d1d50a8d53068428ef2",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__is_downpayment"
+}

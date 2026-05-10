@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "b49f29df5fe8f3da968b06dec53b74d6b25afef2cedbe9835591cec74aba1e06",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__message_has_error_counter"
+}

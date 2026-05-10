@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18466,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "report_id",
+    "relation": "ir.actions.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6a8c8c56bb1cbfa020281ddc6f6f8f76335ee7e4af430ea3477e093eda4028f2",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__report_id"
+}

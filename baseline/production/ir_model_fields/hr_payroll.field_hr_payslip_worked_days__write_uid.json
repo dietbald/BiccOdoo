@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12971,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      822,
+      "Payslip Worked Days"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8baf4b946edc335373968613c74eeeb525984ef3d3dd904e882e97764970157b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_worked_days__write_uid"
+}

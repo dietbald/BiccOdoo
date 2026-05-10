@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26697,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Serial Number",
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "lot_id",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e17b4109b98eb0c51cf0915da189c86af40d98585803e467bcf5b9f3b5cb405a",
+  "write_date": "",
+  "xml_id": "sale_stock_renting.field_sale_rental_report__lot_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21979,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Instagram Images",
+    "model_id": [
+      1025,
+      "Social Post Template"
+    ],
+    "name": "instagram_image_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "066b38e11898f4b2a36aa48a9fb5c52333b825505c0f33c5b3e522dd9471c5d0",
+  "write_date": "",
+  "xml_id": "social_instagram.field_social_post_template__instagram_image_ids"
+}

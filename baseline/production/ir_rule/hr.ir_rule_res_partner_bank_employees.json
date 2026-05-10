@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 216,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      52
+    ],
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "HR: Allow HR officers from accessing employee bank accounts",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "60e17b4e7b064d79d6c7bb4a8abfcb043fe5e04cf4a542a0d74da515d80aae66",
+  "write_date": "2023-11-30 07:12:44",
+  "xml_id": "hr.ir_rule_res_partner_bank_employees"
+}

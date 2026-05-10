@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13441,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Spent",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "effective_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "092c21ad2704a84ea0eb0fbe54e546e3478ac384566ae6193030951d3c3d7403",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_project_task__effective_hours"
+}

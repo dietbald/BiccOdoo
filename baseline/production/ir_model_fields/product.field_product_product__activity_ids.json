@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fc49c8e0405965e7868159a4ec121536c0013bc949c350314cb3df40ac233a41",
+  "write_date": "",
+  "xml_id": "product.field_product_product__activity_ids"
+}

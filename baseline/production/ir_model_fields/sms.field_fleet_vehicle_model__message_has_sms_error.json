@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19679,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "041e22556fd09c862f45c2b1aaae212853aad8cbcc4977e61586ada0073b1b72",
+  "write_date": "",
+  "xml_id": "sms.field_fleet_vehicle_model__message_has_sms_error"
+}

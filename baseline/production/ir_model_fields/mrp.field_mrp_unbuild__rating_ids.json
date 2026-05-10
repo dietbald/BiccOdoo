@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16230,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      971,
+      "Unbuild Order"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "70af9aecfa65a34e5efaa973decd7ee270cdabfe4e6357c250c2145cd47420fe",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_unbuild__rating_ids"
+}

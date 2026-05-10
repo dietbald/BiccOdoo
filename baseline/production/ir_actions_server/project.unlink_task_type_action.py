@@ -1,0 +1,1 @@
+action = records.unlink_wizard(stage_view=True)

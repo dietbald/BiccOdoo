@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25864,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Language",
+    "model_id": [
+      923,
+      "Survey User Input Line"
+    ],
+    "name": "lang_id",
+    "relation": "res.lang",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bd5c0a53f3e1580a159d5ce41dc34435630607d76f6458515592a6a09a1d7cae",
+  "write_date": "",
+  "xml_id": "survey.field_survey_user_input_line__lang_id"
+}

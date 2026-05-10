@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8561,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "To invoice",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "task_to_invoice",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9f5c7c8ff28487ab04cf6a0b74983bab013e3697e3bf552b17bac7fddfa53e71",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_task__task_to_invoice"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17950,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Utm Source",
+    "model_id": [
+      1035,
+      "Convert Social Post to Lead"
+    ],
+    "name": "utm_source_id",
+    "relation": "utm.source",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7d8e12f1a22775d2cec4dc0e946c16fef63aaf118b7a5d1bd86de25ee38ffd7a",
+  "write_date": "",
+  "xml_id": "social_crm.field_social_post_to_lead__utm_source_id"
+}

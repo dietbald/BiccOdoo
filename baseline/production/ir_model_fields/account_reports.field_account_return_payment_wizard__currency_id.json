@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29035,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount To Pay Currency",
+    "model_id": [
+      3601,
+      "Returns Generic Payment Wizard"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0b48544d3d80a3fc7c18abb43b8de0c1b07b67c27b15b3fbedb0bc9de4921774",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_payment_wizard__currency_id"
+}

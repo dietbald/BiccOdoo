@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 163,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            ('project_id.privacy_visibility', 'in', ['invited_users', 'portal']),\n            ('partner_id', '=', user.partner_id.id),\n        ]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      605,
+      "Collaborators in project shared"
+    ],
+    "name": "Project/Collaborator: portal users: can only see his own collobaroration in shared projects",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6d3c744d26de47fcc4f57d86cb0cd95a2713005cdf5d69e0452847f5082fb40e",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.project_collaborator_rule_portal"
+}

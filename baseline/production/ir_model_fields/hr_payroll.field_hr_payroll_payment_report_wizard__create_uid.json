@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20687,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1241,
+      "HR Payroll Payment Report Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9df1c034e23d5b37d9b86f89f1d13145eb2648574ca63829e39387c530cb6988",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_payment_report_wizard__create_uid"
+}

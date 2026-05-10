@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13525,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Frequency",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "timesheet_mail_employee_interval",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8ac979c5a7513253b7f46e79caa2d40873dbfa1f9d284a90647f22a5031d6e28",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_res_company__timesheet_mail_employee_interval"
+}

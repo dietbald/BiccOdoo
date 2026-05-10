@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Taxes Amount",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "related_taxes_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f05c28ffc0d6ffe9a6f01232716eaa755e34abbd70b912e4c8e0f94673deeedd",
+  "write_date": "",
+  "xml_id": "account.field_account_account__related_taxes_amount"
+}

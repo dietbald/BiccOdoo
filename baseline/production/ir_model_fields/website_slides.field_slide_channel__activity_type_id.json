@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24262,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9bed6c9dca45b67bdff880e1807fcc11cd533416b6c2ad01d10b9b61b1469bec",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__activity_type_id"
+}

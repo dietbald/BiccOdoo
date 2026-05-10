@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheets",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "timesheet_ids",
+    "relation": "account.analytic.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "99428acf11c418c07a3c13399d54f2d8478813fec4c006ebc2202b4dd2ed584a",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_project_task__timesheet_ids"
+}

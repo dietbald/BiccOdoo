@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2318,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Browser endpoint",
+    "model_id": [
+      199,
+      "Push Notification Device"
+    ],
+    "name": "endpoint",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "3e7251a1fcd6fd9b36673342316828d506fc2453d621344e7f09b57d80a63fdf",
+  "write_date": "",
+  "xml_id": "mail.field_mail_push_device__endpoint"
+}

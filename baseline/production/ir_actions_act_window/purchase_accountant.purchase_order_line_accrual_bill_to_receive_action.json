@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1730,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_last_365_days': 1, 'search_default_groupby_vendor': 1}",
+    "domain": "[('bill_to_receive', '=', True)]",
+    "name": "Bill To Receive",
+    "res_model": "purchase.order.line",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "53c2ac963982b46c09c2c48942f0da78901c7ec836b8939caa0b8c944cedf384",
+  "write_date": "2025-12-09 03:00:43",
+  "xml_id": "purchase_accountant.purchase_order_line_accrual_bill_to_receive_action"
+}

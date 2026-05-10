@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 574,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Username",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "smtp_user",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "fdfab511f1c1e580e2dc5e85bfcf0c66042871ac435a4983b2b3c6787a130e0f",
+  "write_date": "",
+  "xml_id": "base.field_ir_mail_server__smtp_user"
+}

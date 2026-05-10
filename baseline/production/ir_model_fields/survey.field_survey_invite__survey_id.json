@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14931,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Survey",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "survey_id",
+    "relation": "survey.survey",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8b75be212e49ac93615ce99ae6519f0f74b1df12d28991742ce6b12ab6a619fb",
+  "write_date": "",
+  "xml_id": "survey.field_survey_invite__survey_id"
+}

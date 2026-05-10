@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 642,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      40,
+      "Project / User"
+    ],
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "project.resource_calendar user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "46a29ea371442a98989599d1281c880e8098794bf9b1fbdcdb8ca416544525fb",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_resource_calendar"
+}

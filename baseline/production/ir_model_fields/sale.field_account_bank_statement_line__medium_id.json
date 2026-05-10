@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8423,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "86a0e468938f27b621541958f2d1cb525f510cbcef92b41c776e344f50f7ddba",
+  "write_date": "",
+  "xml_id": "sale.field_account_bank_statement_line__medium_id"
+}

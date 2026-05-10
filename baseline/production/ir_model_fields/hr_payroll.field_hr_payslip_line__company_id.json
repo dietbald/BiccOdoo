@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12947,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5b3869abc8214822898c19107503a69730cb97882d3dc2b55c400008dbcb6920",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__company_id"
+}

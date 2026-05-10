@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17886,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "X Repost ID",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "twitter_retweeted_tweet_id_str",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "b0cffbbd3adb986df7afe4c1488acca0b9f223140ccacfa7088ff478e78a70e8",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_stream_post__twitter_retweeted_tweet_id_str"
+}

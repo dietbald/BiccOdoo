@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29696,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Completed template",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "request_completion_wa_template_id",
+    "relation": "whatsapp.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1a7fcba2f127d07fb8175ce37ca5c9b711914932a9519f480f0ef98de1bb1a8a",
+  "write_date": "",
+  "xml_id": "whatsapp_sign.field_res_config_settings__request_completion_wa_template_id"
+}

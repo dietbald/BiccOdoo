@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16846,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "All Employees Allowed",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "all_employees_allowed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "06b00f16631f684415c668ff3ba362a5b581e588c00de4a3be55e62d3513f5ad",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__all_employees_allowed"
+}

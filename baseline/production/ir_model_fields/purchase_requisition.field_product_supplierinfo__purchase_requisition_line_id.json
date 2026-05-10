@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Requisition Line",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "purchase_requisition_line_id",
+    "relation": "purchase.requisition.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c846fcce85c6e127c9488427883204c496cb06b29a8e1010bd70ad1640561e04",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_product_supplierinfo__purchase_requisition_line_id"
+}

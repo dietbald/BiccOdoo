@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10833,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      726,
+      "Putaway Rule"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "44e4161e9d27b1f255c311fd538989ce20aa3ff598d0f6f8918dfb5cd8334725",
+  "write_date": "",
+  "xml_id": "stock.field_stock_putaway_rule__create_uid"
+}

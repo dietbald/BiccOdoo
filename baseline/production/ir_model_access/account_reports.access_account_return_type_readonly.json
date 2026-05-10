@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2050,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      3563,
+      "Accounting Return Type"
+    ],
+    "name": "account.return.type.readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "fad2195a43e1f4c04f76f995f19aa9a8659f5a0007e30bc371ff06dfccd75617",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_return_type_readonly"
+}

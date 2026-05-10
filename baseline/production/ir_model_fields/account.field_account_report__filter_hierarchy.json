@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5118,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Groups",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "filter_hierarchy",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "40de8a722e77fb9ad8ad9abf53254fc556d036ce6db389ea862c477ea8326f8b",
+  "write_date": "",
+  "xml_id": "account.field_account_report__filter_hierarchy"
+}

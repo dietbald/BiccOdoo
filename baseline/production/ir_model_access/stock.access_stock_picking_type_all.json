@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 942,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "stock.picking.type all users",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "56ab97d855ad69c1aca2b8b2a4420dc4a68fcf31aefdbda5c49e74d437f8b9c3",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_picking_type_all"
+}

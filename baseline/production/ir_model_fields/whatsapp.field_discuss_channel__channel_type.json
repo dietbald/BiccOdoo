@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2376,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Channel Type",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "channel_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "21fa84aa7a63bfea998b3a336caa3844e75b25d0541cbf4c0336f1f9555fb7f9",
+  "write_date": "",
+  "xml_id": "whatsapp.field_discuss_channel__channel_type"
+}

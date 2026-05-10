@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12790,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unpaid Work Entry Type",
+    "model_id": [
+      816,
+      "Salary Structure"
+    ],
+    "name": "unpaid_work_entry_type_ids",
+    "relation": "hr.work.entry.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c7f6bd831af51ddf31b1492bef4b36d5032a3d01c376fdac29aae625e15d122d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_structure__unpaid_work_entry_type_ids"
+}

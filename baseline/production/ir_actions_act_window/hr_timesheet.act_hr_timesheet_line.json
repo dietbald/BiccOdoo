@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 854,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'grid_anchor': (datetime.date.today()).strftime('%Y-%m-%d'),\n                'group_expand': True,\n                \"is_timesheet\": 1,\n                \"is_my_timesheets\": 1,\n            }",
+    "domain": "[('project_id', '!=', False), ('user_id', '=', uid)]",
+    "name": "My Timesheets",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "grid,list,form"
+  },
+  "payload_sha256": "371fd206d49313857f60ed68056cb4868f946bd367db4fa4d2f4aa450deea65b",
+  "write_date": "2025-12-09 03:00:18",
+  "xml_id": "hr_timesheet.act_hr_timesheet_line"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18403,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Access Token",
+    "model_id": [
+      1048,
+      "WhatsApp Business Account"
+    ],
+    "name": "token",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d5fcaa16e07db286512d41e0374d9a87d2dd6732a26ad0c348bc3d979c274bc5",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_account__token"
+}

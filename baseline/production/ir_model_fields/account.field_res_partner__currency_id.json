@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3863,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4eacc7fca500d54c044031a93c4da49d511c499235ff1641b10a4a6c7780f183",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__currency_id"
+}

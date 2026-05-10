@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29817,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3765,
+      "Payment register withholding line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "18deb37c0eb33e3d5477f5d58581fece508ee9e8d805378c8d44c80b2e2d6545",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment_register_withholding_line__create_uid"
+}

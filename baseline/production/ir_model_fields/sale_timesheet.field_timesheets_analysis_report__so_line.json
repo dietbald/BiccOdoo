@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13665,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Order Item",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "so_line",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "424f15224ba27aacd315c2c1c38c104bbd011d20ddfaf4c631e77a41dd001586",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_timesheets_analysis_report__so_line"
+}

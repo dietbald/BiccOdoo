@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5828,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account",
+    "model_id": [
+      490,
+      "Account reconciliation wizard"
+    ],
+    "name": "account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "91f8e4bd1d9ec5f24e32ffcddc694e9da29caa70ff1c1c83d6a658d2049865d8",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_reconcile_wizard__account_id"
+}

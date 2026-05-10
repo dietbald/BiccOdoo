@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16583,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Bounced Message",
+    "model_id": [
+      987,
+      "Quality Alert Team"
+    ],
+    "name": "alias_bounced_content",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "acb217be8dff78015d5118c1644d4c5c7ec406f8fa961c0994c018125a6b3c41",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_team__alias_bounced_content"
+}

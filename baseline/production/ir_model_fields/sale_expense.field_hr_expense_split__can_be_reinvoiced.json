@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9352,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can be reinvoiced",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "can_be_reinvoiced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d0c77f8656ffad7bf9036701970baf9e924b9d4282d1ff479da0dd140198108a",
+  "write_date": "",
+  "xml_id": "sale_expense.field_hr_expense_split__can_be_reinvoiced"
+}

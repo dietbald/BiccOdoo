@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4101,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f8f3f4bc8bae2175afc489fa255d0a694a40c8ea8c35155041b46d51d71f39db",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__message_needaction"
+}

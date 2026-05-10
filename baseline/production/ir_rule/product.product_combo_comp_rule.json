@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 621,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n            ['|', ('company_id', '=', False), ('company_id', 'parent_of', company_ids)]\n        ",
+    "groups": [],
+    "model_id": [
+      1348,
+      "Product Combo"
+    ],
+    "name": "Product combo multi-company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d6f6248fb84a9319c44a1ff8d0c5e92d9bd5f30c1c981fdb30ca4f763746a83a",
+  "write_date": "2025-01-28 01:21:44",
+  "xml_id": "product.product_combo_comp_rule"
+}

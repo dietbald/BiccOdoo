@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22126,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Included in Price",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "price_include_override",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a76295e54e2b35c452d79273c0be3a3a244cc6a46b71602f739fc0e795883edb",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__price_include_override"
+}

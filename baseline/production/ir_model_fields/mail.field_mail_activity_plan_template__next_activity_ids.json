@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26920,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activities",
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "next_activity_ids",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b41fe874ed6bd963f69bf8a306d428584e1c763fc0ccb59c97a18e8a411f8d39",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_plan_template__next_activity_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26503,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2746,
+      "Partner IAP"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78eb382a362168defc7140eedeecc8851cba1338c3c99f6ec698ea7cbb0afc80",
+  "write_date": "",
+  "xml_id": "mail_plugin.field_res_partner_iap__write_uid"
+}

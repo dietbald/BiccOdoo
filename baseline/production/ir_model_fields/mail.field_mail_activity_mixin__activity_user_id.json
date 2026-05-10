@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1744,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      150,
+      "Activity Mixin"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0908a1a01f0ec4b03faaf49d7b859639519ca93142bbb17f9df6b457d37183ef",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_mixin__activity_user_id"
+}

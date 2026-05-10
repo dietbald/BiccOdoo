@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17071,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fuel Type",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "fuel_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8f2bbd28d55d8932b54cbd5ba2a02f5a08fac09bf2c05a8126f532d769b05db1",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__fuel_type"
+}

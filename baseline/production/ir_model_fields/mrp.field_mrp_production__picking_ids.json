@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16184,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Picking associated to this manufacturing order",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "picking_ids",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9bfb2d15b55877609795a8314a21372e5e2667b0e65e7c0d66d74974e0fd5f94",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__picking_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3185,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3fec495ed5a4945b20de87367bce96d7844e7902bc47043a7172a4cf372e19dc",
+  "write_date": "",
+  "xml_id": "product.field_product_supplierinfo__partner_id"
+}

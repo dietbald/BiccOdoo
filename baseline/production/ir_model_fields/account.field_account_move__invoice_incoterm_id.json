@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4391,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Incoterm",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_incoterm_id",
+    "relation": "account.incoterms",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "771577113a507d7972809a3a6fd68ef697ed9755bf3ce0318c36f3c4dd9e44b5",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_incoterm_id"
+}

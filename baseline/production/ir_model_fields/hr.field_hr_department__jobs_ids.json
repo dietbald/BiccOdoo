@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8829,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Jobs",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "jobs_ids",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b8d6f4eff7b9d6a1bae68c3d188139f6f49f81d4c58601379f3a451058d35ad0",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__jobs_ids"
+}

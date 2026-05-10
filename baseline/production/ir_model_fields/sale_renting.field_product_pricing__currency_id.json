@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26520,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      2747,
+      "Pricing rule of rental products"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "605197940be80b576164356e05c55a4b49350c3b548a520c33c4407315e0df18",
+  "write_date": "",
+  "xml_id": "sale_renting.field_product_pricing__currency_id"
+}

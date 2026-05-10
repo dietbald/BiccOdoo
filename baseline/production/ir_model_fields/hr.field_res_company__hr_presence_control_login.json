@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22485,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Based on user status in system",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "hr_presence_control_login",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a34e8bb7e5cf656f2a47102b2a385ef95e3957be2bd7bf8398ec50884c3470a9",
+  "write_date": "",
+  "xml_id": "hr.field_res_company__hr_presence_control_login"
+}

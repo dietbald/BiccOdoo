@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15271,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8d72cfeebaa3a79404030f31aa2ecd6b2d1c3d49f34cd615875c22b1b3de6d81",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__rating_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11687,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Warehouses",
+    "model_id": [
+      765,
+      "Stock Rules report"
+    ],
+    "name": "warehouse_ids",
+    "relation": "stock.warehouse",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a43e0bafc72a3172a313c1416faf4fdf5f89be2b597baffe8a5a944e7e89393e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rules_report__warehouse_ids"
+}

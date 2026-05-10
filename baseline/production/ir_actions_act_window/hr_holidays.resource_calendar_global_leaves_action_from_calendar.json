@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1013,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_calendar_id': active_id,\n            'search_default_calendar_id': active_id}",
+    "domain": "[('resource_id', '=', False)]",
+    "name": "Public Holidays",
+    "res_model": "resource.calendar.leaves",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "3a9ad62457ed10e4dd3b7f6d5638a2dfb207b768e6341c558e85507149aef194",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.resource_calendar_global_leaves_action_from_calendar"
+}

@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 338,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('website_published', '=', True)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "Articles: users/portal: published gives read access",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ce041bcb55337b752b29797768ab905fbdf1f14515252db6c8a63688ed015157",
+  "write_date": "2023-12-04 12:24:44",
+  "xml_id": "website_knowledge.rule_knowledge_article_users_read"
+}

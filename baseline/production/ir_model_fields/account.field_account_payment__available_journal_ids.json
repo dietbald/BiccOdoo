@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4564,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Journal",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "available_journal_ids",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8afc45256e48d83de3cdca3fb450675312bad2571e5de8ad901fd31a277a77b7",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__available_journal_ids"
+}

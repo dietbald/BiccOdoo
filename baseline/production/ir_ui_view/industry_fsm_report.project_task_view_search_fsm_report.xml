@@ -1,0 +1,7 @@
+<data><field name="project_id" position="after">
+                <field name="worksheet_template_id"/>
+            </field>
+            <filter name="milestone" position="before">
+                <filter string="Worksheet Template" name="groupby_worksheet_template" context="{'group_by':'worksheet_template_id'}"/>
+            </filter>
+        </data>

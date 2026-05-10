@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13751,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Exclusive Approval",
+    "model_id": [
+      875,
+      "Studio Approval Rule"
+    ],
+    "name": "exclusive_user",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "01c8649e2f998028676256a54f88f101b1855a889f5f748987b595a8faa1a9e1",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule__exclusive_user"
+}

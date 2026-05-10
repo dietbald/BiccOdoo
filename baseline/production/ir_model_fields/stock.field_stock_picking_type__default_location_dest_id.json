@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11171,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination Location",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "default_location_dest_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "60820fab61e2e127cbcb09036d40df16b4626a2ee41f3d6a93ffeafe8be95b50",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__default_location_dest_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21158,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9dc408fd73c1cce662f1a1702a71d34da90f71037c21303af127ebe8b3c5818d",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__activity_user_id"
+}

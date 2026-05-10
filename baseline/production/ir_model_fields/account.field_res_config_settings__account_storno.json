@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5055,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Storno accounting",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_storno",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b0f3722377bfc4c9ca0132b64f03c8a2602f985fcae92c3916d20510ea59100b",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__account_storno"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25688,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Tag",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "x_studio_invoice_tag",
+    "relation": "crm.tag",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5977a41a4c7aba0c7ada9458fa4482a11edd2814070c197f4d51dd03b5ca2cd6",
+  "write_date": "2025-04-23 21:19:57",
+  "xml_id": "studio_customization.new_many2many_journa_99ee2995-26c3-45cc-9d7c-f2b3aaf0daf2"
+}

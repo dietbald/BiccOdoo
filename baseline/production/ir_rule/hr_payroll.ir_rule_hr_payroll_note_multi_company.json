@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 369,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      830,
+      "Payroll Note"
+    ],
+    "name": "HR Payroll Note: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "df0f029b62ba1e3518861162c4b2ef8434e14b6aec93d3bf955213e3ed0cce5c",
+  "write_date": "2023-12-05 05:18:50",
+  "xml_id": "hr_payroll.ir_rule_hr_payroll_note_multi_company"
+}

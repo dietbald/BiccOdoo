@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1031,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Root",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "root_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c3a8d7ccfd9511de0e74a84f270adda140cfa750c9b8c845ddf8c75b315e1be",
+  "write_date": "",
+  "xml_id": "base.field_res_company__root_id"
+}

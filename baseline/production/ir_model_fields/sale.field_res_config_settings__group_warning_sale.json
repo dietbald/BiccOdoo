@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8346,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Order Warnings",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_warning_sale",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "141be914845e0ead6193bd3d4e247b7a52d8fb1486439651802a96617c859268",
+  "write_date": "",
+  "xml_id": "sale.field_res_config_settings__group_warning_sale"
+}

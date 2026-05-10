@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11796,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Supplying Warehouse",
+    "model_id": [
+      775,
+      "Stock warehouse replenishment option"
+    ],
+    "name": "warehouse_id",
+    "relation": "stock.warehouse",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3cf32817c72f1ea9955f7a6d8250fb87c8e282a1543605c7d4ccadb367cae8e7",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenishment_option__warehouse_id"
+}

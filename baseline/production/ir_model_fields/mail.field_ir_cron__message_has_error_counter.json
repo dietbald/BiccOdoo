@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27005,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "e1ce446c941f863423275f04ffc29e42910c95bd55329163a25371a3ab21f4e4",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__message_has_error_counter"
+}

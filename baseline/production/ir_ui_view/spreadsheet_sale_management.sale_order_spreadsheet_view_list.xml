@@ -1,0 +1,7 @@
+<list editable="bottom">
+                <field name="name"/>
+                <field name="order_id"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <field name="spreadsheet_binary_data" widget="binary_spreadsheet" filename="spreadsheet_file_name"/>
+                <field name="spreadsheet_file_name" column_invisible="1"/> <!-- Used as the file name -->
+            </list>

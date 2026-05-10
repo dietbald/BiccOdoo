@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29993,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Agent",
+    "model_id": [
+      3860,
+      "AI Agent Source"
+    ],
+    "name": "agent_id",
+    "relation": "ai.agent",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b7f0d6c3a92bfcca58cf0db13ee7a79e051fe8f0756cae6aac589a38acc80f9b",
+  "write_date": "",
+  "xml_id": "ai.field_ai_agent_source__agent_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7976,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task",
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "task_id",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "006edc249fc4374e8f50953e7888cff401b17a0ba7d435f9e8b77439691e28fe",
+  "write_date": "",
+  "xml_id": "project.field_report_project_task_user__task_id"
+}

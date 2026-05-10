@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10026,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      688,
+      "Website rewrite"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e1c910b00beb028f85d2b88715249779c3a5716880ca148baa12a7f5f447ae97",
+  "write_date": "",
+  "xml_id": "website.field_website_rewrite__website_id"
+}

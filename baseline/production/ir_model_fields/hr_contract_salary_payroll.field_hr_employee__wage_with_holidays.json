@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29128,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wage with Holidays",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "wage_with_holidays",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "e5943054dfa9ff46275ce15f0e65040de495d0ee73ea10cb31890dedabd48f28",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_employee__wage_with_holidays"
+}

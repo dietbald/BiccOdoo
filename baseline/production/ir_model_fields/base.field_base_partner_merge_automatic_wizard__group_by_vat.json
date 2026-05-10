@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1328,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "VAT",
+    "model_id": [
+      116,
+      "Merge Partner Wizard"
+    ],
+    "name": "group_by_vat",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a777e67323c6e8fe4833c008c0268a69dc9a5f378bf10950ac4365893f32c3c3",
+  "write_date": "",
+  "xml_id": "base.field_base_partner_merge_automatic_wizard__group_by_vat"
+}

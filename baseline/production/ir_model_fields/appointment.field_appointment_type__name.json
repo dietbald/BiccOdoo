@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15275,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appointment Title",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "name",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": "standard",
+    "ttype": "char"
+  },
+  "payload_sha256": "86b38742d4291843764660b95876e412c59264cbae45c5c096071332c1b62792",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__name"
+}

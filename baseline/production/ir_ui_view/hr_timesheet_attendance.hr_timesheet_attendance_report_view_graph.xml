@@ -1,0 +1,4 @@
+<graph string="Timesheet Attendance" sample="1" disable_linking="1">
+                    <field name="date" interval="month"/>
+                    <field name="total_difference" type="measure" widget="timesheet_uom"/>
+                </graph>

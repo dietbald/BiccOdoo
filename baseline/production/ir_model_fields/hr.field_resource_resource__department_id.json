@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20437,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      146,
+      "Resources"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4d1880dffb912a462a656de5bbe9e573620a84682f019aa7b102aa345e08f306",
+  "write_date": "",
+  "xml_id": "hr.field_resource_resource__department_id"
+}

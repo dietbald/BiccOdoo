@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20913,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1253,
+      "Load the worksheet template"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9b7fdbb2c2f1c41b19bcf7496bc7cdf45321781825fa09b92d5a24851606758a",
+  "write_date": "",
+  "xml_id": "industry_fsm_report.field_worksheet_template_load_wizard__write_uid"
+}

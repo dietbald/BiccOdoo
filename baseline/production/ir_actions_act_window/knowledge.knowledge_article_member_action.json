@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 777,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('article_id.is_template', '=', False)]",
+    "name": "Members",
+    "res_model": "knowledge.article.member",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "b9bb0ec92fa104618cb46f31c83d37379541ea2c03b270f523e86c33b7b791d7",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.knowledge_article_member_action"
+}

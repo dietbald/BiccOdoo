@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2674,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8d32fb76a21c8e10e04ab993d4cd42f16ad09979fda2227b78ea1efdd5a40184",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_account__company_id"
+}

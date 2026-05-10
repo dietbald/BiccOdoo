@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9429,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b25e25a5f307ad746c2487dd71eea0d451c50a6c0e8e045fc9b4a14bca949104",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__write_uid"
+}

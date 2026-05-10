@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11729,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      768,
+      "Product Replenish"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a4ebd05b06901acb02b8dc7c97baa27cd98e8b85d4563bd8d2d2cf71e767ac8a",
+  "write_date": "",
+  "xml_id": "stock.field_product_replenish__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11230,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1d42c287a32da1fef4a2d05a827a37df3bb4fed44cbcfb945091832b8c8e8b18",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__message_ids"
+}

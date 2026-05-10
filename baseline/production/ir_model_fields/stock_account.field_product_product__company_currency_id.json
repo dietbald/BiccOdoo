@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11837,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Valuation Currency",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "company_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a5bea1a2883bcfaa65e8dc2bc7a0865f6111f121a7312b9332d1cbe555e1ca2c",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_product__company_currency_id"
+}

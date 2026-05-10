@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25734,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Disjoint Groups",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "disjoint_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "fe56aa6f61b5fcbba9886e900f0a0c919d16b59b0db2f53e7043552d348fdae5",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__disjoint_ids"
+}

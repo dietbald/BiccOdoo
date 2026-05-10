@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 568,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'quotation_only': True}",
+    "domain": "[]",
+    "name": "Requests for Quotation",
+    "res_model": "purchase.order",
+    "target": "current",
+    "view_mode": "list,kanban,form,pivot,graph,calendar,activity"
+  },
+  "payload_sha256": "6c5a76ee336d055febccc52dc25917dd908a2cb78602869029ebc460c4872bd0",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.purchase_rfq"
+}

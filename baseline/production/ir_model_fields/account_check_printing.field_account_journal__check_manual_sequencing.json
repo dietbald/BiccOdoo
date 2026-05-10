@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17352,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manual Numbering",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "check_manual_sequencing",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5eafcdcf30a45e67856b2ef35a30af8e3c40af0fb698edfb38d31091133a9ab2",
+  "write_date": "",
+  "xml_id": "account_check_printing.field_account_journal__check_manual_sequencing"
+}

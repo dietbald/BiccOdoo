@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display SEPA QR-code",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "qr_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aa161c5c575e4d8ddf8325590a6f3f980a0d7c426f89fde305f965ff6d669994",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__qr_code"
+}

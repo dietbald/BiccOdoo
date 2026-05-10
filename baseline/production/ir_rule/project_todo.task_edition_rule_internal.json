@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 179,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('project_id', '=', False), ('user_ids', 'in', user.id), ('parent_id', '=', False)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "Project/Task: employees: Full access to own private task only",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a974094b35085ef7d64b0d382dbfe59db4f2b77cb1d9e1f6da0a07968eb8c1cd",
+  "write_date": "2023-11-30 04:48:20",
+  "xml_id": "project_todo.task_edition_rule_internal"
+}

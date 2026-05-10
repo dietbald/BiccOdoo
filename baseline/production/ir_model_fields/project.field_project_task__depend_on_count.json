@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19967,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Depending on Tasks",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "depend_on_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "5c458b27870d2c61661db1d6794f1c09910b7c31c67b6a59c477168d392d66ed",
+  "write_date": "",
+  "xml_id": "project.field_project_task__depend_on_count"
+}

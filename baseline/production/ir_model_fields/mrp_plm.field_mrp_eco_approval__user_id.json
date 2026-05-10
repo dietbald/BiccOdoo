@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17450,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approved by",
+    "model_id": [
+      1017,
+      "ECO Approval"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "765ef3cf911a49afe6675332a4698162d0163dd05088f5fef9befaf5c958ff53",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_approval__user_id"
+}

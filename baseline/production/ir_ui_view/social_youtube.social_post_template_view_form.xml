@@ -1,0 +1,6 @@
+<xpath expr="//field[@name='account_ids']" position="attributes">
+                <!-- Do not allow to select Youtube account for a post template -->
+                <attribute name="domain">
+                    [('media_type', '!=', 'youtube')]
+                </attribute>
+            </xpath>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20151,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Edit Mode Reco Currency",
+    "model_id": [
+      490,
+      "Account reconciliation wizard"
+    ],
+    "name": "edit_mode_reco_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "581ee0f0ff3dbf365370fe2df047fdc43d8058fd5938cac6c1160a44c6cd7241",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_reconcile_wizard__edit_mode_reco_currency_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23723,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Form Fields Included",
+    "model_id": [
+      1469,
+      "Quotation's Headers & Footers"
+    ],
+    "name": "form_field_ids",
+    "relation": "sale.pdf.form.field",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "4c97a3f1199c61214afc8c07aa250155656711a9b9a1199ee9733cf9628c9045",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_quotation_document__form_field_ids"
+}

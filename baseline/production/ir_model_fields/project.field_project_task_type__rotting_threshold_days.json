@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28034,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days to rot",
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "rotting_threshold_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "086619a6658ec87a5ce3c14c8fdfce2ff2f6faa2c208adf1fa0fb97a30b15ca3",
+  "write_date": "",
+  "xml_id": "project.field_project_task_type__rotting_threshold_days"
+}

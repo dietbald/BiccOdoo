@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a07ff4e4f0854c32f05c44fd86d3680c397b17922e8d3568499fba09403bac54",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__country_id"
+}

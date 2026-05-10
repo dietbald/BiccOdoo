@@ -1,0 +1,54 @@
+<form>
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" string="Rule Name"/>
+                        <h1><field name="name" placeholder="e.g. Over 8 hours daily"/></h1>
+                        <group>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                        </group>
+                    </div>
+                    <notebook>
+                        <page string="Definition">
+                            <group string="Condition" style="grid-template-columns:max-content 1fr">
+                                <field name="base_off" widget="radio" string="The rule is based on"/>
+                                <!-- QUANTITY -->
+                                <span colspan="2" class="d-flex gap-1" invisible="base_off != 'quantity'">
+                                    <label for="quantity_period" string="If the worked hours on a"/>
+                                    <field style="width:10ch" nolabel="1" name="quantity_period"/>
+                                    <label for="expected_hours_from_contract" string="exceed"/>
+                                    <field class="w-auto" name="expected_hours_from_contract" nolabel="1" widget="boolean_radio" options="{                                         'yes_label_element_id': 'expected_hours_from_contract_yes',                                         'no_label_element_id': 'expected_hours_from_contract_no'                                     }"/>
+                                    <template id="expected_hours_from_contract_yes">the amount defined on the contract</template>
+                                    <template id="expected_hours_from_contract_no">a specific duration</template>
+                                </span>
+                                <label for="expected_hours" string="Duration to exceed:" invisible="base_off != 'quantity' or expected_hours_from_contract"/>
+                                <span name="expected_hours" class="fw-bold" invisible="base_off != 'quantity' or expected_hours_from_contract">
+                                    <field name="expected_hours" widget="float_time" style="width:10ch"/>
+                                    hours
+                                </span>
+                                <field name="employer_tolerance" widget="float_time" string="With a tolerance in favor of the employer of"/>
+                                <!-- TIMING -->
+                                <field name="timing_type" widget="radio" string="If the employee works" invisible="base_off != 'timing'"/>
+                                <span class="fw-bold" invisible="base_off != 'timing' or timing_type not in ['work_days', 'non_work_days']">Between</span>
+                                <span class="d-flex gap-1" invisible="base_off != 'timing' or timing_type not in ['work_days', 'non_work_days']">
+                                    <field nolabel="1" name="timing_start" widget="float_time" style="width:10ch"/>
+                                    <label for="expected_hours_from_contract" string="and"/>
+                                    <field nolabel="1" name="timing_stop" widget="float_time" style="width:10ch"/>
+                                </span>
+                                <field name="resource_calendar_id" string="Schedule" invisible="base_off != 'timing' or timing_type != 'schedule'"/>
+                            </group>
+                            <group name="action_section" string="Action" style="grid-template-columns:max-content 1fr">
+                                <span colspan="2" class="mb-3 fw-bold">The hours will be considered extra and submitted to approval.</span>
+                                                <label for="paid" string="Pay extra hours"/>
+                                <span class="d-flex gap-1" name="paid">
+                                    <field class="w-auto" nolabel="1" name="paid"/>
+                                    <label for="amount_rate" string="with a rate of" invisible="not paid"/>
+                                    <field name="amount_rate" style="width:10ch" widget="percentage" invisible="not paid"/>
+                                </span>
+                            </group>
+                        </page>
+                        <page string="Description">
+                            <field name="description" placeholder="Description"/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>

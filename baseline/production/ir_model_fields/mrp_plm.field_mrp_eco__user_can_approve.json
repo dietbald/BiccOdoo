@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17522,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can Approve",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "user_can_approve",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dce3951e1eb720308e2497884e69d0a4c10a382a7a9be2d802dea1ff011fd888",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__user_can_approve"
+}

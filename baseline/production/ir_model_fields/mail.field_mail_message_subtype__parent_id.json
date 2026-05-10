@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2013,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent",
+    "model_id": [
+      173,
+      "Message subtypes"
+    ],
+    "name": "parent_id",
+    "relation": "mail.message.subtype",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c3b521d4be2e61cd8823ee1138a76823fa99c830d377f942833d70f007bcef71",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_subtype__parent_id"
+}

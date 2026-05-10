@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17731,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Social Post",
+    "model_id": [
+      1027,
+      "Social Live Post"
+    ],
+    "name": "post_id",
+    "relation": "social.post",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "08a36e00ff2ab20cc0755aec2e24bcf16be42827abe23e7a2c893b47c5135570",
+  "write_date": "",
+  "xml_id": "social.field_social_live_post__post_id"
+}

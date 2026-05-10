@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10275,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inherited View",
+    "model_id": [
+      700,
+      "Model Page"
+    ],
+    "name": "inherit_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5b4a65304887a9aaeedd542e39b95d942c8a561a3915bc4b7feb38c5c6d2a600",
+  "write_date": "",
+  "xml_id": "website.field_website_controller_page__inherit_id"
+}

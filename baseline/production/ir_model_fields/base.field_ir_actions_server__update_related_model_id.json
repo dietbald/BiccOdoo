@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 353,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Update Related Model",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "update_related_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b288304e50bc06bedff3a52918a9f8d8c1e8882bfb5b3dc554e2f8e601963cfe",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__update_related_model_id"
+}

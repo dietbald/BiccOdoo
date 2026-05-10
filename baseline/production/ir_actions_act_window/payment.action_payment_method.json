@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 205,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'active_test': False, 'search_default_available_pms': 1}",
+    "domain": "[('is_primary', '=', True)]",
+    "name": "Payment Methods",
+    "res_model": "payment.method",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "af8f55c021df77496562532e2b36c69baac07eadf5efeb48a4b77aeb2c99258d",
+  "write_date": "2025-12-09 02:56:23",
+  "xml_id": "payment.action_payment_method"
+}

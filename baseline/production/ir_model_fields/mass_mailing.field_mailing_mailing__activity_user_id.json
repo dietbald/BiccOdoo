@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14180,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "05a8d7e6baeb9e458aea46d2b2d87e4d223d7080c0615364343215f239e77baf",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__activity_user_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17196,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Driver",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "purchaser_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a39013017d2b59a12c790c9eb61795c9992da4eb3615bad8c384ad7d0035105a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__purchaser_id"
+}

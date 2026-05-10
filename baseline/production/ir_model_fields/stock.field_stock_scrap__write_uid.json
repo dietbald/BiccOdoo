@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11420,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5d6dce83270e8647f5851024c488f85b8568bc3ecf1b4546236cc90f83f051bc",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__write_uid"
+}

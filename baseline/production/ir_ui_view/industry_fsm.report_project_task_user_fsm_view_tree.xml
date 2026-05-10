@@ -1,0 +1,8 @@
+<list string="Tasks Analysis" editable="top" delete="false">
+                <field name="name"/>
+                <field name="partner_id" optional="hide"/>
+                <field name="project_id" optional="show"/>
+                <field name="user_ids" optional="show" widget="many2many_avatar_user"/>
+                <field name="effective_hours" optional="show" widget="float_time" sum="Sum of Effective Hours"/>
+                <field name="company_id" optional="show" groups="base.group_multi_company"/>
+            </list>

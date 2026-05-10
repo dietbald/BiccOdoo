@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30055,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow End Message",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "ai_tool_allow_end_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6a41ab39bc4234b5c82ea7f315e94584e07752726e1cf72f6b590c06af7dddaa",
+  "write_date": "",
+  "xml_id": "ai.field_ir_actions_server__ai_tool_allow_end_message"
+}

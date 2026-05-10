@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8505,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      625,
+      "Quotation Template Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e167c4de1247324cc1e57a3867576fb040a7845165a9a43363d9bcd80a944120",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template_line__create_uid"
+}

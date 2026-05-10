@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1265,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "First Lang",
+    "model_id": [
+      110,
+      "Install Language"
+    ],
+    "name": "first_lang_id",
+    "relation": "res.lang",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "67d46fd30df9d33ba8d386d846d339886d55c75afd84c0cd00b79ec656b2a6ae",
+  "write_date": "",
+  "xml_id": "base.field_base_language_install__first_lang_id"
+}

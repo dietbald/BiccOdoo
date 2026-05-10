@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4011,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "680175833732770028a5c591d5a2d8acbf213603194ef4c6d33d351b8439ae9b",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__message_follower_ids"
+}

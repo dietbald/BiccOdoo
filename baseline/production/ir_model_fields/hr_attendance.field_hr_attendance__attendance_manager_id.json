@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25017,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendance Approver",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "attendance_manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e982fd336abd517da7e9275645f053ec63e5e135bee22952c804dc709fa34df7",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__attendance_manager_id"
+}

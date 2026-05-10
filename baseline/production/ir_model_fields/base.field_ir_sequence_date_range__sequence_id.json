@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 160,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Sequence",
+    "model_id": [
+      13,
+      "Sequence Date Range"
+    ],
+    "name": "sequence_id",
+    "relation": "ir.sequence",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "442e88c934d0b6957039aac183c99057514b89fa65ed2e0de5e58bfbaf9ce145",
+  "write_date": "",
+  "xml_id": "base.field_ir_sequence_date_range__sequence_id"
+}

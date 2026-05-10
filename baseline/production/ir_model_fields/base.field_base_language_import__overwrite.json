@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1276,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Overwrite Existing Terms",
+    "model_id": [
+      111,
+      "Language Import"
+    ],
+    "name": "overwrite",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3795ac1603d8a36dcfbb8c0ad4ed2873d37d777758b97815f9bd5b0e1951ff9f",
+  "write_date": "",
+  "xml_id": "base.field_base_language_import__overwrite"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 167,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n        '|',\n            ('project_id.privacy_visibility', 'in', ['employees', 'portal']),\n            '|',\n                ('project_id.message_partner_ids', 'in', [user.partner_id.id]),\n                '|',\n                    ('user_id', '=', user.id),\n                    ('project_id.user_id', '=', user.id)\n        ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "Project/Update: employees: follow required for follower-only projects",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "128de799560e5c0906a99fc8e7c28ff5171bb2db76fd79c40c8954fd8917c3bf",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.update_visibility_rule"
+}

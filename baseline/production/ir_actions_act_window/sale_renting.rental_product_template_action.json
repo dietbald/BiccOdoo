@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1615,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_sale_ok': False,\n            'default_rent_ok': True,\n            'default_is_storable': True,\n            'default_purchase_ok': False,\n            'search_default_filter_to_rent': True,\n        }\n        ",
+    "domain": false,
+    "name": "Products",
+    "res_model": "product.template",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "2f62935dc67733441e70526f7bf10d18392047e700659276be7cb89bf582718c",
+  "write_date": "2025-12-09 03:00:30",
+  "xml_id": "sale_renting.rental_product_template_action"
+}

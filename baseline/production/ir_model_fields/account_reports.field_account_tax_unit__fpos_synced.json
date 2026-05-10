@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6053,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Positions Synchronised",
+    "model_id": [
+      520,
+      "Tax Unit"
+    ],
+    "name": "fpos_synced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "102b42e6237c5afb4e3963a459c14fb70bb07a422267df8c3719dda54ce0d8dd",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_tax_unit__fpos_synced"
+}

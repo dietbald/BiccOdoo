@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16033,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Late Orders",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "workorder_late_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "e72976f97f73bcf7c8f09a46a41c53c828b8f6b3708e5f90a4e27141d404b7e9",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter__workorder_late_count"
+}

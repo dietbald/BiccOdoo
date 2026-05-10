@@ -1,0 +1,4 @@
+<t t-name="stock.report_location_barcode">
+    <t t-set="title">Locations</t>
+    <t t-call="stock.report_generic_barcode"/>
+</t>

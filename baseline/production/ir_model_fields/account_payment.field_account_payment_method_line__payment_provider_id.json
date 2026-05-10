@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5631,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Provider",
+    "model_id": [
+      440,
+      "Payment Methods"
+    ],
+    "name": "payment_provider_id",
+    "relation": "payment.provider",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ebcc666c26c2806d82c7c33c0ca5f4b1cabbdc86c3d431178cd3e2a2e7f00a44",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_payment_method_line__payment_provider_id"
+}

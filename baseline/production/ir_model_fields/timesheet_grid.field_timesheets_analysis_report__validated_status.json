@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23600,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Validated Status",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "validated_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ca03757f71cbd1b418963d1f5ddf0317de370a6a0a8ff54edbcbd11418c1758b",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_timesheets_analysis_report__validated_status"
+}

@@ -1,0 +1,8 @@
+<list editable="bottom" multi_edit="1" sample="1" duplicate="0">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="company_id" options="{'no_create': 1, 'no_edit': 1, 'no_open': 1}" optional="hide"/>
+                <field name="worksheet_count" string="Worksheets" optional="show"/>
+                <widget name="open_studio_button"/>
+                <button name="action_analysis_report" class="btn btn-secondary p-1 px-2" type="object" string="Analysis"/>
+            </list>

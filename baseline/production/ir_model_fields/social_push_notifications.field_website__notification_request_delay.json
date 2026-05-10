@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17996,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notification Request Delay (seconds)",
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "notification_request_delay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3064db492e3b8c7d5801a560880430005095c1da840af9282d697ce03c9936a3",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_website__notification_request_delay"
+}

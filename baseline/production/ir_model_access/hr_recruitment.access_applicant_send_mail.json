@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 854,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      671,
+      "Send mails to applicants"
+    ],
+    "name": "access.applicant.send.mail",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a768c21d2449b9deea5a92c3f8c34d1e5d151821d07efcfb7f181739f8bec8f1",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_applicant_send_mail"
+}

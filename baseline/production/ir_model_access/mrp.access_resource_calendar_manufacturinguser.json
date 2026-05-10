@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1429,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "resource.calendar manufacturing.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "fbda05bb9e93c7a4dfdcea6daf46cdee974d0681c51b2f217c38313b0a2adcd4",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_resource_calendar_manufacturinguser"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28724,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Selected Seller",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "selected_seller_id",
+    "relation": "product.supplierinfo",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7ae4035aabe8044e09efb4e134d84aed3ce279284b695663f62bfaf906b081ee",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__selected_seller_id"
+}

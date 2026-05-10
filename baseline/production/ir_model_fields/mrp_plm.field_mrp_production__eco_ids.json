@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17598,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ECOs",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "eco_ids",
+    "relation": "mrp.eco",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5063a73e60c0d8b94263c970e61f2e945b0e4553d056a0e420167a90c20471ed",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_production__eco_ids"
+}

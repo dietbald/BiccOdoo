@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11015,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lot/Serial Number",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "lot_id",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b4a917475c97a6498638741d5955175b9428b896646329fe16f97e706c9a5b0c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__lot_id"
+}

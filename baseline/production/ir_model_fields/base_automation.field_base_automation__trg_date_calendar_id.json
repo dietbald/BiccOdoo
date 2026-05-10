@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13721,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use Calendar",
+    "model_id": [
+      857,
+      "Automation Rule"
+    ],
+    "name": "trg_date_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "63ea2637fdc6b336cdb90427bcc14e404971910905b60c296cfbce1e4c363072",
+  "write_date": "",
+  "xml_id": "base_automation.field_base_automation__trg_date_calendar_id"
+}

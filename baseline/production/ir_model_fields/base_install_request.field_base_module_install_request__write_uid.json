@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2743,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      348,
+      "Module Activation Request"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "459f654b4691a761c7848783477cdff37c52d69473566c4dcef34ce984c7d59c",
+  "write_date": "",
+  "xml_id": "base_install_request.field_base_module_install_request__write_uid"
+}

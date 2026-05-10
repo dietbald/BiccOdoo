@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20000,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Published Dashboard",
+    "model_id": [
+      468,
+      "Group of dashboards"
+    ],
+    "name": "published_dashboard_ids",
+    "relation": "spreadsheet.dashboard",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e85d04e61aab3066f34fc5a5cfb07d95c4331dfbc5fd4315ddd54a57dbe2192d",
+  "write_date": "",
+  "xml_id": "spreadsheet_dashboard.field_spreadsheet_dashboard_group__published_dashboard_ids"
+}

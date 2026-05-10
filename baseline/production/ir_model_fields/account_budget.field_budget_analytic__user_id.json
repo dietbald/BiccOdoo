@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6763,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7649bfa4ff6b1d954a0648756000d65a40fedfc8ae93ffaf3b7a7b18a27128c6",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__user_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 773,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      641,
+      "Skill level for employee"
+    ],
+    "name": "hr.employee.skill",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "93be1daac1cdba3f798c065afc73d65eac89251f46e2ac719f6f2bbab1de5436",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.access_hr_employee_skill_employee"
+}

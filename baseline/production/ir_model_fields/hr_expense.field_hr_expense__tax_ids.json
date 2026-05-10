@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9177,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Included taxes",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "tax_ids",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a0f4df2440c20b631105052b1d0fe00aeb4c4a06ed60d45b1b55f8aea30fc945",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__tax_ids"
+}

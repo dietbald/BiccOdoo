@@ -1,0 +1,30 @@
+<kanban create="false" sample="1">
+                    <templates>
+                        <t t-name="card" class="row g-0">
+                            <aside class="col-4 my-auto align-self-center">
+                                <field name="rating_image" widget="image" options="{&quot;img_class&quot;: &quot;bg-transparent&quot;}" class="bg-view ms-3"/>
+                            </aside>
+                            <main class="col ps-2">
+                                <field name="rated_partner_name" class="fw-bolder"/>
+                                <div t-if="record.partner_id.value" class="text-truncate">
+                                    by
+                                    <span t-att-title="record.partner_id.value">
+                                        <field name="partner_id"/>
+                                    </span>
+                                </div>
+                                <span class="text-truncate">
+                                    for
+                                    <a type="object" name="action_open_rated_object" t-att-title="record.res_name.raw_value">
+                                        <field name="res_name"/>
+                                    </a>
+                                </span>
+                                <div>
+                                    on <field name="rated_on"/>
+                                </div>
+                                <span class="text-truncate" t-att-title="record.feedback.raw_value">
+                                    <field name="feedback"/>
+                                </span>
+                            </main>
+                        </t>
+                    </templates>
+                </kanban>

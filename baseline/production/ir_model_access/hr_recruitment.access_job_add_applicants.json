@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1919,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      2702,
+      "Add applicants to a job"
+    ],
+    "name": "access.job.add.applicants",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d1474ec319de869679089ac02cc8712b4d69cd56e44846fcb5e7630dabd49db0",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_job_add_applicants"
+}

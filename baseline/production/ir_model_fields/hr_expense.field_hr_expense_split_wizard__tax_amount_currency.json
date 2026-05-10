@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9279,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Taxes",
+    "model_id": [
+      652,
+      "Expense Split Wizard"
+    ],
+    "name": "tax_amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "14da0a4f01502c336d863b2e801caeda21d483b82560566bb461db873ce40dd0",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split_wizard__tax_amount_currency"
+}

@@ -1,0 +1,11 @@
+<data><xpath expr="//filter[@name='filter_category_anytime']" position="after">
+                <separator/>
+                <filter name="filter_is_published" string="Published" domain="[('is_published', '=', True)]"/>
+            </xpath>
+            <xpath expr="//filter[@name='group_by_timezone']" position="after">
+                <separator/>
+                <filter string="Website" name="group_by_website" groups="website.group_multi_website" context="{'group_by': 'website_id'}"/>
+                <separator/>
+                <filter string="Published" name="group_by_is_published" context="{'group_by': 'is_published'}"/>
+            </xpath>
+        </data>

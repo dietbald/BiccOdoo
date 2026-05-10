@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4809,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "origin_payment_id",
+    "relation": "account.payment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5a3e887804856537eb03c330992781b2fe78a97cbd09f3cc9bb88579263fc4cb",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__origin_payment_id"
+}

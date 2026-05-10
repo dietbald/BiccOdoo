@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8424,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Team",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "team_id",
+    "relation": "crm.team",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "598de6e3f3f03b8a01506dd5db55cc8d22997e61330de71e195c7896dbb9e596",
+  "write_date": "",
+  "xml_id": "sale.field_account_bank_statement_line__team_id"
+}

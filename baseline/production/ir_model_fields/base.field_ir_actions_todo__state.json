@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 367,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      25,
+      "Configuration Wizards"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "21c43b6db4bf64c9ef8a3649fcabdcce68ca551c8939aff26aac3106477a9788",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_todo__state"
+}

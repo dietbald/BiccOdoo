@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18101,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b1df1dbab9f621a06694b98bb668fd0938cee94084dc4c3ebf32ecf26d37f3da",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_equipment__activity_user_id"
+}

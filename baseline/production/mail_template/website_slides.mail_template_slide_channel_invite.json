@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 86,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Hello<br/><br/>\n        You have been invited to check out this course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n    </p>\n</div>\n            ",
+    "email_from": "{{ user.email_formatted }}",
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      1510,
+      "Channel / Partners (Members)"
+    ],
+    "name": "Elearning: Promotional Course Invitation",
+    "subject": "You have been invited to check out {{ object.channel_id.name }}"
+  },
+  "payload_sha256": "8e983dc5f15c49256743f2be6e5a2e81211c9b191268c175d3c0060781380596",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.mail_template_slide_channel_invite"
+}

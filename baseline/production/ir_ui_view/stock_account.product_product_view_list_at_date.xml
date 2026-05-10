@@ -1,0 +1,4 @@
+<field name="standard_price" position="after">
+                    <field name="avg_cost" string="Unit Cost" optional="hide" options="{                         'currency_field': 'company_currency_id',                     }"/>
+                    <field name="total_value" string="Total Value" optional="hide" options="{                         'currency_field': 'company_currency_id',                     }"/>
+                </field>

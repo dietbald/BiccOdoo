@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8812,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "382ee6f588cb59b8437ed5af4a894deb032998e7bf97a7d379e6991228307752",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__message_needaction"
+}

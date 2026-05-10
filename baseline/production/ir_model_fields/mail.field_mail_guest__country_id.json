@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2428,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      205,
+      "Guest"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e75d923a3c114192fd63c3320e311f0e6844180124c7ca1329d8e7b9953d77c8",
+  "write_date": "",
+  "xml_id": "mail.field_mail_guest__country_id"
+}

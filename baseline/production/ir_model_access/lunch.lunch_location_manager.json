@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1614,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      141,
+      "Lunch / Administrator"
+    ],
+    "model_id": [
+      1074,
+      "Lunch Locations"
+    ],
+    "name": "access_lunch_location",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "470667f7829bd1efbb1cef44e66101ed547cd4955f6a0f30ea293f6e28e6ba38",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.lunch_location_manager"
+}

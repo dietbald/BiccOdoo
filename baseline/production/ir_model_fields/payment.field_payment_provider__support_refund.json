@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3671,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Refund",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "support_refund",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "c7bff1355a4e7e061fc0a5bac7cd1d752d82591902d1a07f98ab5206a32f9be6",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__support_refund"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employer Cost",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "employer_cost",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "ec35655ff37d509ca3959d00e0814f7aa8129f53329767baf960c828cb0e551a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__employer_cost"
+}

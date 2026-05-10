@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19084,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a4b61fec957aec35f1bc6d5c9860c6b47b72f7042d43be1293d9bc31ca35aa72",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__message_is_follower"
+}

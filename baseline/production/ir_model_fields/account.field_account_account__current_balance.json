@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3964,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Current Balance",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "current_balance",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "238e0ded8b705212a1a6112ebcb089860e0abac6aa37ee4ba52eab584f13b817",
+  "write_date": "",
+  "xml_id": "account.field_account_account__current_balance"
+}

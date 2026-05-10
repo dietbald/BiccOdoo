@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22719,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2bf7caf15a14157f20e6e301ff69a4a025d2f0c0ef33295ccbc2518efdba8337",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement__message_needaction_counter"
+}

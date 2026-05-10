@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25834,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      2662,
+      "Base class to extract data from documents with OCRed words saved"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bc294682e97ca3ee8dc2f65cae99c9ce4b1d2f38b2c4e1d8c1a6946f37cfed60",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin_with_words__message_has_error"
+}

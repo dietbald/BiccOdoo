@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25663,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job",
+    "model_id": [
+      2611,
+      "Referral Send sms"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "794a2e377843abea943d3007a8743ecc4dfd40299f5eac1e3c4e088a9af89c02",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_send_sms__job_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4889,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Reconciled Entries",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "has_reconciled_entries",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e862981c744148dc22920cc9fd9a5dfa0ff0490041e33d37bf88e80997f1579c",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__has_reconciled_entries"
+}

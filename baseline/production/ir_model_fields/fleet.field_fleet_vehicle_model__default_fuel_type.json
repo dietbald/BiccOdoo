@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16988,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fuel Type",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "default_fuel_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f7e48a0d3745067ce31948bfadcf4f47ff1f0cedccc301a567ff37104e460b44",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__default_fuel_type"
+}

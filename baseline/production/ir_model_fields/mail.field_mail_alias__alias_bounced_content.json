@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1720,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Bounced Message",
+    "model_id": [
+      147,
+      "Email Aliases"
+    ],
+    "name": "alias_bounced_content",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "5b8901987c2167b5ecfc748c740d6291887fb812b723eaca1ba1d57e2eba38d5",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias__alias_bounced_content"
+}

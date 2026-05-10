@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8439,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Orders",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "order_ids",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "479851db1851ff6fc114828f3495527780c01fada3e6eedba8133663fd1bda33",
+  "write_date": "",
+  "xml_id": "sale_crm.field_crm_lead__order_ids"
+}

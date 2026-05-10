@@ -1,0 +1,29 @@
+<data inherit_id="website.new_page_template_s_media_list" primary="True">
+    <xpath expr="//h3|//h4|//h5" position="replace">
+        <h3 class="card-title">Tony Fred, CEO</h3>
+    </xpath>
+    <xpath expr="(//h3|//h4|//h5)[last()]" position="replace">
+        <h3 class="card-title">Aline Turner, CTO</h3>
+    </xpath>
+    <xpath expr="(//h3|//h4|//h5)[2]" position="replace">
+        <h3 class="card-title">Mich Stark, COO</h3>
+    </xpath>
+    <xpath expr="//p" position="replace">
+        <p class="card-text">Founder, Tony is the driving force behind the company. He loves to keep his hands full by participating in the development of the software, marketing, and UX strategies.</p>
+    </xpath>
+    <xpath expr="(//p)[last()]" position="replace">
+        <p class="card-text">Aline is one of the iconic people in life who can say they love what they do. She mentors 100+ in-house developers and looks after the community of thousands of developers.</p>
+    </xpath>
+    <xpath expr="(//p)[2]" position="replace">
+        <p class="card-text">Mich loves taking on challenges. With his multi-year experience as Commercial Director in the software industry, Mich has helped the company to get where it is today. Mich is among the best minds.</p>
+    </xpath>
+    <xpath expr="//img" position="replace">
+        <img alt="" src="/web/image/website.s_company_team_image_1" class="s_media_list_img h-100 w-100"/>
+    </xpath>
+    <xpath expr="(//img)[last()]" position="replace">
+        <img alt="" src="/web/image/website.s_company_team_image_3" class="s_media_list_img h-100 w-100"/>
+    </xpath>
+    <xpath expr="(//img)[2]" position="replace">
+        <img alt="" src="/web/image/website.s_company_team_image_2" class="s_media_list_img h-100 w-100"/>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.new_page_template_team_s_media_list</attribute></xpath></data>

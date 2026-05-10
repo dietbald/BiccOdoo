@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1515,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      978,
+      "Wizard in case of consumption in warning/strict and more component has been used for a MO (related to the bom)"
+    ],
+    "name": "subcontracting.portal.consumption.warning",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "007f0684d0630123588a1d34ad17652fb970b4234aa28909570d45ae08765317",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.access_subcontracting_portal_consumption_warning"
+}

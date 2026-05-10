@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26806,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Privilege",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "privilege_id",
+    "relation": "res.groups.privilege",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "31461fe068c635c3a552f27bee7338cc0731916748152f50f7fe66615bcd1b41",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__privilege_id"
+}

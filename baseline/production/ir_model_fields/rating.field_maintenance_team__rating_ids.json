@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27268,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7f2e99517e1dc334fec84d7fbfe472e4a4836a9395665fe5710a4b56ed433cc5",
+  "write_date": "",
+  "xml_id": "rating.field_maintenance_team__rating_ids"
+}

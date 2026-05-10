@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11139,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9718ed9f87b78ddbb4070b70cf25fa32c4d668b6a82c80cc0a2b1e4c6ab0cb17",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__message_has_error"
+}

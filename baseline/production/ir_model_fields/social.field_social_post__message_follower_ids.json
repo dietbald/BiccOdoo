@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17703,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bfa7e95fb5ffd3da450cb0d30f285921faf6f8c5d4d9e33f8f8403327c2a7afd",
+  "write_date": "",
+  "xml_id": "social.field_social_post__message_follower_ids"
+}

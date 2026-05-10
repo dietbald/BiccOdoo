@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27482,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report Expression",
+    "model_id": [
+      420,
+      "Account Tag"
+    ],
+    "name": "report_expression_id",
+    "relation": "account.report.expression",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78939ce46de99251322f47c099c8970dc26124c4ea6e2938e9685e08c3d72733",
+  "write_date": "",
+  "xml_id": "account.field_account_account_tag__report_expression_id"
+}

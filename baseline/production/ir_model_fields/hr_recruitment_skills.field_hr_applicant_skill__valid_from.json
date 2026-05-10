@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29198,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Validity Start",
+    "model_id": [
+      675,
+      "Skill level for an applicant"
+    ],
+    "name": "valid_from",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "5e76fdd0b7262c68888bb976460470b97ab916f92715998548abcb076d7da5eb",
+  "write_date": "",
+  "xml_id": "hr_recruitment_skills.field_hr_applicant_skill__valid_from"
+}

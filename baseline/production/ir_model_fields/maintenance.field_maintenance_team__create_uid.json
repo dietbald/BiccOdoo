@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18218,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fc98aac45e6627b6d5f47f1c5af0a7aec1587cec15fafa6d03e3b6fd283cb383",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__create_uid"
+}

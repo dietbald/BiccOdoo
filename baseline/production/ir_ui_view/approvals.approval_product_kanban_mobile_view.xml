@@ -1,0 +1,8 @@
+<kanban editable="bottom" string="Products">
+                <templates>
+                        <t t-name="card" class="d-flex justify-content-between">
+                            <field name="product_id" class="fw-bolder fs-5"/>
+                            <field name="quantity" class="fw-bolder fs-5"/>
+                        </t>
+                </templates>
+            </kanban>

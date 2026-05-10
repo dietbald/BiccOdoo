@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1898,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      158,
+      "Referrals / Administrator"
+    ],
+    "model_id": [
+      2604,
+      "Level for referrals"
+    ],
+    "name": "hr.referral.level.admin",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3ef4f2acf170ce84757d19c44c76865a4820050a2d6f53b7c841721544cc46d4",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_referral_level_admin"
+}

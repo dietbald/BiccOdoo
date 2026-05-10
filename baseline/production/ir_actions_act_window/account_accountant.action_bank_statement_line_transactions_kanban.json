@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1282,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_journal_id': active_id, 'search_default_journal_id': active_id}",
+    "domain": "[('state', '!=', 'cancel')]",
+    "name": "Bank Matching",
+    "res_model": "account.bank.statement.line",
+    "target": "current",
+    "view_mode": "kanban,list"
+  },
+  "payload_sha256": "58dd73cf24383140007167a4a4f6380ab86c606daaf4548ad5063b99e5149717",
+  "write_date": "2025-12-09 02:57:43",
+  "xml_id": "account_accountant.action_bank_statement_line_transactions_kanban"
+}

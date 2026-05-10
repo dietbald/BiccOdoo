@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10678,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "IP address of the visitor",
+    "model_id": [
+      715,
+      "Sign requests access history"
+    ],
+    "name": "ip",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "12ae01a413f675936af97b775be106874bd4d03760551cb426e589e762df9fe8",
+  "write_date": "",
+  "xml_id": "sign.field_sign_log__ip"
+}

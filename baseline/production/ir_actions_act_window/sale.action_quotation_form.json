@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 499,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_team_id': [active_id],\n                'default_team_id': active_id,\n                'default_user_id': uid,\n        }\n        ",
+    "domain": false,
+    "name": "New Quotation",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "form"
+  },
+  "payload_sha256": "f0e9fc78afe6936a2acac0f11221b5f5e855a57d87982447ac07056c5d0c8d80",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_quotation_form"
+}

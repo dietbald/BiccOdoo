@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12174,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      786,
+      "Approver"
+    ],
+    "name": "status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d0b4d3b27d36fe5d23fdb042a50dc57fcd06216098f817928b0230edbfae0f50",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_approver__status"
+}

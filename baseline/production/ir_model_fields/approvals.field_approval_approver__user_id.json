@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12172,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      786,
+      "Approver"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8be44323eb439b894c2c184426965ffbdb0c3df1f2572691db0ddd6912256aac",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_approver__user_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16756,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      993,
+      "Room Booking"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2ae69bfbab566dcc951dd2752187e116f67f80c0983fa8eda92328dcbd36d5d4",
+  "write_date": "",
+  "xml_id": "portal.field_room_booking__website_message_ids"
+}

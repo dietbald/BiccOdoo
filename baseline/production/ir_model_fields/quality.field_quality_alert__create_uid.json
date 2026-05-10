@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16706,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6b3b13139aa5940f37c7b8f543eb4c13b35d8317900a152b0323d2d317b1cfc8",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__create_uid"
+}

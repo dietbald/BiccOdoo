@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14969,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicant",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "applicant_id",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "af0fc5e12be353a7c8f5e46b49895b97a0ccb67e9da68a6c854049474bbb2c4d",
+  "write_date": "",
+  "xml_id": "hr_recruitment_survey.field_survey_invite__applicant_id"
+}

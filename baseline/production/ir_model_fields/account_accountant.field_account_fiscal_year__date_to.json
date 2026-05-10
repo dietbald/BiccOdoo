@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5681,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "End Date",
+    "model_id": [
+      485,
+      "Fiscal Year"
+    ],
+    "name": "date_to",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "775e66702c21ae384be036254b39db4a6902787a00d8b8d55973ecbdcea8310a",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_fiscal_year__date_to"
+}

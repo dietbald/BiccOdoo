@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 63,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.run_scheduler()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "Fleet: Generate contracts costs based on costs frequency",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "7eafe725a1ebbfec8a81659d1654874db74ebc0428fb02f489bb85d2a00d06cc",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "fleet.ir_cron_contract_costs_generator"
+}

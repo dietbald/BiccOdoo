@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23149,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1422,
+      "Bill to Purchase Order"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4af442a3da81ee1557eef9486b9da24bd16f774331f2d40d6f0e85976b46bff0",
+  "write_date": "",
+  "xml_id": "purchase.field_bill_to_po_wizard__write_uid"
+}

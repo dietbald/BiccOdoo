@@ -1,0 +1,4 @@
+<xpath expr="//field[@name=&quot;pricelist_id&quot;]" position="after">
+                <field name="zpl_template" invisible="'zpl' not in print_format"/>
+                <field name="zpl_preview" invisible="'zpl' not in print_format" widget="image" options="{'img_class': 'border'}" nolabel="1"/>
+            </xpath>

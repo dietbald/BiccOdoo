@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8425,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Order Count",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "sale_order_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2c355a70ee76631a6f1ff85ec7e6b5f1a23306d6ef337326bb0ea83c40826987",
+  "write_date": "",
+  "xml_id": "sale.field_account_bank_statement_line__sale_order_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5984,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Online Account",
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "online_account_id",
+    "relation": "account.online.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "edbcfe36563790a01e478d51231a519bd4f47c4a48f0dc4b2c264bc6eebe3a03",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line_transient__online_account_id"
+}

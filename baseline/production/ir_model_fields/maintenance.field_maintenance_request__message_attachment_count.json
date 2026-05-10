@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18164,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment Count",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "message_attachment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "e0cda3360160fc18e63a20b7a9df6c83475673c587c7b00166d0bb671e17f0ca",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__message_attachment_count"
+}

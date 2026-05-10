@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12030,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Free Qty Today",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "free_qty_today",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "987d3b58de1908f3baa104e4c92b404456e75fcfae594d01e65b0f4268860be3",
+  "write_date": "",
+  "xml_id": "sale_stock.field_sale_order_line__free_qty_today"
+}

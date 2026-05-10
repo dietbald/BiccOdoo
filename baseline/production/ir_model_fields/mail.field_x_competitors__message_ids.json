@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26442,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      2743,
+      "Competitors"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "503484dbedc59b11548405753563e37e3a64b1bb179c44f6f31d98c779fc475a",
+  "write_date": "",
+  "xml_id": "mail.field_x_competitors__message_ids"
+}

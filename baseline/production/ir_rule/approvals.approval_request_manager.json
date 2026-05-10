@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 596,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      92
+    ],
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "Approval Request: manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "420c49a261213821297e52f9488de5b7dc594bb9763b6d0458f74fe64f9543bb",
+  "write_date": "2024-10-23 10:49:30",
+  "xml_id": "approvals.approval_request_manager"
+}

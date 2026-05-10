@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8903,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Based on IP Address",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "hr_presence_control_ip",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4e4289ea895f66c77f3fbed108169685b2419e87604c3c4e3b0bee58763f232a",
+  "write_date": "",
+  "xml_id": "hr.field_res_config_settings__hr_presence_control_ip"
+}

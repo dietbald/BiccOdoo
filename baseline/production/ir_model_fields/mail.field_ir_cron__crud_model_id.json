@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 475,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Record to Create",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "crud_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c6670fa1ba66495e05a05e6d518a2830cb85eb21df1c97bb9ae4e4f94a06d4a1",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__crud_model_id"
+}

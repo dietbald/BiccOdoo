@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3766,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      411,
+      "Payment Capture Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "12e0cd154b6d9d6dbd50d24b4dcc5f99fcd9ed1ea54ba0fd4c674313567ef7ce",
+  "write_date": "",
+  "xml_id": "payment.field_payment_capture_wizard__create_uid"
+}

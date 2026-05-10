@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17713,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6ee60e0494f5eb7e0d903388f038a895bb86450c2d8a0beaea7cb5916a8c1c48",
+  "write_date": "",
+  "xml_id": "social.field_social_post__website_message_ids"
+}

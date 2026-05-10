@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1932,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      2746,
+      "Partner IAP"
+    ],
+    "name": "access_res_partner_iap",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "60cdcddb9c0fe7b3921890959e7c1f00957bcded55b742992fb39f39653f114a",
+  "write_date": "2025-12-09 02:56:10",
+  "xml_id": "mail_plugin.access_res_partner_iap"
+}

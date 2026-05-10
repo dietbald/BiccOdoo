@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3402,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Failure Type",
+    "model_id": [
+      394,
+      "Outgoing SMS"
+    ],
+    "name": "failure_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "1abf682456357fd15cc20a95aa9aa86b64fba1134b10f98f283c593a61fa125d",
+  "write_date": "",
+  "xml_id": "sms.field_sms_sms__failure_type"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 935,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_group_by_opt_out_reason_id': 1,\n        }",
+    "domain": "[('opt_out', '=', True)]",
+    "name": "Opt-Out Report",
+    "res_model": "mailing.subscription",
+    "target": "current",
+    "view_mode": "graph,pivot,list,form"
+  },
+  "payload_sha256": "369d642ec7043420f5e5a70a6d094b4ee1d9f7f5b4e1e8ceb45ec8f08560bd0a",
+  "write_date": "2025-12-09 03:00:45",
+  "xml_id": "mass_mailing.mailing_subscription_action_report_optout"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3379,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "OAuth User ID",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "oauth_uid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "cdf9185d9af930838160b7df8861647b0b6df0a9b1f4a805bcf777bc38d2502c",
+  "write_date": "",
+  "xml_id": "saas_trial.field_res_users_oauth_uid"
+}

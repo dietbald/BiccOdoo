@@ -1,0 +1,12 @@
+<data name="Portal layout : invoice menu entries" inherit_id="portal.portal_breadcrumbs" priority="30">
+        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+            <li name="invoices_breadcrumb" t-if="page_name == 'invoice'" t-attf-class="breadcrumb-item #{'active ' if not invoice else ''}">
+                <a t-if="invoice" t-attf-href="/my/invoices?{{ keep_query() }}">Invoices &amp; Bills</a>
+                <t t-else="">Invoices &amp; Bills</t>
+            </li>
+            <li t-if="invoice" class="breadcrumb-item active">
+                <t t-out="invoice.name" t-if="invoice.name != '/'"/>
+                <t t-else=""><em>Draft Invoice</em></t>
+            </li>
+        </xpath>
+    </data>

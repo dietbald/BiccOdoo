@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20127,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Revenue Journal",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "deferred_revenue_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "707161f495ca9cf485757bfd6bf7bd82de14bf5eaf6584270755dbcf9369001d",
+  "write_date": "",
+  "xml_id": "account_accountant.field_res_config_settings__deferred_revenue_journal_id"
+}

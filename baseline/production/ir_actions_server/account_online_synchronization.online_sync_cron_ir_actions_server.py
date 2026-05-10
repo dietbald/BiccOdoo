@@ -1,0 +1,1 @@
+model._cron_fetch_online_transactions()

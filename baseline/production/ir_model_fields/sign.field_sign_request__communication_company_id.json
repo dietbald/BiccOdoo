@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10524,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company used for communication",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "communication_company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0c6ab2d9a648ebbbe2f01bbe5ba0013562dcf022c6940cc47b69ff5a216f085a",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request__communication_company_id"
+}

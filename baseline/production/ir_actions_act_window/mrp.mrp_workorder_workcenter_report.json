@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1064,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('workcenter_id','=', active_id),('state','=','done')]",
+    "name": "Work Orders Performance",
+    "res_model": "mrp.workorder",
+    "target": "current",
+    "view_mode": "graph,pivot,list,form,gantt"
+  },
+  "payload_sha256": "50635c71caaf120e214ef2a14f1b9aedd4baff8cf74a6da0811241f83f22c580",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp.mrp_workorder_workcenter_report"
+}

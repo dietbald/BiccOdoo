@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3273,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pricelists",
+    "model_id": [
+      79,
+      "Country Group"
+    ],
+    "name": "pricelist_ids",
+    "relation": "product.pricelist",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "de3a300a75002a292b7c2f09f3b21aca343e3c6f6a4002fe86ab89489b32320b",
+  "write_date": "",
+  "xml_id": "product.field_res_country_group__pricelist_ids"
+}

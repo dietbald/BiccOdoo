@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16090,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      968,
+      "Workcenter Productivity Log"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "490d03d4ab469bce2d9743eb806c1bb7578f42a8c8fe13dbdd0cc57b9da8ce65",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter_productivity__create_uid"
+}

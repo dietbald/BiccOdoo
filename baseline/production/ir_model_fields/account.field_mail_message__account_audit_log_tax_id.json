@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19901,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "account_audit_log_tax_id",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e3496e16362e268d3993c69b4f2f55efaed5d2b205f683c35af76fbc0cae65dd",
+  "write_date": "",
+  "xml_id": "account.field_mail_message__account_audit_log_tax_id"
+}

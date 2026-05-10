@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5645,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Maximum Refund Allowed",
+    "model_id": [
+      484,
+      "Payment Refund Wizard"
+    ],
+    "name": "amount_available_for_refund",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "3f39664f66460944a867435e418fa1983d15a17e0235f9c2dd2f0d7fde211180",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_refund_wizard__amount_available_for_refund"
+}

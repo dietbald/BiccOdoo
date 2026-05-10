@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15314,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appointment Meetings",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "meeting_ids",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bfdc67eed79f3f10809d5321692e0baeaca3874cf00aeaefb75a95b097f4b1a8",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__meeting_ids"
+}

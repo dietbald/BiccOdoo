@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24117,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Uploaded by",
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "db092fde8c611d137e7b0e8fdca2d5b3b646f21aa1129c70ec2eee23fc576bf4",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_slide__user_id"
+}

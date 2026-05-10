@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16636,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Control Point",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "point_id",
+    "relation": "quality.point",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5d40006092e4f23aac1452e883f5bc9b2c07518c478dd91e19d939c18db8331e",
+  "write_date": "",
+  "xml_id": "quality.field_quality_check__point_id"
+}

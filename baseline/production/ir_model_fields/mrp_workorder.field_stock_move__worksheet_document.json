@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25150,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Worksheet Image/PDF",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "worksheet_document",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "23fd2c35fcf4cd77a5031f53899f690e699fe7ed425be628acb57a6b4ec7d125",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_stock_move__worksheet_document"
+}

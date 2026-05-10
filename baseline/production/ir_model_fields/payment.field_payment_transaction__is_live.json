@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Production Environment",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "is_live",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0ed6c92e031a539d8f4c92e448686341a0db7281e70a4aff63ce92fa1faa6874",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__is_live"
+}

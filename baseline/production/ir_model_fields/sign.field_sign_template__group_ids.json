@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10602,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authorized Groups",
+    "model_id": [
+      709,
+      "Signature Template"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "fd29147a9caccc1e37b7451404dbf3a76a1fbc07a1c70b6a684679d4b79de8a3",
+  "write_date": "",
+  "xml_id": "sign.field_sign_template__group_ids"
+}

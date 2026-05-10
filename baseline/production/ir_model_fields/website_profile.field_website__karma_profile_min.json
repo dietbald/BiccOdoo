@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24065,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Minimal karma to see other user's profile",
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "karma_profile_min",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "ef6daaedce06e42067acaa5fb4cde15b87b7e54697afed394f57024c5ef1d4c4",
+  "write_date": "",
+  "xml_id": "website_profile.field_website__karma_profile_min"
+}

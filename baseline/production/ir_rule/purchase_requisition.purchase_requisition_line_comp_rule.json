@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 352,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      808,
+      "Purchase Requisition Line"
+    ],
+    "name": "Purchase requisition Line multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4f36371da714dedc9bbf1f5c1aca7b600c381325fc567f495ec2b0e094132602",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "purchase_requisition.purchase_requisition_line_comp_rule"
+}

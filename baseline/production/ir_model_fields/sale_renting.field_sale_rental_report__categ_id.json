@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26618,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Category",
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "categ_id",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "830823d8dbd22c6a80e0996c5be56b1af37ae12bf6d9bdfbe02bf6bef8f52221",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_rental_report__categ_id"
+}

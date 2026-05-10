@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28422,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Time Off",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "virtual_remaining_leaves",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b9aa378ac421575993cdb0e214a0e475390ceae510cfb51c088700b2608d1118",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__virtual_remaining_leaves"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 601,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'create': False}",
+    "domain": "[\n            '|',\n                ('interviewer_ids', 'in', uid),\n                ('extended_interviewer_ids', 'in', uid),\n        ]",
+    "name": "Job Positions",
+    "res_model": "hr.job",
+    "target": "current",
+    "view_mode": "kanban,form"
+  },
+  "payload_sha256": "0b44dfcb9053a57ac43c090abf774a55e1c74343404e5dac8e2353dc6d105fa5",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.action_hr_job_interviewer"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 651,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      1460,
+      "Asset Group"
+    ],
+    "name": "Account Asset Group multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9e99d28d90928174fc7613596b3489a14583d9e91cd86be32d9a511b1fd4cef4",
+  "write_date": "2025-01-28 01:26:46",
+  "xml_id": "account_asset.account_asset_group_multi_company_rule"
+}

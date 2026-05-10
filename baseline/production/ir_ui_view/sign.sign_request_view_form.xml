@@ -1,0 +1,66 @@
+<form create="false">
+                <header>
+                    <div class="d-flex justify-content-between align-items-center gap-1">
+                        <button string="Preview" type="object" name="go_to_document" class="oe_highlight" invisible="state == 'expired'"/>
+                        <field name="completed_document_ids" widget="sign_request_documents_dropdown"/>
+                        <button string="Cancel" type="object" invisible="state not in ('sent', 'signed')" name="cancel" confirm="This will keep all the already completed signature of this request and disable every sent access, are you sure?"/>
+                    </div>
+                    <field name="state" widget="statusbar" statusbar_visible="sent,signed"/>
+                </header>
+                <sheet>
+                    <field name="active" invisible="1"/>
+                    <field name="template_id" invisible="1" kanban_view_ref="1484"/>
+                    <field name="favorited_ids" widget="many2many_tags" options="{'color_field': 'color'}" invisible="1"/>
+                    <widget name="web_ribbon" title="Signed" invisible="state != 'signed'"/>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <field name="integrity" invisible="1"/>
+                    <div class="oe_title">
+                        <label for="reference" string="Template"/>
+                        <h1><field name="reference" placeholder="e.g. Non-disclosure agreement" readonly="1"/></h1>
+                    </div>
+                    <div class="alert alert-warning" role="alert" invisible="integrity">
+                        The integrity of the document's history cannot be verified. This could mean that signature values or the underlying PDF document may have been modified after the fact.
+                    </div>
+                    <group>
+                        <group>
+                            <field name="active" invisible="1"/>
+                            <field name="template_id" invisible="1" context="{'kanban_view_ref': 'sign.sign_template_view_kanban_mobile'}"/>
+                            <field name="favorited_ids" widget="many2many_tags" options="{'color_field': 'color'}" invisible="1"/>
+                            <field name="template_tags" widget="many2many_tags" options="{'color_field': 'color'}" placeholder="Add document tags here"/>
+                            <field name="validity" readonly="state not in ['shared', 'sent']"/>
+                            <label for="reminder_enabled" string="Reminder"/>
+                            <div class="col">
+                                <field name="reminder_enabled" class="oe_inline mb-0" nolabel="1" widget="boolean_toggle" options="{'autosave': False}"/> Send a reminder
+                                <span invisible="not reminder_enabled">every<field name="reminder" class="text-center mb-0 o_sign_reminder_field" readonly="state not in ['shared', 'sent']"/> days.</span>
+                            </div>
+                            <field name="reference_doc" readonly="state != 'sent'"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Signers" name="signers">
+                            <field name="request_item_ids" context="{'default_sign_request_id': id}"/>
+                        </page>
+                        <page string="Contacts in copy" name="cc_contacts">
+                            <field name="cc_partner_ids">
+                                <list>
+                                    <field name="name" string="Contacts in copy"/>
+                                    <field name="email"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Activity Logs" name="activity_logs" groups="sign.group_sign_manager">
+                            <field name="sign_log_ids" readonly="1">
+                                <list>
+                                    <field name="action"/>
+                                    <field name="log_date"/>
+                                    <field name="partner_id" string="Contact"/>
+                                    <field name="latitude" optional="hide"/>
+                                    <field name="longitude" optional="hide"/>
+                                    <field name="ip" string="IP Address"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>

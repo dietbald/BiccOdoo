@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12839,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Children",
+    "model_id": [
+      819,
+      "Salary Rule Category"
+    ],
+    "name": "children_ids",
+    "relation": "hr.salary.rule.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "74a8872c00be334c1a69331862b52158f03d38e86c8c8cce5cf9e1a4b7d56622",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule_category__children_ids"
+}

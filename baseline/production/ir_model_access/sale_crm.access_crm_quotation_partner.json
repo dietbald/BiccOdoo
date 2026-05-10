@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 732,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      622,
+      "Create new or use existing Customer on new Quotation"
+    ],
+    "name": "access.crm.quotation.partner",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "de6186285695203e97f9164548173d3713a2ca257f723e33e4fd0bf2db1384fa",
+  "write_date": "2025-12-09 03:00:09",
+  "xml_id": "sale_crm.access_crm_quotation_partner"
+}

@@ -1,0 +1,12 @@
+<search>
+                <field name="title"/>
+                <filter name="filter_my_audit_reports" string="My Reports" domain="[('create_uid', '=', uid)]"/>
+                <separator/>
+                <filter name="filter_draft" string="Draft" domain="[('status', '=', 'draft')]"/>
+                <filter name="filter_done" string="Done" domain="[('status','=', 'done')]"/>
+                <group>
+                    <filter name="group_by_company" domain="[]" context="{'group_by': 'company_id'}"/>
+                    <filter name="group_by_responsible_user_ids" domain="[]" context="{'group_by': 'responsible_user_ids'}"/>
+                    <filter name="group_by_start_date" domain="[]" context="{'group_by': 'start_date'}"/>
+                </group>
+            </search>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9399,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8d9912dbdcc048fb3abe9047f054f6ca4e2f60d959a5e64203fd47e968701b61",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__state"
+}

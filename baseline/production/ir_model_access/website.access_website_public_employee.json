@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 861,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "website.public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "21d22ae72bf6588a108489164d52416043a1b1b4c87a35ebc6cfab7b6bb5f792",
+  "write_date": "2026-01-28 12:01:03",
+  "xml_id": "website.access_website_public_employee"
+}

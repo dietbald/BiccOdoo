@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16178,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unbuilds",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "unbuild_ids",
+    "relation": "mrp.unbuild",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "c73e641e1badf3421bc2000d3fdc0dfc0606699769abd87d4b0fffbad3957211",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__unbuild_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1617,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      140,
+      "Lunch / User : Order your meal"
+    ],
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "Lunch Supplier User Rights",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "56783b10de449854a7277af436710120b8a17663da865d2ebe15c95201e208ed",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.lunch_supplier_user"
+}

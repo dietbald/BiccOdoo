@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11962,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Orderpoint",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "orderpoint_id",
+    "relation": "stock.warehouse.orderpoint",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "912b8406a7716c1f826b27477111afb1e01aed801f43771c8229cc18dbbf0b81",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order_line__orderpoint_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 24,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_fetch_waiting_online_transactions()",
+    "interval_number": 5,
+    "interval_type": "minutes",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "Account: Journal online Waiting Synchronization",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "b8bafc987d68ef5d989f133844a5bdcc9f0c1fb6aab3a0fa4bab042369ab0249",
+  "write_date": "2026-05-10 12:29:43",
+  "xml_id": "account_online_synchronization.online_sync_cron_waiting_synchronization"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22464,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7e3a3b92e4bd9197db8e7386ae22ebac6e2839f2f3ea84c1c3eee716382d641a",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__activity_type_id"
+}

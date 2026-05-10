@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1058,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "stock.warehouse.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "da4d9220611fe0a00d2564b0ca0810b4c79c96d98f369ffa12b969e6a8286217",
+  "write_date": "2025-12-09 03:00:15",
+  "xml_id": "sale_stock.access_stock_warehouse_user"
+}

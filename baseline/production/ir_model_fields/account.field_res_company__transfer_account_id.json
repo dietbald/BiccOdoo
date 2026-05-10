@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4950,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inter-Banks Transfer Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "transfer_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09f8fa26500f661202bfebf81843c168ee7f19943c415531a8772c5e0d014de1",
+  "write_date": "",
+  "xml_id": "account.field_res_company__transfer_account_id"
+}

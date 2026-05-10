@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11956,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "References",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "reference_ids",
+    "relation": "stock.reference",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "645f71002c64057c72143eed24bbace6c27a1323202e2b084bbea9a83c2ec719",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order__reference_ids"
+}

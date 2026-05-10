@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 622,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Modules",
+    "model_id": [
+      65,
+      "Application"
+    ],
+    "name": "module_ids",
+    "relation": "ir.module.module",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7611d8900e4def1ea167dfd353714228e8e5020885ef21a90fe11418c53044d9",
+  "write_date": "",
+  "xml_id": "base.field_ir_module_category__module_ids"
+}

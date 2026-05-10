@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8765,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Member Of Department",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "member_of_department",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6d56e349a836d666f8f2271579038303c90e6d7ae7793e8d7f91ddd70bc2b2d4",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee_public__member_of_department"
+}

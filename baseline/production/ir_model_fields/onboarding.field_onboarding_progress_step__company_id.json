@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1628,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      141,
+      "Onboarding Progress Step Tracker"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b6f665503840a1ac8d6cd0fe134f3a7d3cae72abe64edb851c16ac07172465e4",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_progress_step__company_id"
+}

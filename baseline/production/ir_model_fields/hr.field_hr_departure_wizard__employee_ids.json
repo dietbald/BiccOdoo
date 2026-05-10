@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees",
+    "model_id": [
+      637,
+      "Departure Wizard"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b1d03a1050e428aa35efeecc36380acb0c5ef6077e3b5e71ce01f1fb52341afa",
+  "write_date": "",
+  "xml_id": "hr.field_hr_departure_wizard__employee_ids"
+}

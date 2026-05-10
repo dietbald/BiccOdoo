@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 681,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('slide_id.channel_id.user_id', '=', user.id)]",
+    "groups": [
+      148
+    ],
+    "model_id": [
+      1514,
+      "Additional resource for a particular slide"
+    ],
+    "name": "Resource: officer: crud own only",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "60ed3a35b2a025d4342c9384aa820a5e76cf5a444d5f6b80585ceb47c195cfda",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_slide_resource_officer_crud"
+}

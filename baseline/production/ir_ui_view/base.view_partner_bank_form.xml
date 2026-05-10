@@ -1,0 +1,26 @@
+<form string="Bank account" name="bank_account_form">
+                <sheet>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <group>
+                        <group>
+                            <field name="acc_number"/>
+                            <field name="clearing_number"/>
+                            <field name="partner_id"/>
+                            <field name="bank_id"/>
+                        </group>
+                        <group>
+                            <field name="allow_out_payment" widget="boolean_toggle"/>
+                            <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}"/>
+                            <field name="currency_id" groups="base.group_multi_currency" options="{'no_create': True}"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Note" name="internal_notes">
+                            <field name="note" nolabel="1" placeholder="Internal notes..."/>
+                        </page>
+                    </notebook>
+                </sheet>
+                <footer replace="0">
+                    <button name="action_archive_bank" type="object" string="Archive" class="btn btn-secondary"/>
+                </footer>
+                </form>

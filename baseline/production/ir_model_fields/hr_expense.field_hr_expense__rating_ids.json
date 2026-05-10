@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9142,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9009cfaa1566cfa3d61666cc6d8d18a4c6a844d320ffef0e1446f5ce1882306d",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__rating_ids"
+}

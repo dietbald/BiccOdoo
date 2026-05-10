@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17386,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "QIF Dates format",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "qif_date_format",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "fd6ed6d2ffab8de428a2a604c2c5c4f829da7694dbf13e4efb625c979219a05d",
+  "write_date": "",
+  "xml_id": "account_bank_statement_import_qif.field_account_journal__qif_date_format"
+}

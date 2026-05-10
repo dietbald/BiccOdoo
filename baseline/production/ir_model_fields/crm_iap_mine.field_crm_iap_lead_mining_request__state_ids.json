@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7493,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "States",
+    "model_id": [
+      592,
+      "CRM Lead Mining Request"
+    ],
+    "name": "state_ids",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7b9e6ea1db386294bc0412f532566c68f8b9f309b7472e00771f7939efdca111",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_mining_request__state_ids"
+}

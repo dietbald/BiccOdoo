@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 351,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Field to Update",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "update_field_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "565f70b4b60b2d6cfa968a890e4078234b30eacc57e9129d5c32ed47499b2426",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__update_field_id"
+}

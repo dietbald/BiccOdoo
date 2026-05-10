@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10131,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment using a copy of me",
+    "model_id": [
+      691,
+      "Theme Attachments"
+    ],
+    "name": "copy_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "98c933ff95749828bff5e3c85035a48f0aad23b14babaeb8e205a35918b95477",
+  "write_date": "",
+  "xml_id": "website.field_theme_ir_attachment__copy_ids"
+}

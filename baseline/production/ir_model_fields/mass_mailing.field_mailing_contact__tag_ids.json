@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14112,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "tag_ids",
+    "relation": "res.partner.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8021c3a6c8390c18d83a85aa142ee486f4e6ff1be69eb98e7cd9277f24e7f2b9",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__tag_ids"
+}

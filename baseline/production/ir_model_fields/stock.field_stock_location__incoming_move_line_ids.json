@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10895,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Incoming Move Line",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "incoming_move_line_ids",
+    "relation": "stock.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6def13661bc64fd5c8fb57026e72b6733eac4e4ceb2790f8c84382271c1e9e3b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__incoming_move_line_ids"
+}

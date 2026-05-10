@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15083,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      930,
+      "Deduplication Model"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2848cc070b9aebf65c9fc92dec7b8558d1c96a54662fc237204463c144a6ab08",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_merge_model__write_uid"
+}

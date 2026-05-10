@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 177,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('plan_id.res_model', 'in', ('project.project', 'project.task'))]",
+    "groups": [
+      41
+    ],
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "Manager can manage project/task plan templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1bbc8b4c4a2e401248c41e3f3b3ec49a3db3e3c3226db5fbc48b28479205ee76",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.mail_plan_templates_rule_group_project_manager_task"
+}

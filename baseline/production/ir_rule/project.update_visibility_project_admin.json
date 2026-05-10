@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 170,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      41
+    ],
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "Project updates : Project user can see all project updates",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "29a4619e0f744ed31699f573fa4369ed2be570304e996730e9ca52da7d630046",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.update_visibility_project_admin"
+}

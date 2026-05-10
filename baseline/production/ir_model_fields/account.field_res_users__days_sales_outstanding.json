@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5459,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days Sales Outstanding (DSO)",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "days_sales_outstanding",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b08246abc851f222a58cfd0ba251da3daf8205f841de7f8be2abb4e56d701585",
+  "write_date": "",
+  "xml_id": "account.field_res_users__days_sales_outstanding"
+}

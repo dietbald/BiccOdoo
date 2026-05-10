@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 72,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res_partner group_portal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "30feb62a3b3cf31f07e09b57ea35fca789b0f742e72616bf9417aa50c80fbb55",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_partner_portal"
+}

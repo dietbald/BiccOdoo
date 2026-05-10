@@ -1,0 +1,11 @@
+<list string="Loan lines" editable="bottom" delete="1" limit="80" decoration-info="not is_payment_move_posted">
+                    <field name="currency_id" column_invisible="1"/>  <!-- Needed for monetary widget -->
+                    <field name="sequence" width="30px" optional="hide"/>
+                    <field name="date"/>
+                    <field name="principal" string="Principals" sum="Total principals"/>
+                    <field name="interest" string="Interests" sum="Total interests"/>
+                    <field name="payment" string="Payments" sum="Total payments"/>
+                    <field name="outstanding_balance"/>
+                    <field name="long_term_theoretical_balance" optional="hide"/>
+                    <field name="short_term_theoretical_balance" optional="hide"/>
+                </list>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9297,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax amount in Currency",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "tax_amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "48f1072211e4cef48e2e918a56936dd5bbdbda22cdf623151cd7b306b2003b03",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split__tax_amount_currency"
+}

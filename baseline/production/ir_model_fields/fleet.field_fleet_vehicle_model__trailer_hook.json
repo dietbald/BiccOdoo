@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16985,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Trailer Hitch",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "trailer_hook",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "be1a740a6d1a4725a625c2521a4a75ecbd6b63ed43649c50cba28454c267d93a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__trailer_hook"
+}

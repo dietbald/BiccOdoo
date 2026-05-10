@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 680,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      420,
+      "Account Tag"
+    ],
+    "name": "account.account.tag.sale.salesman",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "aad5b00c794b2b58f7370275353940b288f75b9b0731895610ae636825b05632",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_account_account_tag_sale_salesman"
+}

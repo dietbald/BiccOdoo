@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23530,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report",
+    "model_id": [
+      1457,
+      "Account Report Send"
+    ],
+    "name": "account_report_id",
+    "relation": "account.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f3ded22f8488f40218120b910df9d5ba2d5df1dd59ed6c72f3d08527e5d1b629",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_send__account_report_id"
+}

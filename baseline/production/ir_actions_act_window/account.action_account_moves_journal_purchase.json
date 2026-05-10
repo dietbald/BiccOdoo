@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 235,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'journal_type':'purchase', 'search_default_group_by_move': 1, 'search_default_posted':1, 'search_default_purchases':1, 'expand': 1}",
+    "domain": "[('display_type', 'not in', ('line_section', 'line_subsection', 'line_note'))]",
+    "name": "Purchases",
+    "res_model": "account.move.line",
+    "target": "current",
+    "view_mode": "list,pivot,graph,kanban"
+  },
+  "payload_sha256": "90b4488d612e5f21dcec727099c7baee914dc952869653fcf2cef85e6d1e19c8",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_moves_journal_purchase"
+}

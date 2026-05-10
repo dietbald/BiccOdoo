@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1509,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_certification': True, 'default_scoring_type': 'scoring_with_answers'}",
+    "domain": "[('certification', '=', True)]",
+    "name": "Certifications",
+    "res_model": "survey.survey",
+    "target": "current",
+    "view_mode": "kanban,list,pivot,graph,form"
+  },
+  "payload_sha256": "13c18c7057ffd64498fd30236bf09e921a81518bffaa040742495401b582d449",
+  "write_date": "2026-01-28 12:01:55",
+  "xml_id": "website_slides_survey.survey_survey_action_slides"
+}

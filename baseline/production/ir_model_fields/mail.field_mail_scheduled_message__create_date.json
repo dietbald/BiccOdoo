@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21555,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      1329,
+      "Scheduled Message"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "7bdc9a088633dddf22e56ab1e945b50f92bf8c0a8529fe737d0e46346538c232",
+  "write_date": "",
+  "xml_id": "mail.field_mail_scheduled_message__create_date"
+}

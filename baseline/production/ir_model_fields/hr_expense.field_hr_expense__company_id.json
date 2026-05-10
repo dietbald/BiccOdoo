@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9149,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "827de72676596124c7b57cdbbc493e93d3ddbdbb4e7e6ac2dc0db9d0ab93be65",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__company_id"
+}

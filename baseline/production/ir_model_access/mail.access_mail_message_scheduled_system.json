@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 188,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      172,
+      "Scheduled Messages"
+    ],
+    "name": "mail.message.scheduled.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bdaaf01dfdff008259329395a6e884c62ba62bcd20e35f5ea303647e7080823f",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_message_scheduled_system"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15618,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Already Accrued",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "already_accrued",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f706ff22ff0ca6d190ad3d4a99e27fc0aa4c8016302f27a71f619865a2739524",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__already_accrued"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 479,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      143,
+      "Accounting / Invoicing & Banks"
+    ],
+    "model_id": [
+      496,
+      "Wizard for missing transactions"
+    ],
+    "name": "access_account_missing_transaction_wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "496ac2c2ea5725568d5af95d3abff0d2d828783b4b26956d9a0f659df816eb59",
+  "write_date": "2025-12-09 02:59:00",
+  "xml_id": "account_online_synchronization.access_account_missing_transaction_wizard"
+}

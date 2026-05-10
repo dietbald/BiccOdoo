@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 779,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      54,
+      "Expenses / Team Approver"
+    ],
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "hr.expense.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cdb0b1075f9f82503140618e3a57b037b58c49a9fbea5749c97867e5eb20252d",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.access_hr_expense_user"
+}

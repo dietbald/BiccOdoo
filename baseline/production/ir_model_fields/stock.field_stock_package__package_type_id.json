@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11340,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Package Type",
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "package_type_id",
+    "relation": "stock.package.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "708ed9dec96381836d5c4060e6ffc5a6a9bf3e3fad5def3e052e7684582fb8c8",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package__package_type_id"
+}

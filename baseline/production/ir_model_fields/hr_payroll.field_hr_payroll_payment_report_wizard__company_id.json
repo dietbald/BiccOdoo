@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23706,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1241,
+      "HR Payroll Payment Report Wizard"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0010541113eee476deac20ec46ccbaf67028b7fedd174293f6868db61beda4f8",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_payment_report_wizard__company_id"
+}

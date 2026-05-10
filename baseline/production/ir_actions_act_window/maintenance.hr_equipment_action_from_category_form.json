@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1161,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_category_id': [active_id],\n            'default_category_id': active_id,\n        }",
+    "domain": false,
+    "name": "Equipment",
+    "res_model": "maintenance.equipment",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "0cd1fecd1e9f4ead4c3cb94d14d57463166aa5463f58e242a86468d6bdb98b17",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.hr_equipment_action_from_category_form"
+}

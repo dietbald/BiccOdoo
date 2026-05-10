@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17438,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval Type",
+    "model_id": [
+      1016,
+      "ECO Approval Template"
+    ],
+    "name": "approval_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e87704dbd13f00320edf79a65a89ef0c7762fde7d1eb15784d1a918999465068",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_approval_template__approval_type"
+}

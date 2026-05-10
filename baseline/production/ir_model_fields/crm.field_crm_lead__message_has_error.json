@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7174,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4fbf8c03c94e138dcf34f655bae927a20aa930d6b6eb102458460365e5d0b6d8",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__message_has_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13025,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "From",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "date_start",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "219b0fdfc94deb6170250f5728bc0a898a791eb33bdc45f3918e13d8a70db7bb",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__date_start"
+}

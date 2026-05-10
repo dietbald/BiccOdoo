@@ -1,0 +1,10 @@
+<form string="Member">
+                <sheet>
+                    <group>
+                        <field name="article_id" domain="[('is_template', '=', False)]"/>
+                        <field name="partner_id"/>
+                        <field name="permission"/>
+                        <field name="article_permission"/>
+                    </group>
+                </sheet>
+            </form>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 678,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Module",
+    "model_id": [
+      68,
+      "Module exclusion"
+    ],
+    "name": "module_id",
+    "relation": "ir.module.module",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3257e9877b327db62c24d971385c1cafd62ebe03eda12be56c582720d4670ee1",
+  "write_date": "",
+  "xml_id": "base.field_ir_module_module_exclusion__module_id"
+}

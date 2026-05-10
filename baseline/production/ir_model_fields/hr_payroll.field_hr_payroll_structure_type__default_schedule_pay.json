@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12802,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduled Pay",
+    "model_id": [
+      703,
+      "Salary Structure Type"
+    ],
+    "name": "default_schedule_pay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "84acb74244a479a9781488e236b52e1912b54b36041497e0deffb1c020366298",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_structure_type__default_schedule_pay"
+}

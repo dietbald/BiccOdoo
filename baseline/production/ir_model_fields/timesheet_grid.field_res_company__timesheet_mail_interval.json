@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13529,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approver Reminder Frequency",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "timesheet_mail_interval",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "29f095261f1824ab7418b99581edde962c175d378b5cdb38a63436f2fd93bcd7",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_res_company__timesheet_mail_interval"
+}

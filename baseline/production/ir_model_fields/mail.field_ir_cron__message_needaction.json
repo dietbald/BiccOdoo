@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27002,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9e67307facff847638c74f9239d41a0424741b15660d66467fd665662fff139a",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__message_needaction"
+}

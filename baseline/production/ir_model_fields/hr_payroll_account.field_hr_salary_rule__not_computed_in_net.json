@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13274,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Excluded from Net",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "not_computed_in_net",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "728cbd086d92e79e50472b1682fbbd36936948eb4b6ba6c6006532fbcfe00d24",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_salary_rule__not_computed_in_net"
+}

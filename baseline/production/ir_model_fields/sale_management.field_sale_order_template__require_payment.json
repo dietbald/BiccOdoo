@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8483,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Online Payment",
+    "model_id": [
+      624,
+      "Quotation Template"
+    ],
+    "name": "require_payment",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b11ac9ffc6f2fe4ca2e4bbd3c4b9178b38d0478ca400a63656097cf9c0a399ee",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template__require_payment"
+}

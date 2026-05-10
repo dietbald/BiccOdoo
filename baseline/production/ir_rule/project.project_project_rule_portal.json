@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 162,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '&',\n                ('privacy_visibility', 'in', ['invited_users', 'portal']),\n                ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),\n        ]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "Project: portal users: portal and following",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fb2485bbc7efb17f9ccb6374f67d81a0385f3852aea4df30f54858d717d7bf26",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.project_project_rule_portal"
+}

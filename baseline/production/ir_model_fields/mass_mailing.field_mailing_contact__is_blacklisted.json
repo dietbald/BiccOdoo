@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14103,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blacklist",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "is_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "51d0baf7fc64e010f21f30a6c88a723aa53ffb24ae0b9c88711ed147de976a20",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__is_blacklisted"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13304,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d112fc54d96ca870aef183fa5bc7b927991cda6de2a38ec4587cbb103ff2994f",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__message_has_sms_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26771,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Properties Base Definition",
+    "model_id": [
+      2829,
+      "Properties Base Definition Mixin"
+    ],
+    "name": "properties_base_definition_id",
+    "relation": "properties.base.definition",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "237cef312a35450cf74b495ec2b87e0283f34b2574349c6ad97ee0d4eee9b2dd",
+  "write_date": "",
+  "xml_id": "base.field_properties_base_definition_mixin__properties_base_definition_id"
+}

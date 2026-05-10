@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1325,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "appointment.slot.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "9ddcaa04b1658eb3df4eed6e2fbd6ac170700b54c2433efc51c213fef208f2df",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.access_appointment_slot_user"
+}

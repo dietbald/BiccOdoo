@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6089,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Warning Move",
+    "model_id": [
+      523,
+      "Multicurrency Revaluation Wizard"
+    ],
+    "name": "show_warning_move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "de6b5e8f82ff148e0d3a75ab1c7aebcd6e100cddb1279fd0ea9d353dff7eb942",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_multicurrency_revaluation_wizard__show_warning_move_id"
+}

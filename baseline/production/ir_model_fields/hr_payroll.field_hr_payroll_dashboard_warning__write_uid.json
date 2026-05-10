@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20622,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1236,
+      "Payroll Dashboard Warning"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "424566e3c1e9865e73f6d5d079d3167143a80cc23dd079ed5adc5500bc4991f1",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_dashboard_warning__write_uid"
+}

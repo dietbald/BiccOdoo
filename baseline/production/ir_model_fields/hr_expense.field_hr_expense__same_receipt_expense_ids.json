@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Same Receipt Expense",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "same_receipt_expense_ids",
+    "relation": "hr.expense",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6665055faede453189d14e0d3618cae7aba1e35f50784448c6c3c13146ababff",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__same_receipt_expense_ids"
+}

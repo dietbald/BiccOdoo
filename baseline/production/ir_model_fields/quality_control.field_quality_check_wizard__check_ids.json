@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18332,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Check",
+    "model_id": [
+      1044,
+      "Wizard for Quality Check Pop Up"
+    ],
+    "name": "check_ids",
+    "relation": "quality.check",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f82536ead749e775a0caa460760290ce761946ed9866ab575d47c93a9f9c1a4e",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check_wizard__check_ids"
+}

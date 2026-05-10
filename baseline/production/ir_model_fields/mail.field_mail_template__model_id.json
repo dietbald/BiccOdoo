@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2174,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applies to",
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b874b54d780735ee76fb56418265a1b2314d5245e07ffe29da101ed4f6c9f874",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template__model_id"
+}

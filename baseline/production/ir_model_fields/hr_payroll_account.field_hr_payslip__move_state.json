@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20863,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move State",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "move_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d9ce907d661634f35373bafedfb4a25df0d7cfd6209ed26c213243e2c077cdb3",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_payslip__move_state"
+}

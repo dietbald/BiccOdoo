@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26372,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Signing certificate",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "signing_certificate_id",
+    "relation": "certificate.certificate",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d0a8d9b52aa62b75ff55431e06f5211243b633be90ca701f24162a0b2e404a53",
+  "write_date": "",
+  "xml_id": "sign.field_res_config_settings__signing_certificate_id"
+}

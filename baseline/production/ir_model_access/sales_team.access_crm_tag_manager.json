@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 583,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      574,
+      "CRM Tag"
+    ],
+    "name": "crm_tag manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "95bd31fe33411d6669b8957c8284094d6453b090cf7cc2927efb799ba7a215b2",
+  "write_date": "2025-12-09 02:56:06",
+  "xml_id": "sales_team.access_crm_tag_manager"
+}

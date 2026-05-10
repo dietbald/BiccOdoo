@@ -1,0 +1,7 @@
+<data><xpath expr="//field[@name='url']" position="after">
+                <field name="mass_mailing_id"/>
+            </xpath>
+            <xpath expr="//group" position="inside">
+                <filter string="Mass Mailing" name="groupby_mass_mailing_id" context="{'group_by': 'mass_mailing_id'}"/>
+            </xpath>
+        </data>

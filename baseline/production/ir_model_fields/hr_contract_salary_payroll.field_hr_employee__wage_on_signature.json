@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29129,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wage on Signature",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "wage_on_signature",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "982e4566d05092a1adb88632e8b582dfa001f937bd5bf01191d3f2cade2026b1",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_employee__wage_on_signature"
+}

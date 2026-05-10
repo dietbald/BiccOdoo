@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11187,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Print Delivery Slip",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "auto_print_delivery_slip",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2e1864422be0498711b19b349a5034741d4125d52150e970b4159fd2df379457",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__auto_print_delivery_slip"
+}

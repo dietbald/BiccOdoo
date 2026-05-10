@@ -1,0 +1,12 @@
+<data>
+  <data>
+    <xpath position="inside" expr="/t[@t-name='purchase.report_purchasequotation_document']//t[@t-call='web.external_layout']/div/div" meta-class="oe_structure">
+      <br/>
+    </xpath>
+  </data>
+  <data>
+    <xpath position="replace" expr="/t[@t-name='purchase.report_purchasequotation_document']//t[@t-call='web.external_layout']/div/div[3]" meta-class="oe_structure">
+      <div class="oe_structure">test</div>
+    </xpath>
+  </data>
+</data>

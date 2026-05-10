@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23871,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2a653f3fdec7c0a9280c315d8321f542978f5da83f9c4f519fa1cafdca4821a0",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__rating_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1389,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Url",
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "url",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "9ab6fc94e514a2b44465223e23f724dedd6b96f3f2efdb2b3fccba4593b65c1c",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_wizard__url"
+}

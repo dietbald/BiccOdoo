@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1693,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'working_file_id': active_id }",
+    "domain": false,
+    "name": "Balances",
+    "res_model": "account.account",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "2f55bb8419b7647818b8af4493bfa7bc3c62736dae275aef54809d04cd9e0694",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.action_view_account_balances"
+}

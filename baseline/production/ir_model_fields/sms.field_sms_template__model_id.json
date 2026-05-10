@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3415,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applies to",
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "model_id",
+    "relation": "ir.model",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a5b55dc84553f5493c13b2264efa158e58348c5b7262ce95ecda3c04cbb7ed73",
+  "write_date": "",
+  "xml_id": "sms.field_sms_template__model_id"
+}

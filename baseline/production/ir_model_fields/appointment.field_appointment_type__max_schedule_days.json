@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15297,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Schedule not after (days)",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "max_schedule_days",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "808721b51ced978b6483e5e646ee1880035e6a78c07baa9e6f149e68e596fb9a",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__max_schedule_days"
+}

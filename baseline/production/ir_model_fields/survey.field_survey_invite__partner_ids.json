@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14924,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f33ec5e2faca70f381197cf09077a98868bd4b0250bafd1ca2950e690050ce6c",
+  "write_date": "",
+  "xml_id": "survey.field_survey_invite__partner_ids"
+}

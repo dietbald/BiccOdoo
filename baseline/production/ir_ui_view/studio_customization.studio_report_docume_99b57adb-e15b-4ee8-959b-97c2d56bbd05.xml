@@ -1,0 +1,108 @@
+<t t-name="studio_report_document">
+    <t t-call="web.internal_layout">
+        <t t-set="doc" t-value="doc.with_context(lang=doc.partner_id.lang)"/>
+        <div class="page" style="font-family: Arial, sans-serif; color: #333;">
+            <!-- Header Section -->
+            <div style="width: 100%; font-family: Arial, sans-serif; color: #333; padding-bottom: 10px; margin-bottom: 20px;">
+                <!-- Top Section -->
+                <div style="text-align: center;">
+                    <p style="font-size: 14px; margin: 0;">Block 21 Lot 4, Ledesco Village</p>
+                    <p style="font-size: 14px; margin: 0;">Brgy. Cubay, Jaro, Iloilo City, 5000</p>
+                </div>
+                <!-- Contact Section -->
+<div style="background-color: #EC008C; color: white; padding: 10px 20px; display: flex; justify-content: space-between; align-items: center;">
+    <p style="font-size: 14px; margin: 0; text-align: left;">0917/568.60.30</p>
+    <p style="font-size: 14px; margin: 0; text-align: right;">
+        <a href="http://www.bicc.ph" style="color: #FFFFFF; text-decoration: none;" target="_blank">www.bicc.ph</a>
+    </p>
+</div>
+
+
+            </div>
+            
+            <!-- Title -->
+            <h2 style="text-align: center; color: #333; margin: 20px 0;">Letter of Offer</h2>
+            <!-- Candidate Details -->
+            <div style="margin-bottom: 20px;">
+                <p>
+                    <strong>Position:</strong>
+                    <span t-field="doc.job_id.name" style="color: #F06292;"/>
+                </p>
+                <p>Dear 
+                    
+                    
+                    <span t-field="doc.partner_name" style="color: #F06292;"/>,
+                
+                
+                </p>
+            </div>
+            <!-- Body Section -->
+            <div>
+                <p>We are pleased to offer you the position of 
+                    
+                    <span t-field="doc.job_id.name"/> at BiCC. After reviewing your qualifications and the discussions we have had during your interviews, we believe that your background and skills are an excellent match for our team.
+                
+                </p>
+                <p>
+                    <strong>1. Start Date:</strong>
+                </p>
+                <p>Your start date will be on 
+                    
+                    <span t-field="doc.x_studio_proposed_start_date" style="color: #007BFF;"/>. Please report to our office on or before 9AM.
+                
+                </p>
+                <p>
+                    <strong>2. Salary and Compensation:</strong>
+                </p>
+                <p>Your starting salary will be PHP 
+                    
+                    
+                    <span t-field="doc.salary_proposed_extra" style="color: #007BFF;"/> 
+                    per month. In addition to this, you will receive a PHP 1000 On Time Incentive.
+                
+                </p>
+                <p>
+                    <strong>3. Work Hours and Location:</strong>
+                </p>
+                <p>Your usual hours of work will be from 8AM to 5PM, Monday to Saturday. This position is based at Block 21 Lot 4, Ledesco Village, Brgy. Cubay, Jaro, Iloilo City.</p>
+                <p>
+                    <strong>4. Employment Status:</strong>
+                </p>
+                <p>This position is probationary for 6 months, following regularization on successfully passing probation evaluation.</p>
+            </div>
+            <!-- Closing Section -->
+            <div style="margin-top: 20px;">
+                <p>Please sign and return a scan of this letter as a formal acceptance of this job offer within 48 hours. We are excited about the possibility of you joining our team and look forward to your contributions. If you have any questions or need further clarification about your role or the terms of this offer, please do not hesitate to contact us.</p>
+                <p>Welcome to BiCC!</p>
+            </div>
+            <!-- Signatures Section -->
+            <div style="margin-top: 40px; display: flex; justify-content: space-between;">
+                <!-- Accepted By Section -->
+                <div style="width: 40%; border-top: 1px solid #333; padding-top: 10px;">
+                    <p>Warm regards,</p>
+                    <p>
+                        <strong>
+                            <span t-field="doc.user_id"/>
+                        </strong>
+                    </p>
+                    <p>BiCC</p>
+                    <p>0917/324.88.90</p>
+                </div>
+                <!-- Company Representative -->
+                <div>
+                    <p>
+                        <strong>Accepted By:</strong>
+                    </p>
+                    <p>(Sign over printed name)</p>
+                    <p>___________________________</p>
+                </div>
+            </div>
+            <div style="width: 100%; font-family: Arial, sans-serif; color: #333; border-top: 2px solid #F06292; padding-bottom: 10px; margin-bottom: 20px;">
+                <!-- Services Section -->
+                <div style="text-align: center; margin-top: 10px; font-size: 12px; font-weight: bold; color: #4A4A4A;">
+                    General Contractor - Heavy Equipment Rental - Construction Supplies - Logistics
+                </div>
+            </div>
+        </div>
+    </t>
+</t>

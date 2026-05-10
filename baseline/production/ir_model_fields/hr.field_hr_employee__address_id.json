@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8677,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Address",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "address_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3c3dd93b582cbcb5e14327aa33974bb0bbfb6f1c01fb9850bbb5a3e703e6af41",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__address_id"
+}

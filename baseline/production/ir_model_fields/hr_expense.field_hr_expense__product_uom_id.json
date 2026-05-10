@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9152,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c66db33776af2d408656fbf4b239ac7e9cd30c50155886118ba3d5a90495efec",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__product_uom_id"
+}

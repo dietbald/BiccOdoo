@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 399,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_duration': 4.0, 'default_opportunity_id': active_id}",
+    "domain": false,
+    "name": "Meetings",
+    "res_model": "calendar.event",
+    "target": "current",
+    "view_mode": "list,form,calendar"
+  },
+  "payload_sha256": "78e5b9422970eee16f81659bd6451603ea569f372abf7d93b3bbb74803abb2ad",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.act_crm_opportunity_calendar_event_new"
+}

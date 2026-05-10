@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1395,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      118,
+      "Manufacturing / Administrator"
+    ],
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "mrp.workcenter.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2c901c719e7c47f085ed942d0bb01586343f00f0068e21845826d77560421b66",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_workcenter_manager"
+}

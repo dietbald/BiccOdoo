@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1813,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      158,
+      "Mail Main Attachment management"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f631c5641f2c31ba11a5b54bf46ce5b3524114672962ddd24ad4767aca485035",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_main_attachment__message_needaction"
+}

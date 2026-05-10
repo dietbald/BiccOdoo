@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4085,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Receivable Account",
+    "model_id": [
+      426,
+      "Tax Group"
+    ],
+    "name": "tax_receivable_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09373f182aa2884fd0d0f421b20602c8adcede67671ccc77d25f6da1f9572a56",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_group__tax_receivable_account_id"
+}

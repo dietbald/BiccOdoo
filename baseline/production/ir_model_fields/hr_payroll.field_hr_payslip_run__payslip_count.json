@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13027,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payslip Count",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "payslip_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "5c1f73d1baae17b79566989b4fd5bc67e30c128ab63e05bcaf5d1b430a1154a7",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__payslip_count"
+}

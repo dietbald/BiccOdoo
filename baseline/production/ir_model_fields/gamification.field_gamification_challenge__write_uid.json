@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14557,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aeac91b8cd6c96d3eacd914bb79a2ca19608d189063e11fe3cd1b61216b15520",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__write_uid"
+}

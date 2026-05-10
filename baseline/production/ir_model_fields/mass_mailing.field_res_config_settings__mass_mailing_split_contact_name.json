@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19957,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Split First and Last Name",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "mass_mailing_split_contact_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e95d2264fbb351e6421b0a9f52361ed85596886e2f98f5b5501ddbe645bea836",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_res_config_settings__mass_mailing_split_contact_name"
+}

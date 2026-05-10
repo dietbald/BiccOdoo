@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5657,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transactions",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "transaction_ids",
+    "relation": "payment.transaction",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "97e306fd7b386b7de330ec01b0ea02b9afb42b3202665c8d69692e5b27d33ceb",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_bank_statement_line__transaction_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13506,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Validated Status",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "validated_status",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2d358ecb291772502d3d24974231f3bfca9403fc57d97d6dc149635df02f5085",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_account_analytic_line__validated_status"
+}

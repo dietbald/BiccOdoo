@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6144,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Depreciation Entries",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "total_depreciation_entries_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d99c9b14120fbf910fd17ce4f275240f5feb8573b5eadf15eadfdeacb18ccb37",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__total_depreciation_entries_count"
+}

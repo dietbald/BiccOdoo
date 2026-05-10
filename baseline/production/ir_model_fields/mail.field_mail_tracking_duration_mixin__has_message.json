@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26905,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Message",
+    "model_id": [
+      159,
+      "Mixin to compute the time a record has spent in each value a many2one field can take"
+    ],
+    "name": "has_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "928308b35b0c4fc0db7b340b698d4e854f2e6d2ee25772a626a6f8547c1ac7d6",
+  "write_date": "",
+  "xml_id": "mail.field_mail_tracking_duration_mixin__has_message"
+}

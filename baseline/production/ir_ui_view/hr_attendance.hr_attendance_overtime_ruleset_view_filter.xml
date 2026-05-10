@@ -1,0 +1,9 @@
+<search string="Ruleset Search">
+                <filter string="At least one rule" name="has_rules" domain="[('rule_ids', '!=', False)]"/>
+                <separator invisible="1"/>
+                <filter string="Archived" name="archived_rulesets" domain="[('active', '=', False)]"/>
+                <group>
+                    <filter string="Rate Mode" name="rate_mode" context="{'group_by': 'rate_combination_mode'}"/>
+                    <filter string="Country" name="country" context="{'group_by': 'country_id'}" groups="base.group_multi_company"/>
+                </group>
+            </search>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30024,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Agent",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "agent_ids",
+    "relation": "ai.agent",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b368a7cfaf8c10a063546ae0d452fe86c1714e8fbf1188c8dcc24992105af388",
+  "write_date": "",
+  "xml_id": "ai.field_res_partner__agent_ids"
+}

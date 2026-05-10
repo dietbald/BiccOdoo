@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19799,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Posted Entries",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "has_posted_entries",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "03ad46ef597c566f3c9d9bd4614fdecbbc524f2d5d52a966443c7bcce05c98f2",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__has_posted_entries"
+}

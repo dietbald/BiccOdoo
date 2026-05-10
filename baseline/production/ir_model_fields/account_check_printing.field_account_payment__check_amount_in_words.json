@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17358,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount in Words",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "check_amount_in_words",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "814e44164a9fabc15fc6ef9b5cecd5a0f13b0a4cc1c95d8144dc206173d5c752",
+  "write_date": "",
+  "xml_id": "account_check_printing.field_account_payment__check_amount_in_words"
+}

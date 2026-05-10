@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1616,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      141,
+      "Lunch / Administrator"
+    ],
+    "model_id": [
+      1078,
+      "Lunch Extras"
+    ],
+    "name": "access_lunch_topping",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "51df2b2563803585d1ddcda26740468c85b6c0336153b2c05a82186367534d9b",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.lunch_topping_manager"
+}

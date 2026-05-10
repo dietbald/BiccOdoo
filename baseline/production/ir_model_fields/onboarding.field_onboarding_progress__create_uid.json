@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1583,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      138,
+      "Onboarding Progress Tracker"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "48aea05510ca91e7356484482a4f90d949dcea28d15aa22690f9a9eea337be1d",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_progress__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9700,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias ID",
+    "model_id": [
+      666,
+      "Source of Applicants"
+    ],
+    "name": "alias_id",
+    "relation": "mail.alias",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "04f739564985c419f7422a2d55cf88a8a7fd9cac984fa11807ee78939575831a",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_recruitment_source__alias_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      886,
+      "Link Tracker"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5f6058a42d0d271238639dad39ecb4493c3a0967318a7940488e30a6056bafda",
+  "write_date": "",
+  "xml_id": "link_tracker.field_link_tracker__create_uid"
+}

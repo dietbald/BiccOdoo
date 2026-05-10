@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21608,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution Analytic Account",
+    "model_id": [
+      347,
+      "Analytic Distribution Model"
+    ],
+    "name": "distribution_analytic_account_ids",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "28f5b41cda7961a5efc172387bed8f0b5631319f7cede24104cd3726770fe089",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_distribution_model__distribution_analytic_account_ids"
+}

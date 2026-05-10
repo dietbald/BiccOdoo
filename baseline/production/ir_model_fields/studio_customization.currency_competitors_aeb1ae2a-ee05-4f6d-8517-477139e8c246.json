@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26422,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      2743,
+      "Competitors"
+    ],
+    "name": "x_studio_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ba22d85ac0e4f01f4030babb076da80fa2318504eb3dd36d8ab2540983e04cd3",
+  "write_date": "2025-10-31 05:42:25",
+  "xml_id": "studio_customization.currency_competitors_aeb1ae2a-ee05-4f6d-8517-477139e8c246"
+}

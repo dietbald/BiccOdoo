@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4860,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Totals",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "tax_totals",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "b108217046550b21bb1e7fc70832c2e21040938553404cfa29f0fc498dc79a0f",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__tax_totals"
+}

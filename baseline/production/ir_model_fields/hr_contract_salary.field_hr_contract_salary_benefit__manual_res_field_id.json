@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21011,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manual Res Field",
+    "model_id": [
+      1274,
+      "Salary Package Benefit"
+    ],
+    "name": "manual_res_field_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6bdabed6519cfa2ad242b193f466a7e9220c2ba3484ad21e8614e6b8e27cf588",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_benefit__manual_res_field_id"
+}

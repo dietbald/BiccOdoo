@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11180,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Generate Shipping Labels",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "print_label",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "be8c2d31efedfefe7dfd9b6d3631d825e03540aea447a0a201201b894f0293b5",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__print_label"
+}

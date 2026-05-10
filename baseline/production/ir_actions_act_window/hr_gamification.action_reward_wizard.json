@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 967,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_employee_id': active_id, 'employee_id': active_id, 'dialog_size': 'medium'}",
+    "domain": "[]",
+    "name": "Grant a badge",
+    "res_model": "gamification.badge.user.wizard",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "9550a2c977b5d2113180010bab8b0bb3e18ee3965a9dcfd52a90b3dad4425f6b",
+  "write_date": "2025-12-09 02:58:08",
+  "xml_id": "hr_gamification.action_reward_wizard"
+}

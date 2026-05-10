@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1772,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      1350,
+      "Update product attribute value"
+    ],
+    "name": "update.product.attribute.value",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "2eb8904623e270ccc5e94af6522285a5200f476a12052e1104e5217d8f3c5fe7",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_update_product_attribute_value_stock_manager"
+}

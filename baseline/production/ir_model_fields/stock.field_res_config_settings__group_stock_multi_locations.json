@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10862,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Storage Locations",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_stock_multi_locations",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d9bbd67c0c2579f7c5ab397252dce7bf7b9559353e6bf9bb2a0296ef93189b7e",
+  "write_date": "",
+  "xml_id": "stock.field_res_config_settings__group_stock_multi_locations"
+}

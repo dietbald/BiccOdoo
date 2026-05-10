@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 86,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      416,
+      "Fiscal Position"
+    ],
+    "name": "Account fiscal Mapping company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f30362b301ec900576395076d9216e619cd7080d3096b5304077f5feecc94128",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_fiscal_position_comp_rule"
+}

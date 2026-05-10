@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1726,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      53,
+      "Employees / Administrator"
+    ],
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "access_hr_contract_salary_offer_contract",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6bfc27bfe691f45edc8a98c570da7802f353dd408fcd5237f1bf6b23729e0bcf",
+  "write_date": "2025-12-09 02:59:17",
+  "xml_id": "hr_contract_salary.access_hr_contract_salary_offer_contract"
+}

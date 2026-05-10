@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15835,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off Task",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "leave_timesheet_task_id",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "523fcfedda54f4f3c2e51e3f13c13e17973e697344ae280d9ba7469e83e6ed02",
+  "write_date": "",
+  "xml_id": "project_timesheet_holidays.field_res_company__leave_timesheet_task_id"
+}

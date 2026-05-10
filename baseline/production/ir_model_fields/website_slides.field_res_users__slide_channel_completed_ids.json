@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24408,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Completed Courses",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "slide_channel_completed_ids",
+    "relation": "slide.channel",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "78b3babf561c64b989f8f57723af4cb92e5553ba04c531a673efd700ea0068ed",
+  "write_date": "",
+  "xml_id": "website_slides.field_res_users__slide_channel_completed_ids"
+}

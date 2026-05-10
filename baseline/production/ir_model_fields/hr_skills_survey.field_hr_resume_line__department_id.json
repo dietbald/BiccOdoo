@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14962,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      638,
+      "Resume line of an employee"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3e4915c6dbc454224348f331bc421c0346bf265c735efd4dae94418740493d25",
+  "write_date": "",
+  "xml_id": "hr_skills_survey.field_hr_resume_line__department_id"
+}

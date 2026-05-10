@@ -1,0 +1,1 @@
+model.action_cron_remove_simulation_offers()

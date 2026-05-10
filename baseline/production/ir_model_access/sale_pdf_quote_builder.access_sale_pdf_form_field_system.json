@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1817,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      1470,
+      "Form fields of inside quotation documents."
+    ],
+    "name": "access_sale_pdf_form_field_user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1222af6b33153c5f421ee33e4cc75f73a4c3fc68585c797a293da7db818fd072",
+  "write_date": "2025-12-09 03:00:29",
+  "xml_id": "sale_pdf_quote_builder.access_sale_pdf_form_field_system"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 506,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      534,
+      "Followup missing information wizard"
+    ],
+    "name": "access_account_followup_missing_information",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "19945387ca2901ddfada72a83e5f4a1ecea1d19ae2d92887cdf2fb67f20c5218",
+  "write_date": "2025-12-09 02:59:46",
+  "xml_id": "account_followup.access_account_followup_missing_information"
+}

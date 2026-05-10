@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22114,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Return Lock Date",
+    "model_id": [
+      1373,
+      "Account Lock Exception"
+    ],
+    "name": "tax_lock_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "f5641af443de24d90e264d59203accb5f6c02af06dab0b589a3b52265af64952",
+  "write_date": "",
+  "xml_id": "account.field_account_lock_exception__tax_lock_date"
+}

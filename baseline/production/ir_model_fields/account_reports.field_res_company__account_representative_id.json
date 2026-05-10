@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6002,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Accounting Firm",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_representative_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f74ba6b7a4d0203fbfc266f70a3df549d6e97b9c8f5bee8a3f772361bf461244",
+  "write_date": "",
+  "xml_id": "account_reports.field_res_company__account_representative_id"
+}

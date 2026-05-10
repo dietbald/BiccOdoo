@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1227,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      109,
+      "Manage Mass Mailing Campaigns"
+    ],
+    "model_id": [
+      562,
+      "UTM Tag"
+    ],
+    "name": "utm.tag",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8e443024885bea548665ffae8e8d69840c6e1454c314c080118afae4baaed050",
+  "write_date": "2025-12-09 03:00:45",
+  "xml_id": "mass_mailing.access_utm_tag_mass_mailing_campaign"
+}

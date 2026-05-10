@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1704,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      146,
+      "Resources"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3f5d8bd86cbad491a547f8af6fe6de0f986e7b5fabbfa74eaa7a5cce69f8fd61",
+  "write_date": "",
+  "xml_id": "resource.field_resource_resource__create_uid"
+}

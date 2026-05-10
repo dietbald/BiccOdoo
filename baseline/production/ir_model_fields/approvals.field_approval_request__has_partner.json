@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12156,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Contact",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "has_partner",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d14523c0ff5c88e2cd19293239a83a442a243fadcafd1b896c90a4b0465446e3",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__has_partner"
+}

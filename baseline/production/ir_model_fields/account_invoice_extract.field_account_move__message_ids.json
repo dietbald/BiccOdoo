@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4296,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "386f642135d0d7aa31c0ec0703ab0487624c862f957ba83fb09763e36addaf51",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__message_ids"
+}

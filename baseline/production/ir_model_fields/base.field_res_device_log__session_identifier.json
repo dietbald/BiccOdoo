@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19451,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Session Identifier",
+    "model_id": [
+      1127,
+      "Device Log"
+    ],
+    "name": "session_identifier",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "9545f204102e248d3ee48c24348c933770cb8671ff21dc6d318482d41735d528",
+  "write_date": "",
+  "xml_id": "base.field_res_device_log__session_identifier"
+}

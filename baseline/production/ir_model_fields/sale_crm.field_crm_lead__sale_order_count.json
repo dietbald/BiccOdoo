@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8438,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Sale Orders",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "sale_order_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "58d4747ba7770306b0c8b9435638c621abbd45f0e64087504d86cc90eee34085",
+  "write_date": "",
+  "xml_id": "sale_crm.field_crm_lead__sale_order_count"
+}

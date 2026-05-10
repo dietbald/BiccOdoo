@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19561,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "7b4cb0c5d58dffe54acfaaec2a298d75b0abc59a3a7be5a8620725462f62d5ea",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__message_has_error_counter"
+}

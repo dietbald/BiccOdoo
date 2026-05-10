@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1293,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Impacted data models",
+    "model_id": [
+      113,
+      "Module Uninstall"
+    ],
+    "name": "model_ids",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "41d42ee546c28817c0d233a1b17a74b00a24b9106e3ea0cf348bbb6277950303",
+  "write_date": "",
+  "xml_id": "base.field_base_module_uninstall__model_ids"
+}

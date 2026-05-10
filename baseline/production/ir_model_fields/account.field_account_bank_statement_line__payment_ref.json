@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4751,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Label",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "payment_ref",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "7f6ecd0c33ab883f00a604fa1988d43600bcc08bc1d1a37ce8b8f6b8c69660ba",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__payment_ref"
+}

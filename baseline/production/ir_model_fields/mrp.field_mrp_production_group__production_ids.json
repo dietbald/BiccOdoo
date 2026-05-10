@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28644,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Productions",
+    "model_id": [
+      3493,
+      "Production Group"
+    ],
+    "name": "production_ids",
+    "relation": "mrp.production",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "dcca682a46b660c312fc5c69916bb477e77eb1d2bf8846737d4376d6f3a0e1fd",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_group__production_ids"
+}

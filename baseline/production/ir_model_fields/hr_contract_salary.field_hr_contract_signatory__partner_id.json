@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21216,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      1284,
+      "Contract Signatories"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "154249feafc4f0afc6d56fdbb15449c87018362e10b8ace1554245ffc9e381f5",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_signatory__partner_id"
+}

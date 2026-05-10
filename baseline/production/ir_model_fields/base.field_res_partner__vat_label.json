@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21392,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax ID Label",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "vat_label",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "9c82d72a5fa5b625a6d90ad1d801b665de3a0cae2d6b79c4033e50d25a2479b3",
+  "write_date": "",
+  "xml_id": "base.field_res_partner__vat_label"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28695,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bill of Materials",
+    "model_id": [
+      774,
+      "Stock supplier replenishment information"
+    ],
+    "name": "bom_id",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ffc71d2a431d98d4a4c7686254348f8f1a3d42f2fc3ea0a8720cc7ba4f31854d",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_replenishment_info__bom_id"
+}

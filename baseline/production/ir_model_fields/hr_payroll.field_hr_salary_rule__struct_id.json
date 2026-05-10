@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12810,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Structure",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "struct_id",
+    "relation": "hr.payroll.structure",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9f61a7154dd10f2332c9f0b38c24d3f279f1630a264ed011f87dff78a7805e68",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__struct_id"
+}

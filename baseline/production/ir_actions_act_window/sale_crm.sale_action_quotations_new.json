@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 506,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_opportunity_id': active_id, 'default_opportunity_id': active_id}",
+    "domain": "[('opportunity_id', '=', active_id)]",
+    "name": "Quotation",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "form,list,graph"
+  },
+  "payload_sha256": "da52879bfe960aff2686d41ab90a0a9a3e7e66029b9cfea0ee283bd3521de463",
+  "write_date": "2025-12-09 03:00:09",
+  "xml_id": "sale_crm.sale_action_quotations_new"
+}

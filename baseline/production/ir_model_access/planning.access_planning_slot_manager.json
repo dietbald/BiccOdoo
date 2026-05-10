@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1203,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      107,
+      "Planning / Administrator"
+    ],
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "planning.slot.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "26f5ae0956ca262a641e0d075a271cbd048807818e2ec620f5b4b4d844b78793",
+  "write_date": "2025-12-09 02:59:29",
+  "xml_id": "planning.access_planning_slot_manager"
+}

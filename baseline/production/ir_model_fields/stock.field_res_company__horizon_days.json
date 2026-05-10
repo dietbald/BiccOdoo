@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28088,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Replenishment Horizon",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "horizon_days",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "065230c0be9747acb2bd36aaaea98b3d64b245cefb6fa4ea65d65c2a305549d8",
+  "write_date": "",
+  "xml_id": "stock.field_res_company__horizon_days"
+}

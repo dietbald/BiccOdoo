@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8449,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      622,
+      "Create new or use existing Customer on new Quotation"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "437f8a2bbca9ce56c9fc666212493a29c41a62b1f741bcfa3c958794635c91b6",
+  "write_date": "",
+  "xml_id": "sale_crm.field_crm_quotation_partner__write_uid"
+}

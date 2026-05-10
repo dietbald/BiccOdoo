@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11376,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resupply From",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "resupply_wh_ids",
+    "relation": "stock.warehouse",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "78162efdbc41b4bc2eadf4167403506a0d5634036bbb8aae744d0e3dd3cb1298",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__resupply_wh_ids"
+}

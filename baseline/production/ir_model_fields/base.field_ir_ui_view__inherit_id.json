@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 206,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inherited View",
+    "model_id": [
+      16,
+      "View"
+    ],
+    "name": "inherit_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b4071b640c33a5ce9325ac433bda805110896fd5d16fb2c2f26e5eaa8cccbeee",
+  "write_date": "",
+  "xml_id": "base.field_ir_ui_view__inherit_id"
+}

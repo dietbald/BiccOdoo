@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29360,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Overdue Followup",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "total_overdue_followup",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "8e21c0ac0faf43092d2ce355a9b84d667811f90add9acef2053171f28cecbeff",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_partner__total_overdue_followup"
+}

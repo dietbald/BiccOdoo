@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1275,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      2,
+      "Access Rights"
+    ],
+    "model_id": [
+      910,
+      "Gamification User Badge"
+    ],
+    "name": "Badge-user Manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "860b22fa4aea7eea4c04e8319aefd4d139e59dd16cea4cb4152c9e4436173429",
+  "write_date": "2025-12-09 02:55:55",
+  "xml_id": "gamification.badge_user_manager"
+}

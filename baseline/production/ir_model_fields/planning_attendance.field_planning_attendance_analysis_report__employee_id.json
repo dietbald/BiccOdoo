@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29840,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      3767,
+      "Planning / Attendance Analysis"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2545eea68df40c791b489c1200beda255a7677e3c5f267c109277d463dde713e",
+  "write_date": "",
+  "xml_id": "planning_attendance.field_planning_attendance_analysis_report__employee_id"
+}

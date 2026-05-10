@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8598,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      628,
+      "Contract Type"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "418e8e0fea54678bee3a6824049f9995c659fffe108a93d829a7fd30769a503d",
+  "write_date": "",
+  "xml_id": "hr.field_hr_contract_type__country_id"
+}

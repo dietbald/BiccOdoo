@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6852,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Meetings",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "meeting_ids",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "eb80ff0d4f32779672385e8fb35e69137f7379a6398c1df1b355412de7137099",
+  "write_date": "",
+  "xml_id": "calendar.field_res_partner__meeting_ids"
+}

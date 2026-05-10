@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 253,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      62
+    ],
+    "model_id": [
+      675,
+      "Skill level for an applicant"
+    ],
+    "name": "Applicant Skill: Officer",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e69a3fc6c0687f4640c80c20ce9f9ece155cecc09327089b01a09e00b0f7877d",
+  "write_date": "2023-12-01 01:26:24",
+  "xml_id": "hr_recruitment_skills.hr_applicant_skill_officer_rule"
+}

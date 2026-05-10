@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can Change Request Owner",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "change_request_owner",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f419fdafe7b950e56e9b4e7256933f81fc7da604f7c5848891b0f84c3f0c7bdf",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__change_request_owner"
+}

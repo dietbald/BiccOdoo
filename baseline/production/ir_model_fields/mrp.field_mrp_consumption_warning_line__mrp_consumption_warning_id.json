@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16447,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Wizard",
+    "model_id": [
+      979,
+      "Line of issue consumption"
+    ],
+    "name": "mrp_consumption_warning_id",
+    "relation": "mrp.consumption.warning",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "639ef01d40d79d23d7ebbb1b88e08fe59713602431a4f4c60a2e0fa806f26bdf",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_consumption_warning_line__mrp_consumption_warning_id"
+}

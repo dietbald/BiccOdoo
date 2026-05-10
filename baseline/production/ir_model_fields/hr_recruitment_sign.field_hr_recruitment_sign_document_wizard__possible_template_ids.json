@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10770,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Possible Template",
+    "model_id": [
+      721,
+      "Sign document in recruitment"
+    ],
+    "name": "possible_template_ids",
+    "relation": "sign.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cb1bb2792ce43558586b68203760cf3c2870ba6bbe1ae76f141c16ba440c3d26",
+  "write_date": "",
+  "xml_id": "hr_recruitment_sign.field_hr_recruitment_sign_document_wizard__possible_template_ids"
+}

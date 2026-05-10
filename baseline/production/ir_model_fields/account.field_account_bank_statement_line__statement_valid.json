@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4762,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Valid",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "statement_valid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d649bb9025097db22479290e98b9449b9240e789622e8e2c472c56831b838713",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__statement_valid"
+}

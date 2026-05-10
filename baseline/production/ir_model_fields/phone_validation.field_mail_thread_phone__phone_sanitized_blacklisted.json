@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2802,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Phone Blacklisted",
+    "model_id": [
+      353,
+      "Phone Blacklist Mixin"
+    ],
+    "name": "phone_sanitized_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "fdd1257a76cb0150834f609a76b934e8052fbfc7e22946cd5c9cf599c6638414",
+  "write_date": "",
+  "xml_id": "phone_validation.field_mail_thread_phone__phone_sanitized_blacklisted"
+}

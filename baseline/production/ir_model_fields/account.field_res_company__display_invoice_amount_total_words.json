@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4975,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total amount of invoice in letters",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "display_invoice_amount_total_words",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7f26e1460122e9bcc0bcbbe68a11e5b250c79d0da16b38ada5b31a8d2f61ceb1",
+  "write_date": "",
+  "xml_id": "account.field_res_company__display_invoice_amount_total_words"
+}

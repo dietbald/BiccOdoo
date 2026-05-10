@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24273,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "721e2055da4ff95f09cebcacd1aad1b2cd741ffc349743b702d96056747cd8dd",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__message_ids"
+}

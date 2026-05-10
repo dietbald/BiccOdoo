@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28936,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report Opened Once",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "report_opened_once",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b8c2809e5949b528b2b53fe3a6ec9d909557490862f72f412493c43611687e84",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__report_opened_once"
+}

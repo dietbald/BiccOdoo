@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5383,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Difference Handling",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "payment_difference_handling",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "fca6beda4040f3c881cdbf20feefec1e5a0997c0fb0ee38a852ee0ed77a0e92e",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__payment_difference_handling"
+}

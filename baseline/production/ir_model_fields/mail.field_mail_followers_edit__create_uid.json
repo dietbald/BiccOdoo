@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25782,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2652,
+      "Followers edit wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ac1269d84305a8994548eaed1df8578e1c627db4df9ab138e999672226e5add4",
+  "write_date": "",
+  "xml_id": "mail.field_mail_followers_edit__create_uid"
+}

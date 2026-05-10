@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14157,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document ID",
+    "model_id": [
+      893,
+      "Mailing Statistics"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "96e29cf145c48244028189c6718433b35c503e3a6a39bb7e4e2973f60a3825d2",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_trace__res_id"
+}

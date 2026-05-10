@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 484,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      522,
+      "Export format for accounting's reports"
+    ],
+    "name": "access.account_reports.export.wizard.format",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "9228e27c277618fa683b9c578014ae74eeb9d9a585729051a144a2b36234bf1d",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_reports_export_wizard_format"
+}

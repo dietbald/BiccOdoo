@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deactivate",
+    "model_id": [
+      1112,
+      "Progress of Scheduled Actions"
+    ],
+    "name": "deactivate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e30917ccc6764dacfc0d11adb68050f27ce2a17b00613c9c318aee6bc99cef54",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_progress__deactivate"
+}

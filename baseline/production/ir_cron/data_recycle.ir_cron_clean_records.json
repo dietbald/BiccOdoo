@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 57,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_recycle_records()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      925,
+      "Recycling Model"
+    ],
+    "name": "Data Recycle: Clean Records",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "f56092bac7012efb6be275822ab268cf3bae12d69f0d72e4a471886ea327e28a",
+  "write_date": "2025-12-09 02:55:53",
+  "xml_id": "data_recycle.ir_cron_clean_records"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12231,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Article",
+    "model_id": [
+      789,
+      "Article Member"
+    ],
+    "name": "article_id",
+    "relation": "knowledge.article",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "249015ebfdcec8141d939579d82bc05afefcee5f12d9193b52808d66135de753",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_member__article_id"
+}

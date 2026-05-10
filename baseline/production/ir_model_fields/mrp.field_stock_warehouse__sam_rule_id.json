@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16390,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock After Manufacturing Rule",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "sam_rule_id",
+    "relation": "stock.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fbc8d766b665f7e77d939b01a45061a8a3c3767d6fdf9797c26858afb74aee39",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_warehouse__sam_rule_id"
+}

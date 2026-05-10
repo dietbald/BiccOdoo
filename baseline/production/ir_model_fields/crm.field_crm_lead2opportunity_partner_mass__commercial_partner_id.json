@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27673,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      585,
+      "Convert Lead to Opportunity (in mass)"
+    ],
+    "name": "commercial_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bb40740de49f1733dda609736f2901d7ef076755dd41e31154b82dd52c8decce",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead2opportunity_partner_mass__commercial_partner_id"
+}

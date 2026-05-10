@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29274,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3651,
+      "planning calendar resource"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c6b80a611cda84aab75fe2ac3413a80a9013a21a105892955f21f0987c1aff28",
+  "write_date": "",
+  "xml_id": "planning.field_planning_calendar_resource__write_uid"
+}

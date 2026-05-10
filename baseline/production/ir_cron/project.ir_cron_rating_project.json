@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 32,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._send_rating_all()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "Project Stage: Send rating",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "b2d95f798564f9bb0de61f78d1d51285476c1b735a696697c525decdf7ffcb71",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "project.ir_cron_rating_project"
+}

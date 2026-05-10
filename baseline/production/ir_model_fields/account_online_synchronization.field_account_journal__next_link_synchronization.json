@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5884,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Online Link Next synchronization",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "next_link_synchronization",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "cfac736166f8576e9b9cdc73015b53c1a4d371595963e26df1791eeb3b37a86e",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_journal__next_link_synchronization"
+}

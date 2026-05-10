@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17236,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      1008,
+      "Odometer log for a vehicle"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "0d84815d48b0cdd789c7d3b11e2c7242e207ce1ddf6913f50ff607ec04625837",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_odometer__create_date"
+}

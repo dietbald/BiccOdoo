@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14574,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Goal Definition",
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "definition_id",
+    "relation": "gamification.goal.definition",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eeda3a775d0a7107c82308c346dd14d2f84aebf6902ea6e952c4b99b7098c96f",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_goal__definition_id"
+}

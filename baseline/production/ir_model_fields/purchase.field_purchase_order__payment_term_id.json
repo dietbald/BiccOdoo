@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9414,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Terms",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "payment_term_id",
+    "relation": "account.payment.term",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "afd2bc4d94fcba82ac8accf555871fcedf79c2f52d54d825378eb7e5694a740b",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__payment_term_id"
+}

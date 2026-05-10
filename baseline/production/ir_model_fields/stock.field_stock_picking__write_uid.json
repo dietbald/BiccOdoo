@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11301,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "db62b5e94a02136bb34eb964bb047285970a60e68ffba389d805ac69307d4e75",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27566,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "No Follow-Up",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "no_followup",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ca6b90340d98480d46088ae4994d9392c00ad0840a5feb076fdeeb8fb5ce5f7e",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__no_followup"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27999,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project Roles",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "role_ids",
+    "relation": "project.role",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ee9069c69ffe54eebb00aac2662c2b1a48f1afff35fa145be0e65cc252e464ff",
+  "write_date": "",
+  "xml_id": "project.field_project_task__role_ids"
+}

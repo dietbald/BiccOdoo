@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28496,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected Degree",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "expected_degree",
+    "relation": "hr.recruitment.degree",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5aaf6b20620d08ad68dd75d0783724691832950895831b7adbbe3189c117fc56",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__expected_degree"
+}

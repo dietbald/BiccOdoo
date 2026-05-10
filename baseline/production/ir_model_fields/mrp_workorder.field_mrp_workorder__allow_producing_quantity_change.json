@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16825,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow Changes to Producing Quantity",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "allow_producing_quantity_change",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1cbdf6e724638d0e6c60a486e4ea069171863c52178e856e3e0f23edf566f666",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__allow_producing_quantity_change"
+}

@@ -1,0 +1,1 @@
+model.check_all_status()

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12565,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated on",
+    "model_id": [
+      805,
+      "Technical model to group PO for call to tenders"
+    ],
+    "name": "write_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "e5f8888c805d03aefc1f0f2074c955d1dcafc0da20eba5d62f1e29830323af61",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_order_group__write_date"
+}

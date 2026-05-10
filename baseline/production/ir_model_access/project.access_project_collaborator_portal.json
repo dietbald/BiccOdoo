@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 667,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      605,
+      "Collaborators in project shared"
+    ],
+    "name": "project.collaborator.portal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b7f9501e244d3158ee918a52c47503aa1a4987ed8c16f26270b2eb43aa24da7d",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_collaborator_portal"
+}

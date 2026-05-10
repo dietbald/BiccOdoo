@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8078,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Budget Spent",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "total_budget_progress",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "feaa32e8fd79829c60cd5e917d2bb0366e9d5384ba8fd74d842afdcef6c4e8ef",
+  "write_date": "",
+  "xml_id": "project_account_budget.field_project_project__total_budget_progress"
+}

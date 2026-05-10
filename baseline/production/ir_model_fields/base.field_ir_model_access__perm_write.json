@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 109,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Write Access",
+    "model_id": [
+      9,
+      "Model Access"
+    ],
+    "name": "perm_write",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "734c69a84db709908233dec6249a4b1f0fa3dc914b919bebc7f4c1b30dc30e5a",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_access__perm_write"
+}

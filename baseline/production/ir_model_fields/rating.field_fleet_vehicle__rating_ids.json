@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17031,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7c160236beaec62071c72d5d43efa7bc708f98a557ed4d2fb254be35a7846238",
+  "write_date": "",
+  "xml_id": "rating.field_fleet_vehicle__rating_ids"
+}

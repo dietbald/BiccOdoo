@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20161,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "account_move_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "be926ebefa28cd59445b1ec080bc8d78369f7ef6c7c48d2bd18b072ca9d601cd",
+  "write_date": "",
+  "xml_id": "account_fleet.field_fleet_vehicle_log_services__account_move_state"
+}

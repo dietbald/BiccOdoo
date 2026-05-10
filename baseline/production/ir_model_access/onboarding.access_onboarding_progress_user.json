@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 171,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      138,
+      "Onboarding Progress Tracker"
+    ],
+    "name": "onboarding.progress.user",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "d9c7d5802ab670ea86ea76a6c2fbb7841c5311e2170f92c8ec55d12af6a6763d",
+  "write_date": "2025-12-09 02:55:41",
+  "xml_id": "onboarding.access_onboarding_progress_user"
+}

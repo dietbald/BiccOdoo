@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18115,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bc23648e21c4e9ab0753437e2a5a2546c1a90b3196612fd5b910b02e8ca09895",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_equipment__message_needaction"
+}

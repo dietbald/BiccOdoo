@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12128,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Attachment",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "message_main_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b426d7a858bd1fe51667a5722deb3e81c9ba0ddbd2c7576a38de531274fed5e5",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__message_main_attachment_id"
+}

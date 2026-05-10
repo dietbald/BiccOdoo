@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice/Bill Date",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "invoice_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "09c6919def9e8dfa02954c9d0a750a64377df37277c8524284da576a607ad0be",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__invoice_date"
+}

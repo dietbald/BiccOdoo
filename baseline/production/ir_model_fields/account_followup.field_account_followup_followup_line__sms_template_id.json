@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6282,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sms Template",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "sms_template_id",
+    "relation": "sms.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c26e5d1a647769f5ed46459572d62b131a1596d34cbb9c47ad92f0de7e9915b9",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__sms_template_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5689,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment State Before Switch",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "payment_state_before_switch",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "38778ff36d5d8bc7200cad4a56c4bc79fae86221707b8c1648688df62c2bd6fc",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_move__payment_state_before_switch"
+}

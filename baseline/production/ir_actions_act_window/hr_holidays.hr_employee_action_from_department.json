@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1037,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n           'search_default_on_timeoff': 1,\n           'searchpanel_default_department_id': active_id,\n           'search_default_department_id': active_id,\n           'default_department_id': active_id}\n       ",
+    "domain": false,
+    "name": "Absent Employees",
+    "res_model": "hr.employee",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "af32552fdf7bcf3e60469d5a0e421e9abf41de6e4f71f138d33dace702351184",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.hr_employee_action_from_department"
+}

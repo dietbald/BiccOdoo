@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15849,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Time Off Manager",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "deferred_time_off_manager",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f51b846ad691858ae97a12964670993b8ae2d5e10d708df88794f8e90c8a0635",
+  "write_date": "",
+  "xml_id": "hr_payroll_holidays.field_res_company__deferred_time_off_manager"
+}

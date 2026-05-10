@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28221,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination",
+    "model_id": [
+      3392,
+      "Put In Pack Wizard"
+    ],
+    "name": "location_dest_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9f921b860ea266045e90a24907ab3c3b70a5a1b2a814f6d244f32ecbd00c051f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_put_in_pack__location_dest_id"
+}

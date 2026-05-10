@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 630,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('visitor_id', '=', active_id), ('url', '!=', False)]",
+    "name": "Page Views History",
+    "res_model": "website.track",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "d8e99a824b8fd2161459ff51528316ca872442e86c31663a8d9f4ecf914ac01b",
+  "write_date": "2026-01-28 12:01:03",
+  "xml_id": "website.website_visitor_page_action"
+}

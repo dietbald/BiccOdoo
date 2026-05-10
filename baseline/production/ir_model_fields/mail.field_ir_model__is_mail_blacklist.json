@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2253,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Mail Blacklist",
+    "model_id": [
+      3,
+      "Models"
+    ],
+    "name": "is_mail_blacklist",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dc94b78e5ad0271639e47db884346e69225e39a2f51161218ca4020dbc989155",
+  "write_date": "",
+  "xml_id": "mail.field_ir_model__is_mail_blacklist"
+}

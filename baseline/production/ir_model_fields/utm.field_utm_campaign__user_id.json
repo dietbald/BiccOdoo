@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6803,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      556,
+      "UTM Campaign"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "401114da712ef74823da148ee3f3b5966ce0a9f4de8d0ef3558d4bc636ce6e6d",
+  "write_date": "",
+  "xml_id": "utm.field_utm_campaign__user_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18760,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard Tracking Line",
+    "model_id": [
+      1070,
+      "Lines for FSM Stock Tracking"
+    ],
+    "name": "wizard_tracking_line",
+    "relation": "fsm.stock.tracking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "099adc7308c5de180d03d4abab375610eca5f6af45a266cfd72a8c6219ebc8b9",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking_line__wizard_tracking_line"
+}

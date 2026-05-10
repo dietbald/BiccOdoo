@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Validity Stop",
+    "model_id": [
+      675,
+      "Skill level for an applicant"
+    ],
+    "name": "valid_to",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "eb69bd194b5784f8d9457c1022e62c1f72c7d2732f499c97b63f6f53fd839cb2",
+  "write_date": "",
+  "xml_id": "hr_recruitment_skills.field_hr_applicant_skill__valid_to"
+}

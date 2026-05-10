@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26686,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "qty_available",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "ea68c7e920efbb5c9eb5f48c1fda2042805ab78212dbd002788a284d61bed1bf",
+  "write_date": "",
+  "xml_id": "sale_stock_renting.field_rental_order_wizard_line__qty_available"
+}

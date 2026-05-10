@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2495,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Thread-Enabled",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "model_is_thread",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "678d5f1c9b08383ff8dfb9cfe7d9f016a01a249c1105f965fa7373d0e3d7b99a",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__model_is_thread"
+}

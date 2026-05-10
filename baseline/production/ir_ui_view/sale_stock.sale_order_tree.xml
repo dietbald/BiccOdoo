@@ -1,0 +1,3 @@
+<field name="tag_ids" position="after">
+                <field name="warehouse_id" options="{'no_create': True}" readonly="state == 'sale'" groups="stock.group_stock_multi_warehouses" optional="hide"/>
+            </field>

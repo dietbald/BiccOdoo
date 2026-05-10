@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4400,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Inactive Currency Warning",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "display_inactive_currency_warning",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "68741211304bc84fd5830fb0658ac5880a44c2f57aff9bef66cf69048bafce04",
+  "write_date": "",
+  "xml_id": "account.field_account_move__display_inactive_currency_warning"
+}

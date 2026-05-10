@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1023,
+      "Social Media"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8362eec0c2766df0cff7ad2ffce7bdd62559807d7982005f0ccc155111d098e2",
+  "write_date": "",
+  "xml_id": "social.field_social_media__rating_ids"
+}

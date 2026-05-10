@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination Account",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "destination_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aff1565dab29acc4ec91b4d7db86bfe0fcb8c52739d0bf8cc54a7f37f73388ae",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__destination_account_id"
+}

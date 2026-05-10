@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5682,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      485,
+      "Fiscal Year"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "87f98a8f6c4166c83e5a8c1ebd71bc9c69c2940b1dad992a3598b9e7ec6eeab8",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_fiscal_year__company_id"
+}

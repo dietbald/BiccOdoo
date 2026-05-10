@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15598,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "manager_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "af9c989059e17bf1087bfc807f114c1b0c9e7c0b42c0d38d3ecf48c2b08cf111",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__manager_id"
+}

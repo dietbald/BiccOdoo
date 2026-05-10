@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10607,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      709,
+      "Signature Template"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4f732802cf76bd88bbeb2c452d0597e15de3b7e82cbc921cad9b4358a23154be",
+  "write_date": "",
+  "xml_id": "sign.field_sign_template__create_uid"
+}

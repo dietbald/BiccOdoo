@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21168,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9d2daa129bb26af35cd2fe1d0c89b9248979cf4ac943da889759f3cbd65a07b5",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__message_follower_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2512,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send mailing or notifications directly",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "force_send",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "81a366a582f8af35e62a6b249904a93c70720a3ffb3104ac84f724ed2a673382",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__force_send"
+}

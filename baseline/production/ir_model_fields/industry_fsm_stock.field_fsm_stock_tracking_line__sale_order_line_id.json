@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18758,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Order Line",
+    "model_id": [
+      1070,
+      "Lines for FSM Stock Tracking"
+    ],
+    "name": "sale_order_line_id",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "733a8b075e6be98f29d17168240521038f441966f34ac06eab1266ec2f4b3f4a",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking_line__sale_order_line_id"
+}

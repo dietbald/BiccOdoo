@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25769,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is an external partner follower of the document?",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "notified_bcc_contains_share",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a1151afc6327f84898e4a775433e2da853e761355431254ce73ab6f82cc58baa",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__notified_bcc_contains_share"
+}

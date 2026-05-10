@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1621,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_confirmed_orders': 1,\n            'group_by': [],\n            'search_default_filter_date': 1,\n        }",
+    "domain": false,
+    "name": "Rental Analysis",
+    "res_model": "sale.rental.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "b323e09ba9902510ae8f0f5e86db28d63c267dfbda85c81d58343b6605bd9950",
+  "write_date": "2025-12-09 03:00:12",
+  "xml_id": "sale_renting.action_rental_report"
+}

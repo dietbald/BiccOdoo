@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4430,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice/Bill Date",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "invoice_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "53e966bc3a3c48d0389d860a622fcf85043432236044cdfa094db2b76d63aab8",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__invoice_date"
+}

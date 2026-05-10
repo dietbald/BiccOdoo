@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1496,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_slide_id': active_id}",
+    "domain": "[('slide_id', '=', active_id)]",
+    "name": "Attendees",
+    "res_model": "slide.slide.partner",
+    "target": "current",
+    "view_mode": "list,form,kanban"
+  },
+  "payload_sha256": "2af5bc8b6ab0f18a42b166960ec1dbf5b2943ee8b79afaacc4d0b0ae8d6e1450",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.slide_slide_partner_action_from_slide"
+}

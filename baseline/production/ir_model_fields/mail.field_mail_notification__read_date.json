@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1852,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Read Date",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "read_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "88fa1304d5eec748787b16c095a6addd51945b96d0f293c9fd94e50d34b7490d",
+  "write_date": "",
+  "xml_id": "mail.field_mail_notification__read_date"
+}

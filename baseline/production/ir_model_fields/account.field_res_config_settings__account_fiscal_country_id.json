@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5041,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Country Code",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_fiscal_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "965b20c4fc65b59e8133b753e3854b8d7cddd88ed471f1f9068271874a845a1f",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__account_fiscal_country_id"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 258,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('type', '!=', 'qweb'), ('visibility', 'in', ('public', False))]",
+    "groups": [
+      11
+    ],
+    "model_id": [
+      16,
+      "View"
+    ],
+    "name": "Website View Visibility Public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "01de02000f7fb2dbb2b737d2dd6952b550df1620163656a0c66eaeae4028da11",
+  "write_date": "2023-12-01 01:26:49",
+  "xml_id": "website.view_rule_visibility_public"
+}

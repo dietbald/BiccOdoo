@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7205,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recurring Revenues",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "recurring_revenue",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "f1b131948e524333b6106d35223c3d87c2863aa6de6b86c0d7e5545ec8239525",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__recurring_revenue"
+}

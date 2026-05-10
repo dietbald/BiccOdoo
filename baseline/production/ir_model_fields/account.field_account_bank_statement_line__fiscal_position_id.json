@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4843,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Position",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "fiscal_position_id",
+    "relation": "account.fiscal.position",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f7a444857638f5f293113a1799a05534e1444a8e088718b8aa156246d747033c",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__fiscal_position_id"
+}

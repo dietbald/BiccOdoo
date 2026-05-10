@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 625,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_permission', '=', 'edit')]",
+    "groups": [],
+    "model_id": [
+      537,
+      "Document"
+    ],
+    "name": "Documents.document: global write rule",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "d8a342478d7706803f8060b6ab82f8c1bf7de5ccdaf8892b0984296ffc8f7b21",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.documents_document_global_write_rule"
+}

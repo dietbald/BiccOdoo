@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 488,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('vehicle_id.company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1008,
+      "Odometer log for a vehicle"
+    ],
+    "name": "Fleet odometer: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4e05685d66aea4bf93c8be9d430b53bee5997bbe4d0a5716595e1fb134fba1ff",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "fleet.ir_rule_fleet_odometer"
+}

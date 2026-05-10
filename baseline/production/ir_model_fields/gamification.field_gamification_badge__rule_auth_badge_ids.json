@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14481,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Required Badges",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "rule_auth_badge_ids",
+    "relation": "gamification.badge",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "04918545b19ed25a4561392d086235f152d0f688419a7e75cafd19b4b688b2d3",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge__rule_auth_badge_ids"
+}

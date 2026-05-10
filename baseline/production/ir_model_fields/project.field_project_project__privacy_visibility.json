@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7866,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Visibility",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "privacy_visibility",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "23b8f0eb4c0288e21a2dd3bd7014b1b619c6849f1e7f62dd6dc9a474291f8074",
+  "write_date": "",
+  "xml_id": "project.field_project_project__privacy_visibility"
+}

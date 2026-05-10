@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Commercial Partner Country",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "commercial_partner_country",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "973573f6378580e1217d62063a279c0627a1f92b129ae8bcbeabec6d24d0d6a2",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__commercial_partner_country"
+}

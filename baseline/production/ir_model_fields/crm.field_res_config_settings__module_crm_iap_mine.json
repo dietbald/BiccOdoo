@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7311,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Generate new leads based on their country, industries, size, etc.",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_crm_iap_mine",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "27d0a81cae8f05a2127c9a7d4daef742a180bfc1314ace4685a01bb4759af03a",
+  "write_date": "",
+  "xml_id": "crm.field_res_config_settings__module_crm_iap_mine"
+}

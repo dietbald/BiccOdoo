@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14239,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow A/B Testing",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "ab_testing_enabled",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6ee653abfc71da6bb129536d538eb51ec1d017e45021b4f874d3e39c8637f3ca",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__ab_testing_enabled"
+}

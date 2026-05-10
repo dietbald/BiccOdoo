@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Close Manufacturing Orders",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "picking_type_auto_close",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1502766efa220b719b008fc590cfea0baa232f7788d99a636ca080b31a275998",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_production__picking_type_auto_close"
+}

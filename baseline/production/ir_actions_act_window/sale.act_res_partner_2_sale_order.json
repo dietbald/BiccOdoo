@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 505,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_partner_id': active_id}",
+    "domain": "[('partner_id', 'child_of', active_ids)]",
+    "name": "Quotations and Sales",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph"
+  },
+  "payload_sha256": "c5c850a45efd2921c6a720a149458d449ac4560e9291f827a0bda98553d9f498",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.act_res_partner_2_sale_order"
+}

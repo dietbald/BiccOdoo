@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 34,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('resource_id', '!=', False), ('resource_id.user_id', 'in', [False, user.id])]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "resource.calendar.leaves: employee modifies own",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "136d67283670a45382e3d4be3ca8e8668f4870a86c714e51729005c514757372",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "resource.resource_calendar_leaves_rule_group_user_modify"
+}

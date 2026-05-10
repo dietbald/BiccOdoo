@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18606,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1062,
+      "Worksheet Template"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fd09e1cb2dbc085b921b7304706c027ea1f01c58017e9c49e68fc742c4c6cee4",
+  "write_date": "",
+  "xml_id": "worksheet.field_worksheet_template__write_uid"
+}

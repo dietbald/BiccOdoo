@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9439,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discount (%)",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "discount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "425d5e947fc27159762486a7e20037fbb6a861f2a55fe70f5dc661c18bec5af9",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__discount"
+}

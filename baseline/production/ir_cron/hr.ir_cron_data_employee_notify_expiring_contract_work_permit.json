@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 78,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.notify_expiring_contract_work_permit()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "HR Employee: Notify Expiring Contract or Work Permit",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "3d3e1a138449c5c3ced770e496d3c0086e73869c177033e5375607c005896697",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.ir_cron_data_employee_notify_expiring_contract_work_permit"
+}

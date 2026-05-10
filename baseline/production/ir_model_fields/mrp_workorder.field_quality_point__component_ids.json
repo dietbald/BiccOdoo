@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16861,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Component",
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "component_ids",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "215695a993b45aee49d4245bcc53fabc4f3de8cb99c1e3d5c47096772e62abed",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_point__component_ids"
+}

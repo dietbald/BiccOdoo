@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16286,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Finished Moves",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "move_finished_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "c969f298bf8456098ad302323c3bbbb55b67750708503c901f3e6bc43b332735",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__move_finished_ids"
+}

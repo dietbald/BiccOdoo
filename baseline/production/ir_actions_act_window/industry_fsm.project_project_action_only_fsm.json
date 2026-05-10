@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1205,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'fsm_mode': True,\n            'default_is_fsm': True,\n            'default_allow_timesheets': True,\n            'default_allow_material': True,\n            'default_allow_billable': True,\n        }",
+    "domain": "[('is_fsm', '=', True), ('is_template', '=', False)]",
+    "name": "Projects",
+    "res_model": "project.project",
+    "target": "main",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "47604f5777a42b2df52e1b5045108a62d5d4caed0aeb435b7abab373738b6be1",
+  "write_date": "2025-12-09 03:00:41",
+  "xml_id": "industry_fsm.project_project_action_only_fsm"
+}

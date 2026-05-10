@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      3563,
+      "Accounting Return Type"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5843d4e26f9aa4b55217088f2c7a5214bc3671c17c89b0c3fe46cef8e4636645",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_type__message_follower_ids"
+}

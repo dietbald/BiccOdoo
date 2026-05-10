@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 574,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      570,
+      "Calendar Provider Configuration Wizard"
+    ],
+    "name": "calendar.provider.config.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "eb5b171c6b7623e3962abe16a7c2638202d1fbfa583380b5576c54632f1a01c7",
+  "write_date": "2025-12-09 02:55:52",
+  "xml_id": "calendar.access_calendar_provider_config_manager"
+}

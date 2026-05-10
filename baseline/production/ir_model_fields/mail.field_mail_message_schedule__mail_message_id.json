@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2001,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message",
+    "model_id": [
+      172,
+      "Scheduled Messages"
+    ],
+    "name": "mail_message_id",
+    "relation": "mail.message",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3df6f9f5983233c5d8ab1a0edc52a6ef6b7d53e21b070e97cfb4e77839a27608",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_schedule__mail_message_id"
+}

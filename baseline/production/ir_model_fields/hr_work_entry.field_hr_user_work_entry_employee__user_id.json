@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12710,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Me",
+    "model_id": [
+      813,
+      "Work Entries Employees"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c8af832c585c23c1e1c3fe3c587bc0a1c09806383141276ac9b067cf27f2869",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_hr_user_work_entry_employee__user_id"
+}

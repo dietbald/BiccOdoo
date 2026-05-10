@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3843,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Position",
+    "model_id": [
+      418,
+      "Accounts Mapping of Fiscal Position"
+    ],
+    "name": "position_id",
+    "relation": "account.fiscal.position",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fe0f0f1caf14b80b6b45dc7b1c0446154644721350d22e92e97c0113333b9191",
+  "write_date": "",
+  "xml_id": "account.field_account_fiscal_position_account__position_id"
+}

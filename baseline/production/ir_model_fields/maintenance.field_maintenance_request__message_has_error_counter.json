@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18163,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "a84326ecd829ed87737b9b0d5970d50b2bdbaa20dd171947b47e46f72a60228c",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__message_has_error_counter"
+}

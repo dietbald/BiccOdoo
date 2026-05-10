@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1803,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      157,
+      "Email CC management"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "bdd3e67183c07a2c2ed350e66ce5ace5a61d7eab2a8f769b3ce62deeb21de917",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_cc__message_needaction_counter"
+}

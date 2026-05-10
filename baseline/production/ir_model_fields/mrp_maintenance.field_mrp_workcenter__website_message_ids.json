@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18256,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7933e94afae319ff0b662bb0ba24ea18a71237ef6553e22573233d4c96661490",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__website_message_ids"
+}

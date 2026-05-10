@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2066,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pinned",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "pinned_at",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "d3b6becbcef1ee2619cadb8a6d1bf453d74df817e253cc0af8b8056941785df8",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__pinned_at"
+}

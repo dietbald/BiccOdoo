@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1391,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Verification Code",
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "6c43406ff5e65a7f03454d4d149ae109bb2d359e28670a8a3c911ba37fea19ac",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_wizard__code"
+}

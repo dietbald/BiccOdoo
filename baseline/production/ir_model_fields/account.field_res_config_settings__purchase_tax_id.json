@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5007,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Purchase Tax",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "purchase_tax_id",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "498e4f46b2ec2dada9dd009547fb5037cd77ffb7aefae678a1752125d41b171c",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__purchase_tax_id"
+}

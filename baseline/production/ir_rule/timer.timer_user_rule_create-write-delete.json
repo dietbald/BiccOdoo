@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 379,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('user_id', '=', user.id)\n            ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      844,
+      "Timer Module"
+    ],
+    "name": "timer.user.rule.create-write-delete",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "56d565de6fd1240d6e18b15bc192dd66b42c316ab83b3f053145b2ce71529c09",
+  "write_date": "2023-12-05 08:04:35",
+  "xml_id": "timer.timer_user_rule_create-write-delete"
+}

@@ -1,0 +1,7 @@
+<search string="Country">
+                    <field name="name"/>
+                    <field name="country_id"/>
+                    <group>
+                        <filter name="groupby_country" string="Country" context="{'group_by': 'country_id'}"/>
+                    </group>
+                </search>

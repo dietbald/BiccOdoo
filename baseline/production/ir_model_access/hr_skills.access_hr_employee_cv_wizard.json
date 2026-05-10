@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 776,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      647,
+      "Print Resume"
+    ],
+    "name": "access_hr_employee_cv_wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "407eb1ea1cd60a6e4e68bbbc1b0c62cc4b3a40c35563947dc2110c4c163f7e83",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.access_hr_employee_cv_wizard"
+}

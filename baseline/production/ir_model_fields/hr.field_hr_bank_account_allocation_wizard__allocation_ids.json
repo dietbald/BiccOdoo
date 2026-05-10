@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27968,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocations",
+    "model_id": [
+      3305,
+      "Bank Account Allocation Wizard"
+    ],
+    "name": "allocation_ids",
+    "relation": "hr.bank.account.allocation.wizard.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5c25b631a3bd7ed1ba5da43b18f403b0b2af2ad1969fd85461a5463369f62031",
+  "write_date": "",
+  "xml_id": "hr.field_hr_bank_account_allocation_wizard__allocation_ids"
+}

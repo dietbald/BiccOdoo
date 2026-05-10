@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Maintenance",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "maintenance_ids",
+    "relation": "maintenance.request",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5e86552a265ae4e5eaacf06834367b40440ba89c0e77a1da6c232a4596d0baa9",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_equipment__maintenance_ids"
+}

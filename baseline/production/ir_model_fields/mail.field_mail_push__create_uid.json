@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2313,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      198,
+      "Push Notifications"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d09195175a28333d2c0855dbe5523cea1f3d37590b576f7abb9421d4af1e4e25",
+  "write_date": "",
+  "xml_id": "mail.field_mail_push__create_uid"
+}

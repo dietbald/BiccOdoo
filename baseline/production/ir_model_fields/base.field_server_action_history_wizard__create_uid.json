@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26726,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2776,
+      "Server Action History Wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ec09213214c2268d4b8a02713f2698f932cfbf82262b0b262cb7a4902033693c",
+  "write_date": "",
+  "xml_id": "base.field_server_action_history_wizard__create_uid"
+}

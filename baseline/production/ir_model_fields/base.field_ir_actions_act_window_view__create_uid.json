@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 294,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      21,
+      "Action Window View"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4af290e23a397bf157a676bf2eed104bf3b41433daa80620a1c4ad690b7dc399",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_act_window_view__create_uid"
+}

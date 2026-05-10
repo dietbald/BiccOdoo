@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1823,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "49e669ff87d3c032308410f68b8e2a79341f1ac20143e8adc72d09572167c161",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__state"
+}

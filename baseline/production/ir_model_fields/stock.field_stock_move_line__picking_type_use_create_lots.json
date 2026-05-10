@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11028,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create New Lots/Serial Numbers",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "picking_type_use_create_lots",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "58764ce094d9ef2c54f7c4141f0657441613994a3f28a511ed0ccfcdea946232",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__picking_type_use_create_lots"
+}

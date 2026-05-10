@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23918,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Interest",
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "interest",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "a11ed878f25061950a983ef6e7e0eaa3ce0d0d729ef3488e52bc1b865aabde8b",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_line__interest"
+}

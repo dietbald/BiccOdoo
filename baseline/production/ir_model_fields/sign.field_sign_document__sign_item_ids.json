@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27404,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Signature Items",
+    "model_id": [
+      3197,
+      "Signature Document"
+    ],
+    "name": "sign_item_ids",
+    "relation": "sign.item",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "558fbe3110506ef09cdb2f0b1d3405edaac71be0e9e226df6d266bc5e6893b5b",
+  "write_date": "",
+  "xml_id": "sign.field_sign_document__sign_item_ids"
+}

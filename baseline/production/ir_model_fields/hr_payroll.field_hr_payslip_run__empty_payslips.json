@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29482,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Empty Payslips",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "empty_payslips",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "bcdbaefcd796f81d49fc2a09470d455e41c49933e4c3436d229266020d54f9dd",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__empty_payslips"
+}

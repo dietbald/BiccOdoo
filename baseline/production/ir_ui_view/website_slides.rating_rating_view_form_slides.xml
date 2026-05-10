@@ -1,0 +1,18 @@
+<form string="Ratings" create="false">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="partner_id"/>
+                            <field name="resource_ref" string="Course"/>
+                            <field name="rated_on"/>
+                        </group>
+                        <group>
+                            <field name="rating"/>
+                            <field name="is_internal"/>
+                        </group>
+                    </group>
+                    <group class="mw-100" invisible="not feedback">
+                        <field name="feedback"/>
+                    </group>
+                </sheet>
+            </form>

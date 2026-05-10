@@ -1,0 +1,5 @@
+<xpath expr="//setting[@name='module_hr_payroll_account_iso20022']" position="after">
+                <setting string="Batch Account Move Lines" help="Enable this option to merge all the accounting entries for the same period into a single account move line. This will anonymize the accounting entries but also disable single payment generations.">
+                    <field name="batch_payroll_move_lines"/>
+                </setting>
+            </xpath>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Online Link",
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "account_online_link_id",
+    "relation": "account.online.link",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a87a9e646d91c00ce829294a7ae608a94d218254d8b3048c1ad77863edc714e9",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_account__account_online_link_id"
+}

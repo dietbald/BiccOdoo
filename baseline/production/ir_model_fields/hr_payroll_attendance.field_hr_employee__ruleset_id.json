@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28382,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ruleset",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "ruleset_id",
+    "relation": "hr.attendance.overtime.ruleset",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "08c7f53719970e004300d4583a408f24f2e7e12969d27e2e1c6fd8db86b65b88",
+  "write_date": "",
+  "xml_id": "hr_payroll_attendance.field_hr_employee__ruleset_id"
+}

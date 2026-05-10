@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2196,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aa27d10c0a5919251ae9f6d20efe8810321deea6f4f26125be4fedec6d158410",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template__create_uid"
+}

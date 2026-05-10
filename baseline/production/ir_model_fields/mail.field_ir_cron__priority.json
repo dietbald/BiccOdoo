@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 453,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Priority",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "priority",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "69cb3fa4eebd7b96b24eb52dd27913ca901ba186dad152967bee7583ace5468a",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__priority"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29577,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inventory Period",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "inventory_period",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "82b3afc68c303da43eda966e43855c7503dddbd28d35722125045c2a42a0b40b",
+  "write_date": "",
+  "xml_id": "stock_accountant.field_res_config_settings__inventory_period"
+}

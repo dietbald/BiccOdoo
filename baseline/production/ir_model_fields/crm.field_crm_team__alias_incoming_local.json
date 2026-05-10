@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7295,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Local-part based incoming detection",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "alias_incoming_local",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6f03d3edbf19ab7066f1b7133e24f3548e113e8c07578cf9b6d508e63437ce2f",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team__alias_incoming_local"
+}

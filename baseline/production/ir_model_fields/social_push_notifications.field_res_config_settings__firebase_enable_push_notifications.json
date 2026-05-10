@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18004,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Enable Web Push Notifications",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "firebase_enable_push_notifications",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "34d62e06abae7713bafc6e7f8c543d55f411af5484bb5ede6a78ddbad00f00c1",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_res_config_settings__firebase_enable_push_notifications"
+}

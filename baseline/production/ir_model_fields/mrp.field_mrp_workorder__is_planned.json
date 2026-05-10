@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16301,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Its Operations are Planned",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "is_planned",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "93fa1fab70ce80d9d1933c5daa06dc21c5108ec67a058e104d7b581a32e7b9e4",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__is_planned"
+}

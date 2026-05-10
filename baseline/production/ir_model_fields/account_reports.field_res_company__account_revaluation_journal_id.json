@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Revaluation Journal",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_revaluation_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6078abc08c187024a8fe183d246aa4a9df61178299e817f8c9d4d7a5232fa799",
+  "write_date": "",
+  "xml_id": "account_reports.field_res_company__account_revaluation_journal_id"
+}

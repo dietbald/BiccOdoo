@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9397,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dropship Address",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "dest_address_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3297e3f2eb668ebe6e8c6d6df49b59fb786d2ae1a5a62573110e4c4f9c4bf680",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order__dest_address_id"
+}

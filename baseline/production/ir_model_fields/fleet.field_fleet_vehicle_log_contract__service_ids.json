@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17154,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Included Services",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "service_ids",
+    "relation": "fleet.service.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "aa0a4963018e550beb543d4a35cceffe56de2dc954efe659b1a6606b2479816f",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__service_ids"
+}

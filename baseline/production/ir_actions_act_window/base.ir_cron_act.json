@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 14,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_all': 1}",
+    "domain": "[('id', '!=', 4)]",
+    "name": "Scheduled Actions",
+    "res_model": "ir.cron",
+    "target": "current",
+    "view_mode": "list,form,calendar"
+  },
+  "payload_sha256": "c5a4a130475d798551b3ec06ce00353dfc3531d4131df0daa80fc7db279efbe6",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.ir_cron_act"
+}

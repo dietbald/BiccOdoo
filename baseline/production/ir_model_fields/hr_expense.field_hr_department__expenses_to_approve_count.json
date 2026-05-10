@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9117,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expenses to Approve",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "expenses_to_approve_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "747a4cb056e27746176e1a835d9500f21a64503f59bddb4aad9df1114c0fb526",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_department__expenses_to_approve_count"
+}

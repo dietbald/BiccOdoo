@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3761,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Support Partial Capture",
+    "model_id": [
+      411,
+      "Payment Capture Wizard"
+    ],
+    "name": "support_partial_capture",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9a527c7cb51e4f8c1a4c52b49af5ce5ee3ba556fffe32d33dba69c088236ffaa",
+  "write_date": "",
+  "xml_id": "payment.field_payment_capture_wizard__support_partial_capture"
+}

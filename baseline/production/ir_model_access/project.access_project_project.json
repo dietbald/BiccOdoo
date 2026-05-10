@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 626,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      40,
+      "Project / User"
+    ],
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "project.project",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "887fa6ec05b2eb0de9bbe1576d00cb5e295601258d978e984db3401e5c42e544",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_project"
+}

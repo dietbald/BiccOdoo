@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20822,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      1245,
+      "Budget Split Wizard"
+    ],
+    "name": "date_from",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "9c6f84f7f7361ff971f773d958502df88efbc18f5913327f4ddb65ad2e5db924",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_split_wizard__date_from"
+}

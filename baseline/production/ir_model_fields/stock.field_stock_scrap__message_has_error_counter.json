@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11393,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c22aa83bf153f49aa7d4dd1fd2c1b5cbb22be9ba437a76c500a1188023992fb3",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__message_has_error_counter"
+}

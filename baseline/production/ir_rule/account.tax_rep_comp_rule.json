@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 84,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('company_id','=',False), ('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      428,
+      "Tax Repartition Line"
+    ],
+    "name": "Tax Repartition multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1e63ca2836e9f54dd952f7696f9e370a3f95862e3c0d50a1fe05275359f48651",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.tax_rep_comp_rule"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6233,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Asset Value Change",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "asset_value_change",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "93fa38e1a0cdb8b3b0a42c8d36df3c20ca8c25fecdfde98cf71c9f7ee0eb5aa6",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_bank_statement_line__asset_value_change"
+}

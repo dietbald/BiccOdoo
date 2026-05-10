@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 745,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('tax_unit_id.main_company_id', 'in', company_ids), ('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "Account Returns multi-company",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "43dae2b2d7e962678db4b9d630f6e686663e05bbada0df383cfecaa13e5763d6",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.account_return_company_rule"
+}

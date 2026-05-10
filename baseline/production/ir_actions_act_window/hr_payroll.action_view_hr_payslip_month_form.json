@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 821,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\"search_default_group_by_batch\":1}",
+    "domain": false,
+    "name": "Employee Payslips",
+    "res_model": "hr.payslip",
+    "target": "current",
+    "view_mode": "list,kanban,form,activity"
+  },
+  "payload_sha256": "ec7dab3a123642d288a4107acd250525b912c594f04eb798eec4d9332ee9771f",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.action_view_hr_payslip_month_form"
+}

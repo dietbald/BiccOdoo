@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 630,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('document_ids.user_permission', '!=', 'none')]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      540,
+      "Tag"
+    ],
+    "name": "Tag portal: Read access to the tags of the documents the user has access to",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5124a75dc9583dee8136792e21a20f102dda3320c5107b1d35dd8fe53612b6aa",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.documents_tag_rule_portal"
+}

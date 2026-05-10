@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 250,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_move_type': 'entry'}",
+    "domain": false,
+    "name": "Entries",
+    "res_model": "account.move",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "f9f0d345a20debdfbdae8a43f0ad17b47c2058824f12dff1be569c50f84136ed",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_move_line_form"
+}

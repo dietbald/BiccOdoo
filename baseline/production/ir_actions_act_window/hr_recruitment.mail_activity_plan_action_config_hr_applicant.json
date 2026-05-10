@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1304,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'hr.applicant'}",
+    "domain": "[('res_model', '=', 'hr.applicant')]",
+    "name": "Recruitment Plans",
+    "res_model": "mail.activity.plan",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "54204b350fd47a8905e0b6fdacaf3183a5097eecb3c498c7787d873ec43766f4",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.mail_activity_plan_action_config_hr_applicant"
+}

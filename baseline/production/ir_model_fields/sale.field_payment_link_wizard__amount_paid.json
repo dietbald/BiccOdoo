@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8327,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Already Paid",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "amount_paid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "f08c702aa3058f0c7e9c72289fd11b5afebeae577afbf432618b77b487842e9d",
+  "write_date": "",
+  "xml_id": "sale.field_payment_link_wizard__amount_paid"
+}

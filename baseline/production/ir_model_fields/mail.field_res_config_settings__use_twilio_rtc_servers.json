@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2271,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use Twilio ICE servers",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "use_twilio_rtc_servers",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "87cbd1378fd6bceafc74c03ce33aa3a945b6d7ae870c8b7eb9bfa266b54466da",
+  "write_date": "",
+  "xml_id": "mail.field_res_config_settings__use_twilio_rtc_servers"
+}

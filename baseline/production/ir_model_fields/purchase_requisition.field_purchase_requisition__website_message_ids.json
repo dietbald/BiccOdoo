@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12607,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "12372d6dea8a09cc287b8abd73f4c2e4edd66032ebe45cef88c243bf1b9f61c6",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__website_message_ids"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 590,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_creation_month': 1, 'search_default_job': 2}",
+    "domain": false,
+    "name": "Recruitment Analysis",
+    "res_model": "hr.applicant",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "ea36eee9eebcd69e05b202518b49c5f5426d29c74733243c9369482a1b19832c",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.hr_applicant_action_analysis"
+}

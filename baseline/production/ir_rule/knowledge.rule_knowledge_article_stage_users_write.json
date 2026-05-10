@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 332,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('parent_id.user_has_write_access', '=', True)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      792,
+      "Knowledge Stage"
+    ],
+    "name": "Item Stages (Create/Write/Unlink): users/portal: writable articles",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cf4136af1c967a7fc0dcd6a70e5c39dca0e6742197e4e55be52291b5611b58ed",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_article_stage_users_write"
+}

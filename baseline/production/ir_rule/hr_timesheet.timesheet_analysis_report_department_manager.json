@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 644,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('has_department_manager_access', '=', True),\n            ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "Timesheets Analysis Report user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fa4a055e6fcfeec025ca14f5ad08c35b2db33de18871f4fcac2855c17cafdd78",
+  "write_date": "2025-01-28 01:25:16",
+  "xml_id": "hr_timesheet.timesheet_analysis_report_department_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9691,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      665,
+      "Applicant Degree"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1d0493ec4ca79f2b5e7680a17d4946730444e888470d90d3371639f993d2310c",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_recruitment_degree__create_uid"
+}

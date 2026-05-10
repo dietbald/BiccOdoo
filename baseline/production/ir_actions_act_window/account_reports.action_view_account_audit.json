@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1692,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_todo_returns': 1, 'search_default_paused_returns': 1}",
+    "domain": "[('return_type_category', '=', 'audit')]",
+    "name": "Audit",
+    "res_model": "account.return",
+    "target": "current",
+    "view_mode": "kanban,search"
+  },
+  "payload_sha256": "8706ca4dfcf26fe6e2d5b2c94268dd496a1b0898c3749dd4381bb6a04a64ff46",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.action_view_account_audit"
+}

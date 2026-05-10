@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2223,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use the push to talk feature",
+    "model_id": [
+      105,
+      "User Settings"
+    ],
+    "name": "use_push_to_talk",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "50afacf1a122060df2cca3561f3c63ca53a070687703614fc3f72ef173bdb331",
+  "write_date": "",
+  "xml_id": "mail.field_res_users_settings__use_push_to_talk"
+}

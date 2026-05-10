@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 450,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      115
+    ],
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "Allocations: see all time off: read all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "84e3474157987354c6a7ef11993026ecf26efc24bfb67e68f22f72c6a01b6cff",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_allocation_rule_officer_read"
+}

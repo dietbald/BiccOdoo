@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4905,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Category",
+    "model_id": [
+      343,
+      "Analytic Plan's Applicabilities"
+    ],
+    "name": "product_categ_id",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "274d630bd14113637f159fb35b85091e1f1bc5afded54c2ea08ab8d89705c0a0",
+  "write_date": "",
+  "xml_id": "account.field_account_analytic_applicability__product_categ_id"
+}

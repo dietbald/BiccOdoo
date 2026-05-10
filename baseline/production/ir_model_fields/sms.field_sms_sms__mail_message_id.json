@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3400,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mail Message",
+    "model_id": [
+      394,
+      "Outgoing SMS"
+    ],
+    "name": "mail_message_id",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f5a95f76fac16b0bb792eb433a301ddd5ab98c1cd741a23c192442fd8d320e1c",
+  "write_date": "",
+  "xml_id": "sms.field_sms_sms__mail_message_id"
+}

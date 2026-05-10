@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 256,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      16,
+      "View"
+    ],
+    "name": "Administration Settings: Manage all views",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cdbd6d3148eb5cfcd9bd228a6f4b0e1c991463f5c0240b1b6ef4f21bb12c47f0",
+  "write_date": "2023-12-01 01:26:49",
+  "xml_id": "website.website_group_system_edit_all_views"
+}

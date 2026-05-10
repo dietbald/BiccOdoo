@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5620,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount paid",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "amount_paid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "619a7ba207764f5ee6d9d03056abc3cba346caa47264f9013536f110eb0c61ca",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_move__amount_paid"
+}

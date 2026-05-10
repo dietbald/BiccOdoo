@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20908,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task",
+    "model_id": [
+      1253,
+      "Load the worksheet template"
+    ],
+    "name": "task_id",
+    "relation": "project.task",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b382a3b3394feb720ca56cb7b6971c732be4ae37df6a27ead8e0eba752ca8b6b",
+  "write_date": "",
+  "xml_id": "industry_fsm_report.field_worksheet_template_load_wizard__task_id"
+}

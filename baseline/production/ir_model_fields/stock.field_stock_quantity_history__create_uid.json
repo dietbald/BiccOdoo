@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11681,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      764,
+      "Stock Quantity History"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e95f167668e9d897802bddb3eef003edabb71144b828874f0230983ac62f0074",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quantity_history__create_uid"
+}

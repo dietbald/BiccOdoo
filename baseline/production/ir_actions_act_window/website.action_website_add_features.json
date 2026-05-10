@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 617,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_category_id': 28, 'searchpanel_default_category_id': 27}",
+    "domain": "['!', ('name', '=like', 'theme_%')]",
+    "name": "Apps",
+    "res_model": "ir.module.module",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "52bc35a19b8567cc361af3679a69a5d5a7ad28a0e2186ef8293f6613d769f025",
+  "write_date": "2026-01-28 12:01:03",
+  "xml_id": "website.action_website_add_features"
+}

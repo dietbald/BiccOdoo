@@ -1,0 +1,7 @@
+<t name="Newsletter Block" t-name="website_mass_mailing.s_newsletter_block">
+    <section class="s_newsletter_block s_newsletter_list o_cc o_cc2 pt64 pb64" data-list-id="0">
+        <div class="container">
+            <t t-call="website_mass_mailing.s_newsletter_block_default_template"/>
+        </div>
+    </section>
+</t>

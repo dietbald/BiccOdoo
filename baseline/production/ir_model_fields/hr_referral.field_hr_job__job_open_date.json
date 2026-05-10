@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25486,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Start Recruitment Date",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "job_open_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "a50dfed2835a103a2d686f30e4920e04ed806450c4b923c9cf6d35361140e083",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_job__job_open_date"
+}

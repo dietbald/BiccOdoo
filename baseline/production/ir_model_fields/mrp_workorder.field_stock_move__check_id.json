@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Check",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "check_id",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cdccd3c09b34e6376a12056eca5dee887c029aad055cecfae7efeef009bdc58d",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_stock_move__check_id"
+}

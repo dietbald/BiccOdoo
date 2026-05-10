@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3080,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4a9c6a98c65c64d276c8bdc0eceda7e45a4d5405935cbf6135ade97eb6fdfc95",
+  "write_date": "",
+  "xml_id": "product.field_product_document__create_uid"
+}

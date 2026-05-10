@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6752,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "783a84ffec5a7ffc6bd52b4820ffb498aa48710ab5e55bd840f097514dbf9847",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__message_partner_ids"
+}

@@ -1,0 +1,21 @@
+<t name="Sales Order Portal Sign Modal" t-name="sale.sale_order_portal_sign_modal">
+        <form id="accept" method="POST" t-att-data-order-id="sale_order.id" t-att-data-token="sale_order.access_token" class="js_accept_json modal-content js_website_submit_form">
+            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+            <header class="modal-header">
+                <h4 class="modal-title">Validate Order</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+            </header>
+            <main class="modal-body" id="sign-dialog">
+                <span>
+                    By signing, you confirm acceptance on behalf of
+                    <b t-field="sale_order.partner_id.commercial_partner_id"/>
+                    for the <b data-id="total_amount" t-field="sale_order.amount_total"/> quote.
+                </span>
+                <b t-if="sale_order.payment_term_id" t-field="sale_order.payment_term_id.note"/>
+                <t t-call="portal.signature_form">
+                    <t t-set="call_url" t-value="sale_order.get_portal_url(suffix='/accept')"/>
+                    <t t-set="default_name" t-value="sale_order.partner_id.name or sale_order.partner_id.commercial_partner_id.name"/>
+                </t>
+            </main>
+        </form>
+    </t>

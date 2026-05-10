@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 306,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      397,
+      "Send SMS Wizard"
+    ],
+    "name": "access.sms.composer",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "97c1ef314f39e9426b515cce33e39bf4d0e47b1ba45534a3e8b05e85c23f7f2e",
+  "write_date": "2025-12-09 02:56:13",
+  "xml_id": "sms.access_sms_composer"
+}

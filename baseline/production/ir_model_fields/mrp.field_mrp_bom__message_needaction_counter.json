@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15906,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "6d61e9a7e8196f7d001521770c3f8cf1ca1f4ac355dd6973f6ccd98a8c9eb450",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom__message_needaction_counter"
+}

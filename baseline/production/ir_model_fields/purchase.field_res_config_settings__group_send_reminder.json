@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Receipt Reminder",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_send_reminder",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "98502ed0aa08ff9d5bd486dbeff2210d3a0f4e8a69219bc29c0bfe63c55f1b6b",
+  "write_date": "",
+  "xml_id": "purchase.field_res_config_settings__group_send_reminder"
+}

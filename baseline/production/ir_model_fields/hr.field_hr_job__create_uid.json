@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8879,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d4686914028114cb62e802a14d736e684f00275400d49ef2185e92e68b784f65",
+  "write_date": "",
+  "xml_id": "hr.field_hr_job__create_uid"
+}

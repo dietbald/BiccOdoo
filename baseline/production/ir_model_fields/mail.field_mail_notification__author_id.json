@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1845,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Author",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "author_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d924e79a4ca4820f8d2659ffbd621026ae394be3a9c8ed753fd9e8c945b6ade2",
+  "write_date": "",
+  "xml_id": "mail.field_mail_notification__author_id"
+}

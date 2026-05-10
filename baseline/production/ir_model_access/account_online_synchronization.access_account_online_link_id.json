@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 473,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      143,
+      "Accounting / Invoicing & Banks"
+    ],
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "access_account_online_link_id",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cbb503bd40d7507b0c2019a28e0aed8e764cd17ae67a4aa5731e60af5aaf79f0",
+  "write_date": "2025-12-09 02:59:00",
+  "xml_id": "account_online_synchronization.access_account_online_link_id"
+}

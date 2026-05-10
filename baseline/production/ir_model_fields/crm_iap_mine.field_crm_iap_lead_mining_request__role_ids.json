@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Other Roles",
+    "model_id": [
+      592,
+      "CRM Lead Mining Request"
+    ],
+    "name": "role_ids",
+    "relation": "crm.iap.lead.role",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7339899037f213e33e1e164f8356f5a044ce734722480059b9a888fa3dd26014",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_mining_request__role_ids"
+}

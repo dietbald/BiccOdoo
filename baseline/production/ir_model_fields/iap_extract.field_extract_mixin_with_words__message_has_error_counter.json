@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25835,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      2662,
+      "Base class to extract data from documents with OCRed words saved"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "40a11a9c31552c15029483c5c7ea486adeec7272775d8d1a56e0f1ae02d9a0d6",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin_with_words__message_has_error_counter"
+}

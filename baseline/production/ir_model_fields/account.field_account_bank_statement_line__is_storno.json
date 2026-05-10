@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4805,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Storno",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "is_storno",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "66a30c5fc2f015a33b758024e5c6cdb8e2f1f1235494b5e6ebb21c7628a3d7a0",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__is_storno"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 25,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_send_reminder_email()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "Account: Journal online sync reminder",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "e93d53ec5aa30325dd7972b5e7780c74f3438fbc8f12181b08ffac165f000b5c",
+  "write_date": "2024-10-23 10:47:25",
+  "xml_id": "account_online_synchronization.online_sync_mail_cron"
+}

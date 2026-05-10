@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alternative Workcenters",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "alternative_workcenter_ids",
+    "relation": "mrp.workcenter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "46e4063ae2ca4736c31976ab3fb5f584810c444a4acc6fcc78abd1d418334082",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter__alternative_workcenter_ids"
+}

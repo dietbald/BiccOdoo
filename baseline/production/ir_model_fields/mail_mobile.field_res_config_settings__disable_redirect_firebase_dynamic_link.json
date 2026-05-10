@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3620,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Disable link redirection to mobile app",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "disable_redirect_firebase_dynamic_link",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "71db563c59b4a77c71c2c22c7f5ad13a0dd4d3b1b906adeecf5d0b8a77eec39b",
+  "write_date": "",
+  "xml_id": "mail_mobile.field_res_config_settings__disable_redirect_firebase_dynamic_link"
+}

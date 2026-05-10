@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29346,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Collapse Composition",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "collapse_composition",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "24439ad0ad544497ca04ef5038e7d7e59f1550a36453092c8b119bd4c1a69714",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__collapse_composition"
+}

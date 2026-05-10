@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1682,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      555,
+      "Budget Line"
+    ],
+    "name": "budget.line accountant",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e5ce61f6f11c36bcb868c5dc5ee8598fb6693dc2483f5a51ef9f5945ec80ef7d",
+  "write_date": "2025-12-09 03:00:20",
+  "xml_id": "account_budget.access_budget_line_accountant"
+}

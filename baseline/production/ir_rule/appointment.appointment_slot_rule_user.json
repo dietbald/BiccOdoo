@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 432,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            ('appointment_type_id', 'any', [\n                '|', '|',\n                ('create_uid', '=', user.id),\n                ('staff_user_ids', 'in', [user.id, False]),\n                ('schedule_based_on', '=', 'resources'),\n            ])\n        ]",
+    "groups": [
+      112
+    ],
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "appointment.slot: apt user rule (read self-create, self-staff and resources)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "329a76a4272dcb9f0ce8c7fef3fd0d87e3879ed296fc914529ed686fb7d42d34",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_slot_rule_user"
+}

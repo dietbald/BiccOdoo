@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16983,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Seating Capacity",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "seats",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "0464b2d4a8dcc01642a0562b4bb479d45829cdc4c6aef358c8319f8f2ade8a1a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__seats"
+}

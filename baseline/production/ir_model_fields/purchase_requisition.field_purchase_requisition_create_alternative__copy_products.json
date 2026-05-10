@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12665,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Copy Products",
+    "model_id": [
+      810,
+      "Wizard to preset values for alternative PO"
+    ],
+    "name": "copy_products",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ad52fcf4460fc49207a5d6fe99d2bbf3456ee72cbcfbabd82d7789b26c5261d5",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_create_alternative__copy_products"
+}

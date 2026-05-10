@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29043,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      3602,
+      "Return creation wizard"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8118ad3cf0ecac41ee51fbafff2d97daeb9a70ae839818f102cb03e8baf9bf2e",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_creation_wizard__company_id"
+}

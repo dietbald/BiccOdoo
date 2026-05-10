@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10890,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Expected",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "next_inventory_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "d29facbd66fe1777fe145719bf6fd9ec3da08dbe9b24d83b74e1db9e955119b8",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__next_inventory_date"
+}

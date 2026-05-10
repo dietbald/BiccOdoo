@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26536,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity currently in rent",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "qty_in_rent",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "0a9edfe3b7f1918b14c4396bfd5dc74aef26eab7917e1be571ef8a8d076b41c5",
+  "write_date": "",
+  "xml_id": "sale_renting.field_product_template__qty_in_rent"
+}

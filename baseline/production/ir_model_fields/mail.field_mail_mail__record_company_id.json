@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "record_company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "47d03ae9f018ccbfe7fddd5c44c87373926d53349c083042c9d6a28962254800",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__record_company_id"
+}

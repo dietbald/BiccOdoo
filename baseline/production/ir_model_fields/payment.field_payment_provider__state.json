@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3648,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "State",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "df4c2bdcdfa84b7c2f1fb18f1716ef69d2deacbe41e1cf6a26ae9c84ccc5f9c5",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__state"
+}

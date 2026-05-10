@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13462,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "539baeaeb8a2ad23f5ff2e03616cb2e91be7c4d83001c46217b1a895a784045a",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_timesheets_analysis_report__user_id"
+}

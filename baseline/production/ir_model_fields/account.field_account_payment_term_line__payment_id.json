@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4274,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Terms",
+    "model_id": [
+      433,
+      "Payment Terms Line"
+    ],
+    "name": "payment_id",
+    "relation": "account.payment.term",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9570a6254088ce8aa0b4ba183da70fc5e72450538b23faf3381d6801f49f6ceb",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term_line__payment_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4074,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show journal on dashboard",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "show_on_dashboard",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cd6442a2a127c277280a43cbb26897983c3af4e93cdea4b2e5ce74c04f3a3336",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__show_on_dashboard"
+}

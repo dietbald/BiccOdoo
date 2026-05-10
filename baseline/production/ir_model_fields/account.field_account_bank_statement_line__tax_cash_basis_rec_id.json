@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4811,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Cash Basis Entry of",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "tax_cash_basis_rec_id",
+    "relation": "account.partial.reconcile",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e9fce0f9e7cd058e4c3922640b538239be925ea44ec14df5981c5259df26ac5f",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__tax_cash_basis_rec_id"
+}

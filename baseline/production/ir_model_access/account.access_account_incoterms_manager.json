@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 342,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      446,
+      "Incoterms"
+    ],
+    "name": "account.incoterms manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5e0c77d655891355035322a268ddeec18504ae63e106f0bb4f5ba3687c11d30f",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_incoterms_manager"
+}

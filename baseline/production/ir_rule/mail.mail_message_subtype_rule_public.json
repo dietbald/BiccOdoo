@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 49,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('internal', '=', False)]",
+    "groups": [
+      10,
+      11
+    ],
+    "model_id": [
+      173,
+      "Message subtypes"
+    ],
+    "name": "mail.message.subtype: portal/public: read public subtypes",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2860b70116bb1340ee5ebb80606022352245575e0c95e6e7327cb67a35c1f29b",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.mail_message_subtype_rule_public"
+}

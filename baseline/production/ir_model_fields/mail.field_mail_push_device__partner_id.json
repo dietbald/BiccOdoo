@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2317,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      199,
+      "Push Notification Device"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "617162a6936391ec6772514a65493cb329e7e527dc3e25ac9773b9aecce29208",
+  "write_date": "",
+  "xml_id": "mail.field_mail_push_device__partner_id"
+}

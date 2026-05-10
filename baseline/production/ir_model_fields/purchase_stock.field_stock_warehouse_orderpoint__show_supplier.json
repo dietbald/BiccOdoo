@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11975,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show supplier column",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "show_supplier",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "db5bc2efb0a450c842a48cb04cff15f288740133a34289439e7574bf9da09249",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_warehouse_orderpoint__show_supplier"
+}

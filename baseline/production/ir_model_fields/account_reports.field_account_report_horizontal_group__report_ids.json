@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6023,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reports",
+    "model_id": [
+      499,
+      "Horizontal group for reports"
+    ],
+    "name": "report_ids",
+    "relation": "account.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "464c02546ed7175ea35819a2842fe70d8657dbe2b805b1c078a387b43caaf8bc",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_horizontal_group__report_ids"
+}

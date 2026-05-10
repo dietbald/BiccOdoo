@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8235,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Template",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "product_template_id",
+    "relation": "product.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a454b516c64aa6d23d8165c58a72a678d7aa701848e5a578ead087da0dc348af",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__product_template_id"
+}

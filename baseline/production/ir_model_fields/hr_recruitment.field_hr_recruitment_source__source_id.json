@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9696,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source",
+    "model_id": [
+      666,
+      "Source of Applicants"
+    ],
+    "name": "source_id",
+    "relation": "utm.source",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "20ea91deec2d739113a406d620f50d7c784a76bc6501353e41a5857d33d6033a",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_recruitment_source__source_id"
+}

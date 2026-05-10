@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 290,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id','in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      726,
+      "Putaway Rule"
+    ],
+    "name": "Stock Operation Type multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "64eafb0a8bf14a807595f66c40f0a2acc3cba4c3b4e58d89c07b3320f8f28c50",
+  "write_date": "2023-12-01 13:14:20",
+  "xml_id": "stock.stock_putaway_rule_rule"
+}

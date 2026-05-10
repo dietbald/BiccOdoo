@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 986,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "stock.scrap.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a45419f11478c66d5054ec685bda6cb2e94e636d2b2244a563c13ca4a24cfcc3",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_scrap_user"
+}

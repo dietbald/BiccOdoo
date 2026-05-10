@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11193,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Print Reception Report",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "auto_print_reception_report",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "608bdd8a920b78cd1216ada88634d434c73afc0f29c4b684ca4b898bde707467",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__auto_print_reception_report"
+}

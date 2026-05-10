@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4018,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "bd8a6fe6b490246e1a46e80e42caf5653fe72d392b98501c1f1908cd012e218f",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__message_has_error_counter"
+}

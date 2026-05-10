@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18271,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manufacturing Order",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "production_id",
+    "relation": "mrp.production",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "da006d6b3fb6990e7e5a13cce75418d77242de3f8e6d761bec921d27a887fce2",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_maintenance_request__production_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3278,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Tmpl",
+    "model_id": [
+      380,
+      "Choose the sheet layout to print the labels"
+    ],
+    "name": "product_tmpl_ids",
+    "relation": "product.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "afec2201a82abaebcb23a591a9bf724dd8218daa0ef35f73a273e70a9fc0ffe5",
+  "write_date": "",
+  "xml_id": "product.field_product_label_layout__product_tmpl_ids"
+}

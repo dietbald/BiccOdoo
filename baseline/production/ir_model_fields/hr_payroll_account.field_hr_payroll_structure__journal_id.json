@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13276,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Journal",
+    "model_id": [
+      816,
+      "Salary Structure"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "96b791ffa501771b5656095d6bd629a74949900bad856b373bca271142ea1820",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_payroll_structure__journal_id"
+}

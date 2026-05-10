@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Working Hours",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "45de968701838a09d5df7d857c02f23d292c432e4421aac596738a424e27cd2e",
+  "write_date": "",
+  "xml_id": "hr.field_res_config_settings__resource_calendar_id"
+}

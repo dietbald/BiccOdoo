@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5099,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Composite Report",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "use_sections",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aa4642eb3232b8c09d3a2b4850645a7d9f2c399925f3279742889c728a95104b",
+  "write_date": "",
+  "xml_id": "account.field_account_report__use_sections"
+}

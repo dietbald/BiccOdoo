@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17229,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Odometer Value",
+    "model_id": [
+      1008,
+      "Odometer log for a vehicle"
+    ],
+    "name": "value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "00376f90b26ab53b718f7afe0022a54c6a45c8b10ecbcde69b76f558861cd18a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_odometer__value"
+}

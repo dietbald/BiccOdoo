@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      98,
+      "Password Check Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d91cc889554632a9aef1dd8994e34f90e8cd343df519c752b9db95d5a820c333",
+  "write_date": "",
+  "xml_id": "base.field_res_users_identitycheck__write_uid"
+}

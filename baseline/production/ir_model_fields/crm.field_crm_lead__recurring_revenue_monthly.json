@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7207,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected MRR",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "recurring_revenue_monthly",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "49fe50cd3e8ec1c8fe2597177eb2783749884350b3bcbe1c03536f6738f3afa4",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__recurring_revenue_monthly"
+}

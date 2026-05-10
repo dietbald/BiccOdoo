@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24642,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Two-factor authentication enforcing policy",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "auth_totp_policy",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8d0c8d9c41df8e787772dcfe712375604ad5849624f3f4e62fbe46f3632998b0",
+  "write_date": "",
+  "xml_id": "auth_totp_mail.field_res_config_settings__auth_totp_policy"
+}

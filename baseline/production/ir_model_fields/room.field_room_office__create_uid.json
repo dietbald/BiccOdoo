@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16775,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      994,
+      "Room Office"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c8d48e3ce438021fc0e425a54c8959c6a37357882a5e88d5f1e47e08950b564b",
+  "write_date": "",
+  "xml_id": "room.field_room_office__create_uid"
+}

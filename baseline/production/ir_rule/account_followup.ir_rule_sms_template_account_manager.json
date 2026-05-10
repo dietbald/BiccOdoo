@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 113,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('model_id.model', '=', 'res.partner')]",
+    "groups": [
+      25
+    ],
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "SMS Template: account manager CUD on partner templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e9ad7fb88f01bf1373161dc57324f5b5e20a2c7e9b82a2bdd59b86b80d9ddeb3",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account_followup.ir_rule_sms_template_account_manager"
+}

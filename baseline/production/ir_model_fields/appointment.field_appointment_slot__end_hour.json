@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15251,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ending Hour",
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "end_hour",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "c20b44ef6ee21d018cdf16010fdd3acc59474e2cd70256cad40e352203695b89",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_slot__end_hour"
+}

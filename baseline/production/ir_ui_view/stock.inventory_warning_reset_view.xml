@@ -1,0 +1,9 @@
+<form>
+                <div>
+                    This will discard all unapplied counts, do you want to proceed?
+                </div>
+                <footer>
+                    <button name="action_reset" string="Continue" type="object" class="btn-primary" data-hotkey="q"/>
+                    <button name="cancel_button" string="Discard" class="btn-secondary" special="cancel" data-hotkey="x"/>
+                </footer>
+            </form>

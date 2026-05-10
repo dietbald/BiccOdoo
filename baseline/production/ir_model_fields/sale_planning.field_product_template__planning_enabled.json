@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14006,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Plan Services",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "planning_enabled",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "865440fc76b46ed98e5e5bb5e11025afd0851b7fd088eb2a91f79484525748b1",
+  "write_date": "",
+  "xml_id": "sale_planning.field_product_template__planning_enabled"
+}

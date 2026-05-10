@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18583,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1060,
+      "Geo Provider"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4dfd01f02476f95b5ad4e4796c1d26c3fb4be3dfba50de67cd7e3f7901359b34",
+  "write_date": "",
+  "xml_id": "base_geolocalize.field_base_geo_provider__create_uid"
+}

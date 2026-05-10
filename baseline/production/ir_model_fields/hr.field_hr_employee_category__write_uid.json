@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8759,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      631,
+      "Employee Category"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f69cd48d4a8e5c02fdd678b952e36124e8c94d05c209d0b017362dfad95770be",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee_category__write_uid"
+}

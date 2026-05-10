@@ -1,0 +1,26 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 725,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n                [\n                    \"|\",\n                        \"&\",\n                            (\"channel_id.channel_type\", \"!=\", \"channel\"),\n                            \"|\",\n                                (\"channel_id.is_member\", \"=\", True),\n                                (\"channel_id.parent_channel_id.is_member\", \"=\", True),\n                        \"&\",\n                            (\"channel_id.channel_type\", \"=\", \"channel\"),\n                            \"|\",\n                                (\"channel_id.group_public_id\", \"=\", False),\n                                (\"channel_id.group_public_id\", \"in\", user.all_group_ids.ids),\n                ]\n            ",
+    "groups": [
+      1,
+      10,
+      11
+    ],
+    "model_id": [
+      2974,
+      "Keep the call history"
+    ],
+    "name": "discuss.call.history: read call history of accessible channels",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "e238fd002b510635b69333ba657016b9276712d8aeb42ab43c31292b574380c6",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.ir_rule_discuss_call_history_read_all"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7029,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      570,
+      "Calendar Provider Configuration Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "22cf2140f0957e5701af44cfb5579c4b48eaf577fc58334ccaa888db841c7373",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_provider_config__write_uid"
+}

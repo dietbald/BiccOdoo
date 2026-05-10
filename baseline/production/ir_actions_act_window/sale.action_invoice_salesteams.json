@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 497,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_team_id': [active_id],\n                'default_team_id': active_id,\n                'default_move_type':'out_invoice',\n                'move_type':'out_invoice',\n                'journal_type': 'sale',\n            }\n        ",
+    "domain": "[\n            ('state', '=', 'posted'),\n            ('move_type', 'in', ['out_invoice', 'out_refund'])]",
+    "name": "Invoices",
+    "res_model": "account.move",
+    "target": "current",
+    "view_mode": "list,form,kanban"
+  },
+  "payload_sha256": "fba9fae53d9bee14c13563651e7ee9b1ea87c21c3415f6ed833557366d4f4fa4",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_invoice_salesteams"
+}

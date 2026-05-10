@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 270,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_current':1, 'search_default_customer': 1, 'group_by':['invoice_date:month']}",
+    "domain": false,
+    "name": "Invoices Analysis",
+    "res_model": "account.invoice.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "ab0a5408a5671a9b11e0c442ec3607c02735007dd18e0eb6fb102d6d5a7ad5fa",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_invoice_report_all"
+}

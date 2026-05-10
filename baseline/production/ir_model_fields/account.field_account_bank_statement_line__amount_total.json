@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4854,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "amount_total",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "7892a48373824a6a543b1c8e1516d939f8c1d950b4e6bcb7f5fa2770558f72de",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__amount_total"
+}

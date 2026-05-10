@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19723,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hide Time Zone",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "hide_timezone",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d621a039f3ce7166a2fb990b1decd9fdefe8f09ecf5c246f342aa9f9f040f949",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__hide_timezone"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14791,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Comment is an answer",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "comment_count_as_answer",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "93da23b8466ee6573d73075dd26d9dbccc05f731d0ecdcb19b6abfb7dc12caa5",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__comment_count_as_answer"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18991,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      1079,
+      "Cashmoves report"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "93bdca8feb2d5038bb3f9a4ab6d5b8a6044f5325391d44dcc7b318c3fdc93176",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_cashmove_report__user_id"
+}

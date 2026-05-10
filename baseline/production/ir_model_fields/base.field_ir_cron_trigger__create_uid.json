@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 497,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      31,
+      "Triggered actions"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7386a14bc18e1f7e9741b95b71f1d6e2cc639f12cca5b05335e6db315388fceb",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_trigger__create_uid"
+}

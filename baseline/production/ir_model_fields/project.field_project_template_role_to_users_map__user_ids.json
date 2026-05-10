@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28077,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assignees",
+    "model_id": [
+      3335,
+      "Project role to users mapping"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "41dfa20998d71056d37d85e2cbf03416d6a7cfa2fe1b7a505e94ef4b50e4d144",
+  "write_date": "",
+  "xml_id": "project.field_project_template_role_to_users_map__user_ids"
+}

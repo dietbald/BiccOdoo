@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23203,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rule",
+    "model_id": [
+      1438,
+      "Approval Rule Approvers Enriched"
+    ],
+    "name": "rule_id",
+    "relation": "studio.approval.rule",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d962181a3abf7889cc1db1d126e4a629168a499de7053b0e518fab1d0fef671b",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule_approver__rule_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13528,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approver Reminder Days",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "timesheet_mail_delay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2c981c0da9eeb6ed63f06e7dfcd4250fba8bf99300c8f38427efcfb22c4e6290",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_res_company__timesheet_mail_delay"
+}

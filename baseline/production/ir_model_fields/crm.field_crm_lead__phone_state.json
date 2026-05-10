@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7229,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Phone Quality",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "phone_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f78e0805d7c41bb9de858a7e66115019f1b92b1c6d2daa3e1cab53f2972fac01",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__phone_state"
+}

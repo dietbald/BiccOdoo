@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13031,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9b5c53b90e6ec932ba9f2eb9b9b3ff871c27ad5f427095aa1a8db0be5d168adf",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__currency_id"
+}

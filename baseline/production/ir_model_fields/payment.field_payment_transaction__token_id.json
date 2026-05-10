@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3717,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Token",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "token_id",
+    "relation": "payment.token",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "75e78cbf12286f4defd9c69e6b83f9363d0552f7eaded24937b4948363d1f6b2",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__token_id"
+}

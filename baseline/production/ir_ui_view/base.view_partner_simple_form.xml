@@ -1,0 +1,16 @@
+<form string="Contact">
+                    <field name="image_1920" widget="image" class="oe_avatar" options="{&quot;preview_image&quot;: &quot;avatar_128&quot;}"/>
+                    <div class="oe_title">
+                        <field name="company_type" options="{'horizontal': true}" widget="radio" groups="base.group_no_one"/>
+                        <h1>
+                            <field id="company" name="name" default_focus="1" placeholder="e.g. Lumber Inc" invisible="not is_company" required="type == 'contact' and is_company"/>
+                            <field id="individual" name="name" default_focus="1" placeholder="e.g. Brandon Freeman" invisible="is_company" required="type == 'contact' and not is_company"/>
+                        </h1>
+                        <field name="parent_id" widget="res_partner_many2one" placeholder="Company Name..." domain="[('is_company', '=', True)]" context="{'default_is_company': True, 'show_vat': True, 'default_user_id': user_id}" invisible="is_company"/>
+                    </div>
+                    <group>
+                        <field name="function" placeholder="e.g. Sales Director" invisible="is_company"/>
+                        <field name="email" widget="email" required="True"/>
+                        <field name="phone" widget="phone" options="{'enable_sms': false}"/>
+                    </group>
+                </form>

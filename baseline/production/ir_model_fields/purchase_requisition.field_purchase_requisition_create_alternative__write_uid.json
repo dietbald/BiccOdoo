@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12670,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      810,
+      "Wizard to preset values for alternative PO"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "23e0655006dcd852cc6d30630d67f893e56e8e5a250e12a203ffa3d824a34b3d",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_create_alternative__write_uid"
+}

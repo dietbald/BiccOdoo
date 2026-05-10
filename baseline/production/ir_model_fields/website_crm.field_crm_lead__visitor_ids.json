@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10307,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Web Visitors",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "visitor_ids",
+    "relation": "website.visitor",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "81f7d5f8d716de3751afcbf1f245b0a27a3f1e5d8a095ca3e7c61571b090e472",
+  "write_date": "",
+  "xml_id": "website_crm.field_crm_lead__visitor_ids"
+}

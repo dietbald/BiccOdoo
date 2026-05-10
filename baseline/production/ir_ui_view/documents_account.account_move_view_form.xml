@@ -1,0 +1,7 @@
+<xpath expr="//div[@name='button_box']" position="inside">
+                    <button class="oe_stat_button" name="action_view_documents_account_move" groups="documents.group_documents_user" type="object" icon="fa-file-text-o" invisible="not has_documents">
+                       <div class="o_stat_info">
+                            <span class="o_stat_text">Documents</span>
+                        </div>
+                    </button>
+                </xpath>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18160,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "662da33cd59ed0e71233b6dac2694249a5c58960c051e630b7bced1b581f66e7",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__message_needaction"
+}

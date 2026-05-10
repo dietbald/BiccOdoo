@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29859,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Audit Report Template",
+    "model_id": [
+      3768,
+      "Audit Report"
+    ],
+    "name": "knowledge_template_article_id",
+    "relation": "knowledge.article",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "49c0e3ee309b694161e1b18f438767af07f67d9a3d86b94c1a5d4e7409fa0349",
+  "write_date": "",
+  "xml_id": "accountant_knowledge.field_audit_report__knowledge_template_article_id"
+}

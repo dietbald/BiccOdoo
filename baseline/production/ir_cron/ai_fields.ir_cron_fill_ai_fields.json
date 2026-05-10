@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 87,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_fill_ai_fields()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      4,
+      "Fields"
+    ],
+    "name": "AI Fields: Compute AI fields",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "cafcf246b3bbe321f832c83bcd79ba0bdc571282762986f32521317d5cd1eb8d",
+  "write_date": "2025-12-09 03:01:24",
+  "xml_id": "ai_fields.ir_cron_fill_ai_fields"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9712,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Template",
+    "model_id": [
+      667,
+      "Recruitment Stages"
+    ],
+    "name": "template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3af08432e2ce5813a10739e16d8e2b791318705e9738614160ca25c5023d513d",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_recruitment_stage__template_id"
+}

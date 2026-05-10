@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f9498e249b6d2c1facfb61c6a199629b5fdf033b6bb27b8d001717a52df8cfaa",
+  "write_date": "",
+  "xml_id": "payment.field_payment_link_wizard__write_uid"
+}

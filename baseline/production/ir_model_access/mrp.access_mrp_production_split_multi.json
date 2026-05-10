@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1442,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      980,
+      "Wizard to Split Multiple Productions"
+    ],
+    "name": "access.mrp.production.split.multi",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "dde0f595c60c6734d36092b3cdeaac670393a82081808ef513686f524882e9cf",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_production_split_multi"
+}

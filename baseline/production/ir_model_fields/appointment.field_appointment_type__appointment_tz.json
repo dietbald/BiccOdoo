@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15279,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timezone",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "appointment_tz",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "69d97f5c443e9d13820e650f4707a54534ffebff639e574b9ee05b6aa6fed40f",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__appointment_tz"
+}

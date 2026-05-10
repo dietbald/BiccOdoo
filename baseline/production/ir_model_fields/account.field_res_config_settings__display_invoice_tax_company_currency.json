@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19892,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Taxes in company currency",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "display_invoice_tax_company_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8dd2812a124f83540fb4b068dac05b622506ce5522396441adb6977a3d5d89be",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__display_invoice_tax_company_currency"
+}

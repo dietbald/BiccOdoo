@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4314,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Storno",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "is_storno",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eb23bdb5f7e5aa5b781044c6a5d41eaa90d431a74b38b37e399a582fb9bef9b1",
+  "write_date": "",
+  "xml_id": "account.field_account_move__is_storno"
+}

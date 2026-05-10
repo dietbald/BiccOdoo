@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 502,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n        '|',\n            '|',\n                ('product_id', 'in', user.partner_id.commercial_partner_id.bom_ids.product_id.ids),\n                ('product_id', 'in', user.partner_id.commercial_partner_id.bom_ids.product_tmpl_id.product_variant_ids.ids),\n            ('product_id', 'in', user.partner_id.commercial_partner_id.bom_ids.bom_line_ids.product_id.ids),\n            ]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "Stock Lot Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d8cb7d2998603eabf0102b388017a682be5cee6d0de42093bc9c441396c5313d",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.stock_lot_subcontracting_rule"
+}

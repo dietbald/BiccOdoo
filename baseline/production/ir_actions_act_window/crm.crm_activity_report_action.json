@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 410,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_completion_date': 1,\n                'pivot_column_groupby': ['subtype_id', 'mail_activity_type_id'],\n                'pivot_row_groupby': ['date:month'],\n                'graph_mode': 'bar',\n                'graph_groupbys': ['date:month', 'subtype_id'],\n            }",
+    "domain": "[]",
+    "name": "Activities",
+    "res_model": "crm.activity.report",
+    "target": "current",
+    "view_mode": "graph,pivot,list"
+  },
+  "payload_sha256": "975fd860b52d2d1695f99053990c39debba62e59296fb477bce2a39956765f1f",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_activity_report_action"
+}

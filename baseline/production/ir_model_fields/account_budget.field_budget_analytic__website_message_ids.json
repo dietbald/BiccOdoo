@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6760,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "08285dbe680abd2271a51aaf1f33231f032082b7799738ba4c97c11987ea2a61",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__website_message_ids"
+}

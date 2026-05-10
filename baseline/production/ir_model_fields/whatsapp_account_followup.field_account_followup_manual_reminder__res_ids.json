@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25341,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document IDs",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "res_ids",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2af1af39ef07b73873b6a975c6e5c6aa250e1565adda46bad38151f8dc29c65d",
+  "write_date": "",
+  "xml_id": "whatsapp_account_followup.field_account_followup_manual_reminder__res_ids"
+}

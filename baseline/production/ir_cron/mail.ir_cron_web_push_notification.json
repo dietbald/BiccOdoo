@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 8,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._push_notification_to_endpoint()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      198,
+      "Push Notifications"
+    ],
+    "name": "Mail: send web push notification",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "1795201f58330a655b2a1ed87a3212167ec45e3a899491301ad30c765f8c4ac9",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "mail.ir_cron_web_push_notification"
+}

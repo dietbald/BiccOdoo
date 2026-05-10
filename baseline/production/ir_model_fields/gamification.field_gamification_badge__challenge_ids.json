@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14484,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reward of Challenges",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "challenge_ids",
+    "relation": "gamification.challenge",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7ed5a77d90986c709b161aada54c6eebdf5c358b7e534e17f5674c300705cb07",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge__challenge_ids"
+}

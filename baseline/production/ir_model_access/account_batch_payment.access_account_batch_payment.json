@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1625,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "account.batch.payment",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fe23a7ce7a542957dfa37f8afd5df0cd7e0d48c6c21bafb71fdb9f22d1faa317",
+  "write_date": "2025-12-09 02:57:43",
+  "xml_id": "account_batch_payment.access_account_batch_payment"
+}

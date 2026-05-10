@@ -1,0 +1,10 @@
+<search string="Search References">
+                <field name="res_model_id"/>
+                <field name="has_active" invisible="1"/>
+                <field name="is_active" invisible="1"/>
+                <filter string="Can be archived" name="can_be_archived" domain="[('has_active', '=', True)]"/>
+                <filter string="Archived" name="archived" domain="[('is_active', '=', False)]"/>
+                <group>
+                    <filter string="Model" name="group_by_res_model_id" domain="[]" context="{'group_by': 'res_model_id'}"/>
+                </group>
+            </search>

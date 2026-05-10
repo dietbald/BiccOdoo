@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12905,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Basic Wage",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "basic_wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "ba77dd84c6c8fea2eccb51d064449f4152e36afbdc5f32cbb18b5b6bbd986b1c",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__basic_wage"
+}

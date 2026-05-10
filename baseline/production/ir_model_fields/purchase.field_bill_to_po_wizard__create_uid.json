@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23147,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1422,
+      "Bill to Purchase Order"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "64e28a723888ddc0677b41f36e19a08cf3879f46ea4f715b34dba389499d0bb9",
+  "write_date": "",
+  "xml_id": "purchase.field_bill_to_po_wizard__create_uid"
+}

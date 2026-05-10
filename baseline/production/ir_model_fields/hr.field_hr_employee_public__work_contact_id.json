@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8773,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Contact",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "work_contact_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8406eaa737c45de354350f6622d28901ebd52d7abf205f700953e000fc5c4ac8",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee_public__work_contact_id"
+}

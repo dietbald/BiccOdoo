@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11717,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      768,
+      "Product Replenish"
+    ],
+    "name": "forecast_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3b1d25c9604b1a819c51b72149d91295c73c209d3cb09c61735ad797cedc8445",
+  "write_date": "",
+  "xml_id": "stock.field_product_replenish__forecast_uom_id"
+}

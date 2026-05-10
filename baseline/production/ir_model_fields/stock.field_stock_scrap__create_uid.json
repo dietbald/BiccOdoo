@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11418,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "48dd8f6a8cc586e8db8919f8027c2740060ab5da6b53d9b79fcc1a2c5cff7d2f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__create_uid"
+}

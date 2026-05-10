@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1758,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias",
+    "model_id": [
+      152,
+      "Email Aliases Mixin"
+    ],
+    "name": "alias_id",
+    "relation": "mail.alias",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dbe67c836584a1f664a05fa4c8e4175fe043c9d17a8f353e3baef79225a8f136",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias_mixin__alias_id"
+}

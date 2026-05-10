@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1867,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1515,
+      "Channel Invitation Wizard"
+    ],
+    "name": "access.slide.channel.invite",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "3e0f9cab0ee25d96922a54cb255b4ef46b2b5c17f5d08057aff4743e8639878e",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.access_slide_channel_invite"
+}

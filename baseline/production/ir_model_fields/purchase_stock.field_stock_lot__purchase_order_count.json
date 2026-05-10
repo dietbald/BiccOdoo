@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11980,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase order count",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "purchase_order_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "120420adf851f000745b08a008aab54ffc33afe32b850f40feba22bd606f29b3",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_lot__purchase_order_count"
+}

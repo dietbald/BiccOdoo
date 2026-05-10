@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10367,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1ec521ab70f6c8e08d923327c32e6490f0c5f8e8e236f40d1fa0249d1f55b49e",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__website_message_ids"
+}

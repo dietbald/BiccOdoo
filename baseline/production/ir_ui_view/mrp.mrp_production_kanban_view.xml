@@ -1,0 +1,24 @@
+<kanban class="o_kanban_mobile" sample="1">
+                    <field name="date_start"/>
+                    <field name="state"/>
+                    <progressbar field="activity_state" colors="{&quot;planned&quot;: &quot;success&quot;, &quot;today&quot;: &quot;warning&quot;, &quot;overdue&quot;: &quot;danger&quot;}"/>
+                    <templates>
+                        <t t-name="card">
+                            <div class="d-flex mb-1">
+                                <field name="priority" widget="priority"/>
+                                <field name="product_id" class="fw-bolder fs-6 ms-1"/>
+                                <field name="product_qty" class="ms-auto"/>
+                                <field name="product_uom_id" class="small ms-1" groups="uom.group_uom"/>
+                            </div>
+                            <footer class="text-muted">
+                                <div class="d-flex">
+                                    <field name="name" class="me-1"/>
+                                    <field name="date_start" widget="datetime" options="{'show_time': false}"/>
+                                    <field name="activity_ids" widget="kanban_activity"/>
+                                </div>
+                                <field name="json_popover" widget="stock_rescheduling_popover" invisible="not json_popover"/>
+                                <span t-attf-class="ms-auto badge #{['cancel'].indexOf(record.state.raw_value) &gt; -1 ? 'text-bg-danger' : ['draft'].indexOf(record.state.raw_value) &gt; -1 ? 'bg-200' : ['progress'].indexOf(record.state.raw_value) &gt; -1 ? 'text-bg-warning' : ['done', 'to_close'].indexOf(record.state.raw_value) &gt; -1 ? 'text-bg-success' : 'text-bg-primary'}"><field name="state"/></span>
+                            </footer>
+                        </t>
+                    </templates>
+                </kanban>

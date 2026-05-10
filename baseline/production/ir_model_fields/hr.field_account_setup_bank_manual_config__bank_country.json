@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27979,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "bank_country",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "da728881817203e8a4dd8746a5a84472b4ca21e12b375c430af12b01dc26d46a",
+  "write_date": "",
+  "xml_id": "hr.field_account_setup_bank_manual_config__bank_country"
+}

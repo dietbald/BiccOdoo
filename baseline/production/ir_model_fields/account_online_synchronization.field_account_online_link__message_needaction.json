@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5926,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8f67f3e415288e148454567fab3cff0b8277d45005fdab8c56c5ec9cc647c597",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__message_needaction"
+}

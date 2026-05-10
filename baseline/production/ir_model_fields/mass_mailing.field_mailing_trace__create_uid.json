@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14170,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      893,
+      "Mailing Statistics"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b19112029fb2a87a2abea737d9a13ba7dff1d71ce981e496d23f24b76485aa5e",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_trace__create_uid"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 637,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": false,
+    "groups": [
+      52
+    ],
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "HR Officer can see any goal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "624bba81ee0700d9a5e7de43c6742b9e239bcf00a25559eb3fd6a27ccf0d131e",
+  "write_date": "2025-01-28 01:23:45",
+  "xml_id": "hr_gamification.goal_gamification_hr_user_visibility"
+}

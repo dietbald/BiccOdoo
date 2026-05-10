@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26874,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Many2One",
+    "model_id": [
+      2918,
+      "Html Editor Converter Test"
+    ],
+    "name": "many2one",
+    "relation": "html_editor.converter.test.sub",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2e1af35233db7725529ea1428945c94b9d6ff363628d3cec5d6bf6f2a4b13bb6",
+  "write_date": "",
+  "xml_id": "html_editor.field_html_editor_converter_test__many2one"
+}

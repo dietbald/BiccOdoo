@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8896,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "HR Departments",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "subscription_department_ids",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d22eae23c5f5cd891c20e560c442144980e41d47e624a3de9bb33561e2ec4126",
+  "write_date": "",
+  "xml_id": "hr.field_discuss_channel__subscription_department_ids"
+}

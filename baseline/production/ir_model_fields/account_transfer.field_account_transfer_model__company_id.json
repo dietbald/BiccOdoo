@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5848,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      491,
+      "Account Transfer Model"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4cc21fe438f9bba96cf280ba3f229f68a24557e8c201272cf160c59096623bda",
+  "write_date": "",
+  "xml_id": "account_transfer.field_account_transfer_model__company_id"
+}

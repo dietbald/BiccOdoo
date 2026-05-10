@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 535,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('wa_template_id.allowed_user_ids', '=', False), ('wa_template_id.allowed_user_ids', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1051,
+      "WhatsApp Template Button"
+    ],
+    "name": "WA Template Button: Restrict to Allowed Users",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f7d85452381497b8e608c4798b04d08d99f5500d7b313d4289f6446f3c2d5a31",
+  "write_date": "2024-05-05 13:35:48",
+  "xml_id": "whatsapp.security_rule_whatsapp_template_button_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 220,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "View",
+    "model_id": [
+      17,
+      "Reset View Architecture Wizard"
+    ],
+    "name": "view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "23108173d38288e219b5588c2b5272b280f412ba79690d4c68ab0d7942d3d75c",
+  "write_date": "",
+  "xml_id": "base.field_reset_view_arch_wizard__view_id"
+}

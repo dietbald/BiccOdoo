@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15750,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off Type",
+    "model_id": [
+      953,
+      "Time Off Summary / Report"
+    ],
+    "name": "holiday_status_id",
+    "relation": "hr.leave.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eacbbeb3983622d26243cf75e20eaa0b99b1729113975d1f473e6d572b2b7e04",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_report__holiday_status_id"
+}

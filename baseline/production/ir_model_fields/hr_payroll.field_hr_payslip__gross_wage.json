@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12906,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Gross Wage",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "gross_wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "5d7b9c24c3a4217c2fb679a99fffc68bc5e7ee36c2bfa1c5f5d496f76753d201",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__gross_wage"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5909,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6c9c728e520503e93bb63adf4280ed55141d8af46ae01ff152117be9ed624c74",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_account__write_uid"
+}

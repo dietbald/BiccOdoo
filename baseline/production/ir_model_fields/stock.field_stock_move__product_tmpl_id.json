@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10938,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Template",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "product_tmpl_id",
+    "relation": "product.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5beea33f4ceb5ce7b17ac51419053ebda1cd262ad799fe5752f7a2b1b9f03fb4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__product_tmpl_id"
+}

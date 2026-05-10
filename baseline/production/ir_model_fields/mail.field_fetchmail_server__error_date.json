@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26913,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Error Date",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "error_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "4069bd07e70d7c24e5c4126ba5704f02aef62368de55d4f55f85dedf4466704b",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__error_date"
+}

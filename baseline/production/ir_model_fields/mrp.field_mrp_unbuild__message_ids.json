@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16223,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      971,
+      "Unbuild Order"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bdb8896ee34a3378025572b89c043270c55004b80dbe7080228925a0ab05a027",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_unbuild__message_ids"
+}

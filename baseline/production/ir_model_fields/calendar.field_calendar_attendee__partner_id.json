@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6856,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendee",
+    "model_id": [
+      563,
+      "Calendar Attendee Information"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5cdac859feea56af4a5ad96048324c45be8086ae55e482d509b0b64408822a1b",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_attendee__partner_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7371,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      582,
+      "CRM Activity Analysis"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1cdc7946c7d8dd1b96d6866c5d625635fa9a6d5968fbcaa9316f22290c93d7bc",
+  "write_date": "",
+  "xml_id": "crm.field_crm_activity_report__company_id"
+}

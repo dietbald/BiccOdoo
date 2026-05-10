@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5442,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Quantity",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "quantity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "fc86bcc4e1f4079e37d5a65c3ec7061aec7be1303957969a72ef9c4b03e3512a",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__quantity"
+}

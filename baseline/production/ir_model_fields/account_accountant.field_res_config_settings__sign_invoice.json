@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authorized Signatory on invoice",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "sign_invoice",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f7e32492dc9c8758ea6cdde2064a350ac090f0d94d9e77ba80d7264955b36760",
+  "write_date": "",
+  "xml_id": "account_accountant.field_res_config_settings__sign_invoice"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7339,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Field",
+    "model_id": [
+      580,
+      "Fields that can be used for predictive lead scoring computation"
+    ],
+    "name": "field_id",
+    "relation": "ir.model.fields",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4b7f701bdc2f2e8be739deb43901e5b9f3918cfc6949de6a20b4abbfd8a3ab56",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead_scoring_frequency_field__field_id"
+}

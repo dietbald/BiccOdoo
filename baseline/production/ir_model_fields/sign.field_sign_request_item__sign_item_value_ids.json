@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Value",
+    "model_id": [
+      707,
+      "Signature Request Item"
+    ],
+    "name": "sign_item_value_ids",
+    "relation": "sign.request.item.value",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "61cd2d1f387b8b70d402847cc321d55642d0e10095fc0295803d0b1d1531bef3",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request_item__sign_item_value_ids"
+}

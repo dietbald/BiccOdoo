@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 659,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('sale_order_spreadsheet_id','!=',False),('sale_order_spreadsheet_id.order_id','!=',False)]",
+    "groups": [
+      36
+    ],
+    "model_id": [
+      1186,
+      "Spreadsheet discussion thread"
+    ],
+    "name": "All Orders Spreadsheets Comments",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "46ec0d4e5098e908522d8bdb91d4b8a0f9726253cb8ac344e034b44c994e3bdd",
+  "write_date": "2025-01-28 01:27:58",
+  "xml_id": "spreadsheet_sale_management.spreadsheet_cell_thread_rule_salesman_all_leads"
+}

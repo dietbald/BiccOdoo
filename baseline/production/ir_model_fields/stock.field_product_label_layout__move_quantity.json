@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11568,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity to print",
+    "model_id": [
+      380,
+      "Choose the sheet layout to print the labels"
+    ],
+    "name": "move_quantity",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "6f09260237bab2a9e87274d9b7de0dc5cc2e4b8148414172097d77cc373b77e4",
+  "write_date": "",
+  "xml_id": "stock.field_product_label_layout__move_quantity"
+}

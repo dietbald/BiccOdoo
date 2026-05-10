@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 7,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "Partner bank company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "960ea56b79e3850a15ea5dae5b021e9e8d27a1e6bb06420d75f28152d2a6d87f",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "base.res_partner_bank_rule"
+}

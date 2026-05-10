@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rank",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "rank_id",
+    "relation": "gamification.karma.rank",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2ad5088506b9f1ffdcda23eb8f72f33ec187870f7a33400c7d4256f15d327990",
+  "write_date": "",
+  "xml_id": "gamification.field_res_users__rank_id"
+}

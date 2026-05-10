@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2333,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Seen",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "seen_message_id",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d42b4991a1e694eb41249c6e5d16c22da2b7adf462fa29985a8b26edcd3d5d24",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__seen_message_id"
+}

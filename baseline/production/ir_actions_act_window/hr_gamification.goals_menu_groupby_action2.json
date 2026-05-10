@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 968,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_user': True, 'search_default_group_by_definition': True}",
+    "domain": "[('challenge_id.challenge_category', '=', 'hr')]",
+    "name": "Goals History",
+    "res_model": "gamification.goal",
+    "target": "current",
+    "view_mode": "list,kanban"
+  },
+  "payload_sha256": "d66fa5eafa501ef6b066058aff1e31de43c4209b2887f8a779e642a5f12afd14",
+  "write_date": "2025-12-09 02:58:08",
+  "xml_id": "hr_gamification.goals_menu_groupby_action2"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1503,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      1012,
+      "Vehicle Disallowed Expenses Rate"
+    ],
+    "name": "access.fleet.disallowed.expenses.rate.account.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0653b5134e1d9df5e55688a858228da0732b8668fe0e36ac68a4ee92fe0784ff",
+  "write_date": "2025-12-09 03:00:20",
+  "xml_id": "account_fiscal_categories_fleet.access_fleet_disallowed_expenses_rate_account_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1770,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Body content is the same as the template",
+    "model_id": [
+      154,
+      "Mail Composer Mixin"
+    ],
+    "name": "body_has_template_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7e8191cc9664887553401e0e7a329cdf71dfa2d9b51c2ba018228ed8df14a30f",
+  "write_date": "",
+  "xml_id": "mail.field_mail_composer_mixin__body_has_template_value"
+}

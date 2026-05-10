@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14465,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "346ebab3eb941a834e39c7c5b8c76b6ae55968dc45c7a55addc6f539a5999d97",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge__message_ids"
+}

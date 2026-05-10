@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4053,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Holder",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "company_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "49c1cf5cfc06e9a498b548c4e948778890c6e76b23b76c7b117e09257e4fe335",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__company_partner_id"
+}

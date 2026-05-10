@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13697,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheets Invoicing",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "invoiced_timesheet",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "400bcf8fa3a494deb159fee8c4a8e95a170306373169867cd43a8864d12cc003",
+  "write_date": "",
+  "xml_id": "sale_timesheet_enterprise.field_res_config_settings__invoiced_timesheet"
+}

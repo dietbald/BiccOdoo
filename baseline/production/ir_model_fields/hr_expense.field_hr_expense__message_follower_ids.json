@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9133,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9f3891947c05218ea7395ff95766de33b59faa4fd35a9a24cf17bd3488cbce2f",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__message_follower_ids"
+}

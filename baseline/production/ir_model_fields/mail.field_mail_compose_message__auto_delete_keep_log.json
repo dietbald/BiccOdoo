@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2511,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Keep Message Copy",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "auto_delete_keep_log",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ac39f9f8fc80eac5002d29b3895f11a4193db6e6a76adcf33353f4ddc1060e30",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__auto_delete_keep_log"
+}

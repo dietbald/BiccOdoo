@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14504,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Challenge",
+    "model_id": [
+      910,
+      "Gamification User Badge"
+    ],
+    "name": "challenge_id",
+    "relation": "gamification.challenge",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "92deae2c04760566b8105c0353758915dafd0967fb443b00d9cee0f91bbb791e",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge_user__challenge_id"
+}

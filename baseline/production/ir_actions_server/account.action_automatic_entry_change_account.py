@@ -1,0 +1,1 @@
+action = records.action_automatic_entry('change_account')

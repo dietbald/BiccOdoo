@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Gross Sum",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "gross_sum",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "81a1015e38df6da19d1ebcab50aff358410c28aab6c136dad61336dee20838c3",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__gross_sum"
+}

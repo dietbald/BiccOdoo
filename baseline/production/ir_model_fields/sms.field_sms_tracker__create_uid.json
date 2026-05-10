@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3429,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      396,
+      "Link SMS to mailing/sms tracking models"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fcf3fff9d848a520ba24160c53d8c8f5aebe0f1f0f9282408309bf257e0d8bda",
+  "write_date": "",
+  "xml_id": "sms.field_sms_tracker__create_uid"
+}

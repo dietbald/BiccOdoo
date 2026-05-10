@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 457,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      950,
+      "Accrual Plan"
+    ],
+    "name": "Accrual plan multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "58234b5cf5db4095f9f1ced4de438f281f1dfedf24a8973efac95eae7a5496b9",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "hr_holidays.hr_leave_accrual_plan_rule_multi_company"
+}

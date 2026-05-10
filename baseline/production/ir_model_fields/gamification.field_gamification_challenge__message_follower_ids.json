@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14515,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4de4725c1d89644854270c93b995fac175f5de2f157a6f77683e41e5093258f1",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__message_follower_ids"
+}

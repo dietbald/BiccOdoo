@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29131,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Monthly Cost",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "monthly_yearly_costs",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b5b79dc6dcb361f3cab68a84f8980420d4ac979708fabdfed52ad2b2747e830b",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_employee__monthly_yearly_costs"
+}

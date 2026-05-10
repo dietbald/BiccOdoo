@@ -1,0 +1,8 @@
+<data>
+  <xpath expr="/list//field[@name='date_version']" position="before">
+    <xpath expr="/list//field[@name='employee_id']" position="move"/>
+  </xpath>
+  <xpath expr="/list//field[@name='final_yearly_costs']" position="attributes">
+    <attribute name="optional">hide</attribute>
+  </xpath>
+</data>

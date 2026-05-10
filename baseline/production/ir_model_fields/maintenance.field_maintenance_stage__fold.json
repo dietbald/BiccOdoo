@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Folded in Maintenance Pipe",
+    "model_id": [
+      1037,
+      "Maintenance Stage"
+    ],
+    "name": "fold",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6b859d18fdb4faef2085bb119262b5534204a5c1c5d3a44f7cf06c9b1850886c",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_stage__fold"
+}

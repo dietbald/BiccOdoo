@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 884,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_billable_timesheet': True,\n            'search_default_week': 1,\n            'default_so_line': active_id,\n            'default_is_so_line_edited': True,\n            \"is_timesheet\": 1,\n        }",
+    "domain": "[('project_id', '!=', False), ('so_line', '=', active_id)]",
+    "name": "Timesheets",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "428e0b3d7cb0081bbbeff4ae27813b39693b74aaa65d79e9e4e317ef127c9c01",
+  "write_date": "2025-12-09 03:00:38",
+  "xml_id": "sale_timesheet.timesheet_action_from_sales_order_item"
+}

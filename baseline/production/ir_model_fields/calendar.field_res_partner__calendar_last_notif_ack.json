@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6853,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last notification marked as read from base Calendar",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "calendar_last_notif_ack",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "d4a116f03a9da32de503c7b2964b9b218dcae2e9964af2daa5ce991d3366a790",
+  "write_date": "",
+  "xml_id": "calendar.field_res_partner__calendar_last_notif_ack"
+}

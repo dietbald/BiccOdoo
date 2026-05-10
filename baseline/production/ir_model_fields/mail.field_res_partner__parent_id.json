@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Company",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "parent_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "807f798b47dd783c8e1517f5165acc024b2bcf63b69d52c8075140ef2d518d17",
+  "write_date": "",
+  "xml_id": "mail.field_res_partner__parent_id"
+}

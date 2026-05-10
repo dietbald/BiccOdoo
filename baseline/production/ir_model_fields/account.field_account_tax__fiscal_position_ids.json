@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27524,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Position",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "fiscal_position_ids",
+    "relation": "account.fiscal.position",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f12f15dd86416562c95806cbdad894fd07840dd0f2007581a6f7081dbaecf004",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__fiscal_position_ids"
+}

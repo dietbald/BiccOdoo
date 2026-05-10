@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2289,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "342750db05e1bdc2ba4f3c86c7a92a155779edef5cf484604f5e4e308c7855e6",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__message_needaction_counter"
+}

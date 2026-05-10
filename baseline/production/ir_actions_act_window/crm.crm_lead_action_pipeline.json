@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 405,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                    'default_type': 'opportunity',\n                    'search_default_assigned_to_me': 1,\n                    'show_user_team_stages': 1,\n            }",
+    "domain": "[('type','=','opportunity')]",
+    "name": "Pipeline",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "kanban,list,graph,pivot,form,calendar,activity"
+  },
+  "payload_sha256": "f2d28a15e4f79c98f57138b7d8e1372a5d112ec3d8724d435a6b575824d7f08a",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_lead_action_pipeline"
+}

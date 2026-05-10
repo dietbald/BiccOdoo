@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5913,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "54704ea0cb51a3597426ee809f318213a49516b6cca5defa1923e3498a475b77",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__activity_user_id"
+}

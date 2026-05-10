@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19502,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delay units",
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "delay_unit",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "62a8a9f27ce233561bdbb8d3cfa0f31ef8dcabb573232427da2912dccf41ed06",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_plan_template__delay_unit"
+}

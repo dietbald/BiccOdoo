@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6240,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Draft Asset Exists",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "draft_asset_exists",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b44f7fc9c8151b7c1ad69a10cb6aece9394f68dc67d94186bf9a747ba5bf3404",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_bank_statement_line__draft_asset_exists"
+}

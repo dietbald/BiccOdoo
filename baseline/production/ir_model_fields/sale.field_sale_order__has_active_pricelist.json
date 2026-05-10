@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8213,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Active Pricelist",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "has_active_pricelist",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "13475cdf6dcd808ccdd8694825b8a04e81abc4f9c66a69410728b0a177193fe4",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__has_active_pricelist"
+}

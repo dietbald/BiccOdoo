@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17313,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1012,
+      "Vehicle Disallowed Expenses Rate"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e6c628a8ebcdf9a2a8d94b55efb12c46aa0eadb129c7b431459dd2abb7210717",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories_fleet.field_fleet_disallowed_expenses_rate__create_uid"
+}

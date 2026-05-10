@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26041,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Untaxed Amount",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "untaxed_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "318bf7559f449154a02bbc14224e50ec08f18ed7dfda5cbf9fbb1ae8a6f7c0ce",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__untaxed_amount"
+}

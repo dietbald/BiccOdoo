@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7125,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      574,
+      "CRM Tag"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d48be63cbbe34b8b1f493e5e192de92c0205048ccda3daf9de5b5037529ae582",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_tag__write_uid"
+}

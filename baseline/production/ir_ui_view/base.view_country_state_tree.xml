@@ -1,0 +1,5 @@
+<list string="State" editable="bottom">
+                    <field name="name"/>
+                    <field name="code"/>
+                    <field name="country_id" options="{'no_create': True, 'no_open': True}"/>
+                </list>

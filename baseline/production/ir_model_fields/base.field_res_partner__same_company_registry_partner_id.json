@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 884,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner with same Company Registry",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "same_company_registry_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5b02ba5fc5323ae897b90b58477a6bdac51ad7770358809416ef928f9a0cd232",
+  "write_date": "",
+  "xml_id": "base.field_res_partner__same_company_registry_partner_id"
+}

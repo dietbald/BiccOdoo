@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Security Token",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "e8b1d0ce393e9858c7a136f4c9610e60b21d9a45908313ec4c8b54cfe0e131a6",
+  "write_date": "",
+  "xml_id": "project.field_project_project__access_token"
+}

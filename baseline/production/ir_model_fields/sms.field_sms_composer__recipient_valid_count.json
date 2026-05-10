@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3443,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Valid recipients",
+    "model_id": [
+      397,
+      "Send SMS Wizard"
+    ],
+    "name": "recipient_valid_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "755d7830096b09c22634cc95d97dd92695c165af37b49159f12517bdcb68ff16",
+  "write_date": "",
+  "xml_id": "sms.field_sms_composer__recipient_valid_count"
+}

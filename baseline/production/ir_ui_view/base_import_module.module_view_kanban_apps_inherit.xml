@@ -1,0 +1,21 @@
+<data><xpath expr="//field[@name='application']" position="after">
+                    <field name="module_type"/>
+                </xpath>
+                <xpath expr="//button[@name='button_immediate_install']" position="after">
+                    <button type="object" class="btn btn-primary btn-sm" name="button_immediate_install_app" invisible="state != 'uninstalled' or module_type in ('official', False)" groups="base.group_system" context="{'module_name':name}">Activate</button>
+                    <button type="object" class="btn btn-primary btn-sm" name="button_immediate_install_app" invisible="state == 'uninstalled' or module_type in ('official', False)" groups="base.group_system" context="{'module_name':name}">Upgrade</button>
+                </xpath>
+                <xpath expr="//button[@name='button_immediate_install']" position="attributes">
+                    <attribute name="invisible">state != 'uninstalled' or (module_type and module_type != 'official')</attribute>
+                </xpath>
+                <xpath expr="//t[@t-name='menu']/a[@type='open']" position="attributes">
+                    <attribute name="context">{'module_type': module_type, 'module_name':name}</attribute>
+                    <attribute name="type">object</attribute>
+                    <attribute name="name">more_info</attribute>
+                </xpath>
+                <xpath expr="//footer/a[@type='open']" position="attributes">
+                    <attribute name="context">{'module_type': module_type, 'module_name':name}</attribute>
+                    <attribute name="type">object</attribute>
+                    <attribute name="name">more_info</attribute>
+                </xpath>
+            </data>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5489,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      468,
+      "Group of dashboards"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "59b767abd4e83d0cd1a717ad4a263e500abc8ee7d7cdfc95c935e49815ce2a3f",
+  "write_date": "",
+  "xml_id": "spreadsheet_dashboard.field_spreadsheet_dashboard_group__write_uid"
+}

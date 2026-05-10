@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12868,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ed80363da7835f97de574241237b85aa2bb334a48fdbbd18776a102434dcd4bf",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__rating_ids"
+}

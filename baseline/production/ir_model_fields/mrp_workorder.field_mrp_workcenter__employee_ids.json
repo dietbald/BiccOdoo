@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16847,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "employees with access",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5d544cfa21ea9c1d1b599dac7828193d1ac24734b537f564665a38e2a268b3aa",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workcenter__employee_ids"
+}

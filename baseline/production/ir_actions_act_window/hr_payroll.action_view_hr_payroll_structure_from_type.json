@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 812,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_type_id': active_id,\n            'default_type_id': active_id,\n        }",
+    "domain": false,
+    "name": "Salary Structures",
+    "res_model": "hr.payroll.structure",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "6d44b2702eed58fd74c28bee0efd92f7468725ebcfe419dc5c7ccf3f7958b120",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.action_view_hr_payroll_structure_from_type"
+}

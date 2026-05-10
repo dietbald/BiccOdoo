@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3800,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Tokens",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "payment_token_ids",
+    "relation": "payment.token",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9fd8c39aee343163402a856ac0edf9c1915f602e6249a142dc18f67868e49ee1",
+  "write_date": "",
+  "xml_id": "payment.field_res_users__payment_token_ids"
+}

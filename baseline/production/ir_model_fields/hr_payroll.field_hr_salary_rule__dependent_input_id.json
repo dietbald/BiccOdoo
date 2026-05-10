@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29432,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dependent Salary Input",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "dependent_input_id",
+    "relation": "hr.salary.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "650beff10258598e4c7f85eab76da52cdfd99fb3bf07028cf68cad6c34768db0",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__dependent_input_id"
+}

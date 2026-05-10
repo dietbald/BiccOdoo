@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23143,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order",
+    "model_id": [
+      1422,
+      "Bill to Purchase Order"
+    ],
+    "name": "purchase_order_id",
+    "relation": "purchase.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "17b5f362494cd80a7907a4691bdcf6127e06e40d21e10d0c2568a187926061d0",
+  "write_date": "",
+  "xml_id": "purchase.field_bill_to_po_wizard__purchase_order_id"
+}

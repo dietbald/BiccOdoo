@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3403,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS trackers",
+    "model_id": [
+      394,
+      "Outgoing SMS"
+    ],
+    "name": "sms_tracker_id",
+    "relation": "sms.tracker",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "25de85bd83860f0d59a5ab2a20c5ee9bb4e9a72b6cb6c475086602e84c7a04c0",
+  "write_date": "",
+  "xml_id": "sms.field_sms_sms__sms_tracker_id"
+}

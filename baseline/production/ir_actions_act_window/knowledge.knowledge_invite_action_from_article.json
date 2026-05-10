@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 767,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_article_id': active_id,\n            'dialog_size' : 'medium',\n        }",
+    "domain": false,
+    "name": "Invite people",
+    "res_model": "knowledge.invite",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "c7ffb929bd995f502492545a9044df555069a82e454a7d8871bd12229cb979ad",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.knowledge_invite_action_from_article"
+}

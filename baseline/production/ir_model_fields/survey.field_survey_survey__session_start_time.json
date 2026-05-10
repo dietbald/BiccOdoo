@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14750,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Current Session Start Time",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "session_start_time",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "0810bfe857353d0d8e80cb2f1b87e96a99d846f695332d0d2fab1fca1a712266",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__session_start_time"
+}

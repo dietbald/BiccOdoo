@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13855,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Let Employee Unassign Themselves",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "allow_self_unassign",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "23d2967f90600ea0266b03d689b5c916dfdf699d374c8dadb8f5e1a4c8cb9541",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__allow_self_unassign"
+}

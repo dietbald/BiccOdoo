@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3504,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Template",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "sms_template_id",
+    "relation": "sms.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2f20627a9134d024e92d09f662fa79375d719b4512c3f2c892b2099b6992b422",
+  "write_date": "",
+  "xml_id": "sms.field_ir_cron__sms_template_id"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 392,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      103
+    ],
+    "model_id": [
+      848,
+      "Timesheet Attendance Report"
+    ],
+    "name": "Timesheet attendance Report: Administrator",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "123872105e09208c89ca0beda2d8eae397f84bca0fc7b16c2ed81c703ecf3d2d",
+  "write_date": "2023-12-05 08:04:40",
+  "xml_id": "hr_timesheet_attendance.hr_timesheet_attendance_report_rule_manager"
+}

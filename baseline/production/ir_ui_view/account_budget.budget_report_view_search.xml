@@ -1,0 +1,23 @@
+<search string="Budget Report">
+                    <field name="budget_analytic_id"/>
+                    <field name="description"/>
+                    <field name="user_id"/>
+                    <field name="account_id"/>
+                    <field name="company_id"/>
+                    <field name="date"/>
+                    <filter string="Budgeted" name="budget" domain="[('line_type','=','budget')]"/>
+                    <filter string="Achieved" name="achieved" domain="[('line_type','=','achieved')]"/>
+                    <separator/>
+                    <filter string="In a Budget" name="in_a_budget" domain="[('budget_analytic_id', '!=', False)]"/>
+                    <filter string="Open Budget" name="open_budget" domain="[('budget_analytic_id.state', '=', 'confirmed')]"/>
+                    <separator/>
+                    <group>
+                        <filter string="Date" name="date" context="{'group_by':'date'}"/>
+                        <filter string="Type" name="line_type" context="{'group_by':'line_type'}"/>
+                        <filter string="Budget" name="group_by_budget_analytic_id" context="{'group_by':'budget_analytic_id'}"/>
+                        <separator/>
+                        <filter name="account_id" context="{'group_by':'account_id'}"/>
+                        <separator/>
+                        <filter string="User" name="user_id" context="{'group_by':'user_id'}"/>
+                    </group>
+                </search>

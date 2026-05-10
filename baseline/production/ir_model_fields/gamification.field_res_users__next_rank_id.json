@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14663,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Rank",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "next_rank_id",
+    "relation": "gamification.karma.rank",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9dc28763d023fb63dad0443fbc374022051fb6f3274208f0dec6c43f920e51d0",
+  "write_date": "",
+  "xml_id": "gamification.field_res_users__next_rank_id"
+}

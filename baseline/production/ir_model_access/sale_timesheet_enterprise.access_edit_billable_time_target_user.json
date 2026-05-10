@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1925,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      102,
+      "Timesheets / User: all timesheets"
+    ],
+    "model_id": [
+      2738,
+      "Edit Billable Time Target wizard from Timesheet for users without employee access"
+    ],
+    "name": "access_edit_billable_time_target_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "275ee34d5939cc6d3aad3ae23c207e737678a9fb08c20add5b17b5e861c01e23",
+  "write_date": "2025-12-09 03:00:40",
+  "xml_id": "sale_timesheet_enterprise.access_edit_billable_time_target_user"
+}

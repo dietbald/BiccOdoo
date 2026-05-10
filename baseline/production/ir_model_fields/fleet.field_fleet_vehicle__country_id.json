@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17040,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ada87c1c43d1a96063c5a9fa727136ed1c406001c1e77dce722746968f5cedfd",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__country_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1387,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ba58699bb68fba0e3781eabf01da80bf4a7798fc70618b23226389428f0afd1a",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_wizard__user_id"
+}

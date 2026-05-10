@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30037,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action",
+    "model_id": [
+      3863,
+      "AI model configurations (system prompts) for text drafting."
+    ],
+    "name": "interface_key",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b86431a154f396578b57d6549d9e6590b853a776c9daab706f28d7934f9b92cb",
+  "write_date": "",
+  "xml_id": "ai_knowledge.field_ai_composer__interface_key"
+}

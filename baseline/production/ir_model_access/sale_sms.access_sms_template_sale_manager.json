@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 743,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "access.sms.template.sale.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d517bd91d0b1b5edab60a68b8da0cce656e42d71c2bfe21001df68d44dd19afa",
+  "write_date": "2025-12-09 03:00:14",
+  "xml_id": "sale_sms.access_sms_template_sale_manager"
+}

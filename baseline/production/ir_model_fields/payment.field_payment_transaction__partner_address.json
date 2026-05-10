@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3737,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Address",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "partner_address",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8939660bc9cd0619a937626b12832ba24d27768fecfa8f324f1e92c5d51f66c2",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__partner_address"
+}

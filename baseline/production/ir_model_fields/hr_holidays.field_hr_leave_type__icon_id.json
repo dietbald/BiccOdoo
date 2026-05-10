@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15635,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cover Image",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "icon_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "65fdc35296cb903ebfb2a996aab72fed77787c1b813ea0d22631d8d36d1ce973",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__icon_id"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 386,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'crm.lead'}",
+    "domain": "['|', ('res_model', '=', False), ('res_model', 'in', ['crm.lead', 'sale.order', 'res.partner', 'product.template', 'product.product'])]",
+    "name": "Activity Types",
+    "res_model": "mail.activity.type",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "446c19b78e2ac826681758048ad10871f8c946a913a971a1382077d27102a940",
+  "write_date": "2025-12-09 03:00:09",
+  "xml_id": "sales_team.mail_activity_type_action_config_sales"
+}

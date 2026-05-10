@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13409,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "task_id",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "34efc30a9469f182400dd29bcd5e83676331fa43f698950270d2c970a6f0cd50",
+  "write_date": "",
+  "xml_id": "project_timesheet_holidays.field_account_analytic_line__task_id"
+}

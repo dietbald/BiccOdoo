@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15443,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off Request",
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "holiday_id",
+    "relation": "hr.leave",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3fa80c5d875353bd6f4b8615806828d681f183f7bc7bb1568232459a5b253069",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_resource_calendar_leaves__holiday_id"
+}

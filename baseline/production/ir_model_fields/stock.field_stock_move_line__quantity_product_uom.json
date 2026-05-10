@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11011,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity in Product UoM",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "quantity_product_uom",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a678f4bc941b2b22b4b937c5bd3efe87134565bb59e987d2ebfde6d6784ce0ad",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__quantity_product_uom"
+}

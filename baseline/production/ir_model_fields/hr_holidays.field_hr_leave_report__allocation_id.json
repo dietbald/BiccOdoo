@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20466,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocation Request",
+    "model_id": [
+      953,
+      "Time Off Summary / Report"
+    ],
+    "name": "allocation_id",
+    "relation": "hr.leave.allocation",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff0a339702db7f0f74a82b5245f98a143673b9fd8e3f745973b7a7cdf63501af",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_report__allocation_id"
+}

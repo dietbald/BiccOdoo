@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19895,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Restricted Audit Trail",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "restrictive_audit_trail",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d91fa364d6418da29ad0549829c8d1a82c96ce2df8bf68f165d3626bcafcbe02",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__restrictive_audit_trail"
+}

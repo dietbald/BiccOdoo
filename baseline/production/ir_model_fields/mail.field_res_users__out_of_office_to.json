@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27044,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Out Of Office To",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "out_of_office_to",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "12fdbce2cba4e2f6674bec44d5b67fb0ae4b5d31ec83d38b09b7bbfd5316b579",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__out_of_office_to"
+}

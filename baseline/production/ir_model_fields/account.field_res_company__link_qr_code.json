@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27516,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Link QR-code",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "link_qr_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "749060751caa17cdd4fde86b569ad494ea3327bc8d0481d59610b3234eb37e8c",
+  "write_date": "",
+  "xml_id": "account.field_res_company__link_qr_code"
+}

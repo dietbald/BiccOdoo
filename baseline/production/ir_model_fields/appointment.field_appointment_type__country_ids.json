@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Countries",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "country_ids",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "091c35c47544b51b56c073c7d9abbd7e8b4f205160b27b6940d579d9396e7a84",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__country_ids"
+}

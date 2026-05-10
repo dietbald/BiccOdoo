@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 954,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_user': True, 'search_default_group_by_definition': True}",
+    "domain": false,
+    "name": "Goals",
+    "res_model": "gamification.goal",
+    "target": "current",
+    "view_mode": "list,form,kanban"
+  },
+  "payload_sha256": "e981d3d9b3e42df9cf807d218c492a3f5c8d7519ca1a610de4d5106e85cc1956",
+  "write_date": "2025-12-09 02:55:55",
+  "xml_id": "gamification.goal_list_action"
+}

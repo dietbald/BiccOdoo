@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21181,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d7d3f3274c184f53c2fd94e6f42d038d5be1c190e0275fde8096c0dd80f0e098",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__company_id"
+}

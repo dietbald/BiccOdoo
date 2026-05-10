@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1637,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resources",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "resource_ids",
+    "relation": "resource.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "23c90782aadbfed82076e4c86ce8ab5f2c6c2d21ee46adf09c829533eca1cfc2",
+  "write_date": "",
+  "xml_id": "resource.field_res_users__resource_ids"
+}

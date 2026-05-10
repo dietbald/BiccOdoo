@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12197,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order Count",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "purchase_order_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "69dd9bfe8ae45c4874d16501093c62868df29da4852cbbc6eda6882e8a78df5a",
+  "write_date": "",
+  "xml_id": "approvals_purchase.field_approval_request__purchase_order_count"
+}

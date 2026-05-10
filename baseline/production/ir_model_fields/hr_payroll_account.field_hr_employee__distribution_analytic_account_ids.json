@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29649,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution Analytic Account",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "distribution_analytic_account_ids",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9e32e1a084a7177349661da3f8774d242aee2e5141a19461a14970dde2e8cefa",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_employee__distribution_analytic_account_ids"
+}

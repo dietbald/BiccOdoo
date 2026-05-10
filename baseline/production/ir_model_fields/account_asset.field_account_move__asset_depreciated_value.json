@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cumulative Depreciation",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "asset_depreciated_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "d73bec73e03a520648afee83a4683aa3d7e9064ceaf84d52b2549f57add93be3",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_move__asset_depreciated_value"
+}

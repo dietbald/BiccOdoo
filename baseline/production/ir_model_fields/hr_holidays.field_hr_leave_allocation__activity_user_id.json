@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15565,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9f5e8b643f91c352575e9184179a1eab8cf2b2adc77fa0f8baeb68f1c19e45c3",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__activity_user_id"
+}

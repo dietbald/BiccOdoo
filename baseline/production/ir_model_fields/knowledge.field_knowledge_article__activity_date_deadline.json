@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12256,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "e0621b718460a8a5d851591e0ba900ff8245a8fa627acea9f843f0c80df79d37",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__activity_date_deadline"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22213,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Preferred Payment Method Line",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "preferred_payment_method_line_id",
+    "relation": "account.payment.method.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c1092d3b4733f320066e8e6a5948cbd00065a66c4571878202cc89306bc493d1",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__preferred_payment_method_line_id"
+}

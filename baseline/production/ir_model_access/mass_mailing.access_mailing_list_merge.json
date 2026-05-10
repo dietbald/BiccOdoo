@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1247,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      108,
+      "Email Marketing / User"
+    ],
+    "model_id": [
+      901,
+      "Merge Mass Mailing List"
+    ],
+    "name": "access.mailing.list.merge",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "d3ba6b4ce977337125ede610e0efa0419a960cd8ae9aea2d4d4b64a37ba5d356",
+  "write_date": "2025-12-09 03:00:45",
+  "xml_id": "mass_mailing.access_mailing_list_merge"
+}

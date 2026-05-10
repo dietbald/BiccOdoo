@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29457,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Refund payslip",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "is_refund_payslip",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5d3eb6df02e1b73cc617cf689c373604c51751393085d82a3c8020c320db490b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__is_refund_payslip"
+}

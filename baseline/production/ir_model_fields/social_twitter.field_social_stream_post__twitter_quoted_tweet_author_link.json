@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17891,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quoted post author Link",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "twitter_quoted_tweet_author_link",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2068db0d5aebc853307d2776dc3a4cf5eb417940dd1d183ac766b1a439997fb0",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_stream_post__twitter_quoted_tweet_author_link"
+}

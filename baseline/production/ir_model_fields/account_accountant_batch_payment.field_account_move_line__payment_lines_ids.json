@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28823,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Lines",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "payment_lines_ids",
+    "relation": "account.payment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "dade59911c39255fb57980fa1eeb016f433cc989a06c1ad14dcc4ab00879a828",
+  "write_date": "",
+  "xml_id": "account_accountant_batch_payment.field_account_move_line__payment_lines_ids"
+}

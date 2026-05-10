@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3957,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "tag_ids",
+    "relation": "account.account.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "49adb4bac1423e7db17f9a9021d31ef440170e09b64d3569fff64b341dbba7f5",
+  "write_date": "",
+  "xml_id": "account.field_account_account__tag_ids"
+}

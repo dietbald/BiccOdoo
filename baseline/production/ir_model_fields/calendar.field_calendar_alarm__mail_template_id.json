@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6986,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Template",
+    "model_id": [
+      566,
+      "Event Alarm"
+    ],
+    "name": "mail_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a1269e7ab500ec58b660254273b1609da2399639e3a427e525b2d072b69f349",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_alarm__mail_template_id"
+}

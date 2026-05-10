@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13675,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Total Duration",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "timesheet_total_duration",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "49dafb061ab60627ef2b0e852adafb873bb0dffe3fd35431eaaacad5ac19d7f5",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_account_bank_statement_line__timesheet_total_duration"
+}

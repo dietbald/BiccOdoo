@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 660,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      41,
+      "Project / Administrator"
+    ],
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "project.update.project.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c88119fad062b5c0397eae62c03df31723d5b369feea28c1d45390721b847f87",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_update_project_manager"
+}

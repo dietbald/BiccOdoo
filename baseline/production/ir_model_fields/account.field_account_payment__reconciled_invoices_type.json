@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4576,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reconciled Invoices Type",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "reconciled_invoices_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "343c1f76f69808dcd625b1c35bbf455354526dcaaec3e9e5cfa211588c5f7945",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__reconciled_invoices_type"
+}

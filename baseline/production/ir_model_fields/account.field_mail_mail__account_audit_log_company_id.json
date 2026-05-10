@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19938,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company ",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "account_audit_log_company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ef3668551740087d510be82b0b15a575508542b0b49525b69e05df2b8076ea3a",
+  "write_date": "",
+  "xml_id": "account.field_mail_mail__account_audit_log_company_id"
+}

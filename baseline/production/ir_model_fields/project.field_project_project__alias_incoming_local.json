@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7904,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Local-part based incoming detection",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "alias_incoming_local",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3b3621a468c6243f4deadd766f2fa3285e5ce6aca17931d0f1b68b29ce66856f",
+  "write_date": "",
+  "xml_id": "project.field_project_project__alias_incoming_local"
+}

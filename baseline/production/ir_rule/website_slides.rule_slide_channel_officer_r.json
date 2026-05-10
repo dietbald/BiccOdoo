@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 665,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      148
+    ],
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "Channel: officer: read all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "21b14fb73752bc2b6ef5c73902b6c19990000c811951047ab536db0aad5f0578",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_channel_officer_r"
+}

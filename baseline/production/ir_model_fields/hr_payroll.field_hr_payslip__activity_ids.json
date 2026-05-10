@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12847,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5c526dca0f30a15aaf51b6e56f7f4be526beebd64d21ac964709438ea1ce8a42",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__activity_ids"
+}

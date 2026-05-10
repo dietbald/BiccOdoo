@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26353,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Public Key",
+    "model_id": [
+      2740,
+      "Certificate"
+    ],
+    "name": "public_key_id",
+    "relation": "certificate.key",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "071d4ab40a9a3e045497bf1ad39f89b8bdba46c8d658f91f6aa1a4ed3595e702",
+  "write_date": "",
+  "xml_id": "certificate.field_certificate_certificate__public_key_id"
+}

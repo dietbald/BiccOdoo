@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20869,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payslips",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "payslip_ids",
+    "relation": "hr.payslip",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a62cc24875e3accaf7ee8e113bfe7474ed07a8fc50324c7aab24a173374b2866",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_account_bank_statement_line__payslip_ids"
+}

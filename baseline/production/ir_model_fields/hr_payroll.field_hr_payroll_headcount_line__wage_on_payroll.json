@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20664,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wage On Payroll",
+    "model_id": [
+      1239,
+      "Headcount Line"
+    ],
+    "name": "wage_on_payroll",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b58bfadbf526a75b49ab4029b0a8fcbc14c7fae0f1ac430ac3edc3a850a5d743",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount_line__wage_on_payroll"
+}

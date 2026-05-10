@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23739,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is public document",
+    "model_id": [
+      1469,
+      "Quotation's Headers & Footers"
+    ],
+    "name": "public",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5da9b84a98892e2158b466c98000a3894d57476e6de130433d1901603daba1cf",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_quotation_document__public"
+}

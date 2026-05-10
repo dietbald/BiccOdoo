@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow Reconciliation",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "reconcile",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "57d619a67ef4c289b436f83e87175e60173a4c12eedb09fc335439f9eb04cb38",
+  "write_date": "",
+  "xml_id": "account.field_account_account__reconcile"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13029,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8cafe7eadf9e6863653456a2949232045f62803cf706c403330fa16c8a154d0b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__country_id"
+}

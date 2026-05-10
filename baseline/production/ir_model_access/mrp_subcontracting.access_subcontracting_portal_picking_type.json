@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1506,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "subcontracting.portal.picking.type",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "f9f21f36295ac07939d1aa26844c9f0e055b427e547bbae52bc76c4fb2b46986",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.access_subcontracting_portal_picking_type"
+}

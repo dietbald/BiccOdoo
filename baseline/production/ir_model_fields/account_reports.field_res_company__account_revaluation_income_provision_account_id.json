@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6000,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Income Provision Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_revaluation_income_provision_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "346b5cbc3f2db51e8667a45dd1cb45cfdf44651a9b7c0cb4260f542e9173506a",
+  "write_date": "",
+  "xml_id": "account_reports.field_res_company__account_revaluation_income_provision_account_id"
+}

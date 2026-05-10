@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27294,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      159,
+      "Mixin to compute the time a record has spent in each value a many2one field can take"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6bca03f5808e6d412ed9aceeeef97184fe8e0714273f813c3e517b200b9038fc",
+  "write_date": "",
+  "xml_id": "sms.field_mail_tracking_duration_mixin__message_has_sms_error"
+}

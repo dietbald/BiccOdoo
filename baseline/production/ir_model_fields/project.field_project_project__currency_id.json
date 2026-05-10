@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7852,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "68a99bcb08292d1e51c8b4a1a37c4c8d00e7e7d0beea6e1e2e107c4e5e13032b",
+  "write_date": "",
+  "xml_id": "project.field_project_project__currency_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23775,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1470,
+      "Form fields of inside quotation documents."
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "540b262981758ede18a1ed02fac60bceb73daa3c4a20d0a1038a4fe3409999bd",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_sale_pdf_form_field__write_uid"
+}

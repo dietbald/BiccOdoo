@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1336,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      566,
+      "Event Alarm"
+    ],
+    "name": "calendar.alarm.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "2805c125a8c9bd97fb330b14b9afb00f3c5f2189891c8aae08c071881fb1f404",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.access_calendar_alarm_employee"
+}

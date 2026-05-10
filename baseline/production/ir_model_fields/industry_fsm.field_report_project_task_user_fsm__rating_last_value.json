@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18635,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Rating (1-5)",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "rating_last_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "e39ce78422795c927a5de54072c3e944e394479a8581d51952b4a7400bff8bbe",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__rating_last_value"
+}

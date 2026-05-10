@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6264,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      528,
+      "Account Fiscal Category"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "171e362fc92e493d3ec36782c396b96e821deeb0911665995abda365dd893e34",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories.field_account_fiscal_category__write_uid"
+}

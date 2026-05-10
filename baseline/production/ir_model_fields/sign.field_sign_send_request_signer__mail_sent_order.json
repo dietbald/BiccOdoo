@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10713,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sign Order",
+    "model_id": [
+      718,
+      "Sign send request signer"
+    ],
+    "name": "mail_sent_order",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "4204afb171ac786efa2abda15dd5b3d6255ce4dff46b22b35d5a77e5004cdeb1",
+  "write_date": "",
+  "xml_id": "sign.field_sign_send_request_signer__mail_sent_order"
+}

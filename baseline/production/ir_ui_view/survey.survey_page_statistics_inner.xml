@@ -1,0 +1,48 @@
+<t name="Survey: result statistics content" t-name="survey.survey_page_statistics_inner">
+        <t t-set="already_filtered_questions" t-value="{filter['question_id'] for filter in search_filters}"/>
+        <div t-if="survey.session_show_leaderboard and leaderboard" class="o_survey_session_leaderboard mb-5 mt-1">
+            <h2 class="mt16 text-uppercase text-muted">Leaderboard</h2>
+            <t t-call="survey.user_input_session_leaderboard"/>
+        </div>
+        <div t-if="survey.scoring_type in ['scoring_with_answers', 'scoring_without_answers']">
+            <hr class="my-2"/>
+            <div class="row mt-2">
+                <div class="col">
+                    <h4 class="text-primary" t-out="survey.question_count"/>
+                    <h6>Questions</h6>
+                </div>
+                <div class="col">
+                    <h4 class="text-primary" t-out="survey.answer_count"/>
+                    <h6>Registered</h6>
+                </div>
+                <div class="col">
+                    <h4 class="text-primary" t-out="survey.answer_done_count"/>
+                    <h6>Completed</h6>
+                </div>
+                <div class="d-sm-none w-100"/>
+                <div class="col">
+                    <h4 class="text-primary"><t t-call="survey.survey_remove_unnecessary_decimals">
+                        <t t-set="value_to_format" t-value="survey_data['global_success_rate']"/></t>%</h4>
+                    <h6>Success rate</h6>
+                </div>
+                <div t-if="survey.answer_duration_avg" class="col">
+                    <h4 class="text-primary" t-out="survey.answer_duration_avg" t-options="{'widget': 'float_time'}"/>
+                    <h6>Average Duration</h6>
+                </div>
+                <div t-if="survey.answer_score_avg" class="col">
+                    <h4 class="text-primary"><t t-out="round(survey.answer_score_avg, 2)"/>%</h4>
+                    <h6>Average Score</h6>
+                </div>
+           </div>
+            <hr/>
+        </div>
+
+        <div t-foreach="question_and_page_data" t-as="question_data">
+            <t t-set="question" t-value="question_data['question']"/>
+            <div t-if="question_data['is_page']" class="o_survey_question_page">
+                <h3 class="mt16 text-uppercase" t-field="question.title"/>
+                <hr class="mt-2 mb-4"/>
+            </div>
+            <div t-else="" class="mt-2 o_survey_results_question_wrapper"><t t-call="survey.survey_page_statistics_question"/></div>
+        </div>
+    </t>

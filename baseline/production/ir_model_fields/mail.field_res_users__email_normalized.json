@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2293,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Normalized Email",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "email_normalized",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ebf6a8f856d3c9dba5100eb4604bfe357e069412d48869f61dbda2a6c86c3577",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__email_normalized"
+}

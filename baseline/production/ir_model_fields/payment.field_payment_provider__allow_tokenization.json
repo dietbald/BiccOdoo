@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3653,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow Saving Payment Methods",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "allow_tokenization",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4471624fab241944b700dbfe8aadeb064062e29fb852b02247a622057bfd1371",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__allow_tokenization"
+}

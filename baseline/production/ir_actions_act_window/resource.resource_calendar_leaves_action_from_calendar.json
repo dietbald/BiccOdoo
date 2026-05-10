@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 94,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_calendar_id': active_id,\n            'search_default_calendar_id': active_id}",
+    "domain": false,
+    "name": "Resource Time Off",
+    "res_model": "resource.calendar.leaves",
+    "target": "current",
+    "view_mode": "list,form,calendar"
+  },
+  "payload_sha256": "9a3e8b924fe25c0da99f76ee3b18be019cc130f7b67edd3ad0e2fc7e5147ebc6",
+  "write_date": "2025-12-09 02:55:42",
+  "xml_id": "resource.resource_calendar_leaves_action_from_calendar"
+}

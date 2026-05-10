@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13533,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timer Last Pause",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "timer_pause",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "da0f45a6e29a3fdc45bfe0e9c490a0d74db74d7d6437c9092396a7f3c1539d33",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_project_task__timer_pause"
+}

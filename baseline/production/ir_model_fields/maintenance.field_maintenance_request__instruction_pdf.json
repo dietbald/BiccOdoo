@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "PDF",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "instruction_pdf",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "4ed1e8a8a1894eedc95918ac5a25f083ce27c67a06c092a69ebbdd47337a7b09",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__instruction_pdf"
+}

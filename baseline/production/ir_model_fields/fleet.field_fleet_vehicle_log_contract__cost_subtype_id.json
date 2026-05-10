@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17135,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "cost_subtype_id",
+    "relation": "fleet.service.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "072dd5b4466594adf7e44de0fa25834c01c7ab94c5100bc21ee43ee6f60ebd92",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__cost_subtype_id"
+}

@@ -1,0 +1,251 @@
+<data>
+    <xpath expr="/t[@t-name='custom_interview_evaluation_report']" position="replace" mode="inner">
+        <t t-call="web.external_layout">
+            <t t-set="doc" t-value="doc.with_context(lang=doc.partner_id.lang)"/>
+            <style>
+                /* Reduce font size for the entire page */
+                .page {
+                    font-size: 10px;
+                }
+                /* Adjust table row height */
+                .table td, .table th {
+                    padding: 4px; /* Decrease padding */
+                    line-height: 1.2; /* Reduce line height */
+                }
+            </style>
+            <div class="page">
+                <table class="table" style="width: 100%; border-collapse: collapse;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 15%;">
+                                <strong>Name:</strong>
+                            </td>
+                            <td style="width: 35%;">
+                                <span t-field="doc.partner_name"/>
+                            </td>
+                            <td style="width: 15%;">
+                                <strong>Position Applied For:</strong>
+                            </td>
+                            <td style="width: 35%;">
+                                <span t-field="doc.job_id"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <strong>Recruiter:</strong>
+                            </td>
+                            <td>
+                                <span t-field="doc.user_id"/>
+                            </td>
+                            <td>
+                                <strong>Department/Section:</strong>
+                            </td>
+                            <td>
+                                <span t-field="doc.department_id"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Testing</th>
+                            <th>Logical</th>
+                            <th>Emotional</th>
+                            <th>Technical</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Score</td>
+                            <td>
+                                <span t-esc="'%s%%' % doc.x_studio_logical_quiz_score"/>
+                            </td>
+                            <td>
+                                <span t-esc="'%s%%' % doc.x_studio_emotional_quiz_score"/>
+                            </td>
+                            <td>
+                                <span t-esc="'%s%%' % doc.x_studio_tech_quiz_score"/>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <span class="mt-4">Please rate the applicant by encircling the rating:</span>
+                <table class="table" style="border: none; border-collapse: collapse; width: 100%;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 20%; border: none;">1 – Poor	</td>
+                            <td style="width: 20%; border: none;">2 – Below Average	</td>
+                            <td style="width: 20%; border: none;">3 – Average	</td>
+                            <td style="width: 20%; border: none;">4 – Above Average	</td>
+                            <td style="width: 20%; border: none;">5 – Excellent	</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table o_selected_table" style="border-collapse: collapse; width: 100%;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 40%;" class="o_selected_td">Personality</td>
+                            <td style="text-align: center;" class="o_selected_td">1</td>
+                            <td style="text-align: center;" class="o_selected_td">2</td>
+                            <td style="text-align: center;" class="o_selected_td">3</td>
+                            <td style="text-align: center;" class="o_selected_td">4</td>
+                            <td style="text-align: center;" class="o_selected_td">5</td>
+                        </tr>
+                        <tr>
+                            <td class="o_selected_td">Communication skills</td>
+                            <td style="text-align: center;" class="o_selected_td">1</td>
+                            <td style="text-align: center;" class="o_selected_td">2</td>
+                            <td style="text-align: center;" class="o_selected_td">3</td>
+                            <td style="text-align: center;" class="o_selected_td">4</td>
+                            <td style="text-align: center;" class="o_selected_td">5</td>
+                        </tr>
+                        <tr>
+                            <td class="o_selected_td">Ability to answer questions</td>
+                            <td style="text-align: center;" class="o_selected_td">1</td>
+                            <td style="text-align: center;" class="o_selected_td">2</td>
+                            <td style="text-align: center;" class="o_selected_td">3</td>
+                            <td style="text-align: center;" class="o_selected_td">4</td>
+                            <td style="text-align: center;" class="o_selected_td">5</td>
+                        </tr>
+                        <tr>
+                            <td class="o_selected_td">Attitude towards employment</td>
+                            <td style="text-align: center;" class="o_selected_td">1</td>
+                            <td style="text-align: center;" class="o_selected_td">2</td>
+                            <td style="text-align: center;" class="o_selected_td">3</td>
+                            <td style="text-align: center;" class="o_selected_td">4</td>
+                            <td style="text-align: center;" class="o_selected_td">5</td>
+                        </tr>
+                        <tr>
+                            <td class="o_selected_td">Skill and Competence</td>
+                            <td style="text-align: center;" class="o_selected_td">1</td>
+                            <td style="text-align: center;" class="o_selected_td">2</td>
+                            <td style="text-align: center;" class="o_selected_td">3</td>
+                            <td style="text-align: center;" class="o_selected_td">4</td>
+                            <td style="text-align: center;" class="o_selected_td">5</td>
+                        </tr>
+                        <tr>
+                            <td class="o_selected_td">Objectivity and Critical thinking</td>
+                            <td style="text-align: center;" class="o_selected_td">1</td>
+                            <td style="text-align: center;" class="o_selected_td">2</td>
+                            <td style="text-align: center;" class="o_selected_td">3</td>
+                            <td style="text-align: center;" class="o_selected_td">4</td>
+                            <td style="text-align: center;" class="o_selected_td">5</td>
+                        </tr>
+                        <tr>
+                            <td class="o_selected_td">Leadership</td>
+                            <td style="text-align: center;" class="o_selected_td">1</td>
+                            <td style="text-align: center;" class="o_selected_td">2</td>
+                            <td style="text-align: center;" class="o_selected_td">3</td>
+                            <td style="text-align: center;" class="o_selected_td">4</td>
+                            <td style="text-align: center;" class="o_selected_td">5</td>
+                        </tr>
+                        <tr>
+                            <td class="o_selected_td">Job Knowledge</td>
+                            <td style="text-align: center;" class="o_selected_td">1</td>
+                            <td style="text-align: center;" class="o_selected_td">2</td>
+                            <td style="text-align: center;" class="o_selected_td">3</td>
+                            <td style="text-align: center;" class="o_selected_td">4</td>
+                            <td style="text-align: center;" class="o_selected_td">5</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3 class="mt-4">Additional Remarks:</h3>
+                <p class="mt-4">_____________________________________________________________________________________________________________________</p>
+                <p class="mt-4">_____________________________________________________________________________________________________________________</p>
+                <table class="table table-bordered" style="width: 100%; border-collapse: collapse;">
+                    <thead>
+                        <tr>
+                            <th style="text-align: left;">Interviewer</th>
+                            <th style="text-align: left;">Name</th>
+                            <th style="text-align: left;">Date</th>
+                            <th style="text-align: left;">Recommendation</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <t t-foreach="doc.interviewer_ids" t-as="interviewer" t-enumerate="index">
+                            <tr>
+                                <td>
+                                    <t t-set="employee" t-value="interviewer.employee_ids[:1]"/>
+                                    <t t-if="employee">
+                                        <span t-field="employee.job_id.name"/>
+                                    </t>
+                                    <t t-else="">
+                                        <i>No Role Assigned</i>
+                                    </t>
+                                </td>
+                                <td>
+                                    <span t-field="interviewer.name"/>
+                                </td>
+                                <td/>
+                                <td> Yes / No </td>
+                            </tr>
+                        </t>
+                    </tbody>
+                </table>
+                <h3 class="mt-4">Recommendation</h3>
+                <table class="table">
+                    <tbody>
+                        <tr>
+                            <td style="text-align: center; border: none;">
+                                <span class="o_small-fs">☐</span>
+                            </td>
+                            <td style="border: none;">
+                                <span class="o_small-fs">Recommended for Hiring</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; border: none;">
+                                <span class="o_small-fs">☐</span>
+                            </td>
+                            <td style="border: none;">
+                                <span class="o_small-fs">For Further Evaluation with _________________________</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; border: none;">
+                                <span class="o_small-fs">☐</span>
+                            </td>
+                            <td style="border: none;">
+                                <span class="o_small-fs">For Active File</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; border: none;">
+                                <span class="o_small-fs">☐</span>
+                            </td>
+                            <td style="border: none;">
+                                <span class="o_small-fs">Not Recommended</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align: center; border: none;">
+                                <span class="o_small-fs">☐</span>
+                            </td>
+                            <td style="border: none;">
+                                <span class="o_small-fs">For Other Position __________________________________________</span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table" style="width: 100%; border-collapse: collapse; border: none;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 30%; border: none;">
+                                <h3>Background Check</h3>
+                            </td>
+                            <td style="width: 10%; border: none;">
+                                <strong>Passed:</strong>
+                            </td>
+                            <td style="width: 10%; border: none;">Yes / No</td>
+                            <td style="width: 30%; border: none;">
+                                <strong>Background Check Date:</strong>
+                            </td>
+                            <td style="width: 20%; border: none;">_______________________</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="oe_structure"/></div>
+        </t>
+    </xpath>
+</data>

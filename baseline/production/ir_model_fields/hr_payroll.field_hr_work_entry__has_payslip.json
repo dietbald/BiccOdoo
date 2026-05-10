@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29491,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Payslip",
+    "model_id": [
+      811,
+      "HR Work Entry"
+    ],
+    "name": "has_payslip",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "acac313415d395f3c4a55c8307cf8c338fe625eae39dd9dae6db5238bc5455d0",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry__has_payslip"
+}

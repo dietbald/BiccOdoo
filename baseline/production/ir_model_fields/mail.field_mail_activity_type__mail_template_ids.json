@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1874,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email templates",
+    "model_id": [
+      163,
+      "Activity Type"
+    ],
+    "name": "mail_template_ids",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "790a3a962ff44f7d3361b55e76655a0cdd6cc6228128e43e285ff15365623b5e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_type__mail_template_ids"
+}

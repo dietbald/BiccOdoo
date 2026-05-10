@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27063,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2974,
+      "Keep the call history"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2469902b935aee236a6c3f8a097e0e4dc39b64187875955da4a88d0525e0d10d",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_call_history__write_uid"
+}

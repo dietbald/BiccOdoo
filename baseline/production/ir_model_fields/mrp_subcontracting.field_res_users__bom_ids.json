@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17345,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "BoMs for which the Partner is one of the subcontractors",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "bom_ids",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ddd2046ef1c7cbb592d9daf9e64146c55e923fa2c7b8236502ac997226a6e101",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_res_users__bom_ids"
+}

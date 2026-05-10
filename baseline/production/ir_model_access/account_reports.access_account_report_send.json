@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1812,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      1457,
+      "Account Report Send"
+    ],
+    "name": "access.account.report.send",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "18dd15acbef7992439c8139d50ab9783875a53ff024ce26f8b7d6c1faf140c97",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_report_send"
+}

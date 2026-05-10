@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T12:35:41Z",
+  "id": 614,
+  "model": "ir.model",
+  "payload": {
+    "model": "sale.order.line",
+    "modules": "industry_fsm_sale, industry_fsm_sale_report, industry_fsm_stock, sale, sale_account_accountant, sale_expense, sale_management, sale_pdf_quote_builder, sale_planning, sale_product_matrix, sale_project, sale_project_stock, sale_purchase, sale_purchase_project, sale_renting, sale_renting_planning, sale_service, sale_stock, sale_stock_renting, sale_timesheet, sale_timesheet_enterprise, stock_dropshipping",
+    "name": "Sales Order Line",
+    "state": "base"
+  },
+  "payload_sha256": "2b492e8db3e0a7f5270b2ca071eee8a55dd35404f33b19d64ee869060647d47b",
+  "write_date": "",
+  "xml_id": "stock_dropshipping.model_sale_order_line"
+}

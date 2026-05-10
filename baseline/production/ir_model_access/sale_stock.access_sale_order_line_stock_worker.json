@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1054,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "sale.order.line stock worker",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "269a09a98a0f033c61356beb3ba765bd1610942844ab0116b0223d5b8ba35ed7",
+  "write_date": "2025-12-09 03:00:15",
+  "xml_id": "sale_stock.access_sale_order_line_stock_worker"
+}

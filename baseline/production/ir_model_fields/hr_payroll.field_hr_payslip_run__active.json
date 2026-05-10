@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29472,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Active",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "active",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "313d49be3dddda3cf3a3a87778288b4efbc7d53aff4c44430c233c759190d84b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__active"
+}

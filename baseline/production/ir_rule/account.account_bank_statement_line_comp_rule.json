@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 88,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "Account bank statement line company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e92d7448ae83ec04f426877fb80f7e63a31e188d78e1aabfffa6c77f9e2ca925",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_bank_statement_line_comp_rule"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17453,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ECO Stage",
+    "model_id": [
+      1017,
+      "ECO Approval"
+    ],
+    "name": "eco_stage_id",
+    "relation": "mrp.eco.stage",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "72b8861a2beed19ffc64c83c70b60b7974391e1305aac63b55a109b2cdfcc514",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_approval__eco_stage_id"
+}

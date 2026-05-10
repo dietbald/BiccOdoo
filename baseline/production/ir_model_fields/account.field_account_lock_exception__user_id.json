@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22107,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      1373,
+      "Account Lock Exception"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f206b46e2a0aa732efbb69a1c64c8d64bf83b907453c311f146ec62a14188c8b",
+  "write_date": "",
+  "xml_id": "account.field_account_lock_exception__user_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 823,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      58,
+      "Purchase / Administrator"
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res.partner.purchase.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "ee451ae068bbc7628e6bb8ef2dbaa1df884892fc8cae2289f4caca97595fafc9",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_res_partner_purchase_manager"
+}

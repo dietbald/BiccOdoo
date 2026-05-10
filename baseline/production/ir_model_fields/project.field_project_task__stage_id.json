@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7681,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "stage_id",
+    "relation": "project.task.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b6ef0451f032f7ab46d0027ac48f1db80dbf23c61c45b87afa678847a6b1d443",
+  "write_date": "",
+  "xml_id": "project.field_project_task__stage_id"
+}

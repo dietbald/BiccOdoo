@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7069,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Multiple Memberships Allowed",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "is_membership_multi",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c33be4eaee6cfbbc0780299b25a293578e863a490b412ae88b2d2e1fb338c0b2",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team_member__is_membership_multi"
+}

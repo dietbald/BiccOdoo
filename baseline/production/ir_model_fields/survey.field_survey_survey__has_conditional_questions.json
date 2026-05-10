@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14756,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contains conditional questions",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "has_conditional_questions",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a6f81c743d9a88e6b8909aacdfecbcec59a501d7111a3b2595fe191775cae268",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__has_conditional_questions"
+}

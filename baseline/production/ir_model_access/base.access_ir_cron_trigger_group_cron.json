@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 5,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      31,
+      "Triggered actions"
+    ],
+    "name": "ir_cron_trigger group_cron",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a56181a16092b4b131e50d800255ebc138ea76bfdf657516385d06d9f25be729",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_cron_trigger_group_cron"
+}

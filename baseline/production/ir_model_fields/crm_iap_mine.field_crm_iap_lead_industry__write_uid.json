@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7458,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      589,
+      "CRM IAP Lead Industry"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6d03f9611a0e72a98870596a9a6973cbeaa224d459ab3ac4700ffd900167172e",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_industry__write_uid"
+}

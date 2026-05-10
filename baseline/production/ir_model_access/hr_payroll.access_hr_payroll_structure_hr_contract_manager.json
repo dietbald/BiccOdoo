@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1142,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      53,
+      "Employees / Administrator"
+    ],
+    "model_id": [
+      816,
+      "Salary Structure"
+    ],
+    "name": "hr.payroll.structure.hr.contract.manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "67badf75272fdc2ac8e0561547af90efecf8fdf53e20d1eaa3011b3cb419a90a",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_payroll_structure_hr_contract_manager"
+}

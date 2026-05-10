@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11461,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Description on Picking",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "description_picking",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "standard",
+    "ttype": "text"
+  },
+  "payload_sha256": "87f53d49d0bcdc8b14d59bd38a5791af801d614755a32c866696edb453aa9dbe",
+  "write_date": "",
+  "xml_id": "stock.field_product_template__description_picking"
+}

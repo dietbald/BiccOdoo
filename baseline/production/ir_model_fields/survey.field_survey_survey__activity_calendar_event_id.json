@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14691,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b5a40ee29b8991e285c09ef8505c09782d0b7e3399fcab00b89f695d00219601",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__activity_calendar_event_id"
+}

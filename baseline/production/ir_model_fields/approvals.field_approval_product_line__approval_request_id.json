@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval Request",
+    "model_id": [
+      784,
+      "Product Line"
+    ],
+    "name": "approval_request_id",
+    "relation": "approval.request",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "38cc6a6b9af7f213ea3a0d4c07e3de88f98c39dc28085a982bd2258de37c02d8",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_product_line__approval_request_id"
+}

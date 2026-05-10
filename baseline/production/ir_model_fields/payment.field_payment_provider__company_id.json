@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3650,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1a69b81349896b1f58c0e2d3393af1ae985be1b0d12086c4569194adf2f75c5b",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__company_id"
+}

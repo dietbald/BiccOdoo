@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10485,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "949446538dddf7f68b2cd0934c7861aa7e9fafedf606c9f1864080dc4b5f71c5",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request__activity_date_deadline"
+}

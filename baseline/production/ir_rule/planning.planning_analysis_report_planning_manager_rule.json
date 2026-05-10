@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 398,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      107
+    ],
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "Planning analysis report: manager can read all the shifts",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "804271106dc3f61ddb610042b7baa58b47fbc8239ddc46e699b53baa0fceb65a",
+  "write_date": "2024-04-18 04:45:47",
+  "xml_id": "planning.planning_analysis_report_planning_manager_rule"
+}

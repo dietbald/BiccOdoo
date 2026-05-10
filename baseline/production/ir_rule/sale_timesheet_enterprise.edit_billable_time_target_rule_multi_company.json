@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 717,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      2738,
+      "Edit Billable Time Target wizard from Timesheet for users without employee access"
+    ],
+    "name": "Edit Billable Time Target multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "da838899ea69b2761cea297507198928907e9b7c7ccb68c348c78e8e1fd096ef",
+  "write_date": "2025-05-19 16:57:18",
+  "xml_id": "sale_timesheet_enterprise.edit_billable_time_target_rule_multi_company"
+}

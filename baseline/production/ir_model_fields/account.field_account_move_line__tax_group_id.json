@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4453,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Originator tax group",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "tax_group_id",
+    "relation": "account.tax.group",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8601ae0cc8f2aaa054704d2d3653c3bb56de2d808035aba2f6d1e940728f85b8",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__tax_group_id"
+}

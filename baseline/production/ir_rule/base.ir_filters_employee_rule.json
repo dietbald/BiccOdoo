@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 11,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_ids','in',[False,user.id])]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      32,
+      "Filters"
+    ],
+    "name": "ir.filter: owner or global",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b6e5321309423cd53f713d19febf4a901a4cdacc39ab390460a7d4016b3c2e35",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.ir_filters_employee_rule"
+}

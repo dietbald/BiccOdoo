@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off Types Count",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "leave_types_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "b780a585062e31d47e9ef53b389af87e76745a00c5ee3499a8c5363ea3666434",
+  "write_date": "",
+  "xml_id": "project_timesheet_holidays.field_project_task__leave_types_count"
+}

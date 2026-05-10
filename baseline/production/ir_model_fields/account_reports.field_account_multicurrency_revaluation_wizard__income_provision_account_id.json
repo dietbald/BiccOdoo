@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6087,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Income Account",
+    "model_id": [
+      523,
+      "Multicurrency Revaluation Wizard"
+    ],
+    "name": "income_provision_account_id",
+    "relation": "account.account",
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "66fbe2c4ed10f0d6c8caa8651241921d2020b843ea79feb9e74305e5f92f1869",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_multicurrency_revaluation_wizard__income_provision_account_id"
+}

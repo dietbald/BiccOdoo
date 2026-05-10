@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18196,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "End Date",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "repeat_until",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "a998773b7cd70c4affc74907858b09f20ed51a7f40567d13ddfb09a8655cadf8",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__repeat_until"
+}

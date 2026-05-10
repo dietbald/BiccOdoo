@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6105,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Represented Company",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "account_represented_company_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "25eb5c831ee0dfb8a9297193fe4e7a79893f7f994e267b23cbfbed14f317c1b8",
+  "write_date": "",
+  "xml_id": "account_reports.field_res_users__account_represented_company_ids"
+}

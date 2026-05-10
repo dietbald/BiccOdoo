@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11642,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      759,
+      "Choose whether to print product or lot/sn labels"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "71d688c5499785e29e0459dbcd2280c8770a27b4354bfa1e76b435a5f3809bc2",
+  "write_date": "",
+  "xml_id": "stock.field_picking_label_type__create_date"
+}

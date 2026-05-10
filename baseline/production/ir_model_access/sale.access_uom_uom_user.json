@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 709,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      137,
+      "Product Unit of Measure"
+    ],
+    "name": "uom.uom.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "51ef7652cb4b2e71be991ccc02167785072a6523b96299835109c04980633996",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_uom_uom_user"
+}

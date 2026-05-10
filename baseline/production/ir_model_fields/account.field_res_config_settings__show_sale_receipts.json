@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27592,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sale Receipt",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "show_sale_receipts",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5ffddad2ad7e3f210717e61d71f734be8f1323051b024343878279e2ac250785",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__show_sale_receipts"
+}

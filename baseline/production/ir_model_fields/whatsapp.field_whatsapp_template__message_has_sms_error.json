@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18445,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a440c33a5018a0d248e2fc78ee45f01ae089eb0c6eca8d56daf4eceea96dd884",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__message_has_sms_error"
+}

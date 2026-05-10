@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8573,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display project",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "visible_project",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e9bfa9d29ef0539793c13782663cc1dc92bb7113ee50179df13b7351f0c5ded5",
+  "write_date": "",
+  "xml_id": "sale_project.field_sale_order__visible_project"
+}

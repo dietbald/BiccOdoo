@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2971,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Variant Tags",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "additional_product_tag_ids",
+    "relation": "product.tag",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e80b10782e52ab9549363e8ecca908f03ff842fa6be199377e0049e5bd543150",
+  "write_date": "",
+  "xml_id": "product.field_product_product__additional_product_tag_ids"
+}

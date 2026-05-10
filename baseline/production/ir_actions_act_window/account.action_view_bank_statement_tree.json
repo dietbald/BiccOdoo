@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 258,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'journal_type':'cash'}",
+    "domain": "[('journal_id.type', '=', 'cash')]",
+    "name": "Cash Registers",
+    "res_model": "account.bank.statement",
+    "target": "current",
+    "view_mode": "list,pivot,graph"
+  },
+  "payload_sha256": "fd277beaea2db9b81c926e5e1f16a4411158f1087a3e95cd904c548be1fefa4d",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_view_bank_statement_tree"
+}

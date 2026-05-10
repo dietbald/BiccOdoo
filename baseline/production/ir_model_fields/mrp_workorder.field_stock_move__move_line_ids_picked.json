@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25153,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move Line Ids Picked",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "move_line_ids_picked",
+    "relation": "stock.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "3714ab1059fc4bc754bf351254eb3da3d5b255ba5a0141bf9f0f4967198eaed1",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_stock_move__move_line_ids_picked"
+}

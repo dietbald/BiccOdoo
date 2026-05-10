@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7232,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Language",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "lang_id",
+    "relation": "res.lang",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4dbd4a2ed378b6819e4d92c5a9aa8040929a1e4e3e5bb0c277bbdfef0cd84bc3",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__lang_id"
+}

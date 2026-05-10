@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11779,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Orderpoint",
+    "model_id": [
+      774,
+      "Stock supplier replenishment information"
+    ],
+    "name": "orderpoint_id",
+    "relation": "stock.warehouse.orderpoint",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2bb6d7bef70fd7ed26e24ac00e950b4b5f8b1387932d825eb890c398d7f1a57f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenishment_info__orderpoint_id"
+}

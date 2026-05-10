@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1153,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      96,
+      "Payroll / Administrator"
+    ],
+    "model_id": [
+      812,
+      "HR Work Entry Type"
+    ],
+    "name": "access_hr_work_entry_type_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8a93996b0ed3edfb4916d43c8a018d922f4079b1fc1d9767cb94cf51ab0c7eeb",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.access_hr_work_entry_type_manager"
+}

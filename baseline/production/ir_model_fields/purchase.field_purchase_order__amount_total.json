@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9410,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "amount_total",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "727afb8a262beebd95edb81ee7c4353250046440bcfbdc57d78d3c5dabe4cfbc",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__amount_total"
+}

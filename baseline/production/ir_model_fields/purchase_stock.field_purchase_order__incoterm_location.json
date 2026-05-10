@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11951,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Incoterm Location",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "incoterm_location",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8d5d9b7fecaa64ecaeb25c014ad47c773f32ffbb98b67121fadc9212ad7b3980",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order__incoterm_location"
+}

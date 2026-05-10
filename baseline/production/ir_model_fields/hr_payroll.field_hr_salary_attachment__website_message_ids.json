@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13082,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a116e09054fc15f404cc0b46aa18a93a3ef8f2d163d0ee9ac63124e495a6526a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__website_message_ids"
+}

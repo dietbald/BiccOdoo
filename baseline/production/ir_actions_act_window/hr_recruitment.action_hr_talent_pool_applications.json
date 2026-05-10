@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1585,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_talent_pool_ids': active_ids}",
+    "domain": "[\n            ('talent_pool_ids', '=', active_ids),\n        ]",
+    "name": "Talents",
+    "res_model": "hr.applicant",
+    "target": "current",
+    "view_mode": "list,kanban,form,graph,calendar,pivot,activity"
+  },
+  "payload_sha256": "e3778daf0306c4c91702a2d11f59efcb52baccf9ae7ff7b9532b89011f1131c9",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.action_hr_talent_pool_applications"
+}

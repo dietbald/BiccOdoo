@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 856,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'is_timesheet': 1,\n            }",
+    "domain": "[('project_id', 'in', active_ids)]",
+    "name": "Project's Timesheets",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "9028d5fadc02f3f975fe4f5fe96aa487e7b458561b07b59f76a1f0293b7981a8",
+  "write_date": "2025-12-09 02:59:23",
+  "xml_id": "hr_timesheet.timesheet_action_project"
+}

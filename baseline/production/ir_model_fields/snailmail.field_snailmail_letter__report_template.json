@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3539,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Optional report to print and attach",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "report_template",
+    "relation": "ir.actions.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8a5cbe71a6257236106b330d2a3977330d468a5ee8b66ab3fec651a355be5328",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__report_template"
+}

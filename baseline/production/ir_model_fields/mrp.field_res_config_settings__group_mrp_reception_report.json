@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15898,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allocation Report for Manufacturing Orders",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_mrp_reception_report",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9e856de42a624f0885bc6ff7c03117f86ac300b86527390b6aac66bbc7981ec0",
+  "write_date": "",
+  "xml_id": "mrp.field_res_config_settings__group_mrp_reception_report"
+}

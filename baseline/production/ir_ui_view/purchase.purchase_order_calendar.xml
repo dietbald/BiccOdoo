@@ -1,0 +1,6 @@
+<calendar string="Calendar View" date_start="date_calendar_start" color="partner_id" hide_time="true" event_limit="5" create="false">
+                    <field name="currency_id" invisible="1"/>
+                    <field name="partner_ref"/>
+                    <field name="amount_total" widget="monetary"/>
+                    <field name="partner_id" filters="1"/>
+                </calendar>

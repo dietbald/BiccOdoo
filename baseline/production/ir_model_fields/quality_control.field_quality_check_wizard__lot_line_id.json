@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18344,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lot Line",
+    "model_id": [
+      1044,
+      "Wizard for Quality Check Pop Up"
+    ],
+    "name": "lot_line_id",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0985a04a42ac4829ddbda94de248477089a19bc7eedaf34ad6f596bbf58c48cc",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check_wizard__lot_line_id"
+}

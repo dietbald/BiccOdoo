@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28193,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contained Quant",
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "contained_quant_ids",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0027aedd8b41384f719019c2153da64c2c3f4ce250ef7916ed30d60ff05c915d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package__contained_quant_ids"
+}

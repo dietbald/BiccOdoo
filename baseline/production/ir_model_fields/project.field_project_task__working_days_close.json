@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7714,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Days to Close",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "working_days_close",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b78b171774f962d2b137d31fc75b3f6870923ad07cb4390cfa10fb946da8e60d",
+  "write_date": "",
+  "xml_id": "project.field_project_task__working_days_close"
+}

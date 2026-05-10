@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28080,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3335,
+      "Project role to users mapping"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0c7374180a4f8d70f0480c27f7f55c406b6528f8f4852e653987047bca7f838b",
+  "write_date": "",
+  "xml_id": "project.field_project_template_role_to_users_map__write_uid"
+}

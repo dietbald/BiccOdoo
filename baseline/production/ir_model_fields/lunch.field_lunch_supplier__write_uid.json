@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18840,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5695b695718d3f4a2e631a2087dcf36b363eabfafbfbc9304cdfed139e58a32b",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recurrence Termination",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "end_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "5b1cf130fd76bb4a38f581aac4d1a05927c3a3a691ce28bad4783bb28d0b336a",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__end_type"
+}

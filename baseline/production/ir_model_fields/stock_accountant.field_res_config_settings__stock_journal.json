@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29578,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Journal",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "stock_journal",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e677db8eb9fa52e56a3b1a54e5e3a95c8f6c0b5661162fc058edd61d5808dade",
+  "write_date": "",
+  "xml_id": "stock_accountant.field_res_config_settings__stock_journal"
+}

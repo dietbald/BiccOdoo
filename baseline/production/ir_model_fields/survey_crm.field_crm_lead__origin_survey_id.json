@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29821,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Survey",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "origin_survey_id",
+    "relation": "survey.survey",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "22d910b3c9f5bf5a452696b58dc3d89782918ba69fc111add9dc23713478b75b",
+  "write_date": "",
+  "xml_id": "survey_crm.field_crm_lead__origin_survey_id"
+}

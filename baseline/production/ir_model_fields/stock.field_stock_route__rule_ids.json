@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10907,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rules",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "rule_ids",
+    "relation": "stock.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6ca6b5270cd9faa06cb10479f68e26451e91ee41bfd7b7ea09460dc4c033db1b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_route__rule_ids"
+}

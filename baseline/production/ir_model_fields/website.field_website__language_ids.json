@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9898,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Languages",
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "language_ids",
+    "relation": "res.lang",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5e09b0af209c7e99d7280d80e791b630d1a5c8cdc2d8542d5c8be740a4f86855",
+  "write_date": "",
+  "xml_id": "website.field_website__language_ids"
+}

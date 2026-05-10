@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26586,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      2749,
+      "Pick-up/Return products"
+    ],
+    "name": "status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b43561b33634d1908008a26a0f73b76c10a742d2e9f0184a6203e872c366bc5e",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard__status"
+}

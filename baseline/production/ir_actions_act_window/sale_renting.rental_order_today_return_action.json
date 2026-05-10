@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1618,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'in_rental_app': 1, 'search_default_filter_today': 1, 'search_default_filter_to_return': 1}",
+    "domain": "[('is_rental_order', '=', True)]",
+    "name": "Rental Orders",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,pivot,graph,activity"
+  },
+  "payload_sha256": "4e534e77e1d1f11ee0fb9c965a55441da22a6f8304326a785bcfbe90770c5845",
+  "write_date": "2025-12-09 03:00:12",
+  "xml_id": "sale_renting.rental_order_today_return_action"
+}

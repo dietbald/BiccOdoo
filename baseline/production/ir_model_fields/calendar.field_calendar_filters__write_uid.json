@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7002,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      568,
+      "Calendar Filters"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d49622acab5de7d1be39375ca6b00482990f4545329a479386a52a739a472e22",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_filters__write_uid"
+}

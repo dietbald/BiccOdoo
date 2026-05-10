@@ -1,0 +1,20 @@
+<search string="Search Offers">
+                <field string="Applicant" name="applicant_name"/>
+                <field name="employee_id"/>
+                <field name="display_name"/>
+                <filter name="employees" domain="[('employee_id', '!=', False)]" string="Employees"/>
+                <filter name="applicants" domain="[('applicant_id', '!=', False)]" string="Applicants"/>
+                <separator/>
+                <filter name="expired" domain="[('offer_end_date', '&lt;', 'today')]" string="Expired"/>
+                <separator/>
+                <filter name="refused" domain="[('state', '=', 'refused')]" string="Refused"/>
+                <group>
+                    <filter string="State" name="group_by_state" domain="[]" context="{'group_by': 'state'}"/>
+                    <filter string="Job Position" name="group_by_employee_job_id" domain="[]" context="{'group_by': 'employee_job_id'}"/>
+                    <filter string="Department" name="group_by_department_id" domain="[]" context="{'group_by': 'department_id'}"/>
+                    <filter string="Contract Template" name="group_by_contract_template_id" domain="[]" context="{'group_by': 'contract_template_id'}"/>
+                    <filter string="Employee" name="group_by_employee_id" domain="[]" context="{'group_by': 'employee_id'}"/>
+                    <filter string="Applicant" name="group_by_applicant_id" domain="[]" context="{'group_by': 'applicant_id'}"/>
+                    <filter string="Company" name="group_by_company_id" domain="[]" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                </group>
+            </search>

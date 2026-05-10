@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13616,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hourly Cost",
+    "model_id": [
+      852,
+      "Project Sales line, employee mapping"
+    ],
+    "name": "display_cost",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "d1749e80d58d1512b1b653b0ec8f7a64c1a20c4794cf7a49b1dabd486d81437f",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_sale_line_employee_map__display_cost"
+}

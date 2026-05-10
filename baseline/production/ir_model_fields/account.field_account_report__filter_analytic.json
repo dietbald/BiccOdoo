@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5117,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Analytic Filter",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "filter_analytic",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "22243c56d5bcf5a4b5add974fe47601aecda21ae0c7288fe27d7afcdd8d538c9",
+  "write_date": "",
+  "xml_id": "account.field_account_report__filter_analytic"
+}

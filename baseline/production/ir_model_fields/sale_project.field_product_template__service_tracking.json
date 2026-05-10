@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8540,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create on Order",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "service_tracking",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "bab2ceaac6ca8e87ffdecd6c1e97ce1b21659b505e699ba561748019c932f40c",
+  "write_date": "",
+  "xml_id": "sale_project.field_product_template__service_tracking"
+}

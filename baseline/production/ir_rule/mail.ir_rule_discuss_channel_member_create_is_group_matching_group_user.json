@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 43,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n                [\n                    ('is_self', '=', False),\n                    ('channel_id.channel_type', '=', 'channel'),\n                    '|',\n                        ('channel_id.group_public_id', '=', False),\n                        ('channel_id.group_public_id', 'in', user.all_group_ids.ids)\n                ]\n            ",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "discuss.channel.member: internal users can invite others in group restricted channels when group is matching",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6c753f12980347c1c8bcf0b7d0c8ebf68685be62307d11d2f577d255c1d7e288",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.ir_rule_discuss_channel_member_create_is_group_matching_group_user"
+}

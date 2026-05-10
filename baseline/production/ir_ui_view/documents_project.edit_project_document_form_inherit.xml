@@ -1,0 +1,3 @@
+<xpath expr="//page[@name='settings']//field[@name='privacy_visibility']" position="after">
+                <field name="documents_folder_id" widget="documents_folder_many2one" context="{'documents_project': True, 'default_company_id': company_id,                                 'privacy_visibility': privacy_visibility, 'default_type': 'folder'}"/>
+            </xpath>

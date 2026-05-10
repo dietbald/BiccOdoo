@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4392,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Incoterm Location",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "incoterm_location",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d67d692b7efd45b1565a73b9b380f573fbf1e66ed7c1b499e82df3980dec15bb",
+  "write_date": "",
+  "xml_id": "account.field_account_move__incoterm_location"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20655,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1238,
+      "Payroll Headcount"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d8b5655b1e43f780753affea71b0745f5718d9a1ff7c95c5854a61671373f7d0",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount__write_uid"
+}

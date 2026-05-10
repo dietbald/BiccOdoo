@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 9056,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skill Type",
+    "model_id": [
+      643,
+      "Skill Level"
+    ],
+    "name": "skill_type_id",
+    "relation": "hr.skill.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6522d886a8c73339b99fc1240fdd419cd153e9f49289f9580b0dd51bd7e1166f",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_skill_level__skill_type_id"
+}

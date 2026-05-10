@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29478,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pay Schedule",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "schedule_pay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0c5f225d6f478a1d5596d5fd103113f9afa1eff58326c4e127097db38f85e818",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__schedule_pay"
+}

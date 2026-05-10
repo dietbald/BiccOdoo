@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18739,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity Decreasable",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "quantity_decreasable",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5f60bc27851ad1e0be74f4b761001605eeb4098a4b430922ce825fd3d2f28f25",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_product_product__quantity_decreasable"
+}

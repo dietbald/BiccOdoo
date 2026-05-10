@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1478,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      998,
+      "Additional Workorder"
+    ],
+    "name": "access.mrp_production.additional.workorder",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f42eba50224fa8f4de0e91df1d1c4de51223d8a4589089f3a9351abd4680c421",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp_workorder.access_mrp_production_additional_workorder"
+}

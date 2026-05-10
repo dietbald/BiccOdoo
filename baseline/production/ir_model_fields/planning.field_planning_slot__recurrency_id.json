@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13878,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recurrency",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "recurrency_id",
+    "relation": "planning.recurrency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d19c8977537dfdda7b381f483dd2d9c24ab38b27293f49c393d9f47d7fa7affa",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__recurrency_id"
+}

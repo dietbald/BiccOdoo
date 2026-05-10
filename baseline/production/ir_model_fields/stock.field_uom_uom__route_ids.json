@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24938,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Routes",
+    "model_id": [
+      137,
+      "Product Unit of Measure"
+    ],
+    "name": "route_ids",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "65b4499ff4ccf067f586e624718a126cf3de1c788381094a2e3c9e96e1b8fa8b",
+  "write_date": "",
+  "xml_id": "stock.field_uom_uom__route_ids"
+}

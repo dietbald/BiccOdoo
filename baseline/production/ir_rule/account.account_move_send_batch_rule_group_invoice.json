@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 623,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      23
+    ],
+    "model_id": [
+      1384,
+      "Account Move Send Batch Wizard"
+    ],
+    "name": "Readonly Invoice Send and Print (batch)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3ebc98e099ec6c48af523bb83f686e61920442968c848c1627bf155abffc5abd",
+  "write_date": "2025-01-28 01:22:42",
+  "xml_id": "account.account_move_send_batch_rule_group_invoice"
+}

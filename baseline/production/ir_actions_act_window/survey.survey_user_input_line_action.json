@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 963,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_survey': True, 'search_default_group_by_user_input': True}",
+    "domain": "[('survey_id.survey_type', 'in', ('assessment', 'custom', 'live_session', 'survey'))]",
+    "name": "Detailed Answers",
+    "res_model": "survey.user_input.line",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "5f9ba1761bb07f0ec7bf57a7deffeeb7e33321b6c8feba8b790fd27f812a86d3",
+  "write_date": "2026-01-28 12:01:51",
+  "xml_id": "survey.survey_user_input_line_action"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 400,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n    'default_composition_mode': 'comment',\n                }",
+    "domain": false,
+    "name": "Send email",
+    "res_model": "mail.compose.message",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "75a9b2ccaa71bc63eae4135f2e6503d98dd7a19f0e83830946678d3980370321",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.action_lead_mail_compose"
+}

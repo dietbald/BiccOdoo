@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 584,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('group_ids', '=', False), ('group_ids', 'in', user.all_group_ids.ids)]",
+    "groups": [],
+    "model_id": [
+      685,
+      "Website Menu"
+    ],
+    "name": "Website menu: group_ids",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "48809ddab8b5fdf6b7809e81c72f000005433e0e324fc1034964736ddb1f447a",
+  "write_date": "2024-10-23 10:45:53",
+  "xml_id": "website.website_menu"
+}

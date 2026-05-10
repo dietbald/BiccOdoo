@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 198,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('move_id.move_type', 'in', ('out_invoice', 'out_refund')), '|', ('move_id.invoice_user_id', '=', user.id), ('move_id.invoice_user_id', '=', False)]",
+    "groups": [
+      35
+    ],
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "Personal Invoice Lines",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "230948abfb6add1da51563ef32ce1503c1e430f1812e2f76b21f736432e6e4e2",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.account_invoice_line_rule_see_personal"
+}

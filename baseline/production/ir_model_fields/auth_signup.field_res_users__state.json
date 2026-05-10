@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2729,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b5d08ae79a1c5f79bbbb505ffa1e63ec4539366fed978f930c051c8d90880ff0",
+  "write_date": "",
+  "xml_id": "auth_signup.field_res_users__state"
+}

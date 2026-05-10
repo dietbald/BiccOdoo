@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20574,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "vendor_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "97403c9a88c31458fa0eb8a8e884373d7d5ac92d198ad02927c0f5806925f03c",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__vendor_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10964,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Owner ",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "restrict_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a70b744a456a1bed6a63e4a6671c47d444754c7d0bb931b06dc61ee728631e23",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__restrict_partner_id"
+}

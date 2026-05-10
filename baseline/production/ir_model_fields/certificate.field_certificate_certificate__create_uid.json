@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26366,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2740,
+      "Certificate"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dafd4fc5d9ffa9fe1cccdf952fa02224f1c6ffd37ca52b7ced4e43706744b230",
+  "write_date": "",
+  "xml_id": "certificate.field_certificate_certificate__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2075,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mails",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "mail_ids",
+    "relation": "mail.mail",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d0feb6d90c771e26d4d27ae1b702b4550b4e963b74ced66c880ca7481af8ab21",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__mail_ids"
+}

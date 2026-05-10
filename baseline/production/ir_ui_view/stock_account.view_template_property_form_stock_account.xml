@@ -1,0 +1,3 @@
+<xpath expr="//label[@for='serial_prefix_format']" position="before">
+                    <field name="lot_valuated" widget="confirm_boolean" invisible="tracking == 'none'"/>
+                </xpath>

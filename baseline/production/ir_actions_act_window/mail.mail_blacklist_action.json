@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 139,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": false,
+    "name": "Blacklisted Email Addresses",
+    "res_model": "mail.blacklist",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "3f2350566b20811292685e8c6c91a53dd5ae33ebc7a933b59e8556a908ca7ba6",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.mail_blacklist_action"
+}

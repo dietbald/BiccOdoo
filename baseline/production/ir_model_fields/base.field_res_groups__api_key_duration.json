@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21408,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "API Keys maximum duration days",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "api_key_duration",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "46a41687475edd9b627845038de9e253488b7d063770a96e82664b0a15bb4ef0",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__api_key_duration"
+}

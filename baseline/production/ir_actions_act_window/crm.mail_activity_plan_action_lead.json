@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 408,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'crm.lead'}",
+    "domain": "[('res_model', '=', 'crm.lead')]",
+    "name": "Lead Activity Plans",
+    "res_model": "mail.activity.plan",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "850f2d9c0e9d82ee6d0ecb70d85f35c4cf46dcc671d4c44b54320495fa4385a7",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.mail_activity_plan_action_lead"
+}

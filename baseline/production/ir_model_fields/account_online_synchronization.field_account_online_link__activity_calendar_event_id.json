@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7048,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ed80c1083780cc19a75fe1a94db32b44678daddacb8b9077f20e44b8c7293171",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__activity_calendar_event_id"
+}

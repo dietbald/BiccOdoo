@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 136,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      112,
+      "Upgrade Module"
+    ],
+    "name": "access.base.module.upgrade",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "554ea9b0833fb2903a21bf3f65e86c6cae5b1a27413bf7adc0bd0e3f39fe5c4d",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_base_module_upgrade"
+}

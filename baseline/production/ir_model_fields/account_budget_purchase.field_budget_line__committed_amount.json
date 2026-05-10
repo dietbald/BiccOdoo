@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20763,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Committed",
+    "model_id": [
+      555,
+      "Budget Line"
+    ],
+    "name": "committed_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "8a53df690322139839778059be83bb5f0234a007f39e3aee71a620f664dcf571",
+  "write_date": "",
+  "xml_id": "account_budget_purchase.field_budget_line__committed_amount"
+}

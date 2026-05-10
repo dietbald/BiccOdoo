@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15511,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d94bc23873ef2323a96c7b8f00e594714af7636548636525c8fb43fad17615a4",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__company_id"
+}

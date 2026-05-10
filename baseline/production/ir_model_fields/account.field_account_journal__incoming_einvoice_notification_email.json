@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27510,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send Copy To",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "incoming_einvoice_notification_email",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "9775d401a6b901efc7e04154e3f0788389cb71b7b36408143c1377761baa597c",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__incoming_einvoice_notification_email"
+}

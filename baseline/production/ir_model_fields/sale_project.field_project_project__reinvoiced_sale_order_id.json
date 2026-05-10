@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23803,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Order",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "reinvoiced_sale_order_id",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "64344aec3e6e7270fc140c7c9e09d633e1d93dce2c0ea471f8fdf3bd271297a4",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_project__reinvoiced_sale_order_id"
+}

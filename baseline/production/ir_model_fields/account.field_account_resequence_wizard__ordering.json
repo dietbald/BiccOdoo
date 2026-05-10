@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5260,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ordering",
+    "model_id": [
+      456,
+      "Remake the sequence of Journal Entries."
+    ],
+    "name": "ordering",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "1dfe60ca4cf41b8280fa7282d9c74442c89e6162675a5ee65cc092a1e1e69efe",
+  "write_date": "",
+  "xml_id": "account.field_account_resequence_wizard__ordering"
+}

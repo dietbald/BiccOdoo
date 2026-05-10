@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ee67c47ea613070cf8c900c64305552f7c2a2ca1ad6319d111286880df0a690f",
+  "write_date": "",
+  "xml_id": "quality.field_quality_check__activity_calendar_event_id"
+}

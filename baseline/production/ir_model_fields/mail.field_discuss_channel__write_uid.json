@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2400,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4bbf20721b6fc4bc781977364f5a266320cf0ce3e2ed7076cdb0dfb9133b9f0e",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__write_uid"
+}

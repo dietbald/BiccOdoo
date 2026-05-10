@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19096,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "63e0103c014275ba4dbb4171426440d4bf9931a07efeb9ebf238fba8526112a1",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__message_has_sms_error"
+}

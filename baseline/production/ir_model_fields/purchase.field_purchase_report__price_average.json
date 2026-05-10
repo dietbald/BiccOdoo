@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9520,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Average Cost",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "price_average",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "468ff18941a77a16d270fed561cde640cc86247da8d2c0900ebe0c2d9e667015",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__price_average"
+}

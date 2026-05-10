@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Lock Date Message",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "tax_lock_date_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "e2074ff2b7e8d68f5ed500cb5029e5446b615ee1735bd1265380a64702b23215",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__tax_lock_date_message"
+}

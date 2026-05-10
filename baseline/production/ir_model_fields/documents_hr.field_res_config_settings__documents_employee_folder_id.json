@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28302,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees Folder",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "documents_employee_folder_id",
+    "relation": "documents.document",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d8b6e71b87d31981d6f07ac26535955d565904cdf63c064a60daf90620be83c1",
+  "write_date": "",
+  "xml_id": "documents_hr.field_res_config_settings__documents_employee_folder_id"
+}

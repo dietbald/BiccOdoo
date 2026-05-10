@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2486,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Message",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "parent_id",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "16b4cd3331a70bf54ac1c1e6b6775681d111af1f1a759dfbcf7dbc2de4267d53",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__parent_id"
+}

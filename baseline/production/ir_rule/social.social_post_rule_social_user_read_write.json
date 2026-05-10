@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 507,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      133
+    ],
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "Social: user: read/create/write all posts",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "80219d2a26c31d2bce04ed9d6c5d5d602ccebbd3ac5594a268e9603ea77e44b0",
+  "write_date": "2024-05-05 13:13:20",
+  "xml_id": "social.social_post_rule_social_user_read_write"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1439,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      979,
+      "Line of issue consumption"
+    ],
+    "name": "access.mrp.consumption.warning.line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f793e394f0d0dcdc6fad23ad3021024be82adcf2df59f1310e28b39a700a3711",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_consumption_warning_line"
+}

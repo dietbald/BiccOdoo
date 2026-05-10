@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1206,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      107,
+      "Planning / Administrator"
+    ],
+    "model_id": [
+      881,
+      "Planning Role"
+    ],
+    "name": "planning.role.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "00e3f8c02dee7d67e3e07f56c7168436e4243fcaa8955d7037aab8c59474385d",
+  "write_date": "2025-12-09 02:59:29",
+  "xml_id": "planning.access_planning_role_manager"
+}

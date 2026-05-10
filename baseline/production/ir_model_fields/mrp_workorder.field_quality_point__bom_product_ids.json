@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16862,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bom Product",
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "bom_product_ids",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7633f35b9a0a7a18c62d95544d3cc9b685cae271851674279254e0caab53eeff",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_point__bom_product_ids"
+}

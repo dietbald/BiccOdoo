@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21252,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1286,
+      "Refuse an Offer"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bec56855b3dc654b4ba1dd245ed0b6f4ea371b42965b9facffa2807306fbe2ca",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_refuse_offer_wizard__write_uid"
+}

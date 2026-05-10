@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 158,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id)]",
+    "groups": [
+      40
+    ],
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "Project/Task Type: write own stages",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0c4bafa41407bfa8f603d0f247f662fe0156d3ce4aa4a372c704301a54525e73",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.task_type_own_write_rule"
+}

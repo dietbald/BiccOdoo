@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 43,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_reminder()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "Sign: Send mail reminder",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "40afbf65697b95af607985dad0702dc4c27cf7a6cb294b40eabf66e15c566013",
+  "write_date": "2025-12-09 02:56:25",
+  "xml_id": "sign.sign_reminder_cron"
+}

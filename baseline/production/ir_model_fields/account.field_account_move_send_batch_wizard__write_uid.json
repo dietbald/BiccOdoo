@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22303,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1384,
+      "Account Move Send Batch Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "59dc97108b3b4f18ee144d01ff9b7804b540d84bf709775b8fa1c5e7c33f8ad8",
+  "write_date": "",
+  "xml_id": "account.field_account_move_send_batch_wizard__write_uid"
+}

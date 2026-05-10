@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8054,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start date",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "planned_date_begin",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "362b428e7a808dd971c1c0f140bb08d0789434a104b53dbed89ce0e9b836392c",
+  "write_date": "",
+  "xml_id": "project_enterprise.field_project_task__planned_date_begin"
+}

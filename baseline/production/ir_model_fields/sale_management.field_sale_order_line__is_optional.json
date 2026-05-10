@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29545,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Optional Line",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "is_optional",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c85f245585341c75a39a43e1aabe07d1a4a126b41f7221a8bacd6bdda8cd1f6b",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_line__is_optional"
+}

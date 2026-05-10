@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 577,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_partner_id': active_id, 'default_move_type': 'in_invoice', 'default_partner_id': active_id}",
+    "domain": "[('move_type','in',('in_invoice', 'in_refund'))]",
+    "name": "Vendor Bills",
+    "res_model": "account.move",
+    "target": "current",
+    "view_mode": "list,form,graph"
+  },
+  "payload_sha256": "a81cae70f7f703990a310a0d1d24197da0c0e0d39685c1e18469e0c2f5c7e6f3",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.act_res_partner_2_supplier_invoices"
+}

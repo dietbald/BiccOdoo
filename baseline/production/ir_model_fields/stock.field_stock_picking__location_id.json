@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11259,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Location",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "location_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "49ae3a4c4bbbd774b0a0a0064080b21e23ff3e807f3a65353375ccc2ba780e33",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__location_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4455,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Originator Tax Distribution Line",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "tax_repartition_line_id",
+    "relation": "account.tax.repartition.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9c1aeab30affdcdb555a9a5ba49265cabf8f4f8933434171a3f8dd464ab4b368",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__tax_repartition_line_id"
+}

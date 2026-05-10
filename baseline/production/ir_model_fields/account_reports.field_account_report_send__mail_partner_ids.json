@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23533,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      1457,
+      "Account Report Send"
+    ],
+    "name": "mail_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8dc4b0c1676ff82936913150db73ec31e51ecc218237d15947cfe8c7d50aade6",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_send__mail_partner_ids"
+}

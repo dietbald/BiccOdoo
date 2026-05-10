@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1084,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "['|', ('bom_id', '=', False), ('bom_id.active', '=', True)]",
+    "name": "Operations",
+    "res_model": "mrp.routing.workcenter",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "7359a78a9854a0cdfeafddb5c4f84ba348f9872c650d6a6b17acaec2dcb63b4d",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.mrp_routing_action"
+}

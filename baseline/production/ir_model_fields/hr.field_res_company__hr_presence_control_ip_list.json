@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8967,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Valid IP addresses",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "hr_presence_control_ip_list",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ef0675fe7cc0d5b1346536d1b139b922c0b5bb616723dec36064146b85cd6b09",
+  "write_date": "",
+  "xml_id": "hr.field_res_company__hr_presence_control_ip_list"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 185,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('order_id.partner_id','child_of',[user.commercial_partner_id.id])]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "Portal Sales Orders Line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "986abf38cd78580cf6cb077a1fe04603c91e61c3c62cbe50dfbb72c4d117bb17",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.sale_order_line_rule_portal"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4277,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      433,
+      "Payment Terms Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7fb125ee1266436c7aaf38dfc944610662cbefd6d1007238fbdf0f0cefb959a3",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term_line__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13467,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "manager_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8f199c23367225f87c297543165b43826446545c6d6b0ff9766f0e4855577ef6",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_timesheets_analysis_report__manager_id"
+}

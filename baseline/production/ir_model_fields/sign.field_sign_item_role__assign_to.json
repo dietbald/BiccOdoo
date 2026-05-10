@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assign to",
+    "model_id": [
+      714,
+      "Signature Item Role"
+    ],
+    "name": "assign_to",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "662952fb0e528534957b41841ebff3cd5b92bcb7fb649777cfc5f7b2ccb4706c",
+  "write_date": "",
+  "xml_id": "sign.field_sign_item_role__assign_to"
+}

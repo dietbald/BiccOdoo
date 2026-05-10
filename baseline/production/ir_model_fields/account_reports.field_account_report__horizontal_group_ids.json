@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6014,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Horizontal Groups",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "horizontal_group_ids",
+    "relation": "account.report.horizontal.group",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6f3e6cf286c68e85ad6b5a731e38f2545b85b4f234f3864902c34aff55b3d239",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report__horizontal_group_ids"
+}

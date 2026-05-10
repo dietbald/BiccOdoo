@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "cc685ddc5ba38610b2d2ca70c440454ca489fbb30b6bf936fd0a11da8440cbe9",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__message_needaction_counter"
+}

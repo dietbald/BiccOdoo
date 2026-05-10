@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30016,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3861,
+      "Attachment Chunks Embedding"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7f3c6e2f83f5c84806eee25532304af751e1d562a11544662f058a9b29eba88d",
+  "write_date": "",
+  "xml_id": "ai.field_ai_embedding__create_uid"
+}

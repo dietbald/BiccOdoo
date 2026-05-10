@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16633,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "56c8c1c3f087b947d86ba8316c353ba681c3ca71a5c459281057c43e3afbfdf2",
+  "write_date": "",
+  "xml_id": "quality.field_quality_check__website_message_ids"
+}

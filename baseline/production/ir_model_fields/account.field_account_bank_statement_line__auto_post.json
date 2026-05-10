@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4815,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-post",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "auto_post",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2a9fef96ea22803893b6d54d8d4e77101d2a116df61a2221c5b29b1d32ab184b",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__auto_post"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2088,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      3862,
+      "Prompt that can be attached to AI UI rules for quick access by the user."
+    ],
+    "name": "ai.access_ai_prompt_button_admin.button",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "03671d2a929f8d89913d33af1c8fd48dbb0bda907a52d636a5f5b856e23aa5fa",
+  "write_date": "2025-12-09 03:01:20",
+  "xml_id": "ai.access_ai_prompt_button_admin"
+}

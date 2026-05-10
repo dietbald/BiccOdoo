@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "083bc325e65344f36395e0e39864af1eea872a6c89b875e89f7ad9397f78b1f9",
+  "write_date": "",
+  "xml_id": "account.field_res_company__message_ids"
+}

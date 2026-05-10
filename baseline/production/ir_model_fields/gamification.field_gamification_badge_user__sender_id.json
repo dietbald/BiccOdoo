@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14502,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sender",
+    "model_id": [
+      910,
+      "Gamification User Badge"
+    ],
+    "name": "sender_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "df3c8e53fff70db2a69393c98fcb2966ed7a5471b198bdf805657608c6148762",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge_user__sender_id"
+}

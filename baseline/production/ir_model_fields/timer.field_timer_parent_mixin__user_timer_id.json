@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27277,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User Timer",
+    "model_id": [
+      3113,
+      "Parent Timer Mixin"
+    ],
+    "name": "user_timer_id",
+    "relation": "timer.timer",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9640a5abbba28165961f3a0d8ca7d9bfdf3271b67f8f5d36b1b63c7cfc5466d8",
+  "write_date": "",
+  "xml_id": "timer.field_timer_parent_mixin__user_timer_id"
+}

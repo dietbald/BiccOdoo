@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 55,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_update()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "Gamification: Goal Challenge Check",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "48b5a7c9445e76703de13915a161669ddd6b63d45057ef1efd07f43dc55ce09d",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "gamification.ir_cron_check_challenge"
+}

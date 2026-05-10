@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13862,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is This Shift In The Past?",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "is_past",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ce405da224980088ddd0e35b8fc3204a43a1c243943e548dd4bc761ff6f5a428",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__is_past"
+}

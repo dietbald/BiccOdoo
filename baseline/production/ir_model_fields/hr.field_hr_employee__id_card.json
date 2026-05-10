@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ID Card Copy",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "id_card",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "528967649373b1b1001b61a1cf2cb4fd782266c8ff39ebf7d8c4c75ef2602938",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__id_card"
+}

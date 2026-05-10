@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1034,
+      "Revoke YouTube Account"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2104db565d2f5b007ac8f8c45ccc7de8d3930baf1935190b7267c1cda5fa497b",
+  "write_date": "",
+  "xml_id": "social_youtube.field_social_account_revoke_youtube__create_uid"
+}

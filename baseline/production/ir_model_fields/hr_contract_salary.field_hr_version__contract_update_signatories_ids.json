@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21073,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Update Signatories",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "contract_update_signatories_ids",
+    "relation": "hr.contract.signatory",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "15234ea59863bea5f034bcd34acf35c030faf5482439b07ea13f7e20bfa0e0b7",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_version__contract_update_signatories_ids"
+}

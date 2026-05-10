@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13081,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "28d02179edf551cfb251c88358196c3002191e35e306d8a98c968be7206f740b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__rating_ids"
+}

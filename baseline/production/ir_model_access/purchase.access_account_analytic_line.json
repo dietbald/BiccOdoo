@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 821,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      57,
+      "Purchase / User"
+    ],
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "account.analytic.line",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "cbf84e4346b0249b8bae28e60b96415ab9af8fceca455f8f32dbac90e7ffb502",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_account_analytic_line"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1312,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      114,
+      "Language Export"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5626b4c37afe16fa1fa4fdc16f86506ba5e2e854575ccef387427e5b9c9e1570",
+  "write_date": "",
+  "xml_id": "base.field_base_language_export__create_uid"
+}

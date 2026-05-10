@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2483,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use template",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "97c5ff897fb3d740c702030ba393e290cf1cd463de2e6119f67f840790ee5561",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__template_id"
+}

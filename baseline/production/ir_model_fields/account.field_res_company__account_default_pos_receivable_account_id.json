@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4983,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default PoS Receivable Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_default_pos_receivable_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f1eee9709d762a267fe3ba13049fd2d9f693b729d3673eb09f48c5dcd43b2fc0",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_default_pos_receivable_account_id"
+}

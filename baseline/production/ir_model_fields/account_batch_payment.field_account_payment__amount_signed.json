@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Signed",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "amount_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "76afd4dab70a265e2569dc9f4f44b650f305d5745de83f3f45e6b20c45c2d9e6",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_payment__amount_signed"
+}

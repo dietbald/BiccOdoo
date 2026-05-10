@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4037,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Account",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "default_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "730ea3bc0875e6dfdf81555a4a0341c8bcb44bf2848c3e1bad36f74355426aa9",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__default_account_id"
+}

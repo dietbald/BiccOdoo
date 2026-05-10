@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17321,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subcontractor",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "is_subcontractor",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "13929fc155cd4f6629760d12ed2bda4c1ad1515a62bb53f8de4f0404c0951d0b",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_res_partner__is_subcontractor"
+}

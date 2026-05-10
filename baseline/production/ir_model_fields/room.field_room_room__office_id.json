@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16794,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Office",
+    "model_id": [
+      995,
+      "Room"
+    ],
+    "name": "office_id",
+    "relation": "room.office",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "61563bc8e71c692e40c6fd60162c0da0e04524f1d6d56ac0728bf44a350e09f1",
+  "write_date": "",
+  "xml_id": "room.field_room_room__office_id"
+}

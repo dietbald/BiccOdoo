@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 536,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      33,
+      "Documents / User"
+    ],
+    "model_id": [
+      549,
+      "Create a dashboard from a spreadsheet document"
+    ],
+    "name": "access_spreadsheet_document_to_dashboard_documents_user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0db2494002ca238bb72bc41927201b84dfcd83a99452b8c3a932542ca92a43d6",
+  "write_date": "2025-12-09 02:59:43",
+  "xml_id": "spreadsheet_dashboard_documents.access_spreadsheet_document_to_dashboard_documents_user"
+}

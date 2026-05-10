@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2414,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      204,
+      "Metadata for voice attachments"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8477efdd48a45773053c29b5f9c19912a0d9611e75a52652585d72496fc67b87",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_voice_metadata__write_uid"
+}

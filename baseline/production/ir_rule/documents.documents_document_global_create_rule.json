@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 624,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '|', ('folder_id.user_permission', '=', 'edit'), ('folder_id', '=', False),\n            ]",
+    "groups": [],
+    "model_id": [
+      537,
+      "Document"
+    ],
+    "name": "Documents.document: global create rule",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6a98c3c8761096a7af29d5d4a68e0c1a964a4af1871538638248b90a560ab7de",
+  "write_date": "2025-12-09 02:56:48",
+  "xml_id": "documents.documents_document_global_create_rule"
+}

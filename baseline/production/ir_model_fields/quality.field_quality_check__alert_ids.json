@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16647,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alerts",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "alert_ids",
+    "relation": "quality.alert",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5b2b6b0d5fefe5300462103a07cd39f3f89c61235f776b9cac906a952baec2f9",
+  "write_date": "",
+  "xml_id": "quality.field_quality_check__alert_ids"
+}

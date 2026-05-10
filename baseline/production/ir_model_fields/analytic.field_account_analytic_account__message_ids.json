@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2660,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f800ac61fc4a484838946a028677875562070592e60ed24a5f4e37e42d47aa6e",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_account__message_ids"
+}

@@ -1,0 +1,8 @@
+<search string="Assets">
+                <field name="name"/>
+                <field name="bundle"/>
+                <field name="directive"/>
+                <field name="sequence"/>
+                <field name="path"/>
+                <filter string="Active" name="active" domain="[('active', '=', True)]"/>
+            </search>

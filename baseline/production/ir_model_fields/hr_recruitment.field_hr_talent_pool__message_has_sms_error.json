@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26114,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      2701,
+      "Talent Pool"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "43adb42cdbdf80af30b08052583ef104750d2d6c33e1c2ee7f78993ef9674852",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_talent_pool__message_has_sms_error"
+}

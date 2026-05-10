@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11232,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c77afd4c83a8917f46ecd0f6fa88395571c9e95f10ccace10c9fe323e60a90f7",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__message_needaction"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23825,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Analytic Costs",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "analytic_costs",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b6a97dd95a4af7bbc35011aeb19835073282d1f0dc5544fb608411d9edee8536",
+  "write_date": "",
+  "xml_id": "project_stock_account.field_stock_picking_type__analytic_costs"
+}

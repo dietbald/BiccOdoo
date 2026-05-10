@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1842,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "59884e3724223da06e5be93ebfd49b549afe3a5be7b552452130571382ad91f0",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__create_date"
+}

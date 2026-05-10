@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4711,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      440,
+      "Payment Methods"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cd6fb0a6b3913d7af929ac851c1fe52e134b1e704cd6d84e3bc39c2fad903758",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_method_line__journal_id"
+}

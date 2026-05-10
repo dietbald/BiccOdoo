@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10404,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Permit Expiry Notice Period",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "work_permit_expiration_notice_period",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "9e782ac3ae3a64a19803b9c140bc81fcb121245563744cf7012e0d91896c87d2",
+  "write_date": "",
+  "xml_id": "hr.field_res_company__work_permit_expiration_notice_period"
+}

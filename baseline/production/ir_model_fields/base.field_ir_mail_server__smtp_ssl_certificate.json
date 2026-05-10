@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 577,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SSL Certificate",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "smtp_ssl_certificate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "7bb756920778e783c5c7f92667498fabcd19784b67088884cb8118474169deb6",
+  "write_date": "",
+  "xml_id": "base.field_ir_mail_server__smtp_ssl_certificate"
+}

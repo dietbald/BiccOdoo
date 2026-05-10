@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 92,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('company_id', '=', False), ('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      432,
+      "Payment Terms"
+    ],
+    "name": "Account payment term company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9a51a84c7363bdc263978b968461ca072f4358f29f2f0fc2969a78e0c6911026",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "account.account_payment_term_comp_rule"
+}

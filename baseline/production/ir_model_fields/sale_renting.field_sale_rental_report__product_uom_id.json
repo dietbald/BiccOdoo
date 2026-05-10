@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26610,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3fcf3ad540241262c5ec5877ea625e1337ae86aa4ad442bd4ba3d5d2505754ac",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_rental_report__product_uom_id"
+}

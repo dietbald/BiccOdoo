@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9254,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Expense Journal",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "expense_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ba645d292790c80714aa43bdd8bb1d16225b9ade070bb625317d242f472b02c1",
+  "write_date": "",
+  "xml_id": "hr_expense.field_res_config_settings__expense_journal_id"
+}

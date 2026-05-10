@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 148,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      122,
+      "Base Import"
+    ],
+    "name": "access.base_import.import",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "260bfd792595fbac698bd5b7b00a688afc8d234a7bb336f42a988488a8a0215e",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "base_import.access_base_import_import"
+}

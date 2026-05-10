@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13294,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9fd3dc10cf821a09642f359adc970560ded09c55a0412555435b8fc1e5b9d794",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__message_partner_ids"
+}

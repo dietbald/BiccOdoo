@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22401,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Link Access Rights",
+    "model_id": [
+      537,
+      "Document"
+    ],
+    "name": "access_via_link",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2d80e90c9eb35054002cf91ace628fa6ef4127f20063484d83bfd95aa6a2449a",
+  "write_date": "",
+  "xml_id": "documents.field_documents_document__access_via_link"
+}

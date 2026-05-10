@@ -1,0 +1,14 @@
+<search string="Products Price Rules Search">
+                <filter name="Product Rule" domain="[('applied_on', '=', '1_product')]"/>
+                <filter name="Variant Rule" domain="[('applied_on', '=', '0_product_variant')]" groups="product.group_product_variant"/>
+                <separator/>
+                <field name="pricelist_id" groups="product.group_product_pricelist"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <field name="currency_id" groups="base.group_multi_currency"/>
+                <filter string="Active" name="visible" domain="[('pricelist_id.active', '=', True)]"/>
+                <group>
+                    <filter string="Product" name="groupby_product" context="{'group_by': 'product_tmpl_id'}"/>
+                    <filter string="Variant" name="groupby_product_variant" domain="[('applied_on', '=', '0_product_variant')]" context="{'group_by': 'product_id'}" groups="product.group_product_variant"/>
+                    <filter string="Pricelist" name="groupby_vendor" context="{'group_by': 'pricelist_id'}" groups="product.group_product_pricelist"/>
+                </group>
+            </search>

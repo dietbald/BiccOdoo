@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Average Cost",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "avg_cost",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "bbff2d9ea1fa3dce79540a158133c0d7556df0dfce3768fa9e9ab5c63a44909f",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_lot__avg_cost"
+}

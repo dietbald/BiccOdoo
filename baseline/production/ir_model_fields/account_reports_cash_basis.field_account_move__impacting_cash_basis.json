@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14398,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Impacting Cash Basis",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "impacting_cash_basis",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "75ccf0750d697131ee445045e648a869022db4cac5a198f60dfe431318ace6fb",
+  "write_date": "",
+  "xml_id": "account_reports_cash_basis.field_account_move__impacting_cash_basis"
+}

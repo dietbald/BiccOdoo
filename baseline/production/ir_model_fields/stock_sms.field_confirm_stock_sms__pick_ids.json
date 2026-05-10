@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11938,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pick",
+    "model_id": [
+      780,
+      "Confirm Stock SMS"
+    ],
+    "name": "pick_ids",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "314efc50230e89b97ab9ada5eb5513d8b9c6f1d1234e7f87b7414c6957e01637",
+  "write_date": "",
+  "xml_id": "stock_sms.field_confirm_stock_sms__pick_ids"
+}

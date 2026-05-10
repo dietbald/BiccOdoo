@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7745,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "413bc94c5af103a04a05f77b472dfd34344d909fe84bd9cb7f2b106de07d34eb",
+  "write_date": "",
+  "xml_id": "project.field_project_milestone__website_message_ids"
+}

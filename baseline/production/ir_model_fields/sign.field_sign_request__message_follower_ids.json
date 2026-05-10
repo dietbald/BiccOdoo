@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10492,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "317c1ec90b0b213edc9cd6e6c3c24c2f8a09f8f18b8ddd310dc3dee992bd9475",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request__message_follower_ids"
+}

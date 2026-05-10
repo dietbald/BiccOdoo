@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12918,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Queued For Pdf",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "queued_for_pdf",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "374fb5a910167cb8df1fff8892bbeefca02c02c39b6d77047d3c2c214dd7fd9b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__queued_for_pdf"
+}

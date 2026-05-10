@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 561,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_sale_order_id': active_id}",
+    "domain": "[('sale_order_id', '=', active_id)]",
+    "name": "Expenses",
+    "res_model": "hr.expense",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "e4b36ac5e0d24238415c6d5071e792e078937c866aa8bb74e62983a0f8ada83c",
+  "write_date": "2025-12-09 03:00:29",
+  "xml_id": "sale_expense.hr_expense_action_from_sale_order"
+}

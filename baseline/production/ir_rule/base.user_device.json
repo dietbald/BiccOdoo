@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 564,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1128,
+      "Devices"
+    ],
+    "name": "Users can read only their own devices",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4d57b661dd0f4e43f9963e9238be2669afd349bddcb0c6224b40d295ba7d684a",
+  "write_date": "2024-10-23 10:42:37",
+  "xml_id": "base.user_device"
+}

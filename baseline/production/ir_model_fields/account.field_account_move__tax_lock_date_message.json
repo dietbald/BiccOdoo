@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4399,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Lock Date Message",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "tax_lock_date_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "fd271dcc4600dcf543e3136b7b3c4ffc65296d2d66347c2c6919cfd2ccee7919",
+  "write_date": "",
+  "xml_id": "account.field_account_move__tax_lock_date_message"
+}

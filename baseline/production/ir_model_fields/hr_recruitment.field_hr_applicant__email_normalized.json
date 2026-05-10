@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9607,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Normalized Email",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "email_normalized",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "64cb2f7737e839884fca450f0c8188aa8e6bc8622e0c25371496214f3dc1b651",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__email_normalized"
+}

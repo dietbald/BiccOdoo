@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19421,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Path to show in the URL",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "path",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ce9a859f8a4628d6534ae196c1524201f35eb964c7fb711696cd1f20ced3ebfc",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__path"
+}

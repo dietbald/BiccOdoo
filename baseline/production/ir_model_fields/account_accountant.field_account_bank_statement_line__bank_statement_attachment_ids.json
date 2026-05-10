@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24983,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bank Statement Attachment",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "bank_statement_attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ebe3d30e4fc4c49462ddceed7c201f35b1993d2f95dd4002c0179f88b174bb44",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_bank_statement_line__bank_statement_attachment_ids"
+}

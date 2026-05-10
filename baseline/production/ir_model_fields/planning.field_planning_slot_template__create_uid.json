@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      883,
+      "Shift Template"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78332b026d0608898e26fcc0b840d4474ae563cc4bb68ae66295944b5db5faad",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot_template__create_uid"
+}

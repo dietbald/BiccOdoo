@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21550,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is a note",
+    "model_id": [
+      1329,
+      "Scheduled Message"
+    ],
+    "name": "is_note",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d530b235fe8aed2340c40b04b398af7e4633e6c0e83de327f69743aaae4182a4",
+  "write_date": "",
+  "xml_id": "mail.field_mail_scheduled_message__is_note"
+}

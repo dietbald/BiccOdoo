@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21720,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Combo Choices",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "combo_ids",
+    "relation": "product.combo",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "bd3c6bc04246a1eef7f441ceb684ef32b0f938043488428bad320d71dc411bbe",
+  "write_date": "",
+  "xml_id": "product.field_product_product__combo_ids"
+}

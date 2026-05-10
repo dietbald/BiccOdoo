@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19085,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "18ff89172ad5513c82a3adfe79833d54df408749aacc45053251197250faee6c",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__message_follower_ids"
+}

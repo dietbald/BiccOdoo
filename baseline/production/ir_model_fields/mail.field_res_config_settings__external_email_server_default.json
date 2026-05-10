@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2265,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use Custom Email Servers",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "external_email_server_default",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bb0fe5be4dce52e82d901d9fc7f67cc731b0c78fc07810c9b2e3696beec90375",
+  "write_date": "",
+  "xml_id": "mail.field_res_config_settings__external_email_server_default"
+}

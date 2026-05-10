@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1430,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      971,
+      "Unbuild Order"
+    ],
+    "name": "mrp.unbuild",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7d6b3095cce2123d9215d355ee230b5e211c1b68d6c65e885adfc81d0ff83fa3",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_unbuild"
+}

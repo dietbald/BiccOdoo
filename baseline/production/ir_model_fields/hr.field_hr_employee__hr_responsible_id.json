@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "HR Responsible",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "hr_responsible_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8745f018b86a4b203fe6b4dd01cc869c579f697514f43382f3c5dfbc74af736f",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__hr_responsible_id"
+}

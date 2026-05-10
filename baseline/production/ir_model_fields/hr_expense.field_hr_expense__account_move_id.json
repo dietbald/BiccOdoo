@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Entry",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "account_move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4c7136de6045eade8cefcaefd6d7944c5fe7099033b4e0de29179c41cdc8d9b2",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__account_move_id"
+}

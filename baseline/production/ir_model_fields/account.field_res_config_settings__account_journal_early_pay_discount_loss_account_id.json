@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5058,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Early Discount Loss",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_journal_early_pay_discount_loss_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0a7f816057975d20a053fe2ec855bd37b7a95fbb63d1c87b54e1150cadbc45bd",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__account_journal_early_pay_discount_loss_account_id"
+}

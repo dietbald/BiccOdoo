@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4222,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Label Parameter",
+    "model_id": [
+      431,
+      "Preset to create journal entries during a invoices and payments matching"
+    ],
+    "name": "match_label_param",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8b08d765736a7e899d9e2e9eb1c6b9f5ce201e693d468ea2bbec95c4252bb14d",
+  "write_date": "",
+  "xml_id": "account.field_account_reconcile_model__match_label_param"
+}

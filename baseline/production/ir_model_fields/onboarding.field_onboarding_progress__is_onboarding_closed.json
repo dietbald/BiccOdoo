@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1577,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Was panel closed?",
+    "model_id": [
+      138,
+      "Onboarding Progress Tracker"
+    ],
+    "name": "is_onboarding_closed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5d1244720031a27010d84010343336598178e03ce70ab0489e9e33655fa9b45c",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_progress__is_onboarding_closed"
+}

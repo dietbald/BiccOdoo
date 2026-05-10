@@ -1,0 +1,12 @@
+<data><field name="activity_state" position="after">
+                <field name="product_pricing_ids"/>
+            </field>
+            <field name="list_price" position="replace">
+                <t t-if="record.product_pricing_ids.value">
+                  <field name="display_price"/>
+                </t>
+                <t t-else="">
+                    <field name="list_price" widget="monetary" options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+                </t>
+            </field>
+        </data>

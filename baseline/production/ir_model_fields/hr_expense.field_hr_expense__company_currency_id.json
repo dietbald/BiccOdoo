@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9171,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report Company Currency",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "company_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "abbdab23e1cb6552709d809c0b98981627e5ca77deb31f080f74ac067f8582a1",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__company_currency_id"
+}

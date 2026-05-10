@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7211,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closed Date",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "date_closed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "b0999bde1295b8261477026dff0ce7d0d5eac7867292064b9f2da438f1578be8",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__date_closed"
+}

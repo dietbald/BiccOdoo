@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4010,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "17ec64b342bfa37ac4a110f23a464d3317e0bc74246937d3ded0351206d3f914",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__message_is_follower"
+}

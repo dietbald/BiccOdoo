@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20549,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Roles",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "resource_roles",
+    "relation": "planning.role",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "057229e73f33efe795e49a1b70536fce5a4b916bdf02397d0a296b446fb65862",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__resource_roles"
+}

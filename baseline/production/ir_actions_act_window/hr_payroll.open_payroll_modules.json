@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 840,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('name', '=like', 'l10n_%_hr_payroll')]",
+    "name": "Payroll",
+    "res_model": "ir.module.module",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "244c0b5585325cd13eb7526f35ca05c366b7cb0fb9f9acb0dc013858708feb83",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.open_payroll_modules"
+}

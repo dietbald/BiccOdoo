@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8375,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Down Payment Amount (Fixed)",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "fixed_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "45405f1ba9390f6ec000174c34ce30ddb2a537c8add7def54713b5c0376a0063",
+  "write_date": "",
+  "xml_id": "sale.field_sale_advance_payment_inv__fixed_amount"
+}

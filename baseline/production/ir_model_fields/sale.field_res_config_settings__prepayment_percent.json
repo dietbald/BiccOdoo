@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8353,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Prepayment percentage",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "prepayment_percent",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a95ffe22ca4e0fd44b4704368b8a8e1ede6253ef7dd101d2ad4c0503991c7681",
+  "write_date": "",
+  "xml_id": "sale.field_res_config_settings__prepayment_percent"
+}

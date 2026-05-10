@@ -1,0 +1,6 @@
+<xpath expr="//field[@name='test_type_id']" position="before">
+                <field name="measure_on" optional="show"/>
+                <field name="measure_frequency_type" optional="hide"/>
+                <field name="is_lot_tested_fractionally" optional="hide"/>
+                <field name="testing_percentage_within_lot" optional="hide" string="Testing % Within Lot"/>
+            </xpath>

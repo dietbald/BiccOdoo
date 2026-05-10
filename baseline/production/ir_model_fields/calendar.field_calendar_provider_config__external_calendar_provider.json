@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7018,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Choose an external calendar to configure",
+    "model_id": [
+      570,
+      "Calendar Provider Configuration Wizard"
+    ],
+    "name": "external_calendar_provider",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "35b82dc5a0eb353fb2be1b141e1196e1391afe171a1485d6d60aaab1a8023f54",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_provider_config__external_calendar_provider"
+}

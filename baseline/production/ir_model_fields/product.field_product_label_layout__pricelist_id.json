@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3282,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pricelist",
+    "model_id": [
+      380,
+      "Choose the sheet layout to print the labels"
+    ],
+    "name": "pricelist_id",
+    "relation": "product.pricelist",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7a0a7d5085954b22f3c3f210adaf44c94fd38ec8d8b59111079756538e52ccca",
+  "write_date": "",
+  "xml_id": "product.field_product_label_layout__pricelist_id"
+}

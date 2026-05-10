@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10054,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2085e19a211b5e87e19020d64726e1710fc3d8121173939c7c11d5ba4641a55e",
+  "write_date": "",
+  "xml_id": "website.field_res_company__website_id"
+}

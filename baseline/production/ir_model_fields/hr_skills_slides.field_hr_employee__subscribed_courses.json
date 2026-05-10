@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24437,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "eLearning Courses",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "subscribed_courses",
+    "relation": "slide.channel",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "389eb6bb68cf369bfa542b55fa44b00a0775adea7316808bfce28f9933c8b985",
+  "write_date": "",
+  "xml_id": "hr_skills_slides.field_hr_employee__subscribed_courses"
+}

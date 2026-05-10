@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22833,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extra Hours Validation",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "attendance_overtime_validation",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ca5cc0ba569a476cf81a92951ad432ac36b9cd98a80f2fdcd002aac21aa25195",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_res_company__attendance_overtime_validation"
+}

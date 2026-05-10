@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Shop Floor",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_mrp_wo_shop_floor",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5923d54499a3862126aa8ce4186588a96d161eb03c8b341c6e922c88307a962d",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_res_config_settings__group_mrp_wo_shop_floor"
+}

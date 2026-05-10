@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "View Ref.",
+    "model_id": [
+      20,
+      "Action Window"
+    ],
+    "name": "view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f42ea32ab15b91d9a572a38d7a475d20353e20c05ebc8a2df279b4ba3cbbcc85",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_act_window__view_id"
+}

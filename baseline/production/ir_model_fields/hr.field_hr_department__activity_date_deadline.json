@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22466,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "afdd17fb5537dff8078503843927f7bcea6d4e4ebad6861ba8a7a707bfc830d4",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__activity_date_deadline"
+}

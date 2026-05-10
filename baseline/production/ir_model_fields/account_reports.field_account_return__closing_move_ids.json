@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28918,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closing Move",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "closing_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "faf7d9cf9ef8eb4b3a6c4d58ee6bb294c54bbeed6d326cc433f32bb5563e2764",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__closing_move_ids"
+}

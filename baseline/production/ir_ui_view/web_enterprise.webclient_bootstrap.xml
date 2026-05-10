@@ -1,0 +1,5 @@
+<data inherit_id="web.webclient_bootstrap">
+        <xpath expr="//meta[@name='theme-color']" position="replace">
+            <meta name="theme-color" t-att-content="'#242733' if color_scheme == 'dark' else '#714B67'"/>
+        </xpath>
+    </data>

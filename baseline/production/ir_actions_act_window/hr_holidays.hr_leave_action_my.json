@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1019,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\"search_default_group_date_from\": True}",
+    "domain": "[('user_id', '=', uid)]",
+    "name": "My Time Off",
+    "res_model": "hr.leave",
+    "target": "current",
+    "view_mode": "list,form,kanban,activity"
+  },
+  "payload_sha256": "a61228c0127ff3801ef370860b1d46803f688dc04144ed8c05c14ab07605f2b9",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.hr_leave_action_my"
+}

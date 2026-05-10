@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 172,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      41
+    ],
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "Burndown chart: project visibility User",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b40e518e3aa3c8042d11ecf88fa1105b4ee16707860c6dcf0e9a3fa8d9d433e5",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.burndown_chart_project_manager_rule"
+}

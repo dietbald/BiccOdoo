@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rule",
+    "model_id": [
+      929,
+      "Cleaning Record"
+    ],
+    "name": "rule_ids",
+    "relation": "data_cleaning.rule",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8a6e27a91d1a9f52190c8d0426964ae8bef358170a3141c2cab9cc2c7e754cfb",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_cleaning_record__rule_ids"
+}

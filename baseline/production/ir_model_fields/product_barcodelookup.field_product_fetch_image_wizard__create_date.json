@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25857,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      2663,
+      "Fetch product images from Barcode Lookup based on the product's barcode."
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "90729b175b069f983530f19be8d16637d6069155cb47320e460b36b31da9de97",
+  "write_date": "",
+  "xml_id": "product_barcodelookup.field_product_fetch_image_wizard__create_date"
+}

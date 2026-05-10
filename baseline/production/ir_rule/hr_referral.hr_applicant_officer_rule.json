@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 702,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      62
+    ],
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "Officer Applicants",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5d964a94a536ddf8fb42eb72b827655011b8370a5265c4b1f2cee6d5dd3b1bda",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.hr_applicant_officer_rule"
+}

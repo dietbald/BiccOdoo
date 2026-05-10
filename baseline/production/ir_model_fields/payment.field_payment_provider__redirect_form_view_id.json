@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3656,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Redirect Form Template",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "redirect_form_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fc7d7238fef7d59573b41340b4dc74f42ccc5e00777d4336289033f2d39c5e64",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__redirect_form_view_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6822,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Campaign",
+    "model_id": [
+      558,
+      "UTM Mixin"
+    ],
+    "name": "campaign_id",
+    "relation": "utm.campaign",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "11190eaa0ab51ccd36e11402cf785cef5c712ea6592da80efe2da42b0494de00",
+  "write_date": "",
+  "xml_id": "utm.field_utm_mixin__campaign_id"
+}

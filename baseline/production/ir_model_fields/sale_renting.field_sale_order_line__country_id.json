@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29561,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ad10e3a46993f4480027a867d25f13965c206f23f35a02b23b615f41217839af",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order_line__country_id"
+}

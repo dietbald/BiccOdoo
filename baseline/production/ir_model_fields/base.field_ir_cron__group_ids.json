@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 478,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Groups",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "fb64e81f946f214553b429806cc0353dc2b6a1ae29fa3500263338b7efc58e49",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__group_ids"
+}

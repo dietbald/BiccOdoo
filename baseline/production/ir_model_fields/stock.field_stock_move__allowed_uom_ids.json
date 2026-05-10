@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24916,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Uom",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "allowed_uom_ids",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "59e658f6790a31a7943bae0fba060e5c13c92f9a9391e5084c5c09d5202e1ba9",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__allowed_uom_ids"
+}

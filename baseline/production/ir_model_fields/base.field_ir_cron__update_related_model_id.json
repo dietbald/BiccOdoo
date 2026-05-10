@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 481,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Update Related Model",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "update_related_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e2e81760ec9cf61871d7c21e86fb5ff8f7ff448ab4b7d3d6af004423bde60ceb",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron__update_related_model_id"
+}

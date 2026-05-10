@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12125,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0bac80722c77dbccb3633ae87b389bbe35dc920689aa69f15d92e3bd04164d49",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__rating_ids"
+}

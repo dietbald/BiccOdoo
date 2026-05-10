@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10956,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Propagate cancel and split",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "propagate_cancel",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aca68b5200ad9d4ff1011860478b7ae56c6b69698da096f78f9965c4fc9309dd",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__propagate_cancel"
+}

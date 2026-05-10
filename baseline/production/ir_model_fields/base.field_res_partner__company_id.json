@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 911,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "88cb722b0be10fc6e16506c08fd1ad2ca08214b2f8fdfafb0eedc44a18348d25",
+  "write_date": "",
+  "xml_id": "base.field_res_partner__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23717,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Form Fields Included",
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "form_field_ids",
+    "relation": "sale.pdf.form.field",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "972b0feefb09589adbe4ef4932a428ed791f8ede2e237e3df7fdc1b916c606d5",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_product_document__form_field_ids"
+}

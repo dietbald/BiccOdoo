@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Type",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "product_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "08497efc26b76698fd6cefc4ce6aec87d1811b0f7e6e59fe2b82df25cef44dac",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__product_type"
+}

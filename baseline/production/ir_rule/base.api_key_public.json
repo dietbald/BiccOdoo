@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 23,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(0, '=', 1)]",
+    "groups": [
+      11
+    ],
+    "model_id": [
+      102,
+      "Users API Keys"
+    ],
+    "name": "Public users can't interact with keys at all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "984dce4866fc02a47afa2adf12e563314c96f74dc8692075522166b108f2bc62",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.api_key_public"
+}

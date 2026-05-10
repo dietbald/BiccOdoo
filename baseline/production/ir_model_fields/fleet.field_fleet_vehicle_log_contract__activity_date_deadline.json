@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17115,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "a8f330461f66a46083393e747209f263632d08c62884839204441c6667ba7737",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__activity_date_deadline"
+}

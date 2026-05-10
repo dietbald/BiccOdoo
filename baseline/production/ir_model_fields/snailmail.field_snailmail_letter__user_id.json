@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3534,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sent by",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "af4797f4aa7a9ccfa9522ebf228d1ff50f5d2e8dfef784e45a007ac4d3b136b1",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__user_id"
+}

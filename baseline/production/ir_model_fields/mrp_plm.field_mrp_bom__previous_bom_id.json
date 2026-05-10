@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17389,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Previous BoM",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "previous_bom_id",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "102555aed32bc997321fd8cdb9753a7065d45a22c5beda51fc9976287df91654",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_bom__previous_bom_id"
+}

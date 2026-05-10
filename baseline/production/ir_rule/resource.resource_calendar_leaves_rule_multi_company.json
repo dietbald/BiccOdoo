@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 37,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "resource.calendar.leaves: multi-company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ed832ac612dc7f06401ff2af55d11c990fe141ff2fdf87a83a2c24b528951105",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "resource.resource_calendar_leaves_rule_multi_company"
+}

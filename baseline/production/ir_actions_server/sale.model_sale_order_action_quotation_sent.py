@@ -1,0 +1,1 @@
+action = records.action_quotation_sent()

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 901,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      143,
+      "Work Detail"
+    ],
+    "name": "hr.employee.resource.calendar.attendance.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "205af4d49243d6382ef259f818c528a662617558b5964746ec2d474acc49829d",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.access_hr_resource_calendar_attendance_user"
+}

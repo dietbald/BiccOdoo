@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10055,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7eb0b793b0943e52d9c6f4afb5a33a6da476feb0bcbf7d90bddad8d2d9540f4b",
+  "write_date": "",
+  "xml_id": "website.field_res_partner__website_id"
+}

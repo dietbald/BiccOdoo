@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11635,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      758,
+      "Inventory Adjustment Reference / Reason"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "895b14d171c2369b7dc0de7b062dcc3bc6ad2de67bafe295c0461ae86e8eede5",
+  "write_date": "",
+  "xml_id": "stock.field_stock_inventory_adjustment_name__write_uid"
+}

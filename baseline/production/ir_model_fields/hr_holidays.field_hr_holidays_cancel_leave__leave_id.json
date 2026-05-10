@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15785,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off Request",
+    "model_id": [
+      956,
+      "Cancel Time Off Wizard"
+    ],
+    "name": "leave_id",
+    "relation": "hr.leave",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "98df3874e527eb8a48d2b892af02abcab072b423b18dbf1471577106d140cac3",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_holidays_cancel_leave__leave_id"
+}

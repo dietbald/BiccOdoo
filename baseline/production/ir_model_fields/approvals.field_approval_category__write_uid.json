@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12077,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      782,
+      "Approval Category"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b5d2fce09a274c66e05ac6ebba1e36f0b97b37e644de7fb3a03616b6edf0d8fa",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_category__write_uid"
+}

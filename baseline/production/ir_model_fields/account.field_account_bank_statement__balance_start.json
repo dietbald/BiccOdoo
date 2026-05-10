@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4726,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Starting Balance",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "balance_start",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "6344df4894e3532eff389fec1bb5bf1aeb64015b7bc665b35bd9ebc57aad3de3",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement__balance_start"
+}

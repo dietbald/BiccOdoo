@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2006,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      3303,
+      "Contract Template Wizard"
+    ],
+    "name": "access.hr.version.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "820bb14f3401480566b1ee9498158e9c6f9f3f8c64c375b334dcbd333b0ee22f",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.access_hr_version_wizard"
+}

@@ -1,0 +1,22 @@
+<kanban>
+                <templates>
+                    <t t-name="card">
+                        <div class="d-flex">
+                            <div class="d-flex flex-column">
+                                <field name="name" class="fw-bold fs-5"/>
+                                <field name="model_id" class="text-muted o_row"/>
+                            </div>
+                            <field name="status" widget="label_selection" options="{'classes': {'approved': 'success', 'rejected': 'danger'}}" class="ms-auto"/>
+                        </div>
+                        <footer class="mt-1" t-if="!selection_mode">
+                            <div class="d-flex align-items-center">
+                                <field name="quality" widget="priority" readonly="1" class="me-2 lh-1"/>
+                                <field name="create_date" class="me-2"/>
+                                <i class="fa fa-whatsapp me-1" title="Messages Count" aria-label="Messages Count"/>
+                                <field name="messages_count"/>
+                            </div>
+                            <field t-if="!selection_mode" name="allowed_user_ids" widget="many2many_avatar_user" class="ms-auto"/>
+                        </footer>
+                    </t>
+                </templates>
+            </kanban>

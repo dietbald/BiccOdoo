@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27340,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Bookings",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "max_bookings",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "767d5a6c76aaecaa242a15d29f1d805840af288f7be83e970d7a70683d34c154",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__max_bookings"
+}

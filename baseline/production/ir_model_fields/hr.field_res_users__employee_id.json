@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8909,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company employee",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "209b33dd0f5e0ada86a2059d3cadccdb088adf26ef2f99b23a32d65ea2c3f503",
+  "write_date": "",
+  "xml_id": "hr.field_res_users__employee_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6288,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "activity_default_responsible_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "86073c152f193f54fb6d37b8a182b1cb9e06ce9dc05c2d6a9d0cfa42495b464d",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__activity_default_responsible_type"
+}

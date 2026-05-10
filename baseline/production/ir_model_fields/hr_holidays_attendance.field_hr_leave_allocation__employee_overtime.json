@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Overtime",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "employee_overtime",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "522c45640448d129f8c62f001a34f1a0297992c1a405415f281136eb73313e2f",
+  "write_date": "",
+  "xml_id": "hr_holidays_attendance.field_hr_leave_allocation__employee_overtime"
+}

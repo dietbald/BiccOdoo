@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3352,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard",
+    "model_id": [
+      387,
+      "Portal User Config"
+    ],
+    "name": "wizard_id",
+    "relation": "portal.wizard",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b8f6b27cf8ca0fc158c820365951e7364d76b75511a7399fd392e45f4ad792c6",
+  "write_date": "",
+  "xml_id": "portal.field_portal_wizard_user__wizard_id"
+}

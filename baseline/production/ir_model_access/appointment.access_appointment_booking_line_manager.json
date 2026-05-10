@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1349,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      113,
+      "Appointment / Administrator"
+    ],
+    "model_id": [
+      936,
+      "Appointment Booking Line"
+    ],
+    "name": "appointment.booking.line.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9f58a508951e1df8fd40fe8a4c28f801c27e551296fcfaac13f087cfb5de5f40",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.access_appointment_booking_line_manager"
+}

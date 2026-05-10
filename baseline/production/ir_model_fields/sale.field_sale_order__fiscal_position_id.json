@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8181,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Position",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "fiscal_position_id",
+    "relation": "account.fiscal.position",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d67defb4403f42770adec27c15a9119e96cefcaed69292f24fd9b25d33ec305c",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__fiscal_position_id"
+}

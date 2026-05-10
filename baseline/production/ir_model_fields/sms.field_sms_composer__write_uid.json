@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3458,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      397,
+      "Send SMS Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6a1eb63b585f8bcda04d0b7d72b02f4a3d5f352d00270d4d0eb55fb09a9b066c",
+  "write_date": "",
+  "xml_id": "sms.field_sms_composer__write_uid"
+}

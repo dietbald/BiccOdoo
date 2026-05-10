@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4110,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Type",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "type_tax_use",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b81316723d4d634b5beb9828fcbcca94260e32e07aced549a9e8b5efb9ce9aff",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__type_tax_use"
+}

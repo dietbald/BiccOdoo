@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26699,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected Currency Rate",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "expected_currency_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "bf564997576a6a9d67d1cf7030c0eb67308e7a06da9e2ff9904a434fc628dad8",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__expected_currency_rate"
+}

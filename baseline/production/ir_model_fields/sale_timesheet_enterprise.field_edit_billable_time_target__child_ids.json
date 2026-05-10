@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26305,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Direct subordinates",
+    "model_id": [
+      2738,
+      "Edit Billable Time Target wizard from Timesheet for users without employee access"
+    ],
+    "name": "child_ids",
+    "relation": "hr.employee.public",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "98d2ae19514c27b66e6851d6ccb9d58f15ac7ea044a79f6d0e67012ab5d5a98a",
+  "write_date": "",
+  "xml_id": "sale_timesheet_enterprise.field_edit_billable_time_target__child_ids"
+}

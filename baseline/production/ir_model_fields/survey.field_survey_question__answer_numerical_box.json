@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14778,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Correct numerical answer",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "answer_numerical_box",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "5845b804b33e8ae28d0fd7dbe10dd9af7a1f78de1cccd47d731c9d7b0ab54c3e",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__answer_numerical_box"
+}

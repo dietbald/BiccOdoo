@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7619,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task",
+    "model_id": [
+      597,
+      "Task Recurrence"
+    ],
+    "name": "task_ids",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "42a177bc713a8453ad92d41a00ef571a2a1b853d061e09afb2c53ced429dbbcc",
+  "write_date": "",
+  "xml_id": "project.field_project_task_recurrence__task_ids"
+}

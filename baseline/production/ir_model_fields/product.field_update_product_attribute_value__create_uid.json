@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21776,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1350,
+      "Update product attribute value"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78ec5141ba56528fcb9405a974a7841eba6f8b68e1135018547763b836143424",
+  "write_date": "",
+  "xml_id": "product.field_update_product_attribute_value__create_uid"
+}

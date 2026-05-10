@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22307,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Installments Mode",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "installments_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "c2594713b74ab50624261a557acae9019b3ea3f61152ad78d7e97063a4838e29",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__installments_mode"
+}

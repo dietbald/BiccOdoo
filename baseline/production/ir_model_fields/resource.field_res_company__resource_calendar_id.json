@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1636,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Working Hours",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "167e809eef608acc594255ecdcaa6c748bd1e5c06d7971deae22256ce1628f30",
+  "write_date": "",
+  "xml_id": "resource.field_res_company__resource_calendar_id"
+}

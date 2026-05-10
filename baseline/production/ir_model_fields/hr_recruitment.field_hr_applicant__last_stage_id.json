@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9620,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Stage",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "last_stage_id",
+    "relation": "hr.recruitment.stage",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d9d62c95d183660d282dacf5e9c37c5f7df631e23804f1cd748513d8d1407784",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__last_stage_id"
+}

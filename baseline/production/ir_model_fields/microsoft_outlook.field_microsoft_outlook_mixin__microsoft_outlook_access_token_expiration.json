@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21305,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outlook Access Token Expiration Timestamp",
+    "model_id": [
+      1290,
+      "Microsoft Outlook Mixin"
+    ],
+    "name": "microsoft_outlook_access_token_expiration",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c9cd8781eecc97c9f876405f68bb32e0dd105e7c4c0f05e9bcd5eb971e2a6c9e",
+  "write_date": "",
+  "xml_id": "microsoft_outlook.field_microsoft_outlook_mixin__microsoft_outlook_access_token_expiration"
+}

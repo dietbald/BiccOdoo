@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 9030,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      640,
+      "Skill"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "03b97c359ac8b3b236df3f686980c3a621a081d676111ea3c92aab0345e36bcb",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_skill__write_uid"
+}

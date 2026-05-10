@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25343,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Multiple Records",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "batch_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "34d85cc82a000e8cb2bb0f82fafc40961a4cdd05e581fa88bc75fee7aad423e5",
+  "write_date": "",
+  "xml_id": "whatsapp_account_followup.field_account_followup_manual_reminder__batch_mode"
+}

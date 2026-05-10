@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5602,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract Attachment",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "extract_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9852033bcc823f3f86c7c75c50b429d22cf6e40c76b2671ecff3969826ec7b21",
+  "write_date": "",
+  "xml_id": null
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3391,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sanitized Number",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "phone_sanitized",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "27b527ac112d25952a7916a8bf55056ea11e07bdadc70ffa8f1aed398a43fce1",
+  "write_date": "",
+  "xml_id": "phone_validation.field_res_partner__phone_sanitized"
+}

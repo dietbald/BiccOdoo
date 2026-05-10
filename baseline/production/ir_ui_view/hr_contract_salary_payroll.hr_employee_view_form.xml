@@ -1,0 +1,16 @@
+<data><xpath expr="//div[@name='wage_on_signature_period_label']" position="attributes">
+                <attribute name="invisible">schedule_pay != 'monthly'</attribute>
+            </xpath>
+            <xpath expr="//div[@name='wage_on_signature_period_label']" position="after">
+                <div class="mb-3" invisible="schedule_pay != 'annually'">/ year</div>
+                <div class="mb-3" invisible="schedule_pay != 'semi-annually'">/ half-year</div>
+                <div class="mb-3" invisible="schedule_pay != 'quarterly'">/ quarter</div>
+                <div class="mb-3" invisible="schedule_pay != 'bi-monthly'">/ two months</div>
+                <div class="mb-3" invisible="schedule_pay != 'semi-monthly'">/ half-month</div>
+                <div class="mb-3" invisible="schedule_pay != 'bi-weekly'">/ two weeks</div>
+                <div class="mb-3" invisible="schedule_pay != 'weekly'">/ week</div>
+                <div class="mb-3" invisible="schedule_pay != 'daily'">/ day</div>
+                <div class="mb-3" invisible="schedule_pay != '10_days'">/ 10 days</div>
+                <div class="mb-3" invisible="schedule_pay != '14_days'">/ 14 days</div>
+            </xpath>
+        </data>

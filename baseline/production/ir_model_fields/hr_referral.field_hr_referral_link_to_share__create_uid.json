@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25646,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2609,
+      "Referral Link To Share"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7c68de8e743360ff6e57646772986512031dd46560cac70acd6a153d828d46cf",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_link_to_share__create_uid"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1466,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'fsm_mode': True,\n            'search_default_to_invoice': True,\n            'display_to_invoice': True,\n            'default_scale': 'week',\n        }",
+    "domain": "[('is_fsm', '=', True), ('project_id', '!=', False)]",
+    "name": "To Invoice",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "list,kanban,map,calendar,gantt,activity,pivot,graph,form"
+  },
+  "payload_sha256": "c3f2b519b6fe6dd8bbbf59f59d245c70c630acf5f73ac9e0e511825342d0a3b4",
+  "write_date": "2025-12-09 03:00:41",
+  "xml_id": "industry_fsm_sale.project_task_action_to_invoice_fsm2"
+}

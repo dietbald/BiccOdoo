@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25613,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicant",
+    "model_id": [
+      2606,
+      "Employee Referral Report"
+    ],
+    "name": "applicant_id",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6f8865981a08315de007fae383dba18f39d38e5b66f5efb9aa59550ccc628b5a",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_report__applicant_id"
+}

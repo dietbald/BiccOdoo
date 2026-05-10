@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11326,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Difference",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "inventory_diff_quantity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "a6f12bf1bf1aaf116137eb1a710a63cbacb63276f44c4f0afd3b012a3382f16a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__inventory_diff_quantity"
+}

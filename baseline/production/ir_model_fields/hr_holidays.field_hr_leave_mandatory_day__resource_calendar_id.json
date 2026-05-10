@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15726,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Hours",
+    "model_id": [
+      951,
+      "Mandatory Day"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "54e460f98638ef98d3886a0fefcede34e2cdd166226b01cc16a87fde6c2e415e",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_mandatory_day__resource_calendar_id"
+}

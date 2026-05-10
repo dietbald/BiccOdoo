@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12889,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payslip Lines",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "line_ids",
+    "relation": "hr.payslip.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ea0c7405ff36bddabb02bb9412fa6f03fdb7a80a3f0984b54ebc71a7d728cd00",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__line_ids"
+}

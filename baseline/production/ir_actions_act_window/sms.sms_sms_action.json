@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 193,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('to_delete', '!=', True)]",
+    "name": "SMS",
+    "res_model": "sms.sms",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "edeaa105b38c5288a5c1648cf447e29a66d010b7e482770c116db5932484a679",
+  "write_date": "2025-12-09 02:56:13",
+  "xml_id": "sms.sms_sms_action"
+}

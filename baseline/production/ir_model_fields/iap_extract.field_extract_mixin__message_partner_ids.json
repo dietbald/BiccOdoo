@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "878069352fd5514354d7df782819625bc89cd86bdc2cadb237a4c6281a78b4e2",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin__message_partner_ids"
+}

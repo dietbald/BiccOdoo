@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24281,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cac495d0edec1c2ffb415e08e7f8c3884ed2bf89e18c7e03b381b31e3beda511",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__website_message_ids"
+}

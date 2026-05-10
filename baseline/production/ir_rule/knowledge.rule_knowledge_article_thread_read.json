@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 336,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('article_id.user_has_access', '=', True)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "Articles Threads: portal/users: read based on article access",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "bed052050acebed4165e800b31f492da8a88335a7b892c0b08a2dfdf5a2e3cf5",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_article_thread_read"
+}

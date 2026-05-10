@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18122,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "31c16957ef795a332aed6344c8c9ac17c849f562fd81b7916bf9584c5c13cde2",
+  "write_date": "",
+  "xml_id": "sms.field_maintenance_equipment__message_has_sms_error"
+}

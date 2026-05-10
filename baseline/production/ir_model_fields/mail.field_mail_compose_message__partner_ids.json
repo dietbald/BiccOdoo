@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2509,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Additional Contacts",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "46e4989d59277cdbb6a11667c5c3e2c14bc51d74d1c1990ddd6b6b55b8859c3e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__partner_ids"
+}

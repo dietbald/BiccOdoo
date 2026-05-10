@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11622,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quant",
+    "model_id": [
+      757,
+      "Inventory Adjustment Warning"
+    ],
+    "name": "quant_ids",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "608238a3dc1b766c642afcea1ce2363c74ea01b454306d57017b0a31c507cbc7",
+  "write_date": "",
+  "xml_id": "stock.field_stock_inventory_warning__quant_ids"
+}

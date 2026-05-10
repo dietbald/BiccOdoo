@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1112,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('code', '=', 'mrp_operation')]",
+    "name": "Overview",
+    "res_model": "stock.picking.type",
+    "target": "current",
+    "view_mode": "kanban"
+  },
+  "payload_sha256": "7fda69406dde9f9eb24aa27567077959bb90b3762aa447d907bee4412ec52903",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp_workorder.mrp_stock_picking_type_action"
+}

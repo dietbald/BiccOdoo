@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13293,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a5d8b88afc6c2750ff38cc77d0e18d88abe7a042ca082dc1731222bedd258b43",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__message_follower_ids"
+}

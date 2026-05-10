@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6671,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dashboard Section",
+    "model_id": [
+      549,
+      "Create a dashboard from a spreadsheet document"
+    ],
+    "name": "dashboard_group_id",
+    "relation": "spreadsheet.dashboard.group",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6f7350d81ff4bfc9c028510d7192a95512b87e14b8990fd2906d6b29d4ef4b41",
+  "write_date": "",
+  "xml_id": "spreadsheet_dashboard_documents.field_spreadsheet_document_to_dashboard__dashboard_group_id"
+}

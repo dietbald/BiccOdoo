@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26164,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Location",
+    "model_id": [
+      1040,
+      "Maintenance Equipment"
+    ],
+    "name": "location_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bb7c70c8ef9154bda5c9304902740f10c8efe81046a94cf610aa3ce7777830e3",
+  "write_date": "",
+  "xml_id": "stock_maintenance.field_maintenance_equipment__location_id"
+}

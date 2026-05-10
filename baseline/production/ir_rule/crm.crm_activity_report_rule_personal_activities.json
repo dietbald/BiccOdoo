@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 144,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('user_id','=',user.id),('user_id','=',False)]",
+    "groups": [
+      35
+    ],
+    "model_id": [
+      582,
+      "CRM Activity Analysis"
+    ],
+    "name": "Personal Activities",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0cfcea789c0c097482a3678f915344de65d53dcd493a2f2cfbbc31b781f44760",
+  "write_date": "2023-11-30 04:45:33",
+  "xml_id": "crm.crm_activity_report_rule_personal_activities"
+}

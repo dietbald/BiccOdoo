@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28883,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "854bc520c2e1a5390f43272d9a5dffb5a87cb043495040bda97150c11f3d0011",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__activity_date_deadline"
+}

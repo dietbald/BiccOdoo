@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 524,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[(\"has_read_access\", \"=\", True)]",
+    "name": "Departments",
+    "res_model": "hr.department",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "0b0e6940cda83c0db3c9a61523bbc8a7c5a3747ca9b164166af3f5617aac5b44",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.hr_department_kanban_action"
+}

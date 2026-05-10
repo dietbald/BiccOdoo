@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6686,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      550,
+      "Journal and Folder settings"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e006dd8c3a771fbca3cb6797d301961869100fc33f792256938bca0b455914ac",
+  "write_date": "",
+  "xml_id": "documents_account.field_documents_account_folder_setting__create_uid"
+}

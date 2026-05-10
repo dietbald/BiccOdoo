@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13452,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "142d7c6e22dbedf5927942c64ca5e0df78c5f5345cafd36ba6e25bd513e18808",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_project_update__uom_id"
+}

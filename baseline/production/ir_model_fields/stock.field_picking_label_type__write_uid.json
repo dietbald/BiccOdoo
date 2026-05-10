@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11643,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      759,
+      "Choose whether to print product or lot/sn labels"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff449cebcfb63e92677b4d02523f18a2611bac3656e7e9cd1b32df4c5c57eba4",
+  "write_date": "",
+  "xml_id": "stock.field_picking_label_type__write_uid"
+}

@@ -1,0 +1,42 @@
+<kanban create="1" highlight_color="color" js_class="audit_report_kanban_controller">
+                <field name="title"/>
+                <field name="status"/>
+                <field name="knowledge_article_id"/>
+                <templates>
+                    <t t-name="menu">
+                        <a type="object" name="action_set_to_draft" invisible="status == 'draft'" class="dropdown-item" role="menuitem">Set to Draft</a>
+                        <a type="object" name="action_set_to_done" invisible="status == 'done'" class="dropdown-item" role="menuitem">Set to Done</a>
+                        <a type="object" name="action_edit_audit_report" class="dropdown-item" role="menuitem">Configure</a>
+                        <a type="delete" class="dropdown-item" role="menuitem">Delete</a>
+                        <hr class="dropdown-divider"/>
+                        <div role="menuitem" aria-haspopup="true">
+                            <field name="color" widget="kanban_color_picker"/>
+                        </div>
+                    </t>
+                    <t t-name="card">
+                        <field name="title" class="fw-bold fs-5 flex-grow-1"/>
+                        <div class="py-3">
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-fw fa-calendar me-2" title="Calendar"/>
+                                <field name="start_date"/>
+                                <i class="oi oi-fw oi-arrow-right"/>
+                                <field name="end_date"/>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-fw fa-building me-2" title="Company"/>
+                                <field name="company_id"/>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-end">
+                            <div class="flex-grow-1">
+                                <button type="object" name="action_audit_report_pdf" class="btn btn-primary">Print</button>
+                            </div>
+                            <div class="d-flex">
+                                <div invisible="status != 'draft'" class="badge text-bg-secondary align-self-center mx-2">Draft</div>
+                                <div invisible="status != 'done'" class="badge text-bg-success align-self-center mx-2">Done</div>
+                                <field name="responsible_user_ids" widget="many2many_avatar_user" class="ms-auto"/>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>

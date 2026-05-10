@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3772,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "amount",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "4e00495cc89a9358db120a6f3fcfda404b05e348a9d60ef570a5a15ce12c6ba1",
+  "write_date": "",
+  "xml_id": "payment.field_payment_link_wizard__amount"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1645,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Average Hour per Day",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "hours_per_day",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "e1c4676801ffbfd1394c89520d9b53461722e37a4a5e9c251755e7b156702523",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__hours_per_day"
+}

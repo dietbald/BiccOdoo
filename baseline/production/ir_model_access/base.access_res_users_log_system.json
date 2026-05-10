@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 89,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      96,
+      "Users Log"
+    ],
+    "name": "res_users_log_all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "243c683e2ac878b6dd09b093e2033afcf21cc80ce9dc730fa6351e12b9006cea",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_users_log_system"
+}

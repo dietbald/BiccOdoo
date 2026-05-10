@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19910,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move",
+    "model_id": [
+      454,
+      "Validate Account Move"
+    ],
+    "name": "move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2b79f7b34b7c3d39e50c5b8d71ce46d9dd5d95a6619ac83f46432007b4a25208",
+  "write_date": "",
+  "xml_id": "account.field_validate_account_move__move_ids"
+}

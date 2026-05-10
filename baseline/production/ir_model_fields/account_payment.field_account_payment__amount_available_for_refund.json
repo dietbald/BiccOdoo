@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5623,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Available For Refund",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "amount_available_for_refund",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "e42463cef305bc7fe45c8f99823d4f92470f3bc3d7c3df7e2069dc5bf56fbe2f",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_payment__amount_available_for_refund"
+}

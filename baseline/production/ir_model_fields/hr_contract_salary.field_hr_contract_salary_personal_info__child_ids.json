@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21104,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child",
+    "model_id": [
+      1277,
+      "Salary Package Personal Info"
+    ],
+    "name": "child_ids",
+    "relation": "hr.contract.salary.personal.info",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d37c640df02df7a9bfe66ad1558165e1a483faefa8122142108d9e6ea343a4bf",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_personal_info__child_ids"
+}

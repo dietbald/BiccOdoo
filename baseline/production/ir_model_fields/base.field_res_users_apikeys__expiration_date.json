@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21419,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expiration Date",
+    "model_id": [
+      102,
+      "Users API Keys"
+    ],
+    "name": "expiration_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "f17550fa8be62eceb419adf217893f43e23d52bcbd9871f0abb48326186d5911",
+  "write_date": "",
+  "xml_id": "base.field_res_users_apikeys__expiration_date"
+}

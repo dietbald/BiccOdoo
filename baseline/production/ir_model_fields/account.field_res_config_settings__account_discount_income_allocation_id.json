@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5060,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor Bills Discounts Account",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_discount_income_allocation_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c75fef0351bd354b66100950d3160b9e820bdd613f87aa155e03b633129f56d3",
+  "write_date": "",
+  "xml_id": "account.field_res_config_settings__account_discount_income_allocation_id"
+}

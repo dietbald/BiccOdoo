@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 650,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_my_docs': 1, 'search_default_my_sign_request': 1, 'show_upload_button': True}",
+    "domain": "[('state', '!=', 'shared')]",
+    "name": "Documents",
+    "res_model": "sign.request",
+    "target": "current",
+    "view_mode": "list,kanban,form,pivot,graph,activity"
+  },
+  "payload_sha256": "97972942e694827cd3470483ee836179d421ea7faf8503368647d0e6abbd5c7d",
+  "write_date": "2025-12-09 02:56:25",
+  "xml_id": "sign.sign_request_action"
+}

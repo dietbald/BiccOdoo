@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 743,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id','in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      3526,
+      "Product Value"
+    ],
+    "name": "Product Value multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cbb4ed554bab5033ca7e7771751b15cf431aa74bdd86b5934051a4e68aba1c62",
+  "write_date": "2025-12-09 02:58:51",
+  "xml_id": "stock_account.product_value_rule"
+}

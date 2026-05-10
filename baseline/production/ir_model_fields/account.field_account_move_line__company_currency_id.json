@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4426,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Currency",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "company_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b8e81a8d41f927e034b3e8f374ea02db1e346e132bfcb9139f703b4d1673ba0e",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__company_currency_id"
+}

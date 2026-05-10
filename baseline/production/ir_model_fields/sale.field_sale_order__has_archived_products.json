@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20344,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Archived Products",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "has_archived_products",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5a54caa1ab7b36db4d0f092390625afdac3682f425b1c5b0c5f45670261fc1c5",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__has_archived_products"
+}

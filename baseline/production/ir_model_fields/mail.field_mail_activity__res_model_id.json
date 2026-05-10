@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document Model",
+    "model_id": [
+      164,
+      "Activity"
+    ],
+    "name": "res_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8fb57a935f971be418f22b647dc5625ed849cc31f34dc88a5afd0189bb8ffa97",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity__res_model_id"
+}

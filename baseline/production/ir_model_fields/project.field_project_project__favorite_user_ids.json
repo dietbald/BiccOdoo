@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7855,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Members",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "favorite_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b87f36f859706239b5f82ca925e7a4c59fb0a47e83ba025115dce322f472efff",
+  "write_date": "",
+  "xml_id": "project.field_project_project__favorite_user_ids"
+}

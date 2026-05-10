@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9639,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Degree",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "type_id",
+    "relation": "hr.recruitment.degree",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0e69b7f48ecb47c06ba799ee9073118d0372a4acab92cff9c3f583f12e702b99",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__type_id"
+}

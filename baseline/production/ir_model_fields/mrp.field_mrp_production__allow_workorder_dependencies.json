@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow Work Order Dependencies",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "allow_workorder_dependencies",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9cd8233a542fdb56c7e3e9a6d38d361735753687683155b6947a4423cdcb5c4b",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__allow_workorder_dependencies"
+}

@@ -1,0 +1,5 @@
+<data name="My Project website" inherit_id="project.portal_my_project">
+        <xpath expr="//t[@t-set='title']" position="replace">
+            <t t-set="additional_title" t-value="project.name"/>
+        </xpath>
+    </data>

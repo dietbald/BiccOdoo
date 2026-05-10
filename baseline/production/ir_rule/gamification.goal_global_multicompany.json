@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 410,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id.company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "Multicompany rule on challenges",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "91619b57bb5b6d28c29f57ef6337e20e6b81780671b6fc72efdb841eace21e48",
+  "write_date": "2024-04-30 05:06:53",
+  "xml_id": "gamification.goal_global_multicompany"
+}

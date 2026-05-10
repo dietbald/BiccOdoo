@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4342,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice lines",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_line_ids",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a381f7d5fbbf36ef10b2713db14c1bc0a9ce592a4c7059d9f4f9b517864eb839",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_line_ids"
+}

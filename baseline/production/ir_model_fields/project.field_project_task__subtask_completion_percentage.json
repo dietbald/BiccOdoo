@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19966,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subtask Completion Percentage",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "subtask_completion_percentage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "410fa8ef4f7f93dad665e891a700a4e12ec4dd8ba68f34ade262bf882ce8d26e",
+  "write_date": "",
+  "xml_id": "project.field_project_task__subtask_completion_percentage"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2043,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "807c83871bc341e3940f25f9f237365c09b4b8fd759f31f5a71700bb1787c6a1",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__attachment_ids"
+}

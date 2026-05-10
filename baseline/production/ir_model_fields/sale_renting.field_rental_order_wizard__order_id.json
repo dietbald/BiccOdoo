@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26584,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order",
+    "model_id": [
+      2749,
+      "Pick-up/Return products"
+    ],
+    "name": "order_id",
+    "relation": "sale.order",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e97ab37a3933c78c4dea216399294678adb710302b4808e7b77b8afb035f3fa9",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard__order_id"
+}

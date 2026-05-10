@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1036,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "purchase.order",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "79b3f399622aa8ac047c9c6eaf15ef4348899faa18da44a693e830c9bc68c5ce",
+  "write_date": "2025-12-09 02:59:38",
+  "xml_id": "purchase_stock.access_purchase_order_stock_worker"
+}

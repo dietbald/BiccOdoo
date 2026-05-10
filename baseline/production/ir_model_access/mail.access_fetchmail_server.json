@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 184,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "fetchmail.server",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9db3de0aab7befdcf9b1d420250ec112c7ae6d712d327c54ff88d5781f0e008a",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_fetchmail_server"
+}

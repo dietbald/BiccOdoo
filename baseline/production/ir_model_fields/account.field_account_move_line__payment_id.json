@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4447,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Originator Payment",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "payment_id",
+    "relation": "account.payment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d04dcc8bd8e8f57e46518155bf1cb8e721575ca8e829d8b419e40ce98d0acd98",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__payment_id"
+}

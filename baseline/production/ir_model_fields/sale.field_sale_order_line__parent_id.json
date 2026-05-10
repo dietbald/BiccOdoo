@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29344,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Section Line",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "parent_id",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "264b67570486f6f2123fb7e4e40c9e864bb00c4921d8a14c796712a3e4b7aa97",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__parent_id"
+}

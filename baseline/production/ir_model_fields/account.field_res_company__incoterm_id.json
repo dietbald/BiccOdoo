@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4971,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default incoterm",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "incoterm_id",
+    "relation": "account.incoterms",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5b6b69692c6b8b5e8d4271b3c6a9d6d9ea762b6f677650cd90a9bf90daf8bdea",
+  "write_date": "",
+  "xml_id": "account.field_res_company__incoterm_id"
+}

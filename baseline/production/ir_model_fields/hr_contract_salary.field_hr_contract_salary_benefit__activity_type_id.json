@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21029,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activity Type",
+    "model_id": [
+      1274,
+      "Salary Package Benefit"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c9ce23cb57b4b3441c37f1ceec1abdba9a681f52906afd01ae55483b64296569",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_benefit__activity_type_id"
+}

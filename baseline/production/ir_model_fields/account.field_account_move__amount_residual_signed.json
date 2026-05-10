@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4373,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Due Signed",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "amount_residual_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "8b1eacf5e1863e32dfeb9531c4a2971a7f9b34aab17e10d395e33b781aedd899",
+  "write_date": "",
+  "xml_id": "account.field_account_move__amount_residual_signed"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10936,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "product_uom",
+    "relation": "uom.uom",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2abb2334f79e1a4906f7cd4be428a9f4c4e8e25f3fd17d460c6dbe318cbbe4f7",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__product_uom"
+}

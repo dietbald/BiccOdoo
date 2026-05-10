@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12864,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2b24ad8b0679585d64f69a5faa8345e4ccbedec0380b665ea16e885bfaf6f7ec",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__message_needaction_counter"
+}

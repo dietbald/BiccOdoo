@@ -1,0 +1,1 @@
+model._cron_post_upgrade_assign_missing_form_fields()

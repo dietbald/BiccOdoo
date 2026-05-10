@@ -1,0 +1,25 @@
+<data inherit_id="mrp.report_mrp_bom">
+        <xpath expr="//th[@name='th_mrp_bom_h']" position="after">
+            <th t-if="data['has_ecos']">BoM Version</th>
+            <th t-if="data['has_ecos']">ECOs</th>
+        </xpath>
+
+        <xpath expr="//td[@name='td_mrp_bom']" position="after">
+            <td t-if="data['has_ecos']">
+                <span t-esc="data['version']"/>
+            </td>
+            <td t-if="data['has_ecos']">
+                <span t-esc="data['ecos']"/>
+            </td>
+        </xpath>
+
+        <xpath expr="//td[@name='td_mrp_bom_f']" position="after">
+            <td t-if="data['has_ecos']"/>
+            <td t-if="data['has_ecos']"/>
+        </xpath>
+
+        <xpath expr="//td[@name='td_mrp_bom_byproducts_f']" position="after">
+            <td t-if="data['has_ecos']"/>
+            <td t-if="data['has_ecos']"/>
+        </xpath>
+    </data>

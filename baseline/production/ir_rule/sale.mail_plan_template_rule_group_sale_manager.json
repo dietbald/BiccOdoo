@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 207,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('plan_id.res_model', '=', 'sale.order')]",
+    "groups": [
+      37
+    ],
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "Manager can manage sale order plan templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0a81f7ff95b3e3b12d9db1bb0adb70c1e9dda024f94c3ffafd3c9a4a9b7aaa3e",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.mail_plan_template_rule_group_sale_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5543,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "ubl_cii_xml_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ecd18b8e5b1bdc74b91eee5d3be0bc4f33341389f6bb676499d956e1d4aa7ed2",
+  "write_date": "",
+  "xml_id": "account_edi_ubl_cii.field_account_move__ubl_cii_xml_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2496,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Document IDs",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "res_ids",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "f6204618fa380c694c8a76415a23fb6dd614bf5ac75845a22817dbaa8f35f6a1",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__res_ids"
+}

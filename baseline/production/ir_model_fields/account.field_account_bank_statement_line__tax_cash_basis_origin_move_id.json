@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4812,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cash Basis Origin",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "tax_cash_basis_origin_move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9786f007ba828f54609a2e5d2cd0eb403d0dcb9db712aa97eb71b6f88a9b2fb9",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__tax_cash_basis_origin_move_id"
+}

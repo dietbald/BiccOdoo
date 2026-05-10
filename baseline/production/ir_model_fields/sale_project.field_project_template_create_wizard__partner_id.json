@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29681,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      3334,
+      "Project Template create Wizard"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8c67e1d14ca3578a6f6fea8dc49ccddd99ef1f78fd849c6080bc6192eebd5cb2",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_template_create_wizard__partner_id"
+}

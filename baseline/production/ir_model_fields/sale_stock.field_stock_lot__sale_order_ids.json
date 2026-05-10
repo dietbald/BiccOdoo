@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12040,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Orders",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "sale_order_ids",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "941399f0ef3a9004dea53056aef9b489d042e6ff7b041808f516f4f53a1b302d",
+  "write_date": "",
+  "xml_id": "sale_stock.field_stock_lot__sale_order_ids"
+}

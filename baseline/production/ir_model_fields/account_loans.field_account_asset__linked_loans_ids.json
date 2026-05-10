@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23856,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Loans",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "linked_loans_ids",
+    "relation": "account.loan",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "02f8ea51a3241cb52f57eaf54ac98c586bab6d29b168c157a0525a024dd7cda7",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_asset__linked_loans_ids"
+}

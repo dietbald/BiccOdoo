@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14805,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Answers",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "user_input_line_ids",
+    "relation": "survey.user_input.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "692c2a46eef46068acad3dbda045488670589bf798bd7a3e672cbe306883ce0e",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__user_input_line_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1901,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      158,
+      "Referrals / Administrator"
+    ],
+    "model_id": [
+      2605,
+      "Friends for Referrals"
+    ],
+    "name": "hr.referral.friend.admin",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "78f12805aa4c85f8e63e6702a75122c38a771ce712468f294023f3fcbf01a3b8",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_referral_friend_admin"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 95,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_calendar_id': active_id}",
+    "domain": "[('calendar_id','=',active_id), ('resource_id','=',False)]",
+    "name": "Closing Days",
+    "res_model": "resource.calendar.leaves",
+    "target": "current",
+    "view_mode": "calendar,list,form"
+  },
+  "payload_sha256": "20c5c40678660e4e0c319b098e72955134f4b0ad59d718898fdad08eaa4e21df",
+  "write_date": "2025-12-09 02:55:42",
+  "xml_id": "resource.resource_calendar_closing_days"
+}

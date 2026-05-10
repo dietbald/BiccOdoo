@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1636,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_groupby_date': 1, 'search_default_groupby_category': 1}",
+    "domain": "[('vehicle_id.active', '=', True)]",
+    "name": "Odometer Analysis",
+    "res_model": "fleet.vehicle.odometer.report",
+    "target": "current",
+    "view_mode": "graph"
+  },
+  "payload_sha256": "44b2cb0e16cbbbd48081f96653c52520a07572ad2c2cf7c3e3ba37f701640b1d",
+  "write_date": "2025-12-09 02:55:54",
+  "xml_id": "fleet.fleet_vehicle_odometer_reporting_action"
+}

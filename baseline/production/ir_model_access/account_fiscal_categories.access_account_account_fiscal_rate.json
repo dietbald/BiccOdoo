@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2067,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      529,
+      "Fiscal Rate"
+    ],
+    "name": "access.account.account.fiscal.rate",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1ea8090197ddd5d1c1fa902693343e38e75af458ebd5cc5dd02de32fd4ad5b3b",
+  "write_date": "2025-12-09 02:59:45",
+  "xml_id": "account_fiscal_categories.access_account_account_fiscal_rate"
+}

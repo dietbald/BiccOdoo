@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 801,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_work_entries_error': True\n        }",
+    "domain": false,
+    "name": "Work Entry",
+    "res_model": "hr.work.entry",
+    "target": "current",
+    "view_mode": "list,form,pivot"
+  },
+  "payload_sha256": "6e4b6ea824391327ecf3fb0ff07d1dbcb0a9218611c1436f5e38c780ec369981",
+  "write_date": "2025-12-09 02:58:32",
+  "xml_id": "hr_work_entry.hr_work_entry_action"
+}

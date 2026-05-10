@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18279,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of maintenance requests",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "maintenance_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "fde20378399a2e7dae5a66d176efc830546dc842089edbb46a8dd164355d131e",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_production__maintenance_count"
+}

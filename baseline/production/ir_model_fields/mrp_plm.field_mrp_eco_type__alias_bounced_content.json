@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17434,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Bounced Message",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "alias_bounced_content",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "e32657ca79bb8b208c7d371dc391744b02899794469f034514f2d57874a205f9",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__alias_bounced_content"
+}

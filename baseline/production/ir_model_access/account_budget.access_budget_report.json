@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1683,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1243,
+      "Budget Report"
+    ],
+    "name": "access_budget_report",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "308cc8429f6ff7849864df1556742f3362d743eb68c93fb1798e78ce9a61d395",
+  "write_date": "2025-12-09 03:00:20",
+  "xml_id": "account_budget.access_budget_report"
+}

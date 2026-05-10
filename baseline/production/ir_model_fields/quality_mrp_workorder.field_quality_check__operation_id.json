@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18374,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Step",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "operation_id",
+    "relation": "mrp.routing.workcenter",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "74bcd3fcc1dff715e8c6c52095a2f2f91198e665c386ad80c0f1729ffb17ea10",
+  "write_date": "",
+  "xml_id": "quality_mrp_workorder.field_quality_check__operation_id"
+}

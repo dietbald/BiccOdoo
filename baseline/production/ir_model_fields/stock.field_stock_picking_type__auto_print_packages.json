@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11195,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Print Packages",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "auto_print_packages",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3c198a1354cf512112c7399ab3f76ff37747dc8022a18d360fec35083c0a039e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__auto_print_packages"
+}

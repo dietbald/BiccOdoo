@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13018,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment Count",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "message_attachment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "6b96535b2982081b05f24cca4382a3646e2742ffd6ec18fb4285d94c4be238c5",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__message_attachment_count"
+}

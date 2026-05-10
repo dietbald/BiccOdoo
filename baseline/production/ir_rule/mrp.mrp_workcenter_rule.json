@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 464,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "mrp_workcenter multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "11d9285063e1be360074e4069abb54a8a06375609ed301be5d1ed170b38320e8",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "mrp.mrp_workcenter_rule"
+}

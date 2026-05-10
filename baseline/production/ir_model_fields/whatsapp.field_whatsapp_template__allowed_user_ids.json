@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18460,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Users",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "allowed_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "689e32cc283717b2f5a601f20c5145a33cfb4e0a0773b4e3efb2be7b34996070",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__allowed_user_ids"
+}

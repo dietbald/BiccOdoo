@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4951,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expects a Chart of Accounts",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "expects_chart_of_accounts",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "edda2065362d0f143f358c6513b3f7d5ba269812a5065043a3a979803a24a8cf",
+  "write_date": "",
+  "xml_id": "account.field_res_company__expects_chart_of_accounts"
+}

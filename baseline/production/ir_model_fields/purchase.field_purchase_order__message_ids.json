@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9377,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7c9f4b18fe2d568e6b1e8692c2ac8c6e240c8425ad6730418562610586cdb7e9",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__message_ids"
+}

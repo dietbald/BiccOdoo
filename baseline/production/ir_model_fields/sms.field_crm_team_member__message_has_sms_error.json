@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7063,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3f6ec74be893b3191498bacc370f3a20a1df43f11c5fee8e3d6a5ad8590132f8",
+  "write_date": "",
+  "xml_id": "sms.field_crm_team_member__message_has_sms_error"
+}

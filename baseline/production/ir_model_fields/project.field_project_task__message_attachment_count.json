@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7649,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment Count",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "message_attachment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d642d3b70af987f026b2c586e0f3e5082b17d02847bf8cad7f02660cadb88b86",
+  "write_date": "",
+  "xml_id": "project.field_project_task__message_attachment_count"
+}

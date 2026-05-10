@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2441,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b4596103e02ec30e12ff60cb06aab4684532a5c37f4fd02a005360a8e8221650",
+  "write_date": "",
+  "xml_id": "phone_validation.field_res_partner__message_partner_ids"
+}

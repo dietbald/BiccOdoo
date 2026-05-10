@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16445,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      978,
+      "Wizard in case of consumption in warning/strict and more component has been used for a MO (related to the bom)"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "277079544644e8f6f449ff33eb47023c1ea2ff89f7029c801bc6144ce95bd67f",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_consumption_warning__write_uid"
+}

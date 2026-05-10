@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5694,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "deferred_start_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "599cc4c50dd9701ce35652383f61e12a5490e7638440a830534ef18e753e9d3c",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_move_line__deferred_start_date"
+}

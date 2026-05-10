@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7426,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      586,
+      "Merge Opportunities"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ac582466889f070ef06daa09c57115cf82850adf977a57e80855cdab4e8fd26b",
+  "write_date": "",
+  "xml_id": "crm.field_crm_merge_opportunity__write_uid"
+}

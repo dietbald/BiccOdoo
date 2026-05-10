@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10134,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      691,
+      "Theme Attachments"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "75a8d69e40b2281d07f78245aaa0a7405aa48d619a5d54ed05e2e777c89f95a9",
+  "write_date": "",
+  "xml_id": "website.field_theme_ir_attachment__create_uid"
+}

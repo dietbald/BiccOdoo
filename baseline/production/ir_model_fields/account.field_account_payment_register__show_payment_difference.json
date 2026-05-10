@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22312,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Payment Difference",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "show_payment_difference",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5b372a0dc2d07550e179a76d0dfcdfcf9ef245507712225cac03c615ca6e2ded",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__show_payment_difference"
+}

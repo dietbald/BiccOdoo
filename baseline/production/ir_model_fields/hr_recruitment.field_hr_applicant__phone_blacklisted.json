@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26073,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blacklisted Phone is Phone",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "phone_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ab3cd8633b244c80f9e7ab1e0e89a670122cafece581b4ec120ae772989f879c",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__phone_blacklisted"
+}

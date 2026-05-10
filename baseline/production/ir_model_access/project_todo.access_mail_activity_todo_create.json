@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 677,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      612,
+      "Create activity and todo at the same time"
+    ],
+    "name": "mail.activity.todo.create",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "ab90a105dcf96f8387c2cc1a7cf7262f086c1f5b7f08f8bf090319a5ef1d02e4",
+  "write_date": "2025-12-09 02:58:42",
+  "xml_id": "project_todo.access_mail_activity_todo_create"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 83,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "Tax multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "608402180f2004b3af8a4fecc1edf0f01b0f127f8f215beea3a6b2e182dec9bf",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.tax_comp_rule"
+}

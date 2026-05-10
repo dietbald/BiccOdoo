@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 487,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      520,
+      "Tax Unit"
+    ],
+    "name": "access_account_tax_unit_readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "9595b660e113030cb6bda231d0905f42885dd1781cee00cf8a62bb6bbbb926f6",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_tax_unit_readonly"
+}

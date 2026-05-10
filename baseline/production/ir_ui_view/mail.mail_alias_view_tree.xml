@@ -1,0 +1,14 @@
+<list string="Alias">
+                    <field name="alias_name"/>
+                    <field name="alias_domain_id"/>
+                    <field name="alias_model_id"/>
+                    <field name="alias_force_thread_id" optional="hide"/>
+                    <field name="alias_parent_model_id"/>
+                    <field name="alias_parent_thread_id" optional="hide"/>
+                    <field name="alias_defaults" optional="hide"/>
+                    <field name="alias_contact"/>
+                    <field name="alias_incoming_local" optional="hide"/>
+                    <field name="alias_status" widget="badge" decoration-success="alias_status == 'valid'" decoration-warning="alias_status == 'not_tested'" decoration-danger="alias_status == 'invalid'"/>
+                    <button name="open_document" type="object" string="Open Document" icon="fa-sitemap" invisible="not alias_model_id or alias_force_thread_id == 0"/>
+                    <button name="open_parent_document" type="object" string="Open Owner" icon="fa-sitemap" invisible="not alias_parent_model_id or alias_parent_thread_id == 0"/>
+                </list>

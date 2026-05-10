@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11316,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Owner",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "owner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "59b125b218dcc38430a5e56bf5c370b09b9f0aa51ac23534330fe3ee7e99b16a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__owner_id"
+}

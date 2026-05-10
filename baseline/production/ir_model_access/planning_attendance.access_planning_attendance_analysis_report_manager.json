@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2074,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      107,
+      "Planning / Administrator"
+    ],
+    "model_id": [
+      3767,
+      "Planning / Attendance Analysis"
+    ],
+    "name": "planning.attendance.analysis.report",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6ce58ac0f7a16f1f8069e8e19caaa1143429fee8e552a8949f580d0a202162c5",
+  "write_date": "2025-12-09 03:00:44",
+  "xml_id": "planning_attendance.access_planning_attendance_analysis_report_manager"
+}

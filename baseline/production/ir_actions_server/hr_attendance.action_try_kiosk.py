@@ -1,0 +1,1 @@
+action = model.action_try_kiosk()

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7704,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b6fc17af4369b3b265e8ac000426f9087a09cde092a07bdf98588381200eb828",
+  "write_date": "",
+  "xml_id": "project.field_project_task__attachment_ids"
+}

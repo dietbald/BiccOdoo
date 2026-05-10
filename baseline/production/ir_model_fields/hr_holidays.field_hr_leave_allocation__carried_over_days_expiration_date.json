@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22874,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Carried over days expiration date",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "carried_over_days_expiration_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "f3e674457dcf2ca5297c81c551a1ccecdf7cc8544f98a223ab726fab2cb654e6",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__carried_over_days_expiration_date"
+}

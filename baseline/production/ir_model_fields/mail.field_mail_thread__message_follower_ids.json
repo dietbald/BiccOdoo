@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1775,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      155,
+      "Email Thread"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2ce4dd81b587fdc4b8e7cd5d0d216781247ce208f2b3b1018f8f7d127d01cfd9",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread__message_follower_ids"
+}

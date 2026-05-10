@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5578,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can show the ocr send button",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "extract_can_show_send_button",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aebcf13ef489330dc12023630a26908dbfad2b441b602fed21bb451b700e36f7",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__extract_can_show_send_button"
+}

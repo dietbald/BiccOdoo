@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11765,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      772,
+      "Snooze Orderpoint"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "156c2d7342d79d38575ff3c844d174c62a7a82d0d1b6f1c19d52dbd42e9d95ee",
+  "write_date": "",
+  "xml_id": "stock.field_stock_orderpoint_snooze__create_uid"
+}

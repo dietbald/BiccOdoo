@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8835,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Master Department",
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "master_department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09544c30efc60522ac574bb49cd5423a7be2867833f61b2b020d2207bf54a0eb",
+  "write_date": "",
+  "xml_id": "hr.field_hr_department__master_department_id"
+}

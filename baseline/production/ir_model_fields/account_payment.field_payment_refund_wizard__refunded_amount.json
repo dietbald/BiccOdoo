@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5644,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Refunded Amount",
+    "model_id": [
+      484,
+      "Payment Refund Wizard"
+    ],
+    "name": "refunded_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "8fcc6cde86a7fc234ea90a838651ac63adbe0f5cc489e0d330df23a47c50003f",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_refund_wizard__refunded_amount"
+}

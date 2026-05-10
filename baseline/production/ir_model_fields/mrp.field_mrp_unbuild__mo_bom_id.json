@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16240,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bill of Material used on the Production Order",
+    "model_id": [
+      971,
+      "Unbuild Order"
+    ],
+    "name": "mo_bom_id",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5a81a8c5ecba7935189d9a683d36be47830cda7de10b3e1e145e48656417b411",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_unbuild__mo_bom_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9168,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "total_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "e284e9f3b777dbc9f33bc43d35e7f5ff33fa5b8aa9c3a10452fc4cd0c45c4f8f",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__total_amount"
+}

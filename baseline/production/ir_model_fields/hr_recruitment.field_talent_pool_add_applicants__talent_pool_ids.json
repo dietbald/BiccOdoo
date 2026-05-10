@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26140,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Talent Pool",
+    "model_id": [
+      2703,
+      "Add applicants to talent pool"
+    ],
+    "name": "talent_pool_ids",
+    "relation": "hr.talent.pool",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "fc085d9354845046ba453a6b794ef5814747dc65ee0067fa95061cee0b68cf80",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_talent_pool_add_applicants__talent_pool_ids"
+}

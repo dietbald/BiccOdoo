@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15727,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Departments",
+    "model_id": [
+      951,
+      "Mandatory Day"
+    ],
+    "name": "department_ids",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5fcbed3bc51c82c292b1ba8e16ceddcf58bf4217dca9b4507c6c8a34824f4290",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_mandatory_day__department_ids"
+}

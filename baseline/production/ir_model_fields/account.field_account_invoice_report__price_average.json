@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5450,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Average Price",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "price_average",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "0a2de5156c7413ec6955efd252d4b3ce2d13edc70c6af1b7ffa5a4a9010f8140",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__price_average"
+}

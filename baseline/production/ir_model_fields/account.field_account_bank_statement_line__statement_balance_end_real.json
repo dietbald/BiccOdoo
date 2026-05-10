@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4763,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ending Balance",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "statement_balance_end_real",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "6f49b09e06a93d85aa32408b04ab03e2deea2d06c18238443c5882e0edd42d45",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__statement_balance_end_real"
+}

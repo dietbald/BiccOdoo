@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 77,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('company_id', '=', False), ('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      424,
+      "Account Journal Group"
+    ],
+    "name": "Multi-ledger multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4ce55fe4947faea191c720ae14859684fd444ffa6253557fb471d68d8f9fe97c",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.journal_group_comp_rule"
+}

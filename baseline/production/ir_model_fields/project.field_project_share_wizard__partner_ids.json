@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      611,
+      "Project Sharing"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9ffc7e011844b2b82437adcd145eb8ed1102b6a9ce54c9e1064482688103f508",
+  "write_date": "",
+  "xml_id": "project.field_project_share_wizard__partner_ids"
+}

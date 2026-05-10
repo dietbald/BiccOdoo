@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9763,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send CV to OCR to fill applications",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_hr_recruitment_extract",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9631e5022ed21b87c16bf1baa37246a5105f1c5a0f855c5115e1b702f86c46f2",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_res_config_settings__module_hr_recruitment_extract"
+}

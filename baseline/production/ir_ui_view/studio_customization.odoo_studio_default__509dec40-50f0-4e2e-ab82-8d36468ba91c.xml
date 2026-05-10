@@ -1,0 +1,12 @@
+<data>
+  <xpath expr="//field[@name='x_studio_currency_id']" position="replace">
+    <field name="x_studio_leads_opportunity_link" optional="show" options="{&quot;no_create&quot;:true}"/>
+    <field name="x_studio_partner_id" optional="show" options="{&quot;no_create&quot;:true}"/>
+    <field name="x_studio_results" optional="show"/>
+  </xpath>
+  <xpath expr="//field[@name='x_name']" position="replace"/>
+  <xpath expr="//field[@name='x_studio_value']" position="after">
+    <field name="x_studio_dive" optional="show" widget="percentage" readonly="True"/>
+    <field name="x_studio_remarks" optional="show"/>
+  </xpath>
+</data>

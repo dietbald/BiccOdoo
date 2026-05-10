@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21159,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8b4c8e8c66f93df7a7776a869bef13a94c5bcac3a2cd5850193de2313c864358",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__activity_type_id"
+}

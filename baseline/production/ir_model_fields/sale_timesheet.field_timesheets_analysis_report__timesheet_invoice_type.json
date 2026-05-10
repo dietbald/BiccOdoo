@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13666,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Billable Type",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "timesheet_invoice_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b505d951095ac4af71325e91f8856759d2aa18b2915732984e3ee3c957052e04",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_timesheets_analysis_report__timesheet_invoice_type"
+}

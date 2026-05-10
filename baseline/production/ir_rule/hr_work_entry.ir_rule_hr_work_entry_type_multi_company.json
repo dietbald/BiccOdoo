@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 643,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('country_id', 'in', user.env.companies.mapped('country_id').ids + [False])]",
+    "groups": [],
+    "model_id": [
+      812,
+      "HR Work Entry Type"
+    ],
+    "name": "HR Work Entry: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "037d5786a868367028d72e25468ead45797b59da63056832c3eb9953e2a17160",
+  "write_date": "2025-01-28 01:24:06",
+  "xml_id": "hr_work_entry.ir_rule_hr_work_entry_type_multi_company"
+}

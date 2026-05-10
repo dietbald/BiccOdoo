@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13128,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      830,
+      "Payroll Note"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "51e5dfa60040b2aa4a6b07f7065d264f9b4b2de76108d287b2256ff1b5feaba4",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_note__create_uid"
+}

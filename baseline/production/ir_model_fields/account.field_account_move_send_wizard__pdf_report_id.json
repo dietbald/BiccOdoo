@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22281,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice report",
+    "model_id": [
+      1383,
+      "Account Move Send Wizard"
+    ],
+    "name": "pdf_report_id",
+    "relation": "ir.actions.report",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c5ff7d99a7ce1eceb18ce9d2f6ec8c1159615a4ccc722888cd768496f9415a16",
+  "write_date": "",
+  "xml_id": "account.field_account_move_send_wizard__pdf_report_id"
+}

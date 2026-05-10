@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5556,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Peppol e-address (EAS)",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "peppol_eas",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "072b924e56124c8770bc8c62d14485e1b6e58df552af9e6f89fb2f00b82b7932",
+  "write_date": "",
+  "xml_id": "account_edi_ubl_cii.field_res_users__peppol_eas"
+}

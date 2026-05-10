@@ -1,0 +1,13 @@
+<form string="Phone Blacklist" duplicate="false">
+                <header>
+                    <button name="phone_action_blacklist_remove" string="Unblacklist" type="object" class="oe_highlight" context="{'default_phone': number}" invisible="not active or not number"/>
+                    <button name="action_add" string="Blacklist" type="object" class="oe_highlight" invisible="active or not number"/>
+                </header>
+                <sheet>
+                    <div class="badge rounded-pill text-bg-danger float-end fs-6 border-0" invisible="active">Archived</div>
+                    <group>
+                        <field name="number"/>
+                    </group>
+                </sheet>
+                <chatter/>
+            </form>

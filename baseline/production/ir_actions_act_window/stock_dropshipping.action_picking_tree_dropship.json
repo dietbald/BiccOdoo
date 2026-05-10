@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1340,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'contact_display': 'partner_address', 'default_company_id': allowed_company_ids[0], 'restricted_picking_type_code': 'dropship', 'search_default_dropships': 1}",
+    "domain": "",
+    "name": "Dropships",
+    "res_model": "stock.picking",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar"
+  },
+  "payload_sha256": "f87afdaa7f95e42db48bade64cc5af6ffe2f2b877742101e6e586717c1f16055",
+  "write_date": "2025-12-09 03:00:36",
+  "xml_id": "stock_dropshipping.action_picking_tree_dropship"
+}

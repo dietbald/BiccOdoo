@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22119,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1373,
+      "Account Lock Exception"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8c9e1aa57d3a9d0095c82d2552d55f243f063f0063d72e75269afa66583cf349",
+  "write_date": "",
+  "xml_id": "account.field_account_lock_exception__create_uid"
+}

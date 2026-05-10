@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28178,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Origin Container Name",
+    "model_id": [
+      3359,
+      "Stock Package History"
+    ],
+    "name": "parent_orig_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "a1f8378ff1a0d26a3720d6a373506f9cb7a05aed671b880f5db6d9a624713f4f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package_history__parent_orig_name"
+}

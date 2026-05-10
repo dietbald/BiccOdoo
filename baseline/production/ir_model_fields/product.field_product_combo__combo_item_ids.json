@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21733,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Combo Item",
+    "model_id": [
+      1348,
+      "Product Combo"
+    ],
+    "name": "combo_item_ids",
+    "relation": "product.combo.item",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "611ad2aebde9fcc4a1563e878e63100e0a4a5b068b51341d6a8adf20ecb806cc",
+  "write_date": "",
+  "xml_id": "product.field_product_combo__combo_item_ids"
+}

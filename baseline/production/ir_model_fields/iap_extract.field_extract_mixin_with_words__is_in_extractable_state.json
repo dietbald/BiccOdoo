@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25844,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is In Extractable State",
+    "model_id": [
+      2662,
+      "Base class to extract data from documents with OCRed words saved"
+    ],
+    "name": "is_in_extractable_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a06d58f2dcf5e4a4305c1da1152d12f06363ecc256bef3cc212fae6db930f2d3",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin_with_words__is_in_extractable_state"
+}

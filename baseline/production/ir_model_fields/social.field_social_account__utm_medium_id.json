@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17657,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "UTM Medium",
+    "model_id": [
+      1024,
+      "Social Account"
+    ],
+    "name": "utm_medium_id",
+    "relation": "utm.medium",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "639daeea5772560ae00e90cae88efa13eab140dfeeaeacc0475f2a2835ba8a53",
+  "write_date": "",
+  "xml_id": "social.field_social_account__utm_medium_id"
+}

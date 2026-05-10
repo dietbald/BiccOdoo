@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5577,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ID of the request to IAP-OCR",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "extract_document_uuid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "a1a3c2dcdc221f0741df0a9c937a46710e0902b81733a6262ee21bfb2dfbaaa8",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__extract_document_uuid"
+}

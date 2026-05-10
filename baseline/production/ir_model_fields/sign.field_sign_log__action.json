@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10681,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Performed",
+    "model_id": [
+      715,
+      "Sign requests access history"
+    ],
+    "name": "action",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ed8896bb2ac6a87cc4113346208e30a2fb1816f295482d78955ca38879b44d31",
+  "write_date": "",
+  "xml_id": "sign.field_sign_log__action"
+}

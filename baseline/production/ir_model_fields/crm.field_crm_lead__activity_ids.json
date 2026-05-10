@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7156,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "33c5b9102657e931dd4d1a971472429b53b0488c39430e37e4188a454fd7341e",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__activity_ids"
+}

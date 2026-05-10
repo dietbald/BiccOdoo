@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7220,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner is blacklisted",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "partner_is_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "76cfd1d6f5e80102e0f9612b741c9cae2aa1296ca65fd1edb2c8d900d6c1ef4b",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__partner_is_blacklisted"
+}

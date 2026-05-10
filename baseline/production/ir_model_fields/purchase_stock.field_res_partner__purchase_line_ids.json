@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11969,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Lines",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "purchase_line_ids",
+    "relation": "purchase.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2a6315d583ece3d314f1ea49b42bc49e659125b5d9ac7f7250f56db97eedf309",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_res_partner__purchase_line_ids"
+}

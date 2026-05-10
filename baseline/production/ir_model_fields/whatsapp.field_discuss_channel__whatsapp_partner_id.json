@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18377,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "WhatsApp Partner",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "whatsapp_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "af561f38fed4a39565e5c83d074013ec922416cfe016424077097e0f1c95392b",
+  "write_date": "",
+  "xml_id": "whatsapp.field_discuss_channel__whatsapp_partner_id"
+}

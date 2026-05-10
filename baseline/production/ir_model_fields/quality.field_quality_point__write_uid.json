@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16543,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09e7591698a09d7a0e8399cf6e3a820be14fd8df952a4d06393bfa582dcb99ff",
+  "write_date": "",
+  "xml_id": "quality.field_quality_point__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13493,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      848,
+      "Timesheet Attendance Report"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "75e875e3032bdd573e671e6e531c701ace42b14ce08e050974d5234300f14064",
+  "write_date": "",
+  "xml_id": "hr_timesheet_attendance.field_hr_timesheet_attendance_report__company_id"
+}

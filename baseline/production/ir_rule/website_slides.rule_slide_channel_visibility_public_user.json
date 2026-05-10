@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 663,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('website_published', '=', True), ('visibility', '=', 'public')]",
+    "groups": [
+      11
+    ],
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "Channel: public: restricted to public and published",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "e75927369b64357298220a4b071f17d75147d9ec2fda2dc3cb6a3e6934c60a7c",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_channel_visibility_public_user"
+}

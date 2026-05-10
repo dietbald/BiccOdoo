@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11480,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Routes",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "route_ids",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b57389dd75ee31d3d76e382277845fd9de039d75898bad2dbe6123c61769f955",
+  "write_date": "",
+  "xml_id": "stock.field_product_category__route_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26798,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Category",
+    "model_id": [
+      2852,
+      "Privileges"
+    ],
+    "name": "category_id",
+    "relation": "ir.module.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cad04ebec8034af39a320a0784342935fdb032235c813cec20fd8f1be083962d",
+  "write_date": "",
+  "xml_id": "base.field_res_groups_privilege__category_id"
+}

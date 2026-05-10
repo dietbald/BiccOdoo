@@ -1,0 +1,26 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 42,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "\n                [\n                    ('is_self', '=', True),\n                    ('channel_id.channel_type', '=', 'channel'),\n                    '|',\n                        ('channel_id.group_public_id', '=', False),\n                        ('channel_id.group_public_id', 'in', user.all_group_ids.ids)\n                ]\n            ",
+    "groups": [
+      1,
+      10,
+      11
+    ],
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "discuss.channel.member: can join group restricted channels when group is matching",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "90a0fb41707ebf4721e1a05918ce95591c354ac75047f4bac773a33291c6e178",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.ir_rule_discuss_channel_member_create_is_group_matching_all"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3876,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Degree of trust you have in this debtor",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "trust",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ca6e1c1f7cd63af5ff13659f41f14dcab1de175b2f549832eb90fc0e34d3fd1e",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__trust"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12629,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7a22d837b05ef7834f5828bb4299665de1ff0d53ab90ae0c7ade6d33a66d222e",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__create_uid"
+}

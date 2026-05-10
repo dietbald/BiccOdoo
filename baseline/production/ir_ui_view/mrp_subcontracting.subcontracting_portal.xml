@@ -1,0 +1,16 @@
+<t name="Subcontracting View in Portal" t-name="mrp_subcontracting.subcontracting_portal">
+        <t t-call="portal.frontend_layout">
+            <div class="o_portal container mt-3">
+                <t t-call="mrp_subcontracting.portal_my_home_menu_production">
+                    <t t-set="title" t-value="picking.name"/>
+                    <t t-set="breadcrumbs_url">/my/productions</t>
+                </t>
+            </div>
+            <div class="o_portal container mt-3 o_subcontracting_portal">
+                <div class="o_subcontracting_portal">
+                    <t t-set="no_footer" t-value="true"/>
+                    <t t-call="mrp_subcontracting.subcontracting"/>
+                </div>
+            </div>
+        </t>
+    </t>

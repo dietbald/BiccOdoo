@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26501,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2746,
+      "Partner IAP"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "674e4a8d2cb7f6ae6f4153e9bb1f725e2b4abfa7fbc2dab3a52b115a4651bc6f",
+  "write_date": "",
+  "xml_id": "mail_plugin.field_res_partner_iap__create_uid"
+}

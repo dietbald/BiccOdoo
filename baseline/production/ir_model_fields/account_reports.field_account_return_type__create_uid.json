@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28872,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3563,
+      "Accounting Return Type"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "13772fad4b81f0692111ec8711c6d8d15b85ae04be93e0fd415d86d7541c71fb",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_type__create_uid"
+}

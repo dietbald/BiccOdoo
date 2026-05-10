@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5880,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Online Transaction Identifier",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "online_transaction_identifier",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "62deeab61004adb4c2fdc9caac3fc9ac56fbada12059c7ae10b5583e6def7e77",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line__online_transaction_identifier"
+}

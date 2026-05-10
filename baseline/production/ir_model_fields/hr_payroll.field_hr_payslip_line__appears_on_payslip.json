@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12942,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appears on Payslip",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "appears_on_payslip",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9540bcc8aac06475157cd76348fa469f37d698f41f715568e64133311e73a0f1",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__appears_on_payslip"
+}

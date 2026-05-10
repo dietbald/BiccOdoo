@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16290,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is the Current User Working",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "is_user_working",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d791500b6ce51ce6605bdedee8f13cb431e5c5c0bfc04bd1ab3b441f97cd5341",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__is_user_working"
+}

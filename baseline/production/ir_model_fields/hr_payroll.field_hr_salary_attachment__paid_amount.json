@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13095,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Paid Amount",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "paid_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "4640539d1a1c063b9ec7ccf93f2629feee5ff99a7d48d145f82dee5e225364a8",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__paid_amount"
+}

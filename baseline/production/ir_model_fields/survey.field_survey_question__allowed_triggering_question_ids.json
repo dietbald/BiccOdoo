@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14807,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Triggering Questions",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "allowed_triggering_question_ids",
+    "relation": "survey.question",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "81714da3a609e0d702708cd93f42df02808c99bcd63c58809be03d5982f3e7f6",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__allowed_triggering_question_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26651,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Rental Quotations",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "rental_quotation_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "04372df79ad75900a1ab90fb36a2784ecdf048940df46cfc6cb032f28b4ec90d",
+  "write_date": "",
+  "xml_id": "sale_renting_crm.field_crm_lead__rental_quotation_count"
+}

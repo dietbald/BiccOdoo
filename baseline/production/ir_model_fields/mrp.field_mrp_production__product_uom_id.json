@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16140,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "15778855bab41bb664304207243f391e8af05ee0a31a42ab0ed89059ade18bd6",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__product_uom_id"
+}

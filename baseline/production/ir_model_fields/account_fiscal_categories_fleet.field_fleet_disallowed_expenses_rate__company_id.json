@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17310,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1012,
+      "Vehicle Disallowed Expenses Rate"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9411706d4d3e0c6d4985324c0d2889f07f5a821cd36f91f8916e85e5382e7ddd",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories_fleet.field_fleet_disallowed_expenses_rate__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15663,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8711c12c1430a4fe6aa7328f506752f58adc9773595516d498d5b6f355137863",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__write_uid"
+}

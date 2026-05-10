@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22597,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1401,
+      "Scrap Reason Tag"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "acb18d7afd5bb1e05d00b49c4f3365ae92f8a7fc9e003c6fa8404fc85f590c67",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap_reason_tag__create_uid"
+}

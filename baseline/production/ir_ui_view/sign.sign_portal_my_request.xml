@@ -1,0 +1,96 @@
+<t name="My Signature" t-name="sign.sign_portal_my_request">
+        <t t-call="portal.portal_layout">
+            <h3 class="mb-3">
+                <span t-field="my_sign_item.reference"/>
+                <span t-field="my_sign_item.sign_request_id.state" class="badge rounded-pill text-bg-info fs-6 float-end" title="Current status of the signature request"/>
+            </h3>
+            <div class="o_sign_portal">
+                <div class="row mb-3" t-if="my_sign_item.partner_id">
+                    <div class="col-12 col-md-6">
+                        <p class="o_portal_category text-muted">Summary</p>
+                        <div>
+                            <strong>Creation Date:</strong>
+                            <span t-field="my_sign_item.create_date" t-options="{'widget': 'date'}"/>
+                        </div>
+                        <div>
+                            <t t-set="request_item" t-value="my_sign_item.sign_request_id.request_item_ids"/>
+                            <!-- We show progress for all the signers when there are multiple of them. -->
+                            <t t-if="len(request_item) &gt; 1">
+                                <t t-foreach="request_item" t-as="sign">
+                                    <div class="_status clearfix" t-att-data-id="sign.id">
+                                        <t t-if="sign.state == 'sent'">
+                                            <b>
+                                                <t t-esc="sign.partner_id.name if sign.partner_id else 'Public user'"/>
+                                            </b>
+                                            <t t-if="sign.role_id">
+                                                - <t t-esc="sign.role_id.name"/>
+                                            </t> -
+                                            <em>
+                                                Waiting Signature
+                                            </em>
+                                            <em t-if="not sign.is_mail_sent">
+                                                <br/>(the email access has not been sent)
+                                            </em>
+                                        </t>
+                                        <t t-if="sign.state == 'canceled'">
+                                            <b>
+                                                <t t-esc="sign.partner_id.name"/>
+                                            </b>
+                                            <t t-if="sign.role_id">
+                                                - <t t-esc="sign.role_id.name"/>
+                                            </t> -
+                                            <em>Cancelled</em>
+                                        </t>
+                                        <t t-if="sign.state == 'completed'">
+                                            <b>
+                                                <t t-esc="sign.partner_id.name"/>
+                                            </b>
+                                            <t t-if="sign.role_id">
+                                                - <t t-esc="sign.role_id.name"/>
+                                            </t> -
+                                            <em>Signed on <span t-field="sign.signing_date"/></em>
+                                        </t>
+                                    </div>
+                                </t>
+                            </t>
+                            <!-- Don't need to show all the details in case of only one signer. -->
+                            <t t-else="">
+                                <t t-if="request_item.state == 'completed'">
+                                    <strong>Signed on: </strong>
+                                    <t t-out="request_item.signing_date" t-options="{'widget': 'date'}"/>
+                                </t>
+                            </t>
+                        </div>
+                        <div>
+                            <strong>Sent by: </strong>
+                            <t t-out="my_sign_item.create_uid.name"/>
+                        </div>
+                        <div t-if="my_sign_item.sign_request_id.validity">
+                            <strong>Expiry Date: </strong>
+                            <t t-out="my_sign_item.sign_request_id.validity" t-options="{'widget': 'date'}"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="o_sign_button">
+                    <t t-set="fully_signed" t-value="my_sign_item.state  == 'completed' "/>
+                    <a t-att-href="url" class="btn btn-primary btn-block" t-att-target="'_blank' if fully_signed else ''">
+                        <div class="o_sign_button_content" t-if="fully_signed">View Document</div>
+                        <div class="o_sign_button_content" t-else="">Sign</div>
+                    </a>
+                    <a t-if="my_sign_item.sign_request_id.state == 'signed'" class="btn btn-light ms-1" t-attf-href="/sign/download/{{my_sign_item.sign_request_id.id}}/{{my_sign_item.sign_request_id.access_token}}/completed" title="Download" target="_blank" role="button">
+                        <i class="fa fa-download"/>
+                    </a>
+                </div>
+            </div>
+            <hr/>
+            <div>
+                <h3>Communication history</h3>
+                <t t-call="portal.message_thread">
+                    <t t-set="object" t-value="my_sign_item.sign_request_id"/>
+                    <t t-set="token" t-value="my_sign_item.sign_request_id.access_token"/>
+                    <t t-set="pid" t-value="pid"/>
+                    <t t-set="hash" t-value="hash"/>
+                </t>
+            </div>
+        </t>
+    </t>

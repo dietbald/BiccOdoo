@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26527,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2747,
+      "Pricing rule of rental products"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c299c1db64c251ff5e5ded5b1bbca47b5ede3a8ba5dba38f136561732c1ee29",
+  "write_date": "",
+  "xml_id": "sale_renting.field_product_pricing__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22068,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Count",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "payment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "83b3b6763b53e57afab32ac77625885c2befdb667a64d9feb824978cd9d69cf0",
+  "write_date": "",
+  "xml_id": "account.field_account_move__payment_count"
+}

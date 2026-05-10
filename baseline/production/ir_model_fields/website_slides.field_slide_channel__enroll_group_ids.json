@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24326,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Enroll Groups",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "enroll_group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a90b15c38dd389dd46d4d6f89497c21d715964024ed3810f0c53ebc4b366c3b6",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__enroll_group_ids"
+}

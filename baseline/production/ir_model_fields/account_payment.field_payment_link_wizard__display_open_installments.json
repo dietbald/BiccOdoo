@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22781,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Open Installments",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "display_open_installments",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e00e988339adc96adfd920683956ea8426598441bdc78a3b17056dcc873b9ff8",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_link_wizard__display_open_installments"
+}

@@ -1,0 +1,14 @@
+<data><xpath expr="//group[@name='col_left']" position="attributes">
+                <attribute name="colspan">5</attribute>
+            </xpath>
+            <xpath expr="//div[hasclass('o_hr_leave_content')]" position="attributes">
+                <attribute name="class" remove="row my-n4" separator=" "/>
+            </xpath>
+            <xpath expr="//div[hasclass('o_hr_leave_column')]" position="attributes">
+                <attribute name="class" remove="col_left col-md-6" separator=" "/>
+            </xpath>
+            <xpath expr="//div[hasclass('o_hr_leave_content')]" position="before">
+                <widget name="web_ribbon" title="Refused" bg_color="bg-danger" invisible="state != 'refuse' or not id"/>
+                <widget name="web_ribbon" title="Approved" bg_color="bg-success" invisible="state != 'validate' or not id"/>
+            </xpath>
+        </data>

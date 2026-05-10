@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8240,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "product_uom_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b1e0ab41905a08f58104d0d31cdc93f55c15a7394513723096ffee625b63c843",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__product_uom_qty"
+}

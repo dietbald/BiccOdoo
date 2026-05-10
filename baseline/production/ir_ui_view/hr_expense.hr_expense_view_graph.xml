@@ -1,0 +1,8 @@
+<graph string="Expenses Analysis" sample="1">
+                    <field name="price_unit" invisible="1"/>
+                    <field name="quantity" invisible="1"/>
+                    <field name="date"/>
+                    <field name="employee_id"/>
+                    <field name="total_amount" type="measure"/>
+                    <field name="tax_amount"/>
+                </graph>

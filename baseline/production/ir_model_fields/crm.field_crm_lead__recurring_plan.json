@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7206,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recurring Plan",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "recurring_plan",
+    "relation": "crm.recurring.plan",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bb9c729ae1af06eedaa989e84a7db21c5a7745ae49b02e35b4d027528a3f2897",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__recurring_plan"
+}

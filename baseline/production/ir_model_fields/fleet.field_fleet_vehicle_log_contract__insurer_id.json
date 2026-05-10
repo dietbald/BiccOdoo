@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17147,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "insurer_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8eaa04256f5229d47b109bf03b84d8bbd675065b0036023abd49987c4f38326a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__insurer_id"
+}

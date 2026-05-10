@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2236,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Guest",
+    "model_id": [
+      125,
+      "User/Guest Presence"
+    ],
+    "name": "guest_id",
+    "relation": "mail.guest",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1777460b36b3ba3ef3d933342ec15f0631ec14d7d24a0880cb95b0fadf0d9be1",
+  "write_date": "",
+  "xml_id": "mail.field_mail_presence__guest_id"
+}

@@ -1,0 +1,121 @@
+<t name="Course Main" track="1" t-name="website_slides.course_main">
+    <t t-set="head">
+        <script type="module" src="/web/static/lib/pdfjs/build/pdf.js"/>
+        <script type="module" src="/web/static/lib/pdfjs/build/pdf.worker.js"/>
+        <script type="text/javascript" src="/website_slides/static/lib/pdfslidesviewer/PDFSlidesViewer.js"/>
+    </t>
+    <t t-set="body_classname" t-value="'o_wslides_body'"/>
+    <t t-call="website.layout">
+        <div id="wrap" t-attf-class="wrap mt-0">
+            <div class="oe_structure oe_empty">
+            <t t-call="website.record_cover" _record="channel" use_filters="True" use_size="True" use_text_align="True">
+                <div t-attf-class="o_wslides_course_header position-relative pb-md-0 pt-2 pt-md-5 #{'pb-3' if channel.channel_type == 'training' else 'o_wslides_course_doc_header pb-5'}">
+                    <t t-call="website_slides.course_nav"/>
+                    <div class="container mt-5 mt-md-3 mt-xl-4">
+                        <div class="row align-items-end align-items-md-stretch">
+                            <!-- ==== Header Left ==== -->
+                            <div class="col-12 col-md-4 col-lg-3 position-relative">
+                                <div class="d-flex align-items-end justify-content-around h-100">
+                                    <div t-field="channel.image_1920" t-options="{'widget': 'image', 'class' : 'o_wslides_course_pict d-inline-block mb-2 mt-3 my-md-0', 'preview_image': 'image_1024'}" class="h-100"/>
+                                </div>
+                            </div>
+
+                            <!-- ==== Header Right ==== -->
+                            <div class="col-12 col-md-8 col-lg-9 d-flex flex-column">
+                                <div class="d-flex flex-column">
+                                    <h1 t-field="channel.name"/>
+                                    <div class="mb-0 mb-xl-3" t-field="channel.description"/>
+                                </div>
+                                <div class="d-flex flex-column justify-content-center h5 flex-grow-1 mb-md-5 o_not_editable" t-if="channel.allow_comment">
+                                    <t t-call="portal_rating.rating_stars_static_popup_composer">
+                                        <t t-set="rating_avg" t-value="rating_avg"/>
+                                        <t t-set="rating_count" t-value="rating_count"/>
+                                        <t t-set="object" t-value="channel"/>
+                                        <t t-set="token" t-value="channel.access_token"/>
+                                        <t t-set="hash" t-value="message_post_hash"/>
+                                        <t t-set="pid" t-value="message_post_pid"/>
+                                        <t t-set="default_message" t-value="last_message"/>
+                                        <t t-set="default_message_id" t-value="last_message_id"/>
+                                        <t t-set="default_rating_value" t-value="last_rating_value"/>
+                                        <t t-set="default_attachment_ids" t-value="last_message_attachment_ids"/>
+                                        <t t-set="force_submit_url" t-value="'/mail/message/update_content' if last_message_id else False"/>
+                                        <t t-set="rate_with_void_content" t-value="True"/>
+                                        <t t-set="disable_composer" t-value="not channel.can_review"/>
+                                        <t t-set="_link_btn_classes" t-value="'btn-sm btn-link mx-3 o_wslides_header_text'"/>
+                                        <t t-set="_text_classes" t-value="'css_editable_mode_hidden'"/>
+                                    </t>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </t>
+            </div>
+
+            <div class="o_wslides_course_main">
+                <t t-set="channel_frontend_tags" t-value="channel.tag_ids.filtered(lambda tag: tag.color)"/>
+                <div class="container mb-5">
+                    <div class="row">
+                        <!-- Sidebar -->
+                        <div class="col-12 col-md-4 col-lg-3 mt-3 mt-md-0">
+                            <t t-call="website_slides.course_sidebar"/>
+                        </div>
+                        <div class="col-12 col-md-8 col-lg-9 position-relative">
+                            <ul class="nav nav-tabs o_wslides_nav_tabs flex-nowrap" role="tablist" id="profile_extra_info_tablist">
+                                <li class="nav-item" role="presentation">
+                                    <a t-att-class="'nav-link %s' % ('active' if active_tab == 'home' else '')" id="home-tab" data-bs-toggle="pill" href="#home" role="tab" aria-controls="home" t-att-aria-selected="'true' if active_tab == 'home' else 'false'">
+                                        <i class="fa fa-home"/> Course
+                                    </a>
+                                </li>
+                                <li t-if="channel.allow_comment" class="nav-item o_wslides_course_header_nav_review" role="presentation">
+                                    <a t-att-class="'nav-link %s' % ('active' if active_tab == 'review' else '')" id="review-tab" data-bs-toggle="pill" href="#review" role="tab" aria-controls="review" t-att-aria-selected="'true' if active_tab == 'review' else 'false'">
+                                        Reviews<t t-if="rating_count"> (<t t-out="rating_count"/>)</t>
+                                    </a>
+                                </li>
+                            </ul>
+
+                            <div class="tab-content py-4 o_wslides_tabs_content mb-4" id="courseMainTabContent">
+                                <div t-att-class="'tab-pane fade %s' % ('show active' if active_tab == 'home' else '')" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <!-- ==== Error notification ==== -->
+                                    <div t-if="access_error == 'course_content'" class="alert alert-danger alert-dismissable mb-1" role="alert">
+                                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"/>
+                                        You need to join this course to access "<t t-out="access_error_content_name"/>".
+                                    </div>
+                                    <!-- ==== Invitation Banner ==== -->
+                                    <div t-if="invite_preview" class="o_wslides_identification_banner alert alert-success mb-4 p-2 px-3" role="alert">
+                                        You have been invited to this course.
+                                        <a class="o_underline" t-attf-href="/slides/#{channel.id}/identify?#{keep_query('invite_partner_id', 'invite_hash')}">
+                                            <t t-if="is_partner_without_user">Sign up</t>
+                                            <t t-else="">Log in</t>
+                                        </a> to browse preview content and enroll.
+                                    </div>
+                                    <div t-if="channel.channel_type == 'training' and (channel_frontend_tags or channel.can_upload)" class="mb-1 pt-1">
+                                        <t t-if="channel_frontend_tags">
+                                            <t t-foreach="channel_frontend_tags" t-as="channel_tag">
+                                                <span t-attf-class="badge o_wslides_channel_tag #{'o_color_'+str(channel_tag.color)}" t-out="channel_tag.name"/>
+                                            </t>
+                                        </t>
+                                        <a t-if="channel.can_upload" class="o_wslides_js_channel_tag_add badge text-bg-primary fw-normal m-1 o_not_editable" role="button" aria-label="Add Tag" href="#" t-att-data-channel-id="channel.id" t-att-data-channel-tag-ids="channel.tag_ids.ids">
+                                            <span>Add Tag</span>
+                                         </a>
+                                    </div>
+                                    <t t-if="channel.channel_type == 'training'" t-call="website_slides.course_slides_list"/>
+                                    <t t-else="" t-call="website_slides.course_slides_cards"/>
+                                </div>
+                                <div t-if="channel.allow_comment" t-att-class="'tab-pane fade %s' % ('show active' if active_tab == 'review' else '')" id="review" role="tabpanel" aria-labelledby="review-tab">
+                                    <t t-call="portal.message_thread">
+                                        <t t-set="object" t-value="channel"/>
+                                        <t t-set="hash" t-value="message_post_hash"/>
+                                        <t t-set="pid" t-value="message_post_pid"/>
+                                        <t t-set="display_rating" t-value="True"/>
+                                        <t t-set="disable_composer" t-value="True"/>
+                                    </t>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>
+</t>

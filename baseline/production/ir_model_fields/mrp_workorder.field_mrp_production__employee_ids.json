@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16813,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "working employees",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "74d340370b677020e291776383f24af934385576b0eb68f430df39d02e407610",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_production__employee_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7788,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fc3c88072fd59a2428b97a43bd8bbff363e08106640de1e5972af506568d8a0c",
+  "write_date": "",
+  "xml_id": "project.field_project_update__rating_ids"
+}

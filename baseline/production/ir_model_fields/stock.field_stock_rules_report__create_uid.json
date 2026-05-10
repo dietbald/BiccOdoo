@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11691,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      765,
+      "Stock Rules report"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6b96e3d943e7577693f61bbc6785ae2c95e2e3fd849d962eb2b1b3e882aa0214",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rules_report__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 288,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "stock_picking multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bfe996892b803d88810d91c994823997a71b09bbf3c27cdca7c408f0c459ba9f",
+  "write_date": "2023-12-01 13:14:20",
+  "xml_id": "stock.stock_picking_rule"
+}

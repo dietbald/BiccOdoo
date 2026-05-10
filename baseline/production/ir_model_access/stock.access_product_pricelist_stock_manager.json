@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 957,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "product.pricelist stock_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c4ced94a247ba0c33df8d48aca1f1e32d5bd08b0631a0e0dc14a764256cf9642",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_product_pricelist_stock_manager"
+}

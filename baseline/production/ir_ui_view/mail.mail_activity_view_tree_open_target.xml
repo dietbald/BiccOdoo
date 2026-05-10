@@ -1,0 +1,10 @@
+<data><xpath expr="//list" position="attributes">
+                <attribute name="action">action_open_document</attribute>
+                <attribute name="type">object</attribute>
+                <attribute name="js_class">archive_disabled_activity_list</attribute>
+                <attribute name="multi_edit">1</attribute>
+            </xpath>
+            <xpath expr="//list//field[@name='activity_type_id']" position="attributes">
+                <attribute name="domain">[('res_model', '=', False)]</attribute>
+            </xpath>
+        </data>

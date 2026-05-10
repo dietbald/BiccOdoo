@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 722,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      2828,
+      "Properties Base Definition"
+    ],
+    "name": "properties.base.definition: system all access",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4fcf5eb9d05abb9c41f1cecfcd3258bc879c36840eaa64cde159165551dad629",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.properties_base_definition_rule_admin"
+}

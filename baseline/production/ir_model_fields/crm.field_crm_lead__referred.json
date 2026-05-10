@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7194,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Referred By",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "referred",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "535c73b45997f3ceef403db29be69386b853b43adbdea73304633a53674a82c0",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__referred"
+}

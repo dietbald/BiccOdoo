@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2054,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Only",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "is_internal",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "04b76bd268e9f7b88836c986e5f8bd0cb05675d74cc71b4f1d5f4858d91fa494",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__is_internal"
+}

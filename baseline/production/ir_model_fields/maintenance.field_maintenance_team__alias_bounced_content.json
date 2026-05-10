@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27235,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Bounced Message",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "alias_bounced_content",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "77cbf224df56c7591e99fd094f604ce1f935426f9269d65bab51d34a3be69f08",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__alias_bounced_content"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13072,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "70e758c09a1e6aad91a06dae4e910277a547ff5b54aad15f6dba700ac77dfee2",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__message_follower_ids"
+}

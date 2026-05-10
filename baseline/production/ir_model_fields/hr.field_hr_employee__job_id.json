@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8675,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "17d109fbfa200d391906adc107d4a316661f0e9fab73a46898611d244646c9b2",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__job_id"
+}

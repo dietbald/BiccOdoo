@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26263,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expenses",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "expense_ids",
+    "relation": "hr.expense",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e5b618cd2c6a305e130c451c03e8f6e9076666541890abc9c1d137965753b83b",
+  "write_date": "",
+  "xml_id": "sale_expense.field_sale_order_line__expense_ids"
+}

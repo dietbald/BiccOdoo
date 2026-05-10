@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delay Type",
+    "model_id": [
+      433,
+      "Payment Terms Line"
+    ],
+    "name": "delay_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "91de5a57a2553b7ee543490d10b4ccd7b0d76ed49aca275715c324e73e9ff711",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term_line__delay_type"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13920,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      882,
+      "Schedule"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c23ae2ad1db8a50b0d316a4369f6d4825fae4382346b96a803b0c069d3a0f673",
+  "write_date": "",
+  "xml_id": "planning.field_planning_planning__write_uid"
+}

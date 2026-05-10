@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12069,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of requests to validate",
+    "model_id": [
+      782,
+      "Approval Category"
+    ],
+    "name": "request_to_validate_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "e0ac88503d46ec129f71cf824a7eeed3fdc4d630de6ad06a3bef1c716d5942f8",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_category__request_to_validate_count"
+}

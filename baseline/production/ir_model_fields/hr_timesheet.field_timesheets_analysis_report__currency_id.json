@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e9b9edab62ea8388f804f3b1dcb5fac41f42d1941229e6ea5a8124a2264cfed0",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_timesheets_analysis_report__currency_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2624,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "69d1e01ab77452ceafbb69a22151718884ddca358e85e00216a3ec580656d30b",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__activity_user_id"
+}

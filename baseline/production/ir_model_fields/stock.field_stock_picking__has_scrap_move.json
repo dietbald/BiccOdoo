@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11263,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Scrap Moves",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "has_scrap_move",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0a670cfb2236d634cff9efc00661dc2f70c597806a997812afc17575efe1fcb6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__has_scrap_move"
+}

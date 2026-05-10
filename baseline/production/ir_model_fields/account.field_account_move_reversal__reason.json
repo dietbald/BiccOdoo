@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5242,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reason displayed on Credit Note",
+    "model_id": [
+      455,
+      "Account Move Reversal"
+    ],
+    "name": "reason",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "072b326954c5b6b07a431d62bd0696128481fed5cf01f24644ae550c5b8c293e",
+  "write_date": "",
+  "xml_id": "account.field_account_move_reversal__reason"
+}

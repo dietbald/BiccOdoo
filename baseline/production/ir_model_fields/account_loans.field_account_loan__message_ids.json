@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23864,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1f9460cff9b690167f0f8c6ca269a7777c01296d66f02e676550ba38cadade7c",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__message_ids"
+}

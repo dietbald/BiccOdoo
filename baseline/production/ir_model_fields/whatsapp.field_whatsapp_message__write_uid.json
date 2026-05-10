@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18431,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1049,
+      "WhatsApp Messages"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f524606b81a27fae67a231de8aa87dd0e21d27066b5776b8bb6d0ab153a848ab",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_message__write_uid"
+}

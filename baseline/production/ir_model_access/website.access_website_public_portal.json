@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 860,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "website.public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "2231fb58a6b41f71da923ffea4439c488961e0f78861b8faef99607c5ff142e6",
+  "write_date": "2026-01-28 12:01:03",
+  "xml_id": "website.access_website_public_portal"
+}

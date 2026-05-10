@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2787,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      352,
+      "Phone Blacklist"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fff2f3a330408ea2ef1234160e5611ec61b2aa742b2d01cadc45ccccc0960bc0",
+  "write_date": "",
+  "xml_id": "phone_validation.field_phone_blacklist__create_uid"
+}

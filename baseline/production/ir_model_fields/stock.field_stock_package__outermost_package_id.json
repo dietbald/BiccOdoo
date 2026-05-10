@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28200,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outermost Destination Container",
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "outermost_package_id",
+    "relation": "stock.package",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8c32c1a59bd45609a3235a50644df2bd6bde9541c17c518d0ddd7a7fcc266140",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package__outermost_package_id"
+}

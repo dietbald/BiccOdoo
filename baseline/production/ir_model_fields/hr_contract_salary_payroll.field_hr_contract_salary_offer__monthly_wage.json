@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29618,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Monthly Wage",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "monthly_wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "43ec625d3cd1de9256ddb1a6fb81396205e8d98eb87100dbb3a49af8c7f4245a",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_offer__monthly_wage"
+}

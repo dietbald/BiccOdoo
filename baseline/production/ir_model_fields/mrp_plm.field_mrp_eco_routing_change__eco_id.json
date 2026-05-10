@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17576,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Engineering Change",
+    "model_id": [
+      1021,
+      "Eco Routing changes"
+    ],
+    "name": "eco_id",
+    "relation": "mrp.eco",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "427457395a873ab74b4a2440bbb1b9d1976b6130200bf1ed4f3305f03264da30",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_routing_change__eco_id"
+}

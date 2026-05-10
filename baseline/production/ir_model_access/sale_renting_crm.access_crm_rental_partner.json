@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1946,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      2753,
+      "Convert Lead to Rental Order"
+    ],
+    "name": "access.crm.lead.rental",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "253c26c278d79277a98747473f5defe842c7d0e8c53fd7b30f05830d13b798d3",
+  "write_date": "2025-12-09 03:00:30",
+  "xml_id": "sale_renting_crm.access_crm_rental_partner"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29081,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount To Pay",
+    "model_id": [
+      3604,
+      "Generic Payment Wizard with QR Code"
+    ],
+    "name": "amount_to_pay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "a5ff3d2da90463eda65260aac8ef9d88b6ad6461bcfb369359f57cff7b482c5c",
+  "write_date": "",
+  "xml_id": "account_reports.field_qr_code_payment_wizard__amount_to_pay"
+}

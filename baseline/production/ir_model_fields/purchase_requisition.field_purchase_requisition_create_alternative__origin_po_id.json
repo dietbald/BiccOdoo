@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12661,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Origin Po",
+    "model_id": [
+      810,
+      "Wizard to preset values for alternative PO"
+    ],
+    "name": "origin_po_id",
+    "relation": "purchase.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1796d81505ed04054b4e1348d82a3d5c7b64405bc9d60674c9b8b70427296539",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_create_alternative__origin_po_id"
+}

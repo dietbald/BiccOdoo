@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18149,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "d5b1797a68d1aa405ba13ccdc911d77afd81a9d76d0c7fe9ccb6933b39dd9ca3",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__activity_date_deadline"
+}

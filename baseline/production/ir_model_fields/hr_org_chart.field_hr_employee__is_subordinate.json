@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8991,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Subordinate",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "is_subordinate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4bd35551221825434232616eb6053e92a4073260eb99e8da5c1435a91530de6f",
+  "write_date": "",
+  "xml_id": "hr_org_chart.field_hr_employee__is_subordinate"
+}

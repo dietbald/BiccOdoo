@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 716,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('timesheet_manager_id', 'in', [False, user.id]), ('parent_id.user_id', '=', user.id)]",
+    "groups": [
+      102
+    ],
+    "model_id": [
+      2738,
+      "Edit Billable Time Target wizard from Timesheet for users without employee access"
+    ],
+    "name": "Billable Timesheet Approver",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5e238a489fcce9fd0364bb3b56f7c8161c3d2ae8b93025381b5fb6150f00a1da",
+  "write_date": "2025-05-19 16:57:18",
+  "xml_id": "sale_timesheet_enterprise.billable_timesheet_approver"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4840,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Commercial Entity",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "commercial_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7636ad12d3892b75cce05bfc95354c1b1edb972f178e06b65b469644b45bb82e",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__commercial_partner_id"
+}

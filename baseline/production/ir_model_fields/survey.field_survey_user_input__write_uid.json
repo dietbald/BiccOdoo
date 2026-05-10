@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14886,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "71ca7b2bf519518925debd6cbd4363fe72ed5cff8ae0b63b36812a9894f26ef0",
+  "write_date": "",
+  "xml_id": "survey.field_survey_user_input__write_uid"
+}

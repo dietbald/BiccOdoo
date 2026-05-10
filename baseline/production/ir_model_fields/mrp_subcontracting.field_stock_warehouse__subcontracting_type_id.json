@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17335,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subcontracting Operation Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "subcontracting_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4cf0fb1e603f1c3d267312a71b4e61d08b5c1d07d6e829f2719259aaab8b5992",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_stock_warehouse__subcontracting_type_id"
+}

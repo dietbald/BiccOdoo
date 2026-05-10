@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15249,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Week Day",
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "weekday",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e90298ccfa0057d9646d163ca779785e9e1171664acd8109787f93c630137284",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_slot__weekday"
+}

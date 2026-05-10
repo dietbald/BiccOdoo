@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 79,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      86,
+      "Industry"
+    ],
+    "name": "res_partner_industry group_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5c6b8d1b8d24548724004c891a2e5d2eddc42b8aced62d5874b00182c9473ffd",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_partner_industry_group_user"
+}

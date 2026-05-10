@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5235,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      454,
+      "Validate Account Move"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "63ebfab98a67e40557c5e61a37b16d25894a2829902865bfd5af1e8f4f641074",
+  "write_date": "",
+  "xml_id": "account.field_validate_account_move__create_uid"
+}

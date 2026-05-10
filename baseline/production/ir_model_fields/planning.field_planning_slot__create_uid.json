@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13891,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "37b9d30749f2aa8f2a806cf454aaf0c9ca81d8cdedf40a8fd4740b2128dc6c5a",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__create_uid"
+}

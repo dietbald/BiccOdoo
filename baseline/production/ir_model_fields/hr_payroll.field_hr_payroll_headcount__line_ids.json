@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20647,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Line",
+    "model_id": [
+      1238,
+      "Payroll Headcount"
+    ],
+    "name": "line_ids",
+    "relation": "hr.payroll.headcount.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d2d141fa9e831b4445a51ea019814ac36371a575b13903b82badf01e4e37aada",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount__line_ids"
+}

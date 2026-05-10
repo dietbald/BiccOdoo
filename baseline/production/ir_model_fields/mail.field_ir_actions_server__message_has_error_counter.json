@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26974,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "8fd45b44d76960afaef8630f6fa227654d29c26ff1a0a8115e4240d5456b090e",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__message_has_error_counter"
+}

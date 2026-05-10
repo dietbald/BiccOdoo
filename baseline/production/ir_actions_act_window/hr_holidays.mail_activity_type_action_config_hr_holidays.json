@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1031,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'hr.leave'}",
+    "domain": "['|', ('res_model', '=', False), ('res_model', 'in', ['hr.leave', 'hr.leave.allocation'])]",
+    "name": "Activity Types",
+    "res_model": "mail.activity.type",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "8d764f0427e25fa6aaafd01681000893937583ff83c0fdf4925f4fa2058a7299",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.mail_activity_type_action_config_hr_holidays"
+}

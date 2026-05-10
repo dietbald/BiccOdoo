@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22854,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hr Expense Alias Domain",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "hr_expense_alias_domain_id",
+    "relation": "mail.alias.domain",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "32e442e6936cb77db6ff317cfc37d3ba96f74a7d799a4ac2f825ee63a9662162",
+  "write_date": "",
+  "xml_id": "hr_expense.field_res_config_settings__hr_expense_alias_domain_id"
+}

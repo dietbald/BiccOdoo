@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 423,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('survey_id.survey_type', 'in', ('assessment', 'custom', 'live_session', 'survey'))]",
+    "groups": [
+      111
+    ],
+    "model_id": [
+      923,
+      "Survey User Input Line"
+    ],
+    "name": "Survey user input line: manager: all non specialized surveys",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5f442d92bfc93b764b923fd7d99187d9ed16c8fdfb12f741c11c77b46c2435fb",
+  "write_date": "2024-04-30 05:06:56",
+  "xml_id": "survey.survey_user_input_line_rule_survey_manager"
+}

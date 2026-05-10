@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3329,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "eccbdcb03086a80d9ae5217709045448b9e6a422092983e89e6d1835457acb2d",
+  "write_date": "",
+  "xml_id": "portal.field_res_partner__website_message_ids"
+}

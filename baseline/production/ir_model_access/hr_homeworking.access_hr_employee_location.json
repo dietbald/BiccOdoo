@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1631,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      1100,
+      "Employee Location"
+    ],
+    "name": "hr.employee.location",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1717704bc3fb6509f592047c362c10b81b4d035e7f7219787bd312f676c85a44",
+  "write_date": "2025-12-09 02:58:16",
+  "xml_id": "hr_homeworking.access_hr_employee_location"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20862,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# of Payslips",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "payslip_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "8288864386977edc3d03d6d999aa8ba1aa4ce09dc5e970d75cd7d430650c7d5b",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_account_move__payslip_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17469,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow to apply changes",
+    "model_id": [
+      1018,
+      "ECO Stage"
+    ],
+    "name": "allow_apply_change",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "019a87ca2ef8dbf2d02895facdac303b945b80b93b10f7302dfad5b73f20a37d",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_stage__allow_apply_change"
+}

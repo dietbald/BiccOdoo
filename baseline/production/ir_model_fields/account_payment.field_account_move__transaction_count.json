@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20162,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transaction Count",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "transaction_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "891d5bfdd7266b39e03e6012d29b3e8e40376e49627623ec8286d714b6d010a6",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_move__transaction_count"
+}

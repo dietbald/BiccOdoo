@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 114,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      32,
+      "Filters"
+    ],
+    "name": "ir_filters all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "73fd3ac30e968b21d8a91edb36f62f6b9b6f2d3fcb802c7111e4622077754fa8",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_filter_portal"
+}

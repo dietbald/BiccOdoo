@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22041,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Code Mapping",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "code_mapping_ids",
+    "relation": "account.code.mapping",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cd036c29728015f05d290e9b898ca2be311a292330cbed7bb0fd9a9cbb9742d8",
+  "write_date": "",
+  "xml_id": "account.field_account_account__code_mapping_ids"
+}

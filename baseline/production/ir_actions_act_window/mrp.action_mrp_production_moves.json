@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1052,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "['|', ('move_id.raw_material_production_id', '=', active_id), ('move_id.production_id', '=', active_id)]",
+    "name": "Inventory Moves",
+    "res_model": "stock.move.line",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "84bbaa00ea43d75d7ff99dfd6f5ee53c5fe55f7b41900f8f17b38bc48c92e9aa",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.action_mrp_production_moves"
+}

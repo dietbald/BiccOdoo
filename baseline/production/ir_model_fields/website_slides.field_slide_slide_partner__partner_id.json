@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24069,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      1504,
+      "Slide / Partner decorated m2m"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2091670a1716eef31f9d524780f3232fa33e18a8392d7689335a246065fa51cf",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_slide_partner__partner_id"
+}

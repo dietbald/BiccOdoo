@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 305,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      779,
+      "Stock Report"
+    ],
+    "name": "Stock Report multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "44c2cb422655d5704acb176bb764e90a54d30f5b9e267de37288df08badde673",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "stock_enterprise.stock_report_comp_rule"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 234,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "Expense multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1339a959f8666e48e4747f1440681678872b0a45bc4fdb4f736a7432a78b784c",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "hr_expense.hr_expense_comp_rule"
+}

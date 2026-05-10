@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25729,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Users and implied users",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "all_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6b928a768c7bfe3bbdf3e897ef9c06b040f72c95604eec3bbdd2cd9c229d8749",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__all_user_ids"
+}

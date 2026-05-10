@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 948,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "product_product_stock_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5633dceaa40bdbf3f15277205b93f04a27c625e226945e8f5998fae6e8d001cc",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_product_product_stock_user"
+}

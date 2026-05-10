@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 226,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      646,
+      "Employee Skills Report"
+    ],
+    "name": "Employee Skill Report: Multi-Company Rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2429d080d182e704ee90f61c8c3df534815dfc61af886b4d6bec6f4c1af1f033",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "hr_skills.hr_employee_skill_report_multicompany"
+}

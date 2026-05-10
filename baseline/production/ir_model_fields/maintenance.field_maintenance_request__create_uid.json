@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4b1782d95250c4691c7c86cf1051ae4e019fbcc6047f332d0c0e6a796a3441e1",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__create_uid"
+}

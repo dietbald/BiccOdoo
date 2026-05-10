@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17603,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ECOs",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "eco_ids",
+    "relation": "mrp.eco",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "de474bd7e059b8fef094a44cabee5255272c92cdd048a09877685db159210bbf",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_product_template__eco_ids"
+}

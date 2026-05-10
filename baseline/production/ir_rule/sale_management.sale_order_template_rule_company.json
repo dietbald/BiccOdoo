@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 208,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      624,
+      "Quotation Template"
+    ],
+    "name": "Quotation Template multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a54d5aa3e786037214a2ef50c6c8778315a2334ee804e11b873a8f95f91ed376",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "sale_management.sale_order_template_rule_company"
+}

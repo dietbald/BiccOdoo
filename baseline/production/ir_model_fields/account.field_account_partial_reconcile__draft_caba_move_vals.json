@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25940,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Values that created the draft cash-basis entry",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "draft_caba_move_vals",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "bb6b0cc1774e3a3504336b801cd784b573965b04f497084fad82221a89e9f446",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__draft_caba_move_vals"
+}

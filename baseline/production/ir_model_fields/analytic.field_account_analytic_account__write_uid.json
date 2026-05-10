@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2684,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "28f1f6100ec19f62825a7856ee21bc114aee6419e2c78c669d5630fce44c5128",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_account__write_uid"
+}

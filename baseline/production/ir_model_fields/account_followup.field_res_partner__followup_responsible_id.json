@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6306,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "followup_responsible_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "29b4dfee2773df938ab1e414f372aec12b5bfb8fd4ab593632379a1b4f0c3efa",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_partner__followup_responsible_id"
+}

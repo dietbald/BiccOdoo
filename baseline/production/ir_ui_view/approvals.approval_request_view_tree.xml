@@ -1,0 +1,14 @@
+<list sample="1" decoration-info="request_status == 'new'">
+                <field name="name"/>
+                <field name="request_owner_id" widget="many2one_avatar_user"/>
+                <field name="category_id"/>
+                <field name="date_start" string="Request Start" optional="show"/>
+                <field name="date_end" string="Request To" optional="show"/>
+                <field name="date_confirmed" string="Confirm Date" optional="hide"/>
+                <field name="location" string="Location" optional="hide"/>
+                <field name="activity_ids" widget="list_activity" optional="hide"/>
+                <field name="user_ids" string="Approvers" widget="many2many_avatar_user" optional="hide"/>
+                <field name="request_status" decoration-info="request_status == 'new'" decoration-warning="request_status == 'pending'" decoration-success="request_status == 'approved'" decoration-danger="request_status == 'refused'" widget="badge"/>
+                <field name="approval_properties"/>
+                <field name="company_id" readonly="True" optional="hide" groups="base.group_multi_company"/>
+            </list>

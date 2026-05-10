@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1013,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      743,
+      "Storage Category"
+    ],
+    "name": "stock.storage.category.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1909c4bf862367ab47603c49b37d4a1b2171be688cd3d76cc00ae91b8d3c7d63",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_storage_category_manager"
+}

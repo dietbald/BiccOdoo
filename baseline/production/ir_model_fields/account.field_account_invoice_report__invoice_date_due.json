@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Due Date",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "invoice_date_due",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "1d98d675062aeca19a7ed75504d2628857ba8f6eb17eb1be4ad1bffa3a50895e",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__invoice_date_due"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4437,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debit",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "debit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "09fbf983e4997e33df94bba8a15a5d0b6cff7dc878149e20e1acea77575b9eda",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__debit"
+}

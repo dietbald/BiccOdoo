@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8255,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delivery Quantity",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "qty_delivered",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "61ff7ed0e7e866e67c48d9e27f9f0bed305a291eb286c82fea6ad9b4a52e85de",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__qty_delivered"
+}

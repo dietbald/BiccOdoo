@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 391,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'dialog_size' : 'medium',\n                'default_lead_ids': active_ids,\n            }",
+    "domain": false,
+    "name": "Mark Lost",
+    "res_model": "crm.lead.lost",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "ab297391d91495e6be467a02d8cda2df3b421c9d8489ccb1ffa4e3a9ec5c7fc0",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_lead_lost_action"
+}

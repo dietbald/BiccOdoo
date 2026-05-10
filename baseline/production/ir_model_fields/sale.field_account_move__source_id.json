@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8084,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "source_id",
+    "relation": "utm.source",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4b7df64dc50beba6ecadf507d711b6fd5f02d4f9dfa246cedfbf43593fbfceb1",
+  "write_date": "",
+  "xml_id": "sale.field_account_move__source_id"
+}

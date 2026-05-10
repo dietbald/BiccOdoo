@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11964,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Description",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "product_description_variants",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "32086804e0ae28fdd9c733667173594e53af1dfb9f7c2dfea042d2e19ec0b062",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order_line__product_description_variants"
+}

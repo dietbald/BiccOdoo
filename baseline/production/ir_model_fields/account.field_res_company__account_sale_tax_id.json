@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4963,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Sale Tax",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_sale_tax_id",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "52c331314d4f29afc9d613daa40183b19f7bc0f6e8d4178072f8829b2df249ff",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_sale_tax_id"
+}

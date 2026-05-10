@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1030,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "parent_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9df7558662f28fb7b0bdba5f8b8aaef8213429e7e68079bb028376ce06cc272a",
+  "write_date": "",
+  "xml_id": "base.field_res_company__parent_ids"
+}

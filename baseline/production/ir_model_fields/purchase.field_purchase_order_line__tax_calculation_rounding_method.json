@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9465,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax calculation rounding method",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "tax_calculation_rounding_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "21011b650d9a69c453d968fbb727c46121a88b25ef8bac1aae55932f5471fb6f",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__tax_calculation_rounding_method"
+}

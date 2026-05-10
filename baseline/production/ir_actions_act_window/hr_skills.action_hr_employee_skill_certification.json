@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1672,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'show_employee': True, 'search_default_group_by_type': 1}",
+    "domain": "[('is_certification', '=', True)]",
+    "name": "Certifications",
+    "res_model": "hr.employee.skill",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "bd0008dcb4bb0d54d45a21ddd7c46da8468143a0f4f6d10c2b0fe2e09f830278",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.action_hr_employee_skill_certification"
+}

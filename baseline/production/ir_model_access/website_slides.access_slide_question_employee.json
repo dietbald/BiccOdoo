@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1836,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1507,
+      "Content Quiz Question"
+    ],
+    "name": "slide.question.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b77e58faafacc1730ea24f437107006d9f31c278c9ccb57f3dccde8e8032c6ec",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.access_slide_question_employee"
+}

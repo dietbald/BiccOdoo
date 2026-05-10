@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6026,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      499,
+      "Horizontal group for reports"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5f387891b0ec9b86fb310ec5254c93a94eaaa6925d09ab69f19e2ab85178301a",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_horizontal_group__create_uid"
+}

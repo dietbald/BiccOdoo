@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2006,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      172,
+      "Scheduled Messages"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "77b23d6f9ae0ac90f33c69bea158021fa10a413d3cb560999b93a9329e045e1d",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_schedule__create_uid"
+}

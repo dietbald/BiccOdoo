@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 26,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_delete_unused_connection()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "Account: Journal online sync cleanup unused connections",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "42b819f9904fd038c157cb2524994bd0443c6e22b26c5f2abfcd2d36ac91f110",
+  "write_date": "2024-10-23 10:47:25",
+  "xml_id": "account_online_synchronization.online_sync_unused_connection_cron"
+}

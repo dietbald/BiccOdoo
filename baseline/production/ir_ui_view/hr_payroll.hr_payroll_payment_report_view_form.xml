@@ -1,0 +1,10 @@
+<form string="Payment Report">
+                <group id="payment_report_group">
+                    <field name="export_format"/>
+                    <field name="effective_date"/>
+                </group>
+                <footer>
+                    <button string="Generate" class="btn-primary" name="generate_payment_report" type="object" data-hotkey="q"/>
+                    <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="x"/>
+                </footer>
+            </form>

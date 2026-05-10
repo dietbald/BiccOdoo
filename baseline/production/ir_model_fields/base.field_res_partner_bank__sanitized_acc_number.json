@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 956,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sanitized Account Number",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "sanitized_acc_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "0063d96857b679bd638543cdd46bbace19005c8d76d7f747849e4fe8b855e722",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_bank__sanitized_acc_number"
+}

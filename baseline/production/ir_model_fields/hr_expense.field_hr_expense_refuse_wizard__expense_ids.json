@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26051,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expense",
+    "model_id": [
+      650,
+      "Expense Refuse Reason Wizard"
+    ],
+    "name": "expense_ids",
+    "relation": "hr.expense",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "baff81485c6651d7d19f60fd92191f8bcfcea97422b163bf5cbed3f369c0e443",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_refuse_wizard__expense_ids"
+}

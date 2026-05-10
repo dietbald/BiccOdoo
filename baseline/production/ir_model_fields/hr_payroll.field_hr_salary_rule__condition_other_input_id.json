@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23649,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Condition Other Input",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "condition_other_input_id",
+    "relation": "hr.payslip.input.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cbf275fdcaef408b3a4213cf419075e4808284fb5ce7ab42ddc696d96e2b5745",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__condition_other_input_id"
+}

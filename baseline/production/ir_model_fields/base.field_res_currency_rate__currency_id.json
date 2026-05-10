@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1015,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      93,
+      "Currency Rate"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8ac13c0b48504d59fedb6b4cb22b71d98a73bf63c1549b8dfc5696fb83b1185a",
+  "write_date": "",
+  "xml_id": "base.field_res_currency_rate__currency_id"
+}

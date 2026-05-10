@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 788,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country Calling Code",
+    "model_id": [
+      78,
+      "Country"
+    ],
+    "name": "phone_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "3c9b91b2b4ce263de52840b83fa21fce9f3b6de609b8453faaec0845b4097cdd",
+  "write_date": "",
+  "xml_id": "base.field_res_country__phone_code"
+}

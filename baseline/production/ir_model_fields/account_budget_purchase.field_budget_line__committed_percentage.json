@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20764,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Committed (%)",
+    "model_id": [
+      555,
+      "Budget Line"
+    ],
+    "name": "committed_percentage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "ea356a0bff7aa7418c835baf94b6c2ea44d95ac277a6e9d919f2915bf447cff9",
+  "write_date": "",
+  "xml_id": "account_budget_purchase.field_budget_line__committed_percentage"
+}

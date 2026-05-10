@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13345,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendance",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "attendance_ids",
+    "relation": "hr.attendance",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "84fbeaa7fb875f962246a736f03f6111f27ec9fe79e7f8946f2eae64dc1291c7",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_employee__attendance_ids"
+}

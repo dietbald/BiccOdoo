@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11137,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "22cab6ffa92b857af52508fc22e7105b79f9950b3173061d9f082b76c2cc9405",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__message_needaction"
+}

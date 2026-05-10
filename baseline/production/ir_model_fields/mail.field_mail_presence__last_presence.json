@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1469,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Presence",
+    "model_id": [
+      125,
+      "User/Guest Presence"
+    ],
+    "name": "last_presence",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "75c019a781ca609a450ac75623ee5bcd0e2bd56c66511a16ce4f2dec6afbf9e9",
+  "write_date": "",
+  "xml_id": "mail.field_mail_presence__last_presence"
+}

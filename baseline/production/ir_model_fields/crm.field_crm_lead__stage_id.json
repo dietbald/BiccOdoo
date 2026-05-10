@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7199,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "stage_id",
+    "relation": "crm.stage",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3885b5d4aa1f1872abe3ab36c5fcec16405266f713184dd5c35c00de21eb19b0",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__stage_id"
+}

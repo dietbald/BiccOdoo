@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4094,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      426,
+      "Tax Group"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "76ac55f1f55532ad2b908a0a1b2037f23ae36efcc25fb4db0844388880a52252",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_group__write_uid"
+}

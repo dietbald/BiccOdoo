@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1749,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Summary",
+    "model_id": [
+      150,
+      "Activity Mixin"
+    ],
+    "name": "activity_summary",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "87405ce3b82c279fd15a628cb50279f2d9494c33b04fb52859a9b659bc8b9d09",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_mixin__activity_summary"
+}

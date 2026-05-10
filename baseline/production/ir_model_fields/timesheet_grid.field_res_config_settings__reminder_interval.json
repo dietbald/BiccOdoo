@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13520,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approver Reminder Frequency",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "reminder_interval",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e4e3eeb98f2d1b4e2485ca89a0507788c07fabdf279fb8acd81d62146c16dddf",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_res_config_settings__reminder_interval"
+}

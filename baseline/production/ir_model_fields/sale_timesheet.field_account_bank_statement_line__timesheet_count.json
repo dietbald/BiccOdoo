@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13673,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of timesheets",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "timesheet_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "eb92202293587a0522b26dd41b762bcb8af96c05f2e19c9b1566ef0c226d9e4d",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_account_bank_statement_line__timesheet_count"
+}

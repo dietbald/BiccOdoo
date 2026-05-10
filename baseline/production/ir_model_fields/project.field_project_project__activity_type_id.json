@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7812,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7f635d7a8b93b610f06d141407aec53b5af6237d6513102fdc3bf51f5510be61",
+  "write_date": "",
+  "xml_id": "project.field_project_project__activity_type_id"
+}

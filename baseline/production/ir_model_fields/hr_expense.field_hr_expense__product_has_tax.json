@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9155,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Whether tax is defined on a selected product",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "product_has_tax",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "70d2c935bbbffcb9a5c8cc1a53601ac0cf28fe7d011423aac30e77c55b4bc7a0",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__product_has_tax"
+}

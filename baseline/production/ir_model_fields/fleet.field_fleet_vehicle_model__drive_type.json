@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27145,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Drive Type",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "drive_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "eda672594de32e475fe80f19929b1a55b4d9f926b447f891a5a33c5e893e5288",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__drive_type"
+}

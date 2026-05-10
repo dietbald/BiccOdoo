@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2295,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bounce",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "message_bounce",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "0999c66d004c0cd7e0088b1ef8a12c6df90c5f2cdad69b927633a23c3af6f48f",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__message_bounce"
+}

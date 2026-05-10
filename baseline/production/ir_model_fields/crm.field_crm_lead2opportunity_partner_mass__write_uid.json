@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7414,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      585,
+      "Convert Lead to Opportunity (in mass)"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7ab0a98f9db3207e8e51d1cf78fff3d94a1519543431c57ca376eeb0b0934086",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead2opportunity_partner_mass__write_uid"
+}

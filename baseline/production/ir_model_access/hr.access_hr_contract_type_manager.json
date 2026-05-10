@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 759,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      628,
+      "Contract Type"
+    ],
+    "name": "hr.contract.type.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7270b11174acb31bf8e7007856fdad42ef268db704bd6741b86e0f51bbae053f",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.access_hr_contract_type_manager"
+}

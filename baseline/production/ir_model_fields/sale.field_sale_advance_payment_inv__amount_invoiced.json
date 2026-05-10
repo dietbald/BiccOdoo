@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8378,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Already invoiced",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "amount_invoiced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b4cb938df7354beaf592b59301676d8c3f9390f22c178cd25318cbe4deb7ace8",
+  "write_date": "",
+  "xml_id": "sale.field_sale_advance_payment_inv__amount_invoiced"
+}

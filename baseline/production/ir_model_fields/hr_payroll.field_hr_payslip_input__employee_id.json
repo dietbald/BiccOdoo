@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29467,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      823,
+      "Payslip Input"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "34b87861dead69d5178b4bf809467d3b357c5fce1288c14425ab47a872c88c92",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_input__employee_id"
+}

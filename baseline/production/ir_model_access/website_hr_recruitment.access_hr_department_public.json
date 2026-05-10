@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 898,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      633,
+      "Department"
+    ],
+    "name": "hr.department.public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "3b42476d73e4b1895a7304377fe722b6c176bd9d59108e2f562b9f0ae5dc6ded",
+  "write_date": "2026-01-28 12:01:22",
+  "xml_id": "website_hr_recruitment.access_hr_department_public"
+}

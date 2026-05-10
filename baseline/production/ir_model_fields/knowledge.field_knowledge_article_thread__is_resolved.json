@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12214,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Thread Closed",
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "is_resolved",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1e0a02dcbf27e34036a640a11611d74c78f538c3c2d70907e6cc683f29878007",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_thread__is_resolved"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1010,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'create_action': 'website_appointment.appointment_type_action_add_simplified'}",
+    "domain": false,
+    "name": "Appointment Pages",
+    "res_model": "appointment.type",
+    "target": "current",
+    "view_mode": "list,kanban"
+  },
+  "payload_sha256": "c7712cac841dea3774104767225c849aa557fc28597f2919eadaabc6524ced26",
+  "write_date": "2026-01-28 12:01:21",
+  "xml_id": "website_appointment.action_appointment_pages_list"
+}

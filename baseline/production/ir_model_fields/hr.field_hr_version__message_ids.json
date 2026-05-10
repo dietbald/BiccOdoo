@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10359,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "85d1d1a221df0d65b8fa1593299f0f30c3b6511da01393b66f0b18abf7058e98",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__message_ids"
+}

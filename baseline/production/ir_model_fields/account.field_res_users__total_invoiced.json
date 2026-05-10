@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5462,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Invoiced",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "total_invoiced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "d0b877f7712f35a18f158be77bcdd9cf06a215584134c2391cb8fc13357c898b",
+  "write_date": "",
+  "xml_id": "account.field_res_users__total_invoiced"
+}

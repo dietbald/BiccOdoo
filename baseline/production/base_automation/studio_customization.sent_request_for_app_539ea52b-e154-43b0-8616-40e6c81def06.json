@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 14,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1765
+    ],
+    "active": true,
+    "filter_domain": "[('stage_id', '=', 2)]",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "Sent Request for Application Information",
+    "trigger": "on_stage_set"
+  },
+  "payload_sha256": "cb4355cfda664d965254d914de1d0fd355c4537b09df4017213c10ffa32858e2",
+  "write_date": "2025-12-12 09:16:04",
+  "xml_id": "studio_customization.sent_request_for_app_539ea52b-e154-43b0-8616-40e6c81def06"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17715,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "9c12137fecb1fcfe8240f0325305f5b3e8ee28350fd01937a18ba27521ae149e",
+  "write_date": "",
+  "xml_id": "social.field_social_post__state"
+}

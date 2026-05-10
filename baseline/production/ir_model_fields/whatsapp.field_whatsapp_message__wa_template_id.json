@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18422,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wa Template",
+    "model_id": [
+      1049,
+      "WhatsApp Messages"
+    ],
+    "name": "wa_template_id",
+    "relation": "whatsapp.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "03afec553da4d6c957fcede5c31a30a5840b4bd66c20a485219b0c967443f578",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_message__wa_template_id"
+}

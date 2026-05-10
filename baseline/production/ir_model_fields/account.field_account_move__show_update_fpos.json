@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Fiscal Position Changed",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "show_update_fpos",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d1043eb526d529122bde1b7d1bec74bee071e48af0944b9d6b740f3f1a7646a8",
+  "write_date": "",
+  "xml_id": "account.field_account_move__show_update_fpos"
+}

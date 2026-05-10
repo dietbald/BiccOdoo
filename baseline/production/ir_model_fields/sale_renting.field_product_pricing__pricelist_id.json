@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26523,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pricelist",
+    "model_id": [
+      2747,
+      "Pricing rule of rental products"
+    ],
+    "name": "pricelist_id",
+    "relation": "product.pricelist",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "57488980659a06f000389d38d83ecb043e7a2694ab05813135f6d75bdca2cd08",
+  "write_date": "",
+  "xml_id": "sale_renting.field_product_pricing__pricelist_id"
+}

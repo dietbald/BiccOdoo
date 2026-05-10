@@ -1,0 +1,46 @@
+<t name="Course Card" t-name="website_slides.course_card">
+    <a t-attf-href="/slides/#{slug(channel)}" t-title="channel.name" t-attf-class="card o_wslides_course_card w-100 h-100 text-decoration-none #{'o_wslides_course_unpublished' if not channel.is_published else ''}">
+        <t t-set="channel_frontend_tags" t-value="channel.tag_ids.filtered(lambda tag: tag.color)"/>
+        <div>
+            <div t-field="channel.image_1920" t-options="{'widget': 'image', 'preview_image': 'image_512'}" class="o_wslides_background_image ratio ratio-16x9"/>
+            <t t-if="channel.partner_has_new_content" t-call="website_slides.course_card_information"/>
+        </div>
+        <div class="card-body">
+            <h3 class="o_line_clamp card-title h6" t-field="channel.name"/>
+            <span t-if="not channel.is_published" class="badge text-bg-danger">Unpublished</span>
+            <div class="card-text d-flex flex-column flex-grow-1 mt-1">
+                <div class="o_line_clamp small" t-field="channel.description_short"/>
+                <div t-if="channel_frontend_tags" class="small o_wslides_desc_truncate_2_badges">
+                    <t t-foreach="channel_frontend_tags" t-as="tag">
+                        <t t-if="search_tags">
+                            <span t-att-data-post="slide_query_url(tag=slugify_tags(search_tags.ids, toggle_tag_id=tag.id), my=search_my, search=search_term, slide_category=search_slide_category, prevent_redirect=True)" t-attf-class="post_link cursor-pointer badge o_badge_clickable #{'o_color_'+str(tag.color) if tag in search_tags else 'o_wslides_channel_tag o_color_0'}" t-out="tag.name"/>
+                        </t>
+                        <t t-else="">
+                            <span t-att-data-post="slide_query_url(tag=slugify_tags(search_tags.ids, toggle_tag_id=tag.id), my=search_my, search=search_term, slide_category=search_slide_category, prevent_redirect=True)" t-attf-class="post_link cursor-pointer badge o_badge_clickable o_wslides_channel_tag #{'o_color_'+str(tag.color)}" t-out="tag.name"/>
+                        </t>
+                    </t>
+                </div>
+            </div>
+        </div>
+        <div t-attf-class="card-footer d-flex align-items-center #{'justify-content-between' if channel.total_time else 'justify-content-end'}">
+            <t t-if="channel.completion and not channel.completed">
+                <div class="d-flex align-items-center gap-2 flex-basis-50">
+                    <div class="progress flex-grow-1" style="height: 6px">
+                        <div class="progress-bar" role="progressbar" t-att-aria-valuenow="channel.completion" aria-valuemin="0" aria-valuemax="100" t-attf-style="width:#{channel.completion}%;" aria-label="Progress bar"/>
+                    </div>
+                    <small><t t-out="channel.completion"/>%</small>
+                </div>
+                <button class="btn btn-sm btn-primary">Continue</button>
+            </t>
+            <t t-elif="channel.is_member and not channel.completion">
+                <small t-if="channel.total_time" t-out="channel.total_time" t-options="{'widget': 'duration', 'unit': 'hour', 'round': 'minute', 'format': 'narrow'}"/>
+                <button class="btn btn-sm btn-primary">Start now</button>
+            </t>
+            <span t-elif="channel.is_member and channel.completed" class="badge text-bg-success"><i class="fa fa-check" aria-hidden="true"/> Completed</span>
+            <t t-else="">
+                <small t-if="channel.total_time" t-out="channel.total_time" t-options="{'widget': 'duration', 'unit': 'hour', 'round': 'minute', 'format': 'narrow'}"/>
+                <small><t t-out="channel.total_slides"/> steps</small>
+            </t>
+        </div>
+    </a>
+</t>

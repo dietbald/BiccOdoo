@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6321,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extra Recipients",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "email_recipient_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8931ab6bf797e67a1584fb3fbdd1c27dbc4f8ced4cdd6731789cc81be8b662da",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_manual_reminder__email_recipient_ids"
+}

@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 543,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('res_model', '=', 'project.task')]",
+    "groups": [
+      40,
+      41
+    ],
+    "model_id": [
+      1062,
+      "Worksheet Template"
+    ],
+    "name": "Worksheet Template: Project Only",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ca4992b94c02248b65b9e735cb39d94f93754a5b2a69b2684c5a3f6658ab91e0",
+  "write_date": "2024-05-05 13:37:30",
+  "xml_id": "industry_fsm_report.ir_rule_worksheet_template_project"
+}

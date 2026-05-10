@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22149,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Imported",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "is_imported",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "feeb526fb9bf9c7b684ce0254f7732903da93f2d21a0d98ca90b0a6591cd5868",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__is_imported"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6297,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next reminder",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "followup_next_action_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "1c603a8fdd2ef602384fb5f4c8287128c0a6b873a811be9830b08bfa3a1e5045",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_partner__followup_next_action_date"
+}

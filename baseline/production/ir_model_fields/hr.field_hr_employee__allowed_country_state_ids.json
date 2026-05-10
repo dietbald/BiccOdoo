@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27856,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Country State",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "allowed_country_state_ids",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7ac3988812f3a9e98b671c34c0f3efef6caddfdd2b420c14f6c2cbe041621655",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__allowed_country_state_ids"
+}

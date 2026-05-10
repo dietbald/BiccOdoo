@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deduplication Model",
+    "model_id": [
+      933,
+      "Deduplication Record"
+    ],
+    "name": "model_id",
+    "relation": "data_merge.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a69f3d302ced8002f5a50b361738550efd052102e42c29a4597f6c4c5791fb26",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_merge_record__model_id"
+}

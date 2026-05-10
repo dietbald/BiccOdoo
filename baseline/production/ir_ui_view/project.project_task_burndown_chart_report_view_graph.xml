@@ -1,0 +1,5 @@
+<graph string="Burndown Chart" type="line" sample="1" disable_linking="1" js_class="burndown_chart">
+                <field name="date" string="Date" interval="week"/>
+                <field name="stage_id"/>
+                <field name="is_closed"/>
+            </graph>

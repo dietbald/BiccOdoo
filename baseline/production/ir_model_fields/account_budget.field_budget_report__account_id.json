@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20789,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project Account",
+    "model_id": [
+      1243,
+      "Budget Report"
+    ],
+    "name": "account_id",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "80d03be29564549a7093f677ed8c2ab350594719e6c101f5c0a16049e86dcaad",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_report__account_id"
+}

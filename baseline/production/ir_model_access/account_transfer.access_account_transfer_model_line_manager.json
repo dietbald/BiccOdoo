@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 471,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      492,
+      "Account Transfer Model Line"
+    ],
+    "name": "access_account_transfer_model_line_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "99cc09a3d66c53a68f05220b9e0884c2d915f3379d15c29a9c2b3ef6891a7206",
+  "write_date": "2025-12-09 02:59:12",
+  "xml_id": "account_transfer.access_account_transfer_model_line_manager"
+}

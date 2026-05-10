@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 246,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                ('job_id.interviewer_ids', 'in', user.id),\n                ('interviewer_ids', 'in', user.id),\n        ]",
+    "groups": [
+      61
+    ],
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "Applicant Interviewer",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "08f53389a1aeaa1e8878995c3eefbcbfc18e99615725bccd96223cfbbc066199",
+  "write_date": "2023-12-01 01:26:19",
+  "xml_id": "hr_recruitment.hr_applicant_interviewer_rule"
+}

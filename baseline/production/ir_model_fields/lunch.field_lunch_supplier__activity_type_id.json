@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18773,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cdac615db381c01f32a312201da3989a7e8f75074991a08d7b0f2f15bbd0ef64",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__activity_type_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3599,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages Sent",
+    "model_id": [
+      405,
+      "Digest"
+    ],
+    "name": "kpi_mail_message_total",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a49d8915286d52dc8c04cd1a81193a45a27faf5d284ee286d7cc771e95c9b11b",
+  "write_date": "",
+  "xml_id": "digest.field_digest_digest__kpi_mail_message_total"
+}

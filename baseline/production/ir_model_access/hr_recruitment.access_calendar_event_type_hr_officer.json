@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 851,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      569,
+      "Event Meeting Type"
+    ],
+    "name": "calendar.event.type.officer",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "8550b777acb68a7d2ac2c81f5edad91120df236920e3a04eb1127e1682312ceb",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_calendar_event_type_hr_officer"
+}

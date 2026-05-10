@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17152,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recurring Cost",
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "cost_generated",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "a8bd798997b61a533c162efd8a53995541268e2a631ee115f157d8aed0de8415",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_contract__cost_generated"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3447,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipient Number",
+    "model_id": [
+      397,
+      "Send SMS Wizard"
+    ],
+    "name": "recipient_single_number_itf",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "f3bd0a0b915258baf11918bd5a820b62110a547ccdeaac6f0973a825800745b9",
+  "write_date": "",
+  "xml_id": "sms.field_sms_composer__recipient_single_number_itf"
+}

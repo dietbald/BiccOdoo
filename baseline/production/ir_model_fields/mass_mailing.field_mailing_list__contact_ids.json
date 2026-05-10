@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14129,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mailing Lists",
+    "model_id": [
+      891,
+      "Mailing List"
+    ],
+    "name": "contact_ids",
+    "relation": "mailing.contact",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7087c24601371b241f6b119cd6a5a1f2b38436abb971f775563aa1f10662aa6a",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_list__contact_ids"
+}

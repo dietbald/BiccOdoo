@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18269,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Maintenance Equipment",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "equipment_ids",
+    "relation": "maintenance.equipment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "675f32854ac08124c9463c85c80591a12773e67748616d7238bf875de598a45c",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__equipment_ids"
+}

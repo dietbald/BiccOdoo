@@ -1,0 +1,31 @@
+<t t-name="mrp.mo_overview_byproducts">
+        <t t-if="byproducts">
+            <tr>
+                <td class="text-start">
+                    <span t-attf-style="margin-left: {{ (byproducts[0]['level'] - 1 if len(byproducts) else 0) * 20 }}px"/>
+                    By-Products
+                </td>
+                <td t-if="data['show_replenishments']" class="text-center"/>
+                <td class="text-end"/>
+                <td t-if="data['show_uom']" class="text-start"/>
+                <td t-if="data['show_availabilities']" class="text-end"/>
+                <td t-if="data['show_availabilities']" class="text-end"/>
+                <td t-if="data['show_receipts']" class="text-end"/>
+                <td t-if="data['show_unit_costs']"/>
+                <td t-if="data['show_mo_costs']" t-attf-class="text-end {{ data['get_color'](summary.get('mo_cost_decorator')) }}">
+                    <t t-out="summary['mo_cost']" t-options="{'widget': 'monetary', 'display_currency': summary['currency']}"/>
+                </td>
+                <td t-if="data['show_bom_costs']" class="text-end">
+                    <t t-out="summary['bom_cost']" t-options="{'widget': 'monetary', 'display_currency': summary['currency']}"/>
+                </td>
+                <td t-if="data['show_real_costs']" class="text-end">
+                    <t t-out="summary['real_cost']" t-options="{'widget': 'monetary', 'display_currency': summary['currency']}"/>
+                </td>
+            </tr>
+        </t>
+        <t t-if="summary['index'] in data['unfolded_ids']" t-foreach="byproducts" t-as="byproduct">
+            <t t-call="mrp.mo_overview_line">
+                <t t-set="line" t-value="byproduct"/>
+            </t>
+        </t>
+    </t>

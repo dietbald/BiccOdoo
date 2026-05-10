@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30045,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3863,
+      "AI model configurations (system prompts) for text drafting."
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8c35013abfab1221694b16beba39eb38da01912dc9862be8efd84e80dd5e1097",
+  "write_date": "",
+  "xml_id": "ai.field_ai_composer__write_uid"
+}

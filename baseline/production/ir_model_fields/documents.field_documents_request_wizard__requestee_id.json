@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Owner",
+    "model_id": [
+      544,
+      "Document Request"
+    ],
+    "name": "requestee_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a23070f1eda035454ec81c9c81545a988d83f16dbd8fa81cd3795b74c287e9b",
+  "write_date": "",
+  "xml_id": "documents.field_documents_request_wizard__requestee_id"
+}

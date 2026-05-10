@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 739,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                '&',\n                    ('employee_id.user_id', '=', user.id),\n                    ('state', '!=', 'validate'),\n                ('employee_id.leave_manager_id', '=', user.id),\n        ]",
+    "groups": [
+      114
+    ],
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "Allocations: Responsible: create/write",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "8c5b24a5ca28af5e7354f95ea7ac05397f2228255c3a25ded478134e83ab1a64",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.hr_leave_allocation_rule_responsible_update"
+}

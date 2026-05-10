@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3262,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discounts",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_discount_per_so_line",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dde3e2c9f5c2d06b76b9f8f1a8f9d623095289d57c6900596dc7bfebaeec74fc",
+  "write_date": "",
+  "xml_id": "sale.field_res_config_settings__group_discount_per_so_line"
+}

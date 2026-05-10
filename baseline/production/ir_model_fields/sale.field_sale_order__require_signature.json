@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8170,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Online signature",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "require_signature",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "223e1ea53ae5c1826d95afc2dfaafa90006b67619e8b5d4f410647f1926219d8",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__require_signature"
+}

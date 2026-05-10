@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6279,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mail Template",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "mail_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "57038a1888e0cddeb6ecf32755c42c5479f70fc515e25e80f58f71db2cefb664",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__mail_template_id"
+}

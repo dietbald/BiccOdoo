@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1015,
+      "ECO Type"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "79a02a9e872ba31d31ead3d0ccaa6a03f2d26ae40ca4edf889dc30fda2135aba",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_type__message_follower_ids"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 610,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('survey_type', '=', 'recruitment'),\n                '|', ('hr_job_ids.interviewer_ids', 'in', user.id),\n                     ('hr_job_ids.application_ids.interviewer_ids', 'in', user.id)\n                ]",
+    "groups": [
+      61
+    ],
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "Survey: recruitment interviewer: send surveys to applicants for which they are set as interviewer",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "f008b2ad55387ae28cdc1c7f53d51fe74fd5fa69fc2fddde5649df29024ec486",
+  "write_date": "2024-10-23 10:50:01",
+  "xml_id": "hr_recruitment_survey.survey_survey_recruitment_interviewer"
+}

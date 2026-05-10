@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 124,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('res_model', '=', 'documents.document')]",
+    "groups": [
+      34
+    ],
+    "model_id": [
+      165,
+      "Activity Plan"
+    ],
+    "name": "Manager can manage document plans",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "14cebab3e1be5a6dba96e7cef52ac74deefdddec229553fd61b4e2bd3193098c",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "documents.mail_plan_rule_group_document_manager_document"
+}

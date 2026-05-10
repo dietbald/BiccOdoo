@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11620,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      756,
+      "Conflict in Inventory"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "28bd27ba129d7db5163a126bb94cc048ccab993af1e122c5096e1a25aeb8c535",
+  "write_date": "",
+  "xml_id": "stock.field_stock_inventory_conflict__write_uid"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1731,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_last_365_days': 1, 'search_default_groupby_vendor': 1}",
+    "domain": "[('prepaid_expense', '=', True)]",
+    "name": "Billed Not Received",
+    "res_model": "purchase.order.line",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "be4429c4950ff183bd879dc2cb13c8809f8493f1d00ab96683403d24d80e3348",
+  "write_date": "2025-12-09 03:00:43",
+  "xml_id": "purchase_accountant.purchase_order_line_accrual_prepaid_expenses_action"
+}

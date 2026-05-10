@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11716,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unity of measure",
+    "model_id": [
+      768,
+      "Product Replenish"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "61199a98d17f9236cd5ee0c618e06f454eeb67becbbd05e71840e2b918f1154f",
+  "write_date": "",
+  "xml_id": "stock.field_product_replenish__product_uom_id"
+}

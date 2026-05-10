@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 70,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._post_messages_cron()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      1329,
+      "Scheduled Message"
+    ],
+    "name": "Mail: Post scheduled messages",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "42ff49bc302591a31e7f6093f4fe573a20d3bcbc41f86de45513d06fca0863b9",
+  "write_date": "2025-01-28 01:21:32",
+  "xml_id": "mail.ir_cron_post_scheduled_message"
+}

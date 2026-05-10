@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29707,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Withholding",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "display_withholding",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6aefd7ebab0bc33070242b407138becd5dc873ff0bc95bc39f75aa7c80150fd2",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment__display_withholding"
+}

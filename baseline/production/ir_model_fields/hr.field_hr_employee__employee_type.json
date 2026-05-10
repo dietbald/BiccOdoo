@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8732,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Type",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "employee_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "6bc33ca0a3e91c1f11b9a0b0012e21ada667b7d8c0a1e97b44e2b5fb4ee39783",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__employee_type"
+}

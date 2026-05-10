@@ -1,0 +1,11 @@
+<kanban highlight_color="color" sample="1">
+                <templates>
+                    <t t-name="menu">
+                        <field name="color" widget="kanban_color_picker"/>
+                    </t>
+                    <t t-name="card">
+                        <field name="name" class="fw-bold fs-5 ms-1"/>
+                        <field t-if="record.role_ids.raw_value.length &gt; 0" name="role_ids" widget="many2many_tags" options="{'color_field': 'color'}" class="ms-1"/>
+                    </t>
+                </templates>
+            </kanban>

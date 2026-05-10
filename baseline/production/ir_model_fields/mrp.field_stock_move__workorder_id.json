@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16338,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Order To Consume",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "workorder_id",
+    "relation": "mrp.workorder",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "51f28c0ef4607947e23bfd3a6e9f4ee095159242132f44a6bf8380fc007d0ed1",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_move__workorder_id"
+}

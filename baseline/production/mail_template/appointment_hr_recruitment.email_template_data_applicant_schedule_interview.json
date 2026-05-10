@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 99,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n    <h2>Hello,</h2>\n    <div style=\"font-size: 13px;\">\n        Thanks for your application and interest in <t t-out=\"object.company_id.name or ''\">YourCompany</t>.<br/>\n        <br/>\n        I would like to organize a phone interview with you, it should last about 30 min.\n        We'll go through your resume and motivations to join the <t t-out=\"object.company_id.name or ''\">YourCompany</t> team.\n        You can book a slot in our agenda by cliking on the button below.<br/>\n    </div>\n    <br/>\n    <a t-att-href=\"object._get_interview_invite_url()\" t-attf-style=\"background-color: {{user.company_id.email_secondary_color or '#875A7B'}}; text-decoration: none; color: {{user.company_id.email_primary_color or '#FFFFFF'}}; padding: 8px 16px 8px 16px; border-radius: 5px;\">Schedule my interview</a><br/>\n    <br/>\n    Best regards,\n</div>\n        ",
+    "email_from": false,
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "Recruitment: Schedule interview",
+    "subject": "Can we plan an interview together for your {{ (object.job_id.name + ' ') if object.job_id else '' }}application?"
+  },
+  "payload_sha256": "a0a19e790be99754bcb7cf61eb09a6835a4b795f447f05b7251ba2dfcef4dbab",
+  "write_date": "2025-12-09 02:59:12",
+  "xml_id": "appointment_hr_recruitment.email_template_data_applicant_schedule_interview"
+}

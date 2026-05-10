@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25526,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      2601,
+      "Alert in Referral App"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a991b6064c3fdb28b13da925af8d1709484070360fae9a0b94eead8fc7f9b4c6",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_alert__company_id"
+}

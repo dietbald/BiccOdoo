@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18158,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "bba16f18dfa79a6a2f85489a457d3437a1a457b13e7d94805c9b4a54a8f79ac6",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__message_ids"
+}

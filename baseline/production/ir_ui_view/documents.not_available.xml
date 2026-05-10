@@ -1,0 +1,6 @@
+<t t-name="documents.not_available">
+        <t t-call="documents.public_page_layout">
+            <h1 class="o_documents_portal_central_message text-center mt160 mb-3">This document does not exist or is not publicly available.</h1>
+            <h4 class="o_documents_portal_central_message text-center">Please login or contact the person that shared this link for more information.</h4>
+        </t>
+    </t>

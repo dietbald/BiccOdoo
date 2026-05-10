@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12653,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "POs to Confirm",
+    "model_id": [
+      809,
+      "Wizard in case PO still has open alternative requests for quotation"
+    ],
+    "name": "po_ids",
+    "relation": "purchase.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cc1dbe0a84bddadc5239775b02019b6c5fa8b04378623bf816397c73a980cb71",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_alternative_warning__po_ids"
+}

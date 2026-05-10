@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30038,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Models",
+    "model_id": [
+      3863,
+      "AI model configurations (system prompts) for text drafting."
+    ],
+    "name": "focused_models",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "51a5415bcf0ddc6b1092ecfd16f481accad52ed57880bb2dd6d453d271843163",
+  "write_date": "",
+  "xml_id": "ai.field_ai_composer__focused_models"
+}

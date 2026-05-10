@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11931,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Category",
+    "model_id": [
+      779,
+      "Stock Report"
+    ],
+    "name": "categ_id",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fa5837e5ef02b13735e5202f1ade4c8fdf7bf100f3c446c472ade947fa62e6fe",
+  "write_date": "",
+  "xml_id": "stock_enterprise.field_stock_report__categ_id"
+}

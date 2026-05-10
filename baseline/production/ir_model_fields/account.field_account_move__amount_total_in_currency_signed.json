@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4372,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total in Currency Signed",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "amount_total_in_currency_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "8c68776ef523c516aee2873b07dfbbda13c023a8312ba839c5d8927e821e25d5",
+  "write_date": "",
+  "xml_id": "account.field_account_move__amount_total_in_currency_signed"
+}

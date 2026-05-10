@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10887,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quant",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "quant_ids",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ce93dd8789e01c32d0430b83c330169ccaa5c2cf5b4563fbac3fccc7e43391d3",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__quant_ids"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1592,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      137,
+      "Field Service / User"
+    ],
+    "model_id": [
+      1065,
+      "Task stop running timers confirmation wizard line"
+    ],
+    "name": "access_project_task_stop_timers_wizard_line_user_fsm",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "ec1f5905753e8ba4283021b077f435dfb4b4c64f3d94241cdaa2d67fc26163bc",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.access_project_task_stop_timers_wizard_line_user_fsm"
+}

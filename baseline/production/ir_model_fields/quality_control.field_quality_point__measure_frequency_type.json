@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18284,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Control Frequency",
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "measure_frequency_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0f9b9e16e258e43ab072fb81cc2448c7d67404193c544fd8b9d2446ae4763c2c",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_point__measure_frequency_type"
+}

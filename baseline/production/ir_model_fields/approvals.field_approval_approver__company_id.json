@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12176,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      786,
+      "Approver"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5a6336d7604748e2604f97694095a44e922664810cda7144352cf12c15571224",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_approver__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ec9990f4177cda962a9629376fe07e6fda2cca60fa1452ca918d118762fc02ff",
+  "write_date": "",
+  "xml_id": "phone_validation.field_res_partner__message_needaction"
+}

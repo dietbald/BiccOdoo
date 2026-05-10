@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19095,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b989adbad31f7af7d4fd06edd45875688cd7363049d45a3efcb1b1bf86eeeda0",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__website_message_ids"
+}

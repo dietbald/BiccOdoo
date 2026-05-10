@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4745,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-generated Payments",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "payment_ids",
+    "relation": "account.payment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ba071cc94d948a6713d73b4b29b688b8ecf8d61e600f8ffafdadc95875aaa2ad",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__payment_ids"
+}

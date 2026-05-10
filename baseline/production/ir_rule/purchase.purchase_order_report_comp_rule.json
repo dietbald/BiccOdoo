@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 244,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "Purchase Order Report multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2ca6c028430e023216e045bbb53f3d25494f0858760ac3012f8d8334472060dc",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "purchase.purchase_order_report_comp_rule"
+}

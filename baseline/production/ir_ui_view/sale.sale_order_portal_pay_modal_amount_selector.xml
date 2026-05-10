@@ -1,0 +1,13 @@
+<t name="Sales Order Portal Pay Modal Amounts Selector" t-name="sale.sale_order_portal_pay_modal_amount_selector">
+        <div class="d-flex btn-group mb-3" role="group">
+            <button name="o_sale_portal_amount_prepayment_button" class="btn btn-light active">
+                Down payment <br/>
+                <span t-if="not payment_amount or payment_amount == sale_order.amount_total" t-out="prepayment_amount" t-options="{                         'widget': 'monetary',                         'display_currency': sale_order.currency_id,                     }" class="fw-bold"/>
+                <span t-else="" t-out="payment_amount" t-options="{                         'widget': 'monetary',                         'display_currency': sale_order.currency_id,                     }" class="fw-bold"/>
+            </button>
+            <button name="o_sale_portal_amount_total_button" class="btn btn-light">
+                Full amount <br/>
+                <span t-out="sale_order.amount_total" t-options="{                         'widget': 'monetary',                         'display_currency': sale_order.currency_id,                     }" class="fw-bold"/>
+            </button>
+        </div>
+    </t>

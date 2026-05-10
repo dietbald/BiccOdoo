@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12552,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Release to Pay",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "can_be_paid",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "141be88f35e70625f7610a6877fc3bb338ba7e3f404211b7c6218dd5df3fc57d",
+  "write_date": "",
+  "xml_id": "account_3way_match.field_account_move_line__can_be_paid"
+}

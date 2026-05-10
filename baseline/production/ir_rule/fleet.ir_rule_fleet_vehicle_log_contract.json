@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 486,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "Fleet vehicle log contract: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e7054f82491bd77bca9080e6c119816e5cd354767506e8336dacc3ca2cbfc1b7",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "fleet.ir_rule_fleet_vehicle_log_contract"
+}

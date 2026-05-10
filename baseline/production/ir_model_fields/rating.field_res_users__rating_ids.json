@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7600,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "64bc14f6a86e3a92ddc8b1e779b954bad68d814e68307a188e0c91110d917e3d",
+  "write_date": "",
+  "xml_id": "rating.field_res_users__rating_ids"
+}

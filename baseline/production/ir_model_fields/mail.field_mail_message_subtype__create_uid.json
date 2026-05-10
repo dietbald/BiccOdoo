@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2022,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      173,
+      "Message subtypes"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6bf25d789ea7e9b31c94695a021cc8a040766f8e66b028a7cd928f1828f87206",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_subtype__create_uid"
+}

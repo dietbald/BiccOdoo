@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18587,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "API",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "geoloc_provider_id",
+    "relation": "base.geo_provider",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d39a0a7981912e83693165509ecb2256438f415e5994d71cc1faaf87f9f9b99d",
+  "write_date": "",
+  "xml_id": "base_geolocalize.field_res_config_settings__geoloc_provider_id"
+}

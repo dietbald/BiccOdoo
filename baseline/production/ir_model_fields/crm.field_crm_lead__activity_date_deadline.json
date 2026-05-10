@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7161,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "752c796203dc3ea7556fa0abfaa0b6f63c5fe6225dc558284e5bf58aee8ea5ba",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__activity_date_deadline"
+}

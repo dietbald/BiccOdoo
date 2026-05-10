@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11581,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      753,
+      "Return Picking Line"
+    ],
+    "name": "uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "003708d72362f61ae94fa60c8ffd7cb24b5edc79b0b0930fa674513f9b91d147",
+  "write_date": "",
+  "xml_id": "stock.field_stock_return_picking_line__uom_id"
+}

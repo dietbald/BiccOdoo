@@ -1,0 +1,10 @@
+<pivot string="Pivot" default_order="create_date desc" sample="1">
+                    <field type="row" name="name"/>
+                    <field type="measure" name="total_views"/>
+                    <field name="karma_slide_comment" invisible="1"/>
+                    <field name="karma_review" invisible="1"/>
+                    <field name="color" invisible="1"/>
+                    <field name="karma_gen_channel_finish" invisible="1"/>
+                    <field name="karma_gen_channel_rank" invisible="1"/>
+                    <field name="sequence" invisible="1"/>
+                </pivot>

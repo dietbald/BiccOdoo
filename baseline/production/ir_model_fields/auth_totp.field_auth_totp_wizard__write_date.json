@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1397,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated on",
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "write_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "d4d003f89bdc97f22da61dcf99d1b3ad9c522094dc7e9dbd730e266f98f03175",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_wizard__write_date"
+}

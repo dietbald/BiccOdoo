@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11753,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Filtered Location",
+    "model_id": [
+      771,
+      "Stock Package Destination"
+    ],
+    "name": "filtered_location",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fa9583a73d4dde19b9b31a9fe81f5024e2a70e658462fd69c48ab1ac73597b82",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package_destination__filtered_location"
+}

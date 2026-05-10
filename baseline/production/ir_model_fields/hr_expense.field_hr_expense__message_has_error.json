@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9139,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d8588404f4e2e2b384ebd4950bd1d0962d92466dbb3ec2e796cb020067e4c609",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__message_has_error"
+}

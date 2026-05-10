@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10853,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Warnings for Stock",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_warning_stock",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "00044648c2c4ff095d73b8f8dd3783a59ff9c43778d3b4cabb974faf4d7979f6",
+  "write_date": "",
+  "xml_id": "stock.field_res_config_settings__group_warning_stock"
+}

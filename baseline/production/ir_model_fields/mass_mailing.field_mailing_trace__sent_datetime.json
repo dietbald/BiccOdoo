@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14160,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sent On",
+    "model_id": [
+      893,
+      "Mailing Statistics"
+    ],
+    "name": "sent_datetime",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "738d1ce7777e31b4be272a68ffcb9fc579b74ce3046dc221cffd9c84112c5477",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_trace__sent_datetime"
+}

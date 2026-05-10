@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 456,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|', \n                ('company_id', 'in', company_ids),\n                '&',\n                    ('company_id', '=', False),\n                    ('country_id', 'in', user.env.companies.country_id.ids + [False])\n        ]\n        ",
+    "groups": [],
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "Time Off multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8b424d6987e0ed974e2f60788d2c67ece97a17e62b3dd14406d89051a5cbf0c3",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "hr_holidays.hr_holidays_status_rule_multi_company"
+}

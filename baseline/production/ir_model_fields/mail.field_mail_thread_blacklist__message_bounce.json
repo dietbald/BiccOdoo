@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1796,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bounce",
+    "model_id": [
+      156,
+      "Mail Blacklist mixin"
+    ],
+    "name": "message_bounce",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "5ab36a5717141e9a0770db9da0c7ec6560b6a7accfd1aa459815a09fbfe6f7ee",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_blacklist__message_bounce"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28586,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      3474,
+      "Employee Certification Report"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e0ffb7833cd28948b3f1d53497330708fd80b7b8f967817d525d07b5cc6ba6cb",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_employee_certification_report__department_id"
+}

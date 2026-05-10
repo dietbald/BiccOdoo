@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3723,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Transactions",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "child_transaction_ids",
+    "relation": "payment.transaction",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "77bb2502477f496000be55d2c37b3e80325773bb145604582007b8af1e6c7f55",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__child_transaction_ids"
+}

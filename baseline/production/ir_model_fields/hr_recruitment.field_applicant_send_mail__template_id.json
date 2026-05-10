@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mail Template",
+    "model_id": [
+      671,
+      "Send mails to applicants"
+    ],
+    "name": "template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b1d1e2d5246642b5c0ba9b32a65b26197e486e4f27f81789118b14a934ea648a",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_send_mail__template_id"
+}

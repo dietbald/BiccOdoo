@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 103,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      23
+    ],
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "Billing: Allow accessing employee bank accounts",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c1cc612339298cb6f4848e088f3c27336354764404b822b4288f9cc9a68aea49",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.ir_rule_res_partner_bank_billing_officers"
+}

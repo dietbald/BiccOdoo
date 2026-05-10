@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12694,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      811,
+      "HR Work Entry"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c249c9249e4c1aaadeb679fb892e2ec5dbcebde60211017bc24c7fb231a8b2c6",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_hr_work_entry__create_uid"
+}

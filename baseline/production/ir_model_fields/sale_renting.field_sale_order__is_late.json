@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26563,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is overdue",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "is_late",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d6d249d1214802ed03db4176a102c8f69c42203573101e36f18c2f48fea7254d",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order__is_late"
+}

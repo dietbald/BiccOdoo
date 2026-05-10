@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22523,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closed Depending on Tasks",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "closed_depend_on_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "a70b879b81211ede894d6d102143eeaa614a4a694ec294964e134ee78d235e4d",
+  "write_date": "",
+  "xml_id": "project.field_project_task__closed_depend_on_count"
+}

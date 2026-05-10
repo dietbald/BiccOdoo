@@ -1,0 +1,16 @@
+<t name="Users Page" t-name="website_profile.users_page_main">
+        <t t-set="body_classname" t-value="'o_wprofile_body'"/>
+        <t t-call="website.layout">
+            <div class="h-100 d-flex flex-column">
+                <div id="wrap" class="o_wprofile_wrap mt-0 pb-5 ">
+                    <t t-call="website_profile.users_page_header"/>
+                    <t t-if="users">
+                        <t t-call="website_profile.users_page_content"/>
+                    </t>
+                </div>
+                <t t-if="not users">
+                    <h2 class="text-black m-auto">No Leaderboard Yet :(</h2>
+                </t>
+            </div>
+        </t>
+    </t>

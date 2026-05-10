@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23872,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "16ace0f221ecdb614f9d0b9c55f88024eb3e9a1843a0b6586fd877d33e7e7b6f",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__website_message_ids"
+}

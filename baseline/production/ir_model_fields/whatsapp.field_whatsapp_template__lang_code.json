@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Language",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "lang_code",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0f1f298b1a46d9c40d01e648b6ef710a94641cbe05d199b8629d4314fd6d0c64",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__lang_code"
+}

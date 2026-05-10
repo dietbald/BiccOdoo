@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scrap operation",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "scrap_id",
+    "relation": "stock.scrap",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "72ca1980f90a91860e67307f0f6c13c2a5834a8efab74ef6ec2435c3f8b3b759",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__scrap_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9169,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit Price",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "price_unit",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d3b29b89d9fd3573cbff95382dd940adb4c08c54e304a2023beb6bef9caca4df",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__price_unit"
+}

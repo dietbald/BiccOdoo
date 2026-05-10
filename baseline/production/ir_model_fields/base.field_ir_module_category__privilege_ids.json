@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26759,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Privileges",
+    "model_id": [
+      65,
+      "Application"
+    ],
+    "name": "privilege_ids",
+    "relation": "res.groups.privilege",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a81df8f23b26ec7dd93b7096df80bb7d81d3b6e0102eee6351e32a03350113a4",
+  "write_date": "",
+  "xml_id": "base.field_ir_module_category__privilege_ids"
+}

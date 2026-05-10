@@ -1,0 +1,11 @@
+<list string="Structure Type">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="default_schedule_pay"/>
+                <field name="country_id"/>
+                <field name="country_code" column_invisible="1"/>
+                <field name="default_resource_calendar_id"/>
+                <field name="wage_type"/>
+                <field name="default_struct_id" domain="[('id', 'in', struct_ids)]"/>
+                <field name="struct_ids" column_invisible="True"/>
+            </list>

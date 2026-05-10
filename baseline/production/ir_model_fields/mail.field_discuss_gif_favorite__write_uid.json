@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2407,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      203,
+      "Save favorite GIF from Tenor API"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "294667768f448b4e402607b554678f16e04bfcaa7b47034fb5e79e69a499aa13",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_gif_favorite__write_uid"
+}

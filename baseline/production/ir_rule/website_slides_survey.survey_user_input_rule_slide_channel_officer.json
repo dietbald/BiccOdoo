@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 683,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('survey_id.certification', '=', True),\n            ('survey_id.survey_type', 'in', ('survey', 'live_session', 'assessment', 'custom')),\n            '|', ('survey_id.restrict_user_ids', '=', False), ('survey_id.restrict_user_ids', 'in', user.id)]",
+    "groups": [
+      148
+    ],
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "Survey user input: slide channel officer on certification: read",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "07fcaec9db23b1b3e4b7a0a0509a46a3242e9874ff274ccc83cc0e2cd67fca65",
+  "write_date": "2025-03-23 22:57:07",
+  "xml_id": "website_slides_survey.survey_user_input_rule_slide_channel_officer"
+}

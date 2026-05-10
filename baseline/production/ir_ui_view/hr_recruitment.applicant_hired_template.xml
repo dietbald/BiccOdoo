@@ -1,0 +1,3 @@
+<t t-name="hr_recruitment.applicant_hired_template">
+Employee created: <a href="#" t-att-data-oe-id="applicant.employee_id.id" data-oe-model="hr.employee"><t t-esc="applicant.employee_id.name"/></a>
+    </t>

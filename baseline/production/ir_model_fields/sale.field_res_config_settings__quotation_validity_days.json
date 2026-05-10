@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8350,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Quotation Validity",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "quotation_validity_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "ff61c95552316d80b5981cbf213070b8036a50fe91a0a5b7955c5ba5cfcc742f",
+  "write_date": "",
+  "xml_id": "sale.field_res_config_settings__quotation_validity_days"
+}

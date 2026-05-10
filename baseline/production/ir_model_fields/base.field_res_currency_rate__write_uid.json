@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      93,
+      "Currency Rate"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff3bff1256fb7df1cf27fc2ab1ab856b8be0fee1778a23aecf62b81538bd66b8",
+  "write_date": "",
+  "xml_id": "base.field_res_currency_rate__write_uid"
+}

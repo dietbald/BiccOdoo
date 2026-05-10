@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6761,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1790fe6a7e42a6ece8c414137dbe8740fc0c2c400e69f03c36f5d2aa58ad5ee9",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__message_has_sms_error"
+}

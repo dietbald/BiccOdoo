@@ -1,0 +1,48 @@
+<form create="false">
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button type="object" name="open_requests" class="oe_stat_button" icon="fa-pencil-square-o">
+                            <div class="o_field_widget o_stat_info">
+                                <span class="o_stat_value">
+                                    <field name="signed_count"/>
+                                </span>
+                                <span class="o_stat_text">Signed Document</span>
+                            </div>
+                        </button>
+                    </div>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <div class="oe_title">
+                        <h1>
+                            <div class="o_row">
+                                <field name="name" placeholder="Name of the file" nolabel="1"/>
+                            </div>
+                        </h1>
+                    </div>
+
+                    <group>
+                        <group>
+                            <field name="active" invisible="1"/>
+                            <field name="responsible_count" invisible="1"/>
+                            <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}" placeholder="Tags"/>
+                            <field name="model_id"/>
+                            <field name="redirect_url" widget="url"/>
+                            <field name="redirect_url_text" invisible="not redirect_url" required="bool(redirect_url)"/>
+                        </group>
+                        <group>
+                            <field name="authorized_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
+                            <field name="group_ids" groups="sign.manage_template_access" widget="many2many_tags"/>
+                            <field name="user_id" domain="[('share', '=', False)]" groups="sign.manage_template_access" options="{'no_open': True}"/>
+                            <label for="signature_request_validity" string="Valid for"/>
+                            <div class="o_row" name="signature_request_validity">
+                                <field name="signature_request_validity" class="oe_inline o_hr_narrow_field" nolabel="1"/>
+                                <div class="mb-3" name="signature_request_validity_unit_label"> days</div>
+                            </div>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page name="Communication" string="Communication">
+                            <field name="message" class="oe-bordered-editor" placeholder="Optional Message..."/>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12146,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User Status",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "user_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "986df709fc8dfc3b2c4448d53ccd90b8e24a9daf03143e9eae887ffc3e101a5c",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__user_status"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10947,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ff1559dd2db6588aa29d91cba1c06070a25b97ec53ca320640fa1977b1bbca4e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__state"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 131,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Menu",
+    "model_id": [
+      11,
+      "Create Menu Wizard"
+    ],
+    "name": "menu_id",
+    "relation": "ir.ui.menu",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "809302b6c2beb753da7ba8c45a316ff2bd5deff6f9d8ad277a2d428cfe768f2c",
+  "write_date": "",
+  "xml_id": "base.field_wizard_ir_model_menu_create__menu_id"
+}

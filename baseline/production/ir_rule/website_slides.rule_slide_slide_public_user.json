@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 670,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                    ('channel_id.website_published', '=', True),\n                    ('website_published', '=', True),\n                    ('channel_id.visibility', '=', 'public'),\n                    '|',\n                        ('is_category','=', True),\n                        ('is_preview', '=', True),\n                ]\n            ",
+    "groups": [
+      11
+    ],
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "Slide: public: restricted to published or public channel & (category or previewable)",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "37231631b6bcd7b13c54f7abbe42c7492ab930574701c97c4e929e3aab5ac2d8",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_slide_public_user"
+}

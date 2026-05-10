@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4777,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "21f8843d0540da4701a9d264aed2af4637cc1e60e4ec0ee76c2dcf3d995930d2",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__activity_type_id"
+}

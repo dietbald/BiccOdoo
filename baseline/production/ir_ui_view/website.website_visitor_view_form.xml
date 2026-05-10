@@ -1,0 +1,49 @@
+<form string="Website Visitor">
+                <header>
+                    <button name="action_send_mail" type="object" class="btn btn-primary" invisible="not email" string="Send Email"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button o_stat_button_info" disabled="1" invisible="not is_connected">
+                            <i class="fa fa-fw o_button_icon fa-circle text-success" title="Connected"/>
+                            <div class="o_stat_info">
+                                <span class="o_stat_text">Connected</span>
+                            </div>
+                        </button>
+                        <button class="oe_stat_button o_stat_button_info" disabled="1" invisible="is_connected">
+                            <i class="fa fa-fw o_button_icon fa-circle text-danger" title="Offline"/>
+                            <div class="o_stat_info">
+                                <span class="o_stat_text">Offline</span>
+                            </div>
+                        </button>
+                        <button id="w_visitor_visit_counter" class="oe_stat_button o_stat_button_info" disabled="1" icon="fa-globe">
+                            <field name="visit_count" widget="statinfo" string="Visits"/>
+                        </button>
+                        <button name="630" type="action" class="oe_stat_button" icon="fa-tags">
+                            <field name="visitor_page_count" widget="statinfo" string="Page Views"/>
+                        </button>
+                    </div>
+                    <div class="float-end" invisible="not country_id">
+                        <field name="country_flag" widget="image_url" options="{&quot;size&quot;: [32, 32]}"/>
+                    </div>
+                    <div class="oe_title">
+                        <h1><field name="display_name"/></h1>
+                    </div>
+                    <group id="general_info">
+                        <group string="Details">
+                            <field name="is_connected" invisible="1"/>
+                            <field name="partner_id"/>
+                            <field name="email"/>
+                            <field name="mobile" class="o_force_ltr"/>
+                            <field name="country_id" invisible="not country_id"/>
+                            <field name="lang_id"/>
+                        </group>
+                        <group id="visits" string="Visits">
+                            <field name="website_id" groups="website.group_multi_website"/>
+                            <field name="create_date"/>
+                            <field name="last_connection_datetime"/>
+                            <field name="page_ids" string="Pages" widget="many2many_tags"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

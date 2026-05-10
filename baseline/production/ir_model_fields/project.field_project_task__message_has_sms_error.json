@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7651,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "fd7709cd82e932c6d33f1aa84e422943edf98f4d585bfd19eb03d11d8225979d",
+  "write_date": "",
+  "xml_id": "project.field_project_task__message_has_sms_error"
+}

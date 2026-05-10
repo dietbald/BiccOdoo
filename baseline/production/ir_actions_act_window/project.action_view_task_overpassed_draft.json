@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 455,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('is_closed', '=', False), ('date_deadline', '<', 'today'), ('project_id', '!=', False), ('has_template_ancestor', '=', False)]",
+    "name": "Overpassed Tasks",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "list,form,calendar,graph,kanban"
+  },
+  "payload_sha256": "1de70d304bfbf94cd4316c35f5591d9c14a1919bede7be87489716acb003e157",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.action_view_task_overpassed_draft"
+}

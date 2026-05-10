@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Interview Form",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "survey_id",
+    "relation": "survey.survey",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4e9dd6d8aa3eb488dfa1496c17593598c0d899c8add3b06c2e4c199b316d0eef",
+  "write_date": "",
+  "xml_id": "hr_recruitment_survey.field_hr_job__survey_id"
+}

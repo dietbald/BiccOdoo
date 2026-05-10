@@ -1,0 +1,32 @@
+<kanban js_class="bank_rec_widget_kanban" on_create="quick_create" quick_create_view="account_accountant.view_bank_statement_line_quick_create_form_bank_rec_widget">
+                    <field name="id"/>
+                    <field name="state"/>
+                    <field name="statement_complete"/>
+                    <field name="statement_valid"/>
+                    <field name="statement_balance_end_real"/>
+                    <field name="statement_name"/>
+                    <field name="journal_id"/>
+                    <field name="statement_id"/>
+                    <field name="is_reconciled"/>
+                    <field name="checked"/>
+                    <field name="currency_id"/>
+                    <field name="partner_id"/>
+                    <field name="amount"/>
+                    <field name="amount_currency"/>
+                    <field name="date"/>
+                    <field name="payment_ref"/>
+                    <field name="move_id"/>
+                    <field name="line_ids"/>
+                    <field name="account_number"/>
+                    <field name="activity_ids"/>
+                    <field name="company_id"/>
+                    <field name="partner_name"/>
+                    <field name="transaction_details"/>
+                    <field name="foreign_currency_id"/>
+                    <field name="bank_statement_attachment_ids"/>
+                    <templates>
+                        <!-- We are overriding the whole kanban record element, but we still need to load the template
+                             card. Look at the bank_reconciliation components to work on the view. -->
+                        <t t-name="card"/>
+                    </templates>
+                </kanban>

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1210,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      107,
+      "Planning / Administrator"
+    ],
+    "model_id": [
+      882,
+      "Schedule"
+    ],
+    "name": "access_planning_planning",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bdcb98ff0d12ff20c97f8f97c067e14ca3aab4da1448c11ffc67b3f3365fdaa3",
+  "write_date": "2025-12-09 02:59:29",
+  "xml_id": "planning.access_planning_planning"
+}

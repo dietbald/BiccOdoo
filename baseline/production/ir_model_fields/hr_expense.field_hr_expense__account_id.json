@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9176,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "37dec85213f35a808677a7b3304efcffc278d72ff670cd9c18e2dccd7e024ddf",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__account_id"
+}

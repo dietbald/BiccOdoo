@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Page View",
+    "model_id": [
+      695,
+      "Website Configurator Feature"
+    ],
+    "name": "page_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f3b3c3a03903891fb55e84efa709500f89ad299561fc10f90ba9196c1635e428",
+  "write_date": "",
+  "xml_id": "website.field_website_configurator_feature__page_view_id"
+}

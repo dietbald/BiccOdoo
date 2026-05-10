@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14033,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      886,
+      "Link Tracker"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a8bf68994ea1a939b130bd9fda7dc5aab6767bf7098dd53ac163a992589e21e8",
+  "write_date": "",
+  "xml_id": "link_tracker.field_link_tracker__medium_id"
+}

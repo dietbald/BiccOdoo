@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8777,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource Calendar",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "846bc1e52e403a53554afee859fb2298bd976b5fbb617a52d42541aaee5d3f65",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee_public__resource_calendar_id"
+}

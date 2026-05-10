@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1984,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      2974,
+      "Keep the call history"
+    ],
+    "name": "discuss.call.history.public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "139f719826f8b7fbe339765db18061eaa71d5e8d910eda5cd889282ef6f43c59",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_discuss_call_history_public"
+}

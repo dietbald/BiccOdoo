@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1383,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Name",
+    "model_id": [
+      119,
+      "Authentication Device"
+    ],
+    "name": "display_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "505825d9719eb03f220ebf8c4564b52c5155ee24ec1a7a55e709dcfedec40d35",
+  "write_date": "",
+  "xml_id": "auth_totp_mail.field_auth_totp_device__display_name"
+}

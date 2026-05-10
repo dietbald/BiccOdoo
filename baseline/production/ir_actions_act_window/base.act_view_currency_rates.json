@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 65,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_currency_id': active_id}",
+    "domain": "[('currency_id','=', active_id)]",
+    "name": "Show Currency Rates",
+    "res_model": "res.currency.rate",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "5adfbd1864921dd9fabe490f7d75a750e2c6f383d38cbbdef9284a9e108fb16a",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.act_view_currency_rates"
+}

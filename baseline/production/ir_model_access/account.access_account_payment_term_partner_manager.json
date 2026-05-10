@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 418,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      432,
+      "Payment Terms"
+    ],
+    "name": "account.payment.term partner manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "e46f750b39873b8a034fbd05794142427efc9b912b55d716e11ac1f1fbc5b78a",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_payment_term_partner_manager"
+}

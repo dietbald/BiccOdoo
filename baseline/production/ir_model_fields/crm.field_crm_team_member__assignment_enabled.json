@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7298,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lead Assign",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "assignment_enabled",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2fc9e311fa26525c94dd83fc7282fff42f600992e612fb74842a3a2aa888626b",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team_member__assignment_enabled"
+}

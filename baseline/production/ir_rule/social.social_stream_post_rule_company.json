@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 517,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "Social Stream Post - Multi-Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "95e350b1e0c9b8dfd1f5e6f640b7ce98bfde33e5dcca1bf1a433a4161b6bd80e",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "social.social_stream_post_rule_company"
+}

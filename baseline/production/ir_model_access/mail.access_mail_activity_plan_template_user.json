@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 223,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "mail.activity.plan.template.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "37702569f56aef0004d82cfb6b5fe156ff40a0ba26d6014f503774c33669df29",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_activity_plan_template_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23915,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "31c5e4601e911e3a2f9b5cbd00314fd9648004b8e877a93f111f27f301b50470",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_line__currency_id"
+}

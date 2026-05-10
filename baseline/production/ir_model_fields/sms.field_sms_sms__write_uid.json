@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3409,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      394,
+      "Outgoing SMS"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a6fc9f9785bec70ee2760f9662e6aec69a64bff12e0d90208b6af96b71dc2c9e",
+  "write_date": "",
+  "xml_id": "sms.field_sms_sms__write_uid"
+}

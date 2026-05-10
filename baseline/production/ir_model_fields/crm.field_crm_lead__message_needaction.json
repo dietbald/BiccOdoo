@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7172,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bee2cffb2715b35c244e0f40ca2c198198d12e8eadcb2aa05fc31e5bc041bae8",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__message_needaction"
+}

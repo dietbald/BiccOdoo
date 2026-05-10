@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 645,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      604,
+      "Project Tags"
+    ],
+    "name": "project.project_tags_all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "f04a10f953fa29861b8e311ccce35d83c807e023686f5547620bca2d979ce863",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_tags_all"
+}

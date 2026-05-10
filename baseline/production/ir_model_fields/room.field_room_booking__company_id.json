@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16764,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      993,
+      "Room Booking"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "74a884ebf042faf61b8be91a58a606442467a586eb23e1401135a4312d46c50c",
+  "write_date": "",
+  "xml_id": "room.field_room_booking__company_id"
+}

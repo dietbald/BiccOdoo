@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 871,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      67,
+      "Public access to arbitrary exposed model"
+    ],
+    "model_id": [
+      700,
+      "Model Page"
+    ],
+    "name": "Web Model Page Expose",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1134fc28050df05077006b2a9e4dbb96259ca45b1105f8c13952395a2dd248b9",
+  "write_date": "2026-01-28 12:01:03",
+  "xml_id": "website.access_website_controller_page_public"
+}

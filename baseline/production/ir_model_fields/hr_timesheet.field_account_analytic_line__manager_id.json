@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13415,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "manager_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "146932196e373ae83a27c3a2fe86ee7b7623feea0ff8a6b9b5b77aa9088c8716",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line__manager_id"
+}

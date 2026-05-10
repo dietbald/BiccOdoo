@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 438,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('employee_id.user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "Time Off base.group_user read",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b1eabbcbf8fba00139e77b0ba859c33540071319cc692f1108401995e7111da3",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_rule_employee"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26693,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type of Operation",
+    "model_id": [
+      754,
+      "Return Picking"
+    ],
+    "name": "picking_type_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8abc4498080f8e2786b22a5f086cb607564496e6b7546ff60533e541bc39a4cb",
+  "write_date": "",
+  "xml_id": "stock.field_stock_return_picking__picking_type_code"
+}

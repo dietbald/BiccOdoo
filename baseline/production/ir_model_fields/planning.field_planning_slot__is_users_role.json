@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13863,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is the shifts role one of the current user roles",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "is_users_role",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "235213b56211eaec6df4e5e52d4beb8a3fd1516031b7508ad950e9decc057bd0",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__is_users_role"
+}

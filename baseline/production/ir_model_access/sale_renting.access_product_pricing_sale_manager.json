@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1941,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      2747,
+      "Pricing rule of rental products"
+    ],
+    "name": "product.pricing.sale.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "dd7d0c32ad5124a8e48b137a29e14a08ec628811c004500aa93af0c89f7ba1a6",
+  "write_date": "2025-12-09 03:00:12",
+  "xml_id": "sale_renting.access_product_pricing_sale_manager"
+}

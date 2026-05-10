@@ -1,0 +1,4 @@
+<xpath expr="//filter[@name='supplier']" position="after">
+                    <filter string="Employees" name="employee_bank_account" domain="[('partner_id.employee_ids.active','=', True)]"/>
+                    <separator/>
+                </xpath>

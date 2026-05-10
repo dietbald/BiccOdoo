@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 32,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('company_ids', '=', False), ('company_ids', 'in', company_ids)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "User IAP Account",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "dd7769231b44b46a6de872d9b87e599d193055473b0f22863e46a0542742b1d9",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "iap.user_iap_account"
+}

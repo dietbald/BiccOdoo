@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18166,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "91361b96a06c5329003512e33786e8afe8f9373027a079401eabf7dac5740b5d",
+  "write_date": "",
+  "xml_id": "portal.field_maintenance_request__website_message_ids"
+}

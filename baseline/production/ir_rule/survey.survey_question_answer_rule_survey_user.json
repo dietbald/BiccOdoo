@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 573,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '|',\n                    '|', ('question_id.survey_id.restrict_user_ids', 'in', user.id), ('matrix_question_id.survey_id.restrict_user_ids', 'in', user.id),\n                    '|', ('question_id.survey_id.restrict_user_ids', '=', False), ('matrix_question_id.survey_id.restrict_user_ids', '=', False)]\n            ",
+    "groups": [
+      110
+    ],
+    "model_id": [
+      921,
+      "Survey Label"
+    ],
+    "name": "Survey question answer: officer: unrestricted survey or in restricted users",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "23e35835fb6d823c6a66d11f4e253964ab66a9783efd311569cd85656fd102a1",
+  "write_date": "2024-10-23 10:44:38",
+  "xml_id": "survey.survey_question_answer_rule_survey_user"
+}

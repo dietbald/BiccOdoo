@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28036,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send a customer rating request",
+    "model_id": [
+      603,
+      "Task Stage"
+    ],
+    "name": "rating_active",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6d01c8f555d9cdd7550e7c34ecd77c049b6117beb477896af056404bc38540ef",
+  "write_date": "",
+  "xml_id": "project.field_project_task_type__rating_active"
+}

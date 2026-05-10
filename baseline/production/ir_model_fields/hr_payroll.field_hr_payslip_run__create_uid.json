@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13034,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e343fbb8ceddffa97968dd8e2510a9437a629cddc9157a29f7ddc3670baa4a46",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__create_uid"
+}

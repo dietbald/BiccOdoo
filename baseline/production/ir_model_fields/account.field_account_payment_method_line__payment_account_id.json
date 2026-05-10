@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4710,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Account",
+    "model_id": [
+      440,
+      "Payment Methods"
+    ],
+    "name": "payment_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "22602e5ee580fa3d0bc16d6094b5e9b9083642d40a818bfb9cf26c4b68a18f93",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_method_line__payment_account_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2179,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Recipients",
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "use_default_to",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eeb5c771c1795b1f2d5fdd4174d0eb538cec0fe0bf599b03d21a6d3ff30bacbc",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template__use_default_to"
+}

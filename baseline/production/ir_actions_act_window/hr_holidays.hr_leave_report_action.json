@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1409,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_department_id': [active_id],\n            'default_department_id': active_id,\n            'search_default_group_employee': 1,\n            'search_default_group_type': 1,\n            'search_default_group_date_from': 'month',\n        }\n        ",
+    "domain": false,
+    "name": "Time Off Analysis",
+    "res_model": "hr.leave.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "22625d2635ee940cd26b12e9ac753143502dd104f1c463cb7e0b60a4a52a47f1",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.hr_leave_report_action"
+}

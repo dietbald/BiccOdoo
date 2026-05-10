@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12303,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Menu Article",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "root_article_id",
+    "relation": "knowledge.article",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "035f271cfc9a83bea26f6cf2465af8eaed507306f2a206e2ca2c3db666c5c42f",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__root_article_id"
+}

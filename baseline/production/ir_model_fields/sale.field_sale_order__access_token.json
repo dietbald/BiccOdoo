@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8157,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Security Token",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "b1e8d8ce4dd086cf5415eb2aba2c80ae45756d4c4bdc57de6f265a2ac0df4344",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__access_token"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13756,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Entries",
+    "model_id": [
+      875,
+      "Studio Approval Rule"
+    ],
+    "name": "entry_ids",
+    "relation": "studio.approval.entry",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0b47bd59f0c0de552ecf1c61c0bcb245f5f61f1ec2c3610ae1d3eb41a3ccceb2",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule__entry_ids"
+}

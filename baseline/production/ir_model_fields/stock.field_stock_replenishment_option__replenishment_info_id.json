@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11794,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Replenishment Info",
+    "model_id": [
+      775,
+      "Stock warehouse replenishment option"
+    ],
+    "name": "replenishment_info_id",
+    "relation": "stock.replenishment.info",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1dc30b9392d68a789cd3f42860d113995f51e60160dcd4f84c27e0d4b00d9bb2",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenishment_option__replenishment_info_id"
+}

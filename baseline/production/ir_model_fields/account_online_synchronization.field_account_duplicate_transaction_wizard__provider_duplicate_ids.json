@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26172,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Provider Duplicate",
+    "model_id": [
+      1445,
+      "Wizard for duplicate transactions"
+    ],
+    "name": "provider_duplicate_ids",
+    "relation": "account.bank.statement.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fefdf52fbe495eb44058ae38e5b4c9d306aee8c8a25a20a54008198364002237",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_duplicate_transaction_wizard__provider_duplicate_ids"
+}

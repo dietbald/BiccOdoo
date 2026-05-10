@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18213,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Requests in High Priority",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "todo_request_count_high_priority",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "5837518fd69cef135e84efc73616cb9fe9ba1ef4b077333c4613898387c9e92d",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__todo_request_count_high_priority"
+}

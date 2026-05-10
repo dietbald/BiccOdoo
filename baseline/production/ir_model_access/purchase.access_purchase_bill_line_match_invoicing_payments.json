@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1793,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      1421,
+      "Purchase Line and Vendor Bill line matching view"
+    ],
+    "name": "purchase.bill.line.match invoice",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "6f4162883baa2607bfc33d5d8b845b2a459c8bb83fcf22c423a23169ee40f8c1",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_purchase_bill_line_match_invoicing_payments"
+}

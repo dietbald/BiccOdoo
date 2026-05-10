@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14795,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Maximum Text Length",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "validation_length_max",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "0fa0615e67586fa410ce95c433f61f9d88fc0a96a36bf3529d0f24e98b20bde5",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__validation_length_max"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9531,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Qty Ordered",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "qty_ordered",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "3e8f2880c964a746aa25d64f071a637de00caed20e2f6666f8851309ce740cfc",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__qty_ordered"
+}

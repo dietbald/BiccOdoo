@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6916,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Meeting URL",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "videocall_location",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "675ee276afff589afa7577cab4d5d440abb99c1c28f81226af8131ebd1c0e86e",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__videocall_location"
+}

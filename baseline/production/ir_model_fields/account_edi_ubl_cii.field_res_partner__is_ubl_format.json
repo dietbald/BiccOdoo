@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22773,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Ubl Format",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "is_ubl_format",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bdb28c3874fc8847591f072471af8db7ccb2ba694460798f9a7aef6c67f23422",
+  "write_date": "",
+  "xml_id": "account_edi_ubl_cii.field_res_partner__is_ubl_format"
+}

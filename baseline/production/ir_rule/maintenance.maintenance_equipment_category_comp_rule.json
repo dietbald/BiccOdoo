@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 525,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      1038,
+      "Maintenance Equipment Category"
+    ],
+    "name": "Maintenance Equipment Category Multi-company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ad06c7fd5505f6c8bb2069ad9258b81ec6017c2a31b0a71ba29cad749ef0f83b",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "maintenance.maintenance_equipment_category_comp_rule"
+}

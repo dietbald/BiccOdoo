@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 462,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "mrp_production multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "75200fb73fdd03a2440b13e94f94172473bcf2e17dec77c6f25bafd63f96acc9",
+  "write_date": "2024-05-05 07:22:23",
+  "xml_id": "mrp.mrp_production_rule"
+}

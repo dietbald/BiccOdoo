@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20160,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Move Line",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "account_move_line_id",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a71008b74d2c22566c8c536cee4de9876eb8839c582dc3e69bd2cd6b8022e1a",
+  "write_date": "",
+  "xml_id": "account_fleet.field_fleet_vehicle_log_services__account_move_line_id"
+}

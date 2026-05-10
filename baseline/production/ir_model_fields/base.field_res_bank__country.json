@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 942,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      87,
+      "Bank"
+    ],
+    "name": "country",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a3a69c960c7aeb8282c04797fe29ffa7e3bfbfa5d47ff73dc24792baf527174",
+  "write_date": "",
+  "xml_id": "base.field_res_bank__country"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2575,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Mail Template",
+    "model_id": [
+      216,
+      "Email Template Preview"
+    ],
+    "name": "mail_template_id",
+    "relation": "mail.template",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bc8b95ee0f5238e033d9b62efb86bf8ad820dd04a517cac309c1882b6cf5e920",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template_preview__mail_template_id"
+}

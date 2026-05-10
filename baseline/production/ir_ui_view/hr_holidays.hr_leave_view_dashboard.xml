@@ -1,0 +1,7 @@
+<calendar js_class="time_off_calendar_dashboard" string="Time Off Request" form_view_id="4110" event_open_popup="true" date_start="date_from" date_stop="date_to" quick_create="0" show_date_picker="0" show_unusual_days="True" color="color" hide_time="True" mode="year">
+                <field name="display_name" string=""/>
+                <field name="holiday_status_id" filters="1" invisible="1" color="color"/>
+                <field name="state" invisible="1"/>
+                <field name="is_hatched" invisible="1"/>
+                <field name="is_striked" invisible="1"/>
+            </calendar>

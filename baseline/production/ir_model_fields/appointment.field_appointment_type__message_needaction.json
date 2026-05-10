@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15266,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b775b35e453eb3c473bb825e1a3e10bd254eb6135d593862ed4dc25ee5885da1",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__message_needaction"
+}

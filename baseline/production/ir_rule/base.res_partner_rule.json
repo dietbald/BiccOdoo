@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', '|', ('partner_share', '=', False), ('company_id', 'parent_of', company_ids), ('company_id', '=', False)]",
+    "groups": [],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res.partner company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "36445bef81d98b0bb646e583db75e5a924cb6da313b7ad08aac27413209aff06",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "base.res_partner_rule"
+}

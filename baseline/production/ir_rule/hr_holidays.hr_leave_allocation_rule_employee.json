@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 448,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                ('employee_id.leave_manager_id', '=', user.id),\n                ('employee_id.user_id', '=', user.id),\n        ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "Allocations: employee: read own",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "f665987b14e1e9562d042c87685b9ec30b0821be7531d048b6263513bd17b045",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_allocation_rule_employee"
+}

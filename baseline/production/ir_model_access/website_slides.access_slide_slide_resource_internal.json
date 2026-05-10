@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1865,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1514,
+      "Additional resource for a particular slide"
+    ],
+    "name": "slide.slide.resource.internal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "9d902a1943db5521abcb99531130cc4732c27ffb3242daecb1f865690287b7b0",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.access_slide_slide_resource_internal"
+}

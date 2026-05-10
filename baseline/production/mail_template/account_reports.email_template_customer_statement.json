@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 70,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n                <p style=\"margin: 0px; padding: 0px;\">\n                    <t t-if=\"object.id != object.commercial_partner_id.id\">Dear <t t-out=\"object.name or ''\"/> (<t t-out=\"object.commercial_partner_id.name or ''\"/>),</t>\n                    <t t-else=\"\">Dear <t t-out=\"object.name or ''\"/>,</t>\n                    <br/>\n                    Please find enclosed the statement of your account.\n                    <br/>\n                    Do not hesitate to contact us if you have any questions.\n                    <br/>\n                    Sincerely,\n                    <br/>\n\t                <t t-out=\"object._get_followup_responsible().name if is_html_empty(object._get_followup_responsible().signature) else object._get_followup_responsible().signature\"/>\n                </p>\n            </div>\n        ",
+    "email_from": "{{ object._get_followup_responsible().email_formatted }}",
+    "email_to": false,
+    "lang": "{{ object.lang }}",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "Customer Statement",
+    "subject": "{{ (object.company_id or object._get_followup_responsible().company_id).name }} Statement - {{ object.commercial_company_name }}"
+  },
+  "payload_sha256": "b0451f0f7e550e051efadaf4987cc5cf8ec36b496a082da7a904789594f6ee1a",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.email_template_customer_statement"
+}

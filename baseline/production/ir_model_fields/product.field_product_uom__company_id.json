@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24703,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1831,
+      "Link between products and their UoMs"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2e57c52b6fa0cd0e2119a972b8a0afff48af298f7008934201bdd3da32717f2e",
+  "write_date": "",
+  "xml_id": "product.field_product_uom__company_id"
+}

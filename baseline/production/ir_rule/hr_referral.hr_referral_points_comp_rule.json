@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 700,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      2600,
+      "Points line for referrals"
+    ],
+    "name": "Referral Points multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f2552d3f430b1e00faa645efcab749da9a2b4aa63fe1fd2e18a41160df31bbf5",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.hr_referral_points_comp_rule"
+}

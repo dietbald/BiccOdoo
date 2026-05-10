@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 498,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('partner_id.commercial_partner_id', '=', user.partner_id.commercial_partner_id.id)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "Stock Pickings Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "98417945e6a832b4a95a8c80c81f06a06b9762a0d2cb0254f5c6d3dc3596464e",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.picking_subcontractor_rule"
+}

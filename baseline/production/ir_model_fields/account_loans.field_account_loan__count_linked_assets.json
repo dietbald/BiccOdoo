@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23901,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count Linked Assets",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "count_linked_assets",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2f8522f62eaa66955ad2f32afcdfdf48d4d86a5cbf10bb400f4be4b17b9864b2",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__count_linked_assets"
+}

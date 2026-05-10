@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13476,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees",
+    "model_id": [
+      847,
+      "Employee Delete Wizard"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3b1c684f250072b39401ae8222f9a82df4ab32535192a1c51297ed75dfe46392",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_hr_employee_delete_wizard__employee_ids"
+}

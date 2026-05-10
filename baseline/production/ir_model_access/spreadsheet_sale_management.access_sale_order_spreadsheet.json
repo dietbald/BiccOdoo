@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1819,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      1474,
+      "Quotation Spreadsheet"
+    ],
+    "name": "access.sale.order.spreadsheet",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fba929455bd730ee6324cb6c0b9537e7c867fa8e12447efcdf90015dd564ec4c",
+  "write_date": "2025-12-09 03:00:31",
+  "xml_id": "spreadsheet_sale_management.access_sale_order_spreadsheet"
+}

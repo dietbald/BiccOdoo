@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 532,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('allowed_user_ids', '=', False), ('allowed_user_ids', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "WA Template: Restrict to Allowed Users",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "32994624bba9b4a0cf3a2976b3aee97ff531443e76667a33d0b7dbf5109023c6",
+  "write_date": "2024-05-05 13:35:48",
+  "xml_id": "whatsapp.security_rule_whatsapp_template_user"
+}

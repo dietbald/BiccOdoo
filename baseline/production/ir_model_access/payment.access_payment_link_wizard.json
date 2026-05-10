@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 320,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "access_payment_link_wizard",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "41fb096a39f42ef22bb70814e1760f2e6c3ec89d94e62e940e535bbe4d91ed5c",
+  "write_date": "2025-12-09 02:56:23",
+  "xml_id": "payment.access_payment_link_wizard"
+}

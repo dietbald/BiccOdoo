@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18598,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Report View",
+    "model_id": [
+      1062,
+      "Worksheet Template"
+    ],
+    "name": "report_view_id",
+    "relation": "ir.ui.view",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "34126a729ac86e7078ac595f8d8705a63e01303b331d6c66c871efd05271b409",
+  "write_date": "",
+  "xml_id": "worksheet.field_worksheet_template__report_view_id"
+}

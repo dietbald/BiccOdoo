@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27343,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Select date and time first",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "is_date_first",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b179d33a45e90f02da814babd0782956423196a0a2c8490c7b85df4c1a9632fb",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__is_date_first"
+}

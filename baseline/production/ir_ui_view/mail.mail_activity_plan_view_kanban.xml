@@ -1,0 +1,12 @@
+<kanban class="o_kanban_mobile">
+                    <templates>
+                        <t t-name="card">
+                            <field name="name" class="fw-bolder"/>
+                            <field name="res_model_id"/>
+                            <div>
+                                <i class="fa fa-cogs fa-fw me-2" role="img" aria-label="Steps count" title="Steps count"/>
+                                <field name="steps_count"/>
+                            </div>
+                        </t>
+                    </templates>
+                </kanban>

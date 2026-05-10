@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14612,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distinctive field for batch user",
+    "model_id": [
+      914,
+      "Gamification Goal Definition"
+    ],
+    "name": "batch_distinctive_field",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b1d34422aecb7d23443178588851f53d5fa538e07f2f3d2f12c7f820744e502b",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_goal_definition__batch_distinctive_field"
+}

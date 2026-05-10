@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18622,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assignees",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "26a518e5627fa3afdbab95bc7ba1d875ae145db8531faf77132220af5849c96b",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__user_ids"
+}

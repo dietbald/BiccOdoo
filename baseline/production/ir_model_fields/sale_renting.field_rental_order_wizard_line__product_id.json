@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26597,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0a4598707f81fa531a5d59a9fd0e36f9975e2c14b10aba7cf1f6ef2652c3c265",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard_line__product_id"
+}

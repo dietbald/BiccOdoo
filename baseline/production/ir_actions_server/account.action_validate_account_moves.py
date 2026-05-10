@@ -1,0 +1,1 @@
+action = records.action_validate_moves_with_confirmation()

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1987,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      2,
+      "Access Rights"
+    ],
+    "model_id": [
+      2971,
+      "Represents a role in the system used to categorize users. Each role has a unique name and can be associated with multiple users. Roles can be mentioned in messages to notify all associated users."
+    ],
+    "name": "res.role.admin",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fae0f7a3b6c181746b15f00caf1cffbeef16134d99d8d569470f4d3ec07f8be3",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_res_role_admin"
+}

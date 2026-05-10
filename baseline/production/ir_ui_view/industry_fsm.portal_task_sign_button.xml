@@ -1,0 +1,5 @@
+<t name="Sign Button" t-name="industry_fsm.portal_task_sign_button">
+        <a t-if="task._has_to_be_signed()" role="button" class="btn btn-primary align-self-start" data-bs-toggle="modal" data-bs-target="#modalaccept" href="#">
+            <i class="fa fa-check me-1"/>Sign Report
+        </a>
+    </t>

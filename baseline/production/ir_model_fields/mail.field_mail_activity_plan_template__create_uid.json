@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1941,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "927e1ea4507d5ba984bc620aabbfefc73285fd5d1bc9984e076e3ef3f3a24338",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_plan_template__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14338,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mailing List",
+    "model_id": [
+      900,
+      "Add Contacts to Mailing List"
+    ],
+    "name": "mailing_list_id",
+    "relation": "mailing.list",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9fb9d9233c51388fe4c50664e04394748cd4f63efad46a7b8ef427719e54d7d",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact_to_list__mailing_list_id"
+}

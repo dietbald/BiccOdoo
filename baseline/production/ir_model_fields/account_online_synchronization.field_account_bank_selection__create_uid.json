@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5962,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      495,
+      "Link a bank account to the selected journal"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e9f89ac20ac82c12dc77650cdb56e1afc8e67e00481e2a5cb9d08a4817444591",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_selection__create_uid"
+}

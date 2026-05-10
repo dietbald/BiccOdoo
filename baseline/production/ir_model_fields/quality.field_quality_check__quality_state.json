@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16638,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "quality_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "509d6072b659cc3d7ea695fbcfa75bf4c799fa3a75aa788c6af2a54fcc991b54",
+  "write_date": "",
+  "xml_id": "quality.field_quality_check__quality_state"
+}

@@ -1,0 +1,7 @@
+<field name="owner_id" position="after">
+                <field name="workorder_id" invisible="1" readonly="state == 'done'"/>
+                <field name="production_id" invisible="1" readonly="state == 'done'"/>
+                <field name="product_is_kit" invisible="1"/>
+                <field name="product_template" invisible="1"/>
+                <field name="bom_id" invisible="not product_is_kit" readonly="state == 'done'" required="product_is_kit"/>
+            </field>

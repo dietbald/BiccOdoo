@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2391,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Subscription",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "40d8f5f4bf27f3eb1171643a6fdd4fbce131f0cfe54f0d6c8cca53bde71b19a2",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__group_ids"
+}

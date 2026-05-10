@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "End of Trial Period",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "trial_date_end",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "556cdf676e582fd67c82db519a10b591a1793a43406d4aa316ee297904476db1",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__trial_date_end"
+}

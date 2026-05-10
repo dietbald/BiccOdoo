@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26946,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Channel",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "channel_id",
+    "relation": "discuss.channel",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5f1a09d4e9ba3c5ce93e40ae26639b5d4375f994252c16a3f978a60619cacb34",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__channel_id"
+}

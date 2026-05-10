@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14091,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "573db5c2c91e91c337bc657ed20bbaab05517c839fe17d2c7420609cae6503f9",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__message_partner_ids"
+}

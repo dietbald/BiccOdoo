@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11567,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move",
+    "model_id": [
+      380,
+      "Choose the sheet layout to print the labels"
+    ],
+    "name": "move_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "66dafefed6db81c95593fb6a3cb19ac23825a7f34764a4533c69c015f3194aa9",
+  "write_date": "",
+  "xml_id": "stock.field_product_label_layout__move_ids"
+}

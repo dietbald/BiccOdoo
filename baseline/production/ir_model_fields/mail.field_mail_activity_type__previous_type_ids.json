@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1872,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Preceding Activities",
+    "model_id": [
+      163,
+      "Activity Type"
+    ],
+    "name": "previous_type_ids",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cb9a5ea23a96fcecdd46cdb8f56f64fb578babac91dc5d8445e46a21d44cd335",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_type__previous_type_ids"
+}

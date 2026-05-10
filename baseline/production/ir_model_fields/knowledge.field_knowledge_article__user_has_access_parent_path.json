@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12290,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can the user join?",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "user_has_access_parent_path",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "944d7f329f0136f7365bd64daa474ab6b7a27c665dffb779800931d6bd849a34",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__user_has_access_parent_path"
+}

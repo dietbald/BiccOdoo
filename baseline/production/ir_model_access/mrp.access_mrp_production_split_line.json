@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1444,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      982,
+      "Split Production Detail"
+    ],
+    "name": "access.mrp.production.split.line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9d2cb3c4696406bba15684276212d3bfc3a9b774f35315e09c33ca437fb373f4",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_production_split_line"
+}

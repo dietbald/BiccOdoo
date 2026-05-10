@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17607,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality Point",
+    "model_id": [
+      1021,
+      "Eco Routing changes"
+    ],
+    "name": "quality_point_id",
+    "relation": "quality.point",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f750c01ee90080cec7e3d27c4a5439413ed35aa3cb3e2a593d3731420153f75b",
+  "write_date": "",
+  "xml_id": "mrp_workorder_plm.field_mrp_eco_routing_change__quality_point_id"
+}

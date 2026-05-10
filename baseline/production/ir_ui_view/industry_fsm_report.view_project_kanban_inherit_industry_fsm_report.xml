@@ -1,0 +1,5 @@
+<xpath expr="//span[@name='partner_name']" position="before">
+                <span t-if="record.worksheet_template_id.value" class="text-muted text-truncate" invisible="not context.get('fsm_mode', False)">
+                    <span class="fa fa-pencil me-1" aria-label="Worksheet Template" title="Worksheet Template"/><field name="worksheet_template_id"/>
+                </span>
+            </xpath>

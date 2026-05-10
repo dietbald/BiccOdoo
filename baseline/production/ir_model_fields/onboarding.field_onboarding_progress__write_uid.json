@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      138,
+      "Onboarding Progress Tracker"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "017f8db990968d6ad59c639e4e4300e1a2b1a8877f487db2396204c7177ba7b1",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_progress__write_uid"
+}

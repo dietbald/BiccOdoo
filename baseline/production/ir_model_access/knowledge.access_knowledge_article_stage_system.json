@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1101,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      792,
+      "Knowledge Stage"
+    ],
+    "name": "access.knowledge.article.stage.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e99a246ba90127679f8f3032737381a118d3f06fd61582ef7067b1d130383851",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.access_knowledge_article_stage_system"
+}

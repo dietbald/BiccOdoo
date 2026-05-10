@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11169,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sequence Prefix",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "sequence_code",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "7274669f0f6d4db2666f40a3c4ad139c6a35dd16be11b359d344649c8fc18a5e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__sequence_code"
+}

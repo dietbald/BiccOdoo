@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9523f64318b07e90e9cb9ee2b0e6ecb4c085abfa2138bb2f3932289398642ab0",
+  "write_date": "",
+  "xml_id": "product.field_product_supplierinfo__product_uom_id"
+}

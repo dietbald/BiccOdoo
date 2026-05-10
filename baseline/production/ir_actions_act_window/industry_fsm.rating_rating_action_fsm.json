@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1728,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_filter_rated_on': 1, 'graph_groupbys': ['rated_partner_id']}",
+    "domain": "[('consumed', '=', True), ('project_id', '!=', False), ('project_id.is_fsm', '=', True)]",
+    "name": "Customer Ratings",
+    "res_model": "rating.rating",
+    "target": "current",
+    "view_mode": "kanban,list,pivot,graph,form"
+  },
+  "payload_sha256": "52d948a42a8d74f47cf1993f9b7acb809197397a330ee1ee77da9d179dd53586",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.rating_rating_action_fsm"
+}

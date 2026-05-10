@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Document ID",
+    "model_id": [
+      3330,
+      "Task Sharing"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f1dbd028d65e3e639bbd9423f53aa858d145de15b6df94f8e1c3b761f83af248",
+  "write_date": "",
+  "xml_id": "project.field_task_share_wizard__res_id"
+}

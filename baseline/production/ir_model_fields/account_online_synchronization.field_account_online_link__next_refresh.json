@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next synchronization",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "next_refresh",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "a60f36343aa22507ff0c5ea598b1ce93fd8b97dc38d29d3df6cc67aa63e4df2a",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__next_refresh"
+}

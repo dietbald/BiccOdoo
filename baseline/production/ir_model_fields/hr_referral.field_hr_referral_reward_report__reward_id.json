@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25630,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reward",
+    "model_id": [
+      2607,
+      "Employee Referral Reward Report"
+    ],
+    "name": "reward_id",
+    "relation": "hr.referral.reward",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "11b5838053a55f4deb3a6b642245d7934ef52fcf063584669fa1f6bfb1134e99",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward_report__reward_id"
+}

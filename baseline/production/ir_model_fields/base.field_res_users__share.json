@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1105,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Share User",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "share",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "627cf370426bb3d2f4d4afcff9b2e38ab2fdd8a11eea452b0d7e9d69ff19683d",
+  "write_date": "",
+  "xml_id": "base.field_res_users__share"
+}

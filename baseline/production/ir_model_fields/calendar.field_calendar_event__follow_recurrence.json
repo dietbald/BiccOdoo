@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6947,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Follow Recurrence",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "follow_recurrence",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "08f094dec06d0b35b11f005bfa7e63949a5bfae409af785f9f0c8dd8d30e8276",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__follow_recurrence"
+}

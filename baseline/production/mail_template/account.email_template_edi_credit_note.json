@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 10,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Dear\n        <t t-if=\"object.partner_id.parent_id\">\n            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t> (<t t-out=\"object.partner_id.parent_id.name or ''\">Azure Interior</t>),\n        </t>\n        <t t-else=\"\">\n            <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,\n        </t>\n        <br/><br/>\n        Here is your\n        <t t-if=\"object.name\">\n            credit note <span style=\"font-weight:bold;\" t-out=\"object.name or ''\">RINV/2021/05/0001</span>\n        </t>\n        <t t-else=\"\">\n            credit note\n        </t>\n        <t t-if=\"object.invoice_origin\">\n            (with reference: <t t-out=\"object.invoice_origin or ''\">SUB003</t>)\n        </t>\n        amounting in <span style=\"font-weight:bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 143,750.00</span>\n        from <t t-out=\"object.company_id.name or ''\">YourCompany</t>.\n        <br/><br/>\n        Do not hesitate to contact us if you have any questions.\n        <t t-if=\"not is_html_empty(object.invoice_user_id.signature)\" data-o-mail-quote-container=\"1\">\n            <br/><br/>\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.invoice_user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n        </t>\n    </p>\n</div>\n            ",
+    "email_from": "{{ (object.invoice_user_id.email_formatted or object.company_id.email_formatted or user.email_formatted) }}",
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "Credit Note: Sending",
+    "subject": "{{ object.company_id.name }} Credit Note (Ref {{ object.name or 'n/a' }})"
+  },
+  "payload_sha256": "0ae589c2e46d550655381d972a5ba1bd2338aeac83ecea95925c1297e8ea1bb0",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.email_template_edi_credit_note"
+}

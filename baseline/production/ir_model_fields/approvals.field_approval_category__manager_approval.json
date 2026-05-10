@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12065,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee's Manager",
+    "model_id": [
+      782,
+      "Approval Category"
+    ],
+    "name": "manager_approval",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "cf10a1b9bfb95ac72241d993c0cbe71565ab302a9573fb6370076aeb378a078b",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_category__manager_approval"
+}

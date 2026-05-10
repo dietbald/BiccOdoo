@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17307,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deductibility (%)",
+    "model_id": [
+      1012,
+      "Vehicle Disallowed Expenses Rate"
+    ],
+    "name": "rate",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d7c2f530973e7cd231001870222c5fe93706078079d578b4aa679375b4264f7b",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories_fleet.field_fleet_disallowed_expenses_rate__rate"
+}

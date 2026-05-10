@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scrap operation",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "scrap_id",
+    "relation": "stock.scrap",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bb6e775258f1ba9f98d4b7234d449361fdff7fb1a5a480652eb2b1d81b24a1fc",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__scrap_id"
+}

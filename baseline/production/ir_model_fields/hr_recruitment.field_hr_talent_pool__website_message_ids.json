@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26113,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      2701,
+      "Talent Pool"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ca666b54e3968ed4183856a7ef470e124aee599ceda3b4f3e3ff7ceb691de030",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_talent_pool__website_message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "License Plate",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "license_plate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "12d5477e6c91a70143a9ae26908556c0309b98639f8d77004b53f8980846d478",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__license_plate"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 835,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      57,
+      "Purchase / User"
+    ],
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "purchase.stock.report user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "e3b9922297e7ac43dc62073a27168f1c4e05ea244784bb7aa31f4fb4bbfa21d5",
+  "write_date": "2025-12-09 02:58:45",
+  "xml_id": "purchase.access_report_purchase_order_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5881,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Online Partner Information",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "online_partner_information",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "6ff0ef6aadff039aef1e5d6a2e72649fd524c7e2e54d932d9e78b12a9e950763",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line__online_partner_information"
+}

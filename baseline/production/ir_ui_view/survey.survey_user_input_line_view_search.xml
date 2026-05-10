@@ -1,0 +1,9 @@
+<search string="Search User input lines">
+                <field name="user_input_id"/>
+                <field name="survey_id"/>
+                <group>
+                    <filter name="group_by_survey" string="Survey" domain="[]" context="{'group_by':'survey_id'}"/>
+                    <filter name="group_by_lang" string="Language" domain="[]" context="{'group_by':'lang_id'}"/>
+                    <filter name="group_by_user_input" string="User Input" domain="[]" context="{'group_by':'user_input_id'}"/>
+                </group>
+            </search>

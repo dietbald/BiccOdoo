@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14537,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Suggest to users",
+    "model_id": [
+      911,
+      "Gamification Challenge"
+    ],
+    "name": "invited_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ba6498058a6b963a129ae626df6f78e91b91cb511c638aa8f9c1bde50424f847",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_challenge__invited_user_ids"
+}

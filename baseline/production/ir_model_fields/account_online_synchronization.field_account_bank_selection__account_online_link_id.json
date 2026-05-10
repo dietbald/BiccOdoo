@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5956,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Online Link",
+    "model_id": [
+      495,
+      "Link a bank account to the selected journal"
+    ],
+    "name": "account_online_link_id",
+    "relation": "account.online.link",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "48e04450cacaaeb73e5617bfbf956ad4f4af1fc54744ed5b77f8514077a836bf",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_selection__account_online_link_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18382,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related WhatsApp Messages",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "wa_message_ids",
+    "relation": "whatsapp.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cd3f6818c03f584c34f6814212bfc6ddd9b44f7e79daddf61506f4a341d48832",
+  "write_date": "",
+  "xml_id": "whatsapp.field_mail_message__wa_message_ids"
+}

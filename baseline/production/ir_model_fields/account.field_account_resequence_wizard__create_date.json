@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5267,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      456,
+      "Remake the sequence of Journal Entries."
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "b2e07f0bbba806a1d7dcedb54de4a30db73ddf49fe8ab484425d8415362546d2",
+  "write_date": "",
+  "xml_id": "account.field_account_resequence_wizard__create_date"
+}

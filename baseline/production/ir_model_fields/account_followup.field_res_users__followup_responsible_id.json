@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6350,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "followup_responsible_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "30ed782e3b72b39702ffdc9c38be535a484069cc673590e3fc1fe1a0cb4bcf50",
+  "write_date": "",
+  "xml_id": "account_followup.field_res_users__followup_responsible_id"
+}

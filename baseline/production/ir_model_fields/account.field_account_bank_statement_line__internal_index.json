@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4759,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Internal Reference",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "internal_index",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d101f3da78aa5b7097154664d829f3c71d5b8a9b99bea6b07e98bc176f732da3",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__internal_index"
+}

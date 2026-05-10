@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4966,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Exchange Gain or Loss Journal",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "currency_exchange_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f23134ba6457dc91192b4563e341b4d38d9267fe6d0fa868f0a1ba1d7876e161",
+  "write_date": "",
+  "xml_id": "account.field_res_company__currency_exchange_journal_id"
+}

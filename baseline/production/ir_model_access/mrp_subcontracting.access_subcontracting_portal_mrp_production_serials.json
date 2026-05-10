@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2061,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      3506,
+      "Assign serial numbers to production order"
+    ],
+    "name": "subcontracting.portal.mrp.production.serials",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "c6d760d2b56673a87ac65f9f2e299b5232de37d1de1a5a13a6f60a1b81757f53",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.access_subcontracting_portal_mrp_production_serials"
+}

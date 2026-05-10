@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 382,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      423,
+      "Account codes first 2 digits"
+    ],
+    "name": "account.root",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a8cafa67d6669fd2518e495e6f2db26f43b566ea9e7a573e170b19fbf406badb",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_root"
+}

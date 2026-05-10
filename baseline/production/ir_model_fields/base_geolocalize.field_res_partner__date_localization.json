@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18590,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Geolocation Date",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "date_localization",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "5601011a6b7f93cc6eb76ebe4f57e621244245d3ee9810dc292add25dc2cfb65",
+  "write_date": "",
+  "xml_id": "base_geolocalize.field_res_partner__date_localization"
+}

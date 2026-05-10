@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 558,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      562,
+      "UTM Tag"
+    ],
+    "name": "utm.tag",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "3c539dda57ab0699c0180b61afef30af9b5d9d1bf70add8d0481688a1967d3cb",
+  "write_date": "2025-12-09 02:55:42",
+  "xml_id": "utm.access_utm_tag_user"
+}

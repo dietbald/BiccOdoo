@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4927,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Tags",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "account_tag_ids",
+    "relation": "account.account.tag",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "4af2edde4a7737a69925ad0cbd10aef1a3c7ec9d5be4e34cb4e45c830c4a51a0",
+  "write_date": "",
+  "xml_id": "account.field_product_product__account_tag_ids"
+}

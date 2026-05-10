@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18888,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extras 1",
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "topping_ids_1",
+    "relation": "lunch.topping",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "0e9c60d251ffadb65f1ab098ded48d859783e13cd54d666e4a7100b261784653",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_order__topping_ids_1"
+}

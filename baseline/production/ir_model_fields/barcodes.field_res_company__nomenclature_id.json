@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10807,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Nomenclature",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "nomenclature_id",
+    "relation": "barcode.nomenclature",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "90dd108f7485d8efe10c5e3262e6cfd25955bf34fe53fb7757e0ea02e80ce6a6",
+  "write_date": "",
+  "xml_id": "barcodes.field_res_company__nomenclature_id"
+}

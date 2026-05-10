@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "To Order",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "qty_to_order",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "f33afed51de942a6b4fda4e63fd3bcad84e9a3712b83fdeb24fd85a78cad29a0",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__qty_to_order"
+}

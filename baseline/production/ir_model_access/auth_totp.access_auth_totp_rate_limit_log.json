@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1873,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1748,
+      "TOTP rate limit logs"
+    ],
+    "name": "access_auth_totp_rate_limit_log",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "89b71d26af62aca897241e42e1b4f127dd8e80ee24a5739718fe9b4cac3559c4",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "auth_totp.access_auth_totp_rate_limit_log"
+}

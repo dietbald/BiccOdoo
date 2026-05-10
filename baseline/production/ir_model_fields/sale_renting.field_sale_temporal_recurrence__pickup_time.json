@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29566,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Check-in",
+    "model_id": [
+      2748,
+      "Sale temporal Recurrence"
+    ],
+    "name": "pickup_time",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "e455f9788ae9b1461f280221b51cea687f4951d904a3dd366ee4a10d9560d7c5",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_temporal_recurrence__pickup_time"
+}

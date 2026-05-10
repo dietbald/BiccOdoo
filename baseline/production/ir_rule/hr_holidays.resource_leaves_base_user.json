@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 454,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1,'=',1)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "Time Off Resources: Approver",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "45efb95975e7f565df5b50e130a829deabc6d6a1819b6ed73fbdd94d8681b323",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.resource_leaves_base_user"
+}

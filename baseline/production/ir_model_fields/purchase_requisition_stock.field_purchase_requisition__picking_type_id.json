@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12676,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation Type",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "picking_type_id",
+    "relation": "stock.picking.type",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b0d7f2f82d2c4b9cfd774d817138066ca16c730449dc369550123a04da34936b",
+  "write_date": "",
+  "xml_id": "purchase_requisition_stock.field_purchase_requisition__picking_type_id"
+}

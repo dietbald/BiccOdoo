@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1197,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'fsm_mode': True,\n            'search_default_my_tasks': True,\n            'search_default_planned_today': True,\n            'default_scale': 'day',\n        }",
+    "domain": "[('is_fsm', '=', True), ('project_id', '!=', False)]",
+    "name": "Map",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "map,calendar,gantt,kanban,list,pivot,graph,activity,form"
+  },
+  "payload_sha256": "2b7b5809b358ab4eaa2337a40bd17d066a428aabaaf68431e22a20691ec61357",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.project_task_action_fsm_map"
+}

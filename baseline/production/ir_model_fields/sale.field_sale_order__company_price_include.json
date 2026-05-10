@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23469,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Sales Price Include",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "company_price_include",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ab9c6fff6aa43e3938e27c726d74b48df8a5943e8f59a692cd36c888cc7e694e",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__company_price_include"
+}

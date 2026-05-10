@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9086,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      647,
+      "Print Resume"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2223f87eb3bc3bd882f965392bf3d09f769f87bac3a49f572f47ae63762e94d1",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_employee_cv_wizard__employee_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7154,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "source_id",
+    "relation": "utm.source",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ebbbeb177bfc383b635d556fe0900a702b1acfec2b67bb5f18f03ae968a8143f",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__source_id"
+}

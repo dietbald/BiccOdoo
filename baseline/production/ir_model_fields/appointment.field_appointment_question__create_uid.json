@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15209,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      938,
+      "Appointment Questions"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dabe95473ca8fba0ac3f4b2f2b586c7ff64726d6007a19944baed24f0ea3a69b",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_question__create_uid"
+}

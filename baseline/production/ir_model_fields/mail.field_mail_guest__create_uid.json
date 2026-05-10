@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2435,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      205,
+      "Guest"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5d671c0d3a46367e06538b2f94a30c7993352f8210cb66d2d0d66cd65ae2ba40",
+  "write_date": "",
+  "xml_id": "mail.field_mail_guest__create_uid"
+}

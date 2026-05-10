@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26568,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rental Return Date",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "return_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "65e45b35b8fb5999ff1b8719fe56770efa91d94d8a284b031e0a2a3296aedb21",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order_line__return_date"
+}

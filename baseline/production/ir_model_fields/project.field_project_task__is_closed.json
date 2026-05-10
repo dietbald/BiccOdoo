@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closed state",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "is_closed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c71d4613c6d2a3bfc554cac8f588b1247b2e9b02ed57bd308861d48d0081e750",
+  "write_date": "",
+  "xml_id": "project.field_project_task__is_closed"
+}

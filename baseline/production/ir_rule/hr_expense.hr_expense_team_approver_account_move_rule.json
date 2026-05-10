@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 599,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('line_ids.expense_id', '!=', False)]",
+    "groups": [
+      54
+    ],
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "Expense Team Approver Account Move",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "859507be2bdba4f19c10ff4de116bb609aeac8ccd82ac53691ec7ce0e0f1b0b9",
+  "write_date": "2024-10-23 10:49:53",
+  "xml_id": "hr_expense.hr_expense_team_approver_account_move_rule"
+}

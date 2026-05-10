@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18782,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4c4e3c468ac48a478111ddd8bb95a69450c8cb237a47b9327b71e2bf634317b4",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__message_follower_ids"
+}

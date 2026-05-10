@@ -1,0 +1,7 @@
+<xpath expr="//footer//field[@name='priority']" position="before">
+                    <field name="display_timesheet_timer" invisible="1"/>
+                    <field name="timer_start" invisible="1"/>
+                    <t t-if="record.display_timesheet_timer.raw_value and !!record.timer_start.raw_value" groups="hr_timesheet.group_hr_timesheet_user">
+                        <i class="fa fa-play text-success" title="Timer is Running"/>
+                    </t>
+                </xpath>

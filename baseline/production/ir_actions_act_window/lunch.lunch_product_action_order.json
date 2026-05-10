@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1227,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_available_today': 1}",
+    "domain": "[]",
+    "name": "Order Your Lunch",
+    "res_model": "lunch.product",
+    "target": "current",
+    "view_mode": "kanban,list"
+  },
+  "payload_sha256": "c4e3d70d7109d81602269ea40547953a55d7b885a0344f00725b36153ccd53c0",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.lunch_product_action_order"
+}

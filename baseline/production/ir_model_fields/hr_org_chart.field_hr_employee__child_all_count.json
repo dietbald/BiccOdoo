@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8987,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Indirect Subordinates Count",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "child_all_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "b8a72efa83908efdefb4ddd329883370f99ca679bed5bdc1a5eddccb99f718b0",
+  "write_date": "",
+  "xml_id": "hr_org_chart.field_hr_employee__child_all_count"
+}

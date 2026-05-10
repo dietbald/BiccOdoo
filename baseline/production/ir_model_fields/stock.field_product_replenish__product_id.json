@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11712,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      768,
+      "Product Replenish"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "64eb1ecd0687850cfefa98315b7cb82a22f87099f0af2a4d22da5ff7ae1e1068",
+  "write_date": "",
+  "xml_id": "stock.field_product_replenish__product_id"
+}

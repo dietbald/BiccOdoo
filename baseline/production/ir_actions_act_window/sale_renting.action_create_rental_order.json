@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1624,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "\n            {\n                'in_rental_app': 1,\n            }\n        ",
+    "domain": false,
+    "name": "Create Rental Orders",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "form"
+  },
+  "payload_sha256": "93333bfd4f56ac9d9729f3ec000a8017445b0bf84b810ca1777d545bcfb72813",
+  "write_date": "2025-12-09 03:00:12",
+  "xml_id": "sale_renting.action_create_rental_order"
+}

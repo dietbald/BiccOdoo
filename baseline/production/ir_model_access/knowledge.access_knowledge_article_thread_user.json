@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1088,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "access.knowledge.article.thread.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "da510519d40902a77643a5b76bbdff67d65fa562609d37579dba9f37938a3fd4",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.access_knowledge_article_thread_user"
+}

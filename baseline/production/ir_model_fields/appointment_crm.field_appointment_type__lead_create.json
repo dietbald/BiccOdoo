@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15362,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create Opportunity",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "lead_create",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ff32dff1480f8b726ee19e5e972ec44c77845266e08e93a59c85b5af81ec673d",
+  "write_date": "",
+  "xml_id": "appointment_crm.field_appointment_type__lead_create"
+}

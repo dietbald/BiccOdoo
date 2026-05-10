@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19560,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f254cd6a9dd7a5bf1ec626285342ec78fa053a1765196441b550fd09f477c241",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__message_has_error"
+}

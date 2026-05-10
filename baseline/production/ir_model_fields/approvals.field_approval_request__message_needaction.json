@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12120,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4cc54aeadf4edd72d21fbe990cf945bfbb8ef7b315ec885b05c4035cb94dad97",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__message_needaction"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9184f01c031f2f91e93015ac48551156033e9bc265006dfbe2c1fef7eb87df1",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__activity_user_id"
+}

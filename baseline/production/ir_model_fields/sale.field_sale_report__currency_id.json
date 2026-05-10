@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8315,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0b20d5f33e9bb875a982582f9dd5512ef7b219306267eec442be07948d21f65a",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__currency_id"
+}

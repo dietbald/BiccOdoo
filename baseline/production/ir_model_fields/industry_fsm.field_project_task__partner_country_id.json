@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20875,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "partner_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "07347787a2481e4729227eaa7631787d09c901af1c721bf6b45f83cb9f7acab7",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_project_task__partner_country_id"
+}

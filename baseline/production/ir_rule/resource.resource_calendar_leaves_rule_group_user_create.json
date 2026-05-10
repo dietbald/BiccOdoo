@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 33,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('resource_id', '=', False), ('resource_id.user_id', 'in', [False, user.id])]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "resource.calendar.leaves: employee reads own or global",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a62ba16af63c1a333aad7280b737942b2a279782a583b6f7623579e274e06df0",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "resource.resource_calendar_leaves_rule_group_user_create"
+}

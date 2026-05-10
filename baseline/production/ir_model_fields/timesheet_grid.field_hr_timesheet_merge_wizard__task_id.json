@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task",
+    "model_id": [
+      850,
+      "Merge Timesheets"
+    ],
+    "name": "task_id",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a566c207b0238f70565c320a6a4eeaed54b712b79e0e51b908229b7ed931928",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_hr_timesheet_merge_wizard__task_id"
+}

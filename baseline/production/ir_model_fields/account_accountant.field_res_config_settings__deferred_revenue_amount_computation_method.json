@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20130,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Revenue Based on",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "deferred_revenue_amount_computation_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2373de394b0dee3d328e21f4b1e93fd2c4f7cb506dba53a025791c813644f158",
+  "write_date": "",
+  "xml_id": "account_accountant.field_res_config_settings__deferred_revenue_amount_computation_method"
+}

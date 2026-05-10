@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14067,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      888,
+      "Link Tracker Click"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b0c0d75f2a4a0574cdd6b5477829525bdf7d6370c1dcb42bdb16f382d76c4b23",
+  "write_date": "",
+  "xml_id": "link_tracker.field_link_tracker_click__write_uid"
+}

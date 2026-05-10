@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12352,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Article",
+    "model_id": [
+      794,
+      "Knowledge Invite Wizard"
+    ],
+    "name": "article_id",
+    "relation": "knowledge.article",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9e14cde09cb3d036c37ea1cc63ea381a25aac2981a7782895eaf9434fcd0d52c",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_invite__article_id"
+}

@@ -1,0 +1,21 @@
+<search string="Asset Account">
+                <field name="name" string="Asset"/>
+                <field name="acquisition_date"/>
+                <filter string="Current" name="current" domain="[('state','in', ('draft','open'))]" help="Assets in draft and open states"/>
+                <filter string="Closed" name="closed" domain="[('state','=', 'close')]" help="Assets in closed state"/>
+                <field name="model_id" string="Asset Model"/>
+                <separator/>
+                <field name="asset_properties"/>
+                <filter invisible="1" string="My Activities" name="filter_activities_my" domain="[('activity_user_id', '=', uid)]"/>
+                <separator invisible="1"/>
+                <filter invisible="1" string="Late Activities" name="activities_overdue" domain="[('my_activity_date_deadline', '&lt;', 'today')]" help="Show all records whose next activity date is past"/>
+                <filter invisible="1" string="Today Activities" name="activities_today" domain="[('my_activity_date_deadline', '=', 'today')]"/>
+                <filter invisible="1" string="Future Activities" name="activities_upcoming_all" domain="[('my_activity_date_deadline', '&gt;', 'today')]"/>
+                <separator/>
+                <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                <group>
+                        <filter string="Date" name="month" domain="[]" context="{'group_by':'acquisition_date'}"/>
+                        <filter string="Asset Model" name="model" domain="[]" context="{'group_by':'model_id'}"/>
+                        <filter string="Properties" name="group_by_properties" context="{'group_by': 'asset_properties'}"/>
+                </group>
+            </search>

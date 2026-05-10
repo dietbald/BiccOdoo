@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13949,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Period",
+    "model_id": [
+      884,
+      "Send Planning"
+    ],
+    "name": "start_datetime",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "532de5d1fa5a5eb7b7224e2e19cbaa9cd28be54e945c42b78a20effbd6a13bb2",
+  "write_date": "",
+  "xml_id": "planning.field_planning_send__start_datetime"
+}

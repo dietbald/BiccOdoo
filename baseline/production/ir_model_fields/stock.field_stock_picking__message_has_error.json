@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11234,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "85ca62b880ccc68bff723ff8a63aec1df312c46bfcac99233805fe495c87cd76",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__message_has_error"
+}

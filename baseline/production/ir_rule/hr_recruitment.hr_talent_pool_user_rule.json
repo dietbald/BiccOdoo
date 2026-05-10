@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 715,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      62
+    ],
+    "model_id": [
+      2701,
+      "Talent Pool"
+    ],
+    "name": "User: All Talent Pools",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cbfb33b207aefccba4fa9fdffa2483c8f799c50edb4198074086222863d4cb8d",
+  "write_date": "2025-05-19 16:54:23",
+  "xml_id": "hr_recruitment.hr_talent_pool_user_rule"
+}

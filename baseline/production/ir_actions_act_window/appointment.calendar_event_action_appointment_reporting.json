@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1002,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_online': True}",
+    "domain": false,
+    "name": "Appointments",
+    "res_model": "calendar.event",
+    "target": "current",
+    "view_mode": "pivot,graph,calendar,list,form"
+  },
+  "payload_sha256": "3477fb2a7957a53336337c01b411020c122f94b2d2ed2abffd9d40c2a9d11c05",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.calendar_event_action_appointment_reporting"
+}

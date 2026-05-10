@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User Timer",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "user_timer_id",
+    "relation": "timer.timer",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "309118b02cb4a1938aff00ec0dca5145687d47b66fe600b9e4ff96073448329a",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_account_analytic_line__user_timer_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5390,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Payments Amount",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "total_payments_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "db134429bf1b472bc84e8b75baeebcf27de4f2fc9ec17002ffc3d5d050b641c1",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__total_payments_amount"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16698,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6d5de08871526e72f4bdfd8b13106cce52e11df04a018ab9259c09a26a93fada",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__partner_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23929,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8bfe4671454409e5cbe6987f3d04f17b0b79df03fd79a0732f1a0f315233364a",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_line__write_uid"
+}

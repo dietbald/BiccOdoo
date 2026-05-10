@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6169,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Depreciation Lines",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "depreciation_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "59a241f23d60e01b3f45d572f8de1837dceb0b40400d316d090b025998c906a7",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__depreciation_move_ids"
+}

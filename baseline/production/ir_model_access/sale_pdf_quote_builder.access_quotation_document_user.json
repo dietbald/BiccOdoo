@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1816,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1469,
+      "Quotation's Headers & Footers"
+    ],
+    "name": "access_quotation_document_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6ea62a94c2f3d533208c28feaf3f11ae10139f44a0c9b3e58e79f69073f81665",
+  "write_date": "2025-12-09 03:00:29",
+  "xml_id": "sale_pdf_quote_builder.access_quotation_document_user"
+}

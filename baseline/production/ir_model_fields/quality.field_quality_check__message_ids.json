@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16625,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "247747916a652de9b5509c1386986e555448f519368abc37763cf398129bed7e",
+  "write_date": "",
+  "xml_id": "quality.field_quality_check__message_ids"
+}

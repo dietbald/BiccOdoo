@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17857,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "LinkedIn Comments",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "linkedin_comments_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "045dcd54b3362918c8c39f57dac4c4f8043f636e794d4ed6665b1ad41ba7be03",
+  "write_date": "",
+  "xml_id": "social_linkedin.field_social_stream_post__linkedin_comments_count"
+}

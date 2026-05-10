@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1155,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_category_id': [active_id],\n            'search_default_active': True,\n            'default_category_id': active_id,\n        }",
+    "domain": false,
+    "name": "Maintenance Requests",
+    "res_model": "maintenance.request",
+    "target": "current",
+    "view_mode": "kanban,list,form,pivot,graph,calendar,activity"
+  },
+  "payload_sha256": "f0b304c1d7a9564af7c45f79a5f0cbbb3017cdf595d9958c8f9203761000dc47",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.hr_equipment_request_action_link"
+}

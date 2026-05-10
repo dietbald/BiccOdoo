@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5944,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Access Token",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "3e8fab07a2d94ba2731dbca448f8c5c6c529c234bebe409ae3fa40cbfa319a36",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__access_token"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1716,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Model",
+    "model_id": [
+      147,
+      "Email Aliases"
+    ],
+    "name": "alias_parent_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "99ba7c5ffdc96f63200b8889ef8d8516e6c4983a1414087a92e7ab3f0400f8e5",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias__alias_parent_model_id"
+}

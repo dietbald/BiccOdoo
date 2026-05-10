@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4112,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Computation",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "amount_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f3507c6de7ee1def5d8accabef9351a3974107a89070a7db2169a1aa6dd6de3d",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__amount_type"
+}

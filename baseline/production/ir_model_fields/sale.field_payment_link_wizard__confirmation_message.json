@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8328,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Confirmation Message",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "confirmation_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8a11d5a854b3e386c948c6e37b074230bd50513fa28486df3e6946e4c0127afc",
+  "write_date": "",
+  "xml_id": "sale.field_payment_link_wizard__confirmation_message"
+}

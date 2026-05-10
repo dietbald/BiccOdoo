@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16830,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Move",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "move_id",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cdd782628611659e8d0dc9871b66560cca7c1565a70eeab5615e68256b905e61",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__move_id"
+}

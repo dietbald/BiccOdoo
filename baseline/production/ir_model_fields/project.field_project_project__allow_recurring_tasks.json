@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28017,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recurring Tasks",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "allow_recurring_tasks",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dafee2bf8ec1c19d0244c6b3ef6b2feadc7501d549c618c4a11a59d1387dc6bc",
+  "write_date": "",
+  "xml_id": "project.field_project_project__allow_recurring_tasks"
+}

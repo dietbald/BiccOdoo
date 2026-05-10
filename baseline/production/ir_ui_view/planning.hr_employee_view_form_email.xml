@@ -1,0 +1,12 @@
+<form>
+                <sheet>
+                    <field name="user_id" invisible="1"/>
+                    <div class="oe_title">
+                        <p class="text-muted">Please add a work email for the following employee so that they can receive their planning:</p>
+                    </div>
+                    <group>
+                        <field name="name" readonly="1"/>
+                        <field name="work_email" widget="email" required="True"/>
+                    </group>
+                </sheet>
+            </form>

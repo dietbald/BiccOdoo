@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27441,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3201,
+      "Sign request share wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dc77c2626d69c2ca63f54ebf5b8be6bcd764b373775f1578205cde15aad07c72",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request_share__write_uid"
+}

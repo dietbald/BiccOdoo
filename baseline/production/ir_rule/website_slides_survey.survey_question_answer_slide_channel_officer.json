@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 685,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                '&',\n                    '&', ('question_id.survey_id.certification', '=', True), ('question_id.survey_id.survey_type', 'in', ('survey', 'live_session', 'assessment', 'custom')),\n                    '|', ('question_id.survey_id.restrict_user_ids', '=', False), ('question_id.survey_id.restrict_user_ids', 'in', user.id),\n                '&',\n                    '&', ('matrix_question_id.survey_id.certification', '=', True), ('matrix_question_id.survey_id.survey_type', 'in', ('survey', 'live_session', 'assessment', 'custom')),\n                    '|', ('matrix_question_id.survey_id.restrict_user_ids', '=', False), ('matrix_question_id.survey_id.restrict_user_ids', 'in', user.id),\n        ]",
+    "groups": [
+      148
+    ],
+    "model_id": [
+      921,
+      "Survey Label"
+    ],
+    "name": "Survey question answer: slide channel officer on certification: read",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8afc6154227687f392d396f0cf1d5018b6f0645a09b20d5f41a17b3dbfa4082b",
+  "write_date": "2025-03-23 22:57:07",
+  "xml_id": "website_slides_survey.survey_question_answer_slide_channel_officer"
+}

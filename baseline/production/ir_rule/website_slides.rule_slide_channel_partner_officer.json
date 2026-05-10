@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 675,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('channel_id.user_id', '=', user.id)]",
+    "groups": [
+      148
+    ],
+    "model_id": [
+      1510,
+      "Channel / Partners (Members)"
+    ],
+    "name": "Channel Partner: officer: create/write/unlink own only",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "129258109ba5290b9c959f1e268b6aacccc59d4d576b66451f02104227f9fcb2",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_channel_partner_officer"
+}

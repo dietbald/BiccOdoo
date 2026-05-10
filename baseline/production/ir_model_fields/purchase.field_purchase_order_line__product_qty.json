@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9436,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "product_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "ec3ba538d2110657b179880a9d4d708122d3b018a2d00da0dd76dfe8c749643a",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__product_qty"
+}

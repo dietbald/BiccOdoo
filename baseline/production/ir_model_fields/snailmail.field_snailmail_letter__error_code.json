@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3547,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Error",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "error_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e0e1a6e35ef6a841f585b77062273d6840e23829aabd222c4dbdc3a4b1231f5c",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__error_code"
+}

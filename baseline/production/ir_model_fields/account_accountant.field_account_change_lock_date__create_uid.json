@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5800,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d86a1f64dd836f0e42b8dbc239bac4cca5a4afa7f63c5f1aa3690469f2b399ba",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__create_uid"
+}

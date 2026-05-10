@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8305,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Qty Invoiced",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "qty_invoiced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "7c48e985e9884162e5d9aedfbe44109ec50735fc41c0f2853e11c3b738ca55c4",
+  "write_date": "",
+  "xml_id": "sale.field_sale_report__qty_invoiced"
+}

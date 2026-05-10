@@ -1,0 +1,7 @@
+<pivot string="Loans Analysis" sample="1">
+                     <field name="date" interval="year" type="col"/>
+                     <field name="loan_id" type="row"/>
+                     <field name="principal" type="measure"/>
+                     <field name="interest" type="measure"/>
+                     <field name="payment" type="measure"/>
+                 </pivot>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11536,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      743,
+      "Storage Category"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "df3798fe612492a5ffec417c8f4999ad35f24ca38d743d07f9a5c3026cb0a97c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_storage_category__create_uid"
+}

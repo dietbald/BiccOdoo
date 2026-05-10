@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22132,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution Analytic Account",
+    "model_id": [
+      430,
+      "Rules for the reconciliation model"
+    ],
+    "name": "distribution_analytic_account_ids",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ef8f21a036507c89a03b4521701b3420ac559f8ce180784f0c77270980c2137e",
+  "write_date": "",
+  "xml_id": "account.field_account_reconcile_model_line__distribution_analytic_account_ids"
+}

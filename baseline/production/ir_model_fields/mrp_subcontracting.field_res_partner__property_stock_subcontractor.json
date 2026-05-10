@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17320,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subcontractor Location",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "property_stock_subcontractor",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d504ca3e79bb8f5d759544ebcb6bb5736df0e2a8b8322f80cb9d83bbf714a582",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_res_partner__property_stock_subcontractor"
+}

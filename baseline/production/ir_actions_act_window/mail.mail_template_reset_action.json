@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 102,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_template_ids': active_ids\n        }",
+    "domain": false,
+    "name": "Reset Mail Template",
+    "res_model": "mail.template.reset",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "c617164f4ab5343cccf5b925eb4a803d0d8a8edf3f9dc6520f6687c5a3be0357",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.mail_template_reset_action"
+}

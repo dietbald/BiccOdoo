@@ -1,0 +1,9 @@
+<t t-name="stock.small_zpl_label">
+^FT35,30^A0N,20^FD<t t-out="product.name"/>^FS
+            <t t-if="barcode">
+^FO35,50^BY1 ^BCN,80,Y,N,N ^FD<t t-out="barcode"/>^FS
+            </t>
+            <t t-if="price_included">
+^FO150,165 ^A0N,25^FH ^FD<t t-esc="price"/>^FS
+            </t>
+        </t>

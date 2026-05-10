@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13991,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Planning Slot",
+    "model_id": [
+      811,
+      "HR Work Entry"
+    ],
+    "name": "planning_slot_id",
+    "relation": "planning.slot",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bb5e2c062378e7c4ee246b7061bd97c098c4942e4b4071f87167eb6e1512391a",
+  "write_date": "",
+  "xml_id": "hr_work_entry_planning.field_hr_work_entry__planning_slot_id"
+}

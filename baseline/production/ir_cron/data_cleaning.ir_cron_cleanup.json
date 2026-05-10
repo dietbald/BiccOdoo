@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 60,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_cleanup()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      932,
+      "Deduplication Group"
+    ],
+    "name": "Data Merge: Cleanup Records",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "d07ac480e194672df189a6223cfd617d3422fb0d7c77adf8c19265eaa3cf47a2",
+  "write_date": "2025-12-09 02:56:08",
+  "xml_id": "data_cleaning.ir_cron_cleanup"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8711,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country of Birth",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "country_of_birth",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "501ab6a5276afcdcae1ef4301d8b997038b5424a3a731f66155d23841dcb2858",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__country_of_birth"
+}

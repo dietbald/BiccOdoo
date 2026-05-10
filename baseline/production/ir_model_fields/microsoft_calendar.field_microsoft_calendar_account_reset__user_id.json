@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      908,
+      "Microsoft Calendar Account Reset"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d097aee4ccd1eebc84265975dc3c1da028c463c855e58b18495c0ff2da21b2a4",
+  "write_date": "",
+  "xml_id": "microsoft_calendar.field_microsoft_calendar_account_reset__user_id"
+}

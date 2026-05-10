@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1512,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('appointment_type_ids', 'in', active_ids)]",
+    "name": "Share Links",
+    "res_model": "appointment.invite",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "45208eb68d0e3ccaa279186d2c4b511c23c618e3cb689148282be037b783921a",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_invite_action_stat"
+}

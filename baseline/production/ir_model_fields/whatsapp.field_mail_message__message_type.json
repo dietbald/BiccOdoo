@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2051,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "message_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8e3b14db74b32e74aa4135193634783ec07cde557b19655b562ea14da71bbf06",
+  "write_date": "",
+  "xml_id": "whatsapp.field_mail_message__message_type"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16506,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      985,
+      "Quality Control Test Type"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7c47f7de33b4ee64f794e876966868981d364c4f89cd02308d8a6709b9c3fb55",
+  "write_date": "",
+  "xml_id": "quality.field_quality_point_test_type__create_uid"
+}

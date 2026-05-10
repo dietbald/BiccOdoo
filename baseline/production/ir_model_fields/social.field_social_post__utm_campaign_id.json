@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17727,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Campaign",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "utm_campaign_id",
+    "relation": "utm.campaign",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9a5de22af5d244f3935b954e100eb6167fab0a855f7c2769a64030305b389365",
+  "write_date": "",
+  "xml_id": "social.field_social_post__utm_campaign_id"
+}

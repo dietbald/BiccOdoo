@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4305,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Attachment",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "message_main_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a643077df5afc26cd7e87725c875eb673877ed99a0fc124899dc6a54046712d6",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__message_main_attachment_id"
+}

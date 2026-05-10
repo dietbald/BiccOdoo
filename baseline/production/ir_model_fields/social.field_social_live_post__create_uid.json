@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1027,
+      "Social Live Post"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "512332fb238a4d52f6620ae3c23abf00cba65d142288ad034e6ef732f6d40b2b",
+  "write_date": "",
+  "xml_id": "social.field_social_live_post__create_uid"
+}

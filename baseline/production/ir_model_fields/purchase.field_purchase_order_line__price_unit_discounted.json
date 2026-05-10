@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit Price (Discounted)",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "price_unit_discounted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "e0141a65b40c729b1c211fd8419d9341d1f753ae81c86bd7fde3f8f1e0a47954",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__price_unit_discounted"
+}

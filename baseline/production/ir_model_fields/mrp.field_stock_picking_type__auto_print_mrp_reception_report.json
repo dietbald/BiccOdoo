@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Print Allocation Report",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "auto_print_mrp_reception_report",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f6c8860cfbc2ff7203bef50b5f53b4e38229230883c9a10b4775f7c366bf9b65",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_picking_type__auto_print_mrp_reception_report"
+}

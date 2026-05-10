@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 337,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      93,
+      "Currency Rate"
+    ],
+    "name": "res.currency.rate account manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b6860bcb9ec4e3a384f3191f93ed62191177714df58b6b6b738535516a122aaf",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_res_currency_rate_account_manager"
+}

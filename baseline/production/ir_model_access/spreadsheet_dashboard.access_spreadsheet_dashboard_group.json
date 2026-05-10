@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 452,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      31,
+      "Dashboard / Admin"
+    ],
+    "model_id": [
+      468,
+      "Group of dashboards"
+    ],
+    "name": "access_spreadsheet_dashboard_group",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "69ff9b5d87c7d020717eea104769c5e08b344f335981cdb3723ae11b6c8bd405",
+  "write_date": "2025-12-09 02:57:24",
+  "xml_id": "spreadsheet_dashboard.access_spreadsheet_dashboard_group"
+}

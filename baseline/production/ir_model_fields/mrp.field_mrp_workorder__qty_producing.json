@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16267,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currently Produced Quantity",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "qty_producing",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "860fd81c0ba99e4b6dd1bf2a87e8ac82479ac12bafae009eda0ae88eb53605b6",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__qty_producing"
+}

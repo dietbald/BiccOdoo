@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6239,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count Asset",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "count_asset",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "ad725d0b9d0ad0a8592640a2fcbb3bb864673a8f871cc7aa857d9a5628d1f770",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_bank_statement_line__count_asset"
+}

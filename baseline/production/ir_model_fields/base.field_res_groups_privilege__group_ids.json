@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26799,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Groups",
+    "model_id": [
+      2852,
+      "Privileges"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b266827761a59a2d165531562d167fba853964f9781fd5be47f7125347daab6b",
+  "write_date": "",
+  "xml_id": "base.field_res_groups_privilege__group_ids"
+}

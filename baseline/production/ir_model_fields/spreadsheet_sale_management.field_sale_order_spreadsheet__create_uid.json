@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23851,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1474,
+      "Quotation Spreadsheet"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e2d5f63d9a1f7926fffbec192a73f7a03936bb0af4a9d754b67953ca3ae91e29",
+  "write_date": "",
+  "xml_id": "spreadsheet_sale_management.field_sale_order_spreadsheet__create_uid"
+}

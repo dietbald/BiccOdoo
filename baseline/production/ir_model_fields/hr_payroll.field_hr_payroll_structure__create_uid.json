@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12796,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      816,
+      "Salary Structure"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c956287f6ea7611961a82056388f82011ab1d24411ebf856022980b7c00850e1",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_structure__create_uid"
+}

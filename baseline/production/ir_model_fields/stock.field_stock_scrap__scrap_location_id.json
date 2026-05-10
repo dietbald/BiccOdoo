@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11411,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scrap Location",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "scrap_location_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aacb18062de0ca2198dd0e3e8a57fb0d5b054007afeba70eae3d0f0ad5eb9c26",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__scrap_location_id"
+}

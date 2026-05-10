@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29139,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Update",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "contract_update_template_id",
+    "relation": "sign.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "02d35f03b296ee2f25a9ecba90bfbf21251098b7430ba78b5c1c58d2352c2c30",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_employee__contract_update_template_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25530,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2601,
+      "Alert in Referral App"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3429878d22844958fa9cb137e31424a5610d3f4f4fed72fc88dd62ad24a2b119",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_alert__write_uid"
+}

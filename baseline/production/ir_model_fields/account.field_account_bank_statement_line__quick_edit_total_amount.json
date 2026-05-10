@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4869,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total (Tax inc.)",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "quick_edit_total_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "9fdd46033261c6cb8625053c607835af635c7909a1b2e176a18b8c93d64fee63",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__quick_edit_total_amount"
+}

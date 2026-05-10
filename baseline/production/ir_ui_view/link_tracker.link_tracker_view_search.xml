@@ -1,0 +1,12 @@
+<search string="Links">
+                    <field name="url" string="Link Tracker" filter_domain="['|', ('title', 'ilike', self), ('url', 'ilike', self)]"/>
+                    <field name="label"/>
+                    <field name="campaign_id"/>
+                    <field name="medium_id"/>
+                    <field name="source_id"/>
+                    <group>
+                        <filter string="Campaign" name="groupby_campaign_id" context="{'group_by': 'campaign_id'}"/>
+                        <filter string="Medium" name="groupby_medium_id" context="{'group_by': 'medium_id'}"/>
+                        <filter string="Source" name="groupby_source_id" context="{'group_by': 'source_id'}"/>
+                    </group>
+                </search>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4390,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Origin",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_origin",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "4b04f24e41be99ade57ee34656cb0af7c7ba57d1c751f9c4e543ed636b9d952a",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_origin"
+}

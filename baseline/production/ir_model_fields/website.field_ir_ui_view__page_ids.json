@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10046,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Page",
+    "model_id": [
+      16,
+      "View"
+    ],
+    "name": "page_ids",
+    "relation": "website.page",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "272452fa85e88357b6bab14a7e8bd0d33ef83a34fe954ba7ba237e4582a01ea7",
+  "write_date": "",
+  "xml_id": "website.field_ir_ui_view__page_ids"
+}

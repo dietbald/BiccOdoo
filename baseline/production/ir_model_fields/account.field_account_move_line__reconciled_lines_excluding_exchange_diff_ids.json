@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27557,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reconciled Lines Excluding Exchange Diff",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "reconciled_lines_excluding_exchange_diff_ids",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7adb4bae6aebedfb37db3b1554cafcb7a1571b264d7397f81fd40fae5d62eb72",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__reconciled_lines_excluding_exchange_diff_ids"
+}

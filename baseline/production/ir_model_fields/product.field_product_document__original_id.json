@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3107,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Original (unoptimized, unresized) attachment",
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "original_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5c957f8dcd6e9cd629bb32f2acdb956ce735cc1e1df86e4745ad641f7eaf0e22",
+  "write_date": "",
+  "xml_id": "product.field_product_document__original_id"
+}

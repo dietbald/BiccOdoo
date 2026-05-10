@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26518,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Renting Period",
+    "model_id": [
+      2747,
+      "Pricing rule of rental products"
+    ],
+    "name": "recurrence_id",
+    "relation": "sale.temporal.recurrence",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5690b6a6d2c236e3c165e1a2be83364ec74f866487b50e5c7fdad890913633c4",
+  "write_date": "",
+  "xml_id": "sale_renting.field_product_pricing__recurrence_id"
+}

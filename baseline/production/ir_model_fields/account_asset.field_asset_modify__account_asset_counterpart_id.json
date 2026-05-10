@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6213,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Asset Counterpart Account",
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "account_asset_counterpart_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fb2b5652fb64c249028bf0664b238014d81efe182f77bc06b2a396b20bfd6bc9",
+  "write_date": "",
+  "xml_id": "account_asset.field_asset_modify__account_asset_counterpart_id"
+}

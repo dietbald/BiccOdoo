@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9490,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Minimum Amount",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "po_double_validation_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "da3663a8736dd46a74e6eba7e1f41fa3ebe1b304503f4afe749bb30c1b2311fe",
+  "write_date": "",
+  "xml_id": "purchase.field_res_config_settings__po_double_validation_amount"
+}

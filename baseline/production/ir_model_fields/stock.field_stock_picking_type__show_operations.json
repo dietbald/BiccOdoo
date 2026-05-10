@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11181,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Detailed Operations",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "show_operations",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "49c495a106bd8dd2b5bb661c1b8bb57ae3578b91f997ac369e7d4f2f3b8127db",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__show_operations"
+}

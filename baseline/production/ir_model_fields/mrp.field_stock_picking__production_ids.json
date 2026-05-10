@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20225,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Productions",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "production_ids",
+    "relation": "mrp.production",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b0d214fbcb94cd7238df9e4301a9078a1eeb3516dc28e5da27ca094d8a7620f3",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_picking__production_ids"
+}

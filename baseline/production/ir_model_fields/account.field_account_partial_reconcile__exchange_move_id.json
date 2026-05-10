@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4506,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Exchange Move",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "exchange_move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cff3690c42139c9996a81ac2fd82dab65581c3665d300048acc58cd8d6dc60e4",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__exchange_move_id"
+}

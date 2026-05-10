@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15643,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notify HR",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "responsible_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "77ab4fb5dabe38cc0ba4e73d21e15e2cdad2cd4c6b16be77b5c0b705924c66f9",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__responsible_ids"
+}

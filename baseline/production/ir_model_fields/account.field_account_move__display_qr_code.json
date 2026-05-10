@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4357,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display QR-code",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "display_qr_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "922b522d6c904752d366750882eec7db185dcb0d7cf66e99eb5a2cf501d397f1",
+  "write_date": "",
+  "xml_id": "account.field_account_move__display_qr_code"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4736,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "0bbe2d678d71ae16afe22a5d7688fa26dce89419de7a2a443e5d800ba75722e8",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement__attachment_ids"
+}

@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 437,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('website_published', '=', True)]",
+    "groups": [
+      10,
+      11
+    ],
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "Calendar: public: published only",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "767ed90779299db27170866678b969c14338eee9398301029499b32842163a22",
+  "write_date": "2024-04-30 14:29:46",
+  "xml_id": "website_appointment.appointment_type_rule_public"
+}

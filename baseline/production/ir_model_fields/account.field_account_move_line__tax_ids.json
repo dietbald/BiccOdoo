@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4450,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Taxes",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "tax_ids",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cae140ab332c92d3fac77aad9691fee0a5603df42e0801dee86689c9c5e2a040",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__tax_ids"
+}

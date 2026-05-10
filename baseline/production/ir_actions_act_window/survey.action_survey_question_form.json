@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 964,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_page': True, 'show_survey_field': True}",
+    "domain": "[('is_page', '=', False)]",
+    "name": "Questions",
+    "res_model": "survey.question",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "1afbb0874c28f6552395d76fd9343effb591cc6f44f85c66bcf9ec5807106e99",
+  "write_date": "2026-01-28 12:01:51",
+  "xml_id": "survey.action_survey_question_form"
+}

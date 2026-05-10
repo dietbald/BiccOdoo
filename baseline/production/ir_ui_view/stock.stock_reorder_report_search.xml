@@ -1,0 +1,26 @@
+<search string="Replenishment Report Search">
+                <field name="product_id"/>
+                <field name="product_category_id"/>
+                <field name="effective_route_id" string="Route"/>
+                <field name="warehouse_id" groups="stock.group_stock_multi_warehouses"/>
+                <field name="location_id" groups="stock.group_stock_multi_locations"/>
+                <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                <separator/>
+                <filter string="Manual" name="filter_creation_manual_trigger" domain="[('trigger', '=', 'manual')]"/>
+                <filter string="Automatic" name="filter_creation_automatic_trigger" domain="[('trigger', '=', 'auto')]"/>
+                <separator/>
+                <filter string="To Reorder" name="filter_to_reorder" domain="[('qty_to_order', '&gt;', 0.0)]"/>
+                <separator/>
+                <filter string="Not Snoozed" name="filter_not_snoozed" domain="['|', ('snoozed_until', '=', False), ('snoozed_until', '&lt;=', 'today')]"/>
+                <group>
+                    <filter string="Warehouse" name="groupby_warehouse" domain="[]" context="{'group_by': 'warehouse_id'}" groups="stock.group_stock_multi_warehouses"/>
+                    <filter string="Location" name="groupby_location" domain="[]" context="{'group_by': 'location_id'}" groups="stock.group_stock_multi_locations"/>
+                    <filter string="Product" name="groupby_product" domain="[]" context="{'group_by': 'product_id'}"/>
+                    <filter string="Category" name="groupby_category" domain="[]" context="{'group_by': 'product_category_id'}"/>
+                </group>
+                <searchpanel>
+                    <field name="location_id" string="Locations" groups="stock.group_stock_multi_locations" enable_counters="1"/>
+                    <field name="trigger" string="Trigger" enable_counters="1"/>
+                    <field name="product_category_id" icon="fa-filter" string="Category" select="multi" enable_counters="1"/>
+                </searchpanel>
+            </search>

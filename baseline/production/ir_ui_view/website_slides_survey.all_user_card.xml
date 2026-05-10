@@ -1,0 +1,7 @@
+<data inherit_id="website_profile.all_user_card">
+        <xpath expr="//td[hasclass('all_user_badge_count')]" position="after">
+            <td class="align-middle text-end pe-3 text-nowrap all_user_certification_count">
+                <b t-out="user['certification_count']"/> <span class="text-muted small fw-bold">Certifications</span>
+            </td>
+        </xpath>
+    </data>

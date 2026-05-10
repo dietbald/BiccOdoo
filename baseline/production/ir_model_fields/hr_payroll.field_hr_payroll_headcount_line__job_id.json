@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Title",
+    "model_id": [
+      1239,
+      "Headcount Line"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fd76c89a17f06155a9ede94618c3db2625bdcc3b96d94fc0d25bc4e24f83579f",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount_line__job_id"
+}

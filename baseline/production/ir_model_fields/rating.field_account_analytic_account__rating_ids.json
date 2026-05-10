@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7db2ab5613de422a400a683403317d6febf983dd7b24e8b081e806002e825243",
+  "write_date": "",
+  "xml_id": "rating.field_account_analytic_account__rating_ids"
+}

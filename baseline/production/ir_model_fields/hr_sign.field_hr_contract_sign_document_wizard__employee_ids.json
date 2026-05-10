@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees",
+    "model_id": [
+      720,
+      "Sign document in contract"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "81e7223f62821fca36890892d232c21d092a54e514c6a7c6dfdfe39485bf32cd",
+  "write_date": "",
+  "xml_id": "hr_sign.field_hr_contract_sign_document_wizard__employee_ids"
+}

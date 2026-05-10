@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3714,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Provider Reference",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "provider_reference",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "aa1392ead8e14321301ab7a4503dd51fc211de66b9289bb415ff7369ebab94e0",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__provider_reference"
+}

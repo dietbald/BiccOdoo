@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3884,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a7b14dd0045fd882b4e615cd1f075d47633d826f07e87d1fa317054117d2784e",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__activity_user_id"
+}

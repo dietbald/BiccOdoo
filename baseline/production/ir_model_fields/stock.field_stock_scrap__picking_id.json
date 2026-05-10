@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11409,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Picking",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "picking_id",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78ab8a59e2bab75a6ec8f8cf1741df84612eef3fd1cd81433807a59f1a3a7e13",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__picking_id"
+}

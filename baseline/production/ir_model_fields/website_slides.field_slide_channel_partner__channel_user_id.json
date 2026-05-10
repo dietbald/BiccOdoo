@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24228,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      1510,
+      "Channel / Partners (Members)"
+    ],
+    "name": "channel_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "15f173ddbda7cca6ac10987e75669f1e48c701a4c19de5eb5fef8e8b26d76e31",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel_partner__channel_user_id"
+}

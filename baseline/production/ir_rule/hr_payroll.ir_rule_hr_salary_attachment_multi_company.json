@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 366,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "HR Salary Attachment: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "622bac334070be4dac18eb48429b52aad33687bea46b479f6e1d0af2bab499de",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "hr_payroll.ir_rule_hr_salary_attachment_multi_company"
+}

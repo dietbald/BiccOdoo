@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1003,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      765,
+      "Stock Rules report"
+    ],
+    "name": "access.stock.rules.report",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "7003748c6a12431c20ad5be8e66661db397fd04fd95c17a5110ed01c7cf2cdca",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_rules_report"
+}

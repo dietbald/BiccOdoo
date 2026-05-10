@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2643,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      342,
+      "Analytic Plans"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "af11ca28ead70c86c2c011b2a626a7ea2cb17996612be6a3d74343e1edb69701",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_plan__create_uid"
+}

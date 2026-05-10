@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7973,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ef01cd51e2b244682ebeb55e89b9e99e5b6e0bf88ed1ed6d3b3df3357384fba8",
+  "write_date": "",
+  "xml_id": "project.field_report_project_task_user__company_id"
+}

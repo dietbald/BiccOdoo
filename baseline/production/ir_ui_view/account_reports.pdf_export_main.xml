@@ -1,0 +1,74 @@
+<t t-name="account_reports.pdf_export_main">
+         <html>
+             <head>
+                 <base t-att-href="base_url"/>
+                 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+                 <t t-call-assets="account_reports.assets_pdf_export" t-js="False" t-autoprefix="true"/>
+             </head>
+             <body>
+                 <div t-att-class="'o_content ' + options['css_custom_class']">
+                     <header>
+                         <div class="row">
+                             <div class="col-8">
+                                 <!-- All company information (name, address, vat, ...) -->
+                                 <t t-call="{{custom_templates.get('company_information', 'account_reports.company_information')}}"/>
+                             </div>
+                             <div class="col-4">
+                                <div class="d-flex justify-content-end">
+                                    <div>
+                                        <div class="o_title text-end">
+                                            <t t-if="report.filter_show_draft and options['all_entries']">[Draft]</t>
+                                            <t t-out="report_title"/>
+                                        </div>
+                                        <!-- All filters and options -->
+                                        <t t-call="{{custom_templates.get('pdf_export_filters', 'account_reports.pdf_export_filters')}}"/>
+                                    </div>
+                                </div>
+                            </div>
+                         </div>
+                     </header>
+
+                     <div class="d-flex align-items-start">
+                         <t t-foreach="options.get('horizontal_split') and ['left', 'right'] or [None]" t-as="split_side">
+                             <table t-attf-class="o_table  #{options.get('horizontal_split') and 'horizontal_split_page'}">
+                                 <!-- Column Group -->
+                                 <colgroup>
+                                     <t t-if="show_last_annotations">
+                                         <col class="table_column" t-att-span="len(options['columns']) + 1"/>
+                                         <col class="table_column largest_column comment_column"/>
+                                     </t>
+                                     <t t-else="">
+                                         <col class="table_column largest_column"/>
+                                         <col class="table_column" t-att-span="len(options['columns'])"/>
+                                     </t>
+                                 </colgroup>
+
+                                 <!-- Header -->
+                                 <t t-call="{{custom_templates.get('pdf_export_main_table_header', 'account_reports.pdf_export_main_table_header')}}"/>
+
+                                 <!-- Body -->
+                                 <tbody>
+                                     <t t-if="lines">
+                                         <t t-call="{{custom_templates.get('pdf_export_main_table_body', 'account_reports.pdf_export_main_table_body')}}">
+                                             <t t-set="lines" t-value="filter(lambda x: not split_side or split_side == x.get('horizontal_split_side', 'left'), lines)"/>
+                                         </t>
+                                     </t>
+                                 </tbody>
+                             </table>
+                         </t>
+                     </div>
+
+                     <!-- Annotations -->
+                     <t t-if="not show_last_annotations">
+                         <ol class="o_annotation">
+                            <t t-foreach="annotations" t-as="annotation">
+                                <li>
+                                    <t t-out="annotation.get('number')"/>. <em><t t-out="annotation.get('date')"/></em> - <t t-out="annotation.get('body')"/>
+                                </li>
+                            </t>
+                         </ol>
+                     </t>
+                 </div>
+             </body>
+         </html>
+    </t>

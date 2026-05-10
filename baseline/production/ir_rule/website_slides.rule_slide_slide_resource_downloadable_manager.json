@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 682,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      149
+    ],
+    "model_id": [
+      1514,
+      "Additional resource for a particular slide"
+    ],
+    "name": "Resource: manager: crud all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ddfcafff2bffedf6114c47ae3585c8581e5d6ba3b1cf3bf5d16cfabb0d818b71",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.rule_slide_slide_resource_downloadable_manager"
+}

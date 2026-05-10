@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25555,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e045cb0d786986dff2cefd8e84ee194844db35f0c623a19502a0c37552fe9b70",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__rating_ids"
+}

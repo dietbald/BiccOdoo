@@ -1,0 +1,10 @@
+<search string="Tasks Stages">
+                   <field name="name" string="Name"/>
+                   <field name="project_ids" string="Project"/>
+                   <field name="mail_template_id"/>
+                   <field name="rating_template_id"/>
+                    <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                    <group>
+                        <filter string="Projects" name="project_ids" context="{'group_by': 'project_ids'}"/>
+                    </group>
+                </search>

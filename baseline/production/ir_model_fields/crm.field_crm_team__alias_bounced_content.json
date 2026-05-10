@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7296,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Bounced Message",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "alias_bounced_content",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "aa13ac76b13c1a31374cd02d53559d0a118a2a41a3fe1d9125931a173d83b064",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team__alias_bounced_content"
+}

@@ -1,0 +1,98 @@
+<t t-name="mass_mailing_themes.theme_bignews_template">
+        <style id="design-element">
+            .o_layout .o_mail_wrapper .o_mail_wrapper_td {
+                --h1-font-size: 36px;
+                --h1-font-weight: bolder;
+                --h1-font-style: italic;
+                --h1-color: #BA0013;
+
+                --h2-font-size: 14px;
+                --h2-font-weight: bolder;
+
+                --h3-font-size: 18px;
+                --h3-font-weight: bolder;
+
+                --text-color: #6c757d;
+
+                --link-color: #BA0013;
+
+                --btn-primary-background-color: #BA0013;
+                --btn-primary-border-color: #BA0013;
+            }
+        </style>
+        <t t-set="now" t-value="datetime.datetime.now()"/>
+        <t t-set="future_date" t-value="(datetime.date.today() + datetime.timedelta(days=30))"/>
+        <section class="s_header_logo o_mail_block_header_logo o_mail_snippet_general pt16 pb16 bg-200" data-vxml="001" data-snippet="s_mail_block_header_logo" data-name="Header Logo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4"/>
+                    <div class="col-md-4 pt16 pb16" style="text-align: center;">
+                        <a style="text-decoration:none;" href="http://www.example.com">
+                            <img src="/mass_mailing_themes/static/src/img/theme_bignews/bignews_logo.png" width="70" style="height:auto;max-width:100%; width:70px;" class="img-fluid"/>
+                        </a>
+                    </div>
+                    <div class="col-md-4" style="text-align:right"/>
+                </div>
+            </div>
+        </section>
+        <section class="s_title o_mail_snippet_general pt32 pb16" data-vxml="001" data-snippet="s_title" data-name="Title">
+            <div class="container s_allow_columns">
+                <h1 style="text-align: center;">WE'RE MOVING</h1>
+            </div>
+        </section>
+        <section class="s_cover o_mail_snippet_general pt0" data-vxml="001" data-snippet="s_cover" data-name="Cover">
+            <img src="/mass_mailing_themes/static/src/img/theme_bignews/s_default_image_cover.jpg" alt="Cover image" class="img-fluid w-100 mx-auto" style="padding: 15px;"/>
+        </section>
+        <section class="s_text_block o_mail_snippet_general pt32 pb32" data-vxml="001" data-snippet="s_text_block" data-name="Text" style="padding-left: 15px; padding-right: 15px;">
+            <div class="container s_allow_columns">
+                <h2>BEGINNING <t t-out="future_date.strftime('%B %d').upper()"/></h2>
+                <p>We are proud to announce that due to our remarkable growth in the Springfield area, we are moving to a new location on July 1.
+                   <br/>We will continue to offer the same friendly service at our new address on <span style="font-weight: bolder">1600 Main Street</span>,
+                   <br/>which will allow us to offer an even larger selection of products and services.
+                </p>
+                <p>See you there,</p>
+                <p><img src="/mass_mailing_themes/static/src/img/theme_bignews/signature.png" style="width:125px; margin-top:8px;margin-bottom:-25px;" alt="Signature" class="img-fluid"/></p>
+                <p>Michael Fletcher<br/>
+                   <span style="font-size: 12px; font-weight: bolder;">Customer Service</span>
+                </p>
+                <p style="text-align: center;">
+                    <a role="button" href="#" class="btn btn-primary">READ MORE</a>
+                </p>
+            </div>
+        </section>
+        <section class="s_footer_social o_mail_block_footer_social o_mail_footer_social_center o_mail_snippet_general bg-200 pt16 pb16" data-vxml="001" data-snippet="s_mail_block_footer_social" data-name="Footer Center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12" style="text-align: center;" t-translation="off">
+                        <a aria-label="Facebook" title="Facebook" href="https://www.facebook.com/Odoo">
+                            <span class="fa fa-facebook" style="color: rgb(186, 0, 19) !important;"/>
+                        </a>&amp;nbsp;&amp;nbsp;
+                        <a style="margin-left:10px" aria-label="LinkedIn" title="LinkedIn" href="https://www.linkedin.com/company/odoo">
+                            <span class="fa fa-linkedin" style="color: rgb(186, 0, 19) !important;"/>
+                        </a>&amp;nbsp;&amp;nbsp;
+                        <a style="margin-left:10px" aria-label="X" title="X" href="https://twitter.com/Odoo">
+                            <span class="fa fa-twitter" style="color: rgb(186, 0, 19) !important;"/>
+                        </a>&amp;nbsp;&amp;nbsp;
+                        <a style="margin-left:10px" aria-label="Instagram" title="Instagram" href="https://www.instagram.com/explore/tags/odoo/">
+                            <span class="fa fa-instagram" style="color: rgb(186, 0, 19) !important;"/>
+                        </a>&amp;nbsp;&amp;nbsp;
+                        <a style="margin-left:10px" aria-label="TikTok" title="TikTok" href="https://www.tiktok.com/@odoo">
+                            <span class="fa fa-tiktok" style="color: rgb(186, 0, 19) !important;"/>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 o_mail_footer_links pt8 pb8" style="text-align: center;">
+                        <a role="button" href="/unsubscribe_from_list" class="btn btn-link">Unsubscribe</a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p style="text-align: center;">
+                            © <t t-out="now.strftime('%Y')"/> All Rights Reserved
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </t>

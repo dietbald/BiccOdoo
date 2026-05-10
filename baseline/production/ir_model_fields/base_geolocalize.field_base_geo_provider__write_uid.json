@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1060,
+      "Geo Provider"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dbcee6612936ef12b8976aeab6bba4ebf51da3af71113ef7540b0cbf5849b5b8",
+  "write_date": "",
+  "xml_id": "base_geolocalize.field_base_geo_provider__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11660,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Immediate Transfer",
+    "model_id": [
+      762,
+      "Backorder Confirmation Line"
+    ],
+    "name": "backorder_confirmation_id",
+    "relation": "stock.backorder.confirmation",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "afd0cbcd8a01374ba14b87099bca4ad6a3f26849294bc4279cca79ffbe33627b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_backorder_confirmation_line__backorder_confirmation_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5879,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Import ID",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "unique_import_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "2eb37009834b50e08cafde444b0c49b7b12b61acf003bf4f7bdd1502953c5473",
+  "write_date": "",
+  "xml_id": "account_bank_statement_import.field_account_bank_statement_line__unique_import_id"
+}

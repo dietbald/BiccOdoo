@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21482,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User Consumed",
+    "model_id": [
+      127,
+      "Tours"
+    ],
+    "name": "user_consumed_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e271efc1c317b492df225f131d517e9f2831f33474282f45a836ddbb2842be31",
+  "write_date": "",
+  "xml_id": "web_tour.field_web_tour_tour__user_consumed_ids"
+}

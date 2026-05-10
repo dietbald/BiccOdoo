@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1216,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'fsm_mode': True,\n            'search_default_filter_to_sell': True,\n        }",
+    "domain": "[('sale_ok', '=', True)]",
+    "name": "Products",
+    "res_model": "product.template",
+    "target": "current",
+    "view_mode": "kanban,list,activity,form"
+  },
+  "payload_sha256": "f1cb3bb89394c2da9b555978c016033778c70af4219ad42bf0a1c816aafacddd",
+  "write_date": "2025-12-09 03:00:41",
+  "xml_id": "industry_fsm_sale.product_action_fsm"
+}

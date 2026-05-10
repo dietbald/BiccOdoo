@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Document ID",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "74ae633a1f06f60f6b59a26fec9625b84d70e230b9a801d5d2c53873be25d326",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__res_id"
+}

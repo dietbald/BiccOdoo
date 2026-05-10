@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16701,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Variant",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "16dc3d694b9478e76394a214f124418b44a077aadf1f3f8dcbe3904e83776573",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__product_id"
+}

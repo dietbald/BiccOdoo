@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16883,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lot/Serial Number",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "finished_lot_ids",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f51fcf96d178ce24d77779b49a2ad5e9308d9b02300aca978f83b465b0128d21",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_check__finished_lot_ids"
+}

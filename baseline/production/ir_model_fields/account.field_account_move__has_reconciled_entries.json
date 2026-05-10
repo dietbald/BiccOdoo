@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4403,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Reconciled Entries",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "has_reconciled_entries",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "de862f358471048518b6a2011342a4aa999ff68f8b1547d68775cd8776192112",
+  "write_date": "",
+  "xml_id": "account.field_account_move__has_reconciled_entries"
+}

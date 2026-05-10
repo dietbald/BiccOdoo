@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5240,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "New Move",
+    "model_id": [
+      455,
+      "Account Move Reversal"
+    ],
+    "name": "new_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "598e1ffc264a0f3984e87b0a4111636b8a305d7ee03a6709ca564fc592277b80",
+  "write_date": "",
+  "xml_id": "account.field_account_move_reversal__new_move_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15150,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer",
+    "model_id": [
+      935,
+      "Appointment Answer Inputs"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fe0db0daf04fa34cbdf0edade904e261db83478150696c94752f6a7a7875b9ed",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_answer_input__partner_id"
+}

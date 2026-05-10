@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17385,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "QIF Decimal Separator",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "qif_decimal_point",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "cba48b70cf917384892e90388408bf46e84bb155465b4ab5c30ad8a81adef152",
+  "write_date": "",
+  "xml_id": "account_bank_statement_import_qif.field_account_journal__qif_decimal_point"
+}

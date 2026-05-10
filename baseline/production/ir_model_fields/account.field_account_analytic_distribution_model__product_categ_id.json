@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4903,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Category",
+    "model_id": [
+      347,
+      "Analytic Distribution Model"
+    ],
+    "name": "product_categ_id",
+    "relation": "product.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5dfc24e56d0d62b65c21094d6e3d3f7dddddc7391000ce0cc8188e579f869859",
+  "write_date": "",
+  "xml_id": "account.field_account_analytic_distribution_model__product_categ_id"
+}

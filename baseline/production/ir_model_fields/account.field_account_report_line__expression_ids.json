@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5130,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expressions",
+    "model_id": [
+      448,
+      "Accounting Report Line"
+    ],
+    "name": "expression_ids",
+    "relation": "account.report.expression",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "eec6dc66eba8282bc783e366463dbb53adfc0a11ff53459959a35fceb29480b4",
+  "write_date": "",
+  "xml_id": "account.field_account_report_line__expression_ids"
+}

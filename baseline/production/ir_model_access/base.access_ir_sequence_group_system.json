@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 28,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      12,
+      "Sequence"
+    ],
+    "name": "ir_sequence group_system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6ada6080e6c2866609cf166e8513b20d66163bcbcb02bb0275a31d09cb53cafc",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_sequence_group_system"
+}

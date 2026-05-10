@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18475,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1050,
+      "WhatsApp Template"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d5c506794d9eece871002d3339709a2c2a0bfc9d60f87bbe76721aff9748e26e",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_template__write_uid"
+}

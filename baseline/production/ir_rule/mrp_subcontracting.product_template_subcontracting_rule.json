@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 503,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n        '|',\n            '|',\n                ('id', 'in', user.partner_id.commercial_partner_id.bom_ids.product_id.product_tmpl_id.ids),\n                ('id', 'in', user.partner_id.commercial_partner_id.bom_ids.product_tmpl_id.ids),\n            ('id', 'in', user.partner_id.commercial_partner_id.bom_ids.bom_line_ids.product_id.product_tmpl_id.ids),\n            ]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "Product Template Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "90a974e67b932799afaf51b1b512c8ad5f5a638ff2dc489ce0c7ae7805c9e236",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.product_template_subcontracting_rule"
+}

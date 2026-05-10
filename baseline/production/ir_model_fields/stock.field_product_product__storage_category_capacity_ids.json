@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11436,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Storage Category Capacity",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "storage_category_capacity_ids",
+    "relation": "stock.storage.category.capacity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b7a8e752430d7507fc1b67b16b26ab2c381e2360df7e8c39e3a15cbdd33a6f1d",
+  "write_date": "",
+  "xml_id": "stock.field_product_product__storage_category_capacity_ids"
+}

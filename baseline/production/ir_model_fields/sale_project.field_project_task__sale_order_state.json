@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20394,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "sale_order_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "9c438d511745a769e9e3ef38c6a53aba31665a45783d3739e91603c8f0abc529",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_task__sale_order_state"
+}

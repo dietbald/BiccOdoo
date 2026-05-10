@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5939,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6e436b7485d9436df76424c1db9af70ee16d3cbe681d550080c3766a81f9d09d",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__company_id"
+}

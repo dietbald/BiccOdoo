@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28738,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Variation Account",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "account_stock_variation_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "57d76747007f9ed4b7b0ff08809a29032bd0342325ad1411433948efd15ea531",
+  "write_date": "",
+  "xml_id": "stock_account.field_account_account__account_stock_variation_id"
+}

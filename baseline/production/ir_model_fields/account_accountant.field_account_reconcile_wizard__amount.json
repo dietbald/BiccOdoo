@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5820,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount in company currency",
+    "model_id": [
+      490,
+      "Account reconciliation wizard"
+    ],
+    "name": "amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "fa897b0c77e712aa841f84f6f554404c789631c5666c61e4f92b736713b84830",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_reconcile_wizard__amount"
+}

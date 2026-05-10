@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29306,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Effective Vendor",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "effective_vendor_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d6f91baffdfd8f73d09dc7d0340fdc9b350b4a44029ca42cd4c67e2d7d2808a1",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_warehouse_orderpoint__effective_vendor_id"
+}

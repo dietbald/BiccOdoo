@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 137,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('privacy', '!=', 'private'), '&', ('privacy', '=', 'private'), '|', ('user_id', '=', user.id), ('partner_ids', 'in', user.partner_id.id)]",
+    "groups": [],
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "Private events",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c75c7baf3bba5c89e6242a59c90ba376818a9ee5405336857c15f317bc19d70b",
+  "write_date": "2023-11-30 04:45:30",
+  "xml_id": "calendar.calendar_event_rule_private"
+}

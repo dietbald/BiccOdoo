@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1439,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "LDAP Authentication",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_auth_ldap",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0b8a88fab4dfa8ffdcfa4766be67e5f5bc95fac8b85742fb0bd335290631487d",
+  "write_date": "",
+  "xml_id": "base_setup.field_res_config_settings__module_auth_ldap"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8098,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Orders",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "sale_order_ids",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "534dd1675f0016c43b62fd9c1cd05e47f648e130210183093ee0e3f4adcc2f32",
+  "write_date": "",
+  "xml_id": "sale.field_payment_transaction__sale_order_ids"
+}

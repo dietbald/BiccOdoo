@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1825,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      25,
+      "Accounting / Administrator"
+    ],
+    "model_id": [
+      1477,
+      "Loan Compute Wizard"
+    ],
+    "name": "access.account.loan.compute.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6ca4afcbe8ca4e82b73b66d758481cfea968c83fe006e1094a41da872c915b70",
+  "write_date": "2025-12-09 03:00:32",
+  "xml_id": "account_loans.access_account_loan_compute_wizard"
+}

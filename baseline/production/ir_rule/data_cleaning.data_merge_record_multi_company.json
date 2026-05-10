@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 428,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', [False] + company_ids)]",
+    "groups": [],
+    "model_id": [
+      933,
+      "Deduplication Record"
+    ],
+    "name": "Data Merge Record multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5e2fa8db38ebfce66649823c6fee8fd2216d428c2d8e9a07a007cf17c40f2c25",
+  "write_date": "2024-04-30 06:31:39",
+  "xml_id": "data_cleaning.data_merge_record_multi_company"
+}

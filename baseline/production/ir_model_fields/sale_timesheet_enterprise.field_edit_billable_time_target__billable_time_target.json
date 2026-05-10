@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Monthly Billing Time Target",
+    "model_id": [
+      2738,
+      "Edit Billable Time Target wizard from Timesheet for users without employee access"
+    ],
+    "name": "billable_time_target",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "702b6cca2bcc5708a8425025ab7e858f1b453688c88dad4d739e71824e2e79fa",
+  "write_date": "",
+  "xml_id": "sale_timesheet_enterprise.field_edit_billable_time_target__billable_time_target"
+}

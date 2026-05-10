@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1348,
+      "Product Combo"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "493e76113c4b786bda04b9d33da0c8cbe35e320f46b1d879e855b2f71b308471",
+  "write_date": "",
+  "xml_id": "product.field_product_combo__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 423,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource ID",
+    "model_id": [
+      28,
+      "Attachment"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "9c4798eb8f59e2dd52e71b52440bbe9b037243bc27109dbda8026defed25899a",
+  "write_date": "",
+  "xml_id": "base.field_ir_attachment__res_id"
+}

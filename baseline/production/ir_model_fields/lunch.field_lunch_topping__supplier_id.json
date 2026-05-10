@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18973,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Supplier",
+    "model_id": [
+      1078,
+      "Lunch Extras"
+    ],
+    "name": "supplier_id",
+    "relation": "lunch.supplier",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b6e5cafb888ef83f9bd15e6628d5e3de6283cbf53af2a3fe0c2b9f7901fd141e",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_topping__supplier_id"
+}

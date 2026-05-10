@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13661,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "End Date",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "date_end_invoice_timesheet",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "1504798ec552d09eaf371e6141574c9018280b3946b350f4fe46bce290dfba7e",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_sale_advance_payment_inv__date_end_invoice_timesheet"
+}

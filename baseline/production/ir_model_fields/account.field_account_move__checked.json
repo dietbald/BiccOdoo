@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4329,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reviewed",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "checked",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "caf2e490b7daa8d5e02a3ac592f2b1e6a09a25748a76d0258b0ff1da54eebac1",
+  "write_date": "",
+  "xml_id": "account.field_account_move__checked"
+}

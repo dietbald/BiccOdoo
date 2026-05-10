@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5974,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sequence",
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "sequence",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "985f1420ed5c9554458f39ba3f8aad68e1c1c56d984a5c2c1a1cbb51a5fc5f99",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line_transient__sequence"
+}

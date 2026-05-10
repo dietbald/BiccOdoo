@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1110,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f4e3a6a9eda829eac460c0ae716c769f4ab29fe0b0682390081540f344ee2186",
+  "write_date": "",
+  "xml_id": "base.field_res_users__company_id"
+}

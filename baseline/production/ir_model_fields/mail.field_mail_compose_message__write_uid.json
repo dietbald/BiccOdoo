@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2520,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b6f89603a8b749975fc6c9035e8b6f9add94e0d1017758c5b27e0bebf7ade1fd",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__write_uid"
+}

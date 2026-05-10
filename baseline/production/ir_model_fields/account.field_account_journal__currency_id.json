@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4043,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "af060b53d5de6387d65ed5cb703bf278df8b5503e63a3922b31e2325ee935405",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__currency_id"
+}

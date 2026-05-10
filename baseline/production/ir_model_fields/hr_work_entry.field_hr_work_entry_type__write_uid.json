@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12708,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      812,
+      "HR Work Entry Type"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d32c24a4536443f6a4a0fb3706fd8b222469e0d21ea3bd49c2b3e825e1183f53",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_hr_work_entry_type__write_uid"
+}

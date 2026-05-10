@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16270,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has Been Produced",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "is_produced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "35fe30b3855c12223f93ccdb074409ed254dd492665360468f848ea642e4ee5d",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__is_produced"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 962,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_survey': True}",
+    "domain": "[('survey_id.survey_type', 'in', ('assessment', 'custom', 'live_session', 'survey'))]",
+    "name": "Participants",
+    "res_model": "survey.user_input",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "cf963242373a01d8617d2f94682fc67eec408eb21ed3350ab0194e23b9ce32ba",
+  "write_date": "2026-01-28 12:01:51",
+  "xml_id": "survey.action_survey_user_input"
+}

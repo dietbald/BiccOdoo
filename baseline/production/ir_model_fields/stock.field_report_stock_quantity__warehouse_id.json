@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11558,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Warehouse",
+    "model_id": [
+      747,
+      "Stock Quantity Report"
+    ],
+    "name": "warehouse_id",
+    "relation": "stock.warehouse",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ef010b750ea791992c93bb27dcb8d1ea755c3e2c6c9286c49d9551536b071efa",
+  "write_date": "",
+  "xml_id": "stock.field_report_stock_quantity__warehouse_id"
+}

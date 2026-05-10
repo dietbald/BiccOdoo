@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26509,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quotation",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "x_studio_quotation_linked_to_opportunity",
+    "relation": "sale.order",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e842e1744d5edd8bfb8f96723ba44fad7a80cabdcacfdb9bf4d3757234bd4297",
+  "write_date": "2025-11-18 01:27:44",
+  "xml_id": "studio_customization.new_many2one_lead_d142a5cc-717a-44b6-be54-c52a9f58ae63"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 567,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      1127,
+      "Device Log"
+    ],
+    "name": "Administrators can read all device logs",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8c2cde471b0f4777809c26217b9ac73229fde94be395a7b5c54db91d4170a1b6",
+  "write_date": "2024-10-23 10:42:37",
+  "xml_id": "base.user_device_logs_admin"
+}

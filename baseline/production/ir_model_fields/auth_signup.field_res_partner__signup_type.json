@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2725,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Signup Token Type",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "signup_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "894c7814de079ad9d6d4eddd41229e3326c72054ef83b85afccd1e7810e80d80",
+  "write_date": "",
+  "xml_id": "auth_signup.field_res_partner__signup_type"
+}

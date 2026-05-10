@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off Count",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "associated_leaves_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "dedc44141fbd70a13d78959fd4ace56daa54391c933288c15b17c2c3a864236d",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_resource_calendar__associated_leaves_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4458,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Residual Amount",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "amount_residual",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "5e48ffa8774a7b2ce95a81b1ff09149f5d6d6d9e397add4eabc3e6a88227f705",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__amount_residual"
+}

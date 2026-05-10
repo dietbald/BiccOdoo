@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13367,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tolerance Time In Favor Of Employee",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "overtime_employee_threshold",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "8162b87bdac1f8ded9aadd45d789aed05fca703540c9cce5308da5c178eb7a9f",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_res_company__overtime_employee_threshold"
+}

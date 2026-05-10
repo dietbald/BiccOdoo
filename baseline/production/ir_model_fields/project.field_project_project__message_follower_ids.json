@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7821,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0ed0f691a50cb63dcef75d97e9e8413c1bdbfab1a32de0369287e0600d73a288",
+  "write_date": "",
+  "xml_id": "project.field_project_project__message_follower_ids"
+}

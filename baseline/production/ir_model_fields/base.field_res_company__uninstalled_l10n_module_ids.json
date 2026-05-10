@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Uninstalled L10N Module",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "uninstalled_l10n_module_ids",
+    "relation": "ir.module.module",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2164d52ddae32bc40108faeec8e7a8f6072b14843e86218a45d68252deaae69e",
+  "write_date": "",
+  "xml_id": "base.field_res_company__uninstalled_l10n_module_ids"
+}

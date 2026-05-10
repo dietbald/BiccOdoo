@@ -1,0 +1,38 @@
+<search string="Documents">
+                <field name="name" filter_domain="['|', ('name', 'ilike', self), ('tag_ids.name', 'ilike', self)]" string="Document"/>
+                <field name="name"/>
+                <field name="tag_ids"/>
+                <field name="owner_id"/>
+                <field name="partner_id" string="Contact"/>
+                <field name="access_ids" string="Shared with" filter_domain="[('access_ids.partner_id.name', 'ilike', self)]"/>
+                <field name="index_content"/>
+                <field name="create_uid" string="Created by"/>
+                <filter string="My Documents" name="my_documents_filter" domain="['|', ('owner_id', '=', uid), ('partner_id.user_ids', '=', uid)]"/>
+                <filter string="My Activities" name="my_activities_filter" domain="[('activity_user_id','=',uid)]"/>
+                <filter string="Starred" name="my_favorites_filter" domain="[('favorited_ids', 'in', uid)]"/>
+                <filter string="Shared with anyone" name="shared_anyone_with_the_link" domain="[('access_via_link', '!=', 'none'), ('is_access_via_link_hidden', '=', False)]"/>
+                <separator/>
+                <filter string="Documents" name="documents" domain="[('type', '!=', 'folder')]"/>
+                <filter string="Folders" name="folders" domain="[('type', '=', 'folder')]"/>
+                <filter string="PDF/Documents" name="pdf_doc" domain="['|', ('mimetype', 'ilike', 'pdf'), ('name', 'ilike', '.doc')]"/>
+                <filter string="Image/Video" name="image_video_documents" domain="['|', ('mimetype', 'ilike', 'image'), ('mimetype', 'ilike', 'video')]"/>
+                <filter string="URL" name="url_documents" domain="[('type', '=', 'url')]"/>
+                <filter string="Hide shortcuts" name="no_shortcuts" domain="[('shortcut_document_id', '=', False)]"/>
+                <filter string="Requested Documents" name="requested_filter" domain="[('type', '=', 'binary'), ('attachment_id', '=', False)]"/>
+                <separator/>
+                <filter string="In My Drive" name="my_drive_filter" domain="[('user_folder_id', 'child_of', 'MY')]"/>
+                <filter string="In Company" name="my_drive_filter" domain="[('user_folder_id', 'child_of', 'COMPANY')]"/>
+                <separator/>
+                <field name="type"/>
+                <group>
+                    <filter string="Contact" name="filter_partner_id" domain="[]" context="{'group_by': 'partner_id'}"/>
+                    <filter string="Owner" name="filter_owner_id" domain="[]" context="{'group_by': 'owner_id'}"/>
+                    <filter string="Type" name="filter_type" domain="[]" context="{'group_by': 'type'}"/>
+                    <filter string="Model" name="filter_res_model" domain="[]" context="{'group_by': 'res_model'}"/>
+                    <filter string="Creation Date" name="filter_create_date" domain="[]" context="{'group_by':'create_date'}"/>
+                    <filter string="File Extension" name="filter_file_extension" domain="[]" context="{'group_by': 'file_extension'}"/>
+                </group>
+                <searchpanel class="o_documents_search_panel">
+                    <field name="user_folder_id" string="Folders"/>
+                </searchpanel>
+            </search>

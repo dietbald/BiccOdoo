@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Types of answers",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "suggested_answer_ids",
+    "relation": "survey.question.answer",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b4931bb005a853a8db098f98ee74026a102ad61bfefaa24e93587eb04e5ab9b8",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__suggested_answer_ids"
+}

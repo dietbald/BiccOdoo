@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4494,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Payment Date",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "payment_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "935620c56d8844df8fcf29d3d2d5810a477043b10e0f1cd55775b358e4453bce",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__payment_date"
+}

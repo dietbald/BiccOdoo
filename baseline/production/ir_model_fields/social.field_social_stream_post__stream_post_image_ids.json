@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17780,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stream Post Images",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "stream_post_image_ids",
+    "relation": "social.stream.post.image",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "30de86c17568e6ecc44a4e10f617d939aa34861df27d0b847d7eb62bf5e8eeab",
+  "write_date": "",
+  "xml_id": "social.field_social_stream_post__stream_post_image_ids"
+}

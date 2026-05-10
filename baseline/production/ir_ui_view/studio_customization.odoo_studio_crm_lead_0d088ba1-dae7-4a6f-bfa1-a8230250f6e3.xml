@@ -1,0 +1,13 @@
+<data>
+  <xpath expr="//field[@name='email_from']" position="replace"/>
+  <xpath expr="//field[@name='contact_name']" position="replace"/>
+  <xpath expr="//list[1]/field[@name='name']" position="after">
+    <field name="partner_name" optional="show"/>
+  </xpath>
+  <xpath expr="//field[@name='stage_id']" position="after">
+    <field name="x_studio_final_closing_date" optional="show" readonly="True"/>
+    <field name="x_studio_lost_reason_code" optional="show" readonly="True"/>
+    <field name="x_studio_opportunity_id_1" optional="hide" column_invisible="False" invisible="False"/>
+    <field name="x_studio_closing_date" optional="hide"/>
+  </xpath>
+</data>

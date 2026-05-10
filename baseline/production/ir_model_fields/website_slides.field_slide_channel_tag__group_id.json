@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24377,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Group",
+    "model_id": [
+      1513,
+      "Channel/Course Tag"
+    ],
+    "name": "group_id",
+    "relation": "slide.channel.tag.group",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d38bd9be3e727c3426f4dc3cf2c0ea463fa519088d6e2d67a6a0c8af8f92bb0e",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel_tag__group_id"
+}

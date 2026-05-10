@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4583,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Require Partner Bank Account",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "require_partner_bank_account",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a175278c25fbe9f2e74c98f94ad874a551105edd155f7a0484604fb72e099c7b",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__require_partner_bank_account"
+}

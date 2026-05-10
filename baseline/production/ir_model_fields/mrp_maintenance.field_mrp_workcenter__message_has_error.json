@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18252,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6426cfbf3b2645c337e3569673541a8c94cb37738cb99bcb93fd875b1b7bbfad",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__message_has_error"
+}

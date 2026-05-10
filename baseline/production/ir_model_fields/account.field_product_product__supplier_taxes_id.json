@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4924,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Taxes",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "supplier_taxes_id",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "617589f7de09951fb84c0877494eaea027ce5f2f40db4c8cdf22c0155aeedfc3",
+  "write_date": "",
+  "xml_id": "account.field_product_product__supplier_taxes_id"
+}

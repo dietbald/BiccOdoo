@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 64,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      93,
+      "Currency Rate"
+    ],
+    "name": "res_currency_rate group_system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f9120338e1f3c0b10ddee7c26dad1e42c0e9f95d4a3d0338cb1265d6dced6fdd",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_currency_rate_group_system"
+}

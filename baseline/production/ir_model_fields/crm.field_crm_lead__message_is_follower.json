@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7167,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bb9d530a7a10f3ebd1e40f7146fd2ecad993d32375223d9fbc9a92493c4ee070",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__message_is_follower"
+}

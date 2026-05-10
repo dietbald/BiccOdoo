@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1626,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      1093,
+      "Batch payments error reporting wizard"
+    ],
+    "name": "access.account.batch.error.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "35c939e48562d98b5e2e2348289e2fb402bb050454e3ffde80d247e66ae6aa07",
+  "write_date": "2025-12-09 02:57:43",
+  "xml_id": "account_batch_payment.access_account_batch_error_wizard"
+}

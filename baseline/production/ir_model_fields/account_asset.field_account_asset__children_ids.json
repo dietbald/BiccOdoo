@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6177,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Children",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "children_ids",
+    "relation": "account.asset",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e51847726ea3b5488b87d5655a092cce4772102d1017231c2a8127cb21969807",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__children_ids"
+}

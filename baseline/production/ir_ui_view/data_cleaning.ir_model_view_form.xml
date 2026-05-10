@@ -1,0 +1,6 @@
+<xpath expr="//header" position="inside">
+                <field name="hide_merge_action" invisible="1"/>
+                <field name="is_merge_enabled" invisible="1"/>
+                <button string="Enable Merge" name="action_merge_contextual_enable" type="object" class="btn btn-primary" invisible="hide_merge_action or is_merge_enabled"/>
+                <button string="Disable Merge" name="action_merge_contextual_disable" type="object" invisible="hide_merge_action or not is_merge_enabled"/>
+            </xpath>

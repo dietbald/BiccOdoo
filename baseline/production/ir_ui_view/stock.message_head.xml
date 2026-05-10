@@ -1,0 +1,10 @@
+<t t-name="stock.message_head">
+        <t t-if="move.state != 'done'">
+            <strong>The initial demand has been updated.</strong>
+        </t>
+        <t t-if="move.state == 'done'">
+            <strong>
+                The done move line has been corrected.
+            </strong>
+        </t>
+    </t>

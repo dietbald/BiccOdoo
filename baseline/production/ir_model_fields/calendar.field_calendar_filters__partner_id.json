@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      568,
+      "Calendar Filters"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "62bb401fc36c022e5de96a91255864c05a201797771710d89c0df0fb68f91142",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_filters__partner_id"
+}

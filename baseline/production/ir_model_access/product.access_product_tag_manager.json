@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 291,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      145,
+      "Products / Create"
+    ],
+    "model_id": [
+      370,
+      "Product Tag"
+    ],
+    "name": "product.tag.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "202f3dcd282fcb53b6fcb282eea2c5c2076d124c1873761e0e86c136a8554eca",
+  "write_date": "2025-12-09 02:56:05",
+  "xml_id": "product.access_product_tag_manager"
+}

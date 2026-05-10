@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Alert Threshold",
+    "model_id": [
+      128,
+      "IAP Account"
+    ],
+    "name": "warning_threshold",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "7573ef4d856c68db552ffd62d1cd06022a119b7854b9dc9c8330a861db9bcb4f",
+  "write_date": "",
+  "xml_id": "iap_mail.field_iap_account__warning_threshold"
+}

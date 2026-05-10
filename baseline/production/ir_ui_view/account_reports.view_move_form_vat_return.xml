@@ -1,0 +1,14 @@
+<data><xpath expr="//div[hasclass('oe_button_box')]/button" position="before">
+                <button name="action_open_tax_return" class="oe_stat_button" icon="fa-book" type="object" string="Tax Return" invisible="not closing_return_id"/>
+            </xpath>
+
+            <xpath expr="//field[@name='journal_line_ids' or @name='line_ids']//list//field[@name='tax_ids']" position="attributes">
+                <attribute name="column_invisible">parent.closing_return_id</attribute>
+            </xpath>
+            <xpath expr="//field[@name='journal_line_ids' or @name='line_ids']//list//field[@name='tax_tag_ids']" position="attributes">
+                <attribute name="column_invisible">parent.closing_return_id</attribute>
+            </xpath>
+            <xpath expr="//field[@name='journal_line_ids' or @name='line_ids']//form//field[@name='tax_ids']" position="attributes">
+                <attribute name="invisible">parent.closing_return_id</attribute>
+            </xpath>
+        </data>

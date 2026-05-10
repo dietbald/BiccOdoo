@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21274,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dropship Subcontractor Pick Type",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "dropship_subcontractor_pick_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0c5475b1c5aedd63ac1b2a9a6a9c94bd6aa4798f5388996586108083d6d331da",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting_dropshipping.field_res_company__dropship_subcontractor_pick_type_id"
+}

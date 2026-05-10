@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 48,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div>\n    <strong>Reminder</strong><br>\n    You have not updated your progress for the goal <t t-out=\"object.definition_id.name or ''\"></t> (currently reached at <t t-out=\"object.completeness or ''\"></t>%) for at least <t t-out=\"object.remind_update_delay or ''\"></t> days. Do not forget to do it.\n    <br><br>\n    Thank you,\n    <t t-if=\"object.challenge_id.manager_id.signature\">\n        <br>\n        <t t-out=\"object.challenge_id.manager_id.signature or ''\"></t>\n    </t>\n</div>",
+    "email_from": false,
+    "email_to": false,
+    "lang": "{{ object.user_id.lang }}",
+    "model_id": [
+      913,
+      "Gamification Goal"
+    ],
+    "name": "Gamification: Reminder For Goal Update",
+    "subject": false
+  },
+  "payload_sha256": "06de9b7492b4cfb583e96c0f20b2410abb43945416df79cb5230863f0ccbcf34",
+  "write_date": "2024-04-30 05:06:53",
+  "xml_id": "gamification.email_template_goal_reminder"
+}

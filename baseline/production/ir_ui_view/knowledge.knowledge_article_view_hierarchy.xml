@@ -1,0 +1,34 @@
+<hierarchy child_field="child_ids" js_class="knowledge_hierarchy" draggable="1" create="0" default_order="category, sequence, id">
+                <field name="category"/>
+                <field name="display_name"/>
+                <field name="id"/>
+                <field name="is_user_favorite"/>
+                <field name="parent_id"/>
+                <field name="sequence"/>
+                <templates>
+                    <t t-name="hierarchy-box">
+                        <div class="o_hierarchy_node_header d-flex justify-content-center pb-4 o_hierarchy_node_color_0 position-relative">
+                            <div class="o_knowledge_hierarchy_icon">
+                                <field name="icon"/>
+                            </div>
+                            <button name="action_toggle_favorite" type="object" icon="fa-star mt-1 me-1" class="o_knowledge_toggle_favorite position-absolute top-0 end-0 p-0 h-100" title="Remove from favorites" invisible="not is_user_favorite"/>
+                            <button name="action_toggle_favorite" type="object" icon="fa-star-o mt-1 me-1" class="o_knowledge_toggle_favorite position-absolute top-0 end-0 p-0 h-100" title="Add to favorites" invisible="is_user_favorite"/>
+                        </div>
+                        <div class="o_hierarchy_node_body d-flex flex-column text-center h-auto px-2">
+                            <div class="d-flex align-items-center">
+                                <div class="flex-grow-1 text-truncate fw-bold">
+                                    <field name="name"/>
+                                    <div invisible="name">Untitled</div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center" t-if="isRoot">
+                                <div class="flex-grow-1 text-truncate">
+                                    <i t-att-title="record.category.value" class="fa me-1" t-att-class="{                                             'fa-building': record.category.raw_value === 'workspace',                                             'fa-users': record.category.raw_value === 'shared',                                             'fa-user': record.category.raw_value === 'private'                                         }"/>
+                                    <field name="category"/>
+                                </div>
+                            </div>
+                            <field name="article_properties" widget="properties"/>
+                        </div>
+                    </t>
+                </templates>
+            </hierarchy>

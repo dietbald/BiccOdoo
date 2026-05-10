@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of generated MO",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "mrp_production_child_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "73b8d3d66c627407ebee43248937328ba29237369888286d58f4f385894d32cc",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__mrp_production_child_count"
+}

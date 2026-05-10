@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9567,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Source Sale",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "sale_order_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "893c9338df4db23007454603e83a2531d81a6f4b0ca2e1f8abf3e4c7dfeb0b84",
+  "write_date": "",
+  "xml_id": "sale_purchase.field_purchase_order__sale_order_count"
+}

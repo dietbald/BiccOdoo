@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 693,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "product.pricelist.sale.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1079f1ac0279cd3936f162d5ec9e9abeff5731621d95ae36499fbc5028666134",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_product_pricelist_sale_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16478,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity To Produce",
+    "model_id": [
+      981,
+      "Wizard to Split a Production"
+    ],
+    "name": "product_qty",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "2ceaeec454b5ea07939893ff8d6fd2e7c264e9ce397aa0ec564d4c4a0418c692",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_split__product_qty"
+}

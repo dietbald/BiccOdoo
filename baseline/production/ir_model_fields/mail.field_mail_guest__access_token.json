@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2427,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Access Token",
+    "model_id": [
+      205,
+      "Guest"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8e6600e6d0ffc68f64ead2fd7a88f60f2fbd8bc41252c361ae4bfbd8662035a3",
+  "write_date": "",
+  "xml_id": "mail.field_mail_guest__access_token"
+}

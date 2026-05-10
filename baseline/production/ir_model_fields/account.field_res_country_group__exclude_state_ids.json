@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24833,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Exceptions",
+    "model_id": [
+      79,
+      "Country Group"
+    ],
+    "name": "exclude_state_ids",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1226654f6fb8e93cb1ede707dfbda507f5ea95e84319481d9ac12cccef37a302",
+  "write_date": "",
+  "xml_id": "account.field_res_country_group__exclude_state_ids"
+}

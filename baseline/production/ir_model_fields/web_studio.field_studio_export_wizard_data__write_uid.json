@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23275,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1443,
+      "Studio Export Data"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6903a1b73fa781c9083e902f3a341932f4896208478ad276f6c2a2a2f01f250f",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_export_wizard_data__write_uid"
+}

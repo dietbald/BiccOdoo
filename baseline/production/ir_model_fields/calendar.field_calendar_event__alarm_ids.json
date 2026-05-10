@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6944,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reminders",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "alarm_ids",
+    "relation": "calendar.alarm",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "bb4d2024de7e3bd333ee867a539c6c82c6d07c115612ecf2f7c3518c5e1fd8de",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__alarm_ids"
+}

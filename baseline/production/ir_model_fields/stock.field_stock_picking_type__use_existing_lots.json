@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11179,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use Existing Lots/Serial Numbers",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "use_existing_lots",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d2fd5cfda7916ac262e3599ce53dc68447dc1df8b923a9f3ca106b56abf8422c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__use_existing_lots"
+}

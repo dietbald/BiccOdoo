@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6207,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Not Depreciable Amount",
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "salvage_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "3cd2ce0c30bc0be1df572e08eff6a90ccdb1a0eece45cfbbe037fed13d4664c6",
+  "write_date": "",
+  "xml_id": "account_asset.field_asset_modify__salvage_value"
+}

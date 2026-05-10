@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29519,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Affected Version",
+    "model_id": [
+      834,
+      "Index contracts"
+    ],
+    "name": "affected_version_ids",
+    "relation": "hr.version",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "46e6f5461e2e2c65b1f409f3c4f3f322243e36e7d463c33e000126659234470d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_index__affected_version_ids"
+}

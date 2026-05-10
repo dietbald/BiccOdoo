@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25667,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2611,
+      "Referral Send sms"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ee7d8d38af45468ee8072c38b3a0c7a0b2b95d3898c85825d0d0b165a2a32b3d",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_send_sms__create_uid"
+}

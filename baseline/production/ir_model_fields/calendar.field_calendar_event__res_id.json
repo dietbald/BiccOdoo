@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6933,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document ID",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "859788ebcebe2352ee5a18b798d7a832390d0fac2af8528bd1231c184aae945e",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__res_id"
+}

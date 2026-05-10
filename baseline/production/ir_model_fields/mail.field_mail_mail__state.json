@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2095,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "16ae90148abc24c2682a087cbaf1528a2e12ed52c582bed08a069d9b05c7cb75",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__state"
+}

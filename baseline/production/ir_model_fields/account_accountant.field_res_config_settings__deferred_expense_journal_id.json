@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20123,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Expense Journal",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "deferred_expense_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f85cf0f5f32ba9b01b7dcc90dced459ce0d3fd1d3082683feff7e43e66d97439",
+  "write_date": "",
+  "xml_id": "account_accountant.field_res_config_settings__deferred_expense_journal_id"
+}

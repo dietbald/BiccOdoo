@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22326,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1386,
+      "Account merge wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "de670a9169f24aa770dda1b67a82eb4b6d25cfacd394ba66240a76474244a966",
+  "write_date": "",
+  "xml_id": "account.field_account_merge_wizard__write_uid"
+}

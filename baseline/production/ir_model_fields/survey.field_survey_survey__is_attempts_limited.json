@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14736,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Limited number of attempts",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "is_attempts_limited",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d8d675812f0d93f1a0bd8455a0bf43125645ea3eff04d336e6bf95d99f245ef3",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__is_attempts_limited"
+}

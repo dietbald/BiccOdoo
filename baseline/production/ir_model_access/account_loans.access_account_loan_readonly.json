@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1820,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "access.account.loan",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "bbbbb7c056d44108200329a4cff5f17a2a40277e73f5527c4cb9ee5d4beb21c9",
+  "write_date": "2025-12-09 03:00:32",
+  "xml_id": "account_loans.access_account_loan_readonly"
+}

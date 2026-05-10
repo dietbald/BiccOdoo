@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1671,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('line_type_id.is_course', '=', True)]",
+    "name": "Training Attendances",
+    "res_model": "hr.resume.line",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar"
+  },
+  "payload_sha256": "b4ce385af7dfddcedd55ed432167b0f74d75aa21978eb7b5472da04e578a104d",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.hr_resume_lines_training_action"
+}

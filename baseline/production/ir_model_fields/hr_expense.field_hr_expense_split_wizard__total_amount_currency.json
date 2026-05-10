@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9277,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Amount",
+    "model_id": [
+      652,
+      "Expense Split Wizard"
+    ],
+    "name": "total_amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b6fd1117aa137bdaf1c24354a27ec4da014f52b6ad2ad72c7191590d2997aaf5",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split_wizard__total_amount_currency"
+}

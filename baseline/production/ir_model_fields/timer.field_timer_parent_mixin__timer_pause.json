@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27275,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timer Last Pause",
+    "model_id": [
+      3113,
+      "Parent Timer Mixin"
+    ],
+    "name": "timer_pause",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "56fc4a849e9aa64702029ab18f7b47361c901a9a5a3d839a7ccdc148c27d9075",
+  "write_date": "",
+  "xml_id": "timer.field_timer_parent_mixin__timer_pause"
+}

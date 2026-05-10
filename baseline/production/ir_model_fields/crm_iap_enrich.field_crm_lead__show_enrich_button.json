@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7442,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow manual enrich",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "show_enrich_button",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7e11546a528890004ee72df0dafe7669ed9e7bc753be5eadf657664ec27790b7",
+  "write_date": "",
+  "xml_id": "crm_iap_enrich.field_crm_lead__show_enrich_button"
+}

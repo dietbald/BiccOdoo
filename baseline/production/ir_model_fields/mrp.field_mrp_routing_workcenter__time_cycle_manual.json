@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manual Duration",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "time_cycle_manual",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d1776e76d3f99f8dcd0c7e4a4b3129d645d9f5db17839043e10e7a59d60fbe3f",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_routing_workcenter__time_cycle_manual"
+}

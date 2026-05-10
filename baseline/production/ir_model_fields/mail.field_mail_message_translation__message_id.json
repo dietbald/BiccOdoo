@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2026,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message",
+    "model_id": [
+      174,
+      "Message Translation"
+    ],
+    "name": "message_id",
+    "relation": "mail.message",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cde9c51355a77cba5cc275878d049b1ea0fd66e5790abf2a60e27a9a03c682ab",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_translation__message_id"
+}

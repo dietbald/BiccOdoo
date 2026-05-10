@@ -1,0 +1,13 @@
+<t name="Company Mismatch Warning" t-name="payment.company_mismatch_warning">
+        <!-- Parameters description:
+            - expected_company: The record of the company that the user should switch to.
+        -->
+        <div class="row mr16">
+            <div class="alert alert-warning col-lg-12 ms-3 me-3" role="alert">
+                <p>
+                    Please switch to company <t t-esc="expected_company.name"/> to make this
+                    payment.
+                </p>
+            </div>
+        </div>
+    </t>

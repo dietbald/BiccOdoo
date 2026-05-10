@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15233,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination combination",
+    "model_id": [
+      939,
+      "Appointment Resource"
+    ],
+    "name": "destination_resource_ids",
+    "relation": "appointment.resource",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3de972b7287e36d4da708ffc5eaa8a2cd76f27f1589d1a36efdbcd825c1acdda",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_resource__destination_resource_ids"
+}

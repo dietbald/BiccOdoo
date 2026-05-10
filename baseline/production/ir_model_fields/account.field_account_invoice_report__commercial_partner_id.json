@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5434,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Partner",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "commercial_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aa02f506510a9ab16d5a625c0deb583cf5c332571d4770c1ecb7dba5e670ec7b",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__commercial_partner_id"
+}

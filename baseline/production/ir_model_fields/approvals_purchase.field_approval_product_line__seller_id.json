@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23323,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendors",
+    "model_id": [
+      784,
+      "Product Line"
+    ],
+    "name": "seller_id",
+    "relation": "product.supplierinfo",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "82ca6f7025beb9a9427bab550c565eaae6026ea3ead7d501eb52b7b3076e165f",
+  "write_date": "",
+  "xml_id": "approvals_purchase.field_approval_product_line__seller_id"
+}

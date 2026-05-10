@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discount Allocation Needed",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "discount_allocation_needed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "b86b6673a6cf893a0390a3ed3cf6a785a6c52b3fd291d9ceeec454626d286bff",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__discount_allocation_needed"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6080,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reminder",
+    "model_id": [
+      457,
+      "Opening Balance of Financial Year"
+    ],
+    "name": "account_return_reminder_day",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d76fcc8d50a492b4b1af8ce8969f86d6d0b3964bff28743236f243ad4f525a50",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_financial_year_op__account_return_reminder_day"
+}

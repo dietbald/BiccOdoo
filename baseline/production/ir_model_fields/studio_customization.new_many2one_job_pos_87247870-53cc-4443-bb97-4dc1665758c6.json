@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19049,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Emotional Assessment",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "x_studio_emotional_assessment",
+    "relation": "survey.survey",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7cde750b165f41edfc36f455c57de2355a317f02ebcbc874c41fed0ee7c49577",
+  "write_date": "2024-11-14 22:08:44",
+  "xml_id": "studio_customization.new_many2one_job_pos_87247870-53cc-4443-bb97-4dc1665758c6"
+}

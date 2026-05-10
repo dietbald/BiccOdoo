@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26921,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Link Preview",
+    "model_id": [
+      170,
+      "Store link preview data"
+    ],
+    "name": "message_link_preview_ids",
+    "relation": "mail.message.link.preview",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6b1b04df61e6a8ff10b867e5f593a550995ce5d186950be92da6148c5dec3182",
+  "write_date": "",
+  "xml_id": "mail.field_mail_link_preview__message_link_preview_ids"
+}

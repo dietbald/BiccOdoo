@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9438,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected Arrival",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "date_planned",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "7978b68fb92a1d914ce65f196ba5299df33e65277c1e5b652f20aec2ae7ad4ad",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__date_planned"
+}

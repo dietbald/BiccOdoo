@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6154,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Computation",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "prorata_computation_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "47d4202eef0b9053e782be0e23b7ca711a900ffc56b5326679fd0df2c6416dd7",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__prorata_computation_type"
+}

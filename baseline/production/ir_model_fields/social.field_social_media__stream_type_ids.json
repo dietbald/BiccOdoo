@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17633,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stream Types",
+    "model_id": [
+      1023,
+      "Social Media"
+    ],
+    "name": "stream_type_ids",
+    "relation": "social.stream.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7a7a6e2d6aa78f136188ac5665a8145791ec0a3761a9fe5df96546f6a8c26457",
+  "write_date": "",
+  "xml_id": "social.field_social_media__stream_type_ids"
+}

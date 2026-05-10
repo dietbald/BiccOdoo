@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4463,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Matched Credits",
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "matched_credit_ids",
+    "relation": "account.partial.reconcile",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "63d9591625b1bb5014b19a1c39cc26fa4fc378cbfb01d34da7d0398afa3a9313",
+  "write_date": "",
+  "xml_id": "account.field_account_move_line__matched_credit_ids"
+}

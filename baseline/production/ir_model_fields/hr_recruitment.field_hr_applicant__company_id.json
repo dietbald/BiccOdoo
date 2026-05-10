@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9622,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a4a1e9e69d9e3e3e2fb8b281073e0eb426c32dca4f2c624127e6a2ca6d14ad1a",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1140,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contact",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "child_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d0c71a4924278c09d2832497bdf2b3e13bbef60ff91107eb8e94f4d8fca1c2ec",
+  "write_date": "",
+  "xml_id": "base.field_res_users__child_ids"
+}

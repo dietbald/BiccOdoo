@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bills Count",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "bill_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d9273a52bbb03813d20a8d8e25c4b4fc2b704e23a803e3aef866acbd504441fc",
+  "write_date": "",
+  "xml_id": "account_fleet.field_fleet_vehicle__bill_count"
+}

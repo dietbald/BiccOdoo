@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26598,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reserved",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "qty_reserved",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "f2f05366e16bcc2ebbf7b246e77c8a4530593fd31351355f28c429b8c3506dcf",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard_line__qty_reserved"
+}

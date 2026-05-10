@@ -1,0 +1,6 @@
+<t name="Appointments Picture" t-name="website_appointment.s_appointments_picture">
+    <t t-set="snippet_classes" t-value="'s_appointment_type_picture'"/>
+    <t t-call="website_appointment.s_appointments">
+        <t t-call="website_appointment.s_appointments_picture_preview_data"/>
+    </t>
+</t>

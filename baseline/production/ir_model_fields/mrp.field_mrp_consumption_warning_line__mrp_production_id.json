@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16448,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manufacturing Order",
+    "model_id": [
+      979,
+      "Line of issue consumption"
+    ],
+    "name": "mrp_production_id",
+    "relation": "mrp.production",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4ce6ede30a6df6917486d8f121ed88a32723453d2600e12f484a8579a328c81c",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_consumption_warning_line__mrp_production_id"
+}

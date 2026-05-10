@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16185,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delivery Orders",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "delivery_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d19b9f33ea67133b363c56b0aff0bcae1ef5510197eefbe4710efee0e2da54fb",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__delivery_count"
+}

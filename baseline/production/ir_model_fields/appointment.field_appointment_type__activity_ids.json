@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21900,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6f7ff365d2f201b5ac1ae343819fe941823faecabc8b2ce83a3e8286ff762112",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__activity_ids"
+}

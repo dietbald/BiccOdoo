@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25590,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2604,
+      "Level for referrals"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1971db911582612e1e0af800f8715a63510a28c09184ea8139d6db20d5efcd48",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_level__write_uid"
+}

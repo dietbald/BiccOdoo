@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13355,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Overtime",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "overtime_ids",
+    "relation": "hr.attendance.overtime.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e4f4ed20c3b0d659e727ab6c119ebdb0f1e144f4039a6063f6c54f9c4f754780",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_employee__overtime_ids"
+}

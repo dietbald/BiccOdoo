@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13955,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees without email",
+    "model_id": [
+      884,
+      "Send Planning"
+    ],
+    "name": "employees_no_email",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b0565e675c3d3b9c4b4d4d084e9d5e8990bc30f14d50096ec17129288a2c976c",
+  "write_date": "",
+  "xml_id": "planning.field_planning_send__employees_no_email"
+}

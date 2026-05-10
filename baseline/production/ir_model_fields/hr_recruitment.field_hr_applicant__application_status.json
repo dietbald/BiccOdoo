@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Application Status",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "application_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0a88f7d12a97f94d57eed5c87a8956f5fef54b0b3283abf95acd0d6654eb5a31",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__application_status"
+}

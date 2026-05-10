@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21549,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Recipients",
+    "model_id": [
+      1329,
+      "Scheduled Message"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "137f4b091a49314aff0fbc5db4f735a4437ddeee097e0427a50c2e09136b81d2",
+  "write_date": "",
+  "xml_id": "mail.field_mail_scheduled_message__partner_ids"
+}

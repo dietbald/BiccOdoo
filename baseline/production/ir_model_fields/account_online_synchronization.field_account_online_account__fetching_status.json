@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5902,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fetching Status",
+    "model_id": [
+      493,
+      "representation of an online bank account"
+    ],
+    "name": "fetching_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "753c2b5e8d9d8a6f44230e08ce1e1dad7f19bc149a08ce5998f5b0feabd39aed",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_account__fetching_status"
+}

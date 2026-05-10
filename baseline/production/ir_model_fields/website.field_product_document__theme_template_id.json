@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10306,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Theme Template",
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "theme_template_id",
+    "relation": "theme.ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a59fcfe357a0edfc9244edac0f46567bcb7f5efb16b1dc77e8f43cb0eaec838a",
+  "write_date": "",
+  "xml_id": "website.field_product_document__theme_template_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 556,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      561,
+      "Campaign Stage"
+    ],
+    "name": "mail.utm.stage",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "4f6820ef3846a22786baebe9e7f27b7e348a4c9afa68db57cecc7e53eee43abd",
+  "write_date": "2025-12-09 02:55:42",
+  "xml_id": "utm.access_utm_stage_user"
+}

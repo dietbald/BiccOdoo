@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3324,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      155,
+      "Email Thread"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ea58f561399ee5c5e8b8b57b6654d92799e610e501be3550b3ec5b286d5d4002",
+  "write_date": "",
+  "xml_id": "portal.field_mail_thread__website_message_ids"
+}

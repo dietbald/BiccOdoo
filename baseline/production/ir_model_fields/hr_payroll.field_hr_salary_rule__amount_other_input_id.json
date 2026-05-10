@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23650,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Other Input",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "amount_other_input_id",
+    "relation": "hr.payslip.input.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cb8d7932ee00284a664ab31329c2d2a4b999fc18b10665de34c1d287ada309e1",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_rule__amount_other_input_id"
+}

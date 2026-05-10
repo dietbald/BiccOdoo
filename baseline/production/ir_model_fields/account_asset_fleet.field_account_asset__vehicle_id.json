@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17304,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vehicle",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "vehicle_id",
+    "relation": "fleet.vehicle",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "65cec2dab871272b97af177782720b6e5565a6095639e1bb00590f1d9478edbd",
+  "write_date": "",
+  "xml_id": "account_asset_fleet.field_account_asset__vehicle_id"
+}

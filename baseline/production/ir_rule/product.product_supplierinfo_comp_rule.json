@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 66,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('company_id', '=', False), ('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "product supplierinfo company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8459726da96275cf491d586f4efc9027b1186c148f10a6956e6157fe563b6d8e",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "product.product_supplierinfo_comp_rule"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1040,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('payslip_state', '=', 'blocked'), ('state', '=', 'validate'), ('employee_company_id', 'in', allowed_company_ids)]",
+    "name": "Time Off to Defer",
+    "res_model": "hr.leave",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,activity"
+  },
+  "payload_sha256": "61d66d1eef3c25ed9713516c2930f5837c193edf16f01d5b52805601cf7a0dd7",
+  "write_date": "2025-12-09 03:00:25",
+  "xml_id": "hr_payroll_holidays.hr_leave_action_open_to_defer"
+}

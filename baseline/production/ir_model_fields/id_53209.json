@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 53209,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "BIR Annual Declaration",
+    "model_id": [
+      3936,
+      "Annual Monthly Breakdown"
+    ],
+    "name": "x_bir_annual_id",
+    "relation": "x_bir_annual",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ae4422d7ea3c6c6a126f14a569d137a33435b9b57d86d6f8d49e937037a085ff",
+  "write_date": "2026-04-20 03:51:28",
+  "xml_id": null
+}

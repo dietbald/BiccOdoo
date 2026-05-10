@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hourly Wage",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "hourly_wage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "9169cd76d08fb6edfa31cf45c8b3e44518e241e4225116c5c01b5560ac3fee72",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__hourly_wage"
+}

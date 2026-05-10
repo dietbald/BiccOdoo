@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7877,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Collaborators",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "collaborator_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2a06171aa16c78fbc8c50c041cba15c22ee4332c08b4c13bc860d23c14aa261e",
+  "write_date": "",
+  "xml_id": "project.field_project_project__collaborator_count"
+}

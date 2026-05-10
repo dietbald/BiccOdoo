@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2510,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delete Emails",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "auto_delete",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d73d2b2efac76b0c46ff450a7852182ac3b4aa0c44e7207731d38e87c523bbfb",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__auto_delete"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 315,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      10,
+      "Role / Portal"
+    ],
+    "model_id": [
+      120,
+      "2-Factor Setup Wizard"
+    ],
+    "name": "auth_totp_portal wizard access rules",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "705ee37d04da8910e5f0276e960ac5c41e8338bbb508c232ea6cd54486ddce5e",
+  "write_date": "2025-12-09 02:56:22",
+  "xml_id": "auth_totp_portal.access_auth_totp_portal_wizard"
+}

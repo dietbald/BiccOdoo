@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 582,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                ('appointment_type_id.create_uid', '=', user.id),\n                ('create_uid', '=', user.id)]",
+    "groups": [
+      112
+    ],
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "appointment.slot: apt user rule (write/unlink = own only)",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "497bf4daeda53ba1a9fab47fa85415dad366f4c1b8a5ff60db9a4599b80f6145",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_slot_rule_user_write_unlink"
+}

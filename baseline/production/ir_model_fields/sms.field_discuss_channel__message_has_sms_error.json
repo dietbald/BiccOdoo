@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3511,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3e03dd5bca8d4eaf5fce791565d7f8d38f6368de2e23081db06825d60a9b358a",
+  "write_date": "",
+  "xml_id": "sms.field_discuss_channel__message_has_sms_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29319,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Spreadsheet Template",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "spreadsheet_template_id",
+    "relation": "quality.spreadsheet.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6a16712d94023ffc17c15a35a281a36df28578f4513939574a05549308984aee",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check__spreadsheet_template_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28334,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Overtime pay rate",
+    "model_id": [
+      3427,
+      "Attendance Overtime Line"
+    ],
+    "name": "amount_rate",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "230bd76c272ee7e92075a2f5d761899b105661ebea2b778e27f956efa696b764",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance_overtime_line__amount_rate"
+}

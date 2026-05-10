@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1958,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      153,
+      "Accountant"
+    ],
+    "model_id": [
+      490,
+      "Account reconciliation wizard"
+    ],
+    "name": "access.account.reconcile.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "e16f8c1b03b2a29d9eaedef8a7d181dca3082d7165116bccd7ef8869112f1d25",
+  "write_date": "2025-12-05 01:31:32",
+  "xml_id": null
+}

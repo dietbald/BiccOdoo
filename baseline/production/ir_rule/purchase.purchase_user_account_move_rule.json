@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 241,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('move_type', 'in', ('in_invoice', 'in_refund', 'in_receipt'))]",
+    "groups": [
+      57
+    ],
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "Purchase User Account Move",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b8a9d5c6134e6a9ca6a419c6a8ef3c88c1b12b47aabfc45cb2ad2c621ff23faf",
+  "write_date": "2023-11-30 07:26:02",
+  "xml_id": "purchase.purchase_user_account_move_rule"
+}

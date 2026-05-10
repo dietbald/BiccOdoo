@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6773,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1b056641cce71f4dc3c66cc9c461d9386ce167d4b2ee9954355e396a01d5d4ef",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__write_uid"
+}

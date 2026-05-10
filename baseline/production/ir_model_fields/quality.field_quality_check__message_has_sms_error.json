@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16634,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8c398c51acf9ffa9d50e8f33dcf8b9094917179cf301b077f46c3612822f4ca2",
+  "write_date": "",
+  "xml_id": "quality.field_quality_check__message_has_sms_error"
+}

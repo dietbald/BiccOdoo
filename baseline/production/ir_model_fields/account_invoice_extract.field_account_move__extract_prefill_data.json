@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23963,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract Prefill Data",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "extract_prefill_data",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "b9b767989aa489c9471c767c8e6209cdd45f3f673d7d95224e6813bc113af28c",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__extract_prefill_data"
+}

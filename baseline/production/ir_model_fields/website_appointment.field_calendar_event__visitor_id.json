@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29922,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Visitor",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "visitor_id",
+    "relation": "website.visitor",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b0f4a57c1c5ca845c5fea73fb5eeefc0f43a1f905baf4eb19f55d41d231138df",
+  "write_date": "",
+  "xml_id": "website_appointment.field_calendar_event__visitor_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27159,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Range Unit",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "range_unit",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2309bf8d2deda5d9983d020e5449f0bd8f715dd4826c4e3e561f0ad10e09dd1a",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__range_unit"
+}

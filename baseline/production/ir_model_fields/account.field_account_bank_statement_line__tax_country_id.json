@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4887,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Country",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "tax_country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "342b5d9c9c62f6e7b1f9fa86b77d569b3959b0e6afc6a2902f7c94bdaeb01933",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__tax_country_id"
+}

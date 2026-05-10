@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9791,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      671,
+      "Send mails to applicants"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5672dc871e11dd084eff5462eac4da0404dc4ebc447010f443e4625250fa36f6",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_send_mail__create_uid"
+}

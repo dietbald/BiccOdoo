@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      2743,
+      "Competitors"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8085ecab8ff8ef9716489a79eead69cbb8d60b80b5c68372a6311f300cbf60e1",
+  "write_date": "",
+  "xml_id": "mail.field_x_competitors__message_has_error"
+}

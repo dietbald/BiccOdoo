@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3738,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Zip",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "partner_zip",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8cdf3f312ebcc1b2262a92744bb2f9d8fa80921c521c0b4b8500b3c853674931",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__partner_zip"
+}

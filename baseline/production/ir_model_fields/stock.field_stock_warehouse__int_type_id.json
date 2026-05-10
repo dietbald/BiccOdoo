@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11372,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Internal Type",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "int_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cad5beb4d5be85bb3d85edf2eb06b546a67edd61e2bfd36468845236b2150611",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__int_type_id"
+}

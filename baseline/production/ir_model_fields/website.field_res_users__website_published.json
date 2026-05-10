@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10062,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Visible on current website",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "website_published",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "337b4cabef95963fbde1660c63261f7cdce264fc8f910fcb55a3b420ddb00684",
+  "write_date": "",
+  "xml_id": "website.field_res_users__website_published"
+}

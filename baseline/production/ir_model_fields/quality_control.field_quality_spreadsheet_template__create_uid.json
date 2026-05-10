@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23454,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1451,
+      "Quality check template spreadsheet"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9032b59fd864da8993e41b9dbacba8a4532628e325530a2993692c485636ff02",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_spreadsheet_template__create_uid"
+}

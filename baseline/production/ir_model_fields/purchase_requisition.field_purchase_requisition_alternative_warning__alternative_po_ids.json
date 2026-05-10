@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12654,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alternative POs",
+    "model_id": [
+      809,
+      "Wizard in case PO still has open alternative requests for quotation"
+    ],
+    "name": "alternative_po_ids",
+    "relation": "purchase.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "97eb2c83bb541f9bc65dc3cd98009503ca5155a568ee4b57849dbfd2265bad79",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_alternative_warning__alternative_po_ids"
+}

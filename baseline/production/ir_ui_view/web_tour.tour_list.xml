@@ -1,0 +1,8 @@
+<list string="Menu" create="0" edit="0" js_class="tour_list">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="url"/>
+                <field name="custom"/>
+                <field name="rainbow_man_message" column_invisible="1"/> <!-- Invisible to get the data in JS -->
+                <field name="name" widget="tour_start_widget" options="{'link': true}" string=""/>
+            </list>

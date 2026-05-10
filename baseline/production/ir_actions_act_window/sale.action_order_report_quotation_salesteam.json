@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 482,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_order_month':1}",
+    "domain": "[('state','=','draft'),('team_id', '=', active_id)]",
+    "name": "Quotations Analysis",
+    "res_model": "sale.report",
+    "target": "current",
+    "view_mode": "graph,list"
+  },
+  "payload_sha256": "a37269982040ab246818b8ac9447a8af25c6bbd7568110bf802bf374ca027363",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_order_report_quotation_salesteam"
+}

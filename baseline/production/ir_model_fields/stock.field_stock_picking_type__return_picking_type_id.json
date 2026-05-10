@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11174,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation Type for Returns",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "return_picking_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7b0b0842ec8b0c1418cf3cdaccf12f0eeafe33dd257651fd1a0d680e25dcca3c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__return_picking_type_id"
+}

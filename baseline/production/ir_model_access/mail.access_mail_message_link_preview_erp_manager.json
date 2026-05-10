@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1989,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      2,
+      "Access Rights"
+    ],
+    "model_id": [
+      2948,
+      "Link between link previews and messages"
+    ],
+    "name": "mail.link.preview.erp_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4c89f567cf783b7b9a03ac532d9803e179cafd6dc3a60fd9a7dffffab0dff4ea",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_message_link_preview_erp_manager"
+}

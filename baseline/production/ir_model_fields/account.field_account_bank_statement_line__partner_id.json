@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4747,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fde39181f4c9f09a6de753622b6890a3dfd840d7ff07097e362115432795fe08",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__partner_id"
+}

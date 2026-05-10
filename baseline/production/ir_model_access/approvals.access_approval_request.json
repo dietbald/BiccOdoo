@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1068,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "access_approval_request",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7ff3a2c849581f8ba36606d053f52eb74aa4efa1ac4ad0675155430fac611105",
+  "write_date": "2025-12-09 02:57:55",
+  "xml_id": "approvals.access_approval_request"
+}

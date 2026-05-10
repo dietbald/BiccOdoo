@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 685,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "account_partial_reconcile salesman",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6bee946d35c449ef39e0ba106e4d13039873773352a09b46ee5bc75fcde43ca1",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_account_partial_reconcile_salesman"
+}

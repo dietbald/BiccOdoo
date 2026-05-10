@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17054,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Odometer",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "odometer_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f8b3d427dcd92705a3757b1b9167533b0749dccfba392aac40bd594658562e3e",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__odometer_count"
+}

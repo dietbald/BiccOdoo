@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4232,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partners",
+    "model_id": [
+      431,
+      "Preset to create journal entries during a invoices and payments matching"
+    ],
+    "name": "match_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5d4a4596be549f3bb5ca12b1002e48147998c4697bb24423ec18d1610a561a98",
+  "write_date": "",
+  "xml_id": "account.field_account_reconcile_model__match_partner_ids"
+}

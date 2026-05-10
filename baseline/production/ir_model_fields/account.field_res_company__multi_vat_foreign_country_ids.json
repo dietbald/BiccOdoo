@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Foreign VAT countries",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "multi_vat_foreign_country_ids",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a207c2b5aa83d2647c2a8725f6405fad8ddd5ed34820c7dde62b9ab8bb065b8a",
+  "write_date": "",
+  "xml_id": "account.field_res_company__multi_vat_foreign_country_ids"
+}

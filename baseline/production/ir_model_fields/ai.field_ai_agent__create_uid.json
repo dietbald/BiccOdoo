@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29986,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3859,
+      "AI Agent"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "19bb0dd0288bb4b77023e60623ac74ed9203d610df2a2b4f64dba8803ff2dffc",
+  "write_date": "",
+  "xml_id": "ai.field_ai_agent__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17089,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bike Frame Type",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "frame_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b76b33ca2651ef85eab370f2777689f3033cf64449317fb2949b83c8b3ea4581",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__frame_type"
+}

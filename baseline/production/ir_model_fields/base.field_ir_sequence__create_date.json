@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 155,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      12,
+      "Sequence"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "88155f6dca98b39bfd841451a0b21e232ae81ae356ca9eb45739e077c8a0f4f4",
+  "write_date": "",
+  "xml_id": "base.field_ir_sequence__create_date"
+}

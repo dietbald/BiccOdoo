@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 28,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(0, '=', 1)]",
+    "groups": [
+      11
+    ],
+    "model_id": [
+      119,
+      "Authentication Device"
+    ],
+    "name": "Public users can't interact with keys at all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2b8afc02369514812d26ed1e87dcd532cf29f13f609f23b2f074ecc413ed8aff",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "auth_totp.api_key_public"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14934,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Require Login",
+    "model_id": [
+      924,
+      "Survey Invitation Wizard"
+    ],
+    "name": "survey_users_login_required",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dea40bd11887fdafc5f6978e48792c639031343de3ab24389049f3d926e3e0f0",
+  "write_date": "",
+  "xml_id": "survey.field_survey_invite__survey_users_login_required"
+}

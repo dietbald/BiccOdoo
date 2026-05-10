@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23413,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days To Arrive",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "days_to_arrive",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "45c4aae891659ae50be001a8316ebef7a73c69f04ac331c7faef4091415a33c9",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_picking__days_to_arrive"
+}

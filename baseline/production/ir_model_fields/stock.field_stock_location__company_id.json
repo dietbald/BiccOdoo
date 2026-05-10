@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10880,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d0af3c39e259b3b439e2a491053218b88efc78120cd58b8c4446762d4ea0c4e6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__company_id"
+}

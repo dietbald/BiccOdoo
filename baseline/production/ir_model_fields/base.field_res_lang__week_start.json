@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 826,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "First Day of Week",
+    "model_id": [
+      81,
+      "Languages"
+    ],
+    "name": "week_start",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e37565145bd1287c187013e6cd3d8ffbc52b466ecb41756fa8e6bc6a570b3fb0",
+  "write_date": "",
+  "xml_id": "base.field_res_lang__week_start"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11204,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Hide Reservation Method",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "hide_reservation_method",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f7b4876b2ca8f93f878e40a1f0bdff9f8e2070dbf225bdc600d7504d4c8877a2",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__hide_reservation_method"
+}

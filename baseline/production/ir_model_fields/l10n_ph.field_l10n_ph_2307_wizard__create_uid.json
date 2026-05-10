@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19041,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1085,
+      "Exports 2307 data to a XLS file."
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8a8b01de0e15dbf939456ccb6ad1b4275a35599e8a34de5af90c101551903eaa",
+  "write_date": "",
+  "xml_id": "l10n_ph.field_l10n_ph_2307_wizard__create_uid"
+}

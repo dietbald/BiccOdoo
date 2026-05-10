@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23682,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create Uid",
+    "model_id": [
+      1463,
+      "Work Entry Export Mixin"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ffe9c6179a0b54f6a232ca0684b5eec3bc1fcb30bba8c0fcbccf9e9820558ded",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_export_mixin__create_uid"
+}

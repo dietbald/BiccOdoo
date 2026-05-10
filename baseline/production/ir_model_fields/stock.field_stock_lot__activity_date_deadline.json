@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11126,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "0adc11d2c4a8d85baeb1292016b66fce94c4336649a90c94daad19923262ba1c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__activity_date_deadline"
+}

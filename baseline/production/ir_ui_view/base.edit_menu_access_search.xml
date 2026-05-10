@@ -1,0 +1,6 @@
+<search string="Menu">
+                    <field name="name" string="Menu"/>
+                    <field name="parent_id"/>
+                    <separator/>
+                    <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                </search>

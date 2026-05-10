@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2775,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      352,
+      "Phone Blacklist"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "bed66292839cf8fb44b77a4a402341747ac51e979a76d852a8ed9e1e2a839829",
+  "write_date": "",
+  "xml_id": "phone_validation.field_phone_blacklist__message_partner_ids"
+}

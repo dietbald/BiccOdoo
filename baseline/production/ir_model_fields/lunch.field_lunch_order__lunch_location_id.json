@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18898,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lunch Location",
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "lunch_location_id",
+    "relation": "lunch.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e5579bd0267556a5da4d8ee4e7f98e0c7ed141044fdb302d2a0dbd89cf2b605e",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_order__lunch_location_id"
+}

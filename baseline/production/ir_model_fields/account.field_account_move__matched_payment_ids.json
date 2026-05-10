@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22067,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Matched Payments",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "matched_payment_ids",
+    "relation": "account.payment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "44d3b7210d307ddd60bde2aeab451e645e6c30d585e4c91b9c052abc7142c35a",
+  "write_date": "",
+  "xml_id": "account.field_account_move__matched_payment_ids"
+}

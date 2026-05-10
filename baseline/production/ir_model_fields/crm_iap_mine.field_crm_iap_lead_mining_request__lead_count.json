@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Generated Leads",
+    "model_id": [
+      592,
+      "CRM Lead Mining Request"
+    ],
+    "name": "lead_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "f607705bdd5e3ddbeb73133d78d00a6070e9fb9799a9894bd2ba2cd7b403da49",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_mining_request__lead_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29567,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Check-out",
+    "model_id": [
+      2748,
+      "Sale temporal Recurrence"
+    ],
+    "name": "return_time",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "2607acff8ea23b9ad1bb00423e0780b2b0717a8dbff187561c5f2ff6a3da4ce6",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_temporal_recurrence__return_time"
+}

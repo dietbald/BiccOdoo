@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1224,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      103,
+      "API Key Description"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eb1cdb2e8b37258f99f62c745ec1c8b0b31c72b514cd627874323947c9ce7b84",
+  "write_date": "",
+  "xml_id": "base.field_res_users_apikeys_description__create_uid"
+}

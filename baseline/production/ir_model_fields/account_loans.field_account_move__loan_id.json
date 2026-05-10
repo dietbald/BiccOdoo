@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Loan",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "loan_id",
+    "relation": "account.loan",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "15e0d48b96f4efb786344a1d7f26e9ef4b4acd8e02a3244da0039bcb1d20b2e1",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_move__loan_id"
+}

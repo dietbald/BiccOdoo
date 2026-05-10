@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15244,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Book",
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "schedule_based_on",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8c229858c5b285c897ddba12861d5e108b88549f6edfa70244fee3271e303009",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_slot__schedule_based_on"
+}

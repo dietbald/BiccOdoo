@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 208,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Model Data",
+    "model_id": [
+      16,
+      "View"
+    ],
+    "name": "model_data_id",
+    "relation": "ir.model.data",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ca2cd7aa6d9cbab705ca8a9fc847a087f3b721f38b0f453e24ba220d52b4f5f7",
+  "write_date": "",
+  "xml_id": "base.field_ir_ui_view__model_data_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2492,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Composition mode",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "composition_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "5a2e3f73e22dca2dd8ebc286ed861ddf76880588a43ace6ffe1419952839a932",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__composition_mode"
+}

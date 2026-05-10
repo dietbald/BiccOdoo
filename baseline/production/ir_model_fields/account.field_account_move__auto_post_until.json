@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4326,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto-post until",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "auto_post_until",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "57ddb8e91ac97e9b8df7b7e1617da579f6d467e5addec30810f51e206fbc8606",
+  "write_date": "",
+  "xml_id": "account.field_account_move__auto_post_until"
+}

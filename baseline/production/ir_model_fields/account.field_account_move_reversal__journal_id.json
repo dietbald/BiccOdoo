@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5243,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      455,
+      "Account Move Reversal"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "90a3df6ccaceb909a604fecfb14c0931585d1bf26a081ca81e3467b0825a865e",
+  "write_date": "",
+  "xml_id": "account.field_account_move_reversal__journal_id"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 842,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_group_by_country': 1\n        }",
+    "domain": false,
+    "name": "Salary Rule Parameters",
+    "res_model": "hr.rule.parameter",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "d5b90d94f586d5c44c9fa36bad6d5664665e27cec31380e3b7b527a044b0638a",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.hr_rule_parameter_action"
+}

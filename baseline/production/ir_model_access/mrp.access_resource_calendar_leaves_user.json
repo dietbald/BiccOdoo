@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1408,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      117,
+      "Manufacturing / User"
+    ],
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "mrp.resource.calendar.leaves.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "af9d96af85b0f57297b822eef29b66ccf3a61a5d8c644d66600604941f28667b",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_resource_calendar_leaves_user"
+}

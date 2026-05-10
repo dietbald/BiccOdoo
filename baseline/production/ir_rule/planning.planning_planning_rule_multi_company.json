@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 403,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      882,
+      "Schedule"
+    ],
+    "name": "Planning Planning multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b43d1f70fe733ba0d212275ae5f7aa61df54cca5a9c05c084ef6e034bb47c705",
+  "write_date": "2024-04-18 04:45:47",
+  "xml_id": "planning.planning_planning_rule_multi_company"
+}

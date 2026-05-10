@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      28,
+      "Attachment"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f172328729183954a795beb2226c1b482927966d11d51461c2e4f7fa0e2db1ac",
+  "write_date": "",
+  "xml_id": "website.field_ir_attachment__website_id"
+}

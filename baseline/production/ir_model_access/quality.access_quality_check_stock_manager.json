@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1466,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      125,
+      "Quality / Administrator"
+    ],
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "quality.check.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1030cbd41f2b5dfeadf5583ecabb2d7c42abb76477c47ff9c9e79ef72756a6a6",
+  "write_date": "2025-12-09 02:58:46",
+  "xml_id": "quality.access_quality_check_stock_manager"
+}

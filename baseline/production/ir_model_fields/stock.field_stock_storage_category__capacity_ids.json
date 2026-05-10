@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11527,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Capacity",
+    "model_id": [
+      743,
+      "Storage Category"
+    ],
+    "name": "capacity_ids",
+    "relation": "stock.storage.category.capacity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "3b3ac717a42ce442daee3baa8b3ec93c373dd8184b4eb75df05eb997b999ded2",
+  "write_date": "",
+  "xml_id": "stock.field_stock_storage_category__capacity_ids"
+}

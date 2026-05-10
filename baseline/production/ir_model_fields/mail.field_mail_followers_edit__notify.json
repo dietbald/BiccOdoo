@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25781,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notify Recipients",
+    "model_id": [
+      2652,
+      "Followers edit wizard"
+    ],
+    "name": "notify",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "457d4396cd9b02244132638fb05e7408522ca2d5538aff6f9a4152ea9ed5cddc",
+  "write_date": "",
+  "xml_id": "mail.field_mail_followers_edit__notify"
+}

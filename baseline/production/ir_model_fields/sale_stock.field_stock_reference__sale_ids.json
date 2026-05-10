@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12038,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales",
+    "model_id": [
+      732,
+      "Reference between stock documents"
+    ],
+    "name": "sale_ids",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "60e27463adf1266b8ef5195f91462412918bdf384142ece2fc53d941e8f2c6ec",
+  "write_date": "",
+  "xml_id": "sale_stock.field_stock_reference__sale_ids"
+}

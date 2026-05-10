@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2506,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reply To",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "reply_to",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d52463cb09666f71c380da534c46f4fadbda4a5d43766974261450d05dd736e8",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__reply_to"
+}

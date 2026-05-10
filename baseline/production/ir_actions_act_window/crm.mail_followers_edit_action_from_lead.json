@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1573,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_res_model': 'crm.lead', 'default_res_ids': active_ids}",
+    "domain": false,
+    "name": "Add/Remove Followers",
+    "res_model": "mail.followers.edit",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "18ab8612b909fa57aba5aecda52a841b28a6755d36dc414572cb01e2a091fe11",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.mail_followers_edit_action_from_lead"
+}

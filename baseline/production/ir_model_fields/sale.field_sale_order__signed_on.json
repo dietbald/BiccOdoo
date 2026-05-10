@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Signed On",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "signed_on",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "7d763367c68a8b3c7ff48d830cd9a4d4624654a622319efe5995a84079b70e03",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__signed_on"
+}

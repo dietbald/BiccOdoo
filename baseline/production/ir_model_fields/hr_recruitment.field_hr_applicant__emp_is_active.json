@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9646,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee Active",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "emp_is_active",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "0f41e725ee96057b9a74cc69b877a4bbf4f37b6911cb3f938272cca53533a6e4",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__emp_is_active"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12217,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      787,
+      "Article Discussion Thread"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "080bc8c6d44ec2e6bc92d1b5d5863b9265f252aa3cb47412b26f48412abc8057",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_thread__create_uid"
+}

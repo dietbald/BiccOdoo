@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18248,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "84eded695f420a3e3414d00107e3dd49cd6c2d57815abc9415ec3d82f3b6384d",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__message_ids"
+}

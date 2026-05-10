@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23608,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Linked Assets",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "linked_assets_ids",
+    "relation": "account.asset",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5cf29ac221e41dee9810c50095a980fa0ba9d9933269267261ad1aec372724c5",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__linked_assets_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3562,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      402,
+      "Snailmail Letter"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b74ad990391abe7953fa51e43ff2408118ca91e264b220b81db66cda90b51f6d",
+  "write_date": "",
+  "xml_id": "snailmail.field_snailmail_letter__write_uid"
+}

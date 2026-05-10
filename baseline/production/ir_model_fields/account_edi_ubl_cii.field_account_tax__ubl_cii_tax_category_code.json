@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28280,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Category Code",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "ubl_cii_tax_category_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8149d3182cbefca2c12c1f2972944e6b4d8dffbf23cdbd41e5a9e2a4dfd37cd1",
+  "write_date": "",
+  "xml_id": "account_edi_ubl_cii.field_account_tax__ubl_cii_tax_category_code"
+}

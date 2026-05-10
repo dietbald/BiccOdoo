@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1721,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_last_365_days': 1, 'search_default_groupby_customer': 1}",
+    "domain": "[('deferred_revenue', '=', True)]",
+    "name": "Invoiced Not Delivered",
+    "res_model": "sale.order.line",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "6153ff43bebeccea26206b704331bf7113187e0f142b9db36865b923ffdff319",
+  "write_date": "2025-12-09 03:00:09",
+  "xml_id": "sale_account_accountant.sale_order_line_accrual_deferred_revenues_action"
+}

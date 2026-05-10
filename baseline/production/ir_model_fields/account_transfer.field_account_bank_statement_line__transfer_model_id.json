@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5877,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Originating Model",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "transfer_model_id",
+    "relation": "account.transfer.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5f91246a96422a2533b35db67dbd4c0a568269853e23c807c3522eb6b3d06eb6",
+  "write_date": "",
+  "xml_id": "account_transfer.field_account_bank_statement_line__transfer_model_id"
+}

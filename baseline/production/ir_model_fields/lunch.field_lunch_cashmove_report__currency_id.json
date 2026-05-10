@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18990,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      1079,
+      "Cashmoves report"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "edd7a59a9e9ff1b8527060b2894cdf364395a0886ebe9be9b381be1af380413c",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_cashmove_report__currency_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Personal Info",
+    "model_id": [
+      1279,
+      "Salary Package Personal Info Value"
+    ],
+    "name": "personal_info_id",
+    "relation": "hr.contract.salary.personal.info",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ab65a4579f7bca4707dc485b34fd2d9db54f3592aa3dd9e2cb535172f90d048c",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_personal_info_value__personal_info_id"
+}

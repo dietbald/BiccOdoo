@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11722,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      768,
+      "Product Replenish"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8da404f5a8c457dee690e227411cb1002b1e2ae78fa3bb2461f23d92a3b30e6f",
+  "write_date": "",
+  "xml_id": "stock.field_product_replenish__company_id"
+}

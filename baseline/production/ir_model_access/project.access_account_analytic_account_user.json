@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 649,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      40,
+      "Project / User"
+    ],
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "account.analytic.account",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "70ea66b44d52bbe26f0d9caf87b0a1416cc16bbc339586f7bdb1c9a5b1f674f7",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_account_analytic_account_user"
+}

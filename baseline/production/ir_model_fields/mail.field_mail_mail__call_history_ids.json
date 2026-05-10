@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26945,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Call History",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "call_history_ids",
+    "relation": "discuss.call.history",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f243dd04c37b6b1bd4430cafa1155c1a45cfbd2663410d9e0a0aa3ce85ba49f8",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__call_history_ids"
+}

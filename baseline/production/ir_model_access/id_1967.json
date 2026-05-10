@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1967,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      153,
+      "Accountant"
+    ],
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "sale.order.line accountant",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "42df6e433f81fb9b5256526f5ee523d7f92a56a492efaea5adbae86c429bef84",
+  "write_date": "2025-12-05 01:31:32",
+  "xml_id": null
+}

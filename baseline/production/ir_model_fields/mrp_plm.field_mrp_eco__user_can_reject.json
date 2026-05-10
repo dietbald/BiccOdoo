@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17523,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can Reject",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "user_can_reject",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bccc50d30ba0a0bc91d5196bf9901e8c2112e4edf3cf2b4e58e8a7bbb23d0104",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__user_can_reject"
+}

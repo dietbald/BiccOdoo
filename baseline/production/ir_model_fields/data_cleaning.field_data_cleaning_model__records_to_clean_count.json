@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15012,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Records To Clean",
+    "model_id": [
+      927,
+      "Cleaning Model"
+    ],
+    "name": "records_to_clean_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "880232786a9a57d16d47c7366c034db5368a93c28faf6b090fca274af4d3bf01",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_cleaning_model__records_to_clean_count"
+}

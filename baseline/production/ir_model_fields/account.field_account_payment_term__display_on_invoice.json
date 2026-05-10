@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4254,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show installment dates",
+    "model_id": [
+      432,
+      "Payment Terms"
+    ],
+    "name": "display_on_invoice",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8ac4988fa48db349a68dc11733e7b1bf0e2f1b81c646e4e323ad926f052954db",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term__display_on_invoice"
+}

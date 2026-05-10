@@ -1,0 +1,6 @@
+<pivot string="Employees Reward Analysis" sample="1">
+                    <field name="reward_id" type="row"/>
+                    <field name="awarded_employee_id" type="col"/>
+                    <field name="rewarded_employees" type="measure"/>
+                    <field name="cost" invisible="1"/>
+                </pivot>

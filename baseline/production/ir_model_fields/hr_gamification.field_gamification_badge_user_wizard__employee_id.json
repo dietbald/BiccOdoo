@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      918,
+      "Gamification User Badge Wizard"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c6c741591a36dc6d9895cc6116b60ccc6538039efc230604a95a5c3cfdd9aa21",
+  "write_date": "",
+  "xml_id": "hr_gamification.field_gamification_badge_user_wizard__employee_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 371,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('employee_id.company_id','=',False),('employee_id.company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "Employee multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ab9de889a95bb3d589baa880be4a81b1db1fdeda20c5aa7e81a2e38e2068e0d9",
+  "write_date": "2023-12-05 05:20:34",
+  "xml_id": "hr_attendance.hr_attendance_rule_employee_company"
+}

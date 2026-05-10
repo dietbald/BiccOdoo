@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18259,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Maintenance Team",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "maintenance_team_id",
+    "relation": "maintenance.team",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3f8c4e8fda23be104bf819b4041b6a26efccfcc95f95e15a619a0337c579c24e",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_mrp_workcenter__maintenance_team_id"
+}

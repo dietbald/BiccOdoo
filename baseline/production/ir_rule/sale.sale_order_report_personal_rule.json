@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 188,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('user_id','=',user.id),('user_id','=',False)]",
+    "groups": [
+      35
+    ],
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "Personal Orders Analysis",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e302767ad365bb5f89b94a7e88eba079336faf19d17604ed52fac5e8a2c5451e",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.sale_order_report_personal_rule"
+}

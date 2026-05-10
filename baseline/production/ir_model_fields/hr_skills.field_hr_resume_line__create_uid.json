@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 9011,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      638,
+      "Resume line of an employee"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "df547317c11fd041a95352f8f647c8bc28089c137b8d7dbd9ee93671cc218457",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_resume_line__create_uid"
+}

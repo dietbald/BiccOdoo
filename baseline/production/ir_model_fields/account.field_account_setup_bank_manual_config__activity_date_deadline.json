@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5298,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "3da7f2c49b3b3baed632c03740ef00f797fa5e623d0787c900efd0173c692b2e",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__activity_date_deadline"
+}

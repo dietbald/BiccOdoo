@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26603,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f341f0a6e0fbcb7128e4ea311afd0f19b4aad210ddc1a357c00a6e1cd88f3fa5",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard_line__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29392,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pay Schedule",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "schedule_pay",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "9aa59e94fbdeeaa372908c66100d0697bd2449acaf8afe8dd919042b8e997a09",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__schedule_pay"
+}

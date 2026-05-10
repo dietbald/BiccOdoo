@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5972,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      496,
+      "Wizard for missing transactions"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "44d3c688457361a4c6beb575aabcd33e7797e860a48425c82a15abbfbe3197cd",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_missing_transaction_wizard__write_uid"
+}

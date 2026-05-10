@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15828,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off",
+    "model_id": [
+      811,
+      "HR Work Entry"
+    ],
+    "name": "leave_id",
+    "relation": "hr.leave",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8901fca519977b40bec6cf95533d92006070d44632b209e45a99969428b27a18",
+  "write_date": "",
+  "xml_id": "hr_work_entry_holidays.field_hr_work_entry__leave_id"
+}

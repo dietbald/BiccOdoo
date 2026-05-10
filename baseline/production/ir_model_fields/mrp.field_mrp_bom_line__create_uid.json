@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15960,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      961,
+      "Bill of Material Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0be1c4fdd7e2f0929acd4a2027f992b397cc5d4f64ada102335b783af5c5df2d",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_line__create_uid"
+}

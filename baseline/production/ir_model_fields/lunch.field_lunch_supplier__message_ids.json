@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "700c5538257ac85f9f91609c07b687a7a1859870e2d2d0453a2794393b0f7135",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__message_ids"
+}

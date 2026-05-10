@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 932,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      724,
+      "Barcode Rule"
+    ],
+    "name": "barcode.rule.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "1feb3809c4170f108249074fb9674f0a8788d5b54421320faaf370ff46618d62",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "barcodes.access_barcode_rule_user"
+}

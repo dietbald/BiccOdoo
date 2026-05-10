@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15791,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      956,
+      "Cancel Time Off Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6334aa159a638c42b33d84b01dec2e8cd38b07fbea4b78b14f985ead0ffddf63",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_holidays_cancel_leave__write_uid"
+}

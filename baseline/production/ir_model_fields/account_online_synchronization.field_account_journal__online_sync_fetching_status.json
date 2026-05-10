@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5891,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fetching Status",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "online_sync_fetching_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3f67f42c3001f3bab9a5e4bee99fc8b698c503698db6fd0ba4850dc0534f3409",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_journal__online_sync_fetching_status"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11331,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assigned To",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8eb9111ea5398bfb9d1a3959d1ef1c2784ca6a8dd100830931d1417b57e322bf",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__user_id"
+}

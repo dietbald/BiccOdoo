@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3806,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sequence Prefix",
+    "model_id": [
+      415,
+      "Automatic sequence"
+    ],
+    "name": "sequence_prefix",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "680ee1e6befef9040c9b93b5ab8e88cb1d25924f81757a9f9872eb1b7240967b",
+  "write_date": "",
+  "xml_id": "account.field_sequence_mixin__sequence_prefix"
+}

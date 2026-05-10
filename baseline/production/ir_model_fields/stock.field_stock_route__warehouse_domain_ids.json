@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10918,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Warehouse Domain",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "warehouse_domain_ids",
+    "relation": "stock.warehouse",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ba68f8d7611ed36cd4970569092eaffbb682ba6c6aaf8dc249281fae005e8bbc",
+  "write_date": "",
+  "xml_id": "stock.field_stock_route__warehouse_domain_ids"
+}

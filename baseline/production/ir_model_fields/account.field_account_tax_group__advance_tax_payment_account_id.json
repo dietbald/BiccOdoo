@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4086,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Advance Account",
+    "model_id": [
+      426,
+      "Tax Group"
+    ],
+    "name": "advance_tax_payment_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c9403dc03cd41d9d64823323d6aba4842ab805f65f0a69ecb6f48e071e463383",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_group__advance_tax_payment_account_id"
+}

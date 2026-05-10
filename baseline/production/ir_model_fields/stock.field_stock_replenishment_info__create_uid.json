@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11788,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      774,
+      "Stock supplier replenishment information"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a400fe2df0b0f2b711b2d531393e960a8c440d7dbfde32f8deb1ac7b816a771e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenishment_info__create_uid"
+}

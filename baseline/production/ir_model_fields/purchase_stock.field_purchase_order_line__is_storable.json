@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25430,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Track Inventory",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "is_storable",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ff5006e3e52dcc7280bf2d861efdab8a39f9ac145386d4f55ffbf4465fb4d252",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order_line__is_storable"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6056,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      520,
+      "Tax Unit"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "548f8e890c990a75407cde6471f59e890953aeb76a0b7b2bc31034dc2919a883",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_tax_unit__create_uid"
+}

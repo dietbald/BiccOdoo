@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1027,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_my_team': 1,'search_default_approve': 2}",
+    "domain": "[]",
+    "name": "Allocations",
+    "res_model": "hr.leave.allocation",
+    "target": "current",
+    "view_mode": "kanban,list,form,activity"
+  },
+  "payload_sha256": "ad5b7fda415b969567eeb69ddaf4d328239f6dd1906a401517547124dbf7c810",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.hr_leave_allocation_action_approve_department"
+}

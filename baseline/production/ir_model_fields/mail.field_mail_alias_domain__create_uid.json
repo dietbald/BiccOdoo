@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1738,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      148,
+      "Email Domain"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3a35930e77275f9a378f7325b9bf7b5c5d8c72c1c0b32fbd2d264d4cf24e9ec3",
+  "write_date": "",
+  "xml_id": "mail.field_mail_alias_domain__create_uid"
+}

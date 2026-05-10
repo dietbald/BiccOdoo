@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12109,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "d5b07fb6a000cb9b47ae3bbd4c06e1caae5085d24ac87fca4334c534eccbc922",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__activity_date_deadline"
+}

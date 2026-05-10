@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 748,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      528,
+      "Account Fiscal Category"
+    ],
+    "name": "Account fiscal categories multi-country",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "69499e3deef8e390b9c867f63abf8c0ffff5c0c66873f7931223436e5af97c57",
+  "write_date": "2025-12-09 02:59:45",
+  "xml_id": "account_fiscal_categories.account_fiscal_categories_comp_rule"
+}

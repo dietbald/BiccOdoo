@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18604,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1062,
+      "Worksheet Template"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "93629410a1ff293acf64c266403a63ff9519688d4345638f1256e3238a970772",
+  "write_date": "",
+  "xml_id": "worksheet.field_worksheet_template__create_uid"
+}

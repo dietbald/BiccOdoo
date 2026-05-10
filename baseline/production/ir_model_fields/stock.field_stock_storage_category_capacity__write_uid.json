@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11550,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      744,
+      "Storage Category Capacity"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7ad00fc9b46e76d39b18c38e60adb85bffebf93e3f42cb2003999a81c4d8bad6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_storage_category_capacity__write_uid"
+}

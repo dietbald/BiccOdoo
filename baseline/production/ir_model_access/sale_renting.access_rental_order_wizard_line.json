@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1938,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "access.rental.order.wizard.line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "20f77f040685057b9ca1b688b0d0575b08794d2ee275394632eb54e2b5227acc",
+  "write_date": "2025-12-09 03:00:12",
+  "xml_id": "sale_renting.access_rental_order_wizard_line"
+}

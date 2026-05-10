@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9449,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "price_tax",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "231c7f0849b693157d704c8d9ff0aed6e80c167642d5925cdd042ce7ca815651",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__price_tax"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4786,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e03b0c8210670ee5f3e3f3e5366bd34d95dcb928700462d0723e7d329adfee56",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_bank_statement_line__message_partner_ids"
+}

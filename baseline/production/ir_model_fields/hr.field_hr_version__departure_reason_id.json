@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27785,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Departure Reason",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "departure_reason_id",
+    "relation": "hr.departure.reason",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "56aff0b4355b3aa7ea57357a8b55e4bfc5cfa41628994bcadf966b67f730e479",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__departure_reason_id"
+}

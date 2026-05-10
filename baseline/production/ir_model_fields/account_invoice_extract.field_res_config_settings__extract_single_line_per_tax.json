@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5590,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Single Invoice Line Per Tax",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "extract_single_line_per_tax",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ea439733714310ef4d97ce99e61b4e17cb1730a19e28cb466cdabaffccee8525",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_res_config_settings__extract_single_line_per_tax"
+}

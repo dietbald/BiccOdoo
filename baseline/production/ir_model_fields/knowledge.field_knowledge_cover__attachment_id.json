@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12343,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cover attachment",
+    "model_id": [
+      793,
+      "Knowledge Cover"
+    ],
+    "name": "attachment_id",
+    "relation": "ir.attachment",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ee1f3f93355a149a367da8b37e928ecab5627a6f07baf0b06f3fa24ff73d19aa",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_cover__attachment_id"
+}

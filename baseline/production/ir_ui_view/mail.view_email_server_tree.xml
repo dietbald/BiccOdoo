@@ -1,0 +1,7 @@
+<list string="POP/IMAP Servers">
+                    <field name="name"/>
+                    <field name="server_type"/>
+                    <field name="user" readonly="state != 'draft'"/>
+                    <field name="date"/>
+                    <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-success="state == 'done'"/>
+                </list>

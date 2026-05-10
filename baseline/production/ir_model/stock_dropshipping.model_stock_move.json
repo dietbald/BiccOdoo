@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T12:35:41Z",
+  "id": 729,
+  "model": "ir.model",
+  "payload": {
+    "model": "stock.move",
+    "modules": "industry_fsm_stock, mrp, mrp_subcontracting, mrp_subcontracting_dropshipping, mrp_workorder, project_stock_account, purchase_requisition_stock, purchase_stock, quality_control, quality_mrp, sale_project_stock, sale_project_stock_account, sale_purchase_stock, sale_stock, sale_stock_renting, stock, stock_account, stock_dropshipping",
+    "name": "Stock Move",
+    "state": "base"
+  },
+  "payload_sha256": "dc680d1883bbedbd1597aabfb4a708d31aa43319c21bcd4891b9be146e695930",
+  "write_date": "",
+  "xml_id": "stock_dropshipping.model_stock_move"
+}

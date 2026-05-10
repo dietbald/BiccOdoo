@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22168,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b893c26b4af5f584ae67f52e1efe315036be12d9cd690dae7a8f8c3537de98cf",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__activity_calendar_event_id"
+}

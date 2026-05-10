@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23833,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Digitization mode on bank statements",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "extract_bank_statement_digitalization_mode",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "6c463bf152ef4d9a51f16e17039d397fab7c046027e7bd9388be71aa256f12bf",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_res_company__extract_bank_statement_digitalization_mode"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 563,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      1110,
+      "Embedded Actions"
+    ],
+    "name": "Admins have all the rights on embedded actions",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "477835c6a0acbeb16611c1ec343c566f65e6e0fb50f73a36f629e24ac30df0bc",
+  "write_date": "2024-10-23 10:42:37",
+  "xml_id": "base.embedded_action_admin_delete_rule"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6324,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sms Template",
+    "model_id": [
+      533,
+      "Wizard for sending manual reminders to clients"
+    ],
+    "name": "sms_template_id",
+    "relation": "sms.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09e33e4e505904afd8f515c9b664c4ca2a8ef1aa8c49ea741816d20858b19200",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_manual_reminder__sms_template_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8374,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Down Payment",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "6478ad0f62b7099f2460faa02059b416e8343359fc971b67efafe0ba6f939ecd",
+  "write_date": "",
+  "xml_id": "sale.field_sale_advance_payment_inv__amount"
+}

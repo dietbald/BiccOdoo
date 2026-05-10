@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2281,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Translation API Key",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "google_translate_api_key",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "b638a76f8f212be7af28f5cc56e786c83c92becb6b19ea37c08cccdc79aff5e9",
+  "write_date": "",
+  "xml_id": "mail.field_res_config_settings__google_translate_api_key"
+}

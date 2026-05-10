@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 630,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      65,
+      "Application"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "673d64592dc8384bf98e2c8442d0cff25bda7e775ab09c495f5f33cec6e6b06f",
+  "write_date": "",
+  "xml_id": "base.field_ir_module_category__create_uid"
+}

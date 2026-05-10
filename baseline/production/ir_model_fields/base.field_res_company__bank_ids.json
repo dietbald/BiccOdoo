@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Banks",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "bank_ids",
+    "relation": "res.partner.bank",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "05460153afd98d9d248ce826c1def412754407b7ba57325d8c4427b4a5db0c17",
+  "write_date": "",
+  "xml_id": "base.field_res_company__bank_ids"
+}

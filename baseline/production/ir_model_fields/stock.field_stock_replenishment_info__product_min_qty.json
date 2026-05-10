@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28214,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Min",
+    "model_id": [
+      774,
+      "Stock supplier replenishment information"
+    ],
+    "name": "product_min_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "05aa04889d8472d4049b885caf61497824ffe10c092c54566051f453383ab548",
+  "write_date": "",
+  "xml_id": "stock.field_stock_replenishment_info__product_min_qty"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14082,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blacklist",
+    "model_id": [
+      889,
+      "Mailing List Subscription"
+    ],
+    "name": "is_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "332c7e8cd6fdadc0d14b1a2c554df2d04ef8cb4db820b60e9d0f7712f2a152e8",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_subscription__is_blacklisted"
+}

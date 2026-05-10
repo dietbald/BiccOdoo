@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23424,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Spreadsheet",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "spreadsheet_id",
+    "relation": "quality.check.spreadsheet",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "628a81db612e6d404ff87c5b1befee180691d54960442c43007ecb63fe587a4c",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check__spreadsheet_id"
+}

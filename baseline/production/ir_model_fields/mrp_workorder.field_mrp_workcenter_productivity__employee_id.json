@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16849,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      968,
+      "Workcenter Productivity Log"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "21e4d17b68626c3a640a556c878d5d3993c900a8502909f6272cc8113b3183ac",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workcenter_productivity__employee_id"
+}

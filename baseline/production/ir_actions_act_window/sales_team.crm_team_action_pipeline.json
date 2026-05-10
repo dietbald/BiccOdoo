@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 383,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('use_opportunities', '=', True)]",
+    "name": "Teams",
+    "res_model": "crm.team",
+    "target": "current",
+    "view_mode": "kanban,form"
+  },
+  "payload_sha256": "403e2b2015df17923ccf79180fdea70881dd0d70842d3cc5445e772861c0e676",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "sales_team.crm_team_action_pipeline"
+}

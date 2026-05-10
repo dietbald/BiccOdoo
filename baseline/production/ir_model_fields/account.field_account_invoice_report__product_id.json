@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5443,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d955896608ed3694e8162914a2b1353e52b4a86960379af75d6a15a7e5568642",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__product_id"
+}

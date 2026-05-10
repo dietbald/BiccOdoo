@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 192,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('invoice_user_id', '=', user.id), ('invoice_user_id', '=', False)]",
+    "groups": [
+      35
+    ],
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "Personal Invoices Analysis",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3c244414fdb5dc46569242076071c328bb3f576858630c16dc0df029c850fac1",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.account_invoice_report_rule_see_personal"
+}

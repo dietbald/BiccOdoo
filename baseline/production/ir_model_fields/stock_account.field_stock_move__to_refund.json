@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11847,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Update quantities on SO/PO",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "to_refund",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7075e95ae450b4ca980fbd399cdbf6d91b118e1663d3c20bc36add51e26fd6a4",
+  "write_date": "",
+  "xml_id": "stock_account.field_stock_move__to_refund"
+}

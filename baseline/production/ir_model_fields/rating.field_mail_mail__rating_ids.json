@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7591,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related ratings",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0ee562ad061cbd6665116ad0dbf438bc1bd49e2bc9b18c71a2effdbedd729c35",
+  "write_date": "",
+  "xml_id": "rating.field_mail_mail__rating_ids"
+}

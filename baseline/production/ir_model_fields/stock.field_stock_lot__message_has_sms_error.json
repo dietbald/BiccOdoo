@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11144,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "14691c81f743372201f821e56498fcd7df287e09bb5bb99a35ff73bc66a07b2f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__message_has_sms_error"
+}

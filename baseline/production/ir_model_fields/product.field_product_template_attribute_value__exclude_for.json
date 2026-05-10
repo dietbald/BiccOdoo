@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3247,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Exclude for",
+    "model_id": [
+      373,
+      "Product Template Attribute Value"
+    ],
+    "name": "exclude_for",
+    "relation": "product.template.attribute.exclusion",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b7ce0589e647a3625a52d1bf78c2e6b51dea1e6dc764f954a67fbdac382b7558",
+  "write_date": "",
+  "xml_id": "product.field_product_template_attribute_value__exclude_for"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outstanding Account",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "withholding_outstanding_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "134deab351a477ad5648dcc664f4e316e848a3b6d4b5ad11af8a5602d7aa1e17",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment_register__withholding_outstanding_account_id"
+}

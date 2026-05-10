@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9777,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      670,
+      "Get Refuse Reason"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "56e96efc2f13e5c6aa69dd7bc02d28d53d5d3b969cb084709fdfb68427f745bb",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_get_refuse_reason__write_uid"
+}

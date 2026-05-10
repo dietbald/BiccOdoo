@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 883,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner with same Tax ID",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "same_vat_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "47c5cf973c690a7877218f30470c5a26272ea7ec23988074869051e04fd798cf",
+  "write_date": "",
+  "xml_id": "base.field_res_partner__same_vat_partner_id"
+}

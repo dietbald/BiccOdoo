@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6077,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      522,
+      "Export format for accounting's reports"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "61f99abd535b37fa37af7770749fffa2c460fb0f4449ec4459f40c29fc81a677",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_reports_export_wizard_format__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer Company",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "commercial_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "df2512dd708ca8e63719987672c0cebb2ce9b1154124adc01bb2a62db07dc665",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__commercial_partner_id"
+}

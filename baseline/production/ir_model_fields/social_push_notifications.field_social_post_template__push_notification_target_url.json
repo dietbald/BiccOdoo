@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17980,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Push Target URL",
+    "model_id": [
+      1025,
+      "Social Post Template"
+    ],
+    "name": "push_notification_target_url",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "04c4f4ea0496a18f2a9c57017fcd1064fd723ecb3a5ba18993be02b7f5b5eacb",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_social_post_template__push_notification_target_url"
+}

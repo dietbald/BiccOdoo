@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 149,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      12,
+      "Sequence"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "38f4138dcfaeb14c328f1f1e5e6ce244de2982ad2f8a1b22289f806c3fc8c7e8",
+  "write_date": "",
+  "xml_id": "base.field_ir_sequence__company_id"
+}

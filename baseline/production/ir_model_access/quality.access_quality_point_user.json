@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1453,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      124,
+      "Quality / User"
+    ],
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "quality.point",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "03112044ba6d7c1fbac50b0e4a098f063414ce8e658077745941b243efcd2927",
+  "write_date": "2025-12-09 02:58:46",
+  "xml_id": "quality.access_quality_point_user"
+}

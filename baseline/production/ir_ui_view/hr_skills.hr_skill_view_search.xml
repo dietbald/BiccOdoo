@@ -1,0 +1,8 @@
+<search string="Search Skill">
+                <field name="name" string="Skill"/>
+                <field name="skill_type_id" string="Skill Type"/>
+                <separator/>
+                <group>
+                        <filter string="Skill Type" name="group_skill_type_id" domain="[]" context="{'group_by':'skill_type_id'}"/>
+                </group>
+            </search>

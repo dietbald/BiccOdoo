@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='journal_line_ids' or @name='line_ids']//field[@name='vehicle_id']" position="attributes">
+                <attribute name="column_invisible">parent.move_type not in ('entry', 'in_invoice', 'in_refund', 'in_receipt')</attribute>
+                <attribute name="required">need_vehicle and parent.move_type in ('in_invoice', 'in_refund')</attribute>
+            </xpath>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Putaway Rules",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "putaway_rule_ids",
+    "relation": "stock.putaway.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "328d8d667c852bb62bf893d064afd44607a919af52b0edaf540cb62e5ac24f61",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__putaway_rule_ids"
+}

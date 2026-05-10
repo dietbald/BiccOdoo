@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 64,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_publish_scheduled()",
+    "interval_number": 1,
+    "interval_type": "hours",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "Social: Publish Scheduled Posts",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "76af0dc6567b4281393c991111a5b67d74eeff0755c89ce7d80d8d0db4dc1ada",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "social.ir_cron_post_scheduled"
+}

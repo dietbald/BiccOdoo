@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20825,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Analytic Plans",
+    "model_id": [
+      1245,
+      "Budget Split Wizard"
+    ],
+    "name": "analytical_plan_ids",
+    "relation": "account.analytic.plan",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "0654c2e326cd1b0a2178661d3e3eaf01126b75216bcd467b98fdd5c0da1cc82a",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_split_wizard__analytical_plan_ids"
+}

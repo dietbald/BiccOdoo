@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24880,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show to all employees",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "birthday_public_display",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ef029ded256cd85dfc9eb644116ebd528d1f43b53dfffdea0753650c7cfb3679",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__birthday_public_display"
+}

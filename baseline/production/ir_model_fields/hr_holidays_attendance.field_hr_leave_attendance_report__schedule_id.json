@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29182,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Schedule",
+    "model_id": [
+      3627,
+      "Attendance and Leave Analysis Report"
+    ],
+    "name": "schedule_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "084d72081f7e11380427bcadef623f32946a341c8373ba18ccbf2ab0ec7ed512",
+  "write_date": "",
+  "xml_id": "hr_holidays_attendance.field_hr_leave_attendance_report__schedule_id"
+}

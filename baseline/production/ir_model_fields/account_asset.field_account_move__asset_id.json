@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6187,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Asset",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "asset_id",
+    "relation": "account.asset",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "494cf147189a713797486e62b092499479aba64c76146f837cd2207613bbad71",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_move__asset_id"
+}

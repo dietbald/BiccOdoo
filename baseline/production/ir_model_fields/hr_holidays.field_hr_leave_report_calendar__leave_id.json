@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Leave",
+    "model_id": [
+      954,
+      "Time Off Calendar"
+    ],
+    "name": "leave_id",
+    "relation": "hr.leave",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "14aa07e948dab07e92114afaaad17f82a270149f203feb78378aee7aa9674cd6",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_report_calendar__leave_id"
+}

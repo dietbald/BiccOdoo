@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5100,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Chart of Accounts",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "chart_template",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "590a9f662a4c30896a3a4c446e5df8b16c64cfba55ae3bde281128cf73832d19",
+  "write_date": "",
+  "xml_id": "account.field_account_report__chart_template"
+}

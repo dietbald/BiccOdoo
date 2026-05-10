@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4083,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      426,
+      "Tax Group"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3bf207439eead9d5520ab88c0f80eecc6fba3d4b4c3ca0710977b0bd7b6ec20e",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_group__company_id"
+}

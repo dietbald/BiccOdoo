@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5676,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Entries",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "deferred_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c9713f95ec607f9ed100190d1279fcba7966dd4484b74f3e822a287ac8542c5e",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_bank_statement_line__deferred_move_ids"
+}

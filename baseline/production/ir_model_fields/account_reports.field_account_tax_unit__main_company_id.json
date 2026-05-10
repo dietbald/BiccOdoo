@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6052,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Company",
+    "model_id": [
+      520,
+      "Tax Unit"
+    ],
+    "name": "main_company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a2c350f7aa2fe66366c03b507805ef83b654148237faecbaada0b474d80ddf50",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_tax_unit__main_company_id"
+}

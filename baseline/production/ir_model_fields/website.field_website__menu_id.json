@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9924,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Main Menu",
+    "model_id": [
+      684,
+      "Website"
+    ],
+    "name": "menu_id",
+    "relation": "website.menu",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8c3e57170bb4db3aef07596924939a321b2fefb6fadca4895c856731517db08a",
+  "write_date": "",
+  "xml_id": "website.field_website__menu_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 486,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Value Type",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "evaluation_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d06c14ea030eaf3699f63ecb1bbafdb385a72c0bf8d6afb101d1376ec144067b",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__evaluation_type"
+}

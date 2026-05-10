@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2776,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      352,
+      "Phone Blacklist"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "573ab33be6472d96e2d173f12d9102590fa52d11092f6baa4ad99da2d33e3660",
+  "write_date": "",
+  "xml_id": "phone_validation.field_phone_blacklist__message_ids"
+}

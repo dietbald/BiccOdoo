@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1065,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      37,
+      "Sales / Administrator"
+    ],
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "stock_rule salemanager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "052d64f726a9b96b39da92469f7cdf0a2d4721c21690b9631877ae102df7c296",
+  "write_date": "2025-12-09 03:00:15",
+  "xml_id": "sale_stock.access_stock_rule_salemanager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15329,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Appointment Invitation",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "appointment_invite_id",
+    "relation": "appointment.invite",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8341d75617a68c79b4ad235efddb6313f80c381e7bf8dc47f773aeba280ce3e4",
+  "write_date": "",
+  "xml_id": "appointment.field_calendar_event__appointment_invite_id"
+}

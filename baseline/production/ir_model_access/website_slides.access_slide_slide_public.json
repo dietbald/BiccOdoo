@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1827,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "slide.slide.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "221f8ce2290b9342307ab26f1a1b676610be2386ac7e38c07841c07ba736e01d",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.access_slide_slide_public"
+}

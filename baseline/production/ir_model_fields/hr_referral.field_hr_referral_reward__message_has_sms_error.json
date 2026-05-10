@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25557,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8b7b5712a12c4b4f903cf9632f9fc2438363f6ad3c34112777313be8d609e638",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__message_has_sms_error"
+}

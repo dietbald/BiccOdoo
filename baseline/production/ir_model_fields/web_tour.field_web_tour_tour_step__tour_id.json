@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21490,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tour",
+    "model_id": [
+      1321,
+      "Tour's step"
+    ],
+    "name": "tour_id",
+    "relation": "web_tour.tour",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e8dfff54933e9873e95cb864bd6ced5f0edb73ee878e0fc4ed6174f24a7df861",
+  "write_date": "",
+  "xml_id": "web_tour.field_web_tour_tour_step__tour_id"
+}

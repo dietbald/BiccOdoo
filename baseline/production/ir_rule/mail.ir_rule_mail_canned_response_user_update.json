@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 570,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      180,
+      "Canned Response"
+    ],
+    "name": "Canned response: User write/unlink: own only",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ed2bcb62bc5b7b20f135db547c04ee34406326255220858c6b08a749799512cd",
+  "write_date": "2024-10-23 10:43:22",
+  "xml_id": "mail.ir_rule_mail_canned_response_user_update"
+}

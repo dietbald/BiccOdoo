@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1834,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create a New Record",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "object_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "222f51a409e736620506fde81c3e47e8899e65410536d9ce9b5b125894e85826",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__object_id"
+}

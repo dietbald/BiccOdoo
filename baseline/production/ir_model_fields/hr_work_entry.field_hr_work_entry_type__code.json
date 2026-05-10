@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12699,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payroll Code",
+    "model_id": [
+      812,
+      "HR Work Entry Type"
+    ],
+    "name": "code",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ddc5eb69f2ae6b30e1a97e56003820d664779dac28bb54858227d538229c3ca0",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_hr_work_entry_type__code"
+}

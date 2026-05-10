@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13530,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next scheduled date for approver reminder",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "timesheet_mail_nextdate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "fbc73ec0306e0713ec7d35724fa63c30526146132500daca9a4ab3ffb0570cfd",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_res_company__timesheet_mail_nextdate"
+}

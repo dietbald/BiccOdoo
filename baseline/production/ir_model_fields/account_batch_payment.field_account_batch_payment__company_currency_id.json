@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19103,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Currency",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "company_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0dc36a9f8be2db360ec0e3c859d290b587dc887f2d7ab9ed85fe161c662e2c66",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__company_currency_id"
+}

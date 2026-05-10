@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 190,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',('salesman_id','=',user.id),('salesman_id','=',False)]",
+    "groups": [
+      35
+    ],
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "Personal Order Lines",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "94d0ea074c5d701b41544eff3a4ffd4fd2dfac77ce69d3a84ea0a79d02348584",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.sale_order_line_personal_rule"
+}

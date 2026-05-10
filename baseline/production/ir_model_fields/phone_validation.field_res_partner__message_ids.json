@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2442,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "225e4b449b275cd044971f0f022f35e983b963dcca0a3a4ad5d7487077218b6f",
+  "write_date": "",
+  "xml_id": "phone_validation.field_res_partner__message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7583,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "e14becd846a3bc1b7c63b145d96ff9ec63e6994bacd0c5babeb945d13c4924c6",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__rating_ids"
+}

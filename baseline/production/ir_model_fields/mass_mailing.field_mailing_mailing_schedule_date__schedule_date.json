@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduled for",
+    "model_id": [
+      903,
+      "schedule a mailing"
+    ],
+    "name": "schedule_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "271b9407900078eef1b0a000a8b3e2811f1982fed6955a27534fec2882a76f89",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing_schedule_date__schedule_date"
+}

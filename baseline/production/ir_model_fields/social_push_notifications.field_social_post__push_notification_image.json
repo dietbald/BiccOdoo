@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17973,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Push Icon Image",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "push_notification_image",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "df3a3acbd12a05d31d24479af3f899520d68848b049b3a2f1c268103add81d53",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_social_post__push_notification_image"
+}

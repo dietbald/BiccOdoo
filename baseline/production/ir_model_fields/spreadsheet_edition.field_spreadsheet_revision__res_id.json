@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5521,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Record id",
+    "model_id": [
+      471,
+      "Collaborative spreadsheet revision"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "5051872549f9a07fedc078e9ec34efe249b0f448d1a84784e401a3696ce23e83",
+  "write_date": "",
+  "xml_id": "spreadsheet_edition.field_spreadsheet_revision__res_id"
+}

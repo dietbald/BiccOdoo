@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18806,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "responsible_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dcd441ae7d96a674b68e8f35d51bc238939dcb3a80bba7ebbf7888bc6daadf5f",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__responsible_id"
+}

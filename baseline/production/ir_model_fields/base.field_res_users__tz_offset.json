@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1107,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timezone offset",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "tz_offset",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "144338d4e0bca87e0c15556f779c392bb9c6af7aa6cde9b7b73f5365596e0b97",
+  "write_date": "",
+  "xml_id": "base.field_res_users__tz_offset"
+}

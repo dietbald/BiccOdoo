@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20065,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Volume for Shipping",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "shipping_volume",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d97a6cc61db2469ac948b4c1bfa5fbaa87482104b7772ece65ccb6637ea2c4ba",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__shipping_volume"
+}

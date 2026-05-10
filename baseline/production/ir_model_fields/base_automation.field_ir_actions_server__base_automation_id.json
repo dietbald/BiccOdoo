@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13734,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Automation Rule",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "base_automation_id",
+    "relation": "base.automation",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b788b446b17ca0fe11297d46329d018077818b6817f434fb861f0a7916b19aae",
+  "write_date": "",
+  "xml_id": "base_automation.field_ir_actions_server__base_automation_id"
+}

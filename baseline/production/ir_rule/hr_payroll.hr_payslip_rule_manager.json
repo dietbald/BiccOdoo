@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 356,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1,'=',1)]",
+    "groups": [
+      96
+    ],
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "All Payslip",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d224bb7f57394235a86a64322027bd5571ba07f43c3169f1781906fa3ef3c0d6",
+  "write_date": "2023-12-05 05:18:50",
+  "xml_id": "hr_payroll.hr_payslip_rule_manager"
+}

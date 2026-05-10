@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1959,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      167,
+      "Mail Blacklist"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "12f0228193b74b50f25c9fbf214b93bbfe75ac245c6746bc2f009d16b2b49f58",
+  "write_date": "",
+  "xml_id": "mail.field_mail_blacklist__create_uid"
+}

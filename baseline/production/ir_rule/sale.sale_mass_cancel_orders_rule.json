@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 205,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      616,
+      "Cancel multiple quotations"
+    ],
+    "name": "Sales Mass Cancel Orders: access only your own wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1595275be4c4430fd4a68aacea0cc66941e3b7a324a1fa69814db6a58da0d36c",
+  "write_date": "2023-11-30 05:00:55",
+  "xml_id": "sale.sale_mass_cancel_orders_rule"
+}

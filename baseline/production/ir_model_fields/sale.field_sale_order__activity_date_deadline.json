@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8137,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "4870d0a85537424a8066ab384155e0d52975c2d614177064e495895455e83865",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__activity_date_deadline"
+}

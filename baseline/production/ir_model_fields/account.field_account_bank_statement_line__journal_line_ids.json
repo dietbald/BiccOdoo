@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27577,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Items (DEPRECATED)",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "journal_line_ids",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0feab44305ccc90f2d272aa99edb040373011bf67e9090a72500a76633a86ba8",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__journal_line_ids"
+}

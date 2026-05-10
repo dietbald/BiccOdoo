@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23541,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1457,
+      "Account Report Send"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b5d99e7ded3f24c510536da35e14961d221000bf72f02d59c2d454ba32fe093b",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_send__write_uid"
+}

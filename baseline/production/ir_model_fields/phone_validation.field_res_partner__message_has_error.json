@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2446,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "ea64102c27d0f2ec6006c59af55545e8fc56b0d0a27b98189106e27338a0f5b8",
+  "write_date": "",
+  "xml_id": "phone_validation.field_res_partner__message_has_error"
+}

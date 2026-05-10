@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3173,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extra Fee",
+    "model_id": [
+      368,
+      "Pricelist Rule"
+    ],
+    "name": "price_surcharge",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "76b59eb9fdad2dd3d6e13c4072d19ebfc5f3e28f5632422c929fbf86f85c8769",
+  "write_date": "",
+  "xml_id": "product.field_product_pricelist_item__price_surcharge"
+}

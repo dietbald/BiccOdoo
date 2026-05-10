@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 195,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "discuss.channel.public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "dea317c2d5e3973cbf3a566e4ae35981db6578717289e069e81aa8b3f15c02a7",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_discuss_channel_public"
+}

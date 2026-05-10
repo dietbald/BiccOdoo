@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 52937,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      577,
+      "Opp. Lost Reason"
+    ],
+    "name": "x_studio_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "157fb9d2c27fbd8f205f3892660c95fead6b6e8621a6fa2fabc9ec629c396888",
+  "write_date": "2025-12-29 06:59:03",
+  "xml_id": "studio_customization.currency_opp_lost_re_f4e8a4ab-2762-4fe9-ac9a-34002f799d5e"
+}

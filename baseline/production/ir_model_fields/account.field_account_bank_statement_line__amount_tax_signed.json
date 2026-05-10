@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4856,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Signed",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "amount_tax_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "8cb885f2e8954eca689bcc1c78d36c033d4c9bf8bf88af5ac2c1ad3feacfb2de",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__amount_tax_signed"
+}

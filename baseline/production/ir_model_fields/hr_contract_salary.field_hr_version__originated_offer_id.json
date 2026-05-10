@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23566,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Originated Offer",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "originated_offer_id",
+    "relation": "hr.contract.salary.offer",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "86dea3adc056c3ef91ff6613243fad5e5be78a3eceee014765d48b0b0b8a96d2",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_version__originated_offer_id"
+}

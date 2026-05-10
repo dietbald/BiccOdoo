@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5948,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Provider Type",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "provider_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "f30add3894abaf0d3287f144365cf62a49f190aa3bc3c3a76f9d4dab639c4771",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__provider_type"
+}

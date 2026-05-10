@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 122,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Record ID",
+    "model_id": [
+      10,
+      "Model Data"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "caaf1f85c61f3d754f68b51efa53c3bbb5dbbcfa24a4e27d80bdf70a2c5f3ac6",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_data__res_id"
+}

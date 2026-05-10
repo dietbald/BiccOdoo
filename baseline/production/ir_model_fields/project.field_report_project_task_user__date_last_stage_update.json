@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Stage Update",
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "date_last_stage_update",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "25b2de48f9b6e34a6124a3151cec1139465468a465a453ddc510182a352cf58a",
+  "write_date": "",
+  "xml_id": "project.field_report_project_task_user__date_last_stage_update"
+}

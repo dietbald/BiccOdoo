@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4936,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "710378bf7a7cfc0a3ddb140bf8e4b6f57abe4add76158ef68fad220eedb64cd0",
+  "write_date": "",
+  "xml_id": "account.field_res_company__message_has_error"
+}

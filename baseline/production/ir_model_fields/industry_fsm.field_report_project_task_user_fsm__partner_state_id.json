@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20891,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer State",
+    "model_id": [
+      1063,
+      "FSM Tasks Analysis"
+    ],
+    "name": "partner_state_id",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6fcd2e6d360e61bffd895273305d13b9acd7512cda627b0704311d79d145549d",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_report_project_task_user_fsm__partner_state_id"
+}

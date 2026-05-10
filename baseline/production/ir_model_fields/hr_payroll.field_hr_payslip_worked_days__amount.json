@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12963,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount",
+    "model_id": [
+      822,
+      "Payslip Worked Days"
+    ],
+    "name": "amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "0052c16c6827b2f783994f8ee972f59d08c6fc3fdf80613d401f512601820a73",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_worked_days__amount"
+}

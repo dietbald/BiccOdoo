@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12315,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Trashed",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "to_delete",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "6e8747637790368aba877352fe6fea3b8c5003a1a33bc42011fa2e12b90a871a",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__to_delete"
+}

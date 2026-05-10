@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3746,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      410,
+      "Payment Transaction"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "fdc93ef645e0277696ab443a20110dcf648d2c3222f9de275cec72192c1da712",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__create_date"
+}

@@ -1,0 +1,26 @@
+<data><field name="delay" position="after">
+                <field name="show_set_supplier_button" column_invisible="True"/>
+                <field name="last_purchase_date" width="auto"/>
+                <button name="action_set_supplier" type="object" string="Set as Supplier" class="btn btn-link" invisible="not show_set_supplier_button"/>
+            </field>
+            <xpath expr="//list" position="attributes">
+                <attribute name="decoration-bf">parent.supplierinfo_id == id</attribute>
+            </xpath>
+            <field name="sequence" position="attributes">
+                <attribute name="column_invisible">True</attribute>
+            </field>
+            <field name="min_qty" position="attributes">
+                <attribute name="decoration-danger">min_qty &gt; parent.qty_to_order</attribute>
+            </field>
+            <field name="company_id" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+            <field name="product_uom_id" position="attributes">
+                <attribute name="widget"/>
+            </field>
+            <field name="delay" position="attributes">
+                <attribute name="string">Delivery Time</attribute>
+                <attribute name="optional">show</attribute>
+                <attribute name="width">auto</attribute>
+            </field>
+        </data>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28053,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3330,
+      "Task Sharing"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6e404b156bd6a6d25a15f24b0fcad1a7b4ec634cde4520ced711abeba72fc745",
+  "write_date": "",
+  "xml_id": "project.field_task_share_wizard__create_uid"
+}

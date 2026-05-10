@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23761,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Headers/Footers",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "quotation_document_ids",
+    "relation": "quotation.document",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f56221e9ff7f925e113dc72fdbb9f30ac16f52651924f4872e13f4ab3b4a3f8d",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_sale_order__quotation_document_ids"
+}

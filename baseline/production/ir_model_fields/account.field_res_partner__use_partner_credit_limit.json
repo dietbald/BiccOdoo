@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3857,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner Limit",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "use_partner_credit_limit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8e950dc7c1131a383480bbb57ef13e2fa91b101b8e564ec73a84c04a1f469c76",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__use_partner_credit_limit"
+}

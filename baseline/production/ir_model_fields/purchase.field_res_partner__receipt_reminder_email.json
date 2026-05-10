@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9505,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Receipt Reminder",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "receipt_reminder_email",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4dcc6b6b8607215fd335b06cb23767cf0565ec2e4831b6e81e43e46df9dd9811",
+  "write_date": "",
+  "xml_id": "purchase.field_res_partner__receipt_reminder_email"
+}

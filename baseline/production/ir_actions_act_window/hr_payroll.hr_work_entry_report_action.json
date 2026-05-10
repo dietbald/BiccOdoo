@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 844,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_filter_date': True,\n            'search_default_filter_work_entry_validated': True,\n            'group_default_work_entry_type_id': True\n        }",
+    "domain": "[('company_id', 'in', allowed_company_ids)]",
+    "name": "Work Entries Analysis",
+    "res_model": "hr.work.entry.report",
+    "target": "current",
+    "view_mode": "pivot"
+  },
+  "payload_sha256": "ef57b783530cc34ee21139ea593c5eb702ffb3d3a94b8cece301a2334664baf4",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.hr_work_entry_report_action"
+}

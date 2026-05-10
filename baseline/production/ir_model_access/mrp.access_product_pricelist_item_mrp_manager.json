@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1427,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      118,
+      "Manufacturing / Administrator"
+    ],
+    "model_id": [
+      368,
+      "Pricelist Rule"
+    ],
+    "name": "product.pricelist.item mrp_manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b38891ec87953cfc432acd8f1e0bbebc16f6100eee4a4b563134620a82cd1d79",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_product_pricelist_item_mrp_manager"
+}

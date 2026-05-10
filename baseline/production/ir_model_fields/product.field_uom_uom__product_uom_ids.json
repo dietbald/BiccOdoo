@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24710,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Barcodes",
+    "model_id": [
+      137,
+      "Product Unit of Measure"
+    ],
+    "name": "product_uom_ids",
+    "relation": "product.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "780b177051e6ee1a2abfe8265e0d71eb6afae1b8140d50967afcd00aef0a665e",
+  "write_date": "",
+  "xml_id": "product.field_uom_uom__product_uom_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22750,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lock Purchases For Everyone",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "purchase_lock_date_for_everyone",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "7c39a3da5e459371a485c594f6ec766b80fa78f29eb6b7d399d6597ff7d43e79",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__purchase_lock_date_for_everyone"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11109,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "On Hand",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "qty_on_hand",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "45f7f4955ed9435b41685b07bdb122cc0f938ff5c1e0527b15c35dec5a350ece",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__qty_on_hand"
+}

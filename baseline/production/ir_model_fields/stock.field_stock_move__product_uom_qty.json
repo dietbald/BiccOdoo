@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10935,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Demand",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "product_uom_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "cb7b4183d30c257f048be7c02256e9c144b01f6b00d160a9beb57c2c29486645",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__product_uom_qty"
+}

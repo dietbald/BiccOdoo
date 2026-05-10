@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6873,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timezone",
+    "model_id": [
+      564,
+      "Event Recurrence Rule"
+    ],
+    "name": "event_tz",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "132f423f48f07c9c6b9bb2a99d3351344d681485e15f7ac1ef94e7554c3bbbaf",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_recurrence__event_tz"
+}

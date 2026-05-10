@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3348,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      386,
+      "Grant Portal Access"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "724a8fae081080146e82fafdfd83e6b526324c33d9885ebedfa37e5045997149",
+  "write_date": "",
+  "xml_id": "portal.field_portal_wizard__create_uid"
+}

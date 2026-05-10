@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 885,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            \"is_timesheet\": 1,\n        }",
+    "domain": "[('project_id', '!=', False)]",
+    "name": "Timesheet",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "pivot,list,form"
+  },
+  "payload_sha256": "b5715b011c154aeb299795eb69cbd3c34c0634be77ca1b822eaff1750a5a8c4b",
+  "write_date": "2025-12-09 03:00:38",
+  "xml_id": "sale_timesheet.timesheet_action_plan_pivot"
+}

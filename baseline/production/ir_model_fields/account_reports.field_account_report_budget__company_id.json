@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20842,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1247,
+      "Accounting Report Budget"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fa836ca1598b1ee9fb12d73844be633f9059eecf1bc03a1447e69b7a1f97b181",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report_budget__company_id"
+}

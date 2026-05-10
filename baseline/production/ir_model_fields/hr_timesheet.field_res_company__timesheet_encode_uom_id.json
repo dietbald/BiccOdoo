@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13419,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Encoding Unit",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "timesheet_encode_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "de5c4e5ce06010d2b8fededb51d47139cd7bf86469ce10618daf5b5911b12bbf",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_res_company__timesheet_encode_uom_id"
+}

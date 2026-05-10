@@ -1,0 +1,1 @@
+action = env['data_merge.record'].action_deduplicates(records)

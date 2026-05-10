@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3489,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Record reference",
+    "model_id": [
+      400,
+      "SMS Template Preview"
+    ],
+    "name": "resource_ref",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "reference"
+  },
+  "payload_sha256": "db9ae1b46ed1c0cab21c58904a9e15481e3210ae2e518bf8ba358545c09593af",
+  "write_date": "",
+  "xml_id": "sms.field_sms_template_preview__resource_ref"
+}

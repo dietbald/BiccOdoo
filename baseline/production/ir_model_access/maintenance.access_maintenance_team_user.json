@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1570,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "maintenance.team.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ffc701ad5838eda63c89ca628cabc5f22c3afbce4d76fa911e054f0cb696e8c5",
+  "write_date": "2025-12-09 02:56:02",
+  "xml_id": "maintenance.access_maintenance_team_user"
+}

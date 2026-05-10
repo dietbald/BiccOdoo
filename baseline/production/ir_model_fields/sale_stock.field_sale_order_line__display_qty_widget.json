@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12035,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Qty Widget",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "display_qty_widget",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "757d25a497c13b4a4ad722bd113ee5b3ecaba22be089c26dedf7968b90e47ab8",
+  "write_date": "",
+  "xml_id": "sale_stock.field_sale_order_line__display_qty_widget"
+}

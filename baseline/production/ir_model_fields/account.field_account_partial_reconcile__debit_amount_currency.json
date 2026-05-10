@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4511,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debit Amount Currency",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "debit_amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "4e1085190abad754e8181e1e4714e34de8b41f6fd7179c0524e6cdcbd93f358a",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__debit_amount_currency"
+}

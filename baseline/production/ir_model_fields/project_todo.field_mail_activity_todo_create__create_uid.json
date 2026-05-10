@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8072,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      612,
+      "Create activity and todo at the same time"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "da7f1ec28b8703dca17a55d44d9894a94be498e6a5dff49eaf762f8e641c099e",
+  "write_date": "",
+  "xml_id": "project_todo.field_mail_activity_todo_create__create_uid"
+}

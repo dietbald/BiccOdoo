@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4984,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expense Accrual Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "expense_accrual_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8a046aa5e04ace63912506b940936a23658705040ff1aa371828f6f0e40d4b29",
+  "write_date": "",
+  "xml_id": "account.field_res_company__expense_accrual_account_id"
+}

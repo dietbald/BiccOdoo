@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17334,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resupply Subcontractor",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "subcontracting_route_id",
+    "relation": "stock.route",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "545d65be05b257531b1169fe8061def554aae1ad82bee9c0e226d09403160253",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_stock_warehouse__subcontracting_route_id"
+}

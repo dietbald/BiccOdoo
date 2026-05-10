@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15300,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Book",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "schedule_based_on",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "6f6632d90438c1ed6fc57d8385cf30277d6072c58a27606a172501c0fd6f729d",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__schedule_based_on"
+}

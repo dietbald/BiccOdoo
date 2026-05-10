@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7523,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer",
+    "model_id": [
+      593,
+      "Rating"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0a74ff82856021353bce24adc2cc289f144c53bb207d1c9ede3a5c39609f6032",
+  "write_date": "",
+  "xml_id": "rating.field_rating_rating__partner_id"
+}

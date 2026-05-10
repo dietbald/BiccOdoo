@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 87,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Module",
+    "model_id": [
+      7,
+      "Model Constraint"
+    ],
+    "name": "module",
+    "relation": "ir.module.module",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9a16d9c956d07d8a308e730c63f2a14de1db476e89d68fa108347140074057eb",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_constraint__module"
+}

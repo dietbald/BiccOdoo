@@ -1,0 +1,3 @@
+<t name="Status Widget Template" t-name="project.portal_my_tasks_state_widget_template">
+        <span t-att-title="dict(task.fields_get(allfields=['state'])['state']['selection'])[task.state]" t-attf-class="#{'fa' if task.state in ['1_done','1_canceled','04_waiting_normal'] else 'o_status rounded-circle' } #{'fa-check-circle text-success' if task.state == '1_done' else 'fa-times-circle text-danger' if task.state == '1_canceled' else 'bg-warning' if task.state == '02_changes_requested' else 'bg-success' if task.state == '03_approved' else 'fa-hourglass-o' if task.state == '04_waiting_normal' else ''}"/>
+    </t>

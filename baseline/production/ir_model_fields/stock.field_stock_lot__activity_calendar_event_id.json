@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11131,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bdd5b6397f1255b48cb552a0e2df9554a33c2c26d7e857263e41e5052a2a1022",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__activity_calendar_event_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6804,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      556,
+      "UTM Campaign"
+    ],
+    "name": "stage_id",
+    "relation": "utm.stage",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "febfb2113437f2019386e495c65663e4511f392a3b0f37ae1c7332c7a99d50be",
+  "write_date": "",
+  "xml_id": "utm.field_utm_campaign__stage_id"
+}

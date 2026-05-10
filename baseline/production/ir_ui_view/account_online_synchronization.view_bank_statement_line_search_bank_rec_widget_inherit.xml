@@ -1,0 +1,4 @@
+<xpath expr="//filter[@name='date']" position="before">
+                    <filter name="fetched_lines" string="Fetched Transactions" domain="[('id', 'in', context.get('fetched_stmt_line_ids', []))]" invisible="not context.get('fetched_stmt_line_ids')"/>
+                    <separator/>
+                </xpath>

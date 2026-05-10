@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1087,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transitively Implied Groups",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "all_implied_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "b8511d22bd7eabe2f0186a234e9cfddd11d1b399dcba162578307afdf3dc0b55",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__all_implied_ids"
+}

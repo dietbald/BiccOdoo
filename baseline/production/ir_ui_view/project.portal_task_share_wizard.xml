@@ -1,0 +1,13 @@
+<data><xpath expr="//button[hasclass('btn-default')]" position="replace">
+                <button string="Discard" class="btn-default" special="cancel" data-hotkey="x"/>
+            </xpath>
+            <xpath expr="//button[hasclass('btn-primary')]" position="attributes">
+                <attribute name="invisible">project_privacy_visibility in ['invited_users', 'followers']</attribute>
+            </xpath>
+            <xpath expr="//field[@name='note']" position="attributes">
+                <attribute name="invisible">project_privacy_visibility in ['invited_users', 'followers']</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_ids']" position="attributes">
+                <attribute name="invisible">project_privacy_visibility in ['invited_users', 'followers']</attribute>
+            </xpath>
+        </data>

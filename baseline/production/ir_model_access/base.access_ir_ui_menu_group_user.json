@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 31,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      14,
+      "Menu"
+    ],
+    "name": "ir_ui_menu group_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8f799b95f37eacbd964b0a44e04f5dda220d9d197d1ca33fef23a6e333c792e8",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_ui_menu_group_user"
+}

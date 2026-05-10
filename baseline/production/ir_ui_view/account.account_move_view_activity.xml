@@ -1,0 +1,17 @@
+<activity string="Account Entry">
+                    <field name="currency_id"/>
+                    <templates>
+                        <div t-name="activity-box" class="d-block">
+                            <div class="d-flex justify-content-between">
+                                <field name="name" string="Entry Name" class="o_text_block o_text_bold"/>
+                                <div class="m-1"/>
+                                <field name="amount_total" widget="monetary"/>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <field name="commercial_partner_id" string="Commercial Entity" class="o_text_block"/>
+                                <div class="m-1"/>
+                                <field name="state" widget="badge" decoration-info="state == 'draft'" decoration-success="state == 'posted'"/>
+                            </div>
+                        </div>
+                    </templates>
+                </activity>

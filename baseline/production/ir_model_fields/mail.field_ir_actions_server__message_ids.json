@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26969,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "901807a5e62ffec3aa539886d40f5a0e5c98563ff8eca17422c7ea9a4651fac1",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11207,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Create Backorder",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "create_backorder",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "1977bcc7c5eebf2098a1f27ec869c9d90850f808deba221c313fd2ec097e7af4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__create_backorder"
+}

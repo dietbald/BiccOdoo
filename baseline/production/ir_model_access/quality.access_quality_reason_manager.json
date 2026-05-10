@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1462,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      125,
+      "Quality / Administrator"
+    ],
+    "model_id": [
+      988,
+      "Root Cause for Quality Failure"
+    ],
+    "name": "quality.reason",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "35587c6899af23c07187e52d36c49ef686f27e2785304f10e9290aca8819a656",
+  "write_date": "2025-12-09 02:58:46",
+  "xml_id": "quality.access_quality_reason_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16296,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Production Date",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "production_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "d88bbb0c1076e6cc5f3f5986e5e123b2cf057d5bd6efd6bcbbb46adc73868c2e",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__production_date"
+}

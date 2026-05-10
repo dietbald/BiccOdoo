@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 916,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Commercial Entity",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "commercial_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ac7780ab98ef305079fcb56ab10d8c81cac4cfd58fb53dcb4ff1a546272a7940",
+  "write_date": "",
+  "xml_id": "base.field_res_partner__commercial_partner_id"
+}

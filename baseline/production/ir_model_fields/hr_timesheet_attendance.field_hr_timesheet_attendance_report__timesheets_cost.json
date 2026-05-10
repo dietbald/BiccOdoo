@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13490,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Cost",
+    "model_id": [
+      848,
+      "Timesheet Attendance Report"
+    ],
+    "name": "timesheets_cost",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "3135f029071e44b58f3307c184ae329c8102b4bbb4bd151a01f27ca1ee87d6ed",
+  "write_date": "",
+  "xml_id": "hr_timesheet_attendance.field_hr_timesheet_attendance_report__timesheets_cost"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2398,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d05f070f18635ba792b7dbd246740248a806ee8803a77db4c00c4c480bdcfc64",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__create_uid"
+}

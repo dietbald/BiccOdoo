@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11271,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "13c0b7a8b080e0669ee73143082483f5660d245dbd2a2fa3ce056df7832ad7bf",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__company_id"
+}

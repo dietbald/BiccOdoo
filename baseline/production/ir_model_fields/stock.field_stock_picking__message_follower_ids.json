@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11228,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6db7b8f72df942ae84a5e4a7900b5649cc363f49d9fa1ff9aec8e1141ba372da",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking__message_follower_ids"
+}

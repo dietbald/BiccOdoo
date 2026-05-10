@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6294,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a4d0b2a224997453ea1600892de2fb6d6872eb35ef85014860752ba43d464412",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__write_uid"
+}

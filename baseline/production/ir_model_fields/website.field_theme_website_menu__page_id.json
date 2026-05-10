@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10140,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Page",
+    "model_id": [
+      692,
+      "Website Theme Menu"
+    ],
+    "name": "page_id",
+    "relation": "theme.website.page",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9a220fb2e4d6b59d08100a54362905a1446293b2ef9d8b443c2fa7438f81cb90",
+  "write_date": "",
+  "xml_id": "website.field_theme_website_menu__page_id"
+}

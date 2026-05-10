@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19784,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ignore Abnormal Invoice Amount",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "ignore_abnormal_invoice_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "961d2a4580b31b041083cf7dff7c86d1bb5a13bb5f9e32fc4c87ad373c7e59d4",
+  "write_date": "",
+  "xml_id": "account.field_res_partner__ignore_abnormal_invoice_amount"
+}

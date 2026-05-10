@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 429,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('res_model', '=', 'project.task'), ('res_id', '=', active_id), ('consumed', '=', True)]",
+    "name": "Ratings",
+    "res_model": "rating.rating",
+    "target": "current",
+    "view_mode": "kanban,list,pivot,graph,form"
+  },
+  "payload_sha256": "1eb4b2cf47999e222668efb142033ba639245928c0e4ef29ca309bd308c8c74e",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.rating_rating_action_task"
+}

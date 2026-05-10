@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20316,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Location from procurement",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "location_final_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8016d1d24946c56f067b3515c4769984fc074ea4d45285ca78b15c158c5e82ca",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_purchase_order_line__location_final_id"
+}

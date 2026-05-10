@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21214,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Role",
+    "model_id": [
+      1284,
+      "Contract Signatories"
+    ],
+    "name": "sign_role_id",
+    "relation": "sign.item.role",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6c7566e5b7408ce86ed1833243ade3173348208fb737878f4729478a4745f9e1",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_signatory__sign_role_id"
+}

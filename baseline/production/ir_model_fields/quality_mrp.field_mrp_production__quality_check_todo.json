@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18369,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality Check Todo",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "quality_check_todo",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5631547d29069e45ff47c689cf1934d3aadd9d6e9ab87a9231d861ef538819be",
+  "write_date": "",
+  "xml_id": "quality_mrp.field_mrp_production__quality_check_todo"
+}

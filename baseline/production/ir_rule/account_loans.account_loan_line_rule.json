@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 661,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'parent_of', company_ids)]",
+    "groups": [],
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "Account Loan Line multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "80f8a2b717feb25e3204c244564da23e9748bd1f0ecec472d7628ab9fcc71003",
+  "write_date": "2025-12-09 03:00:32",
+  "xml_id": "account_loans.account_loan_line_rule"
+}

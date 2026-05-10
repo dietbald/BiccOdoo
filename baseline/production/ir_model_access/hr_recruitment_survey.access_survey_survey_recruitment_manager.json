@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1663,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      63,
+      "Recruitment / Administrator"
+    ],
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "survey.survey.recruitment.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "40c41aca1cc1e4230ac24d68daa3c7acd5ec602884a8102b336b5ff7e821754e",
+  "write_date": "2026-01-28 12:01:54",
+  "xml_id": "hr_recruitment_survey.access_survey_survey_recruitment_manager"
+}

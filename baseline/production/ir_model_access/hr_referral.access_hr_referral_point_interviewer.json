@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1886,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      61,
+      "Recruitment / Interviewer"
+    ],
+    "model_id": [
+      2600,
+      "Points line for referrals"
+    ],
+    "name": "hr.referral.points.interviewer",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "bb9a27b4058e93c085e74ec1d225ada716f3862857ce594ed4f7cc6a0a2d6239",
+  "write_date": "2026-01-28 12:01:23",
+  "xml_id": "hr_referral.access_hr_referral_point_interviewer"
+}

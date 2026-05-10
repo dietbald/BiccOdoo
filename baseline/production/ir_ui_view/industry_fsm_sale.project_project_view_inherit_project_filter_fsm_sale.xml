@@ -1,0 +1,3 @@
+<field name="sale_order_id" position="attributes">
+                <attribute name="invisible">context.get('fsm_mode') or context.get('default_is_template')</attribute>
+            </field>

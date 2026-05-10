@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5678,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deferred Entry Type",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "deferred_entry_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a3d3f4759cb4885f35e339af5707470d589faa8690d6193781f6307122ac9d3f",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_bank_statement_line__deferred_entry_type"
+}

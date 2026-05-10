@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18794,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "01fce74ec2cf75b3e2e3f5a119bc038b8a3d85de3c20051fb6dfa6190de4e82f",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__partner_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2094,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "To (Partners)",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "recipient_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "af1c75c92cb36dcde1edb9bb01e0c2532873a54bd1dd27b1c1029bca03d4a665",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__recipient_ids"
+}

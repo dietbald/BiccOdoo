@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10490,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fd258e5319762ba052eec8469dfc7bc9378860de677708e376b0d65193045526",
+  "write_date": "",
+  "xml_id": "sign.field_sign_request__activity_calendar_event_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16128,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5515c4417838752a6194dac75493550e7386c2d002c02beeb2c08351d8a0d45f",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__website_message_ids"
+}

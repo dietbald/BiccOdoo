@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3500,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      401,
+      "SMS Template Reset"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "833be41f6aef261928f96701a998dd19865b58c2e6eedd6bb3cb7309056b8d28",
+  "write_date": "",
+  "xml_id": "sms.field_sms_template_reset__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11366,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Packing Location",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "wh_pack_stock_loc_id",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ee028f2b499431ace6bd449c903f704be970f427ec42dd0cb4d3e3424286cdf5",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__wh_pack_stock_loc_id"
+}

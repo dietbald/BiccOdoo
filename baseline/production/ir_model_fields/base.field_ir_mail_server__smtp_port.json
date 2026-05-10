@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 571,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMTP Port",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "smtp_port",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "7a4c9d205c8ad90df7f7ea1783c551179b2111c1d7bcb8f60ca8a50607ebf609",
+  "write_date": "",
+  "xml_id": "base.field_ir_mail_server__smtp_port"
+}

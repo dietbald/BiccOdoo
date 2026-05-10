@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8709,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dependent Children",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "children",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "a8bc96cb1da48ede9250024895aae4dc9a17b8903f603d20d0f3c355626c557c",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__children"
+}

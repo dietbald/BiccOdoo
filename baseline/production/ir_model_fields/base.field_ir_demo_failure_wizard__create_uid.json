@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 706,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      71,
+      "Demo Failure wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2e6ecc336e26d016e2bb58ba49f2974276476314dc3f8f845a901ebb316295f1",
+  "write_date": "",
+  "xml_id": "base.field_ir_demo_failure_wizard__create_uid"
+}

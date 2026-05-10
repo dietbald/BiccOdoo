@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20077,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Track Inventory",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "is_storable",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f8e35b13fca726283ebf4338a659034ea3d206854664e47e45530cfd7008e80f",
+  "write_date": "",
+  "xml_id": "stock.field_product_product__is_storable"
+}

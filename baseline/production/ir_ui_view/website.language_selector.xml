@@ -1,0 +1,20 @@
+<data inherit_id="portal.language_selector">
+    <xpath expr="//t[@t-set='active_lang']" position="before">
+        <t t-if="lang not in frontend_languages">
+            <t t-set="lang" t-value="website.default_lang_id.code"/>
+        </t>
+    </xpath>
+
+    <!-- Add the 'flags' possibility -->
+    <xpath expr="//button[contains(@t-attf-class, 'dropdown-toggle')]/span" position="before">
+        <t t-if="flags">
+            <t t-if="no_text and not codes" t-set="flag_lang_alt" t-value="active_lang.name.split('/').pop()"/>
+            <t t-call="website.lang_flag" flag_image_url="active_lang.flag_image_url"/>
+        </t>
+    </xpath>
+    <xpath expr="//*[contains(@t-attf-class, 'js_change_lang')]/span" position="before">
+        <t t-if="flags">
+            <t t-call="website.lang_flag" flag_image_url="lg.flag_image_url"/>
+        </t>
+    </xpath>
+</data>

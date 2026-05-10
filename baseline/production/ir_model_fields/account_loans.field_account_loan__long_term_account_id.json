@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23884,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Long Term Account",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "long_term_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2c93a2bf2eae6d3ece0b7496979e8eafb5babac756ccfbfdbdc4cfccef399388",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__long_term_account_id"
+}

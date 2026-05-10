@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19037,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Joural To Include",
+    "model_id": [
+      1085,
+      "Exports 2307 data to a XLS file."
+    ],
+    "name": "moves_to_export",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d258a7b77d0d707c381d25fc727bc41d3f76f94885f4410755c7c20072028e29",
+  "write_date": "",
+  "xml_id": "l10n_ph.field_l10n_ph_2307_wizard__moves_to_export"
+}

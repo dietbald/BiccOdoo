@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2934,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e018701c8655bb889cc341c1bb1c381446b633e882c2106b22acefdccba0854a",
+  "write_date": "",
+  "xml_id": "product.field_product_product__activity_user_id"
+}

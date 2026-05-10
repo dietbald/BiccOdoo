@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29623,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Simulation Employee",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "simulation_employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dd9537d0c798d1c3bab866daf4a52a851d93a949383b006ac383e7010673f74f",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_offer__simulation_employee_id"
+}

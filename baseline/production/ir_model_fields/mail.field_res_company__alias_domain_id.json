@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2255,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Domain",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "alias_domain_id",
+    "relation": "mail.alias.domain",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "80c9f589f47ef7eee9d2c055e4f1431edb441f0dd30ce79a87a787f9a479c6cd",
+  "write_date": "",
+  "xml_id": "mail.field_res_company__alias_domain_id"
+}

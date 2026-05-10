@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25657,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2610,
+      "Referral Send Mail"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "348a9bf2f0e01eff406938e3e80e8064332db1e92015a6017a0a358ae3e7f7d6",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_send_mail__create_uid"
+}

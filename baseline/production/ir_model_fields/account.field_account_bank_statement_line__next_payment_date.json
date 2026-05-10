@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22219,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Payment Date",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "next_payment_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "1881dc0462974c859e222b67ef753159503c5f30ff69785f33d6297f24b43ddc",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__next_payment_date"
+}

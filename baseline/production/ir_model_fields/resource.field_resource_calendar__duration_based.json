@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26854,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendance based on duration",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "duration_based",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bd6e6b41af3e07fda5c9b1c820bcdf66e21a85116b850c7717d4fe625c769125",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__duration_based"
+}

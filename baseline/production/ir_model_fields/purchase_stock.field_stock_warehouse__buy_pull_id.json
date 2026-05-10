@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11974,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Buy rule",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "buy_pull_id",
+    "relation": "stock.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1accdcc548bd9ba0e0f921bfe15ea8f2830bc6e52d2c88e945f62e0abcdddc6c",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_stock_warehouse__buy_pull_id"
+}

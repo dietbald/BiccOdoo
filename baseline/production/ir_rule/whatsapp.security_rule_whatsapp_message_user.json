@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 528,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      1049,
+      "WhatsApp Messages"
+    ],
+    "name": "WA Message: Restrict to Own",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "72bf2964c2ff1b04b709830252fa7b124f9516d46a1502fb9615fd50193f4790",
+  "write_date": "2024-05-05 13:35:48",
+  "xml_id": "whatsapp.security_rule_whatsapp_message_user"
+}

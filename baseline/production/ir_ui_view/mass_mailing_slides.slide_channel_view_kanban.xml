@@ -1,0 +1,5 @@
+<xpath expr="//a[@name='action_channel_invite']" position="after">
+                <a role="menuitem" name="action_mass_mailing_attendees" type="object" groups="mass_mailing.group_mass_mailing_user" class="dropdown-item">
+                    Contact Attendees
+                </a>
+            </xpath>

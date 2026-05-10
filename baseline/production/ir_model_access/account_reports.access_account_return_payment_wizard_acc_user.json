@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2054,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      3601,
+      "Returns Generic Payment Wizard"
+    ],
+    "name": "account.return.payment.wizard.acc.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c0131086a2a95db3c0dc58431a6184e7dafc3c4623a014f58be819ac97d9cd8d",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_return_payment_wizard_acc_user"
+}

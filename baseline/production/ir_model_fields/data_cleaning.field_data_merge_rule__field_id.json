@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15087,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unique ID Field",
+    "model_id": [
+      931,
+      "Deduplication Rule"
+    ],
+    "name": "field_id",
+    "relation": "ir.model.fields",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fbd040d58c6f69f486c94e2cc5f1db4b52b0d311110b14a9f3afd5a795933f13",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_merge_rule__field_id"
+}

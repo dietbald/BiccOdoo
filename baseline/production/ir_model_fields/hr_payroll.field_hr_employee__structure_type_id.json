@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23640,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Structure Type",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "structure_type_id",
+    "relation": "hr.payroll.structure.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a45803f91ffe9813ba440ee0e5762f1959f1769e72c5c5e9c9f9813c31fbb341",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_employee__structure_type_id"
+}

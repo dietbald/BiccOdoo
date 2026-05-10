@@ -1,0 +1,16 @@
+<search>
+                    <field name="category"/>
+                    <field name="report_id"/>
+                    <field name="country_id"/>
+                    <field name="deadline_periodicity"/>
+                    <field name="deadline_start_date"/>
+                    <field name="payment_partner_id"/>
+                    <field name="payment_partner_bank_id"/>
+
+                    <filter name="tax_return" string="Tax Return" domain="[('category', '=', 'account_return')]"/>
+                    <filter name="audit" string="Audit" domain="[('category', '=', 'audit')]"/>
+
+                    <filter name="groupby_category" string="Category" context="{'group_by': 'category'}"/>
+                    <filter name="groupby_country" string="Country" context="{'group_by': 'country_id'}"/>
+                    <filter name="groupby_periodicity" string="Periodicity" context="{'group_by': 'deadline_periodicity'}"/>
+                </search>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15457,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off Approver",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "leave_manager_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "35417236bc1d96bba9c88a33249f42e5936597156c16d317bd4d2c092911066a",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_employee__leave_manager_id"
+}

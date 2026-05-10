@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7384,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      583,
+      "Get Lost Reason"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "12470f75235b59a19987212439b0e9fc3bfd6cc7e385fa5790750334311eb318",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead_lost__create_uid"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 735,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      624,
+      "Quotation Template"
+    ],
+    "name": "sale.order.template",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8eafdc96d7a44cb53cdb65321f7a351279594f71404c4deaa65e3a74470e6e14",
+  "write_date": "2025-12-09 03:00:10",
+  "xml_id": "sale_management.access_sale_order_template_system"
+}

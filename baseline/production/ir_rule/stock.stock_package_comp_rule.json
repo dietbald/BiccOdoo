@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 300,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "stock_package multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a92828148289ff570113dadc68dbdf2d1e7f852c7fdf319e19185ef3026d43e3",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "stock.stock_package_comp_rule"
+}

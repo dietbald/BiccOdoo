@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16660,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fcc4a109db8673436afae95d34dd24f643fa491b3b6c44b7ef4859d3bc926486",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__activity_ids"
+}

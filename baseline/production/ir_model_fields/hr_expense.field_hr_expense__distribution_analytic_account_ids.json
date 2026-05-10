@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22847,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution Analytic Account",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "distribution_analytic_account_ids",
+    "relation": "account.analytic.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "cb7aad842e71bf9c1e15ed5e0a7ce7425655c6f0c63d6d253642091573745bc3",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__distribution_analytic_account_ids"
+}

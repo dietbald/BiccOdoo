@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1305,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Model to Export",
+    "model_id": [
+      114,
+      "Language Export"
+    ],
+    "name": "model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "22eea6e171c1040bfe918e0f0f7c7b8a2c4adca1247ec5e5a04aa07363fdcf95",
+  "write_date": "",
+  "xml_id": "base.field_base_language_export__model_id"
+}

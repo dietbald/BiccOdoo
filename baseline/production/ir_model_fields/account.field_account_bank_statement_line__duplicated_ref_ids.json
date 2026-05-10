@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4893,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Duplicated Ref",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "duplicated_ref_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "087388bd222766a24ea4b7ab677abd78428daa12c8838a6f3e7d954293e78eb5",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__duplicated_ref_ids"
+}

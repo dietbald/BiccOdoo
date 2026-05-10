@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 537,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Export",
+    "model_id": [
+      35,
+      "Exports Line"
+    ],
+    "name": "export_id",
+    "relation": "ir.exports",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d27402a04f55e7e81d3778c08f9a8581ea922f0e694865530a283c35fc301cc8",
+  "write_date": "",
+  "xml_id": "base.field_ir_exports_line__export_id"
+}

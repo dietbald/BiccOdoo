@@ -1,0 +1,3 @@
+<t name="Website Searchbox item highlight" t-name="website.search_text_with_highlight">
+    <span t-foreach="enumerate(parts)" t-as="part" t-att-class="'text-primary-emphasis' if part[0] % 2 else None" t-out="part[1]"/>
+</t>

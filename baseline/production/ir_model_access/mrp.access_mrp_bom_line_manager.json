@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1398,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      118,
+      "Manufacturing / Administrator"
+    ],
+    "model_id": [
+      961,
+      "Bill of Material Line"
+    ],
+    "name": "mrp.bom.line.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "91dfe6400d5de61dca6fd17c3e5d7d21214a923acf21160d024ca954f0f83ea0",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.access_mrp_bom_line_manager"
+}

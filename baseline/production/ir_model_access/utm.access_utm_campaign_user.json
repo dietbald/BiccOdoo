@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 548,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      556,
+      "UTM Campaign"
+    ],
+    "name": "access_utm_campaign_user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "d8d20a458ee7622755dddc1d148563355f61d1454eb9f3cebaae8f48ab4be20a",
+  "write_date": "2025-12-09 02:55:42",
+  "xml_id": "utm.access_utm_campaign_user"
+}

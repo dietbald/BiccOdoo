@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Valuation by Lot/Serial",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "lot_valuated",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eb96edf7e49927e991e826127be0ec1f92b631959deec90192cb1280f787d5bc",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_template__lot_valuated"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2134,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notifications",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "notification_ids",
+    "relation": "mail.notification",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "61c9fbe37e94316424d5bee46a0e74a39c1bcb32c0bcf2f7aff4600b0a5839af",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__notification_ids"
+}

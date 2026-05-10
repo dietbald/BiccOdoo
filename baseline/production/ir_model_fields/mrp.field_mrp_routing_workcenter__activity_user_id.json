@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      963,
+      "Work Center Usage"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6845d7f66b4e2b77670cacaa658d5b6866010131bab4fed1b9e74c4a09d767e6",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_routing_workcenter__activity_user_id"
+}

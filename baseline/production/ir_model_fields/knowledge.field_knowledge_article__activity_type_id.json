@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12254,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9656736b71255b4ababebcba17b8bd2da5567ea9ddd83a8ac9591137fb0cda56",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__activity_type_id"
+}

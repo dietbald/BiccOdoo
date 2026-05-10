@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 468,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Type",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8e8ad2292779d242f9a7267ec87f5048c934e8f457cac3ef585ee8ae15f60d74",
+  "write_date": "",
+  "xml_id": "whatsapp.field_ir_cron__state"
+}

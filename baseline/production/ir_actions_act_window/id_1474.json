@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1474,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_composition_mode': 'mass_mail', 'default_model': 'hr.applicant', 'default_template_id': 72}",
+    "domain": false,
+    "name": "Send Mail (Recruitment: Request for Resume)",
+    "res_model": "mail.compose.message",
+    "target": "new",
+    "view_mode": "form,list"
+  },
+  "payload_sha256": "bed555ed192899bb5ba73031c634d17a4de4d598865c20e3ea95e3e597ca4284",
+  "write_date": "2025-02-14 09:33:36",
+  "xml_id": null
+}

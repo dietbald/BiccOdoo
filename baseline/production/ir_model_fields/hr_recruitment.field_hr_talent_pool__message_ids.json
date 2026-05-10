@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26105,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      2701,
+      "Talent Pool"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5df8c7db750195bfdf819b82282138b190000565b32758e461be5b48adb6a8d7",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_talent_pool__message_ids"
+}

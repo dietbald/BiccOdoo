@@ -1,0 +1,5 @@
+<search string="Search Badge">
+                <field name="name"/>
+                <separator/>
+                <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+            </search>

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 68,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "SMS Template: system group granted all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "772a5ab464eafd20c78a317048cf9507342b8f7b340fbff5e76a08af362f9a77",
+  "write_date": "2025-12-09 02:56:13",
+  "xml_id": "sms.ir_rule_sms_template_system"
+}

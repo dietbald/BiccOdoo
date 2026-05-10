@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4285,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "091a50f796ec7d7f739b396d3754473a1e79d8b1ae2fe08cadfa3e3f125b2822",
+  "write_date": "",
+  "xml_id": "account.field_account_move__activity_user_id"
+}

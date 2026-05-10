@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19117,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7e2a147a526cded9c6ce1d4cb6a4351591ebfbd0f271a2382802a00c070651f8",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__create_uid"
+}

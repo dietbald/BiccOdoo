@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1123,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_filter_date_start': 1}",
+    "domain": false,
+    "name": "Costs Analysis",
+    "res_model": "fleet.vehicle.cost.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "2a7534e3da1725a936a850607b4e3780a49ae80ecb851bc2658d60b8a5971245",
+  "write_date": "2025-12-09 02:55:54",
+  "xml_id": "fleet.fleet_costs_reporting_action"
+}

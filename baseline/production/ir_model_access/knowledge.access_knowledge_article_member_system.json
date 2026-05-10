@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1093,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      789,
+      "Article Member"
+    ],
+    "name": "access.knowledge.article.member.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "7d508a81dcc31b63f2a31adbaa3a0f9ba1140b615e93fb01f5783606510d5a62",
+  "write_date": "2025-12-09 02:57:21",
+  "xml_id": "knowledge.access_knowledge_article_member_system"
+}

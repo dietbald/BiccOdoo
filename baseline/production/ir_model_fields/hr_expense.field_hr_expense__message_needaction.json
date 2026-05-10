@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9137,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eb96192c2dbab27f7a2d6fcfe3e997d94f60f201ad0c343754b9a818b6d026c5",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__message_needaction"
+}

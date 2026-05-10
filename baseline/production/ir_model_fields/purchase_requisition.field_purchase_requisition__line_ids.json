@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Products to Purchase",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "line_ids",
+    "relation": "purchase.requisition.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a438ca0f05d0ad57b6f52b0c44c60ee87c5be5f7b8cee376d36e80ff05be5ff0",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__line_ids"
+}

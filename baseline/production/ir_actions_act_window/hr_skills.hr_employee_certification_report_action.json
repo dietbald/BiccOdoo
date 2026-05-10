@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1674,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_employee': 1,\n        }",
+    "domain": false,
+    "name": "Certification",
+    "res_model": "hr.employee.certification.report",
+    "target": "current",
+    "view_mode": "list,pivot"
+  },
+  "payload_sha256": "491815a5cf0cedbbee886beeebf15550659b00b005db386b8af7ea117b6c8143",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.hr_employee_certification_report_action"
+}

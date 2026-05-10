@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1951,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      153,
+      "Accountant"
+    ],
+    "model_id": [
+      430,
+      "Rules for the reconciliation model"
+    ],
+    "name": "account.reconcile.model.line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "dd4dd0d1439ff1adedb4eeb7797b1833d9fa2d80bdf1b086c6ec9a4bb70cdee9",
+  "write_date": "2025-12-05 01:31:32",
+  "xml_id": null
+}

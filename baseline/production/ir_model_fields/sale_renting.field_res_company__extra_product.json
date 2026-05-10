@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26544,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "extra_product",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "70c6ad0be0179e52932fabcd43e19565bdd3255f1e590ee9147f743ae72e30c9",
+  "write_date": "",
+  "xml_id": "sale_renting.field_res_company__extra_product"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10940,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Intermediate Location",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "location_dest_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d50bb71e120e05f61751ab8b88b544d7c7d6a5f123076e8e0212d33d2cd1c4c1",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__location_dest_id"
+}

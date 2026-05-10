@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 186,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Original View",
+    "model_id": [
+      15,
+      "Custom View"
+    ],
+    "name": "ref_id",
+    "relation": "ir.ui.view",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eb84735365f1d2674d75e85f2810318122ed3e790f63a38479d12620d5ca20d0",
+  "write_date": "",
+  "xml_id": "base.field_ir_ui_view_custom__ref_id"
+}

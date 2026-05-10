@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 592,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      953,
+      "Time Off Summary / Report"
+    ],
+    "name": "Time Off Report: multi company global rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6913229f27433897ffcc6f6a1eaaca075ec83b21bf1b3bd5c23f13b9a2154840",
+  "write_date": "2024-10-23 10:49:12",
+  "xml_id": "hr_holidays.hr_leave_report_rule_multi_company"
+}

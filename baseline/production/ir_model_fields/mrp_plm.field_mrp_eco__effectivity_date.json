@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17519,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Effective Date",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "effectivity_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "2262e4b6a487775502934586275359430d13cac171b1bb6a54c021831081c7b5",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__effectivity_date"
+}

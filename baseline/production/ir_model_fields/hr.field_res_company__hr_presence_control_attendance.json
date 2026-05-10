@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22488,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Based on attendances",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "hr_presence_control_attendance",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "aabdf283249646bdd8ba125ba3c1f9eeb147924d2c6e71ea0775dabe713985bf",
+  "write_date": "",
+  "xml_id": "hr.field_res_company__hr_presence_control_attendance"
+}

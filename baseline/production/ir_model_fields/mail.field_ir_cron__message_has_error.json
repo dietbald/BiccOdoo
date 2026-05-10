@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27004,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1b49571cdae9b4aabd87e671e9d22fdd57405c367963ac417a30cc20f7fe4b9f",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__message_has_error"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 925,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('mailing_type', '=', 'mail')]",
+    "name": "Mass Mailing Analysis",
+    "res_model": "mailing.trace.report",
+    "target": "current",
+    "view_mode": "graph,pivot,list"
+  },
+  "payload_sha256": "a35c6d4c4d5876f2a2a3039e583b19dfd667b474c9073f743676cad6e21b8b05",
+  "write_date": "2025-12-09 03:00:45",
+  "xml_id": "mass_mailing.mailing_trace_report_action_mail"
+}

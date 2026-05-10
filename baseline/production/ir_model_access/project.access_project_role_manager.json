@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2015,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      41,
+      "Project / Administrator"
+    ],
+    "model_id": [
+      3322,
+      "Project Role"
+    ],
+    "name": "project.role.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8e6fe8ff9f82f68847a8d509d7078eb7afa2dc615b75a1f73e956a26421c0729",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_role_manager"
+}

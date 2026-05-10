@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 708,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      71,
+      "Demo Failure wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ca39a000639795853f0d1be46c8033082b7f21d75cbc6c654dbf75c21662d8a2",
+  "write_date": "",
+  "xml_id": "base.field_ir_demo_failure_wizard__write_uid"
+}

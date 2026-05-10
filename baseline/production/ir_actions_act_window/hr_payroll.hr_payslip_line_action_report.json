@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1708,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_is_paid': 1, \n            'search_default_is_done': 1, \n            'search_default_date_from': 1\n        }",
+    "domain": false,
+    "name": "Payslip Lines Report",
+    "res_model": "hr.payslip.line",
+    "target": "current",
+    "view_mode": "pivot,list"
+  },
+  "payload_sha256": "e1fc40803844ae6b66f863b5eda56e3420d341d7cacf66e2c5ba700b6f9e2b34",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.hr_payslip_line_action_report"
+}

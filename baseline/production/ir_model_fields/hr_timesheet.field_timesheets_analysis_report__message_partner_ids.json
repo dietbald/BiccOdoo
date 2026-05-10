@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Partner",
+    "model_id": [
+      846,
+      "Timesheets Analysis Report"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "124610e43fc929814401969bf5029fcf6464c58b6754a29d0665eae44028a178",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_timesheets_analysis_report__message_partner_ids"
+}

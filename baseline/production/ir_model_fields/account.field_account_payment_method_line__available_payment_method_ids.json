@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4715,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Payment Method",
+    "model_id": [
+      440,
+      "Payment Methods"
+    ],
+    "name": "available_payment_method_ids",
+    "relation": "account.payment.method",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "834cfd08432a1546c3dfc657bc22f55de75da837f08b6106d38c1639a3ced56f",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_method_line__available_payment_method_ids"
+}

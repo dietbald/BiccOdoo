@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 12,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n                    <p style=\"margin: 0px; padding: 0px;\">\n                        <t t-if=\"object.id != object.commercial_partner_id.id\">Dear <t t-out=\"object.name or ''\"></t> (<t t-out=\"object.commercial_partner_id.name or ''\"></t>),</t>\n                        <t t-else=\"\">Dear <t t-out=\"object.name or ''\"></t>,</t>\n                        <br>\n                    </p>\n                    <p>\n                        It has come to our attention that you have\u00a0an outstanding balance of <t t-out=\"format_amount(object.total_overdue, object.currency_id) or ''\"></t>\n                        <br>\n                    </p>\n                    <p>\n                        We kindly request that you take necessary action to settle this amount within the next 8 days.\n                    </p>\n                    <p>\n                        If you have already made the payment after receiving this message, please disregard it.\n                        Our accounting department is available if you require any assistance or have any questions.\n                        <br>\n                    </p>\n                    <p>\n                        Thank you for your cooperation.\n                        <br>\n                    </p>\n                    <p>\n                        Sincerely,\n                        <t t-if=\"not is_html_empty(object._get_followup_responsible().signature)\">\n                            <br>\n                            <t t-out=\"object._get_followup_responsible().signature\"></t>\n                        </t>\n                        <t t-else=\"\">\n                            <br>\n                            --\n                            <br>\n                            <t t-out=\"object._get_followup_responsible().name\"></t>\n                        </t>\n                    </p>\n                </div>\n            ",
+    "email_from": "{{ object._get_followup_responsible().email_formatted }}",
+    "email_to": false,
+    "lang": "{{ object.lang }}",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "Payment Reminder",
+    "subject": "{{ (object.company_id or object._get_followup_responsible().company_id).name }} Payment Reminder - {{ object.commercial_company_name }}"
+  },
+  "payload_sha256": "d60ebaf849df78804d438e11addda434bc3ceff2f15079afed66800c104f0258",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account_followup.email_template_followup_1"
+}

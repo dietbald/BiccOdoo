@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1795,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blacklist",
+    "model_id": [
+      156,
+      "Mail Blacklist mixin"
+    ],
+    "name": "is_blacklisted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "bcbce1b3be0717bc2d509fd41401b87df1ae0a3b5d2b0f5aa24199349f3ab519",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_blacklist__is_blacklisted"
+}

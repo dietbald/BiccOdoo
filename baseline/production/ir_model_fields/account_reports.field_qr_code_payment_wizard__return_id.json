@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29084,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Return",
+    "model_id": [
+      3604,
+      "Generic Payment Wizard with QR Code"
+    ],
+    "name": "return_id",
+    "relation": "account.return",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f6d030063b259c0e209128df310b36a010312e872c6f01d9d9c0b7de5b3b7443",
+  "write_date": "",
+  "xml_id": "account_reports.field_qr_code_payment_wizard__return_id"
+}

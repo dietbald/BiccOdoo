@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 403,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "\n            {\n                'default_type': 'opportunity',\n                'force_search_count': 1,\n                'search_default_assigned_to_me': 1,\n            }\n            ",
+    "domain": "[(\"active\", \"in\", [True, False]), (\"activity_ids.active\", \"in\", [True, False])]",
+    "name": "My Activities",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "list,kanban,graph,pivot,calendar,form,activity"
+  },
+  "payload_sha256": "22431a47c7c46f280b893b9db2491cab0789ff5360a4bfff81e18eaeeedbd7fd",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_lead_action_my_activities"
+}

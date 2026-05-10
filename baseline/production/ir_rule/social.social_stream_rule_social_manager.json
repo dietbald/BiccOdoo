@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 511,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      134
+    ],
+    "model_id": [
+      1028,
+      "Social Stream"
+    ],
+    "name": "Social: manager: all",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "eaf5a3a8cf8cb44465ea1d359d291426e51c52e50fbb2344b702dd61c50fc96b",
+  "write_date": "2024-05-05 13:13:20",
+  "xml_id": "social.social_stream_rule_social_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 111,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delete Access",
+    "model_id": [
+      9,
+      "Model Access"
+    ],
+    "name": "perm_unlink",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d10557ed1f4a7b7a21a22119d182dcd74703f6a46e6199630b8c2f349ef146e8",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_access__perm_unlink"
+}

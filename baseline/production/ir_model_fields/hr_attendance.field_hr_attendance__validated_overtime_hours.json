@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22829,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extra Hours",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "validated_overtime_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "f20e4e6ad381415432dd6562fc7ac867659aef8300258175e12b657edfb0d664",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__validated_overtime_hours"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11197,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Package Label to Print",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "package_label_to_print",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3f374f1c94b595dec85462f986edc549cf768b1d51655e545d63e0a9ea852d89",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__package_label_to_print"
+}

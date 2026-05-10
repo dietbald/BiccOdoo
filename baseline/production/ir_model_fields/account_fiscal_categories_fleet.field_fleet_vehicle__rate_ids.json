@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17306,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deductibility Rates",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "rate_ids",
+    "relation": "fleet.disallowed.expenses.rate",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5f6fe5ae489c61322c88affe7c38123b938f137a12e6db160f8021c0bde86c50",
+  "write_date": "",
+  "xml_id": "account_fiscal_categories_fleet.field_fleet_vehicle__rate_ids"
+}

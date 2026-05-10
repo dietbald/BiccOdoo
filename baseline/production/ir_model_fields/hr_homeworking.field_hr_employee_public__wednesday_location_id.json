@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19375,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wednesday",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "wednesday_location_id",
+    "relation": "hr.work.location",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8c82b02acb63e02f1a69f97e26a682ac6ad7b5424343d41ed8a124ec4448de11",
+  "write_date": "",
+  "xml_id": "hr_homeworking.field_hr_employee_public__wednesday_location_id"
+}

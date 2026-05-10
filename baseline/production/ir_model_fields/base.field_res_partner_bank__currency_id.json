@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 964,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f7730d4b748920ae4c074cf26e8165c5c95fd09aab304087298207fec57e2764",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_bank__currency_id"
+}

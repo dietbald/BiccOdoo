@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 209,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('model_id.model', 'in', ('sale.order', 'res.partner'))]",
+    "groups": [
+      37
+    ],
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "SMS Template: sale manager CUD on sale orders",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "77107e08f191e3f1f22f4dece090401e6f5f59ce690f61df67d093beb3535c52",
+  "write_date": "2025-12-09 03:00:14",
+  "xml_id": "sale_sms.ir_rule_sms_template_so_sale_manager"
+}

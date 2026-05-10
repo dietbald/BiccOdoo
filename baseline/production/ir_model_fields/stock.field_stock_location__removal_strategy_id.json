@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10884,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Removal Strategy",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "removal_strategy_id",
+    "relation": "product.removal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "873e327017663df38754209206b404654edf3c8b2ea875e1c8c66af5a4ab234d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__removal_strategy_id"
+}

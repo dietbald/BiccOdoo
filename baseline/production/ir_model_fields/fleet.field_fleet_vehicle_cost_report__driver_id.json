@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17261,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Driver",
+    "model_id": [
+      1011,
+      "Fleet Analysis Report"
+    ],
+    "name": "driver_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f731664e9e7de991ae9370f8314d804fee15c08150f24f4396c94902c5ddc1ac",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_cost_report__driver_id"
+}

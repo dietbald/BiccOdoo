@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 349,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "product.product.account.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "cba45f0e5fdeca716421d8d06ce646b4efec3bcc2320822c9ab3208c23aa8fd7",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_product_product_account_user"
+}

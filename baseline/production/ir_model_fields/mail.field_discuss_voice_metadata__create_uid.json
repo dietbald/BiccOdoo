@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2412,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      204,
+      "Metadata for voice attachments"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9760a97be34e23bf112e00f3c91f56346e706e01d52be37eab55dd21d637deb8",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_voice_metadata__create_uid"
+}

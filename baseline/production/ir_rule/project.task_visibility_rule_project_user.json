@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 631,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                '&',\n                    ('project_id', '!=', False),\n                    '|',\n                        ('project_id.privacy_visibility', 'in', ['employees', 'portal']),\n                        ('project_id.message_partner_ids', 'in', [user.partner_id.id]),\n                '|',\n                    ('message_partner_ids', 'in', [user.partner_id.id]),\n                    # to subscribe check access to the record, follower is not enough at creation\n                    ('user_ids', 'in', user.id)\n        ]",
+    "groups": [
+      40
+    ],
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "Project/Task: project users: follow required for follower-only projects",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "bad54df6550d2e3fdd7e1d581cd71fe6e8a1b3f4a02971475ef9472ab9d44c90",
+  "write_date": "2025-01-28 01:23:00",
+  "xml_id": "project.task_visibility_rule_project_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 65,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": " ['|', ('company_id', 'parent_of', company_ids), ('company_id', '=', False)]",
+    "groups": [],
+    "model_id": [
+      368,
+      "Pricelist Rule"
+    ],
+    "name": "product pricelist item company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "49d932a189f6e9a4764e5703b8f2d7d951824c135dbcee10c4506bddb16a56df",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "product.product_pricelist_item_comp_rule"
+}

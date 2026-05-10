@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 414,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                    'search_default_team_id': [active_id],\n                    'default_team_id': active_id,\n                    'default_type': 'lead',\n                }\n            ",
+    "domain": "['|', ('type','=','lead'), ('type','=',False)]",
+    "name": "Leads",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "bb2b9502cff740089b0cd7fdb0960b07545851dee6610514d2e19e76403e7efb",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_case_form_view_salesteams_lead"
+}

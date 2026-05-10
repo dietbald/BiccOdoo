@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7456,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      589,
+      "CRM IAP Lead Industry"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "99ae22c20c415b7911d74611ead541a8033e44fa6c05967484fbc6b0a64eba47",
+  "write_date": "",
+  "xml_id": "crm_iap_mine.field_crm_iap_lead_industry__create_uid"
+}

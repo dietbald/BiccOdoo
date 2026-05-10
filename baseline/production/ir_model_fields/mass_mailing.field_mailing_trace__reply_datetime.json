@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14162,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Replied On",
+    "model_id": [
+      893,
+      "Mailing Statistics"
+    ],
+    "name": "reply_datetime",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "b094422b66e8825390d25a345e4951852de2b8b36dd96d1e8f667ba136a24a64",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_trace__reply_datetime"
+}

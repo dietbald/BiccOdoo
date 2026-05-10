@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25336,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Sol Of Customer",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "last_sol_of_customer",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "606a456b2f51311bfbc4fe79fe76e1e300e728db6c51f53d05671b89f7f87c38",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_task__last_sol_of_customer"
+}

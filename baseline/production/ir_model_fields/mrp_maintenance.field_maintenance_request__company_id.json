@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18170,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "46d6f703e224061e6d8450e0697e2dd80d48eda58d366d9397d50f3c67136cf2",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_maintenance_request__company_id"
+}

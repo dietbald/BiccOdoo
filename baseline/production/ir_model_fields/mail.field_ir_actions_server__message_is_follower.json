@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26966,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d2c5c7d13915306441d879a436b15b3f51f3084f02f124a4c8fcfd71225e7bc4",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__message_is_follower"
+}

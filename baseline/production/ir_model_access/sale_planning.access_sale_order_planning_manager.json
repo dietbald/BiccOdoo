@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1217,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      107,
+      "Planning / Administrator"
+    ],
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "sale.order.planning.manager",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5e41fa49655bad81384ada02994558bf4a85515ac322b2602fbd8fb724e854d9",
+  "write_date": "2025-12-09 03:00:34",
+  "xml_id": "sale_planning.access_sale_order_planning_manager"
+}

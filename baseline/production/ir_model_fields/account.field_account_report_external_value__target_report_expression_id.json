@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Target Expression",
+    "model_id": [
+      451,
+      "Accounting Report External Value"
+    ],
+    "name": "target_report_expression_id",
+    "relation": "account.report.expression",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "46e26ea4bbd91c94e0b5e33f0681a5ee39ffd8199c295788b494399631194ab0",
+  "write_date": "",
+  "xml_id": "account.field_account_report_external_value__target_report_expression_id"
+}

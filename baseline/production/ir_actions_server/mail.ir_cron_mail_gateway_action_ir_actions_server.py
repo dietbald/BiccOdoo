@@ -1,0 +1,1 @@
+model._fetch_mails()

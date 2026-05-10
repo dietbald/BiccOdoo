@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29331,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Downpayment Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "downpayment_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b1bbd053a9c340dcb1e19db64bd2e991d95522b0e6d632b27e790dba9b09925b",
+  "write_date": "",
+  "xml_id": "sale.field_res_company__downpayment_account_id"
+}

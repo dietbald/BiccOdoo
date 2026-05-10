@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9757,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Local-part based incoming detection",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "alias_incoming_local",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1d0fbf0ef7a76a5658a3d7911d772a2658444cc3473963d3b84ef129318d58f2",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__alias_incoming_local"
+}

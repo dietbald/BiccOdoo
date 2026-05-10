@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14609,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Date Field",
+    "model_id": [
+      914,
+      "Gamification Goal Definition"
+    ],
+    "name": "field_date_id",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b14528dd73682921ceab05fd848023f6ca341e3e1bd3e070094d06eceafe88d8",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_goal_definition__field_date_id"
+}

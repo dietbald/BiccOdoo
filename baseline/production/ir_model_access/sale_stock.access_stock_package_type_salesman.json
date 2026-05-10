@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1067,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      742,
+      "Stock package type"
+    ],
+    "name": "stock_package_type salesman",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "be98b988b58ca04f80315618a44c7d24fd4125f974ccdd0f26d9db10e86adb8a",
+  "write_date": "2025-12-09 03:00:15",
+  "xml_id": "sale_stock.access_stock_package_type_salesman"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29211,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      3633,
+      "Personal Filters on Employees for the Calendar view"
+    ],
+    "name": "employee_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2aaa368d8cb22582233fadfdad329cbe8295ed9d84faa39402a057f6937c758b",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line_calendar_employee__employee_id"
+}

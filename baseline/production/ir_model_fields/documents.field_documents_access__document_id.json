@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22375,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Document",
+    "model_id": [
+      1391,
+      "Document / Partner"
+    ],
+    "name": "document_id",
+    "relation": "documents.document",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e2e23bf290a5977778ed169ece506d4b1218dc8a102b484bdf33783601d9bfb6",
+  "write_date": "",
+  "xml_id": "documents.field_documents_access__document_id"
+}

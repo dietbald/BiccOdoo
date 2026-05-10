@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4990,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Use Cash Basis",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "tax_exigibility",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e183ca57b37ea0678db9ad5b78f5bc2babd8e274875abfba3929cbd1ed5b241d",
+  "write_date": "",
+  "xml_id": "account.field_res_company__tax_exigibility"
+}

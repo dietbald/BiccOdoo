@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 661,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "project.milestone.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b5a69c72342b84471d8dc54120189ab0b3e7bf5fb6ba59c46c4efd6da1ce9563",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_milestone_user"
+}

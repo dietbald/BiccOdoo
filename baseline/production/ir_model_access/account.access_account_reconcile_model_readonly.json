@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 403,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      431,
+      "Preset to create journal entries during a invoices and payments matching"
+    ],
+    "name": "account.reconcile.model.readonly",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "c33939d4bd05e161b4471f4c3a26b507b04597767a591730b5b4c961657c1a80",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.access_account_reconcile_model_readonly"
+}

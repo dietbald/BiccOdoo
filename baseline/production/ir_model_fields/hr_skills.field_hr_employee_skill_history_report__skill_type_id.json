@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28597,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skill Type",
+    "model_id": [
+      3476,
+      "Employee Skills Report"
+    ],
+    "name": "skill_type_id",
+    "relation": "hr.skill.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0a4b7889e04494b2a6383dd01a1da804200ec593f294169a2e0b5fb00b7bc031",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_employee_skill_history_report__skill_type_id"
+}

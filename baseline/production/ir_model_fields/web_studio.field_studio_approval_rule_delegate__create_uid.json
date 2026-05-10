@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23243,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1440,
+      "Approval Rule Delegate"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7f152c5a4766490d394b7ec1373e65161c82500deb288e9025e2eb14948b72cd",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule_delegate__create_uid"
+}

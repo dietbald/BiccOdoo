@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17694,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8cc3b41f7e6412dfc16fa26a568de425210ce23b423f7d6af49cbd49ef55b45f",
+  "write_date": "",
+  "xml_id": "social.field_social_post__activity_type_id"
+}

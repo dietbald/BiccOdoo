@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 478,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      143,
+      "Accounting / Invoicing & Banks"
+    ],
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "access_account_bank_statement_line_transient",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "37eb018ebea66fe4932f276de4c25c2ecc2ff366b5be11823765d48150186e1c",
+  "write_date": "2025-12-09 02:59:00",
+  "xml_id": "account_online_synchronization.access_account_bank_statement_line_transient"
+}

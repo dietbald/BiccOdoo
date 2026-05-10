@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24261,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0f5d42ef0f901b1fa293bb5d98ca359cc30553bb5e315e988e1bce786d55adf1",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__activity_user_id"
+}

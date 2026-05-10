@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6838,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      561,
+      "Campaign Stage"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c933c853ff1efcd4813805add39a7d9de3b52b785b3bcfeed50b9d5525b92a50",
+  "write_date": "",
+  "xml_id": "utm.field_utm_stage__create_uid"
+}

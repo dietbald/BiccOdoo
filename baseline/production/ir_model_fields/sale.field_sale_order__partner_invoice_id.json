@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8179,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Address",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "partner_invoice_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "394d4303d9a6a89ef0b1e24c6b62b7f58d72e5c22705f37c0b8be7f9671b05d7",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__partner_invoice_id"
+}

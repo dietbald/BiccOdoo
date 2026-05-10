@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4827,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Secure Posted Entries with Hash",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "restrict_mode_hash_table",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "30677be58d42ad495f988350d0853082af14c4948b2e212673c2d83ddbc389e5",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__restrict_mode_hash_table"
+}

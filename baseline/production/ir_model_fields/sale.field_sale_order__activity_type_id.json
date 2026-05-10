@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8135,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a26a752d69261521a291c960b00c2f1ab50c1aad4272944d6a05d7f8c2e29b6e",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__activity_type_id"
+}

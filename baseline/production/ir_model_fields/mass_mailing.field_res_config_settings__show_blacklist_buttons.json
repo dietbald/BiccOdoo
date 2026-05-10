@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Blacklist Option when Unsubscribing",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "show_blacklist_buttons",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "287085f0745cc1808d1436d8a67155428c14c353033373ff19dd505a32fab29d",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_res_config_settings__show_blacklist_buttons"
+}

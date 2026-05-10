@@ -1,0 +1,8 @@
+<filter name="my_sale_orders_filter" position="after">
+                <filter invisible="1" string="Sales Orders" name="sales" domain="[('state', '=', 'sale')]"/>
+                <separator/>
+                <filter string="To Invoice" name="to_invoice" domain="[('invoice_status','=','to invoice')]"/>
+                <filter string="To Upsell" name="upselling" domain="[('invoice_status','=','upselling')]"/>
+                <separator/>
+                <filter string="Order Date" name="order_date" date="date_order"/>
+            </filter>

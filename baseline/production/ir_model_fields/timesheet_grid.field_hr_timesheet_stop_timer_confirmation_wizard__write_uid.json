@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29592,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3730,
+      "Confirm timesheet creation when stop timer"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d47ca065c0652daf76a5ff42c939210bf7994e5e49a4b23092f876df6319bd17",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_hr_timesheet_stop_timer_confirmation_wizard__write_uid"
+}

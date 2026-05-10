@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6660,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Spreadsheet Revision",
+    "model_id": [
+      548,
+      "Spreadsheet Template Save Wizard"
+    ],
+    "name": "spreadsheet_revision_ids",
+    "relation": "spreadsheet.revision",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "0e0385aa72d277a9ea26b3c87b45196e24a6934d5c9e54abf640c32a9a8ecc18",
+  "write_date": "",
+  "xml_id": "documents_spreadsheet.field_save_spreadsheet_template__spreadsheet_revision_ids"
+}

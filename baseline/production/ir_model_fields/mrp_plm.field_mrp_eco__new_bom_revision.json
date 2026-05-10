@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17537,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "BoM Revision",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "new_bom_revision",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "b11f72d14c174736f4bb0842f72f639a48484478f8603f12e73449347cf97a69",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__new_bom_revision"
+}

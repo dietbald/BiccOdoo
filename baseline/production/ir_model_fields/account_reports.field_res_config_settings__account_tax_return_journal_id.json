@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6044,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_tax_return_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "16dd543ae0a6e80a6bce5b998f07230a7445d38d611cbfc8b2d73911a51b685e",
+  "write_date": "",
+  "xml_id": "account_reports.field_res_config_settings__account_tax_return_journal_id"
+}

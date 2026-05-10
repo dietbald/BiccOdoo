@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7970,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Average Rating (1-5)",
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "rating_avg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "3795d7dd667a6fc3419b54a9ab97292b9f1d999277c84d89d4221404259fccb4",
+  "write_date": "",
+  "xml_id": "project.field_report_project_task_user__rating_avg"
+}

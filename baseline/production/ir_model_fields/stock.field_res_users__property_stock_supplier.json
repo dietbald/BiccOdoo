@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11824,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Vendor Location",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "property_stock_supplier",
+    "relation": "stock.location",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2e3e0c68f5b4cad99f65a34d5848009f3191d302847d0d428c3251fbe04bd6a6",
+  "write_date": "",
+  "xml_id": "stock.field_res_users__property_stock_supplier"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1472,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      126,
+      "Room / Manage Rooms"
+    ],
+    "model_id": [
+      994,
+      "Room Office"
+    ],
+    "name": "access.room.office.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d32c96a89e9dca7912a5fd19d33e3b749a238d9670fbf927c9ed8d0262b67018",
+  "write_date": "2025-12-09 02:56:06",
+  "xml_id": "room.access_room_office_manager"
+}

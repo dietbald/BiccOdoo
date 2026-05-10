@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7417,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salespersons",
+    "model_id": [
+      585,
+      "Convert Lead to Opportunity (in mass)"
+    ],
+    "name": "user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "54dc3838c4fd8b1b11276bec3e0c82620edb8c149ed20ce5a3c25b269751081f",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead2opportunity_partner_mass__user_ids"
+}

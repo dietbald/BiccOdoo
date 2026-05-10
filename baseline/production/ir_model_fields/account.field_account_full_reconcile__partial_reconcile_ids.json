@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4521,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reconciliation Parts",
+    "model_id": [
+      437,
+      "Full Reconcile"
+    ],
+    "name": "partial_reconcile_ids",
+    "relation": "account.partial.reconcile",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2b50c8e9db1423c182f9cb47da7cd89369fe670e825a70eaa534ddb41007d2a1",
+  "write_date": "",
+  "xml_id": "account.field_account_full_reconcile__partial_reconcile_ids"
+}

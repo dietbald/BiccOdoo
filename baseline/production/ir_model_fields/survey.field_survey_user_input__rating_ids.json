@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14853,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "df338d0e57ab03e618510cc6dcd423928931091d72a51f56d385a197e0051f2e",
+  "write_date": "",
+  "xml_id": "survey.field_survey_user_input__rating_ids"
+}

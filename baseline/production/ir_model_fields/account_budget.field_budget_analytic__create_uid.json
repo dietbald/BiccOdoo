@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6771,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1a105e9f0d741ab5e2b3ac9222b9cacea08422cfb81d1fa386176ad7d2078543",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__create_uid"
+}

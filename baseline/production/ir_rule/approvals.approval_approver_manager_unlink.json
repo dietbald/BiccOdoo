@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 319,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('request_id.request_status', 'in', ['new', 'pending', 'cancel'])]",
+    "groups": [
+      91
+    ],
+    "model_id": [
+      786,
+      "Approver"
+    ],
+    "name": "Approval Approver: unlink unapproved",
+    "perm_create": false,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": false
+  },
+  "payload_sha256": "18402ee66d4bd1011c36c29aec7ef6a147e699d31b1c4a92e69fa5b5f462282f",
+  "write_date": "2023-12-04 12:12:09",
+  "xml_id": "approvals.approval_approver_manager_unlink"
+}

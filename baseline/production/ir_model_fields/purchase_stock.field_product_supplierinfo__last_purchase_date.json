@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11949,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Purchase",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "last_purchase_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "808f45632e5494f51810709998e0251b3eff9054668bf7db9f676bd0bff28162",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_product_supplierinfo__last_purchase_date"
+}

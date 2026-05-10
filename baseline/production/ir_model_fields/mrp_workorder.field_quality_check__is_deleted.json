@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16891,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deleted in production",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "is_deleted",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eb26563590b43d3046516a9e42b77d0256c26e89005afb03385b0c777f4e0f7c",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_check__is_deleted"
+}

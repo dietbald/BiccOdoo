@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8684,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Manager",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "parent_id",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4d708f5545d272092c710f747ec8b85ac5189e2ed0017317e3b255acc769b283",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__parent_id"
+}

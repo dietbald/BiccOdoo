@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28399,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Eligible for Accrual Rate",
+    "model_id": [
+      144,
+      "Resource Time Off Detail"
+    ],
+    "name": "elligible_for_accrual_rate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "257a3cd5c6e5d39f20323ce1cadc4d5cb4db0a8504cedad4faa24359dc44ae69",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_resource_calendar_leaves__elligible_for_accrual_rate"
+}

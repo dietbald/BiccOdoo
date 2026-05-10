@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29191,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicants",
+    "model_id": [
+      721,
+      "Sign document in recruitment"
+    ],
+    "name": "applicant_ids",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "028ab4a7e4d328309f7867462fbc51b1bd06291791a02bd7f51a8692abb0c789",
+  "write_date": "",
+  "xml_id": "hr_recruitment_sign.field_hr_recruitment_sign_document_wizard__applicant_ids"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 276,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('template_id.authorized_ids', 'in', user.id), '|', ('template_id.group_ids', 'in', user.all_group_ids.ids), ('template_id.user_id', '=', user.id)]",
+    "groups": [
+      72
+    ],
+    "model_id": [
+      712,
+      "Fields to be sign on Document"
+    ],
+    "name": "sign.item: group_sign_user: Read template items",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "913d42010f4d226345d5c19ef04a63e2113f4aa2444fbc505e71110b6027fb3c",
+  "write_date": "2023-12-01 02:29:30",
+  "xml_id": "sign.ir_rule_sign_item_group_sign_user_readonly"
+}

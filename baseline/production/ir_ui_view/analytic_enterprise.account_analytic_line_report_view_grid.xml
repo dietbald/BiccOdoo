@@ -1,0 +1,8 @@
+<grid string="Analytic Entries" edit="false" js_class="analytic_line_grid">
+                    <field name="account_id" type="row" section="1"/>
+                    <field name="date" type="col">
+                        <range name="year" string="Year" span="year" step="month"/>
+                        <range name="month" string="Month" span="month" step="day"/>
+                    </field>
+                    <field name="amount" type="measure" widget="float"/>
+                </grid>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16124,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a47329b6b2554754c1c6d916e5de9fa315a823fcdb6acb9053cada6cb5ce3d93",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__message_has_error"
+}

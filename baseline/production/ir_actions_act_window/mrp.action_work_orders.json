@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1061,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_workcenter_id': active_id}",
+    "domain": "[('state', 'not in', ('done', 'cancel'))]",
+    "name": "Work Orders",
+    "res_model": "mrp.workorder",
+    "target": "current",
+    "view_mode": "list,form,gantt,pivot,graph,calendar"
+  },
+  "payload_sha256": "3fd8ad67b5e3f0d320d8abf849089219517930550b5ca5c363f473db752d459e",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp.action_work_orders"
+}

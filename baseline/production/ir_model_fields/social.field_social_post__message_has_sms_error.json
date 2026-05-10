@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17714,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "093b22f7d669335df1a2fea82a01fc4e7ae7dd747c42c3b96ef3c76028f70e14",
+  "write_date": "",
+  "xml_id": "social.field_social_post__message_has_sms_error"
+}

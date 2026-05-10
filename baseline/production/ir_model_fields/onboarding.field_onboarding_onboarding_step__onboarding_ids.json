@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1604,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Onboardings",
+    "model_id": [
+      140,
+      "Onboarding Step"
+    ],
+    "name": "onboarding_ids",
+    "relation": "onboarding.onboarding",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "716f13eb4531a956bbd4cfebb4485bc4989c999fc8ea06828029fa628494852b",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_onboarding_step__onboarding_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30039,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Agent",
+    "model_id": [
+      3863,
+      "AI model configurations (system prompts) for text drafting."
+    ],
+    "name": "ai_agent",
+    "relation": "ai.agent",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "28ae4855c8ebd1b5fb614f14e09bee7725b46b8dee531f7fc7be860d36748ea8",
+  "write_date": "",
+  "xml_id": "ai.field_ai_composer__ai_agent"
+}

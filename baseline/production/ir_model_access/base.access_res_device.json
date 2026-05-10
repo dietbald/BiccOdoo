@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1636,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1128,
+      "Devices"
+    ],
+    "name": "access_res_device",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "9029ce2b07f964ed5c54211dafe5df8b8cb22bd4e43c5c036c6e3a351a2317bd",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_device"
+}

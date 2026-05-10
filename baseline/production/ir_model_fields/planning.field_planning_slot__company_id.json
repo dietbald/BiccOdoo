@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13848,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "19a548b4944f9bcdfca455c2a9f8596f5af9ba54538fef20631a3bce2cd68170",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot__company_id"
+}

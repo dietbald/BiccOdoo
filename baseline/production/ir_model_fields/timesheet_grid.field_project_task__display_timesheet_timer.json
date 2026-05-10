@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13540,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Timesheet Time",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "display_timesheet_timer",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1b83fdb6da6ff33c4944e7a7eb36f853b6c87f50374baf532e8308b8f7faa8a4",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_project_task__display_timesheet_timer"
+}

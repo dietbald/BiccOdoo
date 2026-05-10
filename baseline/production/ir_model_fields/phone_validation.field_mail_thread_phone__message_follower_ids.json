@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2792,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      353,
+      "Phone Blacklist Mixin"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4344958ea38a4d05f21b7070fc55ba7514560019a47e406c9604bb6c505ba8ae",
+  "write_date": "",
+  "xml_id": "phone_validation.field_mail_thread_phone__message_follower_ids"
+}

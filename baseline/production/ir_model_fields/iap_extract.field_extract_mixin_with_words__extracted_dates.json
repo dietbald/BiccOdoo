@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27282,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extracted Dates",
+    "model_id": [
+      2662,
+      "Base class to extract data from documents with OCRed words saved"
+    ],
+    "name": "extracted_dates",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "656d2e592bc25ccd03d1babe2ef7a82205ead84a6d7236c432de34e4090a8221",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin_with_words__extracted_dates"
+}

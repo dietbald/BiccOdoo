@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11771,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quant",
+    "model_id": [
+      773,
+      "Stock Request an Inventory Count"
+    ],
+    "name": "quant_ids",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3a8786caebc9978c4caf445f6cdab450a8009f4ffc8e77963581231c6242a746",
+  "write_date": "",
+  "xml_id": "stock.field_stock_request_count__quant_ids"
+}

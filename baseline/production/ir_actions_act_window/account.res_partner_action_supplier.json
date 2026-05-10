@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 276,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_supplier': 1,'res_partner_search_mode': 'supplier', 'default_is_company': True, 'default_supplier_rank': 1}",
+    "domain": false,
+    "name": "Vendors",
+    "res_model": "res.partner",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "988c318b2209916f11458025f42cd89c191def74b06f2bcff88a844350d6c58e",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.res_partner_action_supplier"
+}

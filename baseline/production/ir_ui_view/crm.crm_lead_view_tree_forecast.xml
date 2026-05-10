@@ -1,0 +1,10 @@
+<data><xpath expr="//list" position="attributes">
+                    <attribute name="js_class">forecast_list</attribute>
+                </xpath>
+                <xpath expr="//field[@name='expected_revenue']" position="attributes">
+                    <attribute name="optional">hide</attribute>
+                </xpath>
+                <xpath expr="//field[@name='expected_revenue']" position="after">
+                    <field name="prorated_revenue" sum="Prorated Revenues" optional="show" widget="monetary" options="{'currency_field': 'company_currency'}"/>
+                </xpath>
+            </data>

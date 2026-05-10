@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1681,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[(\"product_id\", \"=\", active_id)]",
+    "name": "Unit Cost History",
+    "res_model": "stock.avco.report",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "f72f3cfd6febe3bd4113fa872c2f6545964fe5e15ae99db8695a18c72d1999ac",
+  "write_date": "2025-12-09 02:58:51",
+  "xml_id": "stock_account.stock_avco_report_action"
+}

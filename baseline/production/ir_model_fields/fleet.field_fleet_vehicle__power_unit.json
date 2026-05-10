@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21632,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Power Unit",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "power_unit",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "afe3ce539fcfdacd71647ab209c90b70005e0f60173a27995c1daa726bf564dd",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__power_unit"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18406,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allowed Company",
+    "model_id": [
+      1048,
+      "WhatsApp Business Account"
+    ],
+    "name": "allowed_company_ids",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "965d4af01c768c221d2c53b62f4774202f2ad573cce363aa706dd2027b885c84",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_account__allowed_company_ids"
+}

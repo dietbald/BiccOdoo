@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12948,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "98537c8ef11183fb35c11d5efba410b8c18ffc954e92a06dbda65bd38559a015",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__currency_id"
+}

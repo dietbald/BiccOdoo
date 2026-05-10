@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27727,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3289,
+      "Documents Sharing"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6f9e7dfe9460a50a1384b8c82f4c8924b6e3a9dd794647e509effedeee6919d1",
+  "write_date": "",
+  "xml_id": "documents.field_documents_sharing__write_uid"
+}

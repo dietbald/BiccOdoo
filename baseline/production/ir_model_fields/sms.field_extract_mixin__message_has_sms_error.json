@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3524,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "81f61f0e652a68205018ae7740172050ef70f8aafc24dae4bb7200442b5badbb",
+  "write_date": "",
+  "xml_id": "sms.field_extract_mixin__message_has_sms_error"
+}

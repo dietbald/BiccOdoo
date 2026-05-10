@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16603,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alert Processed",
+    "model_id": [
+      990,
+      "Quality Alert Stage"
+    ],
+    "name": "done",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "35cd69f87dd994f043a73885195c28adf585c52e7120efc53a6c7ecbf5555678",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_stage__done"
+}

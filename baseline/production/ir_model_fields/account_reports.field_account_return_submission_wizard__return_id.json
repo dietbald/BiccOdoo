@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29069,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Return",
+    "model_id": [
+      3603,
+      "Return submission wizard"
+    ],
+    "name": "return_id",
+    "relation": "account.return",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "51274f72f11998afb62099b02f2095189ea140805cb38da2aff7ad4ab2d5dcca",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_submission_wizard__return_id"
+}

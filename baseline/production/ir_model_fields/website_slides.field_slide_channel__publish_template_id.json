@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24320,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "New Content Notification",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "publish_template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1b10804a8d59fadc55cd12099d6fbbc5e0aac0564c1d30367c71ad318ce6e36f",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__publish_template_id"
+}

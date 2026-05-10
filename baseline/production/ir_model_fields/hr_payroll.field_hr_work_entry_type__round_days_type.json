@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13068,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Round Type",
+    "model_id": [
+      812,
+      "HR Work Entry Type"
+    ],
+    "name": "round_days_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b7ef595a017a65cee0fefd8b212f06746b1caed24f0012d4af2d59be70addf77",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_type__round_days_type"
+}

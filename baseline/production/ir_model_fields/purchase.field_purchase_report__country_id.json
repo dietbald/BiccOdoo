@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9524,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner Country",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fc0b92d5850d7b3f6cdcbe139906696fdd2a4cdd9327e11c9f6c289361315468",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__country_id"
+}

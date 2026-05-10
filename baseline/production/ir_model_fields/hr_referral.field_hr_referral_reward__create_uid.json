@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25569,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1016068a6f614f7f9d85987734ed8e6c8b4cdbd162aaf671e20ac583f7030893",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__create_uid"
+}

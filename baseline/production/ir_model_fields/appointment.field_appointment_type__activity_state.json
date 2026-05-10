@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21901,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activity State",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "activity_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "1629f3f4e14fd11b4bad76d62192c4be11c967c2291d9b31e192ee3b4c438cf6",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__activity_state"
+}

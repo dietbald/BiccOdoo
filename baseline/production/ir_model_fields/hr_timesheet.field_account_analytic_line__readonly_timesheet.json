@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13417,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Readonly Timesheet",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "readonly_timesheet",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "44865963948f1401405970477d5d68adb9768ee4d38f1c5fdb5045f36887d13b",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line__readonly_timesheet"
+}

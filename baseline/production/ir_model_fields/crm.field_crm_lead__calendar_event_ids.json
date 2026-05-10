@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7245,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Meetings",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "calendar_event_ids",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "36c9f7e532a36ad63510488d4e8f251935740ba8091a5a660979cabdeb15b1a0",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__calendar_event_ids"
+}

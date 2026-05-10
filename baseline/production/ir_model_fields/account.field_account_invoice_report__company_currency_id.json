@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5432,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Currency",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "company_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c43653ad4e07ef304599c23256a3490d66f4310eed8010715426180304a3105d",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__company_currency_id"
+}

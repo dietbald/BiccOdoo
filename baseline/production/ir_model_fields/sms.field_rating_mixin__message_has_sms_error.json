@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7549,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      594,
+      "Rating Mixin"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "549b2b094aa1b5ee617ef50a3a6e1c6a1d5641a935d883dbad3993964ec725d4",
+  "write_date": "",
+  "xml_id": "sms.field_rating_mixin__message_has_sms_error"
+}

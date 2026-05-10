@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1378,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Description",
+    "model_id": [
+      119,
+      "Authentication Device"
+    ],
+    "name": "name",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "62316fb8b02904769a835078dd34667b77f91d4ae098256b2bf32e3066d74003",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_device__name"
+}

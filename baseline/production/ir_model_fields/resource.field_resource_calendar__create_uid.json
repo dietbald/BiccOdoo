@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1652,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c2fa584d7cf8a2e6dc8677fd50a69cbd9b58a1235f761b94ef6343bdf5f79de3",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__create_uid"
+}

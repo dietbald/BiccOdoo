@@ -1,0 +1,8 @@
+<data>
+  <xpath expr="/list//field[@name='work_phone']" position="after">
+    <field name="mobile_phone" optional="show"/>
+  </xpath>
+  <xpath expr="/list//field[@name='parent_id']" position="after">
+    <field name="resource_calendar_id" optional="hide"/>
+  </xpath>
+</data>

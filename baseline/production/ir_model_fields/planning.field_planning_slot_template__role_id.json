@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13925,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Role",
+    "model_id": [
+      883,
+      "Shift Template"
+    ],
+    "name": "role_id",
+    "relation": "planning.role",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "22b1b3b4f833cd964d8104e45cc127c030f000c0939942d0cb3dc07a63d19b64",
+  "write_date": "",
+  "xml_id": "planning.field_planning_slot_template__role_id"
+}

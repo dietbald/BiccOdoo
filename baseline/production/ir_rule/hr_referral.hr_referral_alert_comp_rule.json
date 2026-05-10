@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 703,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      2601,
+      "Alert in Referral App"
+    ],
+    "name": "Referral Alerts multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "19e3b566e0db2e30ca0902f06703dd6c637dcb3b422980baee645da55161832a",
+  "write_date": "2025-04-06 03:00:12",
+  "xml_id": "hr_referral.hr_referral_alert_comp_rule"
+}

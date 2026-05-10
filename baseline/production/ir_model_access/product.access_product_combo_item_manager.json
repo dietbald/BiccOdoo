@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1745,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      145,
+      "Products / Create"
+    ],
+    "model_id": [
+      1349,
+      "Product Combo Item"
+    ],
+    "name": "product.combo.item.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "146fddd4f4ce84b6a537e117c33b5f2d38610510ce2527d46e860a6b7a54e758",
+  "write_date": "2025-12-09 02:56:05",
+  "xml_id": "product.access_product_combo_item_manager"
+}

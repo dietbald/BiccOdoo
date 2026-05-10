@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8260,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Status",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "invoice_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b42599fb43fddf39e3a85c139de1e91147ab34374af53f50a9e15992829e8862",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__invoice_status"
+}

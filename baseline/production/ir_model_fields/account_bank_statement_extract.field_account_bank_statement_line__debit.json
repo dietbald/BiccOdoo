@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29599,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debit",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "debit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "1f79768a91f5d05b4b11d2f39cdafc35c3d5ba08f5b222aa2441a8531ee207bf",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement_line__debit"
+}

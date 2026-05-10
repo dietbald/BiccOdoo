@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24282,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "15c4a2242ab098651b744fabe74f9961a22ee2cdf984a53fa841b51faee87bec",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__message_has_sms_error"
+}

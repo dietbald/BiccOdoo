@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 723,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_setting_id.user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      2881,
+      "User Settings for Embedded Actions"
+    ],
+    "name": "res.users.settings.embedded.action: access their own entries",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6e4e248f28020c3648663172587181aa4f64836915ea92f1d04697c8c481df83",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "web.res_users_settings_embedded_action_rule_user"
+}

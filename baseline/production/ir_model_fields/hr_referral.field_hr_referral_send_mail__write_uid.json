@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      2610,
+      "Referral Send Mail"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "26f188d5f1b2b502ce6737cb0d65f64af7802e9698a73ff4ddaf3a954924c9ce",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_send_mail__write_uid"
+}

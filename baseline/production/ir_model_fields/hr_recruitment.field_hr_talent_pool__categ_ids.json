@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26123,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      2701,
+      "Talent Pool"
+    ],
+    "name": "categ_ids",
+    "relation": "hr.applicant.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5efa704a3fbc45a61f9a295fe0e5a6e1cde244bc46a587385e9447a8d441bc4a",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_talent_pool__categ_ids"
+}

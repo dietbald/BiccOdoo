@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3421,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cf0354786fac96992725aea28a6f2a7eb3afadbc35346a1b3857fb46773beb4e",
+  "write_date": "",
+  "xml_id": "sms.field_sms_template__create_uid"
+}

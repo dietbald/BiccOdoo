@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 831,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\"search_default_employee_ids\": [active_id]}",
+    "domain": false,
+    "name": "Salary Adjustment",
+    "res_model": "hr.salary.attachment",
+    "target": "current",
+    "view_mode": "list,form,pivot"
+  },
+  "payload_sha256": "66002cbcdeb0605e837dd905867f26cb19d8fdc7b16f465a4c3972c7b4e8e8f7",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.hr_salary_attachment_action_view_employee"
+}

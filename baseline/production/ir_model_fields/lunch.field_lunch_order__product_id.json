@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18891,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "product_id",
+    "relation": "lunch.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8bd4589f381c5f4d9d21343491de6fffb9b3db8dccff64cbd00f06984a8967ef",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_order__product_id"
+}

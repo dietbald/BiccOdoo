@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4504,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Credit Move",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "credit_move_id",
+    "relation": "account.move.line",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fbea18abf7aac7b0247c464f3f7c323b082ddedd8450dea7ccafae587776a3e1",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__credit_move_id"
+}

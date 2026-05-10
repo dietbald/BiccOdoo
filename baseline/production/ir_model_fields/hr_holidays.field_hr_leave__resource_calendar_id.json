@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15517,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource Calendar",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "resource_calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09fa5e90498bad2531a18800b93599ca02d06926d7b74484baea7353474a630f",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__resource_calendar_id"
+}

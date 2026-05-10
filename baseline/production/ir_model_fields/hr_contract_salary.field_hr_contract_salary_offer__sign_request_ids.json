@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Requested Signatures",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "sign_request_ids",
+    "relation": "sign.request",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a180bdbb90a4e1c19dc959b9d93888b3c486ea771fc4934ce1bfd6e34b99dc39",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__sign_request_ids"
+}

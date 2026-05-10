@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23759,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Quotation Documents",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "available_quotation_document_ids",
+    "relation": "quotation.document",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9f232bb468f04e6b24d35c99b080d55a6a64ef46f60de2b6df68d06ecfc4a6e3",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_sale_order__available_quotation_document_ids"
+}

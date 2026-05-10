@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4154,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      428,
+      "Tax Repartition Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4f4ec452752d75b7f7410165a2255c80a7c30a9a3034dfdc4acd64d0b883bb7b",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_repartition_line__create_uid"
+}

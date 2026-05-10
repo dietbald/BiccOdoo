@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12026,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Moves",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "move_ids",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4a05cf422316d2344f3dee3735077f694500a5224946355cc065f137e5517556",
+  "write_date": "",
+  "xml_id": "sale_stock.field_sale_order_line__move_ids"
+}

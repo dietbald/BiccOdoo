@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 500,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated on",
+    "model_id": [
+      31,
+      "Triggered actions"
+    ],
+    "name": "write_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "641cc460134bba7d947dbc61f98dea15c5626435071bb890b2b49496c8a26fc9",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_trigger__write_date"
+}

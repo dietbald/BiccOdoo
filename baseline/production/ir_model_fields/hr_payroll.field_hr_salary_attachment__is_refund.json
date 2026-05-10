@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20640,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Negative Value",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "is_refund",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "add9c8424ea79144a7e78119b6475799486ea2afe6f366a73492c9539a6b513d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__is_refund"
+}

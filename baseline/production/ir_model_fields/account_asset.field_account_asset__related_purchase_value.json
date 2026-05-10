@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6168,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Purchase Value",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "related_purchase_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "47292c19931b3534cd1315528a7e14be04bc71c3d118adda040f436e23428bf5",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__related_purchase_value"
+}

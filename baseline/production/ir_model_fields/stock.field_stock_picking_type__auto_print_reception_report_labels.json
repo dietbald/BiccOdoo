@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11194,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Print Reception Report Labels",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "auto_print_reception_report_labels",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cd57bbd8a0c71a632480f983eef039942ac5fee2e21ad02ccac8f02f207f413d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__auto_print_reception_report_labels"
+}

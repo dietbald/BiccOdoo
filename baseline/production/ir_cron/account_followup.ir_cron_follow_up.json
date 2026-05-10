@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 76,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_execute_followup()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "Account Report Followup; Execute followup",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "0b6c47153ddb7deb12bd24ca697d29b38458e288d51e6c254579177efadf9cd8",
+  "write_date": "2025-12-09 02:59:46",
+  "xml_id": "account_followup.ir_cron_follow_up"
+}

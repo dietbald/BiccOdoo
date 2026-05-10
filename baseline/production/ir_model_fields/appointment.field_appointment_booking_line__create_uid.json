@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15168,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      936,
+      "Appointment Booking Line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "53f3e47ba653c21300614d9778923c4e0b3b243babea91ca3ce3e23aa741ed52",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_booking_line__create_uid"
+}

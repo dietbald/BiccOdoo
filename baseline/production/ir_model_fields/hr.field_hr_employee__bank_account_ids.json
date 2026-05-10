@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8717,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bank Accounts",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "bank_account_ids",
+    "relation": "res.partner.bank",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "13cc63eb8a401926a55e6c7740ad1407d56bdc5fa39a77aae153e77a0c379d6f",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__bank_account_ids"
+}

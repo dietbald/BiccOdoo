@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7605,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Projects",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "project_ids",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "71fbf09db0d59cebc236a47f9e2324edccd1f6a93fc8ce47c9c3b56507ef8998",
+  "write_date": "",
+  "xml_id": "project.field_account_analytic_account__project_ids"
+}

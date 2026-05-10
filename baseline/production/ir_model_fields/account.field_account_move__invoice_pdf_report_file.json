@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4396,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "PDF File",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_pdf_report_file",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "710765b872024ec0d9091bdce03e8d45a3b0927507aaea874030e61a2f86e168",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_pdf_report_file"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11413,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "e59d03f1e9ce41784810031bf0671c6b0ccf5326a4cda3c259561378d660df08",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__state"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 396,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            '|',\n                ('user_id', '=', user.id),\n                '|',\n                    ('resource_id', '=', False),\n                    ('request_to_switch', '=', True),\n            ('state', '=', 'published'),\n        ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      880,
+      "Planning Shift"
+    ],
+    "name": "Planning: internal user can read their own shifts only and open shifts",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6723a6ad311c9d70bd87cc6812481f9e6693688b733165665d77d5e24c6c2ec5",
+  "write_date": "2024-04-18 04:45:47",
+  "xml_id": "planning.planning_rule_internal_user_read"
+}

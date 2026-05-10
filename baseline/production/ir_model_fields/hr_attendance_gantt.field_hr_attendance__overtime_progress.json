@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13384,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Overtime Progress",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "overtime_progress",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "6785b3a20891b926ea9b32a023702419d83f32c4cac21e7ab72dda50cb3fdcb7",
+  "write_date": "",
+  "xml_id": "hr_attendance_gantt.field_hr_attendance__overtime_progress"
+}

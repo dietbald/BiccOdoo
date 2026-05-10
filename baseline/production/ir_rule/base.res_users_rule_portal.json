@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 688,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('commercial_partner_id', '=', user.commercial_partner_id.id)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "portal user access",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "316a254934735dfa4de4f8e9b789da4ee7742dc7734e418f3efe4d9d3d46613b",
+  "write_date": "2025-03-24 00:42:35",
+  "xml_id": "base.res_users_rule_portal"
+}

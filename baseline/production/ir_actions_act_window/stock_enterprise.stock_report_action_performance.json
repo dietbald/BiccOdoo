@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 757,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_done_deliveries': 1,\n                'search_default_filter_date_done': 1}",
+    "domain": "[('picking_type_code', '!=', False)]",
+    "name": "Warehouse Analysis",
+    "res_model": "stock.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "8bfd1cd41c1f4e4924c0df1842ea3f6df122d7ab96efa3d1b2a40f4d8439562f",
+  "write_date": "2025-12-09 02:58:55",
+  "xml_id": "stock_enterprise.stock_report_action_performance"
+}

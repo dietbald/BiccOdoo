@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17030,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment Count",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "message_attachment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c1ea9023c195ff1d3e7bbbb663b035322dc03cd55b342c20431a568ee5345ffe",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__message_attachment_count"
+}

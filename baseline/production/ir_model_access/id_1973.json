@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1973,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      153,
+      "Accountant"
+    ],
+    "model_id": [
+      1382,
+      "Secure Journal Entries"
+    ],
+    "name": "access.account.secure.entries.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "ff290b8759bd93d10272d791104aee82ae1511ab68036a83b7f8b20437ca6012",
+  "write_date": "2025-12-05 01:31:32",
+  "xml_id": null
+}

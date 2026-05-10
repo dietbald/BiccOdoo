@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 464,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_project_id': active_id,\n            'active_id_chatter': active_id,\n            'delete': false,\n            'sale_show_partner_name': true,\n        }",
+    "domain": "[('project_id', '=', active_id)]",
+    "name": "Project Sharing",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "kanban,list,form"
+  },
+  "payload_sha256": "ebafdf4de659118cb1f5dc6892cb2f987ac4754b5b753716c64ed6c5ae438f8e",
+  "write_date": "2025-12-09 03:00:35",
+  "xml_id": "project.project_sharing_project_task_action"
+}

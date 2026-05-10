@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23273,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1443,
+      "Studio Export Data"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "efcf4bddf70da2ed34af3dd90129785ba4a13d6b45bc714db1eb921b096c9337",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_export_wizard_data__create_uid"
+}

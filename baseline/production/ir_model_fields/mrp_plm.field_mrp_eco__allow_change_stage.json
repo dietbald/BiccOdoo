@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17530,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow Change Stage",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "allow_change_stage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5eb8770885f2e77531feb9c11dba54c914d5ea124b0a7af7a1c55876646500c9",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__allow_change_stage"
+}

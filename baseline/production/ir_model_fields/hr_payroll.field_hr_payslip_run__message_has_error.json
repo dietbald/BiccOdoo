@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13016,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cae0dd2ef8c4bc57ce6ec3c611950ae1b32b49ab134c72cf16404776cf5a47fd",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__message_has_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23689,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Export File",
+    "model_id": [
+      1463,
+      "Work Entry Export Mixin"
+    ],
+    "name": "export_file",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "513092be9985e3ee41b403b6932fdef4c25872fa412566818ef6138a205135bd",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_export_mixin__export_file"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9526,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Commercial Entity",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "commercial_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7783e64a763bb5c25d89dc7e8e501387e1821121e0ea525146601708890a3559",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__commercial_partner_id"
+}

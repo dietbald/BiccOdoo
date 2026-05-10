@@ -1,0 +1,17 @@
+<data name="Knowledge Public Layout" inherit_id="web.frontend_layout" primary="True">
+        <xpath expr="//t[@t-call-assets='web.assets_frontend']" position="replace">
+            <t t-call-assets="website_knowledge.assets_public_knowledge" t-js="false"/>
+        </xpath>
+        <xpath expr="//header" position="before">
+            <t t-set="no_header" t-value="True"/>
+            <t t-set="no_footer" t-value="True"/>
+            <t t-set="no_livechat" t-value="True"/>
+        </xpath>
+        <xpath expr="//body" position="replace">
+            <body>
+                <div id="wrapwrap">
+                    <t t-out="0"/>
+                </div>
+            </body>
+        </xpath>
+    <xpath expr="." position="attributes"><attribute name="t-name">website_knowledge.layout</attribute></xpath></data>

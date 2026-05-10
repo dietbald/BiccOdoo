@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 56,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_setting_id.user_id', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      182,
+      "User Settings Volumes"
+    ],
+    "name": "res.users.settings.volumes: access their own entries",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3ac299aae31f414698dc96f2c5873902926867f817d84925e111af8af136ea1f",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.res_users_settings_volumes_rule_user"
+}

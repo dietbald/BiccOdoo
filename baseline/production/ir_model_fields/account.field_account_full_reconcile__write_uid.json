@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4528,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      437,
+      "Full Reconcile"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1345fc4367a717fcbe59142b5e22f46a56ad962a521ad3b80c9da4a368485870",
+  "write_date": "",
+  "xml_id": "account.field_account_full_reconcile__write_uid"
+}

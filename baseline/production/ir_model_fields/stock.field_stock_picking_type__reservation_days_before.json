@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11184,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "reservation_days_before",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "03fbf7eb37da90244cfbe33a9724e45b3ae7c4d1e1e2b107edc4754cdb6d2427",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__reservation_days_before"
+}

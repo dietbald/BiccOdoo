@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15336,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Meeting redirection URL",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "videocall_redirection",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "ba26a2a685909d37ed5e71f348d39c7c28b04b2cfd2ed01866ff175c02acb7f8",
+  "write_date": "",
+  "xml_id": "appointment.field_calendar_event__videocall_redirection"
+}

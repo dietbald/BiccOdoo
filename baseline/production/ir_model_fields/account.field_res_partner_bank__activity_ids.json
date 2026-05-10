@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3882,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5a832555287c78b71cb70fa289f41169890b67c357d3790dd41b2ca92d71f70c",
+  "write_date": "",
+  "xml_id": "account.field_res_partner_bank__activity_ids"
+}

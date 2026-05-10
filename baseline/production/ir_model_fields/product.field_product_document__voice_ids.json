@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3108,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Voice",
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "voice_ids",
+    "relation": "discuss.voice.metadata",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6c706265221709b078c0a0c0febdfe9dd08161cadeaac49236e7150211732a29",
+  "write_date": "",
+  "xml_id": "product.field_product_document__voice_ids"
+}

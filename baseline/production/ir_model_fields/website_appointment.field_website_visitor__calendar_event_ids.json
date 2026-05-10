@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29923,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Calendar Event",
+    "model_id": [
+      699,
+      "Website Visitor"
+    ],
+    "name": "calendar_event_ids",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d80405ea2179f0ea1ba122531be6d724a201abf9540f3cd0b88de15143a4bb60",
+  "write_date": "",
+  "xml_id": "website_appointment.field_website_visitor__calendar_event_ids"
+}

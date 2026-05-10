@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1114,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Access Rights",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "accesses_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "d5655289df749cfcd18f73198eeae160f50acce179ea630887b47a26bd1d2dce",
+  "write_date": "",
+  "xml_id": "base.field_res_users__accesses_count"
+}

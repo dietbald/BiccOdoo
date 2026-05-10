@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4756,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount in Currency",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "470b3c9bf9bac4de73068272673e8ddebdc2585e2ae63034d23b4d2973ff6451",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__amount_currency"
+}

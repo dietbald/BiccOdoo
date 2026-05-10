@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12028,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduled Date",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "scheduled_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "1fc2f644a42024b44f55c8eca3ea2fe3fc111c1b4b555e39b93347c26a5dba5b",
+  "write_date": "",
+  "xml_id": "sale_stock.field_sale_order_line__scheduled_date"
+}

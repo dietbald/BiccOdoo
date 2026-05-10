@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14234,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Favorite Filter",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "mailing_filter_id",
+    "relation": "mailing.filter",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff943bc0e08aa30a012f59f9d161e9724712bcd9a2746db5785ac1efcf69df39",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__mailing_filter_id"
+}

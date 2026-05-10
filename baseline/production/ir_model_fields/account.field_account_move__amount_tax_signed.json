@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4370,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Signed",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "amount_tax_signed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "fb6044c04f7cba103b29e24cea7596c953f4c19f10f460d1e7dc2de079228440",
+  "write_date": "",
+  "xml_id": "account.field_account_move__amount_tax_signed"
+}

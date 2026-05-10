@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25676,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employee",
+    "model_id": [
+      2612,
+      "Referral Campaign Wizard"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "934b2d52071e003909a01110634e57cb64e4dcb2935e1abba5966e3a1e8493c0",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_campaign_wizard__employee_ids"
+}

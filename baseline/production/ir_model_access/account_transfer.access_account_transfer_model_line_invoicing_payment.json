@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 472,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      492,
+      "Account Transfer Model Line"
+    ],
+    "name": "access_account_transfer_model_line_invoicing_payment",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5dde0988fed95575d6e3e94a14a597268f05d923232a986f91e13767958c3718",
+  "write_date": "2025-12-09 02:59:12",
+  "xml_id": "account_transfer.access_account_transfer_model_line_invoicing_payment"
+}

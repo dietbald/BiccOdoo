@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2713,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      347,
+      "Analytic Distribution Model"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "06085cf5b096d574602a8101bee92109af5fda0d9fab81602cc9c4afc4b4ace4",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_distribution_model__company_id"
+}

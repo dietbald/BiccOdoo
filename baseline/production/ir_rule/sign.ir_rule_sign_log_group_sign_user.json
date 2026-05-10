@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 286,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('sign_request_id.message_partner_ids', 'in', user.partner_id.ids), '|', ('sign_request_id.request_item_ids.partner_id', 'in', user.partner_id.ids), ('sign_request_id.create_uid', '=', user.id)]",
+    "groups": [
+      72
+    ],
+    "model_id": [
+      715,
+      "Sign requests access history"
+    ],
+    "name": "sign.log: group_sign_user: Read sign logs",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "994c55f8883059dd801fe074ce8825e8ed9e31a0d14eec655f5b9320adc18310",
+  "write_date": "2023-12-01 02:29:30",
+  "xml_id": "sign.ir_rule_sign_log_group_sign_user"
+}

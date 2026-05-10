@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4029,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Security Token",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "5a48c1d745369d2987201c3af3cd1ac23c105b0b9470159a517724f8bf3ed40f",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__access_token"
+}

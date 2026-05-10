@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 212,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      173,
+      "Message subtypes"
+    ],
+    "name": "mail.message.subtype.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ca5dff6aaa046f092ce441dcbf333fea810c944c2d24ae70dae2ccbc7dd0e511",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_message_subtype_system"
+}

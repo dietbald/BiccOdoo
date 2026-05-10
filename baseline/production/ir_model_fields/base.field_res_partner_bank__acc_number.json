@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 955,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Number",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "acc_number",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "fdabf9e40cbfa035d446c8296cc6ed03206ca3aa447ecef3aca2c8a4c9adee94",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_bank__acc_number"
+}

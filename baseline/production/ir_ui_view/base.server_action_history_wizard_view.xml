@@ -1,0 +1,15 @@
+<form>
+                    <group>
+                        <group>
+                            <field name="revision" required="1" widget="selection"/>
+                        </group>
+                    </group>
+                    <field name="code_diff" invisible="not code_diff"/>
+                    <div class="alert alert-warning my-2" role="alert" invisible="code_diff">
+                        <span>No diff available</span>
+                    </div>
+                    <footer>
+                        <button string="Restore Revision" name="restore_revision" type="object" class="btn-primary" invisible="not code_diff" data-hotkey="q"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="x"/>
+                    </footer>
+                </form>

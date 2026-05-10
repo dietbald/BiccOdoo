@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12637,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      808,
+      "Purchase Requisition Line"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78212efe95d8cd37eaef3ddbf4125b332fb52ba32a967e98c526224a62769c8f",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition_line__product_uom_id"
+}

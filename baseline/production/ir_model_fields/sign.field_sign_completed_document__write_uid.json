@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27417,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3198,
+      "Completed Document"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "41ecdad0d2fd67492ab4f8ba4a20de1c86f23a9d34430b48af7e30c0cf5b9a76",
+  "write_date": "",
+  "xml_id": "sign.field_sign_completed_document__write_uid"
+}

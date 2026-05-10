@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7419,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Leads/Opportunities",
+    "model_id": [
+      586,
+      "Merge Opportunities"
+    ],
+    "name": "opportunity_ids",
+    "relation": "crm.lead",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6e6fa67972b2fffb1e0211868cec479470d675d105be7020b3f03816acabf14c",
+  "write_date": "",
+  "xml_id": "crm.field_crm_merge_opportunity__opportunity_ids"
+}

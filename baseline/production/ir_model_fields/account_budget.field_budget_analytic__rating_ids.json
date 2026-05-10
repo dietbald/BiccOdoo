@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7588,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "76b8c9c074351218a0e553a47512b88a74cbf932427b83c33b8290ae9e4adabc",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__rating_ids"
+}

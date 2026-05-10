@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7209,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Prorated Recurring Revenues",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "recurring_revenue_prorated",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "cd7ea61137f879db91f855e8b8b5ca159b77183771d861aef81fe18e66f47152",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__recurring_revenue_prorated"
+}

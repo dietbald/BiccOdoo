@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6146,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8b588f43e3ae82020e298c09741ee4431fab3e88d21e8385692b657f247a4633",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__company_id"
+}

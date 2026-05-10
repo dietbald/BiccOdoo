@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8205,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Expired",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "is_expired",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4a4d579fe856de92ee313d103e6a34d3c7c001302f179dc17d3352c567f6929c",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__is_expired"
+}

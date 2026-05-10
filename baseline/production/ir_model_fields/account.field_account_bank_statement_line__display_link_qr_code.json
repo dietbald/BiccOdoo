@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Link QR-code",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "display_link_qr_code",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1ff0deb7afe7794e173ab7e74a46b2b1d383fb28c6bcac4800f54aafee318ad8",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__display_link_qr_code"
+}

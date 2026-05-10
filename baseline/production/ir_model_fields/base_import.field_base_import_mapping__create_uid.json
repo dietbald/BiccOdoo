@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1403,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      121,
+      "Base Import Mapping"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eadea1e9d87dc039e8bf2706c41d07a64ce8c4cb19731d2961f4bb3489c9e81a",
+  "write_date": "",
+  "xml_id": "base_import.field_base_import_mapping__create_uid"
+}

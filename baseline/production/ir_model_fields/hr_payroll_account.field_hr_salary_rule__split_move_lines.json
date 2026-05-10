@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20868,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Split on names",
+    "model_id": [
+      818,
+      "Salary Rule"
+    ],
+    "name": "split_move_lines",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "53b2098e4ff3b6c9a271b22524cef3617f600dfcbddf8b9d06a491fe4dae8320",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_salary_rule__split_move_lines"
+}

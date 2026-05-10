@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18610,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task Done",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "fsm_done",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c4d40d7c43bfcf7d3fbc4f4dd93865754a94ad1706bb59fce04f379a0f57fd3b",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_project_task__fsm_done"
+}

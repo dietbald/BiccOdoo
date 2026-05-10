@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6236,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Depreciation",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "depreciation_value",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "6794e6ea43adf4ed946ff5a685339fb95946c44a615648e95daea582dd71be18",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_bank_statement_line__depreciation_value"
+}

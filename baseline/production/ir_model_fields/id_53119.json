@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 53119,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract Version",
+    "model_id": [
+      3930,
+      "Contract Allowance"
+    ],
+    "name": "x_version_id",
+    "relation": "hr.version",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7237dd725083592f277e645bd4ba773cce7d1f97f46ce52509b6f3f00041f229",
+  "write_date": "2026-04-20 03:49:43",
+  "xml_id": null
+}

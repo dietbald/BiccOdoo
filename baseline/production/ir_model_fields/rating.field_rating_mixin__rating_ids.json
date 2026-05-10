@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7550,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      594,
+      "Rating Mixin"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "94903ff3e4b82a2ab8047f416e53a1d249448ae41d134d30bb57b20ea4f2f1fc",
+  "write_date": "",
+  "xml_id": "rating.field_rating_mixin__rating_ids"
+}

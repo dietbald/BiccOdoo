@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18863,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1072,
+      "Lunch Alert"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9bdba406c802d0fe5c0da61ac16cb03bd9f557d7af29a96e7cc8b3b5c7c387c2",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_alert__create_uid"
+}

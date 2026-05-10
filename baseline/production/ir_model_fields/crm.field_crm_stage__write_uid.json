@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7150,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      575,
+      "CRM Stages"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6c0e022baeeffc6ce5197093d7a4a279d2f20e90ae8b46d69733e8b812085db1",
+  "write_date": "",
+  "xml_id": "crm.field_crm_stage__write_uid"
+}

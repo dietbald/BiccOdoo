@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27231,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Model",
+    "model_id": [
+      1042,
+      "Maintenance Teams"
+    ],
+    "name": "alias_parent_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2143e3cd9c3dc69f00b7fc77912e81f4cdcff6d2fdd640ad629b709d7f0db090",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_team__alias_parent_model_id"
+}

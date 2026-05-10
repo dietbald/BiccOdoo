@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 490,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_sales' : 1}",
+    "domain": "[('state', 'not in', ('draft', 'sent', 'cancel'))]",
+    "name": "Sales Orders",
+    "res_model": "sale.order",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,pivot,graph,activity,map"
+  },
+  "payload_sha256": "349427fc46d4cede4e7f1f0e676711bf3cd91b024a3dbfef0a65be98f106b2f9",
+  "write_date": "2025-12-09 03:00:44",
+  "xml_id": "sale.action_orders"
+}

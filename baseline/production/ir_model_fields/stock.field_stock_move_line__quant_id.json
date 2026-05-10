@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11040,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pick From",
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "quant_id",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "98d0faa8354fd26130556f49987319a1a41d815c0f1c579604225040acad4d09",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move_line__quant_id"
+}

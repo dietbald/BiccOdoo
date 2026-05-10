@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15432,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "website_id",
+    "relation": "website",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "86d2debb99a3c0db5675a1c1aa947c524d08b5b64b707b140db3c903709e6b70",
+  "write_date": "",
+  "xml_id": "website_appointment.field_appointment_type__website_id"
+}

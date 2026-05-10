@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='invoice_lines']" position="after">
+                <separator string="Stock Moves"/>
+                <field name="move_ids"/>
+            </xpath>

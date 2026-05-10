@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='name']" position="replace">
+                <field name="title" string="Quality Alert" filter_domain="[                     '|', '|', '|', ('title', 'ilike', self), ('product_id', 'ilike', self), ('product_tmpl_id', 'ilike', self), ('lot_ids', 'ilike', self)]"/>
+            </xpath>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24451,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subscriber information",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "slide_partner_id",
+    "relation": "slide.slide.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4a72eaaccdc6ba0189fa9c5488ae59759f2ca6381eb1c2f71989493191284ea8",
+  "write_date": "",
+  "xml_id": "website_slides_survey.field_survey_user_input__slide_partner_id"
+}

@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 3,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('id', 'child_of', user.commercial_partner_id.id)]",
+    "groups": [
+      10,
+      11
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res_partner: portal/public: read access on my commercial partner",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "2499585d19d7a07cf4d87d09aca93eeda2984852d752b73487201ee48e3ed836",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.res_partner_portal_public_rule"
+}

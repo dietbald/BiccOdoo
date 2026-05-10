@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13610,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order Reference",
+    "model_id": [
+      852,
+      "Project Sales line, employee mapping"
+    ],
+    "name": "sale_order_id",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0854b53c21999953ccf5ba9ff6fbf1d44e24571ba1f60d82c581ee4b6aea499e",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_sale_line_employee_map__sale_order_id"
+}

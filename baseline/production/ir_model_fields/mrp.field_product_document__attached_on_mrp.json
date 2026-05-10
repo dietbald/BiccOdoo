@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20185,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "MRP : Visible at",
+    "model_id": [
+      365,
+      "Product Document"
+    ],
+    "name": "attached_on_mrp",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "c5dc66a59f0951f988177b7043767485a7eeeda48b61ea9512b36e20bdd773cd",
+  "write_date": "",
+  "xml_id": "mrp.field_product_document__attached_on_mrp"
+}

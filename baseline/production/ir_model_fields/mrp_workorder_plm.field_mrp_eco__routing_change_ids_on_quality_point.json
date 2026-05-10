@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20893,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ECO Routing Changes - Quality Point",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "routing_change_ids_on_quality_point",
+    "relation": "mrp.eco.routing.change",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1815fda16333d9278a8ad0982a1506dd48b13e11ef8fb66ec83d027d98fcc24f",
+  "write_date": "",
+  "xml_id": "mrp_workorder_plm.field_mrp_eco__routing_change_ids_on_quality_point"
+}

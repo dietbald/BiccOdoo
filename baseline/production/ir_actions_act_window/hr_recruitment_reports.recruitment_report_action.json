@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 607,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_year': True,\n            }",
+    "domain": false,
+    "name": "Application Analysis",
+    "res_model": "hr.recruitment.report",
+    "target": "current",
+    "view_mode": "pivot,graph"
+  },
+  "payload_sha256": "1c48b40eee27f794dc8eea3f80411031f03b655e4ecfceead8885905930d0566",
+  "write_date": "2025-12-09 02:59:20",
+  "xml_id": "hr_recruitment_reports.recruitment_report_action"
+}

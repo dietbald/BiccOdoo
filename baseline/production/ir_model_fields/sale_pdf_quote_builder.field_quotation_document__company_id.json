@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23736,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1469,
+      "Quotation's Headers & Footers"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "20134848c0b6d80ddd91288c2b19bcfcc8074b99bbc120dd4b10ac62b374bf00",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_quotation_document__company_id"
+}

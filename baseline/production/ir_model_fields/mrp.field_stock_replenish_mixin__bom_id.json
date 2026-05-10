@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20227,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bill of Material",
+    "model_id": [
+      1188,
+      "Product Replenish Mixin"
+    ],
+    "name": "bom_id",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "524d423f567b205981d48d29f3710f7eeb600004821e0aabfce7d219fb3a71b4",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_replenish_mixin__bom_id"
+}

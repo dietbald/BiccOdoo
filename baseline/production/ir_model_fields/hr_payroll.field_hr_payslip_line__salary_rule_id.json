@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rule",
+    "model_id": [
+      821,
+      "Payslip Line"
+    ],
+    "name": "salary_rule_id",
+    "relation": "hr.salary.rule",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "17d70b033e1cf29e55eedfa5fcc249a53c81747c03098c9b9e83b2b771817f65",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_line__salary_rule_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10006,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Groups",
+    "model_id": [
+      686,
+      "Page"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a93c2c9f3df23b5a9c8be89cf6510242be740092434b0dbddc563a9887022efb",
+  "write_date": "",
+  "xml_id": "website.field_website_page__group_ids"
+}

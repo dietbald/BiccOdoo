@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2071,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reply-To",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "reply_to",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "801d4b749c857d74184bbae347d6297f765450b5a4e1078d63d3eb22e8198bec",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__reply_to"
+}

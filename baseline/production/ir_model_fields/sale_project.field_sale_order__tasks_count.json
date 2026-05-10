@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8572,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tasks",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "tasks_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "30d449e5d13e84c42b782c76c391523b6af0b606bcb63df523ea59ef4a0270a7",
+  "write_date": "",
+  "xml_id": "sale_project.field_sale_order__tasks_count"
+}

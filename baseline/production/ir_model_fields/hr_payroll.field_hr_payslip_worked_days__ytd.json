@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23657,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "YTD",
+    "model_id": [
+      822,
+      "Payslip Worked Days"
+    ],
+    "name": "ytd",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "433cedd901f511c748be7c0b4e311e8843f45768e441b2fdf5512ebd34a49291",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_worked_days__ytd"
+}

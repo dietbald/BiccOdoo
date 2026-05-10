@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6812,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      556,
+      "UTM Campaign"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3cb75897ec422dc56641c5043b3468f48399ad49a547d9b7764192674aeadbdc",
+  "write_date": "",
+  "xml_id": "utm.field_utm_campaign__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9636,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sanitized Phone Number",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "partner_phone_sanitized",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "112f73cb0a32f84aad34e677cc03cdbf636a4048a9ffcafffe451b6b524a9b3b",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__partner_phone_sanitized"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 635,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Category",
+    "model_id": [
+      66,
+      "Module"
+    ],
+    "name": "category_id",
+    "relation": "ir.module.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6c886cf2293f82f8342a1bbf5d1f0acdf59ee09f16067bba34e332cdaabf0188",
+  "write_date": "",
+  "xml_id": "base.field_ir_module_module__category_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1895,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Due Date",
+    "model_id": [
+      164,
+      "Activity"
+    ],
+    "name": "date_deadline",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "b84706e82c02b1e9b0c01c1b07125998be4947d0caf5a11e9c6702d85f6bb388",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity__date_deadline"
+}

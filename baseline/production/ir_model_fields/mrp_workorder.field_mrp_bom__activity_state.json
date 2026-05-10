@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16904,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activity State",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "activity_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "0aa1b3c881277c617f8b6338b302c5412a38ae3049015a989606494ab5a51cee",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_bom__activity_state"
+}

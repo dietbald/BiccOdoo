@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Instruction",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "instruction_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "74f8bba9a7e468c9872441365c78ac54e4c695337787f83c410a69adcb1aaa3e",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__instruction_type"
+}

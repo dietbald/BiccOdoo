@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 73,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Field",
+    "model_id": [
+      6,
+      "Fields Selection"
+    ],
+    "name": "field_id",
+    "relation": "ir.model.fields",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "15e9117f75688ef9fc884902adac1ff5d642fc13d377e4526e73100a67d978a0",
+  "write_date": "",
+  "xml_id": "base.field_ir_model_fields_selection__field_id"
+}

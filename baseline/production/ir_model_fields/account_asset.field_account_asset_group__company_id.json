@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23613,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1460,
+      "Asset Group"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "846dd250e3ddab25ad348a04acdcdb50db62990399f22798c122865f337bcdd6",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset_group__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7133,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notify Responsible",
+    "model_id": [
+      566,
+      "Event Alarm"
+    ],
+    "name": "notify_responsible",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "03c36d7fd5bc9e5f0ab363f3376293e0c8231a1fc79b2745b27e13411ebd4427",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_alarm__notify_responsible"
+}

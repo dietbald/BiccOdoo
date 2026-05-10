@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14219,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "34f0d3c8e6133b786b17513edcb33f0d75a6aab7b5fc5c179ce4339f0313053e",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__state"
+}

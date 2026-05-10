@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9556,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Vendor Bills",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "supplier_invoice_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "ad95f402a894e28f70edc4ac5bdda9f96dbabccdc4eb1dbb1c81673e612ce8c3",
+  "write_date": "",
+  "xml_id": "account.field_res_users__supplier_invoice_count"
+}

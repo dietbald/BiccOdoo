@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15586,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b2ca7e3387e1d87e8068cade66eca86f14715244cd3f39b9409abdb549c98f85",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__message_has_sms_error"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4591,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bdea1b0741d7e4b448e9b3bbc16cb97ac895d827005273b524d6db2a719edee8",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__write_uid"
+}

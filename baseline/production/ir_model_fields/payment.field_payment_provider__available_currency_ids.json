@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3661,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currencies",
+    "model_id": [
+      408,
+      "Payment Provider"
+    ],
+    "name": "available_currency_ids",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2d3bb2a3287fa39be30a4aa6f26e89512c3e2e9cef6d1847115f3d9913ac5df5",
+  "write_date": "",
+  "xml_id": "payment.field_payment_provider__available_currency_ids"
+}

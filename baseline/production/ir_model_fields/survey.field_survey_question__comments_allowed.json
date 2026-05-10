@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14789,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Comments Field",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "comments_allowed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4eef748405c8324cd0ce640f67e4e3f2761d421be2b2cbf08f3dfb16759defbf",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__comments_allowed"
+}

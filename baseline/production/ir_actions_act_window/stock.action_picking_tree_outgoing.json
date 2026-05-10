@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 717,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'contact_display': 'partner_address', 'restricted_picking_type_code': 'outgoing', 'search_default_delivery': 1}",
+    "domain": "",
+    "name": "Deliveries",
+    "res_model": "stock.picking",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,activity"
+  },
+  "payload_sha256": "0fba4337afc46de1a6b6ef1cf0e410befe003e6bfbff6831d355e9c5fa88dde7",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.action_picking_tree_outgoing"
+}

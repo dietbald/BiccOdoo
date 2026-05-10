@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13513,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Validated Timesheet Date",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "last_validated_timesheet_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "2011db791b0655dc56273d3b2ccc2b246e94fbd0ec28688b135c0521d3de45fd",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_hr_employee__last_validated_timesheet_date"
+}

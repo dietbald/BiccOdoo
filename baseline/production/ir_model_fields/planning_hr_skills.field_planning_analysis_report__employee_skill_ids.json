@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13986,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skills",
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "employee_skill_ids",
+    "relation": "hr.employee.skill",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7c24731bc203e1ddc6a5337e1f6509a82d89b3c3111e039e3b9a30bda52183fc",
+  "write_date": "",
+  "xml_id": "planning_hr_skills.field_planning_analysis_report__employee_skill_ids"
+}

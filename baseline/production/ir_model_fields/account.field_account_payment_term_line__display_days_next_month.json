@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19808,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Days Next Month",
+    "model_id": [
+      433,
+      "Payment Terms Line"
+    ],
+    "name": "display_days_next_month",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5883369ba12c495a08f990ef7caa0851bdff21bab76162a81ce14bab92aa9aef",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_term_line__display_days_next_month"
+}

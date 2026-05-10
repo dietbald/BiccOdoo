@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13674,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Encoding Unit",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "timesheet_encode_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3ecc181eff860accee9fdf0ce98782f8583ee5fe1b2bc60fd26b45047b673b18",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_account_bank_statement_line__timesheet_encode_uom_id"
+}

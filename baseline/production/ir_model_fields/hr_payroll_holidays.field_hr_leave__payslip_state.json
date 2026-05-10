@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15850,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payslip State",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "payslip_state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3f48b7229e4ab3076c8e89b3222d33e3db7c31684905e9ff2e6403eaf7f08a0f",
+  "write_date": "",
+  "xml_id": "hr_payroll_holidays.field_hr_leave__payslip_state"
+}

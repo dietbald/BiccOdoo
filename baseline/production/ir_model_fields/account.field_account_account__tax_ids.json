@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3954,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Taxes",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "tax_ids",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c84cda7e8a481d39c7c8b1723234d49b9c4c09db94287d08c2d4e5517f8b1190",
+  "write_date": "",
+  "xml_id": "account.field_account_account__tax_ids"
+}

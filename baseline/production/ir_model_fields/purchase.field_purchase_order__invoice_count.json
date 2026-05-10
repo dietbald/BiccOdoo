@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9402,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bill Count",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "invoice_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "00e8850f6ab0b64ff0b7b3e2400d9ca4d09e4a601b16dc740ba97e4baea03b53",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__invoice_count"
+}

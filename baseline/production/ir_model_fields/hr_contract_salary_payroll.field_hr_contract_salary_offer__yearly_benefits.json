@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29627,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Yearly Benefits",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "yearly_benefits",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b39064215083a294b747b6c4bc9fbf9711528203e0af5be831874bd5572ec290",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_offer__yearly_benefits"
+}

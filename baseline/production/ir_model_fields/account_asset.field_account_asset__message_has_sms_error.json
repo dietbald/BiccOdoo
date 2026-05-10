@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6141,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "629d713d8107d5dc8be95cce987569fa585dbc4a235f92265c1e46288222015a",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__message_has_sms_error"
+}

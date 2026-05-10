@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12261,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "db6339c37e50267da26af7faa9c1a84f1ac370a641254f1ea527d3deb8e0df15",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__activity_calendar_event_id"
+}

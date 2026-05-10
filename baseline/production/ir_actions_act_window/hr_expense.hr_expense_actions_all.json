@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 543,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{ 'searchpanel_default_state': [\"draft\", \"submitted\", \"approve\", \"posted\", \"in_payment\", \"paid\"] }",
+    "domain": false,
+    "name": "Expenses Analysis",
+    "res_model": "hr.expense",
+    "target": "current",
+    "view_mode": "graph,pivot,list,form"
+  },
+  "payload_sha256": "b45f6c7f7ff9cab2010ff298b07e638a5b47b216aece4eee04ba2378252f3048",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.hr_expense_actions_all"
+}

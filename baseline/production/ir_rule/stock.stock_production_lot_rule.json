@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 291,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids + [False])]",
+    "groups": [],
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "Stock Production Lot multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "5988461ef7ac70138615420056245cf5cbe31c4b98b66c728f8d67575ee23168",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "stock.stock_production_lot_rule"
+}

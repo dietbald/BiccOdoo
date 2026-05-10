@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16604,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Teams",
+    "model_id": [
+      990,
+      "Quality Alert Stage"
+    ],
+    "name": "team_ids",
+    "relation": "quality.alert.team",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "0095e7473c9f880e1dcca5f45ec95aa0441e4aef0a313222d21abf99e69d8a20",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_stage__team_ids"
+}

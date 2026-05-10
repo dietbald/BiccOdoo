@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5419,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Currency",
+    "model_id": [
+      463,
+      "Accrued Orders Wizard"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0150fd2d871b52f81cd0f78774bd33a9b9e63c1603fe0c83ba475335d27f4596",
+  "write_date": "",
+  "xml_id": "account.field_account_accrued_orders_wizard__currency_id"
+}

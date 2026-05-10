@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17023,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      1002,
+      "Vehicle"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8ee0ba8b488638edc85f9a904e6407cea8d3e18fb20e3d4d6476d1aab0cff796",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle__message_partner_ids"
+}

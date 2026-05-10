@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27755,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Modified by",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "last_modified_uid",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "de96072f7d9a38d734cc6478d6347bfe1ef53a2125e33370017897d6df7797a5",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__last_modified_uid"
+}

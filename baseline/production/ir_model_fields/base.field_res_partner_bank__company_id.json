@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 965,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8ea65fffa89fbcfae5ab5eaae199ffab1e57c432cb57041e5b3148f7be1b4710",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_bank__company_id"
+}

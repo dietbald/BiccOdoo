@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29547,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Optional Line",
+    "model_id": [
+      625,
+      "Quotation Template Line"
+    ],
+    "name": "is_optional",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "c769075cbd32421c26dea0e8d4ad4b2ff2f046f6839b09f69f4309fcad8ba4fd",
+  "write_date": "",
+  "xml_id": "sale_management.field_sale_order_template_line__is_optional"
+}

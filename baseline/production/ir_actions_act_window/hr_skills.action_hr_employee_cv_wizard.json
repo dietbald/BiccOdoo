@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 539,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_employee_ids': active_ids}",
+    "domain": false,
+    "name": "Print Resume",
+    "res_model": "hr.employee.cv.wizard",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "cd9f4a685f5645c1c1ce8464f8aee4aca5173b1fd5365e259b7f0eb080a63337",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.action_hr_employee_cv_wizard"
+}

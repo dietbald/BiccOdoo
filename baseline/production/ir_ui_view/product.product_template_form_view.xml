@@ -1,0 +1,129 @@
+<form string="Product">
+                <sheet name="product_form">
+                    <field name="product_variant_count" invisible="1"/>
+                    <field name="is_product_variant" invisible="1"/>
+                    <field name="attribute_line_ids" invisible="1"/>
+                    <field name="company_id" invisible="1"/>
+                    <div class="oe_button_box" name="button_box">
+                        <!-- Dummy tag for organizing buttons, using position='replace' when inheriting -->
+                        <span id="button_website" invisible="1"/>
+                        <button class="oe_stat_button" name="action_open_documents" type="object" icon="fa-file-text-o">
+                            <field string="Documents" name="product_document_count" widget="statinfo"/>
+                        </button>
+                    </div>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <field name="id" invisible="True"/>
+                    <field name="image_1920" widget="image" class="oe_avatar" options="{'convert_to_webp': True, 'preview_image': 'image_128'}"/>
+                    <div class="oe_title">
+                        <label for="name" string="Product"/>
+                        <h1>
+                            <div class="d-flex">
+                                <field name="is_favorite" widget="boolean_favorite" class="me-2" nolabel="1"/>
+                                <field class="text-break" name="name" options="{'line_breaks': False}" widget="text" placeholder="e.g. Cheese Burger"/>
+                            </div>
+                        </h1>
+                    </div>
+                    <div name="options">
+                        <span name="sale_option" class="d-inline-flex">
+                            <field name="sale_ok"/>
+                            <label for="sale_ok"/>
+                        </span>
+                    </div>
+                    <notebook>
+                        <page string="General Information" name="general_information">
+                            <group>
+                                <group name="group_general">
+                                    <field name="active" invisible="1"/>
+                                    <field name="type" widget="radio" options="{'horizontal': True}"/>
+                                    <field name="combo_ids" widget="many2many_tags" placeholder="e.g. Starter - Meal - Desert" invisible="type != 'combo'" options="{                                             'no_quick_create': True,                                             'edit_tags': True,                                         }"/>
+                                    <field name="service_tracking" invisible="1 or type != 'service'"/>
+                                    <field name="product_tooltip" class="fst-italic text-muted" string="" invisible="not product_tooltip"/>
+                                </group>
+                                <group name="group_standard_price">
+                                    <label for="list_price"/>
+                                    <div name="list_price_uom">
+                                        <field name="list_price" class="oe_inline" widget="monetary" options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+                                        <span name="uom_span" groups="uom.group_uom" invisible="type == 'combo'">
+                                            per
+                                            <field name="uom_id" widget="many2one_uom" class="oe_inline" style="max-width:136px" options="{'no_quick_create': True}"/>
+                                        </span>
+                                    </div>
+                                    <label for="standard_price" invisible="type == 'combo'                                                     or (not is_product_variant and (                                                         product_variant_count &gt; 1                                                         or (product_variant_count == 0 and is_dynamically_created)                                                     ))" id="standard_price_label"/>
+                                    <div name="standard_price_uom" invisible="type == 'combo'                                                     or (not is_product_variant and (                                                         product_variant_count &gt; 1                                                         or (product_variant_count == 0 and is_dynamically_created)                                                     ))">
+                                        <field name="standard_price" class="oe_inline" widget="monetary" options="{                                                 'currency_field': 'cost_currency_id',                                                 'field_digits': True,                                             }"/>
+                                        <span groups="uom.group_uom">
+                                            per
+                                            <field name="uom_id" widget="many2one_uom" class="oe_inline" style="max-width:136px" options="{'no_quick_create': True}"/>
+                                        </span>
+                                    </div>
+                                    <field name="categ_id" string="Category"/>
+                                    <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}" placeholder="Visible to all"/>
+                                    <field name="currency_id" invisible="1"/>
+                                    <field name="cost_currency_id" invisible="1"/>
+                                    <field name="product_variant_id" invisible="1"/>
+                                </group>
+                            </group>
+                            <group name="internal_notes" string="Internal Notes">
+                                <field colspan="2" name="description" nolabel="1" placeholder="This note is only for internal purposes."/>
+                            </group>
+                        </page>
+                        <page string="Sales" name="sales" invisible="1 or not sale_ok">
+                            <group name="sale">
+                                <group string="Upsell &amp; Cross-Sell" name="upsell" invisible="1">
+                                    <field name="uom_ids" widget="many2many_uom_tags" options="{'no_quick_create': True, 'edit_tags': True}" groups="uom.group_uom" force_save="1" context="{'product_id': product_variant_id if product_variant_count == 1 else False, 'product_ids': product_variant_ids, 'show_variant_name': product_variant_count &gt; 1}"/>
+                                </group>
+                                <group name="extra_info" string="Extra Info">
+                                    <field name="product_tag_ids" widget="many2many_tags" context="{'product_template_id': id}"/>
+                                </group>
+                            </group>
+                            <group>
+                                <group string="Quotation Description" name="description">
+                                    <field colspan="2" name="description_sale" nolabel="1" placeholder="This note is added to sales orders and invoices."/>
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Prices" name="sales_price" groups="product.group_product_pricelist" invisible="not sale_ok">
+                            <field name="pricelist_rule_ids" context="{                                     'form_view_ref': 'product.product_pricelist_item_product_template_form_view',                                 }">
+                                <list>
+                                    <control>
+                                        <create name="add_product_price" string="Add a price"/>
+                                    </control>
+                                    <field name="pricelist_id" required="is_pricelist_required"/>
+                                    <field name="name" string="Applied On" column_invisible="parent.product_variant_count &lt; 2"/>
+                                    <field name="price"/>
+                                    <field name="min_quantity"/>
+                                    <field name="date_start" optional="hide"/>
+                                    <field name="date_end" optional="hide"/>
+                                    <field name="company_id" groups="base.group_multi_company" optional="hide"/>
+
+                                    <!-- Needed for rule edition & creation on product.product form -->
+                                    <field name="product_tmpl_id" column_invisible="True"/>
+                                </list>
+                            </field>
+                        </page>
+                        <page string="Purchase" name="purchase" invisible="1 or not purchase_ok or type == 'combo'" groups="uom.group_uom">
+                            <group name="purchase">
+                                <group string="Vendor Bills" name="bill">
+                                </group>
+                            </group>
+                        </page>
+                        <page string="Inventory" name="inventory" groups="uom.group_uom" invisible="type in ['service', 'combo']">
+                            <group name="inventory">
+                                <group name="group_lots_and_weight" string="Logistics" invisible="type != 'consu'">
+                                    <label for="weight" invisible="product_variant_count &gt; 1 and not is_product_variant"/>
+                                    <div class="o_row" name="weight" invisible="product_variant_count &gt; 1 and not is_product_variant">
+                                        <field name="weight" class="oe_inline" style="max-width: 7rem;"/>
+                                        <field name="weight_uom_name"/>
+                                    </div>
+                                    <label for="volume" invisible="product_variant_count &gt; 1 and not is_product_variant"/>
+                                    <div class="o_row" name="volume" invisible="product_variant_count &gt; 1 and not is_product_variant">
+                                        <field name="volume" string="Volume" class="oe_inline" style="max-width: 7rem;"/>
+                                        <field name="volume_uom_name"/>
+                                    </div>
+                                </group>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+                <chatter/>
+            </form>

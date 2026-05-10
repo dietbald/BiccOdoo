@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4122,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Base Affected by Previous Taxes",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "is_base_affected",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "05a0da9e25230bd62f354623974c0d5f0b523e5d846867049351206371a4022d",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__is_base_affected"
+}

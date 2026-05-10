@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29021,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closing Return",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "closing_return_id",
+    "relation": "account.return",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4a58a57f049493ff05b7c6eca0fbd5b3385e405ed6be0f524b8c6c8fd4ffacf3",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_move__closing_return_id"
+}

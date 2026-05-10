@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5377,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can Group Payments",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "can_group_payments",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cb444c943806f018f791a6a6b32e63456e173c7f5c226203b6255e302f97781a",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__can_group_payments"
+}

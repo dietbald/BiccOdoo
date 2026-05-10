@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5936,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "State",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "b8abb77cf3e28f8bd91e1e1f10181ddd30a86916466fb4e6de76927496ec51dc",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__state"
+}

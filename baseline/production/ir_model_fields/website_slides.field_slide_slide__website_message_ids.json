@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24112,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6147bf54a261cbdfe13a443d405ee2262b50610fb1616dfdf5183f5b0ca43001",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_slide__website_message_ids"
+}

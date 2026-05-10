@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15163,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Booking",
+    "model_id": [
+      936,
+      "Appointment Booking Line"
+    ],
+    "name": "calendar_event_id",
+    "relation": "calendar.event",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "07f922ccf503a630abdebb78e8e60e68fd89d30d1f321b94290c51f639ffb3e9",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_booking_line__calendar_event_id"
+}

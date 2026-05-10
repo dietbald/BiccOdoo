@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24222,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Course",
+    "model_id": [
+      1510,
+      "Channel / Partners (Members)"
+    ],
+    "name": "channel_id",
+    "relation": "slide.channel",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d92658b94159fabadaa4f87b88ffedd4c20f9c926c5cc47e021ccca1898a9544",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel_partner__channel_id"
+}

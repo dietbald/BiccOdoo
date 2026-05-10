@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25506,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Applicant",
+    "model_id": [
+      2600,
+      "Points line for referrals"
+    ],
+    "name": "applicant_id",
+    "relation": "hr.applicant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d4b86051f4e434094f57d409f878f5b6ab3ec7eadb9effab06ea15586bdd0c17",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_points__applicant_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 841,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      63,
+      "Recruitment / Administrator"
+    ],
+    "model_id": [
+      667,
+      "Recruitment Stages"
+    ],
+    "name": "hr.recruitment.stage.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "83d6ab31a7ef420a88cd7bd3ba08ccf56828ebb8562ae7661abdfae0e8e9d935",
+  "write_date": "2025-12-09 02:58:19",
+  "xml_id": "hr_recruitment.access_hr_recruitment_stage_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4989,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "l10n-used countries",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_enabled_tax_country_ids",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "33ba7bf36cffed46d8473204046066d5fa8dc36ec9f75e07071003176d3b1971",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_enabled_tax_country_ids"
+}

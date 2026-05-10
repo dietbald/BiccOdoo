@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24641,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Enforce two-factor authentication",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "auth_totp_enforce",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2eba733b3ea7506cd1316c8c42f3f413ca83ae398ad3f02e293e573fd53905e5",
+  "write_date": "",
+  "xml_id": "auth_totp_mail.field_res_config_settings__auth_totp_enforce"
+}

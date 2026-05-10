@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26744,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sequence to use",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "sequence_id",
+    "relation": "ir.sequence",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7a3b8ff235cad8382135aa38ac4761652e57029f75cbc6545738d8158bc86d0d",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__sequence_id"
+}

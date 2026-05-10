@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16360,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Auto Print Produced Product Labels",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "auto_print_done_mrp_product_labels",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "74cabe5f27ad6dad2e94e0aeb182c5e6d0334eb6fb6145d0b7e69015b89d448a",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_picking_type__auto_print_done_mrp_product_labels"
+}

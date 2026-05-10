@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6016,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Handler Model",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "custom_handler_model_id",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5e26a7c91242527e569cc5339882e8144653c07a665cbb229f75678566f2f809",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_report__custom_handler_model_id"
+}

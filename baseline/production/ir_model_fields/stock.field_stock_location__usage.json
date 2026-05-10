@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10871,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Location Type",
+    "model_id": [
+      727,
+      "Inventory Locations"
+    ],
+    "name": "usage",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d604adb2fb48f00039261b5ce94dd6c1bcf75b50796ab670211a5cf25d4a7c1b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_location__usage"
+}

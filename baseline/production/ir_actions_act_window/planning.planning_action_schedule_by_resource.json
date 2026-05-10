@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 904,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_group_by_employee': 1, 'planning_expand_employee': 1, 'planning_expand_role': 1,\n            'planning_expand_sale_line_id': 1, 'planning_expand_resource': 1, 'planning_expand_resource': 1\n        }",
+    "domain": "[('start_datetime', '!=', False), ('end_datetime', '!=', False)]",
+    "name": "Schedule by Resource",
+    "res_model": "planning.slot",
+    "target": "current",
+    "view_mode": "gantt,calendar,list,form,kanban,pivot,graph"
+  },
+  "payload_sha256": "6e3ccb67e9d7e8b8d429340e7f4ffb697f5aad1b9472db3db2bbee990bf50204",
+  "write_date": "2025-12-09 03:00:34",
+  "xml_id": "planning.planning_action_schedule_by_resource"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 471,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_open_tasks': 1,\n            'list_view_ref': 'project_todo.project_task_view_todo_tree',\n            'default_project_id': False,\n            'show_todo_mail_helper': True,\n        }",
+    "domain": "[('user_ids', 'in', [uid]), ('project_id', '=', False), ('parent_id', '=', False)]",
+    "name": "To-dos",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "kanban,form,list,calendar,activity"
+  },
+  "payload_sha256": "a2174a763c2a26f05b42956c4fa3d1c127a8868602adae05efeca26189a3bcb2",
+  "write_date": "2025-12-09 02:58:42",
+  "xml_id": "project_todo.project_task_action_todo"
+}

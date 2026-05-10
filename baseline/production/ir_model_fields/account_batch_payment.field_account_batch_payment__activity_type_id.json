@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19076,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8c4da9cc4f7344eb9f9bddad845690d63b0b57bbc4f5891c0bde0a15ea495ba1",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__activity_type_id"
+}

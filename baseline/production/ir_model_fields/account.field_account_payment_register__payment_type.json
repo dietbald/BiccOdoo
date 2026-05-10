@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5371,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Type",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "payment_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "63cb5f2d4a3a9029db18194dce3247d68c0f592569d4d963dac6572cfba86dfc",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__payment_type"
+}

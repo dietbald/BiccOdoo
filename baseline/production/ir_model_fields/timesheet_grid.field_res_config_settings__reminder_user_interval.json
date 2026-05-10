@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13518,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User Reminder Frequency",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "reminder_user_interval",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "def1b7dfe6d549b9f284d90798e0bd50af976a5cbf0e87e0440b2bbe6c2ea1e0",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_res_config_settings__reminder_user_interval"
+}

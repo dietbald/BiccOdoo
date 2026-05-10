@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4000,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2ae263531ad004e9c655c1316d6ad382e5d576f9bbafd112d4d82efef14e68d0",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__activity_ids"
+}

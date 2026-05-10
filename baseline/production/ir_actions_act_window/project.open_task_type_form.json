@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 436,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_user_id': False}",
+    "domain": "[('user_id', '=', False)]",
+    "name": "Task Stages",
+    "res_model": "project.task.type",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "c7112077220cac8e2db12714fc6492e3c4b50ae49cf90c4f96419cefe01acb9d",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.open_task_type_form"
+}

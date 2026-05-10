@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1904,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next activities available",
+    "model_id": [
+      164,
+      "Activity"
+    ],
+    "name": "has_recommended_activities",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "06543abe6fde3df152b90ade725b65611b9bb10218a6e56f5256d24edd48070e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity__has_recommended_activities"
+}

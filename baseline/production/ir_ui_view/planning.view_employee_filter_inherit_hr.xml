@@ -1,0 +1,9 @@
+<data><xpath expr="//filter[@name='inactive']" position="before">
+                <filter name="fixed_hours" string="Fixed Hours" domain="[('is_flexible', '=', False)]"/>
+                <filter name="flexible_hours" string="Flexible Hours" domain="[('is_flexible', '!=', False)]"/>
+                <separator/>
+            </xpath>
+            <xpath expr="//field[@name='name']" position="after">
+                <field name="planning_role_ids" string="Roles"/>
+            </xpath>
+        </data>

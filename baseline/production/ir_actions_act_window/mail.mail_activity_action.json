@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 121,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'force_search_count': 1,\n        }",
+    "domain": false,
+    "name": "Activity Overview",
+    "res_model": "mail.activity",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "5c5ec4ce92c6acb28eefe0e7f85bc7aedc1821aa22337200fdddef77fc9d9f76",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.mail_activity_action"
+}

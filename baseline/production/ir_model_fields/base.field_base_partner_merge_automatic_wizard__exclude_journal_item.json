@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1337,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Items associated to the contact",
+    "model_id": [
+      116,
+      "Merge Partner Wizard"
+    ],
+    "name": "exclude_journal_item",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e831b7641a34576e4aa1662919d0b88c203e45c77b25389c02db57b6bfa922ab",
+  "write_date": "",
+  "xml_id": "base.field_base_partner_merge_automatic_wizard__exclude_journal_item"
+}

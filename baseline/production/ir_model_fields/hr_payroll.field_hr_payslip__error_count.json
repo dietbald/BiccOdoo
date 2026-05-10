@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29453,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Error Count",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "error_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "2fd90a75965080c32f132692d590939f19d48094d7e9175547b0787dbbf0be39",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__error_count"
+}

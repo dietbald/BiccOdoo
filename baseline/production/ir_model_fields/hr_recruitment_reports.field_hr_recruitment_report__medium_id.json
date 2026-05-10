@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9817,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      673,
+      "Recruitment Analysis Report"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "833388b317100d9fe7434e8207471810ee7d6b984d47a1b20091f7c438713bf2",
+  "write_date": "",
+  "xml_id": "hr_recruitment_reports.field_hr_recruitment_report__medium_id"
+}

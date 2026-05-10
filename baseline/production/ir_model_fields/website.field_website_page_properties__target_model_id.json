@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22664,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Target Model",
+    "model_id": [
+      1406,
+      "Page Properties"
+    ],
+    "name": "target_model_id",
+    "relation": "website.page",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a9c76e4077d27e7467e9e2f8a61612a8acd8ce221b485ac5b32ab54ac6c02e2b",
+  "write_date": "",
+  "xml_id": "website.field_website_page_properties__target_model_id"
+}

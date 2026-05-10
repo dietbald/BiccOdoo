@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1644,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Global Time Off",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "global_leave_ids",
+    "relation": "resource.calendar.leaves",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "22550a62b93a218d2645fd3458f3d565dbac8c818392a8c434ba17c20d4fc974",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__global_leave_ids"
+}

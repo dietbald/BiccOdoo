@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6860,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invitation Token",
+    "model_id": [
+      563,
+      "Calendar Attendee Information"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "97840c8e04785433dffa45aa539cb0fe1b20a64aa1fd780908b0f51c4d83f287",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_attendee__access_token"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24442,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Certification attempts",
+    "model_id": [
+      1504,
+      "Slide / Partner decorated m2m"
+    ],
+    "name": "user_input_ids",
+    "relation": "survey.user_input",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "6e2d0d45f9e7c7b4f0dc830b076ce008f4881c9611eb80ea06b50040cea8c0e4",
+  "write_date": "",
+  "xml_id": "website_slides_survey.field_slide_slide_partner__user_input_ids"
+}

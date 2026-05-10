@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10147,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Menu using a copy of me",
+    "model_id": [
+      692,
+      "Website Theme Menu"
+    ],
+    "name": "copy_ids",
+    "relation": "website.menu",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "04cf94d37d69672fdad264542408569275ffee94075cf0b6963f855bb0d40241",
+  "write_date": "",
+  "xml_id": "website.field_theme_website_menu__copy_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11700,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      767,
+      "Warn Insufficient Scrap Quantity"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "272063d482554b03cef5cf3cd3dccf7183d725cbd1731e0870cc9ecff7d4c723",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warn_insufficient_qty_scrap__product_id"
+}

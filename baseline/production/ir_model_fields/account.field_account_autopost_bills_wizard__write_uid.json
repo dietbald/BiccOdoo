@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22251,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1381,
+      "Autopost Bills Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2ad09d8566aa9003e12ccc4d61f667153adadcbc23ee7030f7ff88e190e3b962",
+  "write_date": "",
+  "xml_id": "account.field_account_autopost_bills_wizard__write_uid"
+}

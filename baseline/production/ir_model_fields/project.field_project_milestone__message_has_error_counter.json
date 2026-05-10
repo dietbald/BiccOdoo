@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7743,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "cd79e81755e8b8dae50bddade6494ca189dceb0013ddb1f349f747a6f32e5296",
+  "write_date": "",
+  "xml_id": "project.field_project_milestone__message_has_error_counter"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11075,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ed68a077370c51824ae90decf92ea2e2e3a677ee8f57a4a28dbbe77e8e2fe961",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__create_uid"
+}

@@ -1,0 +1,14 @@
+<form string="Units of Measure">
+                <sheet>
+                    <group>
+                         <group name="uom_details">
+                            <field name="name" readonly="(context.get('product_id') or context.get('product_ids')) and id"/>
+                            <label for="relative_factor" string="Quantity"/>
+                            <div name="relative_factor" class="o_row oe_inline">
+                                <field name="relative_factor" class="oe_inline" style="max-width: 80px;" readonly="(context.get('product_id') or context.get('product_ids')) and id" digits="[12, 5]"/>
+                                <field name="relative_uom_id" placeholder="Reference Unit" class="oe_inline" style="max-width: 150px;" readonly="(context.get('product_id') or context.get('product_ids')) and id"/>
+                            </div>
+                         </group>
+                     </group>
+                </sheet>
+            </form>

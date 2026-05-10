@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18231,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Equipment",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "equipment_ids",
+    "relation": "maintenance.equipment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4678e9b3c61cf04303648cf7827b68c63fa65c2c02008e24d032070712caf650",
+  "write_date": "",
+  "xml_id": "hr_maintenance.field_hr_employee__equipment_ids"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 764,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "['&',('approver_ids.user_id','=',uid),('request_status','=','pending')]",
+    "name": "Approvals to Review",
+    "res_model": "approval.request",
+    "target": "current",
+    "view_mode": "list,form,kanban"
+  },
+  "payload_sha256": "d992137c7151cfd4fc7ce08d6cded11fb5b8ad21ee800105efa1d24cdc2937b8",
+  "write_date": "2025-12-09 02:57:55",
+  "xml_id": "approvals.approval_request_action_to_review"
+}

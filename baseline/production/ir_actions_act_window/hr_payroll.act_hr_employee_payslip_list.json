@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 822,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_employee_id': [active_id], 'default_employee_id': active_id}",
+    "domain": false,
+    "name": "Payslips",
+    "res_model": "hr.payslip",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "d45549b8ba90aa87eeeac2e7fdecd41dadf5f6eb987ac96549981fd7740addba",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.act_hr_employee_payslip_list"
+}

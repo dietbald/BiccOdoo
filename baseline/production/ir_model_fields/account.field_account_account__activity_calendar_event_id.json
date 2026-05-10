@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27494,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "998fceec0c015d046342d25f0750e36b4010ee45c1b3a185aadfa46ea63670b1",
+  "write_date": "",
+  "xml_id": "account.field_account_account__activity_calendar_event_id"
+}

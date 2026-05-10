@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9445,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit Price",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "price_unit",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "afa03a11749a32c90633c3a8490b8cf09b1fa10e05683ab505825ba325f92375",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__price_unit"
+}

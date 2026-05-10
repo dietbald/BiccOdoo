@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28076,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project Role",
+    "model_id": [
+      3335,
+      "Project role to users mapping"
+    ],
+    "name": "role_id",
+    "relation": "project.role",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "df130b55d05072d791b88d2548cfb832577034ee8852c508d7cdc70378ac0c0a",
+  "write_date": "",
+  "xml_id": "project.field_project_template_role_to_users_map__role_id"
+}

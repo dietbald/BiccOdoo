@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11186,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Reception Report at Validation",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "auto_show_reception_report",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "47630fe20541f94db2d4e6faedde389b492b50bc5618435dff136b7ed6ef5e7c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__auto_show_reception_report"
+}

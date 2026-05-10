@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8734,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "category_ids",
+    "relation": "hr.employee.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "45011bd9b8448b49b6011bcefb20a286b9cf76c4254effc48101412c13c23669",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee__category_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11826,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message for Stock Picking",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "picking_warn_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "73f3fc1ddb1887dc03f878e20de37c56974a87b8f86722217561d1cbd0cb6e5c",
+  "write_date": "",
+  "xml_id": "stock.field_res_users__picking_warn_msg"
+}

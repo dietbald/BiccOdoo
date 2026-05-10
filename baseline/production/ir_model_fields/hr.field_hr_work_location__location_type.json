@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8886,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cover Image",
+    "model_id": [
+      636,
+      "Work Location"
+    ],
+    "name": "location_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "31858dc91ba33a1ce735acc61dd3cf9a9979af1e0b6e5f144d611fcf71d11af5",
+  "write_date": "",
+  "xml_id": "hr.field_hr_work_location__location_type"
+}

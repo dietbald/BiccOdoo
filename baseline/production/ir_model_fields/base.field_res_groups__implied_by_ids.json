@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25732,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Implying Groups",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "implied_by_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f2a7911510d56b07325318229dc18632c8ae03d7a3ebb861ac2e4a38b8ee4540",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__implied_by_ids"
+}

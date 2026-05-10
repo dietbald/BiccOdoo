@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 614,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('country_id', '=', False), ('country_id', 'in', user.env.companies.mapped('country_id').ids)]",
+    "groups": [],
+    "model_id": [
+      1236,
+      "Payroll Dashboard Warning"
+    ],
+    "name": "HR Payroll Dashboard Warning: Multi Company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "cfa738930803c591edc66edffeec99d1ee2eb85dd1e60942d5262d10ace920f0",
+  "write_date": "2024-10-23 10:50:18",
+  "xml_id": "hr_payroll.ir_rule_hr_payroll_dashboard_warning_multi_company"
+}

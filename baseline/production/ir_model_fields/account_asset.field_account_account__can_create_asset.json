@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6114,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Can Create Asset",
+    "model_id": [
+      421,
+      "Account"
+    ],
+    "name": "can_create_asset",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "545102e40484e35cd8f69552b93ffab0f0fc1005db3b05684b06498a32c513b1",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_account__can_create_asset"
+}

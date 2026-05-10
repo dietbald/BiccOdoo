@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21834,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account",
+    "model_id": [
+      1358,
+      "SMS Account Sender Name Wizard"
+    ],
+    "name": "account_id",
+    "relation": "iap.account",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8444f2eed214fbbeff3f22f0b0f523a5828fe4c22009cd558c11bd647480ea30",
+  "write_date": "",
+  "xml_id": "sms.field_sms_account_sender__account_id"
+}

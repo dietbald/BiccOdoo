@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1840,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      1505,
+      "Slide Tag"
+    ],
+    "name": "slide.tag.all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "bcf026d10e66d1f8a7729ca4d5641c849204039047f5b000f772fe167d855890",
+  "write_date": "2026-01-28 12:01:25",
+  "xml_id": "website_slides.access_slide_tag_public"
+}

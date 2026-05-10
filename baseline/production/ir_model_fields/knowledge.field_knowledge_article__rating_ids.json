@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fcd357b6093beaa3a9736b804b09a034ead884f56c1a0a722067095e829a0f46",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__rating_ids"
+}

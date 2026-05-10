@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5584,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract Detected Layout Id",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "extract_detected_layout",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "019a1697c9c2fe7462dc829555c43dfc5b68beb278cefe98be506f215f013bde",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__extract_detected_layout"
+}

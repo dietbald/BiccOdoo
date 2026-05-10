@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6281,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attach Invoices",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "join_invoices",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9a982d0f14c681e639945a8424adcfe7a25dbb90bc70e6313b9d6b57df9c81f3",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__join_invoices"
+}

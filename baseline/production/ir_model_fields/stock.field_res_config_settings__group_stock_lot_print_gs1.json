@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10848,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Print GS1 Barcodes for Lots & Serial Numbers",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_stock_lot_print_gs1",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1e809b921f4e094ce4b74200f8b6f9c6b9e5a77b9cba8715aaf502d7c737f267",
+  "write_date": "",
+  "xml_id": "stock.field_res_config_settings__group_stock_lot_print_gs1"
+}

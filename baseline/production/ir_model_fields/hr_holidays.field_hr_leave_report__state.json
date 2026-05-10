@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15751,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      953,
+      "Time Off Summary / Report"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2b3c9b652cca0e79748217bb04e65e0cec6d21b376f74bfb7f6a784a70ced11b",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_report__state"
+}

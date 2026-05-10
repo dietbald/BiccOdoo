@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13429,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet Encode Uom",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "timesheet_encode_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "60cc3c46dfa03d0e24693eb58fee0735144b339a9493a5d9104a88ef453f2345",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_project_project__timesheet_encode_uom_id"
+}

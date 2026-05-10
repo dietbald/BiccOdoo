@@ -1,0 +1,57 @@
+<kanban class="o_appointment_kanban" js_class="appointment_type_kanban" type="object" action="action_calendar_meetings">
+                <field name="category" readonly="true"/>
+                <field name="schedule_based_on"/>
+                <field name="sequence" widget="handle" groups="appointment.group_appointment_manager"/>
+                <templates>
+                    <div t-name="card" class="o_appointment_kanban_card">
+                        <div class="row gx-3">
+                            <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                            <div class="col-lg-3 col-sm-5 col-11 py-0 my-auto text-large o_appointment_kanban_name text-truncate">
+                                <span class="fw-bold" t-att-title="record.name.value"><field name="name"/></span><br/>
+                            </div>
+                            <div class="col-lg-4 col-sm-7 col-12 py-0 mt-3 mb-2 my-lg-auto d-flex">
+                                <div class="align-self-center me-sm-0 me-3 text-large w-50 text-nowrap">
+                                    <field class="fw-normal" name="appointment_duration_formatted"/><br/>
+                                    <span class="fw-light">Duration</span>
+                                </div>
+                                <div class="my-sm-auto w-50 w-sm-75">
+                                    <field name="staff_user_ids" widget="many2many_avatar_user" readonly="True" invisible="schedule_based_on != 'users'"/>
+                                    <field name="resource_ids" widget="many2many_tags_avatar" readonly="True" invisible="schedule_based_on == 'users'"/>
+                                </div>
+                            </div>
+                            <div t-attf-class="col-lg-1 col-sm-10 col-10 py-0 my-2 my-lg-auto mx-lg-auto text-large text-nowrap #{!record.appointment_count_request.raw_value ? 'invisible d-none d-lg-block' : ''}">
+                                <a name="action_calendar_event_view_request" type="object">
+                                    <span class="fw-normal">
+                                        <field name="appointment_count_request"/>
+                                        <t t-if="record.schedule_based_on.raw_value == 'users'"> Meetings</t>
+                                        <t t-else=""> Bookings</t>
+                                    </span>
+                                </a><br/>
+                                <span class="fw-light">To Confirm</span>
+                            </div>
+                            <div class="col-lg-1 col-sm-5 col-6 py-0 my-2 my-lg-auto mx-lg-auto text-large text-nowrap">
+                                <span class="fw-normal">
+                                    <field name="appointment_count_upcoming"/>
+                                    <t t-if="record.schedule_based_on.raw_value == 'users'"> Meetings</t>
+                                    <t t-else=""> Bookings</t>
+                                </span><br/>
+                                <span class="fw-light">Upcoming</span>
+                            </div>
+                            <div class="col-lg-1 col-sm-5 col-6 py-0 my-2 my-lg-auto mx-lg-auto text-large text-nowrap">
+                                <span class="fw-normal">
+                                    <field name="appointment_count"/>
+                                    <t t-if="record.schedule_based_on.raw_value == 'users'"> Meetings</t>
+                                    <t t-else=""> Bookings</t>
+                                </span><br/>
+                                <span class="fw-light">Total</span>
+                            </div>
+                            <div class="col-lg-2 col-12 pe-sm-0 py-0 mt-3 mb-2 my-lg-auto d-flex o_appointment_kanban_buttons">
+                                <widget name="appointment_quick_share_button" class="ms-lg-auto me-2"/>
+                                <button type="open" class="btn btn-secondary z-1">
+                                    Configure
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </templates>
+            </kanban>

@@ -1,0 +1,12 @@
+<list string="Invitation Links" edit="0" duplicate="0" sample="1" js_class="appointment_share_link_list">
+                <field name="create_date" optional="hide"/>
+                <field name="create_uid" widget="many2one_avatar_user" optional="hide"/>
+                <field name="appointment_type_count" column_invisible="True"/>
+                <field name="suggested_staff_user_ids" column_invisible="True"/>
+                <field name="suggested_resource_ids" column_invisible="True"/>
+                <field name="appointment_type_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                <field name="staff_user_ids" string="Restrict to User" widget="many2many_avatar_user" readonly="appointment_type_count &gt; 1" column_invisible="context.get('schedule_based_on') == 'resources'" domain="[('id','in',suggested_staff_user_ids)]" options="{'no_create': True}"/>
+                <field name="resource_ids" string="Restrict to Resource" widget="many2many_tags_avatar" readonly="appointment_type_count &gt; 1" column_invisible="context.get('schedule_based_on') == 'users'" domain="[('id','in',suggested_resource_ids)]" options="{'no_create': True}" optional="hide"/>
+                <field name="book_url" readonly="1" widget="CopyClipboardChar"/>
+                <field name="calendar_event_count"/>
+            </list>

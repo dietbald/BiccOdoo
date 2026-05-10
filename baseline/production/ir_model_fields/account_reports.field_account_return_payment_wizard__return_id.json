@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29036,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Return",
+    "model_id": [
+      3601,
+      "Returns Generic Payment Wizard"
+    ],
+    "name": "return_id",
+    "relation": "account.return",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bd8a4828715d6f1994b2e01305856059577b3fa5d7962f0aede0f613436f5e06",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return_payment_wizard__return_id"
+}

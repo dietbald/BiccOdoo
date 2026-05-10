@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 713,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "sale.order.accountant",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "fc68670dac182913c74c975fce2cc9ba37fddcfb5c467c2d66381f1fa67ffa5f",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_sale_order_readonly"
+}

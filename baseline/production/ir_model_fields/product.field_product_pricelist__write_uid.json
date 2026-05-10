@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3154,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      367,
+      "Pricelist"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "743ae0e5c69c41e4f215b43bf23204d46c9c76f513f8f765930b6a19e9e8bb87",
+  "write_date": "",
+  "xml_id": "product.field_product_pricelist__write_uid"
+}

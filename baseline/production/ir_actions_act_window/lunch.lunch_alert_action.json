@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1219,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "['|', ('active', '=', True), ('active', '=', False)]",
+    "name": "Lunch Alerts",
+    "res_model": "lunch.alert",
+    "target": "current",
+    "view_mode": "list,form,kanban"
+  },
+  "payload_sha256": "ddb958cc9bd88cddc47f6da632505486e7308a5156b2e176b8e78a17a08a3a0e",
+  "write_date": "2025-12-09 02:55:56",
+  "xml_id": "lunch.lunch_alert_action"
+}

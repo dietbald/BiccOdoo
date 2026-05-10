@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22262,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Not Hashable Unlocked Move",
+    "model_id": [
+      1382,
+      "Secure Journal Entries"
+    ],
+    "name": "not_hashable_unlocked_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "573dcb9d89b540eda81fb890fd2d21e053bd237bd9226b30c0d11586b4227eb2",
+  "write_date": "",
+  "xml_id": "account.field_account_secure_entries_wizard__not_hashable_unlocked_move_ids"
+}

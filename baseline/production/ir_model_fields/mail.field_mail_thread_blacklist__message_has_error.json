@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1791,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      156,
+      "Mail Blacklist mixin"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "afd4fb243bd9618b90023ab086a8750e51dbb35cd7a7b5035c9d5f0f04365a1b",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_blacklist__message_has_error"
+}

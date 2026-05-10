@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1022,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      760,
+      "Choose the sheet layout to print lot labels"
+    ],
+    "name": "lot.label.layout.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "b3d33e646d0a772ea7d6c7bbf25144a018e3b9afa7bb1321ca7e4661167df158",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_lot_label_layout_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2065,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Favorited By",
+    "model_id": [
+      175,
+      "Message"
+    ],
+    "name": "starred_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "561a1e916e5d71c5b83603d1bef189cd73de2b81c48ea3ba7b0b319fbaccdb0d",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__starred_partner_ids"
+}

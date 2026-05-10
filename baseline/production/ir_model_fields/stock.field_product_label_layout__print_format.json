@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3275,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Format",
+    "model_id": [
+      380,
+      "Choose the sheet layout to print the labels"
+    ],
+    "name": "print_format",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f1f8436b3555dfaa0bf961d02cded26cbeb0f003ce60ba859647b5af2ab937da",
+  "write_date": "",
+  "xml_id": "stock.field_product_label_layout__print_format"
+}

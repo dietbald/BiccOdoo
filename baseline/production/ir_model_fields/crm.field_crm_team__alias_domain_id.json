@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7270,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Alias Domain",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "alias_domain_id",
+    "relation": "mail.alias.domain",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bea28c5a46b7b6aeb0f31fb284eb0363a8593690706748c238ddeaf908ba59ff",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team__alias_domain_id"
+}

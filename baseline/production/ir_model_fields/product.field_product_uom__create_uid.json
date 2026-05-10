@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24704,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1831,
+      "Link between products and their UoMs"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7e55c3fba0d5dd8ccf0e4be2d67dab9b7f83fc10ce90c77f9678a5887fc7494c",
+  "write_date": "",
+  "xml_id": "product.field_product_uom__create_uid"
+}

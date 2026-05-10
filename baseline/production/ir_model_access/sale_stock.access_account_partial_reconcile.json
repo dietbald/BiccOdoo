@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1062,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "account.partial.reconcile",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "25e965125c88a8175e4f10be05fc7db83d4612d368c64d5730bc80c4dbdc028b",
+  "write_date": "2025-12-09 03:00:15",
+  "xml_id": "sale_stock.access_account_partial_reconcile"
+}

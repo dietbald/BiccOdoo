@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 17,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1,'=',1)]",
+    "groups": [
+      2
+    ],
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "company rule erp manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "340839810a9ebcf9d013a5fb02e409936b77ed9cef54b346863f3fdd9f696164",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.res_company_rule_erp_manager"
+}

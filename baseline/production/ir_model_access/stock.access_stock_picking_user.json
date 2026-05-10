@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 940,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "stock.picking user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "34e3d01f76d14c8e0b7182ed3053caa976ddd2ebb263b20460e1fa9d179be1a0",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_picking_user"
+}

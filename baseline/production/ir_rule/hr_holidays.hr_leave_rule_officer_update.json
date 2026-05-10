@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 444,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['&', (1, '=', 1), '|', '&', ('employee_id.user_id', '=', user.id), ('state', '!=', 'validate'), '|', ('employee_id.user_id', '!=', user.id), ('employee_id.user_id', '=', False)]",
+    "groups": [
+      115
+    ],
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "Time Off All Approver create/write",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "bbc16fe8c01efbbfd33a7dcf304812d08ccae7ab57e67bdf8509a64ea353a622",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_rule_officer_update"
+}

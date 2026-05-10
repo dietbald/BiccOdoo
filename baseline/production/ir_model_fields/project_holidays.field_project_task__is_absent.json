@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15834,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees on Time Off",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "is_absent",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "3ff19b23a32abe9e8cb168341ada4756b10852bd40412908498d7af32b48f272",
+  "write_date": "",
+  "xml_id": "project_holidays.field_project_task__is_absent"
+}

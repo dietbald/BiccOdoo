@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4128,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Distribution for Invoices",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "invoice_repartition_line_ids",
+    "relation": "account.tax.repartition.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "71154ef81cab6bba50cdba6bff9ff4e8b2c54a7fb50085fe575c54c04ca9aff8",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__invoice_repartition_line_ids"
+}

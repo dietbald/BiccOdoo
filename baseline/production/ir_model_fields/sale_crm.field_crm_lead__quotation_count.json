@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8437,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Quotations",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "quotation_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "dc59fe82191ed91f36720593daeb99f4d0726dfc3a54eebfad6f116d557ebbed",
+  "write_date": "",
+  "xml_id": "sale_crm.field_crm_lead__quotation_count"
+}

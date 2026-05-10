@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23132,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product attribute values that do not create variants",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "product_no_variant_attribute_value_ids",
+    "relation": "product.template.attribute.value",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e1c26a45b975963fa2eec56c62f77bfacef992d21b6edec92c994aadb7ec6c3c",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__product_no_variant_attribute_value_ids"
+}

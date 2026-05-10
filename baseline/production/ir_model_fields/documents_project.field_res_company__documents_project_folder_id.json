@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26018,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project Folder",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "documents_project_folder_id",
+    "relation": "documents.document",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "54f86e37974586a691f6f9c2d6d6e9f1932bca9bb2f9fcc73e31cf6d22a66c36",
+  "write_date": "",
+  "xml_id": "documents_project.field_res_company__documents_project_folder_id"
+}

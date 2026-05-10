@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1375,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      954,
+      "Time Off Calendar"
+    ],
+    "name": "access_hr_leave_report_calendar",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "cb698918c2aa82b93f9cc93f6588d2cd27740f799cfe2b9f86f74047d7d3a43a",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.access_hr_leave_report_calendar"
+}

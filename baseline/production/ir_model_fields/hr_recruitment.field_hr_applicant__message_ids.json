@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9592,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d1c074e769f80e278b974bee74a0cc93884723e8418ac356bb2fcea345343b51",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__message_ids"
+}

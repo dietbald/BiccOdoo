@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23883,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skip until",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "skip_until_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "aa33f15c1acb924ffa10650a5defcd9716d1bc4e95e0c06d26334abad1f0bd73",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__skip_until_date"
+}

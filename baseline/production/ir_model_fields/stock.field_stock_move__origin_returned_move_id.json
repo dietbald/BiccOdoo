@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Origin return move",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "origin_returned_move_id",
+    "relation": "stock.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ebaedce1ea7bfb05876a15b8bbc5e816bbbb6ab260bf69bb9140592517b84d2d",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__origin_returned_move_id"
+}

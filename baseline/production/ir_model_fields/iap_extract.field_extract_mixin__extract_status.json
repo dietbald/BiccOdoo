@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3302,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract status",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "extract_status",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "f40030712d786b6a453db02086e5537e1c7d08179bf9738b1246ca39386d3a7e",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin__extract_status"
+}

@@ -1,0 +1,16 @@
+<data inherit_id="website_slides.slides_home_users_small" active="True" name="Display Leaderboard">
+    <xpath expr="//div[hasclass('o_wslides_home_aside')]" position="inside">
+        <div t-if="not is_public_user" class="d-flex justify-content-between">
+            <h2 class="h6 mb-3">Leaderboard</h2>
+            <a t-if="users" href="/profile/users">View all</a>
+        </div>
+        <t t-if="users">
+            <div class="d-flex flex-column gap-3">
+                <t t-foreach="users" t-as="user">
+                    <t t-call="website_slides.user_quickkarma_card"/>
+                </t>
+            </div>
+        </t>
+        <t t-else=""><p class="text-muted">No leaderboard currently :(</p></t>
+    </xpath>
+</data>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5523,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Revision Uuid",
+    "model_id": [
+      471,
+      "Collaborative spreadsheet revision"
+    ],
+    "name": "revision_uuid",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "94de46bc8ec276a6d7f8dffb415db8896f0a54fcf90936d3c3f0ab27f89bfcba",
+  "write_date": "",
+  "xml_id": "spreadsheet_edition.field_spreadsheet_revision__revision_uuid"
+}

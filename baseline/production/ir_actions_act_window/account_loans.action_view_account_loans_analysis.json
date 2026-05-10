@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1471,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_current':1}",
+    "domain": false,
+    "name": "Loans Analysis",
+    "res_model": "account.loan.line",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "886adfc50d2aa284e5ede5fbe79d0b830f0778c9e8f7a0ec0f35f054327df9d7",
+  "write_date": "2025-12-09 03:00:32",
+  "xml_id": "account_loans.action_view_account_loans_analysis"
+}

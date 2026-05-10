@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9437,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Quantity",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "product_uom_qty",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "2b77ee3d37c51176c9020a42d6f14280684ffb5162ae710872ceed90b5c801e3",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__product_uom_qty"
+}

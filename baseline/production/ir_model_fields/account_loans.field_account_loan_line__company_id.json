@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23914,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1476,
+      "Loan Line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "612e57d8b31a3429d667d1846618c600800f800b261336489901b8aea82fe30f",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_line__company_id"
+}

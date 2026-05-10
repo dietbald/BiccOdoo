@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4052,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Loss Account",
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "loss_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5eec04c401212d4fb9910a36ae7b183f118b16096b715b40974f12f8f4b0e027",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__loss_account_id"
+}

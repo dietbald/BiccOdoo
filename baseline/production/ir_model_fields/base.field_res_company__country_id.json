@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1048,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "210053a55ba4dfa54297412ad4ede7f44367a845b9c221dabda6a6324c220006",
+  "write_date": "",
+  "xml_id": "base.field_res_company__country_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27056,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Channel",
+    "model_id": [
+      2974,
+      "Keep the call history"
+    ],
+    "name": "channel_id",
+    "relation": "discuss.channel",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "290718a2ec72486ba665c065c46067faf8ed0a096148a1a5c852414670e6ed30",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_call_history__channel_id"
+}

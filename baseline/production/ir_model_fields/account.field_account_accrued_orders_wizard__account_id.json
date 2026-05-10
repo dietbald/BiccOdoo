@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5420,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Accrual Account",
+    "model_id": [
+      463,
+      "Accrued Orders Wizard"
+    ],
+    "name": "account_id",
+    "relation": "account.account",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c5bc3c06110567aa04814025d8cc264151989fbf4666013fe908d08f3f95434d",
+  "write_date": "",
+  "xml_id": "account.field_account_accrued_orders_wizard__account_id"
+}

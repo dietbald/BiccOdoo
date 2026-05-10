@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21182,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "048c7caf5689698aee0545060c4022b1f3bce985c221a991d7625b35a1f0a20a",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__currency_id"
+}

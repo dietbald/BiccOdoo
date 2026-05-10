@@ -1,0 +1,4 @@
+<field name="benefit_type_id" position="after">
+                <field name="source"/>
+                <field name="salary_rule_id" invisible="source != 'rule'" groups="hr_payroll.group_hr_payroll_user"/>
+            </field>

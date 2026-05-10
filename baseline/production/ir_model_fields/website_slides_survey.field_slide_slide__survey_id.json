@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Certification",
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "survey_id",
+    "relation": "survey.survey",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4c1d0921d9c56dfaae3211e798501eef447c6f02818f86ffac688a5911bf9f8c",
+  "write_date": "",
+  "xml_id": "website_slides_survey.field_slide_slide__survey_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29171,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Offer",
+    "model_id": [
+      1284,
+      "Contract Signatories"
+    ],
+    "name": "offer_id",
+    "relation": "hr.contract.salary.offer",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f4853c460ea8189f1d42aa7d94b5e4c949332ae65c22242c1bef7bf273e71624",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_signatory__offer_id"
+}

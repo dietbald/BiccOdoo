@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3378,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ef48339917a44995552011ed4e510ec681524c3b5d522394c27922017b4901fb",
+  "write_date": "",
+  "xml_id": "portal.field_extract_mixin__website_message_ids"
+}

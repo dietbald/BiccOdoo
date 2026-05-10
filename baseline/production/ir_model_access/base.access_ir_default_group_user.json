@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 38,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      33,
+      "Default Values"
+    ],
+    "name": "ir_default group_user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fbfc39940e71266326077f112ae54ad1816ec98f06d5654479781de692d50b3f",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_ir_default_group_user"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1063,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_availability': '1',\n                                   'search_default_performance': '1',\n                                   'search_default_quality': '1',\n                                   'default_workcenter_id': active_id,\n                                   'search_default_workcenter_id': [active_id]}",
+    "domain": false,
+    "name": "Productivity Losses",
+    "res_model": "mrp.workcenter.productivity",
+    "target": "current",
+    "view_mode": "list,form,graph,pivot"
+  },
+  "payload_sha256": "9f72189b3175d518eab5d6188344a502f54b933d147c5ce7dc085e7a30c4754d",
+  "write_date": "2025-12-09 02:58:38",
+  "xml_id": "mrp.mrp_workcenter_productivity_report_blocked"
+}

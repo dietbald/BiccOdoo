@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17600,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Latest Bom",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "latest_bom_id",
+    "relation": "mrp.bom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4a97a3c83bc8409d4b2e577168d7e8024522259e8bfa122c74fcee9830337337",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_production__latest_bom_id"
+}

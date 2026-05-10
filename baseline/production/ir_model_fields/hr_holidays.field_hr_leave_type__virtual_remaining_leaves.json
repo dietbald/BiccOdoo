@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15639,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Virtual Remaining Time Off",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "virtual_remaining_leaves",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "968558feb16d77b551c89b7e9cb37a942c5a3f902360fd83300a348a0761314a",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__virtual_remaining_leaves"
+}

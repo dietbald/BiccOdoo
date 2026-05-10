@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26611,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Daily Ordered Qty",
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "quantity",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "0847a695d1df87c6b375bec2d4b3e23a7bc3f78fb7ed01e92d75cf98557ec3ae",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_rental_report__quantity"
+}

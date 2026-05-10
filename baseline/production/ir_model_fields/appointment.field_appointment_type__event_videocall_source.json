@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15282,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Video Link",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "event_videocall_source",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "30540beead22799d2d5c505c6937c24cc065f1860cc5b3f9cda273df122421db",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__event_videocall_source"
+}

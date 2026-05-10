@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22570,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Push Applicability",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "push_domain",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "53420ed224be0c34c7fbf5826506b7fc0204eda385ca025ba9c223e5b07e7713",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__push_domain"
+}

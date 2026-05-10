@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 682,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      425,
+      "Journal"
+    ],
+    "name": "account.journal sale order.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b3b73430276c3427c298177fe5e109b061821b7a7dba75e9b6815364c918c1ca",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.access_sale_account_journal"
+}

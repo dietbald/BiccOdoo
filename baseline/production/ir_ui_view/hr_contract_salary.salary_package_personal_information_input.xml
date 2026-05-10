@@ -1,0 +1,56 @@
+<t t-name="hr_contract_salary.salary_package_personal_information_input">
+        <t t-if="personal_info.display_type != 'checkbox'">
+            <label class="col-form-label" t-att-for="personal_info.field"><t t-esc="personal_info.name"/><t t-if="personal_info.is_required"> *</t></label>
+        </t>
+        <t t-if="personal_info.helper"><span class="text-muted"><t t-esc="' ' + personal_info.helper"/></span></t>
+        <t t-if="personal_info.display_type == 'text'">
+            <input type="text" t-att-name="personal_info.field" t-att-applies-on="personal_info.applies_on" t-att-class="'form-control personal_info' + (' benefit_input' if personal_info.impacts_net_salary else '')" t-att-required="personal_info.is_required and not hidden_children" t-att-value="initial_values[personal_info.field]" t-att-placeholder="personal_info.placeholder"/>
+        </t>
+        <t t-if="personal_info.display_type == 'radio'">
+            <div class="o_contract_radio">
+                <t t-foreach="personal_info.value_ids" t-as="value">
+                    <label class="hr_cs_control hr_cs_control_radio mt-2"><t t-esc="value.name"/>
+                        <input type="radio" t-att-name="personal_info.field" t-att-applies-on="personal_info.applies_on" t-att-required="personal_info.is_required and not hidden_children" t-att-value="value.value" t-att-data-value="value.value" t-att-checked="initial_values[personal_info.field] == value.value" t-att-class="'personal_info' + (' benefit_input' if personal_info.impacts_net_salary else '')"/>
+                        <div class="hr_cs_control_indicator hr_cs_control_indicator_white"/>
+                    </label>
+                </t>
+            </div>
+        </t>
+        <t t-if="personal_info.display_type == 'date'">
+            <input type="date" t-att-name="personal_info.field" t-att-applies-on="personal_info.applies_on" t-att-class="'form-control personal_info' + (' benefit_input' if personal_info.impacts_net_salary else '')" t-att-required="personal_info.is_required and not hidden_children" t-att-value="initial_values[personal_info.field]" min="1900-01-01" max="9999-12-31"/>
+        </t>
+        <t t-if="personal_info.display_type == 'dropdown'">
+            <select t-att-name="personal_info.field" t-att-applies-on="personal_info.applies_on" t-att-class="'form-control form-select personal_info' + (' benefit_input' if personal_info.impacts_net_salary else '')" t-att-data-placeholder="personal_info.placeholder" t-att-required="personal_info.is_required">
+                <option/>
+                <t t-foreach="dropdown_options[personal_info.field]" t-as="dropdown_option">
+                    <option t-att-value="dropdown_option[0]" t-att-selected="initial_values[personal_info.field] == dropdown_option[0]" t-att-data-additional-info="dropdown_option[2] if len(dropdown_option) == 3 else False">
+                        <t t-esc="dropdown_option[1]"/>
+                    </option>
+                </t>
+            </select>
+        </t>
+        <t t-if="personal_info.display_type == 'integer'">
+            <input type="number" min="0" t-att-name="personal_info.field" t-att-applies-on="personal_info.applies_on" t-att-data-field-type="personal_info.display_type" t-att-class="'form-control personal_info' + (' benefit_input' if personal_info.impacts_net_salary else '')" t-att-value="initial_values[personal_info.field] or '0'" t-att-required="personal_info.is_required and not hidden_children"/>
+        </t>
+        <t t-if="personal_info.display_type == 'email'">
+            <input type="email" t-att-name="personal_info.field" t-att-applies-on="personal_info.applies_on" t-att-class="'form-control personal_info' + (' benefit_input' if personal_info.impacts_net_salary else '')" t-att-required="personal_info.is_required and not hidden_children" t-att-value="initial_values[personal_info.field]"/>
+        </t>
+        <t t-if="personal_info.display_type == 'document'">
+            <t t-set="document_accept" t-value="'image/*' if personal_info.field == 'image_1920' else 'application/pdf,image/*'"/>
+            <input type="file" t-att-name="personal_info.field" t-att-applies-on="personal_info.applies_on" t-att-class="'form-control document personal_info' + (' benefit_input' if personal_info.impacts_net_salary else '')" t-att-required="personal_info.is_required and not initial_values[personal_info.field]" t-att-accept="document_accept"/>
+            <t t-if="initial_values[personal_info.field]">
+                <span class="form-text">
+                    Existing file:
+                    <a t-att-href="initial_values[personal_info.field]" download="">
+                        <i class="fa fa-download"/>
+                    </a>
+                </span>
+            </t>
+        </t>
+        <t t-if="personal_info.display_type == 'checkbox'">
+            <label class="hr_cs_control hr_cs_control_checkbox"><t t-esc="personal_info.name"/>
+                <input type="checkbox" value="" t-att-name="personal_info.field" t-att-applies-on="personal_info.applies_on" t-att-class="'personal_info' + (' benefit_input' if personal_info.impacts_net_salary else '')" t-att-checked="initial_values[personal_info.field]"/>
+                <div class="hr_cs_control_indicator hr_cs_control_indicator_white"/>
+            </label>
+        </t>
+    </t>

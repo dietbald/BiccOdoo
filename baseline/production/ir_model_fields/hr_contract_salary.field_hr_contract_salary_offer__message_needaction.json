@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21172,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      1282,
+      "Salary Package Offer"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "12534b3d9019f55ebe9b7ed10f021e92ee681df083734e2b11db790a56ee7ac4",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_salary_offer__message_needaction"
+}

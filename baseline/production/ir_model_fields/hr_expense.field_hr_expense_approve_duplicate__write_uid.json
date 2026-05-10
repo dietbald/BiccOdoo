@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9273,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      651,
+      "Expense Approve Duplicate"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9e6933782371eec90e2cd76d7192580a8fc306ade2674526fc102bda39b8e527",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_approve_duplicate__write_uid"
+}

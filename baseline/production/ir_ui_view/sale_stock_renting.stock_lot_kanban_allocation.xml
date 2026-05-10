@@ -1,0 +1,6 @@
+<kanban position="inside">
+                <control>
+                    <button string="Auto assign" name="action_auto_assign_lots" type="object" class="btn-primary" context="{'order_line_id': parent.id}"/>
+                    <create name="add_serial" string="Add Serial Number"/>
+                </control>
+            </kanban>

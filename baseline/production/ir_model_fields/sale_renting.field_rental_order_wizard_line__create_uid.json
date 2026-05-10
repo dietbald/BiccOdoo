@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26601,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "78dc7dd7ea914a4c6099c6fa5399a45dfcdadde08f0c9b6162fc1074e910fea8",
+  "write_date": "",
+  "xml_id": "sale_renting.field_rental_order_wizard_line__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Open Tasks",
+    "model_id": [
+      405,
+      "Digest"
+    ],
+    "name": "kpi_project_task_opened",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "982d3d3e07ad109a9bf386690a9db3e4d1e63572bd49c23f274c4e917ffebbce",
+  "write_date": "",
+  "xml_id": "project.field_digest_digest__kpi_project_task_opened"
+}

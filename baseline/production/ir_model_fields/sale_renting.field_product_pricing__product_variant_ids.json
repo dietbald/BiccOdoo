@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26522,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Variant",
+    "model_id": [
+      2747,
+      "Pricing rule of rental products"
+    ],
+    "name": "product_variant_ids",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ad2f85bc41927b7a38dd65e26c4b6465c881b5073b49b389f7bb7af252370281",
+  "write_date": "",
+  "xml_id": "sale_renting.field_product_pricing__product_variant_ids"
+}

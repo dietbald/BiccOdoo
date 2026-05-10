@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5140,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Print On New Page",
+    "model_id": [
+      448,
+      "Accounting Report Line"
+    ],
+    "name": "print_on_new_page",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7bd29d3858e95850cfe78a394ef239e9870af2c5a147a9bda673cb1868a1806b",
+  "write_date": "",
+  "xml_id": "account.field_account_report_line__print_on_new_page"
+}

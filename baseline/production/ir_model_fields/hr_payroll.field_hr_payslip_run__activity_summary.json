@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13005,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Summary",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "activity_summary",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "12d62255de3bbfab1cfec8e0732fe370d771129059c5b9c9db42952693fa0afb",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip_run__activity_summary"
+}

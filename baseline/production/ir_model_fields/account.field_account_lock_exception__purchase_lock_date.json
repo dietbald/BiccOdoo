@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22116,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Lock Date",
+    "model_id": [
+      1373,
+      "Account Lock Exception"
+    ],
+    "name": "purchase_lock_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "4849cb311fb687aa66d7378080a7d8ace9ced443815719dfbcc3e5cfabb1bc52",
+  "write_date": "",
+  "xml_id": "account.field_account_lock_exception__purchase_lock_date"
+}

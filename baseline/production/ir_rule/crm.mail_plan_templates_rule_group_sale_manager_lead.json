@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 147,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('plan_id.res_model', '=', 'crm.lead')]",
+    "groups": [
+      37
+    ],
+    "model_id": [
+      166,
+      "Activity plan template"
+    ],
+    "name": "Manager can manage lead plan templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0456f10825e8f3976d4ebf56c2ee33eb67759746e98cc3607df0d98c64b4cf39",
+  "write_date": "2023-11-30 04:45:33",
+  "xml_id": "crm.mail_plan_templates_rule_group_sale_manager_lead"
+}

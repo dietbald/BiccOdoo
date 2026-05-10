@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 962,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bank Identifier Code",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "bank_bic",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "0e4c60a671dd0be9bb0564915c66c9cbec8490ba1801b488e3bd39148862c05d",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_bank__bank_bic"
+}

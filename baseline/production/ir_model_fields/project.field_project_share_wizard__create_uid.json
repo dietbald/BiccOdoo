@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8027,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      611,
+      "Project Sharing"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e1edb7abc57ab0eb0dee0e102b9073408f064de9eb567bbd10084db2c60f6c1a",
+  "write_date": "",
+  "xml_id": "project.field_project_share_wizard__create_uid"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 848,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "\n            {\n                \"search_default_employee\": 2,\n                \"search_default_activeemployees\": 1,\n                \"search_default_last_three_months\": 1\n            }\n        ",
+    "domain": false,
+    "name": "Attendances",
+    "res_model": "hr.attendance",
+    "target": "current",
+    "view_mode": "pivot,graph"
+  },
+  "payload_sha256": "21522980a616d3bb53c2d9d4911f61556e5d435e1e91bea28778b58e1b271cdd",
+  "write_date": "2025-12-09 02:58:04",
+  "xml_id": "hr_attendance.hr_attendance_reporting"
+}

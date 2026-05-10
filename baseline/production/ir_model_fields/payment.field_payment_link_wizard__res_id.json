@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3771,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Document ID",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "94cf0102e075d9d5196bcffddde5e8015f98859439840b22d6ce212587cbb5a9",
+  "write_date": "",
+  "xml_id": "payment.field_payment_link_wizard__res_id"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1691,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      137,
+      "Field Service / User"
+    ],
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "access_fsm_stock_picking",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5ea896bddb151be693cd5b3fc21dcb9f1d5853ee29b89b9babc2dcf11a4c37b7",
+  "write_date": "2025-12-09 03:00:42",
+  "xml_id": "industry_fsm_stock.access_fsm_stock_picking"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11124,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Type",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "activity_type_id",
+    "relation": "mail.activity.type",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8f1aaec8b831e62f499004bf4fdc3631c5cb936663ee4eac8eb42ae97ebcd65c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__activity_type_id"
+}

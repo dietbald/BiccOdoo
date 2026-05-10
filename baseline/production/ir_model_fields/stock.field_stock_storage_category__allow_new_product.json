@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11530,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow New Product",
+    "model_id": [
+      743,
+      "Storage Category"
+    ],
+    "name": "allow_new_product",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "3ccfd29bf5bc8e879d277db0d8c0d45899df46e1923e459f05584e3cf1fc529a",
+  "write_date": "",
+  "xml_id": "stock.field_stock_storage_category__allow_new_product"
+}

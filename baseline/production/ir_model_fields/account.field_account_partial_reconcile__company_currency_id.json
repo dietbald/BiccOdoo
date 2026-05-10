@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4507,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company Currency",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "company_currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "667b7a3235ac2d784ef6f8b26d94170fbc64dd837a910922f3f8a5131c9fc940",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__company_currency_id"
+}

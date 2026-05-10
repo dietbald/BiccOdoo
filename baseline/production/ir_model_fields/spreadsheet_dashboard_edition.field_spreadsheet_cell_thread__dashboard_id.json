@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20252,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Dashboard",
+    "model_id": [
+      1186,
+      "Spreadsheet discussion thread"
+    ],
+    "name": "dashboard_id",
+    "relation": "spreadsheet.dashboard",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ff57cceb86506126a9f6d50aa049e483c535b760c94f2dbb9df05aadf320496c",
+  "write_date": "",
+  "xml_id": "spreadsheet_dashboard_edition.field_spreadsheet_cell_thread__dashboard_id"
+}

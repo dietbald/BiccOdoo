@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21801,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Record",
+    "model_id": [
+      1352,
+      "Storage"
+    ],
+    "name": "res_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one_reference"
+  },
+  "payload_sha256": "40c3c156e9994efdaa88a26e403a42ddab1b99a4647e048983e5d5b9058d1bf1",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_ir_attachment_report__res_id"
+}

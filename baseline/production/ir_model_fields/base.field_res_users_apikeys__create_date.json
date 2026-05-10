@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1218,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Creation Date",
+    "model_id": [
+      102,
+      "Users API Keys"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "539fc4d5bdcac03d7b3de19f4e6f0f7dc5ba4f72a2b9d41d0112b9fdf439cc26",
+  "write_date": "",
+  "xml_id": "base.field_res_users_apikeys__create_date"
+}

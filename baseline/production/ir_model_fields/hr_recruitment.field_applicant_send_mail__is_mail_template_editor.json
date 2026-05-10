@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9785,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Editor",
+    "model_id": [
+      671,
+      "Send mails to applicants"
+    ],
+    "name": "is_mail_template_editor",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "321ba18f438f07d2f0adbf7279adae1cce118abc76d81eed305452c2a458ef09",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_applicant_send_mail__is_mail_template_editor"
+}

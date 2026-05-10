@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13662,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoicing Timesheet Enabled",
+    "model_id": [
+      619,
+      "Sales Advance Payment Invoice"
+    ],
+    "name": "invoicing_timesheet_enabled",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "cc62b0bc071dad212d2546fc45963182fe8196ebc26faf7356fdd8891f93db5b",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_sale_advance_payment_inv__invoicing_timesheet_enabled"
+}

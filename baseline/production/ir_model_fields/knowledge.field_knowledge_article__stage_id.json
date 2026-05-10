@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12305,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Item Stage",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "stage_id",
+    "relation": "knowledge.article.stage",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ba76f872775d85cfcdf1334fe09c252777994f0b1c53338f11fd096b71ff2963",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__stage_id"
+}

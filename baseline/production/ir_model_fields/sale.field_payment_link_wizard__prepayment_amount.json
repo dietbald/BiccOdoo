@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29348,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Prepayment Amount",
+    "model_id": [
+      412,
+      "Generate Sales Payment Link"
+    ],
+    "name": "prepayment_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "4e76c59c1985f5c0f6309cd71b871c1b83f9774657b83f2cbf0aa119ee29e018",
+  "write_date": "",
+  "xml_id": "sale.field_payment_link_wizard__prepayment_amount"
+}

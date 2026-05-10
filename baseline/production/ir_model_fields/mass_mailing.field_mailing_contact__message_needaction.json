@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14094,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "d5d0e5a9a8d198d7683da74840810b6a4d810f75be19aab2065938b7af155383",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__message_needaction"
+}

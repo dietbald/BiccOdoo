@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8122,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discount Product",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "sale_discount_product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fc019491a8629bd831278c20c6ba8d31b44f1f56c0d591ca56995962897fad73",
+  "write_date": "",
+  "xml_id": "sale.field_res_company__sale_discount_product_id"
+}

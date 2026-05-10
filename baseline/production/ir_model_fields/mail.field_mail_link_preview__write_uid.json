@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1993,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      170,
+      "Store link preview data"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5b5036a74135ed9a11f13f5dcd038168c6362e2c924c6d8defcc7c4ae0484f55",
+  "write_date": "",
+  "xml_id": "mail.field_mail_link_preview__write_uid"
+}

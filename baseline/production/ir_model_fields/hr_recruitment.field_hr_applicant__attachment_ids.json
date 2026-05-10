@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9650,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "055ac43bf203fdb06a54ff672fa4dc9e0f38a2d25a6609de6f8d51b348e73725",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__attachment_ids"
+}

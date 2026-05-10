@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dade9545fb030fe02d9fd4ffdfac4df27b35fe67aba7399d866c3c35666cfa96",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_order__user_id"
+}

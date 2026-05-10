@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2084,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      3858,
+      "Create a topic that leverages instructions and tools to direct Odoo AI in assisting the user with their tasks."
+    ],
+    "name": "access_ai_topic_system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d83521aaf5424bdfc4ceff5b880d78f8ef14c37a2c822d2c96a9b46875b08845",
+  "write_date": "2025-12-09 03:01:20",
+  "xml_id": "ai.access_ai_topic_system"
+}

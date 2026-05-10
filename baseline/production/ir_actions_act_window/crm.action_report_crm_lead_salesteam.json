@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 417,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_team_id': [active_id], 'search_default_filter_create_date': 1}",
+    "domain": "[]",
+    "name": "Leads Analysis",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "graph,pivot,list,form,cohort"
+  },
+  "payload_sha256": "660ac398ce35c109012baf5c61032d796d418354751e5c61cde93ab4ebfe7bd8",
+  "write_date": "2025-12-09 02:57:57",
+  "xml_id": "crm.action_report_crm_lead_salesteam"
+}

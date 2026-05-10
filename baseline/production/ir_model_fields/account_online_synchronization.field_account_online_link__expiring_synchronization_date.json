@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5946,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expiring Synchronization Date",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "expiring_synchronization_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "23fdf1ced2aa63b758012f9e2306496c55c7806949a789b18a09291e24ab7c71",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__expiring_synchronization_date"
+}

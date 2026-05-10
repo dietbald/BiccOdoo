@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3694,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      409,
+      "Payment Token"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "938f38899ae3000513b722b301aa1f2bbd7951e260f163b998dd0e92097c5eeb",
+  "write_date": "",
+  "xml_id": "payment.field_payment_token__company_id"
+}

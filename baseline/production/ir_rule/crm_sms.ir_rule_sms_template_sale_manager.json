@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 148,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('model_id.model', 'in', ('crm.lead', 'res.partner'))]",
+    "groups": [
+      37
+    ],
+    "model_id": [
+      395,
+      "SMS Templates"
+    ],
+    "name": "SMS Template: sale manager CUD on opportunity / partner templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "335be261dfc1275bd4ad29ce20335469dc8f88856f70ef783ad0b084a72525e1",
+  "write_date": "2023-11-30 04:45:36",
+  "xml_id": "crm_sms.ir_rule_sms_template_sale_manager"
+}

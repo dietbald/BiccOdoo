@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2697,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5aae2edd015090583c31046fe86f196fcdaaea80b5cf2120fba477d25bf96b48",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_line__currency_id"
+}

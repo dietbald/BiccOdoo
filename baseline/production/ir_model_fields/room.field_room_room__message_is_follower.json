@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16779,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Follower",
+    "model_id": [
+      995,
+      "Room"
+    ],
+    "name": "message_is_follower",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8d70e06746e33cc020d908f6575d703a87950dc498de40c994281a1ac6eca1c8",
+  "write_date": "",
+  "xml_id": "room.field_room_room__message_is_follower"
+}

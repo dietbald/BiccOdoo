@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10963,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Forecasted Quantity",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "availability",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "ba292ff4482f1ae85a1e4fd52712211b6433c42cd8a244036eaa1fbbfd7a3c0b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__availability"
+}

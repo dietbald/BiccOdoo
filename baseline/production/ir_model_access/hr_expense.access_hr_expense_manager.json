@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 781,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      56,
+      "Expenses / Administrator"
+    ],
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "hr.expense.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e12be2b02bde7499ae5c4fd0d7cb4f6ed4d2b13e284315594bdeb96ba673c4e7",
+  "write_date": "2025-12-09 02:58:07",
+  "xml_id": "hr_expense.access_hr_expense_manager"
+}

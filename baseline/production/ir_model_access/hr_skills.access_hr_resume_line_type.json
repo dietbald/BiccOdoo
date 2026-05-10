@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 764,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      639,
+      "Type of a resume line"
+    ],
+    "name": "hr.resume.line.type",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "8c15ec556dacc374603148e9acfeac412a7d1994567cdcfa176c28e357a23f23",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.access_hr_resume_line_type"
+}

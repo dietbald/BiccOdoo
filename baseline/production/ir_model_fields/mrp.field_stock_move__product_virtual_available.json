@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16347,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product Forecasted Quantity",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "product_virtual_available",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "c42e13bd26c05fdb31546504958c8b1f114ade5b375eef30a59b6863d040c033",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_move__product_virtual_available"
+}

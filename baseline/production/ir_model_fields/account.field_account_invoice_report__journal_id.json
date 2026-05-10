@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5430,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6c0d67abda29fffc0e984c6898d132c156f7da1cc7ff073b529df30e97a185a8",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__journal_id"
+}

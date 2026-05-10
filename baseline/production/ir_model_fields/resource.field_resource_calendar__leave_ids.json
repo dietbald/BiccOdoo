@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1643,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Off",
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "leave_ids",
+    "relation": "resource.calendar.leaves",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "26975e3b7e327bb8ec0cd9339d78a52510de1dcd44b02ba117374b3f234e4077",
+  "write_date": "",
+  "xml_id": "resource.field_resource_calendar__leave_ids"
+}

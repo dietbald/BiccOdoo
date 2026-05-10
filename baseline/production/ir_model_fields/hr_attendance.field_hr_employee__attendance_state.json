@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13349,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attendance Status",
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "attendance_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "5d8994b043306b0b30bc772239a096e5d624ed790dbaca067663b1dffa13adbe",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_employee__attendance_state"
+}

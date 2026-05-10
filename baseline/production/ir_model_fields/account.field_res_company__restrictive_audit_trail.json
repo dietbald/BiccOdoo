@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19890,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Restrictive Audit Trail",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "restrictive_audit_trail",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2bbd30571d87d52049bba93155eb995a2add0174923ce6eb3a93d08508836915",
+  "write_date": "",
+  "xml_id": "account.field_res_company__restrictive_audit_trail"
+}

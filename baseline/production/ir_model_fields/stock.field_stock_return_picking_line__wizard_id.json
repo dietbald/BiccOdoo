@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11582,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard",
+    "model_id": [
+      753,
+      "Return Picking Line"
+    ],
+    "name": "wizard_id",
+    "relation": "stock.return.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "11718f4a7192b811d73122c24c41a5c388d421fe06409751ba8eb90f7670710f",
+  "write_date": "",
+  "xml_id": "stock.field_stock_return_picking_line__wizard_id"
+}

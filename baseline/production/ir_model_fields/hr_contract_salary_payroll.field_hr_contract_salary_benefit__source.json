@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29108,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Benefit Source",
+    "model_id": [
+      1274,
+      "Salary Package Benefit"
+    ],
+    "name": "source",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7a51117a1c4e299988ce01fc205562e121a63fb30032ef1088e2bf137022077b",
+  "write_date": "",
+  "xml_id": "hr_contract_salary_payroll.field_hr_contract_salary_benefit__source"
+}

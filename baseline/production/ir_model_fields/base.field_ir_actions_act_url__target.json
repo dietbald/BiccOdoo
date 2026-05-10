@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 325,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Target",
+    "model_id": [
+      23,
+      "Action URL"
+    ],
+    "name": "target",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "d25831eb97a265b4e486f97f9ca83b38ace345103314c78c45e9c28755ea6da6",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_act_url__target"
+}

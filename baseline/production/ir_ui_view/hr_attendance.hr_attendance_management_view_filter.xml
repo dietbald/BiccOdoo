@@ -1,0 +1,19 @@
+<search>
+                <field name="employee_id"/>
+                <field name="department_id" operator="child_of"/>
+                <filter string="My Attendances" name="myattendances" domain="[('employee_id.user_id', '=', uid)]"/>
+                <filter string="My Team" name="myteam" domain="[('employee_id.parent_id.user_id', '=', uid)]"/>
+                <separator/>
+                <filter string="To Approve" name="to_approve" domain="[('overtime_status','=', 'to_approve')]"/>
+                <filter string="Approved" name="approved" domain="[('overtime_status','=', 'approved')]"/>
+                <filter string="Refused" name="refused" domain="[('overtime_status','=', 'refused')]"/>
+                <separator/>
+                <filter string="Date" name="check_in_filter" date="check_in"/>
+                <separator/>
+                <filter string="Active Employees" name="activeemployees" domain="[('employee_id.active', '=', True)]"/>
+                <filter string="Archived Employees" name="archivedemployees" domain="[('employee_id.active', '=', False)]"/>
+                <group>
+                    <filter string="Employee" name="employee" context="{'group_by': 'employee_id'}"/>
+                    <filter string="Date" name="groupby_date" context="{'group_by': 'check_in'}"/>
+                </group>
+            </search>

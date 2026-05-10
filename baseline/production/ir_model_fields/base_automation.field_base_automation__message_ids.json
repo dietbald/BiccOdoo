@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27631,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      857,
+      "Automation Rule"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8d91db5ebdb596b4fbecb1c3be048763c488ee10bb83897563ef414fa2bf9309",
+  "write_date": "",
+  "xml_id": "base_automation.field_base_automation__message_ids"
+}

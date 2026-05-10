@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17887,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "X Repost Permission",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "twitter_can_retweet",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "41aaa7d5df4e76dfed4c67e52c5f60b1881909549f940f2a3f01ea1be868ff99",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_stream_post__twitter_can_retweet"
+}

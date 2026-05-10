@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8117,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoicing Policy",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "invoice_policy",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "a0cd3b8dc1fb6a2467ef499c55bcfeacb4cb11804b5fcb077b3d74a7043a9c90",
+  "write_date": "",
+  "xml_id": "sale.field_product_template__invoice_policy"
+}

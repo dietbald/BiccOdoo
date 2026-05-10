@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 152,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|',\n                                        ('privacy_visibility', 'in', ['employees', 'portal']),\n                                        ('message_partner_ids', 'in', [user.partner_id.id])\n                                    ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "Project: employees: following required for follower-only projects",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0d5ac9993cea87fa81d27072b67935556ddf1913b1ab30a3d986a7f41a6dd82a",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.project_public_members_rule"
+}

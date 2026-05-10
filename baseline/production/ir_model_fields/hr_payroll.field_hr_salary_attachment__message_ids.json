@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13074,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "93c19e025853ad0f13f833f4efc49d81c3c6b404f217334c94693cef3322f65f",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__message_ids"
+}

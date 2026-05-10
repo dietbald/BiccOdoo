@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Lines",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "purchase_line_ids",
+    "relation": "purchase.order.line",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "df3a73840ee7cbc5d20285e3dc698513afa97f41e3b623a0e78a52f8cb955591",
+  "write_date": "",
+  "xml_id": "purchase_stock.field_res_users__purchase_line_ids"
+}

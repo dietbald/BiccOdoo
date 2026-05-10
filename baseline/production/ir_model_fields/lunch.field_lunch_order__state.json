@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 18902,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      1075,
+      "Lunch Order"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ddd033f99ee947a03fb4ff5c5e1081ee71fe4070f6982fb9666f846a17b09257",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_order__state"
+}

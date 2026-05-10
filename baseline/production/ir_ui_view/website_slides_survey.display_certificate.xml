@@ -1,0 +1,41 @@
+<t t-name="website_slides_survey.display_certificate">
+        <t t-if="certificates">
+            <div class="row">
+               <div class="col-12 col-lg-6" t-foreach="certificates" t-as="certificate">
+                    <div class="card mb-2">
+                        <div class="card-body o_wprofile_slides_course_card_body p-0 d-flex" t-attf-onclick="location.href='/slides/#{slug(certificate.slide_id.channel_id)}';">
+                            <div class="ps-5 pe-4 rounded-start" t-attf-style="background-image: url(#{website.image_url(certificate.slide_id, 'image_128')}); background-position: center"/>
+                            <div class="p-2 w-100">
+                                <h5 class="mt-0 mb-1" t-out="certificate.survey_id.title"/>
+                                <div t-if="user.id == uid">
+                                    <small class="fw-bold">Score: <span t-out="certificate.scoring_percentage"/> %</small>
+                                    <div class="float-end">
+                                        <a role="button" class="float-end" t-att-href="'/survey/%s/get_certification' % certificate.survey_id.id">
+                                            <i class="fa fa-download" aria-label="Download certification" title="Download Certification"/>
+                                        </a>
+                                        <a role="button" class="o_wslides_share me-2" t-att-data-id="certificate.slide_id.channel_id.id" t-att-data-name="certificate.slide_id.channel_id.name" t-att-data-url="certificate.slide_id.channel_id.website_absolute_url" t-att-data-email-sharing="bool(certificate.slide_id.channel_id.share_channel_template_id)" data-is-channel="True">
+                                            <i class="fa fa-share-alt" aria-label="Share" title="Share"/>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+         <t t-elif="my_profile">
+            <div class="text-muted d-inline-block">
+                Certifications are exams that you successfully passed. <br/>
+                <a href="/slides?slide_type=certification" class="btn-link">
+                    <i class="fa fa-arrow-right"/> Get Certified
+                </a>
+            </div>
+        </t>
+        <t t-else="">
+            <div class="text-muted d-inline-block">No certifications yet!</div>
+            <div class="text-end d-inline-block pull-right">
+                <a href="/slides?slide_category=certification" class="btn btn-link btn-sm"><i class="oi oi-arrow-right me-1"/>All Certifications</a>
+            </div>
+        </t>
+    </t>

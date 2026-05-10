@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1201,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'fsm_mode': 1, 'task_nameget_with_hours': 1, 'default_scale': 'week'}",
+    "domain": "[('is_fsm', '=', True), ('project_id', '!=', False)]",
+    "name": "Planning by User",
+    "res_model": "project.task",
+    "target": "current",
+    "view_mode": "gantt,calendar,map,list,kanban,activity,pivot,graph,form"
+  },
+  "payload_sha256": "4d1dc94ad3c1002cfff44962a79175d24db6a3d864f348e7531fd3405fb0e4ae",
+  "write_date": "2025-12-09 03:00:28",
+  "xml_id": "industry_fsm.project_task_action_fsm_planning_groupby_user"
+}

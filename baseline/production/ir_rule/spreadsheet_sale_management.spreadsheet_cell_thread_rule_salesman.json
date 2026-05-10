@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 658,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                ('sale_order_spreadsheet_id','!=',False),\n                ('sale_order_spreadsheet_id.order_id','!=',False),\n                '|',('sale_order_spreadsheet_id.order_id.user_id','=',user.id),('sale_order_spreadsheet_id.order_id.user_id','=',False)\n            ]",
+    "groups": [
+      35
+    ],
+    "model_id": [
+      1186,
+      "Spreadsheet discussion thread"
+    ],
+    "name": "Personal Order Spreadsheets Comments",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "2483caf77406361dc01d6083a0ee0f637dff1482a9c065ea66988839347b3fc9",
+  "write_date": "2025-01-28 01:27:58",
+  "xml_id": "spreadsheet_sale_management.spreadsheet_cell_thread_rule_salesman"
+}

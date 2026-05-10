@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13268,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Journal",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "de53d3ee96597e0ed569fa24d553bdbe6ac6f93f7fc19ba7c281c601c9abc42b",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_payslip__journal_id"
+}

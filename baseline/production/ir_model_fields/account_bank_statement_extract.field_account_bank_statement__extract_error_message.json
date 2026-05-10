@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23828,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Error message",
+    "model_id": [
+      441,
+      "Bank Statement"
+    ],
+    "name": "extract_error_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "014bcecacec705348cf7cf0d87c42e2535522e277b9de03b0aea7e1e3a38ee39",
+  "write_date": "",
+  "xml_id": "account_bank_statement_extract.field_account_bank_statement__extract_error_message"
+}

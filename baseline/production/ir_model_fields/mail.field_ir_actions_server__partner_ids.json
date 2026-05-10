@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2237,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "a3a8d77d2da1c95f6fb7ff16dee4b5689cdc10b9971c6c7b6c4b22b2b4b38d76",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__partner_ids"
+}

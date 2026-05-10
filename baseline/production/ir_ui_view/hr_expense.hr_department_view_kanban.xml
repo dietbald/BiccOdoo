@@ -1,0 +1,17 @@
+<data>
+                <xpath expr="//div[@name='kanban_primary_right']" position="inside">
+                    <div t-if="record.expenses_to_approve_count.raw_value &gt; 0" class="row ml32 g-0" groups="hr_expense.group_hr_expense_team_approver">
+                        <a name="1583" class="col" type="action">
+                            <field name="expenses_to_approve_count" groups="hr_expense.group_hr_expense_team_approver"/> Expenses
+                        </a>
+                    </div>
+                </xpath>
+
+                <xpath expr="//div[hasclass('o_kanban_manage_reports')]" position="inside">
+                    <div role="menuitem">
+                        <a class="dropdown-item" name="1584" type="action" groups="hr_expense.group_hr_expense_team_approver">
+                            Expenses
+                        </a>
+                    </div>
+                </xpath>
+            </data>

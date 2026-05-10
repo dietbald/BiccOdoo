@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12270,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "745fd9ffbc6cb6517928568daea21cceb0fb7fc9cd2d758bc7a36f13d402da3a",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__message_has_error_counter"
+}

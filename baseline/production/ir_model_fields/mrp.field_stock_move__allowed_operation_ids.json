@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16336,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operations",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "allowed_operation_ids",
+    "relation": "mrp.routing.workcenter",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b3107d01730ee2278c76b7e2194ec907cc01643c8cfb7ada1b9f1ff1fbd6dd2b",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_move__allowed_operation_ids"
+}

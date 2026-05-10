@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 20,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div>\n    Dear <t t-out=\"object.partner_id.name or 'customer'\">Brandon Freeman</t>,<br/><br/>\n    Thank you for contacting us. We appreciate your interest in our products/services.<br/>\n    Our team is currently reviewing your inquiry and will respond to your email as soon as possible.<br/>\n    If you have any further questions or concerns in the meantime, please do not hesitate to let us know. We are here to help.<br/><br/>\n    Thank you for your patience.<br/>\n    Best regards,\n    <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n        <br/>\n        <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n    </t>\n</div>\n        ",
+    "email_from": false,
+    "email_to": false,
+    "lang": false,
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "Project: Request Acknowledgment",
+    "subject": "Reception of {{ object.name }}"
+  },
+  "payload_sha256": "882cf408d3a4318e78b04db1d3d62ff29dcc8c68ec9342ad265c213e9034585f",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.mail_template_data_project_task"
+}

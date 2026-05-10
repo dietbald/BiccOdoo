@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16010,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Resource",
+    "model_id": [
+      964,
+      "Work Center"
+    ],
+    "name": "resource_id",
+    "relation": "resource.resource",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "07cfe583d3eaf2095ceef3aeb418241e290b838c2f355fd34c724c466d0acb83",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workcenter__resource_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4099,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fb1dd0495dcd27ebea38f324bacac6a35013c86d2b370c2fe19fd750d39c7665",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__message_ids"
+}

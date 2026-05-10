@@ -1,0 +1,38 @@
+<t name="Survey: question container" t-name="survey.question_container">
+        <t t-set="display_question" t-value="survey.questions_layout == 'page_per_question'                     or survey.questions_selection == 'random'                     or (survey.questions_layout == 'one_page' and not question.triggering_answer_ids)                     or (survey.questions_layout == 'page_per_section' and (not question.triggering_answer_ids                         or any(triggering_answer in selected_answers for triggering_answer in triggering_answers_by_question[question.id])))"/>
+
+        <t t-set="answer_lines" t-value="answer.user_input_line_ids.filtered(lambda line: line.question_id == question)"/>
+        <t t-set="answers_contain_image" t-value="any(a.value_image for a in question.suggested_answer_ids)"/>
+        <t t-set="use_half_columns" t-value="survey.questions_layout == 'page_per_question' and answers_contain_image"/>
+        <t t-set="use_half_col_lg" t-value="'col-lg-6' if (use_half_columns and not survey_form_readonly) or (answer.is_session_answer and answers_contain_image) else ''"/>
+        <!--Use Key selection if number of choices is < 26 to keep Z for other choice if any-->
+        <t t-set="letters" t-value="'ABCDEFGHIJKLMNOPQRSTUVWXYZ'"/>
+        <t t-set="useKeySelection" t-value="len(question.suggested_answer_ids) &lt; len(letters) and survey.questions_layout == 'page_per_question'"/>
+        <!-- Extra 'right' margin is added on layouts that are not "page_per_question" to align with choices questions, since all choices have a me-2 class (pixel perfect yay...) -->
+        <t t-set="extra_right_margin" t-value="survey.questions_layout != 'page_per_question' and question.question_type not in ['simple_choice', 'multiple_choice']"/>
+        <t t-set="default_constr_error_msg">This question requires an answer.</t>
+        <t t-set="default_validation_error_msg">The answer you entered is not valid.</t>
+        <t t-set="default_comments_message">If other, please specify:</t>
+        <t t-set="is_skipped_question" t-value="skipped_questions and question in skipped_questions"/>
+        <div t-attf-class="js_question-wrapper pb-4                            #{'d-none' if not display_question else ''}                            #{'me-2' if extra_right_margin else ''}" t-att-id="question.id" t-att-data-required="bool(question.constr_mandatory and (not survey.users_can_go_back or survey.questions_layout == 'one_page')) or None" t-att-data-constr-error-msg="question.constr_error_msg or default_constr_error_msg if question.constr_mandatory else None" t-att-data-validation-error-msg="question.validation_error_msg or default_validation_error_msg if question.validation_required else None">
+            <div class="mb-4">
+                <h3 t-if="not hide_question_title">
+                    <span t-field="question.title" class="text-break"/>
+                    <span t-if="question.constr_mandatory" class="text-danger">*</span>
+                </h3>
+                <div t-if="not is_html_empty(question.description)" t-field="question.description" class="text-muted oe_no_empty mt-1 text-break"/>
+            </div>
+            <t t-if="question.question_type == 'text_box'" t-call="survey.question_text_box"/>
+            <t t-if="question.question_type == 'char_box'" t-call="survey.question_char_box"/>
+            <t t-if="question.question_type == 'numerical_box'" t-call="survey.question_numerical_box"/>
+            <t t-if="question.question_type == 'date'" t-call="survey.question_date"/>
+            <t t-if="question.question_type == 'datetime'" t-call="survey.question_datetime"/>
+            <t t-if="question.question_type == 'simple_choice'" t-call="survey.question_simple_choice"/>
+            <t t-if="question.question_type == 'scale'" t-call="survey.question_scale"/>
+            <t t-if="question.question_type == 'multiple_choice'" t-call="survey.question_multiple_choice"/>
+            <t t-if="question.question_type == 'matrix'" t-call="survey.question_matrix"/>
+            <div t-attf-class="o_survey_question_error d-flex align-items-center justify-content-between overflow-hidden                  border-0 py-0 px-3 alert alert-danger mt-2 #{'slide_in' if is_skipped_question else ''}" role="alert">
+                <span t-if="is_skipped_question" t-out="question.constr_error_msg or default_constr_error_msg"/>
+            </div>
+        </div>
+    </t>

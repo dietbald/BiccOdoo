@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 975,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "['|', ('active', '=', False), ('active', '=', True)]",
+    "name": "Field Cleaning Rules",
+    "res_model": "data_cleaning.model",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "9ad9d64a131325ecc5c56af96cfe9f611cbec76ec4dd3bb3d3a59bc3be5e56e8",
+  "write_date": "2025-12-09 02:56:08",
+  "xml_id": "data_cleaning.action_data_cleaning_config"
+}

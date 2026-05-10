@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9182,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d0865c90a6595c2d74e92c79b9f54d9319378e401275b0e1958b476f5525fe48",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__create_uid"
+}

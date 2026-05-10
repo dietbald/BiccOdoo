@@ -1,0 +1,12 @@
+<search>
+                <filter string="For the Last 365 Days" name="last_365_days" domain="[('date_order', '&gt;=', 'today -365d')]" help="Purchase Order Lines processed during last 365 days"/>
+                <separator/>
+                <filter string="Service" name="service" domain="[('product_type', '=', 'service')]" help="Only service lines"/>
+                <filter string="Goods" name="goods" domain="[('product_type', '=', 'consu')]" help="Only goods lines"/>
+                <group>
+                    <filter name="groupby_vendor" string="Vendor" context="{'group_by': 'partner_id'}"/>
+                    <filter name="groupby_company" string="Company" context="{'group_by': 'company_id'}"/>
+                    <filter name="groupby_order" string="Order Reference" context="{'group_by': 'order_id'}"/>
+                    <filter name="groupby_product_category" string="Product Category" context="{'group_by': 'product_categ_id'}"/>
+                </group>
+            </search>

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 641,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      52
+    ],
+    "model_id": [
+      646,
+      "Employee Skills Report"
+    ],
+    "name": "Employee Skill Report: HR user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "0a7ac4d521826b124ce0286b70f8a6a7acff08be68717a619a56f20d82d3be3b",
+  "write_date": "2025-01-28 01:24:05",
+  "xml_id": "hr_skills.hr_employee_skill_report_hr_user"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17544,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related attachment",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "displayed_image_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0dea1909a56ab080e5c51317d66ef4ef9e1538f5fec8ac1764aced45270071fc",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__displayed_image_attachment_id"
+}

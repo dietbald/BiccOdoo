@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18001,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Push Subscription",
+    "model_id": [
+      1036,
+      "Push Subscription for a Website Visitor"
+    ],
+    "name": "push_token",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "574df71df564444711c4eb2835db89ada08251d0fcc4d5808cbfc3b2efbdd7cc",
+  "write_date": "",
+  "xml_id": "social_push_notifications.field_website_visitor_push_subscription__push_token"
+}

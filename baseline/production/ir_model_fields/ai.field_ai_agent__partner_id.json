@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29981,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      3859,
+      "AI Agent"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f181f5dcf981596fbb617815f7fbd93cf8f2d723d073fe433fd1febd0df13c4c",
+  "write_date": "",
+  "xml_id": "ai.field_ai_agent__partner_id"
+}

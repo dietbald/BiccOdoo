@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 709,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n                '|', '&', ('employee_id.user_id', '=', user.id), ('state', '!=', 'draft'),\n                     '&', ('employee_id.expense_manager_id', '=', user.id), ('state', 'in', ['submitted', 'approved', 'refused'])\n            ]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "Employees can't modify an expense that is not in draft state",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "95b034e67cbee8199a2256b6911c412be959ae2064bed2d662722c9f09b66211",
+  "write_date": "2025-05-19 16:54:03",
+  "xml_id": "hr_expense.ir_rule_hr_expense_employee_not_draft"
+}

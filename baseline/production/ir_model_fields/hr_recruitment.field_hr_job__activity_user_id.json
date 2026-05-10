@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25051,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ffaf53e63276bfd39cb369e74b6e001d88896edb9e4be54ed0340148d694ca03",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_job__activity_user_id"
+}

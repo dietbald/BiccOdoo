@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26740,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduled Action",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "ir_cron_ids",
+    "relation": "ir.cron",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "960b8ace3e8b4c012121de3531ce3c9c99c32a0c60cb6399cbbad5a1c8125497",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__ir_cron_ids"
+}

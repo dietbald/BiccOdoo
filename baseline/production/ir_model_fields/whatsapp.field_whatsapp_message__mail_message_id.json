@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18425,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mail Message",
+    "model_id": [
+      1049,
+      "WhatsApp Messages"
+    ],
+    "name": "mail_message_id",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4bd04d7575b639eef40d3aeb749324a1f9cde812b563a4bb29785eceae336505",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_message__mail_message_id"
+}

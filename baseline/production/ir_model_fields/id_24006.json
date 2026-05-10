@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24006,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Assessments",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "x_assessment_ids",
+    "relation": "survey.user_input",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f52a95c255ac6c63acba9060a77c736ef78b0b0ce2781c2bba82533d2da2436e",
+  "write_date": "2025-02-04 02:40:39",
+  "xml_id": null
+}

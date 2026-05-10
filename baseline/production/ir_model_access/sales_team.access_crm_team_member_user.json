@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 579,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "access.crm.team.member.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "f5ed8144144d3d6fc46d337468a933febf335e98897b683b5b0ce02f395b6119",
+  "write_date": "2025-12-09 02:56:06",
+  "xml_id": "sales_team.access_crm_team_member_user"
+}

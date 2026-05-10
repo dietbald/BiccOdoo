@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 176,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('res_model', 'in', ('project.project', 'project.task'))]",
+    "groups": [
+      41
+    ],
+    "model_id": [
+      165,
+      "Activity Plan"
+    ],
+    "name": "Manager can manage project/task plans",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "568c715e164cac7e3b517af281d81a45fa12a10109d659604c423180483a3280",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.mail_plan_rule_group_project_manager_task"
+}

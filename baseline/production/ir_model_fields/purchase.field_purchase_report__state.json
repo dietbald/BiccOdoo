@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9509,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      660,
+      "Purchase Report"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "014bec1abae6f84f1fb45a725c348ba07d618da5c48db8b007342d64d76bce3c",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_report__state"
+}

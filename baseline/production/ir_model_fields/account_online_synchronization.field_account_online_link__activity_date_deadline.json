@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5916,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      494,
+      "Bank Connection"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "36d471bb488f0c176dd111719baee01e946c0cd4c993e288f443b700a1c56d27",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_online_link__activity_date_deadline"
+}

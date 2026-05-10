@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15939,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Component",
+    "model_id": [
+      961,
+      "Bill of Material Line"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4ff09266e9d230e9736c061a368c760f38831532d4c680673eb30fd0976104e2",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_line__product_id"
+}

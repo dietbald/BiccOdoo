@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28139,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8a097a46a2419474897924b664b381c601e75008a23e1b25beb6f858f062026e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__partner_ids"
+}

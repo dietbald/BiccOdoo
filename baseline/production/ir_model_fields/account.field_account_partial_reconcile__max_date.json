@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4514,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Max Date of Matched Lines",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "max_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "a621d2bf04d8b39c33dbd0e903b719a3c97b16487f228de7c7d59dc49180fe50",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__max_date"
+}

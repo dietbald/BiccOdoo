@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8969,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Employees",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "employee_ids",
+    "relation": "hr.employee",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "01ca2284bb7a2a382b6c77d97e344da4bd7016ee0b06c46ca1ba3246392ffd68",
+  "write_date": "",
+  "xml_id": "hr.field_res_partner__employee_ids"
+}

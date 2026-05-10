@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9299,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fc49a6b37aec5ec643d1cf7a999e77ce6bfe47f71a0d803d2521b5e8bb19adf6",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split__company_id"
+}

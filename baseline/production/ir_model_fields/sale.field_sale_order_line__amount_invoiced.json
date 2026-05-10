@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23480,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoiced Amount",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "amount_invoiced",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "2cf79d973a8abd507077da31f4fada407226519819482f6debb3d392c6da89ae",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__amount_invoiced"
+}

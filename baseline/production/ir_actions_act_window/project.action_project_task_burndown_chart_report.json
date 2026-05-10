@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 427,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_project_id': active_id, 'search_default_date': 1, 'search_default_stage': 1, 'search_default_filter_date': 1}",
+    "domain": "[('project_id', '!=', False)]",
+    "name": "Burndown Chart",
+    "res_model": "project.task.burndown.chart.report",
+    "target": "current",
+    "view_mode": "graph"
+  },
+  "payload_sha256": "22a11a934b23779a40e053b752ce31df65abea12ac15e011540ca40434356d4c",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.action_project_task_burndown_chart_report"
+}

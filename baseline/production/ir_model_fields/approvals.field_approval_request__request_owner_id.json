@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12145,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Request Owner",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "request_owner_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4a82bb8163d2b0bed2ed92a04286c0865777c4f5f3ce360646916b9df1124de5",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__request_owner_id"
+}

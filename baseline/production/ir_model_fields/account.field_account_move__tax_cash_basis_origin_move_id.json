@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4322,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cash Basis Origin",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "tax_cash_basis_origin_move_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "163f809c8d25525301a32fe3da7ba7450cbfc993c6c88df2c8e87032dc1b8e24",
+  "write_date": "",
+  "xml_id": "account.field_account_move__tax_cash_basis_origin_move_id"
+}

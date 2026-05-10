@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16546,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      987,
+      "Quality Alert Team"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "c2a9493091638f8be643f5288488e48979b7e5bbe6ed20a450414917587d619b",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_team__message_follower_ids"
+}

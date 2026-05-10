@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14328,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mailing List",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "mailing_list_ids",
+    "relation": "mailing.list",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "739dcb97c10c748084cf2a20adbc2af5b6a142218d7e1a52f1de3d318b080180",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mail_compose_message__mailing_list_ids"
+}

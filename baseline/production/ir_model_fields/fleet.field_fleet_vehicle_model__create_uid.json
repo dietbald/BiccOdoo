@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16996,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "26c454a3a2cac3be44de6395e0cfd70f033c540e9889a0db4cd5acf483aca40c",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__create_uid"
+}

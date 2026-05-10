@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29768,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Comodel Payment Type",
+    "model_id": [
+      3764,
+      "Payment withholding line"
+    ],
+    "name": "comodel_payment_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "baacb0db83dd11d4ed2c2ff94b9712a0abd4fe7918764f9f156d7f8b3fa85226",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_payment_withholding_line__comodel_payment_type"
+}

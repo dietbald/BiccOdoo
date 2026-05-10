@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9411,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fiscal Position",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "fiscal_position_id",
+    "relation": "account.fiscal.position",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "91838c976b484100f7ed4928e72cb3a5db177253cd331bc56a153f19d00bd369",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__fiscal_position_id"
+}

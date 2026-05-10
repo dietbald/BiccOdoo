@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8085,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0d5f184d3d29e146c543c66ed33eb27f864ded242b63c53fc5a0fb2477833309",
+  "write_date": "",
+  "xml_id": "sale.field_account_move__medium_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7652,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2dac5cae8797613c08ee13a9e35b7c0551d95d61373ec9267c1d006b6a1ee50a",
+  "write_date": "",
+  "xml_id": "project.field_project_task__rating_ids"
+}

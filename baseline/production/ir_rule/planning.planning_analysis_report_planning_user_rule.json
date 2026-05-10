@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 397,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id), ('state', '=', 'published')]",
+    "groups": [
+      106
+    ],
+    "model_id": [
+      885,
+      "Planning Analysis Report"
+    ],
+    "name": "Planning analysis report: user can read their own shifts",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "929720e731cc5a9ec38d063c03b6738491b235fe8e4eca71f6b8df169e60f3ca",
+  "write_date": "2024-04-18 04:45:47",
+  "xml_id": "planning.planning_analysis_report_planning_user_rule"
+}

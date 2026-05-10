@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24702,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Barcode",
+    "model_id": [
+      1831,
+      "Link between products and their UoMs"
+    ],
+    "name": "barcode",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "b801d0c61d0c2e94cad6ef52559580618d931a00249f4cb8d6be83d6d5314be3",
+  "write_date": "",
+  "xml_id": "product.field_product_uom__barcode"
+}

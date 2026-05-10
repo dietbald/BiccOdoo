@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4084,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax Payable Account",
+    "model_id": [
+      426,
+      "Tax Group"
+    ],
+    "name": "tax_payable_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "074be7789dde6703b895ac0a691adedb0166e59ea2a494cd5d32f1a425653f68",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_group__tax_payable_account_id"
+}

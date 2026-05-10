@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 474,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_month':1, 'search_default_team_id': [active_id]}",
+    "domain": "[('state', 'not in', ['draft', 'cancel'])]",
+    "name": "Invoices Analysis",
+    "res_model": "account.invoice.report",
+    "target": "current",
+    "view_mode": "graph"
+  },
+  "payload_sha256": "72d4b961e44e2b127bfbb6709bf24c6fe90967e5450b66b74672dfa34391b55e",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_account_invoice_report_salesteam"
+}

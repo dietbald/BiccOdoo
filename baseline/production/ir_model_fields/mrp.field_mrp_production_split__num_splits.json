@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28683,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Splits",
+    "model_id": [
+      981,
+      "Wizard to Split a Production"
+    ],
+    "name": "num_splits",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "7b54a714a2b6c836a8869bbe9d36e17b7f410df662353a109f0b7a571abbca7d",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_split__num_splits"
+}

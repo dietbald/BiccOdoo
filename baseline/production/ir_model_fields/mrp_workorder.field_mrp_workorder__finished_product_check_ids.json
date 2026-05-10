@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16819,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Finished Product Check",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "finished_product_check_ids",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "50ba123f40dce9ee1205cec9f1870f93ddd0d7223165d2ed8dc507a6134d9c50",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__finished_product_check_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7d4e7ef7a2c8c277a8412083b03cd03d1a6b4d28c0eb28590926b94dc7558361",
+  "write_date": "",
+  "xml_id": "base.field_res_users__write_uid"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 210,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('state', '=', 'sale'), ('is_service', '=', True), '|', ('project_id','!=', False), ('task_id','!=', False)]",
+    "groups": [
+      41
+    ],
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "Project Manager Sales Orders Line",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "b25de9a36e42bce42261532d0d97c666dd5c9c33b324481049c7dc059a51d83b",
+  "write_date": "2023-11-30 05:01:02",
+  "xml_id": "sale_project.sale_order_line_rule_project_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19510,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Determines if the canned_response is currently shared with other users",
+    "model_id": [
+      180,
+      "Canned Response"
+    ],
+    "name": "is_shared",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "dbd82e1a131ff7cb51e37ef6ae354538a71d2e402487612ef6818c5a2e34e766",
+  "write_date": "",
+  "xml_id": "mail.field_mail_canned_response__is_shared"
+}

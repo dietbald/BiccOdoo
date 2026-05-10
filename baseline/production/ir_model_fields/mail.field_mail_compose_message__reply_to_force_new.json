@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2507,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Considers answers as new thread",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "reply_to_force_new",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eb850e23af789a7a5be8e81884e3d245f94338a5a93df2a40fc52acb4804e8c6",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__reply_to_force_new"
+}

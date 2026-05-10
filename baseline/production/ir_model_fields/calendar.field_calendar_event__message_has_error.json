@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6906,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message Delivery error",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "message_has_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8948ad0f18db405dd131bfab6d91e5131da9a9905a1f5055a855ec1d604e6af3",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__message_has_error"
+}

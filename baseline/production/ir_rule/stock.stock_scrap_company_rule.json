@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 301,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "stock_scrap_company multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "b4cb6da377db2cdd69cfbd5a1e202eeddb36fc8856566c4d1311189d6f742133",
+  "write_date": "2023-12-01 13:14:20",
+  "xml_id": "stock.stock_scrap_company_rule"
+}

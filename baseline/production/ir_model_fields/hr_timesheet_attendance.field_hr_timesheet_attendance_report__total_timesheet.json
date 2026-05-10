@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13487,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheets Time",
+    "model_id": [
+      848,
+      "Timesheet Attendance Report"
+    ],
+    "name": "total_timesheet",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "7199b038c13a5ef15fd5d3ad4b6d7291644ed778572e3776610c2f41f6a0bf7d",
+  "write_date": "",
+  "xml_id": "hr_timesheet_attendance.field_hr_timesheet_attendance_report__total_timesheet"
+}

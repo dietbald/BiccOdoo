@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11060,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Route Company",
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "route_company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6a3a79245f744a545d691135fef07668af57aa0568231a13139d52c92ae13c9c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_rule__route_company_id"
+}

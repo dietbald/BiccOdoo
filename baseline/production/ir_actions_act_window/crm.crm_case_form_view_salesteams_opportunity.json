@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 415,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                    'search_default_team_id': [active_id],\n                    'default_team_id': active_id,\n                    'default_type': 'opportunity',\n                    'default_user_id': uid,\n                }\n            ",
+    "domain": "[('type','=','opportunity')]",
+    "name": "Opportunities",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "kanban,list,graph,form,calendar,pivot"
+  },
+  "payload_sha256": "a646993fb4ec55f3beef3fad8cbb37f17a9e87133da63683fe95077ccd02e700",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.crm_case_form_view_salesteams_opportunity"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20132,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Signing User",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "signing_user",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fd3a12b94d7c2d558d921b13052b34872b685b5ff48992a701986d9f60c685dc",
+  "write_date": "",
+  "xml_id": "account_accountant.field_res_company__signing_user"
+}

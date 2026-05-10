@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15964,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "By-product",
+    "model_id": [
+      962,
+      "Byproduct"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c480a03d6749489f50d5e4c00298fdd18bf58b64d193f8f144b59e705d7310aa",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom_byproduct__product_id"
+}

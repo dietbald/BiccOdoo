@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5647,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      484,
+      "Payment Refund Wizard"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b365b1765420325f2b0f2df81702bb9e6e20c42bac744d80b05d8062c2fce675",
+  "write_date": "",
+  "xml_id": "account_payment.field_payment_refund_wizard__currency_id"
+}

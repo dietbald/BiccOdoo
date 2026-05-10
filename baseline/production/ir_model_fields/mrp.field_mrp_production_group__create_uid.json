@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28647,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      3493,
+      "Production Group"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ea69dd6ac1785248c74dc2df88290d064925058c76fc51c59e4e8f6e3ff940fa",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_group__create_uid"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1645,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[('employee_id', '!=', False)]",
+    "name": "Employee Records",
+    "res_model": "hr.version",
+    "target": "current",
+    "view_mode": "list,graph,pivot"
+  },
+  "payload_sha256": "d5a3db951974d270bdc90579f1734c0db1d96ca7b9b4736dc39e52df66601428",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.action_hr_version"
+}

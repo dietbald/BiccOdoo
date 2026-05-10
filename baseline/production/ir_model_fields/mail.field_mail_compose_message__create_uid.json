@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2518,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      212,
+      "Email composition wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "32b7fe4bccd007d0483b1e6b178c28c4b1183cd0a092734457a0509fbb32ea6e",
+  "write_date": "",
+  "xml_id": "mail.field_mail_compose_message__create_uid"
+}

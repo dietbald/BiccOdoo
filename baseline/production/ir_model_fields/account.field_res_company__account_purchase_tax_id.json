@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4964,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Purchase Tax",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_purchase_tax_id",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "36f48172dce703dfc2e4357b57bb04d85951f2207c6813343f234abe178f3f7d",
+  "write_date": "",
+  "xml_id": "account.field_res_company__account_purchase_tax_id"
+}

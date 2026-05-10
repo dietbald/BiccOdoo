@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 431,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      113
+    ],
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "appointment.type: apt administrator rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3c114bde24af1a0e5740755aff1e5f7f0b89bc9445a99b756250ec6dadf0e67d",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_type_rule_admin"
+}

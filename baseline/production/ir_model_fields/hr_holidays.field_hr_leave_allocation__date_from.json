@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15592,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "date_from",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "5b2cae6d42f8c450c481f18ebe56b10f9212a440ab5dcbccd92d6f6cc492af16",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__date_from"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1028,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "stock.picking",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "5c6cdb65accacf953d6bf7f75d52bef1487447bb7e9057edbb8538ab92861f7e",
+  "write_date": "2025-12-09 02:58:51",
+  "xml_id": "stock_account.access_stock_picking_invoicing_payments"
+}

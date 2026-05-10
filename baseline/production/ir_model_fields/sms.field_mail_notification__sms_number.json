@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3388,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Number",
+    "model_id": [
+      162,
+      "Message Notifications"
+    ],
+    "name": "sms_number",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8c88e6b30c0b045bf67f698e89ac9b1b15e9a9306375a721fea548875add8547",
+  "write_date": "",
+  "xml_id": "sms.field_mail_notification__sms_number"
+}

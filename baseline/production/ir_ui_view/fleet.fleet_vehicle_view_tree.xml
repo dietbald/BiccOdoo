@@ -1,0 +1,20 @@
+<list string="Vehicle" decoration-warning="contract_renewal_due_soon and not contract_renewal_overdue" decoration-danger="contract_renewal_overdue" multi_edit="1" sample="1">
+                <field name="active" column_invisible="True"/>
+                <field name="license_plate" readonly="1"/>
+                <field name="model_id" widget="many2one_avatar" readonly="1"/>
+                <field name="category_id"/>
+                <field name="manager_id" optional="hide" widget="many2one_avatar_user"/>
+                <field name="driver_id" widget="many2one_avatar" readonly="1" optional="show"/>
+                <field name="future_driver_id" widget="many2one_avatar" readonly="1" optional="show"/>
+                <field name="log_drivers" column_invisible="True"/>
+                <field name="vin_sn" readonly="1" optional="hide"/>
+                <field name="co2" string="CO2 Emissions" optional="hide" readonly="1"/>
+                <field name="acquisition_date" readonly="1"/>
+                <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}" readonly="1"/>
+                <field name="state_id" widget="badge" readonly="1" optional="hide"/>
+                <field name="contract_renewal_due_soon" invisible="1"/>
+                <field name="contract_renewal_overdue" invisible="1"/>
+                <field name="vehicle_properties"/>
+                <field name="contract_state" widget="badge" decoration-info="contract_state == 'open'" decoration-danger="contract_state == 'expired'" optional="hide"/>
+                <field name="activity_exception_decoration" widget="activity_exception"/>
+            </list>

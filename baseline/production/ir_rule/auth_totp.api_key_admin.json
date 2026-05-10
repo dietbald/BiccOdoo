@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 30,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      4
+    ],
+    "model_id": [
+      119,
+      "Authentication Device"
+    ],
+    "name": "Administrators can view user keys to revoke them",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "9b475ab815c13e43e4f954cee2b034db649308dbc54eefb002c22464d2d6e214",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "auth_totp.api_key_admin"
+}

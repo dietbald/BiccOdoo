@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13597,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Timesheet activities",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "timesheet_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "286c61a301634520ab08e6073b540cb368110756ef90486cfb19be01752697e7",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_sale_order__timesheet_count"
+}

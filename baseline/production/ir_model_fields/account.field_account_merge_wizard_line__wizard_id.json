@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22328,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard",
+    "model_id": [
+      1387,
+      "Account merge wizard line"
+    ],
+    "name": "wizard_id",
+    "relation": "account.merge.wizard",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2ee894710633c13063d343a4a2ce27bbde5ec38a2860a1801636068086f51439",
+  "write_date": "",
+  "xml_id": "account.field_account_merge_wizard_line__wizard_id"
+}

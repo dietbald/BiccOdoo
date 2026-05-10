@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 173,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Menu",
+    "model_id": [
+      14,
+      "Menu"
+    ],
+    "name": "parent_id",
+    "relation": "ir.ui.menu",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ef27f7ff379876653d19d6d1178fe357affbce45f1af9553000c707b0f0f7146",
+  "write_date": "",
+  "xml_id": "base.field_ir_ui_menu__parent_id"
+}

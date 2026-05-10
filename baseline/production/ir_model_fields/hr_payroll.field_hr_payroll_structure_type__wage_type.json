@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12806,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wage Type",
+    "model_id": [
+      703,
+      "Salary Structure Type"
+    ],
+    "name": "wage_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "5c1618e512ba1d7cdf217decd872990de8e75709d4bf817bfee63389b3d02b8d",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_structure_type__wage_type"
+}

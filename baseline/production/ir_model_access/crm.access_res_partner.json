@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 590,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "res.partner.crm.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "0b2e8bfc5c83c8336cf31b6ebfb157a8259b59234b4611a21c91649a15d5f5de",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.access_res_partner"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2089,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      3860,
+      "AI Agent Source"
+    ],
+    "name": "access_ai_agent_source_user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "72a3bb314c4874dd0316b7b6c11dafba15e75a74e0133be61e13e73d014b2b8a",
+  "write_date": "2025-12-09 03:01:20",
+  "xml_id": "ai.access_ai_agent_source_user"
+}

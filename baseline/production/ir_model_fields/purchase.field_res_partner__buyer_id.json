@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9507,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Buyer",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "buyer_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b3d2e35b87e19dfb40f86d2c528968fa67ec2dbea33adc72675617267682ff2a",
+  "write_date": "",
+  "xml_id": "purchase.field_res_partner__buyer_id"
+}

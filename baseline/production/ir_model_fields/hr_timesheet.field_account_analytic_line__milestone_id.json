@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20588,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Milestone",
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "milestone_id",
+    "relation": "project.milestone",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "21c6750e72e332e8b9c4a01df4253946264e16fc95ac9d3d18421d9a56d7c573",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_account_analytic_line__milestone_id"
+}

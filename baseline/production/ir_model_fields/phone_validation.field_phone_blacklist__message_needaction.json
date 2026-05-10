@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2778,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      352,
+      "Phone Blacklist"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b2e0bd5011ba262cedd22a422399654c10db13c566646186247c9c90a6264463",
+  "write_date": "",
+  "xml_id": "phone_validation.field_phone_blacklist__message_needaction"
+}

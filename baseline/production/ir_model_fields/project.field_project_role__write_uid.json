@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28029,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3322,
+      "Project Role"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eced0ef54cc8f19436c9654a9e4e3c835393e1fb300919345ddb8e80007dc6b1",
+  "write_date": "",
+  "xml_id": "project.field_project_role__write_uid"
+}

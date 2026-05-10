@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6797,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Budget Line",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "budget_line_ids",
+    "relation": "budget.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fbde6b76fa76309568e8f72a4b96a32a99f54f57c3bde780843ab3fccf294177",
+  "write_date": "",
+  "xml_id": "account_budget.field_account_analytic_account__budget_line_ids"
+}

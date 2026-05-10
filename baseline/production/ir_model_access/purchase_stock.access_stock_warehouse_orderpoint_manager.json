@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1046,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      58,
+      "Purchase / Administrator"
+    ],
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "stock.warehouse.orderpoint",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "f15f7b4af3bf75e250c6ff346e55666fd3963b01ad3b1eb99839dcd5fac0e5a9",
+  "write_date": "2025-12-09 02:59:38",
+  "xml_id": "purchase_stock.access_stock_warehouse_orderpoint_manager"
+}

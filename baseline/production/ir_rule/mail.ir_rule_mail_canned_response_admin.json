@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 568,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('is_shared', '=', True)]",
+    "groups": [
+      142
+    ],
+    "model_id": [
+      180,
+      "Canned Response"
+    ],
+    "name": "Canned response: admin has all access on shared canned response",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "245d3164e666c252c3aa9c3cf9611fd30fa349bea74494e3588ce894cb538db9",
+  "write_date": "2024-10-23 10:43:22",
+  "xml_id": "mail.ir_rule_mail_canned_response_admin"
+}

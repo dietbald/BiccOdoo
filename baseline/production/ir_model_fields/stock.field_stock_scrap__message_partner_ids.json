@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11387,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7286fd492be0cb274346baf892dd71a3b154910f95bbbb49e2f8ef6ffc8473ad",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__message_partner_ids"
+}

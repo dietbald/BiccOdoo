@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4377,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reversal of",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "reversed_entry_id",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4ceffbee44da33fabe043ed184dd5958b4dd77eb855a315c32a7faf0875acffd",
+  "write_date": "",
+  "xml_id": "account.field_account_move__reversed_entry_id"
+}

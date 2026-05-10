@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1633,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      1101,
+      "Set Homework Location Wizard"
+    ],
+    "name": "homework.location.wizard",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "005077a6245458f67759e6aca936be04413faf53f49600a2cd730f7bcdc02ca9",
+  "write_date": "2025-12-09 02:59:20",
+  "xml_id": "hr_homeworking_calendar.access_homework_location_wizard"
+}

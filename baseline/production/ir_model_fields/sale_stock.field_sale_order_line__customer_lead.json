@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8253,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lead Time",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "customer_lead",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "919d5d305c52288e5d544c2794e90bcf09af4d4272b6ff74ac58249efff016ed",
+  "write_date": "",
+  "xml_id": "sale_stock.field_sale_order_line__customer_lead"
+}

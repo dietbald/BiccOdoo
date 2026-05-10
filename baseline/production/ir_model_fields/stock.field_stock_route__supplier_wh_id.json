@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10913,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Supplying Warehouse",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "supplier_wh_id",
+    "relation": "stock.warehouse",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d204b419d411107ac23ebe283470896d5dc146124c41406d2cbf16b2572f01c4",
+  "write_date": "",
+  "xml_id": "stock.field_stock_route__supplier_wh_id"
+}

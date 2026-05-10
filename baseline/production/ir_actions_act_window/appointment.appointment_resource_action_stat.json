@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1513,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'default_appointment_type_ids': active_ids}",
+    "domain": "[('appointment_type_ids', 'in', active_ids)]",
+    "name": "Resources",
+    "res_model": "appointment.resource",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "478650d4d12b2ace7d9444b60086aa943f7bdc3ce205bdede457072f3f327d03",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_resource_action_stat"
+}

@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 741,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('employee_id', 'child_of', user.employee_ids.ids)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      3476,
+      "Employee Skills Report"
+    ],
+    "name": "Employee Skill History Report: employee's manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "393136bd5da78e3a81c9ed6939c0b5b28af3a905c9e5bcd93cb4ab9234f5c50c",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.hr_employee_skill_history_report_manager"
+}

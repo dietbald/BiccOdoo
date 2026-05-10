@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 75,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_fetch_image()",
+    "interval_number": 9999,
+    "interval_type": "months",
+    "model_id": [
+      2663,
+      "Fetch product images from Barcode Lookup based on the product's barcode."
+    ],
+    "name": "Product Images: Get product images from Barcode Lookup",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "b17e1bfeb5cf61632cb2e3af65d58255f66d4cc67f84761f0e413fd48331cd76",
+  "write_date": "2025-12-09 02:56:13",
+  "xml_id": "product_barcodelookup.ir_cron_fetch_image"
+}

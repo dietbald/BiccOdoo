@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6740,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8919a4c69d538ceb469fd41e8d55376e0cab374e234882886d0f9fdd96229913",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__activity_ids"
+}

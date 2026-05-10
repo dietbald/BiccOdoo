@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22393,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Document",
+    "model_id": [
+      537,
+      "Document"
+    ],
+    "name": "shortcut_document_id",
+    "relation": "documents.document",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ed1b2a04f4e1c26a98f723ce43c146cf4b95e2f49af2ff3eee9bb5d488b7223a",
+  "write_date": "",
+  "xml_id": "documents.field_documents_document__shortcut_document_id"
+}

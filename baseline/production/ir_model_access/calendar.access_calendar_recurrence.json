@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 572,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      564,
+      "Event Recurrence Rule"
+    ],
+    "name": "access_calendar_recurrence",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "65b9f50ce7f6bd9f5734de44db9e2ce1f509d632724e0d900af901eae951a864",
+  "write_date": "2025-12-09 02:55:52",
+  "xml_id": "calendar.access_calendar_recurrence"
+}

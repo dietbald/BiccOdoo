@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21309,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outlook Access Token",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "microsoft_outlook_access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "843decc65a0fc39c5507a2b980dc974b427ff2dcdd5abcaf430ced43b654d177",
+  "write_date": "",
+  "xml_id": "microsoft_outlook.field_fetchmail_server__microsoft_outlook_access_token"
+}

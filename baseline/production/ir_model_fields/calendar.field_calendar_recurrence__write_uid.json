@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6897,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      564,
+      "Event Recurrence Rule"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6f9275d546b336c49a122e8b5812dc983df92a99af69b002eb9e5947643016c0",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_recurrence__write_uid"
+}

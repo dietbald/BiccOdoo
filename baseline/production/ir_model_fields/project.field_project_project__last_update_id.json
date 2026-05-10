@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Update",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "last_update_id",
+    "relation": "project.update",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2633f7dc26f65f426da3b841eb4eb898dc0ba5fa05d5ec8890bddf2b2bb42472",
+  "write_date": "",
+  "xml_id": "project.field_project_project__last_update_id"
+}

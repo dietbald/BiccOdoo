@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 856,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      62,
+      "Recruitment / Officer: Manage all applicants"
+    ],
+    "model_id": [
+      673,
+      "Recruitment Analysis Report"
+    ],
+    "name": "hr.recruitment.report",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "8aebc2255ae0170a8f71854a73cbcf697de88d684fa880ebe708f43fe32d64e1",
+  "write_date": "2025-12-09 02:59:20",
+  "xml_id": "hr_recruitment_reports.access_hr_recruitment_report"
+}

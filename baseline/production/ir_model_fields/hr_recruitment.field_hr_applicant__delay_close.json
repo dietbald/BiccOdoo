@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9643,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delay to Close",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "delay_close",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "c7a64f92ab5a2a1c75e99d7bfd411947e3c49d7112e052c68653080f7f23f571",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__delay_close"
+}

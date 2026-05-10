@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5582,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract Attachment",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "extract_attachment_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "46fd713c10e5df3123c854aee41557fc7de133ef8887f810f90fe28fde1fb1ec",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__extract_attachment_id"
+}

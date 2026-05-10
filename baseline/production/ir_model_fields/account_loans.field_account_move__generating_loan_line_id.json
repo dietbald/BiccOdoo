@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23931,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Generating Loan Line",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "generating_loan_line_id",
+    "relation": "account.loan.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "900e92ca006034de0d89ee6e08c7e14a64c1fcde07a21931600e9b418a7aa33d",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_move__generating_loan_line_id"
+}

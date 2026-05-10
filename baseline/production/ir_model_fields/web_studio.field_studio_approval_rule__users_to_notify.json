@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13749,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Users to Notify",
+    "model_id": [
+      875,
+      "Studio Approval Rule"
+    ],
+    "name": "users_to_notify",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "376b7f2504154942e6327d4ab85a359c308a0c37e8fe1db0f1e3e81266797107",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule__users_to_notify"
+}

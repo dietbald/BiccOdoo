@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 109,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      87,
+      "Bank"
+    ],
+    "name": "res_bank_group_system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "60fcd7a67d95c48fd5cad25085fc70df257b067ceaa720f46b268fc427e0f207",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_bank_group_system"
+}

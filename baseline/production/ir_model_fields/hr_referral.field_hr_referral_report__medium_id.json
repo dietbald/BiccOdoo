@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25619,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Medium",
+    "model_id": [
+      2606,
+      "Employee Referral Report"
+    ],
+    "name": "medium_id",
+    "relation": "utm.medium",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f0b808177fd13dd4b58788403d3e923ed766b353af0b7384e6fdef20f301f4fd",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_report__medium_id"
+}

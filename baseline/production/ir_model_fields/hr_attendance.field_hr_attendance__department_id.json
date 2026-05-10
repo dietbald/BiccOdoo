@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13306,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c52cf3d24dddeb7a568c6e134e08e8f999f384d70c7e338c827bc5fa52e97c9f",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__department_id"
+}

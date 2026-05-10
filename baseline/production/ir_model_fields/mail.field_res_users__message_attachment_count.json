@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2292,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachment Count",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "message_attachment_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "690c23e1901876de15d7b8b78ab0629ac484ef20726d2437b8156c89783c86ac",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__message_attachment_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25750,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Enable reCAPTCHA",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "enable_recaptcha",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f63d11115f3130608b11a15d95ad2d9db457cb34ac8bb7eb0210a614e718e3dc",
+  "write_date": "",
+  "xml_id": "google_recaptcha.field_res_config_settings__enable_recaptcha"
+}

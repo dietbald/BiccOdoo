@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6697,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "account default folder",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "account_folder_id",
+    "relation": "documents.document",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5d8995b888bc1e17a576f76a0de7300b806843b4f9d7210ac82ba5826b9b431a",
+  "write_date": "",
+  "xml_id": "documents_account.field_res_config_settings__account_folder_id"
+}

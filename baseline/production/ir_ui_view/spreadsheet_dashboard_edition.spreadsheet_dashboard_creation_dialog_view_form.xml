@@ -1,0 +1,9 @@
+<form string="Add to Dashboard">
+                <sheet>
+                    <group>
+                        <field name="name"/>
+                        <field name="dashboard_group_id" options="{'no_open': True}" placeholder="Choose a section..."/>
+                        <field name="group_ids" widget="many2many_tags" options="{'no_create': True}"/>
+                    </group>
+                </sheet>
+            </form>

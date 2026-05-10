@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 714,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_done': 1, 'create': 0, 'pivot_measures': ['quantity_product_uom', '__count__']}",
+    "domain": false,
+    "name": "Moves History",
+    "res_model": "stock.move.line",
+    "target": "current",
+    "view_mode": "list,kanban,pivot,form"
+  },
+  "payload_sha256": "05412ec95b57252acb7ec74b8aa6ea5faf860a340d6b7cb86dde9221c8cdea52",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.stock_move_line_action"
+}

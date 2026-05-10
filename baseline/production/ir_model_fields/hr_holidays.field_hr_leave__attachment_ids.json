@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15540,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d489e87f62ce4781d3f44352a17eca6391a00ff04f7883a90af8712b7018df40",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__attachment_ids"
+}

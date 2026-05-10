@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3981,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      422,
+      "Account Group"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "965d1968ad01fb46539835e0fd4ff72554b026a68b330997c97e765e38e3d07f",
+  "write_date": "",
+  "xml_id": "account.field_account_group__create_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6277,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Due Days",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "delay",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "5f9e4e6a40cd6af09bd615f1181f1227d8fc3d4a7c81507fd599ebe0288830bf",
+  "write_date": "",
+  "xml_id": "account_followup.field_account_followup_followup_line__delay"
+}

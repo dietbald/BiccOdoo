@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4803,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "339d27a3dd407e788f89c5bc1b7e657f257513b1cd12cc44b9ade56e630439b9",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__state"
+}

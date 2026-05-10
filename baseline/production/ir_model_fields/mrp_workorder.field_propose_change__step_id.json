@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16944,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Step to change",
+    "model_id": [
+      999,
+      "Propose a change in the production"
+    ],
+    "name": "step_id",
+    "relation": "quality.check",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "98c1d29dc6e79ebfe172bbd4acddc0e48dbeb6e1f671cfcf903e620180ea34ea",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_propose_change__step_id"
+}

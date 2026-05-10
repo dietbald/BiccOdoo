@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25536,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8298e44c37a619fa998672f766f75ae3df41c268b5a976ef324182ee23e495b4",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__activity_user_id"
+}

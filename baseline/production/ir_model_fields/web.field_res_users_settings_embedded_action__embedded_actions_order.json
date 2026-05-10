@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "List order of embedded action ids",
+    "model_id": [
+      2881,
+      "User Settings for Embedded Actions"
+    ],
+    "name": "embedded_actions_order",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "d50e8d9690add1838a2993d5cd46e23948830f24df3f43b1ac53f9eebfbbd518",
+  "write_date": "",
+  "xml_id": "web.field_res_users_settings_embedded_action__embedded_actions_order"
+}

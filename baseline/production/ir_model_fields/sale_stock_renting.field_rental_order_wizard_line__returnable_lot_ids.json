@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26690,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Returnable Lot",
+    "model_id": [
+      2750,
+      "RentalOrderLine transient representation"
+    ],
+    "name": "returnable_lot_ids",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "dd324810c5390114617fd2bb7fe60bf73e4df56e13a40213e5543ad0d8c86d22",
+  "write_date": "",
+  "xml_id": "sale_stock_renting.field_rental_order_wizard_line__returnable_lot_ids"
+}

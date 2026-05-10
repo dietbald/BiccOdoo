@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10829,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Storage Category",
+    "model_id": [
+      726,
+      "Putaway Rule"
+    ],
+    "name": "storage_category_id",
+    "relation": "stock.storage.category",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2a06ff3dd6348c044fca835c1751f76d91ab4c63f7a47919af2398cc5f2b5d2c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_putaway_rule__storage_category_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23238,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approvers",
+    "model_id": [
+      1440,
+      "Approval Rule Delegate"
+    ],
+    "name": "approver_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "97721e1640d441a6b041700d90bcc1edaf8027d4ba6354a9a1219c60b346ca2b",
+  "write_date": "",
+  "xml_id": "web_studio.field_studio_approval_rule_delegate__approver_ids"
+}

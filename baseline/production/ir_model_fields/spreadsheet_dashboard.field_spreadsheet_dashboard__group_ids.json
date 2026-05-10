@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5497,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Group",
+    "model_id": [
+      469,
+      "Spreadsheet Dashboard"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "0e17cb52a3848c5cd8acd636a759fa4aa05962a57ce58aa1657933a7a489da45",
+  "write_date": "",
+  "xml_id": "spreadsheet_dashboard.field_spreadsheet_dashboard__group_ids"
+}

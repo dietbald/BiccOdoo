@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15647,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approval",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "allocation_validation_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "07a7bf6f7e699c8c32a78e3430c1ae8ef10099f7cacc29a2cdade689ff804331",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__allocation_validation_type"
+}

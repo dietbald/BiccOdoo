@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2023,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      173,
+      "Message subtypes"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "d681818382e5a3715b0028c9dc35df213f92324852cfea2ec7736503dee97942",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_subtype__create_date"
+}

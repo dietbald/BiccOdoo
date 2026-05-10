@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23807,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Project",
+    "model_id": [
+      615,
+      "Sales Analysis Report"
+    ],
+    "name": "project_id",
+    "relation": "project.project",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1aa2355ed59d61717e021c5e7aef812bee4e886be14c045144c73df757cb3fb4",
+  "write_date": "",
+  "xml_id": "sale_project.field_sale_report__project_id"
+}

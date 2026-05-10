@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5133,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Line",
+    "model_id": [
+      448,
+      "Accounting Report Line"
+    ],
+    "name": "parent_id",
+    "relation": "account.report.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "7fa9a5c0f463bbaa8a1c21e08256cd9aa771fd2340c22a3e5029bd300d7afe6f",
+  "write_date": "",
+  "xml_id": "account.field_account_report_line__parent_id"
+}

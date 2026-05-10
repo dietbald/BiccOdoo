@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19659,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "170ded1bc4ed41c0b02d2424bb2036fc553f122e12be3bffebc537e24c2e95a7",
+  "write_date": "",
+  "xml_id": "rating.field_product_category__rating_ids"
+}

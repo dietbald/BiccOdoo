@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14099,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      890,
+      "Mailing Contact"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "33f32af452c3ca51248aaba83966c3e122826c6c77579e7fd24af71b2369f85e",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_contact__rating_ids"
+}

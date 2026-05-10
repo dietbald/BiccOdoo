@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1058,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_my_work_order': False, 'search_default_ready': True, 'search_default_waiting': True, 'search_default_progress': True, 'search_default_blocked': True}",
+    "domain": false,
+    "name": "Work Orders",
+    "res_model": "mrp.workorder",
+    "target": "current",
+    "view_mode": "list,kanban,form,calendar,pivot,graph,gantt"
+  },
+  "payload_sha256": "66d44813e8fc177e57c4817bdd79fd37a2c7a1d43aae681d8d4819858939ce27",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp.mrp_workorder_todo"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11532,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      743,
+      "Storage Category"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "93e47fb0e42dd6e4a256c51eb26c0791ade158e77a3dd71a245486eb5b673aad",
+  "write_date": "",
+  "xml_id": "stock.field_stock_storage_category__company_id"
+}

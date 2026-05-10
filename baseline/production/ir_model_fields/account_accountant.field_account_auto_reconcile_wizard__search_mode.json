@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5810,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reconcile",
+    "model_id": [
+      489,
+      "Account automatic reconciliation wizard"
+    ],
+    "name": "search_mode",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "7482d0d83be27ce4cfdc507fef26d36955b22120c9974f1640135571fc664b77",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_auto_reconcile_wizard__search_mode"
+}

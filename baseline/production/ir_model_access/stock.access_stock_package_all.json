@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 965,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "stock.package all users",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "ed4ee1e3603c00a2d52b3e53d3c20629fd4973ec53dc23f927b16e2159ccb098",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_package_all"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16548,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      987,
+      "Quality Alert Team"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5aba102960e0cc62fb821b8a452fb77b85971a436b5af5cdcc621ca9d6fd6f34",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert_team__message_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23948,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1477,
+      "Loan Compute Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d2d2f8ac226ffb1cf60f6de8718c66b02a5f20f5e734481fbdea57b3ecbf8989",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_compute_wizard__write_uid"
+}

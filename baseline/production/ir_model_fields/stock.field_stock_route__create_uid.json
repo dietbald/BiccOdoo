@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10922,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      728,
+      "Inventory Routes"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "aee7aaf3208af24ce96bbff40c04704539f906ded5bddf1848877f812a50b4c8",
+  "write_date": "",
+  "xml_id": "stock.field_stock_route__create_uid"
+}

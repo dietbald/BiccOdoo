@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26998,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "31481623e7bd55604504983bfb0d1d1ac515527056cc46d2a82e84bcce13f5df",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__message_follower_ids"
+}

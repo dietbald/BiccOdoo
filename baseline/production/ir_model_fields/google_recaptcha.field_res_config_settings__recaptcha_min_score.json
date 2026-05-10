@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9864,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Minimum score",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "recaptcha_min_score",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "dab4c38d95186aa0975f1492d3dc17327e6d24747675d713708f233f5af5c05a",
+  "write_date": "",
+  "xml_id": "google_recaptcha.field_res_config_settings__recaptcha_min_score"
+}

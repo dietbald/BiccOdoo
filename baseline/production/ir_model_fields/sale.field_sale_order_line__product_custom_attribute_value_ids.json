@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8237,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Values",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "product_custom_attribute_value_ids",
+    "relation": "product.attribute.custom.value",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ae6c12ab6f77e35869e68bbe582b939b84e70c6e2172ac04ec6a79706132e1b7",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__product_custom_attribute_value_ids"
+}

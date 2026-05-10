@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7683,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "State",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2afdac6513b3b6891346b5ab981b25dd75d24352166c6bfcde069d631a0fac15",
+  "write_date": "",
+  "xml_id": "project.field_project_task__state"
+}

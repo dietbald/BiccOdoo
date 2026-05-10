@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 275,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_customer': 1,'res_partner_search_mode': 'customer', 'default_is_company': True, 'default_customer_rank': 1}",
+    "domain": false,
+    "name": "Customers",
+    "res_model": "res.partner",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "bfafb22d746af92a5b2f1564c37b2880aaa460e5b45b7dccf4833d3d0e73774a",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.res_partner_action_customer"
+}

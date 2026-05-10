@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13069,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unpaid in Structures Types",
+    "model_id": [
+      812,
+      "HR Work Entry Type"
+    ],
+    "name": "unpaid_structure_ids",
+    "relation": "hr.payroll.structure",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "22a5b33f026f7492ebf67684a6956392cbe663a81a645543be4230c457bfaec3",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_type__unpaid_structure_ids"
+}

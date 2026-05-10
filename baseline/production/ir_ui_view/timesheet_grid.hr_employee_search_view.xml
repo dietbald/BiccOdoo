@@ -1,0 +1,7 @@
+<data><xpath expr="//separator[@name='secondary_groupby_separator']" position="after">
+                    <filter name="group_timesheet_manager" string="Timesheet Approver" context="{'group_by': 'timesheet_manager_id'}"/>
+                </xpath>
+                <xpath expr="//field[@name='parent_id']" position="after">
+                    <field name="timesheet_manager_id" domain="[('company_id', 'in', allowed_company_ids)]"/>
+                </xpath>
+            </data>

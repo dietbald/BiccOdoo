@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10942,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Destination Location Type",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "location_dest_usage",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "72c42f006eddd4f8eccdbc42bb61dbfb4fc8568c3726f30e12bc7441702478f0",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__location_dest_usage"
+}

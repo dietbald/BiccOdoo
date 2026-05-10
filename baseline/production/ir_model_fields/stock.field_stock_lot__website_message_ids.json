@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11143,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      734,
+      "Lot/Serial"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ce466f9b2f49511a581a66425b9cdffc667da4620a020950b71bb0ec592f3127",
+  "write_date": "",
+  "xml_id": "stock.field_stock_lot__website_message_ids"
+}

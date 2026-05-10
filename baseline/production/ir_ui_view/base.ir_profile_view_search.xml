@@ -1,0 +1,5 @@
+<search>
+                <field name="name" string="Name"/>
+                <field name="session" string="Session"/>
+                <filter name="group_session" string="Session" context="{'group_by':'session'}"/>
+            </search>

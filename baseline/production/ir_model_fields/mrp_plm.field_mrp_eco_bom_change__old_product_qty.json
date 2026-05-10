@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17562,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Previous revision quantity",
+    "model_id": [
+      1020,
+      "ECO BoM changes"
+    ],
+    "name": "old_product_qty",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "3eeebeb87ff77ad8038d31d0f5ccfa99adbdb28326ad933dacdd1fdc0f43aaf2",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco_bom_change__old_product_qty"
+}

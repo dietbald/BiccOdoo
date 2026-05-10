@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26961,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "d1fb4fa20f8b133794cd3992f2748ad9c708aa5922b092dd6f3239f789ab903f",
+  "write_date": "",
+  "xml_id": "mail.field_ir_actions_server__activity_date_deadline"
+}

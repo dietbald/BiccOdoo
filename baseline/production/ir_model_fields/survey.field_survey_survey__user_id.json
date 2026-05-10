@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14713,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4d05b19ed1a1d02469ab3ce4b87550c9a2b077f4d154aa506432ae87ab7e40eb",
+  "write_date": "",
+  "xml_id": "survey.field_survey_survey__user_id"
+}

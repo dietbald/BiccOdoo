@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4864,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reversal Move",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "reversal_move_ids",
+    "relation": "account.move",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9eda97172304942584853561cda3e248570ba34c919916cc6c7ec3988112edb4",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__reversal_move_ids"
+}

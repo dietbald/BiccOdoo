@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11336,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      737,
+      "Quants"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "196895d5cddb589eb23415ff27f572c8be534a4da8d8b0e81ee78ab73f876823",
+  "write_date": "",
+  "xml_id": "stock.field_stock_quant__write_uid"
+}

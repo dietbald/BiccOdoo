@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23685,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Eligible Employees",
+    "model_id": [
+      1463,
+      "Work Entry Export Mixin"
+    ],
+    "name": "eligible_employee_line_ids",
+    "relation": "hr.work.entry.export.employee.mixin",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4ca25acf002c18ec9e3ea3341bd3d7a8bffbdf91fef252dc7b36fe97fea951d2",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_export_mixin__eligible_employee_line_ids"
+}

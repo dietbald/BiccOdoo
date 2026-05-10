@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27963,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      3304,
+      "Bank Account Allocation Line (Wizard)"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c9433462e5d25583036ce279ae0a2502e09df2b3fbe9412af8e7bd3b449bf68d",
+  "write_date": "",
+  "xml_id": "hr.field_hr_bank_account_allocation_wizard_line__write_uid"
+}

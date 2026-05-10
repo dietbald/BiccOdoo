@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 363,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Webhook Fields",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "webhook_field_ids",
+    "relation": "ir.model.fields",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f775ca551f57caa2bdc9102168e451fbb59b2a79c7451371d68dd07021883290",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__webhook_field_ids"
+}

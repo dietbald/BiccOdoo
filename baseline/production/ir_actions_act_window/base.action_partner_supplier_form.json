@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 57,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'res_partner_search_mode': 'supplier', 'default_is_company': True}",
+    "domain": "[]",
+    "name": "Vendors",
+    "res_model": "res.partner",
+    "target": "current",
+    "view_mode": "list,kanban,form,activity"
+  },
+  "payload_sha256": "9fb3c6f5af445b737faa81f24c0842900cd2e3bedfe8b5077e94915234c673d4",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "base.action_partner_supplier_form"
+}

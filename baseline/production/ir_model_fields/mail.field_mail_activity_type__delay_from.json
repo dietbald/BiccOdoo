@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1865,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delay Type",
+    "model_id": [
+      163,
+      "Activity Type"
+    ],
+    "name": "delay_from",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "6f9c0af1f89426335f71c9255db0d1a9717375c0517a604eacd1f0980bbaf5a6",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_type__delay_from"
+}

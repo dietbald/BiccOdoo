@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2342,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "RTC Sessions",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "rtc_session_ids",
+    "relation": "discuss.channel.rtc.session",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "342178e465c516c62bebbab72ca633035a078ffff5ce7e2bb67b03a857d98323",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__rtc_session_ids"
+}

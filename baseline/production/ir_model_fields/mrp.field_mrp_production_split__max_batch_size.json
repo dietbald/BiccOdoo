@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28682,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Max Batch Size",
+    "model_id": [
+      981,
+      "Wizard to Split a Production"
+    ],
+    "name": "max_batch_size",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "bffdf1e8bdaf03bfaca074f14260b6ef8e7d47ac5d1f1e5fc2aa56538fb22116",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_split__max_batch_size"
+}

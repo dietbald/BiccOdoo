@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12852,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Deadline",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "activity_date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "dfa4dd6e2052db2c64231fc93138f80994c9f59e41d3ee5fb1b6e69d28c81393",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__activity_date_deadline"
+}

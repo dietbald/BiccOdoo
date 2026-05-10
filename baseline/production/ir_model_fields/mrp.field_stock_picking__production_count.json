@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20224,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Count of MO generated",
+    "model_id": [
+      736,
+      "Transfer"
+    ],
+    "name": "production_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "cc3e909ff2eec2dee54e578fa5cabc3a2a2594ac4a8cb02455f4d97e0b1e5dd7",
+  "write_date": "",
+  "xml_id": "mrp.field_stock_picking__production_count"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 972,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "['|', ('active', '=', False), ('active', '=', True)]",
+    "name": "Recyle Records Rules",
+    "res_model": "data_recycle.model",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "e2f6c155beac762ca83a2fbf6ca2f9ee68b9896bbec4569f1e7a0f630ad72d0f",
+  "write_date": "2025-12-09 02:55:53",
+  "xml_id": "data_recycle.action_data_recycle_config"
+}

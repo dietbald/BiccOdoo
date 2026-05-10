@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 695,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      22
+    ],
+    "model_id": [
+      345,
+      "Analytic Line"
+    ],
+    "name": "account.analytic.line.readonly.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "3cda5062618cc00e037aa3a4499b216e1a83a2aa5f64b3cd3d6d6f9fbe5389c6",
+  "write_date": "2025-04-04 11:06:31",
+  "xml_id": "account.account_analytic_line_rule_readonly_user"
+}

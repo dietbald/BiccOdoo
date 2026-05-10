@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2331,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom channel name",
+    "model_id": [
+      200,
+      "Channel Member"
+    ],
+    "name": "custom_channel_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "0fae4bf3d4d410cdb563c1d30abe400395bb54a1178573fa3b8cc4449fd3da68",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel_member__custom_channel_name"
+}

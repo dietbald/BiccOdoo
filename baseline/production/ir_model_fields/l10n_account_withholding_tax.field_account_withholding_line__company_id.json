@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29740,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      3763,
+      "withholding line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "945f80c3ea538d76205b2dec49fbf91e82ba19cc3ca06287ae681afe1787295b",
+  "write_date": "",
+  "xml_id": "l10n_account_withholding_tax.field_account_withholding_line__company_id"
+}

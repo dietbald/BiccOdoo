@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 494,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "account.asset",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3d5e7b6d09d4ecf6c8f9d8bbcec8eec6e3e07cf5c865d40486e70b6c9930ed34",
+  "write_date": "2025-12-09 03:00:19",
+  "xml_id": "account_asset.access_account_asset_manager"
+}

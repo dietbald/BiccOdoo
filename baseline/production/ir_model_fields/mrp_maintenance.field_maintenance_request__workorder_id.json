@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Order",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "workorder_id",
+    "relation": "mrp.workorder",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6e3d531bd534d4a9a385d3f76c8eaeabee47a96d5fec226b4c902b3b45bdd118",
+  "write_date": "",
+  "xml_id": "mrp_maintenance.field_maintenance_request__workorder_id"
+}

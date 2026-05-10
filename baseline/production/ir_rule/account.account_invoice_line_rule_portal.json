@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 96,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('parent_state', 'not in', ('cancel', 'draft')), ('move_id.move_type', 'in', ('out_invoice', 'out_refund', 'in_invoice', 'in_refund')), ('move_id.partner_id','child_of',[user.commercial_partner_id.id])]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      435,
+      "Journal Item"
+    ],
+    "name": "Portal Invoice Lines",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "deaa0d197966d1e6f205464c83c871dcdb137fa0e833da33a6b0207ab1f06d0f",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "account.account_invoice_line_rule_portal"
+}

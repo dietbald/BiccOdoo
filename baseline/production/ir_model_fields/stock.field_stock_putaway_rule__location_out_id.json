@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10825,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Store to sublocation",
+    "model_id": [
+      726,
+      "Putaway Rule"
+    ],
+    "name": "location_out_id",
+    "relation": "stock.location",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2dbe7e8e2a76ed0231d6059902a31c53a177c907257b2edae1f2b40aa12dce92",
+  "write_date": "",
+  "xml_id": "stock.field_stock_putaway_rule__location_out_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7301,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Average Leads Capacity (on 30 days)",
+    "model_id": [
+      572,
+      "Sales Team Member"
+    ],
+    "name": "assignment_max",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "4e1c50a22f97c24a16b374f71a7285b2813dcaa5b032feb2c22568b66dde64dc",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team_member__assignment_max"
+}

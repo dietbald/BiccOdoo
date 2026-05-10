@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23880,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Borrowed",
+    "model_id": [
+      1475,
+      "Loan"
+    ],
+    "name": "amount_borrowed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "f78a62d1e3e6348f3d36c0e576728f28eeeadd179a48be3d359fd84a61bcbb2a",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan__amount_borrowed"
+}

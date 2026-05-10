@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10669,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      714,
+      "Signature Item Role"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b77a7917a8c02ba030ef94f82446c994bb730b9f1b2b93fea7921b78a2621936",
+  "write_date": "",
+  "xml_id": "sign.field_sign_item_role__write_uid"
+}

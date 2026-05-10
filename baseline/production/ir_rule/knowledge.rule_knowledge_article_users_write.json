@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 326,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_has_write_access', '=', True)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "Articles: users/portal: write based on flag",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "12f82c2f25b9477a94e5ef075d05785bf6051969a1d31cbcb3467269445aaebf",
+  "write_date": "2023-12-04 12:24:41",
+  "xml_id": "knowledge.rule_knowledge_article_users_write"
+}

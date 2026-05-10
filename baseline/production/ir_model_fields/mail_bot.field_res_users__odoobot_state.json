@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2771,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "OdooBot Status",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "odoobot_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "003e8a57b341076fccba8c5cbe24a46be7b64b7b747ca1e26a13dc22a115aa54",
+  "write_date": "",
+  "xml_id": "mail_bot.field_res_users__odoobot_state"
+}

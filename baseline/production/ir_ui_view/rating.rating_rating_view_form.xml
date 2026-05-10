@@ -1,0 +1,29 @@
+<form string="Ratings" create="false">
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="resource_ref" string="Document"/>
+                                <field name="res_name" string="Document" invisible="1"/>
+                                <field name="parent_ref" string="Parent Holder"/>
+                                <field name="parent_res_name" string="Parent Holder" invisible="1"/>
+                                <field name="rated_partner_id" widget="many2one_avatar"/>
+                                <field name="rating" invisible="1"/>
+                                <field name="is_internal"/>
+                                <field name="consumed" groups="base.group_no_one"/>
+                            </group>
+                            <group>
+                                <field name="partner_id"/>
+                                <div colspan="2" class="text-center" name="rating_image_container">
+                                    <field name="rating_image" widget="image" options="{&quot;img_class&quot;: &quot;bg-transparent&quot;}"/>
+                                    <div class="mt4">
+                                        <strong><field name="rating_text"/></strong>
+                                    </div>
+                                </div>
+                                <field name="rated_on"/>
+                            </group>
+                        </group>
+                        <group class="mw-100" invisible="not feedback">
+                            <field name="feedback"/>
+                        </group>
+                    </sheet>
+                </form>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5378,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d5bf7a25472f344d535786768c244dbf887aa160b56eeac09b2a4b1406f49fda",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__company_id"
+}

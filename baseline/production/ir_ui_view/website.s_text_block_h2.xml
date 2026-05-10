@@ -1,0 +1,11 @@
+<data inherit_id="website.s_text_block" primary="True">
+    <xpath expr="//section" position="attributes">
+        <attribute name="data-snippet">s_text_block</attribute>
+        <attribute name="class" add="pb0" remove="pb40" separator=" "/>
+    </xpath>
+    <xpath expr="//div[hasclass('container')]|//div[hasclass('o_container_small')]" position="replace">
+        <div class="container s_allow_columns">
+            <h2 style="text-align: center;">Title</h2>
+        </div>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.s_text_block_h2</attribute></xpath></data>

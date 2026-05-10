@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8414,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Discount Type",
+    "model_id": [
+      621,
+      "Discount Wizard"
+    ],
+    "name": "discount_type",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2bac56d970c7dacebb8089bdd749aa8c8233ae7ed166aa9721d0585148b0ee1b",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_discount__discount_type"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 639,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'create_action': '/jobs/add'}",
+    "domain": false,
+    "name": "Job Pages",
+    "res_model": "hr.job",
+    "target": "current",
+    "view_mode": "list,kanban,form"
+  },
+  "payload_sha256": "2ce520ab0697498a7c808950be1cfabfb3368384fa2decef3c7f55f4eb9ce098",
+  "write_date": "2026-01-28 12:01:22",
+  "xml_id": "website_hr_recruitment.action_job_pages_list"
+}

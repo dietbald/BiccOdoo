@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23770,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quotation Documents",
+    "model_id": [
+      1470,
+      "Form fields of inside quotation documents."
+    ],
+    "name": "quotation_document_ids",
+    "relation": "quotation.document",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "59bcea55dc5755f082dd2fbaa0bb41693c26c432ece67bf6260189278820d3a9",
+  "write_date": "",
+  "xml_id": "sale_pdf_quote_builder.field_sale_pdf_form_field__quotation_document_ids"
+}

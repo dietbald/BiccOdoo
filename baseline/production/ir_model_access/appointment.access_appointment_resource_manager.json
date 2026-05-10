@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1346,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      113,
+      "Appointment / Administrator"
+    ],
+    "model_id": [
+      939,
+      "Appointment Resource"
+    ],
+    "name": "appointment.resource.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "98256524dfc99dcb036f8505ada64101a493bbbe296937700a1c7fac2c8154ee",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.access_appointment_resource_manager"
+}

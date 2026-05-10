@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2615,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email Template",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4c15c0e4f8130332311ce5e15413ec1bef9dc28166f5e8fa2ed79096787a5224",
+  "write_date": "",
+  "xml_id": "mail.field_ir_cron__template_id"
+}

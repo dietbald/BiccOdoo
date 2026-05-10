@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 342,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id), ('article_id.website_published', '=', True)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      788,
+      "Favorite Article"
+    ],
+    "name": "Article favorite: sync with article",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ce4ebf7af644404cf887acf109198343aa3889d90ca63c3c0f29bb2a428396c4",
+  "write_date": "2023-12-04 12:24:44",
+  "xml_id": "website_knowledge.rule_knowledge_article_favorite_users"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11110,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Forecast",
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "qty_forecast",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b2f6cb79ee5e09032b8109a965ae4be9178984c3992363eb17c416e167376ff6",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse_orderpoint__qty_forecast"
+}

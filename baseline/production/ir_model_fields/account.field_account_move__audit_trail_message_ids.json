@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22072,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Audit Trail Messages",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "audit_trail_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d3dfb101d0e2bce70cbc8d2ea1e4a3ecd90e35a6e12d1d37ab9b1ac76b6094fc",
+  "write_date": "",
+  "xml_id": "account.field_account_move__audit_trail_message_ids"
+}

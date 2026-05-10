@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25654,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email",
+    "model_id": [
+      2610,
+      "Referral Send Mail"
+    ],
+    "name": "email_to",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "249f0d7c09b783ece9a467a99d048d1520b816fb7ab06a4af659cd5e5fecc334",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_send_mail__email_to"
+}

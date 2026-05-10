@@ -1,0 +1,20 @@
+{
+  "exported_at": "2026-05-10T12:35:52Z",
+  "id": 82,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n                    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n                        Hello<br/><br/>\n                        <t t-out=\"user.name or ''\">Mitchell Admin</t> shared the <t t-out=\"object.slide_category or ''\">document</t> <strong t-out=\"object.name or ''\">Trees</strong> with you!\n                        </p><div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n                            <a t-att-href=\"(object.website_share_url + '?fullscreen=1') if ctx.get('fullscreen') else object.website_share_url\">\n                                <img t-att-alt=\"object.name\" t-attf-src=\"{{ ctx.get('base_url') }}/web/image/slide.slide/{{ object.id }}/image_1024\" style=\"height:auto; width:150px; margin: 16px;\"/>\n                            </a>\n                        </div>\n                        <div style=\"padding: 16px 8px 16px 8px; text-align: center;\">\n                            <a t-att-href=\"(object.website_share_url + '?fullscreen=1') if ctx.get('fullscreen') else object.website_share_url\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">View <strong t-out=\"object.name or ''\">Trees</strong></a>\n                        </div>\n                        <t t-if=\"user.signature\" data-o-mail-quote-container=\"1\">\n                            <br/>\n                            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"user.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n                        </t>\n                    \n                </div>\n            ",
+    "email_from": "{{ user.email_formatted }}",
+    "email_to": "{{ ctx.get('email', '') }}",
+    "lang": false,
+    "model_id": [
+      1506,
+      "Slides"
+    ],
+    "name": "Elearning: Course Share",
+    "subject": "{{ user.name }} shared a {{ object.slide_category }} with you!"
+  },
+  "payload_sha256": "c83ef60c1a17f0df0c5eafcf59b2f3e6027a65b3e03ac6805e3bea2fb6e720ee",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.slide_template_shared"
+}

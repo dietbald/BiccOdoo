@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5435,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b8237b0e3041bee728ed2abb281b985881c59a253f322fc9dc69e45e6daeadd9",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__country_id"
+}

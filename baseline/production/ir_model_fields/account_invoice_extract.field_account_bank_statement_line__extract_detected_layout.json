@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5604,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract Detected Layout Id",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "extract_detected_layout",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "ef1e016f4c44c44be7f552eec6bb17306fba1aec2206bcaf562cedce5901b231",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_bank_statement_line__extract_detected_layout"
+}

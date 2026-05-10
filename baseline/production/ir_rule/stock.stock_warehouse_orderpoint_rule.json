@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 297,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('company_id', 'in', company_ids)]",
+    "groups": [],
+    "model_id": [
+      733,
+      "Minimum Inventory Rule"
+    ],
+    "name": "stock_warehouse.orderpoint multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6361e09c7d675944821f40ca569ce881ce46530ff708caadd4dbc037ef53f9d6",
+  "write_date": "2023-12-01 13:14:20",
+  "xml_id": "stock.stock_warehouse_orderpoint_rule"
+}

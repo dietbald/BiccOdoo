@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18791,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "cefa7bab16eef4901c23e5fbdc27fa7c6b9e744bd7ed9247bd4c6d1547f4d3c1",
+  "write_date": "",
+  "xml_id": "rating.field_lunch_supplier__rating_ids"
+}

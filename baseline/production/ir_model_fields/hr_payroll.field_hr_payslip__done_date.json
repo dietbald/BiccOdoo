@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29444,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "payslip confirmation Date",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "done_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "d9c30aaa4273ee9d913f1d6ff144f00bd0ed690e532e69c332619ba69766dfa1",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__done_date"
+}

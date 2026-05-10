@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7089,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "243eac8fc668f2e87d21212f3367fd9ef7787f92b7688a20a30cbd18cb0dec26",
+  "write_date": "",
+  "xml_id": "sales_team.field_crm_team__message_needaction"
+}

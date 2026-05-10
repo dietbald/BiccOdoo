@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18082,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Expected MTBF",
+    "model_id": [
+      1039,
+      "Maintenance Maintained Item"
+    ],
+    "name": "expected_mtbf",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "cd1867b4fd8cc45cf0184f7414213d8fe8d555dcc4fe46b8512813e9f25bdf0e",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_mixin__expected_mtbf"
+}

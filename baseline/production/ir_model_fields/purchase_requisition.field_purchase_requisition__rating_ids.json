@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12606,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Ratings",
+    "model_id": [
+      807,
+      "Purchase Requisition"
+    ],
+    "name": "rating_ids",
+    "relation": "rating.rating",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f689a3affd4f9558ecacaaad470c3b3e52c090eb1f7188156b96b1347e9bba9d",
+  "write_date": "",
+  "xml_id": "purchase_requisition.field_purchase_requisition__rating_ids"
+}

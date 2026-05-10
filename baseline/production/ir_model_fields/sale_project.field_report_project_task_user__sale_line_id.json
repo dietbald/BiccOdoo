@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8585,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Order Item",
+    "model_id": [
+      607,
+      "Tasks Analysis"
+    ],
+    "name": "sale_line_id",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9146864e7c675c5c36f086fcee66cc6ed364182be27d248767315ca62a6c6d3b",
+  "write_date": "",
+  "xml_id": "sale_project.field_report_project_task_user__sale_line_id"
+}

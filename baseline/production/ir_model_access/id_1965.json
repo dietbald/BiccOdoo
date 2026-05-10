@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1965,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      153,
+      "Accountant"
+    ],
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "access.asset.modify",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "bd45c53724d6453bf95eaba529b398944e0b66e388bc3d76ef5583f4786347da",
+  "write_date": "2025-12-05 01:31:32",
+  "xml_id": null
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18808,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order Time",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "automatic_email_time",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "5eeba8e7ae78444cc6ac2bb666b7ff2941c7822ae835dd2388e88fd1ba22afc9",
+  "write_date": "",
+  "xml_id": "lunch.field_lunch_supplier__automatic_email_time"
+}

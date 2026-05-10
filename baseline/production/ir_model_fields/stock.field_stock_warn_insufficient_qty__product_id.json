@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11695,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      766,
+      "Warn Insufficient Quantity"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f5f96d5fc9d09b05e915e98e41d9a16530c626866a943f33d1ede4b57be5972c",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warn_insufficient_qty__product_id"
+}

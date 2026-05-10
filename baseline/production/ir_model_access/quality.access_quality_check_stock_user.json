@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1455,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "quality.check",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f6321ed2cfc4ca18ef7145acc7cb058807e07f385d5752efd84a3ba5d14a3370",
+  "write_date": "2025-12-09 02:58:46",
+  "xml_id": "quality.access_quality_check_stock_user"
+}

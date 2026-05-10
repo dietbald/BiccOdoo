@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24603,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Self Member",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "self_member_id",
+    "relation": "discuss.channel.member",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8b0c63651bdc79b6472c7433dcbc2dbbd89237a8cf58040f29177e2a80e0080b",
+  "write_date": "",
+  "xml_id": "mail.field_discuss_channel__self_member_id"
+}

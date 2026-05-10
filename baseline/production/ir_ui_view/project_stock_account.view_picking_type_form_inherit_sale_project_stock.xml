@@ -1,0 +1,3 @@
+<field name="create_backorder" position="after">
+                <field name="analytic_costs" invisible="code not in ('incoming', 'outgoing')" groups="analytic.group_analytic_accounting"/>
+            </field>

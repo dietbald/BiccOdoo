@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15795,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Select Time Off Type",
+    "model_id": [
+      957,
+      "HR Time Off Summary Report By Employee"
+    ],
+    "name": "holiday_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2e9f96b2ee83d699055eae683f9d9c23f675b774d226ab16a6b86b880dba4260",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_holidays_summary_employee__holiday_type"
+}

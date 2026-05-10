@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1789,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      156,
+      "Mail Blacklist mixin"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "2aa3f53da36027a99f045a767d030a53c742a2313f41fd06b4d84d055f6ce707",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread_blacklist__message_needaction"
+}

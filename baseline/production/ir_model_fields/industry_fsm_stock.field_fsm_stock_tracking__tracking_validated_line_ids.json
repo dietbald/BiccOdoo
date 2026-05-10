@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18746,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tracking Validated Line",
+    "model_id": [
+      1069,
+      "Track Stock"
+    ],
+    "name": "tracking_validated_line_ids",
+    "relation": "fsm.stock.tracking.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "515b7543cfbfa979a67410a5533f373804258aed70d98899b23e61a5da3bcc74",
+  "write_date": "",
+  "xml_id": "industry_fsm_stock.field_fsm_stock_tracking__tracking_validated_line_ids"
+}

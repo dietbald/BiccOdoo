@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 620,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      1329,
+      "Scheduled Message"
+    ],
+    "name": false,
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a752247116cfb9ce507e720ad8be92436a2af01f835d55e755d4ec2181960977",
+  "write_date": "2025-01-28 01:21:32",
+  "xml_id": "mail.ir_rule_mail_scheduled_message_user"
+}

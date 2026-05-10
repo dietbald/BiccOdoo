@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5574,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract state",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "extract_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2c8d706460a3e42fda5e002d26e8f1c5b7f3cf9fd6df7431a436311eec048a61",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_move__extract_state"
+}

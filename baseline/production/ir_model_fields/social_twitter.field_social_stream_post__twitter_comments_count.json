@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17884,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "X Replies",
+    "model_id": [
+      1030,
+      "Social Stream Post"
+    ],
+    "name": "twitter_comments_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "dc09946d7937a5029a7e36135bb838aa58277303bcdb2837c4893f1c8604fad6",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_stream_post__twitter_comments_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28754,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Variation Account",
+    "model_id": [
+      364,
+      "Product Category"
+    ],
+    "name": "account_stock_variation_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "186f8723e2f2ef0bc40698a56cbf2e29307317ff9f0e0cd6f090ee04324f36b0",
+  "write_date": "",
+  "xml_id": "stock_account.field_product_category__account_stock_variation_id"
+}

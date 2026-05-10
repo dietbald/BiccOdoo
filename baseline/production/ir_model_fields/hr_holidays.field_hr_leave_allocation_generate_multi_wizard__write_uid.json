@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20505,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1228,
+      "Generate time off allocations for multiple employees"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0a7aad274b72dff222ccf41d4b51e89e1b8617b11ace6298d053793b6e8ea8e8",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation_generate_multi_wizard__write_uid"
+}

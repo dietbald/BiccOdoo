@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 708,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      31
+    ],
+    "model_id": [
+      469,
+      "Spreadsheet Dashboard"
+    ],
+    "name": "Spreadsheet dashboard: manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "841aa34d4e11c8c0b3137d6d5749a16d4a9c4219af423f6d57b22b762b03a5bb",
+  "write_date": "2025-12-09 02:57:24",
+  "xml_id": "spreadsheet_dashboard.spreadsheet_dashboard_rule_manager"
+}

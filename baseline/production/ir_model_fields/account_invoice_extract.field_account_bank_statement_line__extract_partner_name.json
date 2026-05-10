@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5605,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract Detected Partner Name",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "extract_partner_name",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8b70ffac173469a8bee40359b916d80124d8d6f8c2d94a9dd2fd150a31ffe916",
+  "write_date": "",
+  "xml_id": "account_invoice_extract.field_account_bank_statement_line__extract_partner_name"
+}

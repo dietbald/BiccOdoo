@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1824,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Server Name",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "server",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "6510a1869deaa612ce3024d3991a6b0d059f8c4a35378bbe3c0c654110c4a2c6",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__server"
+}

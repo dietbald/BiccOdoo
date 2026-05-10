@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1071,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Access Controls",
+    "model_id": [
+      95,
+      "Access Groups"
+    ],
+    "name": "model_access",
+    "relation": "ir.model.access",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "b114c688e58b01fed55f6afa45a678c428604967fa6c4243565118ff851ec46f",
+  "write_date": "",
+  "xml_id": "base.field_res_groups__model_access"
+}

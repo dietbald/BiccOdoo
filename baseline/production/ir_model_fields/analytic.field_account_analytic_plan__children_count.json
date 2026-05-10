@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2632,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Children Plans Count",
+    "model_id": [
+      342,
+      "Analytic Plans"
+    ],
+    "name": "children_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "81c77d4f2a0b138b53657f22f3fbd3c430158523f99b668e3fef7b495e3db240",
+  "write_date": "",
+  "xml_id": "analytic.field_account_analytic_plan__children_count"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16119,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "c3a8a83a5583230e9dd08a6df1bee774813b4c57a0437dc1cb9847e56aab90dd",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production__message_partner_ids"
+}

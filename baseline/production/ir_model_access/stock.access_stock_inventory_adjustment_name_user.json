@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1647,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      76,
+      "Inventory / User"
+    ],
+    "model_id": [
+      758,
+      "Inventory Adjustment Reference / Reason"
+    ],
+    "name": "stock.inventory.adjustment.name.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "f90d81c444077d0c48881638c30d28c787cf6e92761388771877875007a6506c",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_inventory_adjustment_name_user"
+}

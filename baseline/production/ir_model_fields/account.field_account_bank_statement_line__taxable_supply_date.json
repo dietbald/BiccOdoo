@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27581,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Taxable Supply Date",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "taxable_supply_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "4bb45c207771ecbc41dde3b0cb1ac6e48d8baccee1da5a7a431b8903a024c16a",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__taxable_supply_date"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5978,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment Ref",
+    "model_id": [
+      497,
+      "Transient model for bank statement line"
+    ],
+    "name": "payment_ref",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "05dc8440a7f57082a8eb71870765d608d2b1e3140618009381b77c80218d95d1",
+  "write_date": "",
+  "xml_id": "account_online_synchronization.field_account_bank_statement_line_transient__payment_ref"
+}

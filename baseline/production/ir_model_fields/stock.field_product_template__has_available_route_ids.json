@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11470,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Routes can be selected on this product",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "has_available_route_ids",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "e8eba817ed3d120cc1e104668392bc25bf4fc7dc469ca0a5b2b1f676cc701d40",
+  "write_date": "",
+  "xml_id": "stock.field_product_template__has_available_route_ids"
+}

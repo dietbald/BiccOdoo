@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4102,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Actions",
+    "model_id": [
+      427,
+      "Tax"
+    ],
+    "name": "message_needaction_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "79c34847d7bbd4a5c617f7a0ef6593116433c2e7b200324dee7039efc7bf784b",
+  "write_date": "",
+  "xml_id": "account.field_account_tax__message_needaction_counter"
+}

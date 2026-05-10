@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 497,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n        '|', \n            '|',\n                ('move_id.production_id.subcontractor_id', '=', user.partner_id.commercial_partner_id.id),\n                ('move_id.move_orig_ids.production_id.subcontractor_id', 'in', user.partner_id.commercial_partner_id.ids),\n            ('move_id.raw_material_production_id.subcontractor_id', 'in', user.partner_id.commercial_partner_id.ids),\n        ]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      730,
+      "Product Moves (Stock Move Line)"
+    ],
+    "name": "Stock Move Lines Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "fe57e221ffc25b00d64b8fae422c6bed9ca8d6c1f6307201a79991f86157e197",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.stock_move_line_subcontractor_rule"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23185,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Production WIP Overhead Account",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_production_wip_overhead_account_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "89a4bd4fdb7e95ac7c8f68bfe532db682cdd30473b16a8f061587919ae4b7902",
+  "write_date": "",
+  "xml_id": "stock_account.field_res_company__account_production_wip_overhead_account_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2129,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Is Current User Or Guest Author",
+    "model_id": [
+      176,
+      "Outgoing Mails"
+    ],
+    "name": "is_current_user_or_guest_author",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "91b67faf94a7706de98168e6ad4af3bed177b4b7151c82a8baf80f3dd6976932",
+  "write_date": "",
+  "xml_id": "mail.field_mail_mail__is_current_user_or_guest_author"
+}

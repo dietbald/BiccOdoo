@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23475,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Linked Virtual",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "linked_virtual_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "0085c76b3b64f38fe9b88c43fb9fa243f16ac5c936c285e72daf0b762176b181",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order_line__linked_virtual_id"
+}

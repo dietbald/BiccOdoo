@@ -1,0 +1,1 @@
+model._cron_process_mass_mailing_ab_testing()

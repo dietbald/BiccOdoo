@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7212,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Action",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "date_automation_last",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "222dfaed15f99f233a4ef78ce064cd58a72b4072a539ee3292e3321738375556",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__date_automation_last"
+}

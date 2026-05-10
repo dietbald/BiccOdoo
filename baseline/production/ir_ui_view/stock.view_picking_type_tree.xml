@@ -1,0 +1,9 @@
+<list string="Operation Types">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="active" column_invisible="True"/>
+                <field name="warehouse_id" groups="stock.group_stock_multi_warehouses"/>
+                <field name="sequence_id" groups="base.group_no_one"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <field name="company_id" groups="!base.group_multi_company" column_invisible="True"/>
+            </list>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29452,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Warning Count",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "warning_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "bec0a5fd72900db4b1d0cc806a35a9a1cea567a67bcf9b3d458a5eadd08a09e7",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__warning_count"
+}

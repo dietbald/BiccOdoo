@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15206,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Submitted Answers",
+    "model_id": [
+      938,
+      "Appointment Questions"
+    ],
+    "name": "answer_input_ids",
+    "relation": "appointment.answer.input",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d2b64828137f2145bfdaa7c61b0e4ab942f22ae6dddbb5c1551576886c4aea7d",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_question__answer_input_ids"
+}

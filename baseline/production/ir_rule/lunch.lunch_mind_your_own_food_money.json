@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 546,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id)]",
+    "groups": [
+      140
+    ],
+    "model_id": [
+      1073,
+      "Lunch Cashmove"
+    ],
+    "name": "lunch.cashmove: do not see other people's cashmove",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3ed2784dbd7f021aeed3d282bd3726f095c1f5e0dc9d332f54213cc4719da49e",
+  "write_date": "2024-05-05 13:40:13",
+  "xml_id": "lunch.lunch_mind_your_own_food_money"
+}

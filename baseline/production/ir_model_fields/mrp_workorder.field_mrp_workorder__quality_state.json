@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16832,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quality State",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "quality_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "f29d4b3fff3266e8d47eb4c698891768ddced7da2194e1f1c00d25d94794ac3e",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workorder__quality_state"
+}

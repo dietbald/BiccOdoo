@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14060,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Link",
+    "model_id": [
+      888,
+      "Link Tracker Click"
+    ],
+    "name": "link_id",
+    "relation": "link.tracker",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cefb79469effe51ae7f03464eec90604cbde8b0842f6b55fbb4ac6469bdd3ddb",
+  "write_date": "",
+  "xml_id": "link_tracker.field_link_tracker_click__link_id"
+}

@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 435,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [
+      112,
+      1
+    ],
+    "model_id": [
+      937,
+      "Appointment Invite"
+    ],
+    "name": "appointment.invite: apt user and internal rule (write/unlink = own only)",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f3ec575e0ef294f1fc25f3dd42b6835cf4866b803a2e30fec8a7b80545507784",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_invite_rule_user_internal_write_unlink"
+}

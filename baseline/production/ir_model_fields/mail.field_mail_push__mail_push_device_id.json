@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2309,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "devices",
+    "model_id": [
+      198,
+      "Push Notifications"
+    ],
+    "name": "mail_push_device_id",
+    "relation": "mail.push.device",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3c16fb8c4d67937f0273d7d7200bd74914420fc35da04590f81b41345769a898",
+  "write_date": "",
+  "xml_id": "mail.field_mail_push__mail_push_device_id"
+}

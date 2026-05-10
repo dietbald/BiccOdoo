@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 258,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      354,
+      "Remove phone from blacklist"
+    ],
+    "name": "acesss.phone.blacklist.remove.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "4c628dab96aa1627d10c6381b99a1a41c41ddb5518b12765ae3939144171b9f2",
+  "write_date": "2025-12-09 02:56:03",
+  "xml_id": "phone_validation.access_phone_blacklist_remove_system"
+}

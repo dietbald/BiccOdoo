@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20661,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Department",
+    "model_id": [
+      1239,
+      "Headcount Line"
+    ],
+    "name": "department_id",
+    "relation": "hr.department",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "0f908eaa972ba44295bd9d44cae91facc0b7ee3f6c5263e75f5dc6c9b9b9383a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_headcount_line__department_id"
+}

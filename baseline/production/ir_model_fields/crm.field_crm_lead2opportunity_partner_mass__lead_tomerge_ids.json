@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7416,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Active Leads",
+    "model_id": [
+      585,
+      "Convert Lead to Opportunity (in mass)"
+    ],
+    "name": "lead_tomerge_ids",
+    "relation": "crm.lead",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "062741ea78107de41b61d461668cfcaa9e3b2d7ad6dfc7402c47d80bb15709c5",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead2opportunity_partner_mass__lead_tomerge_ids"
+}

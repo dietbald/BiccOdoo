@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14078,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Opt Out",
+    "model_id": [
+      889,
+      "Mailing List Subscription"
+    ],
+    "name": "opt_out",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "eadab44796bda073035fc2a083e132140a7286e87b80fc4557d60ca1b380fe64",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_subscription__opt_out"
+}

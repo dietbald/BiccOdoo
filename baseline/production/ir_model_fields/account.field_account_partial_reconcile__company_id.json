@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4513,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      436,
+      "Partial Reconcile"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "08caff0eace8d1a43683992f6daf9bc655bae86943fb91666122678626be3101",
+  "write_date": "",
+  "xml_id": "account.field_account_partial_reconcile__company_id"
+}

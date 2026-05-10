@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11407,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Owner",
+    "model_id": [
+      740,
+      "Scrap"
+    ],
+    "name": "owner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "12188e45c3b90c765372fa357e3c6112e851359cc27e8b993e7d3df0fc07cf1b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_scrap__owner_id"
+}

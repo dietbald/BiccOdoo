@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28203,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transfers",
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "picking_ids",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "90523d3a1bba7010d4de44dd264719558242bc3709fccdb304ef033021634c6e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package__picking_ids"
+}

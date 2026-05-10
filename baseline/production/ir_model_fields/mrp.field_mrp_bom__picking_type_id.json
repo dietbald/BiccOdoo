@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15926,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Operation Type",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "picking_type_id",
+    "relation": "stock.picking.type",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ccf246df0ffca7771fb505d3dc6d7744b7782bddff975705c1bfde123c32bc05",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_bom__picking_type_id"
+}

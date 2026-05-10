@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15156,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      935,
+      "Appointment Answer Inputs"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4b9739c5c4b0ad760728ca699bd2ed2f6072cef8a3d87d324f83881ae3502c46",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_answer_input__write_uid"
+}

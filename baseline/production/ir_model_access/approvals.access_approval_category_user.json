@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1072,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      91,
+      "Approvals / Officer: Approve all requests"
+    ],
+    "model_id": [
+      782,
+      "Approval Category"
+    ],
+    "name": "access_approval_category",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "889832a30ccc6aed4c7963379b14b5eacff4de8dfaa3cce94f7a9761adb26f5a",
+  "write_date": "2025-12-09 02:57:55",
+  "xml_id": "approvals.access_approval_category_user"
+}

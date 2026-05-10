@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15486,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6842fc9f3d79bee8410951c87f1dacad38569711f40d1ca23b272cf164b0d2b3",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave__message_partner_ids"
+}

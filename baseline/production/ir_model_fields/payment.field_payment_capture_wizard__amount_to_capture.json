@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3757,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount To Capture",
+    "model_id": [
+      411,
+      "Payment Capture Wizard"
+    ],
+    "name": "amount_to_capture",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "5372636081083a2dd088c063939ba914d0a488f5ac3753e130f0ab5acd68b7e6",
+  "write_date": "",
+  "xml_id": "payment.field_payment_capture_wizard__amount_to_capture"
+}

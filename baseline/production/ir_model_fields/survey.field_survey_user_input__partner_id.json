@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14871,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contact",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "eadb46b06026ceea96611b52a90d19d80f95efde5b0e7990c48806be78645a78",
+  "write_date": "",
+  "xml_id": "survey.field_survey_user_input__partner_id"
+}

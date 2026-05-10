@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8191,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "amount_total",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "6bae2eb336855404ca72bfdc3926382a7a1bfb39ecbb3c70680ac280d6c8d233",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__amount_total"
+}

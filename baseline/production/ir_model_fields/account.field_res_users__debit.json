@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5460,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Payable",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "debit",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "bdc3fd15ae5b5cff4ab96dcdb21317b70443c0c6ae08166bb9e3184d8e1783c9",
+  "write_date": "",
+  "xml_id": "account.field_res_users__debit"
+}

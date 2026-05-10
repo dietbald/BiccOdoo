@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 902,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'search_default_my_shifts': 1, 'my_planning_action': 1, 'search_default_open_shifts': 1, 'search_default_unwanted_shifts': 1,\n            'planning_expand_employee': 1, 'planning_expand_role': 1, 'planning_expand_sale_line_id': 1, 'planning_expand_resource': 1,\n        }",
+    "domain": "[('start_datetime', '!=', False), ('end_datetime', '!=', False)]",
+    "name": "My Planning",
+    "res_model": "planning.slot",
+    "target": "current",
+    "view_mode": "calendar,gantt,list,form,kanban"
+  },
+  "payload_sha256": "a5ac100dc34bcb1ea7ccb3aef4b5c392de5396fc0b35b2587a97eddb5e63354d",
+  "write_date": "2025-12-09 03:00:34",
+  "xml_id": "planning.planning_action_my_calendar"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7246,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Potential Duplicate Lead",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "duplicate_lead_ids",
+    "relation": "crm.lead",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "81ad480696ee8037a33b613107f9e34fe183036f6f1c490e8698bd748b1a2f44",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__duplicate_lead_ids"
+}

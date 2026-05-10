@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7781,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4bd50dec2fa86d60cd01735bc21bc99a7bae780202ea368b7d2b31978cc7d39b",
+  "write_date": "",
+  "xml_id": "project.field_project_update__message_needaction"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24651,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Mail Template",
+    "model_id": [
+      571,
+      "Calendar Popover Delete Wizard"
+    ],
+    "name": "template_id",
+    "relation": "mail.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "34b2a9179d53c92d4041dd038bd64492ec2c5f6f7475f0007ac8bb767fca0e28",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_popover_delete_wizard__template_id"
+}

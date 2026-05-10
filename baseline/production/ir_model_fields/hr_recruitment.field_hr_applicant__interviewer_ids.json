@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9660,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Interviewers",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "interviewer_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "6be2caec2928485d328a8f6aa67bc7d7a8f5b355306c1968bb844cd8c501943f",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__interviewer_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17188,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cost",
+    "model_id": [
+      1005,
+      "Services for vehicles"
+    ],
+    "name": "amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "ff97b46ee709b26facfd73fd87c15cd806ca2c9297c31c1111e4642121dca0b8",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_log_services__amount"
+}

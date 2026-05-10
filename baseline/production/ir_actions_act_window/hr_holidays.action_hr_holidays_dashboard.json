@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1035,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'hide_employee_name': 1, 'search_default_my_team': 1, 'search_default_current_year': 1,\n            'search_default_validate': 1, 'search_default_approve': 1}",
+    "domain": "[('employee_id.active','=',True)]",
+    "name": "All Time Off",
+    "res_model": "hr.leave.report.calendar",
+    "target": "current",
+    "view_mode": "gantt,calendar"
+  },
+  "payload_sha256": "7d4f3911f00beaeb64e6813754625468360159c4b7c7d4a42b86b8c6fd831ef0",
+  "write_date": "2025-12-09 02:59:20",
+  "xml_id": "hr_holidays.action_hr_holidays_dashboard"
+}

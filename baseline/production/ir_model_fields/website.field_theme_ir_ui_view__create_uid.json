@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10124,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      690,
+      "Theme UI View"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d6da6af1388eb05b9d15b5e44c33d8dc15a958ce29816a500bab6e4df64d7940",
+  "write_date": "",
+  "xml_id": "website.field_theme_ir_ui_view__create_uid"
+}

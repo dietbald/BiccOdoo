@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1153,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tags",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "category_id",
+    "relation": "res.partner.category",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d41924f1bdc69b89be3b31fdb7e7c3bd320d291fec23dd63d00cbd76c70b65d9",
+  "write_date": "",
+  "xml_id": "base.field_res_users__category_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1316,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Wizard",
+    "model_id": [
+      115,
+      "Merge Partner Line"
+    ],
+    "name": "wizard_id",
+    "relation": "base.partner.merge.automatic.wizard",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "378bb928cee2199666397dd681f81da041b2f37bb78f70e4260e765e7425b080",
+  "write_date": "",
+  "xml_id": "base.field_base_partner_merge_line__wizard_id"
+}

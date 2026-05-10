@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9569,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Origin Sale Item",
+    "model_id": [
+      659,
+      "Purchase Order Line"
+    ],
+    "name": "sale_line_id",
+    "relation": "sale.order.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "499dbf3439cf6f0627f59fa96f2cfc212c92f63410da6be45e1d117505120dbe",
+  "write_date": "",
+  "xml_id": "sale_purchase.field_purchase_order_line__sale_line_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13423,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approver Reminder",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "reminder_allow",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "586aba0491e8b60582be8a5138fc4738eabdfcb4ce4173133d3fd16ee688723e",
+  "write_date": "",
+  "xml_id": "timesheet_grid.field_res_config_settings__reminder_allow"
+}

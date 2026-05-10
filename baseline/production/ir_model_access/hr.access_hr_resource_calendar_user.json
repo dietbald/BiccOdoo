@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 900,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      52,
+      "Employees / Officer: Manage all employees"
+    ],
+    "model_id": [
+      142,
+      "Resource Working Time"
+    ],
+    "name": "hr.employee.resource.calendar.user",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ed2d29b100d6b4828d26bde97c949013b4e28f718e467ee3490ceb0b21c0fb38",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.access_hr_resource_calendar_user"
+}

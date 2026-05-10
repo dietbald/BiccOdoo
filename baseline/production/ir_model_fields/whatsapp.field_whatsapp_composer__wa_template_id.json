@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18511,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Template",
+    "model_id": [
+      1053,
+      "Send WhatsApp Wizard"
+    ],
+    "name": "wa_template_id",
+    "relation": "whatsapp.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3e556f1401c5baa122f12f0c8987337badf076006218a84c3297c2ecbc80a882",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_composer__wa_template_id"
+}

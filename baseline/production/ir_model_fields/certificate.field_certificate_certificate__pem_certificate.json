@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26356,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Certificate in PEM format",
+    "model_id": [
+      2740,
+      "Certificate"
+    ],
+    "name": "pem_certificate",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "75cd996357d2ba18ac343767755a68a2551543f605f798775e34aa6e14f198f3",
+  "write_date": "",
+  "xml_id": "certificate.field_certificate_certificate__pem_certificate"
+}

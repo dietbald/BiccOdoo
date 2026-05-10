@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24189,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Answer",
+    "model_id": [
+      1507,
+      "Content Quiz Question"
+    ],
+    "name": "answer_ids",
+    "relation": "slide.answer",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f3bd4bfe335a5bd2433e110cad8fac1bab1a45757ef5489bc3672205de59e3ea",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_question__answer_ids"
+}

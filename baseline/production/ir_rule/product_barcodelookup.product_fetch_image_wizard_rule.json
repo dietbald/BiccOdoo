@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 707,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [],
+    "model_id": [
+      2663,
+      "Fetch product images from Barcode Lookup based on the product's barcode."
+    ],
+    "name": "\n            Product fetch image wizard: access only your own wizard\n        ",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6bb669a0b35728b4361334f3efdb18ba4df830635220ebedafcf0c72d895e7df",
+  "write_date": "2025-05-19 16:53:05",
+  "xml_id": "product_barcodelookup.product_fetch_image_wizard_rule"
+}

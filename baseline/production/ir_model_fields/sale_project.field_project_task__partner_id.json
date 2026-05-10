@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7700,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9cab53ead5edef53c1b1f06c066b23198aef1c3a0b86d7e7039fd70dab6f3b94",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_task__partner_id"
+}

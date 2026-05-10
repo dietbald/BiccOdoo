@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28923,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Submission Date",
+    "model_id": [
+      3564,
+      "Accounting Return"
+    ],
+    "name": "date_submission",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "b5bfeb3bb7a9fbddd0ea321aed72b74005de62e0d7ebe1ce438cb54b1bfb8361",
+  "write_date": "",
+  "xml_id": "account_reports.field_account_return__date_submission"
+}

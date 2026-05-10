@@ -1,0 +1,3 @@
+<xpath expr="//footer" position="before">
+                    <field name="category_id" widget="many2many_tags" options="{'color_field': 'color'}"/>
+                </xpath>

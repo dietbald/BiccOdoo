@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 482,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      23,
+      "Accounting / Invoicing"
+    ],
+    "model_id": [
+      498,
+      "Account Report Annotation"
+    ],
+    "name": "account.account_report_annotation",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "cc528bd98e30f6c75c6d90bec5d3cacb5ae3c2be590c107d19a8d2256b962968",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.access_account_report_annotation_invoice"
+}

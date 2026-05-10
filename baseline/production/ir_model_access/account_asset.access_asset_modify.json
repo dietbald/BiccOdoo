@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 496,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      24,
+      "Accounting / Bookkeeper"
+    ],
+    "model_id": [
+      527,
+      "Modify Asset"
+    ],
+    "name": "access.asset.modify",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": true
+  },
+  "payload_sha256": "a7007eea2f13eb4a5f75ecc3ef0ef617cb594f902204980797babc116fe4ca91",
+  "write_date": "2025-12-09 03:00:19",
+  "xml_id": "account_asset.access_asset_modify"
+}

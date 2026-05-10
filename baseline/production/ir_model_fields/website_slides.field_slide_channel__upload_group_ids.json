@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24328,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Upload Groups",
+    "model_id": [
+      1511,
+      "Course"
+    ],
+    "name": "upload_group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9979a7e5f25a667c89c3e8fcf7e211e7feeeda729b56e744425983617ca588d3",
+  "write_date": "",
+  "xml_id": "website_slides.field_slide_channel__upload_group_ids"
+}

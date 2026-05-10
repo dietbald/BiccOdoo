@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10929,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Date Scheduled",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "date",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "9188d623472687b63da4cd59aa841b1de161db3a3bedc6b69ab73b855eb429d2",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__date"
+}

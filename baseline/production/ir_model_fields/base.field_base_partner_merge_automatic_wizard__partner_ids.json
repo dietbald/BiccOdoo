@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1334,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contacts",
+    "model_id": [
+      116,
+      "Merge Partner Wizard"
+    ],
+    "name": "partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3533877b7d03b4a949a01782117f585099d8c22a174c736e9e769dc934acad93",
+  "write_date": "",
+  "xml_id": "base.field_base_partner_merge_automatic_wizard__partner_ids"
+}

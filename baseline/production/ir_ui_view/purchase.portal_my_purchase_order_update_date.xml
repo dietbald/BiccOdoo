@@ -1,0 +1,8 @@
+<data name="Portal: My Purchase Order Update Dates" inherit_id="purchase.portal_my_purchase_order" primary="True">
+    <xpath expr="////div[@id='portal_purchase_content']" position="replace">
+      <div id="portal_purchase_content">
+        <t t-set="update_dates" t-value="True"/>
+        <div><t t-call="purchase.purchase_order_portal_content"/></div>
+      </div>
+    </xpath>
+  <xpath expr="." position="attributes"><attribute name="t-name">purchase.portal_my_purchase_order_update_date</attribute></xpath></data>

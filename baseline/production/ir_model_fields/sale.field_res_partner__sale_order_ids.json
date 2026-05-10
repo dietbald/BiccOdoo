@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8126,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Sales Order",
+    "model_id": [
+      85,
+      "Contact"
+    ],
+    "name": "sale_order_ids",
+    "relation": "sale.order",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "5de33b190e5924717bbc1d220712a08eabdd216c380244e4689fe699f3e1f6fd",
+  "write_date": "",
+  "xml_id": "sale.field_res_partner__sale_order_ids"
+}

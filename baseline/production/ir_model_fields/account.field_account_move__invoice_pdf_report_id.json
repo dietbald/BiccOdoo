@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "PDF Attachment",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "invoice_pdf_report_id",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "71a791b50f45e0fd62084d816e5bbed9a78172a0192a03da44e581f460ec8aed",
+  "write_date": "",
+  "xml_id": "account.field_account_move__invoice_pdf_report_id"
+}

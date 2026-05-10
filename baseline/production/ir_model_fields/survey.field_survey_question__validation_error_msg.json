@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14802,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Validation Error",
+    "model_id": [
+      920,
+      "Survey Question"
+    ],
+    "name": "validation_error_msg",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "standard",
+    "ttype": "char"
+  },
+  "payload_sha256": "04ff11cf624f9a91bed69f8aa0604391f62515c2fb6140b407ff1e577fba07fb",
+  "write_date": "",
+  "xml_id": "survey.field_survey_question__validation_error_msg"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 895,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "hr.job.public",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "a54d1ad132a8ceee50f4f5aaf2c8c7566c5ae99fd393120277b812fd4b490379",
+  "write_date": "2026-01-28 12:01:22",
+  "xml_id": "website_hr_recruitment.access_hr_job_public_public"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9252,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Send bills to OCR to generate expenses",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_hr_expense_extract",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5be54befa29551197547e96016b79ce44d089c6c1a2f7cfc0976df98b9bf170d",
+  "write_date": "",
+  "xml_id": "hr_expense.field_res_config_settings__module_hr_expense_extract"
+}

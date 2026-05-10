@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22204,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Matched Payments",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "matched_payment_ids",
+    "relation": "account.payment",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "2f79e6888e2e137ffb3cc193859e3f1e338a324f921cb74e9b86fee80e50d1dc",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__matched_payment_ids"
+}

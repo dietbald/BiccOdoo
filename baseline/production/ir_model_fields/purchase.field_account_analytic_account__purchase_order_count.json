@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9362,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Purchase Order Count",
+    "model_id": [
+      344,
+      "Analytic Account"
+    ],
+    "name": "purchase_order_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "e2ba0fe2df337d4d6947ae4e1e34a33db6a1b9bad28dda49fde10c7b80eb687c",
+  "write_date": "",
+  "xml_id": "purchase.field_account_analytic_account__purchase_order_count"
+}

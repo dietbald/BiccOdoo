@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28162,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Lot/Serial",
+    "model_id": [
+      359,
+      "Product Variant"
+    ],
+    "name": "serial_prefix_format",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "f4dd9080387272c286de67fc1e4698774f58b9eb0b8c469d56efda89bad206ac",
+  "write_date": "",
+  "xml_id": "stock.field_product_product__serial_prefix_format"
+}

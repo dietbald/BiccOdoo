@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 413,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_filter_active': 1,\n                'search_default_filter_inactive': 1,\n                'search_default_filter_create_date': 1,\n            }",
+    "domain": false,
+    "name": "Leads Analysis",
+    "res_model": "crm.lead",
+    "target": "current",
+    "view_mode": "graph,pivot,list"
+  },
+  "payload_sha256": "b1cd7d7c4d16267bcbf459e9b49edf8e7303fe825839eab937c7afd319df3519",
+  "write_date": "2025-12-09 02:57:57",
+  "xml_id": "crm.crm_opportunity_report_action_lead"
+}

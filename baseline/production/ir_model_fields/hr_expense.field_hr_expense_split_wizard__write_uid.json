@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9286,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      652,
+      "Expense Split Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ccc745c9a64c3a55ca14007c090b62fca8bedee45aa507978126415f3c9f8f95",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split_wizard__write_uid"
+}

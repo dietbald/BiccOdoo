@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1706,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      146,
+      "Resources"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2c7df31560ff0145776434f49ba5e6fab5f6f97c0e8d5924a95148a53f3b3e4e",
+  "write_date": "",
+  "xml_id": "resource.field_resource_resource__write_uid"
+}

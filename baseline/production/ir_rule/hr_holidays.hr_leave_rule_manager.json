@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 445,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      116
+    ],
+    "model_id": [
+      946,
+      "Time Off"
+    ],
+    "name": "Time Off Administrator",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3511f8347f1a23e7541fd3077059ddb255ca5c4802206e6fca8b58dd3665aacd",
+  "write_date": "2024-05-03 11:21:50",
+  "xml_id": "hr_holidays.hr_leave_rule_manager"
+}

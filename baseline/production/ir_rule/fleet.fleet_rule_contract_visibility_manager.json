@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 481,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": false,
+    "groups": [
+      130
+    ],
+    "model_id": [
+      1004,
+      "Vehicle Contract"
+    ],
+    "name": "Administrator has all rights on vehicle's contracts",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "d2a449259caa37d26d38948e9b95c822344710f230d6aa13920133c9c5411551",
+  "write_date": "2024-05-05 08:27:22",
+  "xml_id": "fleet.fleet_rule_contract_visibility_manager"
+}

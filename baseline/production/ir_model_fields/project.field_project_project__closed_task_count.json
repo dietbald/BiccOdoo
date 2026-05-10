@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19975,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Closed Task Count",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "closed_task_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "9d7e9b0de7a175a74cf60ed0c423f692ffa471b868df76bb8a6cf62971335848",
+  "write_date": "",
+  "xml_id": "project.field_project_project__closed_task_count"
+}

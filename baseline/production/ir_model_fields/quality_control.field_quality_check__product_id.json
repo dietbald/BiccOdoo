@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16640,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "05eb7db6971254c7632ab871198feda44d11d91ab01548fb5ba0fb17de1be016",
+  "write_date": "",
+  "xml_id": "quality_control.field_quality_check__product_id"
+}

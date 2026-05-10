@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10930,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Deadline",
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "date_deadline",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "a24dd4492eb1033de6434fb5284c83c3cb8b7df79944ff52b61a37db823ef320",
+  "write_date": "",
+  "xml_id": "stock.field_stock_move__date_deadline"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12118,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "99aca72e024a4d2c776437d54e4dfd88528030caf7f6c532f225322b35d25547",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__message_ids"
+}

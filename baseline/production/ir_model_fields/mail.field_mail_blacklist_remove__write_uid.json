@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2476,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      211,
+      "Remove email from blacklist wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "76f7a2e316b221f28c7573351373d9e4cfecc9a5a6f06a4a78b2edec7f56578d",
+  "write_date": "",
+  "xml_id": "mail.field_mail_blacklist_remove__write_uid"
+}

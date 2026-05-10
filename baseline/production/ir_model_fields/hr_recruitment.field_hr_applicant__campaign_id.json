@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9575,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Campaign",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "campaign_id",
+    "relation": "utm.campaign",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c2193ceeed964f2daabe84f6f15503e63605cf5777c651f815b6406cddd5b75c",
+  "write_date": "",
+  "xml_id": "hr_recruitment.field_hr_applicant__campaign_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27708,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Internal users",
+    "model_id": [
+      3289,
+      "Documents Sharing"
+    ],
+    "name": "access_internal",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "672ad32c69e9c1ae95abe239777cd416d0adbb772a5a329af09fe2ddb7e76052",
+  "write_date": "",
+  "xml_id": "documents.field_documents_sharing__access_internal"
+}

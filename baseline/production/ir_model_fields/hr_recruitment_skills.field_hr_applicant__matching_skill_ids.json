@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26179,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Matching Skills",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "matching_skill_ids",
+    "relation": "hr.skill",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d161a7377c04f3ac6203881d17a61a3fc916349ed8264d7f5603f9057cebc1f4",
+  "write_date": "",
+  "xml_id": "hr_recruitment_skills.field_hr_applicant__matching_skill_ids"
+}

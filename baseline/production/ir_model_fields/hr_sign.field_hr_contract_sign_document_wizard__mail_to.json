@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10753,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Email",
+    "model_id": [
+      720,
+      "Sign document in contract"
+    ],
+    "name": "mail_to",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ea3ae8ef4e614774ffbb9eaa01a3a520c44db06ac7bf5e2ef246611fcae6290a",
+  "write_date": "",
+  "xml_id": "hr_sign.field_hr_contract_sign_document_wizard__mail_to"
+}

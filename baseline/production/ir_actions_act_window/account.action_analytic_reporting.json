@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 268,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n                'search_default_group_by_analytic_account': 1,\n                'search_default_fiscal_date': 1,\n            }",
+    "domain": false,
+    "name": "Analytic Reporting",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "pivot,list,kanban,form,graph,grid"
+  },
+  "payload_sha256": "1ad7dcbc2d27748e4dd3f75f60814ad1a491e073c34d7530365a64320051f04e",
+  "write_date": "2025-12-09 02:57:55",
+  "xml_id": "account.action_analytic_reporting"
+}

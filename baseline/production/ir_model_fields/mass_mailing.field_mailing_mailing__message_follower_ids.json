@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14190,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      894,
+      "Mass Mailing"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "7fdc253e15b0e74075cd2422931074311bd1cf24eb6828053e193efff5966f72",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing__message_follower_ids"
+}

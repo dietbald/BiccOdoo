@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1329,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Parent Company",
+    "model_id": [
+      116,
+      "Merge Partner Wizard"
+    ],
+    "name": "group_by_parent_id",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f3ad17f97be8df640d039b3b9eb8f85d991aea7b621f6a346b8d0cb3416864d1",
+  "write_date": "",
+  "xml_id": "base.field_base_partner_merge_automatic_wizard__group_by_parent_id"
+}

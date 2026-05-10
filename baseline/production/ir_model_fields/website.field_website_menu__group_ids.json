@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20090,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Visible Groups",
+    "model_id": [
+      685,
+      "Website Menu"
+    ],
+    "name": "group_ids",
+    "relation": "res.groups",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7788ed4f48fea1d607a5e9da3b290a844a2170242c4ca1173326694b6ae268d1",
+  "write_date": "",
+  "xml_id": "website.field_website_menu__group_ids"
+}

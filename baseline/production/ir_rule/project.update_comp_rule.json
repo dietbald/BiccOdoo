@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 166,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', ('project_id.company_id', 'in', company_ids), ('project_id.company_id', '=', False)]",
+    "groups": [],
+    "model_id": [
+      601,
+      "Project Update"
+    ],
+    "name": "Project/Updates: multi-company",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "6ac3fc7f6f4867f24ea8a3649d495b3a88cad01ecea2817585eb33c9cf747db7",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.update_comp_rule"
+}

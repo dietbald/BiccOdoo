@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19358,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1101,
+      "Set Homework Location Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b7372c0f9b9064510caad79e78a4efe8b0b45a8b6b15c300891fc7d0dbe02c47",
+  "write_date": "",
+  "xml_id": "hr_homeworking_calendar.field_homework_location_wizard__write_uid"
+}

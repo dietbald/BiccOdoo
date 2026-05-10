@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 142,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1,'=',1)]",
+    "groups": [
+      36
+    ],
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "All Leads",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "1312960c8fd207d88b18973a09cb9306f9035b924ed0e80cedc5923aeca614d0",
+  "write_date": "2023-11-30 04:45:33",
+  "xml_id": "crm.crm_rule_all_lead"
+}

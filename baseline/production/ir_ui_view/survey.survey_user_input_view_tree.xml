@@ -1,0 +1,13 @@
+<list string="Survey User inputs" decoration-muted="test_entry == True" create="false">
+                <field name="create_date"/>
+                <field name="survey_id"/>
+                <field name="nickname" optional="hide"/>
+                <field name="partner_id" optional="show"/>
+                <field name="email" optional="show"/>
+                <field name="attempts_number"/>
+                <field name="deadline"/>
+                <field name="test_entry" column_invisible="True"/>
+                <field name="scoring_success"/>
+                <field name="scoring_percentage"/>
+                <field name="state" widget="badge" decoration-success="state == 'done'" decoration-info="state == 'new'" decoration-warning="state == 'in_progress'"/>
+            </list>

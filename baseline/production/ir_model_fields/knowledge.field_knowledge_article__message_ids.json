@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12265,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      791,
+      "Knowledge Article"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ee8036b1a57623244bc605f28334ab4d918b73791cf0b89e52e700b663bc1219",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article__message_ids"
+}

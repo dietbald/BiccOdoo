@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18670,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated on",
+    "model_id": [
+      1064,
+      "Task stop running timers confirmation wizard"
+    ],
+    "name": "write_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "cf9c04d120899b52129ae61d6d1fdc1e159a84bb3237b9213e34a13d916ac347",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_project_task_stop_timers_wizard__write_date"
+}

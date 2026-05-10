@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16645,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Team",
+    "model_id": [
+      991,
+      "Quality Check"
+    ],
+    "name": "team_id",
+    "relation": "quality.alert.team",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "73eb2fbf6bd11039f709c9e3fed3b9090754ed931674128625da00b8132e8c4d",
+  "write_date": "",
+  "xml_id": "quality.field_quality_check__team_id"
+}

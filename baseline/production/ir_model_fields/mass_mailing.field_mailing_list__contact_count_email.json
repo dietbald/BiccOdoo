@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14123,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of Emails",
+    "model_id": [
+      891,
+      "Mailing List"
+    ],
+    "name": "contact_count_email",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "53f465a4c6a07c16d0895876d900aa03dd77465504cfdd46652d3c2b48fe35e9",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_list__contact_count_email"
+}

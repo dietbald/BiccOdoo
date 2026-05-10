@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1034,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_type': 1, 'search_default_approve': 1, 'search_default_validated': 1}",
+    "domain": "[]",
+    "name": "Time Off by Type",
+    "res_model": "hr.leave.report",
+    "target": "current",
+    "view_mode": "graph,list,pivot"
+  },
+  "payload_sha256": "a20453aec43016d5870b04ca33dcd473417ae218ae18e98b90020decbda48908",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.action_hr_leave_report"
+}

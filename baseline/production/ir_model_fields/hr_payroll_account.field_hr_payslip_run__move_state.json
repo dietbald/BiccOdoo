@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23782,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Move State",
+    "model_id": [
+      825,
+      "Pay Run"
+    ],
+    "name": "move_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ee5d6609782e31ce30b3712cbea475551e610e694395d15cb24ad8712866496b",
+  "write_date": "",
+  "xml_id": "hr_payroll_account.field_hr_payslip_run__move_state"
+}

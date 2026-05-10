@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14370,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      903,
+      "schedule a mailing"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1815d6b3473e6475b9bd33d23c1c17d017583c2d167158981c8be38c9232c700",
+  "write_date": "",
+  "xml_id": "mass_mailing.field_mailing_mailing_schedule_date__write_uid"
+}

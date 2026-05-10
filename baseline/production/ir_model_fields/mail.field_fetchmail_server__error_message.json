@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26914,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Error Message",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "error_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "text"
+  },
+  "payload_sha256": "e9efbb3b44fe9c67dcc796c9ddc7234ef78aff8b8a02924327f2dc209c3b4cdd",
+  "write_date": "",
+  "xml_id": "mail.field_fetchmail_server__error_message"
+}

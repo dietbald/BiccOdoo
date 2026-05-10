@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23942,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Compounding Method",
+    "model_id": [
+      1477,
+      "Loan Compute Wizard"
+    ],
+    "name": "compounding_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "43782138497f0422c0b64e16b96c5ac904269e604a1c4d3ffd68a37a074cc844",
+  "write_date": "",
+  "xml_id": "account_loans.field_account_loan_compute_wizard__compounding_method"
+}

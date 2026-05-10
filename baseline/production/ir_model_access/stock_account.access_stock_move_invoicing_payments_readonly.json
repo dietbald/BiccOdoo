@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1029,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      22,
+      "Accounting / Read-only"
+    ],
+    "model_id": [
+      729,
+      "Stock Move"
+    ],
+    "name": "stock.move",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "74bd00bdc2fa3baee3a8345813027a0170cc8c4fa7f10734a7eab741dfd07808",
+  "write_date": "2025-12-09 02:58:51",
+  "xml_id": "stock_account.access_stock_move_invoicing_payments_readonly"
+}

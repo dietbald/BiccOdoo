@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15641,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Group Time Off",
+    "model_id": [
+      948,
+      "Time Off Type"
+    ],
+    "name": "group_days_leave",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "fb1b4f3287b79ec21dc040f84563ec3ed38c4eeccc3e4d15bac7e12f8eba0c78",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_type__group_days_leave"
+}

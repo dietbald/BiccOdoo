@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6170,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal Items",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "original_move_line_ids",
+    "relation": "account.move.line",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "26577ac476ad4f51333228054c4f48727323ef36f70d957f1516346b9a400c2e",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__original_move_line_ids"
+}

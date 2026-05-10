@@ -1,0 +1,12 @@
+<list sample="1" decoration-danger="not active" js_class="appointment_booking_list" multi_edit="1">
+                <field name="active" column_invisible="True"/>
+                <field name="name" string="Subject"/>
+                <field name="appointment_type_id"/>
+                <field name="attendee_ids" string="Booked by" widget="many2many_tags"/>
+                <field name="appointment_resource_ids" widget="many2many_tags"/>
+                <field name="start"/>
+                <field name="stop"/>
+                <field name="total_capacity_reserved" sum="Total Capacity Reserved"/>
+                <field name="total_capacity_used" optional="show" sum="Total Capacity Used"/>
+                <field name="appointment_status" string="Status"/>
+           </list>

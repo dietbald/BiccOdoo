@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27627,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      857,
+      "Automation Rule"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c71359329f63f97793c7ae07963ea59c1a1f16efb6de232b1c39be42bd2dccd7",
+  "write_date": "",
+  "xml_id": "base_automation.field_base_automation__activity_calendar_event_id"
+}

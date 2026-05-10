@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5438,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Status",
+    "model_id": [
+      464,
+      "Invoices Statistics"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "ca0ab40090c1f664a2acff389d1f927d73aa63c8be015eeb487def2acf975284",
+  "write_date": "",
+  "xml_id": "account.field_account_invoice_report__state"
+}

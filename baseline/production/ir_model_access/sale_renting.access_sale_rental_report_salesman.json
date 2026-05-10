@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1933,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      35,
+      "Sales / User: Own Documents Only"
+    ],
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "rental.report",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "479e4a97eb7db8071004558f2399c1f9dae68f582bbc726fcf294379b3b29bdd",
+  "write_date": "2025-12-09 03:00:12",
+  "xml_id": "sale_renting.access_sale_rental_report_salesman"
+}

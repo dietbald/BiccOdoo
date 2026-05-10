@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26056,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Journal",
+    "model_id": [
+      2698,
+      "Expense Posting Wizard"
+    ],
+    "name": "employee_journal_id",
+    "relation": "account.journal",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "abb0d7b88dac7ef3e0c3bf3e5a8cb5c74c7a2720e36789696920b067029b46dd",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_post_wizard__employee_journal_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3372,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Website Messages",
+    "model_id": [
+      352,
+      "Phone Blacklist"
+    ],
+    "name": "website_message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "8aa3000e7cac48b3f0ed8375390f4c3b80197e4b17826f65d73124b2ab3a24a3",
+  "write_date": "",
+  "xml_id": "portal.field_phone_blacklist__website_message_ids"
+}

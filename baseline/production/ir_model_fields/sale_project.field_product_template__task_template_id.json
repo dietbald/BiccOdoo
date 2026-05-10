@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29673,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Task Template",
+    "model_id": [
+      358,
+      "Product"
+    ],
+    "name": "task_template_id",
+    "relation": "project.task",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f36467575d1f926e48b175ebafecc333a3b9ee78d3bb22b30f38eef1e8e3b438",
+  "write_date": "",
+  "xml_id": "sale_project.field_product_template__task_template_id"
+}

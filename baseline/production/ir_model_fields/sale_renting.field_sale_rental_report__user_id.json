@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26615,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salesman",
+    "model_id": [
+      2751,
+      "Rental Analysis Report"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "c1c8be0986fdd7b7c319465bfe4699b60c536728a9b289c3c19abe1dc447738f",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_rental_report__user_id"
+}

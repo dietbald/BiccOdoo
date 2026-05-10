@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 114,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_group_by_channel': True}",
+    "domain": false,
+    "name": "RTC sessions",
+    "res_model": "discuss.channel.rtc.session",
+    "target": "current",
+    "view_mode": "list,form"
+  },
+  "payload_sha256": "9c1488ce5aff5bdb3a669efd8b89c2d0cdedbaffe0914617e111a3f65373ce45",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.discuss_channel_rtc_session_action"
+}

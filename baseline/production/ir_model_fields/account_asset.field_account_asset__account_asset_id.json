@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6157,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Fixed Asset Account",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "account_asset_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "186fd9f12b30f29bc4f60ade786b23b10d2d92f44d97a740dd3feea794e2a293",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__account_asset_id"
+}

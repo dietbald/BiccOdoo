@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16782,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      995,
+      "Room"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1f5c8b50b8cca447120c9b0b3ccbf31607648bc99b8924e7e8ce0703119e8298",
+  "write_date": "",
+  "xml_id": "room.field_room_room__message_ids"
+}

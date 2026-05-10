@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16687,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stage",
+    "model_id": [
+      992,
+      "Quality Alert"
+    ],
+    "name": "stage_id",
+    "relation": "quality.alert.stage",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fa7c23537476a0dc7ad2c3821db52f69108afa6aed47f10308f0f48fec41004a",
+  "write_date": "",
+  "xml_id": "quality.field_quality_alert__stage_id"
+}

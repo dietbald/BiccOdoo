@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 44,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      11,
+      "Role / Public"
+    ],
+    "model_id": [
+      78,
+      "Country"
+    ],
+    "name": "res_country group_user_all",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "6648794f40ab8e6f13b731ef786d6d16b32776db0361251c8dac2c815483a38d",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.access_res_country_public"
+}

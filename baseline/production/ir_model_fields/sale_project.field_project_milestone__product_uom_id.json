@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8569,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Unit",
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "product_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b9bae3036dcb284e75ba5ccb4cc7fecf52c83740bfe9a0e055bf661510c9cae2",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_milestone__product_uom_id"
+}

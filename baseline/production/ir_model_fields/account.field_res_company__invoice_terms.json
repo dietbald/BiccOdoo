@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4980,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Default Terms and Conditions",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "invoice_terms",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "html_translate",
+    "ttype": "html"
+  },
+  "payload_sha256": "6a154a6a6cf82b87f9e75e91496ef2de162fd6059ff69125ed837c8550422a9e",
+  "write_date": "",
+  "xml_id": "account.field_res_company__invoice_terms"
+}

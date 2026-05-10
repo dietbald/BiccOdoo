@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15688,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Maximum Leave",
+    "model_id": [
+      949,
+      "Accrual Plan Level"
+    ],
+    "name": "maximum_leave",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "6d34d01ad2951fac5ff51d9cb63b7b41ec44ace55b55d9c12980338e560c246a",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_accrual_level__maximum_leave"
+}

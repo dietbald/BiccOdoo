@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15076,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Similarity Threshold",
+    "model_id": [
+      930,
+      "Deduplication Model"
+    ],
+    "name": "merge_threshold",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "a2b9a2a6130a4cee20db7acc90d3cb90f1623a2537b1a03418df9e778a41907a",
+  "write_date": "",
+  "xml_id": "data_cleaning.field_data_merge_model__merge_threshold"
+}

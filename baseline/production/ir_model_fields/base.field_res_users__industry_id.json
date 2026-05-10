@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1171,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Industry",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "industry_id",
+    "relation": "res.partner.industry",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "612fa251aa2881223318016d5177eb103d3823bb070721b31d92746aaa8e3f1d",
+  "write_date": "",
+  "xml_id": "base.field_res_users__industry_id"
+}

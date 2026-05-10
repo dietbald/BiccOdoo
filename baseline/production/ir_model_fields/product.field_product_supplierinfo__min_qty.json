@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3190,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Quantity",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "min_qty",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "58856264d49fb08ed14d07e37518c55b4887dba884eea2dbda331f9d24f4c074",
+  "write_date": "",
+  "xml_id": "product.field_product_supplierinfo__min_qty"
+}

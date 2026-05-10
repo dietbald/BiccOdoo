@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4374,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Invoice Totals",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "tax_totals",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "cbf5d3af3760e50451e072ce4b19b7cb1a1400b5067b68345751af376cfaddc2",
+  "write_date": "",
+  "xml_id": "account.field_account_move__tax_totals"
+}

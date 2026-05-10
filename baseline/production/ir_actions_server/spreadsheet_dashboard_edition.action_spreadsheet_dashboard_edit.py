@@ -1,0 +1,1 @@
+action = records.action_edit_dashboard()

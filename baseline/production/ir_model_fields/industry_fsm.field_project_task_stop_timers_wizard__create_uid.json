@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18667,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1064,
+      "Task stop running timers confirmation wizard"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6bc8e3876b5aaebd23b6b3ba2391a01ce4c39f9ef62d499e80d252cc8f6f6253",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_project_task_stop_timers_wizard__create_uid"
+}

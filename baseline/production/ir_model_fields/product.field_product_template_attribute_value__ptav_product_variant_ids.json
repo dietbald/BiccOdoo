@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3250,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Variants",
+    "model_id": [
+      373,
+      "Product Template Attribute Value"
+    ],
+    "name": "ptav_product_variant_ids",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "4fc7cbdbdf5f9cba3aa89e2e4bda8253a8405abb83f2eb2630b1481b61248f8f",
+  "write_date": "",
+  "xml_id": "product.field_product_template_attribute_value__ptav_product_variant_ids"
+}

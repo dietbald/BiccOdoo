@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 491,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('subcontractor_id', '=', user.partner_id.commercial_partner_id.id)]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      970,
+      "Manufacturing Order"
+    ],
+    "name": "MRP Productions Subcontractor",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f43e352bc475c987035110b3ba8d3690bb467e75257a4112cb54428fa5053560",
+  "write_date": "2025-12-09 02:59:25",
+  "xml_id": "mrp_subcontracting.production_subcontractor_rule"
+}

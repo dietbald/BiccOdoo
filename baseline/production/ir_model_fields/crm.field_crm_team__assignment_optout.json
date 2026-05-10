@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7278,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Skip auto assignment",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "assignment_optout",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1bc8c96566c8e0c5d04774dcc1442bf5d6741d6afcd05c993307122614fd1fb6",
+  "write_date": "",
+  "xml_id": "crm.field_crm_team__assignment_optout"
+}

@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 881,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'create': False,\n            'edit': False,\n            'delete': False,\n            \"is_timesheet\": 1,\n        }",
+    "domain": "[('timesheet_invoice_id', '=', active_id)]",
+    "name": "Timesheets",
+    "res_model": "account.analytic.line",
+    "target": "current",
+    "view_mode": "list,form,graph,pivot,kanban"
+  },
+  "payload_sha256": "84fcb6160b479fd0c495d97b216f33d579408914bbc9e37ceeee5ffe49efe9aa",
+  "write_date": "2025-12-09 03:00:38",
+  "xml_id": "sale_timesheet.action_timesheet_from_invoice"
+}

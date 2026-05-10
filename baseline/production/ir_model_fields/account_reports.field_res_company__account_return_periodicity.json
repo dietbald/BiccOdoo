@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delay units",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "account_return_periodicity",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "be03e0968e238158a284385266f243c459693da69e97aa5aee272092db5a8b2e",
+  "write_date": "",
+  "xml_id": "account_reports.field_res_company__account_return_periodicity"
+}

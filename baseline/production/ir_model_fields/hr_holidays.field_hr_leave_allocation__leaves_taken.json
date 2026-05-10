@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 15623,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time off Taken",
+    "model_id": [
+      947,
+      "Time Off Allocation"
+    ],
+    "name": "leaves_taken",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "1ba19c24cb35e82f35da38190d4a5684c762b93024a789028816f4c5123bb718",
+  "write_date": "",
+  "xml_id": "hr_holidays.field_hr_leave_allocation__leaves_taken"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22309,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Installments Switch Amount",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "installments_switch_amount",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "19c961aefa8d85f53b90afaefea68c8a6b5ec355f81402f879e565583571ca21",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__installments_switch_amount"
+}

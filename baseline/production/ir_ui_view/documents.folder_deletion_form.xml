@@ -1,0 +1,9 @@
+<form>
+                <div>
+                    Files will be sent to trash and deleted forever after <field name="deletion_delay"/> days.
+                </div>
+                <footer>
+                    <button string="Move to trash" class="btn-primary" type="object" name="action_archive" data-hotkey="d"/>
+                    <button string="Discard" class="btn-secondary" special="cancel" data-hotkey="z"/>
+                </footer>
+            </form>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13442,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total Time Spent",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "total_hours_spent",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "d3ff773d8067222420673868086df1227a04a0b86fe7492ef16075b269b578ae",
+  "write_date": "",
+  "xml_id": "hr_timesheet.field_project_task__total_hours_spent"
+}

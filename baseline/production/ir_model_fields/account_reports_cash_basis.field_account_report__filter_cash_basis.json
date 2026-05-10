@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6354,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Cash Basis",
+    "model_id": [
+      447,
+      "Accounting Report"
+    ],
+    "name": "filter_cash_basis",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "570c876c4b2e32986475c1d2f17592a05f65708a7471fd0c966dbc2fd6fad7ad",
+  "write_date": "",
+  "xml_id": "account_reports_cash_basis.field_account_report__filter_cash_basis"
+}

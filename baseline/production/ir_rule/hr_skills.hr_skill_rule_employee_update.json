@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 225,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('employee_id.user_id','=',user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      641,
+      "Skill level for employee"
+    ],
+    "name": "Employee skill: employee: create/write/unlink own",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c4b0dda999ee8091ccb7461cd13abd0b66e913c8b3ac17e48a150968f030dc4d",
+  "write_date": "2023-11-30 07:12:49",
+  "xml_id": "hr_skills.hr_skill_rule_employee_update"
+}

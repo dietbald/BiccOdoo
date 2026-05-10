@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27034,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Name",
+    "model_id": [
+      2971,
+      "Represents a role in the system used to categorize users. Each role has a unique name and can be associated with multiple users. Roles can be mentioned in messages to notify all associated users."
+    ],
+    "name": "name",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "3e7cb9b9a850a3b6ddfe5aca8d0cb48a9da3b9127e6a847e3f0e4e96cb106d3e",
+  "write_date": "",
+  "xml_id": "mail.field_res_role__name"
+}

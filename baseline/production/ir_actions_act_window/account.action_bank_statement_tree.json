@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 257,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'journal_type':'bank'}",
+    "domain": "[('journal_id.type', '=', 'bank')]",
+    "name": "Bank Statements",
+    "res_model": "account.bank.statement",
+    "target": "current",
+    "view_mode": "list,pivot,graph,form"
+  },
+  "payload_sha256": "0b1decd65a42dc18555aa4265101b520fab6958240e699f6a5308ff60a3ec501",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_bank_statement_tree"
+}

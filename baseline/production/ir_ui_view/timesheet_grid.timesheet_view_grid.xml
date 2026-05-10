@@ -1,0 +1,11 @@
+<grid string="Timesheets" js_class="timer_timesheet_grid" barchart_total="1" create_inline="1" form_view_id="3232" editable="1" display_empty="1" sample="1">
+                    <field name="project_id" type="row" widget="timesheet_many2one"/>
+                    <field name="task_id" type="row" widget="timesheet_many2one"/>
+                    <field name="employee_id" type="row" invisible="1" widget="timesheet_many2one_avatar_employee"/>
+                    <field name="date" type="col">
+                        <range name="day" string="Day" span="day" step="day" hotkey="e"/>
+                        <range name="week" string="Week" span="week" step="day" hotkey="w" default="1"/>
+                        <range name="month" string="Month" span="month" step="day" hotkey="m"/>
+                    </field>
+                    <field name="unit_amount" string="Time Spent" type="measure" widget="timesheet_uom"/>
+                </grid>

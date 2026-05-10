@@ -1,0 +1,10 @@
+<search>
+                <field name="name" string="provider" filter_domain="[('name', 'ilike', self)]"/>
+                <field name="payment_method_ids" string="payment method" context="{'active_test': False}" filter_domain="[                             '|',                             ('payment_method_ids.name', 'ilike', self),                             ('payment_method_ids.code', 'ilike', self),                        ]"/>
+                <filter name="provider_installed" string="Installed" domain="[('module_state', '=', 'installed')]"/>
+                <group>
+                    <filter string="Provider" name="code" context="{'group_by': 'code'}"/>
+                    <filter string="State" name="state" context="{'group_by': 'state'}"/>
+                    <filter string="Company" name="company" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                </group>
+            </search>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17508,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "SMS Delivery error",
+    "model_id": [
+      1019,
+      "Engineering Change Order (ECO)"
+    ],
+    "name": "message_has_sms_error",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "57e94d2ed17bdc1c8f97b83315e3bf7bcaad4df6c995bfa8b65d30e68770eb5e",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_eco__message_has_sms_error"
+}

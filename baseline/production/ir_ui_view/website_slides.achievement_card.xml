@@ -1,0 +1,11 @@
+<t name="Achivement Card" t-name="website_slides.achievement_card">
+    <div class="d-flex gap-2">
+        <t t-call="website_slides.slides_misc_user_image">
+            <t t-set="user" t-value="achievement.user_id"/>
+        </t>
+        <div>
+            <div class="lh-1" t-out="achievement.user_id.name"/>
+            <small class="text-muted" t-out="achievement.badge_id.name"/>
+        </div>
+    </div>
+</t>

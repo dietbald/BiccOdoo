@@ -1,0 +1,5 @@
+<xpath expr="//filter[@name='filter_is_connected']" position="after">
+                <filter string="Push Notification On" name="filter_push_notification_enabled" domain="[('has_push_notifications', '!=', False)]"/>
+                <filter string="Push Notification Off" name="filter_push_notification_disabled" domain="[('has_push_notifications', '=', False)]"/>
+                <separator/>
+            </xpath>

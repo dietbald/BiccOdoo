@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 66,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "# This cron is dynamically controlled by Lunch Supplier.\n# Do NOT modify this cron, modify the related record instead.\nenv['lunch.supplier'].browse([1])._send_auto_email()",
+    "interval_number": 1,
+    "interval_type": "days",
+    "model_id": [
+      1071,
+      "Lunch Supplier"
+    ],
+    "name": "Lunch: send automatic email to Lunch Supplier",
+    "user_id": [
+      1,
+      "BICC"
+    ]
+  },
+  "payload_sha256": "1136b3729c4dfb36793f654a368a03ca2e91c01c493bb1f1e11b78a453020b7a",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": null
+}

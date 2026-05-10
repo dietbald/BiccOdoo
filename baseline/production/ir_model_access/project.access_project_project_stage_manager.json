@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 629,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      41,
+      "Project / Administrator"
+    ],
+    "model_id": [
+      596,
+      "Project Stage"
+    ],
+    "name": "project.project_stage.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "40ad2807a92cfd988f162db08467e582e5819ac71014777f1b16355145d429d5",
+  "write_date": "2025-12-09 02:57:23",
+  "xml_id": "project.access_project_project_stage_manager"
+}

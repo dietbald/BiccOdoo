@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13087,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      828,
+      "Salary Adjustment"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1496c371043bb58937f8b50d744b5ecd66070ab011237264f98256dede73d04b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_salary_attachment__currency_id"
+}

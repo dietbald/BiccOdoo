@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5465,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Payable",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "property_account_payable_id",
+    "relation": "account.account",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "92e8fae648a73ae7e6d105dd90ede2cc59e1404b814d568907c503c0b427eac3",
+  "write_date": "",
+  "xml_id": "account.field_res_users__property_account_payable_id"
+}

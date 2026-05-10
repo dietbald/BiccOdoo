@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8554,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Has a SO with an invoice status of No",
+    "model_id": [
+      602,
+      "Project"
+    ],
+    "name": "has_any_so_with_nothing_to_invoice",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "8a607b4b3d26b2e6bb83874dcb68445e941b2ed8ced0152ec023fd9a597cfa6b",
+  "write_date": "",
+  "xml_id": "sale_project.field_project_project__has_any_so_with_nothing_to_invoice"
+}

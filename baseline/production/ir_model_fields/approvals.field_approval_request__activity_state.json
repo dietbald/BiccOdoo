@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12105,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activity State",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "activity_state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "31c748d7d7632946335aeb89b20a7e7306282c1bd9ce19785349863bc1281c11",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__activity_state"
+}

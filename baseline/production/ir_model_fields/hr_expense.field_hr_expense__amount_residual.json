@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Amount Due",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "amount_residual",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "1fe399d0cbbed83c0b6220eeac31aa2c1e093c792417a1b76a0f6036106f864a",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__amount_residual"
+}

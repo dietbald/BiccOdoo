@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5624,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Suitable Payment Token",
+    "model_id": [
+      438,
+      "Payments"
+    ],
+    "name": "suitable_payment_token_ids",
+    "relation": "payment.token",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "825711350b87240fc08e14c499ff4311298218b901d0553f49de565f04b7eddf",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_payment__suitable_payment_token_ids"
+}

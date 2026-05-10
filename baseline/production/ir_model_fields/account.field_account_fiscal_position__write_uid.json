@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3831,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      416,
+      "Fiscal Position"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6ea118fcd4ce6124f18673482df2acf53a4cb93267311652ef3a44cd5db4883f",
+  "write_date": "",
+  "xml_id": "account.field_account_fiscal_position__write_uid"
+}

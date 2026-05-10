@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10476,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Digital Initials",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "sign_initials",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "binary"
+  },
+  "payload_sha256": "91be3cd4004c65cfd2d114cd01d4b61633f363db1cb3cbf4f2423814afaeb70c",
+  "write_date": "",
+  "xml_id": "sign.field_res_users__sign_initials"
+}

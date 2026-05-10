@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1012,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      743,
+      "Storage Category"
+    ],
+    "name": "stock.storage.category.user",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "3b18282a762846b9f304aa1235b097fffcb79e0e2770339b83e9b6d3d9d04fb9",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_storage_category_user"
+}

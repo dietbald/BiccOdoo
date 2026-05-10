@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11669,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Pick",
+    "model_id": [
+      763,
+      "Backorder Confirmation"
+    ],
+    "name": "pick_ids",
+    "relation": "stock.picking",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "acc9bdeddd563402909389cd1281b4c7ebb23c69076d251b6f7f55239079aa4b",
+  "write_date": "",
+  "xml_id": "stock.field_stock_backorder_confirmation__pick_ids"
+}

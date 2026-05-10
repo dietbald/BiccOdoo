@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30064,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow End Message",
+    "model_id": [
+      30,
+      "Scheduled Actions"
+    ],
+    "name": "ai_tool_allow_end_message",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "7112b5aa13d9b6fb350ff8f6ec50b09e93c48b4071f08368e217f68b796be80c",
+  "write_date": "",
+  "xml_id": "ai.field_ir_cron__ai_tool_allow_end_message"
+}

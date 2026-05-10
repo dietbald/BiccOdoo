@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12725,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Work Entry Source",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "work_entry_source",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "333a82040b17a9a25158a5a24148132fcad5303c24c3ed805baf718bc80c6c95",
+  "write_date": "",
+  "xml_id": "hr_work_entry_planning.field_hr_version__work_entry_source"
+}

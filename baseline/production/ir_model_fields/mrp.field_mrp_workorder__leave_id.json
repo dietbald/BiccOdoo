@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16272,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Leave",
+    "model_id": [
+      972,
+      "Work Order"
+    ],
+    "name": "leave_id",
+    "relation": "resource.calendar.leaves",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ccad465408279fd41671bf725afdcc2785335004dcb6cfa9fd06f03e6b470454",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_workorder__leave_id"
+}

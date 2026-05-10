@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28645,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Manufacturing Orders",
+    "model_id": [
+      3493,
+      "Production Group"
+    ],
+    "name": "child_ids",
+    "relation": "mrp.production.group",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "e9eafe7f1ed67a85289fe715c4dba894804e81eba263c40cdef0e45198de6628",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_production_group__child_ids"
+}

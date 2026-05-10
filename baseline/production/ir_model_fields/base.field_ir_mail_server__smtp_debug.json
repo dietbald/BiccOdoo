@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 579,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Debugging",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "smtp_debug",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "4fd9ffb40e64e2bc67d8365afc559134a472a0e8803201a1987c5161842672f9",
+  "write_date": "",
+  "xml_id": "base.field_ir_mail_server__smtp_debug"
+}

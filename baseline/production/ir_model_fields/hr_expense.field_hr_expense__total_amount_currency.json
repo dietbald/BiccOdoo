@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9166,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Total In Currency",
+    "model_id": [
+      648,
+      "Expense"
+    ],
+    "name": "total_amount_currency",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "b0b0145c34810b4d45974dcd0c898c650496f2f8455920aad87ce7df6d415ed2",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense__total_amount_currency"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13328,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "07dd28a5ce023bd41f97c714835214353bd06dbe3deb57339d68e7ca9f08e1a3",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__create_uid"
+}

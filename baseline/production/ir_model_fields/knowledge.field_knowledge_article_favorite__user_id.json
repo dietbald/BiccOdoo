@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12222,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User",
+    "model_id": [
+      788,
+      "Favorite Article"
+    ],
+    "name": "user_id",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "814e4b59c2058d0e5d3b0e2f52bb6ea9c14fd08d9234582ca08619052ef1d83e",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_favorite__user_id"
+}

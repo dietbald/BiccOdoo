@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10358,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5cf79bf7fe93d102bf8364c36f06e2f69456d162b511e9f4e91443e4a7aeed42",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__message_partner_ids"
+}

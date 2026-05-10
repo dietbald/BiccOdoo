@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3616,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      406,
+      "Digest Tips"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "da396de9a86f97a4c31a09ae7626e964b4de886a844c3e137363a4ef17b26d7e",
+  "write_date": "",
+  "xml_id": "digest.field_digest_tip__write_uid"
+}

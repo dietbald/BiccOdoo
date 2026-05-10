@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 360,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Custom Value",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "selection_value",
+    "relation": "ir.model.fields.selection",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d3ac4b199e5379396a0bcf7283ebe2b8c8b30003fad0a56cd6acda1ea412935c",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__selection_value"
+}

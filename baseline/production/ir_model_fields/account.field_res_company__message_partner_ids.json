@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4931,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "db6b13ea4cdb4f1bda0f28a82977a6fa4a56fa82fde8a5a0addea0a02a85c4e5",
+  "write_date": "",
+  "xml_id": "account.field_res_company__message_partner_ids"
+}

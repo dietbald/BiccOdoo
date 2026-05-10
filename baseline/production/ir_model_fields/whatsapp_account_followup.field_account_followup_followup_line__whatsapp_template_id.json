@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25338,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Whatsapp Template",
+    "model_id": [
+      531,
+      "Follow-up Criteria"
+    ],
+    "name": "whatsapp_template_id",
+    "relation": "whatsapp.template",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cceb9e58299c1343b49e75fe6c636504c7bef5b74433698e9ba410cd147d9ef3",
+  "write_date": "",
+  "xml_id": "whatsapp_account_followup.field_account_followup_followup_line__whatsapp_template_id"
+}

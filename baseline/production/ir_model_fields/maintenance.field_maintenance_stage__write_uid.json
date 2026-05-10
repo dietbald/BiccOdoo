@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18028,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1037,
+      "Maintenance Stage"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "bdf7110ece73eb45a0c01b3fda51cab79d6d69978ba9ffbb02c2d44a7ca67f27",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_stage__write_uid"
+}

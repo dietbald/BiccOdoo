@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27767,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Private State",
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "private_state_id",
+    "relation": "res.country.state",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b860ac525570da6f6c5cd8625f7c7cd4285db7f61aceb88035575f285bca384e",
+  "write_date": "",
+  "xml_id": "hr.field_hr_version__private_state_id"
+}

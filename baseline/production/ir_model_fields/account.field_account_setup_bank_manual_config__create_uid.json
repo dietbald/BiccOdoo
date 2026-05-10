@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5289,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      458,
+      "Bank setup manual config"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "9dfa26bf251a961744511c9d82f62a94dd7ef848d73e2a97f3e9bb6af055e5b3",
+  "write_date": "",
+  "xml_id": "account.field_account_setup_bank_manual_config__create_uid"
+}

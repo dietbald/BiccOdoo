@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14412,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Microsoft User token",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "microsoft_calendar_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "8dc1b17aaf1e2f495748d9acdbeabbf7deb28ec2d40522c8a10ecbfae8f726a1",
+  "write_date": "",
+  "xml_id": "microsoft_account.field_res_users__microsoft_calendar_token"
+}

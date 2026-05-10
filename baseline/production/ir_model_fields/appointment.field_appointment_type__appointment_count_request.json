@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21917,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "# Appointments To Confirm",
+    "model_id": [
+      941,
+      "Appointment Type"
+    ],
+    "name": "appointment_count_request",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "906966f77e642a1fcb499f9c1787f68801fed63fb1ac56104fd8e86acefabc5d",
+  "write_date": "",
+  "xml_id": "appointment.field_appointment_type__appointment_count_request"
+}

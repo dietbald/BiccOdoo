@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13307,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Check In",
+    "model_id": [
+      842,
+      "Attendance"
+    ],
+    "name": "check_in",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "e5188dcd71c26e02d76e48a7a8d8d26f1ee62f198c249fee01e4199c0497cbf4",
+  "write_date": "",
+  "xml_id": "hr_attendance.field_hr_attendance__check_in"
+}

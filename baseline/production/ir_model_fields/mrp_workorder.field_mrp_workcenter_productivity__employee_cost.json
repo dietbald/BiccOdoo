@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16850,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "employee_cost",
+    "model_id": [
+      968,
+      "Workcenter Productivity Log"
+    ],
+    "name": "employee_cost",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "monetary"
+  },
+  "payload_sha256": "9a5b7cce0bdefaf0a9c0548a3b6fb2dc84f192369cfd9259e864b87b5c20d3a9",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_mrp_workcenter_productivity__employee_cost"
+}

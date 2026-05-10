@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1771,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      77,
+      "Inventory / Administrator"
+    ],
+    "model_id": [
+      1401,
+      "Scrap Reason Tag"
+    ],
+    "name": "stock.scrap.reason.tag.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3ebb0e7f54a50d170852e2d4a353e8437cfd4f315b55f315f8db71aee0ae2647",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_scrap_reason_tag_manager"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4410,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Show Payment Term Details",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "show_payment_term_details",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "b743ccd4d46f52908149f7fe1471baa461728286b73fb6e0929bf189e91c0b7a",
+  "write_date": "",
+  "xml_id": "account.field_account_move__show_payment_term_details"
+}

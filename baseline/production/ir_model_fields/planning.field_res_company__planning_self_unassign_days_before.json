@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13939,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Days before shift for unassignment",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "planning_self_unassign_days_before",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "c8476d13580ec8988a86b34afbcdec47ffbcf9cc58ba68d0336be30787523e03",
+  "write_date": "",
+  "xml_id": "planning.field_res_company__planning_self_unassign_days_before"
+}

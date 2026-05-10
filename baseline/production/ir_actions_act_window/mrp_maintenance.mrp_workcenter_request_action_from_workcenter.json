@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1169,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n            'default_maintenance_for': 'workcenter',\n            'default_workcenter_id': active_id,\n\n        }",
+    "domain": "[('workcenter_id', '=', active_id)]",
+    "name": "Maintenance Requests",
+    "res_model": "maintenance.request",
+    "target": "current",
+    "view_mode": "kanban,list,form,pivot,graph,calendar"
+  },
+  "payload_sha256": "b59c1a8d067407295c563f817f5044af44cb478f60f26ca3e11466d54c6f042e",
+  "write_date": "2025-12-09 03:00:07",
+  "xml_id": "mrp_maintenance.mrp_workcenter_request_action_from_workcenter"
+}

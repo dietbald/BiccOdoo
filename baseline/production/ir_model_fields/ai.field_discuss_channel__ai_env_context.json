@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30047,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Context for AI agent",
+    "model_id": [
+      202,
+      "Discussion Channel"
+    ],
+    "name": "ai_env_context",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "json"
+  },
+  "payload_sha256": "6d337766d3724861c2ef57b415ed104452e0215765a5f8cb492a38e86df6e031",
+  "write_date": "",
+  "xml_id": "ai.field_discuss_channel__ai_env_context"
+}

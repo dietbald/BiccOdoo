@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 14499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      909,
+      "Gamification Badge"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "773aae26bad486931e0af6ef4b4030957524945b71243a1d1d8bbb48cf022064",
+  "write_date": "",
+  "xml_id": "gamification.field_gamification_badge__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8766,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job",
+    "model_id": [
+      632,
+      "Public Employee"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "254820f51b4683c49d990987bd918fccf1471999869f165f7289a2e16242f3a4",
+  "write_date": "",
+  "xml_id": "hr.field_hr_employee_public__job_id"
+}

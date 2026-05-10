@@ -1,0 +1,17 @@
+<t name="Survey: main page content" t-name="survey.survey_fill_form">
+        <t t-set="survey_form_readonly" t-value="answer.state == 'done'"/>
+        <t t-set="background_image_url" t-value="question.background_image_url                     if question else page.background_image_url                     if page else survey.background_image_url                     if survey.background_image_url else False"/>
+        <form role="form" method="post" t-att-name="survey.id" class="o_survey-fill-form d-flex flex-grow-1 align-items-center" t-att-data-scoring-type="survey.scoring_type" t-att-data-answer-token="answer.access_token" t-att-data-survey-token="survey.access_token" t-att-data-users-can-go-back="survey.users_can_go_back and not answer.is_session_answer" t-att-data-session-in-progress="answer.is_session_answer" t-att-data-is-start-screen="answer.state == 'new'" t-att-data-readonly="survey_form_readonly" t-att-data-has-answered="bool(has_answered)" t-att-data-is-page-description="bool(question and question.is_page and not is_html_empty(question.description))" t-att-data-questions-layout="survey.questions_layout" t-att-data-triggered-questions-by-answer="json.dumps(triggered_questions_by_answer)" t-att-data-triggering-answers-by-question="json.dumps(triggering_answers_by_question)" t-att-data-selected-answers="json.dumps(selected_answers)" t-att-data-refresh-background="any(page.background_image for page in survey.page_ids)">
+            <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+            <input type="hidden" name="token" t-att-value="answer.access_token"/>
+            <div class="o_survey_error alert alert-danger d-none" role="alert">
+                <p>There was an error during the validation of the survey.</p>
+            </div>
+
+            <div class="o_survey_form_content w-100">
+                <t t-if="answer.state == 'new'" t-call="survey.survey_fill_form_start"/>
+                <t t-elif="answer.state == 'in_progress'" t-call="survey.survey_fill_form_in_progress"/>
+                <t t-else="" t-call="survey.survey_fill_form_done"/>
+            </div>
+        </form>
+    </t>

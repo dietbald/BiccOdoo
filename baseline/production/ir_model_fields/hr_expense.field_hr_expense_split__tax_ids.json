@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9295,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Tax",
+    "model_id": [
+      653,
+      "Expense Split"
+    ],
+    "name": "tax_ids",
+    "relation": "account.tax",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "80de413862c6e330167eda4f4ba38dda0dc709024dfd329f3b94f29cab372a56",
+  "write_date": "",
+  "xml_id": "hr_expense.field_hr_expense_split__tax_ids"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26557,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Remaining duration in hours",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "remaining_hours",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "559e4f7f8930f3a1e81a8b1411e4b9aad562a566084bf031b6b20b638ba54278",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order__remaining_hours"
+}

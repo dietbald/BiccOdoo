@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8234,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product",
+    "model_id": [
+      614,
+      "Sales Order Line"
+    ],
+    "name": "product_id",
+    "relation": "product.product",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "731fa78596889d49c887320689b1eedf6a56aa1b2fec804225d5474508204097",
+  "write_date": "",
+  "xml_id": "sale_renting.field_sale_order_line__product_id"
+}

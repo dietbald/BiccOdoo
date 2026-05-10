@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1609,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Text to show when step is completed",
+    "model_id": [
+      140,
+      "Onboarding Step"
+    ],
+    "name": "done_text",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": "standard",
+    "ttype": "char"
+  },
+  "payload_sha256": "1b80937c008e01a4caf7d2865e9134f9735cd3ca8642812fce0da4cba517259a",
+  "write_date": "",
+  "xml_id": "onboarding.field_onboarding_onboarding_step__done_text"
+}

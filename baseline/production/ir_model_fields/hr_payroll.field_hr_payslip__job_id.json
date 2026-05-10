@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12885,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Position",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "09179f090fb3884303a9a171290041de955d30135b967e007c17a884597da851",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__job_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24638,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created on",
+    "model_id": [
+      1748,
+      "TOTP rate limit logs"
+    ],
+    "name": "create_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "datetime"
+  },
+  "payload_sha256": "3d87a6d6a873ed9e7eea6e3080719c39641c6d7d8ab9b187c4f1d572e1efb6bc",
+  "write_date": "",
+  "xml_id": "auth_totp.field_auth_totp_rate_limit_log__create_date"
+}

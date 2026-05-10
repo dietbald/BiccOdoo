@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18596,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action",
+    "model_id": [
+      1062,
+      "Worksheet Template"
+    ],
+    "name": "action_id",
+    "relation": "ir.actions.act_window",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2380b5560191afaca1ad9188f8b63cc057858a74b213dbc0e39a436fefcab0a2",
+  "write_date": "",
+  "xml_id": "worksheet.field_worksheet_template__action_id"
+}

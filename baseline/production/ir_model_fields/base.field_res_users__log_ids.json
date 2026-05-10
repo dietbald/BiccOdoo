@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1103,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "User log entries",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "log_ids",
+    "relation": "res.users.log",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d61ccf2a8a8c985a2d0fabd825fa20e12df16be98ef5ec22d9df88e1b0b1168a",
+  "write_date": "",
+  "xml_id": "base.field_res_users__log_ids"
+}

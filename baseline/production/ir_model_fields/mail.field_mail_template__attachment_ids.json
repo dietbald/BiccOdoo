@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2185,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Attachments",
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "attachment_ids",
+    "relation": "ir.attachment",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "8b7de6c544804559a5333d14996152890f08187c3d4435b9f0a83f549273202d",
+  "write_date": "",
+  "xml_id": "mail.field_mail_template__attachment_ids"
+}

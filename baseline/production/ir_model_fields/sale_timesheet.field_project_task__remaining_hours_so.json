@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13595,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Time Remaining on SO",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "remaining_hours_so",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "b721f0185a4bab78e6aa0d2836d9a30a3daaa6cf23256526810a947f86ba676e",
+  "write_date": "",
+  "xml_id": "sale_timesheet.field_project_task__remaining_hours_so"
+}

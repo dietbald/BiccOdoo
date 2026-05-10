@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26773,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "CPU Duration",
+    "model_id": [
+      74,
+      "Allow profiling only to Tech Support level"
+    ],
+    "name": "cpu_duration",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "4bde4df6a44f18ceaa9f20cd376841e5c635b50551ecd81f226f9073fe9cee31",
+  "write_date": "",
+  "xml_id": "base.field_ir_profile__cpu_duration"
+}

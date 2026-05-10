@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1826,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Server Type",
+    "model_id": [
+      161,
+      "Incoming Mail Server"
+    ],
+    "name": "server_type",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "8cba0cb45f05b08d7f1d60651387f4b1f510b059ae4578e0d0a3860018ef52ad",
+  "write_date": "",
+  "xml_id": "microsoft_outlook.field_fetchmail_server__server_type"
+}

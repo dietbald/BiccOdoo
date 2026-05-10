@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 401,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{\n    'default_composition_mode': 'mass_mail',\n                }",
+    "domain": false,
+    "name": "Send email",
+    "res_model": "mail.compose.message",
+    "target": "new",
+    "view_mode": "form"
+  },
+  "payload_sha256": "848b6912d75effd87f50250c2b845c87a3b18cf3d00da35728320aa923d3ed2a",
+  "write_date": "2025-12-09 02:56:42",
+  "xml_id": "crm.action_lead_mass_mail"
+}

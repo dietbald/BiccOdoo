@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3326,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Security Token",
+    "model_id": [
+      384,
+      "Portal Mixin"
+    ],
+    "name": "access_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "1545b0893117bb0b2f6013b9aee11cd1a3f4a76b1b263fb7f13975e0000f81d4",
+  "write_date": "",
+  "xml_id": "portal.field_portal_mixin__access_token"
+}

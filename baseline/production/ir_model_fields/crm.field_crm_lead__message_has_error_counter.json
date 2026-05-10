@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7175,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "229d6967fb2e0e8efdfcfa6429ddb73ddb3f20d59066769c23df3038b2736ac5",
+  "write_date": "",
+  "xml_id": "crm.field_crm_lead__message_has_error_counter"
+}

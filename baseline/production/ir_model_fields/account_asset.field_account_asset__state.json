@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6148,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Status",
+    "model_id": [
+      525,
+      "Asset/Revenue Recognition"
+    ],
+    "name": "state",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "87362bc1acbf4319bca62cb18f5ae76e17164514ac9843c07fbf279978ad5bed",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_asset__state"
+}

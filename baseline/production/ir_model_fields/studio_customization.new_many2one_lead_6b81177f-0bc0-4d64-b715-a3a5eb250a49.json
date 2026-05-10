@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25394,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Awarded To",
+    "model_id": [
+      576,
+      "Lead"
+    ],
+    "name": "x_studio_awarded_to",
+    "relation": "res.partner",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "6336dd7d3067e294f7b6bd871abefd1777c1d3e735e8968734b5445d2a5ac884",
+  "write_date": "2025-03-26 12:17:52",
+  "xml_id": "studio_customization.new_many2one_lead_6b81177f-0bc0-4d64-b715-a3a5eb250a49"
+}

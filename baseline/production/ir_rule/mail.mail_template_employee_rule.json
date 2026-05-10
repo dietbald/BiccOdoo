@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 54,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('create_uid', '=', user.id)]",
+    "groups": [
+      1
+    ],
+    "model_id": [
+      178,
+      "Email Templates"
+    ],
+    "name": "Employees can only change their own templates",
+    "perm_create": true,
+    "perm_read": false,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "f84e9da7db47aafde06dcd622477fb7d993fc6e6b9d9edeedfcdd443458c749d",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "mail.mail_template_employee_rule"
+}

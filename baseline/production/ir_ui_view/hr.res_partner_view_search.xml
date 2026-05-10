@@ -1,0 +1,4 @@
+<xpath expr="//filter[@name='inactive']" position="before">
+                <filter name="employees" string="Employees" domain="[('employee', '=', True)]"/>
+                <separator/>
+            </xpath>

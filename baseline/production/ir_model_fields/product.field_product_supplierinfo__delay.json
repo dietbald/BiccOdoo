@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3200,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lead Time",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "delay",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "de48e3092cf7dce0911c2293fba6b02507e452e22aa43a4a8be75dcbd7d05cec",
+  "write_date": "",
+  "xml_id": "product.field_product_supplierinfo__delay"
+}

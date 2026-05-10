@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2526,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      213,
+      "Activity schedule plan Wizard"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fd7dfca9e095c3a5eb5bf8828957f9e719cf4b21b68868f6fa33e9c917ea5b42",
+  "write_date": "",
+  "xml_id": "mail.field_mail_activity_schedule__company_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20586,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job Position",
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "hr_job_ids",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fe94bd3049f1bb74c2b04400e22274f7f1c254dcd27d6845ee0e4160fd3115c7",
+  "write_date": "",
+  "xml_id": "hr_recruitment_survey.field_survey_survey__hr_job_ids"
+}

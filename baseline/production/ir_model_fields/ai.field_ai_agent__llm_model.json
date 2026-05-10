@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29976,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "LLM Model",
+    "model_id": [
+      3859,
+      "AI Agent"
+    ],
+    "name": "llm_model",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "24fbe3234a5e5b678233d54722698c197e1bc3a67e716bb426e8b2b387581d90",
+  "write_date": "",
+  "xml_id": "ai.field_ai_agent__llm_model"
+}

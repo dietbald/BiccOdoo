@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19554,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers",
+    "model_id": [
+      1001,
+      "Model of a vehicle"
+    ],
+    "name": "message_follower_ids",
+    "relation": "mail.followers",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "a53ceeeb84a0bbc40eb9a3fa710f3e11b821eb29775012cc5766b77740ca91ce",
+  "write_date": "",
+  "xml_id": "fleet.field_fleet_vehicle_model__message_follower_ids"
+}

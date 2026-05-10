@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1700,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Working Time",
+    "model_id": [
+      146,
+      "Resources"
+    ],
+    "name": "calendar_id",
+    "relation": "resource.calendar",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "104dd324aa5843b47e0468013498f06c68ee6e13db109461cabdeece602616ee",
+  "write_date": "",
+  "xml_id": "resource.field_resource_resource__calendar_id"
+}

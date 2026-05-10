@@ -1,0 +1,21 @@
+<form>
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Budget Name"/>
+                            </h1>
+                        </div>
+
+                        <notebook>
+                            <page string="Budget Items" name="budget_items">
+                                <field name="item_ids" nolabel="1">
+                                    <list editable="bottom">
+                                        <field name="account_id" width="40%"/>
+                                        <field name="date" string="Months" options="{'min_precision': 'months'}" width="30%"/>
+                                        <field name="amount" width="30%"/>
+                                    </list>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>

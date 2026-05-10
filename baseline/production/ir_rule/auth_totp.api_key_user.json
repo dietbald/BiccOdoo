@@ -1,0 +1,25 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 29,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[('user_id', '=', user.id)]",
+    "groups": [
+      1,
+      10
+    ],
+    "model_id": [
+      119,
+      "Authentication Device"
+    ],
+    "name": "Users can read and delete their own keys",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "ff84954ffeb5a5eafb33447935cbe98d65c069c60c203e4c202a695a0613f3d7",
+  "write_date": "2025-12-09 02:55:40",
+  "xml_id": "auth_totp.api_key_user"
+}

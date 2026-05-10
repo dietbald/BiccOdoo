@@ -1,0 +1,34 @@
+<data><header position="inside">
+                <field name="is_rental_order" invisible="1"/>
+            </header>
+            <button name="action_quotation_send" position="before">
+                <button name="action_open_pickup" type="object" class="btn-primary" string="Pickup" data-hotkey="y" invisible="not has_pickable_lines or state != 'sale'"/>
+                <button name="action_open_return" type="object" class="btn-primary" string="Return" data-hotkey="k" invisible="state != 'sale' or not has_returnable_lines or has_returnable_lines and has_pickable_lines"/>
+                <button name="action_open_return" type="object" class="btn-secondary" string="Return" data-hotkey="k" invisible="state != 'sale' or not has_returnable_lines or has_returnable_lines and not has_pickable_lines"/>
+            </button>
+            <div name="button_box" position="after">
+                <div class="badge rounded-pill text-bg-success float-end border-0" invisible="not has_rented_products or state != 'sale' or rental_status != 'pickup' or is_late">Booked</div>
+                <div class="badge rounded-pill text-bg-danger float-end border-0" invisible="not has_rented_products or state != 'sale' or rental_status != 'pickup' or not is_late">Late Pickup</div>
+                <div class="badge rounded-pill text-bg-warning float-end border-0" invisible="not has_rented_products or state != 'sale' or rental_status != 'return' or is_late">Picked-up</div>
+                <div class="badge rounded-pill text-bg-danger float-end border-0" invisible="not has_rented_products or state != 'sale' or rental_status != 'return' or not is_late">Late Return</div>
+                <div class="badge rounded-pill text-bg-default float-end border-0" invisible="not has_rented_products or state != 'sale' or rental_status != 'returned'">Returned</div>
+            </div>
+            <field name="payment_term_id" position="after">
+                <field name="rental_return_date" invisible="1" required="has_rented_products"/>
+                <field name="rental_start_date" string="Rental period" widget="daterange" options="{'end_date_field': 'rental_return_date'}" invisible="not is_rental_order" required="has_rented_products"/>
+                <label for="duration_days" string="Duration" invisible="not is_rental_order and not rental_start_date"/>
+                <div class="o_row" invisible="not is_rental_order and not rental_start_date">
+                    <field class="oe_inline" style="max-width: 2rem" name="duration_days" invisible="duration_days == 0"/>
+                    <span invisible="duration_days != 1"> day </span>
+                    <span invisible="duration_days in [0,1]"> days </span>
+                    <span invisible="duration_days == 0 or remaining_hours == 0">and </span>
+                    <field class="oe_inline" style="max-width: 2rem" name="remaining_hours" invisible="remaining_hours == 0"/>
+                    <span invisible="remaining_hours != 1"> hour </span>
+                    <span invisible="remaining_hours in [0,1]"> hours </span>
+                    <button name="action_update_rental_prices" type="object" string="Update Rental Prices" help="Recompute all prices based on this duration" class="btn-link mb-1 px-0" icon="fa-refresh" confirm="This will update the unit price of all rental products based on the new period." invisible="not show_update_duration or state in ['done', 'cancel']"/>
+                </div>
+            </field>
+            <xpath expr="//field[@name='order_line']//list//field[@name='qty_delivered']" position="after">
+                <field name="qty_returned" column_invisible="parent.state != 'sale' or not parent.is_rental_order" invisible="not is_rental or not is_product_rentable"/>
+            </xpath>
+        </data>

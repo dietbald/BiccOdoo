@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 2007,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      53,
+      "Employees / Administrator"
+    ],
+    "model_id": [
+      702,
+      "Employee Contract"
+    ],
+    "name": "hr.version.manager",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c49630b08c696c0f432d1570ff5d316df2d4225b70410a248e4158c0ba060ea6",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.access_hr_version_manager"
+}

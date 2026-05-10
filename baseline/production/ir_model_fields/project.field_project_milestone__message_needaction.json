@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7740,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Action Needed",
+    "model_id": [
+      600,
+      "Project Milestone"
+    ],
+    "name": "message_needaction",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "33aa72600db3812014866e4aed5b937aa99fa7e794060a031b1c4640aa3eb933",
+  "write_date": "",
+  "xml_id": "project.field_project_milestone__message_needaction"
+}

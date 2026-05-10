@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 257,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      352,
+      "Phone Blacklist"
+    ],
+    "name": "access.phone.blacklist.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "a730b93a46160ca3637cf9bec4b82ee2579678e42ae425a6279355f26a54f860",
+  "write_date": "2025-12-09 02:56:03",
+  "xml_id": "phone_validation.access_phone_blacklist_system"
+}

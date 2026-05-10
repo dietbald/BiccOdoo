@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23046,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Country",
+    "model_id": [
+      811,
+      "HR Work Entry"
+    ],
+    "name": "country_id",
+    "relation": "res.country",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "53f4b22b0782fd8d43468e3b6eae6a980e16668b9fbf27ac7884b2ffd8c5e0cd",
+  "write_date": "",
+  "xml_id": "hr_work_entry.field_hr_work_entry__country_id"
+}

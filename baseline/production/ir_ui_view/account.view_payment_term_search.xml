@@ -1,0 +1,6 @@
+<search string="Payment Terms">
+                    <field name="name" string="Payment Terms"/>
+                    <field name="active"/>
+                    <separator/>
+                    <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                </search>

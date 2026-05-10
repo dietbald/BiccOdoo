@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1782,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of errors",
+    "model_id": [
+      155,
+      "Email Thread"
+    ],
+    "name": "message_has_error_counter",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "db099744730e90020a8dbe56e69fa7aeb8d9a01168e5eae5fe81bf175919cdcb",
+  "write_date": "",
+  "xml_id": "mail.field_mail_thread__message_has_error_counter"
+}

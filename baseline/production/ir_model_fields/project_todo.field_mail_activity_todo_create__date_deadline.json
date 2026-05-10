@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8067,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Due Date",
+    "model_id": [
+      612,
+      "Create activity and todo at the same time"
+    ],
+    "name": "date_deadline",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "41259d4d54c098d615612edcc10e746cf22f9e24c3339f89debb6a2de56568e7",
+  "write_date": "",
+  "xml_id": "project_todo.field_mail_activity_todo_create__date_deadline"
+}

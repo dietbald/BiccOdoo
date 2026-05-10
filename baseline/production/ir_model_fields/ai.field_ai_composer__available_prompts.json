@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 30042,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available User Prompts",
+    "model_id": [
+      3863,
+      "AI model configurations (system prompts) for text drafting."
+    ],
+    "name": "available_prompts",
+    "relation": "ai.prompt.button",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "949120bbd1d0f2af95d3d2220f3a4dfe8a824e666bd5d1efef43b75e8afdae4b",
+  "write_date": "",
+  "xml_id": "ai.field_ai_composer__available_prompts"
+}

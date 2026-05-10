@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 9019,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      639,
+      "Type of a resume line"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e9d6123db9e90f9aae80c461876c0275dfc39e0af36dafdd8870c285c9e50425",
+  "write_date": "",
+  "xml_id": "hr_skills.field_hr_resume_line_type__create_uid"
+}

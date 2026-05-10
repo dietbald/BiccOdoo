@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1995,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Message",
+    "model_id": [
+      171,
+      "Message Reaction"
+    ],
+    "name": "message_id",
+    "relation": "mail.message",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5bb246f56f5061ae192bf9905a46ab73a4123485a328786e88438ee118711461",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message_reaction__message_id"
+}

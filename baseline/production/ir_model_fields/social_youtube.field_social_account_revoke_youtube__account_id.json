@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17932,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account",
+    "model_id": [
+      1034,
+      "Revoke YouTube Account"
+    ],
+    "name": "account_id",
+    "relation": "social.account",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "f24b99a7614762afc390da8b359e9b17b684a99138cff7a3daad547b01cbaed8",
+  "write_date": "",
+  "xml_id": "social_youtube.field_social_account_revoke_youtube__account_id"
+}

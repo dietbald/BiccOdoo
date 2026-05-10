@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16860,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Related Bill of Material Active",
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "bom_active",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1b0656ad1f06a17763fd2660576d62ff75a82f22fa5ec7e77da96022e147a22e",
+  "write_date": "",
+  "xml_id": "mrp_workorder.field_quality_point__bom_active"
+}

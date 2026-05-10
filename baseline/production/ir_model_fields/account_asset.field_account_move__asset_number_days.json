@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6191,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Number of days",
+    "model_id": [
+      434,
+      "Journal Entry"
+    ],
+    "name": "asset_number_days",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "bc120f457b70e4fb75ba8107bd89ec2a1592fba495134ced7354791ddec72f6a",
+  "write_date": "",
+  "xml_id": "account_asset.field_account_move__asset_number_days"
+}

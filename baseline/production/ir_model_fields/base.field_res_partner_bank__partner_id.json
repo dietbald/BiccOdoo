@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 958,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account Holder",
+    "model_id": [
+      88,
+      "Bank Accounts"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "001f729b6e90b1f77c8b548bd3843cfaf53e68b180c8c57b54831990c1c1e840",
+  "write_date": "",
+  "xml_id": "base.field_res_partner_bank__partner_id"
+}

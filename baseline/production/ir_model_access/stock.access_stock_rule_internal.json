@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 975,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      731,
+      "Stock Rule"
+    ],
+    "name": "stock.rule.flow internal",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "5ee78474093584b1b96110cf7ac301872c7ac97a552b2356a2e8c8ef047ea239",
+  "write_date": "2025-12-09 02:57:40",
+  "xml_id": "stock.access_stock_rule_internal"
+}

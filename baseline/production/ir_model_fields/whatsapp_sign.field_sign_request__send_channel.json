@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 27375,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Delivery Method",
+    "model_id": [
+      706,
+      "Signature Request"
+    ],
+    "name": "send_channel",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "6be5d24cdbbc27540a4980fd4f3ca57450f4de1feb516b2b6fe68356be1a9c4d",
+  "write_date": "",
+  "xml_id": "whatsapp_sign.field_sign_request__send_channel"
+}

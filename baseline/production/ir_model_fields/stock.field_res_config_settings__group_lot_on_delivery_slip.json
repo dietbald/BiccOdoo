@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 10849,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Display Lots & Serial Numbers on Delivery Slips",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "group_lot_on_delivery_slip",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "a86fcada82a26fb5b3a91a0c39bb86ca090d07359219a6021d3d7d0717608dea",
+  "write_date": "",
+  "xml_id": "stock.field_res_config_settings__group_lot_on_delivery_slip"
+}

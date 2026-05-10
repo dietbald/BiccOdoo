@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 164,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[\n            ('project_id.privacy_visibility', 'in', ['invited_users', 'portal']),\n            ('active', '=', True),\n            '|',\n                ('message_partner_ids', 'child_of', [user.partner_id.commercial_partner_id.id]),\n                ('project_id.collaborator_ids', 'any', [\n                    ('partner_id', '=', user.partner_id.id),\n                    ('limited_access', '=', False),\n                ]),\n        ]",
+    "groups": [
+      10
+    ],
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "Project/Task: portal users: can only see a task if he's a collaborator of the project and a follower of the task",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "0bcda24fbf2418c3ad713c2339f8e1384892946c34a35bb13c599b6a4f66a637",
+  "write_date": "2023-11-30 04:48:15",
+  "xml_id": "project.project_task_rule_portal"
+}

@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 208,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      4,
+      "Role / Administrator"
+    ],
+    "model_id": [
+      171,
+      "Message Reaction"
+    ],
+    "name": "mail.message.reaction.system",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "46a0ebd508b7e35c3ec77611559518e7853d7fbf83a1a0c3b8b642d911e43f1f",
+  "write_date": "2025-12-09 02:55:49",
+  "xml_id": "mail.access_mail_message_reaction_system"
+}

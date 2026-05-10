@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4866,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Email",
+    "model_id": [
+      442,
+      "Bank Statement Line"
+    ],
+    "name": "invoice_source_email",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "1432efc01d3215ef92650f3c12e26f44dab80ec67715b3018439fbb1482c7114",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__invoice_source_email"
+}

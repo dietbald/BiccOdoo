@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17683,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Are Accounts Available?",
+    "model_id": [
+      1026,
+      "Social Post"
+    ],
+    "name": "has_active_accounts",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "f396b38c6cc7d32dafcdcf26429287d61082e36dc7ad0bcf68a87086d075e1f9",
+  "write_date": "",
+  "xml_id": "social.field_social_post__has_active_accounts"
+}

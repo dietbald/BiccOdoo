@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21276,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subcontracting-Dropshipping MTS Rule",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "subcontracting_dropshipping_pull_id",
+    "relation": "stock.rule",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ffff3e6c2a4e41f38c3fc1f1a1a0b4c5e39428e4e12ed2a621df6999a4fe88a2",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting_dropshipping.field_stock_warehouse__subcontracting_dropshipping_pull_id"
+}

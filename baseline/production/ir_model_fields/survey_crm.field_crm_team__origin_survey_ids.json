@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29822,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Survey opportunities related to the sales team",
+    "model_id": [
+      573,
+      "Sales Team"
+    ],
+    "name": "origin_survey_ids",
+    "relation": "survey.survey",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "d7ccab4645ee57f185e02047b5579bc09f6106fa018716679dadabcad8b9150f",
+  "write_date": "",
+  "xml_id": "survey_crm.field_crm_team__origin_survey_ids"
+}

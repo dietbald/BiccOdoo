@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12130,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Category",
+    "model_id": [
+      785,
+      "Approval Request"
+    ],
+    "name": "category_id",
+    "relation": "approval.category",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "84a16e2b068643cddba4cf42aff730558ef5228ed41a4433e8e26062b177cbe1",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_request__category_id"
+}

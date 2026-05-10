@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 479,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_Sales': 1, 'search_default_Product': 1, 'group_by': 'product_id', 'search_default_filter_order_date': 1}",
+    "domain": false,
+    "name": "Sales Analysis By Products",
+    "res_model": "sale.report",
+    "target": "current",
+    "view_mode": "graph,pivot"
+  },
+  "payload_sha256": "5be3be5fe10f2daa8fb3af1faf3e555588d89d8d3553eb676959f69383e9a95e",
+  "write_date": "2025-12-09 02:59:42",
+  "xml_id": "sale.action_order_report_products"
+}

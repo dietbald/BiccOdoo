@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18407,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Notify User",
+    "model_id": [
+      1048,
+      "WhatsApp Business Account"
+    ],
+    "name": "notify_user_ids",
+    "relation": "res.users",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "0aa072d0ee0da4f8e1e0640e08d418ab0577bfafdba1938f5540cf06db6ef51e",
+  "write_date": "",
+  "xml_id": "whatsapp.field_whatsapp_account__notify_user_ids"
+}

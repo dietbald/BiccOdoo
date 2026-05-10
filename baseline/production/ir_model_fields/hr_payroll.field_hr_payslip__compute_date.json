@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12904,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Computed On",
+    "model_id": [
+      820,
+      "Pay Slip"
+    ],
+    "name": "compute_date",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "036776bc5f9da20bbf13242d6552f5a00cf4d10385264fd83d555f7464eca289",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payslip__compute_date"
+}

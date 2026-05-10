@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 4156,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      428,
+      "Tax Repartition Line"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "33b03cf47680660d260aed0b815bc0116882bdfe656abea146f1ac6bd75ae504",
+  "write_date": "",
+  "xml_id": "account.field_account_tax_repartition_line__write_uid"
+}

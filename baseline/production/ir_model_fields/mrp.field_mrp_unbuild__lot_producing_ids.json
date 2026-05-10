@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 28658,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Lot/Serial Numbers",
+    "model_id": [
+      971,
+      "Unbuild Order"
+    ],
+    "name": "lot_producing_ids",
+    "relation": "stock.lot",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "166ea3dd1399147350ea215db96a6e53f58bdd744bae0a16f8a4c2e47649e502",
+  "write_date": "",
+  "xml_id": "mrp.field_mrp_unbuild__lot_producing_ids"
+}

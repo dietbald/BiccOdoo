@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 53107,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Salary Question",
+    "model_id": [
+      635,
+      "Job Position"
+    ],
+    "name": "x_studio_salary_question_id",
+    "relation": "survey.question",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "038950a4acf1cf1d53543f3cbab4e0f32e101123f56b273f7032ae1b1c3781c6",
+  "write_date": "2026-02-25 06:42:21",
+  "xml_id": "studio_customization.new_many2one_job_pos_9bf13de0-02a8-43b4-b6e7-bc30e94d6188"
+}

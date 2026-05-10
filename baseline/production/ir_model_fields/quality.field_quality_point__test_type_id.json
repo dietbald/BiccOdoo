@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 16535,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Test Type",
+    "model_id": [
+      986,
+      "Quality Control Point"
+    ],
+    "name": "test_type_id",
+    "relation": "quality.point.test_type",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5ecf6489c6ae95d04c66d85573609b8ed6d44375ac860b16838b43288151f2f2",
+  "write_date": "",
+  "xml_id": "quality.field_quality_point__test_type_id"
+}

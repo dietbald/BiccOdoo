@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22765,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      1091,
+      "Batch Payment"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "05d357aa0931fb9bc3eaf3a7c85a58013f8856f1dd25fae0b333e4befc515f21",
+  "write_date": "",
+  "xml_id": "account_batch_payment.field_account_batch_payment__company_id"
+}

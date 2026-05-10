@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25513,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      2600,
+      "Points line for referrals"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4f6e1e429c40dca6295c42b1ba022bb134f6d12b1fcd8c4a6ffdfd219c194936",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_points__company_id"
+}

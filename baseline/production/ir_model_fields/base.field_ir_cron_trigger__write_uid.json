@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 499,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      31,
+      "Triggered actions"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8417006df07f5769fdd1881c85b40091db69c41b1bead3aa98a24152c6a527fb",
+  "write_date": "",
+  "xml_id": "base.field_ir_cron_trigger__write_uid"
+}

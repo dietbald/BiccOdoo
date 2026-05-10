@@ -1,0 +1,8 @@
+<kanban sample="1" group_create="0">
+                <templates>
+                    <t t-name="card" class="row g-0">
+                        <field name="name" class="col-6 fw-bold fs-5"/>
+                        <field name="package_type_id" class="col-6"/>
+                    </t>
+                </templates>
+            </kanban>

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8120,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Prepayment percentage",
+    "model_id": [
+      94,
+      "Companies"
+    ],
+    "name": "prepayment_percent",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "2ef8b4e6b345c05418ab601533f243d43dc8105e5f959823cec546d0b196fb90",
+  "write_date": "",
+  "xml_id": "sale.field_res_company__prepayment_percent"
+}

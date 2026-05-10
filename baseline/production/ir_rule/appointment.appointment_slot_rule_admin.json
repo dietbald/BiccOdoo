@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 433,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      113
+    ],
+    "model_id": [
+      940,
+      "Appointment: Time Slot"
+    ],
+    "name": "appointment.slot: apt administrator rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "59e087c4d766d2ce05846a0a47a4f76ab84f3060352e3891f4053178c2ac9f23",
+  "write_date": "2025-12-09 02:56:21",
+  "xml_id": "appointment.appointment_slot_rule_admin"
+}

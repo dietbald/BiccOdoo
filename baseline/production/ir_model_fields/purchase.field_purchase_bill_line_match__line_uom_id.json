@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23107,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Line Uom",
+    "model_id": [
+      1421,
+      "Purchase Line and Vendor Bill line matching view"
+    ],
+    "name": "line_uom_id",
+    "relation": "uom.uom",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "8ab697da47614235f9febaa69e339c3a13e672d156f3c119a063b1fe520448c2",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_bill_line_match__line_uom_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12173,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Existing Request User",
+    "model_id": [
+      786,
+      "Approver"
+    ],
+    "name": "existing_request_user_ids",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "4d22b4a96a39b0c178ab5ed8b986fd994649a75cb35940a0858e965da257038c",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_approver__existing_request_user_ids"
+}

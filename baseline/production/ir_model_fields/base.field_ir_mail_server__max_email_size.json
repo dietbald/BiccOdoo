@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19436,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Max Email Size",
+    "model_id": [
+      39,
+      "Mail Server"
+    ],
+    "name": "max_email_size",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "float"
+  },
+  "payload_sha256": "2c8e562fe5a4d73c3c72ab5b898d50927db94745604c2332208e5f5a2f2b24d2",
+  "write_date": "",
+  "xml_id": "base.field_ir_mail_server__max_email_size"
+}

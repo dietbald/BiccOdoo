@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13942,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Rate Of Shift Generation",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "planning_generation_interval",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "fd98a24ad16f0ef592244c5c0d53529e5b5020bde2b9d5e97f31448e36bba348",
+  "write_date": "",
+  "xml_id": "planning.field_res_config_settings__planning_generation_interval"
+}

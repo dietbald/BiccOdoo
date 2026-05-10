@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29575,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Inventory Valuation",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "valuation_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "82b5370fa33adb82c8f37e457a8989a48ac592d50323990c52a7c5f86a96b84e",
+  "write_date": "",
+  "xml_id": "stock_accountant.field_res_config_settings__valuation_method"
+}

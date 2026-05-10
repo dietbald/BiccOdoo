@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1053,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{'search_default_done': True}",
+    "domain": "[('operation_id.bom_id', '=', active_id), ('state', '=', 'done')]",
+    "name": "Work Orders",
+    "res_model": "mrp.workorder",
+    "target": "current",
+    "view_mode": "graph,pivot,list,form,gantt,calendar"
+  },
+  "payload_sha256": "4ea5212611bab7387dded0694e9fb7d8311921d3ab910c0addf5e4c7fdc88c22",
+  "write_date": "2025-12-09 02:59:28",
+  "xml_id": "mrp.action_mrp_routing_time"
+}

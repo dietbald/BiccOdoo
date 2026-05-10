@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17391,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ECO to be applied",
+    "model_id": [
+      960,
+      "Bill of Material"
+    ],
+    "name": "eco_ids",
+    "relation": "mrp.eco",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "91d6dbbafc19f57abf962e904e01ae553fda39fe162ef5d5af9f68a06e947fb5",
+  "write_date": "",
+  "xml_id": "mrp_plm.field_mrp_bom__eco_ids"
+}

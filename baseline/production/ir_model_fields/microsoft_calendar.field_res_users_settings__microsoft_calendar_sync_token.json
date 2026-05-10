@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 19674,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Microsoft Next Sync Token",
+    "model_id": [
+      105,
+      "User Settings"
+    ],
+    "name": "microsoft_calendar_sync_token",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "077e2855d1a0ab77b888d36ad686df4fe043699c3b585645248e57fa875b6919",
+  "write_date": "",
+  "xml_id": "microsoft_calendar.field_res_users_settings__microsoft_calendar_sync_token"
+}

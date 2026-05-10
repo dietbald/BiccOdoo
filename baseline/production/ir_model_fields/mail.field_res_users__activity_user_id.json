@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 2298,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Responsible User",
+    "model_id": [
+      97,
+      "User"
+    ],
+    "name": "activity_user_id",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4c206bfa76988b398c877fb026b0b6b59c184c4b56eee351e783ab332772a780",
+  "write_date": "",
+  "xml_id": "mail.field_res_users__activity_user_id"
+}

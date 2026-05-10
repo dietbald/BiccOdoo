@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9363,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Activities",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "activity_ids",
+    "relation": "mail.activity",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "9eb71923492ebbd9510298d624849e176ab2049137496871a141d486087917c5",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__activity_ids"
+}

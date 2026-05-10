@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 12232,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Partner",
+    "model_id": [
+      789,
+      "Article Member"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "4422a4ac7e8184fa5c852ffe8d67e940c02c67c48bc0b25e8093efb5d46ce27e",
+  "write_date": "",
+  "xml_id": "knowledge.field_knowledge_article_member__partner_id"
+}

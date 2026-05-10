@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3307,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Extract State Processed",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "extract_state_processed",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "fc1ea14515d9904512e733a5b6d294e7109491dfed4a7b52bf1af113ca471cdb",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin__extract_state_processed"
+}

@@ -1,0 +1,16 @@
+<t t-name="product_matrix.extra_price">
+      <span t-if="price" class="badge rounded-pill text-bg-secondary">
+              <!--
+                  price_extra is displayed as catalog price instead of
+                  price after pricelist because it is impossible to
+                  compute. Indeed, the pricelist rule might depend on the
+                  selected variant, so the price_extra will be different
+                  depending on the selected combination. The price of an
+                  attribute is therefore variable and it's not very
+                  accurate to display it.
+                  -->
+              <span class="variant_price_extra" style="white-space: nowrap;">
+                  <t t-out="price">Variant price</t>
+              </span>
+          </span>
+    </t>

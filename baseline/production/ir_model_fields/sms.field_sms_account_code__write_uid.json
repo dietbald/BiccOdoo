@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21824,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1356,
+      "SMS Account Verification Code Wizard"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "add35032d98d413835dcac491db1023a54ba204fba8dae072e1a702ad7293ebc",
+  "write_date": "",
+  "xml_id": "sms.field_sms_account_code__write_uid"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1436,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Allow the users to synchronize their calendar with Outlook Calendar",
+    "model_id": [
+      91,
+      "Config Settings"
+    ],
+    "name": "module_microsoft_calendar",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "9c6dab3576eb0ea275ce59402d0b71d61cf8b4db3746261b0e3a053d163f1699",
+  "write_date": "",
+  "xml_id": "base_setup.field_res_config_settings__module_microsoft_calendar"
+}

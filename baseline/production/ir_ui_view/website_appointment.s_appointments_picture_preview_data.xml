@@ -1,0 +1,40 @@
+<t name="Appointments Preview Data" t-name="website_appointment.s_appointments_picture_preview_data">
+        <div class="s_dialog_preview row">
+            <div class="col-4">
+                <div class="position-relative d-flex align-items-center rounded overflow-hidden text-decoration-none ratio ratio-1x1" href="#">
+                    <div class="o_record_cover_container d-flex flex-column o_colored_level o_cc h-100 w-100 bg-600 position-absolute">
+                        <img class="img img-fluid w-100 h-100 object-fit-cover" src="/appointment/static/src/img/appointment_1.jpg"/>
+                        <div class="o_record_cover_component o_record_cover_filter oe_black" style="opacity: 0.4;"/>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center flex-grow-1 w-100 h-100 px-3 text-center text-white">
+                        <h3>Dental Care</h3>
+                        <span>Doctor's Office <i class="fa fa-marker" role="presentation"/></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="position-relative d-flex align-items-center rounded overflow-hidden text-decoration-none ratio ratio-1x1" href="#">
+                    <div class="o_record_cover_container d-flex flex-column o_colored_level o_cc h-100 w-100 bg-600 position-absolute">
+                        <img class="img img-fluid w-100 h-100 object-fit-cover" src="/appointment/static/src/img/appointment_2.jpg"/>
+                        <div class="o_record_cover_component o_record_cover_filter oe_black" style="opacity: 0.4;"/>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center flex-grow-1 w-100 h-100 px-3 text-center text-white">
+                        <h3>Tennis Court</h3>
+                        <span>Tennis Club <i class="fa fa-marker" role="presentation"/></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="position-relative d-flex align-items-center rounded overflow-hidden text-decoration-none ratio ratio-1x1" href="#">
+                    <div class="o_record_cover_container d-flex flex-column o_colored_level o_cc h-100 w-100 bg-600 position-absolute">
+                        <img class="img img-fluid w-100 h-100 object-fit-cover" src="/appointment/static/src/img/appointment_3.jpg"/>
+                        <div class="o_record_cover_component o_record_cover_filter oe_black" style="opacity: 0.4;"/>
+                    </div>
+                    <div class="d-flex flex-column justify-content-center flex-grow-1 w-100 h-100 px-3 text-center text-white">
+                        <h3>Online Cooking Lesson</h3>
+                        <span>Online <i class="fa fa-marker" role="presentation"/></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>

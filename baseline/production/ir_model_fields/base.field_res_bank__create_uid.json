@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 949,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      87,
+      "Bank"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "653f901f797d93b850c3d10a3b25d7108b1888bd754780dc4f716b7a71080751",
+  "write_date": "",
+  "xml_id": "base.field_res_bank__create_uid"
+}

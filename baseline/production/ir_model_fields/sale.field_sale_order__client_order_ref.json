@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 8164,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Customer Reference",
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "client_order_ref",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "b571a346b07bf676d9445d140ff02d840f2450578537f56ce5503b711fd7759e",
+  "write_date": "",
+  "xml_id": "sale.field_sale_order__client_order_ref"
+}

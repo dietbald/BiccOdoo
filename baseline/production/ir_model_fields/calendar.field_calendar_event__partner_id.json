@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6914,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Scheduled by",
+    "model_id": [
+      565,
+      "Calendar Event"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "962a2bc0f7eb19e609698f8186ae093f29087fd65708343d5bfcc108e31c67eb",
+  "write_date": "",
+  "xml_id": "calendar.field_calendar_event__partner_id"
+}

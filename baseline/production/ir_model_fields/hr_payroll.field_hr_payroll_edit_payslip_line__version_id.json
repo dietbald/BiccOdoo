@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 13183,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Contract",
+    "model_id": [
+      836,
+      "Edit payslip lines wizard line"
+    ],
+    "name": "version_id",
+    "relation": "hr.version",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "b0ba22fdfff7a9fbc2c5bb19b54577ab1c580a1296cd1b7400df057b6b28746a",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_edit_payslip_line__version_id"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6764,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Start Date",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "date_from",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "990c535dae88b35fdd791ed0285b37cec4595004d8987d642d89e116cf3b22d1",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__date_from"
+}

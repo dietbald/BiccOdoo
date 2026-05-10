@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25621,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      2606,
+      "Employee Referral Report"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "5b06847030c17f4fbebdfd50b2ff7f53b63b4b1dbad5fd38b6ddf91b73270df1",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_report__company_id"
+}

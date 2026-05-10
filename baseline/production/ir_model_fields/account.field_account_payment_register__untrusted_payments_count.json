@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5391,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Untrusted Payments Count",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "untrusted_payments_count",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "integer"
+  },
+  "payload_sha256": "9cfbaccc420a121e8ca03ed821c5e3d9d1aecf83324d6ac34a2097b5f2fd1473",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__untrusted_payments_count"
+}

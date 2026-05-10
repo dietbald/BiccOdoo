@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6753,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      554,
+      "Budget"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "4ca752de650a01bdfd1422c7ee936057ca80e690f66248bd2db8e473a80672a8",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_analytic__message_ids"
+}

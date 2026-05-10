@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 6788,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      555,
+      "Budget Line"
+    ],
+    "name": "company_id",
+    "relation": "res.company",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "fd4c1dfb5be7ab6978e8082d6e47d5a05b670ae8e7bf9e8f5f3b5f0e7c127c1f",
+  "write_date": "",
+  "xml_id": "account_budget.field_budget_line__company_id"
+}

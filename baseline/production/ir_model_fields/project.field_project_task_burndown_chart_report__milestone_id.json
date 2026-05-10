@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 7993,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Milestone",
+    "model_id": [
+      608,
+      "Burndown Chart"
+    ],
+    "name": "milestone_id",
+    "relation": "project.milestone",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "e844b1e5de5f17fad1caeab19a369c7ca41188a188e10b6589ab71bfd2a87531",
+  "write_date": "",
+  "xml_id": "project.field_project_task_burndown_chart_report__milestone_id"
+}

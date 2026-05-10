@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 211,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "['|', '|', '|',\n            ('company_id', 'in', company_ids + [False]),\n            ('parent_id.user_id', '=', user.id),\n            ('id', '=', user.employee_id.parent_id.id),\n            ('user_id', '=', user.id)\n        ]",
+    "groups": [],
+    "model_id": [
+      630,
+      "Employee"
+    ],
+    "name": "Employee multi company rule",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "e09da446b1ff7d024bbe813b7b128e49e86b63d2cdf92dfe40deb7079451ef50",
+  "write_date": "2024-10-23 10:52:04",
+  "xml_id": "hr.hr_employee_comp_rule"
+}

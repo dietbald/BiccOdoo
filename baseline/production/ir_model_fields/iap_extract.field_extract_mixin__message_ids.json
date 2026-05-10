@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 3293,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Messages",
+    "model_id": [
+      381,
+      "Base class to extract data from documents"
+    ],
+    "name": "message_ids",
+    "relation": "mail.message",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "ab84a12fa9a6351d27db63232d1dd00a00503a91c106e09bbf8ca14c493ddf5c",
+  "write_date": "",
+  "xml_id": "iap_extract.field_extract_mixin__message_ids"
+}

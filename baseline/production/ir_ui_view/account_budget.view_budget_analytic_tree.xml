@@ -1,0 +1,14 @@
+<list decoration-info="state == 'draft'" decoration-muted="state in ('done','canceled', 'revised')" string="Budget">
+                <header>
+                    <button display="always" class="btn btn-secondary" string="Generate" type="action" name="1312"/>
+                    <button string="Budget Lines" type="object" name="action_open_budget_lines" class="oe_highlight" groups="analytic.group_analytic_accounting"/>
+                </header>
+                <field name="name" colspan="1" readonly="state == 'done'"/>
+                <field name="date_from" readonly="state == 'done'" optional="show"/>
+                <field name="date_to" readonly="state == 'done'" optional="hide"/>
+                <field name="company_id" options="{'no_create': True}" groups="base.group_multi_company" optional="hide"/>
+                <field name="user_id" options="{'no_create': True}"/>
+                <field name="activity_ids" widget="list_activity" optional="show"/>
+                <field name="state"/>
+                <field name="activity_exception_decoration" widget="activity_exception"/>
+            </list>

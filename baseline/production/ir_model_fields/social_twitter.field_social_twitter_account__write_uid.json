@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17902,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1033,
+      "Social X Account"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "cf479dda891c04e7871fca08e868d53dd43d9d12a8c50a3599d2f01d031be1c7",
+  "write_date": "",
+  "xml_id": "social_twitter.field_social_twitter_account__write_uid"
+}

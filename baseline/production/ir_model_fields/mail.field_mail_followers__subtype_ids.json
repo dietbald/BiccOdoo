@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 1966,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subtype",
+    "model_id": [
+      168,
+      "Document Followers"
+    ],
+    "name": "subtype_ids",
+    "relation": "mail.message.subtype",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "7ff63426773763588fc9aa9ce7108224f821a8a5985469b58d808a3d18433c87",
+  "write_date": "",
+  "xml_id": "mail.field_mail_followers__subtype_ids"
+}

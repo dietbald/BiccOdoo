@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1671,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      61,
+      "Recruitment / Interviewer"
+    ],
+    "model_id": [
+      919,
+      "Survey"
+    ],
+    "name": "survey.survey.recruitment.interviewer",
+    "perm_create": false,
+    "perm_read": true,
+    "perm_unlink": false,
+    "perm_write": false
+  },
+  "payload_sha256": "672b0eece5e3194ac72ef522875d3eb89041ba5cc345e955539f40afa7c81bd5",
+  "write_date": "2026-01-28 12:01:54",
+  "xml_id": "hr_recruitment_survey.access_survey_survey_recruitment_interviewer"
+}

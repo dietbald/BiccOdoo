@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5364,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Currency",
+    "model_id": [
+      460,
+      "Pay"
+    ],
+    "name": "currency_id",
+    "relation": "res.currency",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "dde68bde7de9715cd20b309e8bc10f83348a947952064f285dc820f3fb859143",
+  "write_date": "",
+  "xml_id": "account.field_account_payment_register__currency_id"
+}

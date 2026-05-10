@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 343,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Available Models",
+    "model_id": [
+      24,
+      "Server Action"
+    ],
+    "name": "available_model_ids",
+    "relation": "ir.model",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "f871574b8f38d40cbf506cbd6d6e074ff46cc298a623b846b4a63c00734460be",
+  "write_date": "",
+  "xml_id": "base.field_ir_actions_server__available_model_ids"
+}

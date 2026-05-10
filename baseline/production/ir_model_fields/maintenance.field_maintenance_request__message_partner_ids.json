@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 18157,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Followers (Partners)",
+    "model_id": [
+      1041,
+      "Maintenance Request"
+    ],
+    "name": "message_partner_ids",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2many"
+  },
+  "payload_sha256": "bed5e79dd713cf490a6bb421c77ce1a5857c93b72a534a5bc6e7e2d75aa8fb16",
+  "write_date": "",
+  "xml_id": "maintenance.field_maintenance_request__message_partner_ids"
+}

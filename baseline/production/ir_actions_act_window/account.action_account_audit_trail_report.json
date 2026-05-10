@@ -1,0 +1,16 @@
+{
+  "exported_at": "2026-05-10T12:35:39Z",
+  "id": 1268,
+  "model": "ir.actions.act_window",
+  "payload": {
+    "context": "{}",
+    "domain": "[\n            ('message_type', '=', 'notification'),\n            ('model', 'in', ('account.move', 'account.account', 'account.tax', 'res.partner', 'res.company')),\n        ]",
+    "name": "Audit Trail",
+    "res_model": "mail.message",
+    "target": "current",
+    "view_mode": "list"
+  },
+  "payload_sha256": "e07f55bc8249eefb2b1530aa18c00267e2c93a314dee7dd9f8b9ee36cd5f6463",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.action_account_audit_trail_report"
+}

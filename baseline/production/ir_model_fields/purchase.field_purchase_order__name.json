@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 9390,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Order Reference",
+    "model_id": [
+      658,
+      "Purchase Order"
+    ],
+    "name": "name",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "char"
+  },
+  "payload_sha256": "be77449aebee34b81e6e713170a8ba2afe127abb646fe5681124aad2458583e9",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order__name"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 21818,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Account",
+    "model_id": [
+      1356,
+      "SMS Account Verification Code Wizard"
+    ],
+    "name": "account_id",
+    "relation": "iap.account",
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "1461473864f743432571a4fc6b80b80f01abd144014f128f1f520223a79f3c21",
+  "write_date": "",
+  "xml_id": "sms.field_sms_account_code__account_id"
+}

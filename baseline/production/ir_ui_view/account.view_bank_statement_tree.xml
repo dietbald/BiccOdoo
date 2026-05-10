@@ -1,0 +1,12 @@
+<list decoration-danger="journal_id and not is_complete or not is_valid" decoration-muted="not journal_id" create="false" string="Statements">
+                    <field name="name"/>
+                    <field name="date"/>
+                    <field name="journal_id"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="balance_start"/>
+                    <field name="balance_end_real"/>
+                    <field name="balance_end" column_invisible="True"/>
+                    <field name="currency_id" column_invisible="True"/>
+                    <field name="is_complete" column_invisible="True"/>
+                    <field name="is_valid" column_invisible="True"/>
+                </list>

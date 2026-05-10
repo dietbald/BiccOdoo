@@ -1,0 +1,24 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 10,
+  "model": "ir.rule",
+  "payload": {
+    "active": true,
+    "domain_force": "[(1, '=', 1)]",
+    "groups": [
+      2
+    ],
+    "model_id": [
+      32,
+      "Filters"
+    ],
+    "name": "ir.filters.admin.all.rights",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "c7be5575135f9a5e7e9c978e4ee6675d0aa5b49acc09e487da9d06dcb1fd4c32",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "base.ir_filters_admin_all_rights_rule"
+}

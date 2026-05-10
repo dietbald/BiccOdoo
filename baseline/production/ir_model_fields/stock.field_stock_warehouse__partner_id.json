@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11356,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Address",
+    "model_id": [
+      739,
+      "Warehouse"
+    ],
+    "name": "partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "ca6a4716e0cbb2e0ea49d0318a4a0adce733f048957864217a154610cdd87bf0",
+  "write_date": "",
+  "xml_id": "stock.field_stock_warehouse__partner_id"
+}

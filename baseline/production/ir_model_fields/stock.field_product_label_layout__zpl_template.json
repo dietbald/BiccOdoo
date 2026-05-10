@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 24953,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "ZPL Template",
+    "model_id": [
+      380,
+      "Choose the sheet layout to print the labels"
+    ],
+    "name": "zpl_template",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "2bae85e03239a06fa736211c173c2db3fedbdbd598d829864fcbc1d91384f983",
+  "write_date": "",
+  "xml_id": "stock.field_product_label_layout__zpl_template"
+}

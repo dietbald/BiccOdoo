@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22121,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Last Updated by",
+    "model_id": [
+      1373,
+      "Account Lock Exception"
+    ],
+    "name": "write_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a93312cb844b2f4e10f7f6aed67e8c2340a867fac274a0e82f5eaafae6177f55",
+  "write_date": "",
+  "xml_id": "account.field_account_lock_exception__write_uid"
+}

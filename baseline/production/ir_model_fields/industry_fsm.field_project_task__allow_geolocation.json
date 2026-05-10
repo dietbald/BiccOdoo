@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 29653,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Geolocation",
+    "model_id": [
+      599,
+      "Task"
+    ],
+    "name": "allow_geolocation",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "1a2ed192ea5f7b7ba6eb04a035683bc5d663acb03e67c114931a6a00ba8cc924",
+  "write_date": "",
+  "xml_id": "industry_fsm.field_project_task__allow_geolocation"
+}

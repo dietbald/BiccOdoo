@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11183,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reservation Method",
+    "model_id": [
+      735,
+      "Picking Type"
+    ],
+    "name": "reservation_method",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "selection"
+  },
+  "payload_sha256": "61f40073d202bf536fd8def6cd3b8a6ccd59628606f20caa0a03d380cc50837e",
+  "write_date": "",
+  "xml_id": "stock.field_stock_picking_type__reservation_method"
+}

@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26395,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Job",
+    "model_id": [
+      2742,
+      "Contract and Recruitment Analysis Report"
+    ],
+    "name": "job_id",
+    "relation": "hr.job",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "37fefab01afaf66ce6abd1c3b3a5fb3a5ea5be99a7ffe5744501440fc3f76da8",
+  "write_date": "",
+  "xml_id": "hr_contract_salary.field_hr_contract_recruitment_report__job_id"
+}

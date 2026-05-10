@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 26463,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Company",
+    "model_id": [
+      2743,
+      "Competitors"
+    ],
+    "name": "x_studio_partner_id",
+    "relation": "res.partner",
+    "required": false,
+    "state": "manual",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "3348b49d0d4d31f481715ea01f38a021f1349c0ffda95ed1b98c6317da47b269",
+  "write_date": "2025-10-31 05:51:01",
+  "xml_id": "studio_customization.new_many2one_competi_093fe9cd-85b9-413f-8ef6-6f2effdaa715"
+}

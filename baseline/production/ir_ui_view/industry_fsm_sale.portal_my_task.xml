@@ -1,0 +1,17 @@
+<data inherit_id="hr_timesheet.portal_my_task">
+        <xpath expr="//li[@id='nav-header']" position="after">
+            <li t-if="task._show_time_and_material()" class="nav-item">
+                <a class="nav-link p-0" href="#time_and_material">
+                    Time &amp; Material
+                </a>
+            </li>
+        </xpath>
+        <xpath expr="//div[@id='card_body']/div[@t-if='timesheets and allow_timesheets and show_portal_timesheets']" position="before">
+            <div class="container" t-if="task._show_time_and_material()">
+                <hr class="mt-4 mb-4"/>
+                <h5 id="time_and_material" class="mt-2 mb-2" data-anchor="true">Time &amp; Material</h5>
+                <t t-set="doc" t-value="task"/>
+                <t t-call="industry_fsm_sale.worksheet_time_and_material"/>
+            </div>
+        </xpath>
+    </data>

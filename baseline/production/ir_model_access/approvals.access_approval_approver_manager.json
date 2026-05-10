@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1079,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      92,
+      "Approvals / Administrator"
+    ],
+    "model_id": [
+      786,
+      "Approver"
+    ],
+    "name": "access_approval_approver",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "3b2ac693c491a65065f05ffddf5618d39c4fc93ea256b77681a0e6bc066bfbe9",
+  "write_date": "2025-12-09 02:57:55",
+  "xml_id": "approvals.access_approval_approver_manager"
+}

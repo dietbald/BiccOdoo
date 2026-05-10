@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 25544,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Next Activity Calendar Event",
+    "model_id": [
+      2602,
+      "Reward for Referrals"
+    ],
+    "name": "activity_calendar_event_id",
+    "relation": "calendar.event",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "2049c035e1b96b053c886f5bbf70dbe47315d5b00f51263d330dbbabdd137a23",
+  "write_date": "",
+  "xml_id": "hr_referral.field_hr_referral_reward__activity_calendar_event_id"
+}

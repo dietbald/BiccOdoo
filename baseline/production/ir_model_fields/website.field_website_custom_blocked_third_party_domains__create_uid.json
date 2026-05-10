@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 20105,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Created by",
+    "model_id": [
+      1208,
+      "User list of blocked 3rd-party domains"
+    ],
+    "name": "create_uid",
+    "relation": "res.users",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d4d43da11da66dfb580df86b5c24accd37ee9cdb3b61c430a0f76709b30d68cf",
+  "write_date": "",
+  "xml_id": "website.field_website_custom_blocked_third_party_domains__create_uid"
+}

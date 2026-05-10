@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:46Z",
+  "id": 5417,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reversal Date",
+    "model_id": [
+      463,
+      "Accrued Orders Wizard"
+    ],
+    "name": "reversal_date",
+    "relation": false,
+    "required": true,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "date"
+  },
+  "payload_sha256": "a14e945ef94be4ad606acf8edd0ca20fec5ebb52d9e8dbfde4da772dfb194361",
+  "write_date": "",
+  "xml_id": "account.field_account_accrued_orders_wizard__reversal_date"
+}

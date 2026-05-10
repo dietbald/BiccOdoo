@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 17318,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Subcontracted",
+    "model_id": [
+      369,
+      "Supplier Pricelist"
+    ],
+    "name": "is_subcontractor",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "94c9cb9150e2c2cef7eb33cb972a9e37bb5e29298e29f45069d666bc5ff48128",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_product_supplierinfo__is_subcontractor"
+}

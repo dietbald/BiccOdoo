@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:47Z",
+  "id": 11339,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Bulk Content",
+    "model_id": [
+      738,
+      "Package"
+    ],
+    "name": "quant_ids",
+    "relation": "stock.quant",
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "one2many"
+  },
+  "payload_sha256": "1a058315939c59a2fde50d3b1a2b912668dd4c23d2dd9861b0320b3b0a6fdcf5",
+  "write_date": "",
+  "xml_id": "stock.field_stock_package__quant_ids"
+}

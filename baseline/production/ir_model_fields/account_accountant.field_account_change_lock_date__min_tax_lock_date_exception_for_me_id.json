@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 22741,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Min Tax Lock Date Exception For Me",
+    "model_id": [
+      488,
+      "Change Lock Date"
+    ],
+    "name": "min_tax_lock_date_exception_for_me_id",
+    "relation": "account.lock_exception",
+    "required": false,
+    "state": "base",
+    "store": false,
+    "translate": false,
+    "ttype": "many2one"
+  },
+  "payload_sha256": "d2387084a4cf88895fc34d0bcda743e6feeb8f4205fd4dfb2e6fa2a98248a673",
+  "write_date": "",
+  "xml_id": "account_accountant.field_account_change_lock_date__min_tax_lock_date_exception_for_me_id"
+}

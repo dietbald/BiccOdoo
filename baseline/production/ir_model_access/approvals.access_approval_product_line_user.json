@@ -1,0 +1,23 @@
+{
+  "exported_at": "2026-05-10T12:35:50Z",
+  "id": 1080,
+  "model": "ir.model.access",
+  "payload": {
+    "group_id": [
+      1,
+      "Internal User"
+    ],
+    "model_id": [
+      784,
+      "Product Line"
+    ],
+    "name": "access_approval_product_line",
+    "perm_create": true,
+    "perm_read": true,
+    "perm_unlink": true,
+    "perm_write": true
+  },
+  "payload_sha256": "77d952d470ffe722a9a55ac2313a69b49b7b82143ef65703b15cc2664e8ddbc7",
+  "write_date": "2025-12-09 02:57:55",
+  "xml_id": "approvals.access_approval_product_line_user"
+}

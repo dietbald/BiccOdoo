@@ -1,0 +1,22 @@
+{
+  "exported_at": "2026-05-10T12:35:48Z",
+  "id": 23646,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Year to Date Computation",
+    "model_id": [
+      816,
+      "Salary Structure"
+    ],
+    "name": "ytd_computation",
+    "relation": false,
+    "required": false,
+    "state": "base",
+    "store": true,
+    "translate": false,
+    "ttype": "boolean"
+  },
+  "payload_sha256": "5b15c0304efdb3ef20b4dfadf124ca9fbfe40ff98998b165482d6e9d43f829c8",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_payroll_structure__ytd_computation"
+}
