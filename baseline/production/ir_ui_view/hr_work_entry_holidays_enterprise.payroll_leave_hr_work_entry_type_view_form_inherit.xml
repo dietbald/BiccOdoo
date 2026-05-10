@@ -1,0 +1,3 @@
+<group name="time_off" position="inside">
+                <field name="leave_type_ids" widget="many2many_tags" invisible="not is_leave"/>
+            </group>

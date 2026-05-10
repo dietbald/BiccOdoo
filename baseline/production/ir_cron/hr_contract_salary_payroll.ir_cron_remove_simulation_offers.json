@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 84,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.action_cron_remove_simulation_offers()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "55c27de2da88082031f89b0a9a45243c8c39d396953e2e057d93adf9102739b2",
+  "write_date": "2025-12-09 03:00:22",
+  "xml_id": "hr_contract_salary_payroll.ir_cron_remove_simulation_offers"
+}

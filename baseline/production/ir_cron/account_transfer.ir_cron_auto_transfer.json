@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 22,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.action_cron_auto_transfer()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "f23abb2430bdcfe938a6f2f23fe22ad5ffe16f13858adad4e950e1f94ec37764",
+  "write_date": "2025-12-09 02:59:12",
+  "xml_id": "account_transfer.ir_cron_auto_transfer"
+}

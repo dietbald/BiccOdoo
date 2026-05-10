@@ -1,0 +1,24 @@
+<kanban create="false" can_open="0" class="o_modules_kanban" js_class="approvals_category_kanban">
+                <field name="active"/>
+                <templates>
+                    <t t-name="menu" groups="approvals.group_approval_user">
+                        <a t-if="widget.editable" role="menuitem" type="action" name="1297" class="dropdown-item">Edit</a>
+                        <a t-if="record.active.raw_value" role="menuitem" type="archive" class="dropdown-item">Archive</a>
+                        <a t-if="!record.active.raw_value" role="menuitem" type="unarchive" class="dropdown-item">Unarchive</a>
+                    </t>
+                    <t t-name="card" class="flex-row">
+                        <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                        <aside>
+                            <field name="image" widget="image" class="mt-2"/>
+                        </aside>
+                        <main class="ms-4">
+                            <field name="name" class="fw-bold fs-5"/>
+                            <field name="description" class="text-muted lh-1 mb-1 mt-1"/>
+                            <footer t-if="!selection_mode">
+                                <button type="object" class="btn btn-primary btn-sm" name="create_request" context="{'category_id':id}">New Request</button>
+                                <button type="action" class="btn btn-sm btn-secondary ms-auto" name="762" groups="approvals.group_approval_user">To Review: <field name="request_to_validate_count"/></button>
+                            </footer>
+                        </main>
+                    </t>
+                </templates>
+            </kanban>

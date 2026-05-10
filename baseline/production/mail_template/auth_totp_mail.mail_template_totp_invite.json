@@ -1,0 +1,12 @@
+{
+  "exported_at": "2026-05-10T05:51:53Z",
+  "id": 4,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Dear <t t-out=\"object.partner_id.name or ''\"></t><br><br>\n        <t t-out=\"user.name  or ''\"></t> requested you activate two-factor authentication to protect your account.<br><br>\n        Two-factor Authentication (\"2FA\") is a system of double authentication.\n        The first one is done with your password and the second one with a code you get from a dedicated mobile app.\n        Popular ones include Authy, Google Authenticator or the Microsoft Authenticator.\n\n        <p style=\"margin: 16px 0px 16px 0px; text-align: center;\">\n            <a t-att-href=\"object.get_totp_invite_url()\" style=\"background-color:#875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n                Activate my two-factor Authentication\n            </a>\n        </p>\n    </p>\n</div>\n        ",
+    "subject": "Invitation to activate two-factor authentication on your Odoo account"
+  },
+  "payload_sha256": "2e6f283a67ccd3379ed967f9fee2ff372a4293f4eb89efb44864323c2ed8624c",
+  "write_date": "2023-11-30 00:28:52",
+  "xml_id": "auth_totp_mail.mail_template_totp_invite"
+}

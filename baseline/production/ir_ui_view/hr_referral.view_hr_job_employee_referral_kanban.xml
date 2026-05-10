@@ -1,0 +1,79 @@
+<kanban create="false" can_open="0" class="o_kanban_referral_job" js_class="referral_kanban">
+                <field name="website_url"/>
+                <templates>
+                    <t t-name="card" class="px-3">
+                        <div class="flex d-flex justify-content-between">
+                            <field name="name" class="fw-bold fs-4"/>
+                            <div class="d-flex align-items-center flex-grow-0 mt-1">
+                                <img src="/hr_referral/static/src/img/points.svg" class="me-2" height="20px" alt="Points icon"/>
+                                <span class="text-nowrap"><field name="max_points"/> Points</span>
+                            </div>
+                        </div>
+                        <main>
+                            <div>
+                                <div class="mt-2 h6 flex-grow-1">
+                                    <field name="no_of_recruitment" invisible="not no_of_recruitment"/>
+                                    <t t-if="record.no_of_recruitment.raw_value &gt; 1">
+                                        Open Positions
+                                    </t>
+                                    <t t-elif="record.no_of_recruitment.raw_value == 1">
+                                        Open Position
+                                    </t>
+                                </div>
+                            </div>
+                            <field name="description" class="text-muted pb-2 mt-2"/>
+                            <div class="d-flex flex-column mt-auto">
+                                <div class="o_button_referral d-flex gap-1">
+                                    <a role="button" name="1535" type="action" class="btn btn-secondary w-25 flex-shrink-1">
+                                        <i class="fa fa-2x fa-envelope-o" role="img" aria-label="Send by Mail"/>
+                                        <br/>
+                                        <span title="Send by Mail">Send Email</span>
+                                    </a>
+                                    <a role="button" name="1536" type="action" class="btn btn-secondary w-25 flex-shrink-1">
+                                        <i class="fa fa-2x fa-mobile" role="img" aria-label="Send by SMS"/>
+                                        <br/>
+                                        <span title="Send by SMS">Send SMS</span>
+                                    </a>
+                                    <a role="button" t-attf-href="#{record.website_url.raw_value}" target="_blank" class="btn btn-secondary w-25 flex-shrink-1 o_hr_referral_job_url">
+                                        <i class="fa fa-2x fa-globe" role="img" aria-label="Job Page"/>
+                                        <br/>
+                                        <span title="More info">Job Page</span>
+                                    </a>
+                                    <!-- Empty div to ensure the shrinking without the presence of a 4th button -->
+                                    <div class="w-25 flex-shrink-1"/>
+                                </div>
+                                <div class="d-flex gap-1">
+                                    <field name="id" widget="CopyClipboardReferralButton" class="w-25 flex-shrink-1"/>
+                                    <a role="button" name="action_share_external" type="object" class="btn btn-secondary w-25 flex-shrink-1" context="{'default_channel': 'facebook'}">
+                                        <span title="Share on Facebook">
+                                            <i class="fa fa-2x fa-facebook" role="img" aria-label="Share on facebook"/>
+                                        </span>
+                                        <span class="d-block mt-2 text-primary">
+                                            <t t-if="record.facebook_clicks &gt; 0"><field name="facebook_clicks"/> click(s)</t>
+                                            <t t-else="">Share Now</t>
+                                        </span>
+                                    </a>
+                                    <a role="button" name="action_share_external" type="object" class="btn btn-secondary w-25 flex-shrink-1" context="{'default_channel': 'twitter'}">
+                                        <span title="Share on Twitter">
+                                            <i class="fa fa-2x fa-twitter" role="img" aria-label="Share on twitter"/>
+                                        </span>
+                                        <span class="d-block mt-2 text-primary">
+                                            <t t-if="record.twitter_clicks &gt; 0"><field name="twitter_clicks"/> click(s)</t>
+                                            <t t-else="">Share Now</t>
+                                        </span>
+                                    </a>
+                                    <a role="button" name="action_share_external" type="object" class="btn btn-secondary w-25 flex-shrink-1" context="{'default_channel': 'linkedin'}">
+                                        <span title="Share on Linkedin">
+                                            <i class="fa fa-2x fa-linkedin" role="img" aria-label="Share on linkedin"/>
+                                        </span>
+                                        <span class="d-block mt-2 text-primary">
+                                            <t t-if="record.linkedin_clicks &gt; 0"><field name="linkedin_clicks"/> click(s)</t>
+                                            <t t-else="">Share Now</t>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </main>
+                    </t>
+                </templates>
+            </kanban>

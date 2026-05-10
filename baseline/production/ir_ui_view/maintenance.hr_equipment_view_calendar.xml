@@ -1,0 +1,13 @@
+<calendar date_start="schedule_date" date_stop="schedule_end" color="user_id" event_limit="5" js_class="calendar_with_recurrence">
+                <field name="user_id" filters="1"/>
+                <field name="priority"/>
+                <field name="maintenance_type"/>
+                <field name="recurring_maintenance" invisible="1"/>
+                <field name="repeat_interval" invisible="1"/>
+                <field name="repeat_unit" invisible="1"/>
+                <field name="repeat_type" invisible="1"/>
+                <field name="repeat_until" invisible="1"/>
+                <field name="done" invisible="1"/>
+                <field name="archive" invisible="1"/>
+                <field name="duration" invisible="1"/>
+            </calendar>

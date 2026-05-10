@@ -1,0 +1,14 @@
+<data><xpath expr="/calendar" position="attributes">
+                <attribute name="quick_create_view_id">4013</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="attributes">
+                <attribute name="invisible">appointment_type_schedule_based_on == 'resources'</attribute>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="after">
+                <field name="appointment_resource_ids" widget="many2many_tags" options="{'icon': 'fa fa-cubes'}" invisible="appointment_type_schedule_based_on != 'resources'"/>
+            </xpath>
+            <xpath expr="//field[@name='privacy']" position="replace">
+                <field name="appointment_status" options="{'icon': 'fa fa-circle'}" invisible="not appointment_type_id"/>
+            </xpath>
+            <field name="res_model_name" position="replace"/>
+        </data>

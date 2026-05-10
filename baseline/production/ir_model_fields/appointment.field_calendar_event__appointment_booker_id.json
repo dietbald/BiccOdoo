@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:49Z",
+  "id": 15337,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Person who is booking the appointment",
+    "relation": "res.partner",
+    "ttype": "many2one"
+  },
+  "payload_sha256": "a973905ce7bc0507d705b683e8c059cf0f1012ff0111ad7839036e0a8a0ab331",
+  "write_date": "",
+  "xml_id": "appointment.field_calendar_event__appointment_booker_id"
+}

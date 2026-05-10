@@ -1,0 +1,59 @@
+<form string="Package Type">
+            <sheet>
+                <div class="oe_button_box" name="button_box"/>
+                <label for="name"/>
+                <h1>
+                    <field name="name"/>
+                </h1>
+                <notebook>
+                    <page string="Configuration">
+                        <group>
+                            <group name="identification">
+                                <field name="barcode"/>
+                                <field name="sequence_id" groups="base.group_no_one"/>
+                                <field name="sequence_code"/>
+                                <field name="route_ids" widget="many2many_tags" groups="stock.group_adv_location" options="{'no_create': True}"/>
+                            </group>
+                            <group name="delivery">
+                                <field name="company_id" groups="base.group_multi_company"/>
+                            </group>
+                        </group>
+                    </page>
+                    <page string="Dimensions">
+                        <group>
+                            <group>
+                                <label for="length_uom_name" string="Size"/>
+                                <div class="o_row" name="size">
+                                    <field name="packaging_length" placeholder="Length" class="oe_inline"/>
+                                    <span>×</span>
+                                    <field name="width" placeholder="Width" class="oe_inline"/>
+                                    <span>×</span>
+                                    <field name="height" placeholder="Height" class="oe_inline"/>
+                                    <span><field name="length_uom_name" help="Size: Length × Width × Height"/></span>
+                                </div>
+                                <label for="base_weight"/>
+                                <div class="o_row" name="base_weight">
+                                    <field name="base_weight"/>
+                                    <span><field name="weight_uom_name"/></span>
+                                </div>
+                                <label for="max_weight"/>
+                                <div class="o_row" name="max_weight">
+                                    <field name="max_weight"/>
+                                    <span><field name="weight_uom_name"/></span>
+                                </div>
+                            </group>
+                        </group>
+                    </page>
+                    <page string="Capacity" groups="stock.group_stock_multi_locations">
+                        <group name="storage_categories">
+                            <field name="storage_category_capacity_ids" context="{'default_package_type_id': id}" nolabel="1">
+                                <list editable="bottom">
+                                    <field name="storage_category_id"/>
+                                    <field name="quantity"/>
+                                </list>
+                            </field>
+                        </group>
+                    </page>
+                </notebook>
+            </sheet>
+        </form>

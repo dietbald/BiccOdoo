@@ -1,0 +1,9 @@
+<list string="Working Time">
+                <field name="name" string="Working Time"/>
+                <field name="hours_per_week" string="Schedule Total Time" optional="hide"/>
+                <field name="work_time_rate"/>
+                <field name="schedule_type"/>
+                <field name="full_time_required_hours" widget="float_time" optional="hide"/>
+                <field name="work_resources_count" string="# Work Resources" optional="hide"/>
+                <field name="company_id" groups="base.group_multi_company" optional="hide"/>
+            </list>

@@ -1,0 +1,4 @@
+<xpath expr="//list" position="inside">
+                <field name="has_push_notifications" column_invisible="True"/>
+                <button name="action_send_push_notification" string="Send Push Notification" type="object" icon="fa-bell" invisible="not has_push_notifications"/>
+            </xpath>

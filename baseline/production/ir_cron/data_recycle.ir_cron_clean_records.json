@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 57,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_recycle_records()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "474d93286afc00a712437f803fe4d9d24185b380e48f078963d613ef10e7305b",
+  "write_date": "2025-12-09 02:55:53",
+  "xml_id": "data_recycle.ir_cron_clean_records"
+}

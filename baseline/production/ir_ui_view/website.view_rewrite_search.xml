@@ -1,0 +1,15 @@
+<search string="Search Redirect">
+                    <field name="url_from"/>
+                    <field name="url_to"/>
+                    <separator/>
+                    <filter string="404 Not Found" name="404" domain="[('redirect_type', '=', '404')]"/>
+                    <filter string="301 Moved permanently" name="301" domain="[('redirect_type', '=', '301')]"/>
+                    <filter string="302 Moved temporarily" name="302" domain="[('redirect_type', '=', '302')]"/>
+                    <filter string="308 Redirect / Rewrite" name="308" domain="[('redirect_type', '=', '308')]"/>
+                    <separator/>
+                    <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                    <group>
+                        <filter string="Redirection Type" name="group_by_type" domain="[]" context="{'group_by': 'redirect_type'}"/>
+                        <filter string="Created by" name="group_by_author" domain="[]" context="{'group_by': 'create_uid'}"/>
+                    </group>
+                </search>

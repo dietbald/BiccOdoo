@@ -1,0 +1,6 @@
+<list>
+                <field name="code"/>
+                <field name="name"/>
+                <field name="account_ids" string="Related Account(s)" widget="many2many_tags" domain="[('internal_group', 'in', ('asset', 'expense', 'income')), ('fiscal_category_id', '=', None)]" options="{'no_create': True}"/>
+                <field name="company_id" optional="hide"/>
+            </list>

@@ -1,0 +1,20 @@
+<data>
+  <xpath expr="//field[@name='partner_name']" position="after">
+    <field name="write_date" optional="show"/>
+    <field name="write_uid" optional="show"/>
+  </xpath>
+  <xpath expr="//field[@name='create_date']" position="after">
+    <field name="partner_id" optional="show"/>
+  </xpath>
+  <xpath expr="//field[@name='priority']" position="after">
+    <field name="x_studio_ai_rating" optional="show"/>
+  </xpath>
+  <xpath expr="//field[@name='email_from']" position="after">
+    <field name="x_studio_tech_quiz_score" optional="show"/>
+    <field name="x_studio_logical_quiz_score" optional="show"/>
+    <field name="x_studio_emotional_quiz_score" optional="show"/>
+  </xpath>
+  <xpath expr="//field[@name='categ_ids']" position="after">
+    <field name="x_studio_alternative_position_recommendation" optional="show"/>
+  </xpath>
+</data>

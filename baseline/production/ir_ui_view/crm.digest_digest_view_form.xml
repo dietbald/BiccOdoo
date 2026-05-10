@@ -1,0 +1,6 @@
+<xpath expr="//group[@name='kpis']/group[last()]" position="before">
+                <group name="kpi_crm" string="CRM" groups="sales_team.group_sale_salesman_all_leads">
+                    <field name="kpi_crm_lead_created"/>
+                    <field name="kpi_crm_opportunities_won"/>
+                </group>
+            </xpath>

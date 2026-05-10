@@ -1,0 +1,19 @@
+<form string="Analytic Distribution Model">
+                <sheet>
+                    <group>
+                        <group string="Conditions to meet" colspan="2">
+                            <group>
+                                <field name="partner_id"/>
+                                <field name="partner_category_id"/>
+                            </group>
+                            <group>
+                                <field name="company_id" groups="base.group_multi_company" placeholder="Visible to all"/>
+                                <field name="company_id" invisible="1"/>
+                            </group>
+                        </group>
+                        <group string="Distribution to apply" colspan="2">
+                            <field name="analytic_distribution" widget="analytic_distribution" options="{'force_applicability': 'optional', 'disable_save': true}" class="w-50"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

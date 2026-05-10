@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:47Z",
+  "id": 2065,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Favorited By",
+    "relation": "res.partner",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5200f5d8678ff59eadbe5108588f67c36d534fb37943351e611643c205ccef04",
+  "write_date": "",
+  "xml_id": "mail.field_mail_message__starred_partner_ids"
+}

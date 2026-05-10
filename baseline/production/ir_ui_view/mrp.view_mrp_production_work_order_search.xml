@@ -1,0 +1,17 @@
+<search>
+                <field name="production_id"/>
+                <field name="workcenter_id"/>
+                <field name="product_id"/>
+                <field name="finished_lot_ids"/>
+                <filter string="To Do" name="ready" domain="[('state','=','ready')]"/>
+                <filter string="Blocked" name="blocked" domain="[('state','=','blocked')]"/>
+                <filter string="In Progress" name="progress" domain="[('state','=','progress')]"/>
+                <filter string="Done" name="done" domain="[('state','=', 'done')]"/>
+                <filter string="Late" name="late" domain="[('date_start', '&lt;=', 'today')]"/>
+                <separator/>
+                <filter string="Start Date" name="date_start_filter" date="date_start"/>
+                <group>
+                    <filter string="Work center" name="workcenter" domain="[]" context="{'group_by': 'workcenter_id'}"/>
+                    <filter string="Product" name="product" domain="[]" context="{'group_by': 'product_id'}"/>
+                </group>
+            </search>

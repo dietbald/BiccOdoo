@@ -1,0 +1,33 @@
+<data inherit_id="website.layout" name="Centered" active="False">
+    <xpath expr="//div[@id='footer']" position="replace">
+        <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+            <section class="s_text_block pt32" data-snippet="s_text_block" data-name="Text" style="background-image: none;">
+                <div class="container s_allow_columns">
+                    <div class="s_social_media text-center mb-4 o_not_editable" data-snippet="s_social_media" data-name="Social Media">
+                        <h5 class="s_social_media_title d-none">Follow us</h5>
+<a href="/website/social/facebook" class="s_social_media_facebook" target="_blank">
+                            <i class="fa fa-facebook rounded-circle rounded shadow-sm o_editable_media"/>
+                        </a>
+</div>
+                    <p class="text-center mb-1">
+Overton Building, Luna St, La Paz, Iloilo City, 5000 Iloilo
+
+<br/></p>
+                    <ul class="list-inline text-center">                        <li class="list-inline-item mx-3"><i class="fa fa-1x fa-fw fa-envelope me-2"/><a href="mailto:sales@igebc.co" data-bs-original-title="" title="">sales@igebc.co</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="s_text_block pt16 pb16" data-snippet="s_text_block" data-name="Logo" style="background-image: none;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-2 offset-lg-5 o_colored_level">
+                            <a href="/" class="o_footer_logo logo" data-bs-original-title="" title="">
+                                <img src="/web/image/2210-c6e94dc9/IGEBC-Logo-300x300-300x300.webp" alt="" class="img-fluid mx-auto img o_we_custom_image" data-mimetype="image/webp" data-original-id="2209" data-original-src="/web/image/2209-41597cfc/IGEBC-Logo-300x300-300x300.png" data-mimetype-before-conversion="image/png" data-resize-width="300" loading="lazy"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </xpath>
+</data>

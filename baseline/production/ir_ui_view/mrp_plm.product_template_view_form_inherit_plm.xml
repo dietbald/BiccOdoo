@@ -1,0 +1,5 @@
+<button name="action_view_mos" position="before">
+                <button class="oe_stat_button" name="mrp_eco_action_product_tmpl" type="object" icon="fa-wrench" groups="mrp_plm.group_plm_user" invisible="type == 'service'">
+                    <field string="ECOs" name="eco_count" widget="statinfo"/>
+                </button>
+            </button>

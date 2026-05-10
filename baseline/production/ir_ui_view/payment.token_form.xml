@@ -1,0 +1,69 @@
+<t name="Payment Token Form" t-name="payment.token_form">
+        <!-- Parameters description:
+            - token_sudo: The token to display, as a sudoed `payment.token` recordset.
+            - allow_token_selection: Whether tokens can be selected for payment or assignation (if
+                                     the `assign_route` parameter is provided); default: `True`.
+            - is_selected: Whether the radio button of the token should be checked.
+        -->
+        <t t-set="provider_sudo" t-value="token_sudo.provider_id"/>
+        <t t-set="is_test" t-value="provider_sudo.state == 'test'"/>
+        <t t-set="is_unpublished" t-value="not provider_sudo.is_published"/>
+        <t t-set="inline_form_xml_id" t-value="provider_sudo.token_inline_form_view_id.xml_id"/>
+        <div class="d-flex gap-3 align-items-start align-items-md-center">
+            <!-- === Delete button === -->
+            <button t-if="allow_token_deletion" name="o_payment_delete_token" t-att-class="'btn btn-link px-2 py-0 lh-lg z-1'                                  + (' d-none' if mode != 'validation' else '')" t-attf-data-linked-radio="o_payment_token_{{token_sudo.id}}">
+                <i class="fa fa-trash" title="Delete payment method" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-delay="0"/>
+            </button>
+            <div class="row flex-column flex-md-row flex-grow-1 gap-lg-3 align-items-start                         align-items-md-center">
+                <div class="col col-lg-5">
+                    <div t-att-class="'form-check mb-0'                                       + (' ps-0' if not allow_token_selection else '')">
+                        <!-- === Radio button === -->
+                        <input t-attf-id="o_payment_token_{{token_sudo.id}}" name="o_payment_radio" type="radio" t-att-checked="is_selected" t-att-disabled="not allow_token_selection" t-att-class="'form-check-input'                                             + (' d-none' if not allow_token_selection else '')" data-payment-option-type="token" t-att-data-payment-option-id="token_sudo.id" t-att-data-provider-code="token_sudo.provider_id._get_code()" t-att-data-provider-id="token_sudo.provider_id.id"/>
+                        <div class="d-flex align-items-center flex-wrap gap-2">
+                            <!-- === Token label === -->
+                            <label t-out="token_sudo.payment_method_id.name" class="o_payment_option_label text-break" t-attf-for="o_payment_token_{{token_sudo.id}}"/>
+                            <div class="d-flex flex-nowrap gap-2">
+                                <!-- === "Unpublished" icon === -->
+                                <t t-if="is_unpublished" t-call="payment.form_icon">
+                                    <t t-set="icon_name" t-value="'eye-slash'"/>
+                                    <t t-set="color_name" t-value="'danger'"/>
+                                    <t t-set="title">Unpublished</t>
+                                </t>
+                                <!-- === "Test mode" icon === -->
+                                <t t-if="is_test" t-call="payment.form_icon">
+                                    <t t-set="icon_name" t-value="'exclamation-triangle'"/>
+                                    <t t-set="color_name" t-value="'warning'"/>
+                                    <t t-set="title">Test mode</t>
+                                </t>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- === Token name (payment details) === -->
+                <div class="col">
+                    <p t-out="token_sudo.display_name" t-att-class="'mb-0 small fw-bold text-break'                                     + (' ms-4 ms-md-0' if allow_token_selection else '')"/>
+                </div>
+                <!-- === Provider name (only for desktop and tablet) === -->
+                <t t-set="hide_secured_by" t-value="False"/>
+                <div class="col d-none d-md-block">
+                    <p name="o_payment_secured_by_desktop" t-att-class="'mb-0 small text-600'                                     + (' ms-4 ms-md-0' if allow_token_selection else '')                                     + (' d-none' if hide_secured_by else '')">
+                        <span><i class="fa fa-lock"/> Secured by</span>
+                        <span t-out="dict(provider_sudo._fields['code']._description_selection(                                          provider_sudo.env                                      ))[provider_sudo.code]" class="text-break"/>
+                    </p>
+                </div>
+            </div>
+            <!-- === Payment method logo === -->
+            <div>
+                <t t-call="payment.form_logo" logo_pm_sudo="token_sudo.payment_method_id"/>
+            </div>
+        </div>
+        <!-- === Inline form === -->
+        <div t-if="inline_form_xml_id" name="o_payment_inline_form" class="position-relative d-none">
+            <t t-call="{{inline_form_xml_id}}"/>
+        </div>
+        <!-- === Provider name (only for mobile) === -->
+        <p name="o_payment_secured_by_mobile" t-att-class="'align-self-center d-block d-md-none mb-0 small text-600'                         + (' d-none' if hide_secured_by else '')">
+            <span><i class="fa fa-lock"/> Secured by</span>
+            <span t-out="dict(provider_sudo._fields['code']._description_selection(                              provider_sudo.env                          ))[provider_sudo.code]" class="text-break"/>
+        </p>
+    </t>

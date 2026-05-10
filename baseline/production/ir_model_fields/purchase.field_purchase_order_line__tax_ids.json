@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:48Z",
+  "id": 9440,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Taxes",
+    "relation": "account.tax",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "1b98791c3289f0873118cb26db1a166c5a4b2d969fca5ebf5ce47e6a073df6d1",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__tax_ids"
+}

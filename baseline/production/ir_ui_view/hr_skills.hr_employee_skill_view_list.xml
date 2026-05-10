@@ -1,0 +1,11 @@
+<list string="Certification" action="open_hr_employee_skill_modal" type="object" create="0" expand="1" decoration-muted="valid_to and valid_to &lt; context_today().strftime('%Y-%m-%d')" decoration-danger="valid_to and valid_to &lt;= (context_today() + relativedelta(days=7)).strftime('%Y-%m-%d') and valid_to &gt; context_today().strftime('%Y-%m-%d')" decoration-warning="valid_to and valid_to &lt;= (context_today() + relativedelta(months=3)).strftime('%Y-%m-%d') and valid_to &gt; (context_today() + relativedelta(days=7)).strftime('%Y-%m-%d')">
+                <header>
+                    <button name="open_hr_employee_skill_modal" string="New" type="object" class="btn-primary" display="always"/>
+                </header>
+                <field name="employee_id" widget="many2one_avatar_employee"/>
+                <field name="skill_id" string="Certification"/>
+                <field name="skill_level_id" optional="hide"/>
+                <field name="skill_type_id" optional="hide"/>
+                <field name="valid_from" string="From" widget="formatted_date" options="{'month_format': 'short'}" width="300"/>
+                <field name="valid_to" string="To" widget="formatted_date" options="{'month_format': 'short'}" width="300"/>
+            </list>

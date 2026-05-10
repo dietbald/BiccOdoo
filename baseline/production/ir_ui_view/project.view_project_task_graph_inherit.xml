@@ -1,0 +1,7 @@
+<data><xpath expr="//field[@name='project_id']" position="attributes">
+                    <attribute name="invisible">True</attribute>
+                </xpath>
+                <xpath expr="//field[@name='stage_id']" position="after">
+                    <field name="user_ids"/>
+                </xpath>
+            </data>

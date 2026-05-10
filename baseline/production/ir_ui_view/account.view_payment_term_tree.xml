@@ -1,0 +1,5 @@
+<list string="Payment Terms">
+                    <field name="sequence" widget="handle"/>
+                    <field name="name"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                </list>

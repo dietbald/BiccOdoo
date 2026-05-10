@@ -1,0 +1,20 @@
+<form string="Social Account" create="0">
+                <header/>
+                <sheet>
+                    <field name="image" widget="image" class="oe_avatar"/>
+                    <div class="oe_title">
+                        <h1>
+                            <field class="text-break" name="display_name" placeholder="Name"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <group name="social_account_global">
+                            <field name="active" invisible="1"/>
+                            <field name="name" string="Name"/>
+                            <field name="social_account_handle"/>
+                            <field name="media_id" options="{'no_open': True}"/>
+                            <field name="company_id" options="{'no_create': True}" groups="base.group_multi_company" placeholder="Visible to all"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

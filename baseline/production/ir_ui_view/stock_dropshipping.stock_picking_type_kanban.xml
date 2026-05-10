@@ -1,0 +1,3 @@
+<xpath expr="//t[@name='outgoing_label']" position="after">
+                <t t-elif="record.code.raw_value === 'dropship'" name="dropship_label"> To Validate</t>
+            </xpath>

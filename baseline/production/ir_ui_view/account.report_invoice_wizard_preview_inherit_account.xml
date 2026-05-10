@@ -1,0 +1,10 @@
+<data inherit_id="web.report_invoice_wizard_preview">
+        <xpath expr="//div[@id='payment_term']" position="inside">
+            <t t-if="qr_code" t-call="account.report_invoice_qr_code_preview"/>
+        </xpath>
+        <xpath expr="//div[@id='payment_term']//p[@name='payment_communication']" position="inside">
+            <t t-if="account_number">
+                <br/> on this account: <span t-out="account_number" class="fw-bold"/>
+            </t>
+        </xpath>
+    </data>

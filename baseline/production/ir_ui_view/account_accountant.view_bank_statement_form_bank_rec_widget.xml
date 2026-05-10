@@ -1,0 +1,47 @@
+<form string="Bank Statement">
+                    <div class="alert alert-warning text-center" role="alert" invisible="is_valid and is_complete and (not context.get('at_creation') or not journal_has_invalid_statements)">
+                        <div invisible="is_valid">The starting balance doesn't match the ending balance of the previous statement, or an earlier statement is missing.</div>
+                        <div invisible="is_complete">The running balance (<field name="balance_end"/>) doesn't match the specified ending balance.</div>
+                        <div invisible="not context.get('at_creation') or not journal_has_invalid_statements">
+                            There are one or more <a type="object" name="action_open_journal_invalid_statements" string="invalid statement(s)"/>
+                        </div>
+                    </div>
+                    <sheet>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="action_open_bank_reconcile_widget" type="object" class="oe_stat_button" invisible="not line_ids">
+                                <field name="line_ids" string="Transactions" widget="statinfo"/>
+                            </button>
+                        </div>
+                        <group>
+                            <field name="create_date" invisible="1"/>
+                            <field name="is_valid" invisible="1"/>
+                            <field name="is_complete" invisible="1"/>
+                            <field name="currency_id" invisible="1"/>
+                            <field name="journal_id" invisible="1"/>
+                            <group>
+                                <field name="name" required="1"/>
+                                <field name="date"/>
+                            </group>
+                            <group>
+                                <field name="balance_start"/>
+                                <field name="balance_end_real"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page string="Statement Lines">
+                                <field name="line_ids">
+                                    <list editable="bottom">
+                                        <field name="date"/>
+                                        <field name="payment_ref"/>
+                                        <field name="account_number" optional="hide"/>
+                                        <field name="foreign_currency_id" optional="hide"/>
+                                        <field name="amount_currency" optional="hide"/>
+                                        <field name="amount"/>
+                                    </list>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <div class="o_attachment_preview"/>
+                    <chatter/>
+                </form>

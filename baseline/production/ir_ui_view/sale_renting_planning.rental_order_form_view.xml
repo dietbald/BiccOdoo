@@ -1,0 +1,7 @@
+<data><xpath expr="//field[@name='order_line']/list" position="inside">
+                <field name="planning_slot_ids" column_invisible="1"/> <!-- Needed to write on that field thanks to the context -->
+            </xpath>
+            <xpath expr="//field[@name='order_line']/kanban" position="inside">
+                <field name="planning_slot_ids" invisible="1"/> <!-- Needed to write on that field thanks to the context -->
+            </xpath>
+        </data>

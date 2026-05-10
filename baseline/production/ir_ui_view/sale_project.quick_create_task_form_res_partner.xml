@@ -1,0 +1,3 @@
+<xpath expr="//group//field[@name='project_id']" position="attributes">
+                <attribute name="domain">[('allow_billable', '=', True), ('type_ids', 'in', context['default_stage_id'])] if context.get('default_stage_id') else []</attribute>
+            </xpath>

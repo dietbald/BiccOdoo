@@ -1,0 +1,22 @@
+<list multi_edit="1" sample="1" js_class="sign_list" decoration-muted="state == 'canceled'" action="go_to_document" type="object" default_order="create_date desc">
+                <header>
+                    <button type="object" name="send_signature_accesses" class="btn btn-secondary" string="Resend"/>
+                    <button type="object" name="get_sign_request_documents" class="btn btn-secondary" string="Download"/>
+                </header>
+                <field name="create_date" string="Date" readonly="1"/>
+                <field name="reference" readonly="1" string="Name"/>
+                <field name="create_uid" widget="many2one_avatar_user" readonly="1" string="Sent by"/>
+                <field name="template_document_ids" widget="many2many_tags" readonly="1" optional="hide"/>
+                <field name="request_item_ids" string="Signers" widget="many2many_tags" readonly="1" options="{'color_field': 'color'}"/>
+                <field name="template_tags" string="Tags" widget="many2many_tags" optional="hide" options="{'color_field': 'color'}"/>
+                <field name="reference_doc" readonly="1" optional="hide"/>
+                <field name="state" string="Status" widget="badge" readonly="1" decoration-danger="state in ['canceled']" decoration-warning="state in ['expired']" decoration-success="state in ['signed']" decoration-info="state in ['shared']" decoration-muted="state in ['sent']"/>
+                <field name="need_my_signature" readonly="1" column_invisible="True"/>
+                <field name="create_uid" readonly="1" column_invisible="True"/>
+                <field name="activity_exception_decoration" widget="activity_exception" readonly="1"/>
+                <button name="send_signature_accesses" string="Resend" type="object" groups="sign.group_sign_user" invisible="state != 'sent' or create_uid != uid" icon="fa-refresh"/>
+                <button name="send_signature_accesses" string="Resend" type="object" groups="sign.group_sign_manager" invisible="state != 'sent' or create_uid == uid" icon="fa-refresh"/>
+                <button name="get_formview_action" string="Details" type="object" groups="sign.group_sign_user" invisible="state != 'canceled'" icon="fa-info"/>
+                <button name="get_sign_request_documents" invisible="state != 'signed'" string="Download" type="object" icon="fa-download"/>
+                <button name="go_to_signable_document" string="Sign" type="object" invisible="not need_my_signature or state != 'sent'" icon="fa-pencil-square-o"/>
+            </list>

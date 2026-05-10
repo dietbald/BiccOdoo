@@ -1,0 +1,10 @@
+<search string="Asset Model">
+                <field name="name"/>
+                <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                <group>
+                        <filter string="Fixed Asset Account" name="account_asset_id" domain="[]" context="{'group_by':'account_asset_id'}"/>
+                        <filter string="Depreciation Account" name="account_depreciation_id" domain="[]" context="{'group_by':'account_depreciation_id'}"/>
+                        <filter string="Expense Account" name="account_depreciation_expense_id" domain="[]" context="{'group_by':'account_depreciation_expense_id'}"/>
+                        <filter string="Journal" name="journal_id" domain="[]" context="{'group_by':'journal_id'}"/>
+                </group>
+            </search>

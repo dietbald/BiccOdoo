@@ -1,0 +1,8 @@
+<list decoration-danger="state != 'connected'" create="false">
+                    <field name="name" readonly="1"/>
+                    <field name="state"/>
+                    <field name="provider_type" readonly="1"/>
+                    <field name="last_refresh" readonly="1"/>
+                    <field name="next_refresh" readonly="1" optional="hide"/>
+                    <field name="company_id" groups="base.group_multi_company" readonly="1" optional="hide"/>
+                </list>

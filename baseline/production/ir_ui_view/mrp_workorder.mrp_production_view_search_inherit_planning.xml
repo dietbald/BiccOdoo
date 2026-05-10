@@ -1,0 +1,3 @@
+<filter name="filter_planned" position="attributes">
+                <attribute name="domain">[('is_planned', '=', True)]</attribute>
+            </filter>

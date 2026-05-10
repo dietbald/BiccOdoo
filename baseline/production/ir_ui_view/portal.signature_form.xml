@@ -1,0 +1,4 @@
+<t name="Ask Signature" t-name="portal.signature_form">
+        <t t-set="signature_form_props" t-value="{             'callUrl': call_url,             'defaultName': default_name,             'mode': mode,             'sendLabel': send_label,             'signatureRatio': signature_ratio,             'signatureType': signature_type,             'fontColor': font_color         }"/>
+        <owl-component name="portal.signature_form" t-att-props="json.dumps(signature_form_props)"/>
+    </t>

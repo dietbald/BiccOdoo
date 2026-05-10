@@ -1,0 +1,3 @@
+<t name="Search" t-name="website.s_searchbar_input">
+    <t t-call="website.website_search_box_input" search_type.f="all" action.f="/website/search" limit.f="5" display_image.f="true" display_description.f="true" display_extra_link.f="true" display_detail.f="true" default_style="True"/>
+</t>

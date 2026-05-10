@@ -1,0 +1,37 @@
+<activity string="Documents" js_class="documents_activity">
+                <field name="folder_id" required="True"/>
+                <field name="access_token" invisible="1"/>
+
+                <!-- Load fields for the details panel -->
+                <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
+                <field name="partner_id"/>
+                <field name="owner_id"/>
+                <field name="type"/>
+                <field name="file_size"/>
+                <field name="company_id"/>
+                <field name="id"/>
+                <field name="active"/>
+                <field name="user_permission"/>
+                <field name="attachment_id"/>
+                <field name="res_id"/>
+                <field name="res_model"/>
+                <field name="res_model_name"/>
+                <field name="res_name"/>
+                <field name="shortcut_document_id"/>
+                <field name="mimetype"/>
+                <field name="access_url"/>
+                <field name="alias_email"/>
+                <field name="alias_name"/>
+                <field name="alias_domain_id"/>
+                <field name="alias_tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
+                <field name="mail_alias_domain_count"/>
+
+                <templates>
+                    <div t-name="activity-box">
+                        <field name="owner_id" widget="many2one_avatar_user"/>
+                        <div>
+                            <field class="o_text_block" name="name" display="full" required="True"/>
+                        </div>
+                    </div>
+                </templates>
+            </activity>

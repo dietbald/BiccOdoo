@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:48Z",
+  "id": 4577,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reconciled Bills",
+    "relation": "account.move",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "5ef6e68573c2af82d2e0017582bbcd6f42ce172dba4f3a8d9e5ebb695fb3975f",
+  "write_date": "",
+  "xml_id": "account.field_account_payment__reconciled_bill_ids"
+}

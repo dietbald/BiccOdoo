@@ -1,0 +1,8 @@
+<t name="Portal Record Pager" t-name="portal.record_pager">
+        <t t-if="prev_record or next_record">
+            <div class="record_pager btn-group" role="group">
+                <a role="button" t-att-class="'btn btn-light %s' % ('disabled' if not prev_record else '')" t-att-href="prev_record or '#'"><i class="oi oi-chevron-left" role="img" aria-label="Previous" title="Previous"/></a>
+                <a role="button" t-att-class="'btn btn-light %s' % ('disabled' if not next_record else '')" t-att-href="next_record or '#'"><i class="oi oi-chevron-right" role="img" aria-label="Next" title="Next"/></a>
+            </div>
+        </t>
+    </t>

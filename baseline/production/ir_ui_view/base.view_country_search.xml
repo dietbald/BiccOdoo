@@ -1,0 +1,4 @@
+<search string="Countries">
+                    <field name="name" filter_domain="['|', ('name', 'ilike', self), ('code', 'ilike', self)]"/>
+                    <field name="phone_code"/>
+                </search>

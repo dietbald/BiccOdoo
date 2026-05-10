@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='task_id']" position="after">
+                    <field name="so_line" type="row" invisible="1" widget="timesheet_many2one"/>
+                </xpath>

@@ -1,0 +1,3 @@
+<field name="department_id" position="after">
+                <field name="applicant_matching_score" widget="progressbar" groups="hr_recruitment.group_hr_recruitment_interviewer" invisible="not applicant_matching_score" column_invisible="not context.get('active_applicant_id')"/>
+            </field>

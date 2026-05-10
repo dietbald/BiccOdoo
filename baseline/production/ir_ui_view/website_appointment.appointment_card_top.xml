@@ -1,0 +1,13 @@
+<t t-name="website_appointment.appointment_card_top">
+        <div class="card-img-top position-relative">
+            <a t-attf-href="/appointment/#{appointment.id}?#{keep_query('filter_appointment_type_ids', 'filter_staff_user_ids', 'filter_resource_ids', 'invite_token')}" t-attf-title="Book {{appointment.name}}">
+                <div t-field="appointment.image_1920" class="d-block h-100 w-100 overflow-hidden ratio ratio-16x9 object-fit-cover" t-options="{'widget': 'image', 'class': 'object-fit-cover', 'preview_image': 'image_512'}"/>
+            </a>
+            <small t-if="not appointment.website_published" class="o_appointment_unpublished badge bg-danger position-absolute top-0 end-0 mt-2 me-2" groups="base.group_user">
+                <i class="fa fa-ban me-2" role="presentation"/>Unpublished
+            </small>
+            <div t-if="appointment.schedule_based_on == 'users' and appointment.staff_user_ids" class="o_wappointment_card_staff_users position-absolute bottom-0 d-flex align-items-center">
+                <t t-if="len(appointment.staff_user_ids)" t-call="website_appointment.appointment_booking_resource_description"/>
+            </div>
+        </div>
+    </t>

@@ -1,0 +1,42 @@
+<search string="Expense">
+                    <!-- Search -->
+                    <field name="name" filter_domain="[('name', 'ilike', self)]" string="Expense"/>
+                    <field name="department_id" filter_domain="[('department_id.name', 'ilike', self)]"/>
+                    <field name="company_id" filter_domain="[('company_id.name', 'ilike', self)]" groups="base.group_multi_company"/>
+                    <field name="employee_id" filter_domain="[('employee_id.name', 'ilike', self)]"/>
+
+                    <!-- Filters -->
+                    <filter string="My Expenses" name="my_open_expenses" domain="[('employee_id.user_id', '=', uid)]"/>
+                    <filter string="My Team" name="my_team_expenses" domain="[('employee_id.parent_id.user_id', '=', uid)]" groups="hr_expense.group_hr_expense_team_approver" help="Expenses of Your Team Member"/>
+                    <separator/>
+                    <filter string="Paid by Company" name="by_company" domain="[('payment_mode', '=', 'company_account')]"/>
+                    <filter string="Paid by Employee" name="by_employee" domain="[('payment_mode', '=', 'own_account')]"/>
+                    <separator/>
+                    <filter string="To Submit" name="draft" domain="[('state', '=', 'draft')]"/>
+                    <filter string="Waiting Approval" name="submitted" domain="[('state', '=', 'submitted')]"/>
+                    <filter string="To Post" name="approved" domain="[('state', '=', 'approved')]"/>
+                    <filter string="Waiting Reimbursement" name="to_pay" domain="[('state', '=', 'approved'), ('payment_mode', '=', 'own_account')]"/>
+                    <separator/>
+                    <filter string="Expense Date" name="date" date="date"/>
+                    <separator/>
+                    <!-- Invisible filters -->
+                    <filter string="All to Post" name="all_approved" domain="[('state', '=', 'approved')]" invisible="True"/>
+                    <filter string="All to Pay" name="all_to_pay" domain="[('state', '=', 'posted'), ('payment_mode', '=', 'own_account')]" invisible="True"/>
+                    <filter string="All Paid" name="all_paid" domain="[('state', 'in', ['in_payment', 'paid']), ('payment_mode', '=', 'own_account')]" invisible="True"/>
+
+                    <filter invisible="1" string="My Activities" name="filter_activities_my" domain="[('activity_user_id', '=', uid)]"/>
+                    <separator invisible="1"/>
+                    <filter invisible="1" string="Late Activities" name="activities_overdue" domain="[('my_activity_date_deadline', '&lt;', 'today')]" help="Show all records whose next activity date is past"/>
+                    <filter invisible="1" string="Today Activities" name="activities_today" domain="[('my_activity_date_deadline', '=', 'today')]"/>
+                    <filter invisible="1" string="Future Activities" name="activities_upcoming_all" domain="[('my_activity_date_deadline', '&gt;', 'today')]"/>
+
+                    <!-- Group bys -->
+                    <group name="group_filters">
+                        <filter string="Employee" name="employee" domain="[]" context="{'group_by': 'employee_id'}"/>
+                        <filter string="Category" name="product" domain="[]" context="{'group_by': 'product_id'}"/>
+                        <filter string="Status" name="status" domain="[]" context="{'group_by': 'state'}"/>
+                        <filter string="Expense Date" name="expensesmonth" domain="[]" context="{'group_by': 'date'}" help="Expense Date"/>
+                        <filter string="Company" name="company" domain="[]" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                        <filter string="Department" name="department" domain="[]" context="{'group_by': 'department_id'}"/>
+                    </group>
+                </search>

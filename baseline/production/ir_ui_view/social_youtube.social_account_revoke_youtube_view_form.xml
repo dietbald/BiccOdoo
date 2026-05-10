@@ -1,0 +1,13 @@
+<form string="Revoke YouTube Account">
+                    <div class="alert alert-warning" role="alert">
+                        Odoo will lose access to your YouTube account
+                        and delete all its related data from your database.
+                    </div>
+                    <group>
+                        <field name="account_id"/>
+                    </group>
+                    <footer>
+                        <button string="Revoke &amp; Delete" name="action_revoke" type="object" class="btn-primary" data-hotkey="q"/>
+                        <button string="Cancel" class="btn-secondary" special="cancel" data-hotkey="x"/>
+                    </footer>
+                </form>

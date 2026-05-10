@@ -1,0 +1,11 @@
+<t t-name="mrp.report_bom_structure">
+        <t t-set="data_report_landscape" t-value="True"/>
+        <t t-call="web.basic_layout">
+            <t t-foreach="docs" t-as="data">
+                <div class="page">
+                    <t t-call="mrp.report_mrp_bom"/>
+                </div>
+                <p style="page-break-before:always;"> </p>
+            </t>
+        </t>
+    </t>

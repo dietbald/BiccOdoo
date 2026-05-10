@@ -1,0 +1,6 @@
+<search>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <group>
+                    <filter string="Company" name="filter_company_id" groups="base.group_multi_company" context="{'group_by':'company_id'}"/>
+                </group>
+            </search>

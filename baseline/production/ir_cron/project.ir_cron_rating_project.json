@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 32,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._send_rating_all()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "77f58a4ca0433e982afdca3c8c0f496fcdd0c209c88b5859621a6788ad8a0b5a",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "project.ir_cron_rating_project"
+}

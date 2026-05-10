@@ -1,0 +1,13 @@
+<list string="Mailing Traces" create="0">
+                <field name="mass_mailing_id"/>
+                <field name="email"/>
+                <field name="message_id"/>
+                <field name="sent_datetime"/>
+                <field name="links_click_datetime"/>
+                <field name="trace_status" widget="badge"/>
+                <field name="failure_type" optional="show"/>
+                <field name="open_datetime" optional="hide"/>
+                <field name="reply_datetime" optional="hide"/>
+                <field name="is_test_trace" optional="hide"/>
+                <button name="action_view_contact" type="object" string="Open Recipient" icon="fa-user"/>
+            </list>

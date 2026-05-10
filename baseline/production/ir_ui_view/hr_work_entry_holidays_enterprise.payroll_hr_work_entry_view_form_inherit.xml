@@ -1,0 +1,10 @@
+<data><xpath expr="//field[@name='state']" position="before">
+                <field name="leave_state" invisible="1"/>
+                <button string="Refuse Time Off" name="action_refuse_leave" type="object" invisible="state != 'conflict' or not leave_id"/>
+                <button string="Approve Time Off" name="action_approve_leave" type="object" invisible="state != 'conflict' or not leave_id or leave_state == 'validate'"/>
+            </xpath>
+            <xpath expr="//field[@name='work_entry_type_id']" position="after">
+                <field name="leave_id" invisible="not leave_id"/>
+                <field name="version_id" invisible="1"/>
+            </xpath>
+        </data>

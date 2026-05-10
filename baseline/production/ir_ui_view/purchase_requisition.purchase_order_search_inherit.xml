@@ -1,0 +1,7 @@
+<data><field name="product_id" position="after">
+                <field name="requisition_id"/>
+            </field>
+            <filter name="representative" position="after">
+                <filter string="Agreement" name="requisition" domain="[]" context="{'group_by': 'requisition_id'}"/>
+            </filter>
+        </data>

@@ -1,0 +1,5 @@
+<search>
+                <field name="name" string="Topic" filter_domain="['|', ('name', 'ilike', self), ('description', 'ilike', self)]"/>
+                <field name="instructions"/>
+                <field name="tool_ids"/>
+            </search>

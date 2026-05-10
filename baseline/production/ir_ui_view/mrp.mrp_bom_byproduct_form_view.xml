@@ -1,0 +1,15 @@
+<form string="Byproduct">
+                    <group>
+                        <field name="allowed_operation_ids" invisible="1"/>
+                        <field name="company_id"/>
+                        <field name="product_id"/>
+                        <label for="product_qty"/>
+                        <div class="o_row">
+                            <field name="product_qty"/>
+                            <field name="product_uom_id" groups="uom.group_uom" widget="many2one_uom"/>
+                        </div>
+                        <field name="operation_id" groups="mrp.group_mrp_routings" options="{'no_quick_create':True,'no_create_edit':True}"/>
+                        <field name="possible_bom_product_template_attribute_value_ids" invisible="1"/>
+                        <field name="bom_product_template_attribute_value_ids" widget="many2many_tags" options="{'no_create': True}" groups="product.group_product_variant"/>
+                    </group>
+                </form>

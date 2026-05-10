@@ -1,0 +1,20 @@
+<form string="Share Availabilities" js_class="appointment_type_view_form_custom_share">
+                <sheet>
+                    <div>
+                        <label for="name"/>
+                        <h1><field name="name" placeholder="e.g. &quot;Technical Demo&quot;" class="w-100"/></h1>
+                    </div>
+                    <group>
+                        <field name="staff_user_ids" widget="many2many_avatar_user" required="1"/>
+                        <field name="location_id" context="{'show_address': True, 'default_is_company': True}" domain="[('is_company', '=', True)]" placeholder="Online Meeting"/>
+                        <field name="event_videocall_source" placeholder="None"/>
+                        <field name="allow_guests"/>
+                    </group>
+                    <group>
+                        <label for="message_intro" string="Introduction Message" colspan="2"/>
+                        <field name="message_intro" nolabel="1" colspan="2" placeholder="e.g. &quot;During this meeting, we will...&quot;"/>
+                        <label for="message_confirmation" string="Extra Message on Confirmation" colspan="2"/>
+                        <field name="message_confirmation" nolabel="1" colspan="2" placeholder="e.g. &quot;Thank you for your trust, we look forward to meeting you!&quot;"/>
+                    </group>
+                </sheet>
+            </form>

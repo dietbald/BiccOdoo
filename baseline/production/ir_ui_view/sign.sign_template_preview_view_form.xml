@@ -1,0 +1,8 @@
+<form>
+                <group>
+                    <field name="pdf_data" widget="pdf_viewer" nolabel="1" readonly="1"/>
+                </group>
+                <footer>
+                    <button string="Close" class="btn-primary" special="cancel"/>
+                </footer>
+            </form>

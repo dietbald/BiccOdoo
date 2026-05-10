@@ -1,0 +1,8 @@
+<data inherit_id="quality_control.worksheet_page">
+            <xpath expr="//t[@name='origin']" position="inside">
+                <div name="production_order" t-if="doc.production_id">
+                    <strong>Manufacturing Order: </strong>
+                    <span t-field="doc.production_id.display_name"/>
+                </div>
+            </xpath>
+        </data>

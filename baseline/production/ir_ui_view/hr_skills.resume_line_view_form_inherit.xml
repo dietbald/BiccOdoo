@@ -1,0 +1,7 @@
+<data><xpath expr="//field[@name='course_type']" position="before">
+                <field name="employee_id" string="Employee" invisible="not is_course"/>
+            </xpath>
+            <xpath expr="//label[@id='date_start_label']" position="before">
+                <field name="employee_id" string="Employee" invisible="is_course"/>
+            </xpath>
+        </data>

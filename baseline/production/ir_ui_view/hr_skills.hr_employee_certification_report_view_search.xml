@@ -1,0 +1,14 @@
+<search>
+                <field name="employee_id"/>
+                <field name="department_id"/>
+                <field name="skill_id" string="Certification"/>
+                <field name="skill_type_id" string="Certification Type"/>
+                <separator/>
+                <filter string="Expired Certification" name="archived" domain="[('active', '=', False)]"/>
+                <separator/>
+                <filter string="Employee" name="employee" context="{'group_by': 'employee_id'}"/>
+                <filter string="Department" name="department" context="{'group_by': 'department_id'}"/>
+                <separator/>
+                <filter string="Certification Type" name="skill_type" context="{'group_by': 'skill_type_id'}"/>
+                <filter string="Certification" name="skill" context="{'group_by': 'skill_id'}"/>
+            </search>

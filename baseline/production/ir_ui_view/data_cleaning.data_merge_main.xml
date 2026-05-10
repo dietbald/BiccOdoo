@@ -1,0 +1,12 @@
+<t t-name="data_cleaning.data_merge_main">
+        <t t-esc="res_model_label"/>
+        <a t-if="archived" t-att-data-oe-model="res_model_name" t-att-data-oe-id="res_id" href="#"><t t-esc="merged_record"/></a>
+        <t t-else="" t-esc="merged_record"/>
+        merged into this one
+
+        <blockquote class="border-start" data-o-mail-quote="1">
+            <ul t-if="changes">
+                <li t-foreach="changes" t-as="change"><strong><t t-esc="change"/>:</strong> <t t-esc="changes[change]"/> </li>
+            </ul>
+        </blockquote>
+    </t>

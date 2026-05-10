@@ -1,0 +1,13 @@
+<data><list position="attributes">
+                <attribute name="string">Quotations</attribute>
+            </list>
+            <field name="date_order" position="replace">
+                <field name="create_date" string="Creation Date" optional="show"/>
+            </field>
+            <field name="state" position="attributes">
+                <attribute name="optional">show</attribute>
+            </field>
+            <field name="invoice_status" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+        </data>

@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 20,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.run_update_currency()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "fb6243739fc8aab7435423e0cba05c53b1321efbb92045c20d37a5b25831e6e6",
+  "write_date": "2025-12-09 02:57:57",
+  "xml_id": "currency_rate_live.ir_cron_currency_update"
+}

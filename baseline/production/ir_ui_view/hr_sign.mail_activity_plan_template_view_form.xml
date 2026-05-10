@@ -1,0 +1,6 @@
+<field name="activity_type_id" position="after">
+                <field name="is_signature_request" invisible="1"/>
+                <field name="sign_template_responsible_ids" invisible="1"/>
+                <field name="sign_template_id" invisible="not is_signature_request" required="is_signature_request"/>
+                <field name="employee_role_id" options="{'no_create': True}" invisible="not is_signature_request" required="is_signature_request"/>
+            </field>

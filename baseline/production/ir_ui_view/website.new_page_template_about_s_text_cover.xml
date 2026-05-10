@@ -1,0 +1,15 @@
+<data inherit_id="website.new_page_template_s_text_cover" primary="True">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_full_screen_height" separator=" "/>
+    </xpath>
+    <xpath expr="//h1" position="replace">
+        <h1>Hello, I'm Tony Fred</h1>
+    </xpath>
+    <xpath expr="//p" position="replace">
+        <p class="lead">Experienced fullstack developer.</p>
+    </xpath>
+    <xpath expr="//p" position="after">
+        <t t-snippet-call="website.s_social_media" string="Social"/>
+        <t t-snippet-call="website.s_hr" string="Separator"/>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.new_page_template_about_s_text_cover</attribute></xpath></data>

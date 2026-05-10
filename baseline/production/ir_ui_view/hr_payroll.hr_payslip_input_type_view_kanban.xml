@@ -1,0 +1,8 @@
+<kanban>
+                <templates>
+                    <t t-name="card">
+                        <field name="name" class="fw-bold fs-5"/>
+                        <field name="code" class="text-muted"/>
+                    </t>
+                </templates>
+            </kanban>

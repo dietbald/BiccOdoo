@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 3,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.process_email_queue()",
+    "interval_number": 1,
+    "interval_type": "minutes"
+  },
+  "payload_sha256": "3f13acc192614f80b7ecf9085d48f9d044f35a493449363f0efd8990bc9ba99a",
+  "write_date": "2026-04-28 07:50:09",
+  "xml_id": "mail.ir_cron_mail_scheduler_action"
+}

@@ -1,0 +1,10 @@
+<data><xpath expr="//form" position="attributes">
+                <attribute name="js_class">appointment_insert_link_form</attribute>
+            </xpath>
+            <xpath expr="//footer" position="replace">
+                <footer>
+                    <button string="Insert link" class="btn btn-primary o_book_url_save" special="save" close="1"/>
+                    <button string="Discard" class="btn btn-secondary o_book_url_discard" special="cancel" close="1"/>
+                </footer>
+            </xpath>
+        </data>

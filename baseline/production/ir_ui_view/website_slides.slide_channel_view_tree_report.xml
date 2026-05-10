@@ -1,0 +1,9 @@
+<list string="Courses" create="false" default_order="total_views desc" sample="1">
+                    <field name="name"/>
+                    <field name="user_id" widget="many2one_avatar_user"/>
+                    <field name="total_views" string="# Views"/>
+                    <field name="rating_avg_stars" string="Average Review"/>
+                    <field name="total_time" string="Total Duration" widget="float_time" sum="Total Duration"/>
+                    <field name="members_count" string="# Attendees" sum="Total Attendees"/>
+                    <field name="members_completed_count" string="# Completed" sum="Total Completed"/>
+                </list>

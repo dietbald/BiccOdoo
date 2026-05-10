@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-05-10T05:51:43Z",
+  "id": 17,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1779
+    ],
+    "active": true,
+    "filter_domain": "[\"&\", \"&\", (\"partner_id\", \"!=\", False), (\"partner_id.email\", \"!=\", False), (\"email_from\", \"=\", False)]",
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "Partner's Email to Job Applicant's Email",
+    "trigger": "on_create"
+  },
+  "payload_sha256": "241a4e46b891f0f66a4b152b7ef25f634568e22dad095d0832154a1374c4c2be",
+  "write_date": "2026-02-17 08:59:00",
+  "xml_id": null
+}

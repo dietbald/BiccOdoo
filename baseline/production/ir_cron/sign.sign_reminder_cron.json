@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 43,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_reminder()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "bb8f9bf3521b4c4402c9e4141d99ae9163641f5990357ca4fca792ec63877920",
+  "write_date": "2025-12-09 02:56:25",
+  "xml_id": "sign.sign_reminder_cron"
+}

@@ -1,0 +1,10 @@
+<list string="Headcount's Employees">
+                <field name="employee_id" widget="many2one_avatar_employee"/>
+                <field name="department_id" widget="many2one"/>
+                <field name="job_id" widget="many2one"/>
+                <field name="currency_id" column_invisible="True"/>
+                <field name="wage_on_payroll"/>
+                <field name="employee_type" optional="hide"/>
+                <field name="version_names" optional="hide"/>
+                <field name="working_rate_ids" widget="many2many_tags" options="{'color_field': 'color'}" optional="hide"/>
+            </list>

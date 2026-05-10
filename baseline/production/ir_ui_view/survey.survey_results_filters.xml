@@ -1,0 +1,64 @@
+<t name="Survey: Filter results" t-name="survey.survey_results_filters">
+        <t t-set="search_passed_or_failed" t-value="search_failed or search_passed"/>
+        <div class="question_and_page_data o_survey_result p-0">
+            <nav class="navbar navbar-light rounded p-0">
+                <div t-if="question_and_page_data" class="justify-content-between w-100">
+                    <ul class="nav o_survey_results_topbar_dropdown_filters align-items-center">
+                        <t t-set="dropdown_item_classes" t-translation="off">dropdown-item d-flex align-items-center justify-content-between</t>
+                        <li class="nav-item dropdown me-2 my-1">
+                            <a href="#" role="button" data-bs-toggle="dropdown" t-attf-class="btn btn-outline-primary dropdown-toggle #{'active' if search_finished else ''}">
+                                <span t-if="search_finished">Completed surveys</span>
+                                <span t-else="">All surveys</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a t-attf-class="#{dropdown_item_classes} filter-finished-or-not #{'active' if not search_finished else ''}">
+                                    <span>All surveys</span>
+                                    <span t-if="not search_finished" t-esc="survey_data['count_all']" class="badge rounded-pill text-bg-primary ms-3"/>
+                                </a>
+                                <a t-attf-class="#{dropdown_item_classes} filter-finished #{'active' if search_finished else ''}">
+                                    <span>Completed surveys</span>
+                                    <span t-if="not search_finished" t-esc="survey_data['count_finished']" class="badge rounded-pill text-bg-primary ms-3"/>
+                                </a>
+                            </div>
+                        </li>
+                        <li t-if="survey.scoring_type != 'no_scoring'" class="nav-item dropdown me-2 my-1">
+                            <a href="#" role="button" data-bs-toggle="dropdown" t-attf-class="btn btn-outline-primary dropdown-toggle #{'active' if search_passed_or_failed else ''}">
+                                <span t-if="search_failed">Failed only</span>
+                                <span t-elif="search_passed">Passed only</span>
+                                <span t-else="">Passed and Failed</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a t-attf-class="#{dropdown_item_classes} filter-passed-and-failed #{'active' if not search_passed_or_failed else ''}">
+                                    <span>Passed and Failed</span>
+                                    <span t-if="not search_passed_or_failed" t-esc="survey_data['count_all']" class="badge rounded-pill text-bg-primary ms-3"/>
+                                </a>
+                                <a t-attf-class="#{dropdown_item_classes} filter-passed #{'active' if search_passed else ''}">
+                                    <span>Passed only</span>
+                                    <span t-if="not search_passed_or_failed" t-esc="survey_data['count_passed']" class="badge rounded-pill text-bg-primary ms-3"/>
+                                </a>
+                                <a t-attf-class="#{dropdown_item_classes} filter-failed #{'active' if search_failed else ''}">
+                                    <span>Failed only</span>
+                                    <span t-if="not search_passed_or_failed" t-esc="survey_data['count_failed']" class="badge rounded-pill text-bg-primary ms-3"/>
+                                </a>
+                            </div>
+                        </li>
+                        <li t-if="search_filters or search_finished or search_passed_or_failed" class="my-2">
+                            <span class="o_survey_results_topbar_clear_filters text-primary">
+                                <i class="fa fa-trash me-1"/>Remove all filters
+                            </span>
+                        </li>
+                    </ul>
+                    <ul class="nav o_survey_results_topbar_answer_filters">
+                        <t t-if="search_filters">
+                            <li t-foreach="search_filters" t-as="filter_data" class="nav-item me-2 my-1">
+                                <span t-attf-class="btn btn-light filter-remove-answer cursor-default">
+                                    <span t-esc="filter_data['question']"/> | <span t-esc="filter_data['answer']"/>
+                                    <i class="fa fa-times filter-remove-answer text-primary" t-att-data-model-short-key="filter_data['model_short_key']" t-att-data-row-id="filter_data['row_id']" t-att-data-record-id="filter_data['record_id']"/>
+                                </span>
+                            </li>
+                        </t>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </t>

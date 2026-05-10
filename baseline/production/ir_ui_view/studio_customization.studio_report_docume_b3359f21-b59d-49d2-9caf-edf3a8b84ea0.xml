@@ -1,0 +1,53 @@
+<t t-name="studio_report_document">
+                    <t t-call="web.external_layout">
+                        <t t-set="doc" t-value="doc.with_context(lang=doc.partner_id.lang)"/>
+                          <div class="page">
+                            
+                            <div class="oe_structure"/>
+                        
+                                    <!-- Letter Header -->
+            <h2 class="text-center">LETTER OF INTENT</h2>
+            <p>Good day!</p>
+            <p>
+                I, <strong>Cyril Hanson Cembrano</strong>, Authorized Managing Officer of 
+                <strong><span t-field="doc.company_id.name"/></strong>, located in 
+                <strong><span t-field="doc.company_id.street"/> <span t-field="doc.company_id.city"/>, 
+                <span t-field="doc.company_id.state_id.name"/></strong>, with my Office Staff, 
+                <strong><span t-field="doc.user_id.name" t-if="doc.user_id"/></strong>, would like to attend the Pre-Bid / Bid meeting, Site Inspection, and to purchase Bidding Documents with the following details:
+            </p>
+
+ <!-- Project Details Table -->
+            <table class="table table-bordered mt-4">
+                <tbody>
+                    <tr>
+                        <th>NAME OF PROJECT:</th>
+                        <td><span t-field="doc.name"/></td>
+                    </tr>
+                    <tr>
+                        <th>REFERENCE NUMBER:</th>
+                        
+                    </tr>
+                    <tr>
+                        <th>PROCURING ENTITY:</th>
+                        <td><span t-field="doc.partner_id.name"/></td>
+                    </tr>
+                    <tr>
+                        <th>ABC:</th>
+                        <td><span t-field="doc.expected_revenue"/></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            
+                        <!-- Closing -->
+            <p>Sincerely,</p>
+
+            <p><strong>Cyril Hanson Cembrano</strong><br/>
+            Authorized Managing Officer<br/>
+            <strong><span t-field="doc.company_id.name"/></strong><br/>
+            <span t-field="doc.company_id.street"/> <span t-field="doc.company_id.city"/>, 
+            <span t-field="doc.company_id.state_id.name"/></p>
+            
+                        </div>
+                    </t>
+                </t>

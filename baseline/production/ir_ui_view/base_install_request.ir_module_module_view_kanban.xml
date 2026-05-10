@@ -1,0 +1,3 @@
+<button name="button_immediate_install" position="after">
+                <button type="object" class="btn btn-primary btn-sm" name="action_open_install_request" invisible="state != 'uninstalled'" t-if="!record.to_buy.raw_value" groups="!base.group_system">Request Access</button>
+            </button>

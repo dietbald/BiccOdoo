@@ -1,0 +1,16 @@
+<form>
+                    <group>
+                        <group>
+                            <field name="user_id"/>
+                            <field name="display_name" string="Name"/>
+                            <field name="ip_address" string="Last IP Address"/>
+                        </group>
+                        <group>
+                            <field name="first_activity"/>
+                            <field name="last_activity"/>
+                        </group>
+                        <group>
+                            <field name="linked_ip_addresses"/>
+                        </group>
+                    </group>
+                </form>

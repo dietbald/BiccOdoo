@@ -1,0 +1,33 @@
+<form string="Salary Package Personal Info">
+                <sheet>
+                    <div class="oe_title">
+                        <label for="name" string="Information"/>
+                        <h1><field name="name" placeholder="e.g. Birthdate"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="applies_on" string="Related Model" required="1"/>
+                            <field name="res_field_id" options="{'no_create': True, 'no_edit': True, 'no_open': True}"/>
+                            <field name="res_model" invisible="1"/>
+                            <field name="field" invisible="1"/>
+                            <field name="info_type_id" string="Category"/>
+                            <field name="placeholder"/>
+                            <field name="helper"/>
+                            <field name="is_required"/>
+                        </group>
+                        <group>
+                            <field name="structure_type_id"/>
+                            <field name="display_type" required="1"/>
+                            <field name="dropdown_selection" invisible="display_type != 'dropdown'" required="display_type == 'dropdown'"/>
+                            <field name="value_ids" invisible="display_type not in ['dropdown', 'radio'] or dropdown_selection != 'specific'">
+                                <list editable="bottom">
+                                    <field name="sequence" widget="handle"/>
+                                    <field name="name"/>
+                                    <field name="value"/>
+                                </list>
+                            </field>
+                            <field name="impacts_net_salary" invisible="display_type in ['text', 'email', 'document']"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

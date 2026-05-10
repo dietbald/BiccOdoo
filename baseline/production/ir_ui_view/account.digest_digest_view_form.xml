@@ -1,0 +1,5 @@
+<xpath expr="//group[@name='kpis']/group[last()]" position="before">
+                <group name="kpi_account" string="Invoicing" groups="account.group_account_manager">
+                    <field name="kpi_account_total_revenue"/>
+                </group>
+            </xpath>

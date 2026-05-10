@@ -1,0 +1,67 @@
+<t name="Job Detail" track="1" t-name="website_hr_recruitment.detail">
+    <t t-call="website.layout">
+        <!-- Topbar -->
+        <nav class="navbar navbar-light border-top shadow-sm d-print-none">
+            <div class="container">
+                <div class="d-flex flex-column flex-md-row flex-md-wrap flex-lg-nowrap justify-content-between w-100">
+                    <!-- Title -->
+                    <span class="navbar-brand h4 my-0 me-auto">
+                        <a t-attf-href="/jobs">
+                            <i class="fa fa-long-arrow-left text-primary me-2"/>All Jobs
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+        <!-- Content -->
+        <div id="wrap" class="js_hr_recruitment">
+            <div itemscope="itemscope" itemtype="https://schema.org/JobPosting">
+                <meta t-if="job.contract_type_id" itemprop="employmentType" t-att-content="job.contract_type_id.sudo().name"/>
+                <meta t-if="job.published_date" itemprop="datePosted" t-att-content="job.published_date"/>
+                <meta itemprop="title" t-att-content="job.name"/>
+                <meta itemprop="directApply" content="true"/>
+                <span itemprop="hiringOrganization" itemscope="itemscope" itemtype="https://schema.org/Organization">
+                    <meta itemprop="name" t-att-content="job.company_id.name"/>
+                    <meta itemprop="logo" t-attf-content="/logo.png?company=#{job.company_id.id}"/>
+                </span>
+                <span t-if="job.address_id.sudo().contact_address" itemprop="jobLocation" itemscope="itemscope" itemtype="https://schema.org/Place">
+                    <meta itemprop="address" t-att-content="job.address_id.sudo().contact_address"/>
+                </span>
+                <t t-else="">
+                    <meta itemprop="jobLocationType" content="TELECOMMUTE"/>
+                    <span itemprop="applicantLocationRequirements" itemscope="itemscope" itemtype="https://schema.org/Country">
+                        <meta itemprop="name" t-att-content="job.company_id.country_id.name"/>
+                    </span>
+                </t>
+                <!-- Job name -->
+                <section class="pb32">
+                    <div class="container">
+                        <div class="mt32">
+                            <div class="row">
+                                <div class="col-md-9">
+                                    <h1 t-field="job.name"/>
+                                    <h5 class="fw-light o_not_editable" t-field="job.address_id" t-options="{                                         &quot;widget&quot;: &quot;contact&quot;,                                         &quot;fields&quot;: [&quot;city&quot;],                                         &quot;no_tag_br&quot;: True,                                         &quot;null_text&quot;: &quot;Remote&quot;                                     }"/>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="text-center">
+                                        <br/>
+                                        <a role="button" t-attf-href="/jobs/apply/#{slug(job)}" class="btn btn-primary btn-lg">Apply Now!</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Job Description -->
+                <div t-field="job.website_description"/>
+                <div class="oe_structure">
+                    <section class="o_job_bottom_bar mt24 mb48">
+                        <div class="text-center">
+                            <a role="button" t-attf-href="/jobs/apply/#{slug(job)}" class="btn btn-primary btn-lg">Apply Now!</a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </t>
+</t>

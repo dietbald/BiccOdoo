@@ -1,0 +1,5 @@
+<xpath expr="//page[@name='page_tracking']" position="after">
+                <page string="Ratings" name="page_rating">
+                    <field name="rating_ids"/>
+                </page>
+            </xpath>

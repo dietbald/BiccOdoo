@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:48Z",
+  "id": 5619,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Authorized Transactions",
+    "relation": "payment.transaction",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "86a2210e48a51cf66319c593191dda6185acac487fe38eac8888e5a99268f543",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_move__authorized_transaction_ids"
+}

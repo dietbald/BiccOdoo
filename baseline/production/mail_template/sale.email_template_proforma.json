@@ -1,0 +1,12 @@
+{
+  "exported_at": "2026-05-10T05:51:53Z",
+  "id": 90,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        <t t-set=\"doc_name\" t-value=\"'quotation' if object.state in ('draft', 'sent') else 'order'\"/>\n        Hello,\n        <br/><br/>\n        Your Pro forma invoice for <t t-out=\"doc_name or ''\">quotation</t> <span style=\"font-weight: bold;\" t-out=\"object.name or ''\">S00052</span>\n        <t t-if=\"object.origin\">\n            (with reference: <t t-out=\"object.origin or ''\"/> )\n        </t>\n        amounting in <span style=\"font-weight: bold;\" t-out=\"format_amount(object.amount_total, object.currency_id) or ''\">$ 10.00</span> is available.\n        <br/><br/>\n        Do not hesitate to contact us if you have any questions.\n        <t t-if=\"not is_html_empty(object.user_id.signature)\" data-o-mail-quote-container=\"1\">\n            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n        </t>\n    </p>\n</div>\n            ",
+    "subject": "{{ object.company_id.name }} {{ object.state in ('draft', 'sent') and 'Proforma' or 'Order'}} (Ref {{ object.name or 'n/a' }})"
+  },
+  "payload_sha256": "30889c90a3426e682109fbcea3766cc9046a38ea43fd3273331e22d13fb38fa3",
+  "write_date": "2025-03-24 00:45:03",
+  "xml_id": "sale.email_template_proforma"
+}

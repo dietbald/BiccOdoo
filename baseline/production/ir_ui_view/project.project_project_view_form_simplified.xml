@@ -1,0 +1,18 @@
+<form string="Project">
+                    <div class="oe_title mb-lg-3 mb-md-2">
+                        <label for="name" string="Name"/>
+                        <h1>
+                            <field name="name" class="o_project_name" placeholder="e.g. Office Party"/>
+                        </h1>
+                    </div>
+                    <field name="user_id" invisible="1"/>
+                    <div class="row o_settings_container"/>
+                    <div name="alias_def" class="mt-2" colspan="2">
+                        <label for="alias_name" string="Create tasks by email:"/>
+                        <span>
+                            <field name="alias_id" invisible="1"/>
+                            <field name="alias_name" placeholder="e.g. office-party"/>@
+                            <field name="alias_domain_id" class="oe_inline" placeholder="e.g. mycompany.com" options="{'no_create': True, 'no_open': True}"/>
+                        </span>
+                    </div>
+                </form>

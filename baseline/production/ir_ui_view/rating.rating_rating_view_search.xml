@@ -1,0 +1,26 @@
+<search string="Ratings">
+                    <field name="rated_partner_id"/>
+                    <field name="rating"/>
+                    <field name="partner_id"/>
+                    <field name="res_name" filter_domain="[('res_name','ilike',self)]"/>
+                    <field name="res_id"/>
+                    <field name="parent_res_name" filter_domain="[('parent_res_name','ilike',self)]"/>
+                    <filter string="My Ratings" name="my_ratings" domain="[('rated_partner_id.user_ids', 'in', [uid])]"/>
+                    <separator/>
+                    <filter string="Happy" name="rating_happy" domain="[('rating_text', '=', 'top')]"/>
+                    <filter string="Neutral" name="rating_okay" domain="[('rating_text', '=', 'ok')]"/>
+                    <filter string="Unhappy" name="rating_unhappy" domain="[('rating_text', '=', 'ko')]"/>
+                    <separator/>
+                    <filter name="filter_rated_on" string="Rated On" date="rated_on">
+                        <filter name="rated_on_last_7_days" string="Last 7 Days" domain="[('rated_on', '&gt;', 'today -7d +1d')]"/>
+                        <filter name="rated_on_last_30_days" string="Last 30 Days" domain="[('rated_on', '&gt;', 'today -30d +1d')]"/>
+                        <filter name="rated_on_last_365_days" string="Last 365 Days" domain="[('rated_on', '&gt;', 'today -365d +1d')]"/>
+                    </filter>
+                    <group>
+                        <filter string="Rated Operator" name="responsible" context="{'group_by':'rated_partner_id'}"/>
+                        <filter string="Customer" name="customer" context="{'group_by':'partner_id'}"/>
+                        <filter string="Rating" name="rating_text" context="{'group_by':'rating_text'}"/>
+                        <filter string="Resource" name="resource" context="{'group_by':'res_name'}"/>
+                        <filter string="Submitted on" name="month" context="{'group_by': 'rated_on:month'}"/>
+                    </group>
+                </search>

@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 82,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_generate_or_refresh_all_returns()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "b232abd1f57d39b16019c4aa97aa93177fe7ad1535672e9d12224ebe0101d566",
+  "write_date": "2025-12-09 02:59:10",
+  "xml_id": "account_reports.ir_cron_generate_account_return"
+}

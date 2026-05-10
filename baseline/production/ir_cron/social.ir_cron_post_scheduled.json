@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 64,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_publish_scheduled()",
+    "interval_number": 1,
+    "interval_type": "hours"
+  },
+  "payload_sha256": "1a4c532e1639643a7bb38dcd280028dc8a870d8d44f962fa31c26102e14dbae1",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "social.ir_cron_post_scheduled"
+}

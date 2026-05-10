@@ -1,0 +1,89 @@
+<t t-name="sign.green_report_container_pdf">
+        <h1 class="text-center">Green Savings Report</h1>
+        <section t-attf-class="green-savings-page-pdf">
+            <div class="row align-items-stretch pt-4">
+                <!-- Paper Savings -->
+                <t t-call="sign.green_report_el_pdf">
+                    <t t-set="green_report_el_id" t-value="'water'"/>
+                    <t t-set="green_report_el_color" t-value="'success'"/>
+                    <t t-set="green_report_el_img" t-value="'paper_savings'"/>
+                    <t t-set="green_report_el_fa" t-value="'recycle'"/>
+                    <t t-set="green_report_el_title">Paper Savings</t>
+                    <t t-set="green_report_el_type" t-value="sheets_sum"/>
+                    <t t-set="green_report_el_text">sheets of paper saved</t>
+                </t>
+
+                <!-- Water -->
+                <t t-call="sign.green_report_el_pdf">
+                    <t t-set="green_report_el_id" t-value="'water'"/>
+                    <t t-set="green_report_el_color" t-value="'primary'"/>
+                    <t t-set="green_report_el_img" t-value="'water'"/>
+                    <t t-set="green_report_el_fa" t-value="'tint'"/>
+                    <t t-set="green_report_el_title" t-value="'Water'"/>
+                    <t t-set="green_report_el_type" t-value="water"/>
+                    <t t-set="green_report_el_text">L of water saved</t>
+                    <t t-set="green_report_el_waste" t-value="showers"/>
+                    <t t-set="green_report_el_waste_text_1">showers</t>
+                    <t t-set="green_report_el_waste_text_2">shower</t>
+                </t>
+            </div>
+            <div class="row align-items-stretch pt-4">
+                <!-- Wood -->
+                <t t-call="sign.green_report_el_pdf">
+                    <t t-set="green_report_el_id" t-value="'wood'"/>
+                    <t t-set="green_report_el_color" t-value="'success'"/>
+                    <t t-set="green_report_el_img" t-value="'wood_3'"/>
+                    <t t-set="green_report_el_fa" t-value="'tree'"/>
+                    <t t-set="green_report_el_title">Wood</t>
+                    <t t-set="green_report_el_type" t-value="wood"/>
+                    <t t-set="green_report_el_text">kg of wood saved</t>
+                    <t t-set="green_report_el_waste" t-value="trees"/>
+                    <t t-set="green_report_el_waste_text_1">trees</t>
+                    <t t-set="green_report_el_waste_text_2">tree</t>
+                </t>
+
+                <!-- Carbon -->
+                <t t-call="sign.green_report_el_pdf">
+                    <t t-set="green_report_el_id" t-value="'carbon'"/>
+                    <t t-set="green_report_el_color" t-value="'secondary'"/>
+                    <t t-set="green_report_el_img" t-value="'carbon_5'"/>
+                    <t t-set="green_report_el_fa" t-value="'car'"/>
+                    <t t-set="green_report_el_title">Carbon Emissions</t>
+                    <t t-set="green_report_el_type" t-value="carbon"/>
+                    <t t-set="green_report_el_text">kg of reduced carbon emissions</t>
+                    <t t-set="green_report_el_waste" t-value="gas_fuel"/>
+                    <t t-set="green_report_el_waste_text_1">liters of car fuel</t>
+                    <t t-set="green_report_el_waste_text_2">liter of car fuel</t>
+                </t>
+            </div>
+            <div class="row align-items-stretch pt-4">
+                <!-- Waste -->
+                <t t-call="sign.green_report_el_pdf">
+                    <t t-set="green_report_el_id" t-value="'waste'"/>
+                    <t t-set="green_report_el_color" t-value="'dark'"/>
+                    <t t-set="green_report_el_img" t-value="'waste'"/>
+                    <t t-set="green_report_el_fa" t-value="'trash'"/>
+                    <t t-set="green_report_el_title">Waste</t>
+                    <t t-set="green_report_el_type" t-value="waste"/>
+                    <t t-set="green_report_el_text">kg of waste prevented</t>
+                    <t t-set="green_report_el_waste" t-value="cans"/>
+                    <t t-set="green_report_el_waste_text_1">cans</t>
+                    <t t-set="green_report_el_waste_text_2">can</t>
+                </t>
+
+                <!-- Energy -->
+                <t t-call="sign.green_report_el_pdf">
+                    <t t-set="green_report_el_id" t-value="'energy'"/>
+                    <t t-set="green_report_el_color" t-value="'warning'"/>
+                    <t t-set="green_report_el_img" t-value="'energy'"/>
+                    <t t-set="green_report_el_fa" t-value="'bolt'"/>
+                    <t t-set="green_report_el_title">Energy</t>
+                    <t t-set="green_report_el_type" t-value="energy"/>
+                    <t t-set="green_report_el_text">kWh of energy saved</t>
+                    <t t-set="green_report_el_waste" t-value="computer_hours"/>
+                    <t t-set="green_report_el_waste_text_1">hours of computer use</t>
+                    <t t-set="green_report_el_waste_text_2">hour of computer use</t>
+                </t>
+            </div>
+        </section>
+    </t>

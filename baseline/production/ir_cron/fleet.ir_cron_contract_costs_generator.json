@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 63,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.run_scheduler()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "cecb91f2a80121907bd6812f01741a4968994fc00c322c32e22fbd6cfdf8bc3b",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "fleet.ir_cron_contract_costs_generator"
+}

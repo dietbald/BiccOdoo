@@ -1,0 +1,21 @@
+<t t-name="portal.side_content">
+        <div t-if="isOffcanvas" class="offcanvas-header justify-content-end">
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"/>
+        </div>
+        <div t-attf-class="{{'offcanvas-body' if isOffcanvas else 'mt-3 mw-100'}}">
+            <div class="d-flex justify-content-start align-items-start gap-3 mb-4">
+                <img class="rounded object-fit-cover" t-att-src="image_data_uri(user_id.partner_id.avatar_128)" alt="Contact" width="50"/>
+                <div class="d-flex flex-column justify-content-center">
+                    <h5 class="mb-0" t-out="user_id.name"/>
+                    <p class="mb-0 text-muted" t-out="user_id.company_name"/>
+                </div>
+            </div>
+            <div class="o_portal_my_details">
+                <div t-field="user_id.partner_id" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;email&quot;, &quot;phone&quot;, &quot;address&quot;]}"/>
+            </div>
+            <a role="button" href="/my/account" class="btn btn-link p-0 mt-3"><i class="fa fa-pencil"/> Edit information</a>
+            <div name="portal_contact" class="o_my_contact mt-5" t-if="sales_user">
+                <t t-call="portal.portal_contact"/>
+            </div>
+        </div>
+    </t>

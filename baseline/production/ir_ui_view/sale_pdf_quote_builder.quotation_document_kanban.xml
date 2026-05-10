@@ -1,0 +1,32 @@
+<kanban js_class="quotation_document_kanban">
+                <field name="sequence" widget="handle"/>
+                <field name="ir_attachment_id"/>
+                <field name="mimetype"/>
+                <field name="document_type"/>
+                <field name="name"/>
+                <field name="active"/>
+                <templates>
+                    <t t-name="menu">
+                        <a t-if="widget.editable" type="open" class="dropdown-item">Edit</a>
+                        <a t-if="widget.deletable" type="delete" class="dropdown-item">Delete</a>
+                        <a t-attf-href="/web/content/#{record.ir_attachment_id.raw_value}?download=true" download="" class="dropdown-item">Download</a>
+                    </t>
+                    <t t-name="card" class="o_kanban_attachment flex-row">
+                        <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                        <aside>
+                            <div class="o_image o_kanban_previewer w-100 h-100" t-att-data-mimetype="record.mimetype.value"/>
+                        </aside>
+                        <main class="ms-2">
+                            <field name="name" class="fw-bolder text-truncate"/>
+                            <div class="d-flex mt-2">
+                                <span>Document type:</span>
+                                <field name="document_type" class="ms-2" widget="selection"/>
+                            </div>
+                            <div t-if="!context.hide_template_ids                                       and !!record.quotation_template_ids.raw_value.length" class="mt-2">
+                                <span class="pe-2">Templates:</span>
+                                <field name="quotation_template_ids" class="d-inline-block" widget="many2many_tags"/>
+                            </div>
+                        </main>
+                    </t>
+                </templates>
+            </kanban>

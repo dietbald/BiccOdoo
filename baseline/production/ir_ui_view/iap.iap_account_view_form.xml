@@ -1,0 +1,25 @@
+<form string="IAP Account" duplicate="false">
+                <sheet>
+                    <group name="account" string="Account Information">
+                        <group>
+                            <field name="name"/>
+                            <field name="service_id" readonly="service_locked" options="{'no_open': True, 'no_create': True}"/>
+                            <field name="description"/>
+                            <field name="company_ids" widget="many2many_tags" domain="[('id', 'in', allowed_company_ids)]"/>
+                            <field name="account_token" groups="base.group_no_one"/>
+                        </group>
+                        <group name="external">
+                            <label for="balance" class="oe_inline"/>
+                            <div>
+                                <field name="balance" class="oe_inline"/>
+                                <button type="object" name="action_buy_credits" class="btn-link py-0">
+                                    <i class="oi oi-arrow-right"/>
+                                    Buy Credit
+                                </button>
+                            </div>
+                            <field name="warning_threshold"/>
+                            <field name="warning_user_ids" invisible="warning_threshold == 0" required="warning_threshold &gt; 0" widget="many2many_tags"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

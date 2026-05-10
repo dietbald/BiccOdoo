@@ -1,0 +1,18 @@
+<kanban quick_create="false" group_create="0" records_draggable="0" sample="1" default_group_by="crm_team_id" class="o_crm_team_member_kanban">
+                <field name="active"/>
+                <templates>
+                    <t t-name="card" class="flex-row mb-3">
+                        <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                        <aside>
+                            <field name="user_id" widget="image" options="{'preview_image': 'avatar_128'}" class="o_image_64_cover" alt="Avatar"/>
+                        </aside>
+                        <main class="ms-3">
+                            <field name="user_id" class="fw-bold fs-5"/>
+                            <a type="open" class="nav-link p-0"><field name="crm_team_id"/></a>
+                            <div class="d-flex align-items-baseline text-break">
+                                <i class="fa fa-envelope me-1" role="img" aria-label="Email" title="Email"/><field name="email"/>
+                            </div>
+                        </main>
+                    </t>
+                </templates>
+            </kanban>

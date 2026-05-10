@@ -1,0 +1,20 @@
+<data inherit_id="website.new_page_template_landing_s_three_columns" primary="True">
+    <xpath expr="//h2|//h3|//h4|//h5" position="replace">
+        <h2 class="card-title h5-fs">Personalized Workouts</h2>
+    </xpath>
+    <xpath expr="(//h2|//h3|//h4|//h5)[2]" position="replace">
+        <h2 class="card-title h5-fs">Nutritional Guidance</h2>
+    </xpath>
+    <xpath expr="(//h2|//h3|//h4|//h5)[3]" position="replace">
+        <h2 class="card-title h5-fs">Progress Tracking</h2>
+    </xpath>
+    <xpath expr="//p" position="replace">
+        <p class="card-text">Our experienced fitness coaches design workouts that align with your goals, fitness level, and preferences.</p>
+    </xpath>
+    <xpath expr="(//p)[2]" position="replace">
+        <p class="card-text">Achieve holistic health with personalized nutritional advice that complements your workouts, promoting overall well-being.</p>
+    </xpath>
+    <xpath expr="(//p)[3]" position="replace">
+        <p class="card-text">We monitor your progress meticulously, adjusting your plan as needed to ensure continuous improvement and results.</p>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.new_page_template_landing_2_s_three_columns</attribute></xpath></data>

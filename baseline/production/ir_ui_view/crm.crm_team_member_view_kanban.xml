@@ -1,0 +1,11 @@
+<data><field name="active" position="after">
+                <field name="assignment_enabled"/>
+                <field name="assignment_optout"/>
+                <field name="assignment_max"/>
+            </field>
+            <xpath expr="//main" position="after">
+                <div class="o_member_assignment" invisible="assignment_optout">
+                    <field name="lead_month_count" widget="gauge" options="{'max_field': 'assignment_max'}" invisible="assignment_max == 0"/>
+                </div>
+            </xpath>
+        </data>

@@ -1,0 +1,27 @@
+<t t-name="mass_mailing.s_mail_block_footer_social">
+    <section class="s_footer_social o_mail_block_footer_social o_mail_footer_social_center o_mail_snippet_general bg-900 pt16" data-name="Footer Center" data-vxml="001">
+        <div class="container">
+            <div class="row">
+                <div class="col-md o_mail_footer_social col" style="text-align: center;">
+                    <t t-call="mass_mailing.social_links">
+                        <t t-set="optionalTextStyle" t-value="'color: white;'"/>
+                    </t>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md pb4 col">
+                    <p class="mb-0" style="text-align: center">
+                        <font style="color:white;">© <t t-out="datetime.datetime.now().year"/> <t t-out="company_id.name"/>, All Rights Reserved</font>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md pb4 o_mail_footer_links col" style="text-align: center;">
+                    <p class="mb-0">
+                        <a role="button" href="/unsubscribe_from_list" class="btn btn-link">Unsubscribe</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</t>

@@ -1,0 +1,5 @@
+<pivot string="Budget Lines" sample="1" js_class="analytic_pivot">
+                <field name="budget_analytic_id" type="row"/>
+                <field name="achieved_amount" type="measure" string="Achieved"/>
+                <field name="budget_amount" type="measure" string="Budget"/>
+            </pivot>

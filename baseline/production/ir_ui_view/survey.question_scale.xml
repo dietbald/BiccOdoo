@@ -1,0 +1,30 @@
+<t name="Question: scale" t-name="survey.question_scale">
+        <!-- A question already answered that the user resets is marked as skipped and not deleted, -->
+        <!-- so we use the flag skipped to restore or not the answer state. -->
+        <t t-set="answer_line" t-value="answer_lines and not answer_lines[0].skipped and answer_lines[0]"/>
+        <div class="o_survey_answer_wrapper o_survey_form_choice" t-att-data-name="question.id" t-att-data-is-skipped-question="is_skipped_question or None" data-question-type="scale">
+            <div role="radiogroup" class="btn-group d-flex mb-2" t-att-aria-label="">
+                <t t-foreach="range(question.scale_min, question.scale_max + 1)" t-as="value">
+                    <t t-set="answer_selected" t-value="answer_line and answer_line.value_scale == value"/>
+                    <label t-attf-class="o_survey_choice_btn flex-shrink-1 rounded text-nowrap #{'me-2' if not value_last else ''} #{'o_survey_selected' if answer_selected else ''}" t-attf-for="{{ question.id }}_{{ value }}">
+                        <div class="d-none d-md-flex align-items-center fs-5">
+                            <div class="fw-bold my-3 flex-fill align-self-center text-center" t-out="value"/>
+                            <i class="fa fa-check-circle me-1 my-3"/>
+                            <i class="fa fa-circle-thin me-1 my-3"/>
+                        </div>
+                        <div class="d-block d-md-none my-3 text-center fs-5">
+                            <div class="fw-bold" t-out="value"/>
+                            <i class="fa fa-check-circle"/>
+                            <i class="fa fa-circle-thin"/>
+                        </div>
+                        <input autocomplete="off" class="btn-check" type="radio" t-attf-class="o_survey_form_choice_item invisible position-absolute #{'o_survey_form_choice_item_selected' if answer_selected else ''}" t-att-data-selection-key="letters[value_index] if useKeySelection else ''" t-attf-name="{{ question.id }}" t-att-checked="'checked' if answer_selected else None" t-attf-value="{{ value }}" t-attf-id="{{ question.id }}_{{ value }}"/>
+                    </label>
+                </t>
+            </div>
+            <div t-if="question.scale_min_label or question.scale_mid_label or question.scale_max_label" class="d-flex justify-content-between text-primary">
+                <div class="text-start" t-out="question.scale_min_label"/>
+                <div class="text-center" t-out="question.scale_mid_label"/>
+                <div class="text-end" t-out="question.scale_max_label"/>
+            </div>
+        </div>
+    </t>

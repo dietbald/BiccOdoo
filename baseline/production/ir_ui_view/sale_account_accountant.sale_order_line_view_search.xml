@@ -1,0 +1,15 @@
+<search>
+                <filter string="For the Last 365 Days" name="last_365_days" domain="[('order_id.date_order', '&gt;=', 'today -365d')]" help="Sales Order Lines processed during last 365 days"/>
+                <separator/>
+                <filter string="Service" name="service" domain="[('product_type', '=', 'service')]" help="Display only service lines"/>
+                <filter string="Goods" name="goods" domain="[('product_type', '=', 'consu')]" help="Display only goods lines"/>
+                <separator/>
+                <filter string="Invoice on Ordered" name="invoice_policy_on_order" domain="[('product_invoice_policy', '=', 'order')]" help="Display only lines for product invoiced on ordered quantities"/>
+                <filter string="Invoice on Delivered" name="invoice_policy_on_delivery" domain="[('product_invoice_policy', '=', 'delivery')]" help="Display only lines for product invoiced on delivered quantities"/>
+                <group>
+                    <filter name="groupby_customer" string="Customer" context="{'group_by': 'order_partner_id'}"/>
+                    <filter name="groupby_company" string="Company" context="{'group_by': 'company_id'}"/>
+                    <filter name="groupby_order" string="Order Reference" context="{'group_by': 'order_id'}"/>
+                    <filter name="groupby_product_category" string="Product Category" context="{'group_by': 'categ_id'}"/>
+                </group>
+            </search>

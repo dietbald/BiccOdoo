@@ -1,0 +1,8 @@
+<data><field name="display_name" position="attributes">
+                <attribute name="placeholder">e.g. Boiler replacement</attribute>
+            </field>
+            <field name="project_id" position="attributes">
+                <attribute name="required">1</attribute>
+                <attribute name="domain">[('is_fsm', '=', True)]</attribute>
+            </field>
+        </data>

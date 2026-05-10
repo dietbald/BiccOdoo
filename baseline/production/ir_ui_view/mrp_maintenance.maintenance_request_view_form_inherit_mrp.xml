@@ -1,0 +1,34 @@
+<data><xpath expr="//field[@name='equipment_id']" position="before">
+                <field name="maintenance_for"/>
+                <field name="workcenter_id" invisible="maintenance_for == 'equipment'" required="maintenance_for == 'workcenter'"/>
+            </xpath>
+            <xpath expr="//field[@name='equipment_id']" position="attributes">
+                <attribute name="invisible">maintenance_for == 'workcenter'</attribute>
+                <attribute name="required">maintenance_for == 'equipment'</attribute>
+            </xpath>
+            <xpath expr="//field[@name='maintenance_type']" position="after">
+                <field name="production_company_id" invisible="1"/>
+                <field name="workorder_id" invisible="1"/>
+                <field name="production_id" options="{'no_create': True, 'no_open': True}"/>
+                <field name="workorder_id" invisible="not production_id" options="{'no_create': True, 'no_open': True}" domain="[('production_id', '=', production_id)]" groups="mrp.group_mrp_routings"/>
+                <!-- <field name="repair_id"/> -->
+            </xpath>
+            <xpath expr="//chatter" position="after">
+                <div invisible="not context.get('discard_on_footer_button', False)">
+                    <footer class="oe_edit_only">
+                        <button special="save" data-hotkey="q" string="Save" class="oe_highlight"/>
+                        <button string="Discard" special="cancel" data-hotkey="x"/>
+                    </footer>
+                </div>
+            </xpath>
+            <field name="equipment_id" position="attributes">
+                <attribute name="domain">['|', (not workorder_id and 1 or 0, '=', 1), '|', ('workcenter_id', '=', False), ('workcenter_id.order_ids', 'in', workorder_id)]</attribute>
+            </field>
+            <xpath expr="//field[@name='priority']" position="before">
+                <label for="block_workcenter" invisible="maintenance_for == 'equipment'"/>
+                <div class="d-inline-flex" invisible="maintenance_for == 'equipment'">
+                    <field name="block_workcenter" nolabel="1" class="ms-0" style="width: fit-content;"/>
+                </div>
+                <field name="recurring_leaves_count" invisible="maintenance_for == 'equipment' or not recurring_maintenance or not block_workcenter" groups="base.group_no_one"/>
+            </xpath>
+        </data>

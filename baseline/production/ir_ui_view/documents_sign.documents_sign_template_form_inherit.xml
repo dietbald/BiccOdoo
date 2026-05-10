@@ -1,0 +1,4 @@
+<field name="redirect_url_text" position="after">
+                <field name="folder_id" options="{'no_create_edit': True}" string="Documents folder"/>
+                <field name="documents_tag_ids" widget="many2many_tags" options="{'no_create': True}" string="Documents tags"/>
+            </field>

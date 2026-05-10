@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 19,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_validate()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "02d2257339316b27b7ea3f758fdfa9f547a056bce06bf2a81a7af76cdf4a7ca0",
+  "write_date": "2025-12-09 03:00:21",
+  "xml_id": "account_invoice_extract.ir_cron_ocr_validate"
+}

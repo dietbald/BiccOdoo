@@ -1,0 +1,21 @@
+<kanban create="0" class="o_knowledge_article_kanban_view">
+                <field name="is_user_favorite"/>
+                <templates>
+                    <t t-name="card" class="o_knowledge_kanban_card h-100">
+                        <div class="d-flex align-items-center">
+                            <field name="display_name" class="flex-grow-1 lead text-truncate"/>
+                            <!-- When the user does not have 'write' access on an article, the user will not be
+                                    allowed to write on the `knowledge.article` model. Therefore, we can not use the
+                                    `boolean_favorite` widget as the model can block the write call issued by the widget.
+                                    To let the user add an article to their favorites, we will instead call an
+                                    intermediate action that will do a sudo call on the `knowledge.article` model. -->
+                            <a type="object" name="action_toggle_favorite" class="o_knowledge_toggle_favorite mb-auto mt-1 me-1">
+                                <i invisible="not is_user_favorite" class="fa fa-star" title="Remove from favorites"/>
+                                <i invisible="is_user_favorite" class="fa fa-star-o" title="Add to favorites"/>
+                            </a>
+                        </div>
+                        <field name="parent_id" class="text-muted text-truncate"/>
+                        <field name="activity_ids" widget="kanban_activity" class="ms-auto mt-auto"/>
+                    </t>
+                </templates>
+            </kanban>

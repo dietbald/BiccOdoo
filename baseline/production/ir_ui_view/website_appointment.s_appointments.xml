@@ -1,0 +1,7 @@
+<t name="Appointments" t-name="website_appointment.s_appointments">
+    <t t-call="website.s_dynamic_snippet_template">
+        <t t-set="snippet_name" t-value="'s_appointments'"/>
+        <t t-set="main_page_url" t-value="'/appointment'"/>
+        <t t-out="0"/>
+    </t>
+</t>

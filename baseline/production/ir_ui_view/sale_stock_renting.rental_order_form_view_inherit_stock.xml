@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='order_line']//list//field[@name='product_uom_qty']" position="after">
+                <field name="available_reserved_lots" column_invisible="True"/>
+                <field name="reserved_lot_ids" optional="hide" widget="many2many_tags" groups="sale_stock_renting.group_rental_stock_picking"/>
+            </xpath>

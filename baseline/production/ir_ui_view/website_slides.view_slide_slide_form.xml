@@ -1,0 +1,113 @@
+<form string="Lesson">
+                    <sheet>
+                        <field name="channel_type" invisible="1" readonly="1"/>
+                        <field name="channel_allow_comment" invisible="1" readonly="1"/>
+                        <div class="oe_button_box" name="button_box">
+                            <button name="1496" class="oe_stat_button" type="action" icon="fa-graduation-cap" invisible="slide_views == 0">
+                                <field name="slide_views" widget="statinfo" string="Attendees"/>
+                            </button>
+                            <button disabled="1" icon="fa-thumbs-up" class="oe_stat_button" invisible="channel_type == 'training' or likes == 0">
+                                <field class="ms-1" name="likes" widget="statinfo" string="Likes"/>
+                             </button>
+                             <button disabled="1" icon="fa-thumbs-down" class="oe_stat_button" invisible="channel_type == 'training' or dislikes == 0">
+                                <field class="ms-1" name="dislikes" widget="statinfo" string="Dislikes"/>
+                             </button>
+                             <button disabled="1" icon="fa-comments" class="oe_stat_button" invisible="not channel_allow_comment or comments_count == 0">
+                                <field class="ms-1" name="comments_count" widget="statinfo" string="Comments"/>
+                            </button>
+                            <button name="action_view_embeds" class="oe_stat_button" type="object" icon="fa-share-alt" invisible="embed_count == 0">
+                                <div class="o_stat_info">
+                                    <span class="o_stat_value"><field name="embed_count"/></span>
+                                    <span class="o_stat_text">Embed Views</span>
+                                </div>
+                            </button>
+                            <field name="is_published" widget="website_redirect_button" invisible="is_category or not channel_id"/>
+                        </div>
+                        <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                        <field name="image_1920" widget="image" class="oe_avatar" options="{&quot;preview_image&quot;: &quot;image_256&quot;}" invisible="is_category"/>
+                        <div class="oe_title pe-xl-0">
+                            <div>
+                                <label for="name" string="Content Title"/>
+                            </div>
+                            <h1>
+                                <field name="name" default_focus="1" placeholder="e.g. Setting up your computer" class="me-0"/>
+                                <field name="is_category" invisible="1"/>
+                            </h1>
+                            <field name="tag_ids" invisible="is_category" widget="many2many_tags" placeholder="Tags..."/>
+                        </div>
+                        <notebook invisible="is_category">
+                            <page name="document" string="Document">
+                                <group>
+                                    <group name="lesson_details">
+                                        <field name="active" invisible="1"/>
+                                        <field name="channel_id"/>
+                                        <field name="slide_category" string="Content Type"/>
+                                        <field name="slide_type" invisible="1"/>
+                                        <div class="text-muted" colspan="2" invisible="slide_category != 'quiz'">
+                                            You can add questions to this quiz in the 'Quiz' tab.
+                                        </div>
+                                        <label for="source_type" string="" invisible="slide_category not in ['infographic', 'document']"/>
+                                        <field name="source_type" widget="radio" nolabel="1" invisible="slide_category not in ['infographic', 'document']"/>
+                                        <field name="video_url" invisible="slide_category != 'video'" readonly="slide_category != 'video'" required="slide_category == 'video'" placeholder="e.g &quot;www.youtube.com/watch?v=ebBez6bcSEc&quot;" widget="url"/>
+                                        <field name="document_google_url" invisible="source_type != 'external' or slide_category != 'document'" readonly="source_type != 'external' or slide_category != 'document'" placeholder="e.g &quot;https://drive.google.com/file/...&quot;" widget="url"/>
+                                        <field name="image_google_url" invisible="source_type != 'external' or slide_category != 'infographic'" readonly="source_type != 'external' or slide_category != 'infographic'" placeholder="e.g &quot;https://drive.google.com/file/...&quot;" widget="url"/>
+                                        <field name="document_binary_content" string="" options="{'accepted_file_extensions': '.pdf'}" invisible="source_type == 'external' or slide_category != 'document'" readonly="source_type == 'external' or slide_category != 'document'"/>
+                                        <field name="image_binary_content" string="" options="{'accepted_file_extensions': 'image/*'}" invisible="source_type == 'external' or slide_category != 'infographic'" readonly="source_type == 'external' or slide_category != 'infographic'"/>
+                                    </group>
+                                    <group name="related_details">
+                                        <field name="user_id" string="Responsible" domain="[('share', '=', False)]" widget="many2one_avatar"/>
+                                        <label for="completion_time"/>
+                                        <div>
+                                            <field name="completion_time" widget="float_time" class="oe_inline"/>
+                                            <span> hours</span>
+                                        </div>
+                                        <field name="slide_resource_downloadable" invisible="slide_category != 'document' or source_type != 'local_file'"/>
+                                        <field name="date_published" string="Published Date" invisible="not date_published" groups="base.group_no_one"/>
+                                        <field name="is_preview"/>
+                                        <field name="public_views"/>
+                                        <field name="total_views"/>
+                                    </group>
+                                </group>
+                            </page>
+                            <page name="description" string="Description">
+                                <field name="description" options="{'embedded_components': false}" placeholder="e.g. In this video, we'll give you the keys on how Odoo can help you to grow your business. At the end, we'll propose you a quiz to test your knowledge."/>
+                            </page>
+                            <page string="Additional Resources" name="external_links">
+                                <group>
+                                    <field name="slide_resource_ids" widget="one2many" nolabel="1">
+                                        <list editable="top">
+                                            <field name="sequence" widget="handle"/>
+                                            <field name="resource_type"/>
+                                            <field name="name" required="1"/>
+                                            <field name="file_name" column_invisible="True"/>
+                                            <field name="data" readonly="resource_type == 'url'" filename="file_name"/>
+                                            <field name="link" string="Link" readonly="resource_type == 'file'" required="resource_type == 'url'"/>
+                                        </list>
+                                    </field>
+                                </group>
+                            </page>
+                            <page name="quiz" string="Quiz">
+                                <group name="quiz_details">
+                                    <group name="quiz_rewards" string="Points Rewards">
+                                        <group>
+                                            <field string="First Try" name="quiz_first_attempt_reward"/>
+                                            <field string="Second Try" name="quiz_second_attempt_reward"/>
+                                            <field string="Third Try" name="quiz_third_attempt_reward"/>
+                                            <field string="Fourth Try &amp; More" name="quiz_fourth_attempt_reward"/>
+                                        </group>
+                                    </group>
+                                    <group name="questions" string="Questions">
+                                        <field name="question_ids" nolabel="1" colspan="2">
+                                            <list>
+                                                <field name="sequence" widget="handle"/>
+                                                <field name="question" string="Question"/>
+                                                <field name="answer_ids" string="Answers" widget="many2many_tags"/>
+                                            </list>
+                                        </field>
+                                    </group>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                    <chatter/>
+                </form>

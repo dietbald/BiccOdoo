@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 5,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._gc_notifications(max_age_days=180)",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "837895720a5346aead43776ef8f26cdcf3c6b6870ad3acbd19f6a2b38b59d20f",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "mail.ir_cron_delete_notification"
+}

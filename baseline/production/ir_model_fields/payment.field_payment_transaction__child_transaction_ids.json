@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:47Z",
+  "id": 3723,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Child Transactions",
+    "relation": "payment.transaction",
+    "ttype": "one2many"
+  },
+  "payload_sha256": "77749c7d3a0883c196b6be4190748eb99f1004882e884296a39b70befde1e792",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__child_transaction_ids"
+}

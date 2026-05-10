@@ -1,0 +1,10 @@
+<search string="Appointment Resources">
+                <field name="name"/>
+                <field name="appointment_type_ids"/>
+                <field name="capacity"/>
+                <separator/>
+                <filter name="filter_active" string="Archived" domain="[('active', '=', False)]"/>
+                <group>
+                    <filter string="Available In" name="group_by_appointment_type" context="{'group_by': 'appointment_type_ids'}"/>
+                </group>
+            </search>

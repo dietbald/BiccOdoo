@@ -1,0 +1,5 @@
+<data inherit_id="website.header_call_to_action" name="Header Call to Action - Large" primary="True">
+    <xpath expr="//a[hasclass('oe_unremovable')]" position="attributes">
+        <attribute name="class" remove="" add="w-100" separator=" "/>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.header_call_to_action_large</attribute></xpath></data>

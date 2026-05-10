@@ -1,0 +1,43 @@
+<kanban sample="1">
+                    <field name="avatar_128"/>
+                    <field name="is_company"/>
+                    <field name="active"/>
+                    <templates>
+                        <t t-name="card" class="flex-row">
+                            <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                            <aside class="o_kanban_aside_full">
+                                <t t-if="!record.is_company.raw_value">
+                                    <div class="position-relative w-100 h-auto m-0">
+                                        <field name="avatar_128" alt="Contact image" class="h-100" widget="image" options="{'img_class': 'object-fit-contain'}"/>
+                                        <field t-if="record.parent_id.raw_value and record.parent_id.image_128" name="parent_id" class="position-absolute bottom-0 end-0 w-25 bg-light" widget="image" options="{'preview_image': 'image_128', 'img_class': 'object-fit-contain'}"/>
+                                        <field t-elif="record.parent_id.raw_value and !record.parent_id.image_128" name="parent_id" class="position-absolute bottom-0 end-0 w-25 bg-light" widget="image" options="{'preview_image': 'avatar_128', 'img_class': 'object-fit-contain'}"/>
+                                    </div>
+                                </t>
+                                <t t-else="">
+                                    <field name="avatar_128" class="w-100 h-auto m-0" widget="image" options="{'img_class': 'object-fit-contain w-100 h-100'}"/>
+                                </t>
+                            </aside>
+                            <main class="ps-2">
+                                <div class="mb-1">
+                                    <field name="complete_name" class="mb-0 fw-bold fs-5"/>
+                                </div>
+                                <div t-if="record.email.raw_value" class="text-truncate">
+                                    <i class="fa fa-fw me-1 fa-envelope text-primary" title="Email"/>
+                                    <field name="email"/>
+                                </div>
+                                <div t-if="record.phone.raw_value">
+                                    <i class="fa fa-fw me-1 fa-phone text-primary" title="Phone"/>
+                                    <field name="phone"/>
+                                </div>
+                                <div t-if="record.city.raw_value or record.country_id.raw_value">
+                                    <i class="fa fa-fw me-1 fa-map-marker text-primary" title="Location"/>
+                                    <field name="city"/>
+                                    <span t-if="record.city.raw_value and record.country_id.raw_value">, </span>
+                                    <field name="country_id"/>
+                                </div>
+                                <field name="properties" widget="properties"/>
+                                <footer><field name="application_statistics" widget="contact_statistics"/></footer>
+                            </main>
+                        </t>
+                    </templates>
+                </kanban>

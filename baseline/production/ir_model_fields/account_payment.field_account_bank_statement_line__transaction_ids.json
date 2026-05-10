@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:48Z",
+  "id": 5657,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Transactions",
+    "relation": "payment.transaction",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "fdef5a33b2a97e965a29865f6aeb4e6acea0ee6e29568cecb164b2a74a640544",
+  "write_date": "",
+  "xml_id": "account_payment.field_account_bank_statement_line__transaction_ids"
+}

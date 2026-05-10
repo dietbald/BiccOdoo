@@ -1,0 +1,17 @@
+<t t-name="mail.message_document_unfollowed">
+        <t t-call="mail.public_layout">
+            <t t-set="additional_title">"<t t-out="name"/>" no longer followed</t>
+            <div class="h-100 d-flex align-items-center justify-content-center">
+                <div>
+                    <h1 t-out="model_name"/>
+                    <div class="alert alert-success text-center p-5" role="status">
+                        <strong>You are no longer following the document:</strong>
+                        <div class="pt-4">
+                            <a t-if="access_url" class="o_access_record_link" t-att-href="access_url" t-out="name"/>
+                            <i t-else="" t-out="name"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </t>

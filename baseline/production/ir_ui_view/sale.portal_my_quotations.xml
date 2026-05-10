@@ -1,0 +1,39 @@
+<t name="My Quotations" t-name="sale.portal_my_quotations">
+        <t t-call="portal.portal_layout">
+            <t t-set="breadcrumbs_searchbar" t-value="True"/>
+
+            <t t-call="portal.portal_searchbar">
+                <t t-set="title">Quotations</t>
+            </t>
+            <div t-if="not quotations" class="alert alert-warning" role="alert">
+                There are currently no quotations for your account.
+            </div>
+            <t t-if="quotations" t-call="portal.portal_table">
+                <thead>
+                    <tr class="active">
+                        <th>Quotation #</th>
+                        <th class="text-end">Quotation Date</th>
+                        <th class="text-end">Valid Until</th>
+                        <th class="text-center"/>
+                        <th class="text-end">Total</th>
+                    </tr>
+                </thead>
+                <t t-foreach="quotations" t-as="quotation">
+                    <tr>
+                        <td><a t-att-href="quotation.get_portal_url()"><t t-out="quotation.name"/></a></td>
+                        <td class="text-end"><span t-field="quotation.date_order"/></td>
+                        <td class="text-end"><span t-field="quotation.validity_date"/></td>
+                        <td class="text-center">
+                            <span t-if="quotation.state == 'cancel'" class="badge rounded-pill text-bg-danger">
+                                <i class="fa fa-fw fa-remove"/> Cancelled</span>
+                            <span t-if="quotation.is_expired" class="badge rounded-pill text-bg-danger">
+                                <i class="fa fa-fw fa-clock-o"/> Expired</span>
+                        </td>
+                        <td class="text-end">
+                            <span t-field="quotation.amount_total"/>
+                        </td>
+                    </tr>
+                </t>
+            </t>
+        </t>
+    </t>

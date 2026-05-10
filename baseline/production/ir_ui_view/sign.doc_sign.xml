@@ -1,0 +1,74 @@
+<t name="Document Sign" t-name="sign.doc_sign">
+        <t t-call="web.layout">
+            <t t-set="head">
+                <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+                <t t-call-assets="sign.assets_public_sign" t-js="false"/>
+                <script type="text/javascript">
+                    odoo.__session_info__ = <t t-out="json.dumps(request.env['ir.http'].get_frontend_session_info_sign())"/>;
+                </script>
+                <t t-call-assets="sign.assets_public_sign" t-css="false"/>
+                <t t-call="web.conditional_assets_tests">
+                    <t t-set="ignore_missing_deps" t-value="True"/>
+                </t>
+
+                <script type="text/javascript">
+                    odoo.define("sign.document_custom_page", ["@sign/components/sign_request/document_signable"], function (require) {
+                        var { initDocumentToSign } = require("@sign/components/sign_request/document_signable");
+                        initDocumentToSign(document);
+                    });
+                </script>
+            </t>
+            <t t-set="body_classname" t-value="'o_sign_document_body'"/>
+            <div class="o_sign_document">
+                <header>
+                    <div class="o_sign_info justify-content-between d-flex">
+                        <div class="o_logo_wrapper justify-content-start d-flex">
+                            <div class="o_logo d-flex">
+                                <a href="/"><img t-attf-src="/logo.png?company={{ company_id }}" alt="Logo"/></a>
+                            </div>
+                            <div class="o_odoo">
+                                <a href="https://www.odoo.com/app/sign?utm_source=db&amp;utm_medium=sign"><img src="/sign/static/img/odoo_signed.png" alt="Signed"/></a>
+                            </div>
+                        </div>
+                        <div class="justify-content-end d-flex">
+                            <t t-call="sign.signer_status_wrapper">
+                                <t t-set="portal" t-value="1"/>
+                            </t>
+                            <t t-set="has_actions" t-value="(current_request_item and current_request_item.state == 'sent') or sign_request.state == 'signed'"/>
+                            <div class="dropdown d-flex btn-group m-1" t-if="portal or has_actions">
+                                <!-- Web page dropdown: visible only when user is logged in with options to be shown. -->
+                                <button t-if="portal" class="mobile-tablet-hide btn btn-secondary dropdown-toggle btn-sm" data-bs-toggle="dropdown" aria-label="Dropdown menu" title="Dropdown menu"/>
+                                <div t-if="not portal and current_request_item and current_request_item.state == 'sent'" class="dropdown">
+                                    <button t-if="current_request_item and current_request_item.state == 'sent'" class="btn btn-primary mobile-tablet-hide dropdown-toggle btn-sm" data-bs-toggle="dropdown" aria-expanded="false"/>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item o_sign_refuse_document_button">Decline to sign</a></li>
+                                    </ul>
+                                </div>
+                                <div t-if="portal" class="mobile-tablet-hide dropdown-menu dropdown-menu-end" role="menu">
+                                    <a t-if="sign_request.state == 'signed'" role="menuitem" t-attf-href="/sign/download/{{sign_request.id}}/{{sign_request.access_token}}/completed" class="dropdown-item">Document <i class="fa fa-download"/></a>
+                                    <a t-if="sign_request.state == 'signed'" role="menuitem" t-attf-href="/sign/download/{{sign_request.id}}/{{sign_request.access_token}}/log" class="dropdown-item">Certificate <i class="fa fa-download"/></a>
+                                    <div t-if="sign_request.state == 'signed' and portal" class="dropdown-divider"/>
+                                    <button t-if="current_request_item and current_request_item.state == 'sent'" class="btn btn-primary dropdown-item o_sign_refuse_document_button">Decline To Sign</button>
+                                    <a t-if="portal" role="menuitem" t-attf-href="/my/" class="dropdown-item">Home</a>
+                                    <a t-if="portal" role="menuitem" t-attf-href="/my/signature/{{current_request_item.id}}?{{ keep_query() }}" class="dropdown-item">Details</a>
+                                </div>
+                                <!-- Mobile dropdown: always visible with the 'Refuse' option. -->
+                                <button class="mobile-tablet-show btn btn-secondary dropdown-toggle btn-sm" data-bs-toggle="dropdown" aria-label="Dropdown menu" title="Dropdown menu"/>
+                                <div class="mobile-tablet-show dropdown-menu dropdown-menu-end" role="menu">
+                                    <a t-if="sign_request.state == 'signed'" role="menuitem" t-attf-href="/sign/download/{{sign_request.id}}/{{sign_request.access_token}}/completed" class="dropdown-item">Document <i class="fa fa-download"/></a>
+                                    <a t-if="sign_request.state == 'signed'" role="menuitem" t-attf-href="/sign/download/{{sign_request.id}}/{{sign_request.access_token}}/log" class="dropdown-item">Certificate <i class="fa fa-download"/></a>
+                                    <div t-if="sign_request.state == 'signed' and portal" class="dropdown-divider"/>
+                                    <button t-if="current_request_item and current_request_item.state == 'sent'" role="menuitem" class="btn dropdown-item o_sign_refuse_document_button mobile-tablet-show">Decline to sign</button>
+                                    <a t-if="portal" role="menuitem" t-attf-href="/my/" class="dropdown-item">Home</a>
+                                    <a t-if="portal" role="menuitem" t-attf-href="/my/signature/{{current_request_item.id}}?{{ keep_query() }}" class="dropdown-item">Details</a>
+                                </div>
+                            </div>
+                            <div class="o_sign_dropdown_placeholder" t-if="not (portal or has_actions)"/>
+                        </div>
+                    </div>
+                </header>
+                <t t-set="no_sign_cp" t-value="True"/>
+                <t t-call="sign._doc_sign"/>
+            </div>
+        </t>
+    </t>

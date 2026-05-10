@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 37,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._send_reminder_mail()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "aa187cb93b4adbce5d5de904d40b9790129cb69d98105ae5b49200276194e465",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "purchase.purchase_send_reminder_mail"
+}

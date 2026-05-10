@@ -1,0 +1,7 @@
+<data><xpath expr="//calendar" position="attributes">
+                <attribute name="color">worksheet_template_id</attribute>
+            </xpath>
+            <xpath expr="//field[@name='project_id']" position="after">
+                <field name="worksheet_template_id" invisible="not worksheet_template_id" filters="1"/>
+            </xpath>
+        </data>

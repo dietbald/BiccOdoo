@@ -1,0 +1,19 @@
+<form>
+                <sheet>
+                    <group>
+                        <group name="name_details">
+                            <field name="name"/>
+                        </group>
+                        <group name="requirements">
+                            <label for="points" string="Requirements"/>
+                            <div>
+                                <field name="points" nolabel="1" class="oe_inline"/>
+                                <span class="ml8">Points</span>
+                            </div>
+                        </group>
+                    </group>
+                    <group name="image">
+                        <field name="image" widget="image" nolabel="0"/>
+                    </group>
+                </sheet>
+            </form>

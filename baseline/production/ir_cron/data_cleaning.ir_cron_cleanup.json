@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 60,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_cleanup()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "f3e4177116a4911a620b44ab23091b2c79286623d36386a8dbb42038e4be6d78",
+  "write_date": "2025-12-09 02:56:08",
+  "xml_id": "data_cleaning.ir_cron_cleanup"
+}

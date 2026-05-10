@@ -1,0 +1,11 @@
+<data inherit_id="website.new_page_template_landing_s_three_columns" primary="True">
+    <xpath expr="//h2|//h3|//h4|//h5" position="replace">
+        <h2 class="card-title h5-fs">Amazing Sound Quality</h2>
+    </xpath>
+    <xpath expr="(//h2|//h3|//h4|//h5)[2]" position="replace">
+        <h2 class="card-title h5-fs">Wireless Freedom</h2>
+    </xpath>
+    <xpath expr="(//h2|//h3|//h4|//h5)[3]" position="replace">
+        <h2 class="card-title h5-fs">All-Day Comfort</h2>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.new_page_template_landing_3_s_three_columns</attribute></xpath></data>

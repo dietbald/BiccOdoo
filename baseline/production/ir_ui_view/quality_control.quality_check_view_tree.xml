@@ -1,0 +1,15 @@
+<list default_order="id desc" sample="1" decoration-info="quality_state == 'none'">
+                <field name="name" decoration-bf="1"/>
+                <field name="title" decoration-bf="1" optional="show"/>
+                <field name="measure_on" optional="hide"/>
+                <field name="product_id" optional="show"/>
+                <field name="lot_ids" column_invisible="context.get('show_lots_text')" widget="many2many_tags"/>
+                <field name="lot_name" column_invisible="not context.get('show_lots_text')"/>
+                <field name="picking_id" optional="hide" string="Transfer"/>
+                <field name="control_date" string="Checked Date" optional="show"/>
+                <field name="user_id" string="Checked By" optional="show" widget="many2one_avatar_user"/>
+                <field name="point_id" optional="hide"/>
+                <field name="team_id" optional="hide"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <field name="quality_state" optional="show" widget="badge" decoration-success="quality_state == 'pass'" decoration-info="quality_state == 'none'" decoration-danger="quality_state == 'fail'"/>
+            </list>

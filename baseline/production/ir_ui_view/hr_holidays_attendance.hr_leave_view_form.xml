@@ -1,0 +1,3 @@
+<field name="holiday_status_id" position="after">
+                    <field name="employee_overtime" string="Extra Hours Available" widget="float_time" class="text-success" style="width: 6rem;" invisible="not employee_id or not overtime_deductible or employee_overtime &lt;= 0"/>
+            </field>

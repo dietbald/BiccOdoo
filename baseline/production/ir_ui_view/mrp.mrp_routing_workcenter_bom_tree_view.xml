@@ -1,0 +1,23 @@
+<data><xpath expr="//list" position="inside">
+                    <control>
+                        <button name="action_open_operation_form" class="btn-link" type="object" string="Add a line" context="{'default_bom_id': parent.id}"/>
+                        <button name="copy_existing_operations" class="btn-link" type="object" string="Copy Existing Operations" context="{'bom_id': parent.id}"/>
+                    </control>
+                </xpath>
+                <xpath expr="//field[@name='name']" position="before">
+                    <field name="sequence" widget="handle"/>
+                </xpath>
+                <xpath expr="//field[@name='bom_id']" position="replace"/>
+                <xpath expr="//field[@name='time_total']" position="attributes">
+                    <attribute name="sum">Total Duration</attribute>
+                </xpath>
+                <xpath expr="//field[@name='bom_product_template_attribute_value_ids']" position="attributes">
+                    <attribute name="column_invisible">parent.product_id</attribute>
+                </xpath>
+                <xpath expr="//field[@name='blocked_by_operation_ids']" position="replace">
+                </xpath>
+                <xpath expr="//field[@name='name']" position="after">
+                    <field name="bom_id" column_invisible="True"/>
+                    <field name="blocked_by_operation_ids" widget="many2many_tags" optional="hide" column_invisible="not parent.allow_operation_dependencies"/>
+                </xpath>
+            </data>

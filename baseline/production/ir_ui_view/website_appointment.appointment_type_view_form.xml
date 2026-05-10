@@ -1,0 +1,8 @@
+<data><xpath expr="//group[@name='options_left_details']" position="inside">
+                <field name="website_id" groups="website.group_multi_website"/>
+            </xpath>
+            <xpath expr="//div[hasclass('oe_button_box')]/button[@name='action_calendar_meetings']" position="after">
+                <field name="website_url" invisible="1"/>
+                <field name="is_published" widget="website_redirect_button"/>
+            </xpath>
+        </data>

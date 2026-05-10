@@ -1,0 +1,3 @@
+<filter name="type_company" position="after">
+                    <filter string="My Team" name="type_team" domain="[('employee_ids.department_id.manager_id.user_id', '=', uid)]"/>
+                </filter>

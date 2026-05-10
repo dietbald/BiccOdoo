@@ -1,0 +1,26 @@
+<search string="Product Search">
+                <field name="name" string="Product"/>
+                <field name="category_id" string="Category"/>
+                <field name="supplier_id"/>
+                <field name="description"/>
+                <separator/>
+                <filter name="available_today" string="Available Today" domain="[('supplier_id.available_today', '=', True)]"/>
+                <separator/>
+                <filter name="available_on_mon" string="Monday" domain="[('supplier_id.mon', '=', True)]"/>
+                <filter name="available_on_tue" string="Tuesday" domain="[('supplier_id.tue', '=', True)]"/>
+                <filter name="available_on_wed" string="Wednesday" domain="[('supplier_id.wed', '=', True)]"/>
+                <filter name="available_on_thu" string="Thursday" domain="[('supplier_id.thu', '=', True)]"/>
+                <filter name="available_on_fri" string="Friday" domain="[('supplier_id.fri', '=', True)]"/>
+                <filter name="available_on_sat" string="Saturday" domain="[('supplier_id.sat', '=', True)]"/>
+                <filter name="available_on_sun" string="Sunday" domain="[('supplier_id.sun', '=', True)]"/>
+                <separator/>
+                <filter name="inactive" string="Archived" domain="[('active', '=', False)]"/>
+                <group>
+                    <filter name="group_by_supplier" string="Vendor" context="{'group_by': 'supplier_id'}"/>
+                    <filter name="group_by_category" string="Category" context="{'group_by': 'category_id'}"/>
+                </group>
+                <searchpanel>
+                    <field name="category_id" select="multi" string="Categories" icon="fa-cutlery" color="#875A7B" enable_counters="1"/>
+                    <field name="supplier_id" select="multi" string="Vendors" icon="fa-truck" enable_counters="1"/>
+                </searchpanel>
+            </search>

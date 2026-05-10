@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='product_uom_id']" position="after">
+                <field name="currency_id" column_invisible="True"/>
+                <field name="value" optional="hidden"/>
+            </xpath>

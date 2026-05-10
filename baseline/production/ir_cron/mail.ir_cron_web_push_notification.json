@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 8,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._push_notification_to_endpoint()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "d0dd2ecba9717735620b47a024e11d318606c4be69bd62a620bf83fcb1e5cc7e",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "mail.ir_cron_web_push_notification"
+}

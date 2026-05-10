@@ -1,0 +1,3 @@
+<t name="Language Flag" t-name="website.lang_flag">
+    <img t-attf-class="o_lang_flag #{_flag_class}" t-attf-src="#{flag_image_url}?height=25" t-att-alt="flag_lang_alt or ''"/>
+</t>

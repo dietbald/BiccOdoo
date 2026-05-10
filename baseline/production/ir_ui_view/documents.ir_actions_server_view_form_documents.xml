@@ -1,0 +1,12 @@
+<data><xpath expr="//button[@name='create_action']" position="replace"/>
+            <xpath expr="//button[@name='unlink_action']" position="replace"/>
+            <xpath expr="//field[@name='name']" position="replace">
+                <field name="name" placeholder="e.g. Mass archive"/>
+            </xpath>
+            <xpath expr="//field[@name='model_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='evaluation_type']" position="attributes">
+                <attribute name="widget">documents_server_action_evaluation_type_field</attribute>
+            </xpath>
+         </data>

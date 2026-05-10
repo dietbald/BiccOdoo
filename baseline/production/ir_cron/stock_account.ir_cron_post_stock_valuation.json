@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 81,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "\nmodel._cron_post_stock_valuation()\n            ",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "3b215a1c88ddbc1280f203ff804b73d7896fc348f8668e90d80b40e0fe6a4d65",
+  "write_date": "2025-12-09 02:58:51",
+  "xml_id": "stock_account.ir_cron_post_stock_valuation"
+}

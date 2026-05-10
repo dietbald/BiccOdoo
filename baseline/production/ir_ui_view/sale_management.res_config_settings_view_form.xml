@@ -1,0 +1,18 @@
+<data><setting id="online_signature" position="after">
+                <setting id="standardized_offers_setting" company_dependent="1" documentation="/applications/sales/sales/send_quotations/quote_template.html" help="Create standardized offers with default products">
+                    <field name="group_sale_order_template"/>
+                    <div class="content-group" invisible="not group_sale_order_template">
+                        <div class="mt16">
+                            <label for="company_so_template_id" class="o_light_label mr8"/>
+                            <field name="company_so_template_id" class="oe_inline"/>
+                        </div>
+                        <div class="mt8">
+                            <button name="508" icon="oi-arrow-right" type="action" string="Quotation Templates" class="btn-link"/>
+                        </div>
+                    </div>
+                </setting>
+            </setting>
+            <app name="sale_management" position="attributes">
+                <attribute name="notApp">0</attribute>
+            </app>
+        </data>

@@ -1,0 +1,3 @@
+<field name="stage_id" position="after">
+                <field name="matching_score" string="Matching" widget="progressbar" options="{'overflow_class': 'bg-success'}" invisible="not matching_score"/>
+            </field>

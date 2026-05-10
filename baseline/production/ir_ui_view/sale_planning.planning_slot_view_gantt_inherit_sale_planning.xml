@@ -1,0 +1,8 @@
+<data><xpath expr="//gantt" position="attributes">
+                <attribute name="plan">true</attribute>
+                <attribute name="progress_bar" separator="," add="sale_line_id"/>
+            </xpath>
+            <xpath expr="//gantt" position="inside">
+                <field name="sale_line_plannable" invisible="1"/>
+            </xpath>
+        </data>

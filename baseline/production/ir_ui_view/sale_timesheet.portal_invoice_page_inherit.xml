@@ -1,0 +1,9 @@
+<data inherit_id="account.portal_invoice_page">
+        <xpath expr="//t[@t-set='entries']/div/div/div[hasclass('o_download_pdf')]" position="after">
+            <t t-if="invoice.timesheet_count &gt; 0 and invoice.env['account.analytic.line']._show_portal_timesheets()">
+                <t t-set="search_value" t-value="invoice.name"/>
+                <t t-if="invoice.state == 'draft'" t-set="search_value" t-value="invoice.id"/>
+                <a t-if="invoice.move_type == 'out_invoice' and invoice.state in ('draft', 'posted') and invoice.timesheet_count &gt; 0" target="_blank" t-att-href="'/my/timesheets?search_in=invoice&amp;search=%s' % search_value" class="btn btn-light" role="button" title="View Timesheet">View Timesheets</a>
+            </t>
+        </xpath>
+    </data>

@@ -1,0 +1,14 @@
+<data name="Invoice success display: payment success" inherit_id="account.portal_invoice_success">
+        <xpath expr="//a[hasclass('close')]" position="after">
+            <t t-if="success == 'pay_invoice'">
+                <t t-set="tx_sudo" t-value="invoice.get_portal_last_transaction()"/>
+                <span t-if="tx_sudo.provider_id.sudo().done_msg" t-out="tx_sudo.provider_id.sudo().done_msg"/>
+                <div t-if="tx_sudo.provider_id.sudo().pending_msg and tx_sudo.provider_code == 'custom' and invoice.ref">
+                    <b>Communication: </b><span t-out="invoice.ref"/>
+                </div>
+            </t>
+            <t t-if="success == 'pay_invoice' and invoice.payment_state in ('paid', 'in_payment')">
+                Done, your online payment has been successfully processed. Thank you for your order.
+            </t>
+        </xpath>
+    </data>

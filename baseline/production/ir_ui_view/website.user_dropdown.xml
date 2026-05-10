@@ -1,0 +1,9 @@
+<data inherit_id="portal.user_dropdown">
+    <xpath expr="//t[@t-set='is_connected']" position="replace">
+        <t t-set="is_connected" t-value="False"/>
+        <t t-if="website">
+            <t t-set="is_connected" t-value="website.user_id != user_id"/>
+        </t>
+        <t t-else="">$0</t>
+    </xpath>
+</data>

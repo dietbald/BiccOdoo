@@ -1,0 +1,34 @@
+<data><field name="move_name" position="attributes">
+                <attribute name="column_invisible">1</attribute>
+            </field>
+            <list name="move_line_tree" position="attributes">
+                <attribute name="js_class">account_move_line_journal_report_list</attribute>
+            </list>
+            <button name="edit" position="replace">
+                <button name="open_partner" type="object" string="View" title="View Partner"/>
+            </button>
+            <groupby name="partner_id" position="after">
+                <groupby name="move_id">
+                    <button name="button_set_checked" class="btn-info" type="object" string="Set as Reviewed" invisible="checked or state == 'draft'" groups="account.group_account_user"/>
+                </groupby>
+            </groupby>
+            <field name="invoice_date" position="attributes">
+                <attribute name="optional">show</attribute>
+            </field>
+            <field name="account_id" position="attributes">
+                <attribute name="optional">show</attribute>
+            </field>
+            <field name="tax_ids" position="attributes">
+                <attribute name="optional">show</attribute>
+            </field>
+            <field name="date" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+            <field name="matching_number" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+            <field name="partner_id" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+
+        </data>

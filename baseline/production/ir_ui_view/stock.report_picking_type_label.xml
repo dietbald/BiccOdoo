@@ -1,0 +1,4 @@
+<t t-name="stock.report_picking_type_label">
+            <t t-set="title">Operation Types</t>
+            <t t-call="stock.report_generic_barcode"/>
+        </t>

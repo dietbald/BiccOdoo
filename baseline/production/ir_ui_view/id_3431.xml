@@ -1,0 +1,12 @@
+<data inherit_id="portal.frontend_layout" primary="True">
+        <xpath expr="//t[@t-if='not_uses_default_logo'][1]" position="before">
+            <t t-if="preview_object.displayed_image_id">
+                <meta property="og:image" t-attf-content="/web/image/{{ preview_object.displayed_image_id.id }}/300x200?access_token={{ preview_object.displayed_image_id.generate_access_token()[0] }}"/>
+            </t>
+        </xpath>
+        <xpath expr="//t[@t-if='not_uses_default_logo'][2]" position="before">
+            <t t-if="preview_object.displayed_image_id">
+                <meta property="twitter:image" t-attf-content="/web/image/{{ preview_object.displayed_image_id.id }}/300x200?access_token={{ preview_object.displayed_image_id.generate_access_token()[0] }}"/>
+            </t>
+        </xpath>
+    <xpath expr="." position="attributes"><attribute name="t-name">project.task_link_preview_front_end</attribute></xpath></data>

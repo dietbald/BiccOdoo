@@ -1,0 +1,1 @@
+model._clean_redundant_salary_data()

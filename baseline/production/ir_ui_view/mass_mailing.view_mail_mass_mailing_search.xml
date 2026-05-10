@@ -1,0 +1,19 @@
+<search string="Mailings">
+                    <field name="name" string="Mailing" filter_domain="['|', ('name', 'ilike', self), ('subject', 'ilike', self)]"/>
+                    <field name="campaign_id" string="Campaign" groups="mass_mailing.group_mass_mailing_campaign"/>
+                    <filter string="My Mailings" name="assigned_to_me" domain="[('user_id', '=', uid)]" help="Mailings that are assigned to me"/>
+                    <separator/>
+                    <filter name="filter_sent_date" date="sent_date"/>
+                    <separator/>
+                    <filter string="A/B Tests" name="filter_ab_test" domain="[('ab_testing_enabled', '=', True)]"/>
+                    <filter string="A/B Tests to review" name="filter_ab_test_to_review" domain="[('ab_testing_enabled', '=', True), ('ab_testing_winner_selection', '=', 'manual'), ('ab_testing_completed', '=', False)]"/>
+                    <separator/>
+                    <filter name="inactive" string="Archived" domain="[('active', '=', False)]"/>
+                    <group>
+                        <filter string="Status" name="group_state" context="{'group_by': 'state'}"/>
+                        <filter string="Sent By" name="sent_by" domain="[]" context="{'group_by': 'email_from'}"/>
+                        <filter string="Mailing List" name="group_by_contact_list_ids" domain="[]" context="{'group_by': 'contact_list_ids'}"/>
+                        <separator/>
+                        <filter string="Sent Period" name="sent_date" domain="[]" context="{'group_by': 'sent_date'}"/>
+                    </group>
+                </search>

@@ -1,0 +1,5 @@
+<filter name="control_date" position="after">
+                <separator/>
+                <filter string="Quality Checks" name="quality_checks" domain="['|', ('point_id', '=', False), ('point_id.operation_id', '=', False), ('test_type', 'not in', ('register_consumed_materials', 'register_byproducts', 'print_label'))]"/>
+                <filter string="Manufacturing Steps" name="manufacturing_steps" domain="['|', ('point_id.operation_id', '!=', False), ('test_type', 'in', ('register_consumed_materials', 'register_byproducts', 'print_label'))]"/>
+            </filter>

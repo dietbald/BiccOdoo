@@ -1,0 +1,10 @@
+<form string="Load a Translation">
+                    <group>
+                        <field name="lang_ids" widget="many2many_tags" context="{'active_test': False}" options="{'no_quick_create': True, 'no_create_edit': True}"/>
+                        <field name="overwrite" groups="base.group_no_one"/>
+                    </group>
+                    <footer>
+                        <button name="lang_install" block-ui="1" string="Add" data-hotkey="q" type="object" class="btn-primary"/>
+                        <button special="cancel" data-hotkey="x" string="Cancel" class="btn-secondary"/>
+                    </footer>
+                </form>

@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 24,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_fetch_waiting_online_transactions()",
+    "interval_number": 5,
+    "interval_type": "minutes"
+  },
+  "payload_sha256": "a8de0abe4aeb5b5423da5a45547d982a9ded0d5bf72787eed5940e201887c176",
+  "write_date": "2026-05-10 00:30:04",
+  "xml_id": "account_online_synchronization.online_sync_cron_waiting_synchronization"
+}

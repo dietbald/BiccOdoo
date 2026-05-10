@@ -1,0 +1,11 @@
+<data inherit_id="website.new_page_template_s_text_image" primary="True">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="o_colored_level pt56 pb56" remove="pt80 pb80" separator=" "/>
+    </xpath>
+    <xpath expr="//h2|//h3" position="replace">
+        <h2 class="h3-fs">Our Approach</h2>
+    </xpath>
+    <xpath expr="//p" position="replace">
+        <p>We believe that every fitness journey is unique. Our approach begins with understanding your fitness aspirations, your current lifestyle, and any challenges you face.</p>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.new_page_template_landing_s_text_image</attribute></xpath></data>

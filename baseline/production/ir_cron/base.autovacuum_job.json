@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 1,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._run_vacuum_cleaner()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "230c623b4c100ada202dfa41782337e99ff03e9cbd8a3031466d10019ee5ad49",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.autovacuum_job"
+}

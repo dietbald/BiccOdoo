@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:48Z",
+  "id": 12067,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Approvers",
+    "relation": "approval.category.approver",
+    "ttype": "one2many"
+  },
+  "payload_sha256": "f5e6e12d05929cba0ee86a8471fc7010132ace1930a02681a800ec2e3d3cf79e",
+  "write_date": "",
+  "xml_id": "approvals.field_approval_category__approver_ids"
+}

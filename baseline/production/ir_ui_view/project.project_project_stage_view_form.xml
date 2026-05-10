@@ -1,0 +1,18 @@
+<form delete="0">
+                <sheet>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <h1><field name="name" placeholder="e.g. To Do"/></h1>
+                    <group>
+                        <group>
+                            <field name="active" invisible="1"/>
+                            <field name="mail_template_id" context="{'default_model': 'project.project'}"/>
+                            <field name="color" widget="color_picker"/>
+                            <field name="sequence" groups="base.group_no_one"/>
+                        </group>
+                        <group>
+                            <field name="fold"/>
+                            <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}" placeholder="Visible to all"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

@@ -1,0 +1,17 @@
+<form string="Attendee" create="0">
+                <sheet>
+                    <group col="2" name="main_content">
+                        <group>
+                            <field name="partner_id"/>
+                            <field name="slide_id"/>
+                            <field name="slide_category" invisible="1"/>
+                            <field name="channel_id"/>
+                        </group>
+                        <group>
+                            <field name="completed" readonly="1"/>
+                            <field name="quiz_attempts_count" readonly="1"/>
+                            <field name="vote" readonly="1"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

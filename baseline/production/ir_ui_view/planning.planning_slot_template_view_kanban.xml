@@ -1,0 +1,11 @@
+<kanban>
+                    <templates>
+                        <t t-name="card">
+                            <div class="fw-bolder">
+                                <i class="fa fa-clock-o" role="img" aria-label="Hours" title="Hours"/>
+                                <field name="name" class="ms-2"/>
+                            </div>
+                            <field name="role_id" class="fw-bolder"/>
+                        </t>
+                    </templates>
+                </kanban>

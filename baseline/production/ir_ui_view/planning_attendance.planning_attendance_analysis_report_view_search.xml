@@ -1,0 +1,17 @@
+<search string="Planning / Attendance Analysis">
+                <field name="employee_id"/>
+                <field name="department_id"/>
+                <filter string="My Team" name="my_team" help="My Team" domain="[('employee_id.parent_id.user_id', '=', uid)]"/>
+                <filter string="My Department" name="my_department" domain="[('employee_id.member_of_department', '=', True)]"/>
+                <separator/>
+                <filter string="Date" name="year" date="entry_date">
+                    <filter name="entry_date_this_week" string="This Week" domain="[                         ('entry_date', '&gt;=', '=week_start'),                         ('entry_date', '&lt;', '=week_start +1w'),                     ]"/>
+                    <filter name="entry_date_today" string="Today" domain="[('entry_date', '=', 'today')]"/>
+                    <filter name="entry_date_last_week" string="Last Week" domain="[                         ('entry_date', '&gt;=', '=week_start -1w'),                         ('entry_date', '&lt;', '=week_start'),                     ]"/>
+                </filter>
+                <group>
+                    <filter string="Department" name="resource_departement" context="{'group_by':'department_id'}"/>
+                    <filter string="Employee" name="resource_employee" context="{'group_by':'employee_id'}"/>
+                    <filter string="Date" name="date_month" context="{'group_by':'entry_date:month'}"/>
+                </group>
+            </search>

@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 2,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._gc_portal_users(batch_size=50)",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "9849caa064eb19a639273adc196b3e6449942472c3abaec8210a16753d2853e0",
+  "write_date": "2025-12-09 02:55:32",
+  "xml_id": "base.ir_cron_res_users_deletion"
+}

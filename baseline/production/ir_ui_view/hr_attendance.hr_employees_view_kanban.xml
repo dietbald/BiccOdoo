@@ -1,0 +1,24 @@
+<kanban create="false">
+                <field name="attendance_state"/>
+                <templates>
+                    <t t-name="card" class="flex-row">
+                        <aside>
+                            <field name="avatar_128" widget="image" alt="Employee" class="mb-0"/>
+                        </aside>
+                        <main class="w-100 ms-2">
+                            <div>
+                                <div class="float-end" t-if="record.attendance_state.raw_value == 'checked_in'">
+                                    <span class="fa fa-circle text-success me-1" role="img" aria-label="Available" title="Available"/>
+                                </div>
+                                <div class="float-end" t-if="record.attendance_state.raw_value == 'checked_out'">
+                                    <span class="fa fa-circle text-warning me-1" role="img" aria-label="Not available" title="Not available">
+                                    </span>
+                                </div>
+                                <field class="fw-bolder" name="name"/>
+                            </div>
+                            <field t-if="record.job_id.raw_value" name="job_id"/>
+                            <field t-if="record.work_location_id.raw_value" name="work_location_id"/>
+                        </main>
+                    </t>
+                </templates>
+            </kanban>

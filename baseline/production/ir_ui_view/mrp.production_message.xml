@@ -1,0 +1,9 @@
+<t t-name="mrp.production_message">
+        <t t-if="move.move_id.raw_material_production_id">
+            <t t-set="message">Consumed</t>
+        </t>
+        <t t-if="move.move_id.production_id">
+            <t t-set="message">Produced</t>
+        </t>
+        <strong><t t-esc="message"/> quantity has been updated.</strong>
+    </t>

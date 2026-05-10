@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='user_id']" position="after">
+                    <field name="activity_ids" optional="show" widget="list_activity"/>
+                </xpath>

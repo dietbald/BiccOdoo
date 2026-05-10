@@ -1,0 +1,62 @@
+<data><xpath expr="//h1" position="attributes">
+                <attribute name="class" add="d-flex align-items-center" separator=" "/>
+            </xpath>
+            <xpath expr="//field[@name='name']" position="before">
+                <field name="is_favorite" widget="boolean_favorite" class="hr_recruitment_is_favorite_job" nolabel="1"/>
+            </xpath>
+            <xpath expr="//form" position="attributes">
+                <attribute name="js_class">recruitment_form_view</attribute>
+            </xpath>
+            <page name="recruitment_page" position="attributes">
+                <attribute name="invisible">0</attribute>
+                <attribute name="groups">hr_recruitment.group_hr_recruitment_interviewer,hr.group_hr_user</attribute>
+            </page>
+            <page name="job_description_page" position="attributes">
+                <attribute name="invisible">0</attribute>
+                <attribute name="groups">hr_recruitment.group_hr_recruitment_interviewer,hr.group_hr_user</attribute>
+            </page>
+            <group name="hiring_process" position="inside">
+                <field name="interviewer_ids" widget="many2many_tags_avatar" options="{'no_create': True, 'no_create_edit': True}" groups="hr_recruitment.group_hr_recruitment_interviewer"/>
+                <label for="alias_name" string="Email Alias" help="Define a specific contact address for this job position. If you keep it empty, the default email address will be used which is in human resources settings"/>
+                <div class="o_wrap_label d-flex flex-row gap-1 align-items-baseline">
+                    <field name="alias_name" placeholder="e.g. jobs"/>
+                    <span>@</span>
+                    <field name="alias_domain_id" placeholder="e.g. domain.com" options="{'no_create': True, 'no_open': True}"/>
+                </div>
+            </group>
+
+            <group name="job_posting" position="inside">
+                <field name="expected_degree" groups="hr_recruitment.group_hr_recruitment_interviewer"/>
+            </group>
+
+            <group name="job" position="inside">
+                <label for="address_id"/>
+                <div class="o_row">
+                    <span invisible="address_id" class="oe_read_only">Remote</span>
+                    <field name="address_id" context="{'show_address': 1}" placeholder="Remote"/>
+                </div>
+            </group>
+
+            <xpath expr="//group" position="after">
+                <field name="job_properties" columns="2" groups="hr_recruitment.group_hr_recruitment_interviewer"/>
+            </xpath>
+            <div name="button_box" position="inside">
+                <button class="oe_stat_button" groups="hr_recruitment.group_hr_recruitment_interviewer" icon="fa-pencil" name="585" context="{'default_user_id': user_id, 'active_test': False}" type="action">
+                    <field name="all_application_count" widget="statinfo" string="Applications"/>
+                </button>
+                <button class="oe_stat_button" groups="hr_recruitment.group_hr_recruitment_interviewer" icon="fa-file-text-o" name="action_open_attachments" type="object" invisible="documents_count == 0">
+                    <field name="documents_count" widget="statinfo" string="Documents"/>
+                </button>
+                <button name="action_open_employees" groups="hr_recruitment.group_hr_recruitment_interviewer" class="oe_stat_button" icon="fa-users" invisible="not employee_count" type="object">
+                    <field name="employee_count" widget="statinfo" string="Employees"/>
+                </button>
+            </div>
+            <xpath expr="//page[@name='job_description_page']" position="after">
+                <page string="Trackers" name="trackers_page" groups="hr.group_hr_user">
+                    <field name="job_source_ids" groups="hr_recruitment.group_hr_recruitment_interviewer"/>
+                </page>
+            </xpath>
+            <xpath expr="//sheet" position="after">
+                <chatter open_attachments="True" groups="hr_recruitment.group_hr_recruitment_interviewer,hr.group_hr_user"/>
+            </xpath>
+        </data>

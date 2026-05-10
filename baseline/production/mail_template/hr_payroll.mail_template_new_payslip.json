@@ -1,0 +1,12 @@
+{
+  "exported_at": "2026-05-10T05:51:53Z",
+  "id": 36,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"width:100%; margin:0px auto;\"><tbody>\n    <tr><td valign=\"top\" style=\"text-align: left; font-size: 14px;\">\n        Dear <t t-esc=\"object.employee_id.name\"></t>, a new payslip is available for you.<br><br>\n        Please find the PDF in your employee portal.<br><br>\n        Have a nice day,<br>\n        The HR Team\n    </td></tr>\n</tbody></table>\n            ",
+    "subject": "{{ object.employee_id.name }}, a new payslip is available for you"
+  },
+  "payload_sha256": "9b7188b173e86b5b2d166b2fbadc1c1f85cccb9760ba113be67aca1f3b985d51",
+  "write_date": "2023-12-05 05:18:50",
+  "xml_id": "hr_payroll.mail_template_new_payslip"
+}

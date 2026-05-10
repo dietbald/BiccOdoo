@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 61,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._update_accrual()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "8cc15e22317e0297cd726645a8d8c8b508804ed3e1e6b18d3bfd7839e297e9d8",
+  "write_date": "2025-12-09 02:58:14",
+  "xml_id": "hr_holidays.hr_leave_allocation_cron_accrual"
+}

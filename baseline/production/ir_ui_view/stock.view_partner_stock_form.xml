@@ -1,0 +1,6 @@
+<xpath expr="//page[@name='sales_purchases']/group" position="inside">
+                <group string="Inventory" name="inventory" groups="base.group_no_one" priority="6">
+                    <field name="property_stock_customer"/>
+                    <field name="property_stock_supplier"/>
+                </group>
+            </xpath>

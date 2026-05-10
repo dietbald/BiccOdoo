@@ -1,0 +1,4 @@
+<t t-name="stock.report_package_history_barcode_small">
+    <t t-set="docs" t-value="docs.package_id"/>
+    <t t-call="stock.report_package_barcode_small"/>
+</t>

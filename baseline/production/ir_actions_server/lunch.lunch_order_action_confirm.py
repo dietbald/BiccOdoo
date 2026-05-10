@@ -1,0 +1,1 @@
+records.action_confirm()

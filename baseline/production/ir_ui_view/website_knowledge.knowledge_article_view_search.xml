@@ -1,0 +1,4 @@
+<xpath expr="//filter[@name='filter_own_privates']" position="after">
+                <separator/>
+                <filter name="filter_is_published" string="Is Published" domain="[('website_published', '=', True)]"/>
+            </xpath>

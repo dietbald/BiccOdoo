@@ -1,0 +1,19 @@
+<data><xpath expr="//list" position="attributes">
+                <attribute name="editable">bottom</attribute>
+            </xpath>
+            <xpath expr="//field[@name='name']" position="attributes">
+                <attribute name="string">Name</attribute>
+                <attribute name="required">1</attribute>
+                <attribute name="placeholder">e.g. New Year's Day</attribute>
+            </xpath>
+            <xpath expr="//field[@name='resource_id']" position="attributes">
+                <attribute name="column_invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='date_to']" position="after">
+                <field name="company_id" column_invisible="True"/>
+                <xpath expr="//field[@name='calendar_id']" position="move"/>
+            </xpath>
+            <xpath expr="//field[@name='calendar_id']" position="attributes">
+                <attribute name="placeholder">All Schedules</attribute>
+            </xpath>
+        </data>

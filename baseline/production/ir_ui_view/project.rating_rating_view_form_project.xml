@@ -1,0 +1,32 @@
+<data><xpath expr="//form" position="attributes">
+                <attribute name="edit">0</attribute>
+            </xpath>
+            <field name="resource_ref" position="before">
+                <field name="rated_partner_id" position="move"/>
+                <field name="parent_ref" position="move"/>
+            </field>
+            <field name="res_name" position="attributes">
+                <attribute name="string">Task</attribute>
+            </field>
+            <field name="resource_ref" position="attributes">
+                <attribute name="string">Task</attribute>
+            </field>
+            <field name="parent_ref" position="attributes">
+                <attribute name="string">Project</attribute>
+            </field>
+            <field name="parent_res_name" position="attributes">
+                <attribute name="string">Project</attribute>
+            </field>
+            <field name="rated_partner_id" position="attributes">
+                <attribute name="string">Assigned to</attribute>
+            </field>
+            <field name="feedback" position="attributes">
+                <attribute name="readonly">1</attribute>
+            </field>
+            <field name="rated_on" position="after">
+                <field name="partner_id" position="move"/>
+            </field>
+            <xpath expr="//field[@name='is_internal']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </data>

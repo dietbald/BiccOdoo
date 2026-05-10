@@ -1,0 +1,9 @@
+<t t-name="l10n_ph.report_disbursement_voucher">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+                <t t-set="is_l10n_ph_disbursement_voucher" t-value="True"/>
+                <t t-set="lang" t-value="o.partner_id.lang or o.company_id.partner_id.lang"/>
+                <t t-call="l10n_ph.report_disbursement_voucher_document" t-lang="lang"/>
+            </t>
+        </t>
+    </t>

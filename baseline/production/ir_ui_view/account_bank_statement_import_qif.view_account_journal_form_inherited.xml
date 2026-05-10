@@ -1,0 +1,6 @@
+<group name="bank_account_number" position="inside">
+                <label for="qif_decimal_point" class="text-nowrap" invisible="bank_statements_source != 'file_import'"/>
+                <field name="qif_decimal_point" nolabel="1" invisible="bank_statements_source != 'file_import'" required="bank_statements_source == 'file_import'"/>
+                <label for="qif_date_format" class="text-nowrap" invisible="bank_statements_source != 'file_import'"/>
+                <field name="qif_date_format" nolabel="1" invisible="bank_statements_source != 'file_import'" required="bank_statements_source == 'file_import'"/>
+            </group>

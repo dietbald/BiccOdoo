@@ -1,0 +1,89 @@
+<t name="Jobs" t-name="website_hr_recruitment.index">
+    <t t-call="website.layout">
+        <div id="wrap" class="o_website_hr_recruitment_jobs_list o_colored_level o_cc o_cc2">
+            <!-- Snippet area -->
+            <div class="oe_structure" id="oe_structure_hr_recruitment_index_top"/>
+
+            <!-- Topbar -->
+            <nav class="navbar navbar-light border-top shadow-sm d-print-none w-100 o_colored_level">
+                <div class="container">
+                    <div class="d-flex flex-column flex-md-row flex-md-wrap flex-lg-nowrap align-items-center justify-content-between w-100">
+                        <!-- Title -->
+                        <span class="navbar-brand h5 my-0 me-sm-auto"><h2>OUR JOB OFFERS</h2></span>
+                        <!-- Customizations -->
+                        <t t-call="website_hr_recruitment.topbar_customizations"/>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- Content -->
+            <div class="container oe_website_jobs">
+                <div class="row pt48 pb16">
+                    <div class="d-none" id="jobs_grid_left"/>
+                    <div class="col-lg" id="jobs_grid">
+                        <div class="row flex-column">
+                            <t t-if="not jobs">
+                                <div class="col">
+                                    <div t-if="search" class="alert alert-warning text-center" role="alert">
+                                        No results found for '<span t-out="search"/>'.
+                                    </div>
+                                    <div class="alert alert-info text-center text-muted" groups="hr_recruitment.group_hr_recruitment_manager">
+                                        Create new job pages from the <strong>+ <i>New</i></strong> top-right button.
+                                    </div>
+                                    <div class="col-lg-12 text-center pt24">
+                                        <p class="h5 fw-light text-muted pb24">
+                                            There are currently no open job opportunities,<br class="mb-2"/>
+                                            but feel free to <span class="fw-bold">contact us</span> for a spontaneous application.
+                                        </p>
+                                        <img class="img-fluid o_we_custom_image pb24" src="/website_hr_recruitment/static/src/img/job_not_found.svg" style="width: 50% !important;" alt="Job not found"/>
+                                    </div>
+                                </div>
+                            </t>
+                            <t t-elif="search and original_search">
+                                <div class="col">
+                                    <div class="alert alert-info text-center" role="alert">
+                                        No results found for '<span t-out="original_search"/>'. Showing results for '<span t-out="search"/>'.
+                                        <t t-set="search" t-value="original_search"/>
+                                    </div>
+                                </div>
+                            </t>
+                            <div t-foreach="jobs" t-as="job" class="col-lg mb32">
+                                <div t-attf-class="card #{not job.website_published and 'o_jobs_unpublished'}">
+                                    <a t-attf-href="/jobs/#{ slug(job) }" t-attf-class="text-decoration-none text-reset" draggable="false">
+                                        <div class="card-body p-4">
+                                            <div class="mt0 d-flex justify-content-between align-items-center">
+                                                <h3 t-field="job.name"/>
+                                                <span t-if="not job.website_published" class="badge bg-danger mb8 p-2">unpublished</span>
+                                            </div>
+                                            <h5 t-if="job.no_of_recruitment &gt;= 3" class="text-reset" t-out="'%s open positions' % job.no_of_recruitment"/>
+                                            <t t-set="job_desc_edition_placeholder">Insert a Job Description...</t>
+                                            <div class="oe_empty text-muted mb16" t-field="job.x_description" t-att-data-editor-message="job_desc_edition_placeholder"/>
+                                            <div class="o_job_infos d-flex flex-column">
+                                                <span t-field="job.address_id" class="fw-light" t-options="{&quot;widget&quot;: &quot;contact&quot;, &quot;fields&quot;: [&quot;city&quot;], &quot;no_tag_br&quot;: True, &quot;null_text&quot;: &quot;Remote&quot;}"/>
+                                                <div t-if="job.department_id" class="d-inline-flex align-items-center">
+                                                    <i class="fa fa-sitemap fa-fw"/><span t-field="job.department_id" class="fw-light" t-options="{&quot;fields&quot;: [&quot;name&quot;], &quot;no_tag_br&quot;: True}"/>
+                                                </div>
+                                                <div t-if="job.contract_type_id" class="d-inline-flex align-items-center">
+                                                    <i class="fa fa-suitcase fa-fw" title="Employment type" role="img" aria-label="Employment type"/><span t-field="job.contract_type_id" class="fw-light"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Pager -->
+                    <div class="navbar mb-3 w-100">
+                        <t t-call="website.pager">
+                            <t t-set="classname" t-valuef="mx-auto"/>
+                        </t>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Snippet area -->
+            <div class="oe_structure" id="oe_structure_hr_recruitment_index_bottom"/>
+        </div>
+    </t>
+</t>

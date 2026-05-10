@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-05-10T05:51:43Z",
+  "id": 11,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1612
+    ],
+    "active": true,
+    "filter_domain": false,
+    "model_id": [
+      613,
+      "Sales Order"
+    ],
+    "name": "Update Quotation Link to Opportunity",
+    "trigger": "on_create_or_write"
+  },
+  "payload_sha256": "41b728d3779922f24856d37d3137ee260044a65afd76e38716fd3bb2514e4774",
+  "write_date": "2025-11-18 01:31:31",
+  "xml_id": null
+}

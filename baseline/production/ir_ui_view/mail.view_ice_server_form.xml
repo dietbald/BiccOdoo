@@ -1,0 +1,12 @@
+<form string="ICE Server Configuration">
+                <sheet>
+                    <group>
+                        <field name="server_type" class="oe_inline"/>
+                        <field name="uri" placeholder="stun:stun.google.com:19302 or turn:turn.example.com:3478"/>
+                    </group>
+                    <group string="Authentication">
+                        <field name="username"/>
+                        <field name="credential"/>
+                    </group>
+                </sheet>
+            </form>

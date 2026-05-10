@@ -1,0 +1,14 @@
+<form>
+                <sheet>
+                    <group>
+                        <group name="main_details">
+                            <field name="text"/>
+                            <field name="sequence" groups="base.group_no_one"/>
+                            <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}" placeholder="Visible to all"/>
+                        </group>
+                        <group>
+                            <field name="image" widget="image" class="o_onboarding_form_img bg-dark" nolabel="1" colspan="2"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

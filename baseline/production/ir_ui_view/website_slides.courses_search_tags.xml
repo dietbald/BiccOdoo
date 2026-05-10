@@ -1,0 +1,23 @@
+<t t-name="website_slides.courses_search_tags">
+    <t t-if="search_my">
+          <span class="align-items-baseline border d-inline-flex ps-2 rounded mb-2">
+          <i class="fa fa-tag me-2 text-muted"/>
+          My Courses
+          <span t-att-data-post="slide_query_url(tag=slugify_tags(search_tags.ids), search=search_term, prevent_redirect=True)" class="post_link cursor-pointer btn border-0 py-1">×</span>
+        </span>
+    </t>
+    <t t-if="search_term">
+          <span class="align-items-baseline border d-inline-flex ps-2 rounded mb-2">
+          <i class="fa fa-tag me-2 text-muted"/>
+          <t t-out="search_term"/>
+          <span t-att-data-post="slide_query_url(tag=slugify_tags(search_tags.ids), my=search_my, slide_category=search_slide_category, prevent_redirect=True)" class="post_link cursor-pointer btn border-0 py-1">×</span>
+        </span>
+    </t>
+    <t t-foreach="search_tags" t-as="tag">
+        <span class="align-items-baseline border d-inline-flex ps-2 rounded mb-2">
+            <i class="fa fa-tag me-2 text-muted"/>
+            <t t-out="tag.display_name"/>
+            <span t-att-data-post="slide_query_url(tag=slugify_tags(search_tags.ids, tag.id), my=search_my, search=search_term, slide_category=search_slide_category, prevent_redirect=True)" class="post_link cursor-pointer btn border-0 py-1">×</span>
+        </span>
+    </t>
+</t>

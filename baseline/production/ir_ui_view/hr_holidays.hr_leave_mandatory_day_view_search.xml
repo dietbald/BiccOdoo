@@ -1,0 +1,13 @@
+<search string="Mandatory Day">
+                <field name="name"/>
+                <field name="start_date"/>
+                <field name="end_date"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <separator/>
+                <filter name="filter_date" date="start_date" default_period="year" string="Period"/>
+                <group>
+                    <filter name="department" string="Department" context="{'group_by': 'department_ids'}"/>
+                    <filter name="job" string="Job" context="{'group_by': 'job_ids'}"/>
+                    <filter name="company" string="Company" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
+                </group>
+            </search>

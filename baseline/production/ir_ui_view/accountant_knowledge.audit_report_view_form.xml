@@ -1,0 +1,20 @@
+<form>
+                <group>
+                    <div class="oe_title" colspan="2">
+                        <div class="o_form_label">Title</div>
+                        <h1><field class="text-break" options="{'line_breaks': False}" widget="text" name="title" placeholder="e.g. Annual Financial Overview"/></h1>
+                    </div>
+                    <div class="o_form_label">Dates</div>
+                    <div class="d-flex align-items-center gap-3">
+                        <field name="start_date" no_label="1"/>
+                        <i class="oi oi-fw oi-arrow-right"/>
+                        <field name="end_date" no_label="1"/>
+                    </div>
+                    <field name="responsible_user_ids" widget="many2many_avatar_user"/>
+                    <field name="knowledge_template_article_id" groups="base.group_no_one" string="Audit Template"/>
+                </group>
+                <footer>
+                    <button string="Save" class="btn-primary" special="save" data-hotkey="S"/>
+                    <button string="Discard" class="btn-secondary" special="cancel" data-hotkey="x"/>
+                </footer>
+            </form>

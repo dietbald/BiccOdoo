@@ -1,0 +1,5 @@
+<filter name="rental_late_orders" position="after">
+                <separator/>
+                <filter string="To Pickup" name="filter_to_pickup" domain="[('rental_status', '=', 'pickup')]"/>
+                <filter string="To Return" name="filter_to_return" domain="[('rental_status', '=', 'return')]"/>
+            </filter>

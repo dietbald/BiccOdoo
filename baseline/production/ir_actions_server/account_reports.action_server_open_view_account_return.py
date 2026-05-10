@@ -1,0 +1,1 @@
+action = model.action_open_tax_return_view()

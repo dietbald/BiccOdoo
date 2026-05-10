@@ -1,0 +1,25 @@
+<data><xpath expr="//setting[@id='openai_provider']" position="replace"/>
+            <xpath expr="//setting[@id='google_provider']" position="replace"/>
+            <xpath expr="//form" position="inside">
+                <app data-string="AI" string="AI" name="ai_app">
+                    <block title="Providers" name="ai_providers">
+                        <setting id="openai_provider" string="Use your own ChatGPT account" help="Provide your API key to connect with your account" groups="base.group_system">
+                            <field name="openai_key_enabled"/>
+                            <group invisible="not openai_key_enabled">
+                                <div class="flex-grow-1">
+                                    <field name="openai_key" placeholder="Key" password="True" nolabel="1" class="w-100"/>
+                                </div>
+                            </group>
+                        </setting>
+                        <setting id="google_provider" string="Use your own Google Gemini account" help="Provide your API key to connect with your account" groups="base.group_system">
+                            <field name="google_key_enabled"/>
+                            <group invisible="not google_key_enabled">
+                                <div class="flex-grow-1">
+                                    <field name="google_key" placeholder="Key" password="True" nolabel="1" class="w-100"/>
+                                </div>
+                            </group>
+                        </setting>
+                    </block>
+                </app>
+            </xpath>
+        </data>

@@ -1,0 +1,9 @@
+<data inherit_id="website.s_text_block_h2" primary="True">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pb40" remove="pb0" separator=" "/>
+    </xpath>
+    <xpath expr="//h2" position="attributes">
+        <attribute name="style">text-align: left;</attribute>
+    </xpath>
+    <xpath expr="//h2" position="replace" mode="inner">Contact Us</xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.s_text_block_h2_contact</attribute></xpath></data>

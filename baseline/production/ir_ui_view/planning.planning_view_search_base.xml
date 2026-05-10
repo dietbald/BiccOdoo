@@ -1,0 +1,46 @@
+<search>
+                <field name="resource_id" groups="planning.group_planning_user"/>
+                <field name="role_id" groups="planning.group_planning_user"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <field name="department_id" groups="planning.group_planning_user"/>
+                <field name="manager_id" groups="planning.group_planning_user"/>
+                <field name="job_title" groups="planning.group_planning_user"/>
+                <field name="name" groups="planning.group_planning_user"/>
+                <field name="request_to_switch" groups="planning.group_planning_user"/>
+                <filter name="open_shifts" string="Open Shifts" domain="[('resource_id', '=', False)]" context="{'show_role_open_shifts': 1}"/>
+                <filter name="my_shifts" string="My Shifts" domain="[('user_id', '=', uid)]"/>
+                <filter name="my_team_shifts" string="My Team" domain="[('manager_id.user_id', '=', uid)]" help="Shifts of Your Team Member" groups="planning.group_planning_user"/>
+                <filter name="my_department_shifts" string="My Department" domain="[('employee_id.member_of_department', '=', True)]" help="Shifts of Your Department Member" groups="planning.group_planning_user"/>
+                <filter name="unwanted_shifts" string="Requests to Switch" domain="[('request_to_switch', '=', True), ('end_datetime', '&gt;', 'now')]"/>
+                <separator/>
+                <filter string="My Roles" name="my_role" domain="[('role_id.resource_ids.user_id','=', uid)]" groups="planning.group_planning_user"/>
+                <separator/>
+                <filter name="shift_planned" invisible="1" string="Shifts Planned" groups="planning.group_planning_user" context="{'highlight_planned': 1}"/>
+                <filter name="conflict_shifts" string="Shifts in Conflict" groups="planning.group_planning_manager" context="{'highlight_conflicting': 1}"/>
+                <separator/>
+                <filter string="Employees" name="employees" domain="['|', '|', ('resource_type','=', 'user'), ('role_id.resource_ids.resource_type','=', 'user'), ('role_id','=', False)]" groups="planning.group_planning_user"/>
+                <filter string="Materials" name="materials" domain="['|', '|', ('resource_type','=', 'material'), ('role_id.resource_ids.resource_type','=', 'material'), ('role_id','=', False)]" groups="planning.group_planning_user"/>
+                <separator/>
+                <filter name="unpublished_shifts" string="Draft" domain="[('state', '=', 'draft')]" groups="planning.group_planning_manager"/>
+                <filter name="published_shifts" string="Published" domain="[('state', '=', 'published')]" groups="planning.group_planning_manager"/>
+                <separator groups="planning.group_planning_manager"/>
+                <filter string="Start Date" name="start_datetime" date="start_datetime" end_month="1">
+                    <filter name="start_today" string="Today" domain="[                         ('start_datetime', '&lt;', 'today +1d'),                         ('start_datetime', '&gt;=', 'today'),                     ]"/>
+                    <filter name="start_this_week" string="This Week" domain="[                         ('start_datetime', '&gt;=', '=week_start'),                         ('start_datetime', '&lt;', '=week_start +1w'),                     ]"/>
+                    <filter name="start_next_week" string="Next Week" domain="[                         ('start_datetime', '&gt;=', '=week_start +1w'),                         ('start_datetime', '&lt;', '=week_start +2w'),                     ]"/>
+                </filter>
+                <filter string="End Date" name="end_datetime" date="end_datetime" end_month="1">
+                    <filter name="end_today" string="Today" domain="[                         ('end_datetime', '&gt;=', 'today'),                         ('end_datetime', '&lt;', 'today +1d'),                     ]"/>
+                    <filter name="end_this_week" string="This Week" domain="[                         ('end_datetime', '&gt;=', '=week_start'),                         ('end_datetime', '&lt;', '=week_start +1w'),                     ]"/>
+                    <filter name="end_next_week" string="Next Week" domain="[                         ('end_datetime', '&gt;=', '=week_start +1w'),                         ('end_datetime', '&lt;', '=week_start +2w'),                     ]"/>
+                </filter>
+                <group>
+                    <filter name="group_by_department" string="Department" context="{'group_by': 'department_id'}" groups="planning.group_planning_user"/>
+                    <filter name="group_by_manager" string="Manager" context="{'group_by': 'manager_id'}" groups="planning.group_planning_user"/>
+                    <filter name="group_by_resource" string="Resource" context="{'group_by': 'resource_id'}" groups="planning.group_planning_user"/>
+                    <filter name="group_by_role" string="Role" context="{'group_by': 'role_id'}"/>
+                    <filter name="group_by_company" string="Company" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                    <filter name="group_by_start_datetime" string="Start Date" context="{'group_by':'start_datetime:day'}"/>
+                    <filter name="group_by_end_datetime" string="End Date" context="{'group_by':'end_datetime:day'}"/>
+                </group>
+            </search>

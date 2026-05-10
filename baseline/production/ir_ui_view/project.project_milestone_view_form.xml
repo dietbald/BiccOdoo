@@ -1,0 +1,26 @@
+<form>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="457" type="action" class="oe_stat_button" icon="fa-tasks" context="{'default_project_id': project_id}" groups="project.group_project_milestone" close="1" invisible="not project_allow_milestones">
+                            <div class="o_form_field o_stat_info">
+                                <span class="o_stat_value">
+                                    <field name="task_count" nolabel="1"/>
+                                    <span class="fw-normal"> Tasks</span>
+                                </span>
+                                <span class="o_stat_value" invisible="done_task_count == 0">
+                                    <field name="done_task_count" nolabel="1"/>
+                                    <span class="fw-normal"> Done</span>
+                                </span>
+                            </div>
+                        </button>
+                    </div>
+                    <group>
+                        <group name="main_details">
+                            <field name="project_id" invisible="1"/>
+                            <field name="name" placeholder="e.g: Product Launch"/>
+                            <field name="deadline"/>
+                            <field name="is_reached"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

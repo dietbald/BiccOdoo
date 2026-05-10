@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:49Z",
+  "id": 17324,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stock Pickings for which the Partner is the subcontractor",
+    "relation": "stock.picking",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "904f2d4f79ab5ab4d52257e8dff3201adfd853df96374cdf38b68afffc6cef08",
+  "write_date": "",
+  "xml_id": "mrp_subcontracting.field_res_partner__picking_ids"
+}

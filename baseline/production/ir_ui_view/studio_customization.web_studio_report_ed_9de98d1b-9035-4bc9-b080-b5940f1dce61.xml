@@ -1,0 +1,37 @@
+<data>
+  <data>
+    <xpath expr="/t[@t-name='purchase.report_purchaseorder_document']//t[@t-call='web.external_layout']/div/div" position="inside" meta-class="oe_structure">
+      <br/>
+    </xpath>
+  </data>
+  <data>
+    <xpath expr="/t[@t-name='purchase.report_purchaseorder_document']//t[@t-call='web.external_layout']/div/div[5]/table" position="attributes" meta-class="table table-sm table-bordered" meta-style="width: 100%; font-family: 'Roboto', sans-serif; font-size: 11px;">
+      <attribute name="style">width: 100%; font-family: Roboto, sans-serif; font-size: 11px;</attribute>
+    </xpath>
+  </data>
+  <data>
+    <xpath expr="/t[@t-name='purchase.report_purchaseorder_document']//t[@t-call='web.external_layout']/div/div[5]/table/tfoot/tr[2]/td/strong" position="replace">
+      <strong>TAXES</strong>
+    </xpath>
+  </data>
+  <data>
+    <xpath expr="/t[@t-name='purchase.report_purchaseorder_document']//t[@t-call='web.external_layout']/div/div[5]/table/tfoot/tr[3]/td[2]/span" position="attributes" meta-t-out="o.amount_total" meta-t-options="{'widget': 'monetary', 'display_currency': o.currency_id}">
+      <attribute name="style">font-weight: bolder;</attribute>
+    </xpath>
+  </data>
+  <data>
+    <xpath expr="/t[@t-name='purchase.report_purchaseorder_document']//t[@t-call='web.external_layout']/div/div[6]/div[2]/div/t/t[3]/div" position="inside" meta-style="height:60px; border-bottom:1px solid #000; margin-top:4px;">
+      <br/>
+    </xpath>
+  </data>
+  <data>
+    <xpath expr="/t[@t-name='purchase.report_purchaseorder_document']//t[@t-call='web.external_layout']/div/div[6]/div[2]/div[2]/t/t[3]/div" position="inside" meta-style="height:60px; border-bottom:1px solid #000; margin-top:4px;">
+      <br/>
+    </xpath>
+  </data>
+  <data>
+    <xpath expr="/t[@t-name='purchase.report_purchaseorder_document']//t[@t-call='web.external_layout']/div/div[6]/div[2]/div[3]/t[2]/div" position="inside" meta-style="height:60px; border-bottom:1px solid #000; margin-top:4px;">
+      <br/>
+    </xpath>
+  </data>
+</data>

@@ -1,0 +1,1 @@
+action = record.action_open_l10n_ph_2307_wizard()

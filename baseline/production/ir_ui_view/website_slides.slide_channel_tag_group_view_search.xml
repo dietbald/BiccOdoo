@@ -1,0 +1,4 @@
+<search string="Course Tag Groups">
+                <field name="name"/>
+                <filter string="Has Menu Entry" name="filter_is_published" domain="[('is_published', '=', True)]"/>
+            </search>

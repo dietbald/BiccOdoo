@@ -1,0 +1,35 @@
+<form string="Website Model Page Settings">
+            <sheet>
+                <group col="2" string="Page Details">
+                    <group colspan="1" string="Page">
+                        <field name="website_id" options="{'no_create': True}" groups="website.group_multi_website"/>
+                        <field name="name"/>
+                        <label for="name_slugified" string="URL"/>
+                        <div>
+                            <span>/model/</span>
+                            <field name="name_slugified" nolabel="1" class="d-inline bg-300" force_save="True"/>
+                            <span invisible="name_slugified" class="bg-300">...</span>
+                        </div>
+                        <field name="website_published"/>
+                    </group>
+                    <group colspan="1" string="Settings">
+                        <field name="model_id" readonly="id"/>
+                        <field name="model" invisible="1"/>
+                        <field name="record_domain" widget="domain" options="{'in_dialog': True, 'model': 'model'}"/>
+                        <field name="default_layout"/>
+                    </group>
+                </group>
+                <notebook groups="base.group_no_one">
+                    <page string="View">
+                        <group>
+                            <field name="view_id" context="{'display_website': True}"/>
+                            <field name="name"/>
+                        </group>
+                    </page>
+                    <page string="Menus">
+                        <label for="menu_ids" string="Related Menu Items"/>
+                        <field name="menu_ids"/>
+                    </page>
+                </notebook>
+            </sheet>
+        </form>

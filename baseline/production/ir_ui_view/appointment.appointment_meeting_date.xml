@@ -1,0 +1,15 @@
+<t name="Meeting date" t-name="appointment.appointment_meeting_date">
+        <div class="mt-3 pt-3 border-top">
+            <small class="text-uppercase text-muted">Date &amp; time</small>
+            <div class="d-flex py-2 bg-transparent">
+                <i class="fa fa-calendar fa-fw me-2 mt-1 text-muted"/>
+                <div>
+                    <span class="fw-bold" t-out="date_locale"/>
+                    <div t-if="not allday or not appointment_type.hide_timezone">
+                        <span t-if="not allday" t-out="time_locale"/>
+                        <span t-if="not appointment_type.hide_timezone" class="text-muted" t-out="request.session.get('timezone') or appointment_type.appointment_tz"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>

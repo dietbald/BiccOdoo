@@ -1,0 +1,14 @@
+<form string="Social Stream">
+                <sheet>
+                    <group>
+                        <group name="social_stream_global">
+                            <field name="media_id" invisible="1"/>
+                            <field name="account_id" widget="radio" readonly="1" domain="[('media_id', '=', media_id)]" options="{'no_create': True, 'no_open': True}"/>
+                            <field name="company_id" groups="base.group_multi_company"/>
+                            <field name="stream_type_type" invisible="1"/>
+                            <field name="stream_type_id" widget="radio" domain="[('media_id', '=', media_id)]" options="{'no_create': True, 'no_open': True}" required="1" readonly="id"/>
+                            <field name="name" invisible="not id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

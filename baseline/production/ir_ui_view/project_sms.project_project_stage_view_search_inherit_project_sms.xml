@@ -1,0 +1,3 @@
+<field name="mail_template_id" position="after">
+                <field name="sms_template_id" domain="[('model', '=', 'project.project')]"/>
+            </field>

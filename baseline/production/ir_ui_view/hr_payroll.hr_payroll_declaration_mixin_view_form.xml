@@ -1,0 +1,24 @@
+<form string="Individual Accounts">
+                <header>
+                    <button name="action_generate_declarations" string="Populate" type="object" class="btn-primary" invisible="lines_count"/>
+                    <button name="action_generate_declarations" string="Populate" type="object" class="btn-secondary" invisible="not lines_count"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_open_declarations" type="object" class="oe_stat_button" icon="fa-users">
+                            <div class="o_field_widget o_stat_info">
+                                <span class="o_stat_value"><field name="lines_count"/></span>
+                                <span class="o_stat_text">Eligible Employees</span>
+                            </div>
+                        </button>
+                    </div>
+                    <group name="first_group">
+                        <group>
+                            <field name="year" class="o_hr_narrow_field"/>
+                        </group>
+                    </group>
+                    <p name="save_warning">
+                        The files won't be posted in the employee portal if you don't have the Documents app.
+                    </p>
+                </sheet>
+            </form>

@@ -1,0 +1,3 @@
+<t name="Header Search Box Input" t-name="website.header_search_box_input">
+    <t t-call="website.website_search_box_input" search_type.f="all" action.f="/website/search" limit="limit or '5'" display_image.f="true" display_description.f="true" display_extra_link.f="true" display_detail.f="true"/>
+</t>

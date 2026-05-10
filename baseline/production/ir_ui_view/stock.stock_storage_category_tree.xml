@@ -1,0 +1,6 @@
+<list string="Storage Categories" multi_edit="1">
+                <field name="name"/>
+                <field name="max_weight" string="Max Weight"/>
+                <field name="allow_new_product"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+            </list>

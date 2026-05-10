@@ -1,0 +1,11 @@
+<list create="false" default_order="order_id asc" decoration-info="order_id == context.get('active_id')" action="action_open_order" type="object">
+                <field name="currency_id" column_invisible="True"/>
+                <field name="order_id" widget="many2one"/>
+                <field name="date_approve"/>
+                <field name="partner_id" string="Vendor"/>
+                <field name="company_id" optional="show" groups="base.group_multi_company"/>
+                <field name="product_uom_qty" string="Quantity"/>
+                <field name="price_unit" widget="monetary"/>
+                <field name="price_subtotal" widget="monetary" string="Total Untaxed"/>
+                <field name="state" optional="hide"/>
+            </list>

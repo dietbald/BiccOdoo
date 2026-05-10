@@ -1,0 +1,36 @@
+<form string="Contact List">
+                <header>
+                    <button name="action_send_mailing" string="Send Mailing" type="object" class="btn btn-primary"/>
+                    <button name="action_open_import" string="Import Contacts" type="object" class="btn btn-secondary"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_contacts" type="object" icon="fa-user" class="oe_stat_button">
+                            <field name="contact_count" string="Recipients" widget="statinfo"/>
+                        </button>
+                        <button name="action_view_mailings" type="object" icon="fa-envelope-o" class="oe_stat_button">
+                            <field name="mailing_count" string="Mailings" widget="statinfo"/>
+                        </button>
+                        <button name="action_view_contacts_bouncing" type="object" icon="fa-exchange" class="oe_stat_button">
+                                <field name="contact_pct_bounce" widget="statinfo" string="% Bounce"/>
+                        </button>
+                        <button name="action_view_contacts_opt_out" type="object" icon="fa-bell-slash-o" class="oe_stat_button">
+                                <field name="contact_pct_opt_out" widget="statinfo" string="% Opt-out"/>
+                        </button>
+                        <button name="action_view_contacts_blacklisted" type="object" icon="fa-ban" class="oe_stat_button">
+                                <field name="contact_pct_blacklisted" widget="statinfo" string="% Blacklist"/>
+                        </button>
+                    </div>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <div class="oe_title">
+                        <label for="name"/>
+                        <h1>
+                            <field name="name" class="text-break" placeholder="e.g. Consumer Newsletter"/>
+                        </h1>
+                    </div>
+                    <group>
+                        <field name="active" invisible="1"/>
+                        <field name="is_public"/>
+                    </group>
+                </sheet>
+            </form>

@@ -1,0 +1,23 @@
+<data><field name="test_type_id" position="after">
+                <field name="component_ids" invisible="1"/>
+                <field name="bom_product_ids" invisible="1"/>
+                <field name="component_id" invisible="not is_workorder_step or not operation_id or test_type not in ('register_byproducts', 'register_consumed_materials')" required="test_type in ('register_byproducts', 'register_consumed_materials')" domain="[('id', 'in', component_ids), '|', ('company_id', '=', company_id), ('company_id', '=', False)]"/>
+                <field name="test_report_type" widget="selection" invisible="test_type != 'print_label'"/>
+            </field>
+            <field name="picking_type_ids" position="after">
+                <field string="Work Order Operation" name="operation_id" invisible="not is_workorder_step" groups="mrp.group_mrp_routings" options="{'no_create': True}"/>
+                <field name="is_workorder_step" invisible="1"/>
+            </field>
+            <field name="product_category_ids" position="attributes">
+                <attribute name="invisible">is_workorder_step and operation_id</attribute>
+            </field>
+            <xpath expr="//page[@name='instructions']" position="after">
+                <page string="Worksheet" name="worksheet">
+                    <div invisible="worksheet_document" class="d-flex justify-content-center o_nocontent_help">
+                        <p class="o_view_nocontent_worksheet">No worksheet yet !</p>
+                    </div>
+                    <div style="width:calc(50% - 55px); height:1px; float:left;" invisible="worksheet_document"/> 
+                    <field name="worksheet_document" widget="pdf_viewer" style="flex-grow: 1"/>
+                </page>
+            </xpath>
+        </data>

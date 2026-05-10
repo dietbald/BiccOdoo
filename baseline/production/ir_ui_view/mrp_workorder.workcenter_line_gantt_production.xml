@@ -1,0 +1,21 @@
+<gantt class="o_mrp_workorder_gantt" date_stop="date_finished" date_start="date_start" string="Operations" default_group_by="production_id" create="0" delete="0" progress="progress" plan="0" decoration-danger="json_popover and 'text-danger' in json_popover" decoration-success="state == 'done'" decoration-warning="state == 'cancel' or (json_popover and 'text-warning' in json_popover)" color="workcenter_id" display_unavailability="0" progress_bar="workcenter_id" total_row="True" js_class="mrp_workorder_gantt" precision="{'day': 'hour:full', 'week': 'day:full', 'month': 'day:full', 'year': 'day:full'}" sample="1" form_view_id="mrp.mrp_production_workorder_form_view_inherit">
+
+                <field name="date_start"/>
+                <field name="state"/>
+                <field name="workcenter_id"/>
+                <field name="json_popover"/>
+
+                <templates>
+                    <div t-name="gantt-popover" class="container-fluid">
+                        <div class="row g-0">
+                            <div class="col">
+                                <ul class="ps-1 mb-0 list-unstyled">
+                                    <li><strong>Start Date: </strong> <t t-esc="date_start.toFormat('F')"/></li>
+                                    <li><strong>Stop Date: </strong> <t t-esc="date_finished.toFormat('F')"/></li>
+                                    <li><strong>Workcenter: </strong> <t t-esc="workcenter_id.display_name"/></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </templates>
+            </gantt>

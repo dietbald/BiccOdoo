@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 75,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_fetch_image()",
+    "interval_number": 9999,
+    "interval_type": "months"
+  },
+  "payload_sha256": "dba20285bb729539e28d9769ce314909481f2500d8fc41fe12428f2059820b6c",
+  "write_date": "2025-12-09 02:56:13",
+  "xml_id": "product_barcodelookup.ir_cron_fetch_image"
+}

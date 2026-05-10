@@ -1,0 +1,13 @@
+<data><xpath expr="//field[@name='external_url']" position="before">
+                <field name="channel_id" readonly="0"/>
+            </xpath>
+            <xpath expr="//field[@name='course_type']" position="attributes">
+                <attribute name="invisible">0</attribute>
+            </xpath>
+            <xpath expr="//field[@name='external_url']" position="attributes">
+                <attribute name="invisible">course_type != 'external'</attribute>
+            </xpath>
+            <xpath expr="//field[@name='channel_id']" position="attributes">
+                <attribute name="invisible">course_type != 'elearning'</attribute>
+            </xpath>
+        </data>

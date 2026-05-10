@@ -1,0 +1,10 @@
+<search string="Operations Search Filters">
+                    <field name="name"/>
+                    <field name="bom_id"/>
+                    <field name="workcenter_id"/>
+                    <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                    <group>
+                        <filter string="Bill of Material" name="bom" context="{'group_by': 'bom_id'}"/>
+                        <filter string="Workcenter" name="workcenter" context="{'group_by': 'workcenter_id'}"/>
+                    </group>
+                </search>

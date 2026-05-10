@@ -1,0 +1,7 @@
+<data><xpath expr="//list" position="inside">
+                <field name="validated" column_invisible="1"/>
+            </xpath>
+            <xpath expr="//list" position="attributes">
+                <attribute name="decoration-muted">validated == True</attribute>
+            </xpath>
+        </data>

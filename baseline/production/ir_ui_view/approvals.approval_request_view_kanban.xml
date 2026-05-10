@@ -1,0 +1,40 @@
+<kanban create="false" class="o_modules_kanban" default_group_by="request_status" default_order="create_date desc" group_create="false" group_edit="false" group_delete="false" sample="1">
+                <field name="request_status"/>
+                <field name="user_status"/>
+                <field name="date_start"/>
+                <field name="date_end"/>
+                <templates>
+                    <t t-name="card">
+                        <div class="row g-2">
+                            <div class="col-auto">
+                                <field name="category_image" widget="image" options="{'preview_image': 'category_image', 'size': [64, 64]}"/>
+                            </div>
+                            <div class="col">
+                                <field name="request_status" widget="badge" class="float-end" decoration-info="request_status == 'new'" decoration-warning="request_status == 'pending'" decoration-success="request_status == 'approved'" decoration-danger="request_status == 'refused'"/>
+                                <field name="name" class="fw-bolder fs-3 pe-5 d-block text-wrap"/>
+                                <field name="request_owner_id" widget="many2one_avatar_user" options="{'display_avatar_name': True}" class="o_approval_kanban_avatar fw-bold my-1"/>
+                                <div class="text-muted">
+                                    <t t-if="record.date_start.raw_value" t-out="luxon.DateTime.fromISO(record.date_start.raw_value).toLocaleString({ month: 'short', day: 'numeric', year: 'numeric'})"/>
+                                    <t t-if="record.date_end.raw_value and record.date_start.raw_value != record.date_end.raw_value">
+                                        <span class="mx-1">-</span>
+                                        <t t-out="luxon.DateTime.fromISO(record.date_end.raw_value).toLocaleString({ month: 'short', day: 'numeric', year: 'numeric'})"/>
+                                    </t>
+                                </div>
+                            </div>
+                        </div>
+                        <footer class="o_kanban_footer">
+                            <div class="d-flex align-items-center w-100">
+                                <div class="d-flex gap-2 ms-auto">
+                                    <button t-if="record.user_status.raw_value == 'pending'" name="action_approve" type="object" class="btn btn-sm py-0">
+                                        <i class="fa fa-check text-success me-1"/>Approve
+                                    </button>
+                                    <button t-if="record.user_status.raw_value == 'pending'" name="action_refuse" type="object" class="btn btn-sm py-0">
+                                        <i class="fa fa-times text-danger me-1"/>Refuse
+                                    </button>
+                                </div>
+                                <field name="activity_ids" widget="kanban_activity"/>
+                            </div>
+                        </footer>
+                    </t>
+                </templates>
+            </kanban>

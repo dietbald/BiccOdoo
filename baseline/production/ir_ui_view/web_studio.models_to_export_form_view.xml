@@ -1,0 +1,31 @@
+<form string="Studio Export">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="model_name" invisible="1"/>
+                            <field name="model_id"/>
+                            <field name="is_demo_data"/>
+                            <field name="include_attachment"/>
+                        </group>
+                        <group>
+                            <field name="domain" widget="domain" options="{'model': 'model_name', 'in_dialog': True, 'foldable': True}"/>
+                            <field name="updatable"/>
+                        </group>
+                    </group>
+                    <notebook>
+                        <page string="Fields to exclude">
+                            <field name="excluded_fields" widget="many2many">
+                                <list no_open="1" limit="200">
+                                    <field name="field_description"/>
+                                    <field name="name"/>
+                                    <field name="ttype"/>
+                                    <field name="relation"/>
+                                    <field name="required"/>
+                                    <field name="readonly"/>
+                                    <field name="store"/>
+                                </list>
+                            </field>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>

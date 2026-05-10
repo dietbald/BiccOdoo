@@ -1,0 +1,5 @@
+<t name="Item select options input info" t-name="sign.item_select_options_input_info">
+        <t t-foreach="sign_item_select_options" t-as="item_select_option">
+            <input type="hidden" class="o_sign_select_options_input_info" t-att-data-id="item_select_option['id']" t-att-data-value="item_select_option['value']"/>
+        </t>
+    </t>

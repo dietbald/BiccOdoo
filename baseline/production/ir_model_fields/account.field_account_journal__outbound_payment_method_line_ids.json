@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:47Z",
+  "id": 4050,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Outbound Payment Methods",
+    "relation": "account.payment.method.line",
+    "ttype": "one2many"
+  },
+  "payload_sha256": "2afb302f14ad7442a21ac0a74166d0228e2029a1c72777746214c2493aaff167",
+  "write_date": "",
+  "xml_id": "account.field_account_journal__outbound_payment_method_line_ids"
+}

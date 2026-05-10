@@ -1,0 +1,10 @@
+<list string="Package Types">
+            <field name="sequence" widget="handle"/>
+            <field name="name"/>
+            <field name="height"/>
+            <field name="width"/>
+            <field name="packaging_length"/>
+            <field name="max_weight"/>
+            <field name="has_quants" optional="show"/>
+            <field name="barcode" optional="hide"/>
+        </list>

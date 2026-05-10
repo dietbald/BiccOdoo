@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 18,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model.check_all_status()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "feb67a1e045183c16ae32ce77193317b221aa76da9608a635c512ed979743121",
+  "write_date": "2025-12-09 03:00:21",
+  "xml_id": "account_invoice_extract.ir_cron_update_ocr_status"
+}

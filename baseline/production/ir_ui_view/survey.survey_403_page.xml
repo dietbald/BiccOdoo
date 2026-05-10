@@ -1,0 +1,13 @@
+<t name="Survey: custom 403 page" t-name="survey.survey_403_page">
+        <t t-call="survey.layout">
+            <div id="wrap">
+                <div class="container">
+                    <h1 class="mt32">403: Forbidden</h1>
+                    <p>The page you were looking for could not be authorized.</p>
+                    <p>Maybe you were looking for
+                        <a t-attf-href="/odoo/action-survey.action_survey_form/{{survey.id}}">this page</a> ?
+                    </p>
+                </div>
+            </div>
+        </t>
+    </t>

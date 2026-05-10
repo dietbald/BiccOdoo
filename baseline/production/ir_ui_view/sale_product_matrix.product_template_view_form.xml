@@ -1,0 +1,7 @@
+<data><field name="optional_product_ids" position="before">
+                <field name="product_add_mode" widget="radio" invisible="1"/>
+            </field>
+            <field name="optional_product_ids" position="attributes">
+                <attribute name="invisible">product_add_mode == 'grid'</attribute>
+            </field>
+        </data>

@@ -1,0 +1,30 @@
+<kanban sample="1">
+                <field name="is_available"/>
+                <field name="next_booking_start"/>
+                <field name="office_id"/>
+                <field name="active"/>
+                <templates>
+                    <t t-name="card" class="flex-row">
+                        <aside invisible="not room_background_image" class="o_kanban_aside_full">
+                            <field name="room_background_image" options="{'size': [150,100]}" widget="image"/>
+                        </aside>
+                        <main class="ml8">
+                            <field name="name" class="fw-bolder fs-5"/>
+                            <field name="room_properties" widget="properties"/>
+                            <footer class="pt-0">
+                                <div t-if="record.active.raw_value" t-attf-class="py-1 px-2 text-bg-#{record.is_available.raw_value ? 'success' : 'danger'}">
+                                    <t t-if="record.is_available.raw_value">Available</t>
+                                    <t t-else="">Busy</t>
+                                    <!-- Show time if next booking is today, otherwise show date -->
+                                    <t t-if="record.next_booking_start.value">
+                                        <t t-set="start_datetime" t-value="luxon.DateTime.fromISO(record.next_booking_start.raw_value)"/>
+                                        Until
+                                        <t t-if="start_datetime.hasSame(luxon.DateTime.now(), 'day')" t-out="start_datetime.toLocaleString(luxon.DateTime.TIME_SIMPLE)"/>
+                                        <t t-else="" t-out="start_datetime.toLocaleString(luxon.DateTime.DATE_SHORT)"/>
+                                    </t>
+                                </div>
+                            </footer>
+                        </main>
+                    </t>
+                </templates>
+            </kanban>

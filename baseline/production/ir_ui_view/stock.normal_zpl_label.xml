@@ -1,0 +1,18 @@
+<t t-name="stock.normal_zpl_label">
+            <t t-if="product._name == 'product.product'">
+^FT35,40^A0N,25^FD<t t-out="f'[{product.default_code}] {product.name}' if product.default_code else product.name"/>^FS
+^FT35,65^A0N,20^FD<t t-out="product.product_template_attribute_value_ids._get_combination_name()"/>^FS
+            </t>
+            <t t-else="">
+^FT35,40^A0N,25^FD<t t-out="product_info['display_name_markup']"/>^FS
+            </t>
+            <t t-if="barcode">
+^FO35,77^BY2 ^BCN,100,Y,N,N ^FD<t t-out="barcode"/>^FS
+            </t>
+            <t t-if="price_included">
+                <t t-if="show_price_per_unit">
+^FO150,210 ^A0N,25^FH ^FD( <t t-esc="price_per_unit"/> / <t t-esc="reference_unit_name"/> )^FS
+                </t>
+^FO300,200 ^A0N,40^FH ^FD<t t-esc="price"/>^FS
+            </t>
+        </t>

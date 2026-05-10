@@ -1,0 +1,21 @@
+<t name="My Project" t-name="project.portal_my_project">
+        <t t-call="portal.portal_layout">
+            <t t-set="title" t-value="project.name"/>
+            <t t-set="o_portal_fullwidth_alert" groups="project.group_project_user">
+                <t t-call="portal.portal_back_in_edit_mode">
+                    <t t-set="backend_url" t-value="'/odoo/project.project/%s' % (project.id)"/>
+                </t>
+            </t>
+
+            <t t-call="portal.portal_searchbar">
+                <t t-set="title">Tasks</t>
+            </t>
+            <t t-if="not grouped_tasks">
+                <div class="alert alert-warning" role="alert">
+                    There are no tasks.
+                </div>
+            </t>
+
+            <t t-call="project.portal_tasks_list"/>
+        </t>
+    </t>

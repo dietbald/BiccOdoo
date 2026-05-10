@@ -1,0 +1,7 @@
+<data><field name="product_id" position="after">
+                <field name="lot_id" groups="stock.group_production_lot"/>
+            </field>
+            <filter name="Product" position="after">
+                <filter string="Serial Number" name="Lot" context="{'group_by': 'lot_id'}"/>
+            </filter>
+        </data>

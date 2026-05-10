@@ -1,0 +1,12 @@
+<xpath expr="//t[@t-name='JournalBodyBankCash']//div[@name='kanban_primary_right']" position="inside">
+                    <div t-if="journal_type == 'bank' and dashboard.num_checks_to_print != 0">
+                        <div>
+                            <a type="object" name="action_checks_to_print">
+                                <t t-out="dashboard.num_checks_to_print"/>
+                                <span>&amp;nbsp;</span>
+                                <t t-if="dashboard.num_checks_to_print == 1">Check to print</t>
+                                <t t-if="dashboard.num_checks_to_print != 1">Checks to print</t>
+                            </a>
+                        </div>
+                    </div>
+                </xpath>

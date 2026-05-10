@@ -1,0 +1,5 @@
+<search>
+                <field name="name"/>
+                <separator/>
+                <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+            </search>

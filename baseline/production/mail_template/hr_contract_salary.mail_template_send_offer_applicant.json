@@ -1,0 +1,12 @@
+{
+  "exported_at": "2026-05-10T05:51:53Z",
+  "id": 67,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n                <h2>Congratulations!</h2>\n                You can configure your salary package by clicking on the link below.<br/>\n                <t t-if=\"ctx.get('validity_end')\">\n                    The link will expire on <t t-out=\"ctx.get('validity_end')\"/>.\n                </t>\n                <div style=\"padding: 16px 0px 16px 0px;\">\n                    <a t-attf-href=\"/salary_package/simulation/offer/{{ctx.get('offer_id')}}?token={{ctx.get('access_token')}}\" target=\"_blank\" t-attf-style=\"background-color: {{object.company_id.email_secondary_color or '#875A7B'}}; text-decoration: none; color: {{object.company_id.email_primary_color or '#FFFFFF'}}; padding: 8px 16px 8px 16px; border-radius: 5px;\">Configure your package</a>\n                </div>\n            </div>\n        ",
+    "subject": "{{ object.company_id.name }}: Job Offer - {{ object.applicant_id.partner_name }}"
+  },
+  "payload_sha256": "3c94541877b203f493b684764d9b62bf65978c0e55b01a1f1b5c69881d3fecbb",
+  "write_date": "2025-12-09 02:59:17",
+  "xml_id": "hr_contract_salary.mail_template_send_offer_applicant"
+}

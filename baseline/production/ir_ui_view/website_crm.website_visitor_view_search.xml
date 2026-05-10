@@ -1,0 +1,7 @@
+<data><xpath expr="//filter[@name='filter_type_visitor']" position="attributes">
+                <attribute name="domain">[('partner_id', '=', False), ('lead_ids', '=', False)]</attribute>
+            </xpath>
+            <xpath expr="//filter[@name='filter_type_visitor']" position="after">
+                <filter string="Leads" name="filter_type_lead" domain="[('partner_id', '=', False), ('lead_ids', '!=', False)]"/>
+            </xpath>
+        </data>

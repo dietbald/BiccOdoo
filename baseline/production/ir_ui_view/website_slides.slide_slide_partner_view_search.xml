@@ -1,0 +1,10 @@
+<search string="Attendees">
+                <field name="partner_id"/>
+                <field name="slide_id"/>
+                <field name="channel_id"/>
+                 <separator/>
+                <filter string="Completed" name="filter_completed" domain="[('completed', '=', True)]"/>
+                <group>
+                    <filter string="Content" name="groupby_slide_id" context="{'group_by': 'slide_id'}"/>
+                </group>
+            </search>

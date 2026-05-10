@@ -1,0 +1,26 @@
+<data><xpath expr="//list" position="attributes">
+                <attribute name="class" add="o_search_matching_applicant" separator=" "/>
+            </xpath>
+            <xpath expr="//list" position="inside">
+                <header>
+                    <button name="action_add_to_job" string="Move to this Job Position" type="object" class="btn-secondary"/>
+                </header>
+            </xpath>
+            <field name="application_status" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+            <field name="priority" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+            <field name="partner_phone" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+            <field name="categ_ids" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+            <field name="partner_name" position="after">
+                <xpath expr="//field[@name='matching_score']" position="move"/>
+                <field name="matching_skill_ids" widget="many2many_tags"/>
+                <field name="missing_skill_ids" widget="many2many_tags"/>
+            </field>
+        </data>

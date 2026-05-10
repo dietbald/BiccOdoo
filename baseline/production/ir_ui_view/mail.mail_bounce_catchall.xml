@@ -1,0 +1,24 @@
+<t t-name="mail.mail_bounce_catchall">
+<div style="font-family: Arial, sans-serif; font-size: 14px; color: #333; max-width: 600px; line-height: 1.5;">
+    <p>Hello,</p>
+
+    <p>The email you sent to <strong><t t-esc="message['to']"/></strong> couldn't be processed.
+       This mailbox is monitored by our automated system and doesn't accept direct messages.</p>
+
+    <t t-if="res_company.id == 2">
+        <p>If you'd like to <strong>get in touch with us</strong>, please use our contact form:<br/>
+           <a href="https://www.igebc.co/#contact-us">https://www.igebc.co/#contact-us</a></p>
+        <p>If you'd like to <strong>apply for an open position</strong>, please visit our jobs page:<br/>
+           <a href="https://www.igebc.co/jobs">https://www.igebc.co/jobs</a></p>
+    </t>
+    <t t-else="">
+        <p>If you'd like to <strong>get in touch with us</strong>, please use our contact form:<br/>
+           <a href="https://www.bicc.ph/#contact-us">https://www.bicc.ph/#contact-us</a></p>
+        <p>If you'd like to <strong>apply for an open position</strong>, please visit our jobs page:<br/>
+           <a href="https://www.bicc.ph/jobs">https://www.bicc.ph/jobs</a></p>
+    </t>
+
+    <p style="margin-top: 24px;">Best regards,<br/>
+       The <t t-esc="res_company.x_studio_short_name or res_company.name"/> team</p>
+</div>
+</t>

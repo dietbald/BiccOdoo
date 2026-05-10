@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 47,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_generate_pdf()",
+    "interval_number": 1,
+    "interval_type": "hours"
+  },
+  "payload_sha256": "03bc023fb433a1b60e4ada956886613cc11ca5e94802275d69c954712ada6118",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.ir_cron_generate_payslip_pdfs"
+}

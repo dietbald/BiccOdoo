@@ -1,0 +1,8 @@
+<data><field name="product_uom_id" position="after">
+                <field name="show_set_bom_button" column_invisible="True"/>
+                <button name="action_set_bom_on_orderpoint" type="object" string="Set as Bill of Materials" class="btn btn-link" invisible="not show_set_bom_button"/>
+            </field>
+            <field name="company_id" position="attributes">
+                <attribute name="optional">hide</attribute>
+            </field>
+        </data>

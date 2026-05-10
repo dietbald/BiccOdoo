@@ -1,0 +1,4 @@
+<xpath expr="//field[@name='product_category_id']" position="after">
+                <field string="Vendor" name="effective_vendor_id"/>
+                <field name="available_vendor"/>
+            </xpath>

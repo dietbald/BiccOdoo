@@ -1,0 +1,10 @@
+<data><xpath expr="//field[@name='order_finished_lot_ids']" position="attributes">
+                <attribute name="options">{'no_open': True}</attribute>
+            </xpath>
+            <xpath expr="//list" position="attributes">
+                <attribute name="no_open">1</attribute>
+            </xpath>
+            <xpath expr="//list/field[@name='lot_id']" position="attributes">
+                <attribute name="options">{'no_create_edit': True, 'no_open': True}</attribute>
+            </xpath>
+        </data>

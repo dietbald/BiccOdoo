@@ -1,0 +1,1 @@
+model._cron_clean_records()

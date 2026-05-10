@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:49Z",
+  "id": 26698,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Reconciled Payments",
+    "relation": "account.payment",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "9bd4cc71beb4e8a4604f4321f5efa078a7ec2dbc13fa94a0d88408eb8d0c65ba",
+  "write_date": "",
+  "xml_id": "account.field_account_bank_statement_line__reconciled_payment_ids"
+}

@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 86,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_process_sources()",
+    "interval_number": 9999,
+    "interval_type": "months"
+  },
+  "payload_sha256": "ec0f06b8a8698882c09ee36f9f82c6c89b89fd9fc2564de304eba9ef485ce05b",
+  "write_date": "2025-12-09 03:01:20",
+  "xml_id": "ai.ir_cron_process_sources"
+}

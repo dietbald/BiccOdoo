@@ -1,0 +1,34 @@
+<search string="Search Project">
+                    <field name="name" string="Project"/>
+                    <field name="tag_ids"/>
+                    <field name="user_id" string="Project Manager"/>
+                    <field name="stage_id" groups="project.group_project_stages"/>
+                    <field name="partner_id" string="Customer" filter_domain="[('partner_id', 'child_of', self)]" invisible="context.get('default_is_template')"/>
+                    <field name="activity_user_id" string="Activities of"/>
+                    <field name="activity_type_id" string="Activity type"/>
+                    <filter string="My Projects" name="own_projects" domain="[('user_id', '=', uid)]" invisible="context.get('default_is_template')"/>
+                    <filter string="My Favorites" name="my_projects" domain="[('favorite_user_ids', 'in', uid)]"/>
+                    <filter string="Unassigned" name="unassigned_projects" domain="[('user_id', '=', False)]"/>
+                    <separator invisible="context.get('default_is_template')"/>
+                    <filter string="Late Milestones" name="late_milestones" domain="[('is_milestone_exceeded', '=', True)]" groups="project.group_project_milestone" invisible="context.get('default_is_template') or not context.get('allow_milestones', True)"/>
+                    <separator invisible="context.get('default_is_template')"/>
+                    <filter string="Start Date" name="start_date" date="date_start" end_month="1" end_year="1"/>
+                    <filter string="End Date" name="end_date" date="date" end_month="1" end_year="1"/>
+                    <separator/>
+                    <filter string="Templates" context="{'render_project_templates': True}" name="templates" domain="[('is_template', '=', True)]"/>
+                    <separator/>
+                    <filter string="Archived" name="inactive" domain="[('active', '=', False)]"/>
+                    <separator invisible="1"/>
+                    <filter invisible="1" string="My Activities" name="filter_activities_my" domain="[('activity_user_id', '=', uid)]"/>
+                    <separator/>
+                    <filter invisible="1" string="Late Activities" name="activities_overdue" domain="[('my_activity_date_deadline', '&lt;', 'today')]" help="Show all records whose next activity date is past"/>
+                    <filter invisible="1" string="Today Activities" name="activities_today" domain="[('my_activity_date_deadline', '=', 'today')]"/>
+                    <filter invisible="1" string="Future Activities" name="activities_upcoming_all" domain="[('my_activity_date_deadline', '&gt;', 'today')]"/>
+                    <group>
+                        <filter string="Project Manager" name="Manager" context="{'group_by': 'user_id'}"/>
+                        <filter string="Stage" name="groupby_stage" context="{'group_by': 'stage_id'}" groups="project.group_project_stages"/>
+                        <filter string="Status" name="status" context="{'group_by': 'last_update_status'}" invisible="context.get('default_is_template')"/>
+                        <filter string="Tags" name="tags" context="{'group_by': 'tag_ids'}"/>
+                        <filter string="Company" name="company" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                    </group>
+                </search>

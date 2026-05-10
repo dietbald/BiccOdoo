@@ -1,0 +1,7 @@
+<list string="Implied groups" default_order="privilege_id,name">
+                    <field name="privilege_id"/>
+                    <field name="name"/>
+                    <field name="comment" optional="hide"/>
+                    <field name="implied_ids" widget="many2many_tags" optional="hide"/>
+                    <field name="implied_by_ids" widget="many2many_tags" optional="hide"/>
+                </list>

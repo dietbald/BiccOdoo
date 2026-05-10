@@ -1,0 +1,4 @@
+<xpath expr="//filter[@name='working_period']" position="before">
+                <field name="role_ids" filter_domain="['|', ('role_ids', 'in', [self]), ('role_ids', '=', False)]"/>
+                <separator/>
+            </xpath>

@@ -1,0 +1,27 @@
+<t name="Address Management" t-name="portal.address_management">
+        <t t-set="no_footer" t-value="1"/>
+        <t t-call="portal.portal_layout">
+            <t t-set="additional_title">Address Management</t>
+            <div class="o_customer_address_fill">
+                <div class="row">
+                    <div name="address_div" class="oe_clear_stucture col-12 col-lg-8">
+                        <div>
+                            <t t-if="address_type == 'billing'">
+                                <h3 class="mb-3">Billing address</h3>
+                            </t>
+                            <t t-elif="address_type == 'delivery'">
+                                <h3 class="mb-3">Delivery address</h3>
+                            </t>
+                            <div id="errors"/> <!-- for js -->
+                            <form action="/my/address/submit" method="post" name="address_form" class="address_autoformat" t-att-data-company-country-code="res_company.country_id.code" t-att-data-submit-url="'/my/address/submit'">
+                                <div name="address_details" class="row">
+                                    <t t-call="portal.address_form_fields"/>
+                                </div>
+                                <t t-call="portal.address_footer"/>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </t>

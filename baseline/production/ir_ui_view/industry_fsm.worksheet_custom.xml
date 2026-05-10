@@ -1,0 +1,9 @@
+<t t-name="industry_fsm.worksheet_custom">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-call="web.external_layout">
+                        <t t-call="industry_fsm.worksheet_custom_page" t-lang="doc.partner_id.lang"/>
+                    </t>
+                </t>
+            </t>
+        </t>

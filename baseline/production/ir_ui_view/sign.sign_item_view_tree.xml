@@ -1,0 +1,10 @@
+<list default_order="page,posY,posX,id" editable="bottom">
+                <field name="type_id"/>
+                <field name="required"/>
+                <field name="responsible_id"/>
+                <field name="page" string="Page"/>
+                <field name="posX" optional="hide"/>
+                <field name="posY" optional="hide"/>
+                <field name="width" optional="hide"/>
+                <field name="height" optional="hide"/>
+            </list>

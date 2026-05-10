@@ -1,0 +1,20 @@
+<data name="Invoice error display: payment errors" inherit_id="account.portal_invoice_error">
+        <xpath expr="//t[@name='generic']" position="after">
+            <t t-if="error == 'pay_invoice_invalid_doc'">
+                There was an error processing your payment: invalid invoice.
+            </t>
+            <t t-elif="error == 'pay_invoice_invalid_token'">
+                There was en error processing your payment: invalid credit card ID.
+            </t>
+            <t t-elif="error == 'pay_invoice_tx_fail'">
+                There was an error processing your payment: transaction failed.<br/>
+                <t t-set="tx_sudo" t-value="invoice.get_portal_last_transaction()"/>
+                <t t-if="tx_sudo and tx_sudo.state_message">
+                    <t t-out="tx_sudo.state_message"/>
+                </t>
+            </t>
+            <t t-elif="error == 'pay_invoice_tx_token'">
+                There was an error processing your payment: issue with credit card ID validation.
+            </t>
+        </xpath>
+    </data>

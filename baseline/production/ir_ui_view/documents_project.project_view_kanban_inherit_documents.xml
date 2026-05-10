@@ -1,0 +1,5 @@
+<xpath expr="//div[@name='card_menu_view']" position="inside">
+                <div role="menuitem" invisible="documents_folder_id.user_permission == 'none'">
+                    <a name="action_view_documents_project" type="object">Documents</a>
+                </div>
+            </xpath>

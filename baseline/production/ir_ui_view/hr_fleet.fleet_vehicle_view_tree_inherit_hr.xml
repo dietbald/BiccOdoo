@@ -1,0 +1,7 @@
+<data><field name="driver_id" position="after">
+                <field name="driver_employee_id" optional="hide" widget="many2one_avatar_user"/>
+            </field>
+            <field name="future_driver_id" position="after">
+                <field name="future_driver_employee_id" optional="hide" widget="many2one_avatar_user"/>
+            </field>
+        </data>

@@ -1,0 +1,9 @@
+<search string="Search Reference Document">
+                <field name="name" string="Reference" filter_domain="['|', ('name','ilike',self), ('reference','=like',self+'%')]"/>
+                <field name="amount"/>
+                <separator/>
+                <field name="partner_id" operator="child_of"/>
+                <separator/>
+                <filter name="purchase_orders" string="Purchase Orders" domain="[('purchase_order_id', '!=', False)]"/>
+                <filter name="vendor_bills" string="Vendor Bills" domain="[('vendor_bill_id', '!=', False)]"/>
+            </search>

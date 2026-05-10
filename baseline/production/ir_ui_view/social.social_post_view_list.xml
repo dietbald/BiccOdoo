@@ -1,0 +1,5 @@
+<list decoration-info="state == 'draft'">
+                <field name="account_ids" widget="many2many_tags"/>
+                <field name="message"/>
+                <field name="state" decoration-info="state == 'draft'" decoration-warning="state == 'posting'" decoration-success="state == 'scheduled' or state == 'posted'" widget="badge"/>
+            </list>

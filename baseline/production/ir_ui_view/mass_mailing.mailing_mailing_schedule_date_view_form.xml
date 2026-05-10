@@ -1,0 +1,11 @@
+<form string="Take Future Schedule Date">
+                <group>
+                    <group>
+                        <field name="schedule_date" string="Send on" placeholder="Choose a date" required="1"/>
+                    </group>
+                </group>
+                <footer>
+                    <button string="Schedule" name="action_schedule_date" type="object" class="btn-primary" data-hotkey="q"/>
+                    <button string="Discard " class="btn-secondary" special="cancel" data-hotkey="x"/>
+                </footer>
+            </form>

@@ -1,0 +1,11 @@
+<t name="Survey: main page (take survey)" t-name="survey.survey_page_fill">
+        <t t-call="survey.layout">
+            <t t-if="answer.test_entry" t-call="survey.survey_button_form_view"/>
+            <div class="wrap o_survey_wrap d-flex">
+                <div class="o_container_small o_survey_form d-flex flex-column mb-5">
+                    <t t-call="survey.survey_fill_header"/>
+                    <t t-call="survey.survey_fill_form"/>
+                </div>
+            </div>
+        </t>
+    </t>

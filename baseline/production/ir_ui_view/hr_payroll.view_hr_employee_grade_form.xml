@@ -1,0 +1,49 @@
+<form string="Employee Function">
+            <sheet>
+                <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                <div class="oe_title">
+                    <label for="name" string="Structure Name"/>
+                    <h1><field name="name" placeholder="e.g. Regular Pay"/></h1>
+                </div>
+                <group>
+                    <group name="salary_details">
+                        <field name="active" invisible="1"/>
+                        <field name="id" invisible="1"/>
+                        <field name="type_id"/>
+                        <field name="use_worked_day_lines"/>
+                        <field name="country_id" options="{'no_create': True, 'no_open': True}"/>
+                        <field name="ytd_computation"/>
+                    </group>
+                    <group>
+                        <field name="report_id"/>
+                        <field name="payslip_name"/>
+                        <field name="hide_basic_on_pdf"/>
+                        <field name="schedule_pay"/>
+                    </group>
+                </group>
+                <notebook colspan="4">
+                    <page name="salary_rules" string="Salary Rules">
+                        <field name="rule_ids" readonly="not id">
+                            <list>
+                                <field name="name"/>
+                                <field name="code"/>
+                                <field name="category_id"/>
+                                <field name="sequence" column_invisible="True"/>
+                                <field name="partner_id"/>
+                            </list>
+                        </field>
+                    </page>
+                    <page string="Unpaid Work Entry Types" name="unpaid_work_entry_types">
+                        <field name="unpaid_work_entry_type_ids"/>
+                    </page>
+                    <page name="other_input" string="Other Input">
+                        <field name="input_line_type_ids">
+                            <list>
+                                <field name="name"/>
+                                <field name="code"/>
+                            </list>
+                        </field>
+                    </page>
+                </notebook>
+            </sheet>
+            </form>

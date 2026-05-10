@@ -1,0 +1,26 @@
+<data><xpath expr="//filter[@name='month']" position="before">
+                    <filter name="mine" string="My Timesheets" domain="[('user_id', '=', uid)]"/>
+                    <separator/>
+                </xpath>
+                <filter name="month" position="inside">
+                    <filter name="date_this_week" string="This Week" domain="[                         ('date', '&gt;=', '=week_start'),                         ('date', '&lt;', '=week_start +1w'),                     ]"/>
+                    <filter name="date_today" string="Today" domain="[('date', '&gt;=', 'today'), ('date', '&lt;', 'today +1d')]"/>
+                    <filter name="date_last_week" string="Last Week" domain="[                         ('date', '&gt;=', '=week_start -1w'),                         ('date', '&lt;', '=week_start'),                     ]"/>
+                </filter>
+                <xpath expr="//group[@name='groupby']" position="before">
+                    <field name="employee_id"/>
+                    <field name="project_id"/>
+                    <field name="task_id"/>
+                    <field name="parent_task_id"/>
+                    <field name="department_id"/>
+                    <field name="manager_id"/>
+                </xpath>
+                <xpath expr="//group[@name='groupby']" position="inside">
+                    <filter string="Project" name="groupby_project" domain="[]" context="{'group_by': 'project_id'}"/>
+                    <filter string="Parent Task" name="groupby_parent_task" domain="[]" context="{'group_by': 'parent_task_id'}"/>
+                    <filter string="Task" name="groupby_task" domain="[]" context="{'group_by': 'task_id'}"/>
+                    <filter string="Department" name="groupby_department" domain="[]" context="{'group_by': 'department_id'}"/>
+                    <filter string="Manager" name="groupby_manager" domain="[]" context="{'group_by': 'manager_id'}"/>
+                    <filter string="Employee" name="groupby_employee" domain="[]" context="{'group_by': 'employee_id'}"/>
+                </xpath>
+            </data>

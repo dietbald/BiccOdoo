@@ -1,0 +1,1 @@
+model.notify_expiring_contract_work_permit()

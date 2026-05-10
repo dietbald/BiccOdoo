@@ -1,0 +1,1 @@
+action = model.get_action_picking_tree_incoming()

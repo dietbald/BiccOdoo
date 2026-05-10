@@ -1,0 +1,14 @@
+<search string="Room">
+                <field name="name" string="Room"/>
+                <field name="office_id"/>
+                <field name="room_properties"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <filter name="filter_archived" string="Archived" domain="[('active', '=', False)]"/>
+                <filter name="group_by_office_id" context="{'group_by': 'office_id'}"/>
+                <filter name="group_by_company_id" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                <filter string="Properties" name="group_by_room_properties" context="{'group_by':'room_properties'}"/>
+                <searchpanel>
+                    <field name="company_id"/>
+                    <field name="office_id" select="multi" domain="[['company_id', '=', company_id]]" enable_counters="1" icon="fa-building"/>
+                </searchpanel>
+            </search>

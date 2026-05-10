@@ -1,0 +1,24 @@
+<t name="Slides Media Share" t-name="website_slides.slide_share_social">
+    <t t-if="not website_share_url">
+        <t t-set="website_share_url" t-value="record.website_share_url if 'website_share_url' in record else record.website_absolute_url"/>
+    </t>
+    <div class="btn-group" role="group">
+        <div class="s_share">
+            <a t-attf-href="https://www.facebook.com/sharer/sharer.php?u=#{website_share_url}" class="btn border bg-white o_wslides_js_social_share" social-key="facebook" aria-label="Share on Facebook" title="Share on Facebook" target="_blank">
+                <i class="fa fa-facebook-square fa-fw"/>
+            </a>
+            <a t-attf-href="https://twitter.com/intent/tweet?text=#{record.name}&amp;url=#{website_share_url}" class="btn border bg-white o_wslides_js_social_share" social-key="twitter" aria-label="Share on X" title="Share on X" target="_blank">
+                <i class="fa fa-twitter fa-fw"/>
+            </a>
+            <a t-attf-href="http://www.linkedin.com/sharing/share-offsite/?url=#{website_share_url}" class="btn border bg-white o_wslides_js_social_share" social-key="linkedin" aria-label="Share on LinkedIn" title="Share on LinkedIn" target="_blank">
+                <i class="fa fa-linkedin fa-fw"/>
+            </a>
+            <a t-attf-href="https://wa.me/?text=#{website_share_url}" class="btn border bg-white o_wslides_js_social_share" social-key="whatsapp" aria-label="Share on Whatsapp" title="Share on Whatsapp" target="_blank">
+                <i class="fa fa-whatsapp fa-fw"/>
+            </a>
+            <a t-attf-href="http://pinterest.com/pin/create/button/?url=#{website_share_url}" social-key="pinterest" class="btn border bg-white o_wslides_js_social_share" aria-label="Share on Pinterest" title="Share on Pinterest">
+                <i class="fa fa-pinterest fa-fw"/>
+            </a>
+        </div>
+    </div>
+</t>

@@ -1,0 +1,9 @@
+<list string="Employees Analysis">
+                    <field name="applicant_id"/>
+                    <field name="job_id" optional="show"/>
+                    <field name="department_id" optional="show"/>
+                    <field name="ref_user_id" widget="many2one_avatar_user" optional="show" string="Referer"/>
+                    <field name="medium_id" optional="show"/>
+                    <field name="referral_state" optional="show"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                </list>

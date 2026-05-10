@@ -1,0 +1,10 @@
+<t t-name="survey.certification_report_view">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="user_input">
+                    <t t-set="layout_values" t-value="user_input.survey_id.certification_report_layout.split('_') if user_input.survey_id.certification_report_layout else ['modern', 'purple']"/>
+                    <t t-set="layout_template" t-value="layout_values[0]"/>
+                    <t t-set="layout_color" t-value="layout_values[1]"/>
+                    <t t-call="survey.certification_report_view_general"/>
+                </t>
+            </t>
+        </t>

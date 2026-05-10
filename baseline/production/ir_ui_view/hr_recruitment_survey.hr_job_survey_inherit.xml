@@ -1,0 +1,6 @@
+<field name="interviewer_ids" position="after">
+                <label for="survey_id"/>
+                <div>
+                    <field name="survey_id" context="{'default_access_mode': 'token'}" domain="[('survey_type', '=', 'recruitment')]"/>
+                </div>
+            </field>

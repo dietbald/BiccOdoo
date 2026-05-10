@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:49Z",
+  "id": 23685,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Eligible Employees",
+    "relation": "hr.work.entry.export.employee.mixin",
+    "ttype": "one2many"
+  },
+  "payload_sha256": "fb547de6c076ac54b547bd5a8eef3c3490b55f1fa4e344dccf567bba715c3d6b",
+  "write_date": "",
+  "xml_id": "hr_payroll.field_hr_work_entry_export_mixin__eligible_employee_line_ids"
+}

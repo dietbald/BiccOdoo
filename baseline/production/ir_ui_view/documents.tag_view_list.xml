@@ -1,0 +1,5 @@
+<list default_order="sequence">
+                <field name="name"/>
+                <field name="color" required="True" widget="color_picker"/>
+                <field name="tooltip" invisible="1"/>
+            </list>

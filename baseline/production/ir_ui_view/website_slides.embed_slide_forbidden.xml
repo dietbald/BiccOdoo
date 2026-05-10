@@ -1,0 +1,12 @@
+<t name="Forbidden Embedded Slide" t-name="website_slides.embed_slide_forbidden">
+            <html>
+                <head>
+                    <t t-call-assets="website_slides.slide_embed_assets" t-js="false"/>
+                </head>
+                <body>
+                    <div class="slide-private-view">
+                        <h3 style="border-bottom: 1px solid !important;padding-bottom: 10px;"><i class="fa fa-exclamation-triangle" role="img" aria-label="Attention" title="Attention"/> This document is private.</h3>
+                    </div>
+                </body>
+            </html>
+        </t>

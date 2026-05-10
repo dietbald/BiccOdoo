@@ -1,0 +1,22 @@
+<data>
+    <xpath expr="//notebook" position="inside">
+        <page string="Government IDs" name="gov_ids_tab">
+            <group string="Tax Identification">
+                <field name="identification_id" string="TIN (Tax Identification Number)"/>
+            </group>
+            <group string="Social Security">
+                <field name="x_studio_sss" string="SSS Number"/>
+                <field name="x_hdmf_number" string="Pag-IBIG MID Number"/>
+                <field name="x_phic_number" string="PhilHealth Number"/>
+            </group>
+            <group string="Notes">
+                <p class="text-muted">
+                    Government IDs are required before enrolling the employee
+                    in the corresponding statutory deduction on their contract version.
+                    SSS: 10 digits. PhilHealth: 12 digits. Pag-IBIG MID: 12 digits.
+                    TIN: enter as-is from BIR certificate.
+                </p>
+            </group>
+        </page>
+    </xpath>
+</data>

@@ -1,0 +1,13 @@
+<data><xpath expr="//list" position="inside">
+                <header>
+                    <button name="action_create_invoice" string="Create Invoice" type="object" groups="sales_team.group_sale_salesman,account.group_account_invoice" invisible="not context.get('display_to_invoice', 0)"/>
+                </header>
+            </xpath>
+            <field name="partner_id" position="attributes">
+                <attribute name="invisible">not allow_billable and not is_fsm</attribute>
+                <attribute name="required">is_fsm</attribute>
+            </field>
+            <xpath expr="//field[@name='sale_line_id']" position="after">
+                <field name="under_warranty" optional="hide" invisible="not is_fsm or not allow_material"/>
+            </xpath>
+        </data>

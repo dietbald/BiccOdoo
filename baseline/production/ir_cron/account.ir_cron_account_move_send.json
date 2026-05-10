@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 17,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_account_move_send(job_count=20)",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "2ba6f8b88f9df8838c94b7131c9442d5c72760f6ff18b187190841087e714682",
+  "write_date": "2025-12-09 02:56:39",
+  "xml_id": "account.ir_cron_account_move_send"
+}

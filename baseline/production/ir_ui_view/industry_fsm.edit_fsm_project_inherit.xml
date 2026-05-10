@@ -1,0 +1,7 @@
+<data><xpath expr="//form" position="inside">
+                <field name="is_fsm" invisible="1"/>
+            </xpath>
+            <xpath expr="//group/field[@name='company_id']" position="attributes">
+                <attribute name="required">is_fsm</attribute>
+            </xpath>
+        </data>

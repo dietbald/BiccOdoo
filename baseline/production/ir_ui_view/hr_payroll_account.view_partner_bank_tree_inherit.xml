@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='bank_name']" position="after">
+                    <field name="bank_bic" string="Bank Identifier Code" optional="hide"/>
+                </xpath>

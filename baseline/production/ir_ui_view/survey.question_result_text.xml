@@ -1,0 +1,20 @@
+<t name="Question: text result (text_box, char_box)" t-name="survey.question_result_text">
+        <t t-set="answers_json" t-value="question_data['answers_data']"/>
+        <t t-set="hide_filter" t-value="question.id in already_filtered_questions or len(table_data) == 1"/>
+        <div class="survey_table_with_pagination" t-att-data-answers-json="answers_json" t-att-data-hide-filter="hide_filter" t-att-data-record_limit="page_record_limit">   
+            <div class="o_survey_results_table_wrapper overflow-auto">
+                <table class="table table-hover table-sm o_survey_results_table_indexed" t-att-id="'survey_table_question_%d' % question.id">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>User Responses</th>
+                        </tr>
+                    </thead>
+                    <!-- The following tbody tag is populated by the interaction survey_result_pagination
+                    (see also the template survey.paginated_results_rows) -->
+                    <tbody/>
+                </table>
+            </div>
+            <t t-call="survey.question_table_pagination"/>
+        </div>
+    </t>

@@ -1,0 +1,9 @@
+<data><xpath expr="//field[@name='model_id']" position="after">
+                <field name="model" invisible="1"/>
+            </xpath>
+
+            <xpath expr="//field[@name='record_domain']" position="after">
+                <field name="use_menu" widget="boolean_toggle" options="{&quot;autosave&quot;: False}" invisible="id"/>
+                <field name="auto_single_page" widget="boolean_toggle" options="{&quot;autosave&quot;: False}" invisible="id"/>
+            </xpath>
+        </data>

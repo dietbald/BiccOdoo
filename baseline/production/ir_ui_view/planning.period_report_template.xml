@@ -1,0 +1,119 @@
+<t name="My Planning" t-name="planning.period_report_template">
+        <t t-call="planning.frontend_layout">
+            <!-- fullcalendar object's container -->
+            <div class="container o_planning_calendar_container">
+                <h1 align="center" class="m-3">Planning: <t t-esc="employee.name"/></h1>
+                <div align="center" t-if="start_datetime">
+                    <div class="alert alert-info o_shift_info">
+                        Shifts from
+                        <t t-esc="format_datetime(start_datetime, dt_format='E')"/>.
+                        <t t-esc="format_datetime(start_datetime, dt_format='short')"/>
+                        to
+                        <t t-esc="format_datetime(end_datetime, dt_format='E')"/>.
+                        <t t-esc="format_datetime(end_datetime, dt_format='short')"/>
+                    </div>
+                </div>
+                <div align="center" t-if="no_data and not open_slots_ids" class="alert alert-info o_shift_info">
+                    This open shift is no longer available, or the planning has been updated in the meantime. Please contact your manager for further information.
+                </div>
+                <t t-call="planning.planning_shift_notification"/>
+                <div id="calendar_employee" class="o_calendar_container">
+                    <div class="o_calendar_view">
+                        <span class="employee_slots_fullcalendar_data" t-att-value="json.dumps(employee_slots_fullcalendar_data)"/>
+                        <span class="planning_token" t-att-value="planning_token"/>
+                        <span class="employee_token" t-att-value="employee_token"/>
+                        <span class="open_slots_ids" t-att-value="open_slots_ids"/>
+                        <span class="locale" t-att-value="locale"/>
+                        <span class="notification_text" t-att-value="notification_text"/>
+                        <span class="message_slug" t-att-value="message_slug"/>
+                        <span class="open_slot_has_role" t-att-value="open_slot_has_role"/>
+                        <span class="open_slot_has_note" t-att-value="open_slot_has_note"/>
+                        <span class="unwanted_slot_has_role" t-att-value="unwanted_slot_has_role"/>
+                        <span class="unwanted_slot_has_note" t-att-value="unwanted_slot_has_note"/>
+                        <span class="start_datetime" t-att-value="start_datetime"/>
+                        <span class="end_datetime" t-att-value="end_datetime"/>
+                        <span class="default_view" t-att-value="default_view"/>
+                        <span class="default_start" t-att-value="default_start"/>
+                        <span class="mintime" t-att-value="mintime"/>
+                        <span class="maxtime" t-att-value="maxtime"/>
+                        <span class="no_data" t-att-value="no_data"/>
+                        <div class="o_calendar_widget"/>
+                    </div>
+                </div>
+            </div>
+            <!-- legend for the shifts that are displayed inside the calendar container -->
+            <div class="container d-flex flex-row-reverse mt-2">
+                <table style="border-spacing: 5px; border-collapse: separate;">
+                    <tr>
+                        <td>Open Shifts</td><td class="o_base_shift_legend o_open_shifts_legend"/>
+                        <td>Request to Switch</td><td class="o_base_shift_legend o_unwanted_shifts_legend"/>
+                        <td>My Shifts</td><td class="o_base_shift_legend"/>
+                    </tr>
+                </table>
+            </div>
+            <!-- open shift's container -->
+            <t t-call="planning.open_slots_list_template"/>
+            <!-- unwanted shift's container-->
+            <t t-call="planning.unwanted_slots_list_template"/>
+            <!-- fullcalendar event onclick Modal -->
+            <div class="modal fade" id="fc-slot-onclick-modal" role="dialog">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content border-0">
+                        <div class="modal-header modal-header-primary py-3 border-0 rounded-top text-light">
+                            <h5 class="modal-title"/>
+                            <button type="button" aria-label="close" data-bs-dismiss="modal" class="btn-close btn-close-white py-0"/>
+                        </div>
+                        <div class="modal-body">
+                            <div id="switch-warning" class="alert alert-warning" style="margin-bottom: 25px">
+                                <span class="warning-text"/>
+                            </div>
+                            <dl class="d-flex flex-column mt-0 mb-0">
+                                <dt>Date </dt>
+                                <dd id="date">
+                                    <span class="o_start_date"/>
+                                    <i class="mx-1 fa fa-long-arrow-right" aria-label="Arrow icon" title="Arrow"/>
+                                    <span class="o_end_date"/>
+                                </dd>
+                                <dt>Role</dt>
+                                <dd id="role"/>
+                                <dt>Note</dt>
+                                <dd id="note"/>
+                                <div class="d-none" t-esc="shift_id" id="shift_uid"/>
+                            </dl>
+                        </div>
+
+                        <div class="modal-footer" style="justify-content:flex-start">
+                            <div id="dismiss_shift" style="float:left">
+                                <form id="modal_action_dismiss_shift" t-attf-action="/planning" method="post">
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                    <input type="hidden" name="message" value="unassign"/>
+                                    <button type="submit" class="btn btn-outline-danger">I am unavailable</button>
+                                </form>
+                            </div>
+                            <div id="switch_shift" style="float:left">
+                                <form id="modal_action_switch_shift" t-attf-action="/planning" method="post">
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                    <input type="hidden" name="message" value="switch"/>
+                                    <button type="submit" class="btn btn-outline-danger">Ask to Switch</button>
+                                </form>
+                            </div>
+                            <div id="cancel_switch" style="float:left">
+                                <form id="modal_action_cancel_switch" t-attf-action="/planning" method="post">
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                    <input type="hidden" name="message" value="cancel_switch"/>
+                                    <button type="submit" class="btn btn-outline-danger">Cancel Switch</button>
+                                </form>
+                            </div>
+                            <div id="take_open_switch" style="float:left">
+                                <form id="modal_action_take_open_switch" t-attf-action="/planning" method="post">
+                                    <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                    <input type="hidden" name="message" value="take_open_shift"/>
+                                    <button type="submit" class="btn btn-outline-danger">I Take it</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </t>
+    </t>

@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:47Z",
+  "id": 3722,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Source Transaction",
+    "relation": "payment.transaction",
+    "ttype": "many2one"
+  },
+  "payload_sha256": "abe7a235b0472a1e65928b2af2b63bda58a03f66ad9df311ce68914b0fed925d",
+  "write_date": "",
+  "xml_id": "payment.field_payment_transaction__source_transaction_id"
+}

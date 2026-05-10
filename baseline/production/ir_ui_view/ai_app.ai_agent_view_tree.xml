@@ -1,0 +1,6 @@
+<list string="Properties">
+                <field name="name" string="Name"/>
+                <field name="subtitle"/>
+                <field name="llm_model"/>
+                <field name="topic_ids" widget="many2many_tags"/>
+            </list>

@@ -1,0 +1,8 @@
+<data><xpath expr="//field[@name='partner_id']" position="after">
+                <field name="sale_line_id" optional="hide" readonly="1"/>
+                <field name="allow_billable" column_invisible="True"/>
+            </xpath>
+            <xpath expr="//field[@name='partner_id']" position="attributes">
+                <attribute name="invisible">not allow_billable or is_template</attribute>
+            </xpath>
+        </data>

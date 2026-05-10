@@ -1,0 +1,30 @@
+<kanban highlight_color="color" default_group_by="stage_id" sample="1">
+                <field name="archive"/>
+                <progressbar field="kanban_state" colors="{&quot;done&quot;: &quot;success&quot;, &quot;blocked&quot;: &quot;danger&quot;}"/>
+                <templates>
+                    <t t-name="menu">
+                        <t t-if="widget.editable"><a role="menuitem" type="open" class="dropdown-item">Edit...</a></t>
+                        <t t-if="widget.deletable"><a role="menuitem" type="delete" class="dropdown-item">Delete</a></t>
+                        <field name="color" widget="kanban_color_picker"/>
+                    </t>
+                    <t t-name="card">
+                        <field name="name" class="fw-bold fs-5"/>
+                        <span name="owner_user_id" t-if="record.owner_user_id.raw_value">Requested by: <field name="owner_user_id"/></span>
+                        <span t-if="record.equipment_id.raw_value"><field name="equipment_id"/><span t-if="record.category_id.raw_value"> (<field name="category_id"/>)</span></span>
+                        <field name="schedule_date"/>
+                        <footer>
+                            <div class="d-flex">
+                                <field name="priority" widget="priority"/>
+                                <field name="activity_ids" widget="kanban_activity" class="ms-3"/>
+                            </div>
+                            <div class="d-flex ms-auto align-items-center">
+                                <div class="badge text-bg-warning float-end" invisible="not archive">
+                                    Cancelled
+                                </div>
+                                <field name="kanban_state" widget="state_selection" class="ms-1"/>
+                                <field name="user_id" widget="many2one_avatar_user" class="ms-1"/>
+                            </div>
+                        </footer>
+                    </t>
+                </templates>
+            </kanban>

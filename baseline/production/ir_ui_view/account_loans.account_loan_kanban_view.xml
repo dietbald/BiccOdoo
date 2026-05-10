@@ -1,0 +1,22 @@
+<kanban class="o_kanban_mobile" sample="1">
+                    <field name="currency_id"/>
+                    <templates>
+                        <t t-name="card">
+                            <div class="row mb4">
+                                <field name="name" class="fw-bold fs-5 col-10"/>
+                                <div class="col-2">
+                                    <field name="state" class="float-end" widget="label_selection" options="{'classes': {'draft': 'primary', 'running': 'success', 'closed': 'default'}}"/>
+                                </div>
+                            </div>
+
+                        <div class="row">
+                            <div class="col-5">
+                                <field name="amount_borrowed" widget="monetary"/>
+                            </div>
+                            <div class="col-7 text-end">
+                                <field name="date"/>
+                            </div>
+                        </div>
+                        </t>
+                    </templates>
+                </kanban>

@@ -1,0 +1,11 @@
+<t t-name="website_mass_mailing.s_newsletter_block_default_template">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2 class="h4-fs">Subscribe to our newsletter</h2>
+            <p class="text-muted">Get all the latest news, blog posts and product updates from our company, delivered directly to your inbox.</p>
+        </div>
+        <div class="col-lg-5 offset-lg-1">
+            <t t-snippet-call="website_mass_mailing.s_newsletter_subscribe_form"/>
+        </div>
+    </div>
+</t>

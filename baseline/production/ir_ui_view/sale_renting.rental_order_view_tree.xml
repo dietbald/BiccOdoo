@@ -1,0 +1,11 @@
+<list sample="1" decoration-muted="rental_status == 'cancel'">
+                <field name="name" readonly="1" decoration-bf="1"/>
+                <field name="date_order" options="{'show_time': false}"/>
+                <field name="next_action_date" widget="remaining_days"/>
+                <field name="partner_id" readonly="1"/>
+                <field name="user_id" optional="show" widget="many2one_avatar_user"/>
+                <field name="team_id" optional="hide"/>
+                <field name="amount_total" sum="Total Tax Included" widget="monetary" decoration-bf="1" decoration-info="invoice_status == 'to invoice'"/>
+                <field name="rental_status" widget="badge" decoration-info="rental_status == 'draft'" decoration-primary="rental_status == 'sent'" decoration-success="rental_status == 'pickup'" decoration-warning="rental_status == 'return'" invisible="not has_rented_products"/>
+                <field name="currency_id" column_invisible="True"/>
+            </list>

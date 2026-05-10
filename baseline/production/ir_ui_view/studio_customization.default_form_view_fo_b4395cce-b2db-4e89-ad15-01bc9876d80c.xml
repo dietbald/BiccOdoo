@@ -1,0 +1,21 @@
+<form>
+  <header/>
+  <sheet string="Competitors">
+    <widget name="web_ribbon" text="Archived" bg_color="text-bg-danger" invisible="x_active"/>
+    <field name="x_active" invisible="1"/>
+    <field class="oe_avatar" widget="image" name="x_studio_image"/>
+    <div class="oe_title">
+                <h1>
+                    <field name="x_name" required="1" placeholder="Name..."/>
+                </h1>
+            </div>
+    <group name="studio_group_d673aa">
+      <group name="studio_group_d673aa_left">
+        <field name="x_studio_currency_id" invisible="1"/>
+        <field name="x_studio_value"/>
+      </group>
+      <group name="studio_group_d673aa_right"/>
+    </group>
+  </sheet>
+  <chatter/>
+</form>

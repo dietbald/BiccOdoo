@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 79,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_update_current_version_id()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "9f2a10e503dea7ad3d59315c8da4806e852e3c3608e61a2b6219fb23f31b65d7",
+  "write_date": "2025-12-09 02:57:18",
+  "xml_id": "hr.ir_cron_data_employee_update_current_version"
+}

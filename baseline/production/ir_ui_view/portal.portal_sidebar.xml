@@ -1,0 +1,8 @@
+<t name="Sidebar" t-name="portal.portal_sidebar">
+        <t t-call="portal.portal_layout">
+            <body data-bs-spy="scroll" data-target=".navspy" data-offset="50">
+                <div class="container o_portal_sidebar"/>
+                <div class="oe_structure mb32" id="oe_structure_portal_sidebar_1"/>
+            </body>
+        </t>
+    </t>

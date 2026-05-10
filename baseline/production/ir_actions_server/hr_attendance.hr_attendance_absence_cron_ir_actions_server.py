@@ -1,0 +1,1 @@
+model._cron_absence_detection()

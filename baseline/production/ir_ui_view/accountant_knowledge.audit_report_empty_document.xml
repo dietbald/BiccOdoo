@@ -1,0 +1,13 @@
+<t t-name="accountant_knowledge.audit_report_empty_document">
+        &lt;!DOCTYPE html&gt;
+        <html>
+            <head>
+                <meta charset="UTF-8"/>
+            </head>
+            <body>
+                <t t-foreach="range(number_of_pages)" t-as="k">
+                    <div style="page-break-before: always;"> </div>
+                </t>
+            </body>
+        </html>
+    </t>

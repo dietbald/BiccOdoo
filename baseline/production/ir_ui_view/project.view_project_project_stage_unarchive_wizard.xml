@@ -1,0 +1,9 @@
+<form string="Delete Stage">
+                <div>
+                    <p>Would you like to unarchive all of the projects contained in these stages as well?</p>
+                </div>
+                <footer>
+                    <button string="Confirm" type="object" name="action_unarchive_project" class="btn btn-primary"/>
+                    <button string="Discard" special="cancel"/>
+                </footer>
+            </form>

@@ -1,0 +1,14 @@
+<t name="User QuickKarma Card" t-name="website_slides.user_quickkarma_card">
+    <div class="d-flex align-items-start gap-2">
+        <t t-call="website_slides.slides_misc_user_image"/>
+        <div class="flex-grow-1">
+            <div class="lh-1" t-out="user.name"/>
+            <div class="d-flex align-items-center">
+                <small class="text-muted" t-out="user.rank_id.name"/>
+            </div>
+        </div>
+        <div class="small">
+            <span class="badge bg-light"><t t-out="user.karma"/> xp</span>
+        </div>
+    </div>
+</t>

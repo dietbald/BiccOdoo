@@ -1,0 +1,44 @@
+<kanban default_group_by="state_id" sample="1" quick_create_view="fleet.fleet_vehicle_view_form_quick_create">
+                <field name="contract_renewal_due_soon"/>
+                <field name="contract_renewal_overdue"/>
+                <progressbar field="activity_state" colors="{&quot;planned&quot;: &quot;success&quot;, &quot;today&quot;: &quot;warning&quot;, &quot;overdue&quot;: &quot;danger&quot;}"/>
+
+                <templates>
+                    <t t-name="card" class="flex-row">
+                        <aside class="d-flex align-items-center me-2">
+                            <field name="image_128" widget="image" options="{'img_class': 'object-fit-cover'}"/>
+                        </aside>
+                        <main>
+                            <div>
+                                <t t-if="record.license_plate.raw_value">
+                                    <field class="fw-bolder fs-5" name="license_plate"/>:
+                                </t>
+                                <field class="fw-bolder fs-5" name="model_id"/>
+                            </div>
+                            <field name="tag_ids" widget="many2many_tags" options="{'color_field': 'color'}"/>
+                            <div class="d-flex gap-1" t-if="record.driver_id.raw_value">
+                                <field name="driver_id" widget="many2one_avatar"/>
+                                <field name="driver_id" class="small pt-1 pb-1"/>
+                            </div>
+                            <div class="small">
+                                <t t-if="record.future_driver_id.raw_value">Future Driver : <field name="future_driver_id"/></t>
+                            </div>
+                            <t t-if="record.location.raw_value"><small><i class="fa fa-map-marker" title="Location"/> <field name="location"/></small></t>
+                            <field name="vehicle_properties" widget="properties"/>
+                            <footer class="pt-0 mt-0" t-if="!selection_mode">
+                                <div class="d-flex fs-6">
+                                    <a t-if="record.contract_count.raw_value&gt;0" type="object" name="return_action_to_open" href="#" context="{&quot;xml_id&quot;:&quot;fleet_vehicle_log_contract_action&quot;}">
+                                        <field name="contract_count"/>
+                                        Contract(s)
+                                        <span t-if="record.contract_renewal_due_soon.raw_value and !record.contract_renewal_overdue.raw_value" class="fa fa-exclamation-triangle text-warning" role="img" aria-label="Warning: renewal due soon" title="Warning: renewal due soon">
+                                        </span>
+                                        <span t-if="record.contract_renewal_overdue.raw_value" class="fa fa-exclamation-triangle text-danger" role="img" aria-label="Attention: renewal overdue" title="Attention: renewal overdue">
+                                        </span>
+                                    </a>
+                                    <field name="activity_ids" widget="kanban_activity" class="ms-2"/>
+                                </div>
+                            </footer>
+                        </main>
+                    </t>
+                </templates>
+            </kanban>

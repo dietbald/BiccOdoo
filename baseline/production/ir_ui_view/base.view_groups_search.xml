@@ -1,0 +1,8 @@
+<search string="Groups">
+                    <field name="full_name" string="Group"/>
+                    <field name="implied_by_ids" filter_domain="[('implied_by_ids.full_name','ilike',self)]" string="Added from"/>
+                    <field name="implied_ids" filter_domain="[('implied_ids.full_name','ilike',self)]" string="Implied"/>
+                    <separator orientation="vertical"/>
+                    <field name="share"/>
+                    <filter name="filter_no_share" string="Internal Groups" domain="[('share','=',False)]"/>
+                </search>

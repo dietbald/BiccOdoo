@@ -1,0 +1,38 @@
+<form string="Mail Statistics" create="0" edit="0">
+                <header>
+                    <field name="trace_status" widget="statusbar" statusbar_visible="outgoing,sent,error"/>
+                </header>
+                <sheet>
+                    <div class="oe_button_box" name="button_box">
+                        <button name="action_view_contact" type="object" icon="fa-user" class="oe_stat_button">
+                                <div class="o_field_widget o_stat_info">
+                                    <span class="o_stat_text">Open Recipient</span>
+                                </div>
+                        </button>
+                    </div>
+                    <field name="is_test_trace" invisible="1"/>
+                    <widget name="web_ribbon" title="Test" bg_color="text-bg-danger" invisible="is_test_trace != True"/>
+                    <group>
+                        <group string="Status">
+                            <field name="failure_type" invisible="not failure_type"/>
+                            <field name="sent_datetime" invisible="not sent_datetime"/>
+                            <field name="links_click_datetime" invisible="not links_click_datetime"/>
+                            <field name="open_datetime" invisible="not open_datetime"/>
+                            <field name="failure_reason" invisible="not failure_reason" class="o_text_overflow"/>
+                            <field name="reply_datetime" invisible="not reply_datetime"/>
+                        </group>
+                        <group string="Mailing">
+                            <field name="trace_type" invisible="1"/>
+                            <field name="email" string="Recipient Address"/>
+                            <field name="mass_mailing_id"/>
+                            <field name="mail_mail_id_int" string="Mail ID" groups="base.group_no_one"/>
+                            <field name="message_id" groups="base.group_no_one"/>
+                        </group>
+                        <group string="Marketing">
+                            <field name="campaign_id" groups="mass_mailing.group_mass_mailing_campaign"/>
+                            <field name="medium_id"/>
+                            <field name="source_id"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

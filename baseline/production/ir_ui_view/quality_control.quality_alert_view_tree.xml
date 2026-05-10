@@ -1,0 +1,13 @@
+<data><field name="user_id" position="after">
+                <field name="check_id" optional="show"/>
+            </field>
+            <field name="priority" position="after">
+                <field name="description" optional="hide"/>
+            </field>
+            <field name="partner_id" position="after">
+                <field name="activity_exception_decoration" widget="activity_exception"/>
+            </field>
+            <field name="date_assign" position="after">
+                <field name="company_id" groups="base.group_multi_company"/>
+            </field>
+        </data>

@@ -1,0 +1,13 @@
+<div id="o_employee_org_chart" position="inside">
+                <div invisible="not subordinate_ids and (not parent_id or parent_id == id)" class="o_horizontal_separator mt-4 mb-3 text-uppercase fw-bolder small">
+                    Organization Chart
+                    <a name="530" type="action" role="button" class="float-end me-2 cursor-pointer" context="{'hierarchy_res_id': id}">
+                        <i class="fa fa-share-alt fa-rotate-90 ms-1 mt-1" role="img" aria-label="Full Chart"/>
+                        Full Chart
+                    </a>
+                </div>
+                <div invisible="subordinate_ids or (parent_id and not parent_id == id)" class="o_horizontal_separator mt-4 mb-3 text-uppercase fw-bolder small">
+                    Organization Chart
+                </div>
+                <field name="child_ids" class="position-relative w-100" widget="hr_org_chart" readonly="1" nolabel="1"/>
+            </div>

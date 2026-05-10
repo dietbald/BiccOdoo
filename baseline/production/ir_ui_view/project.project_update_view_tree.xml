@@ -1,0 +1,8 @@
+<list sample="1" js_class="project_update_list">
+                <field name="name"/>
+                <field name="user_id" widget="many2one_avatar_user" class="fw-bolder" optional="show"/>
+                <field name="date" optional="show"/>
+                <field name="progress" string="Progress" widget="progressbar" optional="show"/>
+                <field name="color" column_invisible="True"/>
+                <field name="status" widget="status_with_color"/>
+            </list>

@@ -1,0 +1,7 @@
+<pivot string="Ratings" display_quantity="1" sample="1">
+                    <field name="rated_partner_id" type="row"/>
+                    <field name="rated_on" type="col"/>
+                    <field name="rating" type="measure" string="Rating (/5)"/>
+                    <field name="parent_res_id" invisible="1"/>
+                    <field name="res_id" invisible="1"/>
+                </pivot>

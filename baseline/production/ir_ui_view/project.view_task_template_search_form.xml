@@ -1,0 +1,10 @@
+<data><filter name="private_tasks" position="replace"/>
+            <filter name="closed_on" position="replace"/>
+            <filter name="customer" position="replace"/>
+            <filter name="unassigned" position="after">
+                <filter name="task_templates" string="Task Templates" domain="[('has_project_template', '=', False)]" invisible="1"/>
+            </filter>
+            <field name="user_ids" position="after">
+               <field name="role_ids"/>
+            </field>
+        </data>

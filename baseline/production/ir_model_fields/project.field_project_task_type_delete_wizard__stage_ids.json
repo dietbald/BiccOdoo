@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:48Z",
+  "id": 8009,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Stages To Delete",
+    "relation": "project.task.type",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "d9e248b61645dc588ab4ca5b9876910722ddbcbcb7a6d3b3b0137dcb38a299c4",
+  "write_date": "",
+  "xml_id": "project.field_project_task_type_delete_wizard__stage_ids"
+}

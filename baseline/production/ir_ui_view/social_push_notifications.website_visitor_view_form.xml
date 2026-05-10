@@ -1,0 +1,8 @@
+<data><xpath expr="//header" position="inside">
+                <field name="has_push_notifications" invisible="1"/>
+                <button name="action_send_push_notification" string="Send Push Notification" type="object" class="oe_highlight" invisible="not has_push_notifications"/>
+            </xpath>
+            <xpath expr="//field[@name='lang_id']" position="after">
+                <field name="has_push_notifications"/>
+            </xpath>
+        </data>

@@ -1,0 +1,9 @@
+<list string="Packages" create="0">
+                <field name="package_name" string="Package"/>
+                <field name="package_type_id"/>
+                <field name="location_id"/>
+                <field name="parent_orig_id"/>
+                <field name="location_dest_id"/>
+                <field name="parent_dest_id"/>
+                <field name="company_id" groups="base.group_multi_company" optional="hide"/>
+            </list>

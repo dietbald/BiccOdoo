@@ -1,0 +1,24 @@
+<search string="Activity">
+                <field name="res_name" string="Name" filter_domain="[                     '|',                         ('res_name', 'ilike', self),                         ('summary', 'ilike', self),                 ]"/>
+                <field name="user_id"/>
+                <field name="activity_type_id"/>
+                <filter name="filter_user_id_uid" string="My Activities" domain="[('user_id', '=', uid)]"/>
+                <filter name="filter_user_id_no_user" string="Unassigned Activities" domain="[('user_id', '=', False)]"/>
+                <separator/>
+                <separator invisible="1"/>
+                <filter string="Overdue" name="filter_date_deadline_past" domain="[('date_deadline', '&lt;', 'today')]" help="Show all records whose next activity date is past"/>
+                <filter string="Today" name="filter_date_deadline_today" domain="[('date_deadline', '=', 'today')]"/>
+                <filter string="Tomorrow" name="filter_date_deadline_tomorrow" help="Show all records whose next action date is tomorrow" domain="[('date_deadline', '=', 'today +1d')]"/>
+                <filter string="This week" name="filter_date_deadline_week" help="Show all records whose next action date is this week" domain="[                             ('date_deadline', '&gt;=', '=week_start'),                             ('date_deadline', '&lt;', '=week_start +1w')                         ]"/>
+                <filter string="Future" name="filter_date_deadline_future" domain="[('date_deadline', '&gt;', 'today')                         ]"/>
+                <separator/>
+                <filter string="Done" name="filter_archived" domain="[('active', '=', False)]"/>
+                <separator/>
+                <group>
+                    <filter string="Deadline" name="date_deadline" context="{'group_by': 'date_deadline'}"/>
+                    <filter string="Document Model" name="group_by_res_model_id" context="{'group_by': 'res_model_id'}"/>
+                    <filter string="Assigned To" name="group_by_user_id" context="{'group_by': 'user_id'}"/>
+                    <filter string="Created By" name="createdby" context="{'group_by': 'create_uid'}"/>
+                    <filter string="Activity Type" name="activittype" context="{'group_by': 'activity_type_id'}"/>
+                </group>
+            </search>

@@ -1,0 +1,8 @@
+<pivot string="Time Off Summary" sample="1">
+                <field name="request_hour_from" invisible="1"/>
+                <field name="request_hour_to" invisible="1"/>
+                <field name="color" invisible="1"/>
+                <field name="employee_id" type="row"/>
+                <field name="date_from" type="col"/>
+                <field name="number_of_days" type="measure"/>
+            </pivot>

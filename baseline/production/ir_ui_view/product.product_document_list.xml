@@ -1,0 +1,6 @@
+<list editable="top" multi_edit="true">
+                <field name="res_model" column_invisible="True"/>
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="company_id" groups="base.group_multi_company" optional="show"/>
+            </list>

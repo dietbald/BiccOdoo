@@ -1,0 +1,7 @@
+<data><xpath expr="//field[@name='email_from']" position="after">
+                <field name="ref_user_id" string="Referred By" widget="many2one_avatar_user"/>
+            </xpath>
+            <xpath expr="//filter[@name='last_stage_update']" position="after">
+                <filter string="Referred By" name="ref_by_user_id" context="{'group_by':'ref_user_id'}"/>
+            </xpath>
+        </data>

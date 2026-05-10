@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-05-10T05:51:43Z",
+  "id": 2,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1479
+    ],
+    "active": true,
+    "filter_domain": false,
+    "model_id": [
+      662,
+      "Applicant"
+    ],
+    "name": "Update to Screened",
+    "trigger": "on_webhook"
+  },
+  "payload_sha256": "c77e4474a2b1b9afee04a1a93c6c7cf793a05cc75de36ee025ebe5fc18268062",
+  "write_date": "2025-02-16 13:21:26",
+  "xml_id": "studio_customization.update_to_screened_b7fee898-7306-4d6d-a05d-c713ee56567b"
+}

@@ -1,0 +1,9 @@
+<form>
+                <group>
+                    <field name="name"/>
+                    <field name="dashboard_group_id"/>
+                    <field name="company_ids" options="{'no_create': True}" widget="many2many_tags" groups="base.group_multi_company" placeholder="Visible to all"/>
+                    <field name="group_ids" widget="many2many_tags"/>
+                    <field name="spreadsheet_binary_data"/>
+                </group>
+            </form>

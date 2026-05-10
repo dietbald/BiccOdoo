@@ -1,0 +1,7 @@
+<list>
+                <field name="name"/>
+                <field name="phone_uid"/>
+                <field name="account_uid"/>
+                <field name="app_uid"/>
+                <field name="allowed_company_ids" widget="many2many_tags" groups="base.group_multi_company"/>
+            </list>

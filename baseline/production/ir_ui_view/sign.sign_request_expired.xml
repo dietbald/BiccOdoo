@@ -1,0 +1,19 @@
+<t name="sign.sign_request_expired" t-name="sign.sign_request_expired">
+        <t t-call="web.frontend_layout">
+            <div class="h-100 w-100 w-md-75 m-auto py-3 px-5 d-flex flex-column align-items-center justify-content-start text-center gap-3">
+                <div class="card text-bg-light px-5 py-2 justify-content-center">
+                    <h1>This link has expired.</h1>
+                    <h6>
+                        There's no reason to panic, <br/>
+                        you can still sign your document in a few clicks!
+                    </h6>
+                </div>
+                <p class="text-muted small"><i class="fa fa-info-circle"/> Links sent via email expire after a set delay to increase security.</p>
+                <p>You can request a new link to access your document and sign it, it will  be delivered in your inbox right away.</p>
+                <div class="d-flex flex-column align-items-center gap-1">
+                    <a t-attf-class="btn btn-primary {{'disabled' if state == 'sent' else ''}}" t-att-href="resend_expired_link">Send a new link</a>
+                    <small class="text-success" t-if="state == 'sent'"><i class="fa fa-check"/> A fresh link has just been sent to your inbox!</small>
+                </div>
+            </div>
+        </t>
+    </t>

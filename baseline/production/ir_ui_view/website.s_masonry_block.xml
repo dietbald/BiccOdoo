@@ -1,0 +1,8 @@
+<t name="Masonry" t-name="website.s_masonry_block">
+    <section class="s_masonry_block pt48 pb48" data-vcss="001" data-vxml="001">
+        <t t-set="container_class" t-value="container_class if container_class else 'container'"/>
+        <div t-attf-class="#{container_class}">
+            <t t-out="0"/>
+        </div>
+    </section>
+</t>

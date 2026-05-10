@@ -1,0 +1,38 @@
+<t t-name="http_routing.http_error_debug">
+        <div class="container accordion mb32 mt32" id="debug_infos">
+            <div class="card" t-if="error_message">
+                <h4 class="card-header">
+                    <a data-bs-toggle="collapse" href="#error_main">Error</a>
+                </h4>
+                <div id="error_main" class="collapse show">
+                    <div class="card-body">
+                        <t t-call="http_routing.error_message"/>
+                    </div>
+                </div>
+            </div>
+            <div class="card" t-if="qweb_exception">
+                <h4 class="card-header">
+                    <a data-bs-toggle="collapse" href="#error_qweb">QWeb</a>
+                </h4>
+                <div id="error_qweb" class="collapse show">
+                    <div class="card-body">
+                        <p>
+                            The error occurred while rendering the template <code t-esc="qweb_exception.template"/>
+                            <t t-if="qweb_exception.element">and evaluating the following expression: <code t-esc="qweb_exception.element"/></t>
+                        </p>
+                        <pre t-esc="str(exception)"/>
+                    </div>
+                </div>
+            </div>
+            <div class="card" t-if="traceback">
+                <h4 class="card-header">
+                    <a data-bs-toggle="collapse" href="#error_traceback">Traceback</a>
+                </h4>
+                <div id="error_traceback" t-attf-class="collapse #{not error_message and not qweb_exception and 'show'}">
+                    <div class="card-body">
+                        <pre id="exception_traceback" t-esc="traceback"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>

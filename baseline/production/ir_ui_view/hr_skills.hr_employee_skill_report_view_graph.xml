@@ -1,0 +1,6 @@
+<graph>
+                <field name="employee_id" type="row"/>
+                <field name="skill_type_id" type="col"/>
+                <field name="skill_id" type="col"/>
+                <field name="level_progress" type="measure" widget="percentage" string="Current Level"/>
+            </graph>

@@ -1,0 +1,39 @@
+<t name="Submenu" t-name="website.submenu">
+    <t t-set="show_dropdown" t-value="(submenu.is_mega_menu and submenu.is_visible) or submenu.child_id.filtered(lambda menu: menu.is_visible)"/>
+    <t t-set="is_accordion_nav" t-value="is_vertical_nav and not submenu.is_mega_menu"/>
+
+    <li t-if="submenu.is_visible and not (submenu.child_id or submenu.is_mega_menu)" t-attf-class="#{item_class or ''} #{is_vertical_nav and 'px-0'}" role="presentation">
+        <a t-att-href="submenu._clean_url()" t-attf-class="#{link_class or ''} #{submenu._is_active() and 'active'}" role="menuitem" t-ignore="true" t-att-target="'_blank' if submenu.new_window else None">
+            <span t-field="submenu.name"/>
+        </a>
+    </li>
+    <li t-elif="show_dropdown" t-attf-class="#{item_class or ''} #{submenu.is_mega_menu and 'position-static'} #{offcanvas_is_leftside and 'o_mega_menu_left'} #{is_accordion_nav and 'accordion accordion-flush' or 'dropdown'}" role="presentation">
+        <a t-if="not is_accordion_nav" href="#" t-attf-class="dropdown-toggle #{link_class or ''} #{submenu.is_mega_menu and 'o_mega_menu_toggle'} #{submenu._is_active() and 'active'} #{dropdown_toggler_classes}" data-bs-toggle="dropdown" t-att-data-bs-display="'static' if submenu.is_mega_menu else None" data-bs-auto-close="outside" role="menuitem">
+            <span t-field="submenu.name"/>
+        </a>
+        <!-- Avoid rendering the mega menu element twice (Desktop + Mobile) -->
+        <div t-if="submenu.is_mega_menu and not is_mobile" t-attf-class="o_mega_menu dropdown-menu #{submenu.mega_menu_classes} #{_extra_megamenu_classes or 'border-top-0'}" data-name="Mega Menu" t-field="submenu.mega_menu_content" role="menuitem"/>
+        <!-- Renders the back arrow if it's a mega menu in Mobile / Sidebar / Hamburger -->
+        <div t-if="submenu.is_mega_menu and is_vertical_nav" t-attf-class="o_mega_nav o_cc1 position-fixed top-0 #{offcanvas_is_leftside and 'start-0' or 'end-0'} invisible d-flex align-items-center w-100">
+            <button class="btn nav-link oi oi-chevron-left ms-n2 px-2"/>
+        </div>
+        <!-- Is a dropdown in desktop -> becomes accordion in Mobile / Sidebar / Hamburger -->
+        <div t-elif="is_accordion_nav" class="accordion-item">
+            <a href="#" t-attf-class="#{link_class or ''} accordion-button collapsed" data-bs-toggle="collapse" t-attf-data-bs-target=".o_accordion_target_#{submenu.id}" aria-expanded="false" t-attf-aria-controls="o_accordion_target_#{submenu.id}">
+                <span t-field="submenu.name"/>
+            </a>
+            <div t-attf-class="o_accordion_target_#{submenu.id} accordion-collapse collapse" t-attf-aria-labelledby="o_accordion_target_#{submenu.id}" t-attf-data-bs-parent="#{is_mobile and '#top_menu_collapse_mobile' or '#top_menu'}">
+                <ul class="show list-group list-unstyled py-0" role="menu">
+                    <t t-foreach="submenu.child_id" t-as="submenu">
+                        <t t-call="website.submenu" submenu_recursion="true" item_class="None" link_class.f="nav-link list-group-item list-group-item-action border-0 rounded-0 px-4 text-wrap"/>
+                    </t>
+                </ul>
+            </div>
+        </div>
+        <ul t-else="" t-attf-class="dropdown-menu #{dropdown_menu_classes}" role="menu">
+            <t t-foreach="submenu.child_id" t-as="submenu">
+                <t t-call="website.submenu" item_class="None" link_class.f="dropdown-item"/>
+            </t>
+        </ul>
+    </li>
+</t>

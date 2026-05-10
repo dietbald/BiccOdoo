@@ -1,0 +1,33 @@
+<t name="Any Search Results" t-name="website.list_hybrid">
+    <t t-call="website.layout">
+        <div id="wrap">
+            <div class="container pt24 pb24">
+                <t t-call="website.website_search_box_input" _classes.f="mt8" search_type.f="all" action.f="/website/search"/>
+                <h1 class="mt24 h3-fs">Search Results</h1>
+                <t t-if="not results">
+                    <div class="text-center">
+                        <div class="mt-5 mb-3"><t t-call="website.empty_search_svg"/></div>
+                        <t t-if="search">
+                            Your search '<t t-out="search"/>' did not match anything.
+                        </t>
+                        <t t-else="">
+                            Specify a search term.
+                        </t>
+                    </div>
+                </t>
+                <t t-elif="fuzzy_search">
+                    <div class="alert alert-warning mt8" role="alert">
+                        Your search '<t t-out="search"/>' did not match anything.
+                        Results are displayed for '<t t-out="fuzzy_search"/>'.
+                    </div>
+                </t>
+                <div t-if="results" class="table-responsive">
+                    <t t-call="website.one_hybrid" t-foreach="results" t-as="result" t-key="result_index"/>
+                </div>
+                <div t-if="pager" class="o_portal_pager d-flex justify-content-center">
+                    <t t-call="website.pager"/>
+                </div>
+            </div>
+        </div>
+    </t>
+</t>

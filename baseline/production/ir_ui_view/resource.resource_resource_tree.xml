@@ -1,0 +1,10 @@
+<list string="Resources" multi_edit="1" default_order="name">
+                <field name="company_id" column_invisible="True"/>
+                <field name="name"/>
+                <field name="user_id"/>
+                <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}" optional="show"/>
+                <field name="calendar_id" optional="show"/>
+                <field name="tz" optional="hide"/>
+                <field name="resource_type" optional="show"/>
+                <field name="time_efficiency"/>
+            </list>

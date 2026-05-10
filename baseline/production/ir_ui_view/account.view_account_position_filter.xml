@@ -1,0 +1,5 @@
+<search string="Search Fiscal Positions">
+                    <field name="name" string="Fiscal Position"/>
+                    <filter name="active" string="Archived" domain="[('active', '=', False)]"/>
+                    <filter name="domestic" string="Domestic" domain="[('is_domestic', '=', True)]"/>
+                </search>

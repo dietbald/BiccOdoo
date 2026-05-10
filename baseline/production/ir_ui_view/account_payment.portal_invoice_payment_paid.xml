@@ -1,0 +1,15 @@
+<t name="Invoice Paid" t-name="account_payment.portal_invoice_payment_paid">
+        <div class="modal fade" id="pay_with" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title">Pay Invoice</h3>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"/>
+                    </div>
+                    <div class="modal-body">
+                        <div class="alert alert-warning text-center" role="alert" t-out="invoice._get_online_payment_error()"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </t>

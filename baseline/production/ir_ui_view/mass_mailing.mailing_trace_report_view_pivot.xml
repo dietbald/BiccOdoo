@@ -1,0 +1,12 @@
+<pivot string="Mass Mailing Statistics" disable_linking="1" sample="1">
+                    <field name="name" type="row"/>
+                    <field name="sent" type="measure"/>
+                    <field name="scheduled" type="measure"/>
+                    <field name="delivered" type="measure"/>
+                    <field name="opened" type="measure"/>
+                    <field name="replied" type="measure"/>
+                    <field name="clicked" type="measure"/>
+                    <field name="canceled"/>
+                    <field name="error"/>
+                    <field name="bounced"/>
+                </pivot>

@@ -1,0 +1,21 @@
+<kanban class="o_hr_employee_kanban">
+                <templates>
+                    <t t-name="card" class="flex-row">
+                        <main class="ms-2">
+                            <div class="d-flex mb-2">
+                                <field name="name" class="fw-bolder fs-5 w-100"/>
+                                <div class="flex-shrink-1 text-end align-self-baseline" style="min-width: fit-content;">
+                                    <field name="course_type" widget="badge"/>
+                                </div>
+                            </div>
+                            <div class="d-flex">
+                                <div class="d-flex w-100">
+                                    <field name="employee_id" widget="many2one_avatar_employee"/>
+                                    <field name="employee_id" class="ms-1"/>
+                                </div>
+                                <field name="date_start" class="flex-shrink-1 text-end" style="min-width: fit-content;"/>
+                            </div>
+                        </main>
+                    </t>
+                </templates>
+            </kanban>

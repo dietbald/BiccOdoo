@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:49Z",
+  "id": 23132,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Product attribute values that do not create variants",
+    "relation": "product.template.attribute.value",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "3e316cdf4ba02e35fe700b868613e32146a8cda536e353e72e2e14c77787268a",
+  "write_date": "",
+  "xml_id": "purchase.field_purchase_order_line__product_no_variant_attribute_value_ids"
+}

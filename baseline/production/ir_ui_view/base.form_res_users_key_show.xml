@@ -1,0 +1,20 @@
+<form>
+                    <sheet>
+                        <h3 class="fw-bold">
+                            Write down your key
+                        </h3>
+                        <p>
+                            Here is your new API key, use it instead of a password for RPC access.
+                            Your login is still necessary for interactive usage.
+                        </p>
+                        <p><code><field name="key" readonly="True"/></code></p>
+                        <p class="alert alert-warning" role="alert">
+                            <strong>Important:</strong>
+                            The key cannot be retrieved later and provides <b>full access</b>
+                            to your user account, it is very important to store it securely.
+                        </p>
+                        <footer>
+                            <button special="cancel" data-hotkey="x" string="Done!"/>
+                        </footer>
+                    </sheet>
+                </form>

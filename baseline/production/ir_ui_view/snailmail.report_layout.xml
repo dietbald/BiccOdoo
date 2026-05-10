@@ -1,0 +1,5 @@
+<data inherit_id="web.report_layout">
+        <xpath expr="//head" position="inside">
+            <t t-if="env and env.context.get('snailmail_layout')" t-call-assets="snailmail.report_assets_snailmail" t-autoprefix="true"/>
+        </xpath>
+    </data>

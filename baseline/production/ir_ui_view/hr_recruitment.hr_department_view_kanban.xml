@@ -1,0 +1,17 @@
+<data>
+                <xpath expr="//div[@name='kanban_primary_right']" position="inside">
+                    <div t-if="record.new_applicant_count.raw_value &gt; 0" class="row g-0 ml32" groups="hr_recruitment.group_hr_recruitment_user">
+                        <a name="589" class="col" type="action">
+                            <field name="new_applicant_count"/> New Applicants
+                        </a>
+                    </div>
+                </xpath>
+
+                <xpath expr="//div[hasclass('o_kanban_manage_reports')]" position="inside">
+                    <div role="menuitem">
+                        <a class="dropdown-item" name="591" type="action" groups="hr_recruitment.group_hr_recruitment_interviewer">
+                            Recruitment
+                        </a>
+                    </div>
+                </xpath>
+            </data>

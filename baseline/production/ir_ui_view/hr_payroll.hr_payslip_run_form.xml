@@ -1,0 +1,13 @@
+<form string="Pay Runs" js_class="hr_payslip_batch_form">
+                <group>
+                    <field name="company_id" groups="base.group_multi_company" options="{'no_create': 1, 'no_quick_create': 1}" placeholder="Visible to all" domain="[('id', 'in', allowed_company_ids)]" invisible="context.get('allowed_company_ids', []).length &lt; 2"/>
+                    <field name="structure_id" domain="[('country_id', 'in', [country_id, False])]" placeholder="All structures"/>
+                    <field name="schedule_pay"/>
+                    <label for="date_start" string="Period"/>
+                    <div class="o_row">
+                        <field name="date_start" class="oe_inline" readonly="state != '01_ready'"/>
+                        <i class="fa fa-long-arrow-right mx-2" aria-label="Arrow icon" title="Arrow"/>
+                        <field name="date_end" class="oe_inline" readonly="(not date_start) or (state != '01_ready')"/>
+                    </div>
+                </group>
+            </form>

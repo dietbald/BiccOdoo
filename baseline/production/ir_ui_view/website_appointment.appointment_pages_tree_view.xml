@@ -1,0 +1,15 @@
+<data><xpath expr="//list" position="attributes">
+            <attribute name="js_class">website_pages_list</attribute>
+            <attribute name="type">object</attribute>
+            <attribute name="action">open_website_url</attribute>
+        </xpath>
+
+        <field name="name" position="after">
+            <field name="website_url"/>
+        </field>
+        <xpath expr="//list">
+            <field name="is_seo_optimized"/>
+            <field name="website_id" optional="show"/>
+            <field name="is_published"/>
+        </xpath>
+    </data>

@@ -1,0 +1,10 @@
+<data inherit_id="planning.open_slots_list_template">
+        <xpath expr="//th[@name='role_column']" position="after">
+            <th t-if="open_slot_has_sale_line" name="sale_order_item" class="text-start">Sales Order Item</th>
+        </xpath>
+        <xpath expr="//td[@name='role_id']" position="after">
+            <td t-if="open_slot_has_sale_line" class="align-middle" name="sale_line_id">
+                <t t-esc="shift.sale_line_id.order_id.name"/><t t-if="shift.sale_line_id"> - </t><t t-esc="shift.sale_line_id.name"/>
+            </td>
+        </xpath>
+    </data>

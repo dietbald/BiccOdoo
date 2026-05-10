@@ -1,0 +1,17 @@
+<t t-name="hr_contract_salary.hr_contract_salary_diff_email_template">
+        <div>
+            <t t-if="differences">
+                <h3>Changes summary since previous contract:</h3>
+                <ul>
+                    <t t-foreach="differences" t-as="field">
+                        <li>
+                            <t t-esc="field[0]"/>: <t t-esc="field[1]"/> → <t t-esc="field[2]"/>
+                        </li>
+                    </t>
+                </ul>
+            </t>
+            <t t-else="">
+                <h3>There were no changes since previous contract.</h3>
+            </t>
+        </div>
+    </t>

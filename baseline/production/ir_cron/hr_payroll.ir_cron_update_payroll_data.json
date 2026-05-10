@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 46,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._update_payroll_data()",
+    "interval_number": 1,
+    "interval_type": "weeks"
+  },
+  "payload_sha256": "35d3bf077df5ac0ec6efaca62dc65a6d52e7d6e1209e4e25341320fd5f08126a",
+  "write_date": "2025-12-09 03:00:04",
+  "xml_id": "hr_payroll.ir_cron_update_payroll_data"
+}

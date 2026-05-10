@@ -1,0 +1,21 @@
+<form>
+                <header>
+                    <field name="current_progress_id" invisible="1"/>
+                    <button name="action_toggle_visibility" type="object" string="Toggle visibility" invisible="not current_progress_id"/>
+                </header>
+                <sheet>
+                    <group col="2">
+                        <field name="name"/>
+                        <field name="route_name"/>
+                        <field name="is_per_company"/>
+                        <field name="is_onboarding_closed"/>
+                    </group>
+                    <notebook>
+                        <page name="Onboarding steps">
+                            <group string="Steps">
+                                <field name="step_ids" nolabel="1"/>
+                            </group>
+                        </page>
+                    </notebook>
+                </sheet>
+            </form>

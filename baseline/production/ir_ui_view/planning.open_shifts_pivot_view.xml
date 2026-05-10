@@ -1,0 +1,6 @@
+<pivot string="Planning" sample="1" js_class="planning_pivot">
+                <field name="role_id" type="row"/>
+                <field name="start_datetime" interval="week" type="col"/>
+                <field name="self_unassign_days_before" invisible="1"/>
+                <field name="resource_color" invisible="1"/>
+            </pivot>

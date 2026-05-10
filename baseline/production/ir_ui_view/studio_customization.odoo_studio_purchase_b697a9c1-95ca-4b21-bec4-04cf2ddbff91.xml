@@ -1,0 +1,5 @@
+<data>
+  <xpath expr="//field[@name='date_planned']" position="after">
+    <field name="project_id" optional="show"/>
+  </xpath>
+</data>

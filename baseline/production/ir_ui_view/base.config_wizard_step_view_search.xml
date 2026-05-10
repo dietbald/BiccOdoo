@@ -1,0 +1,5 @@
+<search string="Search Actions">
+                    <filter string="To Do" name="todo" domain="[('state','=','open')]" help="Wizards to be Launched"/>
+                    <field name="action_id"/>
+                    <field name="state"/>
+                </search>

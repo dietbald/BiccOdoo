@@ -1,0 +1,26 @@
+<t name="Donation payment" t-name="website_payment.donation_pay">
+        <t t-call="portal.frontend_layout">
+            <t t-set="page_title">Donation</t>
+            <t t-set="additional_title"><t t-out="page_title"/></t>
+            <div class="wrap">
+                <div class="oe_structure" id="oe_structure_website_payment_donation_1"/>
+                <div class="container mb-3">
+                    <!-- Portal breadcrumb -->
+                    <t t-call="payment.portal_breadcrumb"/>
+                    <!-- Payment page -->
+                    <div class="row">
+                        <div class="col-lg-7">
+                            <div t-if="not amount" class="alert alert-info">
+                                There is nothing to pay.
+                            </div>
+                            <div t-elif="not currency" class="alert alert-warning">
+                                <strong>Warning</strong> The currency is missing or incorrect.
+                            </div>
+                            <t t-else="" t-call="payment.form"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="oe_structure" id="oe_structure_website_payment_donation_2"/>
+            </div>
+        </t>
+    </t>

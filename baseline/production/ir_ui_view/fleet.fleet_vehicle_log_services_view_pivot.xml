@@ -1,0 +1,7 @@
+<pivot>
+                <field name="currency_id" invisible="1"/>
+                <field name="service_type_id" type="col"/>
+                <field name="vendor_id" type="row"/>
+                <field name="vehicle_id" type="row"/>
+                <field name="amount" type="measure"/>
+            </pivot>

@@ -1,0 +1,31 @@
+<data><div name="options" position="inside">
+                    <span class="d-inline-flex" invisible="type == 'combo'">
+                        <field name="purchase_ok"/>
+                        <label for="purchase_ok"/>
+                    </span>
+                </div>
+                <xpath expr="//field[@name='company_id']" position="after">
+                    <field name="fiscal_country_codes" invisible="1"/>
+                </xpath>
+                <page name="inventory" position="after">
+                    <page string="Accounting" name="invoicing" groups="account.group_account_readonly">
+                        <group name="properties" groups="account.group_account_readonly">
+                            <group string="Cost and Revenue">
+                                <field name="property_account_income_id" placeholder="From Category" groups="account.group_account_readonly"/>
+                                <field name="property_account_expense_id" placeholder="From Category" groups="account.group_account_readonly"/>
+                            </group>
+                        </group>
+                        <group name="accounting" groups="account.group_account_readonly,account.group_account_invoice"/>
+                    </page>
+                </page>
+                <div name="list_price_uom" position="after">
+                    <label for="taxes_id" invisible="type == 'combo'"/>
+                    <div name="taxes_div" class="o_row" invisible="type == 'combo'">
+                        <field name="taxes_id" widget="many2many_tax_tags" class="oe_inline" context="{                                 'default_type_tax_use': 'sale',                                 'search_default_sale': 1,                                 'search_default_service': type == 'service',                                 'search_default_goods': type == 'consu',                                 'search_default_domestictax': 1,                                 'append_fields': ['company_id'],                             }"/>
+                        <field name="tax_string" class="oe_inline"/>
+                    </div>
+                </div>
+                <div name="standard_price_uom" position="after">
+                    <field name="supplier_taxes_id" invisible="not purchase_ok or type == 'combo'" widget="many2many_tax_tags" context="{                             'default_type_tax_use':'purchase',                             'search_default_purchase': 1,                             'search_default_service': type == 'service',                             'search_default_goods': type == 'consu',                             'search_default_domestictax': 1,                             'append_fields': ['company_id'],                         }"/>
+                </div>
+            </data>

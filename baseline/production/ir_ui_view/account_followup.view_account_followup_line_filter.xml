@@ -1,0 +1,5 @@
+<search string="Search Follow-up">
+                <field name="company_id" groups="base.group_multi_company"/>
+                <filter string="Automatic" name="auto" domain="[('auto_execute', '=', True)]"/>
+                <filter string="Manual" name="manual" domain="[('auto_execute', '=', False)]"/>
+            </search>

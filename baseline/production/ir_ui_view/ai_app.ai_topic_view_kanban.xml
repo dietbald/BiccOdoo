@@ -1,0 +1,9 @@
+<kanban class="o_ai_agent_kanban">
+                <templates>
+                    <t t-name="card">
+                        <field name="name" class="fw-bold fs-5"/>
+                        <field name="description"/>
+                        <field name="tool_ids"/>
+                    </t>
+                </templates>
+            </kanban>

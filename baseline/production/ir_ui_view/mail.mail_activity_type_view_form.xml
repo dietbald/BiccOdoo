@@ -1,0 +1,34 @@
+<form string="Activities">
+                <sheet>
+                    <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                    <div class="oe_title">
+                        <label for="name" class="oe_edit_only"/>
+                        <h1><field name="name" placeholder="e.g. Schedule a meeting" options="{'line_breaks': False}" widget="text"/></h1>
+                    </div>
+                    <group>
+                        <group name="activity_details" string="Activity Settings">
+                            <field name="active" invisible="1"/>
+                            <field name="category"/>
+                            <field name="default_user_id" options="{'no_create': True}" domain="[('share', '=', False)]" widget="many2one_avatar_user"/>
+                            <field name="res_model" invisible="context.get('default_res_model')" placeholder="Available everywhere"/>
+                            <field name="summary" placeholder="e.g. &quot;Discuss proposal&quot;"/>
+                            <field name="icon" groups="base.group_no_one"/>
+                            <field name="decoration_type" groups="base.group_no_one"/>
+                            <label for="delay_count"/>
+                            <div>
+                                <field class="oe_inline pe-1 o_input_3ch" name="delay_count"/>
+                                <field class="oe_inline ps-1 pe-2" name="delay_unit"/>
+                                <field class="oe_inline" name="delay_from"/>
+                            </div>
+                        </group>
+                        <group name="activity_planning" string="Next Activity">
+                            <field name="chaining_type" invisible="category == 'upload_file'"/>
+                            <field name="triggered_next_type_id" options="{'no_open': True}" context="{'default_res_model': res_model}" invisible="chaining_type == 'suggest' and category != 'upload_file'" required="chaining_type == 'trigger' and category != 'upload_file'"/>
+                            <field name="suggested_next_type_ids" widget="many2many_tags" context="{'default_res_model': res_model}" invisible="chaining_type == 'trigger' or category == 'upload_file'"/>
+                            <field name="mail_template_ids" widget="many2many_tags" domain="[('model_id.model', '=', res_model)]" invisible="not res_model" context="{'default_model': res_model}"/>
+                        </group>
+                    </group>
+                    <label for="default_note" class="fw-bold"/>
+                    <field nolabel="1" name="default_note" placeholder="e.g. &quot;Go over the offer and discuss details&quot;" class="oe-bordered-editor"/>
+                </sheet>
+            </form>

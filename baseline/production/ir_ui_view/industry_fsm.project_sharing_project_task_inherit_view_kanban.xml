@@ -1,0 +1,14 @@
+<data><xpath expr="//field[@name='state']" position="after">
+                <field name="is_fsm"/>
+                <field name="planned_date_begin"/>
+                <field name="fsm_done"/>
+            </xpath>
+            <xpath expr="//field[@t-if='record.partner_id.value']" position="after">
+                <span t-if="record.is_fsm.raw_value and record.partner_city.value">
+                    • <field name="partner_city"/>
+                </span>
+            </xpath>
+            <xpath expr="//field[@name='state']" position="attributes">
+                <attribute name="invisible">context.get('fsm_mode', False)</attribute>
+            </xpath>
+        </data>

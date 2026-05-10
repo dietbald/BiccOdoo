@@ -1,0 +1,27 @@
+<data><div id="title" position="replace">
+                <div class="oe_title">
+                    <h2><field name="name" placeholder="e.g. Time Off type (From validity start to validity end / no limit)" required="1"/></h2>
+                </div>
+            </div>
+            <field name="employee_id" position="replace">
+                <field name="employee_id" readonly="state in ['refuse', 'validate']" widget="many2one_avatar_employee"/>
+            </field>
+            <field name="allocation_type" position="attributes">
+                <attribute name="invisible">0</attribute>
+            </field>
+            <label for="date_from" position="replace">
+                <label for="date_from" string="Validity Period" invisible="allocation_type == 'accrual'"/>
+            </label>
+            <field name="date_from" position="attributes">
+                <attribute name="invisible">0</attribute>
+            </field>
+            <xpath expr="//i[hasclass('fa-long-arrow-right')]" position="replace">
+                <i class="fa fa-long-arrow-right mx-2" aria-label="Arrow icon" title="Arrow" invisible="allocation_type == 'accrual'"/>
+            </xpath>
+            <field name="date_to" position="attributes">
+                <attribute name="invisible">0</attribute>
+            </field>
+            <div id="no_limit_label" position="replace">
+                <div id="no_limit_label" class="oe_read_only" invisible="not id or date_to">No limit</div>
+            </div>
+        </data>

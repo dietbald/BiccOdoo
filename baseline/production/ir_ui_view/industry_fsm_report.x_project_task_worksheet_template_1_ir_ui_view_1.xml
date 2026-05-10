@@ -1,0 +1,10 @@
+<form create="false" duplicate="false">
+                    <sheet>
+                        <h1 invisible="context.get('studio') or context.get('default_x_project_task_id')">
+                            <field name="x_project_task_id"/>
+                        </h1>
+                        <group>
+                            <field name="x_comments" placeholder="Add details about your intervention..."/>
+                        </group>
+                    </sheet>
+                </form>

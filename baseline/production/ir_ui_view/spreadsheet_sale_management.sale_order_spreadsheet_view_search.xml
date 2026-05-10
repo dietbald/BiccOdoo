@@ -1,0 +1,4 @@
+<search>
+                <filter name="calculator_templates" string="Calculator Templates" domain="[('order_id', '=', False)]"/>
+                <filter name="quote_sheets" string="Quote Sheets" domain="[('order_id', '!=', False)]"/>
+            </search>

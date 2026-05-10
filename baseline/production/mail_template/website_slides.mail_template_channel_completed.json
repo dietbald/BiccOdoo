@@ -1,0 +1,12 @@
+{
+  "exported_at": "2026-05-10T05:51:53Z",
+  "id": 83,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px;\">\n                    <div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n                        <p style=\"margin: 0px;\">Hello <t t-out=\"object.partner_id.name or ''\">Brandon Freeman</t>,</p><br/>\n                        <p><b>Congratulations!</b></p>\n                        <p>You've completed the course <b t-out=\"object.channel_id.name or ''\">Basics of Gardening</b></p>\n                        <p>Check out the other available courses.</p><br/>\n\n                        <div style=\"padding: 16px 8px 16px 8px; text-align: center;\">\n                            <a href=\"/slides/all\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">\n                                Explore courses\n                            </a>\n                        </div>\n                        Enjoy this exclusive content!\n                        <t t-if=\"object.channel_id.user_id.signature\" data-o-mail-quote-container=\"1\">\n                            <br/>\n                            <div data-o-mail-quote=\"1\">--<br data-o-mail-quote=\"1\"/><t t-out=\"object.channel_id.user_id.signature or ''\" data-o-mail-quote=\"1\">Mitchell Admin</t></div>\n                        </t>\n                    </div>\n                </div>\n            ",
+    "subject": "Congratulations! You completed {{ object.channel_id.name }}"
+  },
+  "payload_sha256": "0d6531b0e05940e71c78706917a4b0b844be826234e8944d9151f85213d78a0b",
+  "write_date": "2025-03-23 22:57:04",
+  "xml_id": "website_slides.mail_template_channel_completed"
+}

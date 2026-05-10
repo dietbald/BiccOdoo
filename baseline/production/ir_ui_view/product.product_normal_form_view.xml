@@ -1,0 +1,46 @@
+<data><xpath expr="//page[@name='sales_price']/field[@name='pricelist_rule_ids']" position="attributes">
+                    <attribute name="context">
+                        {
+                            'default_product_id': id,
+                            'form_view_ref': 'product.product_pricelist_item_product_product_form_view'
+                        }
+                    </attribute>
+                </xpath>
+                <form position="attributes">
+                    <attribute name="string">Product Variant</attribute>
+                    <attribute name="duplicate">false</attribute>
+                </form>
+                <xpath expr="//div[@name='standard_price_uom']" position="after">
+                    <field name="default_code"/>
+                    <field name="barcode"/>
+                </xpath>
+                <xpath expr="//field[@name='is_favorite']" position="attributes">
+                    <attribute name="readonly">1</attribute>
+                </xpath>
+                <field name="list_price" position="attributes">
+                   <attribute name="invisible">1</attribute>
+                   <attribute name="readonly">product_variant_count &gt; 1</attribute>
+                </field>
+                <label for="list_price" position="replace">
+                    <label for="lst_price"/>
+                </label>
+                <field name="list_price" position="after">
+                   <field name="lst_price" class="oe_inline" widget="monetary" options="{'currency_field': 'currency_id', 'field_digits': True}"/>
+                </field>
+                <field name="name" position="after">
+                    <field name="product_tmpl_id" class="oe_inline" readonly="1" invisible="1" required="id"/>
+                </field>
+                <xpath expr="//div[hasclass('oe_title')]" position="inside">
+                    <field name="product_template_variant_value_ids" widget="many2many_tags" readonly="1" invisible="not product_template_variant_value_ids" groups="product.group_product_variant"/>
+                </xpath>
+                <field name="product_tag_ids" position="attributes">
+                    <attribute name="options">{'no_open': True}</attribute>
+                    <attribute name="context">{'product_template_id': product_tmpl_id}</attribute>
+                </field>
+                <field name="product_tag_ids" position="after">
+                    <field name="additional_product_tag_ids" widget="many2many_tags"/>
+                </field>
+                <field name="uom_ids" position="attributes">
+                    <attribute name="context">{'product_id': id}</attribute>
+                </field>
+            </data>

@@ -1,0 +1,39 @@
+<data><xpath expr="//form" position="attributes">
+                <attribute name="js_class">subcontracting_production_form</attribute>
+            </xpath>
+            <xpath expr="//header" position="replace">
+                <field name="state" widget="statusbar" statusbar_visible="draft,confirmed,done"/>
+            </xpath>
+            <xpath expr="//div[@name='button_box']" position="replace"/>
+            <xpath expr="//div[hasclass('oe_title')]" position="replace"/>
+            <xpath expr="//div[@name='qty']" position="replace">
+                <div class="o_row g-0 d-flex" name="qty">
+                    <field name="product_qty" readonly="state == 'done'"/>
+                </div>
+            </xpath>
+            <xpath expr="//button[@name='action_generate_bom']" position="replace"/>
+            <xpath expr="//field[@name='is_outdated_bom']" position="replace"/>
+            <xpath expr="//button[@name='action_update_bom']" position="replace"/>
+            <xpath expr="//div[@name='date_start']" position="replace"/>
+            <xpath expr="//label[@name='start_date']" position="replace"/>
+            <xpath expr="//label[@name='scheduled_date']" position="replace"/>
+            <xpath expr="//field[@name='date_deadline']" position="replace"/>
+            <xpath expr="//field[@name='components_availability']" position="replace"/>
+            <xpath expr="//field[@name='user_id']" position="replace"/>
+            <xpath expr="//page[@name='operations']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='lot_producing_ids']" position="attributes">
+                <attribute name="invisible">product_tracking in ('none', False)</attribute>
+            </xpath>
+            <xpath expr="//page[@name='miscellaneous']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+
+            <xpath expr="//field[@name='move_byproduct_ids']" position="replace"/>
+            <xpath expr="//field[@name='forecast_availability']" position="replace"/>
+            <xpath expr="//field[@name='workorder_ids']" position="replace"/>
+
+            <xpath expr="//field[@name='move_finished_ids']" position="replace"/>
+            <xpath expr="//chatter" position="replace"/>
+        </data>

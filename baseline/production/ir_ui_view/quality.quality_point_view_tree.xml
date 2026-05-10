@@ -1,0 +1,12 @@
+<list>
+                <field name="sequence" widget="handle"/>
+                <field name="name" decoration-bf="1"/>
+                <field name="title" optional="show"/>
+                <field name="product_ids" widget="many2many_tags" optional="show"/>
+                <field name="product_category_ids" widget="many2many_tags" optional="hide"/>
+                <field name="picking_type_ids" widget="many2many_tags" optional="show" string="Operations"/>
+                <field name="test_type_id" optional="show" string="Type"/>
+                <field name="team_id" optional="show"/>
+                <field name="user_id" optional="hide" widget="many2one_avatar_user"/>
+                <field name="company_id" groups="base.group_multi_company" optional="show"/>
+            </list>

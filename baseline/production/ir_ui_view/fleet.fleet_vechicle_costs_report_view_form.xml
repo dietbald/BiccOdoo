@@ -1,0 +1,17 @@
+<form string="Fleet Costs Analysis" create="0" edit="0">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="vehicle_id"/>
+                            <field name="driver_id"/>
+                            <field name="fuel_type"/>
+                            <field name="company_id" groups="base.group_multi_company" placeholder="Visible to all"/>
+                        </group>
+                        <group>
+                            <field name="date_start"/>
+                            <field name="cost"/>
+                            <field name="cost_type"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

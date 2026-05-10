@@ -1,0 +1,74 @@
+<form string="Purchase Agreements">
+            <field name="company_id" invisible="1"/>
+            <field name="currency_id" invisible="1"/>
+            <field name="active" invisible="1"/>
+            <header>
+                <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                <button name="796" type="action" string="New Quotation" class="btn-primary" context="{'default_currency_id': currency_id, 'default_user_id': user_id}" invisible="state != 'confirmed'"/>
+                <button name="action_confirm" invisible="state != 'draft'" string="Confirm" type="object" class="btn-primary"/>
+                <button name="action_done" invisible="state != 'confirmed' or requisition_type == 'purchase_template'" string="Close" type="object" class="btn-primary"/>
+                <button name="action_draft" invisible="state != 'cancel'" string="Reset to Draft" type="object"/>
+                <button name="action_cancel" invisible="state not in ('draft', 'confirmed')" string="Cancel" type="object"/>
+                <field name="state" widget="statusbar" statusbar_visible="draft,confirmed,done" invisible="requisition_type == 'purchase_template'"/>
+            </header>
+            <sheet>
+                <div class="oe_button_box" name="button_box">
+                    <button name="797" type="action" class="oe_stat_button" icon="fa-list-alt" invisible="state == 'draft'" context="{'default_currency_id': currency_id}">
+                        <field name="order_count" widget="statinfo" string="RFQs/Orders"/>
+                    </button>
+                </div>
+                <div class="oe_title">
+                    <label for="name" class="oe_inline"/>
+                    <h1>
+                        <field name="name"/>
+                    </h1>
+                </div>
+                <group>
+                    <group>
+                        <field name="vendor_id" context="{'res_partner_search_mode': 'supplier'}" readonly="state in ['confirmed', 'done'] and requisition_type == 'blanket_order'" required="requisition_type == 'blanket_order'"/>
+                        <field name="user_id" string="Buyer" readonly="state != 'draft'" domain="[('share', '=', False)]"/>
+                        <field name="requisition_type" readonly="state != 'draft'" options="{'no_create': True}"/>
+                        <field name="currency_id" groups="base.group_multi_currency"/>
+                    </group>
+                    <group>
+                        <label for="date_start" string="Agreement Validity" invisible="requisition_type == 'purchase_template'"/>
+                        <div class="o_row" invisible="requisition_type == 'purchase_template'">
+                            <span><strong>From</strong></span>
+                            <field name="date_start" widget="date" readonly="state not in ('draft', 'confirmed')"/>
+                            <span><strong>to</strong></span>
+                            <field name="date_end" widget="date" readonly="state not in ('draft', 'confirmed')"/>
+                        </div>
+                        <field name="reference" placeholder="e.g. PO0025"/>
+                        <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}" readonly="state != 'draft'"/>
+                    </group>
+                </group>
+                <notebook>
+                    <page string="Products" name="products">
+                        <field name="line_ids" readonly="state == 'done'">
+                            <list string="Products" editable="bottom">
+                                <field name="product_id" domain="[('purchase_ok', '=', True), '|', ('company_id', '=', False), ('company_id', '=', parent.company_id)]"/>
+                                <field name="product_description_variants" invisible="product_description_variants == ''"/>
+                                <field name="product_qty"/>
+                                <field name="qty_ordered" optional="show" column_invisible="parent.requisition_type == 'purchase_template'"/>
+                                <field name="product_uom_id" groups="uom.group_uom" optional="show" required="product_id" widget="many2one_uom"/>
+                                <field name="analytic_distribution" widget="analytic_distribution" optional="hide" groups="analytic.group_analytic_accounting" options="{'product_field': 'product_id', 'business_domain': 'purchase_order'}"/>
+                                <field name="price_unit"/>
+                            </list>
+                            <form string="Products">
+                                <group>
+                                    <field name="product_id" domain="[('purchase_ok', '=', True), '|', ('company_id', '=', False), ('company_id', '=', parent.company_id)]"/>
+                                    <field name="product_qty"/>
+                                    <field name="qty_ordered"/>
+                                    <field name="product_uom_id" groups="uom.group_uom" widget="many2one_uom"/>
+                                    <field name="analytic_distribution" widget="analytic_distribution" groups="analytic.group_analytic_accounting" options="{'product_field': 'product_id', 'business_domain': 'purchase_order'}"/>
+                                    <field name="company_id" groups="base.group_multi_company" options="{'no_create': True}"/>
+                                </group>
+                            </form>
+                        </field>
+                        <separator string="Terms and Conditions"/>
+                        <field name="description" class="oe-bordered-editor"/>
+                    </page>
+                </notebook>
+            </sheet>
+            <chatter/>
+            </form>

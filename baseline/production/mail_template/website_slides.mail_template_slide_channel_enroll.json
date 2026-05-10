@@ -1,0 +1,12 @@
+{
+  "exported_at": "2026-05-10T05:51:53Z",
+  "id": 85,
+  "model": "mail.template",
+  "payload": {
+    "body_html": "<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n        Hello<br/><br/>\n        You have been enrolled to a new course: <t t-out=\"object.channel_id.name or ''\">Basics of Gardening</t>.\n    </p>\n</div>\n            ",
+    "subject": "You have been invited to join {{ object.channel_id.name }}"
+  },
+  "payload_sha256": "d9967a9a826f0de04e0ee75d5501f4ffc8c2029082ec040bd95a6f9aeffc34de",
+  "write_date": "2025-03-25 08:20:20",
+  "xml_id": "website_slides.mail_template_slide_channel_enroll"
+}

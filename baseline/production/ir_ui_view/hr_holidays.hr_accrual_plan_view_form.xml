@@ -1,0 +1,68 @@
+<form string="Accrual Plan" class="o_accrual_plan_form">
+                <field name="active" invisible="1"/>
+                <field name="show_transition_mode" invisible="1"/>
+                <sheet>
+                    <div class="oe_button_box" name="button_box" invisible="not id">
+                        <button name="action_open_accrual_plan_employees" type="object" class="oe_stat_button" icon="fa-users" invisible="employees_count == 0" groups="hr.group_hr_user">
+                            <field name="employees_count" widget="statinfo"/>
+                        </button>
+                    </div>
+                    <widget name="web_ribbon" title="Archived" bg_color="bg-danger" invisible="active"/>
+                    <div>
+                        <div class="d-flex flex-direction-row o_accrual_plan_settings">
+                            <div class="w-100">
+                                <div class="oe_title w-50">
+                                    <label class="fw-bold" for="name" string="Title"/>
+                                    <h1><field name="name" placeholder="e.g. Seniority Plan, PTO, RTT, ..." required="id"/></h1>
+                                    <group groups="base.group_multi_company">
+                                        <field name="company_id" options="{'no_create': True}" groups="base.group_multi_company" placeholder="Visible to all"/>
+                                    </group>
+                                </div>
+                                <group string="Configuration" class="mt-0 o_accrual">
+                                    <label class="fw-bold" for="accrued_gain_time" string="When the time is accrued?"/>
+                                    <field nolabel="1" class="ms-1" name="accrued_gain_time" widget="radio"/>
+                                    <label class="fw-bold" invisible="accrued_gain_time == 'start'" for="is_based_on_worked_time" string="It is based on worked time?"/>
+                                    <span invisible="accrued_gain_time == 'start'">
+                                        <field class="o_field_radio ms-1" name="is_based_on_worked_time" widget="boolean_radio" options="{                                                     'yes_label_element_id': 'is_based_on_worked_time_yes',                                                     'no_label_element_id': 'is_based_on_worked_time_no'                                                 }" readonly="accrued_gain_time == 'start'"/>
+                                        <template id="is_based_on_worked_time_yes">Yes, consider the worked hours, excluding any time off taken during that period.
+                                        </template>
+                                        <template id="is_based_on_worked_time_no">No, always consider the entire accrual period (whole calendar days).
+                                        </template>
+                                    </span>
+                                    <label class="fw-bold" for="can_be_carryover" string="Do you need a carry-over of the accrued days from one year to another?"/>
+                                    <span>
+                                        <field class="ms-1" name="can_be_carryover"/>
+                                    </span>
+                                    <label class="fw-bold" invisible="not can_be_carryover" for="carryover_date" string="When do you want the accrued time left to be carried-over?"/>
+                                    <span name="carryover" invisible="not can_be_carryover">
+                                        <field class="ms-1" name="carryover_date" widget="radio_followed_by_element" options="{'links': {'other': 'carryover_custom_date'}, 'observe': 'carryover'}"/>
+                                        <span id="carryover_custom_date">
+                                            : the
+                                            <field name="carryover_day" widget="day_selection" month_field="carryover_month" placeholder="select a day" required="carryover_date == 'other'"/>
+                                            of
+                                            <field name="carryover_month" placeholder="select a month" required="carryover_date == 'other'"/>
+                                        </span>
+                                    </span>
+                                    <label class="fw-bold" invisible="not show_transition_mode" for="transition_mode" string="Switch employees to the new accrual level:"/>
+                                    <span invisible="not show_transition_mode">
+                                        <field class="ms-1" name="transition_mode" widget="radio"/>
+                                    </span>
+                                </group>
+                            </div>
+                        </div>
+                        <div class="o_accrual_plan_levels border rounded-3 d-flex mt-2 flex-direction-column align-items-center flex-1 overflow-hidden">
+                            <div class="o_accrual_levels_scrollable w-100 h-100 d-flex align-content-center">
+                                <div class="o_view_nocontent top-0" style="position: relative;" invisible="level_ids">
+                                    <div class="o_nocontent_help">
+                                        <p class="o_view_nocontent_smiling_face">
+                                            No milestones on the plan yet. Let's create a new one
+                                        </p>
+                                        <button name="action_create_accrual_plan_level" type="object" class="btn btn-primary" string="Create a milestone"/>
+                                    </div>
+                                </div>
+                                <field name="level_ids" widget="accrual_levels" invisible="not level_ids"/>
+                            </div>
+                        </div>
+                    </div>
+                </sheet>
+            </form>

@@ -1,0 +1,8 @@
+<search string="Records">
+                    <filter name="archived" string="Archived" domain="[('active', '=', False)]"/>
+                    <field name="model_id" string="Model"/>
+                    <filter string="Discarded" name="discarded" domain="[('is_discarded', '=', True), ('active', '=', False)]" context="{'active_test': False}"/>
+                    <searchpanel>
+                        <field name="model_id" icon="fa-bars" string="Rule" enable_counters="1"/>
+                    </searchpanel>
+                </search>

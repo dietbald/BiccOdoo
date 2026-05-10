@@ -1,0 +1,36 @@
+<search>
+                    <field name="name" string="Transaction" filter_domain="['|', '|', '|', '|', '|', '|', ('payment_ref', 'ilike', self), ('narration', 'ilike', self), ('partner_id', 'ilike', self), ('partner_name', 'ilike', self), ('partner_bank_id', 'ilike', self), ('account_number', 'ilike', self), ('amount', 'ilike', self)]"/>
+                    <field name="id" invisible="1"/>
+                    <field name="payment_ref"/>
+                    <field name="date"/>
+                    <field name="statement_id"/>
+                    <field name="partner_id"/>
+                    <field name="journal_id" domain="[('type', 'in', ('bank', 'cash'))]" invisible="context.get('default_journal_id')"/>
+                    <field name="narration" string="Notes"/>
+                    <field name="transaction_type"/>
+                    <field name="amount"/>
+                    <field name="is_reconciled"/>
+                    <field name="move_id" string="Journal Entry" filter_domain="['|', ('move_id.name', 'ilike', self), ('move_id.ref', 'ilike', self)]"/>
+                    <field name="statement_line_id" string="Statement Line"/>
+                    <field name="activity_ids"/>
+                    <separator/>
+                    <filter name="deposits" string="Deposits" domain="[('amount', '&gt;', 0.0)]"/>
+                    <filter name="payments" string="Payments" domain="[('amount', '&lt;', 0.0)]"/>
+                    <separator/>
+                    <filter name="to_check" string="To Review" domain="[('checked', '=', False)]"/>
+                    <separator/>
+                    <filter name="no_statement" string="No statement" domain="[('statement_id', '=', False)]"/>
+                    <filter name="invalid_statement" string="Invalid statements" domain="[('statement_id', '!=', False), '|',('statement_complete', '=', False), ('statement_valid', '=', False)]"/>
+                    <separator/>
+                    <filter name="matched" string="Matched" domain="[('is_reconciled', '=', True)]"/>
+                    <filter name="not_matched" string="Not Matched" domain="[('is_reconciled', '=', False), ('checked', '=', True)]"/>
+                    <filter name="to_check" string="To Check" domain="[('checked', '=', False)]"/>
+                    <filter name="with_activities" string="With Activities" domain="[('activity_ids', '!=', False)]"/>
+                    <separator/>
+                    <filter name="date" string="Date" date="date"/>
+                    <separator/>
+                    <filter name="statement_group" string="Statement" context="{'group_by': 'statement_id'}"/>
+                    <filter name="journal_group" string="Journal" context="{'group_by': 'journal_id'}"/>
+                    <filter name="date_group" string="Date" context="{'group_by': 'date'}"/>
+                    <filter name="invoice_date_group" string="Invoice Date" domain="[]" context="{'group_by': 'invoice_date'}"/>
+                </search>

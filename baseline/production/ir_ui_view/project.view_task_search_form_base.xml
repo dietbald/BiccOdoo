@@ -1,0 +1,32 @@
+<search string="Tasks">
+                    <field name="name" string="Tasks" filter_domain="[('name', 'ilike', self)]"/>
+                    <field name="tag_ids"/>
+                    <field name="stage_id"/>
+                    <field name="milestone_id" groups="project.group_project_milestone" invisible="not context.get('allow_milestones', True)"/>
+                    <field name="partner_id" operator="child_of" invisible="context.get('template_project')"/>
+                    <filter string="Unassigned" name="unassigned" domain="[('user_ids', '=', False)]"/>
+                    <separator invisible="context.get('default_project_id')"/>
+                    <filter string="Favorite Projects" name="favorite_projects" domain="[('project_id.is_favorite', '=', True)]" invisible="context.get('default_project_id')"/>
+                    <separator groups="project.group_project_task_dependencies" invisible="not context.get('allow_task_dependencies', True)"/>
+                    <filter string="Blocking" name="blocking" domain="[('is_closed', '=', False), ('dependent_ids', '!=', False)]" groups="project.group_project_task_dependencies" invisible="not context.get('allow_task_dependencies', True)"/>
+                    <separator/>
+                    <filter string="Creation Date" name="creation_date_filter" date="create_date"/>
+                    <separator/>
+                    <filter string="Open" name="open_tasks" domain="[('is_closed', '=', False)]"/>
+                    <filter string="Closed" name="closed_tasks" domain="[('is_closed', '=', True)]"/>
+                    <filter string="Closed On" name="closed_on" domain="[('is_closed', '=', True)]" date="date_last_stage_update" invisible="context.get('template_project')">
+                        <filter name="create_date_last_30_days" string="Last 30 Days" domain="[('date_last_stage_update', '&gt;=', 'today -30d +1d')]"/>
+                        <filter name="create_date_last_365_days" string="Last 365 Days" domain="[('date_last_stage_update', '&gt;=', 'today -365d +1d')]"/>
+                    </filter>
+                    <separator/>
+                    <filter string="Templates" context="{'render_task_templates': True}" name="templates" domain="[('has_template_ancestor', '=', True)]"/>
+                    <group>
+                        <filter string="Stage" name="stage" context="{'group_by': 'stage_id'}"/>
+                        <filter string="Milestone" name="milestone" context="{'group_by': 'milestone_id'}" groups="project.group_project_milestone" invisible="not context.get('allow_milestones', True)"/>
+                        <filter string="Priority" name="groupby_priority" context="{'group_by': 'priority'}"/>
+                        <filter string="Tags" name="tags" context="{'group_by': 'tag_ids'}"/>
+                         <filter string="Customer" name="customer" context="{'group_by': 'partner_id'}" invisible="context.get('template_project')"/>
+                        <filter string="Company" name="company_id" context="{'group_by': 'company_id'}" groups="base.group_multi_company"/>
+                        <filter string="Creation Date" name="create_date" context="{'group_by': 'create_date'}"/>
+                    </group>
+                </search>

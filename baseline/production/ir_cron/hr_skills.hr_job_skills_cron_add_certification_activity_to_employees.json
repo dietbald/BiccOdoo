@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 80,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._add_certification_activity_to_employees()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "7d4645e051a34a66a9634c82850d8d4f333ce703a67ef05b5511a656d281b635",
+  "write_date": "2025-12-09 02:58:28",
+  "xml_id": "hr_skills.hr_job_skills_cron_add_certification_activity_to_employees"
+}

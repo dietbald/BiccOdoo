@@ -1,0 +1,29 @@
+<form>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="cycle"/>
+                                <field name="return_type" options="{'no_open': 1, 'no_create_edit': 1}"/>
+                                <field name="type" widget="selection_badge"/>
+                            </group>
+                            <group>
+                                <field name="action_id" groups="base.group_no_one"/>
+                                <field name="activity_type"/>
+                            </group>
+                        </group>
+                        <notebook>
+                            <page name="notes_page" string="Description">
+                                <group colspan="2">
+                                    <field name="description" nolabel="1"/>
+                                </group>
+                            </page>
+                            <page name="automated_checks_page" string="Automated Checks" invisible="type == 'file'">
+                                <group>
+                                    <field name="model"/>
+                                    <field name="domain" widget="domain" options="{'model': 'model'}" invisible="not model"/>
+                                </group>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>

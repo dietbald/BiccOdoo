@@ -1,0 +1,18 @@
+<form string="Mailing List Subscription">
+                <sheet>
+                    <group>
+                        <field name="list_id"/>
+                        <field name="is_blacklisted" invisible="1"/>
+                        <label for="contact_id" class="oe_inline"/>
+                        <div class="o_row o_row_readonly">
+                            <i class="fa fa-ban text-danger" role="img" title="This email is blacklisted for mass mailings" aria-label="Blacklisted" invisible="not is_blacklisted" groups="base.group_user"/>
+                            <field name="contact_id"/>
+                        </div>
+                        <field name="create_date" string="Subscription Date"/>
+                        <field name="opt_out_datetime" readonly="1"/>
+                        <field name="opt_out"/>
+                        <field name="opt_out_reason_id"/>
+                        <field name="message_bounce" readonly="1"/>
+                    </group>
+                </sheet>
+            </form>

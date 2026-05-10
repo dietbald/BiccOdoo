@@ -1,0 +1,17 @@
+<form string="Assets">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="bundle"/>
+                            <field name="directive"/>
+                            <field name="sequence"/>
+                            <field name="active" widget="boolean_toggle"/>
+                        </group>
+                        <group>
+                            <field name="target" invisible="directive not in ('after', 'before', 'replace')"/>
+                            <field name="path"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

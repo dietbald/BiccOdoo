@@ -1,0 +1,6 @@
+<search>
+                <field name="name"/>
+                <filter string="With Models" name="with_models" domain="[('model_count', '&gt;', 0)]"/>
+                <separator/>
+                <filter string="Archived" name="active" domain="[('active','=',False)]"/>
+            </search>

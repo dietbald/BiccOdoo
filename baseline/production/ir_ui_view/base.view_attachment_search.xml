@@ -1,0 +1,16 @@
+<search string="Attachments">
+                    <field name="name" filter_domain="[('name','ilike',self)]" string="Attachment"/>
+                    <field name="create_date"/>
+                    <filter name="my_documents_filter" string="My Document(s)" domain="[('create_uid','=',uid)]" help="Filter on my documents"/>
+                    <filter name="url_filter" string="URL" domain="[('type', '=', 'url')]"/>
+                    <filter name="binary_filter" string="Stored" domain="[('type', '=', 'binary')]"/>
+                    <separator/>
+                    <field name="create_uid" string="Created by"/>
+                    <field name="type"/>
+                    <group>
+                        <filter name="owner" string="Owner" domain="[]" context="{'group_by':'create_uid'}"/>
+                        <filter string="Type" name="type" domain="[]" context="{'group_by':'type'}" groups="base.group_no_one"/>
+                        <filter string="Company" name="company" domain="[]" context="{'group_by':'company_id'}" groups="base.group_multi_company"/>
+                        <filter string="Creation Date" name="creation_month" domain="[]" context="{'group_by':'create_date'}"/>
+                    </group>
+                </search>

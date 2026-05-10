@@ -1,0 +1,4 @@
+<t t-name="hr_timesheet.report_timesheet_project">
+        <t t-set="from_project" t-value="True"/>
+        <t t-call="hr_timesheet.timesheet_project_task_page"/>
+    </t>

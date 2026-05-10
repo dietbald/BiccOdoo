@@ -1,0 +1,29 @@
+<t name="Meeting details" t-name="appointment.appointment_meeting_details">
+        <div class="o_appointment_details_type d-flex align-items-center mb-3">
+            <div t-if="appointment_type.image_1920" t-field="appointment_type.image_1920" role="img" class="o_appointment_avatar_container d-none d-md-block w-25 me-2 overflow-hidden border rounded ratio ratio-1x1" t-options="{'widget': 'image', 'class': 'o_appointment_avatar_background object-fit-cover', 'preview_image': 'image_512'}"/>
+            <h5 class="mb-1" t-out="appointment_type.name"/>
+        </div>
+        <small t-if="appointment_type.schedule_based_on == 'users'" class="text-uppercase text-muted">Meeting details</small>
+        <small t-else="" class="text-uppercase text-muted">Booking details</small>
+        <div class="d-flex flex-column gap-1 mt-2">
+            <div class="o_appointment_details_location d-flex py-1 px-0 bg-transparent o-cc1-text border-0" t-if="appointment_type.location_id">
+                <i class="fa fa-map-marker fa-fw me-2 mt-1 text-muted"/>
+                <div>
+                    <div t-att-class="str(appointment_type.location_id.contact_address).strip() and 'fw-bold' or ''" t-field="appointment_type.location_id" t-options="{'widget': 'contact', 'fields': ['name']}"/>
+                    <div class="lh-base" t-field="appointment_type.location_id" t-options="{'widget': 'contact', 'fields': ['address'], 'no_marker': true}"/>
+                </div>
+            </div>
+            <div class="d-flex py-1 px-0 bg-transparent o-cc1-text border-0" t-else="">
+                <i class="fa fa-video-camera fa-fw me-2 mt-1 text-muted"/>
+                <span class="o_not_editable">Online</span>
+            </div>
+            <div t-if="not appointment_type.hide_duration and (appointment_type.category != 'custom' or isDetails)" class="d-flex py-1 px-0 bg-transparent o-cc1-text border-0">
+                <i class="fa fa-clock-o fa-fw me-2 mt-1 text-muted"/>
+                <span t-out="appointment_type.appointment_duration if appointment_type.category != 'custom' else duration" t-options="{'widget': 'duration', 'unit': 'hour'}"/>
+            </div>
+            <div class="d-flex py-1 px-0 bg-transparent o-cc1-text border-0" t-if="appointment_type.manage_capacity and isDetails">
+                <i class="fa fa-users fa-fw me-2 mt-1 text-muted"/>
+                <span><t t-out="asked_capacity"/> people</span>
+            </div>
+        </div>
+    </t>

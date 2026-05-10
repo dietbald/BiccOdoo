@@ -1,0 +1,13 @@
+<list string="Appointment Type" class="o_appointment_type_view_list" js_class="appointment_type_list" multi_edit="1">
+                <header>
+                    <button name="action_share_invite" type="object" string="Share"/>
+                </header>
+                <field name="sequence" widget="handle" groups="appointment.group_appointment_manager"/>
+                <field name="name" readonly="1"/>
+                <field name="location_id"/>
+                <field name="appointment_tz"/>
+                <field name="schedule_based_on" column_invisible="True"/>
+                <field name="staff_user_ids" widget="many2many_avatar_user" optional="hide"/>
+                <field name="resource_ids" string="Resources" widget="many2many_tags_avatar" optional="hide"/>
+                <field name="country_ids" widget="many2many_tags" groups="base.group_no_one" optional="show"/>
+            </list>

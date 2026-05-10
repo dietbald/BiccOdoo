@@ -1,0 +1,25 @@
+<kanban sample="1" default_order="is_favorite desc, default_code, name, id">
+                    <field name="activity_state"/>
+                    <field name="color"/>
+                    <progressbar field="activity_state" colors="{&quot;planned&quot;: &quot;success&quot;, &quot;today&quot;: &quot;warning&quot;, &quot;overdue&quot;: &quot;danger&quot;}"/>
+                    <templates>
+                        <t t-name="card" class="row g-0">
+                            <main class="col-10 pe-2">
+                                <div class="d-flex mb-1 h5">
+                                    <field class="me-1" name="is_favorite" widget="boolean_favorite" nolabel="1"/>
+                                    <field name="name"/>
+                                </div>
+                                <span t-if="record.default_code.value">
+                                    [<field name="default_code"/>]
+                                </span>
+                                <field name="product_template_variant_value_ids" groups="product.group_product_variant" widget="many2many_tags" options="{'color_field': 'color'}"/>
+                                <span>
+                                    Price: <field name="lst_price"/>
+                                </span>
+                            </main>
+                            <aside class="col-2">
+                                <field name="image_128" widget="image" options="{'img_class': 'o_image_64_contain mw-100'}" alt="Product"/>
+                            </aside>
+                        </t>
+                    </templates>
+                </kanban>

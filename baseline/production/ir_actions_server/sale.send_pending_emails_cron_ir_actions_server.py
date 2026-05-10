@@ -1,0 +1,1 @@
+model._cron_send_pending_emails()

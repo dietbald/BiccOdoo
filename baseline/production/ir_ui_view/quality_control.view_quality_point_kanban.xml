@@ -1,0 +1,18 @@
+<kanban class="o_kanban_mobile">
+                <templates>
+                    <t t-name="card">
+                        <div class="d-flex">
+                            <field name="name" class="fw-bolder me-2 flex-shrink-0"/>
+                            <span t-if="record.title.value">-</span>
+                            <field name="title" class="text-truncate ms-2"/>
+                        </div>
+                        <div>Type: <field name="test_type_id"/></div>
+                        <div>Control per: <field name="measure_on"/></div>
+                        <div>Team: <field name="team_id"/></div>
+                        <footer>
+                            <field name="company_id" invisible="1"/> <!-- required for the domain of `check_company' in `user-id' -->
+                            <field class="ms-auto" name="user_id" widget="many2one_avatar_user"/>
+                        </footer>
+                    </t>
+                </templates>
+            </kanban>

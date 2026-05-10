@@ -1,0 +1,15 @@
+<xpath expr="//button[@name='action_view_related_putaway_rules']" position="after">
+                <button name="action_see_quality_control_points" type="object" class="oe_stat_button" icon="fa-list" invisible="type != 'consu'" groups="quality.group_quality_user">
+                    <field string="Quality Points" name="quality_control_point_qty" widget="statinfo"/>
+                </button>
+                <button name="action_see_quality_checks" type="object" class="oe_stat_button" icon="fa-check" invisible="(type != 'consu' or quality_pass_qty == 0) and quality_fail_qty == 0" groups="quality.group_quality_user">
+                    <div class="o_field_widget o_stat_info mr4">
+                        <span class="o_stat_text">Pass:</span>
+                        <span class="o_stat_text">Fail:</span>
+                    </div>
+                    <div class="o_field_widget o_stat_info">
+                        <span class="o_stat_value"><field name="quality_pass_qty"/></span>
+                        <span class="o_stat_value"><field name="quality_fail_qty"/></span>
+                    </div>
+                </button>
+            </xpath>

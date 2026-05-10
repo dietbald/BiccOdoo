@@ -1,0 +1,30 @@
+<form string="Shift Template Form">
+                    <sheet>
+                        <widget name="web_ribbon" title="Archived" bg_color="text-bg-danger" invisible="active"/>
+                        <group>
+                            <group>
+                                <label for="start_time" string="Start &amp; End Hours" widget="float_time"/>
+                                <div class="d-flex flex-column flex-shrink-1">
+                                    <div class="d-flex">
+                                        <field name="start_time" widget="float_time" class="oe_inline"/>
+                                        <i class="fa fa-long-arrow-right my-1 mx-1" aria-label="Arrow icon" title="Arrow"/>
+                                        <field name="end_time" widget="float_time" class="flex-shrink-1 oe_inline"/>
+                                    </div>
+                                </div>
+                               <label for="duration_days" string="Span" widget="integer"/>
+                                <div class="d-flex flex-column flex-shrink-1">
+                                    <div class="d-flex">
+                                        <field name="duration_days" widget="integer" class="oe_inline" required="1"/>
+                                        <p class="ms-2 flex-shrink-1">
+                                            Working Days
+                                        </p>
+                                    </div>
+                                </div>
+                            </group>
+                            <group>
+                                <field name="active" invisible="1"/>
+                                <field name="role_id"/>
+                            </group>
+                        </group>
+                    </sheet>
+                </form>

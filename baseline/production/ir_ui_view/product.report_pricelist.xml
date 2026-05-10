@@ -1,0 +1,16 @@
+<t t-name="product.report_pricelist">
+        <t t-call="web.html_container">
+            <div class="page">
+                <t t-if="is_html_type">
+                    <t t-call="product.report_pricelist_page"/>
+                </t>
+                <t t-else="">
+                    <t t-call="web.external_layout">
+                        <t t-call="product.report_pricelist_page"/>
+                    </t>
+                </t>
+            </div>
+            <p style="page-break-before:always;"> </p>
+            <div class="oe_structure"/>
+        </t>
+    </t>

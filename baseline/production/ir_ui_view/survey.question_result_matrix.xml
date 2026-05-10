@@ -1,0 +1,38 @@
+<t name="Question: matrix result (matrix)" t-name="survey.question_result_matrix">
+        <t t-set="graph_data" t-value="question_data['graph_data']"/>
+        <t t-set="table_data" t-value="question_data['table_data']"/>
+        <div class="tab-content">
+            <div t-if="question_answered" role="tabpanel" class="tab-pane active with-3d-shadow with-transitions survey_graph" t-att-id="'survey_graph_question_%d' % question.id" t-att-data-question-id="question.id" data-graph-type="multi_bar" t-att-data-graph-data="graph_data">
+                <!-- canvas element for drawing Multibar chart -->
+                <canvas class="mx-auto w-100 h-auto"/>
+            </div>
+            <div role="tabpanel" t-attf-class="tab-pane #{'active' if not question_answered else ''} table-responsive" t-att-id="'survey_data_question_%d' % question.id">
+                <table class="table table-hover table-sm text-end">
+                    <thead t-if="table_data">
+                        <tr>
+                            <th/>
+                            <th class="text-end" t-foreach="table_data[0]['columns']" t-as="column_data">
+                                <span t-esc="column_data['suggested_answer'].value"/>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr t-foreach="table_data" t-as="choice_data">
+                            <td>
+                                <span t-esc="choice_data['row'].value"/>
+                            </td>
+                            <td class="o_survey_answer" t-foreach="choice_data['columns']" t-as="column_data">
+                                <div class="d-flex align-items-center gap-1 justify-content-end">
+                                    <span t-esc="round(column_data['count'] * 100.0/ (len(question_data['answer_input_done_ids']) or 1), 2)"/> %
+                                    <span class="badge text-bg-primary" t-esc="column_data['count']"/>
+                                    <i t-if="column_data['count']" class="fa fa-filter text-primary filter-add-answer d-print-none" data-model-short-key="A" t-att-data-row-id="choice_data['row'].id" t-att-data-record-id="column_data['suggested_answer'].id" role="img" aria-label="Filter surveys" title="Only show survey results having selected this answer"/>
+                                    <i t-else="" class="o_survey_answer_matrix_whitespace d-print-none"/>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        <div t-if="comment_lines"><t t-call="survey.question_result_comments"/></div>
+        </div>
+    </t>

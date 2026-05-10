@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:48Z",
+  "id": 9255,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "Payment methods available for expenses paid by company",
+    "relation": "account.payment.method.line",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "287a64b1374026101a1b2374fc52037dd92910f1009e0c4ba730d56d4af7e02c",
+  "write_date": "",
+  "xml_id": "hr_expense.field_res_config_settings__company_expense_allowed_payment_method_line_ids"
+}

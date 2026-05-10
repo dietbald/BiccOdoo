@@ -1,0 +1,6 @@
+<list string="Survey Label" create="false" default_order="question_id">
+                <field name="sequence" widget="handle"/>
+                <field name="question_id"/>
+                <field name="value" string="Answer"/>
+                <field name="answer_score" groups="base.group_no_one"/>
+            </list>

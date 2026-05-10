@@ -1,0 +1,13 @@
+<t t-name="planning.slot_unassign">
+        <t t-call="web.frontend_layout">
+            <t t-set="title">Your Planning</t>
+            <body>
+                <div class="container">
+                    <div class="alert alert-success text-center" role="alert">
+                        <p class="d-inline">You have been successfully unassigned from this shift</p>
+                        <i class="fa fa-2x fa-check-circle float-end" style="margin-top:-3px"/>
+                    </div>
+                </div>
+            </body>
+        </t>
+    </t>

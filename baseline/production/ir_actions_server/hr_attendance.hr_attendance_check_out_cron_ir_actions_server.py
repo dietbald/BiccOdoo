@@ -1,0 +1,1 @@
+model._cron_auto_check_out()

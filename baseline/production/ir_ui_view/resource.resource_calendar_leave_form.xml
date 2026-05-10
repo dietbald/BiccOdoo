@@ -1,0 +1,17 @@
+<form string="Time Off Detail">
+            <field name="company_id" invisible="1"/>
+            <sheet>
+                <group>
+                    <group name="leave_details">
+                        <field name="name" string="Reason"/>
+                        <field name="calendar_id"/>
+                        <field name="company_id" options="{'no_create': True}" groups="base.group_multi_company" invisible="not calendar_id"/>
+                        <field name="resource_id"/>
+                    </group>
+                    <group name="leave_dates">
+                       <field name="date_from"/>
+                       <field name="date_to"/>
+                    </group>
+                </group>
+            </sheet>
+            </form>

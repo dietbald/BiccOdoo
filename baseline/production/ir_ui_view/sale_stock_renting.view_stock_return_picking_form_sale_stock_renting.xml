@@ -1,0 +1,3 @@
+<xpath expr="//button[@name='action_create_exchanges']" position="attributes">
+                <attribute name="invisible" separator="or" add="context.get('in_rental_app')"/>
+            </xpath>

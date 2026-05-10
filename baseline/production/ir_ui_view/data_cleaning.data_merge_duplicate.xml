@@ -1,0 +1,4 @@
+<t t-name="data_cleaning.data_merge_duplicate">
+I've identified <t t-esc="num_records"/> duplicate records with the '<t t-esc="res_model_label"/>' deduplication rule.<br/>
+You can merge them <a t-attf-href="/odoo/{{model_id}}/action-data_cleaning.action_data_merge_record_notification?menu_id={{menu_id}}">here</a>.
+    </t>

@@ -1,0 +1,12 @@
+<data><xpath expr="//group[@name='costing']" position="after">
+                <group string="Operations" name="workorder_employee">
+                    <field name="employee_ids" widget="many2many_tags" string="Allowed Employees" domain="[('company_id', '=', company_id)]"/>
+                </group>
+            </xpath>
+            <xpath expr="//div[@id='costs_hour']" position="after">
+                <label for="employee_costs_hour" string=""/>
+                <div>
+                    <field name="employee_costs_hour" class="oe_inline"/> per employee
+                </div>
+            </xpath>
+        </data>

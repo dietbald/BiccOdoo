@@ -1,0 +1,72 @@
+<t name="Payment Method Form" t-name="payment.method_form">
+        <!-- Parameters description:
+            - pm_sudo: The payment method to display, as a sudoed `payment.method` recordset.
+            - is_selected: Whether the radio button of the payment method should be checked.
+        -->
+        <t t-set="provider_sudo" t-value="pm_sudo.provider_ids.filtered(lambda p: p in providers_sudo)[:1]"/>
+        <t t-set="is_test" t-value="provider_sudo.state == 'test'"/>
+        <t t-set="is_unpublished" t-value="not provider_sudo.is_published"/>
+        <t t-set="pms_to_display_sudo" t-value="pm_sudo.brand_ids or pm_sudo"/>
+        <t t-set="inline_form_xml_id" t-value="provider_sudo.inline_form_view_id.xml_id"/>
+        <div class="d-flex flex-wrap justify-content-between align-items-center gap-2 mb-0 p-0" for="o_payment_radio">
+            <div class="form-check d-flex flex-grow-1 flex-wrap mb-0">
+                <div class="d-flex justify-content-between align-items-center gap-2 flex-wrap w-100">
+                    <!-- === Radio button === -->
+                    <input t-attf-id="o_payment_method_{{pm_sudo.id}}" name="o_payment_radio" type="radio" t-att-checked="is_selected" class="form-check-input position-absolute mt-0" data-payment-option-type="payment_method" t-att-data-payment-option-id="pm_sudo.id" t-att-data-payment-method-code="pm_sudo.code" t-att-data-provider-id="provider_sudo.id" t-att-data-provider-code="provider_sudo._get_code()" t-att-data-provider-state="provider_sudo.state"/>
+                    <div class="d-flex gap-2 flex-grow-1 me-auto">
+                        <!-- === Method label === -->
+                        <label t-out="pm_sudo.name" class="o_payment_option_label mb-0 text-break" t-attf-for="o_payment_method_{{pm_sudo.id}}"/>
+                        <div class="d-flex flex-nowrap gap-2 mt-1">
+                            <!-- === "Unpublished" icon === -->
+                            <t t-if="is_unpublished" t-call="payment.form_icon">
+                                <t t-set="icon_name" t-value="'eye-slash'"/>
+                                <t t-set="color_name" t-value="'danger'"/>
+                                <t t-set="title">Unpublished</t>
+                            </t>
+                            <!-- === "Test mode" icon === -->
+                            <t t-if="is_test" t-call="payment.form_icon">
+                                <t t-set="icon_name" t-value="'exclamation-triangle'"/>
+                                <t t-set="color_name" t-value="'warning'"/>
+                                <t t-set="title">Test mode</t>
+                            </t>
+                        </div>
+                    </div>
+                    <div class="gap-1 flex-wrap d-flex">
+                        <!-- === Payment method logos === -->
+                        <t t-set="pm_index" t-value="0"/>
+                        <t t-foreach="pms_to_display_sudo" t-as="pm_to_display_sudo">
+                            <t t-if="pm_index &lt; 4" t-call="payment.form_logo">
+                                <t t-set="logo_pm_sudo" t-value="pm_to_display_sudo"/>
+                            </t>
+                            <t t-set="pm_index" t-value="pm_index + 1"/>
+                        </t>
+                    </div>
+                </div>
+            </div>
+            <!-- === Help message === -->
+            <div t-if="not is_html_empty(provider_sudo.pre_msg)" class="w-100 mb-0 ms-4 small text-600">
+                <t t-out="provider_sudo.pre_msg"/>
+            </div>
+        </div>
+        <!-- === Inline form === -->
+        <div name="o_payment_inline_form" class="position-relative d-none">
+            <t t-if="inline_form_xml_id and provider_sudo._should_build_inline_form(                          is_validation=mode == 'validation'                      )" t-call="{{inline_form_xml_id}}">
+                <t t-set="provider_id" t-value="provider_sudo.id"/>
+            </t>
+            <div class="d-flex flex-column flex-sm-row align-md-items-center justify-content-between                         gap-3 mt-2">
+                <!-- === Tokenization checkbox === -->
+                <div t-if="mode == 'payment'                            and pm_sudo.support_tokenization                            and show_tokenize_input_mapping[provider_sudo.id]" name="o_payment_tokenize_container" class="o-checkbox form-check m-0">
+                    <label>
+                        <input name="o_payment_tokenize_checkbox" type="checkbox" class="form-check-input"/>
+                        <small class="text-600">Save my payment details</small>
+                    </label>
+                </div>
+                <!-- === Provider name === -->
+                <t t-set="hide_secured_by" t-value="False"/>
+                <p name="o_payment_secured_by" t-att-class="'align-self-end mb-0 mx-auto me-sm-0 small text-600'                                 + (' d-none' if hide_secured_by else '')">
+                    <span><i class="fa fa-lock"/> Secured by</span>
+                    <span t-out="dict(provider_sudo._fields['code']._description_selection(                                      provider_sudo.env                                  ))[provider_sudo.code]" class="text-break"/>
+                </p>
+            </div>
+        </div>
+    </t>

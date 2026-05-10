@@ -1,0 +1,51 @@
+<t t-name="website_slides.courses_my">
+    <div t-if="channels_my" class="container">
+        <div class="o_wslides_home_content_section mb-5">
+            <div class="d-flex justify-content-between">
+                <h2 class="h5 mb-3">My courses</h2>
+                <a t-if="channels_my[5:]" href="/slides?my=1">View all</a>
+            </div>
+            <div t-foreach="channels_my[:5]" t-as="channel">
+                <div class="row">
+                    <div class="col-5 d-flex align-items-center my-2">
+                        <a t-attf-href="/slides/#{slug(channel)}" t-out="channel.name"/>
+                        <span t-if="not channel.is_published" class="badge text-bg-danger ms-1">Unpublished</span>
+                    </div>
+                    <div class="col-5 d-flex justify-content-between align-items-center">
+                        <div t-if="channel.completed" class="badge rounded-pill text-bg-success pull-right">
+                            <i class="fa fa-check"/> Completed
+                        </div>
+                        <t t-elif="not channel.completion">
+                            <small class="text-muted d-none d-md-inline"><i class="fa fa-check me-1" role="img"/>You are enrolled</small>
+                            <div class="d-md-none">0 %</div>
+                        </t>
+                        <t t-else="">
+                            <div class="d-none d-md-block flex-grow-1">
+                                <div class="progress me-3" style="height: 6px">
+                                    <div class="progress-bar" role="progressbar" t-att-aria-valuenow="channel.completion" aria-valuemin="0" aria-valuemax="100" t-attf-style="width:#{channel.completion}%;" aria-label="Progress bar"/>
+                                </div>
+                            </div>
+                            <div class="text-start" style="width: 6ch;"><t t-out="channel.completion"/> %</div>
+                        </t>
+                        <div class="text-muted d-flex">
+                            <div t-out="'{:.1f}'.format(channel.total_time or 0).removesuffix('.0') if channel.total_time &lt; 1 else round(channel.total_time)" class="text-end pe-1" style="width: 3ch;"/>
+                            hours
+                        </div>
+                    </div>
+                    <div t-if="not channel.completed" class="col-2 d-flex flex-row-reverse align-items-center">
+                        <a t-if="not channel.completion" role="button" class="btn btn-sm btn-primary" t-attf-href="/slides/#{slug(channel)}">
+                            <span class="d-none d-md-inline me-2 me-md-0">Start now</span><i class="oi oi-arrow-right d-md-none" aria-hidden="true"/>
+                        </a>
+                        <a t-else="" role="button" class="align-items-center" t-attf-href="/slides/#{slug(channel)}">
+                            <span class="me-2 d-none d-md-inline">Continue</span><i class="oi oi-arrow-right" aria-hidden="true"/>
+                        </a>
+                    </div>
+                    <div t-else="" class="col-2">&amp;nbsp;</div>
+                </div>
+                <div t-if="not channel_last" class="row mx-1 my-1">
+                    <hr class="m-0"/>
+                </div>
+            </div>
+        </div>
+    </div>
+</t>

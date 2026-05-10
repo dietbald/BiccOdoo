@@ -1,0 +1,7 @@
+<data><filter name="user" position="after">
+                <filter string="Sales Team" name="sales_channel" context="{'group_by':'team_id'}"/>
+            </filter>
+            <field name="invoice_user_id" position="after">
+                <field name="team_id"/>
+            </field>
+        </data>

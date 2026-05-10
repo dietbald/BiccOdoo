@@ -1,0 +1,10 @@
+<form string="Expense refuse reason">
+                <field name="expense_ids" invisible="1"/>
+                <group>
+                    <field string="Reason" name="reason" class="w-100"/>
+                </group>
+                <footer>
+                    <button string="Refuse" name="action_refuse" type="object" class="oe_highlight" data-hotkey="q"/>
+                    <button string="Cancel" class="oe_link" special="cancel" data-hotkey="x"/>
+                </footer>
+           </form>

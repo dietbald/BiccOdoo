@@ -1,0 +1,4 @@
+<list default_group_by="category_id">
+                    <field name="name"/>
+                    <field name="group_ids" widget="many2many_tags" context="{'short_display_name': True}"/>
+                </list>

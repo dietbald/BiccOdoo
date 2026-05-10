@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 70,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._post_messages_cron()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "126453e8cf18503961f1bb34a0b1353eda9cee1a2609897d7146848a24f5669e",
+  "write_date": "2025-01-28 01:21:32",
+  "xml_id": "mail.ir_cron_post_scheduled_message"
+}

@@ -1,0 +1,22 @@
+<data><field name="project_id" position="attributes">
+                <attribute name="invisible" add="context.get('industry_fsm_one_project', False)" separator=" or "/>
+            </field>
+            <xpath expr="//group/field[@name='user_ids']" position="attributes">
+                <attribute name="invisible" add="context.get('industry_fsm_hide_user_ids', False)" separator=" or "/>
+            </xpath>
+            <xpath expr="//group/field[@name='tag_ids']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <label for="partner_phone" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </label>
+            <xpath expr="//div[@name='partner_phone']" position="attributes">
+                <attribute name="colspan" add="2"/>
+            </xpath>
+            <xpath expr="//field[@name='partner_phone']" position="attributes">
+                <attribute name="placeholder">Contact Number</attribute>
+            </xpath>
+            <xpath expr="//t[@name='warning_section']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </data>

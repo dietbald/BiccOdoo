@@ -1,0 +1,6 @@
+<graph string="Time off Summary" sample="1" stacked="1" js_class="hr_holidays_graph">
+                <field name="employee_id" type="row"/>
+                <field name="leave_type" type="col"/>
+                <field name="number_of_days" string="Duration (Days)" type="measure"/>
+                <field name="number_of_hours" string="Duration (Hours)"/>
+            </graph>

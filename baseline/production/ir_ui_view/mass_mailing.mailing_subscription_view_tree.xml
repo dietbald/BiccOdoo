@@ -1,0 +1,9 @@
+<list string="Mailing List Subscriptions" create="0" type="object" action="open_mailing_contact">
+                <field name="create_date" string="Subscription Date"/>
+                <field name="contact_id" string="Mailing Contact"/>
+                <field name="is_blacklisted" optional="hide"/>
+                <field name="list_id"/>
+                <field name="opt_out_datetime" readonly="1"/>
+                <field name="opt_out_reason_id"/>
+                <field name="message_bounce" optional="hide" sum="Total"/>
+            </list>

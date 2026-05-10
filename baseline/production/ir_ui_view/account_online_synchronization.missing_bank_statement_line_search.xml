@@ -1,0 +1,5 @@
+<search>
+                    <field name="state"/>
+                    <separator/>
+                    <filter name="filter_posted" string="Posted Transactions" domain="[('state', '=', 'posted')]"/>
+                </search>

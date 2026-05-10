@@ -1,0 +1,12 @@
+<block id="user_default_rights" position="after">
+                <div id="mobile_settings" groups="base.group_no_one">
+                    <block title="Mobile">
+                        <setting help="Receive notifications on Android and iOS application">
+                                <field name="enable_ocn"/>
+                        </setting>
+                        <setting help="If disabled, you won't be able to open external URL's in the Android/iOS mobile app (e.g. &quot;View Task&quot; button in email).">
+                                <field name="disable_redirect_firebase_dynamic_link"/>
+                        </setting>
+                    </block>
+                </div>
+            </block>

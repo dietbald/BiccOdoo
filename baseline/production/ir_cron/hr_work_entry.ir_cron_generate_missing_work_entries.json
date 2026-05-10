@@ -1,0 +1,14 @@
+{
+  "exported_at": "2026-05-10T05:51:45Z",
+  "id": 45,
+  "model": "ir.cron",
+  "payload": {
+    "active": true,
+    "code": "model._cron_generate_missing_work_entries()",
+    "interval_number": 1,
+    "interval_type": "days"
+  },
+  "payload_sha256": "601ccb20f3ce9b191eec9db8dfada6388cd76bebf5c2bce8fad9e15e9fb2c3bc",
+  "write_date": "2024-06-24 14:17:28",
+  "xml_id": "hr_work_entry.ir_cron_generate_missing_work_entries"
+}

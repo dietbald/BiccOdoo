@@ -1,0 +1,7 @@
+<list string="Onboarding Steps">
+                <field name="sequence" widget="handle"/>
+                <field name="title"/>
+                <field name="onboarding_ids" optional="hide"/>
+                <field name="current_step_state"/>
+                <field name="is_per_company" optional="hide"/>
+            </list>

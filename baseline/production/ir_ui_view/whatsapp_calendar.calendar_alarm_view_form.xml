@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='mail_template_id']" position="after">
+                <field name="wa_template_id" placeholder="Choose a template..." invisible="alarm_type != 'whatsapp'" required="alarm_type == 'whatsapp'" options="{'no_create': True}"/>
+            </xpath>

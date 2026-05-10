@@ -1,0 +1,5 @@
+<data inherit_id="portal.portal_layout" primary="True">
+        <xpath expr="//t[@t-call='portal.frontend_layout']" position="attributes">
+            <attribute name="t-call">project.task_link_preview_front_end</attribute>
+        </xpath>
+    <xpath expr="." position="attributes"><attribute name="t-name">project.task_link_preview_portal_layout</attribute></xpath></data>

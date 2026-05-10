@@ -1,0 +1,5 @@
+<div name="button_box" position="inside">
+                    <button class="oe_stat_button" type="object" name="get_granted_employees" invisible="granted_count == 0" icon="fa-user">
+                        <field name="granted_employees_count" string="Granted" widget="statinfo"/>
+                    </button>
+                </div>

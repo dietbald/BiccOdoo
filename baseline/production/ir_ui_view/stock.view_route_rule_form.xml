@@ -1,0 +1,8 @@
+<data><xpath expr="//field[@name='route_id']" position="replace"/>
+                <xpath expr="//group[@name='apply_on']" position="attributes">
+                    <attribute name="groups">base.group_multi_company,base.group_no_one</attribute>
+                </xpath>
+                <xpath expr="//form" position="inside">
+                    <field name="route_company_id" invisible="1"/>
+                </xpath>
+            </data>

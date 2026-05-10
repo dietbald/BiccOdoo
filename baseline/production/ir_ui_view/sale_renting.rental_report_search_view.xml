@@ -1,0 +1,22 @@
+<search string="Rental Analysis">
+                <field name="date"/>
+                <filter string="Date" name="year" invisible="1" date="date" default_period="year"/>
+                <filter name="Quotations" string="Quotations" domain="[('state','in', ['draft', 'sent'])]"/>
+                <filter name="confirmed_orders" string="Confirmed Orders" domain="[('state', '=', 'sale')]"/>
+                <separator/>
+                <filter name="filter_date" date="date" default_period="year"/>
+                <field name="product_id"/>
+                <field name="product_tmpl_id" groups="product.group_product_variant"/>
+                <field name="categ_id" filter_domain="[('categ_id', 'child_of', self)]"/>
+                <field name="partner_id"/>
+                <field name="user_id"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+                <group name="report_group_by">
+                    <filter string="Salesperson" name="User" context="{'group_by':'user_id'}"/>
+                    <filter string="Customer" name="Customer" context="{'group_by':'partner_id'}"/>
+                    <filter string="Product" name="Product" context="{'group_by':'product_id'}"/>
+                    <filter string="Product Category" name="Category" context="{'group_by':'categ_id'}"/>
+                    <filter string="State" name="status" context="{'group_by':'state'}"/>
+                    <filter string="Company" name="company" groups="base.group_multi_company" context="{'group_by':'company_id'}"/>
+                </group>
+            </search>

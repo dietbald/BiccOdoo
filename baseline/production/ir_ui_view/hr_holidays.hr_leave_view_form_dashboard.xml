@@ -1,0 +1,14 @@
+<data><field name="holiday_status_id" position="before">
+                <field name="employee_id" widget="many2one_avatar_employee" readonly="1"/>
+            </field>
+            <xpath expr="//header" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//div[hasclass('col_right')]" position="replace"/>
+            <xpath expr="//chatter" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//div[hasclass('o_attachment_preview')]" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+        </data>

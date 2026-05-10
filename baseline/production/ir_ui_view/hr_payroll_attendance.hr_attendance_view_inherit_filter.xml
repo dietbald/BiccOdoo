@@ -1,0 +1,3 @@
+<xpath expr="//field[@name='employee_id']" position="after">
+                <field name="employee_id" string="Employee Reference" filter_domain="[('employee_id.registration_number','ilike', self)]"/>
+            </xpath>

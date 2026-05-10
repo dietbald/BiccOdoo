@@ -1,0 +1,16 @@
+<data><xpath expr="//kanban" position="attributes">
+                <attribute name="default_order">is_published desc, is_favorite desc, create_date DESC</attribute>
+            </xpath>
+            <xpath expr="//t[@t-name='card']/div" position="before">
+                <field name="website_published" invisible="1"/>
+                <widget name="web_ribbon" title="Published" bg_color="text-bg-success" invisible="not website_published"/>
+            </xpath>
+            <xpath expr="//button[@name='585']" position="replace">
+                <a type="object" name="open_website_url" class="btn btn-primary" role="button">
+                    Job Page
+                </a>
+            </xpath>
+            <xpath expr="//div[@name='large_screen_job_page_div']" position="attributes">
+                <attribute name="invisible">0</attribute>
+            </xpath>
+        </data>

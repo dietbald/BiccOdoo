@@ -1,0 +1,1 @@
+model._cron_generate_embedding()

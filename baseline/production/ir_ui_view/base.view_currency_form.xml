@@ -1,0 +1,41 @@
+<form string="Currency">
+                    <div class="alert alert-info text-center" role="alert" invisible="not is_current_company_currency">
+                        This is your company's currency.
+                    </div>
+                    <sheet>
+                        <group>
+                            <group>
+                                <field name="name"/>
+                                <field name="full_name" string="Name"/>
+                                <field name="active" widget="boolean_toggle"/>
+                            </group>
+                            <group>
+                                <field name="symbol"/>
+                                <field name="currency_unit_label"/>
+                                <field name="currency_subunit_label"/>
+                                <field name="position"/>
+                            </group>
+                        </group>
+
+                        <group groups="base.group_no_one">
+                            <group string="Price Accuracy">
+                                <field name="rounding"/>
+                                <field name="decimal_places"/>
+                            </group>
+                        </group>
+                        <notebook class="o_currency_rate_list" invisible="is_current_company_currency">
+                            <page string="Rates" name="rates">
+                                <field name="rate_ids" widget="one2many">
+                                    <list string="Rates" editable="top" limit="25">
+                                        <field name="name"/>
+                                        <field name="company_id" groups="base.group_multi_company" placeholder="Visible to all"/>
+                                        <field name="company_rate" digits="[12,12]"/>
+                                        <field name="inverse_company_rate" digits="[12,12]"/>
+                                        <field name="rate" digits="[12,12]" optional="hide"/>
+                                        <field name="write_date" optional="hide"/>
+                                    </list>
+                                </field>
+                            </page>
+                        </notebook>
+                    </sheet>
+                </form>

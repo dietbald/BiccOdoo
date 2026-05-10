@@ -1,0 +1,26 @@
+<t name="Appointments Cards" t-name="website_appointment.appointments_cards">
+        <div t-if="not appointment_types" class="col-12 o_appointment_not_found">
+            <div class="alert alert-info text-center d-none mt-4" groups="appointment.group_appointment_manager">
+                <p class="m-0">Use the top button '<b>+ New</b>' to create an appointment type.</p>
+            </div>
+            <div class="o_appointment_svg mx-auto text-center py-3 w-75">
+                <i class="mx-auto h3 fa fa-circle-o-notch fa-spin"/>
+            </div>
+            <div class="mt-4 text-center d-none">
+                <t t-if="current_search">
+                    <h4>No result for "<t t-out="current_search"/>"</h4>
+                    <a href="/appointment">See all appointments <i class="fa fa-long-arrow-right"/></a>
+                </t>
+                <h4 t-else="">There is currently no appointment available</h4>
+            </div>
+        </div>
+        <div t-foreach="appointment_types" t-as="appointment" class="col-md-6 col-lg-4 col-xl-3">
+            <div class="o_wappointment_card card h-100" itemscope="itemscope" itemtype="http://schema.org/Appointments">
+                <t t-call="website_appointment.appointment_card_top"/>
+                <t t-call="website_appointment.appointment_card_body"/>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center my-3">
+            <t t-call="website.pager"/>
+        </div>
+    </t>

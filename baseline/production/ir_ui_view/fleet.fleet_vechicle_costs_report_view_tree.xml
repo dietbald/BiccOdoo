@@ -1,0 +1,9 @@
+<list string="Fleet Costs Analysis" create="0">
+                <field name="name"/>
+                <field name="driver_id" optional="show"/>
+                <field name="fuel_type" optional="hide"/>
+                <field name="date_start" optional="show"/>
+                <field name="cost" optional="show" sum="Sum of Cost"/>
+                <field name="cost_type" optional="show"/>
+                <field name="company_id" groups="base.group_multi_company"/>
+            </list>

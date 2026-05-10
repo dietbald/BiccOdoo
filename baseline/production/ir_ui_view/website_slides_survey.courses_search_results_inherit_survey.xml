@@ -1,0 +1,13 @@
+<data inherit_id="website_slides.courses_search_results">
+            <xpath expr="//t[@t-call='website_slides.courses_search_tags']" position="before">
+                <t t-if="search_slide_category == 'certification'">
+                    <span class="align-items-baseline border d-inline-flex ps-2 rounded mb-2">
+                        <span class="align-items-center me-1">
+                            <t t-call="website_slides_survey.o_wss_certification_icon"/>
+                        </span>
+                        Certification
+                        <a t-att-href="slide_query_url(tag=slugify_tags(search_tags.ids), my=search_my, search=search_term)" class="btn border-0 py-1 post_link">×</a>
+                    </span>
+                </t>
+            </xpath>
+        </data>

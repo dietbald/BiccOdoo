@@ -1,0 +1,17 @@
+<search string="Search Payslip Lines">
+                <field name="name" string="Payslip Lines" filter_domain="['|',('name','ilike',self),('code','ilike',self)]"/>
+                <field name="partner_id"/>
+                <field name="amount_select"/>
+                <field name="slip_id"/>
+                <field name="date_from"/>
+                <filter string="Is Register" name="has_partner" domain="[('partner_id', '!=', False)]"/>
+                <separator/>
+                <filter string="Last Month" name="last_month" domain="[('date_from', '&gt;=', 'today -1m')]"/>
+                <filter string="Last Quarter" name="last_quarter" domain="[('date_from', '&gt;=', 'today -3m')]"/>
+                <group col="8" colspan="4">
+                    <filter string="Salary Rule Category" name="category_id" context="{'group_by':'category_id'}"/>
+                    <filter string="Contribution Register" name="group_by_partner_id" context="{'group_by':'partner_id'}"/>
+                    <filter string="Employees" name="employee_id" context="{'group_by':'employee_id'}"/>
+                    <filter string="Date" name="group_by_date_from" context="{'group_by': 'date_from'}"/>
+                </group>
+            </search>

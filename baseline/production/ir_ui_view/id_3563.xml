@@ -1,0 +1,275 @@
+<t t-name="website_hr_recruitment.apply">
+    <t t-call="website.layout">
+        <t t-set="additional_title">Apply Job</t>
+
+        <div id="wrap" class="container">
+            <nav aria-label="breadcrumb" class="mt-5">
+                <ol class="breadcrumb ps-0 mb-0 pb-1">
+                    <li class="breadcrumb-item"><a href="/jobs" class="text-secondary fw-bold">Jobs</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">
+                        <a t-attf-href="/jobs/detail/#{slug(job)}">
+                            <span t-field="job.name"/>
+                        </a>
+                    </li>
+                </ol>
+            </nav>
+            <h1 class="mb-4">
+                Job Application Form
+            </h1>
+            <span class="hidden" data-for="hr_recruitment_form" t-att-data-values="{'department_id': job and job.department_id.id or '', 'job_id': job and job.id or ''}"/>
+            <div id="jobs_section" class="container">
+                <div class="row">
+                    <section id="forms" class="col-12 col-md-9 s_website_form o_colored_level" data-vcss="001" data-snippet="s_website_form" style="background-image: none;">
+     <div class="container">
+                            <form id="hr_recruitment_form" action="/website/form/" method="post" enctype="multipart/form-data" class="o_mark_required row" data-mark="*" data-model_name="hr.applicant" data-success-mode="redirect" data-success-page="/job-thank-you" hide-change-model="true">
+                                <div class="s_website_form_rows row s_col_no_bgcolor">
+                                    <div class="col-12 mb-0 py-2 s_website_form_field s_website_form_required s_website_form_model_required" data-type="char" data-name="Field">
+                                        <div class="row s_col_no_resize s_col_no_bgcolor">
+                                            <label class="col-4 col-sm-auto s_website_form_label" style="width: 200px" for="recruitment1">
+                                                <span class="s_website_form_label_content">Your Name</span>
+                                                <span class="s_website_form_mark"> *</span>
+                                            </label>
+                                            <div class="col-sm">
+                                                <input id="recruitment1" type="text" class="form-control s_website_form_input" name="partner_name" required="" data-fill-with="name"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-0 py-2 s_website_form_field s_website_form_required" data-type="email" data-name="Field">
+                                        <div class="row s_col_no_resize s_col_no_bgcolor">
+                                            <label class="col-4 col-sm-auto s_website_form_label" style="width: 200px" for="recruitment2">
+                                                <span class="s_website_form_label_content">Your Email</span>
+                                                <span class="s_website_form_mark"> *</span>
+                                            </label>
+                                            <div class="col-sm">
+                                                <input id="recruitment2" type="email" class="form-control s_website_form_input" name="email_from" required="" data-fill-with="email"/>
+                                                <div class="alert alert-warning mt-2" id="email-message" style="display:none;"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-0 py-2 s_website_form_field s_website_form_required" data-type="char" data-name="Field">
+                                        <div class="row s_col_no_resize s_col_no_bgcolor">
+                                            <label class="col-4 col-sm-auto s_website_form_label" style="width: 200px" for="recruitment3">
+                                                <span class="s_website_form_label_content">Your Phone Number</span>
+                                                <span class="s_website_form_mark"> *</span>
+                                            </label>
+                                            <div class="col-sm">
+                                                <input id="recruitment3" type="tel" class="form-control s_website_form_input" name="partner_mobile" required="" data-fill-with="phone"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div t-if="job.x_studio_with_driver_requirements">
+                                  <div class="s_website_form_field mb-3 col-12" data-type="char" data-name="Field">
+                                        <div class="row s_col_no_resize s_col_no_bgcolor">
+                                            <label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px" for="ornq3o1cpwfe">
+                                                <span class="s_website_form_label_content">
+                                                    Date of Birth</span>
+                                            </label>
+                                            <div class="col-sm">
+                                                <div class="s_website_form_date input-group date">
+                                                    <input type="text" class="form-control datetimepicker-input s_website_form_input" name="x_studio_date_of_birth" placeholder="" id="ornq3o1cpwfe"/>
+                                                    <div class="input-group-text pe-none">
+                                                        <i class="fa fa-calendar"/>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                   <div data-name="Field" class="s_website_form_field mb-3 col-12" data-type="integer">
+                                        <div class="row s_col_no_resize s_col_no_bgcolor">
+                                            <label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px" for="oiqs7rx4rax">
+                                                <span class="s_website_form_label_content">Years of experience driving</span>
+                                            </label>
+                                            <div class="col-sm">
+                                                <input type="number" class="form-control s_website_form_input" step="1" name="x_studio_years_of_experience_driving" placeholder="" id="oiqs7rx4rax" data-fill-with="undefined"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                               <div data-name="Field" class="s_website_form_field mb-3 col-12" data-type="selection">
+                                                    <div class="row s_col_no_resize s_col_no_bgcolor">
+                                                        <label class="col-sm-auto s_website_form_label" style="width: 200px" for="o8ra70vig9cb">
+                                                            <span class="s_website_form_label_content">Apply for</span>
+                                                        </label>
+                                                        <div class="col-sm">
+                                                            <div class="row s_col_no_resize s_col_no_bgcolor s_website_form_multiple" data-name="x_studio_apply_for" data-display="horizontal">
+                                                                <div class="radio col-12 col-lg-4 col-md-6">
+                                                                    <div class="form-check">
+                                                                        <input type="radio" class="s_website_form_input form-check-input" id="o8ra70vig9cb0" name="x_studio_apply_for" value="Stay out" data-fill-with="undefined"/>
+                                                                        <label class="form-check-label s_website_form_check_label" for="o8ra70vig9cb0">Stay out</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="radio col-12 col-lg-4 col-md-6">
+                                                                    <div class="form-check">
+                                                                        <input type="radio" class="s_website_form_input form-check-input" id="o8ra70vig9cb1" name="x_studio_apply_for" value="Stay In"/>
+                                                                        <label class="form-check-label s_website_form_check_label" for="o8ra70vig9cb1">Stay In</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="radio col-12 col-lg-4 col-md-6">
+                                                                    <div class="form-check">
+                                                                        <input type="radio" class="s_website_form_input form-check-input" id="o8ra70vig9cb2" name="x_studio_apply_for" value="On-Call"/>
+                                                                        <label class="form-check-label s_website_form_check_label" for="o8ra70vig9cb2">On-Call</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                    
+                                  
+                                  
+                                   <div data-name="Field" class="s_website_form_field mb-3 col-12" data-type="char">
+                <div class="row s_col_no_resize s_col_no_bgcolor">
+                    <label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px" for="onbbd9dw7pqc">
+                        <span class="s_website_form_label_content">Complete Address</span>
+                    </label>
+                    <div class="col-sm">
+                        <input class="form-control s_website_form_input" type="text" name="x_studio_complete_address" placeholder="" id="onbbd9dw7pqc" data-fill-with="undefined"/>
+                    </div>
+                </div>
+            </div>
+                                  
+                                  
+                                    <div data-name="Field" class="s_website_form_field mb-3 col-12" data-type="many2many">
+                <div class="row s_col_no_resize s_col_no_bgcolor">
+                    <label class="col-form-label col-sm-auto s_website_form_label" style="width: 200px" for="ooa9pnd6isvs">
+                        <span class="s_website_form_label_content">License Code</span>
+                    </label>
+                    <div class="col-sm">
+                        <div class="row s_col_no_resize s_col_no_bgcolor s_website_form_multiple" data-name="x_studio_license_code" data-display="horizontal">
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs0" name="x_studio_license_code" value="1" data-fill-with="undefined"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs0">A</label>
+                                </div>
+                            </div>
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs1" name="x_studio_license_code" value="2"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs1">A1</label>
+                                </div>
+                            </div>
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs2" name="x_studio_license_code" value="3"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs2">B</label>
+                                </div>
+                            </div>
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs3" name="x_studio_license_code" value="4"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs3">B1</label>
+                                </div>
+                            </div>
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs4" name="x_studio_license_code" value="5"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs4">B2</label>
+                                </div>
+                            </div>
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs5" name="x_studio_license_code" value="6"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs5">C</label>
+                                </div>
+                            </div>
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs6" name="x_studio_license_code" value="7"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs6">D</label>
+                                </div>
+                            </div>
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs7" name="x_studio_license_code" value="8"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs7">BE</label>
+                                </div>
+                            </div>
+                            <div class="checkbox col-12 col-lg-4 col-md-6">
+                                <div class="form-check">
+                                    <input type="checkbox" class="s_website_form_input form-check-input" id="ooa9pnd6isvs8" name="x_studio_license_code" value="9"/>
+                                    <label class="form-check-label s_website_form_check_label" for="ooa9pnd6isvs8">CE</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                   </div>
+                                  
+                                   
+                                    <div class="s_website_form_field mb-3 col-12 s_website_form_custom" data-type="binary" data-name="Field"><div class="row s_col_no_resize s_col_no_bgcolor"><label class="col-sm-auto s_website_form_label" style="width: 200px" for="ol63m51liulb"><span class="s_website_form_label_content">Resume</span></label><div class="col-sm"><input type="file" class="form-control s_website_form_input" name="Resume" id="ol63m51liulb" data-max-files-number="1" data-max-file-size="1" data-fill-with="undefined"/></div></div></div>
+                                    <div class="col-12 mb-0 py-2 s_website_form_field" data-type="text" data-name="Field">
+                                        <div class="row s_col_no_resize s_col_no_bgcolor">
+                                            <label class="col-4 col-sm-auto s_website_form_label" style="width: 200px" for="recruitment5">
+                                                <span class="s_website_form_label_content">Short Introduction</span>
+                                            </label>
+                                            <div class="col-sm">
+                                                <textarea id="recruitment5" class="form-control s_website_form_input" placeholder="Optional introduction, or any question you might have about the job…" name="description" rows="5"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-0 py-2 s_website_form_field s_website_form_dnone">
+                                        <div class="row s_col_no_resize s_col_no_bgcolor">
+                                            <label class="col-4 col-sm-auto s_website_form_label" style="width: 200px" for="recruitment7">
+                                                <span class="s_website_form_label_content">Job</span>
+                                            </label>
+                                            <div class="col-sm">
+                                                <input id="recruitment7" type="hidden" class="form-control s_website_form_input" name="job_id"/>
+                                            </div>
+                                            <div class="col-sm">
+                                                <input id="csrf_token" type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-0 py-2 s_website_form_field s_website_form_dnone">
+                                        <div class="row s_col_no_resize s_col_no_bgcolor">
+                                            <label class="col-4 col-sm-auto s_website_form_label" style="width: 200px" for="recruitment8">
+                                                <span class="s_website_form_label_content">Department</span>
+                                            </label>
+                                            <div class="col-sm">
+                                                <input id="recruitment8" type="hidden" class="form-control s_website_form_input" name="department_id"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 s_website_form_submit mb64" data-name="Submit Button">
+                                        <div style="width: 200px" class="s_website_form_label"/>
+                                        <section class="s_website_form pt16 pb16" data-vcss="001" data-snippet="s_website_form" data-name="Form">
+        
+    </section><a href="#" role="button" class="btn btn-primary btn-lg s_website_form_send" id="apply-btn">Submit</a>
+                                        <span id="s_website_form_result"/>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+                    <section class="col-12 col-md-3 ps-5">
+                        <a role="button" t-attf-href="/jobs/#{slug(job)}" class="btn btn-outline-primary btn-lg mb16 o_apply_description_link">
+                            <i class="oi oi-arrow-left"/> Job Description
+                        </a>
+                        <div t-if="job.name" class="d-flex flex-column align-items-baseline">
+                            <span class="text-muted small">Job</span>
+                            <h6 t-field="job.name"/>
+                        </div>
+                        <div t-if="job.address_id" class="d-flex flex-column align-items-baseline">
+                            <span class="text-muted small">Location</span>
+                            <h6 t-field="job.address_id" t-options="{                                 &quot;fields&quot;: [&quot;city&quot;],                                 &quot;no_tag_br&quot;: True                             }"/>
+                        </div>
+                        <div t-if="job.department_id" class="d-flex flex-column align-items-baseline">
+                            <span class="text-muted small">Department</span>
+                            <h6 t-field="job.department_id"/>
+                        </div>
+                        <div t-if="job.contract_type_id" class="d-flex flex-column align-items-baseline">
+                            <span class="text-muted small">Employment Type</span>
+                            <h6 t-field="job.contract_type_id"/>
+                        </div>
+                        <hr t-if="job.job_details" class="w-50 my-3"/>
+                        <div t-field="job.job_details"/>
+                    </section>
+                </div>
+            </div>
+            <div class="oe_structure mt-2"/>
+        </div>
+    </t>
+</t>

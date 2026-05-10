@@ -1,0 +1,8 @@
+<data inherit_id="website.new_page_template_s_cover" primary="True">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pt40 pb40" remove="pt232 pb232" separator=" "/>
+    </xpath>
+    <xpath expr="//h1" position="replace">
+        <h1 style="text-align: center;">About Us</h1>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.new_page_template_about_s_cover</attribute></xpath></data>

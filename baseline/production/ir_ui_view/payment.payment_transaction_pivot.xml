@@ -1,0 +1,5 @@
+<pivot string="Payment Transactions" display_quantity="1">
+                <field name="create_date" interval="month" type="row"/>
+                <field name="state" type="col"/>
+                <field name="amount" type="measure"/>
+            </pivot>

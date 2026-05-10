@@ -1,0 +1,8 @@
+<data inherit_id="website.new_page_template_landing_s_cover" primary="True">
+    <xpath expr="//section" position="attributes">
+        <attribute name="class" add="pt256 pb256" remove="pt232 pb232" separator=" "/>
+    </xpath>
+    <xpath expr="//h1" position="replace">
+        <h1 style="text-align: center;">Coming Soon</h1>
+    </xpath>
+<xpath expr="." position="attributes"><attribute name="t-name">website.new_page_template_landing_0_s_cover</attribute></xpath></data>

@@ -1,0 +1,34 @@
+<kanban class="o_kanban_mobile" sample="1">
+                <templates>
+                    <t t-name="card">
+                        <div class="oe_kanban_global_click">
+                            <div class="oe_kanban_content p-2">
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="fw-bold me-1">Type:</span>
+                                    <span class="fw-bold">
+                                        <field name="server_type"/>
+                                    </span>
+                                </div>
+                                <div class="d-flex align-items-center mb-2">
+                                    <span class="fw-bold me-1">URI:</span>
+                                    <span class="text-primary fw-bold">
+                                        <field name="uri"/>
+                                    </span>
+                                </div>
+                                <t t-if="record.username.raw_value">
+                                    <div class="d-flex align-items-center mb-2">
+                                        <span class="fw-bold me-1">Username:</span>
+                                        <field name="username"/>
+                                    </div>
+                                </t>
+                                <t t-if="record.credential.raw_value">
+                                    <div class="d-flex align-items-center">
+                                        <span class="fw-bold me-1">Credential:</span>
+                                        <field name="credential"/>
+                                    </div>
+                                </t>
+                            </div>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>

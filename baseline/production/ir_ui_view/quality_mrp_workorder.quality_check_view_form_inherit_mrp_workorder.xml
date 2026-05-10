@@ -1,0 +1,12 @@
+<data><field name="lot_ids" position="after">
+                <field name="workorder_id" invisible="1"/>
+                <field name="production_id" invisible="1"/>
+                <field name="finished_lot_ids" invisible="not finished_lot_ids" groups="stock.group_production_lot" widget="many2many_tags" options="{'edit_tags': True}"/>
+            </field>
+            <xpath expr="//field[@name='measure_on']" position="after">
+                <field name="operation_id" string="Work Order Operation" invisible="not operation_id" groups="mrp.group_mrp_routings"/>
+            </xpath>
+            <xpath expr="//field[@name='point_id']" position="attributes">
+                <attribute name="domain">[('operation_id', '=', False)]</attribute>
+            </xpath>
+        </data>

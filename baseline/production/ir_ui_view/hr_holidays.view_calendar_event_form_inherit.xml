@@ -1,0 +1,7 @@
+<data><xpath expr="//label[@for='videocall_location']" position="attributes">
+                <attribute name="invisible" add="res_model == 'hr.leave'" separator=" or "/>
+            </xpath>
+            <xpath expr="//div[@name='videocall_location_div']" position="attributes">
+                <attribute name="invisible" add="res_model == 'hr.leave'" separator=" or "/>
+            </xpath>
+        </data>

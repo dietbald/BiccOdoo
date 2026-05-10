@@ -1,0 +1,36 @@
+<form create="0">
+                <header>
+                    <div>
+                        <field name="name" widget="tour_start_widget"/>
+                    </div>
+                </header>
+                <sheet>
+                    <div class="oe_title">
+                        <h1><field class="text-break" options="{'line_breaks': False}" widget="text" name="name" placeholder="e.g. My_Tour"/></h1>
+                    </div>
+                    <group>
+                        <group>
+                            <field name="sequence"/>
+                            <field name="url"/>
+                        </group>
+                        <group>
+                            <field name="custom" readonly="1"/>
+                            <field name="sharing_url" widget="CopyClipboardURL"/>
+                        </group>
+                        <notebook>
+                            <page name="steps" string="Steps" invisible="not custom">
+                                <field name="step_ids">
+                                    <list>
+                                        <field name="sequence" widget="handle"/>
+                                        <field name="trigger"/>
+                                        <field name="run"/>
+                                        <field name="tooltip_position"/>
+                                        <field name="content"/>
+                                    </list>
+                                </field>
+                            </page>
+                        </notebook>
+                        <field colspan="2" name="rainbow_man_message" placeholder="Rainbow Man Message..."/>
+                    </group>
+                </sheet>
+            </form>

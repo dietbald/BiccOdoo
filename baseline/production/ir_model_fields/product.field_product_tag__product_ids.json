@@ -1,0 +1,13 @@
+{
+  "exported_at": "2026-05-10T05:51:47Z",
+  "id": 3212,
+  "model": "ir.model.fields",
+  "payload": {
+    "field_description": "All Product Variants using this Tag",
+    "relation": "product.product",
+    "ttype": "many2many"
+  },
+  "payload_sha256": "ab04371bf3439a84d11a9e5c6452cb2e3f5f3bf7caccd0191cfc9d5f4dea98a7",
+  "write_date": "",
+  "xml_id": "product.field_product_tag__product_ids"
+}

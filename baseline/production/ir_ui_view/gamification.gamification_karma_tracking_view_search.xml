@@ -1,0 +1,14 @@
+<search string="Search Trackings">
+                <field name="user_id" string="Karma Owner"/>
+                <field name="tracking_date"/>
+                <field name="origin_ref_model_name"/>
+                <filter string="Consolidated" name="filter_consolidated" domain="[('consolidated', '=', True)]"/>
+                <filter string="My Karma" name="filter_user_id" domain="[('user_id', '=', uid)]"/>
+                <separator/>
+                <filter string="Manual" name="filter_res_users" domain="[('origin_ref', 'ilike', 'res.users,')]"/>
+                <group>
+                    <filter string="Granted By" name="group_by_create_uid" context="{'group_by': 'create_uid'}"/>
+                    <filter string="Source Type" name="group_by_origin_ref_model_name" context="{'group_by': 'origin_ref_model_name'}"/>
+                    <filter string="Karma Owner" name="group_by_user_id" context="{'group_by': 'user_id'}"/>
+                </group>
+            </search>

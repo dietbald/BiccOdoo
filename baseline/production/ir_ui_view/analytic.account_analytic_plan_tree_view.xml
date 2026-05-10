@@ -1,0 +1,6 @@
+<list string="Analytic Plans" multi_edit="1">
+                <field name="sequence" widget="handle"/>
+                <field name="name"/>
+                <field name="default_applicability" required="True"/>
+                <field name="color" widget="color_picker"/>
+            </list>

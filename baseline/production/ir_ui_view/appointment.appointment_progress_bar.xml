@@ -1,0 +1,20 @@
+<t name="Appointment: Progress Bar" t-name="appointment.appointment_progress_bar">
+        <t t-set="STEP_TIME" t-value="20"/>
+        <t t-set="STEP_FORM" t-value="30"/>
+        <t t-set="STEP_VALIDATION" t-value="40"/>
+        <t t-set="users_or_resources_possible" t-value="users_possible if appointment_type.schedule_based_on == 'users' else resources_possible"/>
+        <ul class="list-unstyled d-none d-lg-flex m-0">
+            <li class="d-flex align-items-center">
+                <a t-att-class="'text-decoration-none text-truncate ' + (step==STEP_TIME and 'fw-bold text-reset cursor-default' or step&gt;STEP_TIME and ' ' or 'cursor-default text-muted')" t-att-href="'#' if step&lt;STEP_TIME or step==STEP_TIME else '/appointment/%s?%s' % (appointment_type.id, keep_query('*'))">
+                Date &amp; time
+                </a>
+                <span class="d-inline-block mx-sm-3 fa fa-angle-right text-muted fs-5"/>
+            </li>
+            <li t-att-class="'d-flex align-items-center ' + (step==STEP_FORM and 'fw-bold cursor-default' or step&gt;STEP_FORM and 'cursor-default text-primary' or 'cursor-default text-muted')">
+                Details<span class="d-inline-block mx-sm-3 fa fa-angle-right text-muted fs-5"/>
+            </li>
+            <li t-att-class="'text-truncate ' + (step==STEP_VALIDATION and 'fw-bold' or step&gt;STEP_VALIDATION and 'cursor-default text-primary' or 'cursor-default text-muted')">
+                Booked
+            </li>
+        </ul>
+    </t>

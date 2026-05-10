@@ -1,0 +1,9 @@
+<list>
+                    <field name="date"/>
+                    <field name="employee_id"/>
+                    <field name="project_id"/>
+                    <field name="task_id"/>
+                    <field name="currency_id" column_invisible="1"/>
+                    <field name="amount" string="Timesheet Costs" optional="hide" sum="Total"/>
+                    <field name="unit_amount" optional="show" widget="timesheet_uom" sum="Total" decoration-danger="unit_amount &gt; 24 or unit_amount &lt; 0" decoration-muted="unit_amount == 0"/>
+                </list>

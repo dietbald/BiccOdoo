@@ -1,0 +1,17 @@
+<form string="Answer Input" name="answer_input_form">
+                <field name="question_type" invisible="1"/>
+                <sheet>
+                    <group>
+                        <group name="answer_input_form_left">
+                            <field name="question_id" readonly="1"/>
+                            <field name="appointment_type_id" readonly="1"/>
+                            <field name="partner_id" readonly="1"/>
+                        </group>
+                        <group name="answer_input_form_right">
+                            <field name="value_answer_id" invisible="question_type in ['char', 'text', 'phone']"/>
+                            <field name="value_text_box" invisible="question_type in ['select', 'radio', 'checkbox']"/>
+                            <field name="calendar_event_id" readonly="1"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>

@@ -1,0 +1,6 @@
+<search string="lunch employee payment">
+                <field name="description"/>
+                <field name="user_id"/>
+                <filter name="is_mine_group" string="My Account grouped" domain="[('user_id','=',uid)]" context="{'group_by':'user_id'}"/>
+                <filter name="group_by_user" string="By User" context="{'group_by':'user_id'}"/>
+            </search>

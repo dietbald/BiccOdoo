@@ -1,0 +1,21 @@
+{
+  "exported_at": "2026-05-10T05:51:43Z",
+  "id": 15,
+  "model": "base.automation",
+  "payload": {
+    "action_server_ids": [
+      1766
+    ],
+    "active": true,
+    "filter_domain": "[\"&\", \"&\", (\"state\", \"=\", \"done\"), (\"applicant_id\", \"!=\", False), (\"applicant_id.stage_id\", \"in\", [2])]",
+    "model_id": [
+      922,
+      "Survey User Input"
+    ],
+    "name": "Update Stage on Applicant Information Submission",
+    "trigger": "on_state_set"
+  },
+  "payload_sha256": "5cbb1ef7c1a6bf49171537a132b43d419c64da2aee04a6a9a752578079776627",
+  "write_date": "2025-12-12 09:20:14",
+  "xml_id": "studio_customization.update_stage_on_surv_045a8e12-741e-4320-b38c-d9b203c5c9ec"
+}

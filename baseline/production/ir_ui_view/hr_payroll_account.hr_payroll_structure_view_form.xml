@@ -1,0 +1,10 @@
+<data><field name="schedule_pay" position="after">
+                <field name="journal_id" required="True"/>
+            </field>
+            <xpath expr="//field[@name='rule_ids']/list" position="inside">
+                <field name="account_debit" optional="hidden"/>
+                <field name="account_credit" optional="hidden"/>
+                <field name="debit_tag_ids" widget="many2many_tags" domain="[('applicability', '=', 'taxes')]" optional="hidden" invisible="not account_debit"/>
+                <field name="credit_tag_ids" widget="many2many_tags" domain="[('applicability', '=', 'taxes')]" optional="hidden" invisible="not account_credit"/>
+            </xpath>
+        </data>

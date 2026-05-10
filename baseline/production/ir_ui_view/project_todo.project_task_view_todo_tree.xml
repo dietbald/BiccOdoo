@@ -1,0 +1,10 @@
+<list string="To-dos" default_group_by="personal_stage_type_id" editable="bottom" multi_edit="1" open_form_view="True" js_class="todo_list">
+                <field name="state" widget="todo_done_checkmark" nolabel="1" width="20px"/>
+                <field name="name"/>
+                <field name="user_ids" optional="show" required="1" widget="many2many_avatar_user"/>
+                <field name="priority" widget="priority" optional="hidden" width="70px"/>
+                <field name="date_deadline" optional="show" widget="remaining_days"/>
+                <field name="activity_ids" optional="show" widget="list_activity"/>
+                <field name="tag_ids" optional="show" widget="many2many_tags" options="{'color_field': 'color', 'no_create_edit': True}"/>
+                <field name="personal_stage_type_id" string="Stage" optional="hide"/>
+            </list>

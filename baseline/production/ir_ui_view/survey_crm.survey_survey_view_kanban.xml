@@ -1,0 +1,8 @@
+<xpath expr="//div[a[@name='action_survey_user_input_completed']]" position="after">
+                <div t-if="!selection_mode and record.lead_count.raw_value &gt; 0" class="col-lg-1 col-sm-4 col-6 py-0 my-2">
+                    <a type="object" name="action_survey_see_leads" class="fw-bold">
+                        <field name="lead_count"/><br/>
+                        <span class="text-muted">Leads</span>
+                    </a>
+                </div>
+            </xpath>

@@ -1,0 +1,11 @@
+<t name="Tests Assets Bundle" t-name="web.conditional_assets_tests">
+        <t t-if="'tests' in debug or test_mode_enabled">
+            <t t-if="ignore_missing_deps">
+                <!-- FIXME: This is only to ignore the errors for the lazy loading. To allow all tests assets and tours to be in the same bundle, the assets_tests bundle ignores missing dependencies -->
+                <t t-call-assets="web.__assets_tests_call__" defer_load="True"/>
+            </t>
+            <t t-else="">
+                <t t-call-assets="web.assets_tests" defer_load="True"/>
+            </t>
+        </t>
+    </t>

@@ -1,0 +1,10 @@
+<kanban class="o_kanban_mobile" sample="1">
+                <templates>
+                    <t t-name="card" class="row g-0">
+                        <field name="name" class="col-6 fw-bold"/>
+                        <div class="col-6">
+                            <field name="user_id" class="float-end"/>
+                        </div>
+                    </t>
+                </templates>
+            </kanban>

@@ -1,0 +1,1 @@
+model._cron_generate_or_refresh_all_returns()

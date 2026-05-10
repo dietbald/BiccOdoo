@@ -1,0 +1,8 @@
+<list string="Currency Rates" editable="bottom">
+                    <field name="name"/>
+                    <field name="company_id" groups="base.group_multi_company"/>
+                    <field name="company_rate" digits="[12,12]"/>
+                    <field name="inverse_company_rate" digits="[12,12]"/>
+                    <field name="rate" digits="[12,12]" optional="hide"/>
+                    <field name="write_date" optional="hide"/>
+                </list>

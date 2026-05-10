@@ -1,0 +1,14 @@
+<search string="UTM Campaigns">
+                <field name="title" string="Campaigns"/>
+                <field name="tag_ids"/>
+                <field name="user_id"/>
+                <field name="is_auto_campaign"/>
+                <filter string="My Campaigns" name="filter_assigned_to_me" domain="[('user_id', '=', uid)]" help="Campaigns that are assigned to me"/>
+                <separator/>
+                <filter string="Archived" name="filter_inactive" domain="[('active', '=', False)]"/>
+                <group>
+                    <filter string="Stage" name="group_stage_id" context="{'group_by': 'stage_id'}"/>
+                    <filter string="Responsible" name="group_user_id" context="{'group_by': 'user_id'}"/>
+                    <filter string="Tags" name="group_tags_id" context="{'group_by': 'tag_ids'}"/>
+                </group>
+            </search>
