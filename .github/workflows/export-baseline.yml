@@ -1,0 +1,23 @@
+name: export-baseline
+
+# Thin shim — all logic lives in OdooAiDeployer/.github/workflows/_export-baseline.yml.
+
+on:
+  workflow_dispatch:
+    inputs:
+      env:
+        description: "Environment to export from"
+        required: false
+        default: production
+        type: choice
+        options: [dev, staging, production]
+
+permissions:
+  contents: write
+
+jobs:
+  export-baseline:
+    uses: dietbald/OdooAiDeployer/.github/workflows/_export-baseline.yml@main
+    with:
+      environment: ${{ github.event.inputs.env }}
+    secrets: inherit
