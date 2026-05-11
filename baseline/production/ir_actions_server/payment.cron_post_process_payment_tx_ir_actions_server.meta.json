@@ -1,6 +1,14 @@
 {
-  "exported_at": "2026-05-10T12:35:37Z",
+  "exported_at": "2026-05-11T13:09:10Z",
   "id": 203,
+  "lookup": {
+    "binding_model_id": false,
+    "model_id": 410,
+    "model_id_display": "Payment Transaction",
+    "name": "Payment: Post-process transactions",
+    "state": "code",
+    "usage": "ir_cron"
+  },
   "model": "ir.actions.server",
   "payload_sha256": "c63df800b38783001030ed7a149b84fbe7d6942be547786c320060b8d1cdcae6",
   "write_date": "2025-12-09 02:56:23",

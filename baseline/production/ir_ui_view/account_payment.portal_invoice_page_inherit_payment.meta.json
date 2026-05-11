@@ -1,6 +1,16 @@
 {
-  "exported_at": "2026-05-10T12:35:35Z",
+  "exported_at": "2026-05-11T13:09:06Z",
   "id": 829,
+  "lookup": {
+    "active": true,
+    "inherit_id": 761,
+    "inherit_id_display": "Invoice/Bill",
+    "key": "account_payment.portal_invoice_page_inherit_payment",
+    "mode": "extension",
+    "name": "Payment on My Invoices",
+    "type": "qweb",
+    "website_id": false
+  },
   "model": "ir.ui.view",
   "payload_sha256": "3fe25180b669407a177affaf622bd6d8390b307d2e8255d9e3b234cc7dc31864",
   "write_date": "2025-12-09 02:57:54",

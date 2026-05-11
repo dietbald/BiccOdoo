@@ -1,6 +1,14 @@
 {
-  "exported_at": "2026-05-10T12:35:37Z",
+  "exported_at": "2026-05-11T13:09:10Z",
   "id": 484,
+  "lookup": {
+    "binding_model_id": false,
+    "model_id": 410,
+    "model_id_display": "Payment Transaction",
+    "name": "automatic invoicing: send ready invoice",
+    "state": "code",
+    "usage": "ir_cron"
+  },
   "model": "ir.actions.server",
   "payload_sha256": "4a8e7c1a300c16ca4491ef403e9a215425f74adad176c39b45a43bf533431024",
   "write_date": "2025-03-24 00:42:49",

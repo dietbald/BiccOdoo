@@ -1,6 +1,15 @@
 {
-  "exported_at": "2026-05-10T12:35:35Z",
+  "exported_at": "2026-05-11T13:09:07Z",
   "id": 1661,
+  "lookup": {
+    "active": true,
+    "inherit_id": false,
+    "key": "sale_purchase.exception_purchase_on_sale_quantity_decreased",
+    "mode": "primary",
+    "name": "Message: Alert on purchase orders when ordered quantity decreased on Sales Orders",
+    "type": "qweb",
+    "website_id": false
+  },
   "model": "ir.ui.view",
   "payload_sha256": "433d4a5f795146e6ceb1d8911838b8788c5d950258b2c94f5792b5ac12325fd2",
   "write_date": "2025-12-09 03:00:12",

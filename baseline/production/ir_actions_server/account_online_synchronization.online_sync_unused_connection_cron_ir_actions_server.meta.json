@@ -1,6 +1,14 @@
 {
-  "exported_at": "2026-05-10T12:35:37Z",
+  "exported_at": "2026-05-11T13:09:10Z",
   "id": 311,
+  "lookup": {
+    "binding_model_id": false,
+    "model_id": 494,
+    "model_id_display": "Bank Connection",
+    "name": "Account: Journal online sync cleanup unused connections",
+    "state": "code",
+    "usage": "ir_cron"
+  },
   "model": "ir.actions.server",
   "payload_sha256": "ec8d19be4b95703f85bf786c87f68c3152c708ee51efc833892cdce9d99d2016",
   "write_date": "2025-03-24 00:42:49",

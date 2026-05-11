@@ -1,6 +1,14 @@
 {
-  "exported_at": "2026-05-10T12:35:37Z",
+  "exported_at": "2026-05-11T13:09:10Z",
   "id": 1569,
+  "lookup": {
+    "binding_model_id": false,
+    "model_id": 2663,
+    "model_id_display": "Fetch product images from Barcode Lookup based on the product's barcode.",
+    "name": "Product Images: Get product images from Barcode Lookup",
+    "state": "code",
+    "usage": "ir_cron"
+  },
   "model": "ir.actions.server",
   "payload_sha256": "d66f1a7e0647c4b1870a778512379980cf9d13b505bf662368725c4e5516100d",
   "write_date": "2025-12-09 02:56:13",

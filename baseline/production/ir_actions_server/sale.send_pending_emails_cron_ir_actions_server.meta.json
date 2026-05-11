@@ -1,6 +1,14 @@
 {
-  "exported_at": "2026-05-10T12:35:37Z",
+  "exported_at": "2026-05-11T13:09:10Z",
   "id": 1703,
+  "lookup": {
+    "binding_model_id": false,
+    "model_id": 613,
+    "model_id_display": "Sales Order",
+    "name": "Sales: Send pending emails",
+    "state": "code",
+    "usage": "ir_cron"
+  },
   "model": "ir.actions.server",
   "payload_sha256": "a9bc5f6ba9423c03bb00c35635ae0a80bc2ed4c7ca70abbeec53d67eade0e77a",
   "write_date": "2025-12-09 02:59:42",

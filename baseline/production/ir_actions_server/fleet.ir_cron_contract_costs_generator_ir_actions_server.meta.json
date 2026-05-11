@@ -1,6 +1,14 @@
 {
-  "exported_at": "2026-05-10T12:35:37Z",
+  "exported_at": "2026-05-11T13:09:10Z",
   "id": 1126,
+  "lookup": {
+    "binding_model_id": false,
+    "model_id": 1004,
+    "model_id_display": "Vehicle Contract",
+    "name": "Fleet: Generate contracts costs based on costs frequency",
+    "state": "code",
+    "usage": "ir_cron"
+  },
   "model": "ir.actions.server",
   "payload_sha256": "2919dcf6aa7d179d954e0614e0b74edcd2075bbdb6c23518b9892349a67fa4f5",
   "write_date": "2025-03-24 00:42:49",

@@ -1,6 +1,14 @@
 {
-  "exported_at": "2026-05-10T12:35:37Z",
+  "exported_at": "2026-05-11T13:09:10Z",
   "id": 290,
+  "lookup": {
+    "binding_model_id": false,
+    "model_id": 442,
+    "model_id_display": "Bank Statement Line",
+    "name": "Try to reconcile automatically your statement lines",
+    "state": "code",
+    "usage": "ir_cron"
+  },
   "model": "ir.actions.server",
   "payload_sha256": "90ed78f5b8b368cc2c07a94d27185eeab2e5e9cfdb57e81b5a7eaad58c4a1a54",
   "write_date": "2025-12-09 02:57:43",
