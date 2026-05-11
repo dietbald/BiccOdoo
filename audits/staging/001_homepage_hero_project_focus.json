@@ -1,0 +1,23 @@
+{
+  "applied_by": "tj",
+  "changeset": "001_homepage_hero_project_focus",
+  "description": "Rewrite the BICC homepage hero (cover section) to reframe BICC as a\nconstruction & project management partner rather than the previous\ngeneric \"trusted partner for comprehensive services\" tagline. New H1\nreads \"Your Construction & Project Management Partner in Iloilo\",\nwith a lead paragraph naming the service lines (vertical builds,\nroads, demolition, end-to-end project management) and two CTAs\nanchoring to existing on-page sections (#our-services and\n#contact-us). Sections below the cover (OUR SERVICES, ABOUT US,\nCONTACT US) are preserved verbatim from the production baseline.\n",
+  "environment": "staging",
+  "finished_at": "2026-05-11T14:43:38Z",
+  "git_commit_sha": "af14fff19b4c70792927fb5b39456c966ede7fcd",
+  "manifest_sha256": "e5e191a776d749e8d6660501097f53c1c2bb58dd0653dacfe5a712f3dc7e7a26",
+  "operations": [
+    {
+      "after_sha256_canonical": "87b9f05492c59f7015eac51c4b24f4d279af317a808a4867277cca44ea24468e",
+      "before_sha256_canonical": "bf6b67ccb39fb9c8dcc03925ea6ac8787912f56d8980d661cbdbe2426625aeca",
+      "op_index": 0,
+      "rollback_snapshot": "rollback_snapshots/staging/001_homepage_hero_project_focus/operation_000_ir_ui_view_1739.xml",
+      "status": "applied",
+      "target": "ir.ui.view:1739",
+      "type": "update_view",
+      "view_key": "website.bicc-construction-engineering-services-in-iloilo"
+    }
+  ],
+  "started_at": "2026-05-11T14:43:37Z",
+  "status": "deployed"
+}
