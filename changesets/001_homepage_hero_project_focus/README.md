@@ -12,8 +12,8 @@ focus on active construction work rather than generic corporate copy.
 
 **After**:
 
-- **H1**: *Building Iloilo's Infrastructure — Active Project Sites Across Panay*
-- **Lead paragraph**: *Vertical builds, roads, demolition, and full project management. Currently mobilized on multiple active sites for government and private clients.*
+- **H1**: *Your Construction & Project Management Partner in Iloilo*
+- **Lead paragraph**: *Vertical builds, roads, demolition, and end-to-end project management — delivered across Panay for government and private clients.*
 - **CTAs**:
   - `See Recent Projects` → `#our-services` anchor (services section showcases project capability lines)
   - `Request a Bid` → `#contact-us` anchor (existing contact form)
