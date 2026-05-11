@@ -1,4 +1,5 @@
 id: 001_fix_404_page
+schema_version: 1
 description: |
   Patch the http_routing.404 view (id 257 on bicc-xerxes) so the friendly
   branded 404 page renders for any nonexistent URL — covers expired/unpublished
