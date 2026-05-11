@@ -14,9 +14,7 @@ focus on active construction work rather than generic corporate copy.
 
 - **H1**: *We build in Iloilo. We also run the project for you.*
 - **Lead paragraph**: *Houses, commercial buildings, demolition work. The bigger thing we do is the project itself: permits, supervision, that 7am call with the foreman when the rebar shipment is late. We work for homeowners building their first place. We work for government offices running multi-million-peso tenders.*
-- **CTAs**:
-  - `See Recent Projects` → `#our-services` anchor (services section showcases project capability lines)
-  - `Request a Bid` → `#contact-us` anchor (existing contact form)
+- No CTAs in the hero — readers scroll to OUR SERVICES / CONTACT US sections directly.
 
 The parallax background image, all section anchors (`#cover`, `#our-services`,
 `#about-us`, `#contact-us`), and the OUR SERVICES / ABOUT US / CONTACT US
