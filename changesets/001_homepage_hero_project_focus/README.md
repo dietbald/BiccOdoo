@@ -10,10 +10,10 @@ focus on active construction work rather than generic corporate copy.
 
 > Leading Construction and Engineering Solutions in Iloilo City - BiCC, Your Trusted Partner for Comprehensive Construction, Engineering, and Project Management Services.
 
-**After**:
+**After** (humanizer pass — voice deliberately first-person, specific, no em-dashes):
 
-- **H1**: *Your Construction & Project Management Partner in Iloilo*
-- **Lead paragraph**: *Vertical builds, roads, demolition, and end-to-end project management — delivered across Panay for government and private clients.*
+- **H1**: *We build in Iloilo. We also run the project for you.*
+- **Lead paragraph**: *Houses, commercial buildings, demolition work. The bigger thing we do is the project itself: permits, supervision, that 7am call with the foreman when the rebar shipment is late. We work for homeowners building their first place. We work for government offices running multi-million-peso tenders.*
 - **CTAs**:
   - `See Recent Projects` → `#our-services` anchor (services section showcases project capability lines)
   - `Request a Bid` → `#contact-us` anchor (existing contact form)
