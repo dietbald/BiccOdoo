@@ -1,0 +1,23 @@
+{
+  "applied_by": "ai",
+  "changeset": "001_homepage_hero_project_focus",
+  "description": "Rewrite the BICC homepage hero (cover section) to emphasise active project\ncapabilities instead of the previous generic \"trusted partner\" tagline.\nNew hero has a project-oriented H1, a lead paragraph naming the actual\nservice lines (vertical builds, roads, demolition, project management),\nand two CTAs anchoring to existing on-page sections (#our-services and\n#contact-us). Sections below the cover (OUR SERVICES, ABOUT US, CONTACT US)\nare preserved verbatim from the production baseline.\n",
+  "environment": "dev",
+  "finished_at": "2026-05-11T13:34:15Z",
+  "git_commit_sha": "fc9294c47986f47c4350f08c16271dae7b2ce36c",
+  "manifest_sha256": "c9e6a73fabd98ce047f425c97740aab792207f0d07aa27d134bcae86c446e4a0",
+  "operations": [
+    {
+      "after_sha256_canonical": "133a4052fea83d73ff599ae113632e74bfaf63545aad0f5c3897f3e8dff13721",
+      "before_sha256_canonical": "bf6b67ccb39fb9c8dcc03925ea6ac8787912f56d8980d661cbdbe2426625aeca",
+      "op_index": 0,
+      "rollback_snapshot": "rollback_snapshots/dev/001_homepage_hero_project_focus/operation_000_ir_ui_view_1739.xml",
+      "status": "applied",
+      "target": "ir.ui.view:1739",
+      "type": "update_view",
+      "view_key": "website.bicc-construction-engineering-services-in-iloilo"
+    }
+  ],
+  "started_at": "2026-05-11T13:34:12Z",
+  "status": "deployed"
+}
