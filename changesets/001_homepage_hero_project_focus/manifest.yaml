@@ -1,0 +1,18 @@
+id: 001_homepage_hero_project_focus
+schema_version: 1
+description: |
+  Rewrite the BICC homepage hero (cover section) to emphasise active project
+  capabilities instead of the previous generic "trusted partner" tagline.
+  New hero has a project-oriented H1, a lead paragraph naming the actual
+  service lines (vertical builds, roads, demolition, project management),
+  and two CTAs anchoring to existing on-page sections (#our-services and
+  #contact-us). Sections below the cover (OUR SERVICES, ABOUT US, CONTACT US)
+  are preserved verbatim from the production baseline.
+author: ai
+
+operations:
+  - type: update_view
+    key: website.bicc-construction-engineering-services-in-iloilo
+    website_id: 1
+    arch_file: homepage_arch.xml
+    backup: true
