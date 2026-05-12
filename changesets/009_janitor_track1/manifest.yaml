@@ -1,0 +1,148 @@
+id: 009_janitor_track1
+schema_version: 1
+description: |
+  Daily 8 AM PHT cron — Track 1 janitor for Stage 1 / Stage 2 applicants.
+
+  Responsibilities:
+  1. Drain the queued-refusal queue (applicants flagged off-hours by the
+     info survey adjudication SA): send the queued template and archive.
+  2. Send cascading reminders to Stage-1/2 applicants who haven't
+     completed Survey 1:
+       - first miss → General Follow-up Reminder + stamp
+         x_studio_reminder_date
+       - second miss → Final Reminder Before Archive + stamp
+         x_studio_final_reminder_date
+       - third miss → archive with "Refuse did not complete assessment"
+
+  Ships three templates and the cron. The four reminder-date fields
+  (x_studio_reminder_date, x_studio_final_reminder_date,
+  x_studio_sms_reminder_date, x_studio_sms_new_reminder_date) already
+  exist on every target env. x_studio_resume_request_date and
+  x_studio_queued_refusal_id also already exist.
+
+  model_id=662 = hr.applicant ir.model (verified across envs).
+
+author: ai
+allow_generic_records: true
+
+operations:
+  - type: create_record
+    xml_id: bicc_recruitment.tpl_general_reminder
+    model: mail.template
+    values:
+      name: "Recruitment: General Follow-up Reminder"
+      model_id: 662
+      subject: "Reminder: your {{ object.job_id.name }} application"
+      email_from: "{{ object.company_id.x_studio_short_name }} <{{ object.company_id.alias_domain_id.default_from_email }}>"
+      email_to: "{{ object.email_from }}"
+      lang: "{{ object.partner_id.lang }}"
+      auto_delete: false
+      body_html: |
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;background-color:#f2f2f2;margin:0;padding:0;">
+          <tbody><tr><td align="center" style="padding:20px 0;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;max-width:600px;background-color:#ffffff;color:#101820;font-family:'Roboto',sans-serif;font-size:13px;line-height:1.6;">
+              <tbody><tr><td style="padding:20px;">
+                <p style="margin:0;padding:0;font-size:13px;">
+                  Hi <t t-out="object.partner_name or 'there'"/>,
+                  <br/><br/>
+                  This is a friendly reminder about your application for the <b><t t-out="object.job_id.name or 'open'"/></b> position at <t t-out="object.company_id.name or 'Our Company'"/>.
+                  <br/><br/>
+                  We sent you an email a few days ago with assessments or an information form that still needs to be completed. Kindly check your inbox (and spam folder) and complete them so we can proceed with your application.
+                  <br/><br/>
+                  If you've already completed everything, please disregard this message. If you're having any trouble, just reply to this email and we'll help you out.
+                  <br/><br/>
+                  Best regards,<br/>
+                  <t t-out="object.company_id.name or 'Our Company'"/> Recruitment Team<br/>
+                  <a t-att-href="object.company_id.website" style="text-decoration:none;color:#374151;"><t t-out="object.company_id.website"/></a>
+                </p>
+              </td></tr></tbody>
+            </table>
+          </td></tr></tbody>
+        </table>
+
+  - type: create_record
+    xml_id: bicc_recruitment.tpl_final_reminder
+    model: mail.template
+    values:
+      name: "Recruitment: Final Reminder Before Archive"
+      model_id: 662
+      subject: "Final reminder: your {{ object.job_id.name }} application"
+      email_from: "{{ object.company_id.x_studio_short_name }} <{{ object.company_id.alias_domain_id.default_from_email }}>"
+      email_to: "{{ object.email_from }}"
+      lang: "{{ object.partner_id.lang }}"
+      auto_delete: false
+      body_html: |
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;background-color:#f2f2f2;margin:0;padding:0;">
+          <tbody><tr><td align="center" style="padding:20px 0;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;max-width:600px;background-color:#ffffff;color:#101820;font-family:'Roboto',sans-serif;font-size:13px;line-height:1.6;">
+              <tbody><tr><td style="padding:20px;">
+                <p style="margin:0;padding:0;font-size:13px;">
+                  Hi <t t-out="object.partner_name or 'there'"/>,
+                  <br/><br/>
+                  This is our final follow-up regarding your application for the <b><t t-out="object.job_id.name or 'open'"/></b> position at <t t-out="object.company_id.name or 'Our Company'"/>.
+                  <br/><br/>
+                  We've sent a few reminders but haven't received your completed assessments or information form yet. We understand things can get busy, but unfortunately we can't keep the application open much longer.
+                  <br/><br/>
+                  <b>If we don't hear from you within the next 48 hours, your application will be archived.</b>
+                  <br/><br/>
+                  If you're still interested, please complete the outstanding items as soon as possible.
+                  <br/><br/>
+                  Best regards,<br/>
+                  <t t-out="object.company_id.name or 'Our Company'"/> Recruitment Team<br/>
+                  <a t-att-href="object.company_id.website" style="text-decoration:none;color:#374151;"><t t-out="object.company_id.website"/></a>
+                </p>
+              </td></tr></tbody>
+            </table>
+          </td></tr></tbody>
+        </table>
+
+  - type: create_record
+    xml_id: bicc_recruitment.tpl_non_response
+    model: mail.template
+    values:
+      name: "Recruitment: Refuse did not complete assessment"
+      model_id: 662
+      subject: "Update on your application for {{ object.job_id.name }}"
+      email_from: "{{ object.company_id.x_studio_short_name }} <{{ object.company_id.alias_domain_id.default_from_email }}>"
+      email_to: "{{ object.email_from }}"
+      lang: "{{ object.partner_id.lang }}"
+      auto_delete: false
+      body_html: |
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;background-color:#f2f2f2;margin:0;padding:0;">
+          <tbody><tr><td align="center" style="padding:20px 0;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;max-width:600px;background-color:#ffffff;color:#101820;font-family:'Roboto',sans-serif;font-size:13px;line-height:1.6;">
+              <tbody><tr><td style="padding:20px;">
+                <p style="margin:0;padding:0;font-size:13px;">
+                  Hi <t t-out="object.partner_name or 'there'"/>,
+                  <br/><br/>
+                  Thanks for your interest in the <b><t t-out="object.job_id.name or 'open'"/></b> position at <t t-out="object.company_id.name or 'Our Company'"/>.
+                  <br/><br/>
+                  Unfortunately, we weren't able to receive your completed assessments after several follow-ups. Due to the volume of applications we receive, we can only move forward with candidates who've completed the initial screening.
+                  <br/><br/>
+                  We've archived your application for now, but you're welcome to re-apply in the future when you have the time to complete the required assessments.
+                  <br/><br/>
+                  Best of luck in your job search.
+                  <br/><br/>
+                  Best regards,<br/>
+                  <t t-out="object.company_id.name or 'Our Company'"/> Recruitment Team<br/>
+                  <a t-att-href="object.company_id.website" style="text-decoration:none;color:#374151;"><t t-out="object.company_id.website"/></a>
+                </p>
+              </td></tr></tbody>
+            </table>
+          </td></tr></tbody>
+        </table>
+
+  - type: create_server_action
+    xml_id: bicc_recruitment.janitor_track1
+    name: "BICC v5: Janitor Track 1 (daily)"
+    model: hr.applicant
+    code_file: janitor_track1.py
+
+  - type: create_cron
+    xml_id: bicc_recruitment.cron_janitor_track1
+    name: "BICC v5: Janitor Track 1 (daily)"
+    model: hr.applicant
+    code_file: janitor_track1.py
+    interval_number: 1
+    interval_type: days
+    nextcall: "2026-05-13 00:00:00"
