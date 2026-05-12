@@ -1,0 +1,34 @@
+{
+  "applied_by": "tj",
+  "changeset": "004_star_talent_alert",
+  "description": "Adds an automated action on survey.user_input that flags Star Candidates\nbased on TWO assessment scores combined:\n  - Logical assessment score >= 90%\n  - Technical assessment score >= 80%\nBoth surveys must be completed before the alert fires. The submission\nof either Logical OR Technical re-checks the condition; submissions of\nthe Emotional / Info / other surveys do not (early-exit guard).\n\nWhen the gate passes, the action:\n  - bumps applicant.priority to '3' (\u2605\u2605\u2605)\n  - posts a chatter alert tagging the assigned recruiter\n    (user_id.partner_id) so they get an inbox notification\n  - logs a \"MANAGEMENT\" trail line\n\nIdempotency: if applicant.priority is already '3', the alert is skipped\nto avoid spamming the recruiter on assessment retakes.\n\nPure routing \u2014 no fields, no templates, no schedule. Coexists with\nother survey.user_input.on_write automations (e.g. info-survey\nadjudication); each automation runs independently.\n",
+  "environment": "production",
+  "finished_at": "2026-05-12T08:12:23Z",
+  "git_commit_sha": "aafd95256961c1787eebb3863d54bdc296b74812",
+  "manifest_sha256": "0e12876bf4e33c9794f26aa72e1ff946579b3ad726660de09a819da550616140",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "ir.actions.server:1786",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.star_talent_alert"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "sub_records": [
+        {
+          "status": "created",
+          "target": "ir.actions.server:1787",
+          "xml_id": "bicc_recruitment.automation_star_talent_alert__action"
+        }
+      ],
+      "target": "base.automation:19",
+      "type": "create_automated_action",
+      "xml_id": "bicc_recruitment.automation_star_talent_alert"
+    }
+  ],
+  "started_at": "2026-05-12T08:12:07Z",
+  "status": "deployed"
+}
