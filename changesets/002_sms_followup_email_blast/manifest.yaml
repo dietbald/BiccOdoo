@@ -1,0 +1,31 @@
+id: 002_sms_followup_email_blast
+schema_version: 1
+description: |
+  Add a manual server action "Send SMS Follow-up Email Blast" to the
+  hr.applicant Action menu. When triggered, it emails every applicant
+  currently in the SMS follow-up queue — the same three populations that
+  the existing daily sms_queue_digest cron surfaces for HR to SMS by hand
+  (Qualification info-survey pending, Stage 1 resume missing, Stage 7
+  assessment pending). The email content mirrors the SMS wording so HR
+  has a quick way to fire the email side of the follow-up without doing
+  the SMS pass first.
+
+  Defensive: the action introspects custom fields at runtime, so it is
+  safe to deploy before the v5 reminder-field blocks land — sections
+  whose driving field is missing are simply skipped (zero emails for
+  that section, no error). Once all v5 blocks are in place on the same
+  environment, all three sections fire.
+
+  Does not stamp any x_studio_sms_*_date fields — SMS remains a separate
+  channel HR can still send manually.
+
+author: ai
+
+operations:
+  - type: create_server_action
+    xml_id: bicc_recruitment.sms_followup_email_blast
+    name: "BICC v5: Send SMS Follow-up Email Blast"
+    model: hr.applicant
+    code_file: send_email_blast.py
+    binding_model: hr.applicant
+    binding_view_types: "form,list"
