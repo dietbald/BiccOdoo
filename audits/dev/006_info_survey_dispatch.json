@@ -1,32 +1,34 @@
 {
   "applied_by": "ai",
   "changeset": "006_info_survey_dispatch",
-  "description": "Stage-2 (Qualification) entry handler. When an applicant is moved into\nStage 2, emails them a per-candidate token URL for the Application\nInformation Confirmation survey configured on their job. Skips if a\nuser_input already exists for (email, survey) \u2014 prevents duplicate\nemails on stage bounces.\n\nAlso ships the recruiter \"Resend Info Survey\" button on the hr.applicant\nAction menu (form + list).\n\nThe hr.job.x_studio_application_information custom field already exists\non every target env (created via Studio on prod, cloned on dev /\nstaging) so no create_field is needed.\n\nmodel_id=662 is hr.applicant's ir.model id (verified consistent across\ndev / staging / prod).\n",
+  "description": "Stage-2 (Qualification) entry handler. When an applicant is moved into\nStage 2, emails them a per-applicant token URL for the Application\nInformation Confirmation survey configured on their job.\n\nDedup is scoped to the CURRENT applicant, not to email globally:\nuser_inputs with (this email, this survey, create_date >= applicant\ncreate_date) count as \"already dispatched for this application\".\nAnything older came from a prior application of the same person and\ndoesn't block sending a fresh info survey for THIS application. (The\nassessment dedup in changeset 008 intentionally keeps prior\ncompletions \u2014 assessments are once-per-candidate, the info survey is\nonce-per-application.)\n\nAlso ships the recruiter \"Resend Info Survey\" button on the hr.applicant\nAction menu (form + list).\n\nThe hr.job.x_studio_application_information custom field already exists\non every target env (created via Studio on prod, cloned on dev /\nstaging) so no create_field is needed.\n\nmodel_id=662 is hr.applicant's ir.model id (verified consistent across\ndev / staging / prod).\n",
   "environment": "dev",
-  "finished_at": "2026-05-12T05:07:07Z",
-  "git_commit_sha": "1090a0a7e922cfedb01abbe3b01e485b3e1b7f98",
-  "manifest_sha256": "c5bfe7fbdade955cc2f8ff0151063a20d0115c29bb3402c0e7a1fcf7b6d4a206",
+  "finished_at": "2026-05-12T09:50:55Z",
+  "git_commit_sha": "18da85307499e8d808a09355b62642eecc9c028e",
+  "manifest_sha256": "8bc43e6d3cae3879495c7b25156f25b2e71fe4208a44454972b292576457cea2",
   "operations": [
     {
       "op_index": 0,
-      "status": "created",
+      "status": "skipped",
       "target": "mail.template:108",
       "type": "create_record",
       "xml_id": "bicc_recruitment.tpl_info_survey"
     },
     {
       "op_index": 1,
-      "status": "created",
+      "rollback_snapshot": "rollback_snapshots/dev/006_info_survey_dispatch/operation_001_ir_actions_server_1802.json",
+      "status": "updated",
       "target": "ir.actions.server:1802",
       "type": "create_server_action",
       "xml_id": "bicc_recruitment.info_survey_dispatch"
     },
     {
       "op_index": 2,
-      "status": "created",
+      "status": "skipped",
       "sub_records": [
         {
-          "status": "created",
+          "rollback_snapshot": "rollback_snapshots/dev/006_info_survey_dispatch/operation_002_ir_actions_server_1803.json",
+          "status": "updated",
           "target": "ir.actions.server:1803",
           "xml_id": "bicc_recruitment.automation_info_survey_dispatch__action"
         }
@@ -37,12 +39,12 @@
     },
     {
       "op_index": 3,
-      "status": "created",
+      "status": "skipped",
       "target": "ir.actions.server:1804",
       "type": "create_server_action",
       "xml_id": "bicc_recruitment.resend_info_survey"
     }
   ],
-  "started_at": "2026-05-12T05:06:45Z",
+  "started_at": "2026-05-12T09:50:37Z",
   "status": "deployed"
 }
