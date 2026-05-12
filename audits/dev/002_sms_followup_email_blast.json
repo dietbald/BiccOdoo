@@ -1,11 +1,11 @@
 {
   "applied_by": "ai",
   "changeset": "002_sms_followup_email_blast",
-  "description": "Add a manual server action \"BICC v5: Send SMS Queue Digest\" to the\nhr.applicant Action menu. When triggered, it emails the HR Recruitment\nManager group ONE digest listing every applicant who needs an SMS\nfollow-up right now. Each section is a 3-column table (Applicant name\nwith link, mobile number, ready-to-send SMS text) for the three\npopulations the daily sms_queue_digest cron already surfaces:\nQualification info-survey pending, Stage 1 resume missing, Stage 7\nassessment pending.\n\nHR copies each SMS into their phone, sends it manually, then marks\nthe corresponding x_studio_sms_*_date on the applicant so the queue\nclears. The action does not send anything to applicants directly and\ndoes not mutate any reminder fields.\n\nDefensive: each section field-checks at runtime, so the action is safe\nto deploy before the v5 reminder-field blocks land \u2014 sections whose\ndriving field is missing are simply omitted from the digest.\n",
+  "description": "Add the manual server action \"BICC v5: Send SMS Queue Digest\" plus a menu\nentry under Recruitment \u2192 Reporting that triggers it. When fired, it emails\nthe HR Recruitment Manager group ONE digest of every applicant who needs an\nSMS follow-up right now, grouped by job position. Each job is rendered as\nits own 3-column table (Applicant name with link, mobile number, ready-to\nsend SMS text with first name + company short name + job role pre-filled).\n\nThe three queues feeding the digest mirror the existing daily\nsms_queue_digest cron: Qualification info-survey pending (Stage 2),\nStage 1 resume missing, Stage 7 assessment pending. The wording of each\ncandidate's SMS depends on which queue they sit in.\n\nHR copies each SMS into their phone, sends it manually, then marks the\ncorresponding x_studio_sms_*_date on the applicant so the queue clears.\nThe action does not send anything to applicants directly and does not\nmutate any reminder fields.\n\nDefensive: each queue field-checks at runtime, so the action is safe to\ndeploy before the v5 reminder-field blocks land \u2014 queues whose driving\nfield is missing are simply omitted from the digest.\n\nEntry points: HR can fire the digest either from Recruitment \u2192 Reporting\n\u2192 SMS Follow-up Queue, or from any applicant's gear-icon Action menu\n(form + list views).\n",
   "environment": "dev",
-  "finished_at": "2026-05-12T03:11:17Z",
-  "git_commit_sha": "d6864c994f342726c3b29606af41c66008279757",
-  "manifest_sha256": "2bc9b730efdfef49b3e88ea46e26916890eae82d27cf8de7be20435a6f14cd92",
+  "finished_at": "2026-05-12T03:17:37Z",
+  "git_commit_sha": "c32015c0702592548a978abcceb66c1f33af1195",
+  "manifest_sha256": "8f4e34aaa0888c635573cd1f1a72163bb1a8207c34a834deaa907237bb775c34",
   "operations": [
     {
       "op_index": 0,
@@ -14,8 +14,15 @@
       "target": "ir.actions.server:1785",
       "type": "create_server_action",
       "xml_id": "bicc_recruitment.sms_followup_email_blast"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.ui.menu:1072",
+      "type": "create_menu",
+      "xml_id": "bicc_recruitment.menu_sms_followup_queue"
     }
   ],
-  "started_at": "2026-05-12T03:11:13Z",
+  "started_at": "2026-05-12T03:17:27Z",
   "status": "deployed"
 }
