@@ -1,11 +1,11 @@
 {
   "applied_by": "ai",
   "changeset": "005_resume_gate",
-  "description": "Entry-point automation for new applicants. Fires on hr.applicant.on_create\nand runs two checks in sequence:\n\n1. Source detection \u2014 scans partner_name + email_from for keywords like\n   \"via Indeed\" / \"via LinkedIn\" / \"OnlineJobs.ph\" and sets utm source\n   accordingly. Cleans \"via XXXX\" suffix from the applicant name.\n2. Resume gate \u2014 if the job's x_studio_resume_required is True and the\n   applicant has zero attachments, emails the \"Request for Resume\"\n   template (but ONLY when the create_uid is NOT in the HR Recruitment\n   User group \u2014 HR manual creates skip the email because HR will\n   attach the resume seconds after saving). Otherwise advances\n   directly to Stage 2 (Qualification).\n\nExternal creates (website form, n8n webhook, API uploads) DO get the\nemail immediately because their create_uid is a public / bot / API user\nwith no HR group.\n\nDuplicate detection is intentionally NOT done here \u2014 HR handles\nduplicates manually.\n\nShips the template, the server action, and the on_create automation.\nThe two custom fields the gate reads (hr.applicant.x_studio_resume_request_date\nand hr.job.x_studio_resume_required) already exist on every target\nenv \u2014 on prod via Studio, on dev via changeset 002's initial push,\non staging via the prod-clone \u2014 so we do NOT re-declare them here.\n\nPure procedural script: the helper functions in the original block 01\nscript were inlined to remove safe_eval closure risks.\n",
+  "description": "Entry-point automation for new applicants. Fires on hr.applicant.on_create\nand runs two checks in sequence:\n\n1. Source detection \u2014 scans partner_name + email_from for keywords like\n   \"via Indeed\" / \"via LinkedIn\" / \"OnlineJobs.ph\" and sets utm source\n   accordingly. Cleans \"via XXXX\" suffix from the applicant name.\n\n2. Resume gate \u2014 emails the \"Request for Resume\" template ONLY when:\n     - The applicant has no attachments AND the job requires a resume,\n     AND\n     - The applicant came through one of the auto-trigger channels:\n       Facebook, Jobstreet/SEEK, or the website careers form.\n   Every other channel (Indeed, LinkedIn, OnlineJobs, HR manual\n   creates, or any unknown channel) is excluded from the auto-trigger\n   and HR follows up manually.\n\nThis server action NEVER writes stage_id. n8n owns the Stage 1 \u2192 Stage 2\ntransition.\n\nDuplicate detection is intentionally NOT done here \u2014 HR handles\nduplicates manually.\n\nShips the template, the server action, and the on_create automation.\nThe two custom fields the gate reads (hr.applicant.x_studio_resume_request_date\nand hr.job.x_studio_resume_required) already exist on every target\nenv \u2014 on prod via Studio, on dev via changeset 002's initial push,\non staging via the prod-clone \u2014 so we do NOT re-declare them here.\n\nPure procedural script: the helper functions in the original block 01\nscript were inlined to remove safe_eval closure risks.\n",
   "environment": "dev",
-  "finished_at": "2026-05-12T08:38:24Z",
-  "git_commit_sha": "625bc5b7c1353f10e25a972908bfaef0299d03f5",
-  "manifest_sha256": "d7376bddecdc1d87cb379ffe164817027b4650f05b6cfaaccaea3dd15a46e142",
+  "finished_at": "2026-05-12T08:49:37Z",
+  "git_commit_sha": "d1122759f8473e91c79a678e06e7c4f43fabca52",
+  "manifest_sha256": "cd94f1fd246a50e48c93719a24549dc27c9a4ec976f1614a4db5520321e523a1",
   "operations": [
     {
       "op_index": 0,
@@ -38,6 +38,6 @@
       "xml_id": "bicc_recruitment.automation_entry_resume_request_on_create"
     }
   ],
-  "started_at": "2026-05-12T08:38:05Z",
+  "started_at": "2026-05-12T08:49:22Z",
   "status": "deployed"
 }

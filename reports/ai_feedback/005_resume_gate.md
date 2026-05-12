@@ -1,3 +1,3 @@
 # Validation OK — 005_resume_gate
 
-All static checks passed. sha256=d7376bddecdc1d87cb379ffe164817027b4650f05b6cfaaccaea3dd15a46e142
+All static checks passed. sha256=cd94f1fd246a50e48c93719a24549dc27c9a4ec976f1614a4db5520321e523a1
