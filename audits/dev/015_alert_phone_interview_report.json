@@ -1,0 +1,27 @@
+{
+  "applied_by": "ai",
+  "changeset": "015_alert_phone_interview_report",
+  "description": "Daily 8 AM PHT cron. Lists every active applicant in Stage 10 (Passed\nAssessment) and emails the HR Recruitment Manager group a phone-interview\nqueue with each candidate's name, phone (tel: link), email, position,\nassessment scores, date reached Stage 10, days waiting, assigned recruiter.\n\nDays-waiting > 2 \u2192 row colored red. > 1 \u2192 orange.\n\nRefactored from the original action_phone_interview_report.py: replaced\nthe two list comprehensions with explicit for-loops to stay clear of\nsafe_eval closure risks.\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T04:53:22Z",
+  "git_commit_sha": "0a7c05edf55ebe2b1de5398583320ba5b35a84b5",
+  "manifest_sha256": "faa7904863c67992e29ceefeed2540acd6827567167bb2671000994b1d7a1b60",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "ir.actions.server:1796",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.phone_interview_report"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.cron:93",
+      "type": "create_cron",
+      "xml_id": "bicc_recruitment.cron_phone_interview_report"
+    }
+  ],
+  "started_at": "2026-05-12T04:53:14Z",
+  "status": "deployed"
+}
