@@ -1,0 +1,42 @@
+{
+  "applied_by": "ai",
+  "changeset": "005_resume_gate",
+  "description": "Entry-point automation for new applicants. Fires on hr.applicant.on_create\nand runs three checks in sequence:\n\n1. Source detection \u2014 scans partner_name + email_from for keywords like\n   \"via Indeed\" / \"via LinkedIn\" / \"OnlineJobs.ph\" and sets utm source\n   accordingly. Cleans \"via XXXX\" suffix from the applicant name.\n2. Duplicate check \u2014 if the same (email, job) exists within a 30-day\n   window, archives the new record and transfers attachments to the\n   original if the original is still in Stage 1 with no resume.\n3. Resume gate \u2014 if the job's x_studio_resume_required is True and the\n   applicant has zero attachments, emails the \"Request for Resume\"\n   template and stamps x_studio_resume_request_date. Otherwise advances\n   directly to Stage 2 (Qualification).\n\nShips the template, the server action, and the on_create automation.\nThe two custom fields the gate reads (hr.applicant.x_studio_resume_request_date\nand hr.job.x_studio_resume_required) already exist on every target\nenv \u2014 on prod via Studio, on dev via changeset 002's initial push,\non staging via the prod-clone \u2014 so we do NOT re-declare them here.\n\nPure procedural script: the three helper functions in the original\nblock 01 script were inlined to remove safe_eval closure risks.\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T05:04:32Z",
+  "git_commit_sha": "fc9d154b1b95ede83e6dbd1732bd8d85dc4c9918",
+  "manifest_sha256": "71fef51ceb81858bc65e614cdb4d6c95882ee329b3ee0fd30cfe6111c84b2531",
+  "operations": [
+    {
+      "op_index": 0,
+      "rollback_snapshot": "rollback_snapshots/dev/005_resume_gate/operation_000_mail_template_107.json",
+      "status": "updated",
+      "target": "mail.template:107",
+      "type": "create_record",
+      "xml_id": "bicc_recruitment.tpl_resume_request"
+    },
+    {
+      "op_index": 1,
+      "status": "skipped",
+      "target": "ir.actions.server:1800",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.entry_resume_request"
+    },
+    {
+      "op_index": 2,
+      "status": "skipped",
+      "sub_records": [
+        {
+          "status": "skipped",
+          "target": "ir.actions.server:1801",
+          "xml_id": "bicc_recruitment.automation_entry_resume_request_on_create__action"
+        }
+      ],
+      "target": "base.automation:21",
+      "type": "create_automated_action",
+      "xml_id": "bicc_recruitment.automation_entry_resume_request_on_create"
+    }
+  ],
+  "started_at": "2026-05-12T05:04:29Z",
+  "status": "deployed"
+}
