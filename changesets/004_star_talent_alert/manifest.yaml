@@ -1,0 +1,29 @@
+id: 004_star_talent_alert
+schema_version: 1
+description: |
+  Adds an automated action on survey.user_input that fires the moment ANY
+  scoring survey is submitted with score ≥ 90%. Looks up the matching
+  applicant by email_from, bumps their priority to ★★★ (priority='3'),
+  and posts a chatter alert tagging the assigned recruiter so they get
+  inbox-notified instantly.
+
+  Pure routing — no fields, no templates, no schedule. Fires alongside
+  any other survey-done automations (e.g. info survey adjudication);
+  multiple base.automation rows on the same model + trigger run
+  independently.
+
+author: ai
+
+operations:
+  - type: create_server_action
+    xml_id: bicc_recruitment.star_talent_alert
+    name: "BICC v5: Star Talent Instant Alert"
+    model: survey.user_input
+    code_file: star_talent_alert.py
+
+  - type: create_automated_action
+    xml_id: bicc_recruitment.automation_star_talent_alert
+    name: "BICC v5: Star Talent Alert (survey done)"
+    model: survey.user_input
+    trigger: on_write
+    code_file: star_talent_alert.py
