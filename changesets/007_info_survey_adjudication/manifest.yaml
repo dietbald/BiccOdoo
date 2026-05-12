@@ -5,10 +5,15 @@ description: |
   survey is submitted (state → 'done'):
   - Fail (scoring_success False) → archive + failure email if office
     hours, or queue the refusal in x_studio_queued_refusal_id off hours.
-  - Pass → advance to Stage 7 (Assessment Sent). Score ≥ 90 → flag as
-    Star Talent (priority=high).
+  - Pass (scoring_success True) → advance to Stage 7 (Assessment Sent).
   - Zombie recovery: re-activate archived applicants if their survey
     arrives late.
+
+  Star-talent priority bumping is NOT done here — that lives in 004,
+  which uses the logical + technical assessment scores. The info survey
+  is not a scored survey, so the previous "score >= 90 → priority=3"
+  path was dead code (Odoo computes scoring_percentage=0 and
+  scoring_success=True for non-scored surveys). Removed for clarity.
 
   Pure procedural — no closures.
 

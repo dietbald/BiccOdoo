@@ -2,15 +2,18 @@
 # MODEL: survey.user_input
 # DESCRIPTION: Info-survey verdict gate.
 #   - scoring_success False → auto-archive with failure email (office hours)
-#     or queue refusal in x_studio_queued_refusal_id (off hours).
-#   - scoring_success True → advance applicant to Stage 7; priority=high
-#     if score ≥ 90 (Star Talent).
+#     or queue the refusal in x_studio_queued_refusal_id (off hours).
+#   - scoring_success True → advance applicant to Stage 7.
 #   - Zombie recovery: re-activate archived applicants if their survey
 #     comes in.
+#
+#   Star-talent priority bumping is NOT done here — that lives in 004
+#   (which uses the logical + technical assessment scores). The info
+#   survey is not a scored survey, so the old "score >= 90 → priority=3"
+#   path never fired anyway. Removed for clarity.
 
 STAGE_ASSESSMENT_SENT = 7
 TPL_SCORE_FAILURE = 'Recruitment: Info Survey Below Passing Score'
-SCORE_STAR = 90.0
 
 # PHT office hours gate (no pytz in safe_eval; use fixed UTC+8 offset)
 now_utc = datetime.datetime.now()
@@ -31,13 +34,13 @@ applicant = env['hr.applicant'].with_context(active_test=False).search([
 ], limit=1, order='id desc')
 
 if applicant:
-    # Zombie recovery
+    # Zombie recovery — survey may arrive after applicant got archived
     if not applicant.active:
         applicant.write({'active': True})
         applicant.message_post(body="QA RECOVERY: Archived applicant completed survey. Restoring to pipeline.")
 
     if not record.scoring_success:
-        # FAIL — auto-refuse or queue
+        # FAIL — auto-refuse during office hours, queue otherwise
         score_pct = record.scoring_percentage or 0.0
         if can_send_refusal:
             tpl = env['mail.template'].search([('name', '=', TPL_SCORE_FAILURE)], limit=1)
@@ -59,15 +62,7 @@ if applicant:
                 "AUTOMATION: Info survey failure queued (outside office hours). Score=%.1f%%."
             ) % score_pct)
     else:
-        # PASS — advance + maybe star
-        score_pct = record.scoring_percentage or 0.0
-        vals = {'stage_id': STAGE_ASSESSMENT_SENT}
-        if score_pct >= SCORE_STAR:
-            vals['priority'] = '3'
-            applicant.message_post(body=(
-                "STAR TALENT: Info survey score %.1f%% - marked as high priority."
-            ) % score_pct)
-        applicant.write(vals)
-        applicant.message_post(body=(
-            "AUTOMATION: Passed info screening (%.1f%%). Moving to Assessment stage."
-        ) % score_pct)
+        # PASS — advance to Stage 7. No priority bump here; star talent
+        # is decided exclusively by 004 (logical + technical gate).
+        applicant.write({'stage_id': STAGE_ASSESSMENT_SENT})
+        applicant.message_post(body="AUTOMATION: Info screening complete. Moving to Assessment stage.")
