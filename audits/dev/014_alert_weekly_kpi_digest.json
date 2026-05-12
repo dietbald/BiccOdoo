@@ -1,0 +1,27 @@
+{
+  "applied_by": "ai",
+  "changeset": "014_alert_weekly_kpi_digest",
+  "description": "Weekly Monday 8 AM PHT cron. Emails the HR Recruitment Manager group\na KPI digest covering: star leakage (priority-3 applicants not\ncontacted within 24h), overall pass rate, assessment drop-off rate,\nand source ROI breakdown for the trailing 7 days.\n\nRefactored from the original alert_weekly_kpi_digest.py: removed the\nsorted(..., key=lambda) and tuple-comprehension closure risks by\nusing plain tuple-sort and explicit for-loop append.\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T04:52:19Z",
+  "git_commit_sha": "d609f26bf64f1d991312175536cbb77bae7aa2c5",
+  "manifest_sha256": "0ebb79e878028b206a41d0e3e2dd41ed4b57428c6e89fdbd3dc81f86ef16aacf",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "ir.actions.server:1794",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.weekly_kpi_digest"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.cron:92",
+      "type": "create_cron",
+      "xml_id": "bicc_recruitment.cron_weekly_kpi_digest"
+    }
+  ],
+  "started_at": "2026-05-12T04:52:10Z",
+  "status": "deployed"
+}
