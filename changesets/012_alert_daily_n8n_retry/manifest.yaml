@@ -1,0 +1,27 @@
+id: 012_alert_daily_n8n_retry
+schema_version: 1
+description: |
+  Daily 2 AM PHT cron. Lists applicants stuck in Stage 1 (New) for > 24h
+  and emails the HR Recruitment Manager group a digest. Posts a chatter
+  line on each stuck applicant for audit.
+
+  Pure-procedural script; no closures. Recipient command list built via
+  explicit for-loop rather than the original tuple-comprehension.
+
+author: ai
+
+operations:
+  - type: create_server_action
+    xml_id: bicc_recruitment.daily_n8n_retry
+    name: "BICC v5: Daily n8n Retry (2AM PHT)"
+    model: hr.applicant
+    code_file: daily_n8n_retry.py
+
+  - type: create_cron
+    xml_id: bicc_recruitment.cron_daily_n8n_retry
+    name: "BICC v5: Daily n8n Retry (2AM PHT)"
+    model: hr.applicant
+    code_file: daily_n8n_retry.py
+    interval_number: 1
+    interval_type: days
+    nextcall: "2026-05-12 18:00:00"
