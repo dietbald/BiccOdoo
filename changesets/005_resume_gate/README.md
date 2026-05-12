@@ -18,20 +18,22 @@ does not re-declare them.
 
 1. **Source auto-detection.** Scans `partner_name` + `email_from` for
    keywords (`via SEEK`, `via JobStreet`, `via Indeed`, `via LinkedIn`,
-   `via Facebook`, `OnlineJobs.ph`) and sets `source_id` to the matching
-   `utm.source`. Cleans the "via XXXX" suffix from the applicant's name.
-   The OnlineJobs case posts a chatter warning because the forwarded
-   notification usually has the wrong name.
+   `OnlineJobs.ph`) and sets `source_id` to the matching `utm.source`.
+   Cleans the "via XXXX" suffix from the applicant's name. The
+   OnlineJobs case posts a chatter warning because the forwarded
+   notification usually has the wrong name. **No Facebook pattern** —
+   Facebook traffic comes through the BICC website and applies via the
+   careers form, so it's handled by the Website branch below.
 
 2. **Resume gate (scoped).** If the job has `x_studio_resume_required =
    True` AND the applicant has zero attachments, the script decides
    whether to email the *Request for Resume* template. **Auto-trigger
    channels** (email fires):
 
-   - source detected as **Facebook**
    - source detected as **Jobstreet** (via SEEK or via JobStreet)
    - applicant created by the **public/portal user** with no detected
-     source — i.e. the website careers form
+     source — i.e. the website careers form (also covers Facebook
+     traffic which goes through the BICC website first)
 
    **Not auto-triggered** (chatter logs the skip; HR handles manually):
 
@@ -55,9 +57,9 @@ does not re-declare them.
    resume → applicant lands in Stage 1, source set to `Search engine`,
    chatter logs *"Auto-request email skipped - channel 'Search engine'
    is not in the auto-trigger list"*. No email goes out.
-3. Repeat with `partner_name = "Juan Dela Cruz via Facebook"` → applicant
-   lands in Stage 1, source = `Facebook`, chatter logs *"Request sent
-   (channel: Facebook)"*. Email goes out.
+3. Repeat with `partner_name = "Juan Dela Cruz via JobStreet"` → applicant
+   lands in Stage 1, source = `Jobstreet`, chatter logs *"Request sent
+   (channel: Jobstreet)"*. Email goes out.
 4. Submit a public-form applicant via the website careers page with no
    resume → applicant lands in Stage 1 with no source, chatter logs
    *"Request sent (channel: website form)"*. Email goes out.

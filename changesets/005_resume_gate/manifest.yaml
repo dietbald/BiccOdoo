@@ -12,7 +12,9 @@ description: |
        - The applicant has no attachments AND the job requires a resume,
        AND
        - The applicant came through one of the auto-trigger channels:
-         Facebook, Jobstreet/SEEK, or the website careers form.
+         Jobstreet/SEEK or the website careers form. (Facebook traffic
+         lands on the BICC website first and applies via the careers
+         form, so it's covered by the Website branch.)
      Every other channel (Indeed, LinkedIn, OnlineJobs, HR manual
      creates, or any unknown channel) is excluded from the auto-trigger
      and HR follows up manually.

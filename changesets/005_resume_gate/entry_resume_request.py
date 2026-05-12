@@ -4,11 +4,12 @@
 #   1. Auto-detect source from partner_name/email_from keywords (Indeed,
 #      LinkedIn, Facebook, Jobstreet, OnlineJobs).
 #   2. Resume gate: email the "Request for Resume" template ONLY when
-#      the applicant came through Facebook, Jobstreet/SEEK, or the
-#      website careers form, AND has no resume attached, AND the job
-#      requires a resume. All other channels (Indeed, LinkedIn,
-#      OnlineJobs, HR manual creates, unknown) are excluded — HR
-#      handles those manually.
+#      the applicant came through Jobstreet/SEEK or the website careers
+#      form, AND has no resume attached, AND the job requires a resume.
+#      All other channels (Indeed, LinkedIn, OnlineJobs, HR manual
+#      creates, unknown) are excluded — HR handles those manually.
+#      Facebook traffic goes through the BICC website first and submits
+#      via the careers form, so it's covered by the "Website" branch.
 #
 #   This server action NEVER moves applicants to Stage 2. n8n owns the
 #   Stage 1 → Stage 2 transition.
@@ -26,14 +27,15 @@ SOURCE_PATTERNS = [
     ('via JobStreet', 'Jobstreet'),
     ('via Indeed', 'Search engine'),
     ('via LinkedIn', 'LinkedIn'),
-    ('via Facebook', 'Facebook'),
     ('OnlineJobs.ph', 'OnlineJobs'),
     ('onlinejobs.ph', 'OnlineJobs'),
 ]
 
 # Detected-source names that should trigger the resume-request email.
 # Everything else is a manual / unknown channel and HR handles it.
-EMAIL_TRIGGER_SOURCES = ('Facebook', 'Jobstreet', 'Website')
+# (Facebook is not listed because Facebook applicants apply via the BICC
+# website and are covered by the public-user "Website" detection below.)
+EMAIL_TRIGGER_SOURCES = ('Jobstreet', 'Website')
 
 
 # ── 1. SOURCE AUTO-DETECTION ───────────────────────────────────────────────
@@ -102,5 +104,5 @@ if needs_resume:
         record.message_post(body=(
             "AUTOMATION: Resume missing. Auto-request email skipped - "
             "channel '%s' is not in the auto-trigger list "
-            "(Facebook, Jobstreet/SEEK, Website). HR to follow up manually."
+            "(Jobstreet/SEEK, Website). HR to follow up manually."
         ) % (matched_source or 'manual / unknown'))
