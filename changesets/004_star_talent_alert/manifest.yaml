@@ -1,16 +1,26 @@
 id: 004_star_talent_alert
 schema_version: 1
 description: |
-  Adds an automated action on survey.user_input that fires the moment ANY
-  scoring survey is submitted with score ≥ 90%. Looks up the matching
-  applicant by email_from, bumps their priority to ★★★ (priority='3'),
-  and posts a chatter alert tagging the assigned recruiter so they get
-  inbox-notified instantly.
+  Adds an automated action on survey.user_input that flags Star Candidates
+  based on TWO assessment scores combined:
+    - Logical assessment score >= 90%
+    - Technical assessment score >= 80%
+  Both surveys must be completed before the alert fires. The submission
+  of either Logical OR Technical re-checks the condition; submissions of
+  the Emotional / Info / other surveys do not (early-exit guard).
 
-  Pure routing — no fields, no templates, no schedule. Fires alongside
-  any other survey-done automations (e.g. info survey adjudication);
-  multiple base.automation rows on the same model + trigger run
-  independently.
+  When the gate passes, the action:
+    - bumps applicant.priority to '3' (★★★)
+    - posts a chatter alert tagging the assigned recruiter
+      (user_id.partner_id) so they get an inbox notification
+    - logs a "MANAGEMENT" trail line
+
+  Idempotency: if applicant.priority is already '3', the alert is skipped
+  to avoid spamming the recruiter on assessment retakes.
+
+  Pure routing — no fields, no templates, no schedule. Coexists with
+  other survey.user_input.on_write automations (e.g. info-survey
+  adjudication); each automation runs independently.
 
 author: ai
 
