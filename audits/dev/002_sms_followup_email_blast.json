@@ -1,62 +1,49 @@
 {
   "applied_by": "ai",
   "changeset": "002_sms_followup_email_blast",
-  "description": "Add the manual server action \"BICC v5: Send SMS Queue Digest\" plus a menu\nentry under Recruitment \u2192 Reporting that triggers it. When fired, it emails\nthe HR Recruitment Manager group ONE digest of every applicant who needs an\nSMS follow-up right now, grouped by job position. Each job is rendered as\nits own 3-column table (Applicant name with link, mobile number, ready-to\nsend SMS text with first name + company short name + job role pre-filled).\n\nAlso creates the five hr.applicant custom datetime fields the digest's\nqueue filters read. These fields originate from the recruitment v5\nreminder tracking system (already present on production via Studio but\nmissing on the dev database). Creating them here makes the action work\nend-to-end on every environment without a separate Studio step.\n\nQueues feeding the digest:\n- Qualification info-survey pending (Stage 2): reads x_studio_reminder_date\n  AND x_studio_sms_reminder_date.\n- Stage 1 resume missing: reads x_studio_resume_request_date AND\n  x_studio_sms_new_reminder_date.\n- Stage 7 assessment pending: reads x_studio_assessment_final_reminder_date.\n\nEntry points: HR can fire the digest from Recruitment \u2192 Reporting \u2192 SMS\nFollow-up Queue, or from any applicant's gear-icon Action menu.\n\nDiagnostics: the action always creates a visible mail.mail (auto_delete=\nFalse) with a Debug block in the body listing field-existence flags,\nper-queue counts, and recipient resolution \u2014 so \"nothing happened\"\noutcomes are diagnosable from the UI.\n",
+  "description": "Add the manual server action \"BICC v5: Send SMS Queue Digest\" plus a menu\nentry under Recruitment \u2192 Reporting that triggers it. When fired, it emails\nthe HR Recruitment Manager group ONE digest of every applicant who needs an\nSMS follow-up right now, grouped by job position. Each job is rendered as\nits own 3-column table (Applicant name with link, mobile number, ready-to-\nsend SMS text with first name + company short name + job role pre-filled).\n\nQueue gate is purely stage age + SMS-not-yet-sent. The digest does NOT\nrequire an email reminder to have fired first \u2014 overdue applicants\nappear regardless of whether the email cascade has played out, so HR\ncan SMS directly even when the email reminder cron is dormant on this\nenvironment.\n\nThree queues feeding the digest:\n- Qualification (Stage 2) overdue: date_last_stage_update older than\n  OVERDUE_DAYS (default 3), x_studio_sms_reminder_date null.\n- Resume missing (Stage 1) overdue: date_last_stage_update older than\n  OVERDUE_DAYS, attachment_number = 0, x_studio_sms_new_reminder_date null.\n- Assessment (Stage 7) overdue: date_last_stage_update older than\n  OVERDUE_DAYS, x_studio_assessment_sms_reminder_date null.\n\nAlso creates the three hr.applicant datetime fields the SMS dedup logic\nreads \u2014 needed because they are missing on the dev database. Already\npresent on production via Studio so the ops no-op on the prod env.\n\nEntry points: HR fires the digest from Recruitment \u2192 Reporting \u2192 SMS\nFollow-up Queue, or from any applicant's gear-icon Action menu.\n\nDiagnostics: the action always creates a visible mail.mail (auto_delete=\nFalse) with a Debug block in the body listing field-existence flags,\nper-queue counts, and recipient resolution.\n",
   "environment": "dev",
-  "finished_at": "2026-05-12T03:42:01Z",
-  "git_commit_sha": "7f73e606646785058af7a454ceb287f4a536b54b",
-  "manifest_sha256": "f52769ee4a8053b1f52a511f6e8022b842a3c4e07f142f12e36e9daebfbf506b",
+  "finished_at": "2026-05-12T03:53:40Z",
+  "git_commit_sha": "208c6f306cee3d7cef9c25a670dba8f0e1ab3cad",
+  "manifest_sha256": "7a134a77f61335aa71d03db24190a2fc062807e478e66deb7dcd4bcca7b64544",
   "operations": [
     {
       "op_index": 0,
-      "status": "created",
-      "target": "ir.model.fields:53259",
-      "type": "create_field",
-      "xml_id": "bicc_recruitment.field_hr_applicant_reminder_date"
-    },
-    {
-      "op_index": 1,
-      "status": "created",
+      "status": "skipped",
       "target": "ir.model.fields:53261",
       "type": "create_field",
       "xml_id": "bicc_recruitment.field_hr_applicant_sms_reminder_date"
     },
     {
-      "op_index": 2,
-      "status": "created",
-      "target": "ir.model.fields:53263",
-      "type": "create_field",
-      "xml_id": "bicc_recruitment.field_hr_applicant_resume_request_date"
-    },
-    {
-      "op_index": 3,
-      "status": "created",
+      "op_index": 1,
+      "status": "skipped",
       "target": "ir.model.fields:53265",
       "type": "create_field",
       "xml_id": "bicc_recruitment.field_hr_applicant_sms_new_reminder_date"
     },
     {
-      "op_index": 4,
+      "op_index": 2,
       "status": "created",
-      "target": "ir.model.fields:53267",
+      "target": "ir.model.fields:53269",
       "type": "create_field",
-      "xml_id": "bicc_recruitment.field_hr_applicant_assessment_final_reminder_date"
+      "xml_id": "bicc_recruitment.field_hr_applicant_assessment_sms_reminder_date"
     },
     {
-      "op_index": 5,
-      "status": "skipped",
+      "op_index": 3,
+      "rollback_snapshot": "rollback_snapshots/dev/002_sms_followup_email_blast/operation_003_ir_actions_server_1785.json",
+      "status": "updated",
       "target": "ir.actions.server:1785",
       "type": "create_server_action",
       "xml_id": "bicc_recruitment.sms_followup_email_blast"
     },
     {
-      "op_index": 6,
+      "op_index": 4,
       "status": "skipped",
       "target": "ir.ui.menu:1072",
       "type": "create_menu",
       "xml_id": "bicc_recruitment.menu_sms_followup_queue"
     }
   ],
-  "started_at": "2026-05-12T03:41:16Z",
+  "started_at": "2026-05-12T03:53:18Z",
   "status": "deployed"
 }
