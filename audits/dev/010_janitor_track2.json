@@ -1,0 +1,41 @@
+{
+  "applied_by": "ai",
+  "changeset": "010_janitor_track2",
+  "description": "Daily 8 AM PHT cron \u2014 Track 2 janitor for Stage 7 (Assessment Sent)\napplicants.\n\nFor each Stage-7 applicant past the 48h threshold:\n- Identify which of the 3 assessments are still incomplete; if any\n  missing, email a partial-link reminder. Cascades:\n    - first miss \u2192 General Follow-up Reminder (reuses Track 1 template)\n      + stamp x_studio_assessment_reminder_date\n    - second miss \u2192 Final Reminder + stamp\n      x_studio_assessment_final_reminder_date\n    - third miss \u2192 archive with \"Refuse did not complete assessment\"\n- All done \u2192 check scoring_success on each input:\n    - Any failed \u2192 kanban_state=blocked + REVIEW NEEDED chatter\n    - All passed \u2192 advance to Stage 10 (Passed Assessment)\n\nShips the create_field for x_studio_assessment_reminder_date (missing\non dev), the Score Below Passing Threshold template (for HR's manual\nrefusal of failed-assessment candidates), the SA, and the cron.\n\nDEPENDS on changeset 009 \u2014 Track 2 reuses Track 1's three templates\n(general/final/non-response) by name. Deploy 009 first.\n\nmodel_id=662 (hr.applicant).\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T05:12:05Z",
+  "git_commit_sha": "95c0815b19910b011f0820aa201369423cd376ef",
+  "manifest_sha256": "a53f9426e7b23c8dc7605d7b57dd60b56be26c5a1cc0a0ce91985782a90503ab",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "ir.model.fields:53272",
+      "type": "create_field",
+      "xml_id": "bicc_recruitment.field_hr_applicant_assessment_reminder_date"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "mail.template:114",
+      "type": "create_record",
+      "xml_id": "bicc_recruitment.tpl_score_failure"
+    },
+    {
+      "op_index": 2,
+      "status": "created",
+      "target": "ir.actions.server:1812",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.janitor_track2"
+    },
+    {
+      "op_index": 3,
+      "status": "created",
+      "target": "ir.cron:96",
+      "type": "create_cron",
+      "xml_id": "bicc_recruitment.cron_janitor_track2"
+    }
+  ],
+  "started_at": "2026-05-12T05:11:44Z",
+  "status": "deployed"
+}
