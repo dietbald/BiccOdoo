@@ -1,0 +1,41 @@
+{
+  "applied_by": "ai",
+  "changeset": "007_info_survey_adjudication",
+  "description": "Info-survey verdict gate on survey.user_input. Fires when the info\nsurvey is submitted (state \u2192 'done'):\n- Fail (scoring_success False) \u2192 archive + failure email if office\n  hours, or queue the refusal in x_studio_queued_refusal_id off hours.\n- Pass \u2192 advance to Stage 7 (Assessment Sent). Score \u2265 90 \u2192 flag as\n  Star Talent (priority=high).\n- Zombie recovery: re-activate archived applicants if their survey\n  arrives late.\n\nPure procedural \u2014 no closures.\n\nx_studio_queued_refusal_id (Char on hr.applicant) already exists on\nevery target env.\n\nmodel_id=662 = hr.applicant ir.model (verified consistent across envs).\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T05:07:42Z",
+  "git_commit_sha": "932079cb47e0f32c5bfa369500a55961af0355fa",
+  "manifest_sha256": "a113ed085b9d94bdc0c94bfd121a2498557d5b44fc793e33625786eb2820a91e",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "mail.template:109",
+      "type": "create_record",
+      "xml_id": "bicc_recruitment.tpl_info_survey_failure"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.actions.server:1805",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.info_survey_adjudication"
+    },
+    {
+      "op_index": 2,
+      "status": "created",
+      "sub_records": [
+        {
+          "status": "created",
+          "target": "ir.actions.server:1806",
+          "xml_id": "bicc_recruitment.automation_info_survey_adjudication__action"
+        }
+      ],
+      "target": "base.automation:23",
+      "type": "create_automated_action",
+      "xml_id": "bicc_recruitment.automation_info_survey_adjudication"
+    }
+  ],
+  "started_at": "2026-05-12T05:07:29Z",
+  "status": "deployed"
+}
