@@ -1,0 +1,83 @@
+id: 007_info_survey_adjudication
+schema_version: 1
+description: |
+  Info-survey verdict gate on survey.user_input. Fires when the info
+  survey is submitted (state → 'done'):
+  - Fail (scoring_success False) → archive + failure email if office
+    hours, or queue the refusal in x_studio_queued_refusal_id off hours.
+  - Pass → advance to Stage 7 (Assessment Sent). Score ≥ 90 → flag as
+    Star Talent (priority=high).
+  - Zombie recovery: re-activate archived applicants if their survey
+    arrives late.
+
+  Pure procedural — no closures.
+
+  x_studio_queued_refusal_id (Char on hr.applicant) already exists on
+  every target env.
+
+  model_id=662 = hr.applicant ir.model (verified consistent across envs).
+
+author: ai
+allow_generic_records: true
+
+operations:
+  - type: create_record
+    xml_id: bicc_recruitment.tpl_info_survey_failure
+    model: mail.template
+    values:
+      name: "Recruitment: Info Survey Below Passing Score"
+      model_id: 662
+      subject: "Your application for {{ object.job_id.name }}"
+      email_from: "{{ object.company_id.x_studio_short_name }} <{{ object.company_id.alias_domain_id.default_from_email }}>"
+      email_to: "{{ object.email_from }}"
+      lang: "{{ object.partner_id.lang }}"
+      auto_delete: false
+      body_html: |
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;background-color:#f2f2f2;margin:0;padding:0;">
+          <tbody>
+            <tr>
+              <td align="center" style="padding:20px 0;">
+                <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;max-width:600px;background-color:#ffffff;color:#101820;font-family:'Roboto',sans-serif;font-size:13px;line-height:1.6;">
+                  <tbody>
+                    <tr>
+                      <td style="padding:20px;">
+                        <p style="margin:0;padding:0;font-size:13px;">
+                          Hi <t t-out="object.partner_name or 'there'"/>,
+                          <br/><br/>
+                          Thanks for completing the information form for the <b><t t-out="object.job_id.name or 'open'"/></b> position at <t t-out="object.company_id.name or 'Our Company'"/>.
+                          <br/><br/>
+                          After reviewing your responses, we've determined that we won't be able to proceed with your application for this specific role. Your responses didn't meet the requirements for this position.
+                          <br/><br/>
+                          We encourage you to explore other opportunities with us in the future that may be a better fit for your profile.
+                          <br/><br/>
+                          If you believe this was an error, feel free to reply to this email and a member of our team will review your case.
+                          <br/><br/>
+                          Best of luck in your career.
+                          <br/><br/>
+                          Best regards,<br/>
+                          <t t-out="object.company_id.name or 'Our Company'"/> Recruitment Team<br/>
+                          <a t-att-href="object.company_id.website" style="text-decoration:none;color:#374151;">
+                            <t t-out="object.company_id.website"/>
+                          </a>
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+  - type: create_server_action
+    xml_id: bicc_recruitment.info_survey_adjudication
+    name: "BICC v5: Info Survey Adjudication"
+    model: survey.user_input
+    code_file: info_survey_adjudication.py
+
+  - type: create_automated_action
+    xml_id: bicc_recruitment.automation_info_survey_adjudication
+    name: "BICC v5: Info Survey Adjudication (survey done)"
+    model: survey.user_input
+    trigger: on_write
+    code_file: info_survey_adjudication.py
