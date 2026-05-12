@@ -1,23 +1,30 @@
 id: 002_sms_followup_email_blast
 schema_version: 1
 description: |
-  Add a manual server action "BICC v5: Send SMS Queue Digest" to the
-  hr.applicant Action menu. When triggered, it emails the HR Recruitment
-  Manager group ONE digest listing every applicant who needs an SMS
-  follow-up right now. Each section is a 3-column table (Applicant name
-  with link, mobile number, ready-to-send SMS text) for the three
-  populations the daily sms_queue_digest cron already surfaces:
-  Qualification info-survey pending, Stage 1 resume missing, Stage 7
-  assessment pending.
+  Add the manual server action "BICC v5: Send SMS Queue Digest" plus a menu
+  entry under Recruitment → Reporting that triggers it. When fired, it emails
+  the HR Recruitment Manager group ONE digest of every applicant who needs an
+  SMS follow-up right now, grouped by job position. Each job is rendered as
+  its own 3-column table (Applicant name with link, mobile number, ready-to
+  send SMS text with first name + company short name + job role pre-filled).
 
-  HR copies each SMS into their phone, sends it manually, then marks
-  the corresponding x_studio_sms_*_date on the applicant so the queue
-  clears. The action does not send anything to applicants directly and
-  does not mutate any reminder fields.
+  The three queues feeding the digest mirror the existing daily
+  sms_queue_digest cron: Qualification info-survey pending (Stage 2),
+  Stage 1 resume missing, Stage 7 assessment pending. The wording of each
+  candidate's SMS depends on which queue they sit in.
 
-  Defensive: each section field-checks at runtime, so the action is safe
-  to deploy before the v5 reminder-field blocks land — sections whose
-  driving field is missing are simply omitted from the digest.
+  HR copies each SMS into their phone, sends it manually, then marks the
+  corresponding x_studio_sms_*_date on the applicant so the queue clears.
+  The action does not send anything to applicants directly and does not
+  mutate any reminder fields.
+
+  Defensive: each queue field-checks at runtime, so the action is safe to
+  deploy before the v5 reminder-field blocks land — queues whose driving
+  field is missing are simply omitted from the digest.
+
+  Entry points: HR can fire the digest either from Recruitment → Reporting
+  → SMS Follow-up Queue, or from any applicant's gear-icon Action menu
+  (form + list views).
 
 author: ai
 
@@ -29,3 +36,10 @@ operations:
     code_file: send_email_blast.py
     binding_model: hr.applicant
     binding_view_types: "form,list"
+
+  - type: create_menu
+    xml_id: bicc_recruitment.menu_sms_followup_queue
+    name: "SMS Follow-up Queue"
+    parent_xml_id: hr_recruitment.report_hr_recruitment
+    action_xml_id: bicc_recruitment.sms_followup_email_blast
+    sequence: 50
