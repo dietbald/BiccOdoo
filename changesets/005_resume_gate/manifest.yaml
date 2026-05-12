@@ -2,18 +2,18 @@ id: 005_resume_gate
 schema_version: 1
 description: |
   Entry-point automation for new applicants. Fires on hr.applicant.on_create
-  and runs three checks in sequence:
+  and runs two checks in sequence:
 
   1. Source detection — scans partner_name + email_from for keywords like
      "via Indeed" / "via LinkedIn" / "OnlineJobs.ph" and sets utm source
      accordingly. Cleans "via XXXX" suffix from the applicant name.
-  2. Duplicate check — if the same (email, job) exists within a 30-day
-     window, archives the new record and transfers attachments to the
-     original if the original is still in Stage 1 with no resume.
-  3. Resume gate — if the job's x_studio_resume_required is True and the
+  2. Resume gate — if the job's x_studio_resume_required is True and the
      applicant has zero attachments, emails the "Request for Resume"
      template and stamps x_studio_resume_request_date. Otherwise advances
      directly to Stage 2 (Qualification).
+
+  Duplicate detection is intentionally NOT done here — HR handles
+  duplicates manually.
 
   Ships the template, the server action, and the on_create automation.
   The two custom fields the gate reads (hr.applicant.x_studio_resume_request_date
@@ -21,8 +21,8 @@ description: |
   env — on prod via Studio, on dev via changeset 002's initial push,
   on staging via the prod-clone — so we do NOT re-declare them here.
 
-  Pure procedural script: the three helper functions in the original
-  block 01 script were inlined to remove safe_eval closure risks.
+  Pure procedural script: the helper functions in the original block 01
+  script were inlined to remove safe_eval closure risks.
 
 author: ai
 allow_generic_records: true

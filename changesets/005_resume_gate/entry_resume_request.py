@@ -1,13 +1,14 @@
 # TRIGGER: hr.applicant on_create
 # MODEL: hr.applicant
-# DESCRIPTION: Entry gate. Three responsibilities on every new applicant:
-#   1. Auto-detect source from partner_name/email_from keywords
-#   2. Duplicate check within 30-day window for same (email, job) — if a
-#      duplicate exists, archive the new record and transfer attachments
-#      to the original if needed.
-#   3. Resume gate: if job requires a resume and applicant has none,
-#      email the "Request for Resume" template and stamp
+# DESCRIPTION: Entry gate. Two responsibilities on every new applicant:
+#   1. Auto-detect source from partner_name/email_from keywords (Indeed,
+#      LinkedIn, Facebook, Jobstreet, OnlineJobs).
+#   2. Resume gate: if the job requires a resume and the applicant has
+#      none, email the "Request for Resume" template and stamp
 #      x_studio_resume_request_date. Otherwise advance to Stage 2.
+#
+#   Duplicate detection is intentionally NOT done here — HR handles
+#   duplicates manually.
 #
 # Pure procedural — no nested defs, no closures.
 
@@ -26,7 +27,8 @@ SOURCE_PATTERNS = [
     ('onlinejobs.ph', 'OnlineJobs'),
 ]
 
-# ── 0. SOURCE AUTO-DETECTION ───────────────────────────────────────────────
+
+# ── 1. SOURCE AUTO-DETECTION ───────────────────────────────────────────────
 name = record.partner_name or ''
 email = record.email_from or ''
 matched_source = None
@@ -50,55 +52,22 @@ if matched_source and not record.source_id:
         record.message_post(body="AUTOMATION: Source auto-detected as '%s'." % matched_source)
 
 
-# ── 1. DUPLICATE CHECK + 2. RESUME GATE  ────────────────────────────────────
-# We inline the resume-gate logic in two places (once for "no email"
-# branch, once for "no duplicate" branch) to avoid a nested def.
+# ── 2. RESUME GATE ──────────────────────────────────────────────────────────
+needs_resume = bool(record.job_id and record.job_id.x_studio_resume_required) and record.attachment_number == 0
 
-is_duplicate = False
-if record.email_from:
-    cutoff = (datetime.datetime.now() - datetime.timedelta(days=30)).strftime('%Y-%m-%d %H:%M:%S')
-    duplicate = env['hr.applicant'].search([
-        ('email_from', '=', record.email_from),
-        ('job_id', '=', record.job_id.id if record.job_id else False),
-        ('id', '!=', record.id),
-        ('create_date', '>', cutoff),
-    ], limit=1)
-    if duplicate:
-        is_duplicate = True
-        if (duplicate.stage_id.id == STAGE_NEW
-                and duplicate.attachment_number == 0
-                and record.attachment_number > 0):
-            attachments = env['ir.attachment'].search([
-                ('res_model', '=', 'hr.applicant'),
-                ('res_id', '=', record.id),
-            ])
-            if attachments:
-                attachments.write({'res_id': duplicate.id})
-                duplicate.message_post(body=(
-                    "AUTOMATION: Transferred %d attachment(s) from duplicate "
-                    "Applicant #%d."
-                ) % (len(attachments), record.id))
-        record.message_post(body=(
-            "AUTO-ARCHIVE: Duplicate of Applicant #%d (same email + job within 30 days)."
-        ) % duplicate.id)
-        record.write({'active': False})
-
-if not is_duplicate:
-    # Resume gate
-    needs_resume = bool(record.job_id and record.job_id.x_studio_resume_required) and record.attachment_number == 0
-    if needs_resume:
-        if record.email_from:
-            tpl = env['mail.template'].search([('name', '=', TPL_RESUME_REQUEST)], limit=1)
-            if tpl.exists():
-                tpl.send_mail(record.id, force_send=False)
-                record.write({'x_studio_resume_request_date': datetime.datetime.now()})
-                record.message_post(body="AUTOMATION: Resume required but missing. Request sent.")
-            else:
-                record.message_post(body=(
-                    "AUTOMATION ERROR: Template '%s' not found."
-                ) % TPL_RESUME_REQUEST)
+if needs_resume:
+    if record.email_from:
+        tpl = env['mail.template'].search([('name', '=', TPL_RESUME_REQUEST)], limit=1)
+        if tpl.exists():
+            tpl.send_mail(record.id, force_send=False)
+            record.write({'x_studio_resume_request_date': datetime.datetime.now()})
+            record.message_post(body="AUTOMATION: Resume required but missing. Request sent.")
         else:
-            record.message_post(body="AUTOMATION: Resume required but missing. No email to send request.")
+            record.message_post(body=(
+                "AUTOMATION ERROR: Template '%s' not found."
+            ) % TPL_RESUME_REQUEST)
     else:
-        record.write({'stage_id': STAGE_QUALIFICATION})
-        record.message_post(body="AUTOMATION: Qualifications met. Moving to Qualification stage.")
+        record.message_post(body="AUTOMATION: Resume required but missing. No email to send request.")
+else:
+    record.write({'stage_id': STAGE_QUALIFICATION})
+    record.message_post(body="AUTOMATION: Qualifications met. Moving to Qualification stage.")
