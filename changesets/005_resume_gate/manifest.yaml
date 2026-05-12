@@ -7,16 +7,18 @@ description: |
   1. Source detection — scans partner_name + email_from for keywords like
      "via Indeed" / "via LinkedIn" / "OnlineJobs.ph" and sets utm source
      accordingly. Cleans "via XXXX" suffix from the applicant name.
-  2. Resume gate — if the job's x_studio_resume_required is True and the
-     applicant has zero attachments, emails the "Request for Resume"
-     template (but ONLY when the create_uid is NOT in the HR Recruitment
-     User group — HR manual creates skip the email because HR will
-     attach the resume seconds after saving). Otherwise advances
-     directly to Stage 2 (Qualification).
 
-  External creates (website form, n8n webhook, API uploads) DO get the
-  email immediately because their create_uid is a public / bot / API user
-  with no HR group.
+  2. Resume gate — emails the "Request for Resume" template ONLY when:
+       - The applicant has no attachments AND the job requires a resume,
+       AND
+       - The applicant came through one of the auto-trigger channels:
+         Facebook, Jobstreet/SEEK, or the website careers form.
+     Every other channel (Indeed, LinkedIn, OnlineJobs, HR manual
+     creates, or any unknown channel) is excluded from the auto-trigger
+     and HR follows up manually.
+
+  This server action NEVER writes stage_id. n8n owns the Stage 1 → Stage 2
+  transition.
 
   Duplicate detection is intentionally NOT done here — HR handles
   duplicates manually.

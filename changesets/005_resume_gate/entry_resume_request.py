@@ -3,21 +3,21 @@
 # DESCRIPTION: Entry gate. Two responsibilities on every new applicant:
 #   1. Auto-detect source from partner_name/email_from keywords (Indeed,
 #      LinkedIn, Facebook, Jobstreet, OnlineJobs).
-#   2. Resume gate: if the job requires a resume and the applicant has
-#      none, email the "Request for Resume" template — but only if the
-#      applicant was NOT created by an HR user. HR users manually adding
-#      an applicant typically attach the resume seconds after saving;
-#      we don't want to spam the candidate before HR has had a chance.
-#      External creates (website form, n8n webhook, public-portal) DO
-#      get the email immediately.
+#   2. Resume gate: email the "Request for Resume" template ONLY when
+#      the applicant came through Facebook, Jobstreet/SEEK, or the
+#      website careers form, AND has no resume attached, AND the job
+#      requires a resume. All other channels (Indeed, LinkedIn,
+#      OnlineJobs, HR manual creates, unknown) are excluded — HR
+#      handles those manually.
+#
+#   This server action NEVER moves applicants to Stage 2. n8n owns the
+#   Stage 1 → Stage 2 transition.
 #
 #   Duplicate detection is intentionally NOT done here — HR handles
 #   duplicates manually.
 #
 # Pure procedural — no nested defs, no closures.
 
-STAGE_NEW = 1
-STAGE_QUALIFICATION = 2
 TPL_RESUME_REQUEST = 'Recruitment: Request for Resume (Missing Attachment)'
 
 # Source detection: (keyword to look for in name/email, utm.source name to set)
@@ -30,6 +30,10 @@ SOURCE_PATTERNS = [
     ('OnlineJobs.ph', 'OnlineJobs'),
     ('onlinejobs.ph', 'OnlineJobs'),
 ]
+
+# Detected-source names that should trigger the resume-request email.
+# Everything else is a manual / unknown channel and HR handles it.
+EMAIL_TRIGGER_SOURCES = ('Facebook', 'Jobstreet', 'Website')
 
 
 # ── 1. SOURCE AUTO-DETECTION ───────────────────────────────────────────────
@@ -60,32 +64,43 @@ if matched_source and not record.source_id:
 needs_resume = bool(record.job_id and record.job_id.x_studio_resume_required) and record.attachment_number == 0
 
 if needs_resume:
-    # Skip the email when the creator is an HR user — they'll attach the
-    # resume themselves seconds after saving. Auto-applicants (website
-    # form, n8n webhook, etc.) have a non-HR create_uid (public user, API
-    # user, OdooBot) and DO get the email immediately.
-    created_by_hr = bool(
+    # Detect "website careers form" submissions: create_uid is the public
+    # user (Odoo's standard for portal-form submissions). The website
+    # module typically leaves source_id empty, so we don't expect a
+    # matched_source for these.
+    public_user = env.ref('base.public_user', raise_if_not_found=False)
+    is_website_form = bool(
+        public_user and
         record.create_uid and
-        record.create_uid.has_group('hr_recruitment.group_hr_recruitment_user')
+        record.create_uid.id == public_user.id
     )
 
-    if created_by_hr:
-        record.message_post(body=(
-            "AUTOMATION: Created by HR user (%s). Resume-request email "
-            "skipped — please attach the resume manually."
-        ) % (record.create_uid.name or 'unknown'))
-    elif record.email_from:
-        tpl = env['mail.template'].search([('name', '=', TPL_RESUME_REQUEST)], limit=1)
-        if tpl.exists():
-            tpl.send_mail(record.id, force_send=False)
-            record.write({'x_studio_resume_request_date': datetime.datetime.now()})
-            record.message_post(body="AUTOMATION: Resume required but missing. Request sent.")
+    fires_email = (matched_source in EMAIL_TRIGGER_SOURCES) or is_website_form
+
+    if fires_email:
+        if record.email_from:
+            tpl = env['mail.template'].search([('name', '=', TPL_RESUME_REQUEST)], limit=1)
+            if tpl.exists():
+                tpl.send_mail(record.id, force_send=False)
+                record.write({'x_studio_resume_request_date': datetime.datetime.now()})
+                channel = matched_source or 'website form'
+                record.message_post(body=(
+                    "AUTOMATION: Resume required but missing. Request sent (channel: %s)."
+                ) % channel)
+            else:
+                record.message_post(body=(
+                    "AUTOMATION ERROR: Template '%s' not found."
+                ) % TPL_RESUME_REQUEST)
         else:
             record.message_post(body=(
-                "AUTOMATION ERROR: Template '%s' not found."
-            ) % TPL_RESUME_REQUEST)
+                "AUTOMATION: Resume required but missing. No email to send request."
+            ))
     else:
-        record.message_post(body="AUTOMATION: Resume required but missing. No email to send request.")
-else:
-    record.write({'stage_id': STAGE_QUALIFICATION})
-    record.message_post(body="AUTOMATION: Qualifications met. Moving to Qualification stage.")
+        # Channel is excluded from the auto-trigger (Indeed, LinkedIn,
+        # OnlineJobs, HR manual create, or unknown). HR will follow up
+        # manually.
+        record.message_post(body=(
+            "AUTOMATION: Resume missing. Auto-request email skipped - "
+            "channel '%s' is not in the auto-trigger list "
+            "(Facebook, Jobstreet/SEEK, Website). HR to follow up manually."
+        ) % (matched_source or 'manual / unknown'))
