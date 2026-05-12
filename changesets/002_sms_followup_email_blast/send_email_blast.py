@@ -24,6 +24,10 @@ STAGE_ASSESSMENT_SENT = 7
 # sooner or later.
 OVERDUE_DAYS = 3
 
+# Cap on candidates per digest. Most-recently-applied are kept (assumed to
+# be the most active) and the rest are dropped with a "+N more" footnote.
+MAX_CANDIDATES = 100
+
 now = datetime.datetime.now()
 threshold = (now - datetime.timedelta(days=OVERDUE_DAYS)).strftime('%Y-%m-%d %H:%M:%S')
 base_url = env['ir.config_parameter'].sudo().get_param('web.base.url', '')
@@ -127,7 +131,30 @@ if has_assessment_sms_date:
         entries.append((r, message))
 
 
-# ── Group by job, then render ──────────────────────────────────────────────
+# ── Sort by most recently applied (descending), cap to MAX_CANDIDATES ──────
+# We sort ALL collected entries together (across all three queues) so the
+# cap reflects the absolutely-most-recent applicants regardless of which
+# queue they sit in. Tuple sort gives (create_date desc, id desc) — both
+# are descending because Python sorts then we set reverse=True.
+total_before_cap = len(entries)
+
+sortable = []
+for applicant, message in entries:
+    # applicant.create_date is always set by Odoo on create — safe to use.
+    sortable.append((applicant.create_date, applicant.id, applicant, message))
+sortable.sort(reverse=True)
+sortable = sortable[:MAX_CANDIDATES]
+
+entries = []
+for create_date, applicant_id, applicant, message in sortable:
+    entries.append((applicant, message))
+
+total_count = len(entries)
+dropped = total_before_cap - total_count
+
+
+# ── Group by job, then render. Within each job, preserve the most-recent-
+#    first order from the flat sort above (dicts keep insertion order). ────
 groups = {}
 for applicant, message in entries:
     job_label = applicant.job_id.name if applicant.job_id else '(No job position)'
@@ -139,7 +166,6 @@ job_labels = list(groups.keys())
 job_labels.sort()
 
 sections_html = ""
-total_count = len(entries)
 
 for job_label in job_labels:
     job_entries = groups[job_label]
@@ -205,11 +231,13 @@ debug_html = (
     "  hr.applicant.x_studio_sms_new_reminder_date           = %s  (Resume Missing gate)\n"
     "  hr.applicant.x_studio_assessment_sms_reminder_date    = %s  (Assessment gate)\n"
     "\n"
-    "Queue counts:\n"
+    "Queue counts (pre-cap):\n"
     "  Qualification (Stage 2, overdue)              : %d\n"
     "  Resume missing (Stage 1, overdue, no resume)  : %d\n"
     "  Assessment (Stage 7, overdue)                 : %d\n"
-    "  TOTAL                                          : %d\n"
+    "  TOTAL pre-cap                                  : %d\n"
+    "  Cap (MAX_CANDIDATES)                           : %d\n"
+    "  TOTAL after cap                                : %d (dropped: %d)\n"
     "\n"
     "Recipient resolution:\n"
     "  Source: %s\n"
@@ -231,7 +259,10 @@ debug_html = (
     n_qual,
     n_resume,
     n_asses,
+    total_before_cap,
+    MAX_CANDIDATES,
     total_count,
+    dropped,
     recipient_source,
     len(notify_partners),
     ', '.join(recipient_names) if recipient_names else '(none)',
@@ -240,14 +271,25 @@ debug_html = (
 
 # ── Email body assembly ────────────────────────────────────────────────────
 if total_count > 0:
-    subject = "%s SMS Queue: %d candidate(s) need a follow-up SMS" % (company_name, total_count)
+    if dropped > 0:
+        subject = "%s SMS Queue: top %d of %d candidate(s)" % (company_name, total_count, total_before_cap)
+        cap_note = (
+            "<p style='background:#fff8e1;padding:10px 14px;border-left:3px solid #f5b400;'>"
+            "Showing the <b>%d</b> most recently applied candidates (out of <b>%d</b> total overdue). "
+            "%d older candidate(s) were dropped from this digest. "
+            "Re-trigger after clearing this batch to see the next %d.</p>"
+        ) % (total_count, total_before_cap, dropped, MAX_CANDIDATES)
+    else:
+        subject = "%s SMS Queue: %d candidate(s) need a follow-up SMS" % (company_name, total_count)
+        cap_note = ""
     header = (
         "<h2 style='color:#101820;'>%s SMS Queue (manual request)</h2>"
-        "<p>Below is one section per job position with the candidates who need "
-        "an SMS follow-up right now. Copy the <b>SMS to send</b> column into "
-        "your phone, text it to the matching number, then mark the SMS "
+        "%s"
+        "<p>Below is one section per job position, sorted with the most "
+        "recently applied candidates first. Copy the <b>SMS to send</b> column "
+        "into your phone, text it to the matching number, then mark the SMS "
         "reminder date on the applicant record so the queue clears.</p>"
-    ) % company_name
+    ) % (company_name, cap_note)
 else:
     subject = "%s SMS Queue: nothing to send right now" % company_name
     header = (
@@ -283,6 +325,6 @@ if record and record._name == 'hr.applicant':
     ) % (n_qual, n_resume, n_asses, total_count, len(notify_partners), recipient_source, mail.id))
 
 
-log("SMS queue digest: total=%d (qual=%d resume=%d assess=%d) threshold=%dd recipients=%d mail.id=%d" % (
-    total_count, n_qual, n_resume, n_asses, OVERDUE_DAYS, len(notify_partners), mail.id
+log("SMS queue digest: shown=%d/%d (qual=%d resume=%d assess=%d, dropped=%d) threshold=%dd recipients=%d mail.id=%d" % (
+    total_count, total_before_cap, n_qual, n_resume, n_asses, dropped, OVERDUE_DAYS, len(notify_partners), mail.id
 ))
