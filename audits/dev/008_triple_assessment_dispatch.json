@@ -1,0 +1,48 @@
+{
+  "applied_by": "ai",
+  "changeset": "008_triple_assessment_dispatch",
+  "description": "Stage-7 (Assessment Sent) entry handler. When an applicant enters Stage\n7, generates per-candidate token URLs for the job's three assessments\nand emails a single bundle. Skips any assessment the candidate already\ncompleted in a prior application (matched by email_from).\n\nThree assessments per job: Technical (native hr.job.survey_id), Logical\n(hr.job.x_studio_logical_assessment), Emotional\n(hr.job.x_studio_emotional_assessment). Latter two are custom Studio\nfields that already exist on every target env.\n\nShips the Triple Assessment Bundle template, the dispatch SA, the\nstage-write automation, and the recruiter \"Resend Assessment Bundle\"\nbutton on the hr.applicant Action menu.\n\nmodel_id=662 (hr.applicant ir.model).\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T05:08:55Z",
+  "git_commit_sha": "6189cca4335ea9a5897e36884b26dfb21834cf14",
+  "manifest_sha256": "32df7ba183dd052fe7ea77a495f40d9b9e120f6bc86ecb90069f3d5543c32ce5",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "mail.template:110",
+      "type": "create_record",
+      "xml_id": "bicc_recruitment.tpl_triple_assessment_bundle"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.actions.server:1807",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.triple_assessment_dispatch"
+    },
+    {
+      "op_index": 2,
+      "status": "created",
+      "sub_records": [
+        {
+          "status": "created",
+          "target": "ir.actions.server:1808",
+          "xml_id": "bicc_recruitment.automation_triple_assessment_dispatch__action"
+        }
+      ],
+      "target": "base.automation:24",
+      "type": "create_automated_action",
+      "xml_id": "bicc_recruitment.automation_triple_assessment_dispatch"
+    },
+    {
+      "op_index": 3,
+      "status": "created",
+      "target": "ir.actions.server:1809",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.resend_assessment_bundle"
+    }
+  ],
+  "started_at": "2026-05-12T05:08:32Z",
+  "status": "deployed"
+}
