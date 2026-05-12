@@ -8,27 +8,62 @@ description: |
   its own 3-column table (Applicant name with link, mobile number, ready-to
   send SMS text with first name + company short name + job role pre-filled).
 
-  The three queues feeding the digest mirror the existing daily
-  sms_queue_digest cron: Qualification info-survey pending (Stage 2),
-  Stage 1 resume missing, Stage 7 assessment pending. The wording of each
-  candidate's SMS depends on which queue they sit in.
+  Also creates the five hr.applicant custom datetime fields the digest's
+  queue filters read. These fields originate from the recruitment v5
+  reminder tracking system (already present on production via Studio but
+  missing on the dev database). Creating them here makes the action work
+  end-to-end on every environment without a separate Studio step.
 
-  HR copies each SMS into their phone, sends it manually, then marks the
-  corresponding x_studio_sms_*_date on the applicant so the queue clears.
-  The action does not send anything to applicants directly and does not
-  mutate any reminder fields.
+  Queues feeding the digest:
+  - Qualification info-survey pending (Stage 2): reads x_studio_reminder_date
+    AND x_studio_sms_reminder_date.
+  - Stage 1 resume missing: reads x_studio_resume_request_date AND
+    x_studio_sms_new_reminder_date.
+  - Stage 7 assessment pending: reads x_studio_assessment_final_reminder_date.
 
-  Defensive: each queue field-checks at runtime, so the action is safe to
-  deploy before the v5 reminder-field blocks land — queues whose driving
-  field is missing are simply omitted from the digest.
+  Entry points: HR can fire the digest from Recruitment → Reporting → SMS
+  Follow-up Queue, or from any applicant's gear-icon Action menu.
 
-  Entry points: HR can fire the digest either from Recruitment → Reporting
-  → SMS Follow-up Queue, or from any applicant's gear-icon Action menu
-  (form + list views).
+  Diagnostics: the action always creates a visible mail.mail (auto_delete=
+  False) with a Debug block in the body listing field-existence flags,
+  per-queue counts, and recipient resolution — so "nothing happened"
+  outcomes are diagnosable from the UI.
 
 author: ai
 
 operations:
+  # ── Custom fields needed by the action (skipped on envs where they exist) ──
+  - type: create_field
+    xml_id: bicc_recruitment.field_hr_applicant_reminder_date
+    model: hr.applicant
+    name: x_studio_reminder_date
+    field_type: datetime
+
+  - type: create_field
+    xml_id: bicc_recruitment.field_hr_applicant_sms_reminder_date
+    model: hr.applicant
+    name: x_studio_sms_reminder_date
+    field_type: datetime
+
+  - type: create_field
+    xml_id: bicc_recruitment.field_hr_applicant_resume_request_date
+    model: hr.applicant
+    name: x_studio_resume_request_date
+    field_type: datetime
+
+  - type: create_field
+    xml_id: bicc_recruitment.field_hr_applicant_sms_new_reminder_date
+    model: hr.applicant
+    name: x_studio_sms_new_reminder_date
+    field_type: datetime
+
+  - type: create_field
+    xml_id: bicc_recruitment.field_hr_applicant_assessment_final_reminder_date
+    model: hr.applicant
+    name: x_studio_assessment_final_reminder_date
+    field_type: datetime
+
+  # ── Server action + menu entry ─────────────────────────────────────────────
   - type: create_server_action
     xml_id: bicc_recruitment.sms_followup_email_blast
     name: "BICC v5: Send SMS Queue Digest"
