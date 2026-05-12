@@ -15,9 +15,11 @@ description: |
      template and stamps x_studio_resume_request_date. Otherwise advances
      directly to Stage 2 (Qualification).
 
-  Ships the two custom fields the gate reads (idempotent on dev where
-  some already exist), the template, the server action, and the
-  on_create automation.
+  Ships the template, the server action, and the on_create automation.
+  The two custom fields the gate reads (hr.applicant.x_studio_resume_request_date
+  and hr.job.x_studio_resume_required) already exist on every target
+  env — on prod via Studio, on dev via changeset 002's initial push,
+  on staging via the prod-clone — so we do NOT re-declare them here.
 
   Pure procedural script: the three helper functions in the original
   block 01 script were inlined to remove safe_eval closure risks.
@@ -26,18 +28,6 @@ author: ai
 allow_generic_records: true
 
 operations:
-  - type: create_field
-    xml_id: bicc_recruitment.field_hr_applicant_resume_request_date_005
-    model: hr.applicant
-    name: x_studio_resume_request_date
-    field_type: datetime
-
-  - type: create_field
-    xml_id: bicc_recruitment.field_hr_job_resume_required
-    model: hr.job
-    name: x_studio_resume_required
-    field_type: boolean
-
   - type: create_record
     xml_id: bicc_recruitment.tpl_resume_request
     model: mail.template
