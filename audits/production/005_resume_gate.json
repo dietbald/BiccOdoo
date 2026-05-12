@@ -1,0 +1,41 @@
+{
+  "applied_by": "tj",
+  "changeset": "005_resume_gate",
+  "description": "Entry-point automation for new applicants. Fires on hr.applicant.on_create\nand runs two checks in sequence:\n\n1. Source detection \u2014 scans partner_name + email_from for keywords like\n   \"via Indeed\" / \"via LinkedIn\" / \"OnlineJobs.ph\" and sets utm source\n   accordingly. Cleans \"via XXXX\" suffix from the applicant name.\n\n2. Resume gate \u2014 emails the \"Request for Resume\" template ONLY when:\n     - The applicant has no attachments AND the job requires a resume,\n     AND\n     - The applicant came through one of the auto-trigger channels:\n       Jobstreet/SEEK or the website careers form. (Facebook traffic\n       lands on the BICC website first and applies via the careers\n       form, so it's covered by the Website branch.)\n   Every other channel (Indeed, LinkedIn, OnlineJobs, HR manual\n   creates, or any unknown channel) is excluded from the auto-trigger\n   and HR follows up manually.\n\nThis server action NEVER writes stage_id. n8n owns the Stage 1 \u2192 Stage 2\ntransition.\n\nDuplicate detection is intentionally NOT done here \u2014 HR handles\nduplicates manually.\n\nShips the template, the server action, and the on_create automation.\nThe two custom fields the gate reads (hr.applicant.x_studio_resume_request_date\nand hr.job.x_studio_resume_required) already exist on every target\nenv \u2014 on prod via Studio, on dev via changeset 002's initial push,\non staging via the prod-clone \u2014 so we do NOT re-declare them here.\n\nPure procedural script: the helper functions in the original block 01\nscript were inlined to remove safe_eval closure risks.\n",
+  "environment": "production",
+  "finished_at": "2026-05-12T09:43:04Z",
+  "git_commit_sha": "eb41a6398465ca36f976803e62c5b5457da0f74b",
+  "manifest_sha256": "6bd527a8a2540054f8072dd6dfd292b02fb1c29157f744827f74b7a19630f971",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "mail.template:107",
+      "type": "create_record",
+      "xml_id": "bicc_recruitment.tpl_resume_request"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.actions.server:1788",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.entry_resume_request"
+    },
+    {
+      "op_index": 2,
+      "status": "created",
+      "sub_records": [
+        {
+          "status": "created",
+          "target": "ir.actions.server:1789",
+          "xml_id": "bicc_recruitment.automation_entry_resume_request_on_create__action"
+        }
+      ],
+      "target": "base.automation:20",
+      "type": "create_automated_action",
+      "xml_id": "bicc_recruitment.automation_entry_resume_request_on_create"
+    }
+  ],
+  "started_at": "2026-05-12T09:42:46Z",
+  "status": "deployed"
+}
