@@ -1,11 +1,16 @@
-# TRIGGER: Manual button on hr.applicant (Action menu)
+# TRIGGER: Manual button on hr.applicant (Action menu) OR menu item
+#          (Recruitment → Reporting → SMS Follow-up Queue).
 # MODEL: hr.applicant
 # DESCRIPTION: Email the HR Recruitment Manager group a single digest of every
 #   applicant who needs an SMS follow-up right now, grouped by job position.
 #   For each job there is ONE table with three columns (Applicant name with
-#   link, mobile number, ready-to-send SMS text). The SMS wording depends on
-#   which queue the applicant is in (qualification / resume / assessment) and
-#   is pre-filled per candidate so HR copies it straight into their phone.
+#   link, mobile number, ready-to-send SMS text).
+#
+#   The action ALWAYS creates a mail.mail with auto_delete=False so HR can
+#   see it in Settings → Technical → Email → Emails even if SMTP is not
+#   configured. A debug block at the end of the email body reports
+#   field-existence flags, per-queue counts, and recipient resolution so
+#   "nothing happened" outcomes can be diagnosed.
 #
 # Pattern note: Odoo SaaS safe_eval forbids closures (LOAD_CLOSURE / MAKE_CELL)
 # inside lambdas / comprehensions / nested defs. Everything below is plain
@@ -15,31 +20,35 @@ STAGE_NEW = 1
 STAGE_QUALIFICATION = 2
 STAGE_ASSESSMENT_SENT = 7
 
+now = datetime.datetime.now()
 base_url = env['ir.config_parameter'].sudo().get_param('web.base.url', '')
 company_name = env.company.name if env.company else 'BICC'
 
-# Field-availability flags (driving fields for each section).
+# Field-availability flags (driving fields for each queue, individual + combined).
 fld = env['ir.model.fields'].sudo()
-has_qual_fields = (
-    bool(fld.search([('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_reminder_date')], limit=1))
-    and bool(fld.search([('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_sms_reminder_date')], limit=1))
-)
-has_resume_fields = (
-    bool(fld.search([('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_resume_request_date')], limit=1))
-    and bool(fld.search([('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_sms_new_reminder_date')], limit=1))
-)
-has_assessment_field = bool(
-    fld.search([('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_assessment_final_reminder_date')], limit=1)
-)
-has_short_name = bool(
-    fld.search([('model', '=', 'res.company'), ('name', '=', 'x_studio_short_name')], limit=1)
-)
+has_reminder_date = bool(fld.search(
+    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_reminder_date')], limit=1))
+has_sms_reminder_date = bool(fld.search(
+    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_sms_reminder_date')], limit=1))
+has_resume_request_date = bool(fld.search(
+    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_resume_request_date')], limit=1))
+has_sms_new_reminder_date = bool(fld.search(
+    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_sms_new_reminder_date')], limit=1))
+has_assessment_final = bool(fld.search(
+    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_assessment_final_reminder_date')], limit=1))
+has_short_name = bool(fld.search(
+    [('model', '=', 'res.company'), ('name', '=', 'x_studio_short_name')], limit=1))
+
+has_qual_fields = has_reminder_date and has_sms_reminder_date
+has_resume_fields = has_resume_request_date and has_sms_new_reminder_date
+has_assessment_field = has_assessment_final
 
 
-# Flat list of (applicant, sms_message_string). We compute the SMS text per
-# candidate while iterating the source queue (so the kind-specific wording is
-# captured in the string itself; no need to track "kind" downstream).
+# Build flat list of (applicant, sms_message) and per-queue counts for debug.
 entries = []
+n_qual = 0
+n_resume = 0
+n_asses = 0
 
 
 # ── Queue 1: Qualification (Stage 2) ───────────────────────────────────────
@@ -50,6 +59,7 @@ if has_qual_fields:
         ('x_studio_reminder_date', '!=', False),
         ('x_studio_sms_reminder_date', '=', False),
     ])
+    n_qual = len(qual_candidates)
     for r in qual_candidates:
         co_short = False
         if r.company_id and has_short_name:
@@ -78,6 +88,7 @@ if has_resume_fields:
         if r.attachment_number == 0:
             resume_ids.append(r.id)
     resume_candidates = env['hr.applicant'].browse(resume_ids)
+    n_resume = len(resume_candidates)
     for r in resume_candidates:
         co_short = False
         if r.company_id and has_short_name:
@@ -100,6 +111,7 @@ if has_assessment_field:
         ('stage_id', '=', STAGE_ASSESSMENT_SENT),
         ('x_studio_assessment_final_reminder_date', '!=', False),
     ])
+    n_asses = len(asses_candidates)
     for r in asses_candidates:
         co_short = False
         if r.company_id and has_short_name:
@@ -116,15 +128,13 @@ if has_assessment_field:
 
 
 # ── Group by job, then render ──────────────────────────────────────────────
-groups = {}  # job_label → list of (applicant, message)
+groups = {}
 for applicant, message in entries:
     job_label = applicant.job_id.name if applicant.job_id else '(No job position)'
     if job_label not in groups:
         groups[job_label] = []
     groups[job_label].append((applicant, message))
 
-# Sort job labels alphabetically; "(No job position)" sorts to the end of the
-# list because of the leading '(' — fine, it lands as a final catch-all section.
 job_labels = list(groups.keys())
 job_labels.sort()
 
@@ -160,15 +170,85 @@ for job_label in job_labels:
     ) % (job_label, len(job_entries), rows_html)
 
 
-# ── Resolve HR recipients ──────────────────────────────────────────────────
+# ── Resolve HR recipients (fallback to triggering user if HR group empty) ──
 hr_group = env.ref('hr_recruitment.group_hr_recruitment_manager', raise_if_not_found=False)
 notify_partners = env['res.partner']
 if hr_group:
     notify_partners = hr_group.user_ids.filtered('active').mapped('partner_id')
 
+recipient_source = 'HR Recruitment Manager group'
+if not notify_partners and env.user and env.user.partner_id:
+    notify_partners = env.user.partner_id
+    recipient_source = 'fallback: triggering user (HR group resolved to 0 partners)'
 
-# ── Send (or log no-op) ────────────────────────────────────────────────────
-if total_count > 0 and notify_partners:
+recipient_names = []
+for p in notify_partners:
+    recipient_names.append(p.name or 'Unknown')
+
+
+# ── Debug block (always appended) ──────────────────────────────────────────
+debug_html = (
+    "<hr style='margin-top:32px;border:none;border-top:1px solid #ddd;'/>"
+    "<details><summary style='cursor:pointer;color:#666;font-size:0.85em;'>"
+    "Debug info (click to expand)</summary>"
+    "<pre style='font-family:monospace;font-size:0.82em;color:#444;"
+    "background:#f9f9f9;padding:12px;border:1px solid #eee;'>"
+    "Triggered at: %s\n"
+    "Server time UTC: %s\n"
+    "Triggering user: %s (uid=%d)\n"
+    "Company: %s\n"
+    "\n"
+    "Field-existence flags:\n"
+    "  res.company.x_studio_short_name                       = %s\n"
+    "  hr.applicant.x_studio_reminder_date                   = %s\n"
+    "  hr.applicant.x_studio_sms_reminder_date               = %s\n"
+    "  hr.applicant.x_studio_resume_request_date             = %s\n"
+    "  hr.applicant.x_studio_sms_new_reminder_date           = %s\n"
+    "  hr.applicant.x_studio_assessment_final_reminder_date  = %s\n"
+    "\n"
+    "Queue gate (queue runs only if ALL its fields exist):\n"
+    "  qualification gate = %s\n"
+    "  resume gate        = %s\n"
+    "  assessment gate    = %s\n"
+    "\n"
+    "Queue counts:\n"
+    "  Qualification (Stage 2, awaiting info survey) : %d\n"
+    "  Resume missing (Stage 1, no attachment)       : %d\n"
+    "  Assessment (Stage 7, awaiting completion)     : %d\n"
+    "  TOTAL                                          : %d\n"
+    "\n"
+    "Recipient resolution:\n"
+    "  Source: %s\n"
+    "  Count : %d\n"
+    "  Names : %s\n"
+    "</pre></details>"
+) % (
+    now.isoformat(timespec='seconds'),
+    datetime.datetime.utcnow().isoformat(timespec='seconds') + 'Z',
+    env.user.name if env.user else '(no user)',
+    env.uid or 0,
+    company_name,
+    has_short_name,
+    has_reminder_date,
+    has_sms_reminder_date,
+    has_resume_request_date,
+    has_sms_new_reminder_date,
+    has_assessment_final,
+    has_qual_fields,
+    has_resume_fields,
+    has_assessment_field,
+    n_qual,
+    n_resume,
+    n_asses,
+    total_count,
+    recipient_source,
+    len(notify_partners),
+    ', '.join(recipient_names) if recipient_names else '(none)',
+)
+
+
+# ── Email body assembly ────────────────────────────────────────────────────
+if total_count > 0:
     subject = "%s SMS Queue: %d candidate(s) need a follow-up SMS" % (company_name, total_count)
     header = (
         "<h2 style='color:#101820;'>%s SMS Queue (manual request)</h2>"
@@ -177,19 +257,41 @@ if total_count > 0 and notify_partners:
         "your phone, text it to the matching number, then mark the SMS "
         "reminder date on the applicant record so the queue clears.</p>"
     ) % company_name
-
-    recipient_cmds = []
-    for pid in notify_partners.ids:
-        recipient_cmds.append((4, pid))
-
-    env['mail.mail'].sudo().create({
-        'subject': subject,
-        'body_html': header + sections_html,
-        'recipient_ids': recipient_cmds,
-        'auto_delete': True,
-    }).send()
-    log("SMS queue digest sent: %d candidate(s) across %d job position(s)." % (total_count, len(job_labels)))
-elif total_count == 0:
-    log("SMS queue digest: nothing to send (queue empty).")
 else:
-    log("SMS queue digest: %d candidate(s) ready but no HR recipients resolved." % total_count)
+    subject = "%s SMS Queue: nothing to send right now" % company_name
+    header = (
+        "<h2 style='color:#101820;'>%s SMS Queue (manual request)</h2>"
+        "<p style='color:#666;'><i>No applicants currently match the SMS "
+        "follow-up criteria. See the debug section below for why each queue "
+        "is empty (field missing, or no rows match the filter).</i></p>"
+    ) % company_name
+
+body_html = header + sections_html + debug_html
+
+
+# ── Always create + send mail.mail (auto_delete=False so it stays visible) ─
+recipient_cmds = []
+for pid in notify_partners.ids:
+    recipient_cmds.append((4, pid))
+
+mail = env['mail.mail'].sudo().create({
+    'subject': subject,
+    'body_html': body_html,
+    'recipient_ids': recipient_cmds,
+    'auto_delete': False,
+})
+mail.send()
+
+
+# ── If triggered from a specific applicant (gear menu), post to its chatter ─
+if record and record._name == 'hr.applicant':
+    record.message_post(body=(
+        "MANUAL ACTION: SMS Queue Digest fired. "
+        "Counts → qual=%d, resume=%d, assessment=%d, total=%d. "
+        "Recipients=%d (%s). mail.mail id=%d."
+    ) % (n_qual, n_resume, n_asses, total_count, len(notify_partners), recipient_source, mail.id))
+
+
+log("SMS queue digest: total=%d (qual=%d resume=%d assess=%d) recipients=%d mail.id=%d" % (
+    total_count, n_qual, n_resume, n_asses, len(notify_partners), mail.id
+))
