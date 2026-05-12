@@ -3,9 +3,9 @@
   "changeset": "002_sms_followup_email_blast",
   "description": "Add the manual server action \"BICC v5: Send SMS Queue Digest\" plus a menu\nentry under Recruitment \u2192 Reporting that triggers it. When fired, it emails\nthe HR Recruitment Manager group ONE digest of every applicant who needs an\nSMS follow-up right now, grouped by job position. Each job is rendered as\nits own 3-column table (Applicant name with link, mobile number, ready-to\nsend SMS text with first name + company short name + job role pre-filled).\n\nThe three queues feeding the digest mirror the existing daily\nsms_queue_digest cron: Qualification info-survey pending (Stage 2),\nStage 1 resume missing, Stage 7 assessment pending. The wording of each\ncandidate's SMS depends on which queue they sit in.\n\nHR copies each SMS into their phone, sends it manually, then marks the\ncorresponding x_studio_sms_*_date on the applicant so the queue clears.\nThe action does not send anything to applicants directly and does not\nmutate any reminder fields.\n\nDefensive: each queue field-checks at runtime, so the action is safe to\ndeploy before the v5 reminder-field blocks land \u2014 queues whose driving\nfield is missing are simply omitted from the digest.\n\nEntry points: HR can fire the digest either from Recruitment \u2192 Reporting\n\u2192 SMS Follow-up Queue, or from any applicant's gear-icon Action menu\n(form + list views).\n",
   "environment": "dev",
-  "finished_at": "2026-05-12T03:17:37Z",
-  "git_commit_sha": "c32015c0702592548a978abcceb66c1f33af1195",
-  "manifest_sha256": "8f4e34aaa0888c635573cd1f1a72163bb1a8207c34a834deaa907237bb775c34",
+  "finished_at": "2026-05-12T03:39:31Z",
+  "git_commit_sha": "5f59c7615ddb17be200175fcb5764e4337934f50",
+  "manifest_sha256": "7dbc535042eb690df74941a81cb7f46b9f1833bb3386f8d0762d7e5d89f246c7",
   "operations": [
     {
       "op_index": 0,
@@ -17,12 +17,12 @@
     },
     {
       "op_index": 1,
-      "status": "created",
+      "status": "skipped",
       "target": "ir.ui.menu:1072",
       "type": "create_menu",
       "xml_id": "bicc_recruitment.menu_sms_followup_queue"
     }
   ],
-  "started_at": "2026-05-12T03:17:27Z",
+  "started_at": "2026-05-12T03:39:19Z",
   "status": "deployed"
 }
