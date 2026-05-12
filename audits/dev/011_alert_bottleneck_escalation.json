@@ -1,0 +1,27 @@
+{
+  "applied_by": "ai",
+  "changeset": "011_alert_bottleneck_escalation",
+  "description": "Daily 8 AM PHT cron. Identifies applicants stuck in Stage 10 (Passed\nAssessment) for over 48h and emails the HR Recruitment Manager group\na digest so they advance or refuse the applicants manually.\n\nRead-only on applicants \u2014 does not mutate any records. Group-based\nnotification (no hardcoded recipient emails). HTML rendered via\nmail.mail (message_notify would escape HTML in SaaS safe_eval).\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T04:49:37Z",
+  "git_commit_sha": "9af3e3ceea73e93505237f7e9079a068fb40cbc9",
+  "manifest_sha256": "3e8ccafbc4fb5607f1b3781fd43603b0236c2e07fb908413a4f6106361bb1d95",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "ir.actions.server:1790",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.bottleneck_escalation"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.cron:90",
+      "type": "create_cron",
+      "xml_id": "bicc_recruitment.cron_bottleneck_escalation"
+    }
+  ],
+  "started_at": "2026-05-12T04:49:30Z",
+  "status": "deployed"
+}
