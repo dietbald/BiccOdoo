@@ -2,10 +2,17 @@ id: 006_info_survey_dispatch
 schema_version: 1
 description: |
   Stage-2 (Qualification) entry handler. When an applicant is moved into
-  Stage 2, emails them a per-candidate token URL for the Application
-  Information Confirmation survey configured on their job. Skips if a
-  user_input already exists for (email, survey) — prevents duplicate
-  emails on stage bounces.
+  Stage 2, emails them a per-applicant token URL for the Application
+  Information Confirmation survey configured on their job.
+
+  Dedup is scoped to the CURRENT applicant, not to email globally:
+  user_inputs with (this email, this survey, create_date >= applicant
+  create_date) count as "already dispatched for this application".
+  Anything older came from a prior application of the same person and
+  doesn't block sending a fresh info survey for THIS application. (The
+  assessment dedup in changeset 008 intentionally keeps prior
+  completions — assessments are once-per-candidate, the info survey is
+  once-per-application.)
 
   Also ships the recruiter "Resend Info Survey" button on the hr.applicant
   Action menu (form + list).
