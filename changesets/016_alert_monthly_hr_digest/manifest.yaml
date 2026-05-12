@@ -1,0 +1,36 @@
+id: 016_alert_monthly_hr_digest
+schema_version: 1
+description: |
+  Weekly Monday 8 AM PHT cron whose script gates internally on "is this
+  the LAST Monday of the month?" — so the digest fires once per month.
+  Loops per res.company (multi-company branding) and emails the HR
+  Manager group (hr.group_hr_manager) a 5-section monthly digest for
+  the FOLLOWING month: birthdays, work-anniversary milestones, expiring
+  contracts (with red highlight for first-half-of-month expirations),
+  public holidays, headcount-by-department.
+
+  Refactored from action_monthly_hr_digest.py: replaced the
+  sort(key=lambda) calls and the `[e for e in expiring if ...]` comp
+  that captured midpoint with plain tuple-sort and an explicit
+  early_count counter. No closures.
+
+  Model is hr.employee, not hr.applicant. Recipient group is
+  hr.group_hr_manager (not hr_recruitment.group_hr_recruitment_manager).
+
+author: ai
+
+operations:
+  - type: create_server_action
+    xml_id: bicc_recruitment.monthly_hr_digest
+    name: "BICC v5: Monthly HR Digest (Mon 8AM PHT)"
+    model: hr.employee
+    code_file: monthly_hr_digest.py
+
+  - type: create_cron
+    xml_id: bicc_recruitment.cron_monthly_hr_digest
+    name: "BICC v5: Monthly HR Digest (Mon 8AM PHT)"
+    model: hr.employee
+    code_file: monthly_hr_digest.py
+    interval_number: 1
+    interval_type: weeks
+    nextcall: "2026-05-18 00:00:00"
