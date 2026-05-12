@@ -6,11 +6,10 @@
 #   For each job there is ONE table with three columns (Applicant name with
 #   link, mobile number, ready-to-send SMS text).
 #
-#   The action ALWAYS creates a mail.mail with auto_delete=False so HR can
-#   see it in Settings → Technical → Email → Emails even if SMTP is not
-#   configured. A debug block at the end of the email body reports
-#   field-existence flags, per-queue counts, and recipient resolution so
-#   "nothing happened" outcomes can be diagnosed.
+#   Queue gate is now PURELY stage age + SMS-not-yet-sent — the queue does
+#   NOT require an email reminder to have fired first. Whether HR sent the
+#   email reminders or not, applicants overdue in their current stage show
+#   up in the SMS queue so HR can SMS them directly.
 #
 # Pattern note: Odoo SaaS safe_eval forbids closures (LOAD_CLOSURE / MAKE_CELL)
 # inside lambdas / comprehensions / nested defs. Everything below is plain
@@ -20,31 +19,31 @@ STAGE_NEW = 1
 STAGE_QUALIFICATION = 2
 STAGE_ASSESSMENT_SENT = 7
 
+# How long an applicant must have been in the current stage before they show
+# up in the SMS follow-up queue. Tune this if HR wants to chase candidates
+# sooner or later.
+OVERDUE_DAYS = 3
+
 now = datetime.datetime.now()
+threshold = (now - datetime.timedelta(days=OVERDUE_DAYS)).strftime('%Y-%m-%d %H:%M:%S')
 base_url = env['ir.config_parameter'].sudo().get_param('web.base.url', '')
 company_name = env.company.name if env.company else 'BICC'
 
-# Field-availability flags (driving fields for each queue, individual + combined).
+# Field-availability flags. We only depend on the per-queue SMS-dedup fields
+# now (the email-reminder-date fields are no longer in the gate).
 fld = env['ir.model.fields'].sudo()
-has_reminder_date = bool(fld.search(
-    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_reminder_date')], limit=1))
 has_sms_reminder_date = bool(fld.search(
     [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_sms_reminder_date')], limit=1))
-has_resume_request_date = bool(fld.search(
-    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_resume_request_date')], limit=1))
 has_sms_new_reminder_date = bool(fld.search(
     [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_sms_new_reminder_date')], limit=1))
-has_assessment_final = bool(fld.search(
-    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_assessment_final_reminder_date')], limit=1))
+has_assessment_sms_date = bool(fld.search(
+    [('model', '=', 'hr.applicant'), ('name', '=', 'x_studio_assessment_sms_reminder_date')], limit=1))
 has_short_name = bool(fld.search(
     [('model', '=', 'res.company'), ('name', '=', 'x_studio_short_name')], limit=1))
 
-has_qual_fields = has_reminder_date and has_sms_reminder_date
-has_resume_fields = has_resume_request_date and has_sms_new_reminder_date
-has_assessment_field = has_assessment_final
 
-
-# Build flat list of (applicant, sms_message) and per-queue counts for debug.
+# Build flat list of (applicant, sms_message). The SMS wording is built
+# inline per-candidate so the kind is captured in the string itself.
 entries = []
 n_qual = 0
 n_resume = 0
@@ -52,11 +51,11 @@ n_asses = 0
 
 
 # ── Queue 1: Qualification (Stage 2) ───────────────────────────────────────
-if has_qual_fields:
+if has_sms_reminder_date:
     qual_candidates = env['hr.applicant'].search([
         ('active', '=', True),
         ('stage_id', '=', STAGE_QUALIFICATION),
-        ('x_studio_reminder_date', '!=', False),
+        ('date_last_stage_update', '<', threshold),
         ('x_studio_sms_reminder_date', '=', False),
     ])
     n_qual = len(qual_candidates)
@@ -75,12 +74,12 @@ if has_qual_fields:
         entries.append((r, message))
 
 
-# ── Queue 2: Resume Missing (Stage 1) ──────────────────────────────────────
-if has_resume_fields:
+# ── Queue 2: Resume Missing (Stage 1, no attachment) ───────────────────────
+if has_sms_new_reminder_date:
     resume_pool = env['hr.applicant'].search([
         ('active', '=', True),
         ('stage_id', '=', STAGE_NEW),
-        ('x_studio_resume_request_date', '!=', False),
+        ('date_last_stage_update', '<', threshold),
         ('x_studio_sms_new_reminder_date', '=', False),
     ])
     resume_ids = []
@@ -105,11 +104,12 @@ if has_resume_fields:
 
 
 # ── Queue 3: Assessment (Stage 7) ──────────────────────────────────────────
-if has_assessment_field:
+if has_assessment_sms_date:
     asses_candidates = env['hr.applicant'].search([
         ('active', '=', True),
         ('stage_id', '=', STAGE_ASSESSMENT_SENT),
-        ('x_studio_assessment_final_reminder_date', '!=', False),
+        ('date_last_stage_update', '<', threshold),
+        ('x_studio_assessment_sms_reminder_date', '=', False),
     ])
     n_asses = len(asses_candidates)
     for r in asses_candidates:
@@ -186,7 +186,7 @@ for p in notify_partners:
     recipient_names.append(p.name or 'Unknown')
 
 
-# ── Debug block (always appended) ──────────────────────────────────────────
+# ── Debug block (always appended, collapsed by default) ────────────────────
 debug_html = (
     "<hr style='margin-top:32px;border:none;border-top:1px solid #ddd;'/>"
     "<details><summary style='cursor:pointer;color:#666;font-size:0.85em;'>"
@@ -197,24 +197,18 @@ debug_html = (
     "Server time UTC: %s\n"
     "Triggering user: %s (uid=%d)\n"
     "Company: %s\n"
+    "Overdue threshold: %d day(s) (applicants stuck since before %s)\n"
     "\n"
-    "Field-existence flags:\n"
+    "Field-existence flags (queue gate = SMS dedup field exists):\n"
     "  res.company.x_studio_short_name                       = %s\n"
-    "  hr.applicant.x_studio_reminder_date                   = %s\n"
-    "  hr.applicant.x_studio_sms_reminder_date               = %s\n"
-    "  hr.applicant.x_studio_resume_request_date             = %s\n"
-    "  hr.applicant.x_studio_sms_new_reminder_date           = %s\n"
-    "  hr.applicant.x_studio_assessment_final_reminder_date  = %s\n"
-    "\n"
-    "Queue gate (queue runs only if ALL its fields exist):\n"
-    "  qualification gate = %s\n"
-    "  resume gate        = %s\n"
-    "  assessment gate    = %s\n"
+    "  hr.applicant.x_studio_sms_reminder_date               = %s  (Qualification gate)\n"
+    "  hr.applicant.x_studio_sms_new_reminder_date           = %s  (Resume Missing gate)\n"
+    "  hr.applicant.x_studio_assessment_sms_reminder_date    = %s  (Assessment gate)\n"
     "\n"
     "Queue counts:\n"
-    "  Qualification (Stage 2, awaiting info survey) : %d\n"
-    "  Resume missing (Stage 1, no attachment)       : %d\n"
-    "  Assessment (Stage 7, awaiting completion)     : %d\n"
+    "  Qualification (Stage 2, overdue)              : %d\n"
+    "  Resume missing (Stage 1, overdue, no resume)  : %d\n"
+    "  Assessment (Stage 7, overdue)                 : %d\n"
     "  TOTAL                                          : %d\n"
     "\n"
     "Recipient resolution:\n"
@@ -228,15 +222,12 @@ debug_html = (
     env.user.name if env.user else '(no user)',
     env.uid or 0,
     company_name,
+    OVERDUE_DAYS,
+    threshold,
     has_short_name,
-    has_reminder_date,
     has_sms_reminder_date,
-    has_resume_request_date,
     has_sms_new_reminder_date,
-    has_assessment_final,
-    has_qual_fields,
-    has_resume_fields,
-    has_assessment_field,
+    has_assessment_sms_date,
     n_qual,
     n_resume,
     n_asses,
@@ -262,8 +253,8 @@ else:
     header = (
         "<h2 style='color:#101820;'>%s SMS Queue (manual request)</h2>"
         "<p style='color:#666;'><i>No applicants currently match the SMS "
-        "follow-up criteria. See the debug section below for why each queue "
-        "is empty (field missing, or no rows match the filter).</i></p>"
+        "follow-up criteria. See the debug section below for the field "
+        "flags and queue counts.</i></p>"
     ) % company_name
 
 body_html = header + sections_html + debug_html
@@ -292,6 +283,6 @@ if record and record._name == 'hr.applicant':
     ) % (n_qual, n_resume, n_asses, total_count, len(notify_partners), recipient_source, mail.id))
 
 
-log("SMS queue digest: total=%d (qual=%d resume=%d assess=%d) recipients=%d mail.id=%d" % (
-    total_count, n_qual, n_resume, n_asses, len(notify_partners), mail.id
+log("SMS queue digest: total=%d (qual=%d resume=%d assess=%d) threshold=%dd recipients=%d mail.id=%d" % (
+    total_count, n_qual, n_resume, n_asses, OVERDUE_DAYS, len(notify_partners), mail.id
 ))

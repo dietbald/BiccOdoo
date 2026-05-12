@@ -5,50 +5,42 @@ description: |
   entry under Recruitment → Reporting that triggers it. When fired, it emails
   the HR Recruitment Manager group ONE digest of every applicant who needs an
   SMS follow-up right now, grouped by job position. Each job is rendered as
-  its own 3-column table (Applicant name with link, mobile number, ready-to
+  its own 3-column table (Applicant name with link, mobile number, ready-to-
   send SMS text with first name + company short name + job role pre-filled).
 
-  Also creates the five hr.applicant custom datetime fields the digest's
-  queue filters read. These fields originate from the recruitment v5
-  reminder tracking system (already present on production via Studio but
-  missing on the dev database). Creating them here makes the action work
-  end-to-end on every environment without a separate Studio step.
+  Queue gate is purely stage age + SMS-not-yet-sent. The digest does NOT
+  require an email reminder to have fired first — overdue applicants
+  appear regardless of whether the email cascade has played out, so HR
+  can SMS directly even when the email reminder cron is dormant on this
+  environment.
 
-  Queues feeding the digest:
-  - Qualification info-survey pending (Stage 2): reads x_studio_reminder_date
-    AND x_studio_sms_reminder_date.
-  - Stage 1 resume missing: reads x_studio_resume_request_date AND
-    x_studio_sms_new_reminder_date.
-  - Stage 7 assessment pending: reads x_studio_assessment_final_reminder_date.
+  Three queues feeding the digest:
+  - Qualification (Stage 2) overdue: date_last_stage_update older than
+    OVERDUE_DAYS (default 3), x_studio_sms_reminder_date null.
+  - Resume missing (Stage 1) overdue: date_last_stage_update older than
+    OVERDUE_DAYS, attachment_number = 0, x_studio_sms_new_reminder_date null.
+  - Assessment (Stage 7) overdue: date_last_stage_update older than
+    OVERDUE_DAYS, x_studio_assessment_sms_reminder_date null.
 
-  Entry points: HR can fire the digest from Recruitment → Reporting → SMS
+  Also creates the three hr.applicant datetime fields the SMS dedup logic
+  reads — needed because they are missing on the dev database. Already
+  present on production via Studio so the ops no-op on the prod env.
+
+  Entry points: HR fires the digest from Recruitment → Reporting → SMS
   Follow-up Queue, or from any applicant's gear-icon Action menu.
 
   Diagnostics: the action always creates a visible mail.mail (auto_delete=
   False) with a Debug block in the body listing field-existence flags,
-  per-queue counts, and recipient resolution — so "nothing happened"
-  outcomes are diagnosable from the UI.
+  per-queue counts, and recipient resolution.
 
 author: ai
 
 operations:
-  # ── Custom fields needed by the action (skipped on envs where they exist) ──
-  - type: create_field
-    xml_id: bicc_recruitment.field_hr_applicant_reminder_date
-    model: hr.applicant
-    name: x_studio_reminder_date
-    field_type: datetime
-
+  # ── SMS-dedup custom fields the action reads ───────────────────────────────
   - type: create_field
     xml_id: bicc_recruitment.field_hr_applicant_sms_reminder_date
     model: hr.applicant
     name: x_studio_sms_reminder_date
-    field_type: datetime
-
-  - type: create_field
-    xml_id: bicc_recruitment.field_hr_applicant_resume_request_date
-    model: hr.applicant
-    name: x_studio_resume_request_date
     field_type: datetime
 
   - type: create_field
@@ -58,9 +50,9 @@ operations:
     field_type: datetime
 
   - type: create_field
-    xml_id: bicc_recruitment.field_hr_applicant_assessment_final_reminder_date
+    xml_id: bicc_recruitment.field_hr_applicant_assessment_sms_reminder_date
     model: hr.applicant
-    name: x_studio_assessment_final_reminder_date
+    name: x_studio_assessment_sms_reminder_date
     field_type: datetime
 
   # ── Server action + menu entry ─────────────────────────────────────────────
