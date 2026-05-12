@@ -1,0 +1,89 @@
+id: 006_info_survey_dispatch
+schema_version: 1
+description: |
+  Stage-2 (Qualification) entry handler. When an applicant is moved into
+  Stage 2, emails them a per-candidate token URL for the Application
+  Information Confirmation survey configured on their job. Skips if a
+  user_input already exists for (email, survey) — prevents duplicate
+  emails on stage bounces.
+
+  Also ships the recruiter "Resend Info Survey" button on the hr.applicant
+  Action menu (form + list).
+
+  The hr.job.x_studio_application_information custom field already exists
+  on every target env (created via Studio on prod, cloned on dev /
+  staging) so no create_field is needed.
+
+  model_id=662 is hr.applicant's ir.model id (verified consistent across
+  dev / staging / prod).
+
+author: ai
+allow_generic_records: true
+
+operations:
+  - type: create_record
+    xml_id: bicc_recruitment.tpl_info_survey
+    model: mail.template
+    values:
+      name: "Recruitment: Information Confirmation Survey"
+      model_id: 662
+      subject: "Next step for your {{ object.job_id.name }} application"
+      email_from: "{{ object.company_id.x_studio_short_name }} <{{ object.company_id.alias_domain_id.default_from_email }}>"
+      email_to: "{{ object.email_from }}"
+      lang: "{{ object.partner_id.lang }}"
+      auto_delete: false
+      body_html: |
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;background-color:#f2f2f2;margin:0;padding:0;">
+          <tbody>
+            <tr>
+              <td align="center" style="padding:20px 0;">
+                <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;max-width:600px;background-color:#ffffff;color:#101820;font-family:'Roboto',sans-serif;font-size:13px;line-height:1.6;">
+                  <tbody>
+                    <tr>
+                      <td style="padding:20px;">
+                        <p style="margin:0;padding:0;font-size:13px;">
+                          Hi <t t-out="object.partner_name or 'there'"/>,
+                          <br/><br/>
+                          Thanks for applying to the <b><t t-out="object.job_id.name or 'open'"/></b> position at <t t-out="object.company_id.name or 'Our Company'"/>!
+                          <br/><br/>
+                          To proceed with your application, we need you to complete a short information form. It helps us verify your qualifications and availability for the role.
+                          <br/><br/>
+                          <a t-att-href="ctx.get('survey_link', '#')" style="display:inline-block;padding:10px 20px;background-color:#374151;color:#ffffff;text-decoration:none;border-radius:4px;font-weight:bold;">Complete Information Form</a>
+                          <br/><br/>
+                          Kindly complete it at your earliest convenience so we can move forward. If you have any questions or run into any issues, just reply to this email.
+                          <br/><br/>
+                          Best regards,<br/>
+                          <t t-out="object.company_id.name or 'Our Company'"/> Recruitment Team<br/>
+                          <a t-att-href="object.company_id.website" style="text-decoration:none;color:#374151;">
+                            <t t-out="object.company_id.website"/>
+                          </a>
+                        </p>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+  - type: create_server_action
+    xml_id: bicc_recruitment.info_survey_dispatch
+    name: "BICC v5: Info Survey Dispatch"
+    model: hr.applicant
+    code_file: info_survey_dispatch.py
+
+  - type: create_automated_action
+    xml_id: bicc_recruitment.automation_info_survey_dispatch
+    name: "BICC v5: Info Survey Dispatch (stage → Qualification)"
+    model: hr.applicant
+    trigger: on_write
+    code_file: info_survey_dispatch.py
+
+  - type: create_server_action
+    xml_id: bicc_recruitment.resend_info_survey
+    name: "BICC v5: Resend Info Survey (Button)"
+    model: hr.applicant
+    code_file: resend_info_survey.py
+    binding_model: hr.applicant
+    binding_view_types: "form,list"
