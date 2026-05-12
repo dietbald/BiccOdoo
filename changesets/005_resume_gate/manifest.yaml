@@ -9,8 +9,14 @@ description: |
      accordingly. Cleans "via XXXX" suffix from the applicant name.
   2. Resume gate — if the job's x_studio_resume_required is True and the
      applicant has zero attachments, emails the "Request for Resume"
-     template and stamps x_studio_resume_request_date. Otherwise advances
+     template (but ONLY when the create_uid is NOT in the HR Recruitment
+     User group — HR manual creates skip the email because HR will
+     attach the resume seconds after saving). Otherwise advances
      directly to Stage 2 (Qualification).
+
+  External creates (website form, n8n webhook, API uploads) DO get the
+  email immediately because their create_uid is a public / bot / API user
+  with no HR group.
 
   Duplicate detection is intentionally NOT done here — HR handles
   duplicates manually.

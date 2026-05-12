@@ -4,8 +4,12 @@
 #   1. Auto-detect source from partner_name/email_from keywords (Indeed,
 #      LinkedIn, Facebook, Jobstreet, OnlineJobs).
 #   2. Resume gate: if the job requires a resume and the applicant has
-#      none, email the "Request for Resume" template and stamp
-#      x_studio_resume_request_date. Otherwise advance to Stage 2.
+#      none, email the "Request for Resume" template — but only if the
+#      applicant was NOT created by an HR user. HR users manually adding
+#      an applicant typically attach the resume seconds after saving;
+#      we don't want to spam the candidate before HR has had a chance.
+#      External creates (website form, n8n webhook, public-portal) DO
+#      get the email immediately.
 #
 #   Duplicate detection is intentionally NOT done here — HR handles
 #   duplicates manually.
@@ -56,7 +60,21 @@ if matched_source and not record.source_id:
 needs_resume = bool(record.job_id and record.job_id.x_studio_resume_required) and record.attachment_number == 0
 
 if needs_resume:
-    if record.email_from:
+    # Skip the email when the creator is an HR user — they'll attach the
+    # resume themselves seconds after saving. Auto-applicants (website
+    # form, n8n webhook, etc.) have a non-HR create_uid (public user, API
+    # user, OdooBot) and DO get the email immediately.
+    created_by_hr = bool(
+        record.create_uid and
+        record.create_uid.has_group('hr_recruitment.group_hr_recruitment_user')
+    )
+
+    if created_by_hr:
+        record.message_post(body=(
+            "AUTOMATION: Created by HR user (%s). Resume-request email "
+            "skipped — please attach the resume manually."
+        ) % (record.create_uid.name or 'unknown'))
+    elif record.email_from:
         tpl = env['mail.template'].search([('name', '=', TPL_RESUME_REQUEST)], limit=1)
         if tpl.exists():
             tpl.send_mail(record.id, force_send=False)
