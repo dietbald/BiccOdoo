@@ -1,0 +1,31 @@
+id: 015_alert_phone_interview_report
+schema_version: 1
+description: |
+  Daily 8 AM PHT cron. Lists every active applicant in Stage 10 (Passed
+  Assessment) and emails the HR Recruitment Manager group a phone-interview
+  queue with each candidate's name, phone (tel: link), email, position,
+  assessment scores, date reached Stage 10, days waiting, assigned recruiter.
+
+  Days-waiting > 2 → row colored red. > 1 → orange.
+
+  Refactored from the original action_phone_interview_report.py: replaced
+  the two list comprehensions with explicit for-loops to stay clear of
+  safe_eval closure risks.
+
+author: ai
+
+operations:
+  - type: create_server_action
+    xml_id: bicc_recruitment.phone_interview_report
+    name: "BICC v5: Phone Interview Report (daily 8AM PHT)"
+    model: hr.applicant
+    code_file: phone_interview_report.py
+
+  - type: create_cron
+    xml_id: bicc_recruitment.cron_phone_interview_report
+    name: "BICC v5: Phone Interview Report (daily 8AM PHT)"
+    model: hr.applicant
+    code_file: phone_interview_report.py
+    interval_number: 1
+    interval_type: days
+    nextcall: "2026-05-13 00:00:00"
