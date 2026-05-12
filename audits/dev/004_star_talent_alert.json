@@ -1,0 +1,34 @@
+{
+  "applied_by": "ai",
+  "changeset": "004_star_talent_alert",
+  "description": "Adds an automated action on survey.user_input that fires the moment ANY\nscoring survey is submitted with score \u2265 90%. Looks up the matching\napplicant by email_from, bumps their priority to \u2605\u2605\u2605 (priority='3'),\nand posts a chatter alert tagging the assigned recruiter so they get\ninbox-notified instantly.\n\nPure routing \u2014 no fields, no templates, no schedule. Fires alongside\nany other survey-done automations (e.g. info survey adjudication);\nmultiple base.automation rows on the same model + trigger run\nindependently.\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T04:48:15Z",
+  "git_commit_sha": "7f302ad516b2aa414b998395fa63a5298b7136a0",
+  "manifest_sha256": "fa400826da7795a61815236f954baa88e67f88a747bd79ad36eb5d738dcf1ece",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "ir.actions.server:1788",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.star_talent_alert"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "sub_records": [
+        {
+          "status": "created",
+          "target": "ir.actions.server:1789",
+          "xml_id": "bicc_recruitment.automation_star_talent_alert__action"
+        }
+      ],
+      "target": "base.automation:20",
+      "type": "create_automated_action",
+      "xml_id": "bicc_recruitment.automation_star_talent_alert"
+    }
+  ],
+  "started_at": "2026-05-12T04:48:04Z",
+  "status": "deployed"
+}
