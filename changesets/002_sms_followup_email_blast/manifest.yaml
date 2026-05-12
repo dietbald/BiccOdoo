@@ -1,30 +1,30 @@
 id: 002_sms_followup_email_blast
 schema_version: 1
 description: |
-  Add a manual server action "Send SMS Follow-up Email Blast" to the
-  hr.applicant Action menu. When triggered, it emails every applicant
-  currently in the SMS follow-up queue — the same three populations that
-  the existing daily sms_queue_digest cron surfaces for HR to SMS by hand
-  (Qualification info-survey pending, Stage 1 resume missing, Stage 7
-  assessment pending). The email content mirrors the SMS wording so HR
-  has a quick way to fire the email side of the follow-up without doing
-  the SMS pass first.
+  Add a manual server action "BICC v5: Send SMS Queue Digest" to the
+  hr.applicant Action menu. When triggered, it emails the HR Recruitment
+  Manager group ONE digest listing every applicant who needs an SMS
+  follow-up right now. Each section is a 3-column table (Applicant name
+  with link, mobile number, ready-to-send SMS text) for the three
+  populations the daily sms_queue_digest cron already surfaces:
+  Qualification info-survey pending, Stage 1 resume missing, Stage 7
+  assessment pending.
 
-  Defensive: the action introspects custom fields at runtime, so it is
-  safe to deploy before the v5 reminder-field blocks land — sections
-  whose driving field is missing are simply skipped (zero emails for
-  that section, no error). Once all v5 blocks are in place on the same
-  environment, all three sections fire.
+  HR copies each SMS into their phone, sends it manually, then marks
+  the corresponding x_studio_sms_*_date on the applicant so the queue
+  clears. The action does not send anything to applicants directly and
+  does not mutate any reminder fields.
 
-  Does not stamp any x_studio_sms_*_date fields — SMS remains a separate
-  channel HR can still send manually.
+  Defensive: each section field-checks at runtime, so the action is safe
+  to deploy before the v5 reminder-field blocks land — sections whose
+  driving field is missing are simply omitted from the digest.
 
 author: ai
 
 operations:
   - type: create_server_action
     xml_id: bicc_recruitment.sms_followup_email_blast
-    name: "BICC v5: Send SMS Follow-up Email Blast"
+    name: "BICC v5: Send SMS Queue Digest"
     model: hr.applicant
     code_file: send_email_blast.py
     binding_model: hr.applicant

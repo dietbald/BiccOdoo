@@ -2,63 +2,66 @@
 
 ## What changes
 
-Adds a manual server action **"BICC v5: Send SMS Follow-up Email Blast"** to
-the hr.applicant Action menu (visible in form and list views). When triggered,
-it emails every applicant currently in the SMS follow-up queue — the same
-three populations that the daily SMS digest cron surfaces for HR to SMS by
-hand:
+Adds a manual server action **"BICC v5: Send SMS Queue Digest"** to the
+hr.applicant Action menu (form + list views). When HR triggers it, the
+action emails the HR Recruitment Manager group **one** digest listing every
+applicant who needs an SMS follow-up right now. Each section is a 3-column
+table:
+
+| Column | Content |
+|---|---|
+| Applicant | Candidate name, hyperlinked to their hr.applicant record |
+| Mobile | `partner_phone`, or `(no phone on file)` |
+| SMS to send | The exact SMS text, ready to copy-paste, with company short name + first name + job role pre-filled |
+
+Three sections appear, in this order, only if they have rows:
 
 | Section | Stage | Queue criterion |
 |---|---|---|
-| Qualification | 2 (Qualification) | `x_studio_reminder_date != null` AND `x_studio_sms_reminder_date == null` |
-| Resume missing | 1 (New) | `x_studio_resume_request_date != null` AND `x_studio_sms_new_reminder_date == null` AND no attachments |
-| Assessment | 7 (Assessment Sent) | `x_studio_assessment_final_reminder_date != null` |
-
-Email subject and body mirror the SMS wording HR provided. First name, company
-short name (`x_studio_short_name`, e.g. BICC or IGEBC), and job title are
-substituted per applicant. No "Last Name – No Email" format text — applicants
-just reply naturally.
+| Qualification &mdash; Info Survey Pending | 2 | `x_studio_reminder_date != null` AND `x_studio_sms_reminder_date == null` |
+| Resume Missing | 1 | `x_studio_resume_request_date != null` AND `x_studio_sms_new_reminder_date == null` AND `attachment_number == 0` |
+| Assessment &mdash; Awaiting Completion | 7 | `x_studio_assessment_final_reminder_date != null` |
 
 ## Behaviour
 
-- **Blast, not per-record.** Even when HR triggers the action from a single
-  applicant's form view, the action sweeps all three queue populations across
-  the whole DB. Each applicant's own chatter records `MANUAL ACTION: Follow-up
-  email sent (qual|resume|assessment queue).`
-- **Defensive on missing fields.** Each section introspects whether its
-  driving custom field exists before searching. Sections whose field isn't
-  present yet (because the corresponding v5 block hasn't been deployed to
-  this Odoo instance) are skipped silently — the action will simply email
-  fewer people, never crash.
-- **Does not stamp `x_studio_sms_*_date`.** SMS remains a separate channel
-  HR may still send manually after this blast.
-- **No applicant gets a duplicate.** Within a single run, populations are
-  filtered to be disjoint by stage. Re-running the action a second time can
-  re-send to the same applicants — by design, since HR may want to follow up
-  again after a few days.
+- **One email, not many.** HR receives a single digest in their inbox; nothing
+  is sent to the applicants themselves.
+- **Manual SMS workflow preserved.** HR copies the SMS Text column into their
+  phone, texts the matching number, and then sets the SMS reminder date
+  field on the applicant record so the queue clears.
+- **Defensive on missing fields.** Each section field-checks at runtime, so
+  the action is safe to deploy before all v5 reminder-field blocks land —
+  sections whose driving field is missing are simply omitted from the
+  digest (no error).
+- **Does not mutate any applicant data.** No fields are stamped; no
+  applicants are emailed. Pure read + render + notify-HR.
+- **Blast across DB.** Even when triggered from a single applicant's form
+  view, the action sweeps the whole DB. The Action-menu binding is a
+  convenience entry point, not a per-record scope.
 
 ## QA on dev
 
-1. Once `deploy-dev` lands, open dev Odoo as a recruiter.
-2. Settings → Technical → Server Actions → find `BICC v5: Send SMS Follow-up
-   Email Blast`. Confirm `binding_model = hr.applicant` and the gear-menu
-   binding shows up on Recruitment → Applicants.
-3. Trigger from the gear menu of any applicant. The log line at the bottom
-   of the action reports `qual=N resume=N assessment=N (total=N)`.
-4. Spot-check three applicants' chatter for the `MANUAL ACTION: Follow-up
-   email sent (... queue)` line.
-5. Inspect outgoing mail (Settings → Technical → Email → Emails) and confirm
-   the subject and body wording matches: first name greeting, no em-dashes,
-   no "Last Name – No Email" format text.
-6. On dev DBs that don't yet have v5 reminder fields, the action should
-   simply log `qual=0 resume=0 assessment=0` and write no chatter / emails.
+1. Open dev Odoo as a recruiter once `deploy-dev` finishes.
+2. Settings → Technical → Server Actions → confirm
+   `BICC v5: Send SMS Queue Digest` exists, model `hr.applicant`,
+   binding to the same model with view types `form,list`.
+3. Recruitment → Applicants → gear icon → confirm the action shows up.
+4. Click it. The bottom-of-action `log()` line reports total candidates
+   and number of sections.
+5. Check the HR Recruitment Manager group's inbox; one email with a
+   subject like `BICC SMS Queue: N candidate(s) need a follow-up SMS`
+   and one to three tables inside.
+6. Click an Applicant link in the table → confirm it deep-links to the
+   correct hr.applicant record.
+7. On dev DBs that don't yet have v5 reminder fields, the action should
+   log `queue is empty` and send nothing.
 
 ## Notes
 
-- Uses `mail.mail.sudo().create({body_html: ...}).send()` per the SaaS
-  safe_eval HTML rule — message_post and message_notify escape HTML.
-- `applicant.company_id.x_studio_short_name` is accessed via `hasattr` guard
-  so the action degrades gracefully on environments where Studio hasn't
-  created the field (falls back to `company_id.name`).
-- No rollback gotchas — this changeset only creates one server action. CI
-  auto-rollback on failure cleanly removes it.
+- HTML is emitted via `mail.mail.sudo().create({body_html: ...}).send()`
+  because `message_notify` / `message_post` escape HTML in SaaS safe_eval.
+- The `applicant.company_id.x_studio_short_name` field is accessed via
+  `hasattr` guard so the action degrades gracefully on environments
+  where Studio hasn't created the multi-company short-name field.
+- No `binding_view_types` value of `list` alone — both `form` and `list`
+  are included so HR can fire the action from either context.
