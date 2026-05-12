@@ -1,0 +1,27 @@
+{
+  "applied_by": "ai",
+  "changeset": "012_alert_daily_n8n_retry",
+  "description": "Daily 2 AM PHT cron. Lists applicants stuck in Stage 1 (New) for > 24h\nand emails the HR Recruitment Manager group a digest. Posts a chatter\nline on each stuck applicant for audit.\n\nPure-procedural script; no closures. Recipient command list built via\nexplicit for-loop rather than the original tuple-comprehension.\n",
+  "environment": "dev",
+  "finished_at": "2026-05-12T04:50:57Z",
+  "git_commit_sha": "a297f7b8c9597107c14aa05702722879641f3284",
+  "manifest_sha256": "e337a6c365cf54f472d59560758e6be71eebdb391ad010dc18af22048047f143",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "ir.actions.server:1792",
+      "type": "create_server_action",
+      "xml_id": "bicc_recruitment.daily_n8n_retry"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.cron:91",
+      "type": "create_cron",
+      "xml_id": "bicc_recruitment.cron_daily_n8n_retry"
+    }
+  ],
+  "started_at": "2026-05-12T04:50:50Z",
+  "status": "deployed"
+}
