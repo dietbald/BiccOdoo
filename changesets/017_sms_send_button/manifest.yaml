@@ -1,0 +1,58 @@
+id: 017_sms_send_button
+schema_version: 1
+description: |
+  Adds a "Send SMS Reminder" button to the hr.applicant Action menu
+  (form + list). Clicking it opens a modal popup form view showing:
+    - Applicant name
+    - Mobile number (partner_phone)
+    - Pre-filled SMS text matching the applicant's current stage
+  ...and two action buttons in the footer:
+    - SMS Sent → stamps the right x_studio_sms_*_date field and closes
+    - Cancel → closes without any state change
+
+  Stage routing (same wording as the SMS Queue Digest in 002):
+    - Stage 1 (New) with no attachment → resume-missing SMS, stamps
+      x_studio_sms_new_reminder_date
+    - Stage 2 (Qualification) → info-survey SMS, stamps
+      x_studio_sms_reminder_date
+    - Stage 7 (Assessment Sent) → assessment SMS, stamps
+      x_studio_assessment_sms_reminder_date
+    - Any other stage → UserError ("no SMS template for this stage")
+
+  Implementation: a custom form view of hr.applicant rendered in
+  target='new' modal mode, with the SMS text held in a new
+  x_studio_sms_preview (Text) field between button click and modal
+  render. Pure procedural Python — no closures.
+
+author: ai
+
+operations:
+  # Field to hold the rendered SMS text between button click and popup render
+  - type: create_field
+    xml_id: bicc_recruitment.field_hr_applicant_sms_preview
+    model: hr.applicant
+    name: x_studio_sms_preview
+    field_type: text
+
+  # SA called by the "SMS Sent" button in the popup; must exist before
+  # the view (which references its xml_id at view-load time)
+  - type: create_server_action
+    xml_id: bicc_recruitment.mark_sms_sent
+    name: "BICC v5: Mark SMS Sent"
+    model: hr.applicant
+    code_file: mark_sms_sent.py
+
+  # The popup form view itself
+  - type: create_view
+    xml_id: bicc_recruitment.sms_wizard_form_view
+    model: hr.applicant
+    arch_file: sms_wizard_form_view.xml
+
+  # The Action-menu button SA — bound to hr.applicant form + list
+  - type: create_server_action
+    xml_id: bicc_recruitment.send_sms_button
+    name: "BICC v5: Send SMS Reminder"
+    model: hr.applicant
+    code_file: send_sms_button.py
+    binding_model: hr.applicant
+    binding_view_types: "form,list"

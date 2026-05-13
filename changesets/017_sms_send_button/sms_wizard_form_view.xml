@@ -1,0 +1,24 @@
+<form string="Send SMS Reminder">
+    <sheet>
+        <div class="oe_title">
+            <h2><field name="partner_name" readonly="1" nolabel="1"/></h2>
+        </div>
+        <group>
+            <field name="partner_phone" readonly="1" string="Mobile"/>
+            <field name="x_studio_sms_preview" readonly="1" string="SMS to send" widget="text"/>
+        </group>
+        <p class="text-muted" style="margin-top:12px;">
+            Triple-click any line to select it, then copy.
+            "SMS Sent" stamps the matching reminder date and closes this popup.
+        </p>
+    </sheet>
+    <footer>
+        <button name="%(bicc_recruitment.mark_sms_sent)d"
+                type="action"
+                string="SMS Sent"
+                class="btn-primary"/>
+        <button special="cancel"
+                string="Cancel"
+                class="btn-secondary"/>
+    </footer>
+</form>
