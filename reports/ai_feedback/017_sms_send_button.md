@@ -1,3 +1,3 @@
 # Validation OK — 017_sms_send_button
 
-All static checks passed. sha256=08b2783d15ef906dc03c088f9d60e872783d0f0dd0470efb12e4d4d86b725eba
+All static checks passed. sha256=d4f564ee92ba05cc692dfbc64278a2961abdc4d8a041e2ab0f50f78f7222cebc
