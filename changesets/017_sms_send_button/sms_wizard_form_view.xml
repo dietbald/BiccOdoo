@@ -1,0 +1,20 @@
+<form string="Send SMS Manually">
+    <sheet>
+        <div class="alert alert-warning" role="alert" style="margin:8px 0;">
+            <b>Send this SMS manually from the HR phone only.</b> Do not use a personal phone, and do not forward it through other messaging apps. The system does not send SMS automatically.
+        </div>
+        <group>
+            <field name="partner_name" readonly="1" string="Name"/>
+            <field name="x_studio_sms_phone_display" readonly="1" string="Mobile" widget="html"/>
+            <field name="x_studio_sms_preview" readonly="1" string="SMS to send" widget="text"/>
+        </group>
+        <p class="text-muted" style="margin-top:12px;">
+            Triple-click any line to select it, then copy.
+            "SMS Sent" stamps the matching reminder date and closes this popup.
+        </p>
+    </sheet>
+    <footer>
+        <button name="bicc_recruitment.mark_sms_sent" type="action" string="SMS Sent" class="btn-primary"/>
+        <button special="cancel" string="Cancel" class="btn-secondary"/>
+    </footer>
+</form>
