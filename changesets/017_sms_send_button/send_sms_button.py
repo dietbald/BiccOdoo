@@ -1,16 +1,15 @@
-# TRIGGER: Manual button on hr.applicant (Action menu, form + list)
+# TRIGGER: Manual button on hr.applicant (Action menu, form + list,
+#          header button via changeset 018).
 # MODEL: hr.applicant
-# DESCRIPTION: Entry point for "Send SMS Reminder". Builds the SMS text
-#   appropriate for the applicant's current stage, stashes it in
-#   x_studio_sms_preview, and opens a modal popup form view with two
-#   buttons: Cancel (closes, no state change) and SMS Sent (calls the
-#   bicc_recruitment.mark_sms_sent action which stamps the right
-#   x_studio_sms_*_date).
+# DESCRIPTION: Entry point for "Send SMS Manually". Builds the SMS text
+#   for the applicant's current stage, stashes it in
+#   x_studio_sms_preview, computes a phone-validity warning if the
+#   number is empty or looks incomplete, and opens a modal popup. The
+#   popup has two buttons: Cancel (closes, no state change) and
+#   SMS Sent (calls bicc_recruitment.mark_sms_sent which stamps the
+#   right x_studio_sms_*_date).
 #
-#   No state change here other than the preview-field stash. The
-#   *_date fields are stamped only when HR clicks SMS Sent.
-#
-# Pure procedural — no closures.
+# Pure procedural — no closures, no hasattr (not in SaaS safe_eval).
 
 STAGE_NEW = 1
 STAGE_QUALIFICATION = 2
@@ -58,14 +57,37 @@ if not sms_text:
         % (record.partner_name or 'Unknown', record.stage_id.name or 'unknown')
     )
 
-# Stash the SMS preview text on the applicant so the popup view can show it
-record.write({'x_studio_sms_preview': sms_text})
+# ── Phone validity check (procedural, no comp/lambda) ──
+phone_raw = record.partner_phone or ''
+phone_digits = ''
+for ch in phone_raw:
+    if ch.isdigit():
+        phone_digits += ch
+
+phone_warning = False
+if not phone_raw.strip():
+    phone_warning = (
+        "No mobile number on file for this applicant. "
+        "Update the applicant's phone before sending the SMS."
+    )
+elif len(phone_digits) < 10:
+    phone_warning = (
+        "The phone number on file looks incomplete: %r (only %d digit(s)). "
+        "Verify it before sending — Philippine mobile numbers have at least 10 digits."
+    ) % (phone_raw, len(phone_digits))
+
+# Stash the SMS preview AND any phone warning on the applicant so the
+# popup view can show them
+record.write({
+    'x_studio_sms_preview': sms_text,
+    'x_studio_sms_phone_warning': phone_warning or False,
+})
 
 # Open the popup form view as a modal dialog
 view = env.ref('bicc_recruitment.sms_wizard_form_view', raise_if_not_found=False)
 action = {
     'type': 'ir.actions.act_window',
-    'name': 'Send SMS Reminder',
+    'name': 'Send SMS Manually',
     'res_model': 'hr.applicant',
     'res_id': record.id,
     'view_mode': 'form',

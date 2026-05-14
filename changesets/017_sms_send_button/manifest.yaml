@@ -1,13 +1,19 @@
 id: 017_sms_send_button
 schema_version: 1
 description: |
-  Adds a "Send SMS Reminder" button to the hr.applicant Action menu
-  (form + list). Clicking it opens a modal popup form view showing:
-    - Applicant name
+  Adds a "Send SMS Manually" button to the hr.applicant Action menu
+  (form + list) and the SMS preview popup. Clicking it opens a modal
+  showing:
+    - Applicant name (heading)
+    - Static HR-phone-only warning (always visible — reminds HR the
+      system never sends SMS, it must be sent from the HR phone)
     - Mobile number (partner_phone)
+    - Dynamic phone-validity warning (visible only when the number is
+      missing or has fewer than 10 digits)
     - Pre-filled SMS text matching the applicant's current stage
   ...and two action buttons in the footer:
-    - SMS Sent → stamps the right x_studio_sms_*_date field and closes
+    - SMS Sent → stamps the right x_studio_sms_*_date field, clears
+      the preview and warning fields, posts chatter audit, closes
     - Cancel → closes without any state change
 
   Stage routing (same wording as the SMS Queue Digest in 002):
@@ -20,18 +26,25 @@ description: |
     - Any other stage → UserError ("no SMS template for this stage")
 
   Implementation: a custom form view of hr.applicant rendered in
-  target='new' modal mode, with the SMS text held in a new
-  x_studio_sms_preview (Text) field between button click and modal
-  render. Pure procedural Python — no closures.
+  target='new' modal mode. Two scratch fields on hr.applicant hold the
+  rendered SMS text and the phone-validity warning between click and
+  modal render. Pure procedural Python — no closures, no hasattr.
 
 author: ai
 
 operations:
-  # Field to hold the rendered SMS text between button click and popup render
+  # Scratch fields to hold the SMS preview and phone warning between
+  # button click and popup render
   - type: create_field
     xml_id: bicc_recruitment.field_hr_applicant_sms_preview
     model: hr.applicant
     name: x_studio_sms_preview
+    field_type: text
+
+  - type: create_field
+    xml_id: bicc_recruitment.field_hr_applicant_sms_phone_warning
+    model: hr.applicant
+    name: x_studio_sms_phone_warning
     field_type: text
 
   # SA called by the "SMS Sent" button in the popup; must exist before
@@ -51,7 +64,7 @@ operations:
   # The Action-menu button SA — bound to hr.applicant form + list
   - type: create_server_action
     xml_id: bicc_recruitment.send_sms_button
-    name: "BICC v5: Send SMS Reminder"
+    name: "BICC v5: Send SMS Manually"
     model: hr.applicant
     code_file: send_sms_button.py
     binding_model: hr.applicant

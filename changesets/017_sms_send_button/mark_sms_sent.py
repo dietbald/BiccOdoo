@@ -1,8 +1,9 @@
 # TRIGGER: Called by the "SMS Sent" button in the SMS popup form view.
 # MODEL: hr.applicant
 # DESCRIPTION: Stamp the right x_studio_sms_*_date field based on the
-#   applicant's current stage, clear the preview field, post a chatter
-#   audit line, and close the modal dialog.
+#   applicant's current stage, clear both the preview and the
+#   phone-warning fields, post a chatter audit line, and close the
+#   modal dialog.
 #
 # Pure procedural — no closures.
 
@@ -29,6 +30,7 @@ if not field_to_stamp:
 record.write({
     field_to_stamp: datetime.datetime.now(),
     'x_studio_sms_preview': False,
+    'x_studio_sms_phone_warning': False,
 })
 record.message_post(body=(
     "MANUAL SMS: Marked as sent (%s queue, field %s)."
