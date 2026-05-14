@@ -3,8 +3,8 @@
   "changeset": "018_sms_button_on_form",
   "description": "Adds a \"SMS\" button to the hr.applicant form view header, next to the\nexisting Studio-added \"Req Info\" / \"n8n\" / \"Remind\" buttons. The\nbutton is visible only when the applicant is in an SMS-eligible state\nAND the matching x_studio_sms_*_date is not yet stamped:\n\n  - Stage 1 (New) with attachment_number == 0 and x_studio_sms_new_reminder_date null\n  - Stage 2 (Qualification) with x_studio_sms_reminder_date null\n  - Stage 7 (Assessment Sent) with x_studio_assessment_sms_reminder_date null\n\nClicking the button fires the bicc_recruitment.send_sms_button server\naction from changeset 017, which opens the SMS preview popup with the\nCancel / SMS Sent buttons in the modal footer.\n\nImplementation: inherits hr_recruitment.hr_applicant_view_form and\ninserts the button after action_talent_pool_add_applicants (the same\nanchor Studio uses for its three existing buttons). Adds the three\nx_studio_sms_*_date fields plus attachment_number as invisible fields\ninside the sheet so the button's invisible expression can reference\nthem.\n\nDepends on changeset 017 for the server action and the\nx_studio_sms_preview field.\n",
   "environment": "dev",
-  "finished_at": "2026-05-14T05:05:03Z",
-  "git_commit_sha": "ba573e791e4e9e737c7753a22d324483fe4e03a4",
+  "finished_at": "2026-05-14T05:05:49Z",
+  "git_commit_sha": "556efe78120e6bd888cef6c60a7c8ca45cd1ab16",
   "manifest_sha256": "4b2ef3c771671309a63e35414329ed9e4b9b251f1cc9880784d2892dd856c8ab",
   "operations": [
     {
@@ -15,6 +15,6 @@
       "xml_id": "bicc_recruitment.applicant_form_sms_button_inherit"
     }
   ],
-  "started_at": "2026-05-14T05:04:59Z",
+  "started_at": "2026-05-14T05:05:48Z",
   "status": "deployed"
 }
