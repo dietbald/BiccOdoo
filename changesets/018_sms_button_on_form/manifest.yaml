@@ -1,0 +1,34 @@
+id: 018_sms_button_on_form
+schema_version: 1
+description: |
+  Adds a "SMS" button to the hr.applicant form view header, next to the
+  existing Studio-added "Req Info" / "n8n" / "Remind" buttons. The
+  button is visible only when the applicant is in an SMS-eligible state
+  AND the matching x_studio_sms_*_date is not yet stamped:
+
+    - Stage 1 (New) with attachment_number == 0 and x_studio_sms_new_reminder_date null
+    - Stage 2 (Qualification) with x_studio_sms_reminder_date null
+    - Stage 7 (Assessment Sent) with x_studio_assessment_sms_reminder_date null
+
+  Clicking the button fires the bicc_recruitment.send_sms_button server
+  action from changeset 017, which opens the SMS preview popup with the
+  Cancel / SMS Sent buttons in the modal footer.
+
+  Implementation: inherits hr_recruitment.hr_applicant_view_form and
+  inserts the button after action_talent_pool_add_applicants (the same
+  anchor Studio uses for its three existing buttons). Adds the three
+  x_studio_sms_*_date fields plus attachment_number as invisible fields
+  inside the sheet so the button's invisible expression can reference
+  them.
+
+  Depends on changeset 017 for the server action and the
+  x_studio_sms_preview field.
+
+author: ai
+
+operations:
+  - type: create_view
+    xml_id: bicc_recruitment.applicant_form_sms_button_inherit
+    model: hr.applicant
+    inherit_id: hr_recruitment.hr_applicant_view_form
+    arch_file: applicant_form_sms_button.xml

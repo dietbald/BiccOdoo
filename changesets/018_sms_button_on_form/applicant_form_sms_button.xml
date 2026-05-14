@@ -1,0 +1,11 @@
+<data>
+    <xpath expr="//sheet" position="inside">
+        <field name="attachment_number" invisible="1"/>
+        <field name="x_studio_sms_reminder_date" invisible="1"/>
+        <field name="x_studio_sms_new_reminder_date" invisible="1"/>
+        <field name="x_studio_assessment_sms_reminder_date" invisible="1"/>
+    </xpath>
+    <xpath expr="//button[@name='action_talent_pool_add_applicants']" position="after">
+        <button string="SMS" name="bicc_recruitment.send_sms_button" type="action" invisible="not ((stage_id == 1 and attachment_number == 0 and not x_studio_sms_new_reminder_date) or (stage_id == 2 and not x_studio_sms_reminder_date) or (stage_id == 7 and not x_studio_assessment_sms_reminder_date))"/>
+    </xpath>
+</data>
