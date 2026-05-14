@@ -16,8 +16,13 @@ STAGE_NEW = 1
 STAGE_QUALIFICATION = 2
 STAGE_ASSESSMENT_SENT = 7
 
+# Detect whether res.company has x_studio_short_name (multi-company branding).
+# hasattr is NOT in the Odoo SaaS safe_eval allowlist — check via ir.model.fields.
+has_short_name = bool(env['ir.model.fields'].sudo().search(
+    [('model', '=', 'res.company'), ('name', '=', 'x_studio_short_name')], limit=1))
+
 co_short = False
-if record.company_id and hasattr(record.company_id, 'x_studio_short_name'):
+if record.company_id and has_short_name:
     co_short = record.company_id.x_studio_short_name
 co = co_short or (record.company_id.name if record.company_id else 'BICC')
 first_name = (record.partner_name or 'there').split(' ')[0]
