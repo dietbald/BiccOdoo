@@ -6,22 +6,34 @@ description: |
 
   For each Stage-7 applicant past the 48h threshold:
   - Identify which of the 3 assessments are still incomplete; if any
-    missing, email a partial-link reminder. Cascades:
-      - first miss → General Follow-up Reminder (reuses Track 1 template)
+    missing, stamp the pending-links HTML into the scratch
+    x_studio_assessment_pending_links field on the applicant, then send
+    the dedicated assessment-reminder template (which renders that
+    field inline). Cascades:
+      - first miss → Assessment Reminder (Partial Bundle)
         + stamp x_studio_assessment_reminder_date
-      - second miss → Final Reminder + stamp
-        x_studio_assessment_final_reminder_date
+      - second miss → Final Assessment Reminder + stamp
+        x_studio_assessment_final_reminder_date + clear
+        x_studio_assessment_sms_reminder_date (mirrors 009's behaviour)
       - third miss → archive with "Refuse did not complete assessment"
   - All done → check scoring_success on each input:
       - Any failed → kanban_state=blocked + REVIEW NEEDED chatter
       - All passed → advance to Stage 10 (Passed Assessment)
 
-  Ships the create_field for x_studio_assessment_reminder_date (missing
-  on dev), the Score Below Passing Threshold template (for HR's manual
-  refusal of failed-assessment candidates), the SA, and the cron.
+  Reuses existing state='new' survey.user_input rows where possible
+  instead of creating fresh ones on every cron run (previously every
+  run minted new tokens, leading to orphan inputs piling up).
 
-  DEPENDS on changeset 009 — Track 2 reuses Track 1's three templates
-  (general/final/non-response) by name. Deploy 009 first.
+  Ships:
+    - x_studio_assessment_reminder_date (datetime — last-action date)
+    - x_studio_assessment_pending_links (html — scratch field rendered
+      inside the reminder templates)
+    - Three mail.template records: assessment-general, assessment-final,
+      score-failure
+    - The SA + the daily cron pointing at the SA
+
+  Reuses 009's "Recruitment: Refuse did not complete assessment"
+  template by name for the archive farewell. Deploy 009 first.
 
   model_id=662 (hr.applicant).
 
@@ -34,6 +46,84 @@ operations:
     model: hr.applicant
     name: x_studio_assessment_reminder_date
     field_type: datetime
+
+  - type: create_field
+    xml_id: bicc_recruitment.field_hr_applicant_assessment_pending_links
+    model: hr.applicant
+    name: x_studio_assessment_pending_links
+    field_type: html
+
+  - type: create_record
+    xml_id: bicc_recruitment.tpl_assessment_reminder_general
+    model: mail.template
+    values:
+      name: "Recruitment: Assessment Reminder (Partial Bundle)"
+      model_id: 662
+      subject: "Reminder: please complete your remaining assessments for {{ object.job_id.name }}"
+      email_from: "{{ object.company_id.x_studio_short_name }} <{{ object.company_id.alias_domain_id.default_from_email }}>"
+      email_to: "{{ object.email_from }}"
+      lang: "{{ object.partner_id.lang }}"
+      auto_delete: false
+      body_html: |
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;background-color:#f2f2f2;margin:0;padding:0;">
+          <tbody><tr><td align="center" style="padding:20px 0;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;max-width:600px;background-color:#ffffff;color:#101820;font-family:'Roboto',sans-serif;font-size:13px;line-height:1.6;">
+              <tbody><tr><td style="padding:20px;">
+                <p style="margin:0;padding:0;font-size:13px;">
+                  Hi <t t-out="object.partner_name or 'there'"/>,
+                  <br/><br/>
+                  Friendly reminder about your application for the <b><t t-out="object.job_id.name or 'open'"/></b> position at <t t-out="object.company_id.name or 'Our Company'"/>. We're still waiting on the following assessment(s):
+                </p>
+                <t t-out="object.x_studio_assessment_pending_links"/>
+                <p style="margin:0;padding:0;font-size:13px;">
+                  Please click each link to complete what's remaining. Each link is unique to your application — don't share it with anyone else.
+                  <br/><br/>
+                  If you've already submitted everything and this message reached you in error, just reply and we'll sort it out.
+                  <br/><br/>
+                  Best regards,<br/>
+                  <t t-out="object.company_id.name or 'Our Company'"/> Recruitment Team<br/>
+                  <a t-att-href="object.company_id.website" style="text-decoration:none;color:#374151;"><t t-out="object.company_id.website"/></a>
+                </p>
+              </td></tr></tbody>
+            </table>
+          </td></tr></tbody>
+        </table>
+
+  - type: create_record
+    xml_id: bicc_recruitment.tpl_assessment_reminder_final
+    model: mail.template
+    values:
+      name: "Recruitment: Final Assessment Reminder Before Archive"
+      model_id: 662
+      subject: "Final reminder: complete your assessments for {{ object.job_id.name }}"
+      email_from: "{{ object.company_id.x_studio_short_name }} <{{ object.company_id.alias_domain_id.default_from_email }}>"
+      email_to: "{{ object.email_from }}"
+      lang: "{{ object.partner_id.lang }}"
+      auto_delete: false
+      body_html: |
+        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-collapse:collapse;background-color:#f2f2f2;margin:0;padding:0;">
+          <tbody><tr><td align="center" style="padding:20px 0;">
+            <table border="0" cellpadding="0" cellspacing="0" width="600" style="border-collapse:collapse;max-width:600px;background-color:#ffffff;color:#101820;font-family:'Roboto',sans-serif;font-size:13px;line-height:1.6;">
+              <tbody><tr><td style="padding:20px;">
+                <p style="margin:0;padding:0;font-size:13px;">
+                  Hi <t t-out="object.partner_name or 'there'"/>,
+                  <br/><br/>
+                  This is our final follow-up regarding your application for the <b><t t-out="object.job_id.name or 'open'"/></b> position at <t t-out="object.company_id.name or 'Our Company'"/>. The following assessment(s) are still pending:
+                </p>
+                <t t-out="object.x_studio_assessment_pending_links"/>
+                <p style="margin:0;padding:0;font-size:13px;">
+                  <b>If we don't receive your completed assessments within the next 48 hours, your application will be archived.</b>
+                  <br/><br/>
+                  If you're still interested, please complete them as soon as possible. If you ran into a technical issue, just reply to this email and we'll help.
+                  <br/><br/>
+                  Best regards,<br/>
+                  <t t-out="object.company_id.name or 'Our Company'"/> Recruitment Team<br/>
+                  <a t-att-href="object.company_id.website" style="text-decoration:none;color:#374151;"><t t-out="object.company_id.website"/></a>
+                </p>
+              </td></tr></tbody>
+            </table>
+          </td></tr></tbody>
+        </table>
 
   - type: create_record
     xml_id: bicc_recruitment.tpl_score_failure

@@ -1,9 +1,12 @@
 # TRIGGER: Scheduled Action (Daily, 8 AM PHT)
 # MODEL: hr.applicant
 # DESCRIPTION: Track 2 janitor for Stage 7 (Assessment Sent) applicants.
-#   - Identifies which of the 3 assessments are still incomplete
-#   - If any missing → email a partial-link reminder (general → final →
-#     archive); reuses Track 1's templates by name.
+#   - Identifies which of the 3 assessments are still incomplete (reusing
+#     existing state='new' survey.user_input rows rather than creating
+#     fresh ones every cron run).
+#   - If any missing → stamp the pending-links HTML into a scratch field
+#     on the applicant and send a dedicated assessment-reminder template
+#     that renders that field inline (general → final → archive).
 #   - If all done → check scoring_success: any failed → kanban_state=
 #     blocked + REVIEW NEEDED chatter; all passed → advance to Stage 10.
 #
@@ -11,8 +14,8 @@
 
 STAGE_ASSESSMENT_SENT = 7
 STAGE_PASSED_ASSESSMENT = 10
-TPL_GENERAL_REMINDER = 'Recruitment: General Follow-up Reminder'
-TPL_FINAL_REMINDER = 'Recruitment: Final Reminder Before Archive'
+TPL_ASSESSMENT_GENERAL = 'Recruitment: Assessment Reminder (Partial Bundle)'
+TPL_ASSESSMENT_FINAL = 'Recruitment: Final Assessment Reminder Before Archive'
 TPL_NON_RESPONSE = 'Recruitment: Refuse did not complete assessment'
 REMINDER_INTERVAL_HOURS = 48
 
@@ -25,6 +28,9 @@ track2 = env['hr.applicant'].search([
 ])
 
 for rec in track2:
+    if not (rec.email_from or '').strip():
+        continue
+
     # Compute last action date (most recent reminder, fallback stage change)
     candidate_dates = []
     if rec.x_studio_assessment_reminder_date:
@@ -41,8 +47,6 @@ for rec in track2:
 
     if last_date and last_date > cutoff:
         continue
-    if last_date and last_date.date() == now.date():
-        continue
 
     recent_activity = env['survey.user_input'].search_count([
         ('email', '=', rec.email_from),
@@ -51,7 +55,8 @@ for rec in track2:
     if recent_activity > 0:
         continue
 
-    # Detect missing assessments + their links
+    # Detect missing assessments. Use a small per-job list so we can iterate
+    # without a nested helper / comprehension (safe_eval rules).
     job = rec.job_id
     done_inputs = env['survey.user_input'].search([
         ('email', '=', rec.email_from),
@@ -59,19 +64,33 @@ for rec in track2:
     ])
     done_ids = done_inputs.mapped('survey_id.id')
 
+    surveys_to_check = []
+    if job and job.survey_id:
+        surveys_to_check.append(('Technical', job.survey_id))
+    if job and job.x_studio_logical_assessment:
+        surveys_to_check.append(('Logical', job.x_studio_logical_assessment))
+    if job and job.x_studio_emotional_assessment:
+        surveys_to_check.append(('Emotional', job.x_studio_emotional_assessment))
+
     missing_links = []
-    if job and job.survey_id and job.survey_id.id not in done_ids:
-        ui = env['survey.user_input'].create({'survey_id': job.survey_id.id, 'email': rec.email_from, 'state': 'new'})
+    for label, survey in surveys_to_check:
+        if survey.id in done_ids:
+            continue
+        # Reuse an existing state='new' user_input for (this email, this
+        # survey) if present — only mint a new one when none exists.
+        ui = env['survey.user_input'].search([
+            ('survey_id', '=', survey.id),
+            ('email', '=', rec.email_from),
+            ('state', '=', 'new'),
+        ], limit=1)
+        if not ui:
+            ui = env['survey.user_input'].create({
+                'survey_id': survey.id,
+                'email': rec.email_from,
+                'state': 'new',
+            })
         u = ui.get_start_url()
-        missing_links.append("<li><b>Technical:</b> <a href='%s'>%s</a></li>" % (u, u))
-    if job and job.x_studio_logical_assessment and job.x_studio_logical_assessment.id not in done_ids:
-        ui = env['survey.user_input'].create({'survey_id': job.x_studio_logical_assessment.id, 'email': rec.email_from, 'state': 'new'})
-        u = ui.get_start_url()
-        missing_links.append("<li><b>Logical:</b> <a href='%s'>%s</a></li>" % (u, u))
-    if job and job.x_studio_emotional_assessment and job.x_studio_emotional_assessment.id not in done_ids:
-        ui = env['survey.user_input'].create({'survey_id': job.x_studio_emotional_assessment.id, 'email': rec.email_from, 'state': 'new'})
-        u = ui.get_start_url()
-        missing_links.append("<li><b>Emotional:</b> <a href='%s'>%s</a></li>" % (u, u))
+        missing_links.append("<li><b>%s:</b> <a href='%s'>%s</a></li>" % (label, u, u))
 
     if not missing_links:
         # All assessments completed — check pass/fail
@@ -104,28 +123,35 @@ for rec in track2:
             rec.message_post(body="AUTOMATION: All assessments completed and passed. Moving to Passed Assessment stage.")
         continue
 
-    # Missing items — cascade reminders
+    # Missing items — stamp scratch field then cascade reminders.
+    links_html = "<ul>" + "".join(missing_links) + "</ul>"
+    rec.write({'x_studio_assessment_pending_links': links_html})
+
     reminder_date = rec.x_studio_assessment_reminder_date
     final_date = rec.x_studio_assessment_final_reminder_date
-    links_html = "<ul>" + "".join(missing_links) + "</ul>"
 
     if not reminder_date:
-        tpl = env['mail.template'].search([('name', '=', TPL_GENERAL_REMINDER)], limit=1)
-        if tpl.exists():
-            ctx = dict(env.context or {})
-            ctx['assessment_links'] = links_html
-            tpl.with_context(ctx).send_mail(rec.id, force_send=False)
-            rec.write({'x_studio_assessment_reminder_date': now})
+        tpl = env['mail.template'].search([('name', '=', TPL_ASSESSMENT_GENERAL)], limit=1)
+        if not tpl.exists():
+            rec.message_post(body="AUTOMATION ERROR: Template '%s' not found — assessment reminder skipped." % TPL_ASSESSMENT_GENERAL)
+            continue
+        tpl.send_mail(rec.id, force_send=False)
+        rec.write({'x_studio_assessment_reminder_date': now})
     elif not final_date:
-        tpl = env['mail.template'].search([('name', '=', TPL_FINAL_REMINDER)], limit=1)
-        if tpl.exists():
-            ctx = dict(env.context or {})
-            ctx['assessment_links'] = links_html
-            tpl.with_context(ctx).send_mail(rec.id, force_send=False)
-            rec.write({'x_studio_assessment_final_reminder_date': now})
+        tpl = env['mail.template'].search([('name', '=', TPL_ASSESSMENT_FINAL)], limit=1)
+        if not tpl.exists():
+            rec.message_post(body="AUTOMATION ERROR: Template '%s' not found — final assessment reminder skipped." % TPL_ASSESSMENT_FINAL)
+            continue
+        tpl.send_mail(rec.id, force_send=False)
+        rec.write({
+            'x_studio_assessment_final_reminder_date': now,
+            'x_studio_assessment_sms_reminder_date': False,
+        })
     else:
         tpl = env['mail.template'].search([('name', '=', TPL_NON_RESPONSE)], limit=1)
-        if tpl.exists():
+        if not tpl.exists():
+            rec.message_post(body="AUTOMATION ERROR: Template '%s' not found — archiving without farewell email." % TPL_NON_RESPONSE)
+        else:
             tpl.send_mail(rec.id, force_send=False)
         rec.write({'active': False})
         rec.message_post(body="AUTOMATION: Auto-archived after unanswered Track 2 reminders.")
