@@ -3,8 +3,8 @@
   "changeset": "017_sms_send_button",
   "description": "Adds a \"Send SMS Manually\" button to the hr.applicant Action menu\n(form + list) and the SMS preview popup. Clicking it opens a modal\nshowing:\n  - Applicant name (heading)\n  - Static HR-phone-only warning (always visible \u2014 reminds HR the\n    system never sends SMS, it must be sent from the HR phone)\n  - Mobile number \u2014 rendered as HTML. If the number is missing the\n    cell reads \"No Phone number\" in red; if present but fewer than\n    10 digits the number itself is shown in red. Otherwise plain text.\n  - Pre-filled SMS text matching the applicant's current stage\n...and two action buttons in the footer:\n  - SMS Sent \u2192 stamps the right x_studio_sms_*_date field, clears\n    the preview and warning fields, posts chatter audit, closes\n  - Cancel \u2192 closes without any state change\n\nStage routing (same wording as the SMS Queue Digest in 002):\n  - Stage 1 (New) with no attachment \u2192 resume-missing SMS, stamps\n    x_studio_sms_new_reminder_date\n  - Stage 2 (Qualification) \u2192 info-survey SMS, stamps\n    x_studio_sms_reminder_date\n  - Stage 7 (Assessment Sent) \u2192 assessment SMS, stamps\n    x_studio_assessment_sms_reminder_date\n  - Any other stage \u2192 UserError (\"no SMS template for this stage\")\n\nImplementation: a custom form view of hr.applicant rendered in\ntarget='new' modal mode. Two scratch fields on hr.applicant hold the\nrendered SMS text and the phone-validity warning between click and\nmodal render. Pure procedural Python \u2014 no closures, no hasattr.\n",
   "environment": "dev",
-  "finished_at": "2026-05-14T02:16:03Z",
-  "git_commit_sha": "46bf8526a1620d8c0905a574fa9fbf0279d21ad2",
+  "finished_at": "2026-05-14T05:04:54Z",
+  "git_commit_sha": "ba573e791e4e9e737c7753a22d324483fe4e03a4",
   "manifest_sha256": "32f4aa7038a7576edfbe7f9de90b7f36962520789eb81c39502b7093003a2164",
   "operations": [
     {
@@ -30,8 +30,7 @@
     },
     {
       "op_index": 3,
-      "rollback_snapshot": "rollback_snapshots/dev/017_sms_send_button/operation_003_ir_ui_view_6606.json",
-      "status": "updated",
+      "status": "skipped",
       "target": "ir.ui.view:6606",
       "type": "create_view",
       "xml_id": "bicc_recruitment.sms_wizard_form_view"
@@ -44,6 +43,6 @@
       "xml_id": "bicc_recruitment.send_sms_button"
     }
   ],
-  "started_at": "2026-05-14T02:15:57Z",
+  "started_at": "2026-05-14T05:04:37Z",
   "status": "deployed"
 }
