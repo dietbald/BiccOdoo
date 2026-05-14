@@ -3,9 +3,9 @@
   "changeset": "017_sms_send_button",
   "description": "Adds a \"Send SMS Reminder\" button to the hr.applicant Action menu\n(form + list). Clicking it opens a modal popup form view showing:\n  - Applicant name\n  - Mobile number (partner_phone)\n  - Pre-filled SMS text matching the applicant's current stage\n...and two action buttons in the footer:\n  - SMS Sent \u2192 stamps the right x_studio_sms_*_date field and closes\n  - Cancel \u2192 closes without any state change\n\nStage routing (same wording as the SMS Queue Digest in 002):\n  - Stage 1 (New) with no attachment \u2192 resume-missing SMS, stamps\n    x_studio_sms_new_reminder_date\n  - Stage 2 (Qualification) \u2192 info-survey SMS, stamps\n    x_studio_sms_reminder_date\n  - Stage 7 (Assessment Sent) \u2192 assessment SMS, stamps\n    x_studio_assessment_sms_reminder_date\n  - Any other stage \u2192 UserError (\"no SMS template for this stage\")\n\nImplementation: a custom form view of hr.applicant rendered in\ntarget='new' modal mode, with the SMS text held in a new\nx_studio_sms_preview (Text) field between button click and modal\nrender. Pure procedural Python \u2014 no closures.\n",
   "environment": "dev",
-  "finished_at": "2026-05-14T00:04:26Z",
-  "git_commit_sha": "63400952582238dfbed20c38bbbda245e44ab517",
-  "manifest_sha256": "c51fd068cf7ce1fcd9a7860f4a9b948dcd11343bd56a955831e12963fcd7789c",
+  "finished_at": "2026-05-14T01:13:57Z",
+  "git_commit_sha": "6a1657614dfbf4ea9d39a959ec5c83dc3ea2907c",
+  "manifest_sha256": "69a71536c13bb0c39acb0d1ab69e63731783736700e5ffc5da92c08bae45c12d",
   "operations": [
     {
       "op_index": 0,
@@ -30,12 +30,13 @@
     },
     {
       "op_index": 3,
-      "status": "skipped",
+      "rollback_snapshot": "rollback_snapshots/dev/017_sms_send_button/operation_003_ir_actions_server_1820.json",
+      "status": "updated",
       "target": "ir.actions.server:1820",
       "type": "create_server_action",
       "xml_id": "bicc_recruitment.send_sms_button"
     }
   ],
-  "started_at": "2026-05-14T00:04:24Z",
+  "started_at": "2026-05-14T01:13:54Z",
   "status": "deployed"
 }
