@@ -7,9 +7,9 @@ description: |
     - Applicant name (heading)
     - Static HR-phone-only warning (always visible — reminds HR the
       system never sends SMS, it must be sent from the HR phone)
-    - Mobile number (partner_phone)
-    - Dynamic phone-validity warning (visible only when the number is
-      missing or has fewer than 10 digits)
+    - Mobile number — rendered as HTML. If the number is missing the
+      cell reads "No Phone number" in red; if present but fewer than
+      10 digits the number itself is shown in red. Otherwise plain text.
     - Pre-filled SMS text matching the applicant's current stage
   ...and two action buttons in the footer:
     - SMS Sent → stamps the right x_studio_sms_*_date field, clears
@@ -42,10 +42,10 @@ operations:
     field_type: text
 
   - type: create_field
-    xml_id: bicc_recruitment.field_hr_applicant_sms_phone_warning
+    xml_id: bicc_recruitment.field_hr_applicant_sms_phone_display
     model: hr.applicant
-    name: x_studio_sms_phone_warning
-    field_type: text
+    name: x_studio_sms_phone_display
+    field_type: html
 
   # SA called by the "SMS Sent" button in the popup; must exist before
   # the view (which references its xml_id at view-load time)

@@ -30,7 +30,7 @@ if not field_to_stamp:
 record.write({
     field_to_stamp: datetime.datetime.now(),
     'x_studio_sms_preview': False,
-    'x_studio_sms_phone_warning': False,
+    'x_studio_sms_phone_display': False,
 })
 record.message_post(body=(
     "MANUAL SMS: Marked as sent (%s queue, field %s)."

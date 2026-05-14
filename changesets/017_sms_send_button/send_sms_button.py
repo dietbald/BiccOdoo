@@ -57,30 +57,27 @@ if not sms_text:
         % (record.partner_name or 'Unknown', record.stage_id.name or 'unknown')
     )
 
-# ── Phone validity check (procedural, no comp/lambda) ──
+# ── Phone display: red HTML if missing or short, plain text if OK ──
+# Procedural digit counter — no comp/lambda (safe_eval rules).
 phone_raw = record.partner_phone or ''
 phone_digits = ''
 for ch in phone_raw:
     if ch.isdigit():
         phone_digits += ch
 
-phone_warning = False
+RED_STYLE = "color:#dc3545;font-weight:bold;"
 if not phone_raw.strip():
-    phone_warning = (
-        "No mobile number on file for this applicant. "
-        "Update the applicant's phone before sending the SMS."
-    )
+    phone_display = "<span style='%s'>No Phone number</span>" % RED_STYLE
 elif len(phone_digits) < 10:
-    phone_warning = (
-        "The phone number on file looks incomplete: %r (only %d digit(s)). "
-        "Verify it before sending — Philippine mobile numbers have at least 10 digits."
-    ) % (phone_raw, len(phone_digits))
+    phone_display = "<span style='%s'>%s</span>" % (RED_STYLE, phone_raw)
+else:
+    phone_display = phone_raw
 
-# Stash the SMS preview AND any phone warning on the applicant so the
-# popup view can show them
+# Stash the SMS preview AND the phone-display HTML on the applicant so
+# the popup view can show them
 record.write({
     'x_studio_sms_preview': sms_text,
-    'x_studio_sms_phone_warning': phone_warning or False,
+    'x_studio_sms_phone_display': phone_display,
 })
 
 # Open the popup form view as a modal dialog

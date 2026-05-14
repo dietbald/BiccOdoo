@@ -7,8 +7,7 @@
             <b>Send this SMS manually from the HR phone only.</b> Do not use a personal phone, and do not forward it through other messaging apps. The system does not send SMS automatically.
         </div>
         <group>
-            <field name="partner_phone" readonly="1" string="Mobile"/>
-            <field name="x_studio_sms_phone_warning" readonly="1" string="Phone warning" widget="text" invisible="not x_studio_sms_phone_warning"/>
+            <field name="x_studio_sms_phone_display" readonly="1" string="Mobile" widget="html"/>
             <field name="x_studio_sms_preview" readonly="1" string="SMS to send" widget="text"/>
         </group>
         <p class="text-muted" style="margin-top:12px;">
