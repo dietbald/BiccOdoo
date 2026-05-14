@@ -44,16 +44,27 @@ track1 = env['hr.applicant'].search([
 ])
 
 for rec in track1:
-    # Skip if info survey is already completed
+    # Guard: applicant must have an email to chase. Empty email_from would
+    # cause the survey/grace searches to match every other applicant with
+    # an empty email (false positives) — skip the whole row.
+    if not (rec.email_from or '').strip():
+        continue
+
+    # Guard: job must have an info survey configured. Otherwise there's
+    # nothing for the applicant to complete and reminders would spam them
+    # forever.
     survey = rec.job_id.x_studio_application_information if rec.job_id else False
-    if survey:
-        completed = env['survey.user_input'].search_count([
-            ('email', '=', rec.email_from),
-            ('survey_id', '=', survey.id),
-            ('state', '=', 'done'),
-        ])
-        if completed > 0:
-            continue
+    if not survey:
+        continue
+
+    # Skip if info survey is already completed
+    completed = env['survey.user_input'].search_count([
+        ('email', '=', rec.email_from),
+        ('survey_id', '=', survey.id),
+        ('state', '=', 'done'),
+    ])
+    if completed > 0:
+        continue
 
     # Compute last-contact date (most recent of any reminder/request date,
     # fallback to stage change). Plain for-loop, no genexp closure.
@@ -77,8 +88,6 @@ for rec in track1:
         continue
     if last_date > cutoff:
         continue
-    if last_date.date() == now.date():
-        continue
 
     # Grace period: skip if any survey activity in last 48h
     recent_activity = env['survey.user_input'].search_count([
@@ -93,20 +102,26 @@ for rec in track1:
 
     if not reminder_date:
         tpl = env['mail.template'].search([('name', '=', TPL_GENERAL_REMINDER)], limit=1)
-        if tpl.exists():
-            tpl.send_mail(rec.id, force_send=False)
-            rec.write({'x_studio_reminder_date': now})
+        if not tpl.exists():
+            rec.message_post(body="AUTOMATION ERROR: Template '%s' not found — reminder skipped." % TPL_GENERAL_REMINDER)
+            continue
+        tpl.send_mail(rec.id, force_send=False)
+        rec.write({'x_studio_reminder_date': now})
     elif not final_date:
         tpl = env['mail.template'].search([('name', '=', TPL_FINAL_REMINDER)], limit=1)
-        if tpl.exists():
-            tpl.send_mail(rec.id, force_send=False)
-            rec.write({
-                'x_studio_final_reminder_date': now,
-                'x_studio_sms_reminder_date': False,
-            })
+        if not tpl.exists():
+            rec.message_post(body="AUTOMATION ERROR: Template '%s' not found — final reminder skipped." % TPL_FINAL_REMINDER)
+            continue
+        tpl.send_mail(rec.id, force_send=False)
+        rec.write({
+            'x_studio_final_reminder_date': now,
+            'x_studio_sms_reminder_date': False,
+        })
     else:
         tpl = env['mail.template'].search([('name', '=', TPL_NON_RESPONSE)], limit=1)
-        if tpl.exists():
+        if not tpl.exists():
+            rec.message_post(body="AUTOMATION ERROR: Template '%s' not found — archiving without farewell email." % TPL_NON_RESPONSE)
+        else:
             tpl.send_mail(rec.id, force_send=False)
         rec.write({'active': False})
         rec.message_post(body="AUTOMATION: Auto-archived after unanswered Track 1 reminders.")
