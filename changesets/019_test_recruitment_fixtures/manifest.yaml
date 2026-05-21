@@ -1,0 +1,54 @@
+id: 019_test_recruitment_fixtures
+schema_version: 1
+description: |
+  Two server actions that create and reset deterministic
+  `hr.applicant` test fixtures (prefixed "TEST_FIXTURE_") in
+  non-production environments. Use these to validate the recruitment
+  pipeline end-to-end without polluting real applicant data.
+
+  Both SAs are bound to the hr.applicant Action menu (form + list)
+  so they're one click away in Recruitment.
+
+  Fixtures created (6 applicants, one per pipeline state we want
+  to exercise):
+   - Stage 1 + no attachment + fresh                → 005 resume gate path
+   - Stage 1 + no attachment + backdated 3d         → 009 SMS-flagging path
+   - Stage 2 + no completed info survey + fresh    → 006 info dispatch path
+   - Stage 2 + no completed info survey + backdated → 009 reminder cascade
+   - Stage 7 + 1 of 3 assessments done + backdated  → 010 partial-bundle path
+   - Stage 7 + 0 assessments done + backdated      → 010 full-bundle path
+
+  Each fixture gets a unique Mailinator inbox so emails can be
+  inspected without setting up real mailboxes:
+    bicc-fixture-<suffix>@mailinator.com
+
+  Production guard: the seed SA reads web.base.url and refuses if it
+  matches production (`bicc.odoo.com` with no dev/ph2 marker). The
+  reset SA is unguarded (keyed by the TEST_FIXTURE_ prefix — no risk
+  of touching real applicants).
+
+  Re-runnable: existing TEST_FIXTURE_* rows are reset to a clean
+  starting state rather than duplicated (idempotent).
+
+  Not seeded: pass/fail variants (scoring_success is a stored compute
+  driven by actual survey scoring — can't be set via API). Those
+  paths need a real browser walk-through.
+
+author: ai
+
+operations:
+  - type: create_server_action
+    xml_id: bicc_test.seed_recruitment_fixtures
+    name: "BICC TEST: Seed Recruitment Fixtures"
+    model: hr.applicant
+    code_file: seed_recruitment_fixtures.py
+    binding_model: hr.applicant
+    binding_view_types: "form,list"
+
+  - type: create_server_action
+    xml_id: bicc_test.reset_recruitment_fixtures
+    name: "BICC TEST: Reset Recruitment Fixtures"
+    model: hr.applicant
+    code_file: reset_recruitment_fixtures.py
+    binding_model: hr.applicant
+    binding_view_types: "form,list"
