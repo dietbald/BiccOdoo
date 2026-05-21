@@ -1,0 +1,27 @@
+{
+  "applied_by": "ai",
+  "changeset": "019_test_recruitment_fixtures",
+  "description": "Two server actions that create and reset deterministic\n`hr.applicant` test fixtures (prefixed \"TEST_FIXTURE_\") in\nnon-production environments. Use these to validate the recruitment\npipeline end-to-end without polluting real applicant data.\n\nBoth SAs are bound to the hr.applicant Action menu (form + list)\nso they're one click away in Recruitment.\n\nFixtures created (6 applicants, one per pipeline state we want\nto exercise):\n - Stage 1 + no attachment + fresh                \u2192 005 resume gate path\n - Stage 1 + no attachment + backdated 3d         \u2192 009 SMS-flagging path\n - Stage 2 + no completed info survey + fresh    \u2192 006 info dispatch path\n - Stage 2 + no completed info survey + backdated \u2192 009 reminder cascade\n - Stage 7 + 1 of 3 assessments done + backdated  \u2192 010 partial-bundle path\n - Stage 7 + 0 assessments done + backdated      \u2192 010 full-bundle path\n\nEach fixture gets a unique Mailinator inbox so emails can be\ninspected without setting up real mailboxes:\n  bicc-fixture-<suffix>@mailinator.com\n\nProduction guard: the seed SA reads web.base.url and refuses if it\nmatches production (`bicc.odoo.com` with no dev/ph2 marker). The\nreset SA is unguarded (keyed by the TEST_FIXTURE_ prefix \u2014 no risk\nof touching real applicants).\n\nRe-runnable: existing TEST_FIXTURE_* rows are reset to a clean\nstarting state rather than duplicated (idempotent).\n\nNot seeded: pass/fail variants (scoring_success is a stored compute\ndriven by actual survey scoring \u2014 can't be set via API). Those\npaths need a real browser walk-through.\n",
+  "environment": "dev",
+  "finished_at": "2026-05-21T02:47:31Z",
+  "git_commit_sha": "dd4d9d41af32eb7a2f62e5f8c84af8d0511652e9",
+  "manifest_sha256": "002d22475870c3c7c77e3b488d2592dea3e6bf3a650348d22a5121423ca88c1d",
+  "operations": [
+    {
+      "op_index": 0,
+      "status": "created",
+      "target": "ir.actions.server:1821",
+      "type": "create_server_action",
+      "xml_id": "bicc_test.seed_recruitment_fixtures"
+    },
+    {
+      "op_index": 1,
+      "status": "created",
+      "target": "ir.actions.server:1822",
+      "type": "create_server_action",
+      "xml_id": "bicc_test.reset_recruitment_fixtures"
+    }
+  ],
+  "started_at": "2026-05-21T02:47:18Z",
+  "status": "deployed"
+}
